@@ -22,3 +22,4 @@ Buying Groups → Solution interest tab → Create solution interest button.
 Name (required and unique), Description (optional), Roles template - Required and displays list of Live roles template. Can associate only 1 Live roles template.
 Actions - Create, Cancel.
 Edit and delete actions NOT available for Beta.
+
