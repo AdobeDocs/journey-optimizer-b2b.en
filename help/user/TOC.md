@@ -9,19 +9,19 @@ user-guide-description: This is a description for the user guide that will be di
 + [Adobe Journey Optimizer B2B Edition User Guide](guide-overview.md)
 + [Login and home page](home-page.md)
 + Account Journeys {#account-journeys}
-    + [Journeys overview](journey-overview.md)
-    + [Account Journey nodes](journey-nodes.md)
+    + [Journeys overview](./journeys/journey-overview.md)
+    + [Account Journey nodes](./journeys/journey-nodes.md)
 + Buying Groups {#buying-groups}
     + [Overview](./buying-groups/buying-groups-overview.md)
     + [Solution Interests](./buying-groups/solution-interests.md)
-    + [Role Templates](./buying-groups/buying-groups-role-templates.md)
-    + Create Buying Groups
+    + [Role templates](./buying-groups/buying-groups-role-templates.md)
+    + [Create Buying Groups](./buying-groups/buying-groups-create.md)
 + Content Management {#content}
-    + [Email Authoring](./content/email-authoring.md)
-    + [SMS Authoring](./content/sms-authoring.md)
+    + [Email authoring](./content/email-authoring.md)
+    + [SMS authoring](./content/sms-authoring.md)
 + Insights Dashboards {#dashboards}
-    + [Buying Groups](./dashboards/insights-dashboards.md)
+    + [Buying Groups](./dashboards/buying-groups-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
     + [Journey Overview](./dashboards/journeys-dashboard.md)
 + Integrations {#integrations}
-    + Adobe Exprience Manager Assets
+    + [Adobe Exprience Manager Assets](./integrations/experience-manager-assets-integration.md)
