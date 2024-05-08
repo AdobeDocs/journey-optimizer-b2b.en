@@ -17,7 +17,7 @@ Actions - Next, Cancel.
 Page 2
 Select solution interest from an existing list. Selecting it would pre-populated Roles template that was mapped to the solution interest.
 Select account audience from an existing list.
-Name - auto formed and read only as <Solution interest> for <account name>.
+Name - auto formed and read only as < Solution interest > for < account name >.
 Actions - Create, Cancel.
 Create buying groups informational modal
 Clicking on Create action will display a information modal to the user with details on process that will take place next and create buying groups.

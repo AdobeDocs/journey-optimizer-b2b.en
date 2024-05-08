@@ -18,7 +18,7 @@ Login
 
 The home page is displayed when you log in to the Adobe Experience Platform and select the Adobe Journey Optimizer B2B Edition app. This page provides an overview of the current state of the Journey Optimizer B2B initiatives in the form of refined insights and quick access to the relevant modules. It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation.
 
-The Journey Optimizer B2B Edition has two user personas: a marketer and an administrator. Each of these personas has a specific home page for different maturity stages (new or advanced) based on what each persona needs in terms of information and the next actions to be taken. All of the home pages also include access to the AI Assistant that helps users to get quick information about any specific questions or topics that they need, and to obtain specific recommendations for their challenges or objectives.
+The Journey Optimizer B2B Edition has two user personas: a marketer and an administrator. Each of these personas has a specific home page for different maturity stages (new or advanced) based on what each persona needs in terms of information and the next actions to be taken. All of the home pages also include access to the **AI Assistant** that helps users to get quick information about any specific questions or topics that they need, and to obtain specific recommendations for their challenges or objectives.
 
 ### Marketer - new user
 
