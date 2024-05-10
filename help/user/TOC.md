@@ -1,12 +1,12 @@
 ---
-user-guide-title: Journey Optimizer B2B Edition User Guide
-breadcrumb-title: Shorter title (if necessary) that appears only in the breadcrumb.
-user-guide-description: This is a description for the user guide that will be displayed on the landing page.
+user-guide-title: Journey Optimizer B2B Edition Documentation
+user-guide-description: This is a description that will be displayed on the landing page.
+badgeBeta: label="Beta" type="Informative" tooltip="Beta release documentation"
 ---
 
 # Journey Optimizer B2B Edition User Guide {#user}
 
-+ [Adobe Journey Optimizer B2B Edition User Guide](guide-overview.md)
++ [Adobe Journey Optimizer B2B Edition Documentation](guide-overview.md)
 + [Login and home page](home-page.md)
 + Account Journeys {#account-journeys}
     + [Journeys overview](./journeys/journey-overview.md)
