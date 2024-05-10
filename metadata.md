@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-solution: Journey Optimizer
+solution: Journey Optimizer B2B Edition
 product: journey optimizer
 type: Documentation
 mini-toc-levels: 2
