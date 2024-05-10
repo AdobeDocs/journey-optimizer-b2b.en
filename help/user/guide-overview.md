@@ -51,11 +51,11 @@ Discover the many features included in our Adobe Journey Optimizer B2B Edition B
     <div><strong>Launch from your home page</strong><br/>Learn how to achieve your goals faster in Journey Optimizer B2B Edition with your personalized home page based on your role.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md.md"><img width="100px" src="assets/icon-groups.svg"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="100px" src="assets/icon-groups.svg"></a>
     <div><strong>Build your first Buying Group</strong><br/>Create your  first Buying Group in Journey Optimizer B2B Edition to automate the process of engaging and qualifying contacts.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md.md"><img width="100px" src="assets/icon-journey.svg"></a>
+    <a href="journeys/journey-overview.md"><img width="100px" src="assets/icon-journey.svg"></a>
     <div><strong>Create your first Account Journey</strong><br/>Design and orchestrate personalized account journeys to harmonize marketing outreach with targeted engagement. 
     </div>
     </td>
@@ -63,7 +63,7 @@ Discover the many features included in our Adobe Journey Optimizer B2B Edition B
   <tr style="border: 0;">
     <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg"></a></td>
     <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg"></a></td>
-    <td align="center"><a href="journeys/journey-overview.md.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
     </tr>
 </table>
 
