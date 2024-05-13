@@ -1,6 +1,7 @@
 ---
 title: Buying Groups
 description: Learn about...
+feature: Buying Groups
 ---
 
 # Buying Groups
@@ -35,11 +36,11 @@ Before you and your Marketing team start creating your buying groups, make sure 
    
    **_Example:_** Decision Maker role is missing and the completeness score is < 50
 
-1. Complete the Buying Groups
+1. Complete the Buying Groups definitions.
 
-   Acquire missing people
+   * Acquire missing people
    * Send to LinkedIn Destination
    * Enrich with Zoominfo
 
-1. Add to Account Journeys
+1. Add to Account Journeys.
 

@@ -1,17 +1,21 @@
 ---
 title: Create Buying Groups
 description: Learn about...
+feature: Buying Groups
 ---
 
 # Create Buying Groups
 
-When the buying group is created, it can be used in a Journey via the solution interest.
+When the buying group is created, it is available for use in an Account Journey through the Solution Interest.
+
 Member of buying group.
 Assign member of buying group.
 Remove member of buying group.
 
 Create buying groups
+
 Buying Groups → Browse tab → Create buying groups button.
+
 Page 1 - guidance on how to create buying groups, what are the key components needed and links to those components.
 Actions - Next, Cancel.
 Page 2

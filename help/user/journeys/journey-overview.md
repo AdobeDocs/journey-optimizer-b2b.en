@@ -9,11 +9,11 @@ description: Learn about...
 
 
 
-Access Account Journeys
+## Access and browse Account Journeys
 
-1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition
+1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
 
-1. On the left navigation, click on Account Journeys.
+1. On the left navigation, click **[!UICONTROL Account Journeys]**.
 
    The displayed journeys page includes the following columns:
 

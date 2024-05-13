@@ -19,13 +19,13 @@ You can set up email deliveries in an Account Journey when you add a new _[!UICO
    >
    >If this is your first time creating an email, make sure that the email channel is configured from within Adobe Marketo Engage. To learn more, see < need link page >.
 
-   ![Take an action - send an email](assets/journey-node-send-email.png){width="800" zoomable="yes"}
+   ![Take an action - send an email](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
 1. At the bottom of the _[!UICONTROL Take an action]_ panel, click **[!UICONTROL Create email]**.
 
 1. In the _[!UICONTROL Create new email]_ dialog, enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
 
-   ![Create new email dialog](assets/create-new-email.png){width="500"}
+   ![Create new email dialog](assets/create-new-email.png){width="400"}
 
 1. Click **[!UICONTROL Create]**.
 
