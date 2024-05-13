@@ -1,7 +1,7 @@
 ---
 title: Engagement Overview dashboard
 description: Learn about how you can use the Engagement Overview dashboard to monitor your engagement efforts.
-feature: Dasboards, Engagement
+feature: Dashboards, Engagement
 ---
 
 # Engagement Overview dashboard
