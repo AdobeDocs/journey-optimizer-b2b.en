@@ -1,6 +1,7 @@
 ---
 title: Journey Overview dashboard
-description: Learn about...
+description: Learn about the information provided by the Journey Overview dashboard and how it can help you monitor and manage your Account Journey strategy.
+feature: Dashboards, Account Journeys
 ---
 
 # Journey Overview dashboard
@@ -9,7 +10,7 @@ This dashboard provides a comprehensive view of engagement and showcases real-ti
 
 ## Journey Status
 
-This donut chart offers a breakdown of journey statuses, categorizing accounts into 'Completed,' 'In Progress,' and 'Aborted.' Each segment is clearly labeled with corresponding percentages and account numbers on the outer edge of the chart.
+This donut chart offers a breakdown of journey statuses, categorizing accounts into `Completed`, `In Progress`, and `Aborted`. Each segment is clearly labeled with corresponding percentages and account numbers on the outer edge of the chart.
 
 ## Journey Completion Over Time
 
@@ -19,14 +20,14 @@ This line chart tracks the number of accounts that have completed their journey 
 
 This section presents two vital metrics:
 
-* Journey Completion Rate - The percentage of accounts that have successfully completed their journey.
-* Journey Duration - The average length of time taken for accounts to complete their journey.
+* **[!UICONTROL Journey Completion Rate]** - The percentage of accounts that have successfully completed their journey.
+* **[!UICONTROL Journey Duration]** - The average length of time taken for accounts to complete their journey.
 
 ## Email and SMS Performance tables
 
 The tables provide a detailed look at the effectiveness of Email and SMS channels. Each table showcases metrics, such as delivery rates and click-through rates, to assess the impact of each communication touchpoint.
 
-Email Performance table columns:
+**[!UICONTROL Email Performance]** table columns:
 
 * [!UICONTROL Asset Name]
 * [!UICONTROL Name of the Asset]
@@ -39,7 +40,7 @@ Email Performance table columns:
 * [!UICONTROL Click-Through Rate] 
 * [!UICONTROL # clicked / # delivered]
 
-SMS Performance table columns:
+**[!UICONTROL SMS Performance]** table columns:
 
 * [!UICONTROL Asset Name]
 * [!UICONTROL Name of the Asset]
