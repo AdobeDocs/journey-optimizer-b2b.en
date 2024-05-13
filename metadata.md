@@ -4,6 +4,7 @@ solution: Journey Optimizer B2B Edition
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/journey-optimizer-b2b.en
+feature-set: Journey Optimizer B2B Edition
 hide: yes
 ---
 
