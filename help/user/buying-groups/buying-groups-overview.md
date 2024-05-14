@@ -23,14 +23,14 @@ Before you and your Marketing team start creating your buying groups, make sure 
 
 ## Buying Group workflow
 
-1. Create Buying Groups
+1. Create Buying Groups.
 
    Options:
    * Use Solution Interest and template
    * Use Third-party import
    * Generate from AI/ML
 
-1. Identify missing people
+1. Identify missing people.
 
    Analyze the buying group using filters
    

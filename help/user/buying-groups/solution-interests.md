@@ -1,6 +1,6 @@
 ---
 title: Solution Interests
-description: Learn about...
+description: Learn about Solution Interests and how you can define them for use within your Buying Groups.
 feature: Buying Groups, Account Journeys
 ---
 

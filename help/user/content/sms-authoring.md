@@ -1,6 +1,7 @@
 ---
 title: SMS authoring
 description: Learn about...
+feature: SMS Authoring, Content
 ---
 
 # SMS authoring

@@ -6,7 +6,7 @@ feature: Buying Groups
 
 # Create Buying Groups
 
-When the buying group is created, it is available for use in an Account Journey through the Solution Interest.
+When the buying group is created, it is available for use in an Account Journey through the [Solution Interest](./solution-interests.md).
 
 Member of buying group.
 Assign member of buying group.
@@ -26,5 +26,6 @@ Actions - Create, Cancel.
 Create buying groups informational modal
 Clicking on Create action will display a information modal to the user with details on process that will take place next and create buying groups.
 Actions - Create, Cancel. 
-Clicking on Create will navigate user to the Solution interest tab display the count of jobs created for the solution interest.
+Click Create.
+ will navigate user to the Solution interest tab and display the count of jobs created for the solution interest.
 

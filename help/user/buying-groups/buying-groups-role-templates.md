@@ -74,7 +74,7 @@ feature: Buying Groups
 
 < PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
 
-<! -- Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
+<!-- Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Edit the rules for a draft roles template
 
