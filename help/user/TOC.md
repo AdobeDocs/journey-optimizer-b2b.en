@@ -12,14 +12,14 @@ badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA"
 + Account Journeys {#account-journeys}
     + [Journeys overview](./journeys/journey-overview.md)
     + [Account Journey nodes](./journeys/journey-nodes.md)
++ Journey content {#journey-content}
+    + [Email authoring](./content/email-authoring.md)
+    + [SMS authoring](./content/sms-authoring.md)
 + Buying Groups {#buying-groups}
     + [Overview](./buying-groups/buying-groups-overview.md)
     + [Solution Interests](./buying-groups/solution-interests.md)
     + [Role templates](./buying-groups/buying-groups-role-templates.md)
     + [Create Buying Groups](./buying-groups/buying-groups-create.md)
-+ Content Management {#content}
-    + [Email authoring](./content/email-authoring.md)
-    + [SMS authoring](./content/sms-authoring.md)
 + Insights Dashboards {#dashboards}
     + [Buying Groups](./dashboards/buying-groups-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
