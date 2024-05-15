@@ -2,6 +2,7 @@
 user-guide-title: Journey Optimizer B2B Edition Documentation
 user-guide-description: This is a description that will be displayed on the landing page.
 badgeBeta: label="Beta" type="Informative" tooltip="Beta release documentation"
+badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA"
 ---
 
 # Journey Optimizer B2B Edition User Guide {#user}

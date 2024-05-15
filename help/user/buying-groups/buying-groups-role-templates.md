@@ -42,7 +42,7 @@ feature: Buying Groups
 
    For the Beta release, there are six roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`.
 
-   ![Roles Templates filtering by search string](assets/roles-templates-search.png){width="700" zoomable="yes"}
+   ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
     * Choose a role from the list.
     * Click **[!UICONTROL Add Condition]**.
@@ -77,7 +77,6 @@ feature: Buying Groups
 <!-- Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Edit the rules for a draft roles template
-
 
 Edit rules for each role.
 
