@@ -2,8 +2,8 @@
 title: Buying Groups
 description: Learn about...
 feature: Buying Groups
+exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 ---
-
 # Buying Groups
 
 <!--  < PM - What is a buying group and why should I be interested?  What can I accomplish if I continue to read and learn about this fetaure?  (This should be high-level and not Marketing copy) > -->
@@ -43,4 +43,3 @@ Before you and your Marketing team start creating your buying groups, make sure 
    * Enrich with Zoominfo
 
 1. Add to Account Journeys.
-

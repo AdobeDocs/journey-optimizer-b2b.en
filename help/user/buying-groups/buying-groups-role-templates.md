@@ -2,8 +2,8 @@
 title: Buying Group role templates
 description: Learn about...
 feature: Buying Groups
+exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 ---
-
 # Buying Group role templates
 
 < high-level overview -- What are role templates used for? Are there any things that I should have in place before creating a role template? >

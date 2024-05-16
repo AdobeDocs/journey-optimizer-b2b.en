@@ -2,8 +2,8 @@
 title: Solution Interests
 description: Learn about Solution Interests and how you can define them for use within your Buying Groups.
 feature: Buying Groups, Account Journeys
+exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
 ---
-
 # Solution Interests
 
 Before you create Buying Groups, you should know what you are selling and who you want to target. Your Marketing and Sales strategy should be aligned so that you can add the Solution Interest for the Buying Groups.
@@ -43,5 +43,3 @@ Before you create a Solution Interest, you must have a live (published) roles te
 >[!NOTE]
 >
 >Solution Interest edit and delete actions are NOT available for Beta.
-
-

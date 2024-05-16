@@ -1,8 +1,8 @@
 ---
 title: Account Journeys
 description: Learn about...
+exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 ---
-
 # Account Journeys
 
 < PM - What is an account journey and why should I be interested?  How does it relate to the other product components? What can I accomplish if I continue to read and learn about this fetaure? >
@@ -247,4 +247,3 @@ Switching between account and people: You cannot change selection from accounts 
 3. The end date of a journey can be a maximum of 3 years from start date, this field is mandatory
 4. When you are ready to publish your journey, you can review these settings when you click on the publish button 
 5. When a journey is published i.e live, you can update the end date of the journey but not the start date
-

@@ -2,8 +2,8 @@
 title: Buying Groups Overview dashboard
 description: Learn about the Buying Groups Overview dashboard and how it enables the Sales Handoff from the Marketing team.
 feature: Dashboards, Buying Groups
+exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
 ---
-
 # Buying Groups Overview dashboard
 
 The Buying Group Overview dashboard is designed for the B2B Sales Handoff process. It enables the Marketing team to share _ready_ buying groups and their members along with essential data to the Sales team for execution. This process ensures a streamlined transition from marketing to sales.
@@ -69,5 +69,4 @@ You can also filter the display using any of these attributes:
 
 ### [!UICONTROL View more]
 
-Choose **[!UICONTROL View more]** for extended data and insights. The displayed pop-up includes a chart and a table that show the breakdown of the buying group statuses and includes a _[!UICONTROL Download CSV]_ button on the top-right corner of the table. 
-
+Choose **[!UICONTROL View more]** for extended data and insights. The displayed pop-up includes a chart and a table that show the breakdown of the buying group statuses and includes a _[!UICONTROL Download CSV]_ button on the top-right corner of the table.

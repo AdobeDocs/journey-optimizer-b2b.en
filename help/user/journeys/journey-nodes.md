@@ -1,8 +1,8 @@
 ---
 title: Account Journey nodes
 description: Learn about...
+exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
 ---
-
 # Account Journey nodes
 
 | Node types | Details |
@@ -38,4 +38,3 @@ description: Learn about...
 | Split by accounts | Change in Account Data Value (such as filter on activity history) |
 | Wait | Available on account level |
 | Merge | |
-

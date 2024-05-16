@@ -1,8 +1,8 @@
 ---
 title: Adobe Journey Optimizer B2B Edition Documentation
 description: This is the guide overview.
+exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
-
 # Adobe Journey Optimizer B2B Edition Documentation
 
 Use Adobe Journey Optimizer B2B Edition to....
@@ -117,4 +117,3 @@ Discover the many features included in our Adobe Journey Optimizer B2B Edition B
 <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Documentation</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Developers resources</a>
 </td>
 </tr></table> -->
-

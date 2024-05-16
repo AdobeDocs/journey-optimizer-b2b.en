@@ -1,8 +1,8 @@
 ---
 title: Adobe Journey Optimizer B2B Edition
 description: This is the product login and home page information.
+exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 ---
-
 # Adobe Journey Optimizer B2B Edition
 
 Welcome to the Adobe Journey Optimizer B2B Edition

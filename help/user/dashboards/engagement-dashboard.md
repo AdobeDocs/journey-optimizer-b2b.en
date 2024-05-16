@@ -2,8 +2,8 @@
 title: Engagement Overview dashboard
 description: Learn about how you can use the Engagement Overview dashboard to monitor your engagement efforts.
 feature: Dashboards, Engagement
+exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
 ---
-
 # Engagement Overview dashboard
 
 This dashboard provides a comprehensive view of engagement and showcases real-time metrics of account and individual interactions through snapshot donut charts and trend-revealing line charts over time. It helps you monitor and strategize your engagement efforts effectively.
@@ -71,5 +71,3 @@ You can also filter the display using any of these attributes:
 * Account's Region
 * Account Industry
 * Account's Industry
-
-
