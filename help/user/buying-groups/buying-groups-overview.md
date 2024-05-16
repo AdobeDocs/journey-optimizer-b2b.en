@@ -6,7 +6,7 @@ feature: Buying Groups
 
 # Buying Groups
 
-< PM - What is a buying group and why should I be interested?  What can I accomplish if I continue to read and learn about this fetaure?  (This should be high-level and not Marketing copy) >
+<!--  < PM - What is a buying group and why should I be interested?  What can I accomplish if I continue to read and learn about this fetaure?  (This should be high-level and not Marketing copy) > -->
 
 ![Buying Group Browse page](assets/buying-groups-browse.png)
 
