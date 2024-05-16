@@ -1,11 +1,12 @@
 ---
 title: Buying Groups
 description: Learn about...
+feature: Buying Groups
 ---
 
 # Buying Groups
 
-< PM - What is a buying group and why should I be interested?  What can I accomplish if I continue to read and learn about this fetaure?  (This should be high-level and not Marketing copy) >
+<!--  < PM - What is a buying group and why should I be interested?  What can I accomplish if I continue to read and learn about this fetaure?  (This should be high-level and not Marketing copy) > -->
 
 ![Buying Group Browse page](assets/buying-groups-browse.png)
 
@@ -22,24 +23,24 @@ Before you and your Marketing team start creating your buying groups, make sure 
 
 ## Buying Group workflow
 
-1. Create Buying Groups
+1. Create Buying Groups.
 
    Options:
    * Use Solution Interest and template
    * Use Third-party import
    * Generate from AI/ML
 
-1. Identify missing people
+1. Identify missing people.
 
    Analyze the buying group using filters
    
    **_Example:_** Decision Maker role is missing and the completeness score is < 50
 
-1. Complete the Buying Groups
+1. Complete the Buying Groups definitions.
 
-   Acquire missing people
+   * Acquire missing people
    * Send to LinkedIn Destination
    * Enrich with Zoominfo
 
-1. Add to Account Journeys
+1. Add to Account Journeys.
 

@@ -1,6 +1,7 @@
 ---
 title: Buying Groups Overview dashboard
-description: Learn about...
+description: Learn about the Buying Groups Overview dashboard and how it enables the Sales Handoff from the Marketing team.
+feature: Dashboards, Buying Groups
 ---
 
 # Buying Groups Overview dashboard
@@ -9,8 +10,8 @@ The Buying Group Overview dashboard is designed for the B2B Sales Handoff proces
 
 The Sales Handoff comprises:
 
-Data Handoff: Marketing identifies _ready_ target data and makes it accessible to Sales in the CSV format. 
-Sales Acceptance: Sales manually reviews and incorporates _ready_ targets into their pipeline.
+* **Data Handoff**: Marketing identifies _ready_ target data and makes it accessible to Sales in the CSV format. 
+* **Sales Acceptance**: Sales manually reviews and incorporates _ready_ targets into their pipeline.
 
 ## Buying Group Status
 
@@ -18,8 +19,8 @@ Gain insights into your buying groups' progression with the Buying Group Status 
 
 ![Buying Group Status](assets/buying-group-status.png)
 
-Status (y-axis): Track the journey of buying groups through various stages.
-Number of Buying Groups X-Axis (: Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
+**[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
+**[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
 
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. 
 
@@ -31,7 +32,7 @@ The global filters applied to the dashboard are carried over and cannot be chang
 The applied filters are displayed. 
 The only available filter that is enabled is _Account Name_.
 
-Click **[!UICONTROL View more]** at the top-right corner to open a pop-up with an available column list:
+To display or hide available columns, click **[!UICONTROL View more]** at the top-right corner:
 
 * [!UICONTROL Account ID ]
 * [!UICONTROL Account Name]
@@ -51,21 +52,20 @@ Click **[!UICONTROL View more]** at the top-right corner to open a pop-up with a
 * [!UICONTROL Number of Inbound Engagement Activities]
 * [!UICONTROL Last engagement date]
 
-Global filter
+### Filter
 
-Date filter:
+Global filter: **[!UICONTROL Date filter]**, which reflects the Buying Group last status change date. The start date is adjustable. The end date defaults to the current day.
 
-Buying Group last status change date.
-The start date is adjustable. The end date defaults to the current day.
+You can also filter the display using any of these attributes:
 
-Solution Interest
-List of Solution Interests
-Status
-Buying Group Statuses
-Account Region
-Account's Region
-Account Industry
-Account's Industry
+* Solution Interest
+* List of Solution Interests
+* Status
+* Buying Group Statuses
+* Account Region
+* Account's Region
+* Account Industry
+* Account's Industry
 
 ### [!UICONTROL View more]
 
