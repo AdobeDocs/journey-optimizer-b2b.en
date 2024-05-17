@@ -33,7 +33,7 @@ The first page provides guidance about the prerequisites/components needed for c
 
    Under _[!UICONTROL Properties]_, the name for the buying groups is automatically generated (read only) as < Solution interest name > for < account name >.
 
-   ![Click Create buying groups](./assets/buying-groups-create.png){width="700" zoomable="yes"}
+   ![Click Create buying groups](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
 1. After you select the Solution interest and the accounct audience, click **[!UICONTROL Create]**.
 
@@ -41,29 +41,12 @@ The first page provides guidance about the prerequisites/components needed for c
 
 The confirmation dialog provides a summary of the buying groups process and an estimated time for completion. To confirm and launch the process, click **[!UICONTROL Create]**.
 
+![Create buying groups coonfirmation dialog](./assets/buying-groups-create-confirm.png){width="400"}
 
-Navigate user to the Solution interest tab and display the count of jobs created for the solution interest.
+You can navigate user to the Solution interest tab and display the count of jobs created for the solution interest.
 
 Other buying group activities:
 
 Member of buying group.
 Assign member of buying group.
-
 Remove member of buying group.
-
-Create buying groups
-
-Buying Groups → Browse tab → Create buying groups button.
-
-Page 1 - guidance on how to create buying groups, what are the key components needed and links to those components.
-Actions - Next, Cancel.
-Page 2
-Select solution interest from an existing list. Selecting it would pre-populated Roles template that was mapped to the solution interest.
-Select account audience from an existing list.
-Name - auto formed and read only as < Solution interest > for < account name >.
-Actions - Create, Cancel.
-Create buying groups informational modal
-Clicking on Create action will display a information modal to the user with details on process that will take place next and create buying groups.
-Actions - Create, Cancel. 
-Click Create.
- will navigate user to the Solution interest tab and display the count of jobs created for the solution interest.
