@@ -5,9 +5,6 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
 
-Use Adobe Journey Optimizer B2B Edition to....
-
-
 ## What's new ?
 
 Here is a sampling of the latest enhancements in the Journey Optimizer B2B Edition product and documentation. 
@@ -24,17 +21,17 @@ Discover the many features included in our Adobe Journey Optimizer B2B Edition B
 
 [!BADGE Learn more]{type=Informative url="" tooltip="Journey Optimizer Beata Edition Beta release"}
 
->[!TAB Account Journeys]
+>[!TAB Buying Groups]
 
-< Add messaging text for the Account Journeys Beta features >
+< Add messaging text for the Buying Groups Beta features>
 
 < Learn more badge with link >
 
 [!BADGE Learn more]{type=Informative url="" tooltip="Learn about Account Journeys"}
 
->[!TAB Buying Groups]
+>[!TAB Account Journeys]
 
-< Add messaging text for the Buying Groups Beta features>
+< Add messaging text for the Account Journeys Beta features >
 
 < Learn more badge with link >
 
@@ -47,15 +44,15 @@ Discover the many features included in our Adobe Journey Optimizer B2B Edition B
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="assets/icon-homepage.svg"></a>
+    <a href="home-page.md"><img width="120px" src="./assets/launch.png"></a>
     <div><strong>Launch from your home page</strong><br/>Learn how to achieve your goals faster in Journey Optimizer B2B Edition with your personalized home page based on your role.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="100px" src="assets/icon-groups.svg"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
     <div><strong>Build your first Buying Group</strong><br/>Create your  first Buying Group in Journey Optimizer B2B Edition to automate the process of engaging and qualifying contacts.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="100px" src="assets/icon-journey.svg"></a>
+    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
     <div><strong>Create your first Account Journey</strong><br/>Design and orchestrate personalized account journeys to harmonize marketing outreach with targeted engagement. 
     </div>
     </td>
@@ -69,40 +66,41 @@ Discover the many features included in our Adobe Journey Optimizer B2B Edition B
 
 ## Explore the documentation
 
-< High-level overview TBD >
-
-<!-- 
-
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Customer's experience</strong><br/><a href="using/building-journeys/journey.md">Journeys</a> - <a href="using/campaigns/get-started-with-campaigns.md">Campaigns</a> - <a href="using/landing-pages/get-started-lp.md">Landing pages</a> - <a href="using/reports/live-report.md">Reporting</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">Decision management</a>
+      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
+      <strong>Login and home page</strong><br/><a href="home-page.md#marketer---new-user">Marketer - new user</a><br/><a href="home-page.md#marketer---advanced-user">Marketer - advanced</a> <br/><a href="home-page.md#administrator---new-user">Administrator - new user</a> <br/><a href="home-page.md#administrator---advanced-user">Administrator - advanced</a>
     </td>
+    <!--
     <td>
-      <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
       <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
+    </td> -->
+    <td>
+      <img src="../assets/do-not-localize/icon_audience.svg" width="35px"><br/>
+      <strong>Buying groups</strong><br/><a href="./buying-groups/buying-groups-overview.md">Buying groups overview</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Role templates</a><br/><a href="./buying-groups/solution-interests.md">Solution interests</a><br/><a href="./buying-groups/buying-groups-create.md">Create buying groups</a>
     </td>
     <td>
-      <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Communication channels</strong><br/><a href="using/email/get-started-email.md">Email</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">In-app</a> - <a href="using/push/get-started-push.md">Push notifications</a> - <a href="using/direct-mail/get-started-direct-mail.md">Direct mail</a> - <a href="using/web/get-started-web.md">Web</a>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>Journey content</strong><br/><a href="./content/email-authoring.md">Email</a><br/><a href="./content/sms-authoring.md">SMS</a>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Content management</strong><br/><a href="using/content-management/assets.md">Assets/images</a> - <a href="using/personalization/personalize.md">Personalization</a> - <a href="using/content-management/content-templates.md">Reusable</a> & <a href="using/personalization/dynamic-content.md">dynamic</a> content - <a href="using/content-management/preview-test.md">Test & preview content</a>
+        <td>
+      <img src="../assets/do-not-localize/icon-journey.svg" width="35px"><br/>
+      <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a>
     </td>
     <td>
-      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>Profiles & audiences</strong><br/><a href="using/audience/about-audiences.md">Audiences</a> - <a href="using/audience/get-started-profiles.md">Profiles</a> - <a href="using/audience/get-started-identity.md">Identities</a> - <a href="using/audience/license-usage.md">License usage</a> - <a href="using/privacy/get-started-privacy.md">Privacy management</a>
+      <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
+      <strong>Insights</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a>
     </td>
     <td>
-      <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
-      <strong>Data management</strong><br/><a href="using/data/get-started-schemas.md">Schemas</a> - <a href="using/data/get-started-datasets.md">Datasets</a> - <a href="using/data/get-started-queries.md">Queries</a>
+      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
+      <strong>Integrations</strong><br/><a href="./integrations/experience-manager-assets-integration.md">Adobe Experience Manager Assets</a>
     </td>
   </tr>
-</table> -->
+</table>
 
 <!-- 
 
