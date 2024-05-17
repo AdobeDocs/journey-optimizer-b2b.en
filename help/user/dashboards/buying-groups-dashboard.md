@@ -13,7 +13,7 @@ The Sales Handoff comprises:
 * **Data Handoff**: Marketing identifies _ready_ target data and makes it accessible to Sales in the CSV format. 
 * **Sales Acceptance**: Sales manually reviews and incorporates _ready_ targets into their pipeline.
 
-![Buying Groups overview](./assets/buying-groups-overview.png.png){width="800" zoomable="yes"}
+![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 
 ## Buying Group Status
 
