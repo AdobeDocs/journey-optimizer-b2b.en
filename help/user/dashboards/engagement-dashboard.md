@@ -71,5 +71,3 @@ You can also filter the display using any of these attributes:
 * Account's Region
 * Account Industry
 * Account's Industry
-
-

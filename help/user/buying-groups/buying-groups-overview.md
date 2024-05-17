@@ -1,15 +1,14 @@
 ---
-title: Buying Groups
+title: Buying groups
 description: Learn about...
 feature: Buying Groups
 ---
 
-# Buying Groups
+# Buying groups
 
-<!--  < PM - What is a buying group and why should I be interested?  What can I accomplish if I continue to read and learn about this fetaure?  (This should be high-level and not Marketing copy) > -->
+Increase Marketing effectiveness by establishing buying groups that identify missing members for your target accounts lists based on the solutions that your Sales teams are responsible for selling. 
 
-![Buying Group Browse page](assets/buying-groups-browse.png)
-
+![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
 ## Key components
 

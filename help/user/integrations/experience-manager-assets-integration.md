@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Manager Assets integration
-description: Learn about...
+description: Learn about the Adobe Experience Manager Assets integration for Adobe Journey Optimizer B2B Edition that you can use to extend your creative system and unify digital assets for experience delivery.
 ---
 
 # Adobe Experience Manager Assets integration
@@ -23,7 +23,7 @@ Currently, you can only use images from Adobe Experience Manager Assets in Adobe
 
 ## Using the Marketo Engage DAM bundled repository within Journey Optimizer B2B Edition
 
-If you are provisioned with Marketo Engage Account and Adobe Experience Manager as a Cloud Services, you have access to the repositories for both Marketo Engage DAM and Adobe Experience Manager Assets as a Cloud Service if your user account has the required permissions. These repositories are separate and not in sync. You can only use one of them at a time, and it requires an administrator to switch from the Marketo Engage DAM to Adobe Experience Manager Assets as a Cloud Service. The _[!UICONTROL Assets]_ item in the left navigation displays the repository that is currently set.
+If you are provisioned with a Marketo Engage account and Adobe Experience Manager as a Cloud Services, you have access to the repositories for both Marketo Engage DAM and Adobe Experience Manager Assets as a Cloud Service when your user account has the required permissions. These repositories are separate and not in sync. You can only use one of them at a time, and it requires an administrator to switch from the Marketo Engage DAM to Adobe Experience Manager Assets as a Cloud Service. The _[!UICONTROL Assets]_ item in the left navigation displays the repository that is currently set.
 
 ## Asset management
 

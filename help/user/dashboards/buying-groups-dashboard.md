@@ -13,11 +13,11 @@ The Sales Handoff comprises:
 * **Data Handoff**: Marketing identifies _ready_ target data and makes it accessible to Sales in the CSV format. 
 * **Sales Acceptance**: Sales manually reviews and incorporates _ready_ targets into their pipeline.
 
+![Buying Groups overview](./assets/buying-groups-overview.png.png){width="800" zoomable="yes"}
+
 ## Buying Group Status
 
-Gain insights into your buying groups' progression with the Buying Group Status dashboard. This visualization showcases the distribution of your buying groups categorized by their most recent status update within a specified time frame.
-
-![Buying Group Status](assets/buying-group-status.png)
+Gain insights into your buying groups' progression with the Buying Group Status view. This visualization showcases the distribution of your buying groups categorized by their most recent status update within a specified time frame.
 
 **[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
 **[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.

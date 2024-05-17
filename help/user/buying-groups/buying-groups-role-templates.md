@@ -12,7 +12,7 @@ feature: Buying Groups
 
 1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
 
-1. On the left navigation, click **[!UICONTROL Buying Groups]**.
+1. On the left navigation, click **[!UICONTROL Buying groups]**.
 
 1. In the Buying Groups page, select the **[!UICONTROL Roles Templates]** tab.
 

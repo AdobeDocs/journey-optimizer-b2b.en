@@ -56,8 +56,6 @@ After you create and personalize the email content, you can export the content f
 
 1. From the Designer home page, select the **[!UICONTROL Design from scratch]** option.
 
-   
-
 1. To start your content design, drag an item from the **[!UICONTROL Structures]** and drop it onto the canvas.
 
    Repeat this step for each structure component to construct the layout of your email.

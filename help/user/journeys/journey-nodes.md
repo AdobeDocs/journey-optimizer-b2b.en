@@ -1,6 +1,6 @@
 ---
 title: Account Journey nodes
-description: Learn about...
+description: Learn about the node types that you can use to construct your account journeys.
 ---
 
 # Account Journey nodes
