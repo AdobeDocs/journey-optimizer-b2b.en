@@ -5,9 +5,6 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
 
-Use Adobe Journey Optimizer B2B Edition to....
-
-
 ## What's new ?
 
 Here is a sampling of the latest enhancements in the Journey Optimizer B2B Edition product and documentation. 
@@ -47,15 +44,15 @@ Discover the many features included in our Adobe Journey Optimizer B2B Edition B
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="assets/icon-homepage.svg"></a>
+    <a href="home-page.md"><img width="120px" src="./assets/launch.png"></a>
     <div><strong>Launch from your home page</strong><br/>Learn how to achieve your goals faster in Journey Optimizer B2B Edition with your personalized home page based on your role.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="100px" src="assets/icon-groups.svg"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
     <div><strong>Build your first Buying Group</strong><br/>Create your  first Buying Group in Journey Optimizer B2B Edition to automate the process of engaging and qualifying contacts.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="100px" src="assets/icon-journey.svg"></a>
+    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
     <div><strong>Create your first Account Journey</strong><br/>Design and orchestrate personalized account journeys to harmonize marketing outreach with targeted engagement. 
     </div>
     </td>
