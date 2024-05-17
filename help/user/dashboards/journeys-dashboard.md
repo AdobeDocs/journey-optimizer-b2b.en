@@ -29,33 +29,34 @@ The tables provide a detailed look at the effectiveness of Email and SMS channel
 
 **[!UICONTROL Email Performance]** table columns:
 
-* [!UICONTROL Asset Name]
-* [!UICONTROL Name of the Asset]
-* [!UICONTROL Sent]
-* [!UICONTROL # of emails sent]
-* [!UICONTROL Delivery Rate]
-* [!UICONTROL # delivered / # sent]
-* [!UICONTROL Open Rate]
-* [!UICONTROL # opened / # delivered]
-* [!UICONTROL Click-Through Rate] 
-* [!UICONTROL # clicked / # delivered]
+* `Asset Name`
+* `Name of the Asset`
+* `Sent`
+* `# of emails sent`
+* `Delivery Rate`
+* `# delivered / # sent`
+* `Open Rate`
+* `# opened / # delivered`
+* `Click-Through Rate`
+* `# clicked / # delivered`
 
 **[!UICONTROL SMS Performance]** table columns:
 
-* [!UICONTROL Asset Name]
-* [!UICONTROL Name of the Asset]
-* [!UICONTROL Sent]
-* [!UICONTROL # of messages sent]
-* [!UICONTROL Delivery Rate]
-* [!UICONTROL # delivered / # sent]
-* [!UICONTROL Click-Through Rate]
-* [!UICONTROL # clicked / # delivered]
+* `Asset Name`
+* `Name of the Asset`
+* `Sent`
+* `# of messages sent`
+* `Delivery Rate`
+* `# delivered / # sent`
+* `Click-Through Rate`
+* `# clicked / # delivered`
 
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. 
 
 Enhanced Interaction:
 
 Engage further with the data by using the action button in the top-right corner. Select 'Drill through' for an in-depth analysis of individual group statuses or 'View more' for extended data and insights.
+
 View More:
 Pop-up appears with the chart and a data table of each widget.
 Download CSV button on the top-right corner of the table. 
@@ -63,11 +64,12 @@ Download CSV button on the top-right corner of the table. 
 Drill-Through:
 
 The applied global filters are carried over to the dashboard and cannot be changed on this page.
-The applied filters are displayed. 
+The applied filters are displayed.
 The only available filter that is enabled is _Account Name_.
+
 Click **[!UICONTROL View more]** to open the download dialog.
 
-Button on the top right corner to show a pop-up with an available column list:
+Click the button at the top-right corner to hide or display any of the available columns:
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Account ID]

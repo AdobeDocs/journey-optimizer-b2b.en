@@ -1,15 +1,15 @@
 ---
-title: Buying Groups
+title: Buying groups
 description: Learn about...
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 ---
-# Buying Groups
 
-<!--  < PM - What is a buying group and why should I be interested?  What can I accomplish if I continue to read and learn about this fetaure?  (This should be high-level and not Marketing copy) > -->
+# Buying groups
 
-![Buying Group Browse page](assets/buying-groups-browse.png)
+Increase Marketing effectiveness by establishing buying groups that identify missing members for your target accounts lists based on the solutions that your Sales teams are responsible for selling. 
 
+![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
 ## Key components
 
