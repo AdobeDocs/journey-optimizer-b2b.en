@@ -164,16 +164,16 @@ To help you build a journey without running into errors, the following guard rai
 ### Use split path by people node
 
 1. Start by navigating to a journey
-2. Click the plus icon on a path and add split path node
-3. In the property rail, select people radio button
-4. To define condition applicable to a path, click on apply condition 
-5. In the conditions modal, drag and drop filters from the left nav to add filters
-6. Fine tune your conditions by applying filter logic in the top nav of the modal
-7. Click done
-8. To add more paths, click add path and follow the steps listed above to add conditions applicable to this path
-9. You can also label each path based on these conditions or use pre-populated default labels
-10. Lastly, you can add a default path for people not qualified for the above paths. If not, Journey will end for these people
-11. Now that you have conditions defining each path that you're splitting your audience on people level, you can add actions that you want to take on people.
+1. Click the plus icon on a path and add split path node
+1. In the property rail, select people radio button
+1. To define condition applicable to a path, click on apply condition 
+1. In the conditions modal, drag and drop filters from the left nav to add filters
+1. Fine tune your conditions by applying filter logic in the top nav of the modal
+1. Click done
+1. To add more paths, click add path and follow the steps listed above to add conditions applicable to this path
+1. You can also label each path based on these conditions or use pre-populated default labels
+1. Lastly, you can add a default path for people not qualified for the above paths. If not, Journey will end for these people
+1. Now that you have conditions defining each path that you're splitting your audience on people level, you can add actions that you want to take on people.
 
 >[!NOTE]
 >
@@ -183,79 +183,79 @@ To help you build a journey without running into errors, the following guard rai
 ### Add people actions
 
 1. Start by navigating to a journey
-2. Click on the plus icon on the path and add select Take an action
-3. In the property rail, under "Action on", choose accounts radio button
-4. Select action from the drop down
+1. Click on the plus icon on the path and add select Take an action
+1. In the property rail, under "Action on", choose accounts radio button
+1. Select action from the drop down
 
 ### Add people events
 
 1. Start by navigating to a journey
-2. Click on the plus icon on the path and add select Listen from an event
-3. In the property rail, under "Event type", choose accounts radio button
-4. Select event from the drop down
-5. Click on edit event where you can define details for your event
+1. Click on the plus icon on the path and add select Listen from an event
+1. In the property rail, under "Event type", choose accounts radio button
+1. Select event from the drop down
+1. Click on edit event where you can define details for your event
 
 ### Add account actions
 
 1. Start by navigating to a journey
-2. Click on the plus icon on the path and add select Take an action
-3. In the property rail, under "Action on", choose accounts radio button
-4. Select action from the drop down
+1. Click on the plus icon on the path and add select Take an action
+1. In the property rail, under "Action on", choose accounts radio button
+1. Select action from the drop down
 
 ### Add account events
 
 1. Start by navigating to a journey
-2. Click on the plus icon on the path and add select Listen from an event
-3. In the property rail, under "Event type", choose accounts radio button
-4. Select event from the drop down
-5. Click on edit event where you can define details for your event
+1. Click on the plus icon on the path and add select Listen from an event
+1. In the property rail, under "Event type", choose accounts radio button
+1. Select event from the drop down
+1. Click on edit event where you can define details for your event
 
 ### Add timeout to people and account level events
 
 1. Start by navigating to a journey
-2. Click any listen for event node to open property rail
-3. Enable timeout toggle o define the amount of time the Journey will wait for this event. Journey will end after timeout.
-4. You can select the duration for which the journey will wait for an event to occur before it times out
-5. You can choose to end the path here or take a different course of action by enable "set time out path"
-6. Enable "Set timeout path" check box, this will create a new path in your journey where you can add actions and events applicable to accounts when a certain event does not occur
+1. Click any listen for event node to open property rail
+1. Enable timeout toggle o define the amount of time the Journey will wait for this event. Journey will end after timeout.
+1. You can select the duration for which the journey will wait for an event to occur before it times out
+1. You can choose to end the path here or take a different course of action by enable "set time out path"
+1. Enable "Set timeout path" check box, this will create a new path in your journey where you can add actions and events applicable to accounts when a certain event does not occur
 
 ### Merge or unmerge paths
 
 1. Navigate to a Journey and click the plus icon on a path.
-2. Add split path by account node.
-3. Click the node to open its properties on the right.
-4. Click Add path to create three paths.
-5. Add a combination of actions and events to each path.
-6. Click the plus icon for any one of these paths and choose merge from the displayed options.
-7. In the merge node properties, select the paths you want to merge.
+1. Add split path by account node.
+1. Click the node to open its properties on the right.
+1. Click Add path to create three paths.
+1. Add a combination of actions and events to each path.
+1. Click the plus icon for any one of these paths and choose merge from the displayed options.
+1. In the merge node properties, select the paths you want to merge.
    You should now see that the paths have merged so accounts from several different paths have merged to a single path and can continue to progress through the journey
-9. Similarly, you can unmerge paths by navigating back to the property rail of a merge node and unchecking certian paths
+1. Similarly, you can unmerge paths by navigating back to the property rail of a merge node and unchecking certian paths
 
 ### Add and delete a node
 
 1. Navigate to a Journey
-2. Click on the plus icon on the path and add select Take an action
-3. In the property rail, under "Action on", choose accounts radio button
-4. Select action from the drop down
-5. Now click on delete icon, confirm that you want to delete the node
+1. Click on the plus icon on the path and add select Take an action
+1. In the property rail, under "Action on", choose accounts radio button
+1. Select action from the drop down
+1. Now click on delete icon, confirm that you want to delete the node
 
 ## Add and delete a path
 
 1. Navigate to a Journey
-2. Click on plus icon on a path and add split path node
-3. In the property rail, select account radio button
-4. To add more paths, click on add path 
-5. With each path that is created in the journey, you will notice a new path card has been added in the property rail
-6. Navigate to one of the paths in the journey and add action or event nodes to this path using the plus icon
-7. Now navigate back to split path node and open the property rail
-8. You will notice that paths that have nodes on them cannot to be deleted
-9. In order to delete these paths, you will have to delete all the nodes on that path first
+1. Click on plus icon on a path and add split path node
+1. In the property rail, select account radio button
+1. To add more paths, click on add path 
+1. With each path that is created in the journey, you will notice a new path card has been added in the property rail
+1. Navigate to one of the paths in the journey and add action or event nodes to this path using the plus icon
+1. Now navigate back to split path node and open the property rail
+1. You will notice that paths that have nodes on them cannot to be deleted
+1. In order to delete these paths, you will have to delete all the nodes on that path first
 
 ## Schedule a journey
 
 1. You can schedule your journey by clicking [!UICONTROL Journey settings] in the header.
-2. Your journey can start immediately or on a specified future date.
-3. The end date of a journey can be a maximum of three years from start date (this field is mandatory).
-4. When you are ready to publish your journey, you can review these settings when you click [!UICONTROL Publish].
-5. After a journey is published (_Live_ status), you can update the end date of the journey but not the start date
+1. Your journey can start immediately or on a specified future date.
+1. The end date of a journey can be a maximum of three years from start date (this field is mandatory).
+1. When you are ready to publish your journey, you can review these settings when you click [!UICONTROL Publish].
+1. After a journey is published (_Live_ status), you can update the end date of the journey but not the start date
 
