@@ -93,7 +93,7 @@ Discover the many features included in our Adobe Journey Optimizer B2B Edition B
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
-      <strong>Insights</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./dashboards/">Engagement dashboard</a>
+      <strong>Insights</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
