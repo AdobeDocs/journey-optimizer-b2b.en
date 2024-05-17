@@ -2,6 +2,7 @@
 title: Buying groups
 description: Learn about...
 feature: Buying Groups
+exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 ---
 
 # Buying groups
@@ -42,4 +43,3 @@ Before you and your Marketing team start creating your buying groups, make sure 
    * Enrich with Zoominfo
 
 1. Add to Account Journeys.
-

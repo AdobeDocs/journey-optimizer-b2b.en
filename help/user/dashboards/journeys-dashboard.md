@@ -2,8 +2,8 @@
 title: Journey Overview dashboard
 description: Learn about the information provided by the Journey Overview dashboard and how it can help you monitor and manage your Account Journey strategy.
 feature: Dashboards, Account Journeys
+exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 ---
-
 # Journey Overview dashboard
 
 This dashboard provides a comprehensive view of engagement and showcases real-time metrics of account and individual interactions through snapshot donut charts and trend-revealing line charts over time. It helps you monitor and strategize your engagement efforts effectively.

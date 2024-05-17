@@ -2,6 +2,7 @@
 title: Create buying groups
 description: Learn how to create buying groups.
 feature: Buying Groups
+exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
 ---
 
 # Create buying groups
@@ -47,4 +48,22 @@ Other buying group activities:
 
 Member of buying group.
 Assign member of buying group.
+
 Remove member of buying group.
+
+Create buying groups
+
+Buying Groups → Browse tab → Create buying groups button.
+
+Page 1 - guidance on how to create buying groups, what are the key components needed and links to those components.
+Actions - Next, Cancel.
+Page 2
+Select solution interest from an existing list. Selecting it would pre-populated Roles template that was mapped to the solution interest.
+Select account audience from an existing list.
+Name - auto formed and read only as < Solution interest > for < account name >.
+Actions - Create, Cancel.
+Create buying groups informational modal
+Clicking on Create action will display a information modal to the user with details on process that will take place next and create buying groups.
+Actions - Create, Cancel. 
+Click Create.
+ will navigate user to the Solution interest tab and display the count of jobs created for the solution interest.

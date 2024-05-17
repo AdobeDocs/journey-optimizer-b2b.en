@@ -2,8 +2,8 @@
 title: Email authoring
 description: Learn how to create personalized email content that is used in Account Journeys.
 feature: Email Authoring, Content
+exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 ---
-
 # Email authoring
 
 Use Adobe Journey Optimizer B2B Edition to send email messages to your customers. You can create, personalize, and preview messages in the Email Designer.
