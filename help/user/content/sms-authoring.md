@@ -6,7 +6,7 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 ---
 # SMS authoring
 
-Use Adobe Journey Optimizer B2B edition to send text messages (SMS) to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor. 
+Use Adobe Journey Optimizer B2B Edition to send text messages (SMS) to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor. 
 
 ## SMS configurations
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition sends text messages through SMS service prov
 
 Adobe Journey Optimizer B2B Edition currently integrates with third-party providers who offer text messaging services independently. Supported providers for text messaging are Sinch, Twilio, and Infobip. 
 
-Prior to SMS channel configuration in Adobe Journey Optimizer B2B edition, you must create an account with one of these providers to get your API Token and Service ID, which you need to configure the connection between Adobe Journey Optimizer B2B Edition and the applicable provider.
+Before you configure an SMS channel in Adobe Journey Optimizer B2B Edition, you must create an account with one of these providers to get your API Token and Service ID. These credentials are required to configure the connection between Adobe Journey Optimizer B2B Edition and the applicable provider.
 
 >[!IMPORTANT]
 >
@@ -32,13 +32,11 @@ On the left navigation, expand the **[!UICONTROL Administrator]** section and cl
 
 ![Access the congfiguration of AMA API credentials](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
-The page lists the available API Configurations for your instance. You can filter the displayed API credentials by the SMS service provider or creator.
+The page lists the available API configurations for your instance. You can filter the displayed API credentials by the SMS service provider or creator.
 
 ![Click the filter icon to filter the list of API credentials](./assets/config-sms-api-filter.png){width="500"}
 
-### Create a new API credention for an SMS service provider
-
-In each of the following cases, clicking Submit the credentials are immediately validated & saved, redirecting you to the API Credentials listing page. If the submitted credentials are invalid, the system displays an error message on the listing page. In this case, you can choose to cancel the configuration, or to update it and submit again.
+### Create a new API credentials for an SMS service provider
 
 >[!BEGINTABS]
 
@@ -48,7 +46,7 @@ _To configure Sinch as your SMS provider with Adobe Journey Optimizer B2B Editio
 
 1. On the left navigation, expand the **[!UICONTROL Administrator]** section and click **[!UICONTROL Configuration]**.
 
-1. Click the **[!UICONTROL Create new API credentials]** at the top-right of the _[!UICONTROL API Credentials]_ list.
+1. Click the **[!UICONTROL Create new API credentials]** at the top-right of the _[!UICONTROL API credentials]_ list.
 
 1. Configure your SMS API credentials:
 
@@ -56,7 +54,7 @@ _To configure Sinch as your SMS provider with Adobe Journey Optimizer B2B Editio
 
    * **[!UICONTROL SMS vendor]** - Choose `Sinch` as the SMS provider.
 
-   * **[!UICONTROL Name]** - Enter a name for your API Credential.
+   * **[!UICONTROL Name]** - Enter a name for your API credential.
 
    * **[!UICONTROL Service ID]** and **[!UICONTROL API Token]** - Access the APIs page from your Sinch account (you can find your credentials under the SMS tab).
 
@@ -70,7 +68,7 @@ _To configure Twilio as your SMS provider with Adobe Journey Optimizer B2B Editi
 
 1. On the left navigation, expand the **[!UICONTROL Administrator]** section and click **[!UICONTROL Configuration]**.
 
-1. Click the **[!UICONTROL Create new API credentials]** at the top-right of the _[!UICONTROL API Credentials]_ list.
+1. Click the **[!UICONTROL Create new API credentials]** at the top-right of the _[!UICONTROL API credentials]_ list.
 
 1. Configure your SMS API credentials:
 
@@ -92,7 +90,7 @@ _To configure Infobip as your SMS provider with Adobe Journey Optimizer B2B Edit
 
 1. On the left navigation, expand the **[!UICONTROL Administrator]** section and click **[!UICONTROL Configuration]**.
 
-1. Click the **[!UICONTROL Create new API credentials]** at the top-right of the _[!UICONTROL API Credentials]_ list.
+1. Click the **[!UICONTROL Create new API credentials]** at the top-right of the _[!UICONTROL API credentials]_ list.
 
 1. Configure your SMS API credentials:
 
@@ -110,9 +108,11 @@ _To configure Infobip as your SMS provider with Adobe Journey Optimizer B2B Edit
 
 >[!ENDTABS]
 
+When you click _[!UICONTROL Submit]_, the credentials are immediately validated and saved, redirecting you to the _[!UICONTROL API credentials]_ listing page. If the submitted credentials are invalid, the system displays an error message on the listing page. In this case, you can choose to cancel the configuration, or to update it and submit again.
+
 ## Add an SMS action in an account journey
 
-You can set up text message deliveries in an Account Journey when you add a new _[!UICONTROL Take an action]_ node and do the following:
+You can set up text message deliveries in an Account Journey when you add a _[!UICONTROL Take an action]_ node and do the following:
 
 1. For the _[!UICONTROL Action on]_ target, choose **[!UICONTROL People]**.
 
@@ -122,7 +122,7 @@ You can set up text message deliveries in an Account Journey when you add a new 
 
 1. At the bottom of the _[!UICONTROL Take an action]_ panel, click **[!UICONTROL Create SMS]**.
 
-1. In the _[!UICONTROL Create new email]_ dialog, enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+1. In the dialog, enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
 
    ![Create new SMS dialog](assets/create-new-sms.png){width="500"}
 
@@ -132,11 +132,11 @@ You can set up text message deliveries in an Account Journey when you add a new 
 >
 >**SMS consent management**<br/>
 ><br/>
->In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to easily unsubscribe. To do this, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored. In addition, any custom keywords configured for your SMS service provider account are supported and honored.
+>In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to unsubscribe easily. To do this, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored. In addition, any custom keywords configured for your SMS service provider account are supported and honored.
 
 1. Enter the text that you want to send in the **[!UICONTROL Message]** field.
 
-   You can create an message of up to 1600 characters, with every 160 characters considered as a single SMS message.
+   You can create a message of up to 1600 characters, with every 160 characters considered as a single SMS message.
 
 1. **Personalize the text message**.
 
@@ -146,7 +146,7 @@ You can set up text message deliveries in an Account Journey when you add a new 
    
    The displayed page provides access to your Adobe Marketo Engage Lead and System tokens. Both standard and custom tokens are included. You can use the Search bar to locate the token you need, or navigate through the folder tree to find and select any of the lead/system tokens.
 
-   Place your cursor at the location in the message where you want to add the token. Add a token by clicking the plus ( **+** ) symbol next to it. If you want to add the token with a fallback (default that will appear in case that field is not available for a lead), click the ellipsis ( **...** ) and choose **[!UICONTROL Insert with fallbacl text]**.
+   Place your cursor at the location in the message where you want to add the token. Add a token by clicking the plus ( **+** ) symbol next to it. If you want to add the token with a fallback (default that appears in case that field is not available for a lead), click the ellipsis ( **...** ) and choose **[!UICONTROL Insert with fallback text]**.
 
    ![Click the ellipses to use a fallback for the token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
@@ -186,9 +186,9 @@ You can set up text message deliveries in an Account Journey when you add a new 
 
 1. For **[!UICONTROL SMS configuration]**, choose one of the pre-defined API configurations.
 
-   This determine which SMS gateway service provider and account is used to deliver the message.
+   This setting determines which SMS gateway service provider and account is used to deliver the message.
 
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+1. Enter the **[!UICONTROL Sender number]** ​that you want to use for your communications.
 
    ![Take an action - send sms](./assets/sms-properties.png){width="700" zoomable="yes"}
 

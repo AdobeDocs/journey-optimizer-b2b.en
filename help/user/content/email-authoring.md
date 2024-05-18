@@ -26,13 +26,13 @@ You can set up email deliveries in an Account Journey when you add a _[!UICONTRO
 
 1. At the bottom of the _[!UICONTROL Take an action]_ panel, click **[!UICONTROL Create email]**.
 
-1. In the _[!UICONTROL Create new email]_ dialog, enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+1. In the dialog, enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
 
    ![Create new email dialog](assets/create-new-email.png){width="400"}
 
 1. Click **[!UICONTROL Create]**.
 
-   In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional).
+   In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
 
 ## Create the email content
 
@@ -99,7 +99,7 @@ When ready, click Save.
 Imported content can be:
 
 * An HTML file with an incorporated style sheet
-* A .zip folder includingthat includes an HTML file, the style sheet (.css), and image files
+* A .zip folder that includes an HTML file, the style sheet (.css), and image files
 
 >[!NOTE]
 >
@@ -137,7 +137,7 @@ _To start building your content with one of the sample or saved templates:_
 
 1. After you select a category, you can navigate between all the templates of that category (sample or saved depending on your selection) using the right and left arrows.
 
-1. Click **[!UICONTROL Use this template]** on top-right of the page.
+1. Click **[!UICONTROL Use this template]** on the top-right of the page.
 
 1. Edit the content as needed in the _Email Designer_.
 
