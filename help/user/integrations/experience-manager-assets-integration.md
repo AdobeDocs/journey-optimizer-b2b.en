@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Manager Assets integration
-description: Learn about the Adobe Experience Manager Assets integration for Adobe Journey Optimizer B2B Edition that you can use to extend your creative system and unify digital assets for experience delivery.
+description: Learn about the Adobe Experience Manager Assets integration for Adobe Journey Optimizer B2B Edition and extend your creative system and unify digital assets for experience delivery.
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 ---
 # Adobe Experience Manager Assets integration

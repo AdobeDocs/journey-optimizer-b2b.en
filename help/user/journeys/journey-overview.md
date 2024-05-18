@@ -29,23 +29,15 @@ Define sales-driven engagement that includes email, SMS, and more inside account
 
   This table includes the ability to search by Name and Created by. Sort is currently unavailable.
 
-You can customize the displayed table by clicking the columns icon in the top right corner and selecting or clearing the checkboxes. 
+You can customize the displayed table by clicking the columns icon in the top-right corner and selecting or clearing the checkboxes. 
 
 ![Choose the columns to display in the acount journeys list](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
-
-## Create an account journey
-
-1. Click **[!UICONTROL Create Account Journey]** at the top-right corner of the page. 
-
-1. In the dialog, enter a name (required) and description (optional) for the account journey.
-
-1. Click **[!UICONTROL Create]**.
 
 ## Anatomy of an account journey
 
 Click the name (displayed as a link) in the _[!UICONTROL Account journeys]_ list to review the details, make changes, and take actions.
 
-![Account journey workspace](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
+![Account journey workspace](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
 The editor header of each journey includes: 
 
@@ -61,27 +53,21 @@ The following actions are available in the header:
 * **Abort** - If you stop a journey, accounts in the journey immediately stop their progress and no further journey entrance can happen. A stopped journey cannot be restarted. If you block new entrances without stopping people's progress, consider closing the journey instead.
 * **Delete** - This action permanently deletes the journey.
 
-The status of a Journey changes based on the actions you take. Based on status of a journey, certain actions are/are not available in the header.
+The status of a Journey changes based on the actions you apply. Based on status of a journey, certain actions are/are not available in the header.
 
-* _Draft_ - An unpublished Journey that is editable. Available actions:
-   * Publish
-   * Duplicate 
-   * Delete 
-* _Live_ - Journey status changes from Draft to Live once a journey is published. In this state, it is longer editable. Available actions:
-   * Duplicate 
-   * Close to new entries 
-   * Abort 
-* _Closed to new entries_ -  Journey status changes from Live to Closed to new entries when user clicks on Close to new entries in the top nav. Available actions:
-   * Duplicate
-   * Abort 
-* _Aborted_ - Journey status changes from Live or Closed to new entries when you abort a journey. An aborted a journey cannot be restarted. Available actions:
-   * Duplicate
-   * Delete
-* _Finished_ - When all accounts in a journey complete the. journey, the status changes from Live or Closed to new entries to Finished. Available actions:
-   * Duplicate
-   * Delete
+| Status | Available actions |
+| ------ | ----------------- |
+| _**Draft**_ - An unpublished journey that is editable. |<ul><li>Publish</li><li>Duplicate </li><li>Delete </li></ul> |
+| _**Live**_ - Journey status changes from Draft to Live when a journey is published. In this state, it is longer editable. | <ul><li>Duplicate </li><li>Close to new entries </li><li>Abort </li></ul> |
+| _**Closed to new entries**_ - The journey status changes from _Live_ to _Closed to new entries_ when you click [!UICONTROL Close to new entries] in the top navigation. | <ul><li>Duplicate </li><li>Abort </li></ul> |
+| _**Aborted**_ - Journey status changes from _Live_ or _Closed to new entries_ when you abort a journey. An aborted a journey cannot be restarted. | <ul><li>Duplicate </li><li>Delete </li></ul> |
+| _**Finished**_ - When all accounts in a journey complete the. journey, the status changes from Live or Closed to new entries to Finished.| <ul><li>Duplicate </li><li>Delete </li></ul> |
 
 ## Get started with a journey
+
+To get started with an account journey, create the journey and then construct the nodes and journey flow in the journey editor.
+
+### Create an account journey
 
 1. On the left navigation, click **[!UICONTROL Account journeys]**.
 
@@ -111,41 +97,79 @@ You can select an audience segment that was previously selected by clicking on a
 
 ### Building blocks of a journey
 
-You can build your journey using the following nodes
+You can build your journey using these nodes. 
 
-* **_Listen for an event_** - Move your audience forward to the next step in the journey when an event occurs
-  * You can also define the amount of time the Journey will wait for this event. Journey will end after timeout.
-  * Additionally, you can choose to add other nodes on your timeout path
-* **_Take an action_** - Execute an action like send an email, change score, etc..
-* **_Split paths_** - Split your audience based on filter conditions
-* **_Wait_** - Wait for a certain duration before moving to the next step
-* **_Merge_** - Different paths in your journey can be merged using this node
+#### Listen for an event
 
-Each of these nodes can be applied on the people or account level:
+Move your audience forward to the next step in the journey when an event occurs.
 
-* **Action on accounts**: Action will be applied to all people that are part of accounts on this path
-* **Action on people**: Action will be applied to all people on this path. Action on people can be used within split path by people or split path by accounts
-* **Listen to events on accounts**: If at least one person from an account triggers an event the account moves forward to next step on the journey
-* **Listen to events on people**: Events on people can only be applied on account path, it is not available with split by people node    
-* **Split Path by account**: Paths split by accounts can include both account and people actions and events, and these paths can be split further.
-  _How does split path by accounts node work?_ - When a user adds split path node and chooses Account, each path that is added includes an end node with ability to add nodes to each edge.
-  It is possible to split path by Accounts repeatedly, such as in a nested manner.
-  A split path includes an option for not adding default path. Accounts/people who do not qualify do not move forward in the journey.
-  These paths can be combined using a merge node
-  We can support a maximum of 25 paths
-* **Split Path by people**: Paths split by people and can include only people actions, and these paths can't be split again. Paths automatically join back.
-  _How does split path by people node work?_ - Split path by people are grouped nodes; they automatically merge so all the people in the audience can move forward to the next step without losing context of the accounts they belong to.
-  Split path for people cannot be nested I.e you cannot add split path for people on a path that is in this grouped node
-  Split path will include option of not adding default path. Accounts/people who do not qualify do not move forward in the Journey
-  It can support a maximum of 25 paths.
+* You can also define the amount of time the Journey will wait for this event. Journey will end after timeout.
+* Additionally, you can choose to add other nodes on your timeout path
 
-<  Note to tech writer: Please include a couple of screenshots for this section from the following link based on what you think would work well. >
+**Listen to events on accounts**: If at least one person from an account triggers an event, the account moves forward to the next step on the journey.
+
+![Journey node - listen to events on account](./assets/node-listen-events-account.png){width="700" zoomable="yes"}
+
+**Listen to events on people**: Events on people can only be applied on account path, it is not available with split by people node.
+
+![Journey node - listen to events on people](./assets/node-listen-events-people.png){width="700" zoomable="yes"}
+
+#### Take an action
+
+Execute an action like send an email, change score, and so on.
+
+**Action on accounts**: The action is applied to all people that are part of accounts on this path.
+
+**Action on people**: The action is applied to all people on this path. An action on people can be used within split path by people or split path by accounts.
+
+#### Split paths
+
+Split your audience based on filter conditions. 
+
+**Split paths by accounts**: Paths split by accounts can include both account and people actions and events, and these paths can be split further.
+
+_How does a split path by accounts node work?_ 
+
+* When a user adds split path node and chooses Account, each path that is added includes an end node with ability to add nodes to each edge.
+* It is possible to split path by Accounts repeatedly, such as in a nested manner. A split path includes an option for not adding default path.
+* Accounts/people who do not qualify do not move forward in the journey.
+* These paths can be combined using a merge node.
+
+![Journey node - split paths by account](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
+
+**Split paths by people**: Paths split by people and can include only people actions, and these paths can't be split again. Paths automatically join back.
+
+_How does a split path by people node work?_ 
+
+* Split path by people are grouped nodes; they automatically merge so that all the people in the audience can move forward to the next step without losing context of the accounts they belong to.
+* Split path for people cannot be nested--you cannot add split path for people on a path that is in this grouped node.
+* Split path includes option for not adding a default path. Accounts/people who do not qualify do not move forward in the Journey.
+
+![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
+
+>[!NOTE]
+>
+>A maximum of 25 paths are supported.
+
+#### Wait
+
+Wait for a certain duration before moving to the next step.
+
+![Journey node - wait](./assets/node-wait.png){width="700" zoomable="yes"}
+
+#### Merge paths
+
+Different paths in your journey can be merged using this node.
+
+![Journey node - merge paths](./assets/node-merge-paths.png){width="700" zoomable="yes"}
+
+### Guard rails
 
 To help you build a journey without running into errors, the following guard rails are in place:
 
-* Deleting Split path nodes: You cannot delete this node without deleting all subsequent nodes in each path.
-* Deleting Merge node: It can be deleted only when there is one path connected to it. To delete merge node, leave only one path selected.
-* Switching between account and people: You cannot change selection from accounts to people without deleting all subsequent nodes in each path.
+* Deleting Split path nodes: You cannot delete a node without deleting all subsequent nodes in each path.
+* Deleting Merge node: A merge node can be deleted only when there is one path connected to it. To delete a merge node, leave only one path selected.
+* Switching between account and people: You cannot change the selection from accounts to people without deleting all subsequent nodes in each path.
 
 ### Use split path by account node
 
@@ -158,7 +182,7 @@ To help you build a journey without running into errors, the following guard rai
 1. Click done
 1. To add more paths, click add path and repeat the previous steps to add conditions applicable to this path.
 1. You can also label each path based on these conditions or use pre-populated default labels.
-1. Lastly, you can add a default path for accounts not qualified for the other paths. If not, the journey ends for these accounts.
+1. (Optional) Add a default path for accounts not qualified for the other paths. If not, the journey ends for these accounts.
 
 
 ### Use split path by people node

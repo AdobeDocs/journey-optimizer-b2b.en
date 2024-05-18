@@ -21,7 +21,7 @@ When the buying group is created, it is available for use in an Account Journey 
 
 ## Guidance page
 
-The first page provides guidance about the prerequisites/components needed for creating buying groups and links to those components. If you know that you have the necessary components in place, click **[!UICONTROL Next]**.
+The first page provides guidance about the prerequisites/components that are required for creating buying groups. If you know that you have the necessary components in place, click **[!UICONTROL Next]**.
 
 ## Components
 
@@ -35,18 +35,20 @@ The first page provides guidance about the prerequisites/components needed for c
 
    ![Click Create buying groups](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
-1. After you select the Solution interest and the accounct audience, click **[!UICONTROL Create]**.
+1. After you select the Solution interest and the account audience, click **[!UICONTROL Create]**.
 
 ## Confirmation
 
 The confirmation dialog provides a summary of the buying groups process and an estimated time for completion. To confirm and launch the process, click **[!UICONTROL Create]**.
 
-![Create buying groups coonfirmation dialog](./assets/buying-groups-create-confirm.png){width="400"}
+![Create buying groups confirmation dialog](./assets/buying-groups-create-confirm.png){width="400"}
 
 You can navigate user to the Solution interest tab and display the count of jobs created for the solution interest.
+
+![Click Create buying groups](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 Other buying group activities:
 
 Member of buying group.
-Assign member of buying group.
-Remove member of buying group.
+Assign a member of the buying group.
+Remove a member of the buying group.

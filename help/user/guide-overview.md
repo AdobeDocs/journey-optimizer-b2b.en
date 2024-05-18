@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition Documentation
-description: This is the guide overview.
+description: Learn how to use the Adobe Journey Optimizer B2B Edition features.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
 
-## What's new ?
+## What's new?
 
 Here is a sampling of the latest enhancements in the Journey Optimizer B2B Edition product and documentation. 
 
@@ -15,11 +15,11 @@ Here is a sampling of the latest enhancements in the Journey Optimizer B2B Editi
 
 >[!TAB Beta release is available]
 
-Discover the many features included in our Adobe Journey Optimizer B2B Edition Beta program.
+Discover the many features included in the Adobe Journey Optimizer B2B Edition Beta program.
 
 < Learn more badge with link >
 
-[!BADGE Learn more]{type=Informative url="" tooltip="Journey Optimizer Beata Edition Beta release"}
+[!BADGE Learn more]{type=Informative url="" tooltip="Journey Optimizer B2B Edition Beta release"}
 
 >[!TAB Buying Groups]
 
