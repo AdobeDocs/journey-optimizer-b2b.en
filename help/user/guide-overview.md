@@ -23,19 +23,15 @@ Discover the many features included in the Adobe Journey Optimizer B2B Edition B
 
 >[!TAB Buying Groups]
 
-< Add messaging text for the Buying Groups Beta features>
+Create buying groups using unified B2B data from across your enterprise, align them to your company's offerings, and automate how you define, identify and target the right members for each role to scale the most precise targeting for your customer journeys
 
-< Learn more badge with link >
-
-[!BADGE Learn more]{type=Informative url="" tooltip="Learn about Account Journeys"}
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Learn about Buying Groups"}
 
 >[!TAB Account Journeys]
 
-< Add messaging text for the Account Journeys Beta features >
+Build tailored journeys for buying groups within target accounts that automate hyper-personalized sales and marketing engagement to streamline demand generation, qualification and a seamless, coordinated buying group experience. 
 
-< Learn more badge with link >
-
-[!BADGE Learn more]{type=Informative url="" tooltip="Learn about Account Journeys"}
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview" tooltip="Learn about Account Journeys"}
 
 >[!ENDTABS]
 
