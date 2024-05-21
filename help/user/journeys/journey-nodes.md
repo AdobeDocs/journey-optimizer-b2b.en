@@ -57,9 +57,13 @@ Execute an action like send an email, change score, and so on.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Take an action]**.
 
+   ![Add journey node - split paths](./assets/add-node-action.png){width="400"}
+
 1. In the node properties on the right, choose **[!UICONTROL Accounts]** for the action.
 
-1. Select an action from the list.
+1. Select an action from the list and set any values for the action.
+
+   ![Journey node - take an action on an account](./assets/node-take-action-account.png){width="700" zoomable="yes"}
 
 ### Add a people action
 
@@ -69,7 +73,9 @@ Execute an action like send an email, change score, and so on.
 
 1. In the node properties on the right, choose **[!UICONTROL People]** for the action.
 
-1. Select an action from the list.
+1. Select an action from the list and set any values for the action.
+
+![Journey node - take an action on people](./assets/node-take-action-people.png){width="700" zoomable="yes"}
 
 ## Listen for an event
 
@@ -134,7 +140,7 @@ _How does a split path by accounts node work?_
 
 * When you add a split path node and choose _Account_, each path that is added includes an end node with the ability to add nodes to each edge.
 * It is possible to split the path by Accounts repeatedly, such as in a nested manner. A split path includes an option for not adding the default path.
-* Accounts/people who do not qualify do not move forward in the journey.
+* Accounts/people that do not qualify for one of the split paths do not move forward in the journey.
 * These paths can be combined using a merge node.
 
 ![Journey node - split paths by account](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
@@ -143,7 +149,7 @@ _How does a split path by accounts node work?_
 
 _How does a split path by people node work?_ 
 
-* Split path by people nodes are grouped nodes; they automatically merge so that all the people in the audience can move forward to the next step without losing the context of the accounts they belong to.
+* Split path by people nodes are grouped nodes. They automatically merge so that all the people in the audience can move forward to the next step without losing the context of the accounts that they belong to.
 * Split path for people cannot be nested--you cannot add split path for people on a path that is in this grouped node.
 * Split path includes an option for not adding a default path. Accounts/people who do not qualify do not move forward in the Journey.
 
@@ -211,7 +217,7 @@ _How does a split path by people node work?_
 
 1. Lastly, you can add a default path for people not qualified for the above paths. If not, the journey ends for these people
 
-Now that you have conditions defining each path that you're splitting your audience on the people level, you can add actions that you want to take on people.
+When you have conditions defined for each path that you're splitting your audience on the people level, you can add actions that you want to take on people.
 
 >[!NOTE]
 >
@@ -251,7 +257,7 @@ Different paths in your journey can be merged and unmerged using this node.
 
    ![Journey node - merge paths](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   You should now see that the paths have merged so that accounts from the selected paths have merged to a single path and can continue to progress through the journey.
+   You should now see that the paths are merged so that accounts from the selected paths combine to a single path and can continue to progress through the journey.
 
 1. If needed, you can unmerge paths by navigating back to the merge node properties and clearing the checkbox for any paths that you want to remove.
 
