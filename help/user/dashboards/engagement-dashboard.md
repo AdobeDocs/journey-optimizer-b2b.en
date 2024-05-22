@@ -33,9 +33,8 @@ Engage further with the data by using the action icon ( **...** ) in the top-rig
 **[!UICONTROL View More]**: For all dashboard views, a pop-up appears with the chart and a table showing the breakdown of engagement by account / people.
 
 Download CSV button on the top-right corner of the table.
-
-
-<!-- ### Drill through
+<!-- 
+### Drill through
 
 Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual group statuses.
 
@@ -65,6 +64,7 @@ Button on the top right corner to open a pop-up with the available column list:
 * [!UICONTROL Status]
 * [!UICONTROL Email]
 --->
+
 ### Filter
 
 Global filter: **[!UICONTROL Date ]** filter, which reflects the Buying Group last status change date. The start date is adjustable. The end date defaults to the current day.
