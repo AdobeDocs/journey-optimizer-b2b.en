@@ -15,11 +15,9 @@ Here is a sampling of the latest enhancements in the Journey Optimizer B2B Editi
 
 >[!TAB Beta release is available]
 
-Discover the many features included in the Adobe Journey Optimizer B2B Edition Beta program.
+Join our Beta program to discover the many features included in the Adobe Journey Optimizer B2B Edition Beta release.
 
-< Learn more badge with link >
-
-[!BADGE Learn more]{type=Informative url="" tooltip="Journey Optimizer B2B Edition Beta release"}
+[!BADGE Learn more]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta release"}
 
 >[!TAB Buying Groups]
 
