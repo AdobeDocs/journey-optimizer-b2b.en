@@ -8,26 +8,34 @@ exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
 
 This dashboard provides a comprehensive view of engagement and showcases real-time metrics of account and individual interactions through snapshot donut charts and trend-revealing line charts over time. It helps you monitor and strategize your engagement efforts effectively.
 
+<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. -->
+
 ## Engagement by Accounts / People
 
 The donut charts clearly divide accounts or people into engaged and non-engaged categories. The central figure denotes the total count within each category, providing an at-a-glance understanding of overall engagement.
+
+![Engagement by accounts and by people](assets/engagement-accounts-people.png){width="700" zoomable="yes"}
 
 ## Engagement by Accounts / People Over Time
 
 These line charts display the engagement levels of accounts or people over time. With distinct lines for 'Engaged' and 'Not Engaged,' visualized alongside a time-stamped horizontal axis, you can pinpoint trends and patterns. You can hover over a line to reveal precise metrics for any given date.
 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. 
+![Engagement by accounts and by people over time](assets/engagement-accounts-people-over-time.png){width="700" zoomable="yes"}
 
-### Enhanced Interaction
+## Enhanced interactions
 
-Engage further with the data by using the action button in the top-right corner.
+Engage further with the data by using the action icon ( **...** ) in the top-right corner.
 
-View More:
+![Engagement dashboard data - action menu](assets/engagement-action-menu.png){width="400"}
 
-For all widgets, a pop-up appears with the chart and a table showing the breakdown of engagement by Account / People.
+### View more
+
+**[!UICONTROL View More]**: For all dashboard views, a pop-up appears with the chart and a table showing the breakdown of engagement by account / people.
+
 Download CSV button on the top-right corner of the table.
 
-### Drill through
+
+<!-- ### Drill through
 
 Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual group statuses.
 
@@ -56,7 +64,7 @@ Button on the top right corner to open a pop-up with the available column list:
 * [!UICONTROL Person ID]
 * [!UICONTROL Status]
 * [!UICONTROL Email]
-
+--->
 ### Filter
 
 Global filter: **[!UICONTROL Date ]** filter, which reflects the Buying Group last status change date. The start date is adjustable. The end date defaults to the current day.
