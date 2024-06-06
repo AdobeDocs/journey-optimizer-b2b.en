@@ -67,7 +67,7 @@ Button on the top right corner to open a pop-up with the available column list:
 
 ### Filter
 
-Global filter: **[!UICONTROL Date ]** filter, which reflects the Buying Group last status change date. The start date is adjustable. The end date defaults to the current day.
+Global filter: **[!UICONTROL Date]** filter, which reflects the Buying Group last status change date. The start date is adjustable. The end date defaults to the current day.
 
 You can also filter the display using any of these attributes: 
 

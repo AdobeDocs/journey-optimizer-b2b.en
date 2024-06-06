@@ -47,8 +47,8 @@ You can navigate user to the Solution interest tab and display the count of jobs
 
 ![Click Create buying groups](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
-Other buying group activities:
+<!-- Other buying group activities:
 
 Member of buying group.
 Assign a member of the buying group.
-Remove a member of the buying group.
+Remove a member of the buying group. -->
