@@ -82,7 +82,7 @@ Build tailored journeys for buying groups within target accounts that automate h
   </tr>
   <tr style="border: 0;">
         <td>
-      <img src="../assets/do-not-localize/icon-journey.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
       <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a>
     </td>
     <td>
