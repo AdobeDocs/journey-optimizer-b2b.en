@@ -41,7 +41,7 @@ The first page provides guidance about the prerequisites/components that are req
 
 The confirmation dialog provides a summary of the buying groups process and an estimated time for completion. To confirm and launch the process, click **[!UICONTROL Create]**.
 
-![Create buying groups confirmation dialog](./assets/buying-groups-create-confirm.png){width="400"}
+![Create buying groups confirmation dialog](./assets/buying-groups-create-confirm.png){width="400" zoomable="no"}
 
 You can navigate user to the Solution interest tab and display the count of jobs created for the solution interest.
 

@@ -1,13 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition
-description: This is the product login and home page information.
+description: Learn how to access the Journey Optimizer B2B Edition app and use the home page information.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 ---
 # Adobe Journey Optimizer B2B Edition
 
-Welcome to the Adobe Journey Optimizer B2B Edition
-
-< Some introductory content (not Marketing copy) that gives a high-level explanation of what the product is and why users want to proceed with reading the content and learning about the product. >
+With Adobe Journey Optimizer B2B Edition, you can orchestrate account and buying group journeys using built-in generative AI and industry-leading automation to maximize demand for specific offerings using marketing-qualified buying groups. 
 
 ## Access the Adobe Journey Optimizer B2B Edition app
 

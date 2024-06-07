@@ -8,7 +8,7 @@ exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 
 Define sales-driven engagement that includes email, SMS, and more inside account journeys to coordinate inbound marketing with outbound sales activities for each buying group member.
 
-## Access and browse Account Journeys
+## Access and browse account journeys
 
 1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
 
@@ -55,13 +55,13 @@ The following actions are available in the header:
 
 The status of a Journey changes based on the actions that you apply. Based on the status of a journey, certain actions are/are not available in the header.
 
-| Status | Available actions |
-| ------ | ----------------- |
-| _**Draft**_ - An unpublished journey that is editable. |<ul><li>Publish</li><li>Duplicate </li><li>Delete </li></ul> |
-| _**Live**_ - Journey status changes from Draft to Live when a journey is published. In this state, it is no longer editable. | <ul><li>Duplicate </li><li>Close to new entries </li><li>Abort </li></ul> |
-| _**Closed to new entries**_ - The journey status changes from _Live_ to _Closed to new entries_ when you click [!UICONTROL Close to new entries] in the top navigation. | <ul><li>Duplicate </li><li>Abort </li></ul> |
-| _**Aborted**_ - Journey status changes from _Live_ or _Closed to new entries_ when you abort a journey. An aborted journey cannot be restarted. | <ul><li>Duplicate </li><li>Delete </li></ul> |
-| _**Finished**_ - When all accounts in a journey complete the journey, the status changes from Live or Closed to new entries to Finished.| <ul><li>Duplicate </li><li>Delete </li></ul> |
+| Status | Description | Available actions |
+| ------ | ----------- | ----------------- |
+| _**Draft**_ | An unpublished journey that is editable. |<ul><li>Publish</li><li>Duplicate </li><li>Delete </li></ul> |
+| _**Live**_ | Journey status changes from Draft to Live when a journey is published. In this state, it is no longer editable. | <ul><li>Duplicate </li><li>Close to new entries </li><li>Abort </li></ul> |
+| _**Closed to new entries**_ | The journey status changes from _Live_ to _Closed to new entries_ when you click [!UICONTROL Close to new entries] in the top navigation. | <ul><li>Duplicate </li><li>Abort </li></ul> |
+| _**Aborted**_ | Journey status changes from _Live_ or _Closed to new entries_ when you abort a journey. An aborted journey cannot be restarted. | <ul><li>Duplicate </li><li>Delete </li></ul> |
+| _**Finished**_ | When all accounts in a journey complete the journey, the status changes from Live or Closed to new entries to Finished.| <ul><li>Duplicate </li><li>Delete </li></ul> |
 
 ## Get started with a journey
 
@@ -97,6 +97,8 @@ An account journey always starts with Account Audience where you can add input t
 
 ### Building blocks of a journey
 
+The _journey canvas_ is the central zone in the journey designer. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design.
+
 You can build your journey using any of these node types:
 
 * [Listen for an event](journey-nodes.md#listen-for-an-event)
@@ -109,8 +111,8 @@ You can build your journey using any of these node types:
 
 To help you build a journey without running into errors, the following guard rails are in place:
 
-* _Deleting Split path nodes_: You cannot delete a node without deleting all subsequent nodes in each path.
-* _Deleting Merge node_: A merge node can be deleted only when there is one path connected to it. To delete a merge node, leave only one path selected.
+* _Deleting a Split path node_: You cannot delete a node without deleting all subsequent nodes in each path.
+* _Deleting a Merge node_: A merge node can be deleted only when there is one path connected to it. To delete a merge node, leave only one path selected.
 * _Switching between account and people_: You cannot change the selection from accounts to people without deleting all subsequent nodes in each path.
 
 ### Add a node
@@ -153,11 +155,22 @@ To help you build a journey without running into errors, the following guard rai
 
 When you publish a journey, it can start immediately or on a scheduled future date. The end date can be a maximum of three years from the start date. After a journey is published (_Live_ status), you can update the end date of the journey but not the start date.
 
+1. Navigate to the journey editor.
+
 1. Schedule your journey by clicking [!UICONTROL Journey settings] in the header.
 
-1. Your journey can start immediately or on a specified future date.
+1. In the dialog, set the schedule options:
 
-1. The end date of a journey can be a maximum of three years from the start date (this field is mandatory).
+   * Chose a schedule type.
+   
+      To activate the journey at publish time, choose **[!UICONTROL Immediately]**.
 
-1. When you are ready to publish your journey, you can review these settings when you click [!UICONTROL Publish].
+      To activate the journey on a future date, choose **[!UICONTROL On a specific date]** and click the _Calendar_ icon to select the date.
 
+      ![Journey settings dialog](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
+   
+   * Specify the **[!UICONTROL End date]** for the journey. It can be a maximum of three years from the start date (this field is required).
+
+1. Click **[!UICONTROL Save]**.
+
+   When you are ready to publish your journey, you can review these settings when you click _[!UICONTROL Publish]_.

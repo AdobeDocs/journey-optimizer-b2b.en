@@ -80,11 +80,10 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
     Publishing the template sets it to a _Live_ status and makes it available to associate with a Solution Interest. There must be at least one defined role to publish the roles template. 
 
     Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the Roles Templates list.
+<!-- 
+< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
 
-
-<!-- < PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >  -->
-
-<!-- Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
+Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Edit a draft roles template
 
