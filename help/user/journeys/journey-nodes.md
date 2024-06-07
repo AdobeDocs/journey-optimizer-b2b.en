@@ -9,7 +9,7 @@ After you [create an account journey](journey-overview.md#create-an-account-jour
 
 ## Node types
 
-| Node type | Details |
+| Node type | Function |
 | --------- | ------- |
 | [Account Audience](journey-overview.md#add-the-account-audience-for-your-journey) | Input account audience for the journey. This node is always the first node and is automatically created by default |
 | [Action on people](#add-a-people-action) | Send email |
