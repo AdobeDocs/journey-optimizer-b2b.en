@@ -42,7 +42,7 @@ With your email campaigns, you can use AI Assistant to generate full email, text
 
 >[!BEGINSHADEBOX]
 
-## Prompt Library
+### Prompt Library
 
 An effective prompt is essential for generating the best possible content. If you need assistance with crafting your prompt, access the _Prompt Library_. This library provides a diverse range of prompt ideas to improve the content generation.
 
@@ -52,7 +52,7 @@ Select the prompt that best reflects your intended goals and add the needed valu
 
 >[!ENDSHADEBOX]
 
-## Buying group roles
+### Buying group roles
 
    Adobe Journey Optimizer B2B Edition offers five standard B2B buying group roles out-of-the-box. Each buying group role has a distinct messaging focus:
 
@@ -78,9 +78,9 @@ The following steps describe the task sequence for using the AI Assistant to ref
 
 1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
-   ![AI Assitant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="no"}
-
    The AI Assistant settings on the right reflect _Generation settings (full email)_.
+
+   ![AI Assitant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="no"}
    
 1. In the **[!UICONTROL Prompt]** field, enter a description of what you want to generate.
 
@@ -172,8 +172,6 @@ The following steps describe the task sequence for using the AI Assistant to ref
 ### Image recommendations
 
 You can use the AI Assistant to optimize and improve your assets and ensure a more user-friendly experience. The following steps describe the task sequence for using the AI Assistant to enhance the image content of the email:
-
-1. Open an existing email or the email created from the full text generation or text generation section.
 
 1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
