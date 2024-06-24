@@ -1,6 +1,7 @@
 ---
 title: AI Assistant for email authoring
 description: Learn how to use the AI Assistant to optimize the email content that is used in Account Journeys.
+hidefromtoc: yes
 feature: Email Authoring, Content
 ---
 # AI Assistant for email authoring
@@ -210,4 +211,3 @@ You can use the AI Assistant to optimize and improve your assets and ensure a mo
 1. Browse through the _[!UICONTROL Variations]_ and select the one that is the best fit for the email.
    
    To view a full-screen version of the selected variation, click **[!UICONTROL Preview]**.
-
