@@ -1,6 +1,6 @@
 ---
 title: AI Assistant for email authoring
-description: Learn how to use the AI Assistant to optimize the email content that is used in Account Journeys.
+description: Learn how to use AI Assistant to optimize the email content that is used in Account Journeys.
 feature: Email Authoring, Content
 ---
 # AI Assistant for email authoring
@@ -15,7 +15,7 @@ This new capability provides a prompt-based text generation, full email generati
 
 ## Guidelines and limitations
 
-Before you get started with the AI Assistant in Adobe Journey Optimizer B2B Edition for email content generation, review these guidelines:
+Before you get started with AI Assistant in Adobe Journey Optimizer B2B Edition for email content generation, review these guidelines:
 
 * The marketing objective/prompt that you define is a key determinant of the quality of the generated content. Use a well-defined prompt for the GenAI model to interpret accurately.
 * Upload brand assets to have accurate, on brand content. Without these assets, content is based on publicly available information.
@@ -23,7 +23,7 @@ Before you get started with the AI Assistant in Adobe Journey Optimizer B2B Edit
    * The maximum size for an uploaded brand asset is 50MB. Larger files or large quantities of images may work, but the processing time is increased.
 * Use Adobe Journey Optimizer B2B Edition authored email templates, preferably the built-in or sample templates, a brand specific template, or custom template to create your email content. Email templates with up to eight to ten images are recommended.
 * Make sure to report any problematic output using the thumb up, thumb down, or flag icons against a generated variant.
-* Your use of the AI Assistant is subject to the [Adobe Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
+* Your use of AI Assistant is subject to the [Adobe Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
 The following limitations apply to AI Assistant in Adobe Journey Optimizer B2B Edition for email content generation:
 
@@ -34,9 +34,9 @@ The following limitations apply to AI Assistant in Adobe Journey Optimizer B2B E
 
 ## Generate email content with AI Assistant
 
-After you create and personalize your emails, use the AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your content to the next level.
+After you create and personalize your emails, use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your content to the next level.
 
-The AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement.
+AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement.
 
 With your email campaigns, you can use AI Assistant to generate full email, text or images. The following sections provide step-by-step walkthroughs for using AI Assistant in Adobe Journey Optimizer B2B Edition.
 
@@ -68,7 +68,7 @@ Select the prompt that best reflects your intended goals and add the needed valu
 
 ### Full email generation
 
-The following steps describe the task sequence for using the AI Assistant to refine an existing email template:
+The following steps describe the task sequence for using AI Assistant to refine an existing email template:
 
 1. Create an email from an Account Journey and click **[!UICONTROL Open Email Designer]** or **[!UICONTROL Add Email Content]**.
 
@@ -119,7 +119,7 @@ The following steps describe the task sequence for using the AI Assistant to ref
 
 ### Text generation
 
-The following steps describe the task sequence for using the AI Assistant to refine an existing email template or enhance the text content for an existing email:
+The following steps describe the task sequence for using AI Assistant to refine an existing email template or enhance the text content for an existing email:
 
 1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
@@ -157,13 +157,13 @@ The following steps describe the task sequence for using the AI Assistant to ref
 
    * **[!UICONTROL Use as reference content]** - Select this option to use the variant as the reference content for generating other results.
 
-   * **[!UICONTROL Elaborate]** - The AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
+   * **[!UICONTROL Elaborate]** - AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
 
-   * **[!UICONTROL Summarize]** - Lengthy information can overload email recipients. Use the AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
+   * **[!UICONTROL Summarize]** - Lengthy information can overload email recipients. Use AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
 
-   * **[!UICONTROL Rephrase]** - The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
+   * **[!UICONTROL Rephrase]** - AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
 
-   * **[!UICONTROL Use simpler language]** - Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+   * **[!UICONTROL Use simpler language]** - Leverage AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
 
    ![AI Assitant preview of text variantion and refinement options](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
@@ -171,7 +171,7 @@ The following steps describe the task sequence for using the AI Assistant to ref
 
 ### Image recommendations
 
-You can use the AI Assistant to optimize and improve your assets and ensure a more user-friendly experience. The following steps describe the task sequence for using the AI Assistant to enhance the image content of the email:
+You can use AI Assistant to optimize and improve your assets and ensure a more user-friendly experience. The following steps describe the task sequence for using AI Assistant to enhance the image content of the email:
 
 1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
@@ -201,7 +201,7 @@ You can use the AI Assistant to optimize and improve your assets and ensure a mo
 
 1. When you are satisfied with your prompt configuration, click **[!UICONTROL Generate]**.
 
-   The AI Assistant processes the request and recommends the best suited images from within the input brand asset and based on the prompt and other inputs.
+   AI Assistant processes the request and recommends the best suited images from within the input brand asset and based on the prompt and other inputs.
 
    >[!IMPORTANT]
    >
