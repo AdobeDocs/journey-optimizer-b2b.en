@@ -1,7 +1,6 @@
 ---
 title: AI Assistant for email authoring
 description: Learn how to use the AI Assistant to optimize the email content that is used in Account Journeys.
-hidefromtoc: yes
 feature: Email Authoring, Content
 ---
 # AI Assistant for email authoring
