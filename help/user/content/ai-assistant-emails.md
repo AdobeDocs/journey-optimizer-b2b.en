@@ -82,8 +82,8 @@ The following steps describe the task sequence for using the AI Assistant to ref
    The AI Assistant settings on the right reflect _Generation settings (full email)_.
 
    ![AI Assitant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="no"}
-   
-1. In the **[!UICONTROL Prompt]** field, enter a description of what you want to generate.
+
+1. In the **[!UICONTROL Prompt]** field, enter a description of what you want to generate.
 
    Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
 
@@ -176,7 +176,7 @@ You can use the AI Assistant to optimize and improve your assets and ensure a mo
 
 1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
-1. Select an _Image_ component to target the specific content and access the AI Assistant menu.
+1. Select an _Image_ component to target the specific content and access the AI Assistant menu.
 
    The settings on the right change to reflect _[!UICONTROL Generation settings (image)]_.
 
