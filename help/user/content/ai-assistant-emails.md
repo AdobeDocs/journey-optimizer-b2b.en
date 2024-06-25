@@ -20,9 +20,9 @@ Before you get started with AI Assistant in Adobe Journey Optimizer B2B Edition 
 * The marketing objective/prompt that you define is a key determinant of the quality of the generated content. Use a well-defined prompt for the GenAI model to interpret accurately.
 * Upload brand assets to have accurate, on brand content. Without these assets, content is based on publicly available information.
    * The uploaded assets can be in the following formats: PDF, JPEG, PNG, or ZIP files (containing supported file formats).
-   * The maximum size for an uploaded brand asset is 50MB. Larger files or large quantities of images may work, but the processing time is increased.
+   * The maximum size for an uploaded brand asset is 50 MB. Larger files or large quantities of images may work, but the processing time is increased.
 * Use Adobe Journey Optimizer B2B Edition authored email templates, preferably the built-in or sample templates, a brand specific template, or custom template to create your email content. Email templates with up to eight to ten images are recommended.
-* Make sure to report any problematic output using the thumb up, thumb down, or flag icons against a generated variant.
+* Make sure to report any problematic output using the thumb down or flag icons against a generated variant.
 * Your use of AI Assistant is subject to the [Adobe Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
 The following limitations apply to AI Assistant in Adobe Journey Optimizer B2B Edition for email content generation:
@@ -32,9 +32,9 @@ The following limitations apply to AI Assistant in Adobe Journey Optimizer B2B E
 * GenAI content might not be accurate &#8212; share your feedback so that Adobe engineers can refine the models.
 * You can upload multiple brand assets, but can leverage only one for a specific generation.
 
-## Generate email content with AI Assistant
+## Email content generation with AI Assistant
 
-After you create and personalize your emails, use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your content to the next level.
+After you [create and personalize your emails](./email-authoring.md), use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your content to the next level.
 
 AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement.
 
@@ -54,27 +54,33 @@ Select the prompt that best reflects your intended goals and add the needed valu
 
 ### Buying group roles
 
-   Adobe Journey Optimizer B2B Edition offers five standard B2B buying group roles out-of-the-box. Each buying group role has a distinct messaging focus:
+Adobe Journey Optimizer B2B Edition offers five standard B2B buying group roles out-of-the-box. Each buying group role has a distinct messaging focus:
 
-   | Role | Messaging focus |
-   | ---- | --------------- |
-   | Executive Steering Committee | Product information <br/>Pricing  <br/>Technical integration details  <br/>Product features and functions |
-   | Influencer | Proof of quality <br/>Ease of implementation <br/>Subject matter expertise <br/>Competitive advantages |
-   | Decision maker | Return on investment <br/>Financial value (RoI) <br/>Customer stories |
-   | Practitioner | Ease of use <br/>Product features and functionality <br/>Product compatibility <br/>Ease of product integration |
-   | Champion | Educational content <br/>Thought leadership content <br/>Customer stories |
+| Role | Messaging focus |
+| ---- | --------------- |
+| Executive Steering Committee | Product information <br/>Pricing  <br/>Technical integration details  <br/>Product features and functions |
+| Influencer | Proof of quality <br/>Ease of implementation <br/>Subject matter expertise <br/>Competitive advantages |
+| Decision maker | Return on investment <br/>Financial value (RoI) <br/>Customer stories |
+| Practitioner | Ease of use <br/>Product features and functionality <br/>Product compatibility <br/>Ease of product integration |
+| Champion | Educational content <br/>Thought leadership content <br/>Customer stories |
 
-   Choosing one of these buying group roles automatically customizes the output based on the characteristics and topics of interest for each of these roles.
+Choosing one of these buying group roles automatically customizes the output based on the characteristics and topics of interest for each of these roles.
 
-### Full email generation
-
-The following steps describe the task sequence for using AI Assistant to refine an existing email template:
+### Generate email content
 
 1. Create an email from an Account Journey and click **[!UICONTROL Open Email Designer]** or **[!UICONTROL Add Email Content]**.
 
 1. Select and open an email template in the visual email designer.
 
 1. Personalize the email as needed for the journey node.
+
+1. Select one of the following tabs to learn how to use AI Assistant in your email authoring.
+
+>[!BEGINTABS]
+
+>[!TAB Full email generation]
+
+The following steps describe the task sequence for using AI Assistant to refine an existing email template:
 
 1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
@@ -117,13 +123,13 @@ The following steps describe the task sequence for using AI Assistant to refine 
 
 1. Click **[!UICONTROL Select]** to replace the template contents with the selected variant and return to the email designer.
 
-### Text generation
+>[!TAB Text generation]
 
 The following steps describe the task sequence for using AI Assistant to refine an existing email template or enhance the text content for an existing email:
 
 1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
-1. Select a _Text_ component to target the specific content and access the AI Assistant menu.
+1. Select a _Text_ component to target the specific content.
 
    The AI Assistant settings on the right reflect _Generation settings (text)_.
 
@@ -139,7 +145,7 @@ The following steps describe the task sequence for using AI Assistant to refine 
 
    * Click **[!UICONTROL Upload brand asset]** to add the brand asset file.
 
-1. Select the **[!UICONTROL Buying group role]** to use as the target audience for the generated text. 
+1. Select the **[!UICONTROL Buying group role]** to use as the target audience for the generated text.
 
 1. If needed, use the language and messaging options to tailor your content:
 
@@ -169,15 +175,15 @@ The following steps describe the task sequence for using AI Assistant to refine 
 
 1. When you have the content that you want, click **[!UICONTROL Select]**.
 
-### Image recommendations
+>[!TAB Image recommendations]
 
 You can use AI Assistant to optimize and improve your assets and ensure a more user-friendly experience. The following steps describe the task sequence for using AI Assistant to enhance the image content of the email:
 
-1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
-
 1. Select an _Image_ component to target the specific content and access the AI Assistant menu.
 
-   The settings on the right change to reflect _[!UICONTROL Generation settings (image)]_.
+1. Access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
+
+   The settings on the right reflect _[!UICONTROL Generation settings (image)]_.
 
 1. To fine tune the asset, enter a description of what you want in the **[!UICONTROL Prompt]** field.
 
@@ -210,3 +216,5 @@ You can use AI Assistant to optimize and improve your assets and ensure a more u
 1. Browse through the _[!UICONTROL Variations]_ and select the one that is the best fit for the email.
    
    To view a full-screen version of the selected variation, click **[!UICONTROL Preview]**.
+
+>[!ENDTABS]
