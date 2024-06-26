@@ -32,17 +32,9 @@ The following limitations apply to AI Assistant in Adobe Journey Optimizer B2B E
 * GenAI content might not be accurate &#8212; share your feedback so that Adobe engineers can refine the models.
 * You can upload multiple brand assets, but can leverage only one for a specific generation.
 
-## Email content generation with AI Assistant
-
-After you [create and personalize your emails](./email-authoring.md), use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your content to the next level.
-
-AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement.
-
-With your email campaigns, you can use AI Assistant to generate full email, text or images. The following sections provide step-by-step walkthroughs for using AI Assistant in Adobe Journey Optimizer B2B Edition.
-
 >[!BEGINSHADEBOX]
 
-### Prompt Library
+## Prompt Library
 
 An effective prompt is essential for generating the best possible content. If you need assistance with crafting your prompt, access the _Prompt Library_. This library provides a diverse range of prompt ideas to improve the content generation.
 
@@ -52,7 +44,7 @@ Select the prompt that best reflects your intended goals and add the needed valu
 
 >[!ENDSHADEBOX]
 
-### Buying group roles
+## Buying group roles
 
 Adobe Journey Optimizer B2B Edition offers five standard B2B buying group roles out-of-the-box. Each buying group role has a distinct messaging focus:
 
@@ -197,6 +189,8 @@ An email preheader is the short summary text that follows the subject line when 
 >[!ENDTABS]
 
 ## Generate email body content with AI Assistant
+
+## Email content generation with AI Assistant
 
 After you [create and personalize your email](./email-authoring.md#create-the-email-content), use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your email body content to the next level.
 
