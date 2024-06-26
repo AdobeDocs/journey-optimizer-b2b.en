@@ -64,7 +64,7 @@ When you [add an email action](./email-authoring.md#add-an-email-action-in-an-ac
 
 1. Create an email from an account journey or open an existing email from a journey node.
 
-   The email preview page is displayed with the _[!UICONTROL Email Properties]_ on the right.
+   The email preview page is displayed with the _[!UICONTROL Email properties]_ on the right.
 
 1. Select any of the following tabs to learn how to use AI Assistant in your email property authoring.
 
@@ -74,13 +74,13 @@ When you [add an email action](./email-authoring.md#add-an-email-action-in-an-ac
 
 The following steps describe the task sequence for using AI Assistant to generate an optimized subject line for your email:
 
-1. In the _[!UICONTROL Email Properties]_, click the AI Assistant icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right of the **[!UICONTROL Subject line]** field.
+1. In the _[!UICONTROL Email Properties]_, click the AI Assistant icon ( ![AI Assistant access icon](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) at the right of the **[!UICONTROL Subject line]** field.
 
-   ![AI Assistant access for email subject line](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="no"}
+   ![AI Assistant access for email subject line](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
    The AI Assistant pop-up opens with the generation settings for the email subject line. 
    
-   Depending on the email content that is associated with the email or how you want to target the subject line, there are a couple of options for generating subject line text:
+   Depending on the email content that is associated with the email or how you want to use the subject line to fit your purpose, there are a couple of options for generating subject line text:
 
    * You can immediately click **[!UICONTROL Generate]** without a prompt or a brand asset to use the existing email body as the context for subject line generation.
 
@@ -132,9 +132,9 @@ The following steps describe the task sequence for using AI Assistant to generat
 
 An email preheader is the short summary text that follows the subject line when an email is viewed in the inbox. It is an optional element for an email, but a great opportunity to improve engagement. The following steps describe the task sequence for using AI Assistant to generate an optimized preheader for your email:
 
-1. In the Email Properties, select the **[!UICONTROL Preheader]** checkbox and click the AI Assistant icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
+1. In the Email Properties, select the **[!UICONTROL Preheader]** checkbox and click the AI Assistant icon ( ![AI Assistant access icon](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) at the right.
 
-   ![AI Assistant access for email preheader](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="no"}
+   ![AI Assistant access for email preheader](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
 
    This opens the AI Assistant pop-up with the generation settings for the email preheader.
 
@@ -190,8 +190,6 @@ An email preheader is the short summary text that follows the subject line when 
 
 ## Generate email body content with AI Assistant
 
-## Email content generation with AI Assistant
-
 After you [create and personalize your email](./email-authoring.md#create-the-email-content), use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your email body content to the next level.
 
 In the email designer, AI Assistant can help you optimize the impact of your deliveries by generating the full email body, targeted text content, and recommendations for images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement.
@@ -212,9 +210,9 @@ The following steps describe the task sequence for using AI Assistant to refine 
 
 1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
-   The AI Assistant settings on the right reflect _Generation settings (full email)_.
+   ![AI Assistant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
-   ![AI Assistant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="no"}
+   The AI Assistant settings on the right reflect _Generation settings (full email)_.
 
 1. In the **[!UICONTROL Prompt]** field, enter a description of what you want to generate.
 
@@ -256,6 +254,8 @@ The following steps describe the task sequence for using AI Assistant to refine 
 The following steps describe the task sequence for using AI Assistant to refine an existing email template or enhance the text content for an existing email:
 
 1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
+
+   ![AI Assistant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 1. Select a _Text_ component to target the specific content.
 
@@ -301,16 +301,18 @@ The following steps describe the task sequence for using AI Assistant to refine 
 
    ![AI Assistant preview of text variantion and refinement options](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. When you have the content that you want, click **[!UICONTROL Select]**.
+1. When you have the content that you want, click **[!UICONTROL Select]** to replace the text with the selected variant and return to the email designer.
 
 >[!TAB Image recommendations]
 
 You can use AI Assistant to optimize and improve your assets and ensure a more user-friendly experience. The following steps describe the task sequence for using AI Assistant to enhance the image content of the email:
 
-1. Select an _Image_ component to target the specific content and access the AI Assistant menu.
-
 1. Access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
+   ![AI Assistant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+
+1. Select an _Image_ component to target the specific content and access the AI Assistant menu.
+   
    The settings on the right reflect _[!UICONTROL Generation settings (image)]_.
 
 1. To fine tune the asset, enter a description of what you want in the **[!UICONTROL Prompt]** field.
@@ -344,5 +346,7 @@ You can use AI Assistant to optimize and improve your assets and ensure a more u
 1. Browse through the _[!UICONTROL Variations]_ and select the one that is the best fit for the email.
    
    To view a full-screen version of the selected variation, click **[!UICONTROL Preview]**.
+
+1. Highlight the image that you want and click **[!UICONTROL Select]** to replace the image or placeholder with the selected item and return to the email designer.
 
 >[!ENDTABS]
