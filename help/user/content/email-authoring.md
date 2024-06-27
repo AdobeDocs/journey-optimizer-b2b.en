@@ -52,6 +52,10 @@ To configure and personalize the subject line with the expression editor, click 
 
 After you create and personalize the email content, you can export the content for validation or for later use. Click **[!UICONTROL Export HTML]** to save the content as a .zip file that includes your HTML and assets.
 
+>[!TIP]
+>
+>Use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your content to the next level. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. [Learn more](./ai-assistant-emails.md)
+
 ### Design your email from scratch
 
 1. From the Designer home page, select the **[!UICONTROL Design from scratch]** option.
@@ -121,7 +125,7 @@ You can choose from:
 
 * Saved templates. 
    
-* A custom template that you either created from scratch using the Templates menu or saved from an email in a journey using the _[!UICONTROL Save as content template]_ option.
+* A custom template that you either created from scratch using the _Templates_ menu or saved from an email in a journey using the _[!UICONTROL Save as content template]_ option.
 
 _To start building your content with one of the sample or saved templates:_
 

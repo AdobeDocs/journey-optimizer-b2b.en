@@ -15,17 +15,23 @@ Here is a sampling of the latest enhancements in the Journey Optimizer B2B Editi
 
 >[!TAB Beta release is available]
 
-Join our Beta program to discover the many features included in the Adobe Journey Optimizer B2B Edition Beta release.
+Join the Beta program to discover the many features included in the Adobe Journey Optimizer B2B Edition Beta release.
 
 [!BADGE Learn more]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta release"}
 
->[!TAB Buying Groups]
+>[!TAB AI Assistant for email content]
 
-Create buying groups using unified B2B data from across your enterprise, align them to your company's offerings, and automate how you define, identify and target the right members for each role to scale the most precise targeting for your customer journeys
+Elevate your content to the next level with AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and even images specifically tailored to resonate with your audience.
+
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Learn about AI Assistant for email"}
+
+>[!TAB Buying groups]
+
+Create buying groups from unified B2B data from across your enterprise, align them to your company's offerings, and automate how you define, identify, and target the right members for each role to scale the most precise targeting for your customer journeys.
 
 [!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Learn about Buying Groups"}
 
->[!TAB Account Journeys]
+>[!TAB Account journeys]
 
 Build tailored journeys for buying groups within target accounts that automate hyper-personalized sales and marketing engagement to streamline demand generation, qualification and a seamless, coordinated buying group experience. 
 
@@ -77,7 +83,7 @@ Build tailored journeys for buying groups within target accounts that automate h
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Journey content</strong><br/><a href="./content/email-authoring.md">Email</a><br/><a href="./content/sms-authoring.md">SMS</a>
+      <strong>Journey content</strong><br/><a href="./content/email-authoring.md">Email authoring</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/sms-authoring.md">SMS authoring</a>
     </td>
   </tr>
   <tr style="border: 0;">
