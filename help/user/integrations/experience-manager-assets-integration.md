@@ -11,9 +11,7 @@ Adobe Experience Manager Assets can connect to Adobe Experience Manager Assets a
 
 Learn more in the [Adobe Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview).
 
-Adobe Experience Manager Assets can be accessed directly within Adobe Journey Optimizer B2B Edition from the **[!UICONTROL Assets]** item in the left navigation.
-
-Depending on your contract, Adobe Experience Manager Assets as a Cloud Service can be accessed directly from Adobe Journey Optimizer through the left menu Assets section. You can also access assets and folders when designing an email content.
+Adobe Experience Manager Assets can be accessed directly within Adobe Journey Optimizer B2B Edition from the **[!UICONTROL Assets]** item in the left navigation. You can also access assets and folders when designing an email content.
 
 >[!NOTE]
 >
