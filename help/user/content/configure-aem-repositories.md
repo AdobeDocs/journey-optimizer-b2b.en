@@ -1,8 +1,7 @@
 ---
 title: Configure Experience Manager asset repositories
 description: Learn about asset management.
-feature: Assets, Content
-role: Administrator
+feature: Assets, Integrations
 ---
 # Configure Experience Manager asset repositories
 
