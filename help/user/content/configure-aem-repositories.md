@@ -6,7 +6,7 @@ role: Administrator
 ---
 # Configure Experience Manager asset repositories
 
-Adobe Journey Optimizer B2B Edition integrates with Experience Manager Assets, allowing more than just using assets like emails within the journey. It ensures transparency by exchanging information with Experience Assets. You would need to configure the connection to Adobe Experience Assets inside the Configuration section to enable this.
+Adobe Journey Optimizer B2B Edition integrates with Adobe Experience Manager Assets as a Cloud Service, allowing more than just using assets like emails within an account journey. It ensures transparency by exchanging information with Experience Manager Assets. You must configure the connection to Adobe Experience Assets to enable this capability.
 
 Adobe Experience Manager Cloud Manager is organized into programs, and each program has multiple environments and repositories ([Learn more](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). When you configure Adobe Experience Manager Assets in Adobe Journey Optimizer B2B Edition, you set up connections to each repository that you want to use for accessing digital assets.
 

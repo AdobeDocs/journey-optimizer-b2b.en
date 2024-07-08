@@ -22,10 +22,12 @@ badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA d
     + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Content management {#content-management}
-    + [Digital asset integrations](./integrations/experience-manager-assets-integration.md)
-    + Experience Manager Assets {#aem-assets}
-        + [Configure Assets repositories](./content/configure-aem-repositories.md)
-        + [Access digital assets](./content/aem-assets.md)
+   + Assets {#assets}
+      + [Overview](./content/assets-overview.md)
+      + [Marketo Engage Design Studio](./content/marketo-engage-design-studio.md)
+      + Adobe Experience Manager Assets {#aem-assets}
+         + [Configure AEM Assets repositories](./content/configure-aem-repositories.md)
+         + [Work with AEM digital assets](./content/aem-assets.md)
 + Insights dashboards {#dashboards}
     + [Buying Groups](./dashboards/buying-groups-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
