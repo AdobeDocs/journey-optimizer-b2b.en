@@ -6,43 +6,15 @@ exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
 ---
 # Account Journey nodes
 
-After you [create an account journey](journey-overview.md#create-an-account-journey) and [add the audience](journey-overview.md#add-the-account-audience-for-your-journey), build out the journey using nodes.
+After you [create an account journey](journey-overview.md#create-an-account-journey) and [add the audience](journey-overview.md#add-the-account-audience-for-your-journey), build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases.
 
 ## Node types
 
-| Node type | Function |
-| --------- | ------- |
-| [Account Audience](journey-overview.md#add-the-account-audience-for-your-journey) | Input account audience for the journey. This node is always the first node and is automatically created by default |
-| [Action on people](#add-a-people-action) | Send email |
-| | Change Score |
-| | Assign Person to Buying Group |
-| | Remove Person from Buying Group |
-| | Add to Marketo Campaign |
-| | Create Lead Interesting Moment |
-| [Action on accounts](#add-an-account-action) | Change Data Value |
-| | Remove Account from (current) Journey |
-| | Add Account to (other) Journey |
-| | Create Account Interesting Moment |
-| | Add to Marketo Account List (implicit) |
-| [Events for people](#add-a-people-event) | Data Value Changes |
-| | Score change |
-| | Opens Email |
-| | Clicks link in email |
-| | Clicks link on web page |
-| | Assigned to Buying Group |
-| | Removed from Buying Group |
-| [Events for accounts](#add-an-account-event) | Change in Account Data Value |
-| | Has interesting moment |
-| [Split by people](#add-a-split-path-by-people-node) | Lead Attributes |
-| | Data Value Changed (such as filter on activity history) |
-| | Opened Email |
-| | Clicked link in email |
-| | Clicked link on web page |
-| | Had Interesting moment |
-| | Member of Buying Group |
-| [Split by accounts](#add-a-split-path-by-account-node) | Change in Account Data Value (such as filter on activity history) |
-| [Wait](#wait) | Available on account level |
-| [Merge paths](#merge-paths) | |
+Build your account journey by combining the different action, event, and orchestration nodes as a multi-step, cross-channel scenario. Each node of a jouney represents a step along a logical path.
+
+## Account Audience node
+
+The [Account Audience](journey-overview.md#add-the-account-audience-for-your-journey) node defines the input account audience (created and managed in Adobe Experience Platform) for the journey. This node is always the first node and is automatically created by default.
 
 ## Take an action
 
@@ -51,6 +23,24 @@ Execute an action like send an email, change score, and so on.
 **Action on accounts**: The action is applied to all people that are part of accounts on this path.
 
 **Action on people**: The action is applied to all people on this path. An action on people can be used within the split path by people or split path by accounts.
+
+
+| Node context | Function | Constraints |
+| ------------ | -------- | ----------- |
+| [People](#add-a-people-action) | Assign to Buying Group | Select solution interest<br/>Select role |
+| | Remove from Buying Group | Select solution interest |
+| | Send SMS | Create SMS |
+| | Add to Marketo Engage Request campaign | Select Marketo Engage workspace<br/>Select Request campaign |
+| | Change People Partition in Marketo Engage | New partition |
+| | Person Interesting Moment | Type<br/>Description |
+| | Change Score | Score name<br/>Change |
+| | Send email | Create new email<br/>Select email from Marketo Engage |
+| [Accounts](#add-an-account-action) | Add Account to (other) Journey | Select live Account Journey |
+| | Remove Account from (current) Journey | Select live Account Journey |
+| | Account Interesting Moment | Type (email, milestone, or web)<br/>Description (optional)|
+| | Account Change Data Value | Select attribute<br/>New value |
+<!--| | Send Sales Alert | | -->
+<!--| | Update Buying Group Status | Solution Interest<br/>Status(required, 50 characters max) | -->
 
 ### Add an account action
 
@@ -78,6 +68,7 @@ Execute an action like send an email, change score, and so on.
 
 ![Journey node - take an action on people](./assets/node-take-action-people.png){width="700" zoomable="yes"}
 
+
 ## Listen for an event
 
 Move your audience forward to the next step in the journey when an event occurs.
@@ -88,6 +79,20 @@ Move your audience forward to the next step in the journey when an event occurs.
 **Listen to events on accounts**: If at least one person from an account triggers an event, the account moves forward to the next step on the journey.
 
 **Listen to events on people**: Events on people can only be applied on an account path; it is not available for a split by people node.
+
+| Node context | Function | Constraints |
+| ------------ | -------- | ----------- |
+| [People](#add-a-people-event) | Data Value Changes | Attribute<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| | Clicks link in email | Email<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| | Assigned to Buying Group | Solution interest<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| | Opens Email | Email<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| | Score is changed | Score name<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| | Removed from Buying Group | Solution interest<br/>Date of activity (optional)<br/>Timeout (optional) |
+| [Accounts](#add-an-account-event) | Change in Buying Group Status | Solution interest<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| | Change in Completeness Score | Solution interest<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| | Account had interesting moment | Type<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| | Change in Engagement Score | Solution interest<br/>Additional constraints (optional)<br/>Timeout (optional)  |
+| | Change in Account Data Value | Attribute<br/>Additional constraints (optional)<br/>Timeout (optional) |
 
 ### Add an account event
 
@@ -131,9 +136,13 @@ If needed, define the amount of time the journey waits for the event. The journe
 
    ![Journey event node - set timeout path](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Split paths
+## Split Paths nodes
 
-Split your audience based on filter conditions. 
+Split your audience based on filter conditions.
+
+>[!NOTE]
+>
+>A maximum of 25 paths are supported.
 
 **Split paths by accounts**: Paths split by accounts can include both account and people actions and events, and these paths can be split further.
 
@@ -156,9 +165,16 @@ _How does a split path by people node work?_
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
->[!NOTE]
->
->A maximum of 25 paths are supported.
+| Node context | Function | Constraints |
+| ------------ | -------- | ----------- |
+| [People](#add-a-split-path-by-people-node) | Lead Attributes | |
+| | Data Value Changed (such as filter on activity history) | |
+| | Opened Email | |
+| | Clicked link in email | |
+| | Clicked link on web page | |
+| | Had Interesting moment | |
+| | Member of Buying Group | |
+| [Accounts](#add-a-split-path-by-account-node) | Change in Account Data Value (such as filter on activity history) | |
 
 ### Add a split path by account node
 
@@ -223,6 +239,13 @@ When you have conditions defined for each path that you're splitting your audien
 >[!NOTE]
 >
 >When you split the audience by people, you can only add people actions.
+
+## Wait nodes
+
+## Merge paths nodes
+
+| [Wait](#wait) | Available on account level | |
+| [Merge paths](#merge-paths) | | |
 
 ## Wait
 
