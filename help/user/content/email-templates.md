@@ -86,6 +86,8 @@ This action copies the content into the visual content designer, where you can e
 
 Adobe Journey Optimizer B2B Edition offers a selection of email templates offered out-of-the-box, which can be used for creating emails and email templates.
 
+>[!ENDTABS]
+
 ## Add structure and content
 
 Start designing your content by dragging and dropping structures from the **[!UICONTROL Components]** menu into the canvas to define the layout of your email.
