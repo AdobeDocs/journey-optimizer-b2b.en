@@ -21,6 +21,8 @@ badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA d
     + [Email authoring](./content/email-authoring.md)
     + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
     + [SMS authoring](./content/sms-authoring.md)
++ Content management {#content-management}
+    + [Email templates](./content/email-templates.md)
 + Insights dashboards {#dashboards}
     + [Buying Groups](./dashboards/buying-groups-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
