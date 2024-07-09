@@ -35,7 +35,7 @@ The first page provides guidance about the prerequisites/components that are req
 
    ![Click Create buying groups](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
-1. After you select the Solution interest and the account audience, click **[!UICONTROL Create]**.
+1. After you select the solution interest and the account audience, click **[!UICONTROL Create]**.
 
 ## Confirmation
 

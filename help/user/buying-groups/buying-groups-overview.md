@@ -28,8 +28,8 @@ You can increase marketing effectiveness by establishing buying groups in Journe
 1. Create buying groups.
 
    Options:
-   * Use Solution Interest and role template
-   * Use Third-party import
+   * Use [solution interest](./solution-interests.md) and [role template](./buying-groups-role-templates.md)
+   * Use third-party import
    * Generate from AI/ML
 
 1. Identify missing people.
@@ -52,6 +52,27 @@ You can increase marketing effectiveness by establishing buying groups in Journe
 
 1. On the left navigation, click **[!UICONTROL Buying groups]**.
 
-1. Use the 
+   The page is organized as tabs:
 
-![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
+   * Overview
+   * Browse
+   * Solution interest
+   * Roles Teamplates
+
+1. Select the **[!UICONTROL Browse]** tab to view the list of existing buying groups.
+
+   ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
+
+<!-- 
+
+Buying group engagement score
+
+Calculated based on the activities a member of the buying group performs.
+Calculation logic - Final_Buying Group Engagement Score.xlsx
+Engagement score will be a number on the UI.
+Score will be rounded off without any decimals. E.g. if score is 75.89999, UI will display 76.
+There is no upper limit for the score for GA.
+Daily frequency cap of 20.
+Activity look back duration = 30 days for GA.
+Any role changes to a template requires recalculation of engagement score, for all buying groups created using that template.
+Only inbound activities will be accounted towards calculating engagement score. -->
