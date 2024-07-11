@@ -11,7 +11,7 @@ For B2B sales and marketing activities, accounts are key to any strategy. Each a
 
 ![Account roles diagram](assets/account-roles-diagram.png){width="800"}
 
-Within the account, there could be a subset of people who comprise the _buying group_. These are people within an account that will ultimately make the purchase decision, so they need special attention from the marketer and could need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Offer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group. 
+Within the account, there could be a subset of people who comprise the _buying group_. These are people within an account that ultimately make the purchase decision, so they need special attention from the marketer and could need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Officer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group. 
 
 ## Key components
 
@@ -44,35 +44,65 @@ You can increase marketing effectiveness by establishing buying groups in Journe
    * Send to LinkedIn Destination
    * Enrich with Zoominfo
 
-1. Add to account journeys.
+1. Use in account journeys.
 
 ## Access buying groups and components
 
-1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
+On the left navigation, click **[!UICONTROL Buying groups]**.
 
-1. On the left navigation, click **[!UICONTROL Buying groups]**.
+The page is organized as tabs:
 
-   The page is organized as tabs:
+| Tab | Description |
+| --- | ----------- |
+| [!UICONTROL Overview] | This tab is the default and displays the [Buying groups dashboard](../dashboards/buying-groups-dashboard.md). |
+| [!UICONTROL Browse] | View the list of existing buying groups. Search by buying group name. Filter by solution interest. Drill in to buying group details. Create a buying group. Delete a buying group. |
+| [!UICONTROL Solution interests] | View the list of existing buying groups. Search by buying group name. Access and edit solution interest properties. Create a solution interest. Delete a solution interest.|
+| [!UICONTROL Roles Templates] |  View the list of existing roles templates. Search by roles template name. Access and edit roles template properties and conditions. Create a roles template. Delete a roles template.|
 
-   * Overview
-   * Browse
-   * Solution interest
-   * Roles Teamplates
+## Buying group search and filter
 
-1. Select the **[!UICONTROL Browse]** tab to view the list of existing buying groups.
+Use the _[!UICONTROL Browse]_ tab to view the list of buying groups. You can search by name and filter the list by solution interest.
 
-   ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
+![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
-<!-- 
+## Buying group details
 
-Buying group engagement score
+To access details for a buying group, click the buying group name from the _[!UICONTROL Browse]_ tab.
 
-Calculated based on the activities a member of the buying group performs.
-Calculation logic - Final_Buying Group Engagement Score.xlsx
-Engagement score will be a number on the UI.
-Score will be rounded off without any decimals. E.g. if score is 75.89999, UI will display 76.
-There is no upper limit for the score for GA.
-Daily frequency cap of 20.
-Activity look back duration = 30 days for GA.
-Any role changes to a template requires recalculation of engagement score, for all buying groups created using that template.
-Only inbound activities will be accounted towards calculating engagement score. -->
+![Buying group details](assets/buying-group-details.png){width="600" zoomable="yes"}
+
+### Buying group completeness score
+
+The completeness score is used to determine if the buying group is complete, which means that it has the right members assigned to the roles and is ready to be used in an account journey. This score is a percentage based on the number of roles within the buying group and how many roles are assigned with at least one lead.
+
+For example, if there are four roles within a buying group and three out of the four roles are assigned to at least one lead, the buying group is 75% complete. 
+
+The buying group completeness score is re-calculated every time a buying group is created or updated.
+
+### Buying group engagement score
+
+The engagement score is used to evaluate the effectiveness of your marketing programs based on buying group behavioral activities tracked across journeys. This score is derived from activity over the past 30 days. Any role change to a template requires re-calculation of the engagement score for all buying groups created using that template. Only inbound activities are evaluated in calculating an engagement score.
+
+The displayed score is rounded off (for example, a score of 75.89999 is displayed as 76), there is no upper limit for the score for GA, and there is a daily frequency cap of 20.
+
+The following examples illustrate the calculation of the engagement score:
+
+**Buying group 1** - engagement score = 22.15
+
+| User | Role | Role Weight | Action | Today | Yesterday | Action Weight | Score |
+| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
+| Adam | Decision Maker | 80% | Visited Website | 1000 | 2| 1 | 22 |
+| | | | Clicked Email | 1 | 0 | 1 | 1 |
+| | | | Downloaded Pub | 1 | 3 | 1 | 4 |
+| Bob | Influencer | 15% | Visited Website | 1 | 2 | 1 | 3 |
+| Calvin | Practitioner | 5% | Visited Website | 1 | 1 | 1 | 2 |
+
+**Buying group 2** - engagement score = 8.55
+
+| User | Role | Role Weight | Action | Today | Yesterday | Action Weight | Score |
+| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
+| Alvin | Decision Maker | 80% | Visited Website | 3 | 2 | 1 | 5 |
+| | | | Clicked Email | 1 | 0 | 1 | 1 |
+| | | | Downloaded Pub | 1 | 3 | 1 | 4 |
+| Bret | Influencer | 15% | Visited Website | 1 | 2 | 1 | 3 |
+| Cam | Practitioner | 5% | Visited Website | 1 | 1 | 1 | 2 |

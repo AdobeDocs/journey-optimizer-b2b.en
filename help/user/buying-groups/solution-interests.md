@@ -8,7 +8,7 @@ exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
 
 Before you create Buying Groups, you should know what you are selling and who you want to target. Your Marketing and Sales strategy should be aligned so that you can add the Solution Interest for the Buying Groups.
 
-## Access and browse soultion interests
+## Access and browse solution interests
 
 1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
 
@@ -20,11 +20,11 @@ Before you create Buying Groups, you should know what you are selling and who yo
 
    The tab provides an inventory list of all existing solution interests. It provides information as _[!UICONTROL Name]_, _[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_, _[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_, _[!UICONTROL Created on]_, and _[!UICONTROL Created by]_ in column format.
 
-   The list is sorted by the _[!UICONTROL Last updated on]_ column by default. Click the column title in the header to toggle the sort bewteen descending and ascending.
+   The list is sorted by the _[!UICONTROL Last updated on]_ column by default. Click the column title in the header to toggle the sort between descending and ascending.
    
 ## View and delete buying group jobs
 
-From the _[!UICONTROL Solution interest]_ tab, the **[!UICONTROL Buying group creation jobs]** column displays the count of jobs created for each solution interest. The number is a link and clicking it opens a  dialog that displays the list of jobs created for the solution interest.
+From the _[!UICONTROL Solution interest]_ tab, the **[!UICONTROL Buying group creation jobs]** column displays the count of jobs created for each solution interest. The number is a link and clicking it opens a dialog that displays the list of jobs created for the solution interest.
    
 ![Buying group jobs for solution interest](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -32,11 +32,11 @@ You can delete a buying group job by clicking the ellipsis (...) next to the job
 
 ## Create a solution interest
 
-Before you create a Solution Interest, you must have a live (published) roles template that defines the roles you want to target. See [Buying Group role templates](./buying-groups-role-templates.md) for more information about creating a roles template and publishing a roles template.
+Before you create a solution interest, you must have a live (published) roles template that defines the roles you want to target. See [Buying Group role templates](./buying-groups-role-templates.md) for more information about creating a roles template and publishing a roles template.
 
-1. From the _[!UICONTROL Solution Interest]_ tab, click **[!UICONTROL Create solution interest]** at the top-right corner.
+1. From the _[!UICONTROL Solution Interest]_ tab, click **[!UICONTROL Create solution interest]** at the top-right.
 
-1. Enter a unique a **[!UICONTROL Name]** (required) and a **[!UICONTROL Description]** (optional).
+1. Enter a unique **[!UICONTROL Name]** (required) and a **[!UICONTROL Description]** (optional).
 
 1. Choose a **[!UICONTROL Roles Template]** (required).
 
@@ -48,6 +48,33 @@ Before you create a Solution Interest, you must have a live (published) roles te
 
    Your new Solution Interest is displayed in the Solution Interests  
 
->[!NOTE]
->
->Solution Interest edit and delete actions are NOT available for Beta.
+## Edit a solution interest
+
+At any time, you can change the name and description for a solution interest. The roles template cannot be changed due to the dependency of buying groups based on the solution interest and role template pairing. In this case, you must create a new solution interest using another roles template.
+
+1. From the _[!UICONTROL Solution interest]_ tab, use one of the following methods to open the properties for the solution interest that you want to edit:
+
+   * Click the solution interest name.
+   * Click the ellipsis (**...**) next to it and choose **[!UICONTROL Edit]**.
+
+   ![Solution interest more menu](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
+
+1. If needed, update the name (required and unique) and description (optional).
+
+1. If needed, change the **[!UICONTROL Update existing buying groups]** setting.
+
+   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 24-hour sync cycle.
+
+1. Click **[!UICONTROL Save]**.
+
+## Delete a solution interest
+
+Any solution interest that is currently in-use by any buying group job or account journey cannot be deleted. Also, a deleted solution interest cannot be retrieved.
+
+1. From the _[!UICONTROL Solution interest]_ tab, click the ellipsis (**...**) next to the solution interest and choose **[!UICONTROL Delete]**.
+
+   This action opens a confirmation dialog.
+
+   If the solution interest is currently in use by an account journey or buying group job, the action opens an informational dialog that alerts you that it cannot be deleted. Click [!UICONTROL OK], which aborts the deletion.
+   
+1. Click **[!UICONTROL Delete]** to confirm deletion, or you can abort the process by clicking _[!UICONTROL Cancel]_.
