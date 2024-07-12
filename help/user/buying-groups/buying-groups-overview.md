@@ -7,11 +7,11 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 
 # Buying groups
 
-For B2B sales and marketing activities, accounts are key to any strategy. Each account has a group of people associated with it, and these people may be employees of the account or contractors who work with the account. Accounts are hierarchical, and different products might be sold at different levels in the hierarchy. For example, Adobe Experience Platform might be sold at the corporate level to a top level account, while Adobe Photoshop might be sold to an account that represents a division or department within an organization, such as a design department within a larger corporation.
+For B2B sales and marketing activities, accounts are key to any strategy. Each account has a group of people associated with it, and these people may be employees of the account or contractors who work with the account. Accounts are hierarchical, and different products might be sold at different levels in the hierarchy. For example, Adobe Experience Platform might be sold at the corporate level to a top-level account, while Adobe Photoshop might be sold to an account that represents a division or department within an organization, such as a design department within a larger corporation.
 
 ![Account roles diagram](assets/account-roles-diagram.png){width="800"}
 
-Within the account, there could be a subset of people who comprise the _buying group_. These are people within an account that ultimately make the purchase decision, so they need special attention from the marketer and could need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Officer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group. 
+Within the account, there could be a subset of people who comprise the _buying group_. These people are the ones that ultimately make the purchase decision, so they need special attention from the marketer and might need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Officer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group. 
 
 ## Key components
 
@@ -44,20 +44,20 @@ You can increase marketing effectiveness by establishing buying groups in Journe
    * Send to LinkedIn Destination
    * Enrich with Zoominfo
 
-1. Use in account journeys.
+1. Use in an account journey through the associated solution interest.
 
 ## Access buying groups and components
 
-On the left navigation, click **[!UICONTROL Buying groups]**.
+On the left navigation, expand **[!UICONTROL Accounts]** and click **[!UICONTROL Buying groups]**.
 
-The page is organized as tabs:
+The _[!UICONTROL Buying groups]_ page is organized as tabs:
 
 | Tab | Description |
 | --- | ----------- |
 | [!UICONTROL Overview] | This tab is the default and displays the [Buying groups dashboard](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Browse] | View the list of existing buying groups. Search by buying group name. Filter by solution interest. Drill in to buying group details. Create a buying group. Delete a buying group. |
-| [!UICONTROL Solution interests] | View the list of existing buying groups. Search by buying group name. Access and edit solution interest properties. Create a solution interest. Delete a solution interest.|
-| [!UICONTROL Roles Templates] |  View the list of existing roles templates. Search by roles template name. Access and edit roles template properties and conditions. Create a roles template. Delete a roles template.|
+| [!UICONTROL Browse] | This tab supports the following activities: <ul><li>View the list of existing buying groups. </li><li>Search by buying group name. </li><li>Filter by solution interest. </li><li>Drill in to buying group details. </li><li>Create a buying group. Delete a buying group.</li></ul> |
+| [!UICONTROL Solution interests] | This tab supports the following activities: <ul><li>View the list of existing buying groups. </li><li>Search by buying group name. </li><li>Access and edit solution interest properties. </li><li>Create a solution interest. </li><li>Delete a solution interest. </li><li>View and delete buying group jobs. </li></ul>|
+| [!UICONTROL Roles Templates] | This tab supports the following activities: <ul><li>View the list of existing roles templates. </li><li>Search by roles template name. </li><li>Access and edit roles template properties and conditions. </li><li>Create a roles template. </li><li>Delete a roles template. </li></ul>|
 
 ## Buying group search and filter
 
