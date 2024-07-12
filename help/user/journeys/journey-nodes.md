@@ -8,22 +8,19 @@ exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
 
 After you [create an account journey](journey-overview.md#create-an-account-journey) and [add the audience](journey-overview.md#add-the-account-audience-for-your-journey), build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases.
 
-## Node types
-
 Build your account journey by combining the different action, event, and orchestration nodes as a multi-step, cross-channel scenario. Each node of a jouney represents a step along a logical path.
 
 ## Account Audience node
 
 The [Account Audience](journey-overview.md#add-the-account-audience-for-your-journey) node defines the input account audience (created and managed in Adobe Experience Platform) for the journey. This node is always the first node and is automatically created by default.
 
-## Take an action
+## Take an action 
 
 Execute an action like send an email, change score, and so on.
 
 **Action on accounts**: The action is applied to all people that are part of accounts on this path.
 
 **Action on people**: The action is applied to all people on this path. An action on people can be used within the split path by people or split path by accounts.
-
 
 | Node context | Function | Constraints |
 | ------------ | -------- | ----------- |
@@ -35,12 +32,12 @@ Execute an action like send an email, change score, and so on.
 | | Person Interesting Moment | Type<br/>Description |
 | | Change Score | Score name<br/>Change |
 | | Send email | Create new email<br/>Select email from Marketo Engage |
-| [Accounts](#add-an-account-action) | Add Account to (other) Journey | Select live Account Journey |
+| [Accounts](#add-an-account-action) | Send Sales Alert | Select solution interest<br/>Send email to|
+| | Add Account to (other) Journey | Select live Account Journey |
+| | Update Buying Group Status | Solution Interest<br/>Status (required, 50 characters max) |
 | | Remove Account from (current) Journey | Select live Account Journey |
 | | Account Interesting Moment | Type (email, milestone, or web)<br/>Description (optional)|
 | | Account Change Data Value | Select attribute<br/>New value |
-<!--| | Send Sales Alert | | -->
-<!--| | Update Buying Group Status | Solution Interest<br/>Status(required, 50 characters max) | -->
 
 ### Add an account action
 
@@ -67,7 +64,6 @@ Execute an action like send an email, change score, and so on.
 1. Select an action from the list and set any values for the action.
 
 ![Journey node - take an action on people](./assets/node-take-action-people.png){width="700" zoomable="yes"}
-
 
 ## Listen for an event
 
@@ -136,7 +132,7 @@ If needed, define the amount of time the journey waits for the event. The journe
 
    ![Journey event node - set timeout path](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Split Paths nodes
+## Split Paths
 
 Split your audience based on filter conditions.
 
@@ -165,9 +161,9 @@ _How does a split path by people node work?_
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-| Node context | Function | Constraints |
+| Node context | Path conditions | Description |
 | ------------ | -------- | ----------- |
-| [People](#add-a-split-path-by-people-node) | Lead Attributes | |
+| [People](#add-a-split-path-by-people-node) | Person attributes | |
 | | Data Value Changed (such as filter on activity history) | |
 | | Opened Email | |
 | | Clicked link in email | |
@@ -238,14 +234,7 @@ When you have conditions defined for each path that you're splitting your audien
 
 >[!NOTE]
 >
->When you split the audience by people, you can only add people actions.
-
-## Wait nodes
-
-## Merge paths nodes
-
-| [Wait](#wait) | Available on account level | |
-| [Merge paths](#merge-paths) | | |
+>When you split the audience by people, you can add only people actions.
 
 ## Wait
 
@@ -284,4 +273,3 @@ Different paths in your journey can be merged and unmerged using this node.
    You should now see that the paths are merged so that accounts from the selected paths combine to a single path and can continue to progress through the journey.
 
 1. If needed, you can unmerge paths by navigating back to the merge node properties and clearing the checkbox for any paths that you want to remove.
-
