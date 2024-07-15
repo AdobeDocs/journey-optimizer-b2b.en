@@ -27,3 +27,5 @@ badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA d
     + [Journey Overview](./dashboards/journeys-dashboard.md)
 + Integrations {#integrations}
     + [Adobe Exprience Manager Assets](./integrations/experience-manager-assets-integration.md)
++ Administration {#admin-console}
+    + [User management](./admin/user-management.md)
