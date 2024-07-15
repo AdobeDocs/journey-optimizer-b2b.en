@@ -19,6 +19,7 @@ badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA d
     + [Account journey nodes](./journeys/journey-nodes.md)
 + Journey content {#journey-content}
     + [Email authoring](./content/email-authoring.md)
+    + [Sales alert email](./content/sales-alert-email.md)
     + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Insights dashboards {#dashboards}
