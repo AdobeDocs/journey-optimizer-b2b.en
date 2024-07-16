@@ -9,6 +9,7 @@ badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA d
 
 + [Adobe Journey Optimizer B2B Edition Documentation](guide-overview.md)
 + [Login and home page](home-page.md)
++ [Account audiences](./audiences/account-audience-overview.md)
 + Buying Groups {#buying-groups}
     + [Overview](./buying-groups/buying-groups-overview.md)
     + [Solution Interests](./buying-groups/solution-interests.md)
