@@ -156,7 +156,7 @@ You can set up text message deliveries in an Account Journey when you add a _[!U
 
    When your personalization tokens are placed, click **[!UICONTROL Save]** to save changes and return to the main SMS authoring workspace. You can continue to edit the message with the tokens as needed. 
 
-1. **Add URLs to text message**.
+1. **Add URLs to the text message**.
 
    After defining your content, you can add URLs to your message by clicking the _Link_ icon.
    
@@ -175,7 +175,7 @@ You can set up text message deliveries in an Account Journey when you add a _[!U
 
 ## Set the SMS properties
 
-1. In the _[!UICONTROL SMS properties]_ section, enter a **[!UICONTROL Name]** (required, 100 cha\racter maximum) and **[!UICONTROL Description]** (optional, 300 character maximum) for your message. 
+1. In the _[!UICONTROL SMS properties]_ section, enter a **[!UICONTROL Name]** (required, 100 character maximum) and **[!UICONTROL Description]** (optional, 300 character maximum) for your message. 
 
    Alpha, numeric, special characters are allowed for these fields. The following reserved characters are **not allowed**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` and `|`.
 
@@ -192,7 +192,7 @@ You can set up text message deliveries in an Account Journey when you add a _[!U
 
    ![Take an action - send sms](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   The recipient number is always mapped to the `Lead.MainPhone` field in Marketo Engage.
+   The recipient number is always mapped to the `Lead.mobilePhone` field in Marketo Engage.
 
 ## Simulate the text message content
 
@@ -222,7 +222,7 @@ When your message content is defined, you can use test profiles to simulate (pre
 
    Select any of the leads listed on the left and the SMS preview on the page updates for the corresponding lead.
 
-   You can also select a lead from the selector above the preview space and the SMS preview on the page updates for the corresponding lead.
+   You can also select a lead from the selector above the preview space to update the SMS preview on the page for the corresponding lead.
 
 1. To exit the _[!UICONTROL Simulate Content]_ page and return back to the SMS authoring workspace, click **[!UICONTROL Close]** at the top right.
 
