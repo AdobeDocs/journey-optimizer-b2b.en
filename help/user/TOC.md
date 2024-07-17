@@ -10,7 +10,7 @@ user-guide-description: This is a description that will be displayed on the land
 + Get started {#get-started}
     + [Login and home page](home-page.md)
     + [Quick start guidance](./start/get-started.md)
-    + [Use the AI Assistant](./start/ai-assitant.md)
+    + [Use the AI Assistant](./start/ai-assistant.md)
 + [Account audiences](./audiences/account-audience-overview.md)
 + Buying Groups {#buying-groups}
     + [Overview](./buying-groups/buying-groups-overview.md)
