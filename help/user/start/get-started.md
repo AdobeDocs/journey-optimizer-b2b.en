@@ -20,7 +20,7 @@ Learn about access management in the following pages:
 
 1. **Create sandboxes** to partition your instances into separate, isolated virtual environments. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
 
-1. **Understand product profiles**. Product profiles are a set of unitary rights that allow users access to certain functionalities or objects in the interface. [Learn more]()
+1. **Understand product profiles**. Product profiles are a set of unitary rights that allow users access to certain functionalities or objects in the interface. Learn more
 
 1. Set permissions for product profiles, including sandboxes, and give access to your team members by assigning them to different product profiles. This step is performed in the Admin Console. Permissions are unitary rights that allow you to define the authorizations assigned to Product profile. Each permission is gathered under a capability, such as Journeys or Buying Groups, which represents the different functionalities or objects in Journey Optimizer B2B Edition. Learn more
 
