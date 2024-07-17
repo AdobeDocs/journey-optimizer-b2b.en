@@ -1,18 +1,20 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition Documentation
 user-guide-description: This is a description that will be displayed on the landing page.
-badgeBeta: label="Beta release" type="informative" tooltip="Beta release documentation"
-badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA documentation"
 ---
 
 # Journey Optimizer B2B Edition User Guide {#user}
 
 + [Adobe Journey Optimizer B2B Edition Documentation](guide-overview.md)
-+ [Login and home page](home-page.md)
++ [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
++ Get started {#get-started}
+    + [Login and home page](home-page.md)
+    + [Quick start guidance](./start/get-started.md)
+    + [Use the AI Assistant](./start/ai-assitant.md)
 + [Account audiences](./audiences/account-audience-overview.md)
 + Buying Groups {#buying-groups}
     + [Overview](./buying-groups/buying-groups-overview.md)
-    + [Solution Interests](./buying-groups/solution-interests.md)
+    + [Solution interests](./buying-groups/solution-interests.md)
     + [Role templates](./buying-groups/buying-groups-role-templates.md)
     + [Create buying groups](./buying-groups/buying-groups-create.md)
 + Account journeys {#account-journeys}
