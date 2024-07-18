@@ -7,7 +7,7 @@ exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
 
 # Create buying groups
 
-When the buying group is created, it is available for use in an Account Journey through the [Solution Interest](./solution-interests.md).
+After the buying group is created, it is available for use in an account journey through the [solution interest](./solution-interests.md).
 
 1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
 
@@ -35,7 +35,7 @@ The first page provides guidance about the prerequisites/components that are req
 
    ![Click Create buying groups](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
-1. After you select the Solution interest and the account audience, click **[!UICONTROL Create]**.
+1. After you select the solution interest and the account audience, click **[!UICONTROL Create]**.
 
 ## Confirmation
 
