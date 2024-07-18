@@ -28,6 +28,7 @@ badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA d
       + Adobe Experience Manager Assets {#aem-assets}
          + [Configure AEM Assets repositories](./content/configure-aem-repositories.md)
          + [Work with AEM digital assets](./content/aem-assets.md)
+    + [Templates](./content/email-templates.md)
     + [Fragments](./content/fragments.md)
 + Insights dashboards {#dashboards}
     + [Buying Groups](./dashboards/buying-groups-dashboard.md)
