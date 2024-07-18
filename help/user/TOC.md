@@ -6,12 +6,14 @@ user-guide-description: This is a description that will be displayed on the land
 # Journey Optimizer B2B Edition User Guide {#user}
 
 + [Adobe Journey Optimizer B2B Edition Documentation](guide-overview.md)
-+ [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
 + Get started {#get-started}
+    + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
     + [Login and home page](home-page.md)
     + [Quick start guidance](./start/get-started.md)
     + [Use the AI Assistant](./start/ai-assistant.md)
-+ [Account audiences](./audiences/account-audience-overview.md)
++ Account audiences {#account-audiences}
+    + [Overview](./audiences/account-audience-overview.md)
+    + [XDM field mapping](./data/field-mapping.md)
 + Buying Groups {#buying-groups}
     + [Overview](./buying-groups/buying-groups-overview.md)
     + [Solution interests](./buying-groups/solution-interests.md)
