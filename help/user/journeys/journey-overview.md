@@ -30,7 +30,7 @@ Define sales-driven engagement that includes email, SMS, and more inside account
 
   This table includes the ability to search by Name and Created by. Sort is currently unavailable.
 
-You can customize the displayed table by clicking the columns icon in the top-right corner and selecting or clearing the checkboxes. 
+You can customize the displayed table by clicking the _Columns_ icon in the top-right corner and selecting or clearing the checkboxes. 
 
 ![Choose the columns to display in the acount journeys list](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -40,7 +40,7 @@ Click the name (displayed as a link) in the _[!UICONTROL Account journeys]_ list
 
 ![Account journey workspace](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-The editor header of each journey includes: 
+The editor header of each account journey includes: 
 
 * Journey name
 * Ability to edit the name (_Edit_ icon)
