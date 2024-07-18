@@ -42,11 +42,11 @@ In Adobe Journey Optimizer B2B Edition, AI Assistant supports the following use 
 -->
 To ask a question, enter it in the field at the bottom of the panel and press enter.
 
-![Enter a question in the text box](./assets/ai-assistant-ask-question.png){width="150" zoomable="yes"}
+![Enter a question in the text box](./assets/ai-assistant-ask-question.png){width="450" zoomable="yes"}
 
 Check the answer and use the **Show sources** button to get direct links to the product documentation and learn more.
 
-![Results from the AI Assistant query](./assets/ai-assistant-answer.png){width="150" zoomable="yes"}
+![Results from the AI Assistant query](./assets/ai-assistant-answer.png){width="450" zoomable="yes"}
 
 Use the thumb up or thumb down to rate the quality of the answer.
 
