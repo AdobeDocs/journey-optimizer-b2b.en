@@ -42,3 +42,4 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin-console}
     + [User management](./admin/user-management.md)
+    + [Governance](./admin/governance.md)
