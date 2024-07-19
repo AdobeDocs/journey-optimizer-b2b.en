@@ -18,4 +18,21 @@ Adobe Journey Optimizer B2B Edition uses _Account Audiences_ and account's _Peop
 
 ### Subscription model
 
-A Journey Optimizer B2B Edition subscription is defined by a pair of an Experience Platform (AEP) sandboxes with a Marketo Engage _munchkin_ subscription. It is not possible for a single Marketo Engage subscription to be paired with more than one AEP sandbox. If you don't choose to use an existing Marketo Engage subscription with Journey Optimizer B2B Edition, or you do not currently use Marketo Engage, you are provisioned with a new, empty Marketo Engage subscription for use with Journey Optimizer B2B Edition.
+A Journey Optimizer B2B Edition subscription is defined by a pair of Experience Platform (AEP) sandboxes with a Marketo Engage _munchkin_ subscription. It is not possible for a single Marketo Engage subscription to be paired with more than one AEP sandbox. If you don't choose to use an existing Marketo Engage subscription with Journey Optimizer B2B Edition, or you do not currently use Marketo Engage, you are provisioned with a new, empty Marketo Engage subscription for use with Journey Optimizer B2B Edition.
+
+The purpose of Experience Platform in this setup is to provide a unified view into the data from the Marketo Engage instances (and any attached CRM systems), and then to be able to action on the unified data using an account journey.
+
+### Account journey operations
+
+Account journeys are authored in Journey Optimizer B2B Edition, and is stored in the Marketo Engage instance associated with the subscription. Although it is stored in the Marketo Engage data store, it is not visible from the Marketo Engage UI, and it is only ever usable from Journey Optimizer B2B Edition. 
+
+An account journey always starts with the selection of an account segment to use as the account audience for the journey. The selection of the audience uses the standard Experience Platform audience selector component. Marketers can then implement the account journey by splitting the paths of the journey according to their own criteria, which can include account criteria, people criteria, or buying group criteria. On each branch, actions can be taken to implement the journey, such as sending an email or waiting for an event to occur.
+
+After the account journey is created, it must be published. At publish time, the account journey is validated and converted into a series of Marketo Engage campaigns that implement the journey experience, and Data Integration Services are contacted to start the data flow that, in-turn, starts the account journey operations. The first step is to create the segments for the Account's People.
+
+### Data flow
+
+Journey Optimizer B2B Edition uses the Real-Time CDP account segmentation for both defining and executing account segments and related account person segments required by journeys. As a published journey runs, data about the people and accounts can change, and data is collected on the people who interact with the journey. Journey Optimizer B2B Edition relies on the Marketo Engage source connector for Real-Time CDP B2B Edition to flow data changes back to the Experience Platform sandbox, which is the source of truth.  This data is delivered to AEP in a near real-time fashion.   
+
+Only the existing data types supported by the Marketo Engage source connector (accounts, people, and opportunities) flow back into Real-Time CDP. This means that buying group data does not flow to AEP and instead resides in the Marketo Engage instance used by the Journey Optimizer B2B Edition subscription. 
+
