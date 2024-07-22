@@ -24,7 +24,7 @@ Learn about access management in the following pages:
 
 1. **Set up user permissions** for product profiles, including sandboxes, and give access to your team members by assigning them to different product profiles. This task is performed in the Admin Console. [Learn more](../admin/user-management.md#create-a-user-group)
 
-1. **Configure email delivery** in Marketo Engage, which enables your team to send email content from account journeys. [Learn more](help/user/content/email-authoring.md)
+1. **Configure email delivery** in Marketo Engage, which enables your team to send email content from account journeys. [Learn more](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
 1. **Configure SMS services**. Set up one of the supported third-party SMS providers who offer text messaging services independently and configure the account credentials in Adobe Journey Optimizer B2B Edition. [Learn more](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
 
