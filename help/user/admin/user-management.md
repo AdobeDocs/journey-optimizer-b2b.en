@@ -87,6 +87,8 @@ A user group is a collection of users are granted a shared set of permissions. Y
 
 ## Create a role in AEP Permissions {#create-role}
 
+Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is gathered under a capability, such as journeys or buying groups, which represents the different functionalities or objects in Journey Optimizer B2B Edition.
+
 _Permissions_ is the area of Adobe Experience Platform where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.
 
 >[!NOTE]

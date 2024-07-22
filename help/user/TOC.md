@@ -30,16 +30,15 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Content management {#content-management}
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
-      + [Marketo Engage Design Studio](./content/marketo-engage-design-studio.md)
-      + Adobe Experience Manager Assets {#aem-assets}
-         + [Configure AEM Assets repositories](./content/configure-aem-repositories.md)
-         + [Work with AEM digital assets](./content/aem-assets.md)
+      + [Work with Marketo Engage assets](./content/marketo-engage-design-studio.md)
+      + [Work with AEM Assets digital assets](./content/aem-assets.md)
    + [Templates](./content/email-templates.md)
    + [Fragments](./content/fragments.md)
 + Insights dashboards {#dashboards}
     + [Buying Groups](./dashboards/buying-groups-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
     + [Journey Overview](./dashboards/journeys-dashboard.md)
-+ Administration {#admin-console}
++ Administration {#admin}
     + [User management](./admin/user-management.md)
+    + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
     + [Governance](./admin/governance.md)

@@ -1,9 +1,9 @@
 ---
-title: Marketo Engage Design Studio
+title: Marketo Engage Design Studio assets
 description: Learn about using the Marketo Engage Design Studio asset management integration in Journey Optimizer B2B Edition.
 feature: Assets, Integrations
 ---
-# Marketo Engage Design Studio
+# Marketo Engage Design Studio assets
 
 When Marketo Engage Design Studio is the as the asset source for Journey Optimizer B2B Edition, you can easily manage and use the available assets for your account journeys.
 

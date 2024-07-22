@@ -15,6 +15,8 @@ When you use these digital assets, the latest changes in Assets as a Cloud Servi
 
 ## Access assets
 
+An administrator must add users who need access to Assets to the Assets Consumer Users or/and Assets Users Product profiles.
+
 
 
 ## Upload assets

@@ -10,7 +10,7 @@ Use Adobe Journey Optimizer B2B Edition to send text messages (SMS) to your cust
 
 ## SMS configurations
 
-Adobe Journey Optimizer B2B Edition sends text messages through SMS service providers (or SMS gateway providers). Before creating your SMS message, configure your service provider from the Administrator settings.
+Adobe Journey Optimizer B2B Edition sends text messages through SMS service providers (or SMS gateway providers). Before creating your SMS message, configure your service provider from the _Administrator_ settings.
 
 ### SMS gateway service providers
 
