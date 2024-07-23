@@ -23,7 +23,7 @@ If your environment has one or more [Assets repositories connections](../admin/c
 
 * When you open an existing content resource, choose `AEM Assets` in the _[!UICONTROL Body]_ panel on the right.
 
-   ![Select AEM Assets as the image source in the properties](./assets/content-update-aem-assets.png){width="700" zoomable="yes"}
+   ![Select AEM Assets as the image source in the properties](./assets/content-source-aem-assets.png){width="700" zoomable="yes"}
 
 ## Access assets for authoring
 
