@@ -11,7 +11,7 @@ Learn more about account audiences and how to define them in the [Adobe Experien
 
 ## Account audience workflow
 
-You can think of Journey Optimizer B2B Edition as an AEP destination that does not appear in the destinations catalog. Activate account audiences to Journey Optimizer B2B Edition using the following steps:
+You can think of Journey Optimizer B2B Edition as an Experience Platform (AEP) destination that does not appear in the destinations catalog. Activate account audiences to Journey Optimizer B2B Edition using the following steps:
 
 1. Create schemas for your data in AEP.
 1. Ingest your data into AEP.

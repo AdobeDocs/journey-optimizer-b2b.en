@@ -24,7 +24,7 @@ You can sort the table by any of the columns by clicking the column title.
 
 Search for any fragment by entering a text string into the search bar for a match by fragment name.
 
-Customize the columns that you want to display in the table by clicking the _Customize table_ icon on the top right. Select the columns to display and click on **[!UICONTROL Apply]**.
+Customize the columns that you want to display in the table by clicking the _Customize table_ icon on the top right. Select the columns to display and click **[!UICONTROL Apply]**.
 
 ## Create fragments
 

@@ -1,25 +1,25 @@
 ---
 title: Marketo Engage Design Studio assets
 description: Learn about using the Marketo Engage Design Studio asset management integration in Journey Optimizer B2B Edition.
-feature: Assets, Integrations
+feature: Assets, Content
 ---
 # Marketo Engage Design Studio assets
 
-When Marketo Engage Design Studio is the as the asset source for Journey Optimizer B2B Edition, you can easily manage and use the available assets for your account journeys.
+Marketo Engage Design Studio is the default asset source for Journey Optimizer B2B Edition, and you can easily manage and use the available assets in content for your account journeys.
 
 ## Browse and access assets
 
 To access Adobe Marketo Engage Design Studio assets from within Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. This action opens a listing page with all the assets listed.
 
-You can also view the assets by folder by clicking the _Show Folders_ icon on the top left. This action opens the folder structure.
+* To view the assets by folder, open the folder structure by clicking the _Show Folders_ icon on the top left.
 
-You can sort the table by any of the columns by clicking the column title.
+* To sort the table by any of the columns, click the column title.
 
-Search for an image asset within the selected folder by entering a string in the search bar.
+* To search for an image asset within the selected folder, enter a text string in the search bar.
 
-Customize the columns you wish to be listed in the table, by clicking on the 'Customize table' icon on the top right
+* To customize the columns that are displayed in the table, click the _Customize table_ icon on the top right.
 
-Select the columns you want to display in the listing and click **[!UICONTROL Apply]**.
+   Select the columns that you want to display in the listing and click **[!UICONTROL Apply]**.
 
 ## Add assets
 
@@ -27,7 +27,7 @@ From Journey Optimizer B2B Edition, you can add image assets to the Adobe Market
 
 You can add assets from your local system of up to 10 files at a time. You can also select the destination folder to store the assets using the folder selector. You have the option to overwrite files when you upload one or more files with an existing file name.
 
-The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists an error message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`) .
+The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists an error message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`).
 
 ## View asset details
 
@@ -41,7 +41,7 @@ Within the asset details page, click the **[!UICONTROL Used By]** tab to view de
 >
 >Any asset that is currently _IN USE_ in any of the emails, email templates, or fragments **cannot** be deleted.
 
-References are displayed by category: _Email_, _Email template_, or _Fragment_. Emails in Journey Optimizer B2B Edition are embedded and and authored within journeys, so the parent journey of the email that uses the asset is displayed in references.
+References are displayed by category: _Email_, _Email template_, or _Fragment_. Emails in Journey Optimizer B2B Edition are embedded and authored within journeys, so the parent journey of the email that uses the asset is displayed in references.
 
 Clicking the link directs you to the corresponding email, email template, or fragment where the asset is used.
 
@@ -51,30 +51,33 @@ Any asset that is currently _IN USE_ in any of the emails, email templates, or f
 
 You can delete an asset using either of the following methods:
 
-* Asset details > More > Delete
-* Assets listing > Ellipsis next to the asset > Delete
+* Go to the asset details, click **[!UICONTROL ... More]** at the top right, and choose **[!UICONTROL Delete]** from the options.
+
+* On the _[!UICONTROL Assets]_ listing page, click the _Ellipsis_ (**[!UICONTROL ...]**) next to the asset item and choose **[!UICONTROL Delete]** from the options.
 
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Delete]** to confirm deletion.
 
-If the asset is currently in use, the action opens a informational dialog that alerts you that it cannot be deleted. You must click **[!UICONTROL OK]**, which aborts the deletion.
+If the asset is currently in use, the action opens an informational dialog that alerts you that it cannot be deleted. Click **[!UICONTROL OK]**, which aborts the deletion.
 
 ## Replace assets
 
 You can replace an asset using either of the following methods:
 
-* Asset details > More > Replace
-* Assets listing > Ellipsis next to the asset > Replace
+* Go to the asset details, click **[!UICONTROL ... More]** at the top right, and choose **[!UICONTROL Replace]** from the options.
+
+* On the _[!UICONTROL Assets]_ listing page, click the _Ellipsis_ (**[!UICONTROL ...]**) next to the asset item and choose **[!UICONTROL Replace]** from the options.
 
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**. To proceed, select a file from your local system and click **[!UICONTROL Replace]**. If you select multiple files in your local system, the first file selected is used for the replacement.
 
-If the file to be replace is currently in use, an informational dialog alerts you that the new image file will replace the image in all places where it is used (emails, email templates and fragments).
+If the file to be replace is currently in use, an informational dialog alerts you that the new image file replaces the image in all places where it is used (emails, email templates and fragments).
 
 ## Download assets
 
 You can download an asset using either of the following methods:
 
-* Asset details > More > Download
-* Assets listing > Ellipsis next to the asset > Download
+* Go to the asset details, click **[!UICONTROL ... More]** at the top right, and choose **[!UICONTROL Download]** from the options.
+
+* On the _[!UICONTROL Assets]_ listing page, click the _Ellipsis_ (**[!UICONTROL ...]**) next to the asset item and choose **[!UICONTROL Download]** from the options.
 
 This action opens a confirmation dialog.
 
@@ -82,66 +85,114 @@ You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICO
 
 ## Apply bulk actions on assets
 
-From the listing page (Content Management > Assets), select multiple assets at a time by selecting each checkbox to the left. A message banner appears at the bottom when you select multiple assets.
+From the listing page (_[!UICONTROL Content Management]_ > _[!UICONTROL Assets]_), select multiple assets at a time by selecting each checkbox to the left. A message banner appears at the bottom when you select multiple assets.
 
 You can take the following bulk actions:
 
 ### Move assets
 
-You will see a Move Assets dialog, which lists the names of the selected assets and allows you to select the 'target' folder where you want to move these assets into. Once selected, the folder path updates in the modal next to "Selected assets will move to:" And you will get a confirmation toast after successfully moving the assets
+1. On the selection banner, click **Move**.
+
+   This action opens the _[!UICONTROL Move Assets]_ dialog, which lists the names of the selected assets and allows you to select the _target_ folder where you want to move these assets. 
+
+1. Select a folder.
+
+   The path updates next to _[!UICONTROL Selected assets will move to:]_. 
+   
+1. Click **[!UICONTROL Move]**.
 
 ### Delete assets
 
-You can delete up to a maximum of 20 assets can be selected at a time to bulk delete those
-You will see a delete confirmation dialog. If any of the assets are currently in use, the Delete (of that particular asset) will be aborted and you will see the below message
+>[!NOTE]
+>
+>You can apply a bulk delete for a maximum of 20 selected assets.
+
+1. On the selection banner, click **[!UICONTROL Delete]**.
+
+1. In the confirmation dialog, click **[!UICONTROL Delete]**.
+
+   If any of the selected assets are currently in use, the removal of that asset is aborted and an alert message is displayed.
+
+## Create a folder
+
+1. On the _[!UICONTROL Assets]_ listing page, click **[!UICONTROL Create Folder]** at the top right.
+
+1. In the dialog, enter the folder name and select the destination (parent) folder for the new folder.
+
+   Folder names must be unique, with a maximum of 100 characters, and cannot contain special characters, such as `;`, `:`, `\`, `|`.
+
+    ![Create folder dialog](./assets/assets-create-folder-dialog.png){width="500"}
+
+1. Click **[!UICONTROL Add]**.
 
 ## Apply folder-level actions
 
+You can apply actions to a folder or assets within the folder. Click the ellipses (**...**) icon for the folder to reveal the options for actions on it.
 
-
-## Create a new folder
-
-From the Assets listing page, click **[!UICONTROL Create Folder]** button at the top right.
-
-In the dialog, enter the file name and select the destination (parent) folder for the new folder.
-
-Folder names must be unique, with a maximum of 100 characters, and cannot contain special characters, such as `;`, `:`, `\`, `|`.
-
-
-
-Actions from the folder structure panel:
-
-Click Show Folder on the top left
-Click the ellipsis (...) next to any of the folders to apply folder-level actions
-
+![Apply actions to a folder or assets within the folder](./assets/assets-create-folder-dialog.png){width="500"}
 
 You can take the following actions at the folder level:
 
-Add Assets
+### Add assets
 
-Opens the same modal as indicated in this section & the same rules apply
+1. Choose **[!UICONTROL Add assets]** to upload image files to the folder.
 
-Create folder
-Opens the same modal as indicated in this section & the same rules apply
+1. In the _[!UICONTROL Add assets]_ dialog, drag and drop the files from your system. You can also click the link to use your file system to select the files.
 
-Rename
-Opens a modal similar to the one below, the same folder name restrictions as mentioned earlier apply:
+   You can add assets from your local system of up to 10 files at a time. You have the option to overwrite files when you upload one or more files with an existing file name.
 
-Move
-Opens a modal similar to the one below, select the target folder where you want the selected folder to be moved into:
-If you try to move a folder inside a sub-folder (within the selected folder itself), you will see the below error message
+   The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists an error message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`).
 
-Delete
-This opens up a modal similar to the one below, you can either abort deletion or confirm deletion
+1. Click **[!UICONTROL Add]**.
 
-Convert to Archive folder
+### Create a sub-folder
 
-Select this option to Archive a folder (images in archived folders are not searchable)
-Any archived folder can be unarchived at any time by clicking on the ellipsis > Unarchive folder
-In either case you will get a confirmation toast once the action is completed
+1. Choose **[!UICONTROL Create folder]**.
 
-Use Assets in email content
+1. In the dialog, enter the folder name.
 
-Assets can be used in your email/ email template / visual fragment, from the visual content editor UI.
+   Folder names must be unique, with a maximum of 100 characters, and cannot contain special characters, such as `;`, `:`, `\`, `|`.
 
-Once in the visual editor UI, select the 'Assets Picker' from the left nav
+1. Click **[!UICONTROL Add]**.
+
+### Rename the folder
+
+1. Choose **[!UICONTROL Rename]**.
+
+1. In the dialog, enter the new folder name.
+
+   Folder names must be unique, with a maximum of 100 characters, and cannot contain special characters, such as `;`, `:`, `\`, `|`.
+   
+1. Click **[!UICONTROL Save]**.
+
+### Move the folder
+
+1. To move the folder to another parent folder, choose **[!UICONTROL Move]**.
+
+1. In the dialog, select the target folder as the new parent for the sub-folder.
+
+1. Click **[!UICONTROL Move]**.
+
+   If you try to move a folder into one of its own sub-folders (within the structure of the selected folder), an error message is displayed and the move is canceled.
+
+### Delete the folder
+
+1. Choose **[!UICONTROL Delete]**.
+
+1. In the confirmation dialog, click **[!UICONTROL Delete]**.
+
+If any of the assets in the folder is currently in use, the action opens an alert dialog to inform you that it cannot be deleted. Click **[!UICONTROL OK]**, which aborts the removal.
+
+### Convert to an archive folder
+
+Archiving a folder makes the files within it unsearchable. Use the archive function for asset files that you do not want your team member to use going forward, such as an outdated event promotional badge or seasonal content. Later, you can unarchive a folder if you want the content to be available again.
+
+* Choose **[!UICONTROL Convert to archive folder]**. A confirmation banner is displayed to confirm that the folder status is changed to archived. 
+
+* Choose **[!UICONTROL Unarchive folder]**. A confirmation banner is displayed to confirm that the folder status is changed to unarchived. 
+
+## Use assets in email content
+
+Assets can be used in your team's email, email template, or visual fragment authoring from the visual content editor.
+
+From the visual editor UI, select the _Asset selector_ from the left sidebar.

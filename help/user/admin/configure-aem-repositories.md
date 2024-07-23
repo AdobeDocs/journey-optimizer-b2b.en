@@ -101,7 +101,6 @@ You can view the certificate JSON file associated with the repository connection
 
 1. Click **[!UICONTROL Close]** to return to the Configure repository page. 
 
-
 ## Delete a repository connection
 
 Deleting a repository removes user access to the Experience Manager Assets environment within Journey Optimizer B2B Edition.

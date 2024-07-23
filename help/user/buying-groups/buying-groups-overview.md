@@ -39,10 +39,10 @@ You can increase marketing effectiveness by establishing buying groups in Journe
    **_Example:_** Decision Maker role is missing and the completeness score is < 50
 
 1. Complete the buying groups definitions.
-
+<!-->
    * Acquire missing people
    * Send to LinkedIn Destination
-   * Enrich with Zoominfo
+   * Enrich with Zoominfo -->
 
 1. Use in an account journey through the associated solution interest.
 
