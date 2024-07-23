@@ -6,7 +6,7 @@ exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 ---
 # Journey Overview dashboard
 
-This dashboard provides a comprehensive view of engagement and showcases real-time metrics of account and individual interactions through snapshot donut charts and trend-revealing line charts over time. It helps you monitor and strategize your engagement efforts effectively.
+This dashboard provides a comprehensive overview of a selected account journey, detailing account progress using donut and line charts that categorize and quantify completions, in-progress activities, and aborts over time. It helps marketers evaluate the effectiveness of Email and SMS channels through key delivery and engagement metrics.
 
 ## Journey Status
 
@@ -79,7 +79,3 @@ Click the button at the top-right corner to hide or display any of the available
 * [!UICONTROL Entry Date]
 * [!UICONTROL Exit Date]
 * [!UICONTROL Number of Days in Journey]
-
-Global filter:
-
-Date filter

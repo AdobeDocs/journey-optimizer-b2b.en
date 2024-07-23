@@ -82,23 +82,24 @@ Build tailored journeys for buying groups within target accounts that automate h
       <strong>Buying groups</strong><br/><a href="./buying-groups/buying-groups-overview.md">Buying groups overview</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Role templates</a><br/><a href="./buying-groups/solution-interests.md">Solution interests</a><br/><a href="./buying-groups/buying-groups-create.md">Create buying groups</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Journey content</strong><br/><a href="./content/email-authoring.md">Email authoring</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/sms-authoring.md">SMS authoring</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a>
     </td>
   </tr>
   <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>Journey content</strong><br/><a href="./content/email-authoring.md">Email authoring</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/sms-authoring.md">SMS authoring</a>
+    </td>
         <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
-      <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <strong>Assets</strong><br/><a href="./content/assets-overview.md">Overview</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
       <strong>Insights</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a>
     </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Integrations</strong><br/><a href="./integrations/experience-manager-assets-integration.md">Adobe Experience Manager Assets</a>
-    </td>
+
   </tr>
 </table>
 

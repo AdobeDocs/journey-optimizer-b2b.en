@@ -1,17 +1,22 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition Documentation
-user-guide-description: This is a description that will be displayed on the landing page.
-badgeBeta: label="Beta release" type="informative" tooltip="Beta release documentation"
-badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA documentation"
+user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how you can use it orchestrate account and buying group journeys using built-in generative AI and industry-leading automation.
 ---
 
 # Journey Optimizer B2B Edition User Guide {#user}
 
 + [Adobe Journey Optimizer B2B Edition Documentation](guide-overview.md)
-+ [Login and home page](home-page.md)
++ Get started {#get-started}
+    + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
+    + [Login and home page](home-page.md)
+    + [Quick start guidance](./start/get-started.md)
+    + [Use the AI Assistant](./start/ai-assistant.md)
++ Account audiences {#account-audiences}
+    + [Overview](./audiences/account-audience-overview.md)
+    + [XDM field mapping](./data/field-mapping.md)
 + Buying Groups {#buying-groups}
     + [Overview](./buying-groups/buying-groups-overview.md)
-    + [Solution Interests](./buying-groups/solution-interests.md)
+    + [Solution interests](./buying-groups/solution-interests.md)
     + [Role templates](./buying-groups/buying-groups-role-templates.md)
     + [Create buying groups](./buying-groups/buying-groups-create.md)
 + Account journeys {#account-journeys}
@@ -19,11 +24,21 @@ badgeGA: label="GA limited release" type="neutral" tooltip="Limited release GA d
     + [Account journey nodes](./journeys/journey-nodes.md)
 + Journey content {#journey-content}
     + [Email authoring](./content/email-authoring.md)
+    + [Sales alert email](./content/sales-alert-email.md)
     + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
     + [SMS authoring](./content/sms-authoring.md)
++ Content management {#content-management}
+   + Assets {#assets}
+      + [Overview](./content/assets-overview.md)
+      + [Work with Marketo Engage assets](./content/marketo-engage-design-studio.md)
+      + [Work with AEM Assets images](./content/aem-assets.md)
+   + [Templates](./content/email-templates.md)
+   + [Fragments](./content/fragments.md)
 + Insights dashboards {#dashboards}
     + [Buying Groups](./dashboards/buying-groups-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
     + [Journey Overview](./dashboards/journeys-dashboard.md)
-+ Integrations {#integrations}
-    + [Adobe Exprience Manager Assets](./integrations/experience-manager-assets-integration.md)
++ Administration {#admin}
+    + [User management](./admin/user-management.md)
+    + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
+    + [Governance](./admin/governance.md)

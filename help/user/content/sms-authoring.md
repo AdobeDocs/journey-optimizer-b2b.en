@@ -10,7 +10,7 @@ Use Adobe Journey Optimizer B2B Edition to send text messages (SMS) to your cust
 
 ## SMS configurations
 
-Adobe Journey Optimizer B2B Edition sends text messages through SMS service providers (or SMS gateway providers). Before creating your SMS message, configure your service provider from the Administrator settings.
+Adobe Journey Optimizer B2B Edition sends text messages through SMS service providers (or SMS gateway providers). Before creating your SMS message, configure your service provider from the _Administrator_ settings.
 
 ### SMS gateway service providers
 
@@ -156,26 +156,26 @@ You can set up text message deliveries in an Account Journey when you add a _[!U
 
    When your personalization tokens are placed, click **[!UICONTROL Save]** to save changes and return to the main SMS authoring workspace. You can continue to edit the message with the tokens as needed. 
 
-<!-- 1. **Add URLs to text message**.
+1. **Add URLs to the text message**.
 
    After defining your content, you can add URLs to your message by clicking the _Link_ icon.
    
-   You can add two types of URLs: 
+   This action opens a dialog, where you can choose one of two types of URLs to link: 
 
-   External URLs - This is ANY external URL that can be directly typed into/ pasted into the input text box
-   Adobe Marketo Engage Design Studio Landing Pages - Selecting this option, you will see a 'Landing Page picker' from which you can select any of the listed approved Landing Pages from Marketo Engage
+   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box.
+   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage Design Studio landing pages from your Marketo Engage instance.
 
-   You can choose to 'shorten' either of these URLs by selecting the checkbox
-   Note that the URL shortening function, uses the Marketo subdomain for shortening
-   The shortened URL appears as a read-only field within the modal
-   You can optionally track clicks on the URL
-   You can also choose to include 'mkt_tok' for tracking activity against a user
-   Click on Add to save changes & add the chosen URL to the SMS message
--->
+   The dialog also includes options for the URL links:
+
+   * **[!UICONTROL Shorten URL]** - Select this checkbox to _shorten_ the URL, which is necessary for tracking. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
+
+   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user. 
+  
+   When the link options are complete, click **[!UICONTROL Add]** to save the changes and add the URL link to the SMS message.
 
 ## Set the SMS properties
 
-1. In the _[!UICONTROL SMS properties]_ section, enter a **[!UICONTROL Name]** (required, 100 cha\racter maximum) and **[!UICONTROL Description]** (optional, 300 character maximum) for your message. 
+1. In the _[!UICONTROL SMS properties]_ section, enter a **[!UICONTROL Name]** (required, 100 character maximum) and **[!UICONTROL Description]** (optional, 300 character maximum) for your message. 
 
    Alpha, numeric, special characters are allowed for these fields. The following reserved characters are **not allowed**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` and `|`.
 
@@ -192,32 +192,48 @@ You can set up text message deliveries in an Account Journey when you add a _[!U
 
    ![Take an action - send sms](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   The recipient number is always mapped to the `Lead.MainPhone` field in Marketo Engage.
+   The recipient number is always mapped to the `Lead.mobilePhone` field in Marketo Engage.
 
-<!-- ## Preview the text message content
+## Simulate the text message content
 
-When your message content is defined, you can use test profiles to preview its content. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+When your message content is defined, you can use test profiles to simulate (preview) its content. If you inserted personalized content, you can check how this content is displayed in the message using test profile data.
+
+>[!IMPORTANT]
+>
+>Make sure to save your SMS message before you proceed to simulate the text message.
 
 1. Click **[!UICONTROL Simulate Content]** at the top of the SMS authoring workspace.
 
 1. From the _[!UICONTROL Simulate Content]_ page, click **[!UICONTROL Add People]**.
 
-1. Use the # page to manage the leads used for your test profile.
+1. Use the _Simulate Content_ page to manage the leads used for your test profile.
 
    In the displayed list, you can search for and add any of the leads (up to 10 leads at a time) from the Marketo Engage lead database.
 
-   To search, enter the whole email address and click enter. The corresponding lead profile shows up for selection.
+   To search, enter the whole email address and pressing _Enter_. The corresponding lead profile is displayed for selection.
 
-   The preview updated to the personalization fields for the selected profile.
+   The preview updates to the personalization fields for the selected profile.
 
-   All the added leads appear on the left rail of the 'Simulate Content' page
+   All the added leads appear on the left.
 
    You can manage this list by adding more people and deleting individual leads from the profile listing (it does not remove them from the database).
 
-1. Simulate content for a lead.
+1. Simulate content for a selected lead.
 
-   Select any of the leads listed on the left rail of the Simulate Content page and the SMS preview on the page updates for the corresponding lead.
+   Select any of the leads listed on the left and the SMS preview on the page updates for the corresponding lead.
 
-   You can also select a lead from the 'drop-down' box above the preview space and the SMS preview on the page updates for the corresponding lead
+   You can also select a lead from the selector above the preview space to update the SMS preview on the page for the corresponding lead.
 
-1. To exit the _[!UICONTROL Simulate Content]_ page and return back to the SMS authoring workspace, click Close. -->
+1. To exit the _[!UICONTROL Simulate Content]_ page and return back to the SMS authoring workspace, click **[!UICONTROL Close]** at the top right.
+
+## SMS consent management
+
+Providing recipients the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function also helps you avoid sending unsolicited communications to your recipients, which could cause them to mark your messages as spam and harm your reputation. 
+
+When you provide this option, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored, and any custom keywords that are configured at the SMS service provider. When unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
+
+Journey Optimizer B2B Edition provides the ability to manage opt-out in SMS messages using the following logic:
+
+* By default, if a lead has opted out from receiving communications from you, the corresponding profile is excluded from subsequent SMS deliveries
+
+* This lead consent coming from different sources (such as AEP or the SMS service provider) is synced to Journey Optimizer B2B Edition. Currently, it supports only a single consent state per lead at the instance level (a lead 'John Doe' is either subscribed to or unsubscribed from all promotional SMS in the instance). It does not currently support double opt-in on brand level/individual subscription list level consent.

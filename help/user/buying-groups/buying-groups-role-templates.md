@@ -49,41 +49,47 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
 1. Add a rule for each role that you want to define for the template.
 
-   For the current release, there are six roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`.
+  * Choose the **[!UICONTROL Buying group role]** from the list.
 
-   ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+    For the current release, there are six roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`.
 
-    * Choose a role from the list.
+   ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}  
 
-    * Click **[!UICONTROL Add Condition]**.
+   * Set the **[!UICONTROL Weighting]** for the role, which is used to calculate the engagement score. 
 
-    * In the condition dialog, expand the list of **[!UICONTROL Person attributes]** and locate an attribute that you want to use to match the role. Drag it to the right and drop it in the filter space. 
+      The value for each option is translated to a percentage for the score calculation: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] =  80, and [!UICONTROL Vital] = 100.
 
-       ![Roles template add condition drag attribute](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+      For example, a role template with roles using Vital, Important, and Normal, are then converted  as 100/240, 80/240, 60/240.
 
-    * Use the attribute to create a matching filter using one or more values. 
+   * **[!UICONTROL Add conditions for auto-assignment]** - Select this checkbox to add conditions for auto-assigning members to the buying group who match the condition. If the checkbox is not selected, then adding conditions is NOT required.
+
+   * **[!UICONTROL Required for completeness score]** - Select this checkbox for the role if you want it to be a requirement for calculating a completeness score. -->
+
+   * Click **[!UICONTROL Add Condition]**.
+
+      * In the condition dialog, expand the list of **[!UICONTROL Person attributes]** and locate an attribute that you want to use to match the role. Drag it to the right and drop it in the filter space. 
+
+        ![Roles template add condition drag attribute](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+
+      * Use the attribute to create a matching filter using one or more values. 
     
-       In the following example, the Job title attribute is used to identify a match for Decision Maker. Any value for title that starts with `Director` or `Sr Director` evaluates as true for the condition.
+        In the following example, the Job title attribute is used to identify a match for Decision Maker. Any value for title that starts with `Director` or `Sr Director` evaluates as true for the condition.
 
-       ![Roles template condition example using job title](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+        ![Roles template condition example using job title](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-    * If needed, add another attribute and condition that further refines the criteria for a match to the role.
+      * If needed, add another attribute and condition that further refines the criteria for a match to the role.
 
-    * Click **[!UICONTROL Done]**.
+      * Click **[!UICONTROL Done]**.
 
-    For each additional role that you want to include for the template, click **[!UICONTROL Add another role]** and define one or more conditions to match for the role.
+   For each additional role that you want to include for the template, click **[!UICONTROL Add another role]** and define one or more conditions to match for the role.
 
-    ![Roles template with multiple roles defined](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![Roles template with multiple roles defined](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. If the template is ready for use, click **[!UICONTROL Publish]** at the top-right.
 
     Publishing the template sets it to a _Live_ status and makes it available to associate with a Solution Interest. There must be at least one defined role to publish the roles template. 
 
     Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the Roles Templates list.
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Edit a draft roles template
 
