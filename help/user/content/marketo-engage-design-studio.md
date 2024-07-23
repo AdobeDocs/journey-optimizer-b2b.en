@@ -129,11 +129,11 @@ You can take the following bulk actions:
 
 You can apply actions to a folder or assets within the folder. Click the ellipses (**...**) icon for the folder to reveal the options for actions on it.
 
-![Apply actions to a folder or assets within the folder](./assets/assets-create-folder-dialog.png){width="500"}
+![Apply actions to a folder or assets within the folder](./assets/assets-folder-menu-options.png){width="500"}
 
 You can take the following actions at the folder level:
 
-### Add assets
++++Add assets
 
 1. Choose **[!UICONTROL Add assets]** to upload image files to the folder.
 
@@ -145,7 +145,9 @@ You can take the following actions at the folder level:
 
 1. Click **[!UICONTROL Add]**.
 
-### Create a sub-folder
++++
+
++++Create a sub-folder
 
 1. Choose **[!UICONTROL Create folder]**.
 
@@ -155,7 +157,9 @@ You can take the following actions at the folder level:
 
 1. Click **[!UICONTROL Add]**.
 
-### Rename the folder
++++
+
++++Rename the folder
 
 1. Choose **[!UICONTROL Rename]**.
 
@@ -165,7 +169,9 @@ You can take the following actions at the folder level:
    
 1. Click **[!UICONTROL Save]**.
 
-### Move the folder
++++
+
++++Move the folder
 
 1. To move the folder to another parent folder, choose **[!UICONTROL Move]**.
 
@@ -175,7 +181,9 @@ You can take the following actions at the folder level:
 
    If you try to move a folder into one of its own sub-folders (within the structure of the selected folder), an error message is displayed and the move is canceled.
 
-### Delete the folder
++++
+
++++Delete the folder
 
 1. Choose **[!UICONTROL Delete]**.
 
@@ -183,13 +191,17 @@ You can take the following actions at the folder level:
 
 If any of the assets in the folder is currently in use, the action opens an alert dialog to inform you that it cannot be deleted. Click **[!UICONTROL OK]**, which aborts the removal.
 
-### Convert to an archive folder
++++
+
++++Convert to an archive folder
 
 Archiving a folder makes the files within it unsearchable. Use the archive function for asset files that you do not want your team member to use going forward, such as an outdated event promotional badge or seasonal content. Later, you can unarchive a folder if you want the content to be available again.
 
 * Choose **[!UICONTROL Convert to archive folder]**. A confirmation banner is displayed to confirm that the folder status is changed to archived. 
 
-* Choose **[!UICONTROL Unarchive folder]**. A confirmation banner is displayed to confirm that the folder status is changed to unarchived. 
+* Choose **[!UICONTROL Unarchive folder]**. A confirmation banner is displayed to confirm that the folder status is changed to unarchived.
+
++++
 
 ## Use assets in email content
 
