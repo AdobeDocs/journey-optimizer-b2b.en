@@ -1,15 +1,17 @@
 ---
-title: Marketo Engage Design Studio assets
+title: Work with Marketo Engage assets
 description: Learn about using the Marketo Engage Design Studio asset management integration in Journey Optimizer B2B Edition.
 feature: Assets, Content
 ---
-# Marketo Engage Design Studio assets
+# Work with Marketo Engage assets
 
 Marketo Engage Design Studio is the default asset source for Journey Optimizer B2B Edition, and you can easily manage and use the available assets in content for your account journeys.
 
 ## Browse and access assets
 
 To access Adobe Marketo Engage Design Studio assets from within Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. This action opens a listing page with all the assets listed.
+
+![Browse Marketo Engage assets](assets/assets-list-page.png){width="600" zoomable="yes"}
 
 * To view the assets by folder, open the folder structure by clicking the _Show Folders_ icon on the top left.
 
@@ -20,14 +22,6 @@ To access Adobe Marketo Engage Design Studio assets from within Journey Optimize
 * To customize the columns that are displayed in the table, click the _Customize table_ icon on the top right.
 
    Select the columns that you want to display in the listing and click **[!UICONTROL Apply]**.
-
-## Add assets
-
-From Journey Optimizer B2B Edition, you can add image assets to the Adobe Marketo Engage Design Studio by clicking **[!UICONTROL Add Assets]** at the top right. The maximum file size is 100 MB.
-
-You can add assets from your local system of up to 10 files at a time. You can also select the destination folder to store the assets using the folder selector. You have the option to overwrite files when you upload one or more files with an existing file name.
-
-The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists an error message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`).
 
 ## View asset details
 
@@ -45,15 +39,41 @@ References are displayed by category: _Email_, _Email template_, or _Fragment_. 
 
 Clicking the link directs you to the corresponding email, email template, or fragment where the asset is used.
 
+## Add assets
+
+From the Assets list page, you can add image assets to the Adobe Marketo Engage Design Studio. 
+
+1. Click **[!UICONTROL Add Assets]** at the top right. 
+
+1. In the _[!UICONTROL Add assets]_ dialog, drag and drop one or more files from your system to the file box.
+
+   ![Add assets to Marketo Engage Design Studio](./assets/assets-add-dialog.png){width="500" zoomable="yes"}
+
+   You can also click the _[!UICONTROL Select a file from your computer]_ link to use your local file system to find and select files. 
+
+   You can upload assets from your local system of up to 10 files at a time. The maximum file size is 100 MB.
+
+   The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists, a message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`). 
+
+1. Select the destination folder to store the assets using the folder selector. 
+
+1. To overwrite (replace) files when you upload one or more files with an existing file name, select the **[!UICONTROL Overwrite existing files]** checkbox.
+
+1. Click **[!UICONTROL Add]**.
+
 ## Delete assets
 
-Any asset that is currently _IN USE_ in any of the emails, email templates, or fragments cannot be deleted, so ensure that you check the used-by references before initiating an asset removal. Also, a delete action cannot be undone, so check before initiating a removal action.
+Any asset that is currently in use in any of the emails, email templates, or fragments cannot be deleted. Check the used-by references before initiating an asset removal. Also, a delete action cannot be undone, so check before initiating a removal action.
 
 You can delete an asset using either of the following methods:
 
 * Go to the asset details, click **[!UICONTROL ... More]** at the top right, and choose **[!UICONTROL Delete]** from the options.
 
+   ![Access actions for the asset](./assets/assets-details-more-menu.png){width="500" zoomable="yes"}
+
 * On the _[!UICONTROL Assets]_ listing page, click the _Ellipsis_ (**[!UICONTROL ...]**) next to the asset item and choose **[!UICONTROL Delete]** from the options.
+
+   ![Access actions for the asset](./assets/assets-list-file-more-menu.png){width="500" zoomable="yes"}
 
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Delete]** to confirm deletion.
 
@@ -67,7 +87,11 @@ You can replace an asset using either of the following methods:
 
 * On the _[!UICONTROL Assets]_ listing page, click the _Ellipsis_ (**[!UICONTROL ...]**) next to the asset item and choose **[!UICONTROL Replace]** from the options.
 
-This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**. To proceed, select a file from your local system and click **[!UICONTROL Replace]**. If you select multiple files in your local system, the first file selected is used for the replacement.
+In the _[!UICONTROL Replace asset]_ dialog, drag and drop the replacement file from your system to the file box. You can also click the _[!UICONTROL Select a file from your computer]_ link to use your local file system to select a file. (If you select multiple files in your local system, the first file selected is used for the replacement.)
+
+![Replace asset dialog](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+
+To proceed, click **[!UICONTROL Replace]**. You can abort the process by clicking **[!UICONTROL Cancel]**. 
 
 If the file to be replace is currently in use, an informational dialog alerts you that the new image file replaces the image in all places where it is used (emails, email templates and fragments).
 
@@ -75,21 +99,21 @@ If the file to be replace is currently in use, an informational dialog alerts yo
 
 You can download an asset using either of the following methods:
 
-* Go to the asset details, click **[!UICONTROL ... More]** at the top right, and choose **[!UICONTROL Download]** from the options.
+* Go to the asset details and click **[!UICONTROL Download]** at the top right.
 
 * On the _[!UICONTROL Assets]_ listing page, click the _Ellipsis_ (**[!UICONTROL ...]**) next to the asset item and choose **[!UICONTROL Download]** from the options.
 
-This action opens a confirmation dialog.
+In the confirmation dialog, click **[!UICONTROL Download]** to initiate downloading the asset to your local system. You can abort the process by clicking **[!UICONTROL Cancel]**.
 
-You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Download]** to initiate downloading the asset to your local system.
-
-## Apply bulk actions on assets
+## Apply bulk actions on selected assets
 
 From the listing page (_[!UICONTROL Content Management]_ > _[!UICONTROL Assets]_), select multiple assets at a time by selecting each checkbox to the left. A message banner appears at the bottom when you select multiple assets.
 
+![Selected assets](./assets/assets-list-selected.png){width="700" zoomable="yes"}
+
 You can take the following bulk actions:
 
-### Move assets
++++Move assets
 
 1. On the selection banner, click **Move**.
 
@@ -101,7 +125,9 @@ You can take the following bulk actions:
    
 1. Click **[!UICONTROL Move]**.
 
-### Delete assets
++++
+
++++Delete assets
 
 >[!NOTE]
 >
@@ -112,6 +138,8 @@ You can take the following bulk actions:
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
 
    If any of the selected assets are currently in use, the removal of that asset is aborted and an alert message is displayed.
+
++++
 
 ## Create a folder
 
@@ -207,4 +235,24 @@ Archiving a folder makes the files within it unsearchable. Use the archive funct
 
 Assets can be used in your team's email, email template, or visual fragment authoring from the visual content editor.
 
-From the visual editor UI, select the _Asset selector_ from the left sidebar.
+From the visual editor UI, select the _Asset selector_ icon on the left sidebar.
+
+![Selected assets](./assets/content-assets-selector-icon.png){width="700" zoomable="yes"}
+
+This action changes the tools panel that displays a list of the available assets. There are multiple methods for adding an image asset to the visual canvas:
+
+* Drag and drop an image thumbnail from the left navigation.
+
+* Add an image component to the canvas and click **[!UICONTROL Browse]** to open the _[!UICONTROL Select Asset from Adobe Marketo Engage]_ dialog.
+
+   ![Use the filters and search field to find the asset that you need](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+
+   From the dialog, you can choose an image from the selected repository. Click **[!UICONTROL Select]** to add the asset.
+   
+   There are tools available to help you locate the asset that you need: 
+
+   * Click the _Filter_ icon on the top left to filter the displayed items according to your criteria.
+
+   * Enter text in the _Search_ field to filter the displayed items for a match of the asset name.
+
+   ![Use the filters and search field to find the asset that you need](./assets/assets-select-dialog-marketo-filtered.png){width="600" zoomable="yes"}

@@ -23,7 +23,7 @@ Before you can use the Admin Console to administer users within your team, you n
 
    Look for the welcome email that provides the information about the organization name to which you have been granted access.
 
-1. Click the **Get started** link in your welcome email to navigate to the Admin Console. 
+1. Click the **[!UICONTROL Get started]** link in your welcome email to navigate to the Admin Console. 
 
    If you cannot find the email, open a browser directly to the Admin Console at [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 

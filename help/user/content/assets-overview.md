@@ -43,7 +43,7 @@ Use assets as you author your emails, email templates, and visual fragments. The
 
 ### Choose an asset source
 
-If you have a subscription of Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you can choose image assets from either source. To do that, you must select the image source at the time of creation of a new email, email template, or visual fragment. Or, you can select the image source when you edit the content. The selection applies for the editing experience only, and you can change the image source to access assets from another library when needed.
+If you have a subscription of Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you can choose image assets from either source. To do that, you must select the image source at the time of creation for a new email, email template, or visual fragment. Or, you can select the image source when you edit the content. The selection applies for the editing experience only, and you can change the image source to access assets from another library when needed.
 
 Creating an email
 

@@ -1,7 +1,7 @@
 ---
 title: Fragments
 description: Learn how to create and use visual content fragments as reusable components for emails and email templates across Adobe Journey Optimizer B2B Edition.
-feature: Content
+feature: Content, Email Authoring
 ---
 # Fragments
 
@@ -9,8 +9,8 @@ A fragment is a reusable component that can be referenced in one or more emails 
 
 To make the best use of fragments in your workflows:
 
-* Create your own fragments - Create visual fragments, either from scratch or by saving content as fragment anytime from the visual content editor.
-* Reuse your fragments - Use them as many times as needed in your content.
+* _Create your own fragments_ - Create visual fragments, either from scratch or by saving content as fragment anytime from the visual content editor.
+* _Reuse your fragment_s - Use them as many times as needed in your content.
 
 ## Visual fragments
 
@@ -20,9 +20,13 @@ Visual fragments are pre-defined visual blocks built using the visual content ed
 
 To access visual fragments in Adobe Journey Optimizer B2B edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**. This action opens a listing page with all the fragments created in the instance listed in a table.
 
-You can sort the table by any of the columns by clicking the column title.
+![Access the fragments library](./assets/fragments-list.png){width="700" zoomable="yes"}
 
-Search for any fragment by entering a text string into the search bar for a match by fragment name.
+The table is sorted by the _[!UICONTROL Modified]_ column, with the most recently updated fragments at the top of the list by default. Click the column title to change between ascending and descending.
+
+Search for any fragment by entering a text string into the search bar for a match by fragment name. Click the _Filter_ icon to filter the displayed items according to your specified criteria.
+
+![Filter the displayed fragments](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
 Customize the columns that you want to display in the table by clicking the _Customize table_ icon on the top right. Select the columns to display and click **[!UICONTROL Apply]**.
 
@@ -30,23 +34,23 @@ Customize the columns that you want to display in the table by clicking the _Cus
 
 You can create new visual fragments in Journey Optimizer B2B Edition by clicking **[!UICONTROL Create fragment]** at the top right.
 
-Enter a useful name and description. (Visual fragments are the only type of fragments that can be created today in Journey Optimizer B2B Edition.) Requirements for fragments:
+1. In the _[!UICONTROL Create fragment]_ dialog, enter a useful **[!UICONTROL Name]** and **[!UICONTROL Description]** (optional).
 
-* Fragment name - Character limit = 100
+   Fragment requirements:
 
-* Description - max 300 characters
+   * Name - Maximum of 100 characters, must be unique, case-insensitive
 
-* Alpha, numeric, special characters are allowed
+   * Description - Maximum of 300 characters
 
-* Reserved characters not allowed: `\ / : * ? " < > |`
+   * Alpha, numeric, special characters are allowed
 
-* Fragment names are case-insensitive.
+   * Reserved characters are not allowed: `\ / : * ? " < > |`
 
-* Fragment names should be unique.
+   ![Create fragment dialog](./assets/assets-fragments-create-dialog.png){width="500"}
 
-Click **[!UICONTROL Create]**. The visual content editor opens with an empty canvas. 
+1. Click **[!UICONTROL Create]**.
 
-For building a fragment using the visual content editor, refer to the below sections
+   The visual content editor opens with an empty canvas. For building a fragment using the visual content editor, refer to the content authoring topics:
 
 <!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
 
@@ -59,13 +63,13 @@ More options -->
 
 ## View fragment details
 
-Click the name of any of the fragments in the listing to open the fragment details page.
+Click the name of any fragment in the list page to open the fragment details page.
 
-From here you can choose to - edit the fragment, rename the fragment or update the fragment description (make updates & click outside the name/ description box to auto-save changes).
+From here you can choose to edit the fragment, rename the fragment or update the fragment description (make updates and click outside the name/ description box to auto-save changes).
 
-Clicking **[!UICONTROL Edit]** opens the fragment in the visual content editor.
+Click **[!UICONTROL Edit]** to open the fragment in the visual content editor.
 
-Exit the view at any time by clicking the Back button, which returns you to the listing page.
+Exit the view at any time by clicking the _Back_ arrow at the top left, which returns you to the _Fragments_ list page.
 
 ## View fragment used-by references
 
@@ -73,15 +77,15 @@ Within the fragment details page, click the **[!UICONTROL Used By]** tab to view
 
 >[!IMPORTANT]
 >
->Any fragment that is currently IN USE by any email or email template cannot be deleted.
+>Any fragment that is currently in use by any email or email template cannot be deleted.
 
-References are displayed according to category: _Email_ or _Email template_. Emails in Journey Optimizer B2B Edition are embedded and authored within journeys, so the parent journey of the email that uses the fragment is displayed in references.
+References are displayed according to category: _Email_ or _Email template_. Emails in Journey Optimizer B2B Edition are embedded and authored within account journeys, so the parent journey of the email that uses the fragment is displayed in references.
 
-Clicking the link directs you to the corresponding email or email template where the fragment is used.
+Click the link to open the corresponding email or email template where the fragment is used.
 
 ## Delete fragments
 
-Any fragment that is currently IN USE by any email or email template cannot be deleted, so ensure that you check the used-by references before initiating a fragment removal. Also, a removal cannot be undone, so check before initiating a delete action.
+Any fragment that is currently in use by any email or email template cannot be deleted, so ensure that you check the _used-by_ references before initiating a fragment removal. Also, a removal cannot be undone, so check before initiating a delete action.
 
 You can delete a fragment using either of the following methods:
 
