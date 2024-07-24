@@ -2,6 +2,7 @@
 title: Sales alert email
 description: Learn how to include an automated sales alert email in your account journeys.
 feature: Email Authoring, Content
+exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
 ---
 # Sales alert email
 

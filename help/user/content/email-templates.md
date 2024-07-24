@@ -2,6 +2,7 @@
 title: Email templates
 description: Learn how to create and edit email templates that can be used to author account journey emails easily and efficiently.
 feature: Email Authoring, Content
+exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 ---
 # Email templates
 
