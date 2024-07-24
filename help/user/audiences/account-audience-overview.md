@@ -1,9 +1,9 @@
 ---
-title: Account Audiences
+title: Account audiences
 description: Learn about account audiences and how they enable account-based journeys.
 ---
 
-# Account Audiences
+# Account audiences
 
 An audience is a set of people who share similar behaviors and/or characteristics. Journey Optimizer B2B Edition uses the account segmentation functionalities found in Adobe Real-Time Customer Data Platform B2B and B2P editions. With account segmentation, users can generate account audiences by leveraging data from any of the B2B entities within the system. These account audiences serve as inputs for Journey Optimizer B2B Edition account journeys, facilitating seamless activation and personalization capability.
 
