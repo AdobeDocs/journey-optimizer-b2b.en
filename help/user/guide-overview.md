@@ -1,6 +1,6 @@
 ---
 title: Adobe Journey Optimizer B2B Edition Documentation
-description: Learn how to use the Adobe Journey Optimizer B2B Edition features.
+description: Learn how to use the Adobe Journey Optimizer B2B Edition features for orchestrating account and buying group journeys using built-in generative AI and industry-leading automation.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
@@ -13,23 +13,27 @@ Here is a sampling of the latest enhancements in the Journey Optimizer B2B Editi
 
 >[!BEGINTABS]
 
->[!TAB Beta release is available]
+>[!TAB AI Assistant]
 
-Join the Beta program to discover the many features included in the Adobe Journey Optimizer B2B Edition Beta release.
+Quickly get up to speed with account-based marketing concepts and learn about the Journey Optimizer B2B Edition features that are designed to maximize your team's strategies.
 
-[!BADGE Learn more]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta release"}
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Learn about AI Assistant"}
 
->[!TAB AI Assistant for email content]
-
-Elevate your content to the next level with AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and even images specifically tailored to resonate with your audience.
+Elevate your content to the next level with AI Assistant for email content in Adobe Journey Optimizer B2B Edition, powered by generative AI. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and even images specifically tailored to resonate with your audience.
 
 [!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Learn about AI Assistant for email"}
 
+>[!TAB Visual fragments]
+
+Create reusable components as custom content blocks for your marketing team members to use in assembling email contents for an improved design process.
+
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Learn about visual fragments"}
+
 >[!TAB Buying groups]
 
-Create buying groups from unified B2B data from across your enterprise, align them to your company's offerings, and automate how you define, identify, and target the right members for each role to scale the most precise targeting for your customer journeys.
+Create buying groups from unified B2B data from across your enterprise. Align them to your company's offerings, and automate how you define, identify, and target the right members for each role to scale the most precise targeting for your customer journeys.
 
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Learn about Buying Groups"}
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Learn about buying groups"}
 
 >[!TAB Account journeys]
 
@@ -49,7 +53,7 @@ Build tailored journeys for buying groups within target accounts that automate h
     </td>
       <td>
     <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
-    <div><strong>Build your first Buying Group</strong><br/>Create your  first Buying Group in Journey Optimizer B2B Edition to automate the process of engaging and qualifying contacts.</div>
+    <div><strong>Build your first Buying Group</strong><br/>Create your first buying group in Journey Optimizer B2B Edition to automate the process of engaging and qualifying contacts.</div>
     </td>
     <td>
     <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
@@ -70,7 +74,7 @@ Build tailored journeys for buying groups within target accounts that automate h
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Login and home page</strong><br/><a href="home-page.md#marketer---new-user">Marketer - new user</a><br/><a href="home-page.md#marketer---advanced-user">Marketer - advanced</a> <br/><a href="home-page.md#administrator---new-user">Administrator - new user</a> <br/><a href="home-page.md#administrator---advanced-user">Administrator - advanced</a>
+      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Quick start guidance</a> <br/><a href="./start/ai-assistant.md">AI Assistant</a>
     </td>
     <!--
     <td>
@@ -93,7 +97,7 @@ Build tailored journeys for buying groups within target accounts that automate h
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong>Assets</strong><br/><a href="./content/assets-overview.md">Overview</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong>Content management</strong><br/><a href="./content/assets-overview.md">Assets overview</a><br/><a href="./content/email-templates.md">Email templates</a><br/><a href="./content/fragments.md">Visual fragments</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
