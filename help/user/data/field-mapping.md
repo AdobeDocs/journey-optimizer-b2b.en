@@ -1,6 +1,7 @@
 ---
 title: XDM field mapping
 description: Review the field mapping between the AEP XDM schema, Marketo Engage, and Journey Optimizer B2B Edition.
+exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
 ---
 # XDM field mapping
 
@@ -33,4 +34,3 @@ The Data Transfer Service (DTS) in  is responsible for synchronizing data from A
 |`consents.marketing.email.val`   |Unsubscribed    |Unsubscribed   |string  |boolean     |If unsubscribed is true (for example, value = 1), then set `consents.marketing.email.val` as (n). If unsubscribed is false (for example, value = 0), then set consents.marketing.email.val as null.    |
 |`consents.marketing.email.reason` |Unsubscribed Reason        |Unsubscribed Reason        |string  |string      |  |
 |`b2b.companyWebsite` |Website   |N/A     |string  |url         |Website of the company a business person is associated with. |
-

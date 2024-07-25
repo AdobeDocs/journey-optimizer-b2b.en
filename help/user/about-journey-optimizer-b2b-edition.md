@@ -1,6 +1,7 @@
 ---
 title: Adobe Journey Optimizer B2B Edition overview
 description: Discover Adobe Journey Optimizer B2B Edition key features, use cases, and architectures.
+exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 ---
 # Adobe Journey Optimizer B2B Edition overview
 
@@ -34,5 +35,4 @@ After the account journey is created, it must be published. At publish time, the
 
 Journey Optimizer B2B Edition uses the Real-Time CDP account segmentation for both defining and executing account segments and related account person segments required by journeys. As a published journey runs, data about the people and accounts can change, and data is collected on the people who interact with the journey. Journey Optimizer B2B Edition relies on the Marketo Engage source connector for Real-Time CDP B2B Edition to flow data changes back to the Experience Platform sandbox, which is the source of truth.  This data is delivered to AEP in a near real-time fashion.   
 
-Only the existing data types supported by the Marketo Engage source connector (accounts, people, and opportunities) flow back into Real-Time CDP. This means that buying group data does not flow to AEP and instead resides in the Marketo Engage instance used by the Journey Optimizer B2B Edition subscription. 
-
+Only the existing data types supported by the Marketo Engage source connector (accounts, people, and opportunities) flow back into Real-Time CDP. This means that buying group data does not flow to AEP and instead resides in the Marketo Engage instance used by the Journey Optimizer B2B Edition subscription.
