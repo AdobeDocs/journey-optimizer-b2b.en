@@ -11,11 +11,20 @@ With Adobe Journey Optimizer B2B Edition, you can orchestrate account and buying
 -->
 To access to [!DNL Adobe Journey Optimizer B2B Edition], connect to Adobe Experience Cloud with your Adobe ID, and select [!DNL Journey Optimizer B2B Edition].
 
-![Buying group browse page](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![Adobe Experience Platform apps](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 The home page is displayed when you log in to the Adobe Experience Platform and select the Adobe Journey Optimizer B2B Edition app. This page provides an overview of the current state of the Journey Optimizer B2B initiatives in the form of refined insights and quick access to the relevant modules. It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation.
 
-The Journey Optimizer B2B Edition has two primary user personas: a marketer and an administrator. Each persona has a specific home page for different maturity stages (new or advanced). The page content is based on what each persona needs in terms of information and the next actions to be taken. These pages also include access to **AI Assistant**, which helps users to get quick information about any specific questions or topics that they need<!-- and to obtain specific recommendations for their challenges or objectives-->.
+The Journey Optimizer B2B Edition has two primary user personas: a marketer and an administrator. Each persona has a specific home page for different maturity stages (new or advanced). The page content is based on what each persona needs in terms of information and the next actions to be taken. These pages also include access to [AI Assistant](./start/ai-assistant.md), which helps users to get quick information about any specific questions or topics that they need<!-- and to obtain specific recommendations for their challenges or objectives-->.
+
+![Journey Optimizer B2B Edition home page](./assets/home-page.png){width="800" zoomable="yes"}
+
+* **Marketer - new user** -- The _Marketer_ home page for a new user assists them in getting accustomed to Journey Optimizer B2B and its capabilities. It includes a guided walkthrough for the new marketer to obtain an onboarding walkthrough so that they can understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives.
+* **Marketer - advanced user** -- The _Marketer_ home page for an advanced marketer assists them in obtaining more information on the current progress of the initiatives and on specific actions and on the next best action to be taken along with quick access to relevant sections.
+* **Administrator - new user** -- The _Admin_ home page for a new administrator assists them in getting accustomed to Journey Optimizer B2B Edition and its capabilities. It includes a guided walkthrough for the new administrator to obtain a step-by-step onboarding journey to understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives.
+* **Administrator - advanced user** -- The _Admin_ home page for an advanced administrator assists them in obtaining more information about the current status of the instance and on specific actions that can be taken to make it more efficient and effective for the marketers.
+
+<!-- 
 
 ## Marketer - new user
 
@@ -60,3 +69,5 @@ The second row consists of the recent assets used by the B2B marketers in a sing
 The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
 
 The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
+
+-->

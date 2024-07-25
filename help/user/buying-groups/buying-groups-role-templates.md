@@ -49,11 +49,11 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
 1. Add a rule for each role that you want to define for the template.
 
-  * Choose the **[!UICONTROL Buying group role]** from the list.
+   * Choose the **[!UICONTROL Buying group role]** from the list.
 
-    For the current release, there are six roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`.
+      For the current release, there are six roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`.
 
-   ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}  
+      ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}  
 
    * Set the **[!UICONTROL Weighting]** for the role, which is used to calculate the engagement score. 
 

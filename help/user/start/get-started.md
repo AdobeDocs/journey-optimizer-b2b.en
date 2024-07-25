@@ -11,7 +11,7 @@ Based on your organization, administrators can define several types of users and
 
 >[!BEGINTABS]
 
->[!TAB Quick start for an administrator]
+>[!TAB Administrator quick start]
 
 Before your team can start using the Adobe Journey Optimizer B2B Edition features, several steps are required to prepare your environment. Perform these steps so that the data engineer and marketer can start working with Adobe Journey Optimizer B2B Edition.
 
@@ -31,7 +31,7 @@ Learn about access management in the following pages:
 
 1. **Configure and enable use of Adobe Experience Manager Assets** for teams that use Assets as c Cloud Service for centralized digital asset management. [Learn more](../admin/configure-aem-repositories.md)
 
->[!TAB Quick start for a marketer]
+>[!TAB Marketer quick start]
 
 As a marketer, or an _Account Journey Practitioner_, you are responsible for designing journeys and crafting content. You can start working with Adobe Journey Optimizer B2B Edition after the system administrator and the data engineer prepare your environment and grant you access.
 

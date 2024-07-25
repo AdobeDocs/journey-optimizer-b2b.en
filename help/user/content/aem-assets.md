@@ -20,7 +20,7 @@ If your environment has one or more [Assets repositories connections](../admin/c
 
 * When you create a new content, choose `AEM Assets` as the **[!UICONTROL Image Source]** item in the dialog.
 
-   ![Select AEM Assets as the image source in the create dialog](./assets/create-dialog-aem-assets.png){width="500"}
+   ![Select AEM Assets as the image source in the create dialog](./assets/create-dialog-aem-assets.png){width="400"}
 
 * When you open an existing content resource, choose `AEM Assets` in the _[!UICONTROL Body]_ panel on the right.
 
