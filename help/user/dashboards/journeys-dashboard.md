@@ -1,6 +1,6 @@
 ---
 title: Journey Overview dashboard
-description: Learn about the information provided by the Journey Overview dashboard and how it can help you monitor and manage your Account Journey strategy.
+description: Learn about the information provided by the Journey Overview dashboard and how it can help you monitor and manage your account journey strategy.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 ---
@@ -8,74 +8,62 @@ exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 
 This dashboard provides a comprehensive overview of a selected account journey, detailing account progress using donut and line charts that categorize and quantify completions, in-progress activities, and aborts over time. It helps marketers evaluate the effectiveness of Email and SMS channels through key delivery and engagement metrics.
 
-## Journey Status
+This overview is available for published account journeys, and it takes approximately four hours for data to start populating the charts and tables.
+
+![Journey overview](./assets/journey-overview.png){width="700" zoomable="yes"}
+
+## Journey status
 
 This donut chart offers a breakdown of journey statuses, categorizing accounts into `Completed`, `In Progress`, and `Aborted`. Each segment is clearly labeled with corresponding percentages and account numbers on the outer edge of the chart.
 
-## Journey Completion Over Time
+## Journey completion over time
 
 This line chart tracks the number of accounts that have completed their journey over time. The horizontal axis maps the timeline while the vertical axis quantifies the accounts, providing a straightforward view of completion trends.
 
-## Journey Performance widgets
+## Journey performance widgets
 
 This section presents two vital metrics:
 
-* **[!UICONTROL Journey Completion Rate]** - The percentage of accounts that have successfully completed their journey.
-* **[!UICONTROL Journey Duration]** - The average length of time taken for accounts to complete their journey.
+* **[!UICONTROL Journey completion rate]** - The percentage of accounts that have successfully completed their journey.
+* **[!UICONTROL Journey duration]** - The average length of time taken for accounts to complete their journey.
 
-## Email and SMS Performance tables
+## Email and SMS performance tables
 
-The tables provide a detailed look at the effectiveness of Email and SMS channels. Each table showcases metrics, such as delivery rates and click-through rates, to assess the impact of each communication touchpoint.
+The performance tables provide a detailed look at the effectiveness of Email and SMS channels. Each table showcases metrics, such as delivery rates and click-through rates, to assess the impact of each communication touchpoint.
 
-**[!UICONTROL Email Performance]** table columns:
+**[!UICONTROL Email performance]** table columns:
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of emails sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Open Rate`
-* `# opened / # delivered`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL Asset name]_ - name of the asset
+* _[!UICONTROL Sent]_ - number of emails sent
+* _[!UICONTROL Delivery rate]_ - number of delivered emails divided by the number sent
+* _[!UICONTROL Open Rate]_ - number opened emails divided by the number delivered
+* _[!UICONTROL Click-through rate]_ - number of clicked emails divided by the number delivered
 
-**[!UICONTROL SMS Performance]** table columns:
+**[!UICONTROL SMS performance]** table columns:
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of messages sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL Asset name]_ - name of the asset
+* _[!UICONTROL Sent]_ - number of SMS messages sent
+* _[!UICONTROL Delivery rate]_ - number of delivered SMS messages divided by the number sent
+* _[!UICONTROL Click-through rate]_ - number of clicked SMS messages divided by the number delivered
+<!-- 
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. 
+## Enhanced interaction
 
-Enhanced Interaction:
+Engage further with the data by using the action icon (**...**) in the top right of each chart or table. 
 
-Engage further with the data by using the action button in the top-right corner. Select 'Drill through' for an in-depth analysis of individual group statuses or 'View more' for extended data and insights.
+### Drill-Through
 
-View More:
-Pop-up appears with the chart and a data table of each widget.
-Download CSV button on the top-right corner of the table. 
+For the _[!UICONTROL Journey status]_ graph, choose **[!UICONTROL Drill through]** for an in-depth analysis of individual account statuses.
 
-Drill-Through:
+![The drill through for the graph data](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+<!--
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
 
-The applied global filters are carried over to the dashboard and cannot be changed on this page.
-The applied filters are displayed.
-The only available filter that is enabled is _Account Name_.
+### View more
 
-Click **[!UICONTROL View more]** to open the download dialog.
+Choose **[!UICONTROL View more]** to access extended data and insights. The displayed pop-up provides a breakdown of the data. 
 
-Click the button at the top-right corner to hide or display any of the available columns:
+To download the data, click **[!UICONTROL Download CSV]** at the top right.
 
-* [!UICONTROL Account Name]
-* [!UICONTROL Account ID]
-* [!UICONTROL Status]
-* [!UICONTROL Region]
-* [!UICONTROL Industry]
-* [!UICONTROL Entry Date]
-* [!UICONTROL Exit Date]
-* [!UICONTROL Number of Days in Journey]
+![View extended data](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}

@@ -44,7 +44,7 @@ Gain insights into your buying groups' progression with the Buying Group Status 
 
 To engage with the data, use the action menu in the top-right corner. 
 
-![Click the icon to access the actions menu](./assets/buying-group-more-menu.png){width="400"}
+![Click the icon to access the actions menu](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL Drill through]
 
@@ -52,7 +52,7 @@ Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual gro
 
 ![The drill through for the graph data](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-The global filters applied to the dashboard are carried over and cannot be changed from this page.
+The global filters applied to the dashboard are carried over.
 
 Click the action menu icon on the top right and choose **[!UICONTROL View more]** to [view extended data and insights](#view-more).
 
@@ -80,4 +80,4 @@ Choose **[!UICONTROL View more]** for extended data and insights. The displayed 
 
 ![View extended data](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-To download the data, click **[!UICONTROL Download CSV]** at the top right corner.
+To download the data, click **[!UICONTROL Download CSV]** at the top right.

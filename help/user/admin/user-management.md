@@ -30,13 +30,15 @@ Before you can use the Admin Console to administer users within your team, you n
 
 1. Log in using your Adobe ID.
 
-   Upon successful login, you see the Overview page of the Adobe Admin Console.
+   Upon successful login, you see the _Overview_ page of the Adobe Admin Console.
 
 1. If you have access to multiple organizations, ensure that you have logged in to the correct organization.
 
    To change your organization, click the organization name from the top right corner and choose the organization to which you need access.
 
-1. Select Administrators from the Users card to verify that you are a system administrator.
+1. Select **[!UICONTROL Administrators]** from the _[!UICONTROL Users]_ card to verify that you are a system administrator.
+
+   ![Admin Console overview - click Administrators](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
 1. Search by entering your Adobe ID email, username, first, or last name.
 
@@ -48,41 +50,56 @@ Before you can use the Admin Console to administer users within your team, you n
 
 When granting users access to an Adobe solution, you do not necessarily want to give them full access. Product profiles enable each solution to have its own set of user permissions. Use the Admin Console to assign product profiles.
 
+For more information about using product profiles for user entitlements, see [Manage product profiles for enterprise users](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in the Admin Console documentation.
+
 >[!NOTE]
 >
->These steps can be performed only by an Admin Console system administrator or Marketo Engage product administrator.
+>An Admin Console system administrator or Marketo Engage product administrator can perform these steps.
 
 1. Log in to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Choose Products > Marketo Engage.
+1. Select the **[!UICONTROL Products]** tab.
 
-1. Click New profile and enter a product profile name, such as _Standard User_.
+1. Open the Market Engage instance where you want to add the profile and click New profile.
 
-1. Click Next > Save
+   ![Admin Console - Marketo Engage instance - New profile](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
+
+1. Enter a product profile name, such as _Standard User_.
+
+1. Click **Next** and then **Save**.
 
 ## Create a user group {#create-user-group}
 
 A user group is a collection of users are granted a shared set of permissions. You can add or remove users in your user group. The group permissions remain the same while the users within the group change.
 
+For more information about how user groups are used to manage permissions, see [Manage user groups](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
+
 >[!NOTE]
 >
->These steps can be performed only by an Admin Console system administrator.
+>An Admin Console system administrator can perform these steps.
 
 1. Log in to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Choose **[!UICONTROL Users]** > **[!UICONTROL User Groups]** > **[!UICONTROL New user group]**.
+1. Select the **[!UICONTROL Users]** tab.
+
+1. Choose **[!UICONTROL User Groups]** in the left navigation.
+
+1. Click **[!UICONTROL New user group]** at the top right.
 
 1. Enter a name for the user group, such as _Standard Users_ and click **[!UICONTROL Save]**.
 
 1. Click the user group you just created.
 
-1. Click **[!UICONTROL Assigned product profiles]** > **[!UICONTROL Assign profile]**.
+1. Select the **[!UICONTROL Assigned product profiles]** tab and click **[!UICONTROL Assign profile]**.
 
-1. Select the following products:
-   * [!UICONTROL Marketo Engage - Standard User]
+1. Click **+** and add each instance of the following products:
+
+   * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Adobe Experience Platform Data Collection - Default]
+   * [!UICONTROL Adobe Experience Platform Data Collection]
    * [!UICONTROL Data Collection All Access]
+
+   ![Admin Console - user-group - add products](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
 
@@ -90,7 +107,9 @@ A user group is a collection of users are granted a shared set of permissions. Y
 
 Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is gathered under a capability, such as journeys or buying groups, which represents the different functionalities or objects in Journey Optimizer B2B Edition.
 
-_Permissions_ is the area of Adobe Experience Platform where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.
+The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the labels, sandboxes, and users associated with a specific role.
+
+For more information, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) in the Experience Platform documentation.
 
 >[!NOTE]
 >
@@ -98,19 +117,23 @@ _Permissions_ is the area of Adobe Experience Platform where administrators can 
 
 1. Go to [experience.adobe.com](https://experience.adobe.com/).
 
-1. Select **[!UICONTROL Permissions]**.
+1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
 
    >[!NOTE]
    >
-   >If you don't see Permissions, you may need to click View all and select it from the available applications.
+   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
+
+   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 1. Select **[!UICONTROL Roles]** in the left navigation and select **[!UICONTROL Create role]**.
 
-1. In the _[!UICONTROL Create new role]_ dialog, enter a name for the role, such as _Standard User_, and a description (optional).
+1. In the _[!UICONTROL Create new role]_ dialog, enter a name for the role, such as _AJO B2B_, and a description (optional).
 
 1. Click **[!UICONTROL Confirm]**.
 
 1. Select your sandboxes.
+
+   ![Experience Platform - add sandboxes for the new role](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
 1. Add the profile permissions:
 
@@ -124,30 +147,42 @@ _Permissions_ is the area of Adobe Experience Platform where administrators can 
       * [!UICONTROL View B2B profile]
       * [!UICONTROL Manage B2B profile]
 
+   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+
 1. Click **[!UICONTROL Save]** at the top right.
 
-1. Choose **[!UICONTROL User groups]** > **[!UICONTROL Add Groups]**.
+1. Go to the role details and select the **[!UICONTROL User groups]** tab.
+
+1. Click **[!UICONTROL Add Groups]**.
+
+   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
 1. Select the checkbox next to the user group that you created previously in the Admin Console.
 
 1. Click **[!UICONTROL Save]**.
 
-## Add users in the Admin Console
+## Add users to the group in the Admin Console
 
 >[!NOTE]
 >
->These steps can be performed only by an Admin Console system administrator or a product administrator.
+>An Admin Console system administrator or a product administrator can perform these steps.
+
+For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
 
 1. Go to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Click **[!UICONTROL Add users]**.
+1. Under _[!UICONTROL Quick links]_, click **[!UICONTROL Add users]**.
 
 1. Add each user:
 
    * Enter the user's email address, first name, and last name.
-   * Click [!UICONTROL User groups].
-   * Select the user group that you created previously.
 
-1. Click **[!UICONTROL Apply]**.
+      ![Experience Platform - add profiles for the new role](./assets/admin-console-add-users.png){width="600" zoomable="yes"}
+
+   * For **[!UICONTROL User groups]**, click **+**.
+
+   * Select the user group that you created previously.
+   
+   * Click **[!UICONTROL Apply]**.
 
 1. Click **[!UICONTROL Save]**.
