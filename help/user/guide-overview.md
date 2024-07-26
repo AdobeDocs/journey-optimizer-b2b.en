@@ -68,6 +68,12 @@ Build tailored journeys for buying groups within target accounts that automate h
     </tr>
 </table>
 
+## Overview demo
+
+Discover the components of a buying group and understand the basics of building an account journey.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12) 
+
 ## Explore the documentation
 
 <table style="table-layout:auto">

@@ -63,7 +63,7 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
    * **[!UICONTROL Add conditions for auto-assignment]** - Select this checkbox to add conditions for auto-assigning members to the buying group who match the condition. If the checkbox is not selected, then adding conditions is NOT required.
 
-   * **[!UICONTROL Required for completeness score]** - Select this checkbox for the role if you want it to be a requirement for calculating a completeness score. -->
+   * **[!UICONTROL Required for completeness score]** - Select this checkbox for the role if you want it to be a requirement for calculating a completeness score.
 
    * Click **[!UICONTROL Add Condition]**.
 

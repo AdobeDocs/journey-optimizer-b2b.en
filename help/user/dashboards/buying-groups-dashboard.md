@@ -13,26 +13,52 @@ The Sales Handoff comprises:
 * **Data Handoff**: Marketing identifies _ready_ target data and makes it accessible to Sales in the CSV format. 
 * **Sales Acceptance**: Sales manually reviews and incorporates _ready_ targets into their pipeline.
 
-![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
-
 ## Buying Group Status
 
 Gain insights into your buying groups' progression with the Buying Group Status view. This visualization showcases the distribution of your buying groups categorized by their most recent status update within a specified time frame.
 
+![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+
 **[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
 **[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
+<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. 
+### Data filtering
+
+* **Data filter** - Use the _[!UICONTROL Date filter]_, which reflects the Buying Group last status change date. The start date is adjustable. The end date defaults to the current day.
+
+   ![Filtering the buying group status data by date range](./assets//buying-group-status-filter-date.png){width="400"}
+
+* **Attribute filter** - Click the _Filter_ icon at the top left to filter the data display using any of these attributes:
+
+    * Solution Interest
+    * Status
+    * Buying Group Statuses
+    * Account Region
+    * Account Industry
+    <!-- * Account's Industry -->
+
+   ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"}
+
+## Engage with the data
+
+To engage with the data, use the action menu in the top-right corner. 
+
+![Click the icon to access the actions menu](./assets/buying-group-more-menu.png){width="400"}
 
 ### [!UICONTROL Drill through]
 
 Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual group statuses.
 
-The global filters applied to the dashboard are carried over and cannot be changed from this page.
-The applied filters are displayed. 
-The only available filter that is enabled is _Account Name_.
+![The drill through for the graph data](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-To display or hide available columns, click **[!UICONTROL View more]** at the top-right corner:
+The global filters applied to the dashboard are carried over and cannot be changed from this page.
+
+Click the action menu icon on the top right and choose **[!UICONTROL View more]** to [view extended data and insights](#view-more).
+
+### [!UICONTROL View more]
+
+Choose **[!UICONTROL View more]** for extended data and insights. The displayed pop-up includes a chart and a table that show the breakdown of the buying group statuses:
 
 * [!UICONTROL Account ID ]
 * [!UICONTROL Account Name]
@@ -52,21 +78,6 @@ To display or hide available columns, click **[!UICONTROL View more]** at the to
 * [!UICONTROL Number of Inbound Engagement Activities]
 * [!UICONTROL Last engagement date]
 
-### Filter
+![View extended data](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-Global filter: **[!UICONTROL Date filter]**, which reflects the Buying Group last status change date. The start date is adjustable. The end date defaults to the current day.
-
-You can also filter the display using any of these attributes:
-
-* Solution Interest
-* List of Solution Interests
-* Status
-* Buying Group Statuses
-* Account Region
-* Account's Region
-* Account Industry
-* Account's Industry
-
-### [!UICONTROL View more]
-
-Choose **[!UICONTROL View more]** for extended data and insights. The displayed pop-up includes a chart and a table that show the breakdown of the buying group statuses and includes a _[!UICONTROL Download CSV]_ button on the top-right corner of the table.
+To download the data, click **[!UICONTROL Download CSV]** at the top right corner.
