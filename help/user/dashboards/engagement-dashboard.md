@@ -10,13 +10,13 @@ This dashboard provides a comprehensive view of engagement and showcases real-ti
 
 <!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. -->
 
-## Engagement by Accounts / People
+## Engagement by accounts / Engagement by people
 
 The donut charts clearly divide accounts or people into engaged and non-engaged categories. The central figure denotes the total count within each category, providing an at-a-glance understanding of overall engagement.
 
 ![Engagement by accounts and by people](assets/engagement-accounts-people.png){width="700" zoomable="yes"}
 
-## Engagement by Accounts / People Over Time
+## Accounts engaged over time / People engaged over time
 
 These line charts display the engagement levels of accounts or people over time. With distinct lines for 'Engaged' and 'Not Engaged,' visualized alongside a time-stamped horizontal axis, you can pinpoint trends and patterns. You can hover over a line to reveal precise metrics for any given date.
 
@@ -24,36 +24,31 @@ These line charts display the engagement levels of accounts or people over time.
 
 ## Enhanced interactions
 
-Engage further with the data by using the action icon ( **...** ) in the top-right corner.
+Engage further with the data by using the action icon ( **...** ) in the top-right corner of each graph.
 
-![Engagement dashboard data - action menu](assets/engagement-action-menu.png){width="400"}
+![Engagement dashboard data - action menu](assets/engagement-action-menu.png){width="300"}
 
 ### View more
 
 **[!UICONTROL View More]**: For all dashboard views, a pop-up appears with the chart and a table showing the breakdown of engagement by account / people.
 
-Download CSV button on the top-right corner of the table.
-<!-- 
+To copy the extended data, click **[!UICONTROL Download CSV]** at the top right.
+
 ### Drill through
 
 Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual group statuses.
 
 The global filters applied to the dashboard are carried over to this page.
 
-The applied filters are displayed, but are not editable on this page. 
-The only available filters that are enabled are _Account Name_ or _Person Name_.
+Choose **[!UICONTROL View more]** for extended data and insights. Depending on the chart, there is extended data for the following:
 
-To display or hide available columns, click **[!UICONTROL View more]** at the top-right corner:
-
-Click **[!UICONTROL View more]** to open the download dialog.
-
-Button on the top right corner to open a pop-up with the available column list:
-
-* [!UICONTROL Account]
-* [!UICONTROL Account name]
-* [!UICONTROL Account ID]
+* [!UICONTROL Accounts]
+* [!UICONTROL People]
+* [!UICONTROL Date]
 * [!UICONTROL Status]
-* [!UICONTROL People engaged]
+* [!UICONTROL Engaged]
+* [!UICONTROL Not Engaged]
+<!-- 
 * [!UICONTROL Engagement activities]
 * [!UICONTROL Last engagement date]
 * [!UICONTROL Region]
@@ -65,17 +60,14 @@ Button on the top right corner to open a pop-up with the available column list:
 * [!UICONTROL Email]
 --->
 
-### Filter
+### Data filtering
 
-Global filter: **[!UICONTROL Date]** filter, which reflects the Buying Group last status change date. The start date is adjustable. The end date defaults to the current day.
+* **Data filter** - Use the _[!UICONTROL Date filter]_, which reflects the last engagement date. The start date is adjustable. The end date defaults to the current day.
 
-You can also filter the display using any of these attributes: 
+* **Attribute filter** - Click the _Filter_ icon at the top left to filter the data display using any of these attributes:
 
-* Solution Interest
-* List of Solution Interests
-* Engagement Type
-* List of Engagement Types
-* Account Region
-* Account's Region
-* Account Industry
-* Account's Industry
+    * Solution interest
+    * Engagement type
+    * Region
+    * Industry
+    <!-- * Account's Industry -->

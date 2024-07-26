@@ -29,7 +29,7 @@ Gain insights into your buying groups' progression with the Buying Group Status 
 
    ![Filtering the buying group status data by date range](./assets//buying-group-status-filter-date.png){width="400"}
 
-* **Attribute filter** - Click _Filter_ icon at the top left to filter the data display using any of these attributes:
+* **Attribute filter** - Click the _Filter_ icon at the top left to filter the data display using any of these attributes:
 
     * Solution Interest
     * Status
