@@ -15,7 +15,7 @@ In comparing Adobe Journey Optimizer B2B Edition to Marketo Engage and Adobe Jou
 
 Adobe Journey Optimizer B2B Edition uses _Account Audiences_ and account's _People Audiences_ from Adobe Experience Platform to power an account journey, which is run inside of Marketo Engage. Experience Platform is always the source of truth for this data, but all execution and processing of the account journey happens inside of the Marketo Engage B2B marketing infrastructure. The orchestration brings data back to Experience Platform in near real time by the existing Marketo Engage - Adobe Real-Time CDP B2B Edition source connector, which streams data changes from Marketo Engage to Experience Platform.
 
-![High-level data architecture](./assets/high-level-data-architecture.png){width="600" zoomable="yes"}
+![High-level data architecture](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 ### Subscription model
 
