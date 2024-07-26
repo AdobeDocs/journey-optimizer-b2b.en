@@ -16,7 +16,7 @@ You can set up email deliveries in an Account Journey when you add a _[!UICONTRO
 1. For the _[!UICONTROL Action on people]_, choose **[!UICONTROL Send email]**.
 1. For the _[!UICONTROL Email source]_, choose **[!UICONTROL Create new email]**.
 
-   Alternatively, you can also select the `Select email from Adobe Marketo Engage` option to use one of the pre-authored emails in Marketo Engage and send it as a part of the Account Journey.
+   Alternatively, you can also select the _[!UICONTROL Select email from Adobe Marketo Engage]_ option to use one of the pre-authored emails in Marketo Engage and send it as a part of the Account Journey.
 
    >[!NOTE]
    >
@@ -86,7 +86,7 @@ After you create and personalize the email content, you can export the content f
 
 1. Select the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that are tracked.
 
-   You can modify the Tracking Type or Label and add tags if needed.
+   You can modify the _Tracking Type_ or _Label_ and add tags if needed.
 
 If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 

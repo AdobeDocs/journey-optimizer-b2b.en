@@ -90,7 +90,7 @@ You can replace an asset using either of the following methods:
 
 In the _[!UICONTROL Replace asset]_ dialog, drag and drop the replacement file from your system to the file box. You can also click the _[!UICONTROL Select a file from your computer]_ link to use your local file system to select a file. (If you select multiple files in your local system, the first file selected is used for the replacement.)
 
-![Replace asset dialog](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![Replace asset dialog](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 To proceed, click **[!UICONTROL Replace]**. You can abort the process by clicking **[!UICONTROL Cancel]**. 
 

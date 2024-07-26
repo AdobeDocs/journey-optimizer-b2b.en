@@ -44,7 +44,7 @@ Gain insights into your buying groups' progression with the Buying Group Status 
 
 To engage with the data, use the action menu in the top-right corner. 
 
-![Click the icon to access the actions menu](./assets/buying-group-more-menu.png){width="400"}
+![Click the icon to access the actions menu](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL Drill through]
 
