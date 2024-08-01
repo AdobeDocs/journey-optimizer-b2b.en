@@ -1,5 +1,5 @@
 ---
-title: Get started with Journey Optimizer B2B Edition
+title: Get Started with Journey Optimizer B2B Edition
 description: As a new user in Journey Optimizer B2B Edition, learn about the key areas for getting started.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 ---

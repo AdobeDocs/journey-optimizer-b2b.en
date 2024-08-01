@@ -1,5 +1,5 @@
 ---
-title: XDM field mapping
+title: XDM Field Mapping
 description: Review the field mapping between the AEP XDM schema, Marketo Engage, and Journey Optimizer B2B Edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
 ---

@@ -1,5 +1,5 @@
 ---
-title: Account Journey nodes
+title: Account Journey Nodes
 description: Learn about the node types that you can use to construct your account journeys.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c

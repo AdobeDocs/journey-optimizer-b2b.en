@@ -1,5 +1,5 @@
 ---
-title: Buying Groups Overview dashboard
+title: Buying Groups Overview Dashboard
 description: Learn about the Buying Groups Overview dashboard and how it enables the Sales Handoff from the Marketing team.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03

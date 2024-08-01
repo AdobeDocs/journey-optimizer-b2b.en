@@ -1,5 +1,5 @@
 ---
-title: Email authoring
+title: Email Authoring
 description: Learn how to create personalized email content that is used in Account Journeys.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb

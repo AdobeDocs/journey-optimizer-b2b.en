@@ -1,5 +1,5 @@
 ---
-title: SMS authoring
+title: SMS Authoring
 description: Learn how to send text messages (SMS) to your customers on their mobile devices, and to personalize and preview messages in text format from the SMS editor.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746

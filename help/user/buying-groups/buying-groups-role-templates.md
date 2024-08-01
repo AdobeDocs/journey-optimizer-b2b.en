@@ -1,5 +1,5 @@
 ---
-title: Buying group role templates
+title: Buying Group Role Templates
 description: Learn about defining a role template to be used as a buying group component.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
