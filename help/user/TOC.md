@@ -10,7 +10,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
     + [Login and home page](home-page.md)
     + [Quick start guidance](./start/get-started.md)
-    + [Use the AI Assistant](./start/ai-assistant.md)
+    + [Use AI Assistant](./start/ai-assistant.md)
 + Account audiences {#account-audiences}
     + [Overview](./audiences/account-audience-overview.md)
     + [XDM field mapping](./data/field-mapping.md)
@@ -20,12 +20,12 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Role templates](./buying-groups/buying-groups-role-templates.md)
     + [Create buying groups](./buying-groups/buying-groups-create.md)
 + Account journeys {#account-journeys}
-    + [Journeys overview](./journeys/journey-overview.md)
+    + [Overview](./journeys/journey-overview.md)
     + [Account journey nodes](./journeys/journey-nodes.md)
 + Journey content {#journey-content}
     + [Email authoring](./content/email-authoring.md)
-    + [Sales alert email](./content/sales-alert-email.md)
     + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
+    + [Sales alert email](./content/sales-alert-email.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Content management {#content-management}
    + Assets {#assets}

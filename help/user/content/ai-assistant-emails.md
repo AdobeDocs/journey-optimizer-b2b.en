@@ -1,5 +1,5 @@
 ---
-title: AI Assistant for email authoring
+title: AI Assistant for Email Authoring
 description: Learn how to use AI Assistant to optimize the email content that is used in Account Journeys.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4

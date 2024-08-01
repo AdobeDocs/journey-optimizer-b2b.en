@@ -1,5 +1,5 @@
 ---
-title: Log in and home page
+title: Log in and Home Page
 description: Learn how to access the Journey Optimizer B2B Edition app and use the home page information.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 ---

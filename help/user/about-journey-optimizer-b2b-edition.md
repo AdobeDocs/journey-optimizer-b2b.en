@@ -1,5 +1,5 @@
 ---
-title: Adobe Journey Optimizer B2B Edition overview
+title: Adobe Journey Optimizer B2B Edition Overview
 description: Discover Adobe Journey Optimizer B2B Edition key features, use cases, and architectures.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 ---

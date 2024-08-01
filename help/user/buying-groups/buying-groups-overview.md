@@ -1,5 +1,5 @@
 ---
-title: Buying groups
+title: Buying Groups
 description: Learn about buying groups and their components.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332

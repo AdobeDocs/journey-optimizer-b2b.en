@@ -1,5 +1,5 @@
 ---
-title: Configure Experience Manager asset repositories
+title: Configure Experience Manager Asset Repositories
 description: Learn how to configure a connection to Experience Manager Assets repositories for use in Journey Optimizer B2B Edition content authoring.
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2

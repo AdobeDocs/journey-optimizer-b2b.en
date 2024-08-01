@@ -1,5 +1,5 @@
 ---
-title: Account journeys
+title: Account Journeys
 description: Learn about account journeys and how you can create and manage them.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040

@@ -1,5 +1,5 @@
 ---
-title: User management
+title: User Management
 description: Learn how to assign team members to Journey Optimizer B2B Edition product profiles.
 feature: Setup
 roles: Admin

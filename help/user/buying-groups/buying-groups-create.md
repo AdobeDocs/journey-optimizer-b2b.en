@@ -1,5 +1,5 @@
 ---
-title: Create buying groups
+title: Create Buying Groups
 description: Learn how to create buying groups.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a

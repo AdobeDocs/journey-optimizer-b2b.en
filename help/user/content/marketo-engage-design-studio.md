@@ -1,5 +1,5 @@
 ---
-title: Work with Marketo Engage assets
+title: Work with Marketo Engage Assets
 description: Learn about using the Marketo Engage Design Studio asset management integration in Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
