@@ -87,7 +87,9 @@ There is a daily frequency cap of 20 for each activity. If a member of a buying 
 
 The displayed score is rounded. For example, a score of 75.89999 is displayed as 76.
 
-**Weighting** - Users can assign _weighting_ to each role in the roles template to allocate different weights for a role to calculate the engagement score.
+#### Weighting
+
+Users can assign _weighting_ to each role in the roles template to allocate different weights for a role to calculate the engagement score.
 
 ![Set weighting to each role in the roles template](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -99,7 +101,7 @@ Each weighting level translates to a value, which is used for calculating the en
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-A roles template with roles weighted as _[!UICONTROL Vital]_, _[!UICONTROL Important]_, and _[!UICONTROL Normal]_ convert to percentage calculations as 100/240, 80/240, and 60/240.
+A roles template with three roles weighted as _[!UICONTROL Vital]_, _[!UICONTROL Important]_, and _[!UICONTROL Normal]_ convert to the following weighted percentages:
 
 |Role           |Weighting |Backend value | Value calculation |Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |
@@ -109,7 +111,9 @@ A roles template with roles weighted as _[!UICONTROL Vital]_, _[!UICONTROL Impor
 |Practitioner   |Normal    |60            |60/240             |25%        |
 |               |Total     |240           |                   |           |
 
-**Calculation example** - The following example illustrates the engagement score calculation using the outlined role weight percentage, count of inbound activities for each member of the buying group, and a daily cap of 20 count for each event (if it has occurred multiple times).
+#### Calculation example
+
+The following example illustrates the engagement score calculation using the outlined role weight percentage, count of inbound activities for each member of the buying group, and a daily cap of 20 count for each event (if it has occurred multiple times).
 
 |Role           |Member    |Activity type|Yesterday's count|Today's count|Calculation|Total score|
 |-------------- |--------- |-------------|-----------------|-------------|------|-----------|
