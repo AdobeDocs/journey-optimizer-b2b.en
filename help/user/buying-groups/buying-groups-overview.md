@@ -11,7 +11,7 @@ For B2B sales and marketing activities, accounts are key to any strategy. Each a
 
 ![Account roles diagram](assets/account-roles-diagram.png){width="800"}
 
-Within the account, there could be a subset of people who comprise the _buying group_. These people are the ones that ultimately make the purchase decision, so they need special attention from the marketer and might need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Officer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group. 
+Within the account, there could be a subset of people who comprise the _buying group_. These are the people that ultimately make the purchase decision, so they need special attention from the marketer and might need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Officer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group. 
 
 ## Key components
 
@@ -46,7 +46,7 @@ You can increase marketing effectiveness by establishing buying groups in Journe
 
 1. Use in an account journey through the associated solution interest.
 
-## Access buying groups and components
+## View buying groups and components
 
 On the left navigation, expand **[!UICONTROL Accounts]** and click **[!UICONTROL Buying groups]**.
 
@@ -81,28 +81,64 @@ The buying group completeness score is re-calculated every time a buying group i
 
 ### Buying group engagement score
 
-The engagement score is used to evaluate the effectiveness of your marketing programs based on buying group behavioral activities tracked across journeys. This score is derived from activity over the past 30 days. Any role change to a template requires re-calculation of the engagement score for all buying groups created using that template. Only inbound activities are evaluated in calculating an engagement score.
+Buying group engagement score is a number to determine the engagement of the members of a buying group, based on the activities they perform. Any inbound activity performed by the members of the buying group in the last 30 days is used to calculate the score.
 
-The displayed score is rounded off (for example, a score of 75.89999 is displayed as 76), there is no upper limit for the score for GA, and there is a daily frequency cap of 20.
+There is a daily frequency cap of 20 for each activity. If a member of a buying group performs the same activity more than 20 times a day, the count of the activity is capped at 20 and not a higher number.
 
-The following examples illustrate the calculation of the engagement score:
+The displayed score is rounded. For example, a score of 75.89999 is displayed as 76.
 
-**Buying group 1** - engagement score = 22.15
+**Weighting** - Users can assign _weighting_ to each role in the roles template to allocate different weights for a role to calculate the engagement score.
 
-| User | Role | Role Weight | Action | Today | Yesterday | Action Weight | Score |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Decision Maker | 80% | Visited Website | 1000 | 2| 1 | 22 |
-| | | | Clicked Email | 1 | 0 | 1 | 1 |
-| | | | Downloaded Pub | 1 | 3 | 1 | 4 |
-| Bob | Influencer | 15% | Visited Website | 1 | 2 | 1 | 3 |
-| Calvin | Practitioner | 5% | Visited Website | 1 | 1 | 1 | 2 |
+![Set weighting to each role in the roles template](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-**Buying group 2** - engagement score = 8.55
+Each weighting level translates to a value, which is used for calculating the engagement score:
 
-| User | Role | Role Weight | Action | Today | Yesterday | Action Weight | Score |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Decision Maker | 80% | Visited Website | 3 | 2 | 1 | 5 |
-| | | | Clicked Email | 1 | 0 | 1 | 1 |
-| | | | Downloaded Pub | 1 | 3 | 1 | 4 |
-| Bret | Influencer | 15% | Visited Website | 1 | 2 | 1 | 3 |
-| Cam | Practitioner | 5% | Visited Website | 1 | 1 | 1 | 2 |
+* [!UICONTROL Trivial] = 20
+* [!UICONTROL Minor] = 40
+* [!UICONTROL Normal] = 60
+* [!UICONTROL Important] = 80
+* [!UICONTROL Vital] = 100
+
+A roles template with roles weighted as _[!UICONTROL Vital]_, _[!UICONTROL Important]_, and _[!UICONTROL Normal]_ convert to percentage calculations as 100/240, 80/240, and 60/240.
+
+|Role           |Weighting |Backend value | Value calculation |Percentage |
+|-------------- |--------- |------------- |------------------ |---------- |
+|               |          |              |                   |           |
+|Decision Maker |Vital     |100           |100/240            |41.67%     |
+|Influencer     |Important |80            |80/240             |33.33%     |
+|Practitioner   |Normal    |60            |60/240             |25%        |
+|               |Total     |240           |                   |           |
+
+**Calculation example** - The following example illustrates the engagement score calculation using the outlined role weight percentage, count of inbound activities for each member of the buying group, and a daily cap of 20 count for each event (if it has occurred multiple times).
+
+|Role           |Member    |Activity type|Yesterday's count|Today's count|Calculation|Total score|
+|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
+|               |          |             |                 |             |      |           |
+|Decision Maker |Adam      |Visited website|37               |15         |20 + 15|35        |
+|               |          |Clicked email|1                |1            |1 + 1 |2          |
+|               |          |             |                 |             |      |           |
+|               |Mark      |Visited website|5                |3          |5 + 3 |8          |
+|               |          |Clicked email|1                |1            |1 + 1 |2          |
+|               |          |Downloaded pub|3                |2           |3 + 2 |5          |
+|**Decision Makers total score**|         |             |                 |             |      |**52**         |
+|               |          |             |                 |             |      |           |
+|Influencer     |John      |Visited website|19               |9            |19 + 9|28         |
+|**Influencers total score**|         |             |                 |             |      |**28**         |
+|               |          |             |                 |             |      |           |
+|Practitioner   |Bob       |Clicked email|1                |1            |1 + 1 |2          |
+|               |          |             |                 |             |      |           |
+|               |Paul      |Clicked email|1                |1            |1 + 1 |2          |
+|               |          |             |                 |             |      |           |
+|               |Calvin    |Clicked email|1                |1            |1 + 1 |2          |
+|               |          |Visited website|1              |7            |1 + 7 |8          |
+|               |          |Downloaded pub|1               |2            |1 + 2 |3          |
+|**Practitioners total score**|         |             |                 |             |      |**17**         |
+
+The final engagement score is calculated by applying the weighting for each of the role scores:
+
+|Role           |Role total score |Role weight % |Score X weight % |
+|-------------- |---------------- |------------- |---------------- |
+|Decision Makers |52               |41.67%        |21.67            |
+|Influencers     |28               |33.33%        |9.33             |
+|Practitioners   |17               |25%           |4.25             |
+|**Final engagement score**|                |             |**35.25**           |
