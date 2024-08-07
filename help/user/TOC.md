@@ -13,6 +13,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Use AI Assistant](./start/ai-assistant.md)
 + Account audiences {#account-audiences}
     + [Overview](./audiences/account-audience-overview.md)
+    + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
     + [XDM fields](./data/field-mapping.md)
 + Buying Groups {#buying-groups}
     + [Overview](./buying-groups/buying-groups-overview.md)
