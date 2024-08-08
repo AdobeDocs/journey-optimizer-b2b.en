@@ -1,6 +1,6 @@
 ---
 title: LinkedIn Account Matched Audiences
-description: 
+description: Learn how to connect a LinkedIn account and activate a dataflow for buying groups.
 badgeBeta: label="Beta" type="informative" tooltip="Beta feature"
 ---
 # LinkedIn Account Matched Audiences
