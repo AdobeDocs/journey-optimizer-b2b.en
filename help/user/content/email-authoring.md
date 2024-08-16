@@ -173,7 +173,7 @@ Two types of alerts can be detected:
 
    * `The email version of the message is empty`: this error is displayed when the email content has not been configured.
 
-## Check and test the email
+## Check and test the email {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_simulate"
