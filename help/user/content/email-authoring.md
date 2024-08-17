@@ -173,7 +173,12 @@ Two types of alerts can be detected:
 
    * `The email version of the message is empty`: this error is displayed when the email content has not been configured.
 
-## Check and test the email
+## Check and test the email {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_simulate"
+>title="Check how your content is rendering"
+>abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
 
 When your message content is defined, you can use test profiles to preview it, send proofs, and control its rendering in popular desktop, mobile, and web-based clients. If you inserted personalized content, you can preview how this content is displayed in the message using test profile data.
 
