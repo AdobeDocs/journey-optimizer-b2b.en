@@ -58,6 +58,47 @@ After you create and personalize the email content, you can export the content f
 
 ### Design your email from scratch
 
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the email. Drag and drop a **Structure** component into the canvas to start designing your email content."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing the content of your landing page."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the fragment. Drag and drop a **Structure** component into the canvas to start designing the content of your fragment."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the template. Drag and drop a **Structure** component into the canvas to start designing the content of your template."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a template."
+
+
 1. From the Designer home page, select the **[!UICONTROL Design from scratch]** option.
 
 1. To start your content design, drag an item from the **[!UICONTROL Structures]** and drop it onto the canvas.
