@@ -199,7 +199,7 @@ You can set up text message deliveries in an Account Journey when you add a _[!U
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Check how your content is rendering"
->abstract="Once your content has been defined, you can preview it and check if the rendering is correct according to the channel you are using."
+>abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
 
 When your message content is defined, you can use test profiles to simulate (preview) its content. If you inserted personalized content, you can check how this content is displayed in the message using test profile data.
 
