@@ -1,7 +1,8 @@
 ---
 title: LinkedIn Account Matched Audiences
 description: Learn how to connect a LinkedIn account and activate a dataflow for buying groups.
-
+hidefromtoc: yes
+hide: yes
 ---
 # LinkedIn Account Matched Audiences
 
