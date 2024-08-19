@@ -42,7 +42,17 @@ The _[!UICONTROL Design your template]_ page opens and provides multiple options
 
 ![Choose how you want to start with your email template design](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Design from scratch
+### Design from scratch {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the template. Drag and drop a **Structure** component into the canvas to start designing the content of your template."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a template."
 
 Use the email designer to define the structure of your email content. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
 

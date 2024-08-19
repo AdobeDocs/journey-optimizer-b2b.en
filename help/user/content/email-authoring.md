@@ -56,7 +56,37 @@ After you create and personalize the email content, you can export the content f
 >
 >Use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your content to the next level. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. [Learn more](./ai-assistant-emails.md)
 
-### Design your email from scratch
+### Design your email from scratch {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the email. Drag and drop a **Structure** component into the canvas to start designing your email content."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing the content of your landing page."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the fragment. Drag and drop a **Structure** component into the canvas to start designing the content of your fragment."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
 
 1. From the Designer home page, select the **[!UICONTROL Design from scratch]** option.
 
@@ -176,7 +206,7 @@ Two types of alerts can be detected:
 ## Check and test the email {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="Check how your content is rendering"
 >abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
 
