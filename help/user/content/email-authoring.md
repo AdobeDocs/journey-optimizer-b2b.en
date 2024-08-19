@@ -206,7 +206,7 @@ Two types of alerts can be detected:
 ## Check and test the email {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="Check how your content is rendering"
 >abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
 
