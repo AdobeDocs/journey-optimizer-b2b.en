@@ -6,7 +6,7 @@ description: Latest release notes for Adobe Journey Optimizer B2B edition
 
 Adobe Journey Optimizer B2B Edition continuously delivers new features, enhancements to existing features, and bug fixes.
 
-Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 ## August 2024 release notes {#Aug-2024}
 
@@ -23,7 +23,7 @@ This release includes the following new capabilities and enhancements:
 <tbody>
 <tr>
 <td>
-<p>Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration. [Learn more](../data/linkedin-account-matched-audiences.md)</p>
+<p>Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration. [Learn more](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences)</p>
 </td>
 </tr>
 </tbody>
