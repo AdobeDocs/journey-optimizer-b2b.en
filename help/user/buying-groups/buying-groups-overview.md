@@ -103,7 +103,7 @@ Each weighting level translates to a value, which is used for calculating the en
 
 A roles template with three roles weighted as _[!UICONTROL Vital]_, _[!UICONTROL Important]_, and _[!UICONTROL Normal]_ convert to the following weighted percentages:
 
-|Role           |Weighting |Backend value | Value calculation |Percentage |
+|Role           |Weighting |System value | Value calculation |Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 |Decision Maker |Vital     |100           |100/240            |41.67%     |
