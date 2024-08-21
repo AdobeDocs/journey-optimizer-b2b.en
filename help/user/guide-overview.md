@@ -13,6 +13,12 @@ Here is a sampling of the latest enhancements in the Journey Optimizer B2B Editi
 
 >[!BEGINTABS]
 
+>[!TAB LinkedIn Account Matched Audiences]
+
+Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration.
+
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Learn about LinkedIn Account Matched Audiences"}
+
 >[!TAB AI Assistant]
 
 Quickly get up to speed with account-based marketing concepts and learn about the Journey Optimizer B2B Edition features that are designed to maximize your team's strategies.

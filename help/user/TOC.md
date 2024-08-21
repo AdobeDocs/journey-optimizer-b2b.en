@@ -6,6 +6,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 # Journey Optimizer B2B Edition User Guide {#user}
 
 + [Adobe Journey Optimizer B2B Edition Documentation](guide-overview.md)
++ [Release notes](./release-notes/release-notes.md)
 + Get started {#get-started}
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
     + [Login and home page](home-page.md)
