@@ -1,6 +1,8 @@
 ---
 title: Release notes
 description: Latest release notes for Adobe Journey Optimizer B2B edition
+hidefromtoc: yes
+hide: yes
 ---
 # Journey Optimizer B2B Edition release notes
 
