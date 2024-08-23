@@ -1,8 +1,6 @@
 ---
 title: LinkedIn Account Matched Audiences
 description: Learn how to connect a LinkedIn account and activate a dataflow for buying groups.
-hidefromtoc: yes
-hide: yes
 ---
 # LinkedIn Account Matched Audiences
 
@@ -19,15 +17,29 @@ Before you initiate a dataflow from Journey Optimizer B2B Edition, you must have
 
 1. In Experience Platform, go to **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** in the left navigation and select the **[!UICONTROL Catalog]** tab.
 
-1. In the catalog, locate the **[!UICONTROL (Companies) LinkedIn Matched Audience]** connector and click **[!UICONTROL Set Up]**.
+1. In the catalog, locate the **[!UICONTROL (Companies) LinkedIn Matched Audience]** connector.
+
+   >[!TIP]
+   >
+   >You can quickly find the connector by entering `LinkedIn` in the search box.
+
+1. In the connector card, click the _More_ (**...**) icon and choose **[!UICONTROL Configure new destination]**.
 
    ![Access the (Companies) LinkedIn Matched Audience connector](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. Select **[!UICONTROL New Account]** > **[!UICONTROL Connect to LinkedIn]**.
+1. Select **[!UICONTROL New Account]** and click **[!UICONTROL Connect to destination]**.
+
+   ![Connect a new LinkedIn account](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. Provide your LinkedIn credentials and sign in.
 
-   The LinkedIn account is connected as a destination.
+   After authentication, the LinkedIn account is connected as a destination in Experience Platform. 
+
+   ![Account connection confirmation is displayed](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >At this point, **do not** enter the _[!UICONTROL Destination details]_. Only the connection is needed.
 
 ## Update the account details
    
@@ -37,11 +49,11 @@ The name and description for the LinkedIn account are visible for buying groups 
 
 1. For the new account that you created, click the _More_ (**...**) menu and choose **[!UICONTROL Edit details]**.
 
-    ![Edit account details](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
+   ![Edit account details](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
    
 1. In the dialog, update the name and description.
 
-    ![Edit the name and description](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"}
+   ![Edit the name and description](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"}
 
 1. Click **[!UICONTROL Save]**.
 
