@@ -1,14 +1,14 @@
 ---
 title: Release notes
 description: Latest release notes for Adobe Journey Optimizer B2B edition
-hidefromtoc: yes
-hide: yes
 ---
 # Journey Optimizer B2B Edition release notes
 
 Adobe Journey Optimizer B2B Edition continuously delivers new features, enhancements to existing features, and bug fixes.
 
 Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
+
+Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for imformantion about entitlements, performance guardrails, and limitaions.
 
 ## August 2024 release notes {#Aug-2024}
 
