@@ -13,7 +13,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 ## August 2024 release notes {#Aug-2024}
 
-**Release date**: August 22, 2024
+**Release date**: August 29, 2024
 
 This release includes the following new capabilities and enhancements:
 
