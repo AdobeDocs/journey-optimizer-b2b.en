@@ -1,6 +1,7 @@
 ---
 title: Release notes
 description: Latest release notes for Adobe Journey Optimizer B2B edition
+exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 ---
 # Journey Optimizer B2B Edition release notes
 
