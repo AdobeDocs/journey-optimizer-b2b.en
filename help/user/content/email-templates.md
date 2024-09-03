@@ -47,20 +47,22 @@ The _[!UICONTROL Design your template]_ page opens and provides multiple options
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="Add Structure components"
->abstract="Structure components define the layout of the template. Drag and drop a **Structure** component into the canvas to start designing the content of your template."
+>abstract="Structure components define the layout of the template. Drag and drop a **Structure** component into the canvas to start designing the content for your template."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a template."
 
-Use the email designer to define the structure of your email content. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
+Use the visual content editor to define the structure of the email content. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
+
+>[!NOTE]
+>
+>The available design tools are equivalent to the tools used for [email authoring](./email-authoring.md). The difference is that this content is then saved as a template that can be reused across multiple send email nodes within account journeys.
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
 
-1. Start designing your content by dragging and dropping components into the canvas to define the structural layout of the email.
-
-   The available design tools are equivalent to the tools used for [email authoring](./email-authoring.md). The difference is that this content is then saved as a template that can be reused across multiple send email nodes within account journeys.
+{{$include /help/_includes/content-design-components.md}}
 
 ### Import HTML
 
@@ -135,8 +137,6 @@ Select the _[!UICONTROL n:n column]_ component to define the number of columns o
 
 Expand the **[!UICONTROL Contents]** section and add as many elements as you need into one or more structure components.
 
-
-
 Each component can be further customized using the _[!UICONTROL Settings]_ or _[!UICONTROL Style]_ tabs in the right panel. For example, you can change the text style, padding, or margin of each component.
 
 ### Navigate the layers, settings, and style
@@ -192,13 +192,15 @@ In the visual content editor, the _Fragments_ icon is displayed on the left. The
 
    ![Select a fragment from the list](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Drag and drop any of the fragments into the structure component placeholder.
+1. Drag and drop any of the fragments into the structural component placeholder.
 
    The editor renders the fragment within the section/element of the email structure.
 
-The content of the fragment is dynamically updated within the structure to render a visual of how the content appears in the email.
+The content of the fragment is dynamically updated within the structure to show how the content appears in the email.
 
-If you want to add the fragment so that it occupies the entire horizontal layout within the email, add a 1:1 column structure and then drag and drop the fragment into it.
+>[!TIP]
+>
+>If you want to add the fragment so that it occupies the entire horizontal layout within the email, add a 1:1 column structure and then drag and drop the fragment into it.
 
 After the email is saved, it appears in the fragment details page when you select the _[!UICONTROL Used By]_ tab in the summary. Fragments added to an email template are not editable within the template---the content is defined by the source fragment.
 

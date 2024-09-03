@@ -11,7 +11,7 @@ A fragment is a reusable component that can be referenced in one or more emails 
 To make the best use of fragments in your workflows:
 
 * _Create your own fragments_ - Create visual fragments, either from scratch or by saving content as fragment anytime from the visual content editor.
-* _Reuse your fragment_s - Use them as many times as needed in your content.
+* _Reuse fragments_ - Use them as many times as needed in your content.
 
 ## Visual fragments
 
@@ -43,24 +43,42 @@ You can create new visual fragments in Journey Optimizer B2B Edition by clicking
 
    * Description - Maximum of 300 characters
 
-   * Alpha, numeric, special characters are allowed
+   * Alpha, numeric, and special characters are allowed
 
-   * Reserved characters are not allowed: `\ / : * ? " < > |`
+   * Reserved characters are **_not allowed_**: `\ / : * ? " < > |`
 
    ![Create fragment dialog](./assets/assets-fragments-create-dialog.png){width="500"}
 
 1. Click **[!UICONTROL Create]**.
 
-   The visual content editor opens with an empty canvas. For building a fragment using the visual content editor, refer to the content authoring topics:
+   The visual content editor opens with an empty canvas.
 
 <!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
 
-Adding structure & content
+Adding structure and content
 Adding assets
 Navigating the layers
 Previewing & editing URLs
 View options
 More options -->
+
+### Design the fragment {#design-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the fragment. Drag and drop a **Structure** component into the canvas to start designing the content of your fragment."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
+
+{{$include /help/_includes/content-design-components.md}}
+
+### Import existing HTML content
+
+{{$include /help/_includes/content-design-import.md}}
 
 ## View fragment details
 
@@ -199,7 +217,7 @@ After the email template is saved, it appears in the fragment details page > _[!
 
 >[!ENDTABS]
 
-## Fragment actions during authoring
+## Fragment actions during email authoring
 
 After a fragment is added to an email or email template, the fragment content cannot be edited within the email or template. However, you can apply the following actions:
 
