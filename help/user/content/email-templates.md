@@ -62,26 +62,13 @@ Use the visual content editor to define the structure of the email content. By a
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
 
-{{$include /help/_includes/content-design-components.md}}
+1. [Add structure and content](#add-structure-and-content) to the template.
 
 ### Import HTML
 
-Adobe Journey Optimizer B2B Edition allows you to import existing HTML content to design your email templates. This content can be:
+Adobe Journey Optimizer B2B Edition allows you to import existing HTML content to design your email templates.
 
-* An HTML file with an incorporated style sheet.
-* A .zip file that includes an HTML file, the style sheet (.css), and images
-
-   >[!NOTE]
-   >
-   >There are no constraints on the .zip file structure. However, references must be relative and fit with the tree structure of the .zip folder.
-
-_To import a file containing HTML content:_
-
-1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Import HTML]** option.
-
-1. Drag and drop the HTML or .zip file containing your HTML content and click **[!UICONTROL Import]**.
-
-   After the HTML content is uploaded, your content is in _Compatibility mode_. In this mode, you can only personalize your text, add links, or include assets to your content.
+{{$include /help/_includes/content-design-import.md}}
 
 1. To use the email designer content components, click the **[!UICONTROL HTML converter]** tab and click **[!UICONTROL Convert]**.
 
@@ -93,51 +80,11 @@ You can personalize the imported content as needed with the visual email editor 
 
 ### Select a design template
 
-From the _[!UICONTROL Design your template]_ home page, use the Select design template section to start building your content from a template. You can use a sample template or a saved email template from your Journey Optimizer B2B Edition instance.
-
->[!BEGINTABS]
-
->[!TAB Saved templates]
-
-On the _Design your template_ home page, the _Sample templates_ tab is selected by default. To use a custom template, select the **[!UICONTROL Saved templates]** tab.
-
-The list of all email templates created on the current sandbox displays. You can sort them by _[!UICONTROL Name]_, _[!UICONTROL Last modified]_, and _[!UICONTROL Last created]_.
-
-![Choose a saved template](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
-
-Select the template that you want from the list.
-
-   After selection, this displays a preview of the template. In preview mode, you can navigate between all the templates of one category (sample or saved, depending on your selection) using the right and left arrows.
-
-   ![Preview the saved template](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
-
-When the display matches what you want to use, click **[!UICONTROL Use this template]** at the top right of the preview window.
-
-This action copies the content into the visual content designer, where you can edit the content as needed.
-
->[!TAB Sample template]
-
-Adobe Journey Optimizer B2B Edition offers a selection of email templates offered _out-of-the-box_, which can be used for creating emails and email templates.
-
-![Choose a template provided by Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
-
->[!ENDTABS]
+{{$include /help/_includes/content-design-select-template.md}}
 
 ## Add structure and content
 
-Start designing your content by dragging and dropping structures from the **[!UICONTROL Components]** menu into the canvas to define the layout of your email.
-
-Add as many structures as needed and edit their settings in the element properties on the right.
-
-Select the _[!UICONTROL n:n column]_ component to define the number of columns of your choice (between three and 10). Define the width of each column by moving the arrows at the bottom.
-
->[!NOTE]
->
->Each column size cannot be under 10% of the total width of the structure component. You can remove empty columns only.
-
-Expand the **[!UICONTROL Contents]** section and add as many elements as you need into one or more structure components.
-
-Each component can be further customized using the _[!UICONTROL Settings]_ or _[!UICONTROL Style]_ tabs in the right panel. For example, you can change the text style, padding, or margin of each component.
+{{$include /help/_includes/content-design-components.md}}
 
 ### Navigate the layers, settings, and style
 

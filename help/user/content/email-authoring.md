@@ -98,31 +98,7 @@ When you are satisfied with the content, click **[!UICONTROL Save]**.
 
 ### Select a template
 
-You can choose from:
-
-* Sample templates. The Journey Optimizer interface offers 20 out-of-the-box email templates that you can choose from.
-
-* Saved templates. 
-   
-* A custom template that you either created from scratch using the _Templates_ menu or saved from an email in a journey using the _[!UICONTROL Save as content template]_ option.
-
-_To start building your content with one of the sample or saved templates:_
-
-1. Access the _Email Designer_ from the email content editing workspace.
-
-   On the _[!UICONTROL Create your email]_ page, the **[!UICONTROL Sample templates]** tab is selected by default.
-
-1. To use a custom template, select the **[!UICONTROL Saved templates]** tab.
-
-   The list of all content templates created on the current sandbox is displayed. You can sort them By name, Last modified, or Last created.
-
-1. Select the template of your choice from the list.
-
-1. After you select a category, you can navigate between all the templates of that category (sample or saved depending on your selection) using the right and left arrows.
-
-1. Click **[!UICONTROL Use this template]** on the top-right of the page.
-
-1. Edit the content as needed in the _Email Designer_.
+{{$include /help/_includes/content-design-select-template.md}}
 
 ## Check alerts
 

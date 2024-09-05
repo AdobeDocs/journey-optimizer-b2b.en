@@ -6,25 +6,39 @@ description: Reused section about using components for content authoring
 
 1. To start your content design, drag an item from the **[!UICONTROL Structures]** and drop it onto the canvas.
 
-   Repeat this step for each structure component to construct the layout of your email.
+   Add as many items from _[!UICONTROL Structures]_ as you need and edit the settings for each in the pane on the right.
 
-1. Add as many items from _[!UICONTROL Structures]_ as you need and edit the settings for each in the pane on the right.
+   >[!TIP]
+   >
+   >Select the _[!UICONTROL n:n column]_ component to define the number of columns of your choice (between three and 10). You can also define the width of each column by moving the arrows below the column.
 
-   Select the n:n column component to define the number of columns of your choice (between three and 10). You can also define the width of each column by moving the arrows below the column.
+   ![Drag a structure onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
 
    Each column size cannot be less than 10% of the total width of the structure component. Only empty columns can be removed.
 
-1. Expand the **[!UICONTROL Contents]** section and add as many elements as you need into one or more structure components. 
+1. Expand the **[!UICONTROL Contents]** section and add as many elements as you need into one or more structure components.
+
+   ![Drag a content element onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
+   <!--
+   reference to the contents elements--->
 
 1. If needed, you can make additional customizations for each component in the _[!UICONTROL Settings]_ or _[!UICONTROL Style]_ tabs.
 
-   For example, you can change the text style, padding or margin of each component.
+   For example, you can change the text style, padding, or margin of each component.    
 
-1. From the Asset picker, you can directly select assets stored in the Assets library.
+1. From the _Asset_ picker, you can directly select assets stored in the asset library.
 
    Double-click the folder that contains your assets. Drag and drop the items into a structure component.
 
-1. Insert personalization fields to customize your content from profiles attributes, audience memberships, Contextual attributes, and more. 
+   >[!NOTE]
+   >
+   >If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you must choose the [image source](../user/content/assets-overview.md#choose-an-asset-source) at the time of creation for an email, email template, or visual fragment. However, you can also select the image source before you open the content designer for editing.
+
+   For more information about using assets from your source type, see [Add assets to your content](../user/content/assets-overview.md#add-assets-to-your-content).
+
+   ![Drag a Marketo Engage asset onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
+
+1. Insert personalization fields to customize your content from profiles attributes, audience memberships, contextual attributes, and more. 
 
 <!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
 -->
