@@ -8,9 +8,9 @@ You can choose from:
 
 * **Sample templates**. The Journey Optimizer interface offers 20 out-of-the-box email templates that you can choose from.
 
-* **Saved templates**. These are templates that you either created from scratch using the _[!UICONTROL Templates]_ menu or saved from an email in a journey using the _[!UICONTROL Save as content template]_ option.
+* **Saved templates**. Use a saved custom template that you either created from scratch using the _[!UICONTROL Templates]_ menu or saved from an email in a journey using the _[!UICONTROL Save as content template]_ option.
 
-Use the _[!UICONTROL Select design template]_ section to start building your content from a template. You can use a sample template or a saved custome email template from your Journey Optimizer B2B Edition instance.
+Use the _[!UICONTROL Select design template]_ section to start building your content from a template. You can use a sample template or a saved custom email template from your Journey Optimizer B2B Edition instance.
 
 >[!BEGINTABS]
 

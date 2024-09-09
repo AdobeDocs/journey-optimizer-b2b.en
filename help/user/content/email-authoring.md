@@ -36,14 +36,14 @@ You can set up email deliveries in an Account Journey when you add a _[!UICONTRO
 
 ## Create the email content
 
-Click **[!UICONTROL Add email content]** at the top of the _[!UICONTROL Email]_ preview panel. 
+Click **[!UICONTROL Add email content]** at the top of the _[!UICONTROL Email]_ preview panel.
 
 ![Click Add email content ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 This action launches the Email Designer, where you can choose how you want to design your email from the following options:
 
 * [Design your email from scratch](#design-your-email-from-scratch) using the Email Designer interface.
- 
+
 * [Import existing HTML content](#import-existing-html-content) from a file or a .zip folder.
 
 * [Select an existing template](#select-a-template) from a list of built-in or custom email templates.
@@ -95,6 +95,14 @@ When you are satisfied with the content, click **[!UICONTROL Save]**.
 ### Import existing HTML content
 
 {{$include /help/_includes/content-design-import.md}}
+
+   ![import html content in a zip file](./assets/email-import-zip-file.png){width="500"}
+
+>[!NOTE]
+>
+>Using a `<table>` tag as the first layer in an HTML file can cause style loss, including background and width settings in the top layer tag.
+
+You can personalize the imported content as needed with the visual email editor tools.
 
 ### Select a template
 

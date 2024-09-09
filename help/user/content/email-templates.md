@@ -70,7 +70,7 @@ Adobe Journey Optimizer B2B Edition allows you to import existing HTML content t
 
 {{$include /help/_includes/content-design-import.md}}
 
-1. To use the email designer content components, click the **[!UICONTROL HTML converter]** tab and click **[!UICONTROL Convert]**.
+   ![import html content in a zip file](./assets/templates-import-zip-file.png){width="500"}  
 
 >[!NOTE]
 >
