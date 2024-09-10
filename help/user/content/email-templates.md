@@ -42,17 +42,7 @@ The _[!UICONTROL Design your template]_ page opens and provides multiple options
 
 ![Choose how you want to start with your email template design](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Design from scratch {#design-from-scratch}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Add Structure components"
->abstract="Structure components define the layout of the template. Drag and drop a **Structure** component into the canvas to start designing the content for your template."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a template."
+### Design from scratch
 
 Use the visual content editor to define the structure of the email content. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
 
@@ -82,47 +72,19 @@ You can personalize the imported content as needed with the visual email editor 
 
 {{$include /help/_includes/content-design-select-template.md}}
 
-## Add structure and content
+## Add structure and content {#structure-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Add Structure components"
+>abstract="Structure components define the layout of the template. Drag and drop a **Structure** component into the canvas to start designing the content for your template."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a template."
 
 {{$include /help/_includes/content-design-components.md}}
-
-### Navigate the layers, settings, and style
-
-The following example outlines steps to adjust padding and vertical alignment inside a structure component composed of three columns.
-
-1. Select the structure component directly in the email or using the Navigation tree available in the left menu.
-
-1. From the toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit.
-
-   ![n:n column component displayed in the canvas](./assets/visual-designer-n-n-column.png){width="800" zoomable="yes"}
-
-   You can also select it from the structure tree. The editable parameters for that column are displayed in the _[!UICONTROL Styles]_ tab.
-
-1. Under **[!UICONTROL Alignment]**, select the _Top_, _Middle_, or _Bottom_ icon.
-
-1. Under **[!UICONTROL Padding]**, define the padding for all sides.
-
-   Select **[!UICONTROL Different padding for each side]** if you want to fine tune the padding. Click the lock icon to break synchronization.
-
-1. If needed, adjust the alignment and padding for the other columns.
-
-1. Save your changes.
-
-### Personalize content
-
-The following example outlines steps to personalize template content using lead/account attributes and system tokens.
-
-1. Select the text component and click the _Add personalization_ icon in the toolbar.
-
-   ![Click the Personalize icon](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   This action opens the _Edit Personalization_ dialog.
-
-1. Click **+** or **...** to add a token to the blank space.
-
-   ![Construct personalized text using tokens](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. Click **[!UICONTROL Save]**.
 
 ### Add fragments
 
@@ -153,25 +115,29 @@ After the email is saved, it appears in the fragment details page when you selec
 
 ### Add assets
 
-In the visual content editor, select the _Assets_ icon that is displayed on the left. 
+{{$include /help/_includes/content-design-assets.md}}
 
->[!NOTE]
->
->If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you can choose image assets from the source that is selected in the template details page.
+### Navigate the layers, settings, and styles
 
-The following example outlines steps to add assets to the template content:
+{{$include /help/_includes/content-design-navigation.md}}
 
-1. To open the assets library, click the _Assets_ icon.
+### Personalize content
 
-   From the asset selector, you can directly select assets stored in the source library.
+The following example outlines steps to personalize template content using lead/account attributes and system tokens.
 
-1. Add a new asset by dragging and dropping the image asset into a structure component.
+1. Select the text component and click the _Add personalization_ icon in the toolbar.
 
-1. Replace an image asset by selecting it on the canvas and click **[!UICONTROL Select an asset]** in the image source tools.
+   ![Click the Personalize icon](./assets/visual-designer-personalize-icon.png){width="500"}
 
-   ![Select an asset from the source library](./assets/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
+   This action opens the _Edit Personalization_ dialog.
 
-### Preview and edit URLs
+1. Click **+** or **...** to add a token to the blank space.
+
+   ![Construct personalized text using tokens](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
+
+1. Click **[!UICONTROL Save]**.
+
+### Preview and edit linked URLs
 
 1. Click the _[!UICONTROL Links]_ icon on the left to display all the URLs of your content to be tracked.
 

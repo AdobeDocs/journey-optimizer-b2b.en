@@ -1,6 +1,6 @@
 ---
 title: Content authoring - components
-description: Reused section about using components for content authoring
+description: Reused section about using components and content elements for content authoring
 ---
 # Content authoring - components
 
@@ -24,19 +24,7 @@ description: Reused section about using components for content authoring
 
 1. If needed, you can make additional customizations for each component in the _[!UICONTROL Settings]_ or _[!UICONTROL Style]_ tabs.
 
-   For example, you can change the text style, padding, or margin of each component.    
-
-1. From the _Asset_ picker, you can directly select assets stored in the asset library.
-
-   Double-click the folder that contains your assets. Drag and drop the items into a structure component.
-
-   >[!NOTE]
-   >
-   >If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you must choose the [image source](../user/content/assets-overview.md#choose-an-asset-source) at the time of creation for an email, email template, or visual fragment. However, you can also select the image source before you open the content designer for editing.
-
-   For more information about using assets from your source type, see [Add assets to your content](../user/content/assets-overview.md#add-assets-to-your-content).
-
-   ![Drag a Marketo Engage asset onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
+   For example, you can change the text style, padding, or margin of each component.
 
 1. Insert personalization fields to customize your content from profiles attributes, audience memberships, contextual attributes, and more. 
 

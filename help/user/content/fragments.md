@@ -10,7 +10,7 @@ A fragment is a reusable component that can be referenced in one or more emails 
 
 To make the best use of fragments in your workflows:
 
-* _Create your own fragments_ - Create visual fragments, either from scratch or by saving content as fragment anytime from the visual content editor.
+* _Create your own fragments_ - Create visual fragments, either from scratch or by saving content as a fragment anytime from the visual content editor.
 * _Reuse fragments_ - Use them as many times as needed in your content.
 
 ## Visual fragments
@@ -62,7 +62,7 @@ Previewing & editing URLs
 View options
 More options -->
 
-### Design the fragment {#design-fragment}
+### Add structure and content {#design-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
@@ -76,9 +76,13 @@ More options -->
 
 {{$include /help/_includes/content-design-components.md}}
 
-### Import existing HTML content
+### Add assets
 
-{{$include /help/_includes/content-design-import.md}}
+{{$include /help/_includes/content-design-assets.md}}
+
+### Navigate the layers, settings, and styles
+
+{{$include /help/_includes/content-design-navigation.md}}
 
 ## View fragment details
 
