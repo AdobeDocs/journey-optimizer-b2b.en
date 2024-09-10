@@ -123,19 +123,7 @@ After the email is saved, it appears in the fragment details page when you selec
 
 ### Personalize content
 
-The following example outlines steps to personalize template content using lead/account attributes and system tokens.
-
-1. Select the text component and click the _Add personalization_ icon in the toolbar.
-
-   ![Click the Personalize icon](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   This action opens the _Edit Personalization_ dialog.
-
-1. Click **+** or **...** to add a token to the blank space.
-
-   ![Construct personalized text using tokens](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. Click **[!UICONTROL Save]**.
+{{$include /help/_includes/content-design-personalization.md}}
 
 ### Preview and edit linked URLs
 

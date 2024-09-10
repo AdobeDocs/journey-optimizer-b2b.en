@@ -84,6 +84,10 @@ More options -->
 
 {{$include /help/_includes/content-design-navigation.md}}
 
+### Personalize content
+
+{{$include /help/_includes/content-design-personalization.md}}
+
 ## View fragment details
 
 Click the name of any fragment in the list page to open the fragment details page.
