@@ -8,7 +8,7 @@ Journey Optimizer B2B Edition uses an inline simple syntax that allows you to cr
 
 Examples:
 
-* Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
+* `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 
 * `Hello {{profile.person.name.fullName}}`
 
