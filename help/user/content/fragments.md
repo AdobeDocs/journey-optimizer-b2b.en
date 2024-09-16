@@ -131,7 +131,11 @@ You can delete a fragment using either of the following methods:
 
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Delete]** to confirm deletion.
 
+![Delete fragment dialog](./assets/fragment-delete-dialog.png){width="400"}
+
 If the fragment is currently in use, the action opens an informational dialog that alerts you that it cannot be deleted. Click **[!UICONTROL OK]**, which aborts the deletion.
+
+![Delete fragment dialog - cannot delete in-use fragment](./assets/fragment-delete-dialog-in-use.png){width="400"}
 
 ## Edit fragments
 
@@ -157,7 +161,7 @@ In the dialog, enter a useful name (unique) and description. Click **[!UICONTROL
 
 The duplicated (new) fragment then appears in the _Fragments_ listing.
 
-## Save a fragment from the visual editor
+## Save a fragment from email or template content
 
 When you are in the visual content editor for creating/editing an email or email template, you can choose to save all or parts of the content as a fragment so that it is available for reuse.
 
@@ -175,9 +179,9 @@ When you are in the visual content editor for creating/editing an email or email
 
    The new fragment is then displayed in the _Fragments_ listing page and is also available for use within emails and email templates.
 
-## Add visual fragments to an email or template
+## Add visual fragments to your email or template content
 
-Fragments are deigned for reuse and can be inserted for email and email template authoring. You can add up to 30 fragments in a given email or template. Fragments can be nested up to one level only.
+Fragments are designed for reuse and can be inserted for email and email template authoring. You can add up to 30 fragments in an email or template. Fragments can be nested up to one level only.
 
 >[!BEGINTABS]
 
