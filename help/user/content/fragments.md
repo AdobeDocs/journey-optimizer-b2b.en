@@ -47,7 +47,7 @@ You can create new visual fragments in Journey Optimizer B2B Edition by clicking
 
    * Reserved characters are **_not allowed_**: `\ / : * ? " < > |`
 
-   ![Create fragment dialog](./assets/assets-fragments-create-dialog.png){width="500"}
+   ![Create fragment dialog](./assets/assets-fragments-create-dialog.png){width="400"}
 
 1. Click **[!UICONTROL Create]**.
 
@@ -133,7 +133,7 @@ This action opens a confirmation dialog. You can abort the process by clicking *
 
 ![Delete fragment dialog](./assets/fragment-delete-dialog.png){width="400"}
 
-If the fragment is currently in use, the action opens an informational dialog that alerts you that it cannot be deleted. Click **[!UICONTROL OK]**, which aborts the deletion.
+If the fragment is currently in use, the action opens an informational dialog that alerts you that it cannot be deleted. Click **[!UICONTROL OK]**, which aborts the delete action.
 
 ![Delete fragment dialog - cannot delete in-use fragment](./assets/fragment-delete-dialog-in-use.png){width="400"}
 
@@ -157,13 +157,13 @@ You can duplicate a fragment using either of the following methods:
 
 In the dialog, enter a useful name (unique) and description. Click **[!UICONTROL Duplicate]** to complete the action.
 
-![Enter a name and description for the duplicated fragment](./assets/fragment-duplicate-dialog.png){width="500"}
+![Enter a name and description for the duplicated fragment](./assets/fragment-duplicate-dialog.png){width="400"}
 
 The duplicated (new) fragment then appears in the _Fragments_ listing.
 
 ## Save a fragment from email or template content
 
-When you are in the visual content editor for creating/editing an email or email template, you can choose to save all or parts of the content as a fragment so that it is available for reuse.
+When you are creating/editing an email or email template in the visual content editor, you can choose to save all or parts of the content as a fragment so that it is available for reuse.
 
 1. When you have some content to be saved as a fragment, click **[!UICONTROL More]** and choose **[!UICONTROL Save as Fragment]**.
 
@@ -245,7 +245,7 @@ After the email is saved, it appears in the fragment details page when the _[!UI
 
 >[!TIP]
 >
->If you want to add the fragment so that it occupies the entire horizontal layout within the email template, add a _[!UICONTROL 1:1 column]_ structure and then drag and drop the fragment into it.
+>If you want the fragment to occupy the entire horizontal layout within the email template, add a _[!UICONTROL 1:1 column]_ structure and then drag and drop the fragment into it.
 
 After the email template is saved, it appears in the fragment details page when the _[!UICONTROL Used By]_ tab is selected. Fragments added to an email template are not editable within the template -- the published source fragment defines the content.
 

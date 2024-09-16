@@ -26,10 +26,5 @@ description: Reused section about using components and content elements for cont
 
    For example, you can change the text style, padding, or margin of each component.
 
-1. Insert personalization fields to customize your content from profiles attributes, audience memberships, contextual attributes, and more. 
-
 <!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
 -->
-1. Select the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that are tracked.
-
-   You can modify the _Tracking Type_ or _Label_ and add tags if needed.
