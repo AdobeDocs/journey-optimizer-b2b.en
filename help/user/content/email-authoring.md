@@ -156,13 +156,9 @@ After the email is saved, it appears in the fragment details page when you selec
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-### Preview and edit linked URLs
+### Edit linked URL tracking
 
-1. Click the _[!UICONTROL Links]_ icon on the left to display all the URLs of your content to be tracked.
-
-1. If needed, click the _Edit_ (pencil) icon and modify the _Tracking Type_ or _Label_ and add _Tags_ for a link.
-
-![Click More to access template actions](./assets/visual-designer-links.png){width="500"}
+{{$include /help/_includes/content-design-links.md}}
 
 ### View options
 
