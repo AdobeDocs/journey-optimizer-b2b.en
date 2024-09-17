@@ -19,6 +19,8 @@ After the buying group is created, it is available for use in an account journey
 
 1. Follow the prompts on each page and click **[!UICONTROL Next]** to proceed.
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the how-to video](#how-to-video)
+
 ## Guidance page
 
 The first page provides guidance about the prerequisites/components that are required for creating buying groups. If you know that you have the necessary components in place, click **[!UICONTROL Next]**.
@@ -52,3 +54,7 @@ You can navigate user to the Solution interest tab and display the count of jobs
 Member of buying group.
 Assign a member of the buying group.
 Remove a member of the buying group. -->
+
+## How-to video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

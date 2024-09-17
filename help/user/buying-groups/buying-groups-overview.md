@@ -11,7 +11,9 @@ For B2B sales and marketing activities, accounts are key to any strategy. Each a
 
 ![Account roles diagram](assets/account-roles-diagram.png){width="800"}
 
-Within the account, there could be a subset of people who comprise the _buying group_. These are the people that ultimately make the purchase decision, so they need special attention from the marketer and might need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Officer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group. 
+Within the account, there could be a subset of people who comprise the _buying group_. These are the people that ultimately make the purchase decision, so they need special attention from the marketer and might need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Officer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video)
 
 ## Key components
 
@@ -146,3 +148,7 @@ The final engagement score is calculated by applying the weighting for each of t
 |Influencers     |28               |33.33%        |9.33             |
 |Practitioners   |17               |25%           |4.25             |
 |**Final engagement score**|                |             |**35.25**           |
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
