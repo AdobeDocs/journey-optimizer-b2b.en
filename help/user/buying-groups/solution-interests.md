@@ -8,6 +8,8 @@ exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
 
 Before you create Buying Groups, you should know what you are selling and who you want to target. Your Marketing and Sales strategy should be aligned so that you can add the Solution Interest for the Buying Groups.
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
+
 ## Access and browse solution interests
 
 1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
@@ -78,3 +80,7 @@ Any solution interest that is currently in-use by any buying group job or accoun
    If the solution interest is currently in use by an account journey or buying group job, the action opens an informational dialog that alerts you that it cannot be deleted. Click [!UICONTROL OK], which aborts the deletion.
    
 1. Click **[!UICONTROL Delete]** to confirm deletion, or you can abort the process by clicking _[!UICONTROL Cancel]_.
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

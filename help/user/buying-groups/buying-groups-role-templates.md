@@ -8,6 +8,8 @@ exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 
 In a B2B market, buying decisions are usually made by multiple individuals. Those individuals participate in the decision-making process according to their role within the organization. Create Buying Group role templates that contain these role definitions according to each product offering type or account use case.
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
+
 ## Access and browse role templates
 
 1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
@@ -124,3 +126,7 @@ You can delete a roles template if it is in the _Draft_ status.
    ![Change role priority](./assets/roles-template-delete.png){width="700"}
 
 1. In the dialog, click **[!UICONTROL Delete]** to confirm.
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
