@@ -254,6 +254,8 @@ To update the content:
 
    When you publish the draft version, it replaces the current published version and the content is updated in the emails and email templates where it is already in use.
 
+>[!ENDTABS]
+
 ## Duplicate fragments
 
 You can duplicate a fragment using either of the following methods:
