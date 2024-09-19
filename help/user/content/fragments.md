@@ -174,13 +174,15 @@ Edits to a fragment depend on its current status:
 
 >[!BEGINTABS]
 
->[!TAB _Draft_ status]
+>[!TAB Draft]
 
 1. From the _[!UICONTROL Fragments]_ listing page, click the fragment name to open it.
 
    A preview of the visual content is displayed, with the fragment details on the right.
 
 1. Modify any of the details, such as name and description.
+
+   ![Details for frament with Draft status](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
 1. To make changes to the content in the visual designer, click **[!UICONTROL Edit fragment]**.
 
@@ -196,7 +198,7 @@ Edits to a fragment depend on its current status:
 
 1. When the fragment meets your criteria and you want to make it available for use in an email or email template, click **[!UICONTROL Publish]**.
 
->[!TAB _Published_ status]
+>[!TAB Published]
 
 1. From the _[!UICONTROL Fragments]_ listing page, click the fragment name to open it.
 
@@ -226,7 +228,7 @@ Edits to a fragment depend on its current status:
 
    When you publish the draft version, it replaces the current published version and the content is updated in the emails and email templates where it is already in use.
 
->[!TAB _Published with draft_ status]
+>[!TAB Published with draft]
 
 There are two ways to open the draft version for editing from the _[!UICONTROL Fragments]_ listing page:
 
