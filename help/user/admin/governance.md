@@ -29,7 +29,7 @@ With Journey Optimizer B2B Edition, you can build and manage subscribe/un-subscr
 
 ## Not yet available
 
-The following governance features are not yet available, but are included in the product roadmap:
+The following governance features are not yet available:
 
 * Data Usage Label Enforcement (DULE) / usage policies
 * Data hygiene
