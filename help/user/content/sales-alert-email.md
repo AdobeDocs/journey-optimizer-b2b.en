@@ -10,10 +10,6 @@ A _sales alert email_ signals the hand-off of buying groups to Sales. The email 
 
 As a marketer, you can configure a sales alert email node in your account journeys to alert your sales team about the completion of the journey for particular buying groups. Within the node, you can specify the email addresses of the sales team or a distribution alias that reaches a set of accounts.
 
->[!NOTE]
->
->The sales alert email is sent if the buying group has at least four members with the assigned buying group role and the group contains a person with the _Decision Maker_ or an _Influencer_ role.
-
 ## Email content
 
 +++Sample sales alert email
