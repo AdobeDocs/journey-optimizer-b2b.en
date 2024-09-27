@@ -31,3 +31,18 @@ This release includes the following new capabilities and enhancements:
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Status lifecycle for visual fragments</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Visual fragments are managed using a status lifecycle, where the fragment status determines its availability for use in an email or email template, and the changes that you can make to it. This makes it easy to manage reused content according to your promotional and communications calendar. [Learn more](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments#fragment-status-and-lifecycle)</p>
+</td>
+</tr>
+</tbody>
+</table>
