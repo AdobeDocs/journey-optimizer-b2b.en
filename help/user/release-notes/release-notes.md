@@ -41,7 +41,7 @@ This release includes the following new capabilities and enhancements:
 <tbody>
 <tr>
 <td>
-<p>Visual fragments are managed using a status lifecycle, where the fragment status determines its availability for use in an email or email template, and the changes that you can make to it. This makes it easy to manage reused content according to your promotional and communications calendar. <a href="../content/fragments#fragment-status-and-lifecycle">Learn more</a>
+<p>Visual fragments are managed using a status lifecycle, where the fragment status determines its availability for use in an email or email template, and the changes that you can make to it. This makes it easy to manage reused content according to your promotional and communications calendar. <a href="../content/fragments.md#fragment-status-and-lifecycle">Learn more</a>
 </td>
 </tr>
 </tbody>
