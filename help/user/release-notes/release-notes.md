@@ -26,7 +26,22 @@ This release includes the following new capabilities and enhancements:
 <tbody>
 <tr>
 <td>
-<p>Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration. [Learn more](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences)</p>
+<p>Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration. [Learn more](../data/linkedin-account-matched-audiences.md)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Status lifecycle for visual fragments</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Visual fragments are managed using a status lifecycle, where the fragment status determines its availability for use in an email or email template, and the changes that you can make to it. This makes it easy to manage reused content according to your promotional and communications calendar. [Learn more](../content/fragments.md#fragment-status-and-lifecycle)</p>
 </td>
 </tr>
 </tbody>
