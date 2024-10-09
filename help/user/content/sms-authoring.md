@@ -28,13 +28,17 @@ Before you configure an SMS channel in Adobe Journey Optimizer B2B Edition, you 
 >
 >The described settings are accessible only to the users with SMS Admin privileges.
 
-On the left navigation, expand the **[!UICONTROL Administrator]** section and click **[!UICONTROL Configuration]**.
+1. On the left navigation, expand the **[!UICONTROL Administrator]** section and click **[!UICONTROL Channels]**.
 
-![Access the congfiguration of AMA API credentials](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![Access the congfiguration of SMS API credentials](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
-The page lists the available API configurations for your instance. You can filter the displayed API credentials by the SMS service provider or creator.
+1. In the navigation panel, select **[!UICONTROL API Credentials]**. 
 
-![Click the filter icon to filter the list of API credentials](./assets/config-sms-api-filter.png){width="500"}
+   The page lists the available API configurations for your instance.
+   
+1. If needed, click the _Filter_ icon ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) and select filter options to display the list of configured API credentials by the SMS service provider or creator.
+
+   ![Click the filter icon to filter the list of API credentials](./assets/config-sms-api-filter.png){width="500"}
 
 ### Create a new API credentials for an SMS service provider
 
@@ -122,58 +126,76 @@ You can set up text message deliveries in an Account Journey when you add a _[!U
 
 1. At the bottom of the _[!UICONTROL Take an action]_ panel, click **[!UICONTROL Create SMS]**.
 
-1. In the dialog, enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+1. In the dialog, enter a unique **[!UICONTROL Name]** for the SMS message.
 
-   ![Create new SMS dialog](assets/create-new-sms.png){width="500"}
+   ![Create new SMS dialog](assets/create-new-sms.png){width="400"}
 
-## Create the SMS message
+1. Click **[!UICONTROL Create]**.
+
+   The _Journey content designer_ opens and you can create the message and set the SMS properties for sending the message.
+
+### Create the SMS message
 
 >[!IMPORTANT]
 >
 >**SMS consent management**<br/>
-><br/>
+>
 >In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to unsubscribe easily. To do this, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored. In addition, any custom keywords configured for your SMS service provider account are supported and honored.
 
-1. Enter the text that you want to send in the **[!UICONTROL Message]** field.
+Enter the text that you want to send in the **[!UICONTROL Message]** field.
 
-   You can create a message of up to 1600 characters, with every 160 characters considered as a single SMS message.
+You can create a message of up to 1600 characters, with every 160 characters considered as a single SMS message.
 
-1. **Personalize the text message**.
+![Click the Personalize icon to add tokens to the message](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-   At anytime while authoring the text message, click the _Personalize_ icon to the right of the text message box.
+#### Personalize the text message
 
-   ![Click the Personalize icon to add tokens to the message](./assets/sms-message-personalize-icon.png){width="800" zoomable="yes"}
+1. At anytime while authoring the text message, click the _Personalize_ icon to the right of the text message box.
    
-   The displayed page provides access to your Adobe Marketo Engage Lead and System tokens. Both standard and custom tokens are included. You can use the Search bar to locate the token you need, or navigate through the folder tree to find and select any of the lead/system tokens.
+   The displayed page provides access to your Adobe Marketo Engage Lead and System tokens. Both standard and custom tokens are included. You can use the _Search_ bar to locate the token you need, or navigate through the folder tree to find and select any of the lead/system tokens.
 
-   Place your cursor at the location in the message where you want to add the token. Add a token by clicking the plus ( **+** ) symbol next to it. If you want to add the token with a fallback (default that appears in case that field is not available for a lead), click the ellipsis ( **...** ) and choose **[!UICONTROL Insert with fallback text]**.
+1. Place your cursor at the location in the message where you want to add the token.
+
+1. Add a token by clicking the plus ( **+** ) symbol next to it.
+
+   If you want to add the token with a fallback (default that appears in case that field is not available for a lead), click the _More_ icon ( **...** ) and choose **[!UICONTROL Insert with fallback text]**.
 
    ![Click the ellipses to use a fallback for the token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
-   In the _[!UICONTROL Enter fallback value]_ dialog, enter the text that appears as a fallback and then click **[!UICONTROL Add]**.
+1. In the _[!UICONTROL Enter fallback value]_ dialog, enter the text that appears as a fallback and then click **[!UICONTROL Add]**.
 
    ![Enter the fallback text for the token](./assets/sms-message-personalize-fallback-text.png){width="400"}
 
-   When your personalization tokens are placed, click **[!UICONTROL Save]** to save changes and return to the main SMS authoring workspace. You can continue to edit the message with the tokens as needed. 
+1. When your personalization tokens are placed, click **[!UICONTROL Save]** to save changes and return to the main SMS authoring workspace.
 
-1. **Add URLs to the text message**.
+   You can continue to edit the message with the tokens as needed. 
 
-   After defining your content, you can add URLs to your message by clicking the _Link_ icon.
+#### Add links (URLs) to the text message
+
+1. After entering your message text, click the _Link_ icon to the right of the text message box.
    
-   This action opens a dialog, where you can choose one of two types of URLs to link: 
+1. In the dialog, choose the type of URLs to link:
+
+   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage Design Studio landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
 
    * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box.
-   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage Design Studio landing pages from your Marketo Engage instance.
 
-   The dialog also includes options for the URL links:
+1. If you choose to use a landing page, set the tracking options.
 
-   * **[!UICONTROL Shorten URL]** - Select this checkbox to _shorten_ the URL, which is necessary for tracking. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
+   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
 
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user. 
+   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.
+
+      >[!NOTE] 
+      >
+      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+
+   ![Add link dialog for SMS message](./assets/sms-add-link-dialog.png){width="470"}
   
-   When the link options are complete, click **[!UICONTROL Add]** to save the changes and add the URL link to the SMS message.
+1. When the link options are complete, click **[!UICONTROL Add]** to save the changes and add the URL link to the SMS message.
 
-## Set the SMS properties
+### Set the SMS properties
 
 1. In the _[!UICONTROL SMS properties]_ section, enter a **[!UICONTROL Name]** (required, 100 character maximum) and **[!UICONTROL Description]** (optional, 300 character maximum) for your message. 
 
@@ -194,12 +216,12 @@ You can set up text message deliveries in an Account Journey when you add a _[!U
 
    The recipient number is always mapped to the `Lead.mobilePhone` field in Marketo Engage.
 
-## Simulate the text message content {#preview-test}
+### Simulate the text message content {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Check how your content is rendering"
->abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
+>abstract="When your content is defined, you can preview it and check the rendering for the channel that you are using."
 
 When your message content is defined, you can use test profiles to simulate (preview) its content. If you inserted personalized content, you can check how this content is displayed in the message using test profile data.
 
@@ -225,7 +247,7 @@ When your message content is defined, you can use test profiles to simulate (pre
 
 1. Simulate content for a selected lead.
 
-   Select any of the leads listed on the left and the SMS preview on the page updates for the corresponding lead.
+   Select any of the leads listed on the left. The SMS preview on the page updates for the selected lead.
 
    You can also select a lead from the selector above the preview space to update the SMS preview on the page for the corresponding lead.
 
