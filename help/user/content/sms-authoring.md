@@ -38,7 +38,7 @@ Before you configure an SMS channel in Adobe Journey Optimizer B2B Edition, you 
    
 1. If needed, click the _Filter_ icon ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) and select filter options to display the list of configured API credentials by the SMS service provider or creator.
 
-   ![Click the filter icon to filter the list of API credentials](./assets/config-sms-api-filter.png){width="500"}
+   ![Click the filter icon to filter the list of API credentials](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ### Create a new API credentials for an SMS service provider
 
@@ -150,7 +150,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
 #### Personalize the text message
 
-1. At anytime while authoring the text message, click the _Personalize_ icon to the right of the text message box.
+1. At anytime while authoring the text message, click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to the right of the text message box.
    
    The displayed page provides access to your Adobe Marketo Engage Lead and System tokens. Both standard and custom tokens are included. You can use the _Search_ bar to locate the token you need, or navigate through the folder tree to find and select any of the lead/system tokens.
 
@@ -172,7 +172,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
 #### Add links (URLs) to the text message
 
-1. After entering your message text, click the _Link_ icon to the right of the text message box.
+1. After entering your message text, click the _Link_ icon ( ![Link icon](../assets/do-not-localize/icon-link.svg) ) to the right of the text message box.
    
 1. In the dialog, choose the type of URLs to link:
 
