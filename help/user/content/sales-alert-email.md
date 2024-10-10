@@ -54,4 +54,4 @@ You can set up sales alert email deliveries in an account journey when you add a
 
    ![Create new email dialog](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   After the account journey is published, the Sales Alert is delivered according to these parameters.
+   After the account journey is published, the sales alert is delivered according to these parameters.
