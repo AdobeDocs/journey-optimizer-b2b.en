@@ -26,7 +26,7 @@ This release includes the following new capabilities and enhancements:
 <tbody>
 <tr>
 <td>
-<p>The enhanced _central assets library_ allows you to use all image assets in your Marketo Engage instance, across Design Studio workspaces. There are built-in guardrails that prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition, as well as  delete and move operations. These protections ensure that the source assets (Marketo Engage Design Studio) are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition. <a href="../content/assets-overview.md#choose-an-asset-source">Learn more</a>
+<p>The enhanced _central assets library_ allows you to use all image assets in your Marketo Engage instance, across Design Studio workspaces. There are built-in guardrails that prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition, as well as  delete and move operations. These protections ensure that the source assets (Marketo Engage Design Studio) are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition. <a href="../content/marketo-engage-design-studio.md">Learn more</a>
 </td>
 </tr>
 </tbody>
