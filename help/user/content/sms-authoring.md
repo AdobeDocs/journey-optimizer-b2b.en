@@ -36,9 +36,9 @@ Before you configure an SMS channel in Adobe Journey Optimizer B2B Edition, you 
 
    The page lists the available API configurations for your instance.
    
-1. If needed, click the _Filter_ icon ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) and select filter options to display the list of configured API credentials by the SMS service provider or creator.
+1. If needed, click the _Filter_ icon ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) and select options to display the list of configured API credentials by the SMS service provider or creator.
 
-   ![Click the filter icon to filter the list of API credentials](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
+   ![Click the Filter icon to refine the list of API credentials](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ### Create a new API credentials for an SMS service provider
 
