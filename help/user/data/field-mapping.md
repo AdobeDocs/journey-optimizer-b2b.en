@@ -9,6 +9,10 @@ Account audience data is stored as attributes in both XDM Business Account and X
 
 ## XDM Business Person attributes
 
+>[!IMPORTANT]
+>
+>The `workEmail.Address` attribute is required. If it is empty for an account audience member, that person is not ingested and is omitted from account journeys and buying groups that reference the audience. 
+
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 |`b2b.companyName` |Company Name    |Company Name |String  |Name of the company a business person is associated with. |
@@ -31,11 +35,15 @@ Account audience data is stored as attributes in both XDM Business Account and X
 |`workAddress.postalCode`  |Postal code   |Postal Code    |String  |The postal code of the location. Postal codes are not available for all countries. In some countries, it contains only part of the postal code. |
 |`workAddress.state`    |State    |State   |String  |The name of the state for the address. It is a free-form field.|
 |`workAddress.street1`|Street 1  |Address   |String  |Primary street level information, apartment number, street number, and street name. |
-|`workEmail.address` |Address        |Email Address    |String  |The technical address, for example, `<name@domain.com>` as commonly defined in RFC2822 and subsequent standards. |
+|`workEmail.address` |Address        |Email Address    |String  |**Required field** <br/>The technical address, for example, `<name@domain.com>` as commonly defined in RFC2822 and subsequent standards. |
 |`workEmail.status` |Status   |Email Suspended  |String  |An indication as to the ability to use the email address.    |
 |`workPhone.number`    |Number        |Phone Number     |String  |Work phone number.  |
 
 ## XDM Business Account attributes
+
+>[!IMPORTANT]
+>
+>The `accountName` attribute is required. If it is empty for an account in an account audience, that account is not ingested and is omitted from account journeys and buying groups that reference the audience. 
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -45,7 +53,7 @@ Account audience data is stored as attributes in both XDM Business Account and X
 |`accountBillingAddress.region` | Region | Address Region | String |The region, county, or district portion of the billing address. |
 |`accountBillingAddress.state` | State | State | String | The name of the state for the billing address. It is a free-form field. |
 |`accountBillingAddress.street1` | Street 1 | Street 1  | String |Primary street level information for the billing address, which would typically include the apartment number, street number, and street name. |
-|`accountName` | Name | Name | String |Name of the company. Up to 255 characters are allowed in this field. | 
+|`accountName` | Name | Name | **Required field** <br/>String |Name of the company. Up to 255 characters are allowed in this field. | 
 |`accountOrganization.annualRevenue.amount` | Annual Revenue | Annual Revenue | Number |Estimated amount of annual revenue of the organization. |
 |`accountOrganization.industry` | Industry | Industry | String |The industry attributed to the organization. It is a free-form field, and it is advisable to use a structured value for queries or to use the `xdm:classifier` property. |
 |`accountOrganization.logoUrl`  | Logo Url | Logo Url | String | Path to be combined with the URL of a Salesforce instance (for example, `https://yourInstance.salesforce.com/`) to generate a URL to request the social network profile image associated with the account. The generated URL returns an HTTP redirect (code 302) to the social network profile image for the account. |
