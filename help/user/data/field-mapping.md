@@ -53,7 +53,7 @@ Account audience data is stored as attributes in both XDM Business Account and X
 |`accountBillingAddress.region` | Region | Address Region | String |The region, county, or district portion of the billing address. |
 |`accountBillingAddress.state` | State | State | String | The name of the state for the billing address. It is a free-form field. |
 |`accountBillingAddress.street1` | Street 1 | Street 1  | String |Primary street level information for the billing address, which would typically include the apartment number, street number, and street name. |
-|`accountName` | Name | Name | **Required field** <br/>String |Name of the company. Up to 255 characters are allowed in this field. | 
+|`accountName` | Name | Name | String | **Required field** <br/>Name of the company. Up to 255 characters are allowed in this field. | 
 |`accountOrganization.annualRevenue.amount` | Annual Revenue | Annual Revenue | Number |Estimated amount of annual revenue of the organization. |
 |`accountOrganization.industry` | Industry | Industry | String |The industry attributed to the organization. It is a free-form field, and it is advisable to use a structured value for queries or to use the `xdm:classifier` property. |
 |`accountOrganization.logoUrl`  | Logo Url | Logo Url | String | Path to be combined with the URL of a Salesforce instance (for example, `https://yourInstance.salesforce.com/`) to generate a URL to request the social network profile image associated with the account. The generated URL returns an HTTP redirect (code 302) to the social network profile image for the account. |
