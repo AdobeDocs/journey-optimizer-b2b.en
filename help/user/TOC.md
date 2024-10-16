@@ -25,7 +25,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Overview](./journeys/journey-overview.md)
     + [Account journey nodes](./journeys/journey-nodes.md)
 + Journey content {#journey-content}
-    + [Email authoring](./content/email-authoring.md)
+    + Email {#email-channel}
+       + [Email delivery]
+       + [Email authoring](./content/email-authoring.md)
     + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
     + [Sales alert email](./content/sales-alert-email.md)
     + [SMS authoring](./content/sms-authoring.md)
@@ -42,5 +44,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [User management](./admin/user-management.md)
+    + [Configure channels](./admin/email-configuration.md)
     + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
     + [Governance](./admin/governance.md)
