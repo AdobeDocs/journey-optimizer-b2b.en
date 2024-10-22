@@ -47,9 +47,9 @@ Use assets as you author your emails, email templates, and visual fragments. The
 
 If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you can choose image assets from either source. To do that, you must select the image source at the time of creation for a new email, email template, or visual fragment. Or, you can select the image source when you edit the content. The selection applies for the editing experience only, and you can change the image source to access assets from another library when needed.
 
-_**Creating a content resource**_ - To choose an image source when you create an email, email template, or fragment, set the **[!UICONTROL Image source]** in the dialog when you create it.
+_**Creating a content resource**_ - To choose an image source when you create an email, email template, or fragment, set the **[!UICONTROL Image source]** in the dialog.
 
-_**Editing a content resource**_ - To choose an image asset source in the visual editor, use the **[!UICONTROL Select image source]** selector at the top of the canvas.
+_**Editing a content resource**_ - To choose an image asset source in the visual preview, use the **[!UICONTROL Image source]** setting in the panel on the right.
 
 ### Add assets to your content
 
@@ -65,6 +65,8 @@ You can add Marketo Engage assets using either of the following methods:
 * Add a structural element, then drag-and-drop the _image_ content type into the structure. In the properties settings on the right, there are two ways to specify the image:
    * Click **[!UICONTROL Browse]** to open the asset selector, where you can choose an image from the Adobe Marketo Engage Design Studio assets library.
    * Click **[!UICONTROL Import media]** to import an asset from your local system. The imported asset is stored within the Assets root folder of your Adobe Marketo Engage Design Studio library.
+
+See [Use assets in your content](./marketo-engage-design-studio.md#use-assets-in-your-content) for more information.
    
 To change the image, you can update the source URL for the image in the properties on the right.
 

@@ -4,11 +4,11 @@ description: Reused section about using assets for content authoring
 ---
 # Content authoring - assets
 
-In the visual content editor, select the _Assets_ icon that is displayed on the left. 
+In the visual content editor, select the _Assets_ icon  ( ![Show Assets](../user/assets/do-not-localize/icon-assets-design.svg) ) that is displayed on the left.
 
 >[!NOTE]
 >
->If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you must choose the [image source](../user/content/assets-overview.md#choose-an-asset-source) at the time of creation for an email, email template, or visual fragment. However, you can also select the image source before you open the content designer for editing.
+>If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you choose the [image source](../user/content/assets-overview.md#choose-an-asset-source) at the time of creation for an email, email template, or visual fragment. You can also select the image source before you open the visual designer for editing.
 
 The following example outlines steps to add assets to the template content:
 
@@ -24,4 +24,4 @@ The following example outlines steps to add assets to the template content:
 
 1. Replace an existing image asset by selecting it on the canvas and click **[!UICONTROL Select an asset]** in the image source tools.
 
-   ![Select an asset from the source library](../assets/content-design-shared/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
+   ![Select an asset from the source library](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
