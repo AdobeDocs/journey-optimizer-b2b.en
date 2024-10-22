@@ -66,7 +66,7 @@ From the Assets list page, you can add image assets to the Journey Optimizer B2B
 
 1. In the _[!UICONTROL Add assets]_ dialog, drag and drop one or more files from your system to the file box.
 
-   ![Add assets to a workspace](./assets/assets-add-dialog.png){width="500" zoomable="yes"}
+   ![Add assets to a workspace](./assets/assets-add-dialog.png){width="500"}
 
    You can also click the _[!UICONTROL Select a file from your computer]_ link to use your local file system to find and select files. 
 
@@ -92,11 +92,11 @@ Use either of the following methods to delete an asset residing in the _[!UICONT
 
 * Go to the asset details, click **[!UICONTROL ... More]** at the top right, and choose **[!UICONTROL Delete]** from the options.
 
-   ![Access actions for the asset](./assets/assets-details-more-menu.png){width="500" zoomable="yes"}
+   ![Access actions for the asset](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
 * On the _[!UICONTROL Assets]_ listing page, click the _More_ icon (**[!UICONTROL ...]**) next to the asset item and choose **[!UICONTROL Delete]** from the options.
 
-   ![Access actions for the asset](./assets/assets-list-file-more-menu.png){width="500" zoomable="yes"}
+   ![Access actions for the asset](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -116,7 +116,7 @@ Use either of the following methods to replace an asset residing in the _[!UICON
 
 In the _[!UICONTROL Replace asset]_ dialog, drag and drop the replacement file from your system to the file box. You can also click the _[!UICONTROL Select a file from your computer]_ link to use your local file system to select a file. (If you select multiple files in your local system, the first file selected is used for the replacement.)
 
-![Replace asset dialog](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
+![Replace asset dialog](./assets/assets-replace-dialog.png){width="500"}
 
 To proceed, click **[!UICONTROL Replace]**. You can abort the process by clicking **[!UICONTROL Cancel]**. 
 
@@ -184,7 +184,7 @@ You can take the following bulk actions for selected assets residing in the _[!U
 
 In the _[!UICONTROL Journey Optimizer B2B Edition]_ workspace, you can apply actions to a folder or assets within the folder. Click the _More_ icon (**...**) next to the folder to reveal the actions that you can apply to it.
 
-![Apply actions to a folder or assets within the folder](./assets/assets-folder-menu-options.png){width="600"}
+![Apply actions to a folder or assets within the folder](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 You can take the following actions at the folder level:
 
@@ -266,7 +266,7 @@ From the visual designer UI, select the _Asset selector_ icon ( ![Assets selecti
 
 This action changes the tools panel that displays a structured list of the available assets in the selected workspace. Select the workspace that you want to display for choosing an asset.
 
-![Selected assets](./assets/asset-design-workspace-select.png){width="600" zoomable="yes"}
+![Selected assets](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
 
 There are multiple methods for adding an image asset to the visual canvas:
 
@@ -284,4 +284,4 @@ There are multiple methods for adding an image asset to the visual canvas:
 
    * Enter text in the _Search_ field to filter the displayed items for a match of the asset name.
 
-   ![Use the filters and search field to find the asset that you need](./assets/assets-select-dialog-marketo-filtered.png){width="600" zoomable="yes"}
+   ![Use the filters and search field to find the asset that you need](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
