@@ -60,7 +60,7 @@ Clicking the link directs you to the corresponding email, email template, or fra
 
 ## Add assets
 
-From the Assets list page, you can add image assets to the Journey Optimizer B2B Edition workspace or a Marketo ENgage workspace. 
+From the Assets list page, you can add image assets to the Journey Optimizer B2B Edition workspace or a Marketo Engage workspace. 
 
 1. Click **[!UICONTROL Add Assets]** at the top right. 
 
