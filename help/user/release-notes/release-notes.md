@@ -26,7 +26,8 @@ This release includes the following new capabilities and enhancements:
 <tbody>
 <tr>
 <td>
-<p>The enhanced _central assets library_ allows you to use all image assets in your Marketo Engage instance, across Design Studio workspaces. There are built-in guardrails that prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition, as well as  delete and move operations. These protections ensure that the source assets (Marketo Engage Design Studio) are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition. <a href="../content/marketo-engage-design-studio.md">Learn more</a>
+<p>The enhanced <i>central assets library</i> allows you to use all image assets in your Marketo Engage instance, across Design Studio workspaces. There are built-in guardrails that prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition, as well as  delete and move operations. These protections ensure that the source assets (Marketo Engage Design Studio) are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition. </p>
+<p>For assets that are exclusively for use in Journey Optimizer B2B Edition, a specific workspace provides full asset management functions. <a href="../content/marketo-engage-design-studio.md">Learn more</a></p>
 </td>
 </tr>
 </tbody>
@@ -41,7 +42,7 @@ This release includes the following new capabilities and enhancements:
 <tbody>
 <tr>
 <td>
-<p>The home page in the Journey Optimizer B2B Edition app now includes the _[!UICONTROL Recently accessed]_ section, which provides a list of the most recently accessed assets for the marketer or administrator. You can use this list to go directly to the asset that you recently worked on without navigating through a series of asset pages and searching. It provides additional information regarding the modification so that you can make the decision about which of the assets needs further modification from the last session. For email assets, it displays the account journey where the email asset is used. <a href="../home-page.md">Learn more</a>
+<p>The home page in the Journey Optimizer B2B Edition app now includes the <i>[!UICONTROL Recently accessed]</i> section, which provides a list of the most recently accessed assets for the marketer or administrator. You can use this list to go directly to the asset that you recently worked on without navigating through a series of asset pages and searching. It provides additional information regarding the modification so that you can make the decision about which of the assets needs further modification from the last session. For email assets, it displays the account journey where the email asset is used. <a href="../home-page.md">Learn more</a>
 </td>
 </tr>
 </tbody>
