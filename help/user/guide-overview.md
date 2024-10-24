@@ -41,7 +41,7 @@ Create reusable components as custom content blocks for your marketing team memb
 
 >[!ENDTABS]
 
-For a full list of new features and improvements, see the [release notes](using/rn/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
+For a full list of new features and improvements, see the [release notes](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
 
 ## Start with the basics
 
