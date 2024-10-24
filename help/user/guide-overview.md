@@ -124,5 +124,3 @@ Discover the components of a buying group and understand the basics of building 
 </td>
 </tr></table>
 
-<!-- 
-
