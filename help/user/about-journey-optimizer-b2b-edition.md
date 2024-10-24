@@ -17,6 +17,10 @@ Adobe Journey Optimizer B2B Edition uses _Account Audiences_ and account's _Peop
 
 ![High-level data architecture](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
+>[!NOTE]
+>
+>Check your license entitlements and the corresponding [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} about performance guardrails and static limitations.
+
 ### Subscription model
 
 A Journey Optimizer B2B Edition subscription is defined by a pair of Experience Platform (AEP) sandboxes with a Marketo Engage _munchkin_ subscription. It is not possible for a single Marketo Engage subscription to be paired with more than one AEP sandbox. If you don't choose to use an existing Marketo Engage subscription with Journey Optimizer B2B Edition, or you do not currently use Marketo Engage, you are provisioned with a new, empty Marketo Engage subscription for use with Journey Optimizer B2B Edition.
