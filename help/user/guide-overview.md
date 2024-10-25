@@ -48,23 +48,23 @@ For a full list of new features and improvements, see the [release notes](../use
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png"></a>
+    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="Product usage launch"></a>
     <div><strong>Launch from your home page</strong><br/>Learn how to achieve your goals faster in Journey Optimizer B2B Edition with your personalized home page based on your role.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Buying groups"></a>
     <div><strong>Build your first Buying Group</strong><br/>Create your first buying group in Journey Optimizer B2B Edition to automate the process of engaging and qualifying contacts.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
+    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Account journeys"></a>
     <div><strong>Create your first Account Journey</strong><br/>Design and orchestrate personalized account journeys to harmonize marketing outreach with targeted engagement. 
     </div>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg"></a></td>
-    <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg"></a></td>
-    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg" alt="Learn more"></a></td>
+    <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg" alt="Learn more"></a></td>
+    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg" alt="Learn more"></a></td>
     </tr>
 </table>
 
@@ -79,7 +79,7 @@ Discover the components of a buying group and understand the basics of building 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
       <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Quick start guidance</a> <br/><a href="./start/ai-assistant.md">AI Assistant</a>
     </td>
     <!--
@@ -88,25 +88,25 @@ Discover the components of a buying group and understand the basics of building 
       <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
     </td> -->
     <td>
-      <img src="../assets/do-not-localize/icon_audience.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Buying groups"><br/>
       <strong>Buying groups</strong><br/><a href="./buying-groups/buying-groups-overview.md">Buying groups overview</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Role templates</a><br/><a href="./buying-groups/solution-interests.md">Solution interests</a><br/><a href="./buying-groups/buying-groups-create.md">Create buying groups</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Account journeys"><br/>
       <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Content authoring"><br/>
       <strong>Journey content</strong><br/><a href="./content/email-authoring.md">Email authoring</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/sms-authoring.md">SMS authoring</a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content assets"><br/>
       <strong>Content management</strong><br/><a href="./content/assets-overview.md">Assets overview</a><br/><a href="./content/email-templates.md">Email templates</a><br/><a href="./content/fragments.md">Visual fragments</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights and dashboards"><br/>
       <strong>Insights</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a>
     </td>
 
