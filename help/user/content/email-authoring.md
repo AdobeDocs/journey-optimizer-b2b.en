@@ -171,8 +171,20 @@ Leverage the view and content validation options that are available in the visua
 * Zoom in/out on the content across preset zoom options.
 
 * Switch viewing the content across Desktop, Mobile, or Text-only/Plain-text.
-   * Click the _Eye_ icon for content preview across devices.
+   * Click the _View_ icon for content preview across devices.
    * Select one of the out-of-the-box devices or enter custom dimensions to preview the content.
+
+### More options
+
+From the _[!UICONTROL More ...]_ menu at the top of the email designer, you can take the following actions:
+
+![Click More to access template actions](./assets/email-designer-more-menu.png){width="500"}
+
+* **[!UICONTROL Reset email]** - Click this option to clear the visual email designer canvas to a blank slate and restart building your content.
+* **[!UICONTROL Save as fragment]** - Save all or portions of the email as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragment and save it to the list of available fragments. 
+* **[!UICONTROL Change your design]** - Return to the _Design your email_ page. From there, you can choose another template to restart the design process, or choose to design the content from scratch in a black canvas.\
+* **[!UICONTROL Save as content template]** - Save the email body as a template to be reused across multiple emails or email templates. You provide a name and description for the template and save it to the list of saved email templates.
+* **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
 
 ## Check alerts
 

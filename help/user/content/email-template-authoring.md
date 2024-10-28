@@ -76,11 +76,11 @@ Leverage the view and content validation options that are available in the visua
 
 ### More options
 
-From the _[!UICONTROL More ...]_ menu at the top of the visual designer, you can take the following actions:
+From the _[!UICONTROL More ...]_ menu at the top of the email designer, you can take the following actions:
 
 ![Click More to access template actions](./assets/visual-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL Reset template]** - Click this option to clear the visual email designer canvas to a blank slate and restart building content.
-* **[!UICONTROL Save as Fragment]** - Save all or portions of it as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragments and it to the list of available fragments. 
+* **[!UICONTROL Save as Fragment]** - Save all or portions of the template as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragment and save it to the list of available fragments. 
 * **[!UICONTROL Change your design]** - Return to the _Design your template_ page. From there, you can choose to design your template from scratch or use an existing template to restart the design process.
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
