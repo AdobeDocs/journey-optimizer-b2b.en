@@ -9,6 +9,10 @@ The features and tools that you want to tackle in Adobe Journey Optimizer B2B Ed
 
 Based on your organization, administrators can define several types of users and grant them access to certain capabilities depending on their permissions.
 
+>[!TIP]
+>
+>Also check your license entitlements and the corresponding [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} about performance guardrails and static limitations.
+
 >[!BEGINTABS]
 
 >[!TAB Administrator quick start]
