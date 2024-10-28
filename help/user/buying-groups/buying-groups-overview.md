@@ -1,6 +1,6 @@
 ---
 title: Buying Groups
-description: Learn about buying groups and their components.
+description: Learn how buying groups in Journey Optimizer B2B Edition can increase marketing effectiveness by identifying and targeting members for your accounts lists.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 ---
