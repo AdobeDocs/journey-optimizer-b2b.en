@@ -11,7 +11,7 @@ For example, you might lock the header and footer that is designed for brand com
 
 ## Activate content governance for the template
 
-To use the content locking features, activate goverance features for the email template. After you [create an email template](./email-templates.md#create-an-email-template) and use the visual designer to [author the structural and content components](./email-template-authoring.md) for your email template, enable governance and apply specific content locking as needed. 
+After you use the visual designer to [author the structural and content components](./email-template-authoring.md) for your email template, enable governance and apply specific content locking as needed. 
 
 1. In the visual designer, access the layers/containers and elements using the _Navigation tree_. 
 
@@ -29,9 +29,9 @@ To use the content locking features, activate goverance features for the email t
 
 1. To enable specific content locking within the template, change the **[!UICONTROL Mode]** to **[!UICONTROL Content locking]**.
 
-   With this mode set at the root level, all elements in the template are not locked. The tree structure on the left displays the _Content locking_ icon ( ![Content locking icone](../assets/do-not-localize/icon-tree-content-lock.svg) ) next to the root element. Apply content locking to containing (structural) and individual content components as needed.
+   With this mode set at the root level, all elements in the template are unlocked. The tree structure on the left displays the _Content locking_ icon ( ![Content locking icon](../assets/do-not-localize/icon-tree-content-lock.svg) ) next to the root element. Apply content locking to containing (structural) and individual content components as needed.
 
-   To enable additions to the template so that journey email authors can add to structural or content elements, turn on **[!UICONTROL Enable content addition]**. Choose an option for the type of additions that you want to allow:
+   To allow journey email authors to add structural or content elements, turn on **[!UICONTROL Enable content addition]**. Choose the type of additions that you want to allow:
 
    * **[!UICONTROL Allow structure & content addition]** - Choose this option if you want to allow authors to add both structural and content elements.
 

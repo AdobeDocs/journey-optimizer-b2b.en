@@ -5,7 +5,7 @@ feature: Email Authoring, Content
 ---
 # Email template authoring
 
-After you [create an email template](./email-templates.md#create-an-email-template), use the visual designer to author the structural and content components for your email template. 
+After you [create an email template](./email-templates.md#create-an-email-template), use the visual designer to author the structural and content components in your email template. 
 
 ## Add structure and content {#structure-content}
 
@@ -82,5 +82,5 @@ From the _[!UICONTROL More ...]_ menu at the top of the visual designer, you can
 
 * **[!UICONTROL Reset template]** - Click this option to clear the visual email designer canvas to a blank slate and restart building content.
 * **[!UICONTROL Save as Fragment]** - Save all or portions of it as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragments and it to the list of available fragments. 
-* **[!UICONTROL Change your design]** - Return to the _Design your template_ page. From there, you can choose to design your template from scratch or an existing template to restart the design process.
+* **[!UICONTROL Change your design]** - Return to the _Design your template_ page. From there, you can choose to design the template from scratch or use an existing template to restart the design process.
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
