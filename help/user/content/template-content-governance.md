@@ -51,7 +51,7 @@ To use the content locking features, activate goverance features for the email t
 
 ## Apply locking to a structure
 
-Using the structural inheritance model, you should plan the layout and structure of your email template according to the governance that you want to apply. Use the structural components as containers to group items in ways that make them easy to designate as locked or editable. When the email template design is in place, review the structure and apply locking features according to your plan.
+Using the structural inheritance model, plan the layout and structure of your email template according to the governance that you want to apply. Use the structural components as containers to group items in ways that make them easy to designate as locked or editable. When the email template design is in place, review the structure and apply locking features according to your plan.
 
 Applying a lock type at the structure level provides a default setting for its child components. You can then apply a specific locking setting at the column or content element level as needed.
 
