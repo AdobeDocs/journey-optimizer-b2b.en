@@ -9,9 +9,13 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 
 Here is a sampling of the latest enhancements in the Journey Optimizer B2B Edition product and documentation. 
 
-<!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
-
 >[!BEGINTABS]
+
+>[!TAB Central assets library]
+
+Use all of the image assets in your Marketo Engage instance, across Design Studio workspaces. Built-in guardrails prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition. These protections ensure that the Marketo Engage source assets are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition. For assets that are exclusively for use in Journey Optimizer B2B Edition, a specific workspace provides full asset management functions. 
+
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Learn about cntral asset management"}
 
 >[!TAB LinkedIn Account Matched Audiences]
 
@@ -35,42 +39,32 @@ Create reusable components as custom content blocks for your marketing team memb
 
 [!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Learn about visual fragments"}
 
->[!TAB Buying groups]
-
-Create buying groups from unified B2B data from across your enterprise. Align them to your company's offerings, and automate how you define, identify, and target the right members for each role to scale the most precise targeting for your customer journeys.
-
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Learn about buying groups"}
-
->[!TAB Account journeys]
-
-Build tailored journeys for buying groups within target accounts that automate hyper-personalized sales and marketing engagement to streamline demand generation, qualification and a seamless, coordinated buying group experience. 
-
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview" tooltip="Learn about Account Journeys"}
-
 >[!ENDTABS]
+
+For a full list of new features and improvements, see the [release notes](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
 
 ## Start with the basics
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png"></a>
+    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="Product usage launch"></a>
     <div><strong>Launch from your home page</strong><br/>Learn how to achieve your goals faster in Journey Optimizer B2B Edition with your personalized home page based on your role.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Buying groups"></a>
     <div><strong>Build your first Buying Group</strong><br/>Create your first buying group in Journey Optimizer B2B Edition to automate the process of engaging and qualifying contacts.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
+    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Account journeys"></a>
     <div><strong>Create your first Account Journey</strong><br/>Design and orchestrate personalized account journeys to harmonize marketing outreach with targeted engagement. 
     </div>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg"></a></td>
-    <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg"></a></td>
-    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg" alt="Learn more"></a></td>
+    <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg" alt="Learn more"></a></td>
+    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg" alt="Learn more"></a></td>
     </tr>
 </table>
 
@@ -85,7 +79,7 @@ Discover the components of a buying group and understand the basics of building 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
       <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Quick start guidance</a> <br/><a href="./start/ai-assistant.md">AI Assistant</a>
     </td>
     <!--
@@ -94,41 +88,44 @@ Discover the components of a buying group and understand the basics of building 
       <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
     </td> -->
     <td>
-      <img src="../assets/do-not-localize/icon_audience.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Buying groups"><br/>
       <strong>Buying groups</strong><br/><a href="./buying-groups/buying-groups-overview.md">Buying groups overview</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Role templates</a><br/><a href="./buying-groups/solution-interests.md">Solution interests</a><br/><a href="./buying-groups/buying-groups-create.md">Create buying groups</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Account journeys"><br/>
       <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Content authoring"><br/>
       <strong>Journey content</strong><br/><a href="./content/email-authoring.md">Email authoring</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/sms-authoring.md">SMS authoring</a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content assets"><br/>
       <strong>Content management</strong><br/><a href="./content/assets-overview.md">Assets overview</a><br/><a href="./content/email-templates.md">Email templates</a><br/><a href="./content/fragments.md">Visual fragments</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights and dashboards"><br/>
       <strong>Insights</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a>
     </td>
 
   </tr>
 </table>
 
-<!-- 
-
 ## Additional resources
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Product description</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a>
-
+<tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Documentation</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Developers resources</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Documentation</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
+</td></tr>
+<tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
+</td><td><strong>Adobe Marketo Engage</strong><br/>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
 </td>
-</tr></table> -->
+</tr></table>
+

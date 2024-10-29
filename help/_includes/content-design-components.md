@@ -20,7 +20,7 @@ description: Reused section about using components and content elements for cont
 
    ![Drag a content element onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
-   reference to the contents elements--->
+   reference to the contents elements when we have a completed reference for each.--->
 
 1. If needed, you can make additional customizations for each component in the _[!UICONTROL Settings]_ or _[!UICONTROL Style]_ tabs.
 

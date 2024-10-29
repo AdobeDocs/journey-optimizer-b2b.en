@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 ---
 # Email authoring
 
-Use Adobe Journey Optimizer B2B Edition to send email messages to your customers. You can create, personalize, and preview messages in the Email Designer.
+Use Adobe Journey Optimizer B2B Edition to send email messages to your customers. You can create, personalize, and preview messages in the visual designer.
 
 ## Add an email action in an account journey
 
@@ -103,6 +103,10 @@ You can personalize the imported content as needed with the visual email editor 
 
 {{$include /help/_includes/content-design-select-template.md}}
 
+>[!NOTE]
+>
+> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md).
+
 ## Add structure and content {#structure-content}
 
 >[!CONTEXTUALHELP]
@@ -140,9 +144,9 @@ The content of the fragment is dynamically updated within the structure to show 
 
 >[!TIP]
 >
->If you want to add the fragment so that it occupies the entire horizontal layout within the email, add a 1:1 column structure and then drag and drop the fragment into it.
+>To add the fragment so that it occupies the entire horizontal layout within the email, add a 1:1 column structure and then drag and drop the fragment into it.
 
-After the email is saved, it appears in the fragment details page when you select the _[!UICONTROL Used By]_ tab in the summary. Fragments added to an email template are not editable within the template---the content is defined by the source fragment.
+After the email is saved, it appears in the fragment details page when you select the _[!UICONTROL Used By]_ tab in the summary. Fragments added to an email template are not editable within the template---the source fragment defines the content.
 
 ### Add assets
 
@@ -167,8 +171,20 @@ Leverage the view and content validation options that are available in the visua
 * Zoom in/out on the content across preset zoom options.
 
 * Switch viewing the content across Desktop, Mobile, or Text-only/Plain-text.
-   * Click the _Eye_ icon for content preview across devices.
+   * Click the _View_ icon for content preview across devices.
    * Select one of the out-of-the-box devices or enter custom dimensions to preview the content.
+
+### More options
+
+From the _[!UICONTROL More ...]_ menu at the top of the email designer, you can take the following actions:
+
+![Click More to access template actions](./assets/email-designer-more-menu.png){width="500"}
+
+* **[!UICONTROL Reset email]** - Click this option to clear the visual email designer canvas to a blank slate and restart building your content.
+* **[!UICONTROL Save as fragment]** - Save all or portions of the email as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragment and save it to the list of available fragments. 
+* **[!UICONTROL Change your design]** - Return to the _Design your email_ page. From there, you can choose another template to restart the design process, or choose to design the content from scratch in a black canvas.\
+* **[!UICONTROL Save as content template]** - Save the email body as a template to be reused across multiple emails or email templates. You provide a name and description for the template and save it to the list of saved email templates.
+* **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
 
 ## Check alerts
 
