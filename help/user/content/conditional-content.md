@@ -1,13 +1,13 @@
 ---
 title: Conditional content
-description: Learn how to create content variations and apply conditional rules when authoring email content.
+description: Learn how to create content variations and apply conditional rules when authoring email content for account journeys.
 feature: Email Authoring, Content
 ---
 # Conditional content
 
 Conditional content allows you to adapt the email content based on conditional rules. These rules are defined using profile attributes or contextual events. You can create conditional rules in the rule builder, and you can store them for reuse across your account journeys.
 
-To add conditional content into your email messages, Adobe Journey Optimizer allows you to apply conditional rules that are stored in the _Conditions_ library. Apply conditional rules within the email designer as you author an email within an account journey.
+To add conditional content into your email messages, Adobe Journey Optimizer allows you to apply conditional rules that are stored in the _Conditions_ library. Apply conditional rules within the email designer as you [author an email within an account journey](./email-authoring.md).
 
 ## Add conditional content to emails {#email-content}
 
@@ -21,15 +21,13 @@ To add conditional content into your email messages, Adobe Journey Optimizer all
 >title="Conditional content"
 >abstract="Use a conditional rule saved into the library or create a new one."
 
-As you author an email for your account journey, use conditional rules to define multiple variants for a content component.
-
-To create content component variants in the email designer:
+As you author an email for your account journey in the email designer, use conditional rules to define multiple variants for a content component.
 
 1. Select a content component and click the **[!UICONTROL Enable conditional content]** icon in the component toolbar.
 
     The component is outlined in orange to indicate that it is activated as a conditional component. The **[!UICONTROL Conditional Content]** pane displays on the left with the _Default variant_ and _Variant - 1.
 
-    ![Enable conditional content for the text component](./assets/conditions-enable.png){width="800" zoomable="yes"}
+    ![Enable conditional content for the text component](./assets/conditions-enable.png){width="700" zoomable="yes"}
     
     The original content you selected and activated is the default and applies when none of the conditional rules are not satisfied for any of the variants that you define.
     
@@ -37,7 +35,7 @@ To create content component variants in the email designer:
 
 1. Hover over the first variant (_Variant - 1_) and click the _Select condition_ icon ( ![Condition icon](../assets/do-not-localize/icon-select-condition.svg) ).
 
-   ![Select condition for variant](./assets/conditions-variant-select.png){width="800" zoomable="yes"}
+   ![Select condition for variant](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    The _[!UICONTROL Select condition]_ dialog opens and displays the conditions library.
 
@@ -78,7 +76,7 @@ To create content component variants in the email designer:
     >[!IMPORTANT]
     >
     >Conditional content is evaluated against associated rules in the order in which the variants are listed. The first variant with a condition that evaluates as true is used for the component.
-    ><br/>
+    >
     >If none of the defined variant conditions evaluates as true when sending the email, the content component appears according to the **[!UICONTROL Default variant]**.
 
 1. To delete a variant, click the _More menu_ icon (**...**) for the variant and choose **[!UICONTROL Delete]**.
@@ -148,5 +146,3 @@ Conditional rules saved to the library cannot be modified. However, you can dupl
 1. Change the name and description to match the purpose or items in the rule.
 
 1. When your conditional rule is complete, click **[!UICONTROL Save]**.
-
-
