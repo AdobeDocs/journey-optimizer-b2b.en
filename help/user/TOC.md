@@ -27,6 +27,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Journey content {#journey-content}
     + [Email authoring](./content/email-authoring.md)
     + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
+    + [Dynamic content](./content/conditional-content.md)
     + [Sales alert email](./content/sales-alert-email.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Content management {#content-management}
