@@ -37,6 +37,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + [Templates](./content/email-templates.md)
    + [Fragments](./content/fragments.md)
 + Insights dashboards {#dashboards}
+    + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
     + [Buying Groups](./dashboards/buying-groups-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
     + [Journey Overview](./dashboards/journeys-dashboard.md)
