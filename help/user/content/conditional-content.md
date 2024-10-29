@@ -108,9 +108,9 @@ You can access the conditional rule builder from the email designer when you are
    * **[!UICONTROL Person condition]** - Choose this type to build the conditional rule using person attributes and contextual events.
    * **[!UICONTROL Account condition]** - Choose this type to build the conditional rule using account attributes.
 
-   ![Choose the condition type to create](./assets/conditions-variant-component-edit.png){width="700" zoomable="yes"}
+   ![Choose the condition type to create](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
-1. Build the conditional rule according to your needs. 
+1. Build the conditional rule according to your needs.
 
    For each attribute or event that you want to include in the rule, drag and drop the item onto the rule canvas. Expand the filter and complete the expression.
 
