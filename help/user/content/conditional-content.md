@@ -5,7 +5,7 @@ feature: Email Authoring, Content
 ---
 # Conditional content
 
-Conditional content allows you to adapt the email content based on conditional rules. These rules are defined using profile attributes or contextual events. You can create conditional rules in the rule builder, and you can store them for reuse across your account journeys.
+Conditional content allows you to adapt email content based on conditional rules. These rules are defined using profile attributes or contextual events. You can create conditional rules in the rule builder, and you can store them for reuse across your account journeys.
 
 To add conditional content into your email messages, Adobe Journey Optimizer allows you to apply conditional rules that are stored in the _Conditions_ library. Apply conditional rules within the email designer as you [author an email within an account journey](./email-authoring.md).
 
@@ -43,7 +43,7 @@ As you author an email for your account journey in the email designer, use condi
 
    ![Conditions library access condition details](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   If the condition that you need does not exist, you can [create a conditional rule](#create-a-conditional-rule) by clicking **[!UICONTROL Create new]**.
+   If the condition that you need does not exist, [create a conditional rule](#create-a-conditional-rule) by clicking **[!UICONTROL Create new]**.
 
 1. Select the conditional rule and click **[!UICONTROL Select]** to associate it with the variant.
 
