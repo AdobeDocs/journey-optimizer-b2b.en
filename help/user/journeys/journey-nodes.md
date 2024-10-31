@@ -16,7 +16,7 @@ The [Account Audience](journey-overview.md#add-the-account-audience-for-your-jou
 
 ## Take an action 
 
-Execute an action like send an email, change score, and so on.
+Execute an action like send an email, change a score, assign to a buying group, and so on.
 
 **Action on accounts**: The action is applied to all people that are part of accounts on this path.
 
@@ -24,20 +24,22 @@ Execute an action like send an email, change score, and so on.
 
 | Node context | Action | Constraints |
 | ------------ | ------ | ----------- |
-| [People](#add-a-people-action) | Assign to Buying Group | Select solution interest<br/>Select role |
-| | Remove from Buying Group | Select solution interest |
-| | Send SMS | Create SMS |
+| [People](#add-a-people-action) | Add to List| Select Marketo Engage workspace<br/>List name |
 | | Add to Marketo Engage Request campaign | Select Marketo Engage workspace<br/>Select Request campaign |
+| | Assign to Buying Group | Select solution interest<br/>Select role |
 | | Change People Partition in Marketo Engage | New partition |
-| | Person Interesting Moment | Type<br/>Description |
 | | Change Score | Score name<br/>Change |
+| | Person Interesting Moment | Type<br/>Description |
+| | Remove from Buying Group | Select solution interest |
+| | Remove from List | Select solution interest |
 | | Send email | Create new email<br/>Select email from Marketo Engage |
-| [Accounts](#add-an-account-action) | Send Sales Alert | Select solution interest<br/>Send email to|
+| | Send SMS | Create SMS |
+| [Accounts](#add-an-account-action) | Account Change Data Value | Select attribute<br/>New value |
+| | Account Interesting Moment | Type (Email, Milestone, or Web)<br/>Description (optional)|
 | | Add Account to (other) Journey | Select live Account Journey |
-| | Update Buying Group Status | Solution Interest<br/>Status (required, 50 characters max) |
-| | Remove Account from (current) Journey | Select live Account Journey |
-| | Account Interesting Moment | Type (email, milestone, or web)<br/>Description (optional)|
-| | Account Change Data Value | Select attribute<br/>New value |
+| | Remove Account from Journey | Select live Account Journey |
+| | Send Sales Alert | Select solution interest<br/>Send email to|
+| | Update Buying Group Status | Select solution interest<br/>Status (required, 50 characters max) |
 
 ### Add an account action
 
@@ -78,17 +80,20 @@ Move your audience forward to the next step in the journey when an event occurs.
 
 | Node context | Event | Constraints |
 | ------------ | ----- | ----------- |
-| [People](#add-a-people-event) | Data Value Changes | Attribute<br/>Additional constraints (optional)<br/>Timeout (optional) |
-| | Clicks link in email | Email<br/>Additional constraints (optional)<br/>Timeout (optional) |
-| | Assigned to Buying Group | Solution interest<br/>Additional constraints (optional)<br/>Timeout (optional) |
-| | Opens Email | Email<br/>Additional constraints (optional)<br/>Timeout (optional) |
-| | Score is changed | Score name<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| [People](#add-a-people-event) | Assigned to Buying Group | Solution interest<br/>Additional constraints (optional): <ul><li>Role</li><li>Date of activity</li></ul><br/>Timeout (optional) |
+| | Clicks link in email | Email<br/>Additional constraints (optional): <ul><li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
+| | Clicks link in SMS | Email<br/>Additional constraints (optional):<ul><li>Link</li><li>Device</li><li>Platform</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
+| | Data value changes | Person attribute<br/>Additional constraints (optional):<ul><li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
+| | Opens email | Email<br/>Additional constraints (optional): <ul><li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
 | | Removed from Buying Group | Solution interest<br/>Date of activity (optional)<br/>Timeout (optional) |
-| [Accounts](#add-an-account-event) | Change in Buying Group Status | Solution interest<br/>Additional constraints (optional)<br/>Timeout (optional) |
-| | Change in Completeness Score | Solution interest<br/>Additional constraints (optional)<br/>Timeout (optional) |
-| | Account had interesting moment | Type<br/>Additional constraints (optional)<br/>Timeout (optional) |
-| | Change in Engagement Score | Solution interest<br/>Additional constraints (optional)<br/>Timeout (optional)  |
-| | Change in Account Data Value | Attribute<br/>Additional constraints (optional)<br/>Timeout (optional) |
+| | Score is changed | Score name<br/>Additional constraints (optional):<ul><li>Change</li><li>New score</li><li>Urgency</li><li>Priority</li><li>Relative score</li><li>Relative urgency</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
+| | SMS Bounces| SMS message<br/>Additional constraints (optional):<ul><li>Date of activity</li><li>Min number of times</li></ul><br/>Timeout (optional) |
+| [Accounts](#add-an-account-event) | Account had interesting moment | Type (Email, Milestone, or Web)<br/>Additional constraints (optional):<ul><li>Description</li><li>Source</li><li>Date of activity</li></ul> <br/>Timeout (optional) |
+| | Change in Account Data Value | Attribute<br/>Additional constraints (optional):<ul><li>New value</li><li>Previous value</li><li>Date of activity</li></ul> <br/>Timeout (optional) |
+| | Change in Buying Group Status | Solution interest<br/>Additional constraints (optional):<ul><li>New status</li><li>Previous status</li><li>Date of activity</li></ul><br/> Timeout (optional) |
+| | Change in Completeness Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
+| | Change in Engagement Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
+
 
 ### Add an account event
 
