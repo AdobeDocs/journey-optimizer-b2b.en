@@ -22,6 +22,8 @@ Execute an action like send an email, change a score, assign to a buying group, 
 
 **Action on people**: The action is applied to all people on this path. An action on people can be used within the split path by people or split path by accounts.
 
+### Actions and constraints {#action-nodes}
+
 | Node context | Action | Constraints |
 | ------------ | ------ | ----------- |
 | [People](#add-a-people-action) | Add to List| Select Marketo Engage workspace<br/>List name |
@@ -78,6 +80,8 @@ Move your audience forward to the next step in the journey when an event occurs.
 
 **Listen to events on people**: Events on people can only be applied on an account path; it is not available for a split by people node.
 
+### Events and constraints {#event-nodes}
+
 | Node context | Event | Constraints |
 | ------------ | ----- | ----------- |
 | [People](#add-a-people-event) | Assigned to Buying Group | Solution interest<br/>Additional constraints (optional): <ul><li>Role</li><li>Date of activity</li></ul><br/>Timeout (optional) |
@@ -93,7 +97,6 @@ Move your audience forward to the next step in the journey when an event occurs.
 | | Change in Buying Group Status | Solution interest<br/>Additional constraints (optional):<ul><li>New status</li><li>Previous status</li><li>Date of activity</li></ul><br/> Timeout (optional) |
 | | Change in Completeness Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
 | | Change in Engagement Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
-
 
 ### Add an account event
 
@@ -165,6 +168,8 @@ _How does a split path by people node work?_
 * Split path includes an option for not adding a default path. Accounts/people who do not qualify do not move forward in the Journey.
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
+
+### Path conditions {#path-conditions}
 
 | Node context | Path conditions | Description |
 | ------------ | --------------- | ----------- |
