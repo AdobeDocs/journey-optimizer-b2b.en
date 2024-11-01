@@ -8,7 +8,14 @@ exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
 
 After you [create an account journey](journey-overview.md#create-an-account-journey) and [add the audience](journey-overview.md#add-the-account-audience-for-your-journey), build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases.
 
-Build your account journey by combining the different action, event, and orchestration nodes as a multi-step, cross-channel scenario. Each node of a journey represents a step along a logical path.
+Build your account journey by combining the different action, event, and orchestration nodes as a multi-step, cross-channel scenario. Each node of a journey represents a step along a logical path. Use the following node types to construct an account journey:
+
+* [Account audience](#account-audience-node)
+* [Take an action](#take-an-action)
+* [Listen for an event](#listen-for-an-event)
+* [Split paths](#split-paths)
+* [Wait](#wait)
+* [Merge paths](#merge-paths)
 
 ## Account Audience node
 
