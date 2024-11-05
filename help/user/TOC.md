@@ -25,17 +25,23 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Overview](./journeys/journey-overview.md)
     + [Account journey nodes](./journeys/journey-nodes.md)
 + Journey content {#journey-content}
-    + [Email authoring](./content/email-authoring.md)
-    + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
-    + [Sales alert email](./content/sales-alert-email.md)
+    + Email channel {#email-channel}
+       + [Email authoring](./content/email-authoring.md)
+       + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
+       + [Governed templates](./content/email-authoring-governance.md)
+       + [Sales alert email](./content/sales-alert-email.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Content management {#content-management}
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
       + [Work with Marketo Engage assets](./content/marketo-engage-design-studio.md)
       + [Work with AEM Assets images](./content/aem-assets.md)
-   + [Templates](./content/email-templates.md)
+   + Templates{#templates}
+      + [Manage email templates](./content/email-templates.md)
+      + [Email template authoring](./content/email-template-authoring.md)
+      + [Content governance](./content/template-content-governance.md)
    + [Fragments](./content/fragments.md)
+   + [Conditional content](./content/conditional-content.md)
 + Insights dashboards {#dashboards}
     + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
     + [Buying Groups](./dashboards/buying-groups-dashboard.md)
@@ -43,5 +49,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [User management](./admin/user-management.md)
+    + Channels {#channels}
+       + [Email configurations](./admin/configure-channels-emails.md)
+       + [SMS configurations](./admin/configure-channels-sms.md)
     + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
     + [Governance](./admin/governance.md)

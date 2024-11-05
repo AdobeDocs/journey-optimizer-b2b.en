@@ -20,11 +20,12 @@ description: Reused section about using components and content elements for cont
 
    ![Drag a content element onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
-   reference to the contents elements--->
+   reference to the contents elements when we have a completed reference for each.--->
 
 1. If needed, you can make additional customizations for each component in the _[!UICONTROL Settings]_ or _[!UICONTROL Style]_ tabs.
 
    For example, you can change the text style, padding, or margin of each component.
 
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
+1. To add conditional content and adapt the content to the targeted profiles based on conditional rules, select a content component and click the **[!UICONTROL Enable conditional content]** icon in the component toolbar.
+
+   For more informantion, see [_Conditional content_](../user/content/conditional-content.md).
