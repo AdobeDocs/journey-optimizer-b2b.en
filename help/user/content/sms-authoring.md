@@ -6,7 +6,9 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 ---
 # SMS authoring
 
-Use Adobe Journey Optimizer B2B Edition to send text messages (SMS) to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor. 
+Use Adobe Journey Optimizer B2B Edition to send text messages (SMS) to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
+
+Before creating SMS messages for account journies, make sure that the [SMS service provider is configured](../admin/configure-channels-sms.md) from the _[!UICONTROL Administrator]_ settings.
 
 ## Add an SMS action in an account journey
 
