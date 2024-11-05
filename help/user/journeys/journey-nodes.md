@@ -40,7 +40,7 @@ Execute an action like send an email, change a score, assign to a buying group, 
 | | Change Score | Score name<br/>Change |
 | | Person Interesting Moment | Type<br/>Description |
 | | Remove from Buying Group | Select solution interest |
-| | Remove from List | Select solution interest |
+| | Remove from List | Select Marketo Engage workspace<br/>List name |
 | | Send email | Create new email<br/>Select email from Marketo Engage |
 | | Send SMS | Create SMS |
 | [Accounts](#add-an-account-action) | Account Change Data Value | Select attribute<br/>New value |
