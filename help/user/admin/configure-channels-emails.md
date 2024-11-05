@@ -60,7 +60,7 @@ When _[!UICONTROL Strict Transport Security]_ is enabled, it guarantees that tra
 
 ## Communication limits
 
-Communication limits control the amount of email your organization sends. It is a best practice to set limits so that you don't overwhelm recipients with too many communications from your organization.
+Communication limits control the amount of email your organization sends. It is a best practice to set limits so that you don't overwhelm recipients with too many emails from your organization.
 
 To review the current settings, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Under _[!UICONTROL Email]_ in the navigation panel, select **[!UICONTROL Communication limits]**.
 
@@ -94,7 +94,7 @@ The network administrator should add the following line to your DNS entries:
 
 `[domain] IN TXT v=spf1 mx ip4:[corpIP] include:mktomail.com ~all`
 
-In this entry, replace `[domain]` with the primary domain of your website (such as `company.com`) and `[corpIP]` with the IP address of your corporate email server (such as `255.255.255.255`). If you send emails from multiple domains through Marketo Engage, add it to each domain (on one line).
+In this entry, replace `[domain]` with the primary domain of your website (such as `company.com`) and `[corpIP]` with the IP address of your corporate email server (such as `255.255.255.255`). If you send emails from multiple domains through Marketo Engage, add this entry for each domain on a single line.
 
 If you already have an SPF record in your DNS entry, add the following to it:
 
