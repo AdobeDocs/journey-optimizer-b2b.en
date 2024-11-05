@@ -1,6 +1,6 @@
 ---
 title: SMS configurations
-description: Learn how to configure a connection to Experience Manager Assets repositories for use in Journey Optimizer B2B Edition content authoring.
+description: Learn how to configure connections to supported SMS providers for use by Journey Optimizer B2B Edition SMS messaging.
 feature: Setup
 ---
 # Channels configuration
