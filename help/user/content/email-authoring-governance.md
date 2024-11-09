@@ -2,6 +2,7 @@
 title: Author from a Governed Template
 description: Learn how to use email authoring with a governed template that contains locked content components.
 feature: Email Authoring, Content
+exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
 ---
 # Author from a governed template
 

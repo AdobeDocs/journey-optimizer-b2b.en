@@ -2,6 +2,7 @@
 title: Email Template Authoring
 description: Learn how to author content email templates that can be used for account journey emails to reuse your designs easily and efficiently.
 feature: Email Authoring, Content
+exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
 ---
 # Email template authoring
 

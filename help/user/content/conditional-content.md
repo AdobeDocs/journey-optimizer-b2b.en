@@ -2,6 +2,7 @@
 title: Conditional content
 description: Learn how to create content variations and apply conditional rules when authoring email content for account journeys.
 feature: Email Authoring, Content
+exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
 ---
 # Conditional content
 

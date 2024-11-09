@@ -2,6 +2,7 @@
 title: Email configurations
 description: Learn how to access and review the email settings that are configured in Marketo Engage.
 feature: Setup
+exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
 ---
 # Email configurations
 
@@ -140,4 +141,3 @@ The settings are read-only in Journey Optimizer B2B Edition. Click **[!UICONTROL
 >To access and edit these settings in Adobe Marketo Engage, you must have Product Administrator permissions. 
 
 For more information about configuring the bot activity options, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
-

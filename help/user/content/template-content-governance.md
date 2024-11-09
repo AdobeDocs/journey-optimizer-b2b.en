@@ -2,6 +2,7 @@
 title: Template Content Governance
 description: Learn how to lock content elements within your email templates so that you can govern how they can be altered for use in account journeys.
 feature: Email Authoring, Content
+exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
 ---
 # Template content governance
 
@@ -86,4 +87,3 @@ Applying a lock type at the structure level provides a default setting for its c
       For a locked component, you can allow the removal of the component during email authoring by turning on the **[!UICONTROL Allow delete]** option.
 
    ![Apply content locking to a child component](./assets/governance-template-component-locking.png){width="800" zoomable="yes"}
-
