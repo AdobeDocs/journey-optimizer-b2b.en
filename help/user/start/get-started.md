@@ -31,9 +31,9 @@ Learn about access management in the following pages:
 
 1. **Configure email delivery** in Marketo Engage, which enables your team to send email content from account journeys. [Learn more](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **Configure SMS services**. Set up one of the supported third-party SMS providers who offer text messaging services independently and configure the account credentials in Adobe Journey Optimizer B2B Edition. [Learn more](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+1. **Configure SMS services**. Set up one of the supported third-party SMS providers who offer text messaging services independently and configure the account credentials in Adobe Journey Optimizer B2B Edition. [Learn more](../admin/configure-channels-sms.md)
 
-1. **Configure and enable use of Adobe Experience Manager Assets** for teams that use Assets as c Cloud Service for centralized digital asset management. [Learn more](../admin/configure-aem-repositories.md)
+1. **Configure and enable use of Adobe Experience Manager Assets** for teams that use Assets as a Cloud Service for centralized digital asset management. [Learn more](../admin/configure-aem-repositories.md)
 
 >[!TAB Marketer quick start]
 

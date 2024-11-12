@@ -5,7 +5,7 @@ feature: Setup
 ---
 # Email configurations
 
-Adobe Journey Optimizer B2B Edition leverages the channel functions and event tracking in Market Engage. Administrators should ensure that the delivery and tracking configurations are in place to enable channel delivery for Marketers. 
+Adobe Journey Optimizer B2B Edition leverages the channel functions and event tracking in Market Engage. Administrators should ensure that the delivery and tracking configurations are in place to enable channel delivery for Marketers. For information about the protocols needed for email delivery and tracking through Marketo Engage, see [Protocols for tracking and email delivery](../start/email-protocols.md).
 
 ## Delivery settings
 
@@ -48,7 +48,6 @@ This setting defines your primary domain for one or more Marketo Engage workspac
 >[!NOTE]
 >
 >If you are marketing multiple brands out of Journey Optimizer B2B Edition and the connected Marketo Engage instance and want each to have its own branded tracking links, you can add an additional branding domain. For more information, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
-
 
 ### [!UICONTROL Custom header options] {#custom-header-options}
 

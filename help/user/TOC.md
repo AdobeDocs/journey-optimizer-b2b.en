@@ -11,6 +11,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
     + [Login and home page](home-page.md)
     + [Quick start guidance](./start/get-started.md)
+    + [Tracking and email protocols](./start/email-protocols.md)
     + [Use AI Assistant](./start/ai-assistant.md)
 + Account audiences {#account-audiences}
     + [Overview](./audiences/account-audience-overview.md)
