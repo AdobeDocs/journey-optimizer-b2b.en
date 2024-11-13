@@ -6,7 +6,7 @@ role: Admin
 ---
 # Protocols for tracking and email delivery
 
-Adobe Journey Optimizer B2B Edition leverages the email channel functions and event tracking in Market Engage. To ensure that email delivery works as expected for organizations that use restrictive firewall or proxy server settings, a systems administrator must add certain domains and IP address ranges to the allowlist. 
+Adobe Journey Optimizer B2B Edition leverages the email channel functions and event tracking in Marketo Engage. To ensure that email delivery works as expected for organizations that use restrictive firewall or proxy server settings, a systems administrator must add certain domains and IP address ranges to the allowlist. 
 
 >[!NOTE]
 >
@@ -22,17 +22,16 @@ Make sure that the following domains (including the asterisk) are added to the a
 
 Work through the following steps to ensure tracking and email delivery:
 
-1. [Create DNS records for landing pages and email](#create-dns-records-for-landing-pages-and-email)
+1. [Create DNS records for <!-- landing pages and -->email](#create-dns-records-for-landing-pages-and-email)
 1. [Set up SPF and DKIM](#set-up-spf-and-dkim)
 1. [Set up DMARC](#set-up-dmarc)
 1. [Set up MX records for your domain](#set-up-mx-records-for-your-domain)
 1. [Add Outbound IP addresses to allowlists](#outbound-ip-addresses)
 
-## Create DNS records for landing pages and email
+## Create DNS records for <!-- landing pages and -->email
 
-Connecting a CNAME record allows you to host web versions of emails, landing pages, and blogs with consistent branding that improves your traffic and conversions. It is highly recommended that you add the CNAMEs to your root domain host for Marketo Engage to host your marketing-focused web assets. 
-
-As an administrator, you should work with your Marketing team to plan and implement two CNAME records. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
+Connecting a CNAME record allows marketers to host web versions of emails, landing pages, and blogs with consistent branding that improves traffic and conversions. It is highly recommended that you add the CNAMEs to your root domain host for Marketo Engage to host your marketing-focused web assets. As an administrator, you should work with your Marketing team to plan and implement a CNAME record for the tracking links that are included in the emails sent through Marketo Engage.
+<!-- As an administrator, you should work with your Marketing team to plan and implement two CNAME records. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
 
 ### Add the CNAME for landing pages
 
@@ -41,6 +40,7 @@ Add the landing page CNAME to your DNS record, so that `[YourLandingPageCNAME]` 
 * Alias: Enter `[YourLandingPageCNAME]`
 * Type: CNAME
 * Point to: Enter `[MunchkinID].mktoweb.com`
+-->
 
 ### Add the CNAME for email tracking links
 
@@ -211,13 +211,13 @@ An MX record allows you to receive mail to the domain that you're sending email 
 
 An outbound connection is one made by Marketo Engage to a server on the Internet on your behalf. Your IT organization and some partners/vendors may use allowlists to restrict access to servers. If so, you must provide them with Marketo Engage outbound IP address blocks to add to their allowlists.
 
-### Webhooks
+<!-- ### Webhooks
 
 Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
 
 ## Outbound IP address blocks
 
