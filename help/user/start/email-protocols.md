@@ -178,7 +178,7 @@ There are two types of alignment for DMARC:
 
    >[!NOTE]
    >
-   >DKIM alignment is recommended to use for Marketo Engage.
+   >DKIM alignment is recommended for Marketo Engage.
 
 * **SPF** (Sender Policy Framework) alignment: The domain in the `From:` header must match the domain in the Return-Path: header. If both DNS domains are the same, the SPF matches (aligns) and gives a pass result. To implement SPF-aligned DMARC: 
 
