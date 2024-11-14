@@ -197,11 +197,11 @@ There are two types of alignment for DMARC:
 
 If you send mail through Marketo Engage over a dedicated IP and have not implemented a branded return-path (or are not sure if you have), open a ticket with [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}.
 
-If you are sending mail through Marketo Engage using a shared pool of IPs, you can check if you qualify for Trusted IPs by [applying for the Trusted IP sending range program](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}. The branded return-path is included when sending from Marketo Engage Trusted IPs. If approved for this program, reach out to Adobe Support to set up the branded return-path.
+Trusted IPs are a shared pool of IPs that are reserved for lower volume users sending less than 75k per month and do not qualify for a dedicated IP. These users must also meet best practice requirements.
 
-   Trusted IPs are a shared pool of IPs that are reserved for lower volume users sending less than 75k per month and do not qualify for a dedicated IP. These users must also meet best practice requirements.
+   * If you are sending mail through Marketo Engage using a shared pool of IPs, you can check if you qualify for Trusted IPs by [applying for the Trusted IP sending range program](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}. The branded return-path is included when sending from Marketo Engage Trusted IPs. If approved for this program, reach out to Adobe Support to set up the branded return-path.
 
-   If you send more than 100,000 messages per month and want to send email through Marketo Engage using shared IPs, contact the Adobe Account Team (your account manager) to purchase a dedicated IP.
+   * If you send more than 100,000 messages per month and want to send email through Marketo Engage using shared IPs, contact the Adobe Account Team (your account manager) to purchase a dedicated IP.
 
 ## Set up MX records for your domain
 
