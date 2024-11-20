@@ -92,20 +92,20 @@ Move your audience forward to the next step in the journey when an event occurs.
 
 | Node context | Event | Constraints |
 | ------------ | ----- | ----------- |
-| [People](#add-a-people-event) | Assigned to Buying Group | Solution interest<br/>Additional constraints (optional): <ul><li>Role</li><li>Date of activity</li></ul><br/>Timeout (optional) |
-| | Clicks link in email | Email<br/>Additional constraints (optional): <ul><li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
-| | Clicks link in SMS | Email<br/>Additional constraints (optional):<ul><li>Link</li><li>Device</li><li>Platform</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
-| | Data value changes | Person attribute<br/>Additional constraints (optional):<ul><li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
-| | Opens email | Email<br/>Additional constraints (optional): <ul><li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
+| [People](#add-a-people-event) | Assigned to Buying Group | Solution interest<br/>Additional constraints (optional): <li>Role</li><li>Date of activity</li><br/>Timeout (optional) |
+| | Clicks link in email | Email<br/>Additional constraints (optional): <li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
+| | Clicks link in SMS | Email<br/>Additional constraints (optional): <li>Link</li><li>Device</li><li>Platform</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
+| | Data value changes | Person attribute<br/>Additional constraints (optional): <li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
+| | Opens email | Email<br/>Additional constraints (optional): <li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
 | | Removed from Buying Group | Solution interest<br/>Date of activity (optional)<br/>Timeout (optional) |
-| | Score is changed | Score name<br/>Additional constraints (optional):<ul><li>Change</li><li>New score</li><li>Urgency</li><li>Priority</li><li>Relative score</li><li>Relative urgency</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
-| | SMS Bounces| SMS message<br/>Additional constraints (optional):<ul><li>Date of activity</li><li>Min number of times</li></ul><br/>Timeout (optional) |
-| [Accounts](#add-an-account-event) | Account had interesting moment | Type (Email, Milestone, or Web)<br/>Additional constraints (optional):<ul><li>Description</li><li>Source</li><li>Date of activity</li></ul> <br/>Timeout (optional) |
-| | Change in Account Data Value | Attribute<br/>Additional constraints (optional):<ul><li>New value</li><li>Previous value</li><li>Date of activity</li></ul> <br/>Timeout (optional) |
-| | Change in Buying Group Stage | Solution interest<br/>Additional constraints (optional):<ul><li>New stage</li><li>Previous stage</li><li>Date of activity</li></ul><br/> Timeout (optional) |
-| | Change in Buying Group Status | Solution interest<br/>Additional constraints (optional):<ul><li>New status</li><li>Previous status</li><li>Date of activity</li></ul><br/> Timeout (optional) |
-| | Change in Completeness Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
-| | Change in Engagement Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
+| | Score is changed | Score name<br/>Additional constraints (optional):<li>Change</li><li>New score</li><li>Urgency</li><li>Priority</li><li>Relative score</li><li>Relative urgency</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
+| | SMS Bounces| SMS message<br/>Additional constraints (optional): <li>Date of activity</li><li>Min number of times</li><br/>Timeout (optional) |
+| [Accounts](#add-an-account-event) | Account had interesting moment | Type (Email, Milestone, or Web)<br/>Additional constraints (optional): <li>Description</li><li>Source</li><li>Date of activity</li> <br/>Timeout (optional) |
+| | Change in Account Data Value | Attribute<br/>Additional constraints (optional): <li>New value</li><li>Previous value</li><li>Date of activity</li> <br/>Timeout (optional) |
+| | Change in Buying Group Stage | Solution interest<br/>Additional constraints (optional): <li>New stage</li><li>Previous stage</li><li>Date of activity</li><br/> Timeout (optional) |
+| | Change in Buying Group Status | Solution interest<br/>Additional constraints (optional): <li>New status</li><li>Previous status</li><li>Date of activity</li><br/> Timeout (optional) |
+| | Change in Completeness Score | Solution interest<br/>Additional constraints (optional): <li>New score</li><li>Previous score</li><li>Date of activity</li><br/> Timeout (optional) |
+| | Change in Engagement Score | Solution interest<br/>Additional constraints (optional): <li>New score</li><li>Previous score</li><li>Date of activity</li><br/> Timeout (optional) |
 
 ### Add an account event
 
