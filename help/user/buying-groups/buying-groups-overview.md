@@ -24,6 +24,7 @@ You can increase marketing effectiveness by establishing buying groups in Journe
 | Solution interest | This component provides the answer to: <ul><li>As a marketing organization, what are you selling?</li><li>What product or collection of products are you targeting to sell?</li></ul>  **_Example:_** Cross-selling new Product X to existing customers|
 | Account audience | This component provides the answer to: <ul><li>To whom are you selling?</li><li>What is the list of accounts that you are targeting?</li></ul> **_Example:_** Account segment defined by accounts with Product Y that have revenue over 1M|
 | Buying group role templates |  This component provides the answer to: <ul><li>What roles are you targeting?</li><li>What set of rules are used to determine who is assigned to buying group roles?</li></ul>  **_Example:_** Assign a person with CMO title to the Decision Maker role |
+| Buying group stages | (Optional) This component provides the answer to: How is the buying group tracking towards success or failure? |
 
 ## Buying group workflow
 
@@ -60,6 +61,7 @@ The _[!UICONTROL Buying groups]_ page is organized as tabs:
 | [!UICONTROL Browse] | This tab supports the following activities: <ul><li>View the list of existing buying groups. </li><li>Search by buying group name. </li><li>Filter by solution interest. </li><li>Drill in to buying group details. </li><li>Create a buying group. Delete a buying group.</li></ul> |
 | [!UICONTROL Solution interests] | This tab supports the following activities: <ul><li>View the list of existing buying groups. </li><li>Search by buying group name. </li><li>Access and edit solution interest properties. </li><li>Create a solution interest. </li><li>Delete a solution interest. </li><li>View and delete buying group jobs. </li></ul>|
 | [!UICONTROL Roles Templates] | This tab supports the following activities: <ul><li>View the list of existing roles templates. </li><li>Search by roles template name. </li><li>Access and edit roles template properties and conditions. </li><li>Create a roles template. </li><li>Delete a roles template. </li></ul>|
+| [!UICONTROL Stages] | This tab supports the following activities: <ul><li>View the existing buying groups stages model. </li><li>Access and edit the draft buying group stages model. </li><li>Create the buying group stages model. </li></ul> |
 
 ## Buying group search and filter
 

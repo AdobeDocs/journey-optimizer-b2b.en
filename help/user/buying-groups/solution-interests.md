@@ -42,13 +42,21 @@ Before you create a solution interest, you must have a live (published) roles te
 
 1. Choose a **[!UICONTROL Roles Template]** (required).
 
-   Click the selector and choose a live roles template from the displayed list. You can associate only one live Roles Template with a Solution Interest.
+   Click **[!UICONTROL Select roles template]** and choose a live roles template from the list in the dialog. You can associate only one live Roles Template with a Solution Interest. Click **[!UICONTROL Save]** to return to the _[!UICONTROL Create solution interest]_ page, where the selected roles template is displayed.
 
-   ![Solution Interest tab](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![Add a roles template to the solution interest](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. Select the **[!UICONTROL Buying group stage model]** to use buying group stage progression (optional).
+
+   For more information about using buying group stages for tracking account progression, see [Buying group stages](./buying-group-stages.md).
+
+1. Enable the **[!UICONTROL Update existing buying groups]** setting (optional).
+
+   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 24-hour sync cycle.
 
 1. Click **[!UICONTROL Create]** at the top-right corner.
 
-   Your new Solution Interest is displayed in the Solution Interests  
+   The new solution interest is displayed in the _[!UICONTROL Solution Interests]_ list.
 
 ## Edit a solution interest
 
@@ -62,6 +70,10 @@ At any time, you can change the name and description for a solution interest. Th
    ![Solution interest more menu](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. If needed, update the name (required and unique) and description (optional).
+
+1. If needed, select the **[!UICONTROL Buying group stage model]** for tracking buying group stage progression.
+
+   For more information about using buying group stages for tracking journey progression against sales, see [Buying group stages](./buying-group-stages.md).
 
 1. If needed, change the **[!UICONTROL Update existing buying groups]** setting.
 

@@ -48,6 +48,7 @@ Execute an action like send an email, change a score, assign to a buying group, 
 | | Add Account to (other) Journey | Select live Account Journey |
 | | Remove Account from Journey | Select live Account Journey |
 | | Send Sales Alert | Select solution interest<br/>Send email to|
+| | Update Buying Group Stage | Select solution interest<br/>Select buying group stage |
 | | Update Buying Group Status | Select solution interest<br/>Status (required, 50 characters max) |
 
 ### Add an account action
@@ -56,7 +57,7 @@ Execute an action like send an email, change a score, assign to a buying group, 
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Take an action]**.
 
-   ![Add journey node - split paths](./assets/add-node-action.png){width="400"}
+   ![Add journey node - take an action](./assets/add-node-action.png){width="400"}
 
 1. In the node properties on the right, choose **[!UICONTROL Accounts]** for the action.
 
@@ -101,6 +102,7 @@ Move your audience forward to the next step in the journey when an event occurs.
 | | SMS Bounces| SMS message<br/>Additional constraints (optional):<ul><li>Date of activity</li><li>Min number of times</li></ul><br/>Timeout (optional) |
 | [Accounts](#add-an-account-event) | Account had interesting moment | Type (Email, Milestone, or Web)<br/>Additional constraints (optional):<ul><li>Description</li><li>Source</li><li>Date of activity</li></ul> <br/>Timeout (optional) |
 | | Change in Account Data Value | Attribute<br/>Additional constraints (optional):<ul><li>New value</li><li>Previous value</li><li>Date of activity</li></ul> <br/>Timeout (optional) |
+| | Change in Buying Group Stage | Solution interest<br/>Additional constraints (optional):<ul><li>New stage</li><li>Previous stage</li><li>Date of activity</li></ul><br/> Timeout (optional) |
 | | Change in Buying Group Status | Solution interest<br/>Additional constraints (optional):<ul><li>New status</li><li>Previous status</li><li>Date of activity</li></ul><br/> Timeout (optional) |
 | | Change in Completeness Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
 | | Change in Engagement Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
