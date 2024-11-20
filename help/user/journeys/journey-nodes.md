@@ -172,9 +172,9 @@ _How does a split path by accounts node work?_
 
 _How does a split path by people node work?_ 
 
-* Split path by people nodes are grouped nodes. They automatically merge so that all the people in the audience can move forward to the next step without losing the context of the accounts that they belong to.
+* Split path by people nodes are grouped nodes. The paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
 * Split path for people cannot be nested--you cannot add split path for people on a path that is in this grouped node.
-* Split path includes an option for not adding a default path. Accounts/people who do not qualify do not move forward in the Journey.
+* Split path includes an option for omitting a default path. Accounts/people without a match for a defined path do not move forward in the Journey.
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -210,7 +210,7 @@ _How does a split path by people node work?_
 
    * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
 
-      ![Split path node - conditions filter logic](./assets/node-split-conditions.png){width="700" zoomable="yes"}
+      ![Split path node - conditions accounts filter logic](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
    * Click **[!UICONTROL Done]**.
 
@@ -218,9 +218,15 @@ _How does a split path by people node work?_
 
    You can also label each path based on these conditions or use the default labels.
 
-1. (Optional) Add a default path for accounts not qualified for the other paths. If not, the journey ends for these accounts.
+1. If needed, reorder the paths according to the priority that you want for the split.
 
-   ![Split path node  properties - other accounts](./assets/node-split-properties-other-accounts.png){width="700" zoomable="yes"}
+   Path filtering is evaluated in top-down order. Each account proceeds along the first path that matches.
+
+   Click the up and down arrows at the top right of each path card to move it higher or lower in the list of paths.
+
+   ![Split path node - reorder paths](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
+
+1. Enable the **[!UICONTROL Other accounts]** option to add a default path for accounts that are not a match for the defined paths. If not, the journey ends for these people.
 
 ### Add a split path by people node
 
@@ -240,19 +246,29 @@ _How does a split path by people node work?_
 
    * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
 
+      ![Split path node - conditions person filter logic](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
+
    * Click **[!UICONTROL Done]**.
 
 1. To add more paths, click **[!UICONTROL Add path]** and repeat the previous steps to add conditions applicable to this path.
 
    You can also label each path based on these conditions or use the default labels.
 
-1. Lastly, you can add a default path for people not qualified for the above paths. If not, the journey ends for these people
+1. If needed, reorder the paths according to the priority that you want for the split.
+
+   Path filtering is evaluated in top-down order. Each person proceeds along the first path that matches.
+
+   Click the up and down arrows at the top right of each path card to move it higher or lower in the list of paths.
+
+   ![Split path node - reorder paths](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
+
+1. Enable the **[!UICONTROL Other people]** option to add a default path for people that are not a match for the defined paths. If not, the journey ends for these people.
 
 When you have conditions defined for each path for splitting your audience on the people level, you can add actions that you want to take on people.
 
 >[!NOTE]
 >
->When you split the audience by people, you can add only people actions.
+>When you split the audience by people, you can add only people actions until the paths are closed or merged.
 
 ## Wait
 
@@ -284,10 +300,10 @@ Different paths in your journey can be merged and unmerged using this node.
 
    ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400"}
 
-1. In the merge node properties, select the paths you want to merge.
+1. In the merge paths node properties, select the paths you want to merge.
 
    ![Journey node - merge paths](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
    At this point, the paths are merged so that accounts from the selected paths combine to a single path that can continue to progress through the journey.
 
-1. If needed, you can unmerge paths by navigating back to the merge node properties and clearing the checkbox for any paths that you want to remove.
+1. If needed, you can unmerge paths by navigating back to the merge paths node properties and clearing the checkbox for any paths that you want to remove.
