@@ -49,7 +49,13 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
    ![Create Roles Template dialog](assets/roles-template-create-dialog.png){width="400"}
 
-1. Add a rule for each role that you want to define for the template.
+1. Click **[!UICONTROL Create]**.
+
+### Add the template roles
+
+After you create the template, it opens in the workspace and you are prompted to define the roles. The first role card is displayed by default.
+
+1. For the first role card, define the role properties.
 
    * Choose the **[!UICONTROL Buying group role]** from the list.
 
@@ -67,31 +73,37 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
    * **[!UICONTROL Required for completeness score]** - Select this checkbox for the role if you want it to be a requirement for calculating a completeness score.
 
-   * Click **[!UICONTROL Add Condition]**.
+1. Click **[!UICONTROL Add Condition]** and define the conditional rule for the role.
 
-      * In the condition dialog, expand the list of **[!UICONTROL Person attributes]** and locate an attribute that you want to use to match the role. Drag it to the right and drop it in the filter space. 
+   * In the _[!UICONTROL Condition]_ dialog, expand the list of **[!UICONTROL Person attributes]** and locate an attribute that you want to use to match the role. Drag it to the right and drop it in the filter space. 
 
-        ![Roles template add condition drag attribute](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+      ![Roles template add condition drag attribute](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-      * Use the attribute to create a matching filter using one or more values. 
+      >[!NOTE]
+      >
+      >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions. 
+
+   * Use the attribute to create a matching filter using one or more values. 
     
-        In the following example, the Job title attribute is used to identify a match for Decision Maker. Any value for title that starts with `Director` or `Sr Director` evaluates as true for the condition.
+      In the following example, the Job title attribute is used to identify a match for Decision Maker. Any value for title that starts with `Director` or `Sr Director` evaluates as true for the condition.
 
-        ![Roles template condition example using job title](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+      ![Roles template condition example using job title](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-      * If needed, add another attribute and condition that further refines the criteria for a match to the role.
+   * If needed, add another attribute and condition that further refines the criteria for a match to the role.
 
-      * Click **[!UICONTROL Done]**.
+   * Click **[!UICONTROL Done]**.
 
-   For each additional role that you want to include for the template, click **[!UICONTROL Add another role]** and define one or more conditions to match for the role.
+1. For each additional role that you want to include for the template, click **[!UICONTROL Add another role]** and repeat steps 1 and 2 to define the role.
 
    ![Roles template with multiple roles defined](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
-1. If the template is ready for use, click **[!UICONTROL Publish]** at the top-right.
+Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the _[!UICONTROL Roles templates]_ list.
 
-    Publishing the template sets it to a _Live_ status and makes it available to associate with a Solution Interest. There must be at least one defined role to publish the roles template. 
+### Publish the roles template
 
-    Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the Roles Templates list.
+If the template is ready for use, click **[!UICONTROL Publish]** at the top-right.
+
+Publishing the template sets it to a _Live_ status and makes it available to associate with a Solution Interest. There must be at least one defined role to publish the roles template. 
 
 ## Edit a draft roles template
 
@@ -101,13 +113,13 @@ Change any of the settings in the header of the role card, including the buying 
 
 ![Change buying group role properties](./assets/roles-template-role-properties.png){width="600"}
 
-### Modify the filters for a role
+### Modify the conditions for a role
 
-To change the filtering logic for any of the roles, click the _Edit_ (pencil) icon at top right of the role card. This action opens the _[!UICONTROL Conditions]_ workspace where you can modify an existing filter, add another filter, remove a filter, or change the filter logic.
+To change the condition/filtering logic for any of the roles, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon at top right of the role card. This action opens the _[!UICONTROL Conditions]_ workspace where you can modify an existing filter, add another filter, remove a filter, or change the filter logic.
 
 ### Delete a role card
 
-If you want to remove a role from the template, click the _Delete_ (trashcan) icon in the role card. 
+If you want to remove a role from the template, click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon in the role card. 
 
 ### Set the priority for roles
 
