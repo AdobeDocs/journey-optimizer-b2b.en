@@ -175,6 +175,7 @@ _How does a split path by people node work?_
 * Split path by people nodes are grouped nodes. The paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
 * Split path for people cannot be nested--you cannot add split path for people on a path that is in this grouped node.
 * Split path includes an option for omitting a default path. Accounts/people without a match for a defined path do not move forward in the Journey.
+* Split path by people supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the roles templates.
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -182,13 +183,14 @@ _How does a split path by people node work?_
 
 | Node context | Path conditions | Description |
 | ------------ | --------------- | ----------- |
-| [People](#add-a-split-path-by-people-node) | [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City</li><li>Country</li><li>Date of birth</li><li>Email address</li><li>Email invalid</li><li>Email suspended</li><li>First name</li><li>Inferred state region</li><li>Job title</li><li>Last name</li><li>Mobile phone number</li><li>Phone number</li><li>Postal code</li><li>State</li><li>Unsubscribed</li><li>Unsubscribed reason</li>|
+| [Accounts](#add-a-split-path-by-account-node) | Account Attributes | Attributes from the account profile, including: <li>Annual revenue</li><li>City</li><li>Country</li><li>Employee size</li><li>Industry</li><li>Name</li><li>SIC code</li><li>State</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li> |
+| [People](#add-a-split-path-by-people-node) > [!UICONTROL People attributes only] | [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City</li><li>Country</li><li>Date of birth</li><li>Email address</li><li>Email invalid</li><li>Email suspended</li><li>First name</li><li>Inferred state region</li><li>Job title</li><li>Last name</li><li>Mobile phone number</li><li>Phone number</li><li>Postal code</li><li>State</li><li>Unsubscribed</li><li>Unsubscribed reason</li>|
 | | [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities associated with the journey: <li>[!UICONTROL Clicked link in email]</li><li>Opened Email</li><li>Was delivered email</li><li>Was sent email</li> These conditions are evaluated using a selected email message from earlier in the journey.  |
 | | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li> |
 | | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone</li><li>Email</li><li>Web</li>|
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Role</li>|
-| [Accounts](#add-a-split-path-by-account-node) | Account Attributes | Attributes from the account profile, including: <li>Annual revenue</li><li>City</li><li>Country</li><li>Employee size</li><li>Industry</li><li>Name</li><li>SIC code</li><li>State</li> |
-| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li> |
+|  [People](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Role in account attributes | The person is or is not assigned a role in the account. Optional constraints: <li>Enter a role name</li> | 
 
 ### Add a split path by account node
 
@@ -237,6 +239,11 @@ _How does a split path by people node work?_
    ![Add journey node - split paths](./assets/add-node-split.png){width="300"}
 
 1. In the node properties on the right, choose **[!UICONTROL People]** for the split.
+
+1. Set the **[!UICONTROL Attributes used for conditions]**.
+
+   * Choose **[!UICONTROL People attributes only]** to use conditions related to the person profile and events. 
+   * Choose **[!UICONTROL Account-person attributes only]** to use conditions related to the person's role membership within an account.
 
 1. To define a condition applicable to _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
 
