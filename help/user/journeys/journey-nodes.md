@@ -249,7 +249,11 @@ _How does a split path by people node work?_
 
 1. In the conditions editor, add one or more filters to define the split path.
 
-   * Drag and drop filter attributes from the left navigation and complete the match definition.
+   * Drag and drop any of the people attributes from the left navigation and complete the match definition.
+
+      >[!NOTE]
+      >
+      >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions. 
 
    * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
 
