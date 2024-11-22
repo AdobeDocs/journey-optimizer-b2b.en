@@ -48,6 +48,7 @@ Execute an action like send an email, change a score, assign to a buying group, 
 | | Add Account to (other) Journey | Select live Account Journey |
 | | Remove Account from Journey | Select live Account Journey |
 | | Send Sales Alert | Select solution interest<br/>Send email to|
+| | Update Buying Group Stage | Select solution interest<br/>Select buying group stage |
 | | Update Buying Group Status | Select solution interest<br/>Status (required, 50 characters max) |
 
 ### Add an account action
@@ -56,7 +57,7 @@ Execute an action like send an email, change a score, assign to a buying group, 
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Take an action]**.
 
-   ![Add journey node - split paths](./assets/add-node-action.png){width="400"}
+   ![Add journey node - take an action](./assets/add-node-action.png){width="400"}
 
 1. In the node properties on the right, choose **[!UICONTROL Accounts]** for the action.
 
@@ -91,19 +92,20 @@ Move your audience forward to the next step in the journey when an event occurs.
 
 | Node context | Event | Constraints |
 | ------------ | ----- | ----------- |
-| [People](#add-a-people-event) | Assigned to Buying Group | Solution interest<br/>Additional constraints (optional): <ul><li>Role</li><li>Date of activity</li></ul><br/>Timeout (optional) |
-| | Clicks link in email | Email<br/>Additional constraints (optional): <ul><li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
-| | Clicks link in SMS | Email<br/>Additional constraints (optional):<ul><li>Link</li><li>Device</li><li>Platform</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
-| | Data value changes | Person attribute<br/>Additional constraints (optional):<ul><li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
-| | Opens email | Email<br/>Additional constraints (optional): <ul><li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
+| [People](#add-a-people-event) | Assigned to Buying Group | Solution interest<br/>Additional constraints (optional): <li>Role</li><li>Date of activity</li><br/>Timeout (optional) |
+| | Clicks link in email | Email<br/>Additional constraints (optional): <li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
+| | Clicks link in SMS | Email<br/>Additional constraints (optional): <li>Link</li><li>Device</li><li>Platform</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
+| | Data value changes | Person attribute<br/>Additional constraints (optional): <li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
+| | Opens email | Email<br/>Additional constraints (optional): <li>Link</li><li>Link ID</li><li>Is mobile device</li><li>Device</li><li>Platform</li><li>Browser</li><li>Is predictive content</li><li>Is bot activity</li><li>Bot activity pattern</li><li>Browser</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
 | | Removed from Buying Group | Solution interest<br/>Date of activity (optional)<br/>Timeout (optional) |
-| | Score is changed | Score name<br/>Additional constraints (optional):<ul><li>Change</li><li>New score</li><li>Urgency</li><li>Priority</li><li>Relative score</li><li>Relative urgency</li><li>Date of activity</li><li>Min. number of times</li></ul><br/>Timeout (optional) |
-| | SMS Bounces| SMS message<br/>Additional constraints (optional):<ul><li>Date of activity</li><li>Min number of times</li></ul><br/>Timeout (optional) |
-| [Accounts](#add-an-account-event) | Account had interesting moment | Type (Email, Milestone, or Web)<br/>Additional constraints (optional):<ul><li>Description</li><li>Source</li><li>Date of activity</li></ul> <br/>Timeout (optional) |
-| | Change in Account Data Value | Attribute<br/>Additional constraints (optional):<ul><li>New value</li><li>Previous value</li><li>Date of activity</li></ul> <br/>Timeout (optional) |
-| | Change in Buying Group Status | Solution interest<br/>Additional constraints (optional):<ul><li>New status</li><li>Previous status</li><li>Date of activity</li></ul><br/> Timeout (optional) |
-| | Change in Completeness Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
-| | Change in Engagement Score | Solution interest<br/>Additional constraints (optional):<ul><li>New score</li><li>Previous score</li><li>Date of activity</li></ul><br/> Timeout (optional) |
+| | Score is changed | Score name<br/>Additional constraints (optional):<li>Change</li><li>New score</li><li>Urgency</li><li>Priority</li><li>Relative score</li><li>Relative urgency</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
+| | SMS Bounces| SMS message<br/>Additional constraints (optional): <li>Date of activity</li><li>Min number of times</li><br/>Timeout (optional) |
+| [Accounts](#add-an-account-event) | Account had interesting moment | Type (Email, Milestone, or Web)<br/>Additional constraints (optional): <li>Description</li><li>Source</li><li>Date of activity</li> <br/>Timeout (optional) |
+| | Change in Account Data Value | Attribute<br/>Additional constraints (optional): <li>New value</li><li>Previous value</li><li>Date of activity</li> <br/>Timeout (optional) |
+| | Change in Buying Group Stage | Solution interest<br/>Additional constraints (optional): <li>New stage</li><li>Previous stage</li><li>Date of activity</li><br/> Timeout (optional) |
+| | Change in Buying Group Status | Solution interest<br/>Additional constraints (optional): <li>New status</li><li>Previous status</li><li>Date of activity</li><br/> Timeout (optional) |
+| | Change in Completeness Score | Solution interest<br/>Additional constraints (optional): <li>New score</li><li>Previous score</li><li>Date of activity</li><br/> Timeout (optional) |
+| | Change in Engagement Score | Solution interest<br/>Additional constraints (optional): <li>New score</li><li>Previous score</li><li>Date of activity</li><br/> Timeout (optional) |
 
 ### Add an account event
 
@@ -170,9 +172,10 @@ _How does a split path by accounts node work?_
 
 _How does a split path by people node work?_ 
 
-* Split path by people nodes are grouped nodes. They automatically merge so that all the people in the audience can move forward to the next step without losing the context of the accounts that they belong to.
+* Split path by people nodes are grouped nodes. The paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
 * Split path for people cannot be nested--you cannot add split path for people on a path that is in this grouped node.
-* Split path includes an option for not adding a default path. Accounts/people who do not qualify do not move forward in the Journey.
+* Split path includes an option for omitting a default path. Accounts/people without a match for a defined path do not move forward in the Journey.
+* Split path by people supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the roles templates.
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -180,13 +183,14 @@ _How does a split path by people node work?_
 
 | Node context | Path conditions | Description |
 | ------------ | --------------- | ----------- |
-| [People](#add-a-split-path-by-people-node) | [!UICONTROL Person Attributes] | Attributes from the person profile, including: <ul><li>City</li><li>Country</li><li>Date of birth</li><li>Email address</li><li>Email invalid</li><li>Email suspended</li><li>First name</li><li>Inferred state region</li><li>Job title</li><li>Last name</li><li>Mobile phone number</li><li>Phone number</li><li>Postal code</li><li>State</li><li>Unsubscribed</li><li>Unsubscribed reason</li></ul>|
-| | [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities associated with the journey: <ul><li>[!UICONTROL Clicked link in email]</li><li>Opened Email</li><li>Was delivered email</li><li>Was sent email</li></ul> These conditions are evaluated using a selected email message from earlier in the journey.  |
-| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <ul><li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li></ul> |
-| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: ul><li>Milestone</li><li>Email</li><li>Web</li></ul>|
-| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <ul><li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Role</li></ul>|
-| [Accounts](#add-a-split-path-by-account-node) | Account Attributes | Attributes from the account profile, including: <ul><li>Annual revenue</li><li>City</li><li>Country</li><li>Employee size</li><li>Industry</li><li>Name</li><li>SIC code</li><li>State</li></ul> |
-| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups evaluated against one or more of the following criteria: <ul><li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li></ul> |
+| [Accounts](#add-a-split-path-by-account-node) | Account Attributes | Attributes from the account profile, including: <li>Annual revenue</li><li>City</li><li>Country</li><li>Employee size</li><li>Industry</li><li>Name</li><li>SIC code</li><li>State</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li> |
+| [People](#add-a-split-path-by-people-node) > [!UICONTROL People attributes only] | [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City</li><li>Country</li><li>Date of birth</li><li>Email address</li><li>Email invalid</li><li>Email suspended</li><li>First name</li><li>Inferred state region</li><li>Job title</li><li>Last name</li><li>Mobile phone number</li><li>Phone number</li><li>Postal code</li><li>State</li><li>Unsubscribed</li><li>Unsubscribed reason</li>|
+| | [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities associated with the journey: <li>[!UICONTROL Clicked link in email]</li><li>Opened Email</li><li>Was delivered email</li><li>Was sent email</li> These conditions are evaluated using a selected email message from earlier in the journey.  |
+| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li> |
+| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone</li><li>Email</li><li>Web</li>|
+| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Role</li>|
+|  [People](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Role in account attributes | The person is or is not assigned a role in the account. Optional constraints: <li>Enter a role name</li> | 
 
 ### Add a split path by account node
 
@@ -208,7 +212,7 @@ _How does a split path by people node work?_
 
    * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
 
-      ![Split path node - conditions filter logic](./assets/node-split-conditions.png){width="700" zoomable="yes"}
+      ![Split path node - conditions accounts filter logic](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
    * Click **[!UICONTROL Done]**.
 
@@ -216,9 +220,15 @@ _How does a split path by people node work?_
 
    You can also label each path based on these conditions or use the default labels.
 
-1. (Optional) Add a default path for accounts not qualified for the other paths. If not, the journey ends for these accounts.
+1. If needed, reorder the paths according to the priority that you want for the split.
 
-   ![Split path node  properties - other accounts](./assets/node-split-properties-other-accounts.png){width="700" zoomable="yes"}
+   Path filtering is evaluated in top-down order. Each account proceeds along the first path that matches.
+
+   Click the up and down arrows at the top right of each path card to move it higher or lower in the list of paths.
+
+   ![Split path node - reorder paths](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
+
+1. Enable the **[!UICONTROL Other accounts]** option to add a default path for accounts that are not a match for the defined paths. If not, the journey ends for these people.
 
 ### Add a split path by people node
 
@@ -230,13 +240,24 @@ _How does a split path by people node work?_
 
 1. In the node properties on the right, choose **[!UICONTROL People]** for the split.
 
+1. Set the **[!UICONTROL Attributes used for conditions]**.
+
+   * Choose **[!UICONTROL People attributes only]** to use conditions related to the person profile and events. 
+   * Choose **[!UICONTROL Account-person attributes only]** to use conditions related to the person's role membership within an account.
+
 1. To define a condition applicable to _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
 
 1. In the conditions editor, add one or more filters to define the split path.
 
-   * Drag and drop filter attributes from the left navigation and complete the match definition.
+   * Drag and drop any of the people attributes from the left navigation and complete the match definition.
+
+      >[!NOTE]
+      >
+      >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions. 
 
    * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
+
+      ![Split path node - conditions person filter logic](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
    * Click **[!UICONTROL Done]**.
 
@@ -244,13 +265,21 @@ _How does a split path by people node work?_
 
    You can also label each path based on these conditions or use the default labels.
 
-1. Lastly, you can add a default path for people not qualified for the above paths. If not, the journey ends for these people
+1. If needed, reorder the paths according to the priority that you want for the split.
+
+   Path filtering is evaluated in top-down order. Each person proceeds along the first path that matches.
+
+   Click the up and down arrows at the top right of each path card to move it higher or lower in the list of paths.
+
+   ![Split path node - reorder paths](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
+
+1. Enable the **[!UICONTROL Other people]** option to add a default path for people that are not a match for the defined paths. If not, the journey ends for these people.
 
 When you have conditions defined for each path for splitting your audience on the people level, you can add actions that you want to take on people.
 
 >[!NOTE]
 >
->When you split the audience by people, you can add only people actions.
+>When you split the audience by people, you can add only people actions until the paths are closed or merged.
 
 ## Wait
 
@@ -282,10 +311,10 @@ Different paths in your journey can be merged and unmerged using this node.
 
    ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400"}
 
-1. In the merge node properties, select the paths you want to merge.
+1. In the merge paths node properties, select the paths you want to merge.
 
    ![Journey node - merge paths](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
    At this point, the paths are merged so that accounts from the selected paths combine to a single path that can continue to progress through the journey.
 
-1. If needed, you can unmerge paths by navigating back to the merge node properties and clearing the checkbox for any paths that you want to remove.
+1. If needed, you can unmerge paths by navigating back to the merge paths node properties and clearing the checkbox for any paths that you want to remove.
