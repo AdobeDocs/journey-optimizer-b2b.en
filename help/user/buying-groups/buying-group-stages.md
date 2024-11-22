@@ -7,18 +7,19 @@ feature: Buying Groups, Account Journeys
 
 Buying group stages are designed to track the progression of buying groups in converting opportunities into customers. Use this feature to track buying group progression and identify the next best actions for buying group members. 
 
-Define the stages within a single staging model, defining multiple stages and the transition flow between them. This model allows for non-linear progression, where you can specify transitions from one stage to another, such as from stage A to stages B, C, or D. It is required that one stage is designated as the success stage, such as a purchase or signed contract. It is optional that another stage be designated as a failure stage, such as a rejected contract or purchase of a competing solution from another vendor.
-<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+Define the stages within a single staging model, defining multiple stages and the transition flow between them. One or more stages are designated for entry into the lifecycle. The model also allows for non-linear progression, where you can specify transitions from one stage to another, such as from stage A to stages B, C, or D. It is required that one stage is designated as the success stage, such as a purchase or signed contract. It is optional that another stage be designated as a failure stage, such as a rejected contract or purchase of a competing solution from another vendor.<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+
+![Buying group stages example](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
 ## Define your buying group stages model
 
 You create and configure a buying group stages model by:
 
-* Adding stages
+* Adding the lifecycle stages
 * Defining the transition flows
 * Designating the entry and destination stages
 
-Only one model is supported, so it is important to work across you Marketing and Sales teams to plan the optimal model for your organization before you create it in Journey Optimizer B2B Edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+Only one model is supported, so it is important to work across you Marketing and Sales teams to plan the optimal model for your organization before you create and publish it in Journey Optimizer B2B Edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 When you create the buying group stage model, it is automatically in _Draft_ status and cannot be deleted or renamed. It remains in this status as you define the stages and configure the transition flow between the stages. When the model is in a published (_Live_) status, it cannot be changed.
 
@@ -74,7 +75,7 @@ After you save the stages, it returns you to the model workspace. The _[!UICONTR
 
 ![Transition rules are not yet defined](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"} 
 
-Transition rules determine how a buying group can move from one stage to another. For example, it can move from an entry stage to a middle stage, and from a middle stage to various other stages. An entry stage is an initial stage a buying group can enter from a blank state, and destination stages are classified as success or failure stages.
+Transition rules determine how a buying group can move from one stage to another. For example, it can move from an entry stage to a middle stage, and from a middle stage to various other stages. An entry stage is an initial stage that a buying group can enter from a blank state, and destination stages are classified as success or failure stages.
 
 1. Click **[!UICONTROL Edit transition rules]** at the top right. 
 
@@ -90,13 +91,13 @@ Transition rules determine how a buying group can move from one stage to another
 
    * **[!UICONTROL Failure stage]** (optional) - Designate one or more stages that indicate the buying group opportunity has reached a point of failure (destination).
 
-   ![Configure the entry point stages and an optional failure stage](assets/stages-model-edit-stage-rules.png){width="700" zoomable="yes"} 
+   ![Configure the entry point stages and an optional failure stage](./assets/stages-model-edit-stage-rules.png){width="700" zoomable="yes"} 
 
 1. For each non-destination stage, define one or more stages that come next in the flow (transition).
 
    All non-destination stages must have at least one **[!UICONTROL Allowed transit to]** stage selected. Otherwise, the model logic is not valid and accounts can get _stuck_ at that stage with no way to progress to success or failure.
 
-   ![Configure transistions between non-destination stages](assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"} 
+   ![Configure transistions between non-destination stages](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"} 
 
    You can optionally specify a transition from a failure stage. For example, you might designate a stage named _No response_ as a failure stage. But also designate a stage named _Resurgence_ as a possible transition to identify cases where a dormant account is reactivated. 
 
@@ -157,7 +158,7 @@ If there are no validation errors, the model can be published. When it is publis
 
 >[!IMPORTANT]
 >
->**After the buying group stages model is published, it cannot be updated or deleted.** Make sure that what you have is correct before you publish the model.
+>**After the model is published, it cannot be updated or deleted.** Make sure that what you have is correct before you publish the model.
 
 1. Review the defined stages and transitions carefully.
 
@@ -194,9 +195,13 @@ For each existing solution interest where you want to associate the buying group
 
    ![Solution interest more menu](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
+1. Select the **[!UICONTROL Buying group stage model]** to use buying group stage progression (optional).
+
+   ![Select the buying groups stages model for the solution interest](assets/solution-interest-edit-buying-group-stages-model.png){width="700" zoomable="yes"} 
+
 1. If needed, change the **[!UICONTROL Update existing buying groups]** setting.
 
-   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 24-hour sync cycle.
+   When this option is enabled, all existing buying groups paired with the solution interest are updated through the 24-hour sync cycle.
 
 1. Click **[!UICONTROL Save]**.
 
