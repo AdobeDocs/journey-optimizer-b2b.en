@@ -2,6 +2,7 @@
 title: Buying Group Stages
 description: Learn about buying group stages and how you can define them for tracking journey progression against sales goals.
 feature: Buying Groups, Account Journeys
+exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
 ---
 # Buying group stages
 
