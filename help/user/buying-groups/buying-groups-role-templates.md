@@ -103,7 +103,7 @@ Your changes are auto-saved in the _Draft_ status. If you are not ready to publi
 
 If the template is ready for use, click **[!UICONTROL Publish]** at the top-right.
 
-Publishing the template sets it to a _Live_ status and makes it available to associate with a Solution Interest. There must be at least one defined role to publish the roles template. 
+Publishing the template sets the status to _Live_ status and makes it available for association with a solution interest. There must be at least one defined role to publish the roles template. 
 
 ## Edit a draft roles template
 
@@ -115,7 +115,7 @@ Change any of the settings in the header of the role card, including the buying 
 
 ### Modify the conditions for a role
 
-To change the condition/filtering logic for any of the roles, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon at top right of the role card. This action opens the _[!UICONTROL Conditions]_ workspace where you can modify an existing filter, add another filter, remove a filter, or change the filter logic.
+To change the condition/filtering logic for any of the roles, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon at top right of the role card. This action opens the _[!UICONTROL Conditions]_ workspace where you can modify an existing filter, add or remove a filter, or change the filter logic.
 
 ### Delete a role card
 
