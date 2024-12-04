@@ -16,11 +16,11 @@ If you are provisioned with Adobe Experience Manager as a Cloud Services, you ha
 
 ### Adobe Marketo Engage assets
 
-The Adobe Marketo Engage Design Studio assets repository is provided by default with every Journey Optimizer B2B Edition subscription. This means that you have access to any of the image assets stored in Adobe Marketo Engage > [!UICONTROL Design Studio] > [!UICONTROL Images & Files]. You can use this repository as your local assets library, including upload and download assets functions. You can also use these assets within your journey content.
+The Adobe Marketo Engage Design Studio assets repository is provided by default with every Journey Optimizer B2B Edition subscription. This means that you have access to any of the image assets stored in Adobe Marketo Engage ([!UICONTROL Design Studio] > [!UICONTROL Images & Files]). You can use this repository as your local assets library, including upload and download assets functions. You can also use these assets within your journey content.
 
-There are built-in guardrails that prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition, and delete and move operations. These protections ensure that the source assets (Marketo Engage Design Studio) are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition. 
+There are built-in guardrails that prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition, and delete and move operations. These protections ensure that the source assets (Marketo Engage Design Studio) are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition.
 
-Supported file formats: JPG, JPEG, GIF, PNG, EPS, SVG, RGB
+Supported file formats: JPG, JPEG, GIF, PNG, EPS, SVG, and RGB
 
 ### Adobe Experience Manager Assets as a Cloud Service
 

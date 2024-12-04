@@ -22,7 +22,7 @@ When your environment has one or more [Assets repositories connections](../admin
 
 ## Access AEM Assets images
 
-In the visual content editor, click the _Experience Manager Assets_ <!--( ![Experience Manager Assets icon](/help/assets/do-not-localize/icon-aem-assets.svg) )-->icon in the left sidebar. This changes the tools panel to a list of available assets in the selected repository.
+In the visual content editor, click the _Experience Manager Assets_  ( ![Experience Manager Assets icon](../../assets/do-not-localize/icon-assets-aem.svg) ) icon in the left sidebar. This changes the tools panel to a list of available assets in the selected repository.
 
 ![Click the Assets selector icon to access the image assets](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
