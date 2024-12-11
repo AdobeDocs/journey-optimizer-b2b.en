@@ -6,7 +6,7 @@ exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
 ---
 # Work with Marketo Engage assets
 
-Marketo Engage Design Studio is the default asset source for Journey Optimizer B2B Edition, and you can easily manage and use the available assets in content for your account journeys.
+Marketo Engage Design Studio is the default asset source for Journey Optimizer B2B Edition, and you can easily manage and use the available assets to design content that supports your account journeys.
 
 In Marketo Engage, marketing organizations use workspaces to organize their content assets and help teams to access the correct asset. Well-defined workspaces are especially helpful for large enterprises that have a large portfolio of product offerings, or operate globally with different requirements for marketing to different regions.
 
@@ -14,15 +14,16 @@ In Marketo Engage, marketing organizations use workspaces to organize their cont
 
 By default, there is a **_[!UICONTROL Journey Optimizer B2B Edition]_** workspace that you can use specifically for your account journey content. The assets that you add to this workspace are not visible or available for use in Marketo Engage. For assets residing in this workspace, you have the full range of asset management functions in Journey Optimizer B2B Edition. These functions include:
 
-* Replace
-* Delete
-* Move
+* [Replace](#replace-assets)
+* [Delete](#delete-assets)
+* [Move](#create-a-folder)
+* [Edit with Adobe Express](./image-edit-adobe-express.md)
 
 Assets residing in the Marketo Engage workspaces are limited to read-only access for use in emails, email templates, and fragments. You can add new assets to these workspaces and download a copy of an asset.
 
 ## Browse and access assets
 
-To access Adobe Marketo Engage assets from within Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. This action opens a listing page with all the assets listed.
+To access Adobe Marketo Engage assets from Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. This action opens a listing page with all the assets listed.
 
 ![Browse Marketo Engage assets](assets/assets-list-page.png){width="800" zoomable="yes"}
 
