@@ -32,7 +32,7 @@ Learn more in the [Adobe Experience Manager as a Cloud Service documentation](ht
 
 >[!NOTE]
 >
->AEM Assets as Cloud Service, and Dynamic Media licenses are pre-requisite for this integration.<br/>
+>AEM Assets as Cloud Service, and Dynamic Media licenses are pre-requisites for this integration.<br/>
 >Depending on your contract and configuration, Adobe Experience Manager Assets as a Cloud Service can be accessed directly from Adobe Journey Optimizer B2B Edition when designing visual content.
 
 Access Adobe Experience Manager Assets directly within Journey Optimizer B2B Edition from the **[!UICONTROL Experience Manager Assets]** item in the content design left navigation. You can also access assets and folders when designing your email, email template, and visual fragment content.
