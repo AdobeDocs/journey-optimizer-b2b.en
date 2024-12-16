@@ -13,7 +13,7 @@ Adobe Journey Optimizer B2B Edition integrates natively with Adobe Express, and 
 
 >[!NOTE]
 >
->Entitlements to Adobe Express are included with all Journey Optimizer B2B Edition subscriptions. Using the image editing capabilities requires enablement for your user account by an administrator.
+>Entitlements for Adobe Express editing features are included with all Journey Optimizer B2B Edition subscriptions. Using the image editing capabilities requires enablement for your organization by an administrator.
 
 The Adobe Express functions support PNG and JPEG image file formats.
 
@@ -57,6 +57,8 @@ _To modify an image:_
 
 1. When you return to the main Adobe Express editor, make sure to click **[!UICONTROL Save]** again to save the modified image file in the Journey Optimizer B2B Edition asset workspace using the same file name.
 
+   If you want to save the modified version as a new image, click **[!UICONTROL Save as New Asset]**.
+
 ## Resize image
 
 1. Use the resize settings to reduce or expand the image:
@@ -87,9 +89,19 @@ Adobe Express performs an automatic background removal to isolate the primary ob
 
 ## Convert file format
 
-* **[!UICONTROL Convert to JPEG]** - For a PNG image, you can convert the image to a JPEG image file and save it in the workspace. 
-* **[!UICONTROL Convert to PNG]** - For a JPEG image, you can convert the image to a PNG image file and save it in the workspace. 
+* **[!UICONTROL Convert to JPEG]** - For a PNG image, you can convert the image to a JPEG image file and save it as a new asset in the workspace. 
+* **[!UICONTROL Convert to PNG]** - For a JPEG image, you can convert the image to a PNG image file and save it as a new asset in the workspace. 
 
 ![Edit with Adobe Express- convert to PNG](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}   
 
-Click **[!UICONTROL Save image]**.
+1. Click **[!UICONTROL Save image]**.
+
+1. When you return to the main Adobe Express editor, click **[!UICONTROL Save as New Asset]**.
+
+1. In the _[!UICONTROL Save as new asset]_ dialog, change the populated name as needed and click **[!UICONTROL Save]**.
+
+   ![Edit with Adobe Express- save as new asset](./assets/assets-edit-adobe-express-save-as-new-asset.png){width="400"}   
+
+   The **[!UICONTROL Name]** field is populated using the original file name appended with `_updated`.
+   
+   If you enter a file name that is not unique to the folder, select **[!UICONTROL Overwrite existing files]**.
