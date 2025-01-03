@@ -38,6 +38,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/assets-overview.md)
       + [Work with Marketo Engage assets](./content/marketo-engage-design-studio.md)
       + [Work with AEM Assets images](./content/aem-assets.md)
+      + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
    + Templates{#templates}
       + [Manage email templates](./content/email-templates.md)
       + [Email template authoring](./content/email-template-authoring.md)
