@@ -36,11 +36,11 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Content management {#content-management}
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
-      + Marketo Engage assets{#marketo-engage-dam}
+      + Marketo Engage assets {#marketo-engage-dam}
         + [Work with Marketo Engage assets](./content/marketo-engage-design-studio.md)
         + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager image assets](./content/aem-assets.md)
-   + Templates{#templates}
+   + Templates {#templates}
       + [Manage email templates](./content/email-templates.md)
       + [Email template authoring](./content/email-template-authoring.md)
       + [Content governance](./content/template-content-governance.md)
