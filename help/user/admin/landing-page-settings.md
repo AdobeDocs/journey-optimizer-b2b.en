@@ -1,9 +1,10 @@
 ---
 title: Landing page configuration
-description:  Learn how to access and configure the landing page settings so that your Marketing team can author and publish web pages to support their campaigns.
+description: Learn how to access and configure the landing page settings so that your Marketing team can author and publish web pages to support their campaigns.
 feature: Setup, Content
 hide: yes
 hidefromtoc: yes
+exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 ---
 # Landing page configuration
 
