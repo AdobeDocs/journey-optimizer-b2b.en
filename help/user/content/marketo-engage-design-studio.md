@@ -6,7 +6,7 @@ exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
 ---
 # Work with Marketo Engage assets
 
-Marketo Engage Design Studio is the default asset source for Journey Optimizer B2B Edition, and you can easily manage and use the available assets in content for your account journeys.
+Marketo Engage Design Studio is the default asset source for Journey Optimizer B2B Edition, and you can easily manage and use the available assets to design content that supports your account journeys.
 
 In Marketo Engage, marketing organizations use workspaces to organize their content assets and help teams to access the correct asset. Well-defined workspaces are especially helpful for large enterprises that have a large portfolio of product offerings, or operate globally with different requirements for marketing to different regions.
 
@@ -14,15 +14,16 @@ In Marketo Engage, marketing organizations use workspaces to organize their cont
 
 By default, there is a **_[!UICONTROL Journey Optimizer B2B Edition]_** workspace that you can use specifically for your account journey content. The assets that you add to this workspace are not visible or available for use in Marketo Engage. For assets residing in this workspace, you have the full range of asset management functions in Journey Optimizer B2B Edition. These functions include:
 
-* Replace
-* Delete
-* Move
+* [Replace](#replace-assets)
+* [Delete](#delete-assets)
+* [Move](#create-a-folder)
+* [Edit with Adobe Express](./image-edit-adobe-express.md)
 
 Assets residing in the Marketo Engage workspaces are limited to read-only access for use in emails, email templates, and fragments. You can add new assets to these workspaces and download a copy of an asset.
 
 ## Browse and access assets
 
-To access Adobe Marketo Engage assets from within Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. This action opens a listing page with all the assets listed.
+To access Adobe Marketo Engage assets from Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. This action opens a listing page with all the assets listed.
 
 ![Browse Marketo Engage assets](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -60,7 +61,7 @@ Clicking the link directs you to the corresponding email, email template, or fra
 
 ## Add assets
 
-From the Assets list page, you can add image assets to the Journey Optimizer B2B Edition workspace or a Marketo Engage workspace. 
+From the _Assets_ list page, you can add image assets to the Journey Optimizer B2B Edition workspace or a Marketo Engage workspace. 
 
 1. Click **[!UICONTROL Add Assets]** at the top right. 
 
@@ -120,7 +121,7 @@ In the _[!UICONTROL Replace asset]_ dialog, drag and drop the replacement file f
 
 To proceed, click **[!UICONTROL Replace]**. You can abort the process by clicking **[!UICONTROL Cancel]**. 
 
-If the file to be replaced is currently in use, an informational dialog alerts you that the new image file replaces the image in all places where it is used (emails, email templates and fragments).
+If the file to be replaced is in use, an informational dialog alerts you that the new image file replaces the image in all places where it is used (emails, email templates and fragments).
 
 ## Download assets
 
@@ -148,7 +149,7 @@ You can take the following bulk actions for selected assets residing in the _[!U
 
 1. Select a folder.
 
-   The path updates next to _[!UICONTROL Selected assets will move to:]_. 
+   The path next to _[!UICONTROL Selected assets will move to:]_ reflects the change. 
    
 1. Click **[!UICONTROL Move]**.
 
@@ -262,7 +263,7 @@ Archiving a folder makes the files within it unsearchable. Use the archive funct
 
 Assets can be used in your team's email, email template, or visual fragment authoring from the visual content editor.
 
-From the visual designer UI, select the _Asset selector_ icon ( ![Assets selection](../assets/do-not-localize/icon-assets-design.svg) ) on the left sidebar.
+From the visual designer UI, select the _Marketo Engage Assets_ icon ( ![Marketo Engage Assets icon](../../assets/do-not-localize/icon-assets-me.svg) ) on the left sidebar.
 
 This action changes the tools panel that displays a structured list of the available assets in the selected workspace. Select the workspace that you want to display for choosing an asset.
 
