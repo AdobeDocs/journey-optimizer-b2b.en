@@ -40,11 +40,7 @@ description: Reused notes and visual elements to note a feature or page applying
 
    Double-click the folder that contains your assets. Drag and drop the items into a structure component.
 
-   >[!NOTE]
-   >
-   >If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you must choose the [image source](../user/content/assets-overview.md#choose-an-asset-source) at the time of creation for an email, email template, or visual fragment. However, you can also select the image source before you open the content designer for editing.
-
-   For more information about using assets from your source type, see [Add assets to your content](../user/content/assets-overview.md#add-assets-to-your-content).
+   For more information about using assets from your source type, see [Add assets to your content](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
    ![Drag a Marketo Engage asset onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
@@ -58,6 +54,6 @@ description: Reused notes and visual elements to note a feature or page applying
 
 ## Content authoring - links tracking step {#links-tracking-step}
 
-1. Select the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that are tracked.
+1. Select the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that is tracked.
 
    You can modify the _Tracking Type_ or _Label_ and add tags if needed.
