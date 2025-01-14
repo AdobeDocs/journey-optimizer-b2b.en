@@ -20,7 +20,7 @@ To search for a template by name, enter a text string in the search bar. Click t
 
 Customize the columns that you want to display in the table by clicking the _Customize table_ icon on the top right. Select the columns to display and click **[!UICONTROL Apply]**.
 
-From the listing page, you can take the actions described in the following sections.
+From the displayed list of templates, you can take the actions described in the following sections.
 
 ## Create an email template
 
@@ -144,7 +144,7 @@ From the email templates listing page, select multiple templates at a time by se
 
 **[!UICONTROL Delete]** -- You can delete up to a maximum of 20 templates at one time. A confirmation dialog allows you to abort the action or confirm the removal of the templates.
 
-## Authoring an email from a saved template
+## Author an email from a saved template
 
 From the _Create your email_ screen, use the _Select design template_ section to start building your content from a template.
 

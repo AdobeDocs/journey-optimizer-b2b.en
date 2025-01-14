@@ -12,7 +12,7 @@ Examples:
 
 * `Hello {{profile.person.name.fullName}}`
 
-When processing the message (email and SMS), Journey Optimizer B2B Edition replaces the expression with the data contained in the Experience Platform database. So, the first example becomes _Hello John Doe_.
+When processing the content, Journey Optimizer B2B Edition replaces the expression with the data contained in the Experience Platform database. So, the first example becomes _Hello John Doe_.
 
 The following example outlines steps to personalize content using lead/account attributes and system tokens.
 
