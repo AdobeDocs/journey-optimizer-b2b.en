@@ -10,14 +10,14 @@ After you [create a landing page](./landing-pages.md#create-a-landing-page), use
 ## Add structure and content {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="Add Structure components"
->abstract="Structure components define the layout of the page. Drag and drop a **Structure** component into the canvas to start designing the content for your page."
+>id="ajo-b2b_landing_page_structure"
+>title="Add Structure components to the landing page"
+>abstract="Structure components define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing the content for your page."
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a page."
+>id="ajo-b2b_landing_page_content_components"
+>title="About Content components for landing pages"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
 
 {{$include /help/_includes/content-design-components.md}}
 
