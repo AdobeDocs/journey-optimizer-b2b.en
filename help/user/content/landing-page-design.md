@@ -7,7 +7,7 @@ feature: Content
 
 After you [create a landing page](./landing-pages.md#create-a-landing-page), use the visual designer to author the structural and content components in your page. 
 
-## Add structure and content {#structure-content}
+## Add structure and content {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"

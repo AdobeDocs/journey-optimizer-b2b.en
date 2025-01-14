@@ -129,7 +129,7 @@ Select the template that you want from the list.
 
    After selection, this displays a preview of the template. In preview mode, you can navigate between all the templates of one category (sample or saved, depending on your selection) using the right and left arrows.
 
-   ![Preview the saved template](../assets/content-design-shared/landing-page-design-saved-template-preview.png){width="800" zoomable="yes"}
+   ![Preview the saved template](./assets/landing-page-design-saved-template-preview.png){width="800" zoomable="yes"}
 
 When the display matches what you want to use, click **[!UICONTROL Use this template]** at the top right of the preview window.
 
