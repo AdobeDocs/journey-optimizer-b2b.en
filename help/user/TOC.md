@@ -49,7 +49,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + [Fragments](./content/fragments.md)
    + [Forms](./content/forms.md)
    + Landing pages {#landing-pages}
-        + [Overview](./content/landing-pages-overview.md)       
+        + [Overview](./content/landing-pages.md)       
         + [Landing page design](./content/landing-page-design.md)
    + [Conditional content](./content/conditional-content.md)
 + Insights dashboards {#dashboards}
