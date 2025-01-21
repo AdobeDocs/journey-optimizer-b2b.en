@@ -245,7 +245,7 @@ You can delete an event definition if it is not in use by a published account jo
 
 1. Click **[!UICONTROL Events]** on the intermediate panel to display the list of event definitions.
 
-1. Locate event definition in list and click the _Delete_ icon ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon to the right of the name.
+1. Locate event definition in list and click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon to the right of the name.
 
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
 
