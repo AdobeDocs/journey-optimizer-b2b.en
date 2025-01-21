@@ -9,11 +9,15 @@ Administrators can configure Adobe Experience Platform (AEP)-based event definit
 
 1. Create and publish an AEP event definition.
 
-2. In an account journey, add a _Listen for an event_ node and select an AEP event definition as people event.
+2. In an account journey, add a _Listen for an event_ node and [select an AEP event definition as people event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
 Each event definition requires the following Experience Platform input:
 
 * **_Schema_** – XDM schema that defines the Experience Event data structure. It must be based on an Experience Event and must be profile-enabled.
+
+   >[!NOTE]
+   >
+   >You should coordinate with your Engineering team to ensure that the needed schemas are defined. [Creating XDM schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) is a complex process performed by data engineers based on use case requirements across your organization.
 
 * **_Event types_** – XDM ExperienceEvent eventType (maximum of 20 per event definition).
 
@@ -135,7 +139,7 @@ When you are satisfied that the draft event definition is complete and correct f
 
    ![Publish event dialog](./assets/configuration-events-publish-dialog.png){width="300"}
 
-   The status for the event definition changes to _Published_ and it is now available for use in account journeys.
+   The status for the event definition changes to _Published_ and it is now [available for use in account journeys](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
    ![The new draft event definition is listed on the page](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
