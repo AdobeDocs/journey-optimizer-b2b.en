@@ -25,6 +25,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Create buying groups](./buying-groups/buying-groups-create.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
+    + [Journey node](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
        + [Account audience](./journeys/account-audience-nodes.md)
        + [Take an action](./journeys/action-nodes.md)
