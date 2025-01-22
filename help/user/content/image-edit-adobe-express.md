@@ -2,6 +2,9 @@
 title: Edit Images with Adobe Express
 description: Learn about using Adobe Express to edit images in the Journey Optimizer B2B Edition workspace.
 feature: Assets, Content
+hide: yes
+hidefromtoc: yes
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
 ---
 # Edit images with Adobe Express {#edit-images-adobe-express}
