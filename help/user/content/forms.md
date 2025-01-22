@@ -5,6 +5,6 @@ feature: Content
 hide: yes
 hidefromtoc: yes
 ---
-# Landing page templates
+# Forms
 
 TBD for release
