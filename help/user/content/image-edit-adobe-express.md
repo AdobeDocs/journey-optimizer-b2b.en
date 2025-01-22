@@ -43,23 +43,25 @@ _To modify an image:_
 
    >[!TIP]
    >
-   >It is a best practice to select [the _[!UICONTROL Used By]_ tab](./marketo-engage-design-studio.md#view-asset-used-by-references) in the image details to review the content where the image is currently used before you proceed to make edits to the image file.
+   >It is a best practice to select [the _[!UICONTROL Used By]_ tab](./marketo-engage-design-studio.md#view-asset-used-by-references) in the image details and review the content where the image is currently used before you proceed to make edits to the image file.
 
-1. Click the **[!UICONTROL More]** menu at the top right and choose **[!UICONTROL Edit with Adobe Express]**.
+1. In the image _[!UICONTROL Details]_ on the right, click **[!UICONTROL Edit with Adobe Express]**.
 
     ![Open the image in the Adobe Express editor](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
-    This action opens the Adobe Express editor, with a list of available capabilities displayed on the left.
+    If the image is in use, an alert dialog appears to inform you that any changes you make will affect that content. Click **[!UICONTROL Continue]** to proceed to the Adobe Express editor.
 
-1. Select any of the image modification functions to alter the image.
+    ![An alert provides information about image usage](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
-    ![Select an edit type to modify the image](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}    
+1. In the Adobe Express editor, select any of the image modification functions to alter the image.
 
     * [**[!UICONTROL Resize image]**](#resize-image)
     * [**[!UICONTROL Remove background]**](#remove-background)
     * [**[!UICONTROL Crop image]**](#crop-image)
     * [**[!UICONTROL Convert to PNG]**](#convert-file-format) (when a JPEG image is loaded)
     * [**[!UICONTROL Convert to JPEG]**](#convert-file-format) (when a PNG image is loaded)
+
+   ![Select an edit type to modify the image](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}  
 
 1. When you return to the main Adobe Express editor, make sure to click **[!UICONTROL Save]** again to save the modified image file in the Journey Optimizer B2B Edition asset workspace using the same file name.
 
