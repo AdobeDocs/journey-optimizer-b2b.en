@@ -4,6 +4,7 @@ description: Learn how to access and configure the landing page settings so that
 feature: Setup, Content
 hide: yes
 hidefromtoc: yes
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 ---
 # Landing page configuration

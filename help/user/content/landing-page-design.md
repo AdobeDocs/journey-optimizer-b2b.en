@@ -2,6 +2,9 @@
 title: Landing Page Design
 description: Learn how to design and author content for your landing pages that support account journeys and campaigns.
 feature: Content
+hide: yes
+hidefromtoc: yes
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 ---
 # Landing page design
 

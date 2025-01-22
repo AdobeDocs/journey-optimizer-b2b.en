@@ -2,6 +2,9 @@
 title: Landing Pages
 description: Learn about landing pages and how to create and manage them to support account journeys and campaigns.
 feature: Content
+hide: yes
+hidefromtoc: yes
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 ---
 # Landing pages
 
