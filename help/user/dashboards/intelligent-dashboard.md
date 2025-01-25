@@ -19,7 +19,7 @@ The Intelligent Dashboard also provides access to account and buying group detai
 * Summaries for accounts and buying groups
 * Intent detection for person, buying group, and account
 
-[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
 **Intent data setup** 
 
@@ -32,7 +32,7 @@ To activate this feature, you can submit a list of keywords in a spreadsheet to 
 
 A set of keywords (up to 20) can be associated with a product. A set of products (up to 20) can be associated with a category. You can have a maximum of 20 categories. This whole model is achieved through a simple spreadsheet that is ingested. The spreadsheet can contain a single tab that correlates to the product name and it can contain one column that correlates to a list of keywords. You can add multiple tabs, each with a product name and the entire spreadsheet can correlate to a category.
 
-[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 ## Buying group stages {#buying-group-stages}
 
