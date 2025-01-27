@@ -23,6 +23,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Role templates](./buying-groups/buying-groups-role-templates.md)
     + [Buying group stages](./buying-groups/buying-group-stages.md)
     + [Create buying groups](./buying-groups/buying-groups-create.md)
+    + [Buying group details](./buying-groups/buying-group-details.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
     + [Account journey nodes](./journeys/journey-nodes.md)
