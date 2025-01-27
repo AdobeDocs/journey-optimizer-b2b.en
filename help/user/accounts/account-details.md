@@ -9,6 +9,8 @@ When you click an account name from anywhere in Journey Optimizer B2B Edition, t
 
 ![Access the account details](./assets/account-details.png){width="700" zoomable="yes"}
 
+{{intent-data-note}}
+
 The account details page is comprised of three primary sections:
 
 ## Account overview

@@ -9,6 +9,8 @@ When you click a buying group name from anywhere in Journey Optimizer B2B Editio
 
 ![Access the buying group details](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
+{{intent-data-note}}
+
 The buying-group details page is comprised of three primary sections:
 
 ## Buying group overview

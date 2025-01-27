@@ -6,6 +6,12 @@ description: Reused notes and visual elements to note a feature or page applying
 
 <!-- Content authoring steps for reuse -->
 
+## Intent data configuration {#intent-data-note}
+
+>[!NOTE]
+>Intent data can also be included in the page when it is configure for your Journey Optimizer B2B Edition instance. FOr more information about the Intent Detection model and how to submit keywords, see [Intent Data](../user/admin/intent-data.md).
+>
+
 ## Content authoring - components - structures step {#structures-step}
 
 1. To start your content design, drag an item from the **[!UICONTROL Structures]** and drop it onto the canvas.

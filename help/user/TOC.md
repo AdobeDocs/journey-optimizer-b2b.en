@@ -55,6 +55,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [User management](./admin/user-management.md)
+    + [Intent data](./admin/intent-data.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
