@@ -2,8 +2,6 @@
 title: Intelligent Dashboard
 description: Learn about the Intelligent Dashboard, which provides a comprehensive view of buying group and account metrics
 feature: Dashboards, Buying Groups
-hide: yes
-hidefromtoc: yes
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 ---
 # Intelligent Dashboard
