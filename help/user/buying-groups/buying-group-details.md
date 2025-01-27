@@ -37,7 +37,7 @@ The account overview section includes the following account information:
 * Number of people in the account
 * Industry
 * Open opportunities
-* Latest three Account journeys where the account is currently in use (click the name to open the journey details)
+* Latest three account journeys where the account is currently in use (click the name to open the journey details)
 * Generative AI summary of the account
 
 ## Buying group members
