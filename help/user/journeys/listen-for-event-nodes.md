@@ -56,7 +56,7 @@ Listen for an event based on people when you want to move the account forward in
 | | Removed from Buying Group | Solution interest<br/>Date of activity (optional)<br/>Timeout (optional) |
 | | Score is changed | Score name<br/>Additional constraints (optional):<li>Change</li><li>New score</li><li>Urgency</li><li>Priority</li><li>Relative score</li><li>Relative urgency</li><li>Date of activity</li><li>Min. number of times</li><br/>Timeout (optional) |
 | | SMS Bounces| SMS message<br/>Additional constraints (optional): <li>Date of activity</li><li>Min number of times</li><br/>Timeout (optional) |
-| Adobe Experience Platform | Event definition | Event type <br/>Additional constraints (optional): <li>Fields</li><li>Previous score</li><li>Date of activity</li><br/> Timeout (optional) |
+| Adobe Experience Platform | Event definition | Event type <br/>Additional constraints (optional): <li>Fields</li> <br/>Additional constraints (not supported): <li>Date of activity</li><li>Min. number of times</li><br/> Timeout (optional) |
 
 ### Add a people event
 
@@ -103,6 +103,10 @@ _To use an Experience Event in your journey:_
    * (Optional) Click **[!UICONTROL Add constraint]** and choose the field that you want to use for the constraint. Set the operator and the value for the field.
   
      ![Listen for an experience event](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
+
+     >[!NOTE]
+     >
+     >The constraints for _date of activity_ and _minimum number of times_ are not supported.
 
      You can repeat this action to include additional field constraints as needed.
 
