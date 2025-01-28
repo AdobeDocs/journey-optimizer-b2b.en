@@ -124,16 +124,6 @@ _How does a split path by people node work?_
 
    * Click **[!UICONTROL Done]**.
 
-   >[!BEGINSHADEBOX "Marketo Engage list membership"]
-   
-   In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your split path by people to help eliminate duplication in journey activities.
-      
-   To do this, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space and complete the filter definition to evalute membership in one or more Marketo Engage lists.
-   
-   ![Split path by people condition for Marketo Engage list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
-   
-   >[!ENDSHADEBOX] 
-
 1. To add more paths, click **[!UICONTROL Add path]** and repeat the previous steps to add conditions applicable to this path.
 
    You can also label each path based on these conditions or use the default labels.
@@ -147,6 +137,16 @@ _How does a split path by people node work?_
    ![Split path node - reorder paths](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
 
 1. Enable the **[!UICONTROL Other people]** option to add a default path for people that are not a match for the defined paths. If not, the journey ends for these people.
+
+>[!BEGINSHADEBOX "Marketo Engage list membership"]
+   
+In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your split path by people to help eliminate duplication in journey activities.
+      
+To do this, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space and complete the filter definition to evalute membership in one or more Marketo Engage lists.
+   
+![Split path by people condition for Marketo Engage list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+   
+>[!ENDSHADEBOX] 
 
 When you have conditions defined for each path for splitting your audience on the people level, you can add actions that you want to take on people.
 

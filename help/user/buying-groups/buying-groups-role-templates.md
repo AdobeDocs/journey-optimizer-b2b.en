@@ -93,19 +93,19 @@ After you create the template, it opens in the workspace and you are prompted to
 
    * Click **[!UICONTROL Done]**.
 
-   >[!BEGINSHADEBOX "Marketo Engage list membership"]
-
-   In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your roles template to help eliminate duplication in buying group membership and journey activities.
-   
-   To do this, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space and complete the filter definition to evalute membership in one or more Marketo Engage lists.
-
-   ![Roles template condition for Marketo Engage list membership](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-
-   >[!ENDSHADEBOX] 
-
 1. For each additional role that you want to include for the template, click **[!UICONTROL Add another role]** and repeat steps 1 and 2 to define the role.
 
    ![Roles template with multiple roles defined](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX "Marketo Engage list membership"]
+
+In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your roles template to help eliminate duplication in buying group membership and journey activities.
+   
+To do this, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space and complete the filter definition to evalute membership in one or more Marketo Engage lists.
+
+![Roles template condition for Marketo Engage list membership](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX] 
 
 Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the _[!UICONTROL Roles templates]_ list.
 
