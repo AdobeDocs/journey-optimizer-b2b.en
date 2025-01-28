@@ -81,7 +81,7 @@ After you create the template, it opens in the workspace and you are prompted to
 
       >[!NOTE]
       >
-      >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions. 
+      >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions.
 
    * Use the attribute to create a matching filter using one or more values. 
     
@@ -92,6 +92,16 @@ After you create the template, it opens in the workspace and you are prompted to
    * If needed, add another attribute and condition that further refines the criteria for a match to the role.
 
    * Click **[!UICONTROL Done]**.
+
+   >[!BEGINSHADEBOX "Marketo Engage list membership"]
+
+   In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your roles template to help eliminate duplication in buying group membership and journey activities.
+   
+   To do this, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space and complete the filter definition to evalute membership in one or more Marketo Engage lists.
+
+   ![Roles template condition for Marketo Engage list membership](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+   >[!ENDSHADEBOX] 
 
 1. For each additional role that you want to include for the template, click **[!UICONTROL Add another role]** and repeat steps 1 and 2 to define the role.
 
