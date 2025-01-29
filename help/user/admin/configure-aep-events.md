@@ -9,7 +9,7 @@ Administrators can configure Adobe Experience Platform (AEP)-based event definit
 
 1. Create and publish an AEP event definition.
 
-2. In an account journey, add a _Listen for an event_ node and [select an AEP event definition as people event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. In an account journey, add a _Listen for an event_ node and [select an AEP event definition as a people event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
 Each event definition requires the following Experience Platform input:
 
