@@ -7,7 +7,9 @@ exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
 
 Account audience data is stored as attributes in both XDM Business Account and XDM Business Person classes. The data is periodically synchronized between Adobe Experience Platform and Journey Optimizer B2B Edition. The following sections list the default sets of attributes.
 
-You can model XDM Business Person and XDM Business Account classes in a many-to-many relationship by using the XDM Business Account Person Relation class as described in the [Experience Platform XDM documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
+>[!TIP]
+>
+>You can model XDM Business Person and XDM Business Account classes in a many-to-many relationship by using the XDM Business Account Person Relation class as described in the [Experience Platform XDM documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 ## XDM Business Account Person Relation attributes
 
