@@ -71,7 +71,7 @@ You can model XDM Business Person and XDM Business Account classes in a many-to-
 |`accountPhone.number` | N/A | Account Phone Number | String |The phone number associated with the account.  |
 |`accountSourceType` | N/A  | Source Type | String |Source type for the account. |
 
-## XDM Opportunity attributes
+<!-- ## XDM Opportunity attributes
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -93,4 +93,4 @@ You can model XDM Business Person and XDM Business Account classes in a many-to-
 |`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
 |`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
 |`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
-
+-->
