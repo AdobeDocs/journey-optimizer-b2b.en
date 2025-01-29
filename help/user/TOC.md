@@ -25,7 +25,13 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Create buying groups](./buying-groups/buying-groups-create.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
-    + [Account journey nodes](./journeys/journey-nodes.md)
+    + [Journey node](./journeys/journey-nodes.md)
+    + Journey nodes {#journey-nodes}
+       + [Account audience](./journeys/account-audience-nodes.md)
+       + [Take an action](./journeys/action-nodes.md)
+       + [Listen for an event](./journeys/listen-for-event-nodes.md)
+       + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
+       + [Wait](./journeys/wait-nodes.md)
 + Journey content {#journey-content}
     + Email channel {#email-channel}
        + [Email authoring](./content/email-authoring.md)
@@ -57,5 +63,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
     + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
+    + [Configure AEP event definitions](./admin/configure-aep-events.md)
     + [Landing page settings](./admin/landing-page-settings.md)
     + [Governance](./admin/governance.md)
