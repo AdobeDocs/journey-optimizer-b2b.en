@@ -5,7 +5,7 @@ exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
 ---
 # Governance features
 
-As an integrated Adobe Experience Platform app, Journey Optimizer B2B Edition employs several services and tools that allow you to confidently control your collected experience data to comply with your business practices, legal obligations, and development processes. The sections below provide a summary of each of these governance features.
+Journey Optimizer B2B Edition is an integrated Adobe Experience Platform app. It employs several tools and services that provide control of your collected experience data in compliance with your business practices, legal obligations, and development processes. The sections below provide a summary of each of these governance features.
 
 ## Privacy - GDPR  
 
@@ -23,7 +23,7 @@ With Journey Optimizer B2B Edition and access to the Adobe Admin Console, admini
 
 ## Consent opt-in/opt-out
 
-Consent opt-in/opt-out is a form of governance where a profile can opt out from a communication channel, such as email or SMS, and a profile should then be excluded from such communication channel. 
+Consent opt-in/opt-out is a form of governance where a profile can opt out from a communication channel, such as email or SMS, and a profile is then excluded from the communication channel. 
    
 With Journey Optimizer B2B Edition, you can build and manage subscribe/un-subscribe use-cases for your email and SMS delivery use cases. These consent preferences are stored within the XDM Profile Consent Field Group, and are synced into and out of Journey Optimizer B2B Edition as part of the Data Sync Framework. These preferences are used at delivery time to exclude opted out profiles from deliveries.
 
