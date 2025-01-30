@@ -47,10 +47,16 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
         + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager image assets](./content/aem-assets.md)
    + Templates {#templates}
-      + [Manage email templates](./content/email-templates.md)
-      + [Email template authoring](./content/email-template-authoring.md)
       + [Content governance](./content/template-content-governance.md)
+      + Email templates {#email-templates}
+        + [Overview](./content/email-templates.md)
+        + [Email template authoring](./content/email-template-authoring.md)
+      + [Landing page templates](./content/landing-page-templates.md)
    + [Fragments](./content/fragments.md)
+   + [Forms](./content/forms.md)
+   + Landing pages {#landing-pages}
+        + [Overview](./content/landing-pages.md)       
+        + [Landing page design](./content/landing-page-design.md)
    + [Conditional content](./content/conditional-content.md)
 + Insights dashboards {#dashboards}
     + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
