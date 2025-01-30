@@ -25,7 +25,11 @@ With Journey Optimizer B2B Edition and access to the Adobe Admin Console, admini
 
 Consent opt-in/opt-out is a form of governance where a profile can opt out from a communication channel, such as email or SMS, and a profile should then be excluded from such communication channel. 
    
-With Journey Optimizer B2B Edition, you can build and manage subscribe/un-subscribe use-cases for your email and SMS delivery use cases. These consent preferences are stored within the XDM Profile Consent Field Group, and are synced into and out of Journey Optimizer B2B Edition as part of the Data Sync Framework. These preferences are used at delivery time to exclude opted out profiles from deliveries. 
+With Journey Optimizer B2B Edition, you can build and manage subscribe/un-subscribe use-cases for your email and SMS delivery use cases. These consent preferences are stored within the XDM Profile Consent Field Group, and are synced into and out of Journey Optimizer B2B Edition as part of the Data Sync Framework. These preferences are used at delivery time to exclude opted out profiles from deliveries.
+
+## Sandbox reset
+
+Sandbox reset is **not currently supported** for Adobe Journey Optimizer B2B Edition. Resetting or deleting a sandbox that is mapped to Journey Optimizer B2B Edition may result in permanent loss of data in Journey Optimizer B2B Edition and could require provisioning of a new Journey Optimizer B2B Edition instance.
 
 ## Not yet available
 
@@ -33,7 +37,6 @@ The following governance features are not yet available:
 
 * Data Usage Label Enforcement (DULE) / usage policies
 * Data hygiene
-* Sandbox reset
 * Consent policies
 * Field-level access control (FLAC)
 * Object-level access control (OLAC)
