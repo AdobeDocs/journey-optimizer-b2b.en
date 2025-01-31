@@ -18,7 +18,9 @@ Use an action on accounts when you want to apply a change to all people that are
 | Account Change Data Value | Select attribute<br/>New value |
 | Account Interesting Moment | Type (Email, Milestone, or Web)<br/>Description (optional)|
 | Add Account to (other) Journey | Select live Account Journey |
+| Add to account list | Select a live static account list |
 | Remove Account from Journey | Select live Account Journey |
+| Remove from account list | Select a live static account list |
 | Send Sales Alert | Select solution interest<br/>Send email to|
 | Update Buying Group Stage | Select solution interest<br/>Select buying group stage |
 | Update Buying Group Status | Select solution interest<br/>Status (required, 50 characters max) |
