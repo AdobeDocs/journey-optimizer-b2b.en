@@ -49,6 +49,8 @@ When you create an account list, you define a set of filters to generate the lis
 
 1. Choose the _[!UICONTROL Type]_ for the account list, **[!UICONTROL Static]** or **[!UICONTROL Dynamic]**.
 
+   ![Choose Static or Dynamic for the account list](./assets/account-list-create-dialog.png){width="380"}
+
 1. Click **[!UICONTROL Create]**.
 
    A new static account list opens with an empty list of accounts. A new dynamic account list opens with the _[!UICONTROL Add accounts by filter]_ panel in the page. 
