@@ -16,6 +16,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Account audiences {#account-audiences}
     + [Overview](./audiences/account-audience-overview.md)
     + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
+    + [Export account list](./audiences/account-list-export.md)
     + [XDM fields](./data/field-mapping.md)
 + Buying groups {#buying-groups}
     + [Overview](./buying-groups/buying-groups-overview.md)
@@ -23,6 +24,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Role templates](./buying-groups/buying-groups-role-templates.md)
     + [Buying group stages](./buying-groups/buying-group-stages.md)
     + [Create buying groups](./buying-groups/buying-groups-create.md)
+    + [Buying group details](./buying-groups/buying-group-details.md)
     + [Buying group filters in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
@@ -48,18 +50,26 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
         + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager image assets](./content/aem-assets.md)
    + Templates {#templates}
-      + [Manage email templates](./content/email-templates.md)
-      + [Email template authoring](./content/email-template-authoring.md)
       + [Content governance](./content/template-content-governance.md)
+      + Email templates {#email-templates}
+        + [Overview](./content/email-templates.md)
+        + [Email template authoring](./content/email-template-authoring.md)
+      + [Landing page templates](./content/landing-page-templates.md)
    + [Fragments](./content/fragments.md)
+   + [Forms](./content/forms.md)
+   + Landing pages {#landing-pages}
+        + [Overview](./content/landing-pages.md)       
+        + [Landing page design](./content/landing-page-design.md)
    + [Conditional content](./content/conditional-content.md)
 + Insights dashboards {#dashboards}
-    + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
-    + [Buying Groups](./dashboards/buying-groups-dashboard.md)
+    + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
+    + [Account details](./accounts/account-details.md)
+    + [Buying Groups Overview](./dashboards/buying-groups-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
     + [Journey Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [User management](./admin/user-management.md)
+    + [Intent data](./admin/intent-data.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
