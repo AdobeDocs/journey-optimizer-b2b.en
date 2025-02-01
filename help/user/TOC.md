@@ -25,6 +25,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Buying group stages](./buying-groups/buying-group-stages.md)
     + [Create buying groups](./buying-groups/buying-groups-create.md)
     + [Buying group details](./buying-groups/buying-group-details.md)
+    + [Buying group filters in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
     + [Journey node](./journeys/journey-nodes.md)
