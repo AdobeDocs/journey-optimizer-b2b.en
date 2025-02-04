@@ -71,7 +71,7 @@ Use the _[!UICONTROL Browse]_ tab to view the list of buying groups. You can sea
 
 ## Buying group details
 
-To access details for a buying group, click the buying group name from the _[!UICONTROL Browse]_ tab.
+To access details for a buying group, click the buying group name from the _[!UICONTROL Browse]_ tab. [Learn more](./buying-group-details.md)
 
 ![Buying group details](assets/buying-group-details.png){width="600" zoomable="yes"}
 
