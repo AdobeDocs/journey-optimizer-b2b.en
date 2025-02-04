@@ -87,7 +87,7 @@ After you create the static account list, you can populate the list by applying 
 
      ![Add filters to populate the account list ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
-   * You can fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
+   * You can fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You can choose to match all attribute conditions or any condition.
 
      ![Account list filter logic](./assets/account-lists-filter-logic.png){width="450"}  
 
@@ -115,7 +115,7 @@ After you create a dynamic account list, you define the filter set that is used 
 
      ![Add filters to populate the account list ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
-   * You can fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
+   * You can fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You can choose to match all attribute conditions or any condition.
 
      ![Account list filter logic](./assets/account-lists-filter-logic.png){width="450"} 
 
