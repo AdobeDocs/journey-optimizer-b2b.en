@@ -266,7 +266,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
 1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add.
 
-### Create a custom role
+## Create a custom role
 
 >[!NOTE]
 >
