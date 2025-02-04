@@ -13,19 +13,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Quick start guidance](./start/get-started.md)
     + [Tracking and email protocols](./start/email-protocols.md)
     + [Use AI Assistant](./start/ai-assistant.md)
-+ Account audiences {#account-audiences}
-    + [Overview](./audiences/account-audience-overview.md)
-    + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
-    + [Export account list](./audiences/account-list-export.md)
-    + [XDM fields](./data/field-mapping.md)
-+ Buying groups {#buying-groups}
-    + [Overview](./buying-groups/buying-groups-overview.md)
-    + [Solution interests](./buying-groups/solution-interests.md)
-    + [Role templates](./buying-groups/buying-groups-role-templates.md)
-    + [Buying group stages](./buying-groups/buying-group-stages.md)
-    + [Create buying groups](./buying-groups/buying-groups-create.md)
-    + [Buying group details](./buying-groups/buying-group-details.md)
-    + [Buying group filters in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
     + [Journey node](./journeys/journey-nodes.md)
@@ -42,6 +29,20 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
     + [SMS authoring](./content/sms-authoring.md)
++ Accounts {#accounts}
+    + [Audiences](./audiences/account-audience-overview.md)
+    + Buying groups {#buying-groups}
+       + [Overview](./buying-groups/buying-groups-overview.md)
+       + [Solution interests](./buying-groups/solution-interests.md)
+       + [Role templates](./buying-groups/buying-groups-role-templates.md)
+       + [Buying group stages](./buying-groups/buying-group-stages.md)
+       + [Buying group details](./buying-groups/buying-group-details.md)
+       + [Create buying groups](./buying-groups/buying-groups-create.md)
+       + [Export account list](./audiences/account-list-export.md)
+       + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
+       + [Buying group filters in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+    + [Account lists](./accounts/account-lists.md)
+    + [XDM fields](./data/field-mapping.md)
 + Content management {#content-management}
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)

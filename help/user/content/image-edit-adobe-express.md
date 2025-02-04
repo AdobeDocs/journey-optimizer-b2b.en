@@ -53,7 +53,23 @@ _To modify an image:_
 
     ![An alert provides information about image usage](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
-1. In the Adobe Express editor, select any of the image modification functions to alter the image.
+## Adobe Express Enterprise license
+
+If you have an Enterprise license for Adobe Express, you can access and use the Express editor. These editing capabilities include operations for image adjustments, such as color, brightness, sharpness, contrasts, and cropping. They also include _AI magic_ operations, such as remove backgrounds, insert and remove objects, and erasure for parts of the image. 
+
+>[!NOTE]
+>
+>Your Adobe Express Enterprise license must be purchased under the same IMS organization to access these full editor capabilities fro Journey Optimizer B2B Edition. As an individual member of the IMS organization, you need an assigned license in the Adobe Express instance. Otherwise, your Adobe Express access is restricted to the [quick actions on Adobe Express](#quick-actions-in-adobe-express) from Journey Optimizer B2B Edition.
+
+![Open the image in the Adobe Express Enterprise editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
+
+The [Adobe Express User Guide](https://helpx.adobe.com/express/user-guide.html){target="_blank"} provides detailed information about the available editing capabilities. 
+
+## Quick actions in Adobe Express
+
+If you do not have an Adobe Express Enterprise license, you have access to the Adobe Express quick actions editor. 
+
+1. In the Adobe Express quick actions editor, select any of the image modification functions to alter the image.
 
     * [**[!UICONTROL Resize image]**](#resize-image)
     * [**[!UICONTROL Remove background]**](#remove-background)
@@ -63,9 +79,7 @@ _To modify an image:_
 
    ![Select an edit type to modify the image](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}  
 
-1. When you return to the main Adobe Express editor, make sure to click **[!UICONTROL Save]** again to save the modified image file in the Journey Optimizer B2B Edition asset workspace using the same file name.
-
-   If you want to save the modified version as a new image, click **[!UICONTROL Save as New Asset]**.
+1. When you return to the main Adobe Express quick actions editor, click **[!UICONTROL Save]** to save the modified image file in the Journey Optimizer B2B Edition asset workspace using the same file name.
 
 ## Resize image
 
@@ -73,19 +87,19 @@ _To modify an image:_
 
    * Select an **[!UICONTROL Aspect ratio]** option. Use a standard size for digital content or choose **[!UICONTROL Custom]** if you want to enter values for **[!UICONTROL Width]** and **[!UICONTROL Height]** to meet your needs.
 
-   * Drag the **[!UICONTROL Quality]** scale slider as needed. The resulting image size is displayed according to the quality level. You can click **[!UICONTROL Quality Compare]** below the image to toggle the display between the original and quality adjusted. The **[!UICONTROL Zoom and Crop]** tool allows you to inspect parts of the displayed image more closely.
+   * The displayed _[!UICONTROL Original size]_ and _[!UICONTROL Compressed size]_ show the size changes that result if you apply the changes. The **[!UICONTROL Zoom and Crop]** tool allows you to inspect parts of the displayed image more closely.
 
-   * If you want to return the image to its original state, click Reset.
+   * If you want to return the image to its original state, click **[!UICONTROL Reset]**.
 
    ![Edit with Adobe Express- resize image](./assets/assets-edit-adobe-express-resize-image.png){width="600" zoomable="yes"}
 
-1. When you are satisfied with the result, click **[!UICONTROL Save image]**.
+1. When you are satisfied with the result, click **[!UICONTROL Apply]**.
 
 ## Remove background
 
 ![Edit with Adobe Express- remove background](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
-Adobe Express performs an automatic background removal to isolate the primary object in the image. If you are satisfied with the result, click **[!UICONTROL Save image]**.
+Adobe Express performs an automatic background removal to isolate the primary object in the image. If you are satisfied with the result, click **[!UICONTROL Apply]**.
 
 ## Crop image
 
@@ -93,7 +107,7 @@ Adobe Express performs an automatic background removal to isolate the primary ob
 
    ![Edit with Adobe Express- crop image](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
 
-1. When you are satisfied with the result, click **[!UICONTROL Save image]**.
+1. When you are satisfied with the result, click **[!UICONTROL Apply]**.
 
 ## Convert file format
 
@@ -102,14 +116,4 @@ Adobe Express performs an automatic background removal to isolate the primary ob
 
 ![Edit with Adobe Express- convert to PNG](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}   
 
-1. Click **[!UICONTROL Save image]**.
-
-1. When you return to the main Adobe Express editor, click **[!UICONTROL Save as New Asset]**.
-
-1. In the _[!UICONTROL Save as new asset]_ dialog, change the populated name as needed and click **[!UICONTROL Save]**.
-
-   ![Edit with Adobe Express- save as new asset](./assets/assets-edit-adobe-express-save-as-new-asset.png){width="400"}   
-
-   The **[!UICONTROL Name]** field is populated using the original file name appended with `_updated`.
-   
-   If you enter a file name that is not unique to the folder, select **[!UICONTROL Overwrite existing files]**.
+1. Click **[!UICONTROL Apply]**.

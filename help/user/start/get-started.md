@@ -45,7 +45,7 @@ Refer to the following sections to set up your first journey, add assets, and se
 
 1. **Add account audiences**. Journey Optimizer B2B Edition allows you to create account audiences through segment definitions directly from the application, and leverage them into your account journeys. [Learn more](../audiences/account-audience-overview.md)
 
-1. **Create buying groups**. Define the key components for meeting your business goals and objectives, and create buying groups that identify the members for your target accounts lists. [Learn more](../buying-groups/buying-groups-overview.md)
+1. **Create buying groups**. Define the key components for meeting your business goals and objectives, and create buying groups that identify the members for your target account lists. [Learn more](../buying-groups/buying-groups-overview.md)
 
 1. **Create and manage assets**. Adobe Experience Manager Assets provides a single, centralized repository of assets that you can use to populate your messages. [Learn more](../content/assets-overview.md)
 

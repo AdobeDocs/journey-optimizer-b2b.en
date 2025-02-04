@@ -6,7 +6,7 @@ exl-id: c6864981-209c-4123-8d3f-24deb07026a0
 ---
 # Work with Experience Manager assets
 
-When Adobe Experience Manager Assets as a Cloud Service is integrated with Adobe Journey Optimizer B2B Edition, you can easily discover and access digital assets for use in your marketing content. As you author your content, the assets are accessible from the _Experience Manager Assets_ item on the left navigation, and when authoring email content for an account journey. You can also upload assets to connected AEM Assets as a Cloud Service repository directly from Adobe Journey Optimizer B2B Edition.
+When Adobe Experience Manager Assets as a Cloud Service is integrated with Adobe Journey Optimizer B2B Edition, you can easily discover and access digital assets for use in your marketing content. As you author your content, the assets are accessible from the _Experience Manager Assets_ item on the left navigation, and when authoring email content for an account journey.
 
 >[!NOTE]
 >
