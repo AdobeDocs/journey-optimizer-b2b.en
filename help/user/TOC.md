@@ -36,6 +36,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Solution interests](./buying-groups/solution-interests.md)
        + [Role templates](./buying-groups/buying-groups-role-templates.md)
        + [Buying group stages](./buying-groups/buying-group-stages.md)
+       + [Buying group details](./buying-groups/buying-group-details.md)
        + [Create buying groups](./buying-groups/buying-groups-create.md)
        + [Export account list](./audiences/account-list-export.md)
        + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
