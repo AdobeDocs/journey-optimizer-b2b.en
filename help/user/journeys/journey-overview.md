@@ -7,6 +7,8 @@ exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 
 # Account journeys
 
+Build and execute journeys that are tailored for each buying group and buying group member using automated engagement across email, SMS, events,  and more. WIth account journeys you can streamline demand generation and buying group qualification and drive more qualified demand for your acquisition, upsell/cross-sell, and retention programs.
+
 Define sales-driven engagement that includes email, SMS, and more inside account journeys to coordinate inbound marketing with outbound sales activities for each buying group member.
 
 ## Access and browse account journeys
@@ -48,7 +50,7 @@ The editor header of each account journey includes:
 
 The following actions are available in the header:
 
-* **Publish** - You can publish a journey if there are no blocker errors. When published, a Journey status changes to _Live_. If the journey has errors, the button is dimmed with content information: `Resolve errors before publishing`.
+* **Publish** - You can publish a journey if there are no blocker errors. When published, the journey status changes to _Live_. If the journey has errors, the button is dimmed with content information: `Resolve errors before publishing`.
 * **Duplicate** - This action is similar to a clone function, but the duplicated journey does not include any assets.
 * **Close to new entries** - If you close a journey, accounts currently in the journey continue their path in the journey and no further journey entrance can happen. A closed journey cannot be restarted. You can duplicate a closed journey.
 * **Abort** - If you stop a journey, accounts in the journey immediately stop their progress and no further journey entrance can happen. A stopped journey cannot be restarted. If you block new entrances without stopping people's progress, consider closing the journey instead.
@@ -78,37 +80,21 @@ To get started with an account journey, create the journey and then construct th
 
    ![Create Account Journey dialog](./assets/account-journey-create-dialog.png){width="400"}
 
-1. Click **[!UICONTROL Create]**.
-
-### Add the account audience for your journey
-
-An account journey always starts with Account Audience where you can add input to your journey.
-   
-1. Click the **[!UICONTROL Account audience]** node to display the node properties on the right.
-
-   ![Account audience node](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
-
-1. Click **[!UICONTROL Add account audience]**.
-
-   You can select an audience segment that was previously selected by clicking _[!UICONTROL Add audiences]_.
-
-1. To create a new audience segment, select **[!UICONTROL Account audiences]** in the left navigation.
-
-1. Click **[!UICONTROL Create audience]** and follow the steps described in the [Segmentation Service guide](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
+1. Click **[!UICONTROL Create]**.   
 
 ### Building blocks of a journey
 
-The _journey canvas_ is the central zone in the journey designer. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design.
+The _journey map_ is the central zone in the journey designer. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design. An account journey always starts with an [Account Audience node](./account-audience-nodes.md) where you can add input to your journey.
 
-You can build your journey using any of these node types:
+After you create an account journey and add the audience, build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases using the following node types to construct an account journey:
 
-* [Listen for an event](journey-nodes.md#listen-for-an-event)
-* [Take an action](journey-nodes.md#take-an-action)
-* [Split paths](journey-nodes.md#split-paths)
-* [Wait](journey-nodes.md#wait)
-* [Merge paths](journey-nodes.md#merge-paths)
+* [Take an action](./action-nodes.md)
+* [Listen for an event](./listen-for-event-nodes.md)
+* [Split paths](./split-merge-paths-nodes.md)
+* [Wait](./wait-nodes.md)
+* [Merge paths](./split-merge-paths-nodes.md)
 
-### Guard rails
+### Guardrails
 
 To help you build a journey without running into errors, the following guard rails are in place:
 
@@ -128,7 +114,7 @@ To help you build a journey without running into errors, the following guard rai
 
 1. Navigate to the journey editor.
 
-1. In the node properties on the right, click the _Delete_ (trashcan) icon.
+1. In the node properties on the right, click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon.
 
 1. In the conformation dialog, click **[!UICONTROL Delete]**.
 
@@ -136,19 +122,19 @@ To help you build a journey without running into errors, the following guard rai
 
 1. Navigate to the journey editor.
 
-1. Click the plus ( **+** ) icon on the path and add the split path node.
+1. Click the plus ( **+** ) icon on the path and add the [split path node](./split-merge-paths-nodes.md#split-paths).
 
 1. In the node properties on the right, select **[!UICONTROL Account]**.
 
 1. To add more paths, click **[!UICONTROL Add path]**.
 
-    With each path that is created in the journey, a new path card appears in the properties.
+   With each path that is created in the journey, a new path card appears in the properties.
 
-1. Navigate to one of the paths in the journey and add action or event nodes to this path using the plus icon.
+1. Navigate to one of the paths in the journey and add [action](./action-nodes.md) or [event](./listen-for-event-nodes.md) nodes to this path using the plus icon.
 
-1. Select the split path node to open the properties on the right.
+1. Select the [split path](./split-merge-paths-nodes.md) node to open the properties on the right.
 
-   Notice that the paths that have nodes on them cannot be deleted.
+   The paths that have nodes on them cannot be deleted.
 
 1. To delete these paths, you must delete all the nodes on that path first.
 
@@ -175,3 +161,7 @@ When you publish a journey, it can start immediately or on a scheduled future da
 1. Click **[!UICONTROL Save]**.
 
    When you are ready to publish your journey, you can review these settings when you click _[!UICONTROL Publish]_.
+
+### Publish an account journey
+
+

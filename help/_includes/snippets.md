@@ -6,6 +6,19 @@ description: Reused notes and visual elements to note a feature or page applying
 
 <!-- Content authoring steps for reuse -->
 
+## Intent data configuration {#intent-data-note}
+
+>[!NOTE]
+>Intent data can also be included in the page when it is configured for your Journey Optimizer B2B Edition instance. For more information about the Intent Detection model and how to submit keywords, see [Intent Data](../user/admin/intent-data.md).
+>
+
+## AEM assets licensing note {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>Licenses for AEM Assets as a Cloud Service and Dynamic Media license are pre-requisites for the integration. You should ensure that [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} is enabled.<br/>
+>Depending on your contract and configuration, Adobe Experience Manager Assets as a Cloud Service can be accessed directly from Adobe Journey Optimizer B2B Edition when designing visual content.
+
 ## Content authoring - components - structures step {#structures-step}
 
 1. To start your content design, drag an item from the **[!UICONTROL Structures]** and drop it onto the canvas.
@@ -40,11 +53,7 @@ description: Reused notes and visual elements to note a feature or page applying
 
    Double-click the folder that contains your assets. Drag and drop the items into a structure component.
 
-   >[!NOTE]
-   >
-   >If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you must choose the [image source](../user/content/assets-overview.md#choose-an-asset-source) at the time of creation for an email, email template, or visual fragment. However, you can also select the image source before you open the content designer for editing.
-
-   For more information about using assets from your source type, see [Add assets to your content](../user/content/assets-overview.md#add-assets-to-your-content).
+   For more information about using assets from your source type, see [Add assets to your content](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
    ![Drag a Marketo Engage asset onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
@@ -58,6 +67,6 @@ description: Reused notes and visual elements to note a feature or page applying
 
 ## Content authoring - links tracking step {#links-tracking-step}
 
-1. Select the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that are tracked.
+1. Select the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that is tracked.
 
    You can modify the _Tracking Type_ or _Label_ and add tags if needed.

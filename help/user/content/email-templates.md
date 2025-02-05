@@ -1,6 +1,6 @@
 ---
 title: Email Templates
-description: Learn how to manage and create email templates that can be used to author account journey emails easily and efficiently.
+description: Learn how to manage and create email templates that are used to author account journey emails easily and efficiently.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 ---
@@ -12,7 +12,7 @@ For an accelerated and improved design process, you can create standalone email 
 
 To access email templates in Adobe Journey Optimizer B2B edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**. This action opens a listing page with all the email templates created in the instance listed in a table.
 
-The table is sorted by the _[!UICONTROL Modified]_ column, with the most recently updated templates at the top of the list by default. Click the column title to change between ascending and descending.
+The table is sorted by the _[!UICONTROL Modified]_ column by default, with the most recently updated templates at the top. Click the column title to change between ascending and descending.
 
 To search for a template by name, enter a text string in the search bar. Click the _Filter_ icon at the top left to filter the list according to creation or modification dates, and templates that you have created or modified.
 
@@ -20,7 +20,7 @@ To search for a template by name, enter a text string in the search bar. Click t
 
 Customize the columns that you want to display in the table by clicking the _Customize table_ icon on the top right. Select the columns to display and click **[!UICONTROL Apply]**.
 
-From the listing page, you can take the actions described in the following sections.
+From the displayed list of templates, you can take the actions described in the following sections.
 
 ## Create an email template
 
@@ -29,12 +29,6 @@ You can create an email template from the email template listing page by clickin
 1. In the dialog, enter a useful **[!UICONTROL Name]** and **[!UICONTROL Description]** (optional).
 
    ![Enter initial properties for the new email template](./assets/templates-create-dialog.png){width="400"}
-
-1. Set the initial **[!UICONTROL Image source]**.
-
-   If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you can choose image assets from either source. To do that, you must select the image source at the time of creation for an email template, or visual fragment. However, you can also select the image source when you edit the content.
-
-   For more information about image sources, see [Assets](./assets-overview.md).
 
 1. Click **[!UICONTROL Create]**.
 
@@ -88,7 +82,7 @@ In the Templates listing page, click the name of an email template to open the e
 
 * If there are active alerts (errors and warning for the email template), click **[!UICONTROL Alerts]** at the top right to view the information.
 
-   While these alerts do not prohibit use of the email template for email creation, this information provides visibility for marketers on your team about what might not work and the required updates before it can be used for delivery.
+   These alerts do not prohibit use of the email template for email creation. The information provides visibility for marketers on your team about what might not work and the required updates before it can be used for delivery.
 
 ## View email template used-by references
 
@@ -109,7 +103,7 @@ This action can be taken from:
 * The details page - Click **[!UICONTROL Edit email template]**.
 * The listing page - Click the ellipsis (**...**) next to an email template and choose **[!UICONTROL Edit]**.
 
-This action takes you to the _Design your template_ page or the visual content editor page based on the last saved status of the email template. From here, you can edit your email template content as needed. See [Create email templates](#create-email-templates) for information about the editing options.
+This action takes you to the _Design your template_ page or the visual content editor page (based on the last saved status of the email template). From here, you can edit your email template content as needed. See [Create email templates](#create-email-templates) for information about the editing options.
 
 ## Duplicate email templates
 
@@ -144,7 +138,7 @@ From the email templates listing page, select multiple templates at a time by se
 
 **[!UICONTROL Delete]** -- You can delete up to a maximum of 20 templates at one time. A confirmation dialog allows you to abort the action or confirm the removal of the templates.
 
-## Authoring an email from a saved template
+## Author an email from a saved template
 
 From the _Create your email_ screen, use the _Select design template_ section to start building your content from a template.
 

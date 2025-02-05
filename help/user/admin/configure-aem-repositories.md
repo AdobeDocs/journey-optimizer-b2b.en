@@ -10,6 +10,8 @@ Adobe Journey Optimizer B2B Edition integrates with Adobe Experience Manager Ass
 
 Adobe Experience Manager Cloud Manager is organized into programs, and each program has multiple environments and repositories ([Learn more](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). When you configure Adobe Experience Manager Assets in Adobe Journey Optimizer B2B Edition, you set up connections to each repository that you want to use for accessing digital assets.
 
+{{aem-assets-licensing-note}}
+
 ## Prerequisites
 
 * Generate service credentials for the desired environment on the AEM Headless Developer Console ([Learn more](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).

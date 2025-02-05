@@ -35,6 +35,8 @@ Learn about access management in the following pages:
 
 1. **Configure and enable use of Adobe Experience Manager Assets** for teams that use Assets as a Cloud Service for centralized digital asset management. [Learn more](../admin/configure-aem-repositories.md)
 
+1. **Set up Adobe Experience Platform (AEP) Experience Event definitions** for teams responsible for creating account journeys that listen to AEP Experience Events. [Learn more](../admin/configure-aep-events.md)
+
 >[!TAB Marketer quick start]
 
 As a marketer, or an _Account Journey Practitioner_, you are responsible for designing journeys and crafting content. You can start working with Adobe Journey Optimizer B2B Edition after the system administrator and the data engineer prepare your environment and grant you access.
@@ -43,7 +45,7 @@ Refer to the following sections to set up your first journey, add assets, and se
 
 1. **Add account audiences**. Journey Optimizer B2B Edition allows you to create account audiences through segment definitions directly from the application, and leverage them into your account journeys. [Learn more](../audiences/account-audience-overview.md)
 
-1. **Create buying groups**. Define the key components for meeting your business goals and objectives, and create buying groups that identify the members for your target accounts lists. [Learn more](../buying-groups/buying-groups-overview.md)
+1. **Create buying groups**. Define the key components for meeting your business goals and objectives, and create buying groups that identify the members for your target account lists. [Learn more](../buying-groups/buying-groups-overview.md)
 
 1. **Create and manage assets**. Adobe Experience Manager Assets provides a single, centralized repository of assets that you can use to populate your messages. [Learn more](../content/assets-overview.md)
 

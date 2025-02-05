@@ -21,7 +21,7 @@ Use conditional content to adapt your email content based on conditional rules. 
 
 In an account journey, use the _Add to list_ action node to add people to a Marketo Engage static list. These lists give you full flexibility for repurposing and targeting specific audiences. You can build a list and then create a campaign around it, or add a person directly to an existing campaign. Additionally, use the _Remove from list_ people action to refine and change your targeting in Marketo Engage based on account journey progression.
 
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Learn about add to list and remove from list"}
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Learn about add to list and remove from list"}
 
 >[!TAB Central assets library]
 
