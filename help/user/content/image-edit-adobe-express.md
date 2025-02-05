@@ -19,7 +19,7 @@ Adobe Journey Optimizer B2B Edition integrates natively with Adobe Express, and 
 
 >[!NOTE]
 >
->Entitlements for Adobe Express editing features are included with all Journey Optimizer B2B Edition subscriptions. Using the image editing capabilities requires enablement for your organization by an administrator.
+>Entitlements for Adobe Express editing features are included with all Journey Optimizer B2B Edition subscriptions.
 
 The Adobe Express functions support PNG and JPEG image file formats.
 
@@ -55,7 +55,7 @@ _To modify an image:_
 
 ## Adobe Express Enterprise license
 
-If you have an Enterprise license for Adobe Express, you can access and use the Express editor. These editing capabilities include operations for image adjustments, such as color, brightness, sharpness, contrasts, and cropping. They also include _AI magic_ operations, such as remove backgrounds, insert and remove objects, and erasure for parts of the image. 
+If you have an Enterprise license for Adobe Express, you can access and use the Express editor. These editing capabilities include operations for image adjustments, such as color, brightness, sharpness, contrasts, and cropping. They also include _AI magic_ operations, such as remove backgrounds, insert and remove objects, and erase parts of the image. 
 
 >[!NOTE]
 >
