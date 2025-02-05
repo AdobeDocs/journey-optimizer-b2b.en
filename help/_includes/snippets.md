@@ -12,6 +12,13 @@ description: Reused notes and visual elements to note a feature or page applying
 >Intent data can also be included in the page when it is configured for your Journey Optimizer B2B Edition instance. For more information about the Intent Detection model and how to submit keywords, see [Intent Data](../user/admin/intent-data.md).
 >
 
+## AEM assets licensing note {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>Licenses for AEM Assets as a Cloud Service and Dynamic Media license are pre-requisites for the integration. You should ensure that [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} is enabled.<br/>
+>Depending on your contract and configuration, Adobe Experience Manager Assets as a Cloud Service can be accessed directly from Adobe Journey Optimizer B2B Edition when designing visual content.
+
 ## Content authoring - components - structures step {#structures-step}
 
 1. To start your content design, drag an item from the **[!UICONTROL Structures]** and drop it onto the canvas.
