@@ -30,7 +30,7 @@ Adobe Journey Optimizer B2B Edition can connect to Adobe Experience Manager Asse
 
 Learn more in the [Adobe Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview).
 
-{{#aem-assets-licensing-note}}
+{{aem-assets-licensing-note}}
 
 Access Adobe Experience Manager Assets directly within Journey Optimizer B2B Edition from the **[!UICONTROL Experience Manager Assets]** item in the content design left navigation. You can also access assets and folders when designing your email, email template, and visual fragment content.
 
