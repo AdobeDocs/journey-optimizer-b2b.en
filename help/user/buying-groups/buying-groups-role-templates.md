@@ -55,6 +55,14 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
 After you create the template, it opens in the workspace and you are prompted to define the roles. The first role card is displayed by default.
 
+Each role that you define for the template uses a set of filters, or _conditions_, to determine the members assigned to the role. Use the following filter types to define the conditions for a role:
+
+| Type | Condition |
+| ---- | --------- |
+| Person attributes | <li>Email address <li>Email invalid <li>Email suspended <li>Fax number <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Middle name <li>Mobile phone number <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
+| Special filters | Member of list |
+| Intent data | Category intent <li>Product intent <li>Keyword intent<br/>[Learn about intent data](../admin/intent-data.md).|
+
 1. For the first role card, define the role properties.
 
    * Choose the **[!UICONTROL Buying group role]** from the list.
@@ -67,7 +75,7 @@ After you create the template, it opens in the workspace and you are prompted to
 
       The value for each option is translated to a percentage for the score calculation: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] =  80, and [!UICONTROL Vital] = 100.
 
-      For example, a role template with roles using Vital, Important, and Normal, are then converted  as 100/240, 80/240, 60/240.
+      For example, a role template with roles using Vital, Important, and Normal, are then converted as 100/240, 80/240, 60/240.
 
    * **[!UICONTROL Add conditions for auto-assignment]** - Select this checkbox to add conditions for auto-assigning members to the buying group who match the condition. If the checkbox is not selected, then adding conditions is NOT required.
 
@@ -101,7 +109,7 @@ After you create the template, it opens in the workspace and you are prompted to
 
 In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your roles template to help eliminate duplication in buying group membership and journey activities.
    
-To do this, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space and complete the filter definition to evalute membership in one or more Marketo Engage lists.
+To use list membership as a role condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space. Then complete the filter definition to evaluate membership in one or more Marketo Engage lists.
 
 ![Roles template condition for Marketo Engage list membership](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
