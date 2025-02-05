@@ -132,7 +132,7 @@ Use this action to change the value of a [people profile attribute](../data/fiel
 
 +++[!UICONTROL Change Score]
 
-Use this action to change the score for people profiles. 
+Use this action to change the person score in Marketo Engage. [Learn more](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Take an action - Change score](./assets/node-action-change-score.png){width="300"}
 
@@ -156,7 +156,7 @@ Use this action to remove people profiles from a [buying group](../buying-groups
 
 +++[!UICONTROL Send email]
 
-Use this action to send an email. You can create, personalize, and preview email messages in the visual designer (see [Email authoring](../content/email-authoring.md)). You can also send an [email from Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email). Select the Marketo Engage workspace and then select the email to send.
+Use this action to send an email. You can create, personalize, and preview email messages in the visual designer (see [Email authoring](../content/email-authoring.md)). You can also send an [email from Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Select the Marketo Engage workspace and then select the email to send.
 
 ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
