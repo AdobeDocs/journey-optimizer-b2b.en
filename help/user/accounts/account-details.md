@@ -1,7 +1,8 @@
 ---
 title: Account Details
-description: Learn about accessing detailed information and generative AI summaries for accounts in Journey Optimizer B2B Edition. 
+description: Learn about accessing detailed information and generative AI summaries for accounts in Journey Optimizer B2B Edition.
 feature: Account Insights
+exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
 ---
 # Account details
 

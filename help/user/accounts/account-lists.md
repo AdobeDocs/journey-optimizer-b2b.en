@@ -1,6 +1,7 @@
 ---
 title: Account Lists
 description: Learn about account lists and how Marketers can use them to target accounts through account journeys.
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
 ---
 # Account Lists
 
@@ -226,4 +227,3 @@ For example, you might have a journey path where you send an email and some acco
 1. For **[!UICONTROL Select live static account list]**, choose the account list where you want to remove accounts.
 
    ![Select Add to account list](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
- 

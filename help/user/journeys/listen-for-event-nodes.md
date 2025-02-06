@@ -2,6 +2,7 @@
 title: Listen for an Event
 description: Learn about the Listen for an event node type that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
 feature: Account Journeys
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 ---
 # Listen for an event
 
@@ -168,6 +169,3 @@ If needed, define the amount of time the journey waits for the event. The journe
 1. To create a new path in the journey where you can add actions and events applicable to accounts when the event does not occur, select the **[!UICONTROL Set timeout path]** check box.
 
    ![Journey event node - set timeout path](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
-
-
-

@@ -2,6 +2,7 @@
 title: Buying Group Filters in Market Engage
 description: Learn about using buying group membership for defining filters in Marketo Engage Smart Lists.
 feature: Buying Groups
+exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
 ---
 # Buying group filters in Market Engage
 

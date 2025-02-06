@@ -2,6 +2,7 @@
 title: Split and Merge Paths
 description: Learn about the split paths and merge paths node types that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
 feature: Account Journeys
+exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 ---
 # Split and merge paths
 

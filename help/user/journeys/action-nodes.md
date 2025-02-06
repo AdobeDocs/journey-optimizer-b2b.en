@@ -2,6 +2,7 @@
 title: Take an Action
 description: Learn about the Take an action node type that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
 feature: Account Journeys
+exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
 ---
 # Take an action
 

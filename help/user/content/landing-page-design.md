@@ -5,6 +5,7 @@ feature: Content
 hide: yes
 hidefromtoc: yes
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 ---
 # Landing page design
 

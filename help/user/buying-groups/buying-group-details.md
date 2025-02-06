@@ -1,7 +1,8 @@
 ---
 title: Buying Group Details
-description: Learn about accessing detailed information and generative AI summaries for buying groups in Journey Optimizer B2B Edition. 
+description: Learn about accessing detailed information and generative AI summaries for buying groups in Journey Optimizer B2B Edition.
 feature: Buying Groups
+exl-id: f14301dc-d605-4ed2-8867-6a49675019de
 ---
 # Buying group details
 

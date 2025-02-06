@@ -1,6 +1,7 @@
 ---
 title: Export Account List
 description: Learn how to export the account list based on buying groups filter.
+exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 ---
 # Export account list
 
