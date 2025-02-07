@@ -73,7 +73,7 @@ To engage with the data, use the the **...** menu at the top-right of each chart
 
 Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual group scores or distributions. 
 
-![The drill through to access the graph data](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
+![Drill through to access the graph data](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
 
 The global filters applied to the dashboard are carried over. Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) ) icon at the top left to [change the attribute filters](#filter-the-data) for the drill-through view.
 
