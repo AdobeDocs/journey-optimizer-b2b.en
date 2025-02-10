@@ -64,6 +64,6 @@ The applied global filters are carried over to the view and displayed at the top
 
 Choose **[!UICONTROL View more]** to access extended data. The displayed pop-up provides a breakdown of the data. 
 
-To download the data, click **[!UICONTROL Download CSV]** at the top right.
+![View extended data](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
-![View extended data](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}
+To download the data, click **[!UICONTROL Download CSV]** at the top right of the data table. To return to the _Overview_ dashboard, click **[!UICONTROL Close]**.

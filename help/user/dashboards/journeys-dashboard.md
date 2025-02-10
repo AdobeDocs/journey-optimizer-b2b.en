@@ -44,8 +44,8 @@ You can click the _More_ (**...**) menu at the top-righ and choose **[!UICONTROL
 
 Choose **[!UICONTROL View more]** to view extended data and insights.
 
-![View extended data](./assets/journey-email-performance-view-more.png){width="700" zoomable="yes"}
+![View extended data](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
 
 The displayed pop-up includes a chart and a table that show the breakdown of the journey data.
 
-To download the data, click **[!UICONTROL Download CSV]** at the top right of the data table. To return to the Overview dashboard, click **[!UICONTROL Close]**.
+To download the data, click **[!UICONTROL Download CSV]** at the top right of the data table. To return to the _Overview_ dashboard, click **[!UICONTROL Close]**.
