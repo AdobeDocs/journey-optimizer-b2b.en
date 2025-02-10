@@ -5,7 +5,7 @@ feature: Buying Groups
 ---
 # Buying group details
 
-When you click a buying group name from anywhere in Journey Optimizer B2B Edition, the buying group details are displayed. This information provides useful information about the buying group, including generative AI summaries.
+When you click a buying group name from anywhere in Journey Optimizer B2B Edition, the buying group details are displayed. This overview provides useful information about the buying group, including generative AI summaries.
 
 ![Access the buying group details](./assets/buying-group-details.png){width="800" zoomable="yes"}
 

@@ -13,7 +13,7 @@ The Sales handoff comprises:
 * **Data handoff**: Marketing identifies _ready_ target data and makes it accessible to Sales in the CSV format. 
 * **Sales acceptance**: Sales manually reviews and incorporates _ready_ targets into their pipeline.
 
-You can access this dashboard by expanding  **[!UICONTROL Accounts]** in the left navigation and then clicking **[!UICONTROL Buying groups]**. Select the **[!UICONTROL Overview]** tab if it is not displayed by default.
+To access this dashboard, expand **[!UICONTROL Accounts]** in the left navigation and then select **[!UICONTROL Buying groups]**. Select the **[!UICONTROL Overview]** tab if it is not displayed by default.
 
 ![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -38,7 +38,7 @@ To view more detailed information, click the **...** menu icon at the top right.
 
 ## Buying group engagement score distribution
 
-This visualization illustrates the distribution of buying groups based on their engagement scores, and is categorized into four distinct score bands. The central figure represents the total number of buying groups, and provides a quick snapshot of overall progress. The segmented colors indicate the proportion of buying sroups within each score range, which allows you to assess completion trends at a glance.
+This visualization illustrates the distribution of buying groups based on their engagement scores, and is categorized into four distinct score bands. The central figure represents the total number of buying groups, and provides a quick snapshot of overall progress. The segmented colors indicate the proportion of buying groups within each score range, which allows you to assess completion trends at a glance.
 
 To view more detailed information, click the **...** menu icon at the top right.
 
@@ -46,7 +46,7 @@ To view more detailed information, click the **...** menu icon at the top right.
 
 ## Buying groups by solution interest
 
-This visualization illustrates the distribution of buying groups by solution interest, and helps you to identify which solutions generate the most interest. Each bar represents a specific solution, with its length indicating the number of buying groups associated with that interest. This  bar chart provides a clear and immediate understanding of solution demand trends.
+This visualization illustrates the distribution of buying groups by solution interest, and helps you to identify which solutions generate the most interest. Each bar represents a specific solution, with its length indicating the number of buying groups associated with that interest. This bar chart provides a clear and immediate understanding of solution demand trends.
 
 To view more detailed information, click the **...** menu icon at the top right. Choose **Drill through** or **View More**.
 
@@ -67,7 +67,7 @@ Select as many values for each attribute that you want to use to filter the data
 
 ## Engage with the data
 
-To engage with the data, use the the **...** menu at the top-right of each chart. 
+To engage with the data, use the _More_ (**...**) menu at the top-right of each chart. 
 
 ### [!UICONTROL Drill through]
 
@@ -77,7 +77,7 @@ Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual gro
 
 The global filters applied to the dashboard are carried over. Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) ) icon at the top left to [change the attribute filters](#filter-the-data) for the drill-through view.
 
-You can click **...** menu at the top-righ and choose **[!UICONTROL View more]** to [view extended data and insights](#view-more).
+You can click the _More_ (**...**) menu at the top-righ and choose **[!UICONTROL View more]** to [view extended data](#view-more).
 
 ### [!UICONTROL View more]
 
@@ -85,6 +85,6 @@ Choose **[!UICONTROL View more]** to view extended data and insights.
 
 ![View extended data](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
 
-The displayed pop-up includes a chart and a table that show the breakdown of the buying group distribution. :
+The displayed pop-up includes a chart and a table that show the breakdown of the buying group distribution.
 
-To download the data, click **[!UICONTROL Download CSV]** at the top right of the data table. To return to the Overview dashboard, click **[!UICONTROL Cose]**.
+To download the data, click **[!UICONTROL Download CSV]** at the top right of the data table. To return to the Overview dashboard, click **[!UICONTROL Close]**.
