@@ -1,10 +1,10 @@
 ---
-title: Journeys Overview Dashboard
+title: Account Journeys Overview Dashboard
 description: Learn about the information provided by the Journey Overview dashboard and how it can help you monitor and manage your account journey strategy.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 ---
-# Journeys Overview dashboard
+# Account Journeys Overview dashboard
 
 This dashboard provides a comprehensive overview of your active account journeys, detailing account progress using circle and bar charts that categorize and quantify completions, and engagement activities. It helps Marketers evaluate the effectiveness of Email and SMS channels through key delivery and engagement metrics.
 
