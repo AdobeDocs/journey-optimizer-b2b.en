@@ -18,7 +18,7 @@ To access the _Engagement dashboard_, select the **[!UICONTROL Dashboard]** item
 
 The circle charts divide accounts, buying groups, or people into engaged and non-engaged categories. The central figure displays the total count within each category, providing an at-a-glance understanding of overall engagement.
 
-![Engagement by accounts and by people](assets/engagement-accounts.png){width="700" zoomable="yes"}
+![Engagement by accounts and by people](assets/engagement-accounts.png){width="500"}
 
 ## Accounts / buying groups / people engaged over time 
 
