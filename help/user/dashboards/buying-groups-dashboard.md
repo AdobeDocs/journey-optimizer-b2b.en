@@ -77,7 +77,7 @@ Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual gro
 
 The global filters applied to the dashboard are carried over. Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) ) icon at the top left to [change the attribute filters](#filter-the-data) for the drill-through view.
 
-You can click the _More_ (**...**) menu at the top-righ and choose **[!UICONTROL View more]** to [view extended data](#view-more).
+You can click the _More_ (**...**) menu at the top-right and choose **[!UICONTROL View more]** to [view extended data](#view-more).
 
 ### [!UICONTROL View more]
 
