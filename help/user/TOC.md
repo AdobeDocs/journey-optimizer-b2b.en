@@ -15,6 +15,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Use AI Assistant](./start/ai-assistant.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
+    + [Journey details](./journeys/journey-details.md)
     + [Journey node](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
        + [Account audience](./journeys/account-audience-nodes.md)
@@ -42,6 +43,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
        + [Buying group filters in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
     + [Account lists](./accounts/account-lists.md)
+    + [Account details](./accounts/account-details.md)
     + [XDM fields](./data/field-mapping.md)
 + Content management {#content-management}
    + Assets {#assets}
@@ -64,10 +66,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + [Conditional content](./content/conditional-content.md)
 + Insights dashboards {#dashboards}
     + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
-    + [Account details](./accounts/account-details.md)
-    + [Buying Groups Overview](./dashboards/buying-groups-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
-    + [Journey Overview](./dashboards/journeys-dashboard.md)
+    + [Buying Groups Overview](./dashboards/buying-groups-dashboard.md)
+    + [Account Journeys Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [User management](./admin/user-management.md)
     + [Intent data](./admin/intent-data.md)
