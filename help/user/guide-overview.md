@@ -11,39 +11,37 @@ Here is a sampling of the latest enhancements in the Journey Optimizer B2B Editi
 
 >[!BEGINTABS]
 
+>[!TAB Intelligent insights dashboard]
+
+With the new Intelligent dashboard, you can see the progression of buying group qualification across stages. Know which buying groups are moving quickly and which are stagnant so that you can curate journeys to nurture them as needed. You also have details at the buying group and account level, which provides more context and historical data for customer engagement.
+
+[!BADGE Learn more]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="Learn about the Intelligent Dashboard"}
+
+>[!TAB Adobe Express image editing]
+
+Use the Adobe Express Quick Actions to touch up your content with cropping, resizing, background removal, and format conversion. The intuitive Adobe Express UI is built in so that you can quickly fine-tune your image assets. 
+
+With Adobe Express Enterprise licensing, you can leverage a full suite of Adobe Express capabilities. Use these fetaures to polish and enhance images, while sticking to brand guidelines, and remove roadblocks in the content supply chain.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Learn about image editing with Adobe Express"}
+
+>[!TAB AEP event forwarding]
+
+Administrators can now configure Adobe Experience Platform (AEP)-based event definitions. These configurations enable Marketers to create account journeys that react to AEP Experience Events. 
+
+[!BADGE Learn more]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Learn about AEP event definitions used for journey orchestration"}
+
+>[!TAB Buying group filters for smart lists]
+
+You can now view and create smart lists with buying group filters in Marketo Engage. These filters allow you to suppress and include buying group members across Marketo Engage campaigns and programs from account journeys within Journey Optimizer B2B Edition.
+
+[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Learn about buying groups filters used in Marketo Engage smart lists"}
+
 >[!TAB Conditional content]
 
 Use conditional content to adapt your email content based on conditional rules. Define the rules using profile attributes or contextual events. You can create conditional rules in the rule builder, and you can store them for reuse across your account journeys.
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Learn about conditional content"}
-
->[!TAB People action - Add to/remove from list]
-
-In an account journey, use the _Add to list_ action node to add people to a Marketo Engage static list. These lists give you full flexibility for repurposing and targeting specific audiences. You can build a list and then create a campaign around it, or add a person directly to an existing campaign. Additionally, use the _Remove from list_ people action to refine and change your targeting in Marketo Engage based on account journey progression.
-
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Learn about add to list and remove from list"}
-
->[!TAB Central assets library]
-
-Use the image assets in your Marketo Engage instance, across Design Studio workspaces. Built-in guardrails prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition. These protections ensure that the Marketo Engage source assets are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition. For assets that are exclusively for use in Journey Optimizer B2B Edition, a specific workspace provides full asset management functions. 
-
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Learn about central asset management"}
-
->[!TAB LinkedIn Account Matched Audiences]
-
-Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration.
-
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Learn about LinkedIn Account Matched Audiences"}
-
->[!TAB AI Assistant]
-
-Quickly get up to speed with account-based marketing concepts and learn about the Journey Optimizer B2B Edition features that are designed to maximize your team's strategies.
-
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Learn about AI Assistant"}
-
-Elevate your content to the next level with AI Assistant for email content in Adobe Journey Optimizer B2B Edition, powered by generative AI. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and even images specifically tailored to resonate with your audience.
-
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Learn about AI Assistant for email"}
 
 >[!ENDTABS]
 
