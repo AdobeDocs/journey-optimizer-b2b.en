@@ -11,6 +11,27 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## January 2025 release notes {#Jan-2025}
+
+**Release date**: February 6, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| New feature | Experience Event forwarding | Administrators can configure Adobe Experience Platform (AEP)-based event definitions. These configurations enable Marketers to create account journeys that react to AEP Experience Events.  <a href="../admin/configure-aep-events.md">Learn more</a> |
+| New feature | Paid media destinations | Qualify known people for paid media campaigns from an account journey so that you can further engage them on advertising platforms, such as LinkedIn. Use a split paths node in an account journey to segment account audiences based on specific behavior and identify accounts that warrant additional engagement. Then, add people from those accounts to an external customer audience through Real-time CDP to a supported paid media destination. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Learn more</a> |
+| New feature | Intelligent dashboard | View the progression of buying groups through their account journeys, including AI-generated insights for more intelligent analysis and accurate account prioritization. <a href="../dashboards/intelligent-dashboard.md">Learn more</a>|
+| New feature | Buying group and account details | View insights at the buying group and account-level to have more context and historical data when you start engaging with a customer.<p>The buying group details include any first-party intent that is detected. <a href="../buying-groups/buying-group-details.md">Learn more</a><p>The account details accounts highlight the surge in engagement detected intent, so that you can alert sales on accounts that are ready for customized sales focused engagement.  <a href="../accounts/account-details.md">Learn more</a>|
+| New feature | Journeys overview | When you access account journeys, the Overview tab provides a comprehensive snapshot of your active account journeys, detailing account progress using circle and bar charts that categorize and quantify completions, and engagement activities.  <a href="../dashboards/journeys-dashboard.md">Learn more</a>|
+| New feature | Adobe Express image editing | Adobe Express Quick Actions allow you to make simple edits (such as cropping and resizing) to images for a more polished look in your content. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">Learn more</a>  <p>For a more comprehensive set of design tools, this integration enables a full Adobe Express license into Journey Optimizer B2B Edition. With this setup, the complete Adobe Express user interface becomes accessible within the local asset workspace. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">Learn more</a> |
+| New feature | Intent filters for buying group roles | When you submit your intent keywords, the Intent Detection model predicts a solution/product of interest with high enough confidence based on a lead's activity. <a href="../admin/intent-data.md">Learn more</a> <p>This intent data is available for defining buying group role conditions <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Learn more</a> |
+| Enhancement | Marketo Engage event support in journeys | The _Listen for Event_ journey node now support two Marketo Engage events at the people level: _Visits web page_ and _Fills out form_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Learn more</a>|
+| Enhancement | Buying group filters for Marketo Engage smart lists | View and create smart lists with buying group filters in Marketo Engage. These added filters allow you to suppress and include buying group members across Marketo Engage campaigns and programs from account journeys within Journey Optimizer B2B Edition. <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">Learn more</a>|
+| Enhancement | Marketo Engage list membership filter for journeys and roles | In Journey Optimizer B2B, check for Marketo Engage list membership as a condition for a _split path by people_ node to help eliminate duplication in journey activities. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Learn more</a> <p> For buying group roles templates, use list membership as a role condition. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Learn more</a>|
+| Enhancement | Engagement overview dashboard | This dashboard is updated to provide a comprehensive view of engagement. It showcases real-time metrics of account and individual interactions through snapshot circle charts and trend-revealing line charts over time. <a href="../dashboards/engagement-dashboard.md">Learn more</a>|
+
+
 ## October 2024 release notes {#Oct-2024}
 
 **Release date**: October 29, 2024
