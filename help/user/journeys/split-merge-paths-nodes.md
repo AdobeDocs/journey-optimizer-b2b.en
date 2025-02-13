@@ -8,6 +8,8 @@ exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 
 Use split and merge path nodes in your account journey to orchestrate your account journeys. You can segment the audience according to conditions that you define and combine the segments to proceed. 
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
+
 ## Split paths
 
 Add a _Split paths_ node to define one or more segmented paths based on account or people attributes.
@@ -180,3 +182,7 @@ Add a _Merge paths_ node to combine different split paths by account in your jou
    At this point, the paths are merged so that accounts from the selected paths combine to a single path that can continue to progress through the journey.
 
 1. If needed, you can unmerge paths by navigating back to the merge paths node properties and clearing the checkbox for any paths that you want to remove.
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

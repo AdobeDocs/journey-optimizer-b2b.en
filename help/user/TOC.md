@@ -15,14 +15,15 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Use AI Assistant](./start/ai-assistant.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
-    + [Journey details](./journeys/journey-details.md)
-    + [Journey node](./journeys/journey-nodes.md)
+    + [Create and publish a journey](./journeys/create-publish-journey.md)
+    + [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
        + [Account audience](./journeys/account-audience-nodes.md)
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
        + [Wait](./journeys/wait-nodes.md)
+    + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
     + Email channel {#email-channel}
        + [Email authoring](./content/email-authoring.md)

@@ -11,6 +11,8 @@ Build and execute journeys that are tailored for each buying group and buying gr
 
 Define sales-driven engagement that includes email, SMS, and more inside account journeys to coordinate inbound marketing with outbound sales activities for each buying group member.
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
+
 ## Access and browse account journeys
 
 1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
@@ -68,100 +70,12 @@ The status of a Journey changes based on the actions that you apply. Based on th
 
 ## Get started with a journey
 
-To get started with an account journey, create the journey and then construct the nodes and journey flow in the journey editor.
+To get started with account journeys:
 
-### Create an account journey
+1. [Create a journey](./create-publish-journey.md#create-an-account-journey).
+1. [Add the nodes](./create-publish-journey.md#add-a-node) and [define the journey flow](./create-publish-journey.md#add-and-delete-a-path) in the journey map.
+1. [Publish the journey](./create-publish-journey.md#publish-an-account-journey).
 
-1. On the left navigation, click **[!UICONTROL Account journeys]**.
+## Overview video
 
-1. Click **[!UICONTROL Create Account Journey]** at the top-right of the page.
-
-1. In the dialog, enter a unique **[!UICONTROL Name]** (required) and **[!UICONTROL Description]** (optional).
-
-   ![Create Account Journey dialog](./assets/account-journey-create-dialog.png){width="400"}
-
-1. Click **[!UICONTROL Create]**.   
-
-### Building blocks of a journey
-
-The _journey map_ is the central zone in the journey designer. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design. An account journey always starts with an [Account Audience node](./account-audience-nodes.md) where you can add input to your journey.
-
-After you create an account journey and add the audience, build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases using the following node types to construct an account journey:
-
-* [Take an action](./action-nodes.md)
-* [Listen for an event](./listen-for-event-nodes.md)
-* [Split paths](./split-merge-paths-nodes.md)
-* [Wait](./wait-nodes.md)
-* [Merge paths](./split-merge-paths-nodes.md)
-
-### Guardrails
-
-To help you build a journey without running into errors, the following guard rails are in place:
-
-* _Deleting a Split path node_: You cannot delete a node without deleting all subsequent nodes in each path.
-* _Deleting a Merge node_: A merge node can be deleted only when there is one path connected to it. To delete a merge node, leave only one path selected.
-* _Switching between account and people_: You cannot change the selection from accounts to people without deleting all subsequent nodes in each path.
-
-### Add a node
-
-1. Navigate to the journey editor.
-
-1. Click the plus ( **+** ) icon on the path and select the node type.
-
-1. Set the node properties on the right.
-
-### Delete a node
-
-1. Navigate to the journey editor.
-
-1. In the node properties on the right, click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon.
-
-1. In the conformation dialog, click **[!UICONTROL Delete]**.
-
-### Add and delete a path
-
-1. Navigate to the journey editor.
-
-1. Click the plus ( **+** ) icon on the path and add the [split path node](./split-merge-paths-nodes.md#split-paths).
-
-1. In the node properties on the right, select **[!UICONTROL Account]**.
-
-1. To add more paths, click **[!UICONTROL Add path]**.
-
-   With each path that is created in the journey, a new path card appears in the properties.
-
-1. Navigate to one of the paths in the journey and add [action](./action-nodes.md) or [event](./listen-for-event-nodes.md) nodes to this path using the plus icon.
-
-1. Select the [split path](./split-merge-paths-nodes.md) node to open the properties on the right.
-
-   The paths that have nodes on them cannot be deleted.
-
-1. To delete these paths, you must delete all the nodes on that path first.
-
-### Schedule a journey
-
-When you publish a journey, it can start immediately or on a scheduled future date. The end date can be a maximum of three years from the start date. After a journey is published (_Live_ status), you can update the end date of the journey but not the start date.
-
-1. Navigate to the journey editor.
-
-1. Schedule your journey by clicking [!UICONTROL Journey settings] in the header.
-
-1. In the dialog, set the schedule options:
-
-   * Chose a schedule type.
-   
-      To activate the journey at publish time, choose **[!UICONTROL Immediately]**.
-
-      To activate the journey on a future date, choose **[!UICONTROL On a specific date]** and click the _Calendar_ icon to select the date.
-
-      ![Journey settings dialog](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
-   
-   * Specify the **[!UICONTROL End date]** for the journey. It can be a maximum of three years from the start date (this field is required).
-
-1. Click **[!UICONTROL Save]**.
-
-   When you are ready to publish your journey, you can review these settings when you click _[!UICONTROL Publish]_.
-
-### Publish an account journey
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

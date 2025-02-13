@@ -6,7 +6,9 @@ exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
 ---
 # Take an action
 
-In your account journey, you can add a _[!UICONTROL Take an action]_ node to execute an action, such as send an email, change a score, assign to a buying group, and so on. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action. 
+In your account journey, you can add a _[!UICONTROL Take an action]_ node to execute an action, such as send an email, change a score, assign to a buying group, and so on. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
 ## Account actions
 
@@ -212,3 +214,7 @@ Use this action to remove people from a [Smart List](https://experienceleague.ad
 If the person profile was not a member of the Smart List, the action is ignored.
 
 +++
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
