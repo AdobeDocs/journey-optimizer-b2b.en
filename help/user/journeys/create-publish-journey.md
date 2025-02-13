@@ -2,6 +2,7 @@
 title: Create and Publish an Account Journey
 description: Learn how you to create and publish account journeys.
 feature: Account Journeys
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
 ---
 # Create and publish an account journey
 
