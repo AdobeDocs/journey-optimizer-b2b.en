@@ -8,9 +8,11 @@ exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 
 Add the _Listen for an event_ node to move your audience forward to the next step in the account journey when an event occurs.
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
+
 >[!NOTE]
 >
->You cannot add this node type on split path by people. 
+>You cannot add this node type on split path by people.
 
 ## Account events
 
@@ -169,3 +171,7 @@ If needed, define the amount of time the journey waits for the event. The journe
 1. To create a new path in the journey where you can add actions and events applicable to accounts when the event does not occur, select the **[!UICONTROL Set timeout path]** check box.
 
    ![Journey event node - set timeout path](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
