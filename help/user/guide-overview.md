@@ -19,7 +19,7 @@ With the new Intelligent dashboard, you can see the progression of buying group 
 
 >[!TAB Adobe Express image editing]
 
-Use the Adobe Express Quick Actions to touch up your content with cropping, resizing, background removal, and format conversion. The intuitive Adobe Express UI is built in so that you can quickly fine-tune your image assets. 
+Use the Adobe Express Quick Actions to touch up your content with cropping, resizing, background removal, and format conversion. The intuitive Adobe Express UI is built in so that you can quickly fine-tune your image assets.
 
 With Adobe Express Enterprise licensing, you can leverage a full suite of Adobe Express capabilities. Use these fetaures to polish and enhance images, while sticking to brand guidelines, and remove roadblocks in the content supply chain.
 
@@ -27,7 +27,7 @@ With Adobe Express Enterprise licensing, you can leverage a full suite of Adobe 
 
 >[!TAB AEP event forwarding]
 
-Administrators can now configure Adobe Experience Platform (AEP)-based event definitions. These configurations enable Marketers to create account journeys that react to AEP Experience Events. 
+Administrators can now configure Adobe Experience Platform (AEP)-based event definitions. These configurations enable Marketers to create account journeys that react to AEP Experience Events.
 
 [!BADGE Learn more]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Learn about AEP event definitions used for journey orchestration"}
 
