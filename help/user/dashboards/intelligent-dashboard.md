@@ -24,13 +24,17 @@ The Intelligent Dashboard also provides access to account and buying group detai
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Buying group stages"
->abstract="This chart provides an overview of buying group progression across different stages based on the configured transition rules. The first bar indicates the number of buying groups in a specific stage on the first date of the chosen time frame in comparison to the number of buying groups on the last date of the chosen time frame."
+>abstract="This chart provides an overview of buying group progression across different stages based on the configured transition rules. The first bar indicates the number of buying groups in a specific stage on the first date of the selected time frame in comparison to the last date of the selected time frame."
 
 The _[!UICONTROL Buying Group Stages]_ chart provides an overview of buying group progression across different stages ([based on transition rules set up by an administrator](../buying-groups/buying-group-stages.md)).
 
+>[!NOTE]
+>
+>Availability of buying group stages requires configuration of the buying group stages. See [Buying group stages](../buying-groups/buying-group-stages.md) for detailed information about stages and how to define and enable stages for buying groups.
+
 ![Buying group stages data visualization](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
-The chart uses the buying group stages from the most recently published version of the buying group stages model. Each stage is reflected by two bars. The first bar indicates the number of buying groups on the first date of the selected time frame. And the second (in comparison) is the number of buying groups on the last date of the time frame. You can hover over each bar to see the number of buying groups in each stage.
+The chart uses the buying group stages from the most recently published version of the buying group stages model. There are two bars for each stage. The first bar indicates the number of buying groups on the first date of the selected time frame. And the second (in comparison) is the number of buying groups on the last date of the time frame. You can hover over each bar to see the number of buying groups in each stage.
 
 ![Hover over the bar to view detailed numbers](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
 
@@ -44,7 +48,7 @@ The generated summary provides an overview of buying group progression across di
 
 ### Time period {#time-period-stages}
 
-Use the date filter at the top right to change the date range for the data visualizations. Click down arrow to set a relative date range, or to set custom start and end dates. 
+Use the date filter at the top right to change the date range for the data visualizations. Click the down arrow to set a relative date range, or to set custom start and end dates. 
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -97,6 +101,8 @@ Each card includes the following data:
    * The details popup displays the category name with intent level at the top.
    * The data for each row is organized in columns: the product name, product intent strength, and top keywords by intent strength.
    * The sort order is high to low for category, product, and keywords. If one or more of each type has the same intent strength, the sort uses alphabetical order.
+
+   {{intent-data-note}}
    
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page.
 
@@ -112,7 +118,7 @@ Click the _Filter_ ( ![Edit icon](../assets/do-not-localize/icon-filter.svg) ) i
 
 ### Time period {#time-period-bg-highlights}
 
-Use the date filter at the top right to change the date range for the data visualizations. Click down arrow to set a relative date range, or to set custom start and end dates. 
+Use the date filter at the top right to change the date range for the data visualizations. Click the down arrow to set a relative date range, or to set custom start and end dates. 
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -124,6 +130,10 @@ Use the date filter at the top right to change the date range for the data visua
 >abstract="Accounts with significant change in engagement momentum within the selected time frame."
 
 The _[!UICONTROL Surging accounts]_ section displays a visualization of the accounts with a significant change in engagement momentum within the selected time frame.
+
+>[!NOTE]
+>
+>Account surge data is limited to accounts that were ingested by Journey Optimizer B2B Edition in an account audience through account journeys or buying groups.
 
 ![Account surge data visualization](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -147,7 +157,7 @@ Click the _Filter_ ( ![Edit icon](../assets/do-not-localize/icon-filter.svg) ) i
 
 ### Time period {#time-period-acct-surge}
 
-Use the date filter at the top right to change the date range for the data visualizations. Click down arrow to set a relative date range, or to set custom start and end dates. 
+Use the date filter at the top right to change the date range for the data visualizations. Click the down arrow to set a relative date range, or to set custom start and end dates. 
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -165,6 +175,10 @@ Use the date filter at the top right to change the date range for the data visua
 
 The _[!UICONTROL Buying group highlights]_ section is organized into two rows to surface information about the accounts of interest to your organization.
 
+>[!NOTE]
+>
+>Account highlight data is limited to accounts that were ingested by Journey Optimizer B2B Edition in an account audience through account journeys or buying groups.
+
 ![Account highlights](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **Surging accounts** - This row displays the accounts with a significant increase in engagement momentum over the selected time frame.
@@ -181,6 +195,8 @@ Each card includes the following data:
    * The details popup displays the category name with intent level at the top.
    * The data for each row is organized in columns: the product name, product intent strength, and top keywords by intent strength.
    * The sort order is high to low for category, product, and keywords. If one or more of each type has the same intent strength, the sort uses alphabetical order.  
+
+   {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
@@ -195,7 +211,7 @@ Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) )
 
 ### Time period {#time-period-acct-highlights}
 
-Use the date filter at the top right to change the date range for the data visualizations. Click down arrow to set a relative date range, or to set custom start and end dates. 
+Use the date filter at the top right to change the date range for the data visualizations. Click the down arrow to set a relative date range, or to set custom start and end dates. 
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -207,6 +223,10 @@ Use the date filter at the top right to change the date range for the data visua
 >abstract="Displays the number of contacts with a specific role associated with a solution interest. Assignment of role and solution interest is based on the buying group template."
 
 The _[!UICONTROL Contact coverage]_ section displays a visualization of the number of contacts with a specific role associated with a solution interest. Assignment of role and solution interest is based on the buying group template.
+
+>[!NOTE]
+>
+>Contact coverage data is based on the buying groups that are created in the Journey Optimizer B2B Edition instance.
 
 ![Account surge data visualization](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -235,6 +255,10 @@ Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) )
 >abstract="List of contacts who are part of more than one buying group as a result of being associated with multiple solution interests."
 
 The _[!UICONTROL Contact overlap]_ section displays a list of contacts who are part of more than one buying group as a result of being associated with multiple solution interests.
+
+>[!NOTE]
+>
+>Contact overlap data is based on the buying groups that are created in the Journey Optimizer B2B Edition instance.
 
 ![Contact overlap table](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 
