@@ -60,9 +60,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 >[!ENDSHADEBOX]-->
 
->[!NOTE]
->
->An Admin Console system administrator or Marketo Engage product administrator can perform these steps.
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or Marketo Engage product administrator can perform the following steps.
 
 1. Log in to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -82,9 +80,7 @@ A user group is a collection of users are granted a shared set of permissions. Y
 
 For more information about how user groups are used to manage permissions, see [Manage user groups](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} in the Admin Console documentation.
 
->[!NOTE]
->
->An Admin Console system administrator can perform these steps.
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator can perform the following steps.
 
 1. Log in to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -113,11 +109,9 @@ For more information about how user groups are used to manage permissions, see [
 
 ## Add users to a group
 
->[!NOTE]
->
->An Admin Console system administrator can perform these steps.
-
 For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
+
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or product administrator can perform the following steps. A product administrator can add only users that already exist in their organization. 
 
 1. Go to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -218,9 +212,7 @@ _To change the permissions for a role:_
 
 ### Add users to a role
 
->[!NOTE]
->
->An Admin Console system administrator can perform these steps.
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
 1. Open the role details and select the **[!UICONTROL Users]** tab.
 
@@ -242,11 +234,9 @@ _To change the permissions for a role:_
 
 ### Add user groups to a role
 
->[!NOTE]
->
->An Admin Console system administrator can perform these steps.
-
 For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
+
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
 1. Open the role details and select the **[!UICONTROL User groups]** tab.
 
@@ -268,9 +258,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
 ## Create a custom role
 
->[!NOTE]
->
->An Admin Console system administrator can perform these steps. 
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
 1. Select **[!UICONTROL Roles]** in the left navigation and select **[!UICONTROL Create role]**.
 
