@@ -21,6 +21,13 @@ This section presents two completion metrics:
 * **[!UICONTROL Journey status]** - This circle chart offers a breakdown of journey statuses by categorizing accounts into _Completed_, _In Progress_, and _Aborted_. Each segment is labeled with corresponding percentages and account numbers on the outer edge of the chart.
 * **[!UICONTROL Journey completion over time]** - This line chart tracks the number of accounts that have completed their journey over time. The horizontal axis maps the timeline while the vertical axis quantifies the accounts, providing a straightforward view of completion trends.
 
+## Journey engagement
+
+This section presents two completion metrics:
+
+* **[!UICONTROL Engagement by accounts]** - This circle chart segments the accounts in a journey into _Engaged_ and _Not engaged_ categories. The central figure displays the total count. This visualization provides an at-a-glance understanding of overall account engagement.
+* **Engagement by people** - This visualization displays the total number of people qualified as _engaged_ in a journey.
+
 ## Journey performance
 
 This section presents two vital metrics:
