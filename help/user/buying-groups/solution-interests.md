@@ -77,7 +77,7 @@ At any time, you can change the name and description for a solution interest. Th
 
 1. If needed, change the **[!UICONTROL Update existing buying groups]** setting.
 
-   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 24-hour sync cycle.
+   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 7-day sync cycle.
 
 1. Click **[!UICONTROL Save]**.
 
