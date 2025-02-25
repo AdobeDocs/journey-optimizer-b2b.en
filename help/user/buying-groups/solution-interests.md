@@ -1,12 +1,12 @@
 ---
 title: Solution Interests
-description: Learn about solution interests and how you can define them for use within your Buying Groups.
+description: Learn about solution interests and how you can define them for use within your buying groups.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
 ---
 # Solution interests
 
-Before you create Buying Groups, you should know what you are selling and who you want to target. Your Marketing and Sales strategy should be aligned so that you can add the Solution Interest for the Buying Groups.
+Before you create buying groups, you should know what you are selling and who you want to target. Your marketing and sales strategy should be aligned so that you can add the solution interest for the buying groups.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -16,17 +16,17 @@ Before you create Buying Groups, you should know what you are selling and who yo
 
 1. On the left navigation, click **[!UICONTROL Buying Groups]**.
 
-1. In the Buying Groups page, select the **[!UICONTROL Solution interest]** tab.
+1. In the _[!UICONTROL Buying Groups]_ page, select the **[!UICONTROL Solution interest]** tab.
 
    ![Solution Interest tab](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   The tab provides an inventory list of all existing solution interests. It provides information as _[!UICONTROL Name]_, _[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_, _[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_, _[!UICONTROL Created on]_, and _[!UICONTROL Created by]_ in column format.
+   The tab provides an inventory list of all existing solution interests. It provides the following information in column format: _[!UICONTROL Name]_, _[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_, _[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_, _[!UICONTROL Created on]_, and _[!UICONTROL Created by]_
 
    The list is sorted by the _[!UICONTROL Last updated on]_ column by default. Click the column title in the header to toggle the sort between descending and ascending.
    
 ## View and delete buying group jobs
 
-From the _[!UICONTROL Solution interest]_ tab, the **[!UICONTROL Buying group creation jobs]** column displays the count of jobs created for each solution interest. The number is a link and clicking it opens a dialog that displays the list of jobs created for the solution interest.
+On the _[!UICONTROL Solution interest]_ tab, the **[!UICONTROL Buying group creation jobs]** column displays the count of jobs created for each solution interest. Click the number to open a dialog that displays the list of jobs created for the solution interest.
    
 ![Buying group jobs for solution interest](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Before you create a solution interest, you must have a live (published) roles te
 
 1. Choose a **[!UICONTROL Roles Template]** (required).
 
-   Click **[!UICONTROL Select roles template]** and choose a live roles template from the list in the dialog. You can associate only one live Roles Template with a Solution Interest. Click **[!UICONTROL Save]** to return to the _[!UICONTROL Create solution interest]_ page, where the selected roles template is displayed.
+   Click **[!UICONTROL Select roles template]** and choose a live roles template from the list in the dialog. You can associate only one live roles template with a solution interest. Click **[!UICONTROL Save]** to return to the _[!UICONTROL Create solution interest]_ page, where the selected roles template is displayed.
 
    ![Add a roles template to the solution interest](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -69,15 +69,17 @@ At any time, you can change the name and description for a solution interest. Th
 
    ![Solution interest more menu](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
-1. If needed, update the name (required and unique) and description (optional).
+1. Make any needed updates to the solution interest settings:
 
-1. If needed, select the **[!UICONTROL Buying group stage model]** for tracking buying group stage progression.
+   * Update the **[!UICONTROL Name]** and **[!UICONTROL Description]**.
 
-   For more information about using buying group stages for tracking journey progression against sales, see [Buying group stages](./buying-group-stages.md).
+   * Select the **[!UICONTROL Buying group stage model]** that is used for tracking buying group stage progression.
 
-1. If needed, change the **[!UICONTROL Update existing buying groups]** setting.
+      For more information about using buying group stages for tracking journey progression against sales, see [Buying group stages](./buying-group-stages.md).
 
-   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 7-day sync cycle.
+   * Change the **[!UICONTROL Update existing buying groups]** setting.
+
+      When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 7-day sync cycle.
 
 1. Click **[!UICONTROL Save]**.
 
@@ -89,7 +91,7 @@ Any solution interest that is currently in-use by any buying group job or accoun
 
    This action opens a confirmation dialog.
 
-   If the solution interest is currently in use by an account journey or buying group job, the action opens an informational dialog that alerts you that it cannot be deleted. Click [!UICONTROL OK], which aborts the deletion.
+   If the solution interest is currently in use by an account journey or buying group job, the action results in an alert that it cannot be deleted. Click **[!UICONTROL OK]**, which aborts the deletion.
    
 1. Click **[!UICONTROL Delete]** to confirm deletion, or you can abort the process by clicking _[!UICONTROL Cancel]_.
 
