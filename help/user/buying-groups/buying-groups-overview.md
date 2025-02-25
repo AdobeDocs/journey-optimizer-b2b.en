@@ -85,11 +85,58 @@ The buying group completeness score is re-calculated every time a buying group i
 
 ### Buying group engagement score
 
-Buying group engagement score is a number to determine the engagement of the members of a buying group, based on the activities they perform. Any inbound activity performed by the members of the buying group in the last 30 days is used to calculate the score.
+Buying group engagement score is a number to determine the engagement of the members of a buying group, based on the activities they perform. 
 
-There is a daily frequency cap of 20 for each activity. If a member of a buying group performs the same activity more than 20 times a day, the count of the activity is capped at 20 and not a higher number.
+* The engagement score calculation starts as soon as the buying group is generated.
+* Any inbound activity performed by the members of the buying group in the last 30 days is used to calculate the score. 
+* With the 30-day window and as activities expire, the score could go down.
+* There is a daily frequency cap of 20 for each activity. If a member of a buying group performs the same activity more than 20 times a day, the count of the activity is capped at 20 and not a higher number.
+* The displayed score is rounded. For example, a score of 75.89999 is displayed as 76.
 
-The displayed score is rounded. For example, a score of 75.89999 is displayed as 76.
++++Activities used for scoring
+
+| Activity name | Description | Direction | Engagement type | Max daily frequency count | Activity weight |
+| --- | --- | --- | --- | --- | --- |
+| Register for Event | Registers for an event that is associated with a campaign | Inbound | Event | 20 | 60 |
+| Attend Event | Attends a campaign event | Inbound | Event | 20 | 90 |
+| Open Email | Opens a Journey Optimizer B2B Edition or Marketo Engage email | Inbound | Email | 20 | 30 |
+| Click Email | Clicks a link in a Journey Optimizer B2B Edition or Marketo Engage email | Inbound | Email | 20 | 30 |
+| Open Sales Email | Opens a sales mmail | Inbound | Email | 20 | 30 |
+| Click Sales Email | Clicks a link in a sales email | Inbound | Email | 20 | 30 |
+| Interesting Moment | Has an interesting moment | Inbound | Curated | 20 | 60 |
+| Tap Push Notification | Taps a push notification | Inbound | Mobile | 20 | 30 |
+| Mobile App Activity | Mobile App Activity | Inbound | Mobile | 20 | 30 |
+| Mobile App Session | Mobile App Session | Inbound | Mobile | 20 | 30 |
+| Fill Out Facebook Lead Ads Form | Fills out and submits a Lead Ads form on a Facebook page | Inbound | Social | 20 | 30 |
+| Click RTP Call to Action | Clicks a personalized call to action | Inbound | Web | 20 | 60 |
+| View In-App Message | Views an In-App Message | Inbound | Mobile | 20 | 30 |
+| Tap In-App Message | Taps an In-App Message | Inbound | Mobile | 20 | 30 |
+| Subscribe SMS | Subscribes to SMS | Inbound | SMS | 20 | 90 |
+| Reply to Sales Email | Replies to a sales email | Inbound | Email | 20 | 30 |
+| Engaged with a Dialogue | Engages with Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
+| Interacted with Document in Dialogue | Interacts with a document in a Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
+| Scheduled Meeting in Dialogue | Schedules an appointment in a Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
+| Reached Dialogue Goal | Reaches a goal in a Dynamic Chat dialogue |  |  | 20 | 90 |
+| Responded to a poll in webinar | Responds to a poll in a webinar event | Inbound | Chat | 20 | 90 |
+| Call to action clicked in webinar | Clicks on a Call to Action Link in a webinar event | Inbound | Call | 20 | 30 |
+| Asset downloads in webinar | Downloads file/asset in a webinar event | Inbound | Event | 20 | 60 |
+| Asks questions in webinar | Asks questions in a webinar event | Inbound | Event | 20 | 60 |
+| Has attended event | Has attended an event | Inbound | Event | 20 | 60 |
+| Engaged with an Agent in Dialogue | Engages with an agent in a Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
+| Clicked Link in Chat in Dialogue | Clicks a link in a Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
+| Engaged with a Conversational Flow | Engages with a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
+| Scheduled Meeting in Conversational Flow | Schedules an appointment in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
+| Reached Conversational Flow Goal | Lead reaches a goal in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
+| Interacted with Document in Conversational Flow | Lead interacts with a document in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
+| Engaged with an Agent in Conversational Flow | Lead engages with an Agent in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
+| Clicked Link in Chat in Conversational Flow | Lead clicks link in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
+| Click Link in SMS V2 | Clicks a link in an SMS message | Inbound | SMS | 20 | 90 |
+
+>[!NOTE]
+>
+>Engagement score activities are recorded in the Marketo Engage [activity log for a person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+
++++
 
 #### Weighting
 
