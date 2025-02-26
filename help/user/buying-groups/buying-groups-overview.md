@@ -95,42 +95,42 @@ Buying group engagement score is a number to determine the engagement of the mem
 
 +++Activities used for scoring
 
-| Activity name | Description | Direction | Engagement type | Max daily frequency count | Activity weight |
-| --- | --- | --- | --- | --- | --- |
-| Register for Event | Registers for an event that is associated with a campaign | Inbound | Event | 20 | 60 |
-| Attend Event | Attends a campaign event | Inbound | Event | 20 | 90 |
-| Open Email | Opens a Journey Optimizer B2B Edition or Marketo Engage email | Inbound | Email | 20 | 30 |
-| Click Email | Clicks a link in a Journey Optimizer B2B Edition or Marketo Engage email | Inbound | Email | 20 | 30 |
-| Open Sales Email | Opens a sales mmail | Inbound | Email | 20 | 30 |
-| Click Sales Email | Clicks a link in a sales email | Inbound | Email | 20 | 30 |
-| Interesting Moment | Has an interesting moment | Inbound | Curated | 20 | 60 |
-| Tap Push Notification | Taps a push notification | Inbound | Mobile | 20 | 30 |
-| Mobile App Activity | Mobile App Activity | Inbound | Mobile | 20 | 30 |
-| Mobile App Session | Mobile App Session | Inbound | Mobile | 20 | 30 |
-| Fill Out Facebook Lead Ads Form | Fills out and submits a Lead Ads form on a Facebook page | Inbound | Social | 20 | 30 |
-| Click RTP Call to Action | Clicks a personalized call to action | Inbound | Web | 20 | 60 |
-| View In-App Message | Views an In-App Message | Inbound | Mobile | 20 | 30 |
-| Tap In-App Message | Taps an In-App Message | Inbound | Mobile | 20 | 30 |
-| Subscribe SMS | Subscribes to SMS | Inbound | SMS | 20 | 90 |
-| Reply to Sales Email | Replies to a sales email | Inbound | Email | 20 | 30 |
-| Engaged with a Dialogue | Engages with Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
-| Interacted with Document in Dialogue | Interacts with a document in a Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
-| Scheduled Meeting in Dialogue | Schedules an appointment in a Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
-| Reached Dialogue Goal | Reaches a goal in a Dynamic Chat dialogue |  |  | 20 | 90 |
-| Responded to a poll in webinar | Responds to a poll in a webinar event | Inbound | Chat | 20 | 90 |
-| Call to action clicked in webinar | Clicks on a Call to Action Link in a webinar event | Inbound | Call | 20 | 30 |
-| Asset downloads in webinar | Downloads file/asset in a webinar event | Inbound | Event | 20 | 60 |
-| Asks questions in webinar | Asks questions in a webinar event | Inbound | Event | 20 | 60 |
-| Has attended event | Has attended an event | Inbound | Event | 20 | 60 |
-| Engaged with an Agent in Dialogue | Engages with an agent in a Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
-| Clicked Link in Chat in Dialogue | Clicks a link in a Dynamic Chat dialogue | Inbound | Chat | 20 | 90 |
-| Engaged with a Conversational Flow | Engages with a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
-| Scheduled Meeting in Conversational Flow | Schedules an appointment in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
-| Reached Conversational Flow Goal | Lead reaches a goal in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
-| Interacted with Document in Conversational Flow | Lead interacts with a document in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
-| Engaged with an Agent in Conversational Flow | Lead engages with an Agent in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
-| Clicked Link in Chat in Conversational Flow | Lead clicks link in a Dynamic Chat conversational flow | Inbound | Chat | 20 | 90 |
-| Click Link in SMS V2 | Clicks a link in an SMS message | Inbound | SMS | 20 | 90 |
+| Activity name | Description | Engagement type | Max daily frequency count | Activity weight |
+| --- | --- | --- | --- | --- |
+| Register for Event | Registers for an event that is associated with a campaign | Event | 20 | 60 |
+| Attend Event | Attends a campaign event | Event | 20 | 90 |
+| Open Email | Opens an email | Email | 20 | 30 |
+| Click Email | Clicks a link in an email | Email | 20 | 30 |
+| Open Sales Email | Opens a sales mmail | Email | 20 | 30 |
+| Click Sales Email | Clicks a link in a sales email | Email | 20 | 30 |
+| Interesting Moment | Has an interesting moment | Curated | 20 | 60 |
+| Tap Push Notification | Receives a push notification | Mobile | 20 | 30 |
+| Mobile App Activity | Performs an activity on a mobile app | Mobile | 20 | 30 |
+| Mobile App Session | Is active on mobile app session | Mobile | 20 | 30 |
+| Fill Out Facebook Lead Ads Form | Fills out and submits a Lead Ads form on a Facebook page | Social | 20 | 30 |
+| Click RTP Call to Action | Clicks a personalized call to action | Web | 20 | 60 |
+| View In-App Message | Views an in-app message | Mobile | 20 | 30 |
+| Tap In-App Message | Taps an in-app message | Mobile | 20 | 30 |
+| Subscribe SMS | Subscribes to SMS communications | SMS | 20 | 90 |
+| Reply to Sales Email | Replies to a sales email | Email | 20 | 30 |
+| Engaged with a Dialogue | Engages with a Dynamic Chat dialogue | Chat | 20 | 90 |
+| Interacted with Document in Dialogue | Interacts with a document in a Dynamic Chat dialogue | Chat | 20 | 90 |
+| Scheduled Meeting in Dialogue | Schedules an appointment in a Dynamic Chat dialogue | Chat | 20 | 90 |
+| Reached Dialogue Goal | Reaches a goal in a Dynamic Chat dialogue |  |20 | 90 |
+| Responded to a poll in webinar | Responds to a poll in a webinar event | Chat | 20 | 90 |
+| Call to action clicked in webinar | Clicks a call-to-action link in a webinar event | Call | 20 | 30 |
+| Asset downloads in webinar | Downloads a file/asset in a webinar event | Event | 20 | 60 |
+| Asks questions in webinar | Asks questions in a webinar event | Event | 20 | 60 |
+| Has attended event | Has attended an event | Event | 20 | 60 |
+| Engaged with an Agent in Dialogue | Engages with an agent in a Dynamic Chat dialogue | Chat | 20 | 90 |
+| Clicked Link in Chat in Dialogue | Clicks a link in a Dynamic Chat dialogue | Chat | 20 | 90 |
+| Engaged with a Conversational Flow | Engages with a Dynamic Chat conversational flow | Chat | 20 | 90 |
+| Scheduled Meeting in Conversational Flow | Schedules an appointment in a Dynamic Chat conversational flow | Chat | 20 | 90 |
+| Reached Conversational Flow Goal | Reaches a goal in a Dynamic Chat conversational flow | Chat | 20 | 90 |
+| Interacted with Document in Conversational Flow | Interacts with a document in a Dynamic Chat conversational flow | Chat | 20 | 90 |
+| Engaged with an Agent in Conversational Flow | Engages with an Agent in a Dynamic Chat conversational flow | Chat | 20 | 90 |
+| Clicked Link in Chat in Conversational Flow | Clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
+| Click Link in SMS V2 | Clicks a link in an SMS message | SMS | 20 | 90 |
 
 >[!NOTE]
 >
