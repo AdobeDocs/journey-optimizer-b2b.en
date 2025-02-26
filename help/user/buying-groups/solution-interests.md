@@ -20,7 +20,7 @@ Before you create buying groups, you should know what you are selling and who yo
 
    ![Solution Interest tab](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   The tab provides an inventory list of all existing solution interests. It provides the following information in column format: _[!UICONTROL Name]_, _[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_, _[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_, _[!UICONTROL Created on]_, and _[!UICONTROL Created by]_
+   The tab provides an inventory list of all existing solution interests. It displays the following information in column format: _[!UICONTROL Name]_, _[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_, _[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_, _[!UICONTROL Created on]_, and _[!UICONTROL Created by]_
 
    The list is sorted by the _[!UICONTROL Last updated on]_ column by default. Click the column title in the header to toggle the sort between descending and ascending.
    
@@ -52,7 +52,7 @@ Before you create a solution interest, you must have a live (published) roles te
 
 1. Enable the **[!UICONTROL Update existing buying groups]** setting (optional).
 
-   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 24-hour sync cycle.
+   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 7-day sync cycle.
 
 1. Click **[!UICONTROL Create]** at the top-right corner.
 
