@@ -7,7 +7,7 @@ exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
 
 An audience is a set of people who share similar behaviors and/or characteristics. Journey Optimizer B2B Edition uses the account segmentation functionalities found in Adobe Real-Time Customer Data Platform B2B and B2P editions. With account segmentation, users can generate account audiences by leveraging data from any of the B2B entities within the system. These account audiences serve as inputs for Journey Optimizer B2B Edition account journeys, facilitating seamless activation and personalization capability.
 
-Learn more about account audiences and how to define them in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences).
+Learn more about account audiences and how to define them in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences).
 
 ## Account audience workflow
 
@@ -45,6 +45,14 @@ Define the account audience by creating an account segmentation. You have the op
    The following example defines audience created using `Country Code`, `Revenue Amount`, and `Market segment`. The query in English would be, "I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M."
 
    ![account audience segment builder example](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   <br/>
+
+   >[!IMPORTANT]
+   >
+   >The `Account Name` attribute for account records must contain a value to be included in account journeys. If this attribute is empty (null), the account record is excluded.<br/>
+   >To ensure that only accounts with a non-empty Account Name are included, add the **[!UICONTROL Account Name]** attribute and select _[!UICONTROL exists]_ as the match condition.<br/>
+   >![Account Name attribute exists](./assets/audience-segment-builder-account-name-exists.png){width="600"}
+   ><br/>If you are using a custom attribute for the account name, use your custom attribute name in place of _[!UICONTROL Account Name]_.
 
 1. Click **[!UICONTROL Save and Close]** at the top right.
 
