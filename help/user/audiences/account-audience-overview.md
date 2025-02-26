@@ -46,6 +46,13 @@ Define the account audience by creating an account segmentation. You have the op
 
    ![account audience segment builder example](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
 
+   >[!IMPORTANT]
+   >
+   >The `Account Name` attribute for account records must contain a value to be included in account journeys. If this attribute is empty (null), the account record is excluded.<br/>
+   >To ensure that only accounts with a non-empty Account Name are included, add the **[!UICONTROL Account Name]** attribute and select _[!UICONTROL exists]_ as the match condition.<br/>
+   >![Account Name attribute exists](./assets/audience-segment-builder-account-name-exists.png){width="500"}
+   ><br/>If you are using a custom attribute for the account name, use your custom attribute name in place of _[!UICONTROL Account Name]_.
+
 1. Click **[!UICONTROL Save and Close]** at the top right.
 
 To activate your account audience for Journey Optimizer B2B Edition, you must [add it to an account journey](../journeys/journey-overview.md#add-the-account-audience-for-your-journey) and [publish the journey](../journeys/journey-overview.md).
