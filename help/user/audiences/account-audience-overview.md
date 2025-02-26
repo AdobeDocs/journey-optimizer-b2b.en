@@ -45,12 +45,13 @@ Define the account audience by creating an account segmentation. You have the op
    The following example defines audience created using `Country Code`, `Revenue Amount`, and `Market segment`. The query in English would be, "I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M."
 
    ![account audience segment builder example](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   <br/>
 
    >[!IMPORTANT]
    >
    >The `Account Name` attribute for account records must contain a value to be included in account journeys. If this attribute is empty (null), the account record is excluded.<br/>
    >To ensure that only accounts with a non-empty Account Name are included, add the **[!UICONTROL Account Name]** attribute and select _[!UICONTROL exists]_ as the match condition.<br/>
-   >![Account Name attribute exists](./assets/audience-segment-builder-account-name-exists.png){width="500"}
+   >![Account Name attribute exists](./assets/audience-segment-builder-account-name-exists.png){width="600"}
    ><br/>If you are using a custom attribute for the account name, use your custom attribute name in place of _[!UICONTROL Account Name]_.
 
 1. Click **[!UICONTROL Save and Close]** at the top right.
