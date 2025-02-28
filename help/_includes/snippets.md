@@ -10,7 +10,7 @@ description: Reused notes and visual elements to note a feature or page applying
 
 >[!NOTE]
 >
->Intent data is included in the page when it is configured for your Journey Optimizer B2B Edition instance. For more information about the Intent Detection model and how to submit keywords, products, and categories, see [Intent Data](../user/admin/intent-data.md).
+>Intent data is included when it is configured for your Journey Optimizer B2B Edition instance. It also requires one or more published journeys **or** created buying groups. For more information about the Intent Detection model and how to submit keywords, products, and categories, see [Intent Data](../user/admin/intent-data.md).
 
 ## AEM assets licensing note {#aem-assets-licensing-note}
 

@@ -19,6 +19,19 @@ The Intelligent Dashboard also provides access to account and buying group detai
 
 {{intent-data-note}}
 
+To make use of the information and insights provided by the Intelligent Dashboard, your Journey Optimizer B2B Edition instance must have the required items in place:
+
+| Type | Requirement |
+| ---- | ----------- |
+| [Buying group stages](#buying-group-stages) | Set up buying group stages **and** add to created buying groups. |
+| [Buying group highlights](#buying-group-highlights) | Set up buying group stages **and** add to created buying groups. |
+| [Account surge](#surging-accounts) | One or more published journeys **or** created buying groups. |
+| [Account highlights](#account-highlights) | One or more published journeys **or** created buying groups. |
+| [Contact coverage](#contact-coverage) | One or more created buying groups (stages not needed). |
+| [Contact overlap](#contact-overlap) | One or more created buying groups (stages not needed). |
+| [Account detail page](../accounts/account-details.md) | One or more published journeys. |
+| [Buying group detail page](../buying-groups/buying-group-details.md) | One or more created buying groups (stages not needed). |
+
 ## Buying group stages {#buying-group-stages}
 
 >[!CONTEXTUALHELP]
@@ -133,7 +146,7 @@ The _[!UICONTROL Surging accounts]_ section displays a visualization of the acco
 
 >[!NOTE]
 >
->Account surge data is limited to accounts that were ingested by Journey Optimizer B2B Edition in an account audience through account journeys or buying groups.
+>Account surge data is limited to accounts that are ingested by Journey Optimizer B2B Edition in an account audience through account journeys or buying groups.
 
 ![Account surge data visualization](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -173,11 +186,11 @@ Use the date filter at the top right to change the date range for the data visua
 >title="At-risk accounts"
 >abstract="Accounts with significant decrease in engagement momentum in the selected time frame."
 
-The _[!UICONTROL Buying group highlights]_ section is organized into two rows to surface information about the accounts of interest to your organization.
+The _[!UICONTROL Account highlights]_ section is organized into two rows to surface information about the accounts of interest to your organization.
 
 >[!NOTE]
 >
->Account highlight data is limited to accounts that were ingested by Journey Optimizer B2B Edition in an account audience through account journeys or buying groups.
+>Account highlight data is limited to accounts that are ingested by Journey Optimizer B2B Edition in an account audience through account journeys or buying groups.
 
 ![Account highlights](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
