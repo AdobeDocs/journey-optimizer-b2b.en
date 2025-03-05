@@ -43,7 +43,7 @@ For example, if you design a reusable banner that includes a clickable button, y
 
 1. In the component details on the right, select the **[!UICONTROL Editable fields]** tab.
 
-1. Click the Enable edition option toggle and set the editable fields.
+1. Click the **[!UICONTROL Enable edition]** option toggle and set the editable fields.
 
    ![Enable editable fileds for a fragment image component](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 
