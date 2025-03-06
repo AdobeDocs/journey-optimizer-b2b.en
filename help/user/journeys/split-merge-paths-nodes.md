@@ -24,9 +24,9 @@ _How does a split path by accounts node work?_
 
 * Each path that you add includes an end node with the ability to add nodes to each edge.
 * Split by account nodes can be nested--you can split the path by accounts repeatedly. 
-* A split path includes an option for not adding the default path.
+* Evaluates paths from top to bottom. If an account matches for the first and second paths, it proceeds along the first path only.
 * Two or more paths can be combined using a merge node.
-* Supports the use of an optional _[!UICONTROL Other accounts]_ path. With this path, you can add actions or events for accounts that do not match one of the defined segments/paths.
+* Supports the definition of an _[!UICONTROL Other accounts]_ path, where you can add actions or events for accounts that do not match one of the defined segments/paths.
 
 ![Journey node - split paths by account](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -35,9 +35,10 @@ _How does a split path by accounts node work?_
 _How does a split path by people node work?_ 
 
 * Functions within a _grouped node_ split-merge combination. The split paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
-* Cannot be nested--you cannot add a split path for people on a path that is in this grouped node.
+* Split by people nodes cannot be nested--you cannot add a split path for people on a path that is in this grouped node.
+* Evaluates paths from top to bottom. If a person matches for the first and second paths, they proceed along the first path only.
 * Supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the roles templates.
-* Supports the use of an optional _[!UICONTROL Other people]_ path. With this path, you can add actions or events for people that do not match one of the defined segments/paths.
+* Supports the definition of an _[!UICONTROL Other people]_ path, where you can add actions or events for people that do not match one of the defined segments/paths.
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -91,7 +92,7 @@ _How does a split path by people node work?_
 
    ![Split path node - reorder paths](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
 
-1. Enable the **[!UICONTROL Other accounts]** option to add a default path for accounts that are not a match for the defined segments/paths.
+1. Enable the **[!UICONTROL Other accounts]** option to define the default path for accounts that are not a match for the defined segments/paths.
 
    When this option is not enabled, the journey ends for accounts that do not match a defined segment/path within the split.
 
