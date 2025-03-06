@@ -22,10 +22,11 @@ Add a _Split paths_ node to define one or more segmented paths based on account 
 
 _How does a split path by accounts node work?_ 
 
-* When you add a split path node and choose _Account_, each path that is added includes an end node with the ability to add nodes to each edge.
-* It is possible to split the path by Accounts repeatedly, such as in a nested manner. A split path includes an option for not adding the default path.
-* If an accounts/person does not qualify for one of the split paths, it does not move forward in the journey.
-* These paths can be combined using a merge node.
+* Each path that you add includes an end node with the ability to add nodes to each edge.
+* Split by account nodes can be nested--you can split the path by accounts repeatedly. 
+* Evaluates paths from top to bottom. If an account matches for the first and second paths, it proceeds along the first path only.
+* Two or more paths can be combined using a merge node.
+* Supports the definition of an _[!UICONTROL Other accounts]_ path, where you can add actions or events for accounts that do not match one of the defined segments/paths.
 
 ![Journey node - split paths by account](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -33,10 +34,11 @@ _How does a split path by accounts node work?_
 
 _How does a split path by people node work?_ 
 
-* _Split path by people_ nodes are grouped nodes. The paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
-* _Split path by people_ nodes cannot be nested--you cannot add split path for people on a path that is in this grouped node.
-* Split path nodes include an option for omitting a default path so that accounts/people without a matching path do not move forward in the journey.
-* _Split path by people_ nodes support the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the roles templates.
+* Functions within a _grouped node_ split-merge combination. The split paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
+* Split by people nodes cannot be nested--you cannot add a split path for people on a path that is in this grouped node.
+* Evaluates paths from top to bottom. If a person matches for the first and second paths, they proceed along the first path only.
+* Supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the roles templates.
+* Supports the definition of an _[!UICONTROL Other people]_ path, where you can add actions or events for people that do not match one of the defined segments/paths.
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -90,7 +92,9 @@ _How does a split path by people node work?_
 
    ![Split path node - reorder paths](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
 
-1. Enable the **[!UICONTROL Other accounts]** option to add a default path for accounts that are not a match for the defined paths. If not, the journey ends for these people.
+1. Enable the **[!UICONTROL Other accounts]** option to define the default path for accounts that are not a match for the defined segments/paths.
+
+   When this option is not enabled, the journey ends for accounts that do not match a defined segment/path within the split.
 
 ### Add a split path by people node
 
@@ -139,13 +143,15 @@ _How does a split path by people node work?_
 
    ![Split path node - reorder paths](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
 
-1. Enable the **[!UICONTROL Other people]** option to add a default path for people that are not a match for the defined paths. If not, the journey ends for these people.
+1. Enable the **[!UICONTROL Other people]** option to add a default path for people that are not a match for the defined paths. 
+
+   When this option is not enabled, people that do not match a defined segmant/path move past the split and proceed to the next step in the journey.
 
 >[!BEGINSHADEBOX "Marketo Engage list membership"]
    
 In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your split path by people to help eliminate duplication in journey activities.
       
-To do this, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space and complete the filter definition to evalute membership in one or more Marketo Engage lists.
+To use list membership in a split condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space. Complete the filter definition to evaluate membership in one or more Marketo Engage lists.
    
 ![Split path by people condition for Marketo Engage list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
    
