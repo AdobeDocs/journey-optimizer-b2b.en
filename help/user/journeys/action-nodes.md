@@ -21,7 +21,7 @@ Use an action on accounts when you want to apply a change to all people that are
 | [!UICONTROL Account Change Data Value] | Select attribute<br/>New value |
 | [!UICONTROL Account Interesting Moment] | Type (Email, Milestone, or Web)<br/>Description (optional)|
 | [!UICONTROL Add Account to (other) Journey] | Select live Account Journey |
-| [!UICONTROL Add to account list] | Select a live static account list |
+| [!UICONTROL Add to account list] | Select live static account list |
 | [!UICONTROL Remove Account from Journey] | Select live Account Journey |
 | [!UICONTROL Remove from account list] | Select a live static account list |
 | [!UICONTROL Send Sales Alert] | Select solution interest<br/>Send email to|
