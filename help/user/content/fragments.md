@@ -8,14 +8,18 @@ exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
 
 A fragment is a reusable component that can be referenced in one or more emails and email templates across Adobe Journey Optimizer B2B Edition. It is usually a block of content (text, image, or both) that can be pre-created and quickly inserted into an email or email template. With this functionality, you can prebuild multiple custom content blocks for use by your marketing team members to assemble email contents for an improved design process. Common use cases include header/footer content blocks for email, event invite banners, and seasonal greetings.
 
+>[!BEGINSHADEBOX]
+
+**Visual fragments**
+
+Visual fragments are pre-defined visual blocks built using the visual content designer that you can reuse across multiple emails or email templates. The current scope of Journey Optimizer B2B Edition and this documentation are that of visual fragments only. Expression-based fragments are not yet supported in Journey Optimizer B2B Edition.
+
+>[!ENDSHADEBOX]
+
 To make the best use of fragments in your workflows:
 
 * _Create your own fragments_ - Create visual fragments, either from scratch or by saving content as a fragment from the visual content editor.
 * _Reuse fragments_ - Use them as many times as needed in your content.
-
-## Visual fragments
-
-Visual fragments are pre-defined visual blocks built using the visual content editor that you can reuse across multiple emails or email templates. The current scope of Journey Optimizer B2B Edition and this documentation are that of visual fragments only. Expression-based fragments are not yet supported in Journey Optimizer B2B Edition.
 
 ## Access and manage fragments
 
@@ -32,10 +36,10 @@ The fragment status determines its availability for use in an email or email tem
 | Status               | Description |
 | -------------------- | ----------- |
 | Draft                | When you create a fragment, it is in draft status. It remains in this status as you define or edit the visual content until you publish it for use in an email or email template. Available actions:<br/><ul><li>Edit all details<li>Edit in visual designer<li>Publish<li>Duplicate<li>Delete|
-| Published            | When you publish a fragment, it becomes available for use in an email or email template. A published fragment content cannot be modified in the visual designer. Available actions:<br/><ul><li>Edit description<li>Add to an email or template<li>Create draft version<li>Duplicate<li>Delete (if not in-use)|
+| Published            | When you publish a fragment, it becomes available for use in an email or email template. Published fragment content cannot be modified in the visual designer. Available actions:<br/><ul><li>Edit description<li>Add to an email or template<li>Create draft version<li>Duplicate<li>Delete (if not in-use)|
 | Published with draft | When you create a draft from a published fragment, the published version remains available for use in an email or email template, and the draft content can be modified in the visual designer. If you publish the draft version, it replaces the current published version and the content is updated in the emails and email templates where it is in use. Available actions:<br/><ul><li>Edit description<li>Add to an email or template<li>Edit draft version in visual designer<li>Publish draft version<li>Duplicate<li>Delete (if not in-use)|
 
-![Fragment status lifecycle](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![Fragment status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -79,45 +83,16 @@ You can create new visual fragments in Journey Optimizer B2B Edition by clicking
 
 1. Use the content design tools to create the visual fragment content:
 
-   * [Add structure and content](#add-structure-and-content)
-   * [Add Assets](#add-assets)
-   * [Navigate the layers, settings, and styles](#navigate-the-layers-settings-and-styles)
-   * [Personalize content](#personalize-content)
-   * [Edit linked URL tracking](#edit-linked-url-tracking)
+   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add Assets](./fragment-authoring.md#add-assets)
+   * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./fragment-authoring.md#personalize-content)
+   * [Enable custom fields](./fragment-authoring.md#enable-custom-fields)
+   * [Edit linked URL tracking](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Click **[!UICONTROL Save]** at any time to save the draft fragment.
 
 1. When you are ready to make the fragment available for use in an email or email template, click **[!UICONTROL Publish]**.
-
-### Add structure and content {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Add Structure components"
->abstract="Structure components define the layout of the fragment. Drag and drop a **Structure** component into the canvas to start designing the content of your fragment."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Add assets
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Navigate the layers, settings, and styles
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Personalize content
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Edit linked URL tracking
-
-{{$include /help/_includes/content-design-links.md}}
 
 ## View fragment details
 
@@ -188,11 +163,12 @@ Edits to a fragment depend on its current status:
 
    Use the visual designer tools as needed:
 
-   * [Add structure and content](#add-structure-and-content)
-   * [Add Assets](#add-assets)
-   * [Navigate the layers, settings, and styles](#navigate-the-layers-settings-and-styles)
-   * [Personalize content](#personalize-content)
-   * [Edit linked URL tracking](#edit-linked-url-tracking)
+   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add Assets](./fragment-authoring.md#add-assets)
+   * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./fragment-authoring.md#personalize-content)
+   * [Enable custom fields](./fragment-authoring.md#enable-custom-fields)
+   * [Edit linked URL tracking](./fragment-authoring.md#edit-linked-url-tracking)
 
    Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the fragment details.
 
@@ -216,11 +192,12 @@ Edits to a fragment depend on its current status:
 
    Use the visual designer tools as needed:
 
-   * [Add structure and content](#add-structure-and-content)
-   * [Add Assets](#add-assets)
-   * [Navigate the layers, settings, and styles](#navigate-the-layers-settings-and-styles)
-   * [Personalize content](#personalize-content)
-   * [Edit linked URL tracking](#edit-linked-url-tracking)
+   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add Assets](./fragment-authoring.md#add-assets)
+   * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./fragment-authoring.md#personalize-content)
+   * [Enable custom fields](./fragment-authoring.md#enable-custom-fields)
+   * [Edit linked URL tracking](./fragment-authoring.md#edit-linked-url-tracking)
 
    Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the fragment details.
 
@@ -244,11 +221,12 @@ To update the content:
 
 1. Click **[!UICONTROL Edit fragment]** at the top right. Use the visual designer tools as needed:
 
-   * [Add structure and content](#add-structure-and-content)
-   * [Add Assets](#add-assets)
-   * [Navigate the layers, settings, and styles](#navigate-the-layers-settings-and-styles)
-   * [Personalize content](#personalize-content)
-   * [Edit linked URL tracking](#edit-linked-url-tracking)
+   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add Assets](./fragment-authoring.md#add-assets)
+   * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./fragment-authoring.md#personalize-content)
+   * [Enable custom fields](./fragment-authoring.md#enable-custom-fields)
+   * [Edit linked URL tracking](./fragment-authoring.md#edit-linked-url-tracking)
 
    Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the fragment details.
 

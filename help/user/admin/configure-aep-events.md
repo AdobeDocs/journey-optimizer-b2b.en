@@ -32,7 +32,9 @@ Each event definition requires the following Experience Platform input:
 
 As you create and manage your event definitions to meet your organizational goals, keep the following in mind:
 
-* Journey Optimizer B2B Edition supports a maximum of 50 event definitions. 
+* Journey Optimizer B2B Edition supports a maximum of 50 event definitions.
+
+* Account journeys can listen for AEP Experience Events that are ingested using AEP streaming capabilities, such as Web SDK or HTTP API.
 
 * Only one AEP event definition can use a combined schema and set of event types. When you create an event definition using a schema (for example, `My Schema`) and an event type (for example, `Web Webpagedetails Page Views`), no other event definition can use the combination of `My Schema` and `Web Webpagedetails Page Views`. 
 

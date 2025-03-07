@@ -59,7 +59,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
         + [Overview](./content/email-templates.md)
         + [Email template authoring](./content/email-template-authoring.md)
       + [Landing page templates](./content/landing-page-templates.md)
-   + [Fragments](./content/fragments.md)
+   + Fragments {#visual-fragments}
+      + [Overview](./content/fragments.md)
+      + [Fragment authoring](./content/fragment-authoring.md)
    + [Forms](./content/forms.md)
    + Landing pages {#landing-pages}
         + [Overview](./content/landing-pages.md)       
