@@ -105,3 +105,9 @@ The name and description for the LinkedIn account are visible for buying groups 
    Click **[!UICONTROL Activate]** again in the confirmation dialog.
 
    A banner is displayed with a link to your dataflows menu in Experience Platform so that you can check the dataflow record.
+
+## Orchestrate paid media engagement
+
+You can engage with account members through a paid media channel, such as LinkedIn Ad audiences, to acquire, nurture, and qualify them for Sales. Use a _Take an action_ node in an account journey to automate engagement with key members of an account through an external channel that is a best fit for different account members.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
