@@ -12,6 +12,8 @@ Define the stages within a single staging model, defining multiple stages and th
 
 ![Buying group stages example](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video)
+
 ## Define your buying group stages model
 
 You create and configure a buying group stages model by:
@@ -339,3 +341,7 @@ Use the occurrence of a buying group stage change to move the account forward to
    ![Journey node - listen to events on account](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. Continue to make other changes and save the journey.
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
