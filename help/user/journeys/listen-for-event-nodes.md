@@ -118,6 +118,8 @@ Administrators can configure Adobe Experience Platform (AEP)-based event definit
 
 2. In an account journey, add a _Listen for an event_ node, and select an Experience Platform event definition for a people-based event.
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](../admin/configure-aep-events.md#overview-video)
+
 _To include an Experience Event in your journey:_
 
 1. Select a **[!UICONTROL Listen for an event]** node in the journey editor.
@@ -156,7 +158,7 @@ _To include an Experience Event in your journey:_
 
 1. Complete the remaining nodes for your journey and [publish it](./journey-overview.md).
 
-   When the journey is live (published) and reaches the _Listen for an event_ node, it begins listening for AEP Experience Events. 
+   When the journey is live (published) and reaches the _Listen for an event_ node, it begins listening for AEP Experience Events.
 
 ## Add a timeout to an event node
 
