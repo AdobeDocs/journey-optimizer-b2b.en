@@ -81,8 +81,8 @@ Additionally, opportunity data is stored as attributes in the XDM Business Oppor
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 |`expectedCloseDate` | Expected Close Date  | Expected opportunity close date   | String | Expected date of closure for the opportunity.   |
 |`expectedRevenue.amount` | Expected Revenue  | Total opportunity expected revenue   | String | Calculated revenue based on the Amount and Probability.   |
-|`fiscalQuarter` | Fiscal Quarter   | Opportunity fiscal quarter  | String | The fiscal quarter that the opportunity is targeted.   |
-|`fiscalYear` | Fiscal Year   | Opportunity fiscal year   | String | The fiscal year that the opportunity is targeted.   |
+|`fiscalQuarter` | Fiscal Quarter   | Opportunity fiscal quarter  | String | The targeted fiscal quarter for the opportunity.   |
+|`fiscalYear` | Fiscal Year   | Opportunity fiscal year   | String | The targeted fiscal year for the opportunity.   |
 |`forecastCategory`|Forecast Category | Opportunity Forecast category | String | Forecast Category determined by the opportunity Stage value. |
 |`forecastCategoryName`|Forecast Category Name | Opportunity forecast category name | String | Forecast category name that is displayed in reports for a particular forecast category. |
 |`isClosed` | Closed Flag  | Opportunity closed   | String | Flag that indicates if the opportunity is closed.   |
@@ -95,5 +95,5 @@ Additionally, opportunity data is stored as attributes in the XDM Business Oppor
 |`opportunityName` | Opportunity Name   | Opportunity name |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
 |`opportunityQuantity` | Opportunity Quantity  | Opportunity quantity   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
 |`opportunityStage` | Opportunity Stage   | Opportunity stage   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
-|`opportunityType` | Opportunity Type   | Opportunity type   | String | Opportunity type such as Existing Business or New Business   |
+|`opportunityType` | Opportunity Type   | Opportunity type   | String | Type assigned to the opportunity, such as _Existing Business _ or _New Business_  |
 |`probabilityPercentage` | Probability Percentage  | Opportunity probability percentage  | String | Likelihood of closing the opportunity, stated as a percentage.  |
