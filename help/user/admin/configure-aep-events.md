@@ -2,11 +2,16 @@
 title: Configure Experience Platform Events
 description: Learn about the Wait node type that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 ---
 # Configure Experience Platform event definitions
 
-Administrators can configure Adobe Experience Platform (AEP)-based event definitions, which enable Marketers to create account journeys that react to [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). Using AEP experience events in account journeys is a two-step process: 
+Administrators can configure Adobe Experience Platform (AEP)-based event definitions, which enable Marketers to create account journeys that react to [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). 
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video)
+
+Using AEP experience events in account journeys is a two-step process: 
 
 1. Create and publish an AEP event definition.
 
@@ -267,3 +272,7 @@ You can delete an event definition if it is not in use by a published account jo
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
 
    ![Confirm to delete the event definition](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
