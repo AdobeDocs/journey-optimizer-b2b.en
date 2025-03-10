@@ -138,7 +138,7 @@ Permissions are unitary rights that allow you to define the authorizations assig
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
 For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
-<!-- 
+
 ### B2B product permissions
 
 The following permissions govern access to Journey Optimizer B2B Edition capabilities:
@@ -208,7 +208,7 @@ _To change the permissions for a role:_
 
    ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Close]** to return to the details page. -->
+1. Click **[!UICONTROL Close]** to return to the details page.
 
 ### Add users to a role
 
