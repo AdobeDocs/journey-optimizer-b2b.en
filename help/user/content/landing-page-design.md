@@ -2,8 +2,6 @@
 title: Landing Page Design
 description: Learn how to design and author content for your landing pages that support account journeys and campaigns.
 feature: Content
-hide: yes
-hidefromtoc: yes
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 ---
@@ -28,6 +26,10 @@ After you [create a landing page](./landing-pages.md#create-a-landing-page), use
 ### Add assets
 
 {{$include /help/_includes/content-design-assets.md}}
+
+### Add forms
+
+
 
 ### Navigate the layers, settings, and styles
 

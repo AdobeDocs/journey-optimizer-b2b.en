@@ -2,8 +2,6 @@
 title: Landing Pages
 description: Learn about landing pages and how to create and manage them to support account journeys and campaigns.
 feature: Content
-hide: yes
-hidefromtoc: yes
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
 ---

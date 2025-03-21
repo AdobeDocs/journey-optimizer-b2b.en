@@ -28,4 +28,4 @@ description: Reused section about using components and content elements for cont
 
 1. To add conditional content and adapt the content to the targeted profiles based on conditional rules, select a content component and click the **[!UICONTROL Enable conditional content]** icon in the component toolbar.
 
-   For more informantion, see [_Conditional content_](../user/content/conditional-content.md).
+   For more information, see [_Conditional content_](../user/content/conditional-content.md).
