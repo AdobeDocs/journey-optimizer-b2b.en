@@ -1,11 +1,12 @@
 ---
 title: Account Lists
 description: Learn about account lists and how Marketers can use them to target accounts through account journeys.
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: yes
 hide: yes
+hidefromtoc: yes
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
 ---
-# Account Lists
+# Account lists
 
 An account list is a collection of named accounts that Marketers can use for targeted journey orchestration. An account list can target named accounts by your defined criteria, such as industry, location, or size of the company. There are two types of account lists:
 
