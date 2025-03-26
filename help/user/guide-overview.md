@@ -25,6 +25,12 @@ With Adobe Express Enterprise licensing, you can leverage a full suite of Adobe 
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Learn about image editing with Adobe Express"}
 
+>[!TAB Fragment customizable fields]
+
+As a content designer, you can designate a parameter for a component in the fragment as editable. This allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Learn about custom fields for content fragments"}
+
 >[!TAB AEP event forwarding]
 
 Administrators can now configure Adobe Experience Platform (AEP)-based event definitions. These configurations enable Marketers to create account journeys that react to AEP Experience Events.
