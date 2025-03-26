@@ -45,7 +45,7 @@ After you [create a landing page template](./landing-page-templates.md#create-a-
 ### Save your work
 
 Click **[!UICONTROL Save]** at any time to save the landing page template.
-<!-->
+<!--
 You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
 
 ### View options
