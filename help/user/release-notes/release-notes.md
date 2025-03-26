@@ -11,7 +11,21 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
-## January 2025 release notes {#Jan-2025}
+## 2025.2 release notes
+
+**Release date**: March 11, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| New feature | Customizable fields - content fragments | As a content fragment designer, you can designate a parameter for a component in the fragment as editable. This allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components. <a href="../content/fragment-authoring.md#enable-custom-fields">Learn more</a> |
+| New feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> |
+| Enhancement | Four additional sample email templates | The sample email templates library now includes four SecurFinacial templates as examples for reengagement, inform, nurture, and feedback content examples |
+
+
+
+## 2025.1 release notes {#Jan-2025}
 
 **Release date**: February 6, 2025
 
@@ -40,7 +54,7 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| New feature | Conditional content in email templates| Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <p>As you author an email for your account journey in the email designer, use conditional rules to define multiple variants for any content component. <a href="../content/conditional-content.md">Learn more</a> |
+| New feature | Conditional content in email templates| Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <p>As you author an email for your account journey in the email visual design space, use conditional rules to define multiple variants for any content component. <a href="../content/conditional-content.md">Learn more</a> |
 | New feature | _Add to List_ and _Remove from list_ people actions in journeys | Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <a href="../journeys/action-nodes.md">Learn more</a> |
 | New feature | Content governance and component locking | To ensure adherence to approved content designs, use content governance features to lock email template content components. With content governance activated in the email template, marketers can alter only the permitted elements to keep it aligned with the content strategy. <a href="../content/template-content-governance.md">Learn more</a>|
 | New feature | Buying group stages | When you define and publish a custom buying groups staging model, you can track buying group progression through the buying group lifecycle stages. Use these stages for identifying the next best actions for buying group members. You configure the transition rules and journey nodes that determine the stage progression and trigger actions based on changes. <a href="../buying-groups/buying-group-stages.md">Learn more</a> |
