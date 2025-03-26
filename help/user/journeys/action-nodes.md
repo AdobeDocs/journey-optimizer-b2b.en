@@ -19,10 +19,10 @@ Use an action on accounts when you want to apply a change to all people that are
 | Action | Constraints |
 | ------ | ----------- |
 | [!UICONTROL Account Change Data Value] | Select attribute<br/>New value |
-| [!UICONTROL Account Interesting Moment] | Type (Email, Milestone, or Web)<br/>Description (optional)|
-| [!UICONTROL Add Account to (other) Journey] | Select live Account Journey |
+| [!UICONTROL Account Interesting Moment] | Type (email, milestone, or web)<br/>Description (optional)|
+| [!UICONTROL Add Account to (other) Journey] | Select live account journey |
 | [!UICONTROL Add to account list] | Select live static account list |
-| [!UICONTROL Remove Account from Journey] | Select live Account Journey |
+| [!UICONTROL Remove Account from Journey] | Select live account journey |
 | [!UICONTROL Remove from account list] | Select a live static account list |
 | [!UICONTROL Send Sales Alert] | Select solution interest<br/>Send email to|
 | [!UICONTROL Update Buying Group Stage] | Select solution interest<br/>Select buying group stage |

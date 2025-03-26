@@ -35,7 +35,9 @@ _To set the audience for the node:_
 
      In the _[!UICONTROL Select live account list]_ dialog, select an account list that was previously published and click **[!UICONTROL Save]**.
 
-     ![Select a live account list for the node](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}     
+     ![Select a live account list for the node](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
+
+     Go to [Account Lists](../accounts/account-lists.md) for detailed information about creating and publishing account lists.   
 
 _To create an audience segment:_
 
