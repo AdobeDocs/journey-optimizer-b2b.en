@@ -1,25 +1,24 @@
 ---
-title: Landing Page Design
-description: Learn how to design and author content for your landing pages that support account journeys and campaigns.
+title: Landing Page Template Design
+description: Learn how to design and author content for landing page templates that Marketers can reuse to create landing pages.
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
-exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 ---
-# Landing page design
+# Landing page template design
 
-After you [create a landing page](./landing-pages.md#create-a-landing-page), use the visual design space to author the structural and content components in your page. 
+After you [create a landing page template](./landing-page-templates.md#create-a-landing-page-template), use the visual design space to author the structural and content components in your page template.
 
 ## Add structure and content {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
+>id="ajo-b2b_landing_page_template_structure"
 >title="Add Structure components to the landing page"
->abstract="Structure components define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing the content for your page."
+>abstract="Structure components define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing the content for your page template."
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
+>id="ajo-b2b_landing_page_template_content_components"
 >title="About Content components for landing pages"
->abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
+>abstract="Content components are empty content placeholders that you can use to create the layout of a landing page template."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -45,9 +44,9 @@ After you [create a landing page](./landing-pages.md#create-a-landing-page), use
 
 ### Save your work
 
-Click **[!UICONTROL Save]** at any time to save the draft landing page.
-
-You can continue to make edits to the draft page. When you are ready to display the page and make it available for linking in an email or SMS message, you can publish the page.
+Click **[!UICONTROL Save]** at any time to save the landing page template.
+<!-->
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
 
 ### View options
 

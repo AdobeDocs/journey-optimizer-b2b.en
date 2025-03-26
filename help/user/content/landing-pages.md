@@ -7,7 +7,7 @@ exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
 ---
 # Landing pages
 
-A landing page is a standalone web page where you can direct contacts and customers after they click a linked item in an email, SMS message, or any digital location. You can incorporate these pages into your account journeys to get your prospects and customers to view your messages on the web and progress along in your account journeys. You can create, personalize, and preview landing pages in the Landing Pages Designer.
+A landing page is a standalone web page where you can direct contacts and customers after they click a linked item in an email, SMS message, or any digital location. You can incorporate these pages into your account journeys to get your prospects and customers to view your messages on the web and progress along in your account journeys. You can create, personalize, and preview landing pages in the landing page visual design space.
 
 To direct your customers to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition. 
 
@@ -19,7 +19,7 @@ To direct your customers to a defined web page when they click a specific link, 
 
 For example, you can create and design landing pages to direct your users to online information. The page could include a form where they can opt in or opt out from receiving your communications. Or it could be an opportunity to subscribe to a recurring communications, such as a newsletter. 
 
-You can create, personalize, and preview landing pages in the visual designer.
+You can create, personalize, and preview landing pages in the visual design space.
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -51,9 +51,9 @@ The landing page status determines its availability for linking in your email an
 
 | Status               | Description |
 | -------------------- | ----------- |
-| Draft                | When you create a landing page, it is in draft status. It remains in this status as you define or edit the visual content and until you publish it as a hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Edit in visual designer<li>Publish<li>Duplicate<li>Delete|
+| Draft                | When you create a landing page, it is in draft status. It remains in this status as you define or edit the visual content and until you publish it as a hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Edit in visual design space<li>Publish<li>Duplicate<li>Delete|
 | Published            | When you publish a landing page, it is hosted on the Journey Optimizer B2B Edition instance and it becomes available for linking in an email or SMS message content. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Create draft version<li>Duplicate<li>Delete |
-| Published with draft | When you create a draft from a published landing page, the published version remains, and the draft content can be modified in the visual designer. If you publish the draft version, it replaces the current published version and the content is updated in the hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Edit draft version in visual designer<li>Publish draft version<li>Duplicate<li>Delete (deletes both versions)<li>Discard draft (returns to published)|
+| Published with draft | When you create a draft from a published landing page, the published version remains, and the draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Edit draft version in visual design space<li>Publish draft version<li>Duplicate<li>Delete (deletes both versions)<li>Discard draft (returns to published status)|
 
 ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -83,7 +83,7 @@ You can add a new landing page in Journey Optimizer B2B Edition by clicking **[!
    
    ![Choose how you want to start with your landing page design](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
    
-   After you select the method that you want to use to start landing page design, use the visual designer to [design the page](./landing-page-design.md).
+   After you select the method that you want to use to start landing page design, use the visual design space to [design the page](./landing-page-design.md).
 
 ### Design from scratch
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer B2B Edition allows you to import existing HTML content t
 >
 >Using a `<table>` tag as the first layer in an HTML file can cause style loss, including background and width settings in the top layer tag.
 
-You can personalize the imported content as needed with the visual designer.
+You can personalize the imported content as needed with the visual design space.
 
 ### Select a saved template
 
@@ -135,7 +135,7 @@ Select the template that you want from the list.
 
 When the display matches what you want to use, click **[!UICONTROL Use this template]** at the top right of the preview window.
 
-This action copies the content into the visual content designer, where you can edit the content as needed.
+This action copies the content into the visual design space, where you can edit the content as needed.
 
 >[!TAB Sample templates]
 
@@ -170,9 +170,9 @@ Edits to a landing page depend on its current status:
 
    ![Details for landing page with Draft status](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. To make changes to the content in the visual designer, click **[!UICONTROL Edit landing page]**.
+1. To make changes to the content in the visual design space, click **[!UICONTROL Edit landing page]**.
 
-   Use the visual designer tools as needed:
+   Use the visual design tools as needed:
 
    * [Add structure and content](./landing-page-design.md#add-structure-and-content)
    * [Add Assets](./landing-page-design.md#add-assets)
@@ -196,11 +196,11 @@ Edits to a landing page depend on its current status:
 
 1. If you want to update the content, click **[!UICONTROL Edit landing page]** on the right.
 
-   Click **[!UICONTROL Create draft version]** in the dialog to open the draft version in the visual designer.
+   Click **[!UICONTROL Create draft version]** in the dialog to open the draft version in the visual design space.
 
    ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"}
 
-   Use the visual designer tools as needed:
+   Use the visual design tools as needed:
 
    * [Add structure and content](./landing-page-design.md#add-structure-and-content)
    * [Add Assets](./landing-page-design.md#add-assets)
@@ -222,7 +222,7 @@ When you open the landing page, the draft version is displayed by default. The t
 
 To update the content:
 
-1. Click **[!UICONTROL Edit landing page]** at the top right. Use the visual designer tools as needed:
+1. Click **[!UICONTROL Edit landing page]** at the top right. Use the visual design tools as needed:
 
    * [Add structure and content](./landing-page-design.md#add-structure-and-content)
    * [Add Assets](./landing-page-design.md#add-assets)
