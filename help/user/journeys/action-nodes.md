@@ -177,7 +177,7 @@ Use this action to send an SMS message. You can create, personalize, and preview
 
 ### Marketo Engage actions
 
-The Marketo Engage people-based are designed to coordinate your account-based marketing orchestration in Journey Optimizer B2B Edition with your lead-based marketing efforts in Marketo Engage. Use these actions to orchestrate list membership, people partitions, and request campaigns.
+The Marketo Engage people-based actions are designed to coordinate your account-based marketing orchestration in Journey Optimizer B2B Edition with your lead-based marketing efforts in Marketo Engage. Use these actions to orchestrate list membership, people partitions, and request campaigns.
 
 +++[!UICONTROL Add to list]
 
