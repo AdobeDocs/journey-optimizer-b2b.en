@@ -285,3 +285,33 @@ You can delete a landing page using either of the following methods:
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Delete]** to confirm deletion.
 
 ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"}
+
+## Link to a landing page
+
+As a Marketer or Designer that creates email, fragment, and page content, you can embed links to the published (live) landing pages that are created in your Journey Optimizer B2B Edition instance.
+
+1. As you work in the visual design space for a fragment, email, landing page, or template, select an excerpt of text, a button component, or an image component for the link.
+
+   The **[!UICONTROL Link]** options are displayed in the right panel.
+
+1. For the **[!UICONTROL Type]** option, choose **[!UICONTROL Landing page]**.
+
+   ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. For the **[!UICONTROL Landing page]** option, click the _Select page_ icon ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ).
+
+1. In the Select landing page dialog, set the **[!UICONTROL Landing page source]** as **[!UICONTROL Journey Optimizer B2B Edition]**, select the checkbox for the landing page from the list of published pages, and click **[!UICONTROL Select]**.
+
+   ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. For the **[!UICONTROL Target]** option, choose the link target behavior:
+
+   * **[!UICONTROL None]** - opens the link using the browser default behavior.
+   * **[!UICONTROL Blank]** - opens the link in a new window or tab.
+   * **[!UICONTROL Self]** - opens the link in the same frame.
+   * **[!UICONTROL Parent]** - opens the link in the parent frame.
+   * **[!UICONTROL Top]** - opens the link in the full body of the window.
+
+1. (Text link only) If you want to underline the linked text, select the **[!UICONTROL Underline link]** checkbox.
+
+   You can set additional styling for the link text, including the link color, by selecting the **[!UICONTROL Styles]** tab in the right panel.
