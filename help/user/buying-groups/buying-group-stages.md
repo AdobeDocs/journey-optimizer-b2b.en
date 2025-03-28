@@ -121,7 +121,7 @@ Transition rules determine how a buying group can move from one stage to another
 
 As long as the buying group stages model remains in a _Draft_ state, you can edit the stages and transition rules.
 
-To view the draft model:
+_To view the draft model:_
 
 1. On the left navigation, go to **[!UICONTROL Accounts]** > **[!UICONTROL Buying Groups]**.
 
@@ -180,6 +180,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## Delete the buying group stages model
+
+You can delete the buying group stages model when it is in a draft or published state. If it is published (live), you can delete it only when it is not associated with a solution interest. 
+
+1. On the left navigation, go to **[!UICONTROL Accounts]** > **[!UICONTROL Buying Groups]**.
+
+1. In the _Buying Groups_ page, select the **[!UICONTROL Stages]** tab.
+
+1. Click the _More_ menu icon (**...**) next to the stages model name and choose **[!UICONTROL Delete]**.
+
+   ![Buying group stages model More menu](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. In the dialog, click **[!UICONTROL Delete]** to confirm.
 
 ## Use the model in account journeys
 
