@@ -104,7 +104,7 @@ When you publish a journey, it can start immediately or on a scheduled future da
 
 ## Publish an account journey
 
-If the account journey is free of errors, you can publish it. 
+You can publish a journey if there are no blocker errors. When published, the journey status changes to _Live_. If the journey has errors, the _[!UICONTROL Publish]_ button is dimmed with content information: `Resolve errors before publishing`.
 
 1. At the top right of the journey map, click **[!UICONTROL Publish]**.
 
