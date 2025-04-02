@@ -4,9 +4,9 @@ description: Reused section about editing the link tracking for content authorin
 ---
 # Content authoring - link tracking
 
-1. Click the _[!UICONTROL Links]_ icon on the left to display all the URLs of your content to be tracked.
+1. Click the _[!UICONTROL Links]_ icon ( ![Show links icon](../assets/do-not-localize/icon-links.svg) ) on the left to display all the linked URLs in your content to be tracked.
 
-1. If needed, click the _Edit_ (pencil) icon and modify the **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]**. 
+1. If needed, click the _Edit_ icon ( ![Show links icon](../assets/do-not-localize/icon-edit.svg) ) next to the URL and modify the **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]**. 
 
    You can also add _Tags_ for a link.
 
