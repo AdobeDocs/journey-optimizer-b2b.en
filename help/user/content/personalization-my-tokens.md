@@ -13,7 +13,7 @@ In addition to _My Tokens_, which are specific to the account journey, you can u
 
 The _My Tokens_ are custom variables that you create or modify for an account journey in Draft status. This custom token set currently support text and number token definitions. 
 
-When you add a custom token to an email, it is displayed as {{my.TokenName}}. For example, you might have {{my.EventDate}} or {{my.WebinarSpeaker}} tokens created to manage email content related to upcoming webinars.
+When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars.
 
 _To access the custom tokens for an account journey:_
 
