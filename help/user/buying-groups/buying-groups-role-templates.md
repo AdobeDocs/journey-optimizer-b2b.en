@@ -60,7 +60,7 @@ Each role that you define for the template uses a set of filters, or _conditions
 | Type | Condition |
 | ---- | --------- |
 | Person attributes | <li>Email address <li>Email invalid <li>Email suspended <li>Fax number <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Middle name <li>Mobile phone number <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
-| Special filters | <li>Member of list |
+| Special filters | <li>Member of list <li>Member of program|
 | Intent data | Category intent <li>Product intent <li>Keyword intent<br/>[Learn about intent data](../admin/intent-data.md).|
 
 1. For the first role card, define the role properties.
