@@ -3,7 +3,6 @@ title: Use AI Assistant
 description: Learn how AI Assistant can help you to get the most from the Journey Optimizer B2B Edition capabilities.
 feature: AI Assistant
 level: Beginner
-badgeBeta: label="Beta" type="informative" tooltip="Beta feature"
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 ---
 # Use AI Assistant
