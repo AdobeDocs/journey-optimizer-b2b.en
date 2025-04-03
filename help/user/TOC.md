@@ -30,6 +30,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
+    + [Custom personalization tokens](./content/personalization-my-tokens.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
     + [Audiences](./audiences/account-audience-overview.md)

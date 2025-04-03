@@ -139,6 +139,10 @@ After the email is saved, it appears in the fragment details page when you selec
 
 {{$include /help/_includes/content-design-personalization.md}}
 
+>[!NOTE]
+>
+>If _[!UICONTROL My Tokens]_ are defined for the account journey, you can also use these journey-specific tokens for your email content. See [Custom tokens for email personalization](./personalization-my-tokens.md) for more information.
+
 ### Edit linked URL tracking
 
 {{$include /help/_includes/content-design-links.md}}
