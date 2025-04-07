@@ -11,6 +11,19 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## 2025.3 release notes
+
+**Release date**: April 1, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| New feature | Account lists | You can now create a static or dynamic account list to target named accounts by your defined criteria, such as industry, location, or size of the company. <a href="../accounts/account-lists.md">Learn more</a> |
+| New feature | My Tokens for account journeys | You can now define a set of custom tokens with values that are specific to the account journey. This set of custom tokens is called _My Tokens_ and any of these custom tokens are for personalization when authoring journey emails. |
+| New feature | Delete buying group stages | You can delete the buying group stages model when it is in a draft or published state. If it is published (live), you can delete it only when it is not associated with a solution interest. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Learn more</a> |
+| Enhancement | Journey node counts | Improved visibility into journey membership counts at the node level. Use this information to validate account progression in a journey. |
+
 ## 2025.2 release notes
 
 **Release date**: March 11, 2025

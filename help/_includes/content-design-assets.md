@@ -4,7 +4,7 @@ description: Reused section about using assets for content authoring
 ---
 # Content authoring - assets
 
-In the visual content editor, select the _Marketo Engage Assets_ ( ![Marketo Engage Assets icon](../../help/assets/do-not-localize/icon-assets-me.svg) ) icon or the _Experience Manager Assets_ ( ![Marketo Engage Assets icon](../../help/assets/do-not-localize/icon-assets-aem.svg) ) icon in the left navigation bar. From the asset selector, you can directly select assets stored in the source library.
+In the visual content editor, select the _Marketo Engage Assets_ ( ![Marketo Engage Assets icon](../../help/assets/do-not-localize/icon-assets-me.svg) ) icon or the _Experience Manager Assets_ ( ![AEM Assets icon](../../help/assets/do-not-localize/icon-assets-aem.svg) ) icon in the left navigation bar. From the asset selector, you can directly select assets stored in the source library.
 
 >[!NOTE]
 >

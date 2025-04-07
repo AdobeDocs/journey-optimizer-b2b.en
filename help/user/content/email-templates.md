@@ -18,7 +18,7 @@ To search for a template by name, enter a text string in the search bar. Click t
 
 ![Access the email templates library and filter by name and dates](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-Customize the columns that you want to display in the table by clicking the _Customize table_ icon on the top right. Select the columns to display and click **[!UICONTROL Apply]**.
+Customize the columns that you want to display in the table by clicking the _Customize table_ icon ( ![Customize table icon](../assets/do-not-localize/icon-column-settings.svg) ) at the top right. Select the columns to display and click **[!UICONTROL Apply]**.
 
 From the displayed list of templates, you can take the actions described in the following sections.
 

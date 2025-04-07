@@ -30,6 +30,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
+    + [Custom personalization tokens](./content/personalization-my-tokens.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
     + [Audiences](./audiences/account-audience-overview.md)
@@ -58,14 +59,18 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + Email templates {#email-templates}
         + [Overview](./content/email-templates.md)
         + [Email template authoring](./content/email-template-authoring.md)
-      + [Landing page templates](./content/landing-page-templates.md)
+      + Landing page templates {#landing-page-templates}
+        + [Overview](./content/landing-page-templates.md)
+        + [Landing page template design](./content/landing-page-template-design.md)
    + Fragments {#visual-fragments}
       + [Overview](./content/fragments.md)
       + [Fragment authoring](./content/fragment-authoring.md)
-   + [Forms](./content/forms.md)
+   + Forms {#forms}      
+      + [Overview](./content/forms.md)
+      + [Form design](./content/form-design.md)
    + Landing pages {#landing-pages}
-        + [Overview](./content/landing-pages.md)       
-        + [Landing page design](./content/landing-page-design.md)
+      + [Overview](./content/landing-pages.md)       
+      + [Landing page design](./content/landing-page-design.md)
    + [Conditional content](./content/conditional-content.md)
 + Insights dashboards {#dashboards}
     + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
