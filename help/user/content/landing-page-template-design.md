@@ -3,6 +3,7 @@ title: Landing Page Template Design
 description: Learn how to design and author content for landing page templates that Marketers can reuse to create landing pages.
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
 ---
 # Landing page template design
 
