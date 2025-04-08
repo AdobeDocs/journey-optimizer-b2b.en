@@ -12,7 +12,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Login and home page](home-page.md)
     + [Quick start guidance](./start/get-started.md)
     + [Tracking and email protocols](./start/email-protocols.md)
-+ AI Assistant
++ AI Assistant {#ai-assistant}
     + [AI Assistant in Journey Optimizer B2B Edition](./ai-assistant/ai-assistant-overview.md)
     + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
     + [Question guidance](./ai-assistant/question-guidance.md)
