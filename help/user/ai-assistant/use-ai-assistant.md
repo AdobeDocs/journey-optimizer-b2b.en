@@ -7,7 +7,7 @@ exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 ---
 # Use AI Assistant in Journey Optimizer B2B Edition
 
-In Journey Optimizer B2B Edition, AI Assistant is a user interface feature that you can use to understand account-based marketing concepts and quickly navigate and learn about the Journey Optimizer B2B Edition features and get operational insights for your specific environment. It is also available in several products across Adobe Experience Cloud.
+In Journey Optimizer B2B Edition, AI Assistant is a user interface feature that you can use to understand product concepts, quickly navigate and learn about the Journey Optimizer B2B Edition features, and get operational insights for your specific environment. It is also available in several products across Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -15,7 +15,7 @@ In Journey Optimizer B2B Edition, AI Assistant is a user interface feature that 
 
 To access AI Assistant, click the icon in the header. AI Assistant opens in a panel on the right.
 
-![Click the icon to access the AI Assistant](./assets/ai-assistant-icon-header.png){width="600" zoomable="yes"}
+![Click the icon to access the AI Assistant](./assets/ai-assistant-icon-displayed.png){width="500" zoomable="yes"}
 
 The AI Assistant interface appears, immediately providing you with information to get started. You can use the options provided under _Ideas to get started_ to answer questions and commands, such as:
 
@@ -55,13 +55,13 @@ Operational insight questions are about the journey objects in your organization
 * Give me a list of all the scheduled journeys
 * How many journeys have been created in the last 7 days?
 
-You must be in an active sandbox in order for AI Assistant to sufficiently respond to a question about your operational insights.
+You must be in an active sandbox for AI Assistant to provide a sufficient response to a question about your operational insights.
 
 >[!NOTE]
 >
 >The only Adobe Journey Optimizer B2B Edition objects supported by the AI Assistant operational insights questions are listed in the [operational insights domain table](./ai-assistant-overview.md#operational-insights). It can access data only for the sandbox you are currently in.
 
-Select to view an example of an operational insights question.
+<!-- Select to view an example of an operational insights question.
 
 In the following example, AI Assistant receives the following query: _Show me dataflows that were created using the Amazon S3 source._
 
@@ -93,6 +93,4 @@ After receiving an answer for an operational insights question, click **[!UICONT
 
 When queried with an operational insights question, AI Assistant provides an SQL query that you can use to verify the process that it took to compute its answer. This source query is for verification purposes only and is not supported on Query Service.
 
-<screen>
-
-
+<screen>  -- >
