@@ -65,19 +65,19 @@ You must be in an active sandbox for AI Assistant to provide a sufficient respon
 
 In the following example, AI Assistant receives the following query: _Show me dataflows that were created using the Amazon S3 source._
 
-<screen>
+screen
 
 AI Assistant responds with a table list of your dataflows and their corresponding IDs. Click the _Download_ icon ( Download icon ) to download the table as a CSV file. To view the entire table, click the _Expand_ icon ( Expand icon ).
 
-<screen>
+screen
 
 An expanded view of the table appears, providing you with a more comprehensive list of dataflows based on the parameters of your query.
 
-<screen>
+screen
 
 When prompted with an operational insights question, AI Assistant provides an explanation of how it computed the answer. In the following example, AI Assistant outlines the steps it took in order to identify the dataflows that were created using the Amazon S3 source.
 
-<screen>
+screen
 
 You can also provide filters and modifications to your questions, and you can instruct AI Assistant to render its findings based on the filters that you include. For example, you can ask AI Assistant to show you a trend of the count of segment definitions in the order of their created date, remove segment definitions with zero total profiles, and use month names instead of integers when displaying the data.
 
@@ -89,8 +89,10 @@ Select to view example of verifying operational insights responses
 
 After receiving an answer for an operational insights question, click **[!UICONTROL Show sources]** and then select **[!UICONTROL View source query]**.
 
-<screen>
+screen
 
 When queried with an operational insights question, AI Assistant provides an SQL query that you can use to verify the process that it took to compute its answer. This source query is for verification purposes only and is not supported on Query Service.
 
-<screen>  -- >
+screen  
+
+-- >
