@@ -15,7 +15,7 @@ In Journey Optimizer B2B Edition, AI Assistant is a user interface feature that 
 
 To access AI Assistant, click the icon in the header. AI Assistant opens in a panel on the right.
 
-![Click the icon to access the AI Assistant](./assets/ai-assistant-icon-displayed.png){width="500" zoomable="yes"}
+![Click the icon to access the AI Assistant](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}
 
 The AI Assistant interface appears, immediately providing you with information to get started. You can use the options provided under _Ideas to get started_ to answer questions and commands, such as:
 
@@ -35,13 +35,13 @@ Product knowledge questions are about Journey Optimizer B2B Edition concepts rel
 
 To ask a product question, enter it in the field at the bottom of the panel and press enter.
 
-![Enter a question in the text box](./assets/ai-assistant-ask-question.png){width="450" zoomable="yes"}
+![Enter a question in the text box](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}
 
 You can verify the responses returned by AI Assistant by reviewing the citations available with every product knowledge answer.
 
 To view citations and validate AI Assistant's response, select **[!UICONTROL Show sources]**. 
 
-![Results from the AI Assistant query](./assets/ai-assistant-answer.png){width="450" zoomable="yes"}
+![Results from the AI Assistant query](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}
 
 AI Assistant updates the interface and provides you with links to documentation that corroborate the initial response. Additionally, when citations are enabled, AI Assistant updates the response to include footnotes for indicating the specific parts of the answer that reference the provided documentation.
 
@@ -59,7 +59,7 @@ You must be in an active sandbox for AI Assistant to provide a sufficient respon
 
 >[!NOTE]
 >
->The only Adobe Journey Optimizer B2B Edition objects supported by the AI Assistant operational insights questions are listed in the [operational insights domain table](./ai-assistant-overview.md#operational-insights). It can access data only for the sandbox you are currently in.
+>The only Adobe Journey Optimizer B2B Edition objects supported by the AI Assistant operational insights questions are listed in the [operational insights domain table](./ai-assistant-overview.md#operational-insights). It can access data only for the sandbox that you are currently in.
 
 <!-- Select to view an example of an operational insights question.
 

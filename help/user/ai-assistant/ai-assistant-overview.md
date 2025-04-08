@@ -62,6 +62,8 @@ You can ask AI Assistant questions about your operational insights in the follow
 | Buying Group Template | <li>Counts <li>Status <li>Roles <li>Name and ID search | <li>Role rules |
 | Solution Interest | <li>Counts <li>Status <li>Solution Interest - Buying Group Template relationship <li>Name and ID search | <li>Solution Interest - Buying Group relationship |
 
+{style="table-layout:fixed"}
+
 For operational insights questions, answers may not reflect the current state of the UI. The data that backs these questions is updated once every 24 hours. For example, changes that users make in Real-Time CDP during the daytime are synced with the data stores at night, and then they become available for user questions in the morning. Log into a sandbox to inquire about specific data related to objects.
 
 ### Feature scope
