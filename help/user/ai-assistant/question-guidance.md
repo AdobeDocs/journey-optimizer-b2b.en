@@ -6,7 +6,7 @@ level: Beginner
 ---
 # Question guidance for AI Assistant in Journey Optimizer B2B Edition
 
-Review the following set of example questions for querying AI Assistant in Journey Optimizer B2B Edition. This information also includes tips for how to phrase your questions to get optimal responses from AI Assistant.
+Review the following set of example questions for querying AI Assistant in Journey Optimizer B2B Edition. This information also includes tips for how to phrase your questions to get optimal responses from AI Assistant. 
 
 ## Objective-based questions
 

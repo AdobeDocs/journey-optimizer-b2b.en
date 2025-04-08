@@ -6,7 +6,7 @@ level: Beginner
 ---
 # AI Assistant in Journey Optimizer B2B Edition
 
-AI Assistant in Journey Optimizer B2B Edition is created from the same technology foundation of [AI Assistant in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home). It is a conversational experience that you can use to accelerate your workflows in Adobe Journey Optimizer B2B Edition. You can use AI Assistant to gain more understanding of the product capabilities, troubleshoot problems, or search through information and find operational insights for Journey Optimizer B2B Edition.
+AI Assistant in Journey Optimizer B2B Edition is created from the same technology foundation of [AI Assistant in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home). It is a conversational experience that you can use to accelerate your workflows in Adobe Journey Optimizer B2B Edition. You can use AI Assistant to gain more understanding of the product capabilities, troubleshoot problems, or search through information and find operational insights for Journey Optimizer B2B Edition. 
  
 >[!IMPORTANT]
 >

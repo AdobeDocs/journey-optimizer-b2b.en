@@ -8,7 +8,7 @@ level: Beginner
   
 >[!IMPORTANT]
 >
->If you receive a pop-up message in the permissions UI that informs you that your organization must first agree to additional legal terms to gain access to AI Assistant, contact your Adobe account team for guidance on these terms.
+>If you receive a pop-up message in the permissions UI that informs you that your organization must first agree to additional legal terms to gain access to AI Assistant, contact your Adobe account team for guidance on these terms. 
 
 The following parameters govern access to AI Assistant in Journey Optimizer B2B Edition:
 
