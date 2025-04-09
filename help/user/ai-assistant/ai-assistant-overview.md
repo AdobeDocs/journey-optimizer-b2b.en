@@ -3,6 +3,7 @@ title: AI Assistant in Journey Optimizer B2B Edition
 description: Placeholder
 feature: AI Assistant
 level: Beginner
+exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 ---
 # AI Assistant in Journey Optimizer B2B Edition
 

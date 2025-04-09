@@ -3,6 +3,7 @@ title: Enable AI Assistant Access
 description: Placeholder
 feature: AI Assistant
 level: Beginner
+exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
 ---
 # Enable AI Assistant access
   

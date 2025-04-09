@@ -3,6 +3,7 @@ title: Question guidance for AI Assistant
 description: Placeholder
 feature: AI Assistant
 level: Beginner
+exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
 ---
 # Question guidance for AI Assistant in Journey Optimizer B2B Edition
 
