@@ -35,8 +35,8 @@ Product knowledge refers to concepts and topics grounded in the Journey Optimize
 
 | Product knowledge | Examples |
 | --- | --- |
-| Pointed learning | <li>What is a buying group? <li> Show me an example of buying group roles template? |
-| Open discovery | <li>What are the steps to create buying groups? <li>How do I use custom fields in buying group roles templates? |
+| Pointed learning | <li>What is a buying group? <li> Show me an example of a buying group roles template? |
+| Open discovery | <li>What are the steps to create buying groups? <li>How do I use custom fields in a buying group roles templates? |
 | Troubleshooting | <li>Why weren't buying Groups for my journey created? <li>Why can't I find Experience Events to listen to in the journey? |
 
 ### Operational insights
@@ -51,11 +51,11 @@ You can ask AI Assistant questions about your operational insights in the follow
 
 | Domain | Supported metadata | Unsupported metadata |
 | --- | --- | --- |
-| Attributes/fields | <li>Attribute name search <li>Attribute - schema relationship <li>Attribute - dataset relationship <li>Attribute - audience relationship <li>Attribute - destination relationship | Attribute class <li>Audit <li>Deprecation status <li>Labels <li>Value stored in attributes |
+| Attributes/fields | <li>Attribute name search <li>Attribute - schema relationship <li>Attribute - dataset relationship <li>Attribute - audience relationship <li>Attribute - destination relationship | <li>Attribute class <li>Audit <li>Deprecation status <li>Labels <li>Value stored in attributes |
 | Account Audiences <br><br>**_Note:_** AJO B2B AI Assistant can only answer audience questions for Account Audiences, while Experience Platform AI Assistant can answer questions only for Person Audiences | <li>Audience count <li>Audience type (streaming or batch) <li>Creation/modification dates <li>Activation status <li>Member count <li>Duplicate audiences <li>Name and ID search | <li>Audience overlaps <li>Audience activation <li>Audit <li>Create/modification <li>Labels <li>Member qualification trends |
-| Dataflows | <li>Dataflow counts <li>Dataflow status <li>Dataflow - dataset relationship <li>Dataflow - source relationship | Creation/modification <li>Dataflow-batch relationships <li>Ingest profile count |
+| Dataflows | <li>Dataflow counts <li>Dataflow status <li>Dataflow - dataset relationship <li>Dataflow - source relationship | <li>Creation/modification <li>Dataflow-batch relationships <li>Ingest profile count |
 | Datasets | <li>Dataset count <li>Profile enable status <li>Creation/modification date <li>Dataset - schema relationship <li>Dataset - audience relationship <li>Dataset - attribute relationship <li>Dataset - dataflow relationship <li>Name search <li>Name and ID search | <li>Audit <li>Created by <li>Dataset - batch relationship <li>Dataset creation/modification <li>Dataset size <li>Number of profiles <li>Number of rows <li>Value search |
-| Destinations | <li>Configured destination counts <li>Destination - audience relationship <li>Destination attribute relationship | Account set up <li>Account credential information <li>Unique profiles activated |
+| Destinations | <li>Configured destination counts <li>Destination - audience relationship <li>Destination attribute relationship | <li>Account setup <li>Account credential information <li>Unique profiles activated |
 | Journeys (Account Journeys) | <li>Count <li>Name and ID search <li>Journey status <li>Creation/modification dates | <li>Attributes - journey relationships Audit <li>Creation/modification <li>Created by |
 | Schemas | <li>Schema counts <li>Creation/modification date <li>Schema - attribute relationship <li>Schema - dataset relationship <li>Schema - audience relationship <li>Profile enable status <li>Name search <li>Name and ID search | <li>Audit <li>Creation/modification <li>Created by <li>Field groups <li>Identities <li>Identity namespaces <li>Labels <li>Number of profiles |
 | Sources | <li>Account counts <li>Account status <li>Active/inactive dataflows for each account <li>Source connector - dataflow relationship <li>Source account - dataflow relationship | <li>Account credentials information <li>Account set upData ingestion metrics <li>Number of profilesSource - batch relationships |
