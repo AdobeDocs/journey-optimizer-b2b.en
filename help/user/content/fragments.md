@@ -87,7 +87,7 @@ You can create new visual fragments in Journey Optimizer B2B Edition by clicking
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
-   * [Enable custom fields](./fragment-authoring.md#enable-custom-fields)
+   * [Enable custom fields](./fragment-authoring.md#enable-fragment-customization)
    * [Edit linked URL tracking](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Click **[!UICONTROL Save]** at any time to save the draft fragment.
@@ -167,7 +167,7 @@ Edits to a fragment depend on its current status:
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
-   * [Enable custom fields](./fragment-authoring.md#enable-custom-fields)
+   * [Enable custom fields](./fragment-authoring.md#enable-fragment-customization)
    * [Edit linked URL tracking](./fragment-authoring.md#edit-linked-url-tracking)
 
    Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the fragment details.
@@ -196,7 +196,7 @@ Edits to a fragment depend on its current status:
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
-   * [Enable custom fields](./fragment-authoring.md#enable-custom-fields)
+   * [Enable custom fields](./fragment-authoring.md#enable-fragment-customization)
    * [Edit linked URL tracking](./fragment-authoring.md#edit-linked-url-tracking)
 
    Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the fragment details.
@@ -225,7 +225,7 @@ To update the content:
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
-   * [Enable custom fields](./fragment-authoring.md#enable-custom-fields)
+   * [Enable custom fields](./fragment-authoring.md#enable-fragment-customization)
    * [Edit linked URL tracking](./fragment-authoring.md#edit-linked-url-tracking)
 
    Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the fragment details.

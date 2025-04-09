@@ -29,7 +29,7 @@ With Adobe Express Enterprise licensing, you can leverage a full suite of Adobe 
 
 As a content designer, you can designate a parameter for a component in the fragment as editable. This allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
 
-[!BADGE Learn more]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Learn about custom fields for content fragments"}
+[!BADGE Learn more]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Learn about custom fields for content fragments"}
 
 >[!TAB AEP event forwarding]
 

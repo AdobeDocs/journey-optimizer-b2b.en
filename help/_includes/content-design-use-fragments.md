@@ -31,9 +31,9 @@ The following example outlines steps to add fragments as you author your content
 
 >[!BEGINSHADEBOX]
 
-**Editable fields**
+**Editable fields in customizable fragments**
 
-A visual fragment can include editable fields that you can customize. Custom fields allow you to modify parameters when you incorporate the fragment into your content and create a tailored experience without affecting the original fragment. If an included fragment contains components with editable fields, you can change the default values.
+A visual fragment can include editable fields that you can customize. Custom fields allow you to modify parameters when you incorporate the fragment into your content and create a tailored experience without affecting the original fragment. The frament author can [design the fragmant for customization](../user/content/fragment-authoring.md#enable-fragment-customization) of text, image, and button components. If an included fragment contains components with editable fields, you can change the default values to customize it for your content.
 
 1. Select the fragment component.
 

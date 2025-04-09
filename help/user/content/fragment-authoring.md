@@ -34,7 +34,7 @@ After you [create a fragment](./fragments.md#create-fragments), use the visual e
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-## Enable custom fields
+## Enable fragment customization
 
 When an email or email template author adds the fragment, the fragment content is locked by default. Any changes to the published fragment are automatically propagated to all content assets where the fragment is used. When you designate a parameter for a component in the fragment as editable, the email or template author can specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
 
