@@ -44,7 +44,7 @@ As you author an email for your account journey in the email design space, use c
 
    ![Conditions library access condition details](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   If the condition that you need does not exist, [create a conditional rule](#create-a-conditional-rule) by clicking **[!UICONTROL Create new]**.
+   If the condition that you need does not exist, [create a conditional rule](#create-condition) by clicking **[!UICONTROL Create new]**.
 
 1. Select the conditional rule and click **[!UICONTROL Select]** to associate it with the variant.
 
