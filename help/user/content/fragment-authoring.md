@@ -36,9 +36,9 @@ After you [create a fragment](./fragments.md#create-fragments), use the visual e
 
 ## Enable fragment customization
 
-When an email or email template author adds the fragment, the fragment content is locked by default. Any changes to the published fragment are automatically propagated to all content assets where the fragment is used. When you designate a parameter for a component in the fragment as editable, the email or template author can specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
+When an author adds a fragment to an [email](./email-authoring.md#content-authoring---use-visual-fragments) or [email template](./email-template-authoring.md#content-authoring---use-visual-fragments), the fragment content is locked by default. Any changes to the published fragment are automatically propagated to all content assets where the fragment is used. When you designate a parameter for a component in the fragment as editable, the email or template author can specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
 
-For example, if you design a reusable banner that includes a clickable button, you can designate the URL parameter for the button as editable. Email authors can then use a URL that is more specific to their email campaign. With these customizable fields, Marketers can manage and personalize content without the need to create entirely new content blocks or disrupt the inherited updates from the original fragment.
+For example, if you design a reusable banner that includes a clickable button, you can designate the URL parameter for the button as editable. Email authors can then use a URL that is more specific to their email campaign. With these customizable fields, Marketers can manage and personalize reusable content without the need to create entirely new content blocks or disrupt the inherited updates from the original fragment. 
 
 1. In the visual content editor, select the image, text, or button element where you want to enable customization.
 
