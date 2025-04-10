@@ -22,7 +22,7 @@ This release includes the following new capabilities and enhancements:
 | New feature | Account lists | You can now create a static or dynamic account list to target named accounts by your defined criteria, such as industry, location, or size of the company. <a href="../accounts/account-lists.md">Learn more</a> |
 | New feature | My Tokens for account journeys | You can now define a set of custom tokens with values that are specific to the account journey. This set of custom tokens is called _My Tokens_ and any of these custom tokens are for personalization when authoring journey emails. <a href="../content/personalization-my-tokens.md">Learn more</a> |
 | New feature | Delete buying group stages | You can delete the buying group stages model when it is in a draft or published state. If it is published (live), you can delete it only when it is not associated with a solution interest. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Learn more</a> |
-| Enhancement | Journey node counts | Improved visibility into journey membership counts at the node level. Use this information to validate account progression in a journey. |
+| Enhancement | Journey node counts | Improved visibility into published journey membership counts at the node level. In the _Journey map_, nodes display _[!UICONTROL Total accounts entered]_. When you select and action node, the details on the right also include _[!UICONTROL Accounts not yet actioned on]_. And details for _Listen for an event_ nodes include _[!UICONTROL Accounts at this step]_. Use this information to validate account progression in your live, finished, and aborted journeys. |
 
 ## 2025.2 release notes
 
