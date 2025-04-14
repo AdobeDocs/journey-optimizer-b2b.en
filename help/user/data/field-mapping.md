@@ -25,8 +25,6 @@ Account audience data is stored as attributes in both XDM Business Account and X
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-|`b2b.companyName` |Company Name    |Company Name |String  |Name of the company a business person is associated with. |
-|`b2b.companyWebsite` |Company Website   |Website    |String  |Website of the company a business person is associated with. |
 |`b2b.isMarketingSuspended` |Marketing Suspended Indicator   |Marketing Suspended    |Boolean |The value indicates whether marketing is suspended for the person.   |
 |`b2b.marketingSuspendedCause`  |Marketing Suspended Cause  |Marketing Suspended Cause  |String |If marketing is suspended for the person, this property provides the reason why.   |
 |`b2b.personStatus` |Person Status      |Lead Status  |String  |Field recording the current marketing/sales status of the Person.  |
