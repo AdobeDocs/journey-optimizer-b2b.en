@@ -30,10 +30,8 @@ You can increase marketing effectiveness by establishing buying groups in Journe
 
 1. Create buying groups.
 
-   Options:
-   * Use [solution interest](./solution-interests.md) and [role template](./buying-groups-role-templates.md)
-   * Use third-party import
-   * Generate from AI/ML
+   * Define [solution interest](./solution-interests.md) and [role template](./buying-groups-role-templates.md)
+   * [Create the buying group](./buying-groups-create.md#create-buying-groups) and assign [buying group stages](./buying-group-stages.md).
 
 1. Identify missing people.
 
@@ -47,7 +45,7 @@ You can increase marketing effectiveness by establishing buying groups in Journe
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Use in an account journey through the associated solution interest.
+1. Use the buying group your account journeys.
 
 ## View buying groups and components
 

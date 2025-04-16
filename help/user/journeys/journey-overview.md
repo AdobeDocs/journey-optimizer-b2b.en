@@ -23,24 +23,22 @@ To get started with account journeys:
 
 ## Access and browse account journeys
 
-1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
+On the left navigation, click **[!UICONTROL Account journeys]**.
 
-1. On the left navigation, click **[!UICONTROL Account journeys]**.
+![Access account journeys](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![Access account journeys](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+The displayed journeys page includes the following columns:
 
-   The displayed journeys page includes the following columns:
+* [!UICONTROL Name] (click the name to open the journey for editing)
+* [!UICONTROL Status]
+* [!UICONTROL Description] 
+* [!UICONTROL Created by]
+* [!UICONTROL Last updated at]
+* [!UICONTROL Last updated by]
+* [!UICONTROL Published on]
+* [!UICONTROL Published by]
 
-   * [!UICONTROL Name] (click the name to open the journey for editing)
-   * [!UICONTROL Status]
-   * [!UICONTROL Description] 
-   * [!UICONTROL Created by]
-   * [!UICONTROL Last updated at]
-   * [!UICONTROL Last updated by]
-   * [!UICONTROL Published on]
-   * [!UICONTROL Published by]
-
-  Use the _Search_ tool at the top to locate the journey by name. You can sort the list by _[!UICONTROL Status]_ by clicking the column header.
+Use the _Search_ tool at the top to locate the journey by name. You can sort the list by _[!UICONTROL Status]_ by clicking the column header.
 
 You can customize the columns that are displayed in the table by clicking the _Customize table_ ( ![Customize table](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner. Select or clear the checkboxes in the dialog and click **[!UICONTROL Apply]**. 
 
