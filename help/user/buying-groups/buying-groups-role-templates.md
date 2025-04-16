@@ -12,8 +12,6 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
 ## Access and browse role templates
 
-1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
-
 1. On the left navigation, click **[!UICONTROL Buying groups]**.
 
 1. In the _[!UICONTROL Buying groups]_ page, select the **[!UICONTROL Roles Templates]** tab.

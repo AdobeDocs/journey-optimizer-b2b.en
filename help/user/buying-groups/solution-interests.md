@@ -12,8 +12,6 @@ Before you create buying groups, you should know what you are selling and who yo
 
 ## Access and browse solution interests
 
-1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
-
 1. On the left navigation, click **[!UICONTROL Buying Groups]**.
 
 1. In the _[!UICONTROL Buying Groups]_ page, select the **[!UICONTROL Solution interest]** tab.

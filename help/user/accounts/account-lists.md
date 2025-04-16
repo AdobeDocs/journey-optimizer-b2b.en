@@ -14,29 +14,27 @@ When an account list is in a _Live_ (published) state, it is available for use i
 
 ## Access and browse account lists
 
-1. In your Adobe Experience Platform home page, click Adobe Journey Optimizer B2B Edition.
+On the left navigation, expand **[!UICONTROL Accounts]** and click **[!UICONTROL Account lists]**.
 
-1. On the left navigation, expand **[!UICONTROL Accounts]** and click **[!UICONTROL Account lists]**.
+![Access account journeys](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![Access account journeys](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+The displayed _[!UICONTROL Account lists]_ page includes the following columns:
 
-   The displayed _[!UICONTROL Account lists]_ page includes the following columns:
+* [!UICONTROL Name] (click the name of the account list to view details)
+* [!UICONTROL Status]
+* [!UICONTROL Type] 
+* [!UICONTROL Last updated on]
+* [!UICONTROL Last updated by]
+* [!UICONTROL Creation date]
+* [!UICONTROL Created by]
 
-   * [!UICONTROL Name] (click the name of the account list to view details)
-   * [!UICONTROL Status]
-   * [!UICONTROL Type] 
-   * [!UICONTROL Last updated on]
-   * [!UICONTROL Last updated by]
-   * [!UICONTROL Creation date]
-   * [!UICONTROL Created by]
-
-  This table includes the ability to search by Name. The sort function is currently unavailable.
+This table includes the ability to search by Name. The sort function is currently unavailable.
 
 You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the checkboxes. 
 
 ![Choose the columns to display in the acount journeys list](./assets/account-lists-list-columns.png){width="300"}
 
-To view the description for an account list, click the _Information_ icon next to the name.
+To view the description for an account list, click the _Information_ ( ![Information icon](../assets/do-not-localize/icon-info.svg) ) icon next to the name.
 
 ## Create an account list
 
