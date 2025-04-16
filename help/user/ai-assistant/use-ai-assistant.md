@@ -103,15 +103,15 @@ If you notice something in the response that is problematic, click the _Flag_ ( 
 
 >[!TAB Thumb up]
 
-![AI Assistant response - Thumb up positive feedback form](./assets/ai-assistant-response-feedback-positive-form.png){width="500" zoomable="yes"}
+![AI Assistant response - Thumb up positive feedback form](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
 
 >[!TAB Thumb down]
 
-![AI Assistant response - Thumb dwon negative feedback form](./assets/ai-assistant-response-feedback-negative-form.png){width="500" zoomable="yes"}
+![AI Assistant response - Thumb dwon negative feedback form](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
 
 >[!TAB Flag]
 
-![AI Assistant response - Flag problem feedback form](./assets/ai-assistant-response-feedback-flagged-form.png){width="500" zoomable="yes"}
+![AI Assistant response - Flag problem feedback form](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
 
