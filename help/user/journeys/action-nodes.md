@@ -30,7 +30,7 @@ Use an action on accounts when you want to apply a change to all people that are
 
 ### Add an account-based action
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Take an action]**.
 
@@ -65,7 +65,7 @@ Use an action on people when you want to apply a change to all people on the nod
 
 ### Add a people-based action
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Take an action]**.
 
