@@ -54,6 +54,7 @@ _How does a split path by people node work?_
 | | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities associated with the journey: <li>[!UICONTROL Clicked link in SMS]</li><li>[!UICONTROL SMS Bounced]</li>These conditions are evaluated using a selected SMS message from earlier in the journey.  |
 | | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li> |
 | | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone</li><li>Email</li><li>Web</li>|
+| | [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Web page activity that for one or more web pages managed by the associated Marketo Engage instance. Constraints include: <li>Web page (required)<li>Date of activity<li>Client IP address <li>Querystring <li>Referrer <li>User agent <li>Search engine <li>Search query <li>Personalized URL <li>Token <li>Browser <li>Platform <li>Device <li>Min. number of times |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Role</li>|
 | | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more Marketo Engage programs. |
@@ -61,7 +62,7 @@ _How does a split path by people node work?_
 
 ### Add a split path by account node
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Split paths]**.
 
@@ -105,7 +106,7 @@ _How does a split path by people node work?_
 >
 >When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Split paths]**.
 
@@ -158,7 +159,7 @@ To use list membership in a split condition, expand **[!UICONTROL Special Filter
    
 ![Split path by people condition for Marketo Engage list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
    
->[!ENDSHADEBOX] 
+>[!ENDSHADEBOX]
 
 When you have conditions defined for each path for splitting your audience on the people level, you can add actions that you want to take on people.
 
@@ -170,7 +171,7 @@ When you have conditions defined for each path for splitting your audience on th
 
 Add a _Merge paths_ node to combine different split paths by account in your journey. 
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Split paths]**.
 
