@@ -6,7 +6,7 @@ exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 ---
 # Split and merge paths
 
-Use split and merge path nodes in your account journey to orchestrate your account journeys according to the conditions that you define for accounts or people. You can segment the journey audience or accounts list according to the conditions, define a path with action and event nodes for each segment, and then combine the segments to progress the journey further.
+Use split and merge path nodes in your account journey to orchestrate your account journeys according to the conditions that you define for accounts or people. You can segment the journey audience or accounts list according to the conditions, define a path with action and event nodes for each segment, and then combine the segments and continue the journey further.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -23,10 +23,10 @@ Paths split by accounts can include both account and people actions and events. 
 _How does a split path by accounts node work?_ 
 
 * Each path that you add includes an end node with the ability to add nodes to each edge.
-* Split by account nodes can be nested--you can split the path by accounts repeatedly. 
-* Evaluates paths from top to bottom. If an account matches for the first and second paths, it proceeds along the first path only.
+* Split by account nodes can be nested (you can split the path by accounts repeatedly). 
+* Evaluation of each path is from top to bottom. If an account matches for the first and second paths, it proceeds along the first path only.
 * Two or more paths can be combined using a merge node.
-* Supports the definition of an _[!UICONTROL Other accounts]_ path, where you can add actions or events for accounts that do not match one of the defined segments/paths.
+* The node supports the definition of an _[!UICONTROL Other accounts]_ path, where you can add actions or events for accounts that do not match one of the defined segments/paths.
 
 ![Journey node - split paths by account](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -80,15 +80,15 @@ _How does a split path by accounts node work?_
 
 ## Split paths by people
 
-Paths split by people and can include only people actions. These paths cannot be split again and automatically join back.
+Paths that are split by people can include only people actions. These paths cannot be split again and automatically join back.
 
 _How does a split path by people node work?_ 
 
-* Functions within a _grouped node_ split-merge combination. The split paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
-* Split by people nodes cannot be nested--you cannot add a split path for people on a path that is in this grouped node.
-* Evaluates paths from top to bottom. If a person matches for the first and second paths, they proceed along the first path only.
-* Supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the roles templates.
-* Supports the definition of an _[!UICONTROL Other people]_ path, where you can add actions or events for people that do not match one of the defined segments/paths.
+* Split by people nodes function within a _grouped node_ split-merge combination. The split paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
+* Split by people nodes cannot be nested (you cannot add a split path for people on a path that is in this grouped node).
+* Evaluation of each path is from top to bottom. If a person matches for the first and second paths, they proceed along the first path only.
+* The node supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the roles templates.
+* The node supports the definition of an _[!UICONTROL Other people]_ path, where you can add actions or events for people that do not match one of the defined segments/paths.
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -97,8 +97,8 @@ _How does a split path by people node work?_
 | Path conditions | Description |
 | --------------- | ----------- |
 | [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City</li><li>Country</li><li>Date of birth</li><li>Email address</li><li>Email invalid</li><li>Email suspended</li><li>First name</li><li>Inferred state region</li><li>Job title</li><li>Last name</li><li>Mobile phone number</li><li>Phone number</li><li>Postal code</li><li>State</li><li>Unsubscribed</li><li>Unsubscribed reason</li>|
-| [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities based on conditions that are evaluated using one or more selected email messages from earlier in the journey: <li>[!UICONTROL Clicked link in email] <li>Opened Email <li>Was delivered email <li>Was sent email <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have email activity).|
-| [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities based on conditions that are evaluated using one or more selected SMS messages from earlier in the journey: <li>[!UICONTROL Clicked link in SMS] <li>[!UICONTROL SMS Bounced] <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have SMS activity). |
+| [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities based on conditions that are evaluated using one or more selected email messages from earlier in the journey: <li>[!UICONTROL Clicked link in email] <li>Opened Email <li>Was delivered email <li>Was sent email <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).|
+| [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities based on conditions that are evaluated using one or more selected SMS messages from earlier in the journey: <li>[!UICONTROL Clicked link in SMS] <li>[!UICONTROL SMS Bounced] <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). |
 | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value<li>Previous value<li>Reason<li>Source<li>Date of activity<li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change).|
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone<li>Email<li>Web <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).|
 | [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Web page activity that for one or more web pages managed by the associated Marketo Engage instance. Constraints include: <li>Web page (required)<li>Date of activity<li>Client IP address <li>Querystring <li>Referrer <li>User agent <li>Search engine <li>Search query <li>Personalized URL <li>Token <li>Browser <li>Platform <li>Device <li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page).   |
@@ -128,7 +128,7 @@ _How does a split path by people node work?_
 
 1. Set the **[!UICONTROL Attributes used for conditions]**.
 
-   * Choose **[!UICONTROL People attributes only]** to use conditions related to the person profile and events. 
+   * Choose **[!UICONTROL People attributes only]** to use conditions related to the person profile. 
    * Choose **[!UICONTROL Account-person attributes only]** to use conditions related to the person's role membership within an account.
 
 1. To define a condition applicable to _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
@@ -163,6 +163,32 @@ _How does a split path by people node work?_
 
    When this option is not enabled, people that do not match a defined segmant/path move past the split and proceed to the next step in the journey.
 
+   When you have conditions defined for each path for splitting your audience on the people level, you can add actions that you want to take on people.
+
+### Activity filtering
+
+For a split path by people, you can define a path according to the person's activity related to:
+
+* Email messages from earlier in the journey
+* SMS messages from earlier in the journey
+* Change in data value in the person profile
+* An interesting moment (tracked in Marketo Engage) associated with an email, web page, or milestone
+* Visit to a web page tracked in Marketo Engage
+
+>[!BEGINSHADEBOX "Inactivity filtering"]
+
+For each of the _[!UICONTROL Activity history]_ filters, you can enable the **[!UICONTROL Switch to inactivity filter]** option. This option changes the filter to an evaluation for an absence of that activity type. For example, if you want to create a path for people who _**did not**_ open an email from earlier in the journey, add the _[!UICONTROL Email]_ > _[!UICONTROL Opened email]_ filter. Enable the inactivity option and specify the email. It is a best practice to use the _[!UICONTROL Date of activity]_ constraint to define a time period for the inactivity.
+
+![Split path by people condition for buying group membership](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
+
+### Membership filtering
+
+Within the _[!UICONTROL Special Filters]_ section, there are multiple filters that you can use to evaluate a person's membership in a buying group or Marketo Engage list. For example, if you want to create a path for people who are members of a buying group and are assigned a particular role, add the _[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_ filter. For the filter, set the membership as _true_, select a _[!UICONTROL Solution interest]_ that is associated with one or more buying groups, and set the _[!UICONTROL Role]_ that you want to match.
+
+![Split path by people condition for buying group membership](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+
 >[!BEGINSHADEBOX "Marketo Engage list membership"]
    
 In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your split path by people to help eliminate duplication in journey activities.
@@ -172,12 +198,6 @@ To use list membership in a split condition, expand **[!UICONTROL Special Filter
 ![Split path by people condition for Marketo Engage list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
    
 >[!ENDSHADEBOX]
-
-When you have conditions defined for each path for splitting your audience on the people level, you can add actions that you want to take on people.
-
->[!NOTE]
->
->When you split the audience by people, you can add only people actions until the paths are closed or merged.
 
 ## Merge paths
 
