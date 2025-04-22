@@ -219,4 +219,4 @@ If the person profile was not a member of the Smart List, the action is ignored.
 
 ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on
