@@ -6,7 +6,7 @@ exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
 ---
 # Create and publish an account journey
 
-To get started with an account journey, create the journey and then construct the nodes and journey flow in the journey editor.
+To get started with an account journey, create the journey and then construct the nodes and journey flow in the journey map.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -44,7 +44,7 @@ To help you build a journey without running into errors, the following guard rai
 
 ## Add a node
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on the path and select the node type.
 
@@ -52,7 +52,7 @@ To help you build a journey without running into errors, the following guard rai
 
 ## Delete a node
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. In the node properties on the right, click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon.
 
@@ -60,7 +60,7 @@ To help you build a journey without running into errors, the following guard rai
 
 ## Add and delete a path
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on the path and add the [split path node](./split-merge-paths-nodes.md#split-paths).
 
