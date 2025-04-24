@@ -68,7 +68,7 @@ For example, you might have a journey path where you send an email and some acco
 
 As a Marketer, you might want to suppress programs in Marketo Engage for people that are part of account lists in Journey Optimizer B2B Edition.
 
-In the Marketo Engage instance that is connected to Journey Optimizer B2B Edition, you can use the _[!UICONTROL Member of Account List]_ filter in your Smart Lists to identify these leads according to your campaign strategy. For more information about Smart Lists, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists).
+In the Marketo Engage instance that is connected to Journey Optimizer B2B Edition, you can use the _[!UICONTROL Member of Account List]_ filter in your Smart Lists to identify these leads according to your campaign strategy. For more information about Smart Lists, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Add the filter to a Smart List
 
@@ -86,7 +86,7 @@ In the Marketo Engage instance that is connected to Journey Optimizer B2B Editio
 
 1. In the campaign flow, add the **[!UICONTROL Add to List]** step and choose the list where you want to populate the people from the Journey Optimizer B2B Edition account list.
 
-   Refer to _[Add a Flow step to a smart campaign](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign)_ in the Marketo Engage documentation for detailed information about adding steps to a flow.
+   Refer to _[Add a Flow step to a smart campaign](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in the Marketo Engage documentation for detailed information about adding steps to a flow.
 
 ### Review the members
 
