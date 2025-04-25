@@ -8,11 +8,11 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 
 Use Adobe Journey Optimizer B2B Edition to send text messages (SMS) to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
 
-Before creating SMS messages for account journies, make sure that the [SMS service provider is configured](../admin/configure-channels-sms.md) from the _[!UICONTROL Administrator]_ settings.
+Before creating SMS messages for account journeys, make sure that the [SMS service provider is configured](../admin/configure-channels-sms.md) from the _[!UICONTROL Administrator]_ settings.
 
 ## Add an SMS action in an account journey
 
-You can set up text message deliveries in an Account Journey when you add a _[!UICONTROL Take an action]_ node and do the following:
+You can set up text message deliveries in an account journey when you add a _[!UICONTROL Take an action]_ node and do the following:
 
 1. For the _[!UICONTROL Action on]_ target, choose **[!UICONTROL People]**.
 
@@ -28,7 +28,7 @@ You can set up text message deliveries in an Account Journey when you add a _[!U
 
 1. Click **[!UICONTROL Create]**.
 
-   The _Journey content designer_ opens and you can create the message and set the SMS properties for sending the message.
+   The _Journey map_ opens and you can create the message and set the SMS properties for sending the message.
 
 ### Create the SMS message
 
