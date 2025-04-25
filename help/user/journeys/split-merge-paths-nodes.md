@@ -87,7 +87,7 @@ _How does a split path by people node work?_
 * Split by people nodes function within a _grouped node_ split-merge combination. The split paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
 * Split by people nodes cannot be nested (you cannot add a split path for people on a path that is in this grouped node).
 * Evaluation of each path is from top to bottom. If a person matches for the first and second paths, they proceed along the first path only.
-* The node supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the roles templates.
+* The node supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the relationship.
 * The node supports the definition of an _[!UICONTROL Other people]_ path, where you can add actions or events for people that do not match one of the defined segments/paths.
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
