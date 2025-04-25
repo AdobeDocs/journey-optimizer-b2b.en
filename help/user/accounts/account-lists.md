@@ -1,7 +1,6 @@
 ---
 title: Account Lists
 description: Learn about account lists and how Marketers can use them to target accounts through account journeys.
-badgeBeta: label="Limited availability" type="informative" tooltip="This feature is currently available only by request"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
 ---
 # Account lists
