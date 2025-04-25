@@ -107,6 +107,10 @@ _To create an external audience:_
 
    The system creates the new audience and displays a confirmation message. You can then proceed to use it as an existing audience for the node action.
 
+   >[!NOTE]
+   >
+   >When a new external customer audience is created from Journey Optimizer B2B Edition, it is seeded with a dummy record (`test@email.com`). This record is overwritten as soon as the first real profile is added to the external audience from the journey.
+
 _To use an existing audience:_
 
 1. Click **[!UICONTROL Select external customer audience]**.
