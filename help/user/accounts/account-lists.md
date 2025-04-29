@@ -1,17 +1,20 @@
 ---
 title: Account Lists
 description: Learn about account lists and how Marketers can use them to target accounts through account journeys.
-badgeBeta: label="Limited availability" type="informative" tooltip="This feature is currently available only by request"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
 ---
 # Account lists
 
-An account list is a collection of named accounts that Marketers can use for targeted journey orchestration. An account list can target named accounts by your defined criteria, such as industry, location, or size of the company. There are two types of account lists:
+In Journey Optimizer B2B Edition, an account list is a collection of named accounts that Marketers can use for targeted journey orchestration. An account list can target named accounts by your defined criteria, such as industry, location, or size of the company. There are two types of account lists:
 
 * **Static** - With a static account list, the list only changes when you add the accounts. You can manually add accounts by applying a filter set to populate the list based on current account data, or add and remove accounts through an account journey. 
 * **Dynamic** - With a dynamic account list, you define a filter set for automatically curating the list. The system uses this filter set to add and remove accounts according to changes in the account information. This list management is similar to [audience segmentation in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
 
-When an account list is in a _Live_ (published) state, it is available for use in account journeys.
+When an account list is in a _Live_ (published) state, it is available for [use in account journeys and Marketo Engage programs](./account-lists-journeys.md).
+
+>[!NOTE]
+>
+>Account lists leverage account data from Marketo Engage to create account segments and lists. This means that if an account segment from Adobe Experience Platform is not actively synced to Marketo Engage, accounts in that Experience Platform segment may not be available in Journey Optimizer B2B Edition account lists. Subsequently, any people from accounts in Experience Plafrom segments that are not synced to Marketo Engage may not be included in person membership counts or counted in trigger events.
 
 ## Access and browse account lists
 
@@ -164,65 +167,3 @@ You can proceed to publish a dynamic account list as soon as the filter set is c
 The status of the dynamic account list changes to _[!UICONTROL Live]_ and it is available for [use in an account journey](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
-
-## Account list usage in account journeys
-
-There are three ways that you can incorporate Live (published) account lists in your account journeys:
-
-### Account audience node
-
-1. Select **[!UICONTROL Account list]** for the starting _Account audience_ node.
-
-   ![Select account list option for account audience node](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. Click **[!UICONTROL Add accounts list]**.
-
-1. Select the checkbox for the account list and click **[!UICONTROL Save]**.
-
-   ![Select account list option for account audience node](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-The accounts in the list move through the journey when it goes live (published). 
-
-### Take an action node - Add to account
-
-**_Static account lists only_**
-
-Add accounts to a static account list using [a _Take an Action_ node](../journeys/action-nodes.md).
-
-For example, you might have a journey path where you send an email and some account take various actions as a response actions. You consider this activity to be a qualification point in the journey and want to add them to an account list that is used to as the audience for another journey with a different flow for qualified accounts.
-
->[!NOTE]
->
->If an account is already in the list when the node executes, the action is ignored.
-
-1. Select the _[!UICONTROL Action on]_ **[!UICONTROL Accounts]** option.
-
-1. For _[!UICONTROL Action on accounts]_, choose **[!UICONTROL Add to account list]**.
-
-   ![Select Add to account list](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. For **[!UICONTROL Select live static account list]**, choose the account list where you want to add accounts.
-
-   ![Select Add to account list](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### Take an action node - Remove from account
-
-**_Static account lists only_**
-
-Remove accounts from a static account list using [a _Take an Action_ node](../journeys/action-nodes.md).
-
-For example, you might have a journey path where you send an email and some account take various actions as a response actions. You consider this activity to be a qualification point in the journey and want to remove them from an account list that is used to as the audience for another journey that sends additional emails so that you don't duplicate your qualification communications.
-
->[!NOTE]
->
->If an account is not in the list where it is scheduled for removal, the action is ignored.
-
-1. Select the _[!UICONTROL Action on]_ **[!UICONTROL Accounts]** option.
-
-1. For _[!UICONTROL Action on accounts]_, choose **[!UICONTROL Remove from account list]**.
-
-   ![Select Add to account list](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. For **[!UICONTROL Select live static account list]**, choose the account list where you want to remove accounts.
-
-   ![Select Add to account list](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

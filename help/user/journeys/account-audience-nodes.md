@@ -6,7 +6,7 @@ exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
 ---
 # Account audience journey nodes
 
-The Account audience node defines the input account audience (created and managed in Adobe Experience Platform) for the journey. When you [create an account journey](./journey-overview.md#create-an-account-journey), it always starts with an _Account audience_ node that defines the input for the journey.
+The Account audience node defines the input accounts for the journey. When you [create an account journey](./journey-overview.md#create-an-account-journey), it always starts with an _Account audience_ node that defines the input for the journey.
 
 There are two types of input that you can use for this node:
 

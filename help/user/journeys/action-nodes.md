@@ -30,7 +30,7 @@ Use an action on accounts when you want to apply a change to all people that are
 
 ### Add an account-based action
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Take an action]**.
 
@@ -65,7 +65,7 @@ Use an action on people when you want to apply a change to all people on the nod
 
 ### Add a people-based action
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Take an action]**.
 
@@ -106,6 +106,10 @@ _To create an external audience:_
 1. Click **[!UICONTROL Create]**.
 
    The system creates the new audience and displays a confirmation message. You can then proceed to use it as an existing audience for the node action.
+
+   >[!NOTE]
+   >
+   >When a new external customer audience is created from Journey Optimizer B2B Edition, it is seeded with a dummy record (`test@email.com`). This record is overwritten as soon as the first real profile is added to the external audience from the journey.
 
 _To use an existing audience:_
 

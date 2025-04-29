@@ -31,7 +31,7 @@ Listen for an event based on the account when you want to move the account forwa
 
 ### Add an account event
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Listen for an event]**.
 
@@ -65,7 +65,7 @@ Listen for an event based on people when you want to move the account forward in
 
 ### Add a people event
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Listen for an event]**.
 
@@ -81,7 +81,7 @@ Listen for an event based on people when you want to move the account forward in
 
 If you have web pages created in your connected Marketo Engage instance, you can trigger an event based on a visit/no visit to Marketo Engage web pages, as well as Marketo Engage forms that were/were not filled. 
 
-1. Select a **[!UICONTROL Listen for an event]** node in the journey editor.
+1. Select a **[!UICONTROL Listen for an event]** node in the journey map.
 
 1. In the node properties on the right, choose **[!UICONTROL People]** for the event type.
 
@@ -108,7 +108,7 @@ If you have web pages created in your connected Marketo Engage instance, you can
 
 1. If needed, set the **[!UICONTROL Timeout]** option to limit the time period to listen for the event (see [Add a timeout to an event node](#add-a-timeout-to-an-event-node)). 
 
-1. In the journey editor, add the next node to execute when the event occurs.
+1. In the journey map, add the next node to execute when the event occurs.
 
 ### Listen for an Experience Event
 
@@ -122,7 +122,7 @@ Administrators can configure Adobe Experience Platform (AEP)-based event definit
 
 _To include an Experience Event in your journey:_
 
-1. Select a **[!UICONTROL Listen for an event]** node in the journey editor.
+1. Select a **[!UICONTROL Listen for an event]** node in the journey map.
 
 1. In the node properties on the right, choose **[!UICONTROL People]** for the event type.
 
@@ -154,7 +154,7 @@ _To include an Experience Event in your journey:_
 
 1. If needed, set the **[!UICONTROL Timeout]** option to limit the time period to listen for the event (see [Add a timeout to an event node](#add-a-timeout-to-an-event-node)). 
 
-1. In the journey editor, add the next node to execute when the event occurs.
+1. In the journey map, add the next node to execute when the event occurs.
 
 1. Complete the remaining nodes for your journey and [publish it](./journey-overview.md).
 

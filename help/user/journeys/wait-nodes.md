@@ -15,7 +15,7 @@ There are two ways that you can define the wait time:
 
 _To define a wait node for your account journey:_
 
-1. Navigate to the journey editor.
+1. Navigate to the journey map.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Wait]**.
 
