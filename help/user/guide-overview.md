@@ -64,15 +64,15 @@ For a full list of new features and improvements, see the [release notes](../use
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="Product usage launch"></a>
+    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="Product usage launch"></a>
     <div><strong>Launch from your home page</strong><br/>Learn how to achieve your goals faster in Journey Optimizer B2B Edition with your personalized home page based on your role.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Buying groups"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="Buying groups"></a>
     <div><strong>Build your first Buying Group</strong><br/>Create your first buying group in Journey Optimizer B2B Edition to automate the process of engaging and qualifying contacts.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Account journeys"></a>
+    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Account journeys"></a>
     <div><strong>Create your first Account Journey</strong><br/>Design and orchestrate personalized account journeys to harmonize marketing outreach with targeted engagement. 
     </div>
     </td>
