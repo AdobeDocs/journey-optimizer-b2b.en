@@ -15,23 +15,25 @@ Here is a sampling of the latest additions and enhancements in the Journey Optim
 
 Create an account list, which is a collection of named accounts that Marketers can use for targeted journey orchestration. An account list can target named accounts by your defined criteria, such as industry, location, or size of the company. 
 
-[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-lists.md tooltip="Learn about account lists"}
+[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Learn about account lists"}
 
 >[!TAB Account list filters for smart lists]
 
 You can now filter Marketo Engage smart lists with account list filters. These filters allow you to suppress and include account list members across Marketo Engage campaigns and programs from account journeys within Journey Optimizer B2B Edition.
 
-[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list tooltip="Learn about account list filters used in Marketo Engage smart lists"}
+[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Learn about account list filters used in Marketo Engage smart lists"}
 
 >[!TAB Inactivity history filters]
 
-Progress journeys based on inactivity within Marketo Engage campaigns and programs including email inactivity, interesting moments, data value changes and visited web pages
+Progress journeys based on inactivity within Marketo Engage campaigns and programs including email, interesting moments, data value changes and visited web pages.
+
+[!BADGE Learn more]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Learn about inactivity history filters"}
 
 >[!TAB Journey duplication]
 
 Duplicate your account journey structures to minimize manual errors and ensure consistent settings, flows, and paths. In the duplicated journey, you can adjust content or actions, making it easier to manage larger and more complex campaigns​.
 
-[!BADGE Learn more]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey tooltip="Learn about journey duplication"}
+[!BADGE Learn more]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="Learn about journey duplication"}
 
 >[!TAB Intelligent insights dashboard]
 
