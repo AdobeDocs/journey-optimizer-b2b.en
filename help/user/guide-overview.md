@@ -7,9 +7,31 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 
 ## What's new?
 
-Here is a sampling of the latest enhancements in the Journey Optimizer B2B Edition product and documentation. 
+Here is a sampling of the latest additions and enhancements in the Journey Optimizer B2B Edition application and documentation. 
 
 >[!BEGINTABS]
+
+>[!TAB Account lists]
+
+Create an account list, which is a collection of named accounts that Marketers can use for targeted journey orchestration. An account list can target named accounts by your defined criteria, such as industry, location, or size of the company. 
+
+[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-lists.md tooltip="Learn about account lists"}
+
+>[!TAB Account list filters for smart lists]
+
+You can now filter Marketo Engage smart lists with account list filters. These filters allow you to suppress and include account list members across Marketo Engage campaigns and programs from account journeys within Journey Optimizer B2B Edition.
+
+[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list tooltip="Learn about account list filters used in Marketo Engage smart lists"}
+
+>[!TAB Inactivity history filters]
+
+Progress journeys based on inactivity within Marketo Engage campaigns and programs including email inactivity, interesting moments, data value changes and visited web pages
+
+>[!TAB Journey duplication]
+
+Duplicate your account journey structures to minimize manual errors and ensure consistent settings, flows, and paths. In the duplicated journey, you can adjust content or actions, making it easier to manage larger and more complex campaigns​.
+
+[!BADGE Learn more]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey tooltip="Learn about journey duplication"}
 
 >[!TAB Intelligent insights dashboard]
 
@@ -21,33 +43,15 @@ With the new Intelligent dashboard, you can see the progression of buying group 
 
 Use the Adobe Express Quick Actions to touch up your content with cropping, resizing, background removal, and format conversion. The intuitive Adobe Express UI is built in so that you can quickly fine-tune your image assets.
 
-With Adobe Express Enterprise licensing, you can leverage a full suite of Adobe Express capabilities. Use these fetaures to polish and enhance images, while sticking to brand guidelines, and remove roadblocks in the content supply chain.
+With Adobe Express Enterprise licensing, you can leverage a full suite of Adobe Express capabilities. Use these features to polish and enhance images, while sticking to brand guidelines, and remove roadblocks in the content supply chain.
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Learn about image editing with Adobe Express"}
 
 >[!TAB Fragment customizable fields]
 
-As a content designer, you can designate a parameter for a component in the fragment as editable. This allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
+As a content designer, you can designate a parameter for a component in the fragment as editable. This configuration allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Learn about custom fields for content fragments"}
-
->[!TAB AEP event forwarding]
-
-Administrators can now configure Adobe Experience Platform (AEP)-based event definitions. These configurations enable Marketers to create account journeys that react to AEP Experience Events.
-
-[!BADGE Learn more]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Learn about AEP event definitions used for journey orchestration"}
-
->[!TAB Buying group filters for smart lists]
-
-You can now view and create smart lists with buying group filters in Marketo Engage. These filters allow you to suppress and include buying group members across Marketo Engage campaigns and programs from account journeys within Journey Optimizer B2B Edition.
-
-[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Learn about buying groups filters used in Marketo Engage smart lists"}
-
->[!TAB Conditional content]
-
-Use conditional content to adapt your email content based on conditional rules. Define the rules using profile attributes or contextual events. You can create conditional rules in the rule builder, and you can store them for reuse across your account journeys.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Learn about conditional content"}
 
 >[!ENDTABS]
 
