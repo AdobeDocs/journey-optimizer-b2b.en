@@ -1,6 +1,7 @@
 ---
 title: Use Account Lists in Journeys and Programs
 description: Learn how to orchestrate account list membership in journeys and filter Marketo Engage Smart Lists based on account list membership.
+exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
 ---
 # Use account lists in journeys and programs
 
@@ -93,4 +94,3 @@ In the Marketo Engage instance that is connected to Journey Optimizer B2B Editio
 After the flow runs, you can view the list of people populated in the list. Open the list and select the People tab.
 
 ![Marketo Engage campaign list populated from an account list](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
-
