@@ -27,7 +27,7 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
      This option allows you to manage the email content natively in Journey Optimizer B2B Edition. Click **[!UICONTROL Create email]** to open the _Create new email_ dialog. You can create an entirely new email content asset or duplicate an existing email asset.
 
-     +++New email (#new-email)
+     +++New email {#new-email}
      When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
 
      1. In the dialog, choose **[!UICONTROL New email]**.
@@ -44,7 +44,7 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
      +++
 
-     +++Duplicate existing email (#duplicate-email)
+     +++Duplicate existing email {#duplicate-email}
      When you want to create an email using an existing email from the current journey or from another journey, use the Duplicate existing journey option. You can make changes to the duplicated email according to your objective for the journey node.
 
      1. In the dialog, choose **[!UICONTROL Duplicate existing email]**.
