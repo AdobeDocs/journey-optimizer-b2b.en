@@ -279,9 +279,9 @@ Fragments are designed for reuse and can be inserted for email and email templat
 
 1. Navigate to **[!UICONTROL Account Journeys]** and open an existing journey or create a new journey.
 
-1. Create a [_[!UICONTROL Send Email]_ node](./email-authoring.md#add-an-email-action-in-an-account-journey).
+1. Create a [_[!UICONTROL Send Email]_ node](./add-email.md#add-an-email-action-node-in-a-journey).
 
-1. Create or edit [email content for the node](./email-authoring.md#create-the-email-content).
+1. Create or edit [email content for the node](./email-authoring.md).
 
 1. Drag and drop an item from the **[!UICONTROL Components]** menu to provide a _structure_ for the fragment.
 

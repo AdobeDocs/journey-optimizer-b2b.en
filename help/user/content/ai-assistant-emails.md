@@ -61,7 +61,7 @@ Choosing one of these buying group roles automatically customizes the output bas
 
 ## Generate email properties with AI Assistant
 
-When you [add an email action](./email-authoring.md#add-an-email-action-in-an-account-journey) to an account journey, you define a set of email properties that are used for sending the email. AI Assistant can help achieve better email engagement by generating recommended content for the email **subject line** and **preheader**.
+When you [add an email action](./add-email.md#add-an-email-action-node-in-a-journey) to an account journey, you define a set of email properties that are used for sending the email. AI Assistant can help achieve better email engagement by generating recommended content for the email **subject line** and **preheader**.
 
 1. Create an email from an account journey or open an existing email from a journey node.
 
@@ -195,7 +195,7 @@ An email preheader is the short summary text that follows the subject line when 
 
 ## Generate email body content with AI Assistant
 
-After you [create and personalize your email](./email-authoring.md#create-the-email-content), use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your email body content to the next level.
+After you [create and personalize your email](./email-authoring.md), use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your email body content to the next level.
 
 In the email designer, AI Assistant can help you optimize the impact of your deliveries by generating the full email body, targeted text content, and recommendations for images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement.
 
