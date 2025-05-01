@@ -1,6 +1,6 @@
 ---
 title: Add an Email to Your Journey
-description: Learn how to add an email content asset to your journey using an action node. 
+description: Learn to add, define, and optimize email actions in Adobe Journey Optimizer B2B. Enhance your account journeys with these straightforward steps.
 feature: Email Authoring, Content
 ---
 # Add an email to your journey
