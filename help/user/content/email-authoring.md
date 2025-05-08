@@ -20,7 +20,7 @@ You can set up email deliveries in an Account Journey when you add a _[!UICONTRO
 
    >[!NOTE]
    >
-   >If you are creating an email for the first time, make sure that the email channel is configured from within Adobe Marketo Engage. To learn more, see [Ensure Email Deliverability](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) in the Marketo Engage documentation.
+   >If you are creating an email for the first time, make sure that the email channel is configured from within Adobe Marketo Engage. To learn more, see [Ensure Email Deliverability](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} in the Marketo Engage documentation.
 
    ![Take an action - send an email](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

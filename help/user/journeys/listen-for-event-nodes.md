@@ -112,7 +112,7 @@ If you have web pages created in your connected Marketo Engage instance, you can
 
 ### Listen for an Experience Event
 
-Administrators can configure Adobe Experience Platform (AEP)-based event definitions, which enable Marketers to create account journeys that react to [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). Using AEP experience events in account journeys is a two-step process:
+Administrators can configure Adobe Experience Platform (AEP)-based event definitions, which enable Marketers to create account journeys that react to [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. Using AEP experience events in account journeys is a two-step process:
 
 1. [Create and publish an AEP event definition](../admin/configure-aep-events.md).
 

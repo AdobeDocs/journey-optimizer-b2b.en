@@ -9,11 +9,11 @@ Account audience data is stored as attributes in both XDM Business Account and X
 
 >[!TIP]
 >
->You can model XDM Business Person and XDM Business Account classes in a many-to-many relationship by using the XDM Business Account Person Relation class as described in the [Experience Platform XDM documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
+>You can model XDM Business Person and XDM Business Account classes in a many-to-many relationship by using the XDM Business Account Person Relation class as described in the [Experience Platform XDM documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## XDM Business Account Person Relation attributes
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 |`personRoles` | Person Roles   | Role | String array | An array of roles associated with the person on the account, such as `owner, accountant, designer`. |
 
@@ -23,7 +23,7 @@ Account audience data is stored as attributes in both XDM Business Account and X
 >
 >The `workEmail.Address` attribute is required. If it is empty for an account audience member, that person is not ingested and is omitted from account journeys and buying groups that reference the audience. 
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 |`b2b.isMarketingSuspended` |Marketing Suspended Indicator   |Marketing Suspended    |Boolean |The value indicates whether marketing is suspended for the person.   |
 |`b2b.marketingSuspendedCause`  |Marketing Suspended Cause  |Marketing Suspended Cause  |String |If marketing is suspended for the person, this property provides the reason why.   |
@@ -53,7 +53,7 @@ Account audience data is stored as attributes in both XDM Business Account and X
 >
 >The `accountName` attribute is required. If it is empty for an account in an account audience, that account is not ingested and is omitted from account journeys and buying groups that reference the audience. 
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 |`accountBillingAddress.city`|City  |City  |String |The name of the city used in the billing address. |
 |`accountBillingAddress.country` | Country   |Country   |String   |The name of the government-administered territory used in the billing address. Other than `xdm:countryCode`, it is a free-form field that can have the country name in any language. |
@@ -73,9 +73,9 @@ Account audience data is stored as attributes in both XDM Business Account and X
 
 ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described [here](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field).
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 |`expectedCloseDate` | Expected Close Date  | Expected opportunity close date   | String | Expected date of closure for the opportunity.   |
 |`expectedRevenue.amount` | Expected Revenue  | Total opportunity expected revenue   | String | Calculated revenue based on the Amount and Probability.   |

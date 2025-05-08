@@ -7,7 +7,7 @@ exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
 
 An audience is a set of people who share similar behaviors and/or characteristics. Journey Optimizer B2B Edition uses the account segmentation functionalities found in Adobe Real-Time Customer Data Platform B2B and B2P editions. With account segmentation, users can generate account audiences by leveraging data from any of the B2B entities within the system. These account audiences serve as inputs for Journey Optimizer B2B Edition account journeys, facilitating seamless activation and personalization capability.
 
-Learn more about account audiences and how to define them in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences).
+Learn more about account audiences and how to define them in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
 
 ## Account audience workflow
 
@@ -26,7 +26,7 @@ Journey Optimizer B2B Edition allows you to build Adobe Experience Platform (AEP
 
 ## Create an account audience
 
-Define the account audience by creating an account segmentation. You have the option to create the account segmentation directly within the Journey Optimizer B2B Edition application, or you can use the [Segment Builder UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder). The following are the steps that you can use to create an account segmentation in Journey Optimizer B2B Edition.
+Define the account audience by creating an account segmentation. You have the option to create the account segmentation directly within the Journey Optimizer B2B Edition application, or you can use the [Segment Builder UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. The following are the steps that you can use to create an account segmentation in Journey Optimizer B2B Edition.
 
 1. In the left navigation, choose **[!UICONTROL Accounts]** > **[!UICONTROL Audiences]**.
 

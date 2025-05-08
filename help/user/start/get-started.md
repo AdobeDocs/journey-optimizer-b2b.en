@@ -23,13 +23,13 @@ As a system administrator, you need to understand product profiles and assign pe
 
 Learn about access management in the following pages:
 
-1. **Create sandboxes** to partition your instances into separate, isolated virtual environments. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **Create sandboxes** to partition your instances into separate, isolated virtual environments. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **Set up the product profile**. A product profile is a set of unitary rights in Adobe Experience Platform that allow users access to certain functionalities or objects in the interface. [Learn more](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Set up user permissions** for product profiles, including sandboxes, and give access to your team members by assigning them to different product profiles. This task is performed in the Admin Console. [Learn more](../admin/user-management.md#create-a-user-group)
 
-1. **Configure email delivery** in Marketo Engage, which enables your team to send email content from account journeys. [Learn more](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+1. **Configure email delivery** in Marketo Engage, which enables your team to send email content from account journeys. [Learn more](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **Configure SMS services**. Set up one of the supported third-party SMS providers who offer text messaging services independently and configure the account credentials in Adobe Journey Optimizer B2B Edition. [Learn more](../admin/configure-channels-sms.md)
 
