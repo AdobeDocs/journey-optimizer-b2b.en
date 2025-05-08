@@ -8,13 +8,13 @@ exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
 
 Adobe Journey Optimizer B2B Edition integrates with Adobe Experience Manager Assets as a Cloud Service, allowing more than just using assets like emails within an account journey. It ensures transparency by exchanging information with Experience Manager Assets. Configure the connection to Adobe Experience Assets to enable this capability.
 
-Adobe Experience Manager Cloud Manager is organized into programs, and each program has multiple environments and repositories ([Learn more](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). When you configure Adobe Experience Manager Assets in Adobe Journey Optimizer B2B Edition, you set up connections to each repository that you want to use for accessing digital assets.
+Adobe Experience Manager Cloud Manager is organized into programs, and each program has multiple environments and repositories ([Learn more](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). When you configure Adobe Experience Manager Assets in Adobe Journey Optimizer B2B Edition, you set up connections to each repository that you want to use for accessing digital assets.
 
 {{aem-assets-licensing-note}}
 
 ## Prerequisites
 
-* Generate service credentials for the desired environment on the AEM Headless Developer Console ([Learn more](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
+* Generate service credentials for the desired environment on the AEM Headless Developer Console ([Learn more](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Procure the certificates that are needed for the connection. As a best practice, ensure that the certificates have at least six months remaining before expiration. The certificates expire every 365 days.
 * Adobe Journey Optimizer B2B Edition supports access to one digital asset management source at a time. Ensure that the required assets are available in Adobe Experience Manager before you switch.
 

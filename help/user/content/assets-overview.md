@@ -28,7 +28,7 @@ Bring marketing and creative workflows together using Adobe Experience Manager A
 
 Adobe Journey Optimizer B2B Edition can connect to Adobe Experience Manager Assets as a Cloud Service for centralized asset management that extends your creative system and unify digital assets for experience delivery. Adobe Experience Manager Assets as a Cloud Service offers an easy-to-use cloud solution for efficient Digital Asset Management and Dynamic Media operations. It seamlessly incorporates advanced features, including Artificial Intelligence and Machine Learning.
 
-Learn more in the [Adobe Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview).
+Learn more in the [Adobe Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 

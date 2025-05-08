@@ -15,7 +15,7 @@ The following parameters govern access to AI Assistant in Journey Optimizer B2B 
 
 * **Access the application:** You can access AI Assistant in Adobe Journey Optimizer B2B Edition.
 
-* **Permissions:** Use the [Permissions UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) to grant or revoke access to AI Assistant in your organization. To use AI Assistant, a given user must belong to a role that is configured with the **Enable AI Assistant** and **View Operational Insights** permissions.
+* **Permissions:** Use the [Permissions UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} to grant or revoke access to AI Assistant in your organization. To use AI Assistant, a given user must belong to a role that is configured with the **Enable AI Assistant** and **View Operational Insights** permissions.
 
 As an administrator, you can:
  
@@ -25,7 +25,7 @@ As an administrator, you can:
 
 ![Assign AI Assistant permissions](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-Use the permissions UI to grant permissions to use AI Assistant in Journey Optimizer B2B Edition. For information about accessing AI Assistant in Experience Platform and other Experience Cloud applications, refer to the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
+Use the permissions UI to grant permissions to use AI Assistant in Journey Optimizer B2B Edition. For information about accessing AI Assistant in Experience Platform and other Experience Cloud applications, refer to the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 When the user has the necessary permissions, they can access AI Assistant by selecting the _AI Assistant_ icon on the top header of the application that you are using.
 

@@ -7,7 +7,7 @@ exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 ---
 # Configure Experience Platform event definitions
 
-Administrators can configure Adobe Experience Platform (AEP)-based event definitions, which enable Marketers to create account journeys that react to [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). 
+Administrators can configure Adobe Experience Platform (AEP)-based event definitions, which enable Marketers to create account journeys that react to [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. 
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video)
 
@@ -23,7 +23,7 @@ Each event definition requires the following Experience Platform input:
 
    >[!NOTE]
    >
-   >Coordinate with your Engineering team to ensure that the needed schemas are defined. [Creating XDM schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) is a complex process performed by data engineers based on use case requirements across your organization.
+   >Coordinate with your Engineering team to ensure that the needed schemas are defined. [Creating XDM schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} is a complex process performed by data engineers based on use case requirements across your organization.
 
 * **_Event types_** – XDM ExperienceEvent eventType (maximum of 20 per event definition).
 
@@ -109,7 +109,7 @@ To search for an event definition by name, enter a text string into the search b
 
 1. Select the **[!UICONTROL Event types]** to use for the event definition.
 
-   The [event types](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType) that you select determine the events that are available as constraints for a _Listen for an event_ node in an account journey.
+   The [event types](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} that you select determine the events that are available as constraints for a _Listen for an event_ node in an account journey.
 
    * Click **[!UICONTROL Select event types]**.
    * In the dialog, select one or more event types from the list (maximum of 20).

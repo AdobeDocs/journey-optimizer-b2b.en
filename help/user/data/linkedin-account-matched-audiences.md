@@ -7,7 +7,7 @@ exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 
 Journey Optimizer B2B Edition offers the ability to generate LinkedIn Ad audiences through Account Matched Audiences, and is designed to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration. There is a limit of ten dataflows.
 
-Before you initiate a dataflow from Journey Optimizer B2B Edition, you must have at least one instance of the [(Companies) LinkedIn Matched Audience destination connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) with a LinkedIn Campaign Manager account configured in your Experience Platform application.
+Before you initiate a dataflow from Journey Optimizer B2B Edition, you must have at least one instance of the [(Companies) LinkedIn Matched Audience destination connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} with a LinkedIn Campaign Manager account configured in your Experience Platform application.
 
 ## Configure a new LinkedIn account connection {#linkedin-destination-setup}
 

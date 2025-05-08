@@ -7,7 +7,7 @@ exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 ---
 # AI Assistant in Journey Optimizer B2B Edition
 
-AI Assistant in Journey Optimizer B2B Edition is created from the same technology foundation of [AI Assistant in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home). It is a conversational experience that you can use to accelerate your workflows in Adobe Journey Optimizer B2B Edition. You can use AI Assistant to gain more understanding of the product capabilities, troubleshoot problems, or search through information and find operational insights for Journey Optimizer B2B Edition. 
+AI Assistant in Journey Optimizer B2B Edition is created from the same technology foundation of [AI Assistant in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. It is a conversational experience that you can use to accelerate your workflows in Adobe Journey Optimizer B2B Edition. You can use AI Assistant to gain more understanding of the product capabilities, troubleshoot problems, or search through information and find operational insights for Journey Optimizer B2B Edition. 
  
 >[!IMPORTANT]
 >
@@ -71,9 +71,9 @@ For operational insights questions, answers may not reflect the current state of
 
 Currently, the scope of AI Assistant is as follows:
 
-* [Product knowledge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge): AI Assistant can answer product knowledge questions for Real-Time Customer Data Platform and Adobe Journey Optimizer B2B Edition.
+* **Product knowledge**: AI Assistant can answer product knowledge questions for Real-Time Customer Data Platform and Adobe Journey Optimizer B2B Edition.
 
-* [Operational insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights): You can ask AI Assistant questions for operational insights for the following data objects: attributes, account audiences, dataflows, datasets, destinations, account journeys, schemas, sources, buying group templates, and solution interests.
+* **Operational insights**: You can ask AI Assistant questions for operational insights for the following data objects: attributes, account audiences, dataflows, datasets, destinations, account journeys, schemas, sources, buying group templates, and solution interests.
 
 ### Privacy, security, and governance
 
@@ -85,7 +85,7 @@ AI Assistant in Journey Optimizer B2B Edition is built with privacy, security, a
 
 * You must have explicit permission to interact with AI Assistant. 
 
-   * An administrator can set permissions using the [Permissions UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) and the [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse).
+   * An administrator can set permissions using the [Permissions UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} and the [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Permissions are granular and your sandbox administrator can configure which users are able to ask different question categories (product knowledge-based questions with AI Assistant or questions on operational insights).
 
