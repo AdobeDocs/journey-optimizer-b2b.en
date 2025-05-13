@@ -33,7 +33,7 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
 
-      Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+      Define the email [settings](#define-the-email-settings) and click **[!UICONTROL Edit email content]** to [design the content](./email-authoring.md).
 
      <!-- +++New email {#new-email}
      When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
