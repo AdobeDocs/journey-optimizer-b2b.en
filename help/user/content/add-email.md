@@ -33,7 +33,7 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
 
-     1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+      Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
 
      <!-- +++New email {#new-email}
      When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
@@ -85,7 +85,7 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
 ## Define the email settings
 
-With the **[!UICONTROL Details]** tab selected in the _Summary_ panel on the right, scroll to the bottom to view and set the email options. 
+With the **[!UICONTROL Details]** tab selected in the _Summary_ panel on the right, scroll to the bottom to view and set the email options.
 
 ![Email settings](./assets/email-summary-details-settings.png){width="600" zoomable="yes"}
 
@@ -103,9 +103,9 @@ With the **[!UICONTROL Details]** tab selected in the _Summary_ panel on the rig
 
 ## Check alerts
 
-As you design your email message content, alerts are displayed in the interface (top-right of the page) when key settings are missing.
+As you design your email message content, alerts are displayed in the interface (top-right of the page) when key settings are missing. If you do not see this button, there are no detected issues.
 
-If you do not see this button, there are no detected issues.
+![Email alerts](./assets/email-alerts.png){width="600" zoomable="yes"}
 
 Two types of alerts can be detected:
 
