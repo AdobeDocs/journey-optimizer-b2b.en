@@ -25,9 +25,17 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
    * Choose **[!UICONTROL Create new email]** to author the email natively in Journey Optimizer B2B Edition. 
 
-     This option allows you to manage the email content natively in Journey Optimizer B2B Edition. Click **[!UICONTROL Create email]** to open the _Create new email_ dialog. You can create an entirely new email content asset or duplicate an existing email asset.
+     This option allows you to manage the email content natively in Journey Optimizer B2B Edition. Click **[!UICONTROL Create email]** to open the _Create new email_ dialog. You can create a new email content asset<!-- or duplicate an existing email content asset-->.
 
-     +++New email {#new-email}
+     In the dialog, enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**, then click **[!UICONTROL Create]**.
+
+     ![Create new email dialog - new email](assets/create-new-email-no-duplicate.png){width="400"}
+
+      In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
+
+     1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+
+     <!-- +++New email {#new-email}
      When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
 
      1. In the dialog, choose **[!UICONTROL New email]**.
@@ -68,7 +76,7 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
      1. If needed, click **[!UICONTROL Edit email]** to modify the email [settings](#define-the-email-settings) and [content](./email-authoring.md).
 
      +++
-
+   -->
    * Choose **[!UICONTROL Select email from Adobe Marketo Engage]** to use one of the pre-authored emails in Marketo Engage and send it as a part of the journey.
 
      ![Select Marketo Engage email](./assets/email-select-marketo.png){width="500" zoomable="yes"}
