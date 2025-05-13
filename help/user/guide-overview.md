@@ -5,7 +5,7 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
 
-## What's new?
+## What's new
 
 Here is a sampling of the latest additions and enhancements in the Journey Optimizer B2B Edition application and documentation. 
 
