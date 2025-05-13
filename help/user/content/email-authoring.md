@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 ---
 # Email message authoring
 
-After you add a new or duplicated email asset to a journey action node, you can define the content for the email message. 
+After you [add a new<!-- or duplicated --> email asset to a journey action node](./add-email.md), you can define the content for the email message. 
 
 Click **[!UICONTROL Add email content]** at the top of the _[!UICONTROL Email]_ preview panel.
 
