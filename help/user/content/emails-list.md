@@ -1,6 +1,6 @@
 ---
 title: Emails
-description: Learn how to access and manage the emails created for your account journeys.
+description: Use the Emails list to manage your email content in Adobe Journey Optimizer B2B Edition. You can easily assess and update emails across your journeys.
 feature: Email Authoring, Content
 ---
 # Emails
