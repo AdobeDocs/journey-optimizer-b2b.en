@@ -1,46 +1,18 @@
 ---
-title: Email Authoring
-description: Learn how to create personalized email content that is used in an Account Journey.
+title: Email Message Authoring
+description: Learn how to create email content in Adobe Journey Optimizer B2B. Use templates, HTML imports, and AI-powered tools to personalize and optimize your email communications."
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 ---
-# Email authoring
+# Email message authoring
 
-Use Adobe Journey Optimizer B2B Edition to send email messages to your customers. You can create, personalize, and preview messages in the visual designer.
-
-## Add an email action in an account journey
-
-You can set up email deliveries in an Account Journey when you add a _[!UICONTROL Take an action]_ node and do the following:
-
-1. For the _[!UICONTROL Action on]_ target, choose **[!UICONTROL People]**.
-1. For the _[!UICONTROL Action on people]_, choose **[!UICONTROL Send email]**.
-1. For the _[!UICONTROL Email source]_, choose **[!UICONTROL Create new email]**.
-
-   Alternatively, you can also select the _[!UICONTROL Select email from Adobe Marketo Engage]_ option to use one of the pre-authored emails in Marketo Engage and send it as a part of the Account Journey.
-
-   >[!NOTE]
-   >
-   >If you are creating an email for the first time, make sure that the email channel is configured from within Adobe Marketo Engage. To learn more, see [Ensure Email Deliverability](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} in the Marketo Engage documentation.
-
-   ![Take an action - send an email](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. At the bottom of the _[!UICONTROL Take an action]_ panel, click **[!UICONTROL Create email]**.
-
-1. In the dialog, enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
-
-   ![Create new email dialog](assets/create-new-email.png){width="400"}
-
-1. Click **[!UICONTROL Create]**.
-
-   In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
-
-## Create the email content
+After you [add a new<!-- or duplicated --> email asset to a journey action node](./add-email.md), you can define the content for the email message. 
 
 Click **[!UICONTROL Add email content]** at the top of the _[!UICONTROL Email]_ preview panel.
 
 ![Click Add email content ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
-This action launches the Email Designer, where you can choose how you want to design your email from the following options:
+This action launches the email design tools, where you can choose how you want to design your email from the following options:
 
 * [Design your email from scratch](#design-your-email-from-scratch) using the Email Designer interface.
 
@@ -56,7 +28,7 @@ After you create and personalize the email content, you can export the content f
 >
 >Use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your content to the next level. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. [Learn more](./ai-assistant-emails.md)
 
-### Design your email from scratch {#design-from-scratch}
+## Design your email from scratch {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -87,7 +59,7 @@ When your content is done, click **[!UICONTROL Simulate content]** at the top to
 
 When you are satisfied with the content, click **[!UICONTROL Save]**.
 
-### Import existing HTML content
+## Import existing HTML content
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -99,7 +71,7 @@ When you are satisfied with the content, click **[!UICONTROL Save]**.
 
 You can personalize the imported content as needed with the visual email editor tools.
 
-### Select a template
+## Select a template
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -159,7 +131,7 @@ Leverage the view and content validation options that are available in the visua
 
 ### More options
 
-From the _[!UICONTROL More ...]_ menu at the top of the email designer, you can take the following actions:
+From the _[!UICONTROL More ...]_ menu at the top of the email design space, you can take the following actions:
 
 ![Click More to access template actions](./assets/email-designer-more-menu.png){width="500"}
 
@@ -168,34 +140,6 @@ From the _[!UICONTROL More ...]_ menu at the top of the email designer, you can 
 * **[!UICONTROL Change your design]** - Return to the _Design your email_ page. From there, you can choose another template to restart the design process, or choose to design the content from scratch in a black canvas.\
 * **[!UICONTROL Save as content template]** - Save the email body as an email template to be reused across multiple emails or email templates. You provide a name and description for the template and save it to the list of saved email templates.
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
-
-## Check alerts
-
-As you design your email message content, alerts are displayed in the interface (top-right of the page) when key settings are missing.
-
-If you do not see this button, there are no detected issues.
-
-Two types of alerts can be detected:
-
-* **_Warnings_** that refer to recommendations and best practices, such as:
-
-   * `The opt-out link is not present in the email body`: adding an unsubscription link into your email body is a best practice.
-
-      >[!NOTE]
-      >
-      >Marketing-style email messages must include an opt-out link, which is not required for transactional messages. 
-
-   * `Text version of HTML is empty`: do not forget to define a text version of your email body, which is used when HTML content cannot be displayed.
-
-   * `Empty link is present in email body`: check that all the links in your email are correct. 
-
-   * `Email size has exceeded the limit of 100KB`: for optimal delivery, make sure that the size of your email does not exceed 100KB. 
-
-* **_Errors_** that prevent you from testing or activating the journey/campaign as long as they are not resolved, such as:
-
-   * `The subject line is missing`: email subject line is mandatory.
-
-   * `The email version of the message is empty`: this error is displayed when the email content has not been configured.
 
 ## Check and test the email {#preview-test}
 

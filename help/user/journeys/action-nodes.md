@@ -165,7 +165,7 @@ Use this action to remove people profiles from a [buying group](../buying-groups
 
 +++[!UICONTROL Send email]
 
-Use this action to send an email. You can create, personalize, and preview email messages in the visual designer (see [Email authoring](../content/email-authoring.md)). You can also send an [email from Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Select the Marketo Engage workspace and then select the email to send.
+Use this action to send an email. After you [create the email](../content/add-email.md#add-an-email-to-your-journey) for the node, you can design, personalize, and preview email messages in the email design space (see [Email authoring](../content/email-authoring.md)). You can also send an [email from Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Select the Marketo Engage workspace and then select the email to send.
 
 ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"}
 

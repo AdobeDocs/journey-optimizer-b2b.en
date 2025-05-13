@@ -1,10 +1,10 @@
 ---
-title: Email configurations
+title: Email Channel Configurations
 description: Learn how to access and review the email settings that are configured in Marketo Engage.
 feature: Setup
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
 ---
-# Email configurations
+# Email channel configurations
 
 Adobe Journey Optimizer B2B Edition leverages the channel functions and event tracking in Marketo Engage. Administrators should ensure that the delivery and tracking configurations are in place to enable channel delivery for Marketers. For information about the protocols needed for email delivery and tracking through Marketo Engage, see [Protocols for tracking and email delivery](../start/email-protocols.md).
 
