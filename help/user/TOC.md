@@ -30,6 +30,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
     + Email channel {#email-channel}
+       + [Add an email](./content/add-email.md)
        + [Email authoring](./content/email-authoring.md)
        + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
        + [Governed templates](./content/email-authoring-governance.md)
@@ -54,6 +55,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Account details](./accounts/account-details.md)
     + [XDM fields](./data/field-mapping.md)
 + Content management {#content-management}
+   + [Emails](./content/emails-list.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
       + Marketo Engage assets {#marketo-engage-dam}
