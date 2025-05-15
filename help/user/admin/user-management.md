@@ -159,10 +159,10 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 | Role | Permissions |
 | ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Intelligent Dashboard <li>View B2B Insights Dashboard |
+| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
 | B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
 | B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-| B2B Sales User | <li>View Intelligent Dashboard |
+| B2B Sales User | <li>View B2B Engagement Dashboard |
 
 ### Edit role permissions
 
