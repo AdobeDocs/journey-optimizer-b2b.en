@@ -2,6 +2,7 @@
 title: Assets
 description: Learn about asset management in Journey Optimizer B2B Edition.
 feature: Assets, Content
+role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 ---
 # Assets

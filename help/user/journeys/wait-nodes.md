@@ -2,6 +2,7 @@
 title: Wait Nodes
 description: Learn about the Wait node type that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
 feature: Account Journeys
+role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
 ---
 # Wait nodes

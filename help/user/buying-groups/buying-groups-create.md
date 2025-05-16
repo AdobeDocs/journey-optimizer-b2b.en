@@ -2,6 +2,7 @@
 title: Create Buying Groups
 description: Learn how to create buying groups using the required coponents.
 feature: Buying Groups
+role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
 ---
 

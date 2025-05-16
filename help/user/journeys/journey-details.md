@@ -2,6 +2,7 @@
 title: Journeys Details
 description: Learn about the information provided by the journey details page and how it can help you monitor and manage your published account journey.
 feature: Dashboards, Account Journeys
+role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
 ---
 # Journey details

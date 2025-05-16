@@ -1,7 +1,8 @@
 ---
 title: Forms
 description: Learn how to create reusable forms that you can include in your landing pages.
-feature: Content
+feature: Forms, Content
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
 ---
