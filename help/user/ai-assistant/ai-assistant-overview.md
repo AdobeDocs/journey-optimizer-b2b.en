@@ -1,7 +1,8 @@
 ---
 title: AI Assistant in Journey Optimizer B2B Edition
-description: Placeholder
+description: Learn about AI Assistant and how it can help you navigate product concepts and access operational insights tailored to your environment.
 feature: AI Assistant
+role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 ---

@@ -1,7 +1,8 @@
 ---
 title: SMS configurations
 description: Learn how to configure connections to supported SMS providers for use by Journey Optimizer B2B Edition SMS messaging.
-feature: Setup
+feature: Setup, Channels
+role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
 ---
 # SMS configurations

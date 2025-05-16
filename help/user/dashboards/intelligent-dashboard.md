@@ -1,7 +1,8 @@
 ---
 title: Intelligent Dashboard
 description: Learn about the Intelligent Dashboard, which provides a comprehensive view of buying group and account metrics
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 ---
 # Intelligent Dashboard

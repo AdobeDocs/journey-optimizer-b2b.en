@@ -2,6 +2,7 @@
 title: Solution Interests
 description: Learn about solution interests and how you can define them for use within your buying groups.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
 ---
 # Solution interests

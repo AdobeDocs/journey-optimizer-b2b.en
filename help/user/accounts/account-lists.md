@@ -1,6 +1,8 @@
 ---
 title: Account Lists
 description: Learn about account lists and how Marketers can use them to target accounts through account journeys.
+feature: Account Lists
+role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
 ---
 # Account lists

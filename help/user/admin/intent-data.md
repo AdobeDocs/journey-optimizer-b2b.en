@@ -1,7 +1,7 @@
 ---
 title: Intent Data
 description: Learn how to assemble and submit keywords for generating intent data for Journey Optimizer B2B Edition.
-feature: Setup, Account Insights
+feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
 ---

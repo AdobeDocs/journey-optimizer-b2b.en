@@ -1,7 +1,8 @@
 ---
 title: Landing page configuration
 description: Learn how to access and configure the landing page settings so that your Marketing team can author and publish web pages to support their campaigns.
-feature: Setup, Content
+feature: Setup, Landing Pages, Content
+role: Admin
 hide: yes
 hidefromtoc: yes
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"

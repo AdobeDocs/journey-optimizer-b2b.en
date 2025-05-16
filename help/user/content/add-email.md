@@ -1,7 +1,8 @@
 ---
 title: Add an Email to Your Journey
 description: Learn to add, define, and optimize email actions in Adobe Journey Optimizer B2B. Enhance your account journeys with targeted email communications.
-feature: Email Authoring, Content
+feature: Email Authoring, Account Journeys
+role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
 ---
 # Add an email to your journey
