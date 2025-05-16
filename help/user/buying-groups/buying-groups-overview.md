@@ -7,11 +7,11 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 
 # Buying groups
 
-For B2B sales and marketing activities, accounts are key to any strategy. Each account has a group of people associated with it, and these people may be employees of the account or contractors who work with the account. Accounts are hierarchical, and different products might be sold at different levels in the hierarchy. For example, Adobe Experience Platform might be sold at the corporate level to a top-level account, while Adobe Photoshop might be sold to an account that represents a division or department within an organization, such as a design department within a larger corporation.
+For B2B sales and marketing activities, accounts are key to any strategy. Each account has a group of people associated with it, and these people may be employees of the account or contractors who work with the account. Accounts are hierarchical, and different products might be sold at different levels in the hierarchy. For example, Adobe Experience Platform might be sold at the corporate level to a top-level account. And Adobe Photoshop might be sold to an account that represents a division or department within an organization, such as a design department within a larger corporation.
 
 ![Account roles diagram](assets/account-roles-diagram.png){width="800"}
 
-Within the account, there could be a subset of people who comprise the _buying group_. These are the people that ultimately make the purchase decision, so they need special attention from the marketer and might need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Officer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group.
+Within the account, there could be a subset of people who comprise the _buying group_. These people ultimately make the purchase decision, so they need special attention from the marketer and might need different information delivered to them than the other people associated with the account. Buying groups may comprise a different group of people for different product lines or offerings. For example, a cybersecurity product might typically require a Chief Information Officer or Chief Security Officer, and a representative from the Legal department to approve a purchase, but a bug tracking product might typically have a VP of Engineering and an IT Director as members of the buying group.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video)
 
@@ -99,7 +99,7 @@ Buying group engagement score is a number to determine the engagement of the mem
 | Attend Event | Attends a campaign event | Event | 20 | 90 |
 | Open Email | Opens an email | Email | 20 | 30 |
 | Click Email | Clicks a link in an email | Email | 20 | 30 |
-| Open Sales Email | Opens a sales mmail | Email | 20 | 30 |
+| Open Sales Email | Opens a sales email | Email | 20 | 30 |
 | Click Sales Email | Clicks a link in a sales email | Email | 20 | 30 |
 | Interesting Moment | Has an interesting moment | Curated | 20 | 60 |
 | Tap Push Notification | Receives a push notification | Mobile | 20 | 30 |
@@ -119,7 +119,7 @@ Buying group engagement score is a number to determine the engagement of the mem
 | Call to action clicked in webinar | Clicks a call-to-action link in a webinar event | Call | 20 | 30 |
 | Asset downloads in webinar | Downloads a file/asset in a webinar event | Event | 20 | 60 |
 | Asks questions in webinar | Asks questions in a webinar event | Event | 20 | 60 |
-| Has attended event | Has attended an event | Event | 20 | 60 |
+| Has attended event | Attended an event | Event | 20 | 60 |
 | Engaged with an Agent in Dialogue | Engages with an agent in a Dynamic Chat dialogue | Chat | 20 | 90 |
 | Clicked Link in Chat in Dialogue | Clicks a link in a Dynamic Chat dialogue | Chat | 20 | 90 |
 | Engaged with a Conversational Flow | Engages with a Dynamic Chat conversational flow | Chat | 20 | 90 |
