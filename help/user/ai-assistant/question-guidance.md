@@ -1,7 +1,8 @@
 ---
 title: Question guidance for AI Assistant
-description: Placeholder
+description: Learn how to write effective questions for AI Assistant in Journey Optimizer B2B Edition.
 feature: AI Assistant
+role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
 ---

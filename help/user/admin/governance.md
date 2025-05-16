@@ -1,6 +1,8 @@
 ---
 title: Governance Features
 description: Learn about governance features that are currently available in Journey Optimizer B2B Edition.
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
 ---
 # Governance features

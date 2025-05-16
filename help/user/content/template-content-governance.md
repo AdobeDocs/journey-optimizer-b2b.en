@@ -1,7 +1,8 @@
 ---
 title: Template Content Governance
 description: Learn how to lock content elements within your email templates so that you can govern how they can be altered for use in account journeys.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
 ---
 # Template content governance

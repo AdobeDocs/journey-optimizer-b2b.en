@@ -1,6 +1,8 @@
 ---
 title: XDM Fields
 description: Review the default attribute fields that are synchronized between the Adobe Experience Platform and Journey Optimizer B2B Edition.
+feature: Data Management, Integrations
+role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
 ---
 # XDM fields

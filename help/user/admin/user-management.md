@@ -1,7 +1,7 @@
 ---
 title: User Management
 description: Learn how to assign team members to Journey Optimizer B2B Edition product profiles.
-feature: Setup
+feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
 ---

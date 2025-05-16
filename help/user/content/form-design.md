@@ -1,7 +1,8 @@
 ---
 title: Form Design
 description: Learn how to design reusable forms used for collecting business lead information.
-feature: Content
+feature: Forms, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
 ---

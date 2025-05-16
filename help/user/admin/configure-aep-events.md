@@ -1,7 +1,8 @@
 ---
 title: Configure Experience Platform Events
 description: Learn about the Wait node type that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
-feature: Setup
+feature: Setup, Integrations
+role: Admin
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 ---

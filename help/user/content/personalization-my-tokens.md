@@ -1,7 +1,8 @@
 ---
 title: Custom Tokens for Email Personalization
 description: Learn how to use a set of tokens defined for an account journey to manage personalization in your email content.
-feature: Content, Email Authoring
+feature: Personalization, Content, Email Authoring
+role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
 ---
 # Custom tokens for email personalization

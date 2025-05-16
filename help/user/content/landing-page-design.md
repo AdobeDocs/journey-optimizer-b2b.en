@@ -1,7 +1,8 @@
 ---
 title: Landing Page Design
 description: Learn how to design and author content for your landing pages that support account journeys and campaigns.
-feature: Content
+feature: Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 ---
