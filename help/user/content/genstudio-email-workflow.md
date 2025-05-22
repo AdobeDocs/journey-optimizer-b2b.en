@@ -1,10 +1,12 @@
 ---
-title: Manage Email Content Creation with GenStudio for Performance Marketing
+title: Email Content Creation with GenStudio for Performance Marketing
 description: Learn how to integrate with GenStudio workflows to streamline email experience design.
 feature: Email Authoring, Content, Integrations
+topic: Content Management, Content Supply Chain
+level: Intermediate
 role: User
 ---
-# Manage email content creation with GenStudio for Performance Marketing {#genstudio-workflow}
+# Email content creation with GenStudio for Performance Marketing {#genstudio-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
@@ -22,6 +24,8 @@ To enhance workflow efficiency and maintain brand consistency, you can combine G
 For example, a technical marketer who uses Journey Optimizer B2B Edition to develop and automate email communications to key accounts can collaborate with a performance marketer who creates content using GenStudio. With this workflow, both can work together to combine on-brand content from GenStudio into Journey Optimizer B2B Edition account-based marketing automation, delivering engaging emails that target specific buying groups and drive sales.
 
 >[!BEGINSHADEBOX]
+
+## GenStudio content generation capabilities
 
 [Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} is a generative AI-first application that empowers marketing teams to create ads and emails that drive impactful, personalized marketing campaigns that adhere to brand standards and comply with their enterprise policies. By leveraging Adobe AI technology, it provides a comprehensive suite of tools that simplify the complexities of content creation and management so that creatives can focus on innovation.
 
