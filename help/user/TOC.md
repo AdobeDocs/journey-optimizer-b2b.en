@@ -80,6 +80,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/landing-pages.md)       
       + [Landing page design](./content/landing-page-design.md)
    + [Conditional content](./content/conditional-content.md)
+   + [GenStudio workflows](./content/genstudio-email-workflow.md)
 + Insights dashboards {#dashboards}
     + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
