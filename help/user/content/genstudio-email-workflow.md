@@ -1,10 +1,10 @@
 ---
-title: Manage Email templates with GenStudio for Performance Marketing
+title: Manage Email Content Creation with GenStudio for Performance Marketing
 description: Learn how to integrate with GenStudio workflows to streamline email experience design.
 feature: Email Authoring, Content, Integrations
 role: User
 ---
-# Manage Email templates with GenStudio for Performance Marketing
+# Manage email content creation with GenStudio for Performance Marketing {#genstudio-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
