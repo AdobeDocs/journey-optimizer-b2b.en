@@ -14,7 +14,7 @@ Examples:
 
 >[!NOTE]
 >
->Journey Optimizer B2B Edition now follows _camel case_ syntax for personalization tokens in emails to match the other Adobe Experience Platform applications for a consistent experience. This token format is fully compatible with Handlebar scripting. Any tokens that were added prior to this change are automatically updated.
+>Journey Optimizer B2B Edition now follows _camel case_ syntax for personalization tokens in emails to match the other Adobe Experience Platform applications for a consistent experience. This token format is fully compatible with the [Handlebars templating language](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Any tokens that were added prior to this change are automatically updated.
 
 When processing the content, Journey Optimizer B2B Edition replaces the expression with the data contained in the Experience Platform database. So, the first example becomes _Hello John Doe_.
 
@@ -30,7 +30,7 @@ The following example outlines steps to personalize content using lead/account a
 
    If you want to add the token with a fallback (default text that appears when that field is not available for a lead), click the _More_ icon ( **...** ) and choose **[!UICONTROL Insert with fallback text]**.
 
-   ![Construct personalized text using tokens](../assets/content-design-shared/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
+   ![Construct personalized text using tokens](../assets/content-design-shared/visual-designer-personalize-dialog-handlebar.png){width="700" zoomable="yes"}
 
 !. Add any additional tokens or other static text that you want to include.
 
