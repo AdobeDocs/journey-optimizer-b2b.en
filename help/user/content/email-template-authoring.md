@@ -39,7 +39,7 @@ After the template is saved, it appears in the fragment details page when you se
 
 ### Personalize content
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### Edit linked URL tracking
 

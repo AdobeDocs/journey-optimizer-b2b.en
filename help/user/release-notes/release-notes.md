@@ -21,7 +21,7 @@ This release includes the following new capabilities and enhancements:
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Integration with GenStudio for Performance Marketing | (Limited Availability) You can now integrate GenStudio for Performance Marketing experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-power content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition. |
-| Enhancement | Handlebar token format | Personalization tokens for email content now use an updated format that is fully compatible with Handlebar scripting. This format uses _camelCase_ or underscores, eliminating spaces. |
+| Enhancement | Handlebar token format for email| Personalization tokens for email content now use an updated format that is fully compatible with Handlebar scripting. This format uses _camel case_ or underscores, eliminating spaces. [Learn more](../content/email-authoring.md#content-authoring---personalization) |
 | Enhancement | Total count display for lists | The _[!UICONTROL Solution Interests]_ and _[!UICONTROL Account Journeys]_ list pages are enhanced with the display of the total count next to the search bar. |
 
 
