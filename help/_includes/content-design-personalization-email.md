@@ -4,13 +4,13 @@ description: Reused section about using personalization for content authoring
 ---
 # Content authoring - personalization
 
-Journey Optimizer B2B Edition uses an inline simple syntax that allows you to create expressions with personalized content enclosed by double curly braces `{}`. You can add multiple expressions in the same content or field without restrictions.
+Journey Optimizer B2B Edition uses an inline simple syntax that allows you to create expressions with personalized content enclosed by curly braces `{}`. You can add multiple expressions in the same content or field without restrictions.
 
 Examples:
 
-* `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
+* `Hello {%= profile.person.firstName}} {%= profile.person.lastName %}`
 
-* `Hello {{profile.person.name.fullName}}`
+* `Hello {%= profile.person.fullName %}`
 
 >[!NOTE]
 >
@@ -32,10 +32,10 @@ The following example outlines steps to personalize content using lead/account a
 
    ![Construct personalized text using tokens](../assets/content-design-shared/visual-designer-personalize-dialog-handlebar.png){width="700" zoomable="yes"}
 
-!. Add any additional tokens or other static text that you want to include.
+1. Add any additional tokens or other static text that you want to include.
 
 1. Click **[!UICONTROL Save]**.
 
-   The personalization scripting is displayed in the visual design spave, You can select it to make changes when needed. 
+   The personalization scripting is displayed in the visual design space. You can select it to make changes when needed. 
 
    ![Select personalization script](../assets/content-design-shared/visual-designer-select-personalization-script.png){width="600"}
