@@ -11,7 +11,7 @@ role: User
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="Use a template built with GenStudio"
->abstract="Thanks to the seamless integration with Adobe GenStudio for Performance Marketing, you can easily import a GenStudio template enhanced with the Adobe AI technology."
+>abstract="Use the integration with Adobe GenStudio for Performance Marketing to import a GenStudio template enhanced with the Adobe AI technology."
 
 >[!AVAILABILITY]
 >
@@ -27,7 +27,7 @@ For example, a technical marketer who uses Journey Optimizer B2B Edition to deve
 
 ## GenStudio content generation capabilities
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} is a generative AI-first application that empowers marketing teams to create ads and emails that drive impactful, personalized marketing campaigns that adhere to brand standards and comply with their enterprise policies. By leveraging Adobe AI technology, it provides a comprehensive suite of tools that simplify the complexities of content creation and management so that creatives can focus on innovation.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} is a generative AI-first application that empowers marketing teams to create impactful, personalized ads and emails that adhere to brand standards and comply with their enterprise policies. By leveraging Adobe AI technology, it provides a comprehensive suite of tools that simplify the complexities of content creation and management so that creatives can focus on innovation.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Create on-brand marketing emails](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -37,9 +37,9 @@ Learn more about the GenStudio for Performance Marketing capabilities in the [do
 
 ## Export HTML from Journey Optimizer B2B Edition
 
-First, in Journey Optimizer B2B Edition, export HTML from an email or email template that includes your brand's guidelines.
+First, in Journey Optimizer B2B Edition, export HTML from an email that includes your brand's guidelines.
 
-1. In Journey Optimizer B2B Edition, access the content of your email or email template in the visual design space.
+1. In Journey Optimizer B2B Edition, access the content of your email in the visual design space.
 
 1. From the _[!UICONTROL More ...]_ menu at the top of the email design space, choose **[!UICONTROL Export HTML]**.
 
@@ -47,17 +47,33 @@ First, in Journey Optimizer B2B Edition, export HTML from an email or email temp
 
    This action generates a downloaded .zip file that contains the HTML and image files.
 
-## Use the exported template in GenStudio for Performance Marketing
+## Use the exported HTML in GenStudio for Performance Marketing
 
-1. Upload the exported HTML into GenStudio for Performance Marketing. 
+GenStudio for Performance Marketing recognizes certain elements within the imported email HTML when they are identified with a recognized field name. Add field names in the exported HTML using the Handlebars syntax where you need GenStudio for Performance Marketing to generate a certain type of content.
 
-   When you upload the exported HTML as a template, GenStudio for Performance Marketing scans the HTML file for recognized fields. Use the preview to review your template elements and confirm that you identified them properly with the recognized field names.
+| Field             | Content type              |
+| ----------------- | ------------------------- |
+| `{{pre_header}}`  | Preheader                 |
+| `{{headline}}`    | Headline                  |
+| `{{sub_headline}}`| Sub-Headline              |
+| `{{body}}`        | Body text                 |
+| `{{cta}}`         | Call to action (button)   |
+| `{{image}}`       | Image                     |
+| `{{link}}`        | Call to action on image   |
 
-   For detailed information about uploading an HTML template into GenStudio in the Adobe GenStudio for Performance Marketing, refer to [Add a template](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) in the GenStudio for Performance Marketing documentation.
+### Create the template
 
-1. In GenStudio for Performance Marketing, use the template to create several email experience variations and save them.
+Use the HTML file to create a template in GenStudio for Performance Marketing.
 
-   For detailed information about generating branded email experiences, refer to [Create an email experience](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) in the GenStudio for Performance Marketing documentation.
+For detailed information about uploading an HTML template into GenStudio in the Adobe GenStudio for Performance Marketing, refer to [Add a template](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) in the GenStudio for Performance Marketing documentation.
+
+When you upload the exported HTML as a template, GenStudio for Performance Marketing scans the HTML file for recognized fields. Use the preview to review your template elements and confirm that you identified them properly with the recognized field names.
+
+### Generate email experiences
+
+In GenStudio for Performance Marketing, use the template to create several email experience variations and save them.
+
+For detailed information about generating branded email experiences, refer to [Create an email experience](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) in the GenStudio for Performance Marketing documentation.
 
 ## Add generated email experiences to Journey Optimizer B2B Edition
 
