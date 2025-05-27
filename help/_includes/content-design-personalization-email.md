@@ -8,9 +8,8 @@ Journey Optimizer B2B Edition uses an inline simple syntax that allows you to cr
 
 Examples:
 
-* `Hello {%= profile.person.firstName}} {%= profile.person.lastName %}`
-
-* `Hello {%= profile.person.fullName %}`
+* `Hello {{lead.firstName}} {{lead.lastName}}`
+* `Hello {%= lead.mktoName ?: "Marketer" %}`
 
 >[!NOTE]
 >
