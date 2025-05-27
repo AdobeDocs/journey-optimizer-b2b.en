@@ -9,9 +9,9 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 
 After you [add a new<!-- or duplicated --> email asset to a journey action node](./add-email.md), you can define the content for the email message. 
 
-Click **[!UICONTROL Add email content]** at the top of the _[!UICONTROL Email]_ preview panel.
+Click **[!UICONTROL Edit email content]** in the _[!UICONTROL Details]_ tab on the right panel.
 
-![Click Add email content ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Click Edit email content ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 This action launches the email design tools, where you can choose how you want to design your email from the following options:
 
@@ -20,8 +20,6 @@ This action launches the email design tools, where you can choose how you want t
 * [Import existing HTML content](#import-existing-html-content) from a file or a .zip folder.
 
 * [Select an existing template](#select-a-template) from a list of built-in or custom email templates.
-
-To configure and personalize the subject line with the expression editor, click the _Personalization_ icon and add any of the Marketo Engage tokens.
 
 After you create and personalize the email content, you can export the content for validation or for later use. Click **[!UICONTROL Export HTML]** to save the content as a .zip file that includes your HTML and assets.
 
@@ -41,10 +39,9 @@ After you create and personalize the email content, you can export the content f
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
 
-Use the visual content editor to define the structure of the email content. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
+Use the visual content design space to define the structure and content of the email. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
-
 1. [Add structure and content](#add-structure-and-content) to the email message.
 1. [Add image assets](#add-assets) to the email message.
 1. [Personalize the email content](#personalize-content).
@@ -110,7 +107,7 @@ After the email is saved, it appears in the fragment details page when you selec
 
 ### Personalize content
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 >[!NOTE]
 >

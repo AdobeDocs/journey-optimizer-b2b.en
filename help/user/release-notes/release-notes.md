@@ -1,6 +1,7 @@
 ---
-title: Release notes
-description: Latest release notes for Adobe Journey Optimizer B2B edition
+title: Journey Optimizer B2B Edition Release Rotes
+description: Learn about the latest features and enhancements in Adobe Journey Optimizer B2B Edition.
+role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 ---
 # Journey Optimizer B2B Edition release notes
@@ -11,9 +12,22 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## 2025.5 release notes
+
+**Deployment date**: June 3, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Integration with GenStudio for Performance Marketing | (Limited Availability) You can now integrate GenStudio for Performance Marketing experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-power content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition. |
+| Enhancement | Handlebar token format for email| Personalization tokens for email content now use an updated format that is fully compatible with Handlebar scripting. This format uses _camel case_ or underscores, eliminating spaces. [Learn more](../content/email-authoring.md#content-authoring---personalization) |
+| Enhancement | Total count display for lists | The _[!UICONTROL Solution Interests]_ and _[!UICONTROL Account Journeys]_ list pages are enhanced with the display of the total count next to the search bar. |
+
+
 ## 2025.4 release notes
 
-**Release date**: April 29, 2025
+**Deployment date**: April 29, 2025
 
 This release includes the following new capabilities and enhancements:
 
@@ -28,7 +42,7 @@ This release includes the following new capabilities and enhancements:
 
 ## 2025.3 release notes
 
-**Release date**: April 1, 2025
+**Deployment date**: April 1, 2025
 
 This release includes the following new capabilities and enhancements:
 
@@ -41,27 +55,27 @@ This release includes the following new capabilities and enhancements:
 
 ## 2025.2 release notes
 
-**Release date**: March 11, 2025
+**Deployment date**: March 11, 2025
 
 This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Customizable fields - content fragments | As a content fragment designer, you can designate a parameter for a component in the fragment as editable. This feature allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components. <a href="../content/fragment-authoring.md#enable-fragment-customization">Learn more</a> |
+| Feature | Customizable fields - content fragments | During visual fragment design, you can designate parameters for a component in the fragment as editable. This feature allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components. <a href="../content/fragment-authoring.md#enable-fragment-customization">Learn more</a> |
 | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> |
 | Feature | Journey duplication types | When you duplicate an account journey, you can include node details, excluding emails and SMS messages created in Journey Optimizer B2B Edition. As an alternative, you can create a skeleton copy of the structure and path flows, without node details and settings. <a href="../journeys/journey-overview.md#duplicate-journey">Learn more</a> | 
 | Enhancement | Four additional sample email templates | The sample email templates library now includes four SecurFinacial templates as examples for reengagement, inform, nurture, and feedback content examples |
 
 ## 2025.1 release notes {#Jan-2025}
 
-**Release date**: February 6, 2025
+**Deployment date**: February 6, 2025
 
 This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Experience Event forwarding | Administrators can configure Adobe Experience Platform (AEP)-based event definitions. These configurations enable Marketers to create account journeys that react to AEP Experience Events.  <a href="../admin/configure-aep-events.md">Learn more</a> |
-| Feature | Paid media destinations | Qualify known people for paid media campaigns from an account journey so that you can further engage them on advertising platforms, such as LinkedIn. Use a split paths node in an account journey to segment account audiences based on specific behavior and identify accounts that warrant additional engagement. Then, add people from those accounts to an external customer audience through Real-time CDP to a supported paid media destination. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Learn more</a> |
+| Feature | Paid media destinations | Qualify known people for paid media campaigns from an account journey so that you can further engage them on advertising platforms, such as LinkedIn. Use a split path node in an account journey to segment account audiences based on specific behavior and identify accounts that warrant additional engagement. Then, add people from those accounts to an external customer audience through Real-time CDP to a supported paid media destination. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Learn more</a> |
 | Feature | Intelligent dashboard | View the progression of buying groups through their account journeys, including AI-generated insights for more intelligent analysis and accurate account prioritization. <a href="../dashboards/intelligent-dashboard.md">Learn more</a>|
 | Feature | Buying group and account details | View insights at the buying group and account-level to have more context and historical data when you start engaging with a customer.<p>The buying group details include any first-party intent that is detected. <a href="../buying-groups/buying-group-details.md">Learn more</a><p>The account details accounts highlight the surge in engagement detected intent, so that you can alert sales on accounts that are ready for customized sales focused engagement.  <a href="../accounts/account-details.md">Learn more</a>|
 | Feature | Journeys overview | When you access account journeys, the Overview tab provides a comprehensive snapshot of your active account journeys, detailing account progress using circle and bar charts that categorize and quantify completions, and engagement activities.  <a href="../dashboards/journeys-dashboard.md">Learn more</a>|
@@ -72,10 +86,13 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Marketo Engage list membership filter for journeys and roles | In Journey Optimizer B2B, check for Marketo Engage list membership as a condition for a _split path by people_ node to help eliminate duplication in journey activities. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Learn more</a> <p> For buying group roles templates, use list membership as a role condition. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Learn more</a>|
 | Enhancement | Engagement overview dashboard | This dashboard is updated to provide a comprehensive view of engagement. It showcases real-time metrics of account and individual interactions through snapshot circle charts and trend-revealing line charts over time. <a href="../dashboards/engagement-dashboard.md">Learn more</a>|
 
+## 2024 releases
 
-## October 2024 release notes {#Oct-2024}
+Expand the following lists for the features and enhancements for Journey Optimizer B2B Edition released in 2024.
 
-**Release date**: October 29, 2024
++++October 2024 release notes
+
+**Deployment date**: October 29, 2024
 
 This release includes the following new capabilities and enhancements:
 
@@ -89,9 +106,11 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Custom fields as person attributes | If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions. Use these custom attributes in: <li>Roles templates <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Learn more</a></li><li>Split paths by people journey nodes <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Learn more</a></li> |
 | Enhancement | Email channel settings | Email settings are now visible in the Journey Optimizer B2B Edition interface. You can quickly review the current configurations and administrators can click _[!UICONTROL Edit settings]_ to go directly to the settings in Marketo Engage and update them according to the requirements of your organization. <a href="../admin/configure-channels-emails.md">Learn more</a> |
 
-## September 2024 release notes {#Sept-2024}
++++
 
-**Release date**: October 7, 2024
++++September 2024 release notes
+
+**Deployment date**: October 7, 2024
 
 This release includes the following new capabilities and enhancements:
 
@@ -102,9 +121,11 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Journey split node - reorder paths | In split path nodes, the path filtering is evaluated in top-down order. Each person or account proceeds along the first path that matches. You can reorder the defined paths by clicking the up and down arrows at the top right of each path card to move it higher or lower in the list. <a href="../journeys/split-merge-paths-nodes.md#split-paths">Learn more</a> |
 | Enhancement | Journey split node - Additional activity history condition attributes | When using conditions to define the path filtering for a split node by people, there are two additional attributes: _Opened email_ and _Was delivered email_. These additions provide greater flexibility for filtering people in journey based on email activity. <a href="../journeys/journey-nodes.md#split-paths">Learn more</a> |
 
-## August 2024 release notes {#Aug-2024}
++++
 
-**Release date**: August 29, 2024
++++August 2024 release notes
+
+**Deployment date**: August 29, 2024
 
 This release includes the following new capabilities and enhancements:
 
@@ -112,3 +133,5 @@ This release includes the following new capabilities and enhancements:
 | ---- | ---- | ----------- |
 | Feature | LinkedIn Account Matched Audiences | Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. <p>This feature leverages Experience Platform Destinations to manage some aspects of the integration. <a href="../data/linkedin-account-matched-audiences.md">Learn more</a> |
 | Enhancement | Status lifecycle for visual content fragments | Visual fragments are now managed using a status lifecycle. The fragment status determines its availability for use in an email or email template, and the changes that you can make to it. <p>This enhanced workflow makes it easy to manage reused content according to your promotional and communications calendar. <a href="../content/fragments.md#fragment-status-and-lifecycle">Learn more</a> |
+
++++
