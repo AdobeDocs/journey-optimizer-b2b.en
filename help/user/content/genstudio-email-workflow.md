@@ -5,6 +5,7 @@ feature: Email Authoring, Content, Integrations
 topic: Content Supply Chain
 level: Intermediate
 role: User
+badge: label="Limited availability" type="Informative"
 ---
 # Email content creation with GenStudio for Performance Marketing {#genstudio-workflow}
 
