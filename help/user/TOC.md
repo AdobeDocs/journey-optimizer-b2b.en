@@ -33,6 +33,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Add an email](./content/add-email.md)
        + [Email authoring](./content/email-authoring.md)
        + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
+       + [GenStudio workflows](./content/genstudio-email-workflow.md)
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
@@ -80,7 +81,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/landing-pages.md)       
       + [Landing page design](./content/landing-page-design.md)
    + [Conditional content](./content/conditional-content.md)
-   + [GenStudio workflows](./content/genstudio-email-workflow.md)
 + Insights dashboards {#dashboards}
     + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)

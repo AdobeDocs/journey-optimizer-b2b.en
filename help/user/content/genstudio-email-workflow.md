@@ -2,7 +2,7 @@
 title: Email Content Creation with GenStudio for Performance Marketing
 description: Learn how to integrate with GenStudio workflows to streamline email experience design.
 feature: Email Authoring, Content, Integrations
-topic: Content Management, Content Supply Chain
+topic: Content Supply Chain
 level: Intermediate
 role: User
 ---
@@ -77,6 +77,10 @@ For detailed information about generating branded email experiences, refer to [C
 
 ## Add generated email experiences to Journey Optimizer B2B Edition
 
+>[!NOTE]
+>
+>The GenStudio for Performance Marketing integration is available only for email creation and is not available for creating an email template.
+
 To use the GenStudio email variations created from the exported Journey Optimizer B2B Edition email HTML file, follow these steps:
 
 1. In Journey Optimizer B2B Edition, [add an email](./add-email.md) to an account journey using a _[!UICONTROL Take an action]_ node.
@@ -95,8 +99,18 @@ To use the GenStudio email variations created from the exported Journey Optimize
 
    ![Import HTML from GenStudio for Performance Marketing](./assets/email-import-html-genstudio.png){width="500" zoomable="yes"}
 
-1. Browse the GenStudio experiences to start building your content. 
+1. Browse the published experiences.
 
-   You can filter the experiences on several criteria, such as products, personas, brands, or colors.
+   You can filter the experiences on several criteria, such as _Template_ and _Created by_.
 
-1. Select an experience and click **[!UICONTROL Use]**.
+   ![Import HTML from GenStudio for Performance Marketing](./assets/email-import-select-gen-studio-experience.png){width="600" zoomable="yes"}
+
+1. Select an experience and click **[!UICONTROL Use]** to start building your email content.
+
+   >[!NOTE]
+   >
+   >GenStudio experiences created from a Journey Optimizer B2B Edition or Marketo Engage template are imported directly into the email design space. Experiences that are created without a Journey Optimizer B2B Edition template are imported into compatibility mode.
+
+1. Use the [email content and personalization tools](./email-authoring.md) to edit your email as needed and save it.
+
+   ![Import HTML from GenStudio for Performance Marketing](./assets/email-imported-experience.png){width="800" zoomable="yes"}
