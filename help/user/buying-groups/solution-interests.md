@@ -17,11 +17,13 @@ Before you create buying groups, you should know what you are selling and who yo
 
 1. In the _[!UICONTROL Buying Groups]_ page, select the **[!UICONTROL Solution interest]** tab.
 
+   The tab provides an inventory list of all existing solution interests. It displays the following information in column format: _[!UICONTROL Name]_, _[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_, _[!UICONTROL Update buying groups]_, _[!UICONTROL Creation date]_, _[!UICONTROL Created by]_, _[!UICONTROL Last update]_, and _[!UICONTROL Last updated by]_,
+
+   The list is sorted by the _[!UICONTROL Last update]_ column by default. Click the column title in the header to toggle the sort between descending and ascending.
+
+   Enter text in the _Search_ tool at the top of the list to filter the displayed list by name.
+
    ![Solution Interest tab](assets/solution-interest-tab.png){width="700" zoomable="yes"}
-
-   The tab provides an inventory list of all existing solution interests. It displays the following information in column format: _[!UICONTROL Name]_, _[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_, _[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_, _[!UICONTROL Created on]_, and _[!UICONTROL Created by]_
-
-   The list is sorted by the _[!UICONTROL Last updated on]_ column by default. Click the column title in the header to toggle the sort between descending and ascending.
    
 ## View and delete buying group jobs
 

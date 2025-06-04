@@ -11,6 +11,12 @@ Here is a sampling of the latest additions and enhancements in the Journey Optim
 
 >[!BEGINTABS]
 
+>[!TAB GenStudio email experiences]
+
+Integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Learn about GenStudio email experiences"}
+
 >[!TAB Account lists]
 
 Create an account list, which is a collection of named accounts that Marketers can use for targeted journey orchestration. An account list can target named accounts by your defined criteria, such as industry, location, or size of the company. 
@@ -48,12 +54,6 @@ Use the Adobe Express Quick Actions to touch up your content with cropping, resi
 With Adobe Express Enterprise licensing, you can leverage a full suite of Adobe Express capabilities. Use these features to polish and enhance images, while sticking to brand guidelines, and remove roadblocks in the content supply chain.
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Learn about image editing with Adobe Express"}
-
->[!TAB Fragment customizable fields]
-
-As a content designer, you can designate a parameter for a component in the fragment as editable. This configuration allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Learn about custom fields for content fragments"}
 
 >[!ENDTABS]
 
@@ -115,7 +115,7 @@ Discover the components of a buying group and understand the basics of building 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Journey content"><br/>
-      <strong>Journey content</strong><br/><a href="./content/add-email.md">Email channel</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/sales-alert-email.md">Sales alert email</a><br/><a href="./content/sms-authoring.md">SMS channel</a>
+      <strong>Journey content</strong><br/><a href="./content/add-email.md">Email channel</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio email experiences</a><br/><a href="./content/sales-alert-email.md">Sales alert email</a><br/><a href="./content/sms-authoring.md">SMS channel</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content management"><br/>

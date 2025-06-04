@@ -107,7 +107,7 @@ After the email is saved, it appears in the fragment details page when you selec
 
 ### Personalize content
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 >[!NOTE]
 >
