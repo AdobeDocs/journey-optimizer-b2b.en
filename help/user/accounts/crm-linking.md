@@ -108,7 +108,7 @@ Use the `Account` object to fetch the 18-character ID of the account, such as `C
 
 +++
 
-### Microsoft Dynamics links
+## Microsoft Dynamics links
 
 A Dynamics developer can extend the Account, Contact, or Lead entity to add a link field. Configured links enable Sales users to access the corresponding _Account Details_ or _Person Details_ page in Adobe Journey Optimizer B2B Edition.
 
