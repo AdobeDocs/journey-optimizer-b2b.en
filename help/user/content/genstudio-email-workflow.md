@@ -6,6 +6,7 @@ topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="Limited availability" type="Informative"
+exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
 ---
 # Email content creation with GenStudio for Performance Marketing {#genstudio-workflow}
 
