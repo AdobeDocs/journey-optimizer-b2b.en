@@ -73,7 +73,7 @@ Account audience data is stored as attributes in both XDM Business Account and X
 |`accountPhone.number` | N/A | Account Phone Number | String |The phone number associated with the account.  |
 |`accountSourceType` | N/A  | Source Type | String |Source type for the account. |
 
-## XDM Business Opportunity attributes
+<!-- ## XDM Business Opportunity attributes
 
 Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
@@ -97,3 +97,4 @@ Additionally, opportunity data is stored as attributes in the XDM Business Oppor
 |`opportunityStage` | Opportunity Stage   | Opportunity stage   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
 |`opportunityType` | Opportunity Type   | Opportunity type   | String | Type assigned to the opportunity, such as _Existing Business_ or _New Business_  |
 |`probabilityPercentage` | Probability Percentage  | Opportunity probability percentage  | String | Likelihood of closing the opportunity, stated as a percentage.  |
+ -->
