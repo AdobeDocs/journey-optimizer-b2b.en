@@ -49,7 +49,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Create buying groups](./buying-groups/buying-groups-create.md)
        + [Export account list](./audiences/account-list-export.md)
        + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
-       + [Buying group filters in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+       + [Buying group filters in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
     + Account lists {#account-lists}    
        + [Overview](./accounts/account-lists.md)
        + [Use in journeys and programs](./accounts/account-lists-journeys.md)
