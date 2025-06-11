@@ -1,7 +1,7 @@
 ---
 title: Linking from Customer Relationship Management Tools
 description: Learn how Sales team members can access detailed pages for accounts, contacts, and leads directly from their Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics.
-feature: Account Insights
+feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 ---
