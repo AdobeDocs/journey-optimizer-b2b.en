@@ -62,9 +62,10 @@ This release includes the following new capabilities and enhancements:
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Customizable fields - content fragments | During visual fragment design, you can designate parameters for a component in the fragment as editable. This feature allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components. <a href="../content/fragment-authoring.md#enable-fragment-customization">Learn more</a> |
-| Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> |
 | Feature | Journey duplication types | When you duplicate an account journey, you can include node details, excluding emails and SMS messages created in Journey Optimizer B2B Edition. As an alternative, you can create a skeleton copy of the structure and path flows, without node details and settings. <a href="../journeys/journey-overview.md#duplicate-journey">Learn more</a> | 
 | Enhancement | Four additional sample email templates | The sample email templates library now includes four SecurFinacial templates as examples for reengagement, inform, nurture, and feedback content examples |
+
+<!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->
 
 ## 2025.1 release notes {#Jan-2025}
 
