@@ -58,7 +58,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Buying group details](./buying-groups/buying-group-details.md)
       + [CRM linking](./accounts/crm-linking.md)
 + Content management {#content-management}
-   + [Emails](./content/emails-list.md)
+   + Emails {#emails}
+      + [Work with email content](./content/emails-list.md)
+      + [Test email rendering](./content/email-test-rendering.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
       + Marketo Engage assets {#marketo-engage-dam}

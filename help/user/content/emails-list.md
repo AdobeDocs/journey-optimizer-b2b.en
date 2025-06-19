@@ -7,7 +7,7 @@ exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
 ---
 # Emails
 
-When you [create emails](./add-email.md), you add them in the context of a journey node. If you want to work with email outside of the journey map, use the _[!UICONTROL Emails]_ list to locate and update the email. You can review emails or make updates to the settings and content.
+When you [create emails](./add-email.md), you add them in the context of a journey node. When you want to work with email content outside of the journey map, use the _[!UICONTROL Emails]_ list to locate and update the email. You can review emails or make updates to the settings and content.
 
 ## Access and manage emails
 
