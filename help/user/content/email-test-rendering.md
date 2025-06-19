@@ -14,27 +14,31 @@ To test your emails, you can leverage a [Litmus account](https://www.litmus.com/
 
 1. Click **[!UICONTROL Render email]** at the top right.
 
-   ![Render email button](./assets/email-simulate-render-button.png)
+   ![Render email button](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
 
    If you have not yet connected to your Litmus account from Journey Optimizer B2B Edition, the displayed page provides an option for starting a trial account or connecting to your existing account.
 
 1. Click **[!UICONTROL Connect your Litmus account]** on the top right, or use the link inside the page.
 
-   ![Connect your Litmus account](./assets/email-simulate-render-litmus-connect.png)
+   ![Connect your Litmus account](./assets/email-simulate-render-litmus-connect.png){width="700" zoomable="yes"}
 
-1. Enter your credentials and click **[!UICONTROL Sign in]**.
+1. Enter your Litmus account credentials and click **[!UICONTROL Sign in]**.
+
+1. Click **[!UICONTROL Connect]** to confirm the connection between Litmus and Journey Optimizer B2B Edition and send the email content for rendering.
 
    >[!IMPORTANT]
    >
-   >When you connect your Litmus account with Journey Optimizer B2B Edition, you agree that test messages are sent to Litmus. After sending, these emails are no longer managed by Adobe. As a consequence, the Litmus data retention email policy applies to these emails, including personalization data that may be included in the test messages.
+   >When you connect your Litmus account with Journey Optimizer B2B Edition, you agree that test messages are sent to Litmus. This content is then managed within Litmus and not Adobe. As a consequence, the Litmus data retention email policy applies to these emails, including personalization data that may be included in the test messages.
 
 1. Click **[!UICONTROL Run test]** at the top right to generate email previews.
 
+   ![Run a Litmus rendering test](./assets/email-simulate-render-litmus-run-test.png){width="700" zoomable="yes"}
+
 1. Check your email content in popular desktop, mobile and web-based clients.
 
-   ![Litmus email previews](./assets/email-simulate-render-litmus-previews.png)
-
    Click the displayed thumbnail to view the details for any of the rendered client tests.
+
+   ![Litmus email previews](./assets/email-simulate-render-litmus-previews.png){width="700" zoomable="yes"}
 
 1. When you are finished reviewing, click the back arrow ( ![Show or hide filters icon](../../assets/do-not-localize/icon_back-arrow.svg) ) at the top-left to return to the Simulate content page. 
 
