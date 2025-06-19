@@ -25,7 +25,7 @@ To get started with an account journey, create the journey and then construct th
 
 ## Building blocks of a journey
 
-The _journey map_ is the central zone in the journey designer. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design. An account journey always starts with an [Account Audience node](./account-audience-nodes.md) where you can add input to your journey.
+The _journey map_ is the central zone in the journey workspace. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design. An account journey always starts with an [Account Audience node](./account-audience-nodes.md) where you can add input to your journey.
 
 After you create an account journey and add the audience, build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases using the following node types to construct an account journey:
 
@@ -41,7 +41,7 @@ To help you build a journey without running into errors, the following guard rai
 
 * _Deleting a Split path node_: Deleting a node requires deleting all subsequent nodes in each path.
 * _Deleting a Merge node_: A merge node can be deleted only when there is one path connected to it. To delete a merge node, leave only one path selected.
-* _Switching between account and people_: You cannot change the selection from accounts to people without deleting all subsequent nodes in each path.
+* _Switching between account and people_: Changing the selection from accounts to people deletes all subsequent nodes in each path.
 
 ## Add a node
 
@@ -106,6 +106,10 @@ When you publish a journey, it can start immediately or on a scheduled future da
 ## Publish an account journey
 
 You can publish a journey if there are no blocker errors. When published, the journey status changes to _Live_. If the journey has errors, the _[!UICONTROL Publish]_ button is dimmed with content information: `Resolve errors before publishing`.
+
+>[!NOTE]
+>
+>After publishing an account journey, there is a delay of up to 24 hours for qualifying accounts to enter the journey.
 
 1. At the top right of the journey map, click **[!UICONTROL Publish]**.
 
