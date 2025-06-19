@@ -4,6 +4,7 @@ description: Learn how to leverage your Litmus account to test rendering for ema
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
+exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
 ---
 # Test email rendering with Litmus
 
@@ -37,5 +38,4 @@ To test your emails, you can leverage a [Litmus account](https://www.litmus.com/
 
 1. When you are finished reviewing, click the back arrow ( ![Show or hide filters icon](../../assets/do-not-localize/icon_back-arrow.svg) ) at the top-left to return to the Simulate content page. 
 
-   You can select another profile and do another rendering test, or return to the email design space to make any needed adjustments based on your review. 
-
+   You can select another profile and do another rendering test, or return to the email design space to make any needed adjustments based on your review.
