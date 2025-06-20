@@ -41,7 +41,7 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
      1. Click **[!UICONTROL Create]**.
 
-       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
+        In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
 
      1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
 
@@ -55,15 +55,15 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
      1. For **[!UICONTROL Existing email to duplicate]**, click the _Selection_ icon ( ![Selection icon](../assets/do-not-localize/icon-email-select.svg) and select the email that you want to duplicate and use for the journey node.
 
-      You can filter the list of emails by entering a text string in the search field to match the email name.
+         You can filter the list of emails by entering a text string in the search field to match the email name.
 
-      ![Select email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+         ![Select email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-      Select the checkbox for the email that you want to duplicate and click **[!UICONTROL Select]**. 
+         Select the checkbox for the email that you want to duplicate and click **[!UICONTROL Select]**. 
 
      1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
 
-        ![Create new email dialog - duplciate existing email](assets/create-new-email-duplicate.png){width="400"}
+         ![Create new email dialog - duplciate existing email](assets/create-new-email-duplicate.png){width="400"}
 
      1. Click **[!UICONTROL Create]**.
 
@@ -72,8 +72,6 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
      1. If needed, click **[!UICONTROL Edit email]** to modify the email [settings](#define-the-email-settings) and [content](./email-authoring.md).
 
      +++
-
-     Define the email [settings](#define-the-email-settings) and click **[!UICONTROL Edit email content]** to [design the content](./email-authoring.md).
 
    * Choose **[!UICONTROL Select email from Adobe Marketo Engage]** to use one of the pre-authored emails in Marketo Engage and send it as a part of the journey.
 
