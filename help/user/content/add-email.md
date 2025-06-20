@@ -53,7 +53,7 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
      1. In the _[!UICONTROL Create new email]_ dialog, choose **[!UICONTROL Duplicate existing email]**.
 
-     1. For **[!UICONTROL Existing email to duplicate]**, click the _Selection_ icon ( ![Selection icon](../assets/do-not-localize/icon-email-select.svg) and select the email that you want to duplicate and use for the journey node.
+     1. For **[!UICONTROL Existing email to duplicate]**, click the _Selection_ icon ( ![Selection icon](../assets/do-not-localize/icon-email-select.svg) ) and select the email that you want to duplicate and use for the journey node.
 
          You can filter the list of emails by entering a text string in the search field to match the email name.
 
