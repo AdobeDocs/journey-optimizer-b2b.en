@@ -1,13 +1,13 @@
 ---
-title: Linking from Customer Relationship Management Tools
+title: In-CRM access to detail pages
 description: Learn how Sales team members can access detailed pages for accounts, contacts, and leads directly from their Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 ---
-# Linking from Customer Relationship Management (CRM) tools
+# In-CRM access to detail pages
 
-Adobe Journey Optimizer B2B Edition allows Sales teams to access detailed pages for account and buying group information directly from their Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. With this integration, sales representatives can quickly access real-time account and buying group insights, such as engagement history, intent signals, and AI-generated recommendations. This ability empowers the Sales team for faster outreach, smarter prioritization, and better alignment with Marketing.
+Adobe Journey Optimizer B2B Edition allows Sales team members and account managers to access detailed pages for account and buying group information directly from their Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. With this integration, sales representatives can quickly access real-time account and buying group insights, such as engagement history, intent signals, and AI-generated recommendations. This ability empowers the Sales team for faster outreach, smarter prioritization, and better alignment with Marketing.
 
 To enable Sales team members for viewing account and person details in Journey Optimizer B2B Edition from the CRM, the Salesforce or Dynamics administrator can add a Journey Optimizer B2B Edition link from the account, contact, or lead view.
 
