@@ -112,8 +112,9 @@ Buying group engagement score is a number to determine the engagement of the mem
 
 | Activity name | Description | Engagement type | Max daily frequency count | Activity weight |
 | --- | --- | --- | --- | --- |
-| [!UICONTROL Register for Event ]| A member registers for an event that is associated with a campaign | Event | 20 | 60 |
-| [!UICONTROL Attend Event] | A member  attends a campaign event | Event | 20 | 90 |
+| [!UICONTROL Visit Webpage]| A member visits a web page | Web | 20 | 40 |
+| [!UICONTROL Fill Out Form]| A member fills and submits a form on a web page | Web | 20 | 40 |
+| [!UICONTROL Click Link] | A member clicks a link on a web page | Web | 20 | 40 |
 | [!UICONTROL Open Email] | A member opens an email | Email | 20 | 30 |
 | [!UICONTROL Click Email] | A member clicks a link in an email | Email | 20 | 30 |
 | [!UICONTROL Open Sales Email] | A member opens a sales email | Email | 20 | 30 |
