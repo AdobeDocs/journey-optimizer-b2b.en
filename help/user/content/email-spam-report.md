@@ -15,13 +15,13 @@ When you edit or your email content, the Spam report button provides a scoring a
 
     ![Spam report button](./assets/email-spam-report-button.png){width="700" zoomable="yes"}
 
-   The reporting process scans the email content and generates a score with a list of the triggered filtering rules used to generate the score. Factors include body layout, structure, image size, spam trigger words, and other elements. For a full list of the evaluated rules, refer to the SpamAssasin documentation.
+   The reporting process scans the email content and generates a score with a list of the triggered filtering rules used to generate the score. Factors include body layout, structure, image size, spam trigger words, and other elements. For a list of the rule evaluation tests for the email elements, refer to the [SpamAssasin test list](https://spamassassin.apache.org/old/tests_3_0_x.html).
 
 1. Check the scores and descriptions for each item.
 
    >[!NOTE]
    >
-   >The spam score is calculated through SpamAssassin, and Adobe does not own the rules. For more details about these rules, refer to the SpamAssassin documentation.
+   >The spam score is calculated through SpamAssassin, and Adobe does not own the rules or scoring logic. For more details about the SpamAssasin open source project, refer to the [SpamAssassin documentation](https://cwiki.apache.org/confluence/display/SPAMASSASSIN/).
 
    The lower the score, the less likely that the email would be marked as spam.
 
