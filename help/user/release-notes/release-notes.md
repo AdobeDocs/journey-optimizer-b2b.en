@@ -12,6 +12,26 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## 2025.6 release notes
+
+**Deployment date**: June 15, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. [Learn more](../content/forms.md) |
+| Feature | Spam detection reporting | To avoid spam filters and ensure that messages are delivered to audience inboxes, you can generate a _Spam report_ directly in the email design space. |
+| Feature | Person details page | You can now click a person's name when it is displayed (as a hyperlink) in the Intelligent Dashboard, buying group details page, and account details page. This action opens the associated person details page, which information for the contact, their activity, and top-engaged buying groups.  |
+| Feature | Account actions | Take actions directly from account details and buying group details pages for timely and intentional engagement. Use the _Send email_ action to send an email to selected account contacts or buying group members. From the buying group details, actions also include _Assign a new member_, _Remove a member_, and _Edit a role_. |
+| Feature | In-CRM access to detail pages | You can now configure direct links to Journey Optimizer B2B Edition detail pages for accounts, contacts, and leads in your Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. [Learn more](../accounts/crm-linking.md) | 
+| Enhancement| Intent data upload | You can now upload a CSV file with your intent data taxonomy directly on _[!UICONTROL Administration]_ > _[!UICONTROL Configurations]_. |
+| Enhancement | Simulate Content access | You can now access the _Simulate Content_ tools from the email details and properties page, in addition to the email design space. |
+| Enhancement | Total count display for roles templates list | The _[!UICONTROL Roles templates]_ list page is enhanced with the display of the total count next to the search bar. |
+
+
+
 ## 2025.5 release notes
 
 **Deployment date**: June 3, 2025
