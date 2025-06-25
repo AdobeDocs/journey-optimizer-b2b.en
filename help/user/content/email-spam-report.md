@@ -7,7 +7,7 @@ role: User
 ---
 # Review the spam report
 
-Many email inbox providers and most corporate systems employ a spam filtering process. Sending emails that trigger these filters can severely impact deliverability. In Journey Optimizer B2B Edition, you can check email content spam scoring by generating a Spam report. This report uses [SpamAssassin](https://spamassassin.apache.org/) to test the email and helps you to determine whether a message could be considered as spam by anti-spam tools. You can use the information in the report to take actions that improve the email content score and deliverability. 
+Many email inbox providers and most corporate systems employ a spam filtering process. Sending emails that trigger these filters can severely impact deliverability. In Journey Optimizer B2B Edition, you can check email content spam scoring by generating a Spam report. This report uses [[!DNL SpamAssassin]](https://spamassassin.apache.org/) to test the email and helps you to determine whether a message could be considered as spam by anti-spam tools. You can use the information in the report to take actions that improve the email content score and deliverability. 
 
 When you edit or your email content, the Spam report button provides a scoring and advice to improve scores for each individual item that is listed.
 
@@ -15,13 +15,13 @@ When you edit or your email content, the Spam report button provides a scoring a
 
     ![Spam report button](./assets/email-spam-report-button.png){width="700" zoomable="yes"}
 
-   The reporting process scans the email content and generates a score with a list of the triggered filtering rules used to generate the score. Factors include body layout, structure, image size, spam trigger words, and other elements. For a list of the rule evaluation tests for the email elements, refer to the [SpamAssasin test list](https://spamassassin.apache.org/old/tests_3_0_x.html).
+   The reporting process scans the email content and generates a score with a list of the triggered filtering rules used to generate the score. Factors include body layout, structure, image size, spam trigger words, and other elements. For a list of the rule evaluation tests for the email elements, refer to the [[!DNL SpamAssassin] test list](https://spamassassin.apache.org/old/tests_3_0_x.html).
 
 1. Check the scores and descriptions for each item.
 
    >[!NOTE]
    >
-   >The spam score is calculated through SpamAssassin, and Adobe does not own the rules or scoring logic. For more details about the SpamAssasin open source project, refer to the [SpamAssassin documentation](https://cwiki.apache.org/confluence/display/SPAMASSASSIN/).
+   >The spam score is calculated through SpamAssassin, and Adobe does not own the rules or scoring logic. For more details about the [!DNL SpamAssassin] open source project, refer to the [[!DNL SpamAssassin] documentation](https://cwiki.apache.org/confluence/display/SPAMASSASSIN/).
 
    The lower the score, the less likely that the email would be marked as spam.
 
