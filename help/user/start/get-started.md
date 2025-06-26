@@ -1,10 +1,11 @@
 ---
-title: Get Started with Journey Optimizer B2B Edition
-description: As a new user in Journey Optimizer B2B Edition, learn about the key areas for getting started.
+title: Onboarding Guidance for Journey Optimizer B2B Edition
+description: As a new administrator or user in Journey Optimizer B2B Edition, learn about the key areas for onboarding.
 role: Admin, User
+level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 ---
-# Get started with Journey Optimizer B2B Edition
+# Onboarding guidance for Journey Optimizer B2B Edition
 
 The features and tools that you want to tackle in Adobe Journey Optimizer B2B Edition depends on your role within your team. 
 
@@ -16,7 +17,7 @@ Based on your organization, administrators can define several types of users and
 
 >[!BEGINTABS]
 
->[!TAB Administrator quick start]
+>[!TAB Administrator]
 
 Before your team can start using the Adobe Journey Optimizer B2B Edition features, several steps are required to prepare your environment. Perform these steps so that the data engineer and marketer can start working with Adobe Journey Optimizer B2B Edition.
 
@@ -25,6 +26,8 @@ As a system administrator, you need to understand product profiles and assign pe
 Learn about access management in the following pages:
 
 1. **Create sandboxes** to partition your instances into separate, isolated virtual environments. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+
+1. **Work with your data engineer** to plan and implement your B2B audience and profile activation. Review the published blueprints and follow the guidelines according to your requirements. [Learn more](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Set up the product profile**. A product profile is a set of unitary rights in Adobe Experience Platform that allow users access to certain functionalities or objects in the interface. [Learn more](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -38,7 +41,7 @@ Learn about access management in the following pages:
 
 1. **Set up Adobe Experience Platform (AEP) Experience Event definitions** for teams responsible for creating account journeys that listen to AEP Experience Events. [Learn more](../admin/configure-aep-events.md)
 
->[!TAB Marketer quick start]
+>[!TAB Marketer]
 
 As a marketer, or an _Account Journey Practitioner_, you are responsible for designing journeys and crafting content. You can start working with Adobe Journey Optimizer B2B Edition after the system administrator and the data engineer prepare your environment and grant you access.
 
@@ -60,7 +63,7 @@ Refer to the following sections to set up your first journey, add assets, and se
 
    * Use the built-in channel actions (email and SMS) to send messages designed in Journey Optimizer B2B Edition.
 
-   * In the journey designer, build your multi-step use cases, add conditions and send personalized messages.
+   * In the journey map, build your multi-step use cases, add conditions and send personalized messages.
 
    [Learn more](../journeys/journey-overview.md)
 
