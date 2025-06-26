@@ -1,15 +1,13 @@
 ---
-title: Onboarding Guidance for Journey Optimizer B2B Edition
-description: As a new administrator or user in Journey Optimizer B2B Edition, learn about the key areas for onboarding.
+title: Onboarding Guidance for Administrators and Marketers
+description: As a new administrator or user in Journey Optimizer B2B Edition, learn about the key areas in the onboarding process.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 ---
-# Onboarding guidance for Journey Optimizer B2B Edition
+# Onboarding guidance 
 
-The features and tools that you want to tackle in Adobe Journey Optimizer B2B Edition depends on your role within your team. 
-
-Based on your organization, administrators can define several types of users and grant them access to certain capabilities depending on their permissions.
+The features and tools that you want to tackle in Adobe Journey Optimizer B2B Edition depends on your role within your team. Based on your organization, administrators can define several types of users and grant them access to certain capabilities depending on their permissions.
 
 >[!TIP]
 >
@@ -21,7 +19,7 @@ Based on your organization, administrators can define several types of users and
 
 Before your team can start using the Adobe Journey Optimizer B2B Edition features, several steps are required to prepare your environment. Perform these steps so that the data engineer and marketer can start working with Adobe Journey Optimizer B2B Edition.
 
-As a system administrator, you need to understand product profiles and assign permissions for sandbox administration and channel configuration. You also need to set up sandboxes and manage them for the available product profiles. You can then assign team members to the product profiles. These capabilities can be managed by product administrators that have access to the Adobe Admin Console. [Learn more about Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
+As a system administrator, you need to understand product profiles and assign permissions for sandbox administration and channel configuration. You also need to set up sandboxes and manage them for the available product profiles. You can then assign team members to the product profiles. Product administrators that have access to the Adobe Admin Console can manage these capabilities. [Learn more about Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
 Learn about access management in the following pages:
 
