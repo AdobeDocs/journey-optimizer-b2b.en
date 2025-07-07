@@ -126,7 +126,7 @@ Leverage the view and content validation options that are available in the visua
    * Click the _View_ icon for content preview across devices.
    * Select one of the out-of-the-box devices or enter custom dimensions to preview the content.
 
-### More options
+## More options
 
 From the _[!UICONTROL More ...]_ menu at the top of the email design space, you can take the following actions:
 
@@ -145,14 +145,14 @@ From the _[!UICONTROL More ...]_ menu at the top of the email design space, you 
 >title="Check how your content is rendering"
 >abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
 
-When your message content is defined, you can use test profiles to preview it, send proofs, and control its rendering in popular desktop, mobile, and web-based clients. If you inserted personalized content, you can preview how this content is displayed in the message using test profile data.
+When your message content is defined, you can use test profiles to preview it, send proofs, and review its rendering in desktop and mobile aspect ratios. If you inserted personalized content, you can preview how this content is displayed in the message using test profile data.
 
-To preview the email content, click **[!UICONTROL Simulate content]** and select a test profile to check your message using the person profile data.
+To [preview the email content](./email-simulate-content.md), click **[!UICONTROL Simulate content]** and select a test profile to check your message using the person profile data.
 
 ![Simulate the email content to check your design](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
- You can access additional tools to validate and review the email content:
+You can access additional tools to validate and review the email content:
 
- * Send a proof
- * [Test rendering in email clients](./email-test-rendering.md)
- <!-- * Generate a spam report -->
+* [Send a proof](./email-simulate-content.md#send-proofs)
+* [Test rendering in email clients](./email-test-rendering.md)
+<!-- * Generate a spam report -->

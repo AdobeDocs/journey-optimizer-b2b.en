@@ -17,7 +17,7 @@ Use the _Simulate content_ feature to preview the email content and send test de
 
 1. From the email design space<!-- or the email properties -->, click **[!UICONTROL Simulate Content]**.
 
-   ![Click Simulate content](assets/email-simulate-content.png){width="800" zoomable="yes"}
+   ![Click Simulate content](assets/email-simulate-content-.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
