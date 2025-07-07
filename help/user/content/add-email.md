@@ -109,20 +109,22 @@ Two types of alerts can be detected:
 
 * **_Warnings_** that refer to recommendations and best practices, such as:
 
-   * `The opt-out link is not present in the email body`: adding an unsubscription link into your email body is a best practice.
+   * `The opt-out link is not present in the email body`: Adding an unsubscription link into your email body is a best practice.
 
       >[!NOTE]
       >
       >Marketing-style email messages must include an opt-out link, which is not required for transactional messages. 
 
-   * `Text version of HTML is empty`: do not forget to define a text version of your email body, which is used when HTML content cannot be displayed.
+   * `Text version of HTML is empty`: Do not forget to define a text version of your email body, which is used when HTML content cannot be displayed.
 
-   * `Empty link is present in email body`: check that all the links in your email are correct. 
+   * `Empty link is present in email body`: Check that all the links in your email are correct. 
 
-   * `Email size has exceeded the limit of 100KB`: for optimal delivery, make sure that the size of your email does not exceed 100KB. 
+   * `Email size has exceeded the limit of 100KB`: For optimal delivery, make sure that the size of your email does not exceed 100KB. 
 
 * **_Errors_** that prevent you from testing or activating the journey/campaign as long as they are not resolved, such as:
 
-   * `The subject line is missing`: email subject line is mandatory.
+   * `From name is empty`: The email _From_ field (required) is not defined.
+   
+   * `The subject line is missing`: The email subject line (required) is not defined.
 
-   * `The email version of the message is empty`: this error is displayed when the email content has not been configured.
+   * `The email version of the message is empty`: The email content is not defined.

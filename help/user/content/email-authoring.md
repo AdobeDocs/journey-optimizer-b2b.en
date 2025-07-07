@@ -46,14 +46,13 @@ Use the visual content design space to define the structure and content of the e
 1. [Add image assets](#add-assets) to the email message.
 1. [Personalize the email content](#personalize-content).
 1. [Review and update links](#preview-and-edit-linked-urls).
+1. [Test the email](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-When your content is done, click **[!UICONTROL Simulate content]** at the top to check rendering. You can choose the desktop or mobile view.
 
 When you are satisfied with the content, click **[!UICONTROL Save]**.
 
@@ -139,7 +138,7 @@ From the _[!UICONTROL More ...]_ menu at the top of the email design space, you 
 * **[!UICONTROL Save as content template]** - Save the email body as an email template to be reused across multiple emails or email templates. You provide a name and description for the template and save it to the list of saved email templates.
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
 
-## Check and test the email {#preview-test}
+## Check and test the email {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
@@ -148,6 +147,12 @@ From the _[!UICONTROL More ...]_ menu at the top of the email design space, you 
 
 When your message content is defined, you can use test profiles to preview it, send proofs, and control its rendering in popular desktop, mobile, and web-based clients. If you inserted personalized content, you can preview how this content is displayed in the message using test profile data.
 
-To preview the email content, click **[!UICONTROL Simulate content]** and then add a test profile to check your message using the test profile data.
+To preview the email content, click **[!UICONTROL Simulate content]** and select a test profile to check your message using the person profile data.
 
 ![Simulate the email content to check your design](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+ You can access additional tools to validate and review the email content:
+
+ * Send a proof
+ * [Test rendering in email clients](./email-test-rendering.md)
+ <!-- * Generate a spam report -->
