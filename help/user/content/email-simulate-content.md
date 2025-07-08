@@ -7,7 +7,7 @@ role: User
 ---
 # Preview and test your email content
 
-Use the _Simulate content_ feature to preview the email content and send test deliveries to specific recipients. To preview the email content, the required email fields must be defined, including _[!UICONTROL From name]_, _[!UICONTROL From address]_, _[!UICONTROL Reply-to address]_ and _[!UICONTROL Subject line]_.
+Use the _Simulate content_ feature to preview the email content and send test deliveries to specific recipients. The required email fields must be defined, including _[!UICONTROL From name]_, _[!UICONTROL From address]_, _[!UICONTROL Reply-to address]_ and _[!UICONTROL Subject line]_, to access the preview and testing features.
 
 >[!IMPORTANT]
 >
