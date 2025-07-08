@@ -91,6 +91,20 @@ You can personalize the imported content as needed with the visual email editor 
 
 {{$include /help/_includes/content-design-components.md}}
 
+### Add custom CSS
+
+You can add your own custom CSS directly within the email design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components such as images, buttons, and text.
+
+With at least one content component in the canvas, select the **[!UICONTROL Body]** component in the left navigation tree to access the custom CSS editor.
+
+>[!NOTE]
+>
+>If your email message is designed using a [template with locked content](./template-content-governance.md), you cannot add custom CSS to your content. The button label changes to **[!UICONTROL View custom CSS]** and any custom CSS already present in the content is read-only.
+
+![Access the body styles](./assets/email-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
+
 ### Add fragments
 
 {{$include /help/_includes/content-design-use-fragments.md}}
