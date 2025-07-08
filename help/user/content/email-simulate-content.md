@@ -15,9 +15,11 @@ Use the _Simulate content_ feature to preview the email content and send test de
 
 ## Display the email preview
 
-1. From the email design space<!-- or the email properties -->, click **[!UICONTROL Simulate Content]**.
+You can access the rendering preview from the [email design space](./email-authoring.md), or from the _[!UICONTROL Summary]_ when you [open an email from the Emails list](./emails-list.md#edit-emails).
 
-   ![Click Simulate content](assets/email-simulate-content-.png){width="800" zoomable="yes"}
+1. Click **[!UICONTROL Simulate Content]** at the top.
+
+   ![Click Simulate content](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
