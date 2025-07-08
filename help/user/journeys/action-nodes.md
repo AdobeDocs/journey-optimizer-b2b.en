@@ -186,7 +186,7 @@ The Marketo Engage people-based actions are designed to coordinate your account-
 
 +++[!UICONTROL Add to list]
 
-Use this action to remove people from a [Smart List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} in Marketo Engage. 
+Use this action to add people to a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. 
 
 First select the workspace in the connected Marketo Engage instance. Next, select the list name.
 
@@ -214,7 +214,7 @@ Use this action to change the [person partition](https://experienceleague.adobe.
 
 +++[!UICONTROL Remove from list]
 
-Use this action to remove people from a [Smart List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} in Marketo Engage. First select the workspace in the connected Marketo Engage instance. Next, select the list name.
+Use this action to remove people from a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. First select the workspace in the connected Marketo Engage instance. Next, select the list name.
 
 ![Take an action - Remove from list](./assets/node-action-remove-from-list-options.png){width="300"}
 
