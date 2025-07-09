@@ -55,7 +55,7 @@ For example:
 
 >[!NOTE]
 >
->The `[MktoTrackingLink]` value must be the Default Branding Domain.
+>The `[MktoTrackingLink]` value must be the default [branding domain](../admin/configure-channels-emails.md#branding-domains).
 
 ### Provision the SSL certificate
 
