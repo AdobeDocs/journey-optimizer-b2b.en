@@ -4,7 +4,7 @@ description: Learn how to add custom CSS to your email and landing page content.
 feature: Email Authoring, Landing Pages, Content Design Tools
 role: User
 ---
-# Add Custom CSS for Your Content
+# Add Custom CSS for your content
 
 You can add your own custom CSS directly within the email or landing page design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content.
 
