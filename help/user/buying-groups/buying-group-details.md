@@ -13,21 +13,21 @@ When you click a buying group name from anywhere in Journey Optimizer B2B Editio
 
 {{intent-data-note}}
 
-The buying-group details page is comprised of three primary sections:
+The buying-group overview is comprised of three primary sections:
 
-## Buying group overview
+## Buying group summary
 
-![Buying group overview](./assets/details-page-buying-group-overview.png){zoomable="yes"}
+![Buying group summary](./assets/details-page-buying-group-overview.png){zoomable="yes"}
 
-The buying group overview section includes the following buying group information:
+The buying group summary section includes the following buying group information:
 
-* Buying group name 
-* Account name (click the name to open the account details)
-* Number of people in the buying group
+* Buying group name
+* Account name (click the name to open the [account details](../accounts/account-details.md))
+* Number of members in the buying group
 * Engagement score
 * Completeness score
 * Current buying group stage
-* Role template (click the name to open the roles template details)
+* Role template (click the name to open the [roles template](buying-groups-role-templates.md#access-and-browse-role-templates))
 * Last modified/updated date
 * Generative AI summary of the buying group
 

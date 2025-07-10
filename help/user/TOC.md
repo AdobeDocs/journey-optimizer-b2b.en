@@ -56,6 +56,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + Sales experience {#sales-experience}
       + [Account details](./accounts/account-details.md)
       + [Buying group details](./buying-groups/buying-group-details.md)
+      + [Person details](./accounts/person-details.md)
       + [CRM linking](./accounts/crm-linking.md)
 + Content management {#content-management}
    + Emails {#emails}

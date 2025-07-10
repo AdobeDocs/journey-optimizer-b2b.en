@@ -25,14 +25,14 @@ The account overview section includes the following account information:
 * Number of people in the account
 * Industry
 * Open opportunities
-* The three most recent account journeys where the account is currently in use (click the name to open the journey details)
+* The three most recent account journeys where the account is currently in use (click the journey name to open the [journey overview](../journeys/journey-overview.md))
 * Generative AI summary of the account, which includes information about the top engaged buying groups.
 
 ## Contact coverage
 
 ![Account contact coverage](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-The _[!UICONTROL Contact coverage]_ section displays the number of contacts from the account with a specific role associated to a solution interest. Assignment of role and solution interest is based on the buying group roles template. Click a cell to display detailed information:
+The _[!UICONTROL Contact coverage]_ section displays the number of contacts from the account with a specific role associated with a solution interest. Assignment of role and solution interest is based on the buying group roles template. Click a cell to display the following details:
 
 * Description, in the following format: _x people have y role for z solution interest_
 * Columns
@@ -62,10 +62,10 @@ The _[!UICONTROL Contact overlap]_ section displays contacts from the account wh
 
 Click the _Information_ ( ![Information icon](../assets/do-not-localize/icon-info.svg) ) next to the contact name to display a table with the following details:
 
-* Buying group (click the name to open the buying group details)
+* Buying group (click the name to open the [buying group details](../buying-groups/buying-group-details.md))
 * Role
 * Solution interest
-* Product intent (if configured)
+* Product intent (if [configured](../admin/intent-data.md))
 * Product
 
 Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) ) icon at the top left to filter the data display using any of these attributes:

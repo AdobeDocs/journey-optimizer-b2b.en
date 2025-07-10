@@ -28,6 +28,7 @@ This release includes the following new capabilities and enhancements:
 | Feature | In-CRM access to detail pages | You can now configure direct links to Journey Optimizer B2B Edition detail pages for accounts, contacts, and leads in your Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. [Learn more](../accounts/crm-linking.md) |
 | Feature | Custom CSS support for content design | You can now add your own custom CSS when you are authoring email and landing page content in the design space. [Learn more](../content/design-custom-css.md) |
 | Enhancement| Intent data upload | You can now upload a CSV file with your intent data taxonomy directly on _[!UICONTROL Administration]_ > _[!UICONTROL Configurations]_. |
+| Feature| Intent mapping configuration | To activate and manage the Intent Detection model, you can now upload a spreasheet to define an intent data mapping category. [Learn more](../admin/intent-data.md) |
 | Enhancement | Simulate Content from email summary | You can now access the _Simulate Content_ tools from the email summary (details and properties) when you open an email from the Emails list. This access is in addition to the email design space. [Learn more](../content/email-simulate-content.md#display-the-email-preview) |
 | Enhancement | Total count display for roles templates list | The _[!UICONTROL Roles templates]_ list page is enhanced with the display of the total count next to the search bar. |
 
