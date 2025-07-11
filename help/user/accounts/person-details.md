@@ -6,7 +6,7 @@ role: User
 ---
 # Person details
 
-When you click a person name from anywhere in Journey Optimizer B2B Edition, the person details page is displayed. This page includes useful information about the person associated with an account or buying group, including a generative AI summary of highlight and intent data (if configured).
+When you click a person name from anywhere in Journey Optimizer B2B Edition, the person details page is displayed. This page includes useful information about the person associated with an account or buying group, including a generative AI summary of highlight and intent data (if configured). <!-- There are also [actions](#person-actions) that you can execute for the person. -->
 
 ![Person details page](./assets/person-details-page.png){width="800" zoomable="yes"}
 
@@ -33,7 +33,6 @@ This section provides a list of the most recent email, web, form-fill, and inter
 
 ![Activities - person details](./assets/person-details-activities.png){width="700" zoomable="yes"}
 
-
 ## Buying groups based on engagement score
 
 This section includes buying groups where the person is a member, and is sorted according to engagement score. Each card includes the following buying group information:
@@ -48,11 +47,13 @@ This section includes buying groups where the person is a member, and is sorted 
 
 ## Intent data
 
-In Journey Optimizer B2B Edition, the Intent Detection model predicts a solution/product of interest with high enough confidence based on a person's activity. It also leverages other account co-members' activities, along with tagged content. The intent of a person can be interpreted as the probability of having interest in a product. 
+In Journey Optimizer B2B Edition, the Intent Detection model predicts a solution/product of interest with high enough confidence based on a person's activity. It also leverages other account co-members' activities, along with tagged content. The intent of a person can be interpreted as the probability of having interest in a product.
 
 {{intent-data-note}}
 
 ![Intent data - person details](./assets/intent-data-panel.png){width="700" zoomable="yes"}
 
-* Levels of intent - Available on known lead, account, and buying group level.
+* Levels of intent
 * Types of intent signal - Keywords, product, and solution
+
+<!-- ## Person actions -->
