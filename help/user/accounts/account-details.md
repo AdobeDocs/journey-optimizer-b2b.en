@@ -91,6 +91,8 @@ Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) )
 
 Select the **[!UICONTROL Contacts]** tab to view a list of all people associated with the account, which syncs into Experience Platform. Each contact listed includes the name, email address, and engagement score.
 
+![Account details - Contacts tab](./assets/account-details-contacts-tab.png){width="700" zoomable="yes"}
+
 ## Send email
 
 You can send a marketer-approved email to one or more selected contacts (up to 50 at a time), or to all contacts for the account. The list of available emails is limited to approved emails from the connected Marketo Engage instance.
