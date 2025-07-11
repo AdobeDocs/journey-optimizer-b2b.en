@@ -115,7 +115,7 @@ You can send a marketer-approved email to one or more selected contacts (up to 5
 
 1. At the top-right or in the selection bar at the bottom, click **[!UICONTROL Send email]**.
 
-   ![Members tab - send email](./assets/buying-group-details-send-email.png){width="700" zoomable="yes"}
+   ![Members tab - send email](../accounts/assets/account-details-send-email-selections.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL Send email]_ dialog, select the Marketo Engage workspace, and then select the checkbox for the email that you want to send.
 
