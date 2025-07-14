@@ -9,7 +9,7 @@ badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in
 
 Adobe Journey Optimizer B2B Edition allows Sales team members and account managers to access detailed pages for account and buying group information directly from their Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. With this integration, sales representatives can quickly access real-time account and buying group insights, such as engagement history, intent signals, and AI-generated recommendations. This ability empowers the Sales team for faster outreach, smarter prioritization, and better alignment with Marketing.
 
-To enable Sales team members for viewing account and person details in Journey Optimizer B2B Edition from the CRM, the Salesforce or Dynamics administrator can add a Journey Optimizer B2B Edition link from the account, contact, or lead view.
+To enable Sales team members for viewing [account details](account-details.md) and [person details](person-details.md) pages in Journey Optimizer B2B Edition from the CRM, the Salesforce or Dynamics administrator can add a Journey Optimizer B2B Edition link from the account, contact, or lead view.
 
 When a Sales team member uses the link from the CRM instance, the sandbox should be _Prod_, and the IMS organization is determined according to the following ordered logic:
 
@@ -19,7 +19,7 @@ When a Sales team member uses the link from the CRM instance, the sandbox should
 
 ## Salesforce links
 
-A Salesforce administrator with the _Customize Application_ permission can configure the link in the Account, Contact, or Lead layout. Configured links enable Sales users to access the corresponding _[!UICONTROL Account Details]_ or _[!UICONTROL Person Details]_ page in Adobe Journey Optimizer B2B Edition.
+A Salesforce administrator with the _Customize Application_ permission can configure the link in the Account, Contact, or Lead layout. Configured links enable Sales users to access the corresponding account details or person details page in Adobe Journey Optimizer B2B Edition.
 
 In Salesforce, add the custom link as a button, hyperlink, or linked icon and customize it according to your team's preferences.
 
@@ -110,7 +110,7 @@ Use the `Account` object to fetch the 18-character ID of the account, such as `C
 
 ## Microsoft Dynamics links
 
-A Dynamics developer can extend the Account, Contact, or Lead entity to add a link field. Configured links enable Sales users to access the corresponding _Account Details_ or _Person Details_ page in Adobe Journey Optimizer B2B Edition.
+A Dynamics developer can extend the Account, Contact, or Lead entity to add a link field. Configured links enable Sales users to access the corresponding account details or person details page in Adobe Journey Optimizer B2B Edition.
 
 Add the custom link as a button, a hyperlink, or a linked icon link and customize it according to your team's preferences.
 
