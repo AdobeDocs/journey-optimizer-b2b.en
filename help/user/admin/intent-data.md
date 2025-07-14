@@ -58,7 +58,7 @@ When your spreadsheet is ready, return to the _[!UICONTROL Intent Mapping]_ conf
 
 1. Click **[!UICONTROL Next]**.
 
-   Pre-processing runs to cluster similar keywords, which improves intent detection and avoids key work dilution. A pulse notification is displayed as soon as this pre-processing is complete (up to 15 minutes, depending on the data).
+   Pre-processing runs to cluster similar keywords, which improves intent detection and avoids keyword dilution. A pulse notification is displayed as soon as this pre-processing is complete (up to 15 minutes, depending on the data).
 
    ![Pulse notification](./assets/intent-data-upload-files-pre-process.png){width="500"}
    

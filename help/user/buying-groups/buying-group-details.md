@@ -94,7 +94,7 @@ There are multiple actions that you can execute from the _Members_ tab:
 
 ### Assign a new member
 
-An account can have one or more buying groups associated to it, buying group members are typically a subset of contacts from the account. You can manually add any contact from the associated account to the buying group.
+An account can have one or more buying groups associated to it, and buying group members are typically a subset of contacts from the account. You can manually add any contact from the associated account to the buying group.
 
 1. Click **[!UICONTROL Assign new member]** at the top-right.
 
