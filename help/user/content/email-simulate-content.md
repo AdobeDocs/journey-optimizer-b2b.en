@@ -4,6 +4,7 @@ description: Learn how to preview and test your email content to ensure that it 
 feature: Email Authoring
 level: Beginner
 role: User
+exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 ---
 # Preview and test your email content
 
