@@ -11,6 +11,12 @@ Adobe Journey Optimizer B2B Edition continuously delivers new features, enhancem
 Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
+<!-- hold for 2025.8 release 
+
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
+
+-->
 
 ## 2025.6 release notes
 
@@ -20,8 +26,6 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
-| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 | Feature | Integration with GenStudio for Performance Marketing | (Limited Availability) You can now integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition. [Learn more](../content/genstudio-email-workflow.md) |
 | Feature | Spam detection reporting | To avoid spam filters and ensure that messages are delivered to audience inboxes, you can generate a _Spam report_ directly in the email design space. [Learn more](../content/email-spam-report.md) |
 | Feature | Person details page | You can now click a person's name when it is displayed (as a hyperlink) in the Intelligent Dashboard, buying group details page, and account details page. This action opens the associated person details page, which information for the contact, their activity, and top-engaged buying groups. [Learn more](../accounts/person-details.md)|
