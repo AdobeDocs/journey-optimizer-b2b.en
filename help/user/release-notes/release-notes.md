@@ -32,13 +32,13 @@ This release includes the following new capabilities and enhancements:
 | Feature | Account and buying group actions | Take actions directly from account details and buying group details pages for timely and intentional engagement. <li>Use the _Send email_ action to send an approved Marketo Engage email to selected account contacts or buying group members. [Learn more](../accounts/account-details.md#send-emails) <li>From the buying group details, actions also include _Assign a new member_, _Remove a member_, and _Edit a role_. [Learn more](../buying-groups/buying-group-details.md#members-tab) |
 | Feature | In-CRM access to detail pages | You can now configure direct links to Journey Optimizer B2B Edition detail pages for accounts, contacts, and leads in your Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. [Learn more](../accounts/crm-linking.md) |
 | Feature | Custom CSS support for content design | You can now add your own custom CSS when you are authoring email and landing page content in the design space. [Learn more](../content/design-custom-css.md) |
-| Feature| Intent keyword mapping configuration | To activate and manage the Intent Detection model, you can now upload a spreasheet to define an intent data mapping category. [Learn more](../admin/intent-data.md) |
+| Feature| Intent keyword mapping configuration | To activate and manage the Intent Detection model, you can now upload a spreadsheet to define an intent data mapping category. [Learn more](../admin/intent-data.md) |
 | Enhancement | Simulate Content from email summary | You can now access the _Simulate Content_ tools from the email summary (details and properties) when you open an email from the Emails list. This access is in addition to the email design space. [Learn more](../content/email-simulate-content.md#display-the-email-preview) |
 | Enhancement | Total count display for roles templates list | The _[!UICONTROL Roles templates]_ list page is enhanced with the display of the total count next to the search bar. |
 
-The following capabilities are currently available only for a set of program participants (Beta):
+<!-- The following capabilities are currently available only for a set of program participants (Beta):
 
-**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. 
+**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
 
 ## 2025.5 release notes
 

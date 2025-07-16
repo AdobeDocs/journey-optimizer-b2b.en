@@ -106,7 +106,7 @@ Click **[!UICONTROL Save & close]** to save your form content design changes and
 
 ### Set the thank you page
 
-In th _[!UICONTROL Summary]_ panel on the right, scroll to the **[!UICONTROL Thank you page]** section and use the **[!UICONTROL Follow up with]** setting to define what happens when a visitor submits the form:
+In the _[!UICONTROL Summary]_ panel on the right, scroll to the **[!UICONTROL Thank you page]** section and use the **[!UICONTROL Follow up with]** setting to define what happens when a visitor submits the form:
 
 * **[!UICONTROL Stay on page]** - Choose this option to keep the visitor on the same page when the form is submitted.
 
