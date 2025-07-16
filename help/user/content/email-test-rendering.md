@@ -8,7 +8,11 @@ exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
 ---
 # Test email rendering with Litmus
 
-To test your emails, you can leverage a [Litmus account](https://www.litmus.com/email-testing){target="_blank"} into Journey Optimizer B2B Edition. With this integration, you can preview your email rendering in popular email clients. This tool helps you to ensure that your email content looks great and works as designed in every inbox.
+To test your emails, you can leverage a [Litmus](https://www.litmus.com/email-testing){target="_blank"} Enterprise account from Journey Optimizer B2B Edition. With this integration, you can preview your email rendering in popular email clients. This tool helps you to ensure that your email content looks great and works as designed in every inbox.
+
+>[!NOTE]
+>
+>This integration is available only for Litmus Enterprise accounts. For more information, refer to the [solution page on the Litmus website](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
 
 1. When your email design is complete and ready to be tested, click **[!UICONTROL Simulate content]** in the email design space.
 
