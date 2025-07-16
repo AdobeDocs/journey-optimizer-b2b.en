@@ -37,7 +37,7 @@ From the buying group details, actions also include _Assign a new member_, _Remo
 
 >[!TAB Custom CSS support]
 
-You can now add your own custom CSS when you are authoring email and landing page content in the design space. [Learn more](../content/design-custom-css.md) 
+You can now add your own custom CSS when you are authoring email and landing page content in the design space.
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Learn about using custom CSS"}
 
