@@ -48,7 +48,7 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Email testing with Litmus | With a [Litmus account](https://www.litmus.com/email-testing){target="_blank"}, you can now preview your email rendering in popular email clients from Journey Optimizer B2B Edition. This integration helps you to ensure that your email content looks great and works as designed in every email inbox. [Learn more](../content/email-test-rendering.md) |
+| Feature | Email testing with Litmus | With a [Litmus Enterprise account](https://www.litmus.com/email-testing){target="_blank"}, you can now preview your email rendering in popular email clients from Journey Optimizer B2B Edition. This integration helps you to ensure that your email content looks great and works as designed in every email inbox. [Learn more](../content/email-test-rendering.md) |
 | Enhancement | Duplicate email | When adding an email for a journey node, you can now duplicate an existing email. Modify the setting or content for the duplicated email, or leave it intact.  [Learn more](../content/add-email.md#add-an-email-to-your-journey) |
 | Enhancement | Handlebar token format for email| Personalization tokens for email content now use an updated format that is fully compatible with Handlebar scripting. This format uses _camel case_ or underscores, eliminating spaces. [Learn more](../content/email-authoring.md#content-authoring---personalization) |
 | Enhancement | Total count display for lists | The _[!UICONTROL Solution Interests]_ and _[!UICONTROL Account Journeys]_ list pages are enhanced with the display of the total count next to the search bar. |

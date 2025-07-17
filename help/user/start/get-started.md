@@ -27,6 +27,8 @@ Learn about access management in the following pages:
 
 1. **Work with your data engineer** to plan and implement your B2B audience and profile activation. Review the published blueprints and follow the guidelines according to your requirements. [Learn more](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
+1. **Plan and implement the Marketo Engage integration** to incorporate custom schema, ingestion of profiles and accounts, and the orchestration of personalized journeys for buying groups. [Learn more](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+
 1. **Set up the product profile**. A product profile is a set of unitary rights in Adobe Experience Platform that allow users access to certain functionalities or objects in the interface. [Learn more](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Set up user permissions** for product profiles, including sandboxes, and give access to your team members by assigning them to different product profiles. This task is performed in the Admin Console. [Learn more](../admin/user-management.md#create-a-user-group)
