@@ -24,6 +24,16 @@ After you [create a landing page](./landing-pages.md#create-a-landing-page), use
 
 {{$include /help/_includes/content-design-components.md}}
 
+### Add custom CSS
+
+You can add your own custom CSS directly within the landing page design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components such as images, buttons, and text.
+
+With at least one content component in the canvas, select the **[!UICONTROL Body]** component in the left navigation tree to access the custom CSS editor.
+
+![Access the body styles](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
+
 ### Add assets
 
 {{$include /help/_includes/content-design-assets.md}}
