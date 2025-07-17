@@ -4,6 +4,7 @@ description: Learn how Sales team members can access detailed pages for accounts
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
 ---
 # In-CRM access to detail pages
 

@@ -4,6 +4,7 @@ description: Learn how to check your email content spam scoring in a dedicated S
 feature: Email Authoring
 level: Beginner
 role: User
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
 ---
 # Review the spam report
 
@@ -34,6 +35,3 @@ When you review your email settings or edit the content, open the _[!UICONTROL S
 1. If there are some elements within the email content that can be improved, edit your content to apply the necessary updates.
 
 1. When your changes are complete, return to the _[!UICONTROL Simulate]_ page and  click **[!UICONTROL Spam report]** again to check for the resulting score improvements.
-
-
-

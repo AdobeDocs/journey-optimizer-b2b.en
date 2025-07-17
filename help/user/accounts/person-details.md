@@ -3,6 +3,7 @@ title: Person Details
 description: Learn about accessing detailed information and a generative AI summary for a person associated with an account or buying group in Journey Optimizer B2B Edition.
 feature: Account Insights
 role: User
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
 ---
 # Person details
 
