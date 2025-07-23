@@ -108,8 +108,6 @@ Buying group engagement score is a number to determine the engagement of the mem
 
 +++Activities used for scoring
 
->[!BEGINSHADEBOX]
-
 | Activity name | Description | Engagement type | Max daily frequency count | Activity weight |
 | --- | --- | --- | --- | --- |
 | [!UICONTROL Visit Webpage]| A member visits a web page | Web | 20 | 40 |
@@ -147,9 +145,6 @@ Buying group engagement score is a number to determine the engagement of the mem
 | [!UICONTROL Engaged with an Agent in Conversational Flow] | A member engages with an Agent in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
-
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >
