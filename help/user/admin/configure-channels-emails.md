@@ -45,11 +45,11 @@ To review the branding domains, click the **[!UICONTROL Branding domains]** tab.
 
 ![Access the branding domains settings](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-This setting defines your primary domain for one or more Marketo Engage workspaces. New emails use this domain as the default, but marketers can override it on a per-email basis. For more information, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+This setting defines your primary domain for one or more workspaces in the connected Marketo Engage instance. New emails use this domain as the default, but marketers can [override it on a per-email basis](../content/add-email.md#define-the-email-settings). For more information about defining the default branding domain, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->If you are marketing multiple brands out of Journey Optimizer B2B Edition and the connected Marketo Engage instance and want each to have its own branded tracking links, you can add an additional branding domain. For more information, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>If you are marketing multiple brands and want each to have its own branded tracking links, you can add an additional branding domain. For more information about adding multiple branding domains, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Custom header options] {#custom-header-options}
 
@@ -105,7 +105,7 @@ If you already have an SPF record in your DNS entry, add the following to it:
 
 DKIM is an authentication protocol that is used by email receivers to validate the sender of the email message. It often improves the deliverability of emails to the inbox because a receiver can be confident that the message is not a forgery. 
 
-With the public key in your DNS record and the sending domain activated in the connected Marketo Engage instance, custom DKIM signing is used for your outgoing messages. The custom DKIM signing includes an encrypted digital signature with each email that is sent. The receivers are then able to decrypt the digital signature by looking up the _public key_ in your sending domain's DNS. If the key in the email corresponds with the key in the DNS record, the receiving mail server is more likely to accept the email sent through Marketo Engage.
+When you have the public key in your DNS record and the sending domain activated in the connected Marketo Engage instance, custom DKIM signing is used for your outgoing messages. The custom DKIM signing includes an encrypted digital signature with each email that is sent. The receivers are then able to decrypt the digital signature by looking up the _public key_ in your sending domain's DNS. If the key in the email corresponds with the key in the DNS record, the receiving mail server is more likely to accept the email sent through Marketo Engage.
 
 For more information about configuring a custom DKIM signature for email delivery, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
 

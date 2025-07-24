@@ -7,7 +7,7 @@ exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
 ---
 # Emails
 
-When you [create emails](./add-email.md), you add them in the context of a journey node. If you want to work with email outside of the journey map, use the _[!UICONTROL Emails]_ list to locate and update the email. You can review emails or make updates to the settings and content.
+When you [create emails](./add-email.md), you add them in the context of a journey node. When you want to work with email content outside of the journey map, use the _[!UICONTROL Emails]_ list to locate and update the email. You can review emails or make updates to the settings and content.
 
 ## Access and manage emails
 
@@ -19,10 +19,12 @@ To search for an email by name, enter a text string in the search bar. Click the
 
 ![Access the email templates library and filter by name and dates](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## Edit emails
+## Open and edit emails
 
-Click the email name in th list to open it. You can review and change the [email settings](./add-email.md#define-the-email-settings). Click **[!UICONTROL Edit email content]** to make [updates to the content](./email-authoring.md). 
+Click the email name in the list to open it. You can review and change the [email settings](./add-email.md#define-the-email-settings). Click **[!UICONTROL Edit email content]** to make [updates to the content](./email-authoring.md). 
 
 If [alerts are displayed](./add-email.md#check-alerts) at the top-right of the page, click to review the warnings or errors and address the items as needed.
 
 ![Open the email to make updates](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+You can also access the [_[!UICONTROL Simulate content]_](./email-simulate-content.md) window. Use these tools to preview the content using a test profile, send proofs, and test the email for deliverability and email client rendering. 

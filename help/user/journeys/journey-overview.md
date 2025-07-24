@@ -1,6 +1,6 @@
 ---
 title: Account Journeys
-description: Learn about account journeys and how you can create and manage them.
+description: Get started with account journeys and learn how to use the Account Journeys list to manage them.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
@@ -24,11 +24,13 @@ To get started with account journeys:
 
 ## Access and browse account journeys
 
-On the left navigation, click **[!UICONTROL Account journeys]**.
+On the left navigation, expand **[!UICONTROL Account Management]** and click **[!UICONTROL Account journeys]**.
 
-![Access account journeys](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+Enter text in the  _Search_ tool at the top of the list to filter the displayed list by name. 
 
-The displayed journeys page includes the following columns:
+![Filter the account journeys list](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
+
+The _[!UICONTROL Account Journeys]_ list page includes the following columns:
 
 * [!UICONTROL Name] (click the name to open the journey for editing)
 * [!UICONTROL Status]
@@ -39,7 +41,7 @@ The displayed journeys page includes the following columns:
 * [!UICONTROL Published on]
 * [!UICONTROL Published by]
 
-Use the _Search_ tool at the top to locate the journey by name. You can sort the list by _[!UICONTROL Status]_ by clicking the column header.
+You can sort the list by _[!UICONTROL Status]_ by clicking the column header.
 
 You can customize the columns that are displayed in the table by clicking the _Customize table_ ( ![Customize table](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner. Select or clear the checkboxes in the dialog and click **[!UICONTROL Apply]**. 
 
@@ -54,18 +56,18 @@ Click the name (displayed as a link) in the _[!UICONTROL Account journeys]_ list
 The header of each account journey map includes: 
 
 * Journey name
-* Access to edit the journey name ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) _Edit_ icon)
+* Edit tool for the journey name ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) _Edit_ icon)
 * Status of the journey
 
 The status of a journey can change based on the actions that you apply. Based on the status of a journey, certain actions are/are not available from the right side of the header.
 
 | Status | Description | Available actions |
 | ------ | ----------- | ----------------- |
-| _**Draft**_ | An unpublished journey that is editable. |<ul><li>[Publish](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplicate </li><li>Delete </li></ul> |
-| _**Live**_ | Journey status changes from Draft to Live when a journey is published. In this state, it is no longer editable. | <ul><li>Duplicate </li><li>Close to new entries </li><li>Abort </li></ul> |
-| _**Closed to new entries**_ | The journey status changes from _Live_ to _Closed to new entries_ when you click [!UICONTROL Close to new entries] in the top navigation. | <ul><li>Duplicate </li><li>Abort </li></ul> |
-| _**Aborted**_ | Journey status changes from _Live_ or _Closed to new entries_ when you abort a journey. An aborted journey cannot be restarted. | <ul><li>Duplicate </li><li>Delete </li></ul> |
-| _**Finished**_ | When all accounts in a journey complete the journey, the status changes from Live or Closed to new entries to Finished.| <ul><li>Duplicate </li><li>Delete </li></ul> |
+| _**Draft**_ | An unpublished journey that is editable. |<li>[Publish](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicate](#duplicate-journey) <li>[Delete](#delete-journey) |
+| _**Live**_ | Journey status changes from Draft to Live when a journey is published. In this state, it is no longer editable. | <li>[Duplicate](#duplicate-journey)<li>[Close to new entries](#close-to-new-entries) <li>[Abort](#abort-journey) |
+| _**Closed to new entries**_ | The journey status changes from _Live_ to _Closed to new entries_ when you click [!UICONTROL Close to new entries] in the top navigation. | <li>[Duplicate](#duplicate-journey) <li>[Abort](#abort-journey) |
+| _**Aborted**_ | Journey status changes from _Live_ or _Closed to new entries_ when you abort a journey. An aborted journey cannot be restarted. | <li>[Duplicate](#duplicate-journey) <li>[Delete](#delete-journey)  |
+| _**Finished**_ | When all accounts in a journey complete the journey, the status changes from _Live_ or _Closed to new entries_ to _Finished_.| <li>[Duplicate](#duplicate-journey) <li>[Delete](#delete-journey) |
 
 ## Manage journeys
 
@@ -77,7 +79,7 @@ If you abort (stop) a live or scheduled journey, accounts in the journey immedia
 
 >[!IMPORTANT]
 >
->When the account journey is used in another journey from a _Take an action_ node with the _Add Account to (other) Journey_ action, aborting the journey blocks that action from that journey.
+>When the account journey is used in another journey from a _Take an action_ node with the _Add Account to (other) Journey_ action, aborting the journey blocks that action in that journey.
 
 1. Click the journey name to open it.
 

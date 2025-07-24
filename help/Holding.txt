@@ -1,0 +1,22 @@
+Content that is temporarily hidden/removed
+
+
+Conditional-content.md:
+
+Account
+
+| | [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | The account is or is not related to an opportunity. Can also be evaluated against one or more of the following opportunity attributes: <li>Amount<li>Close date<li>Description<li>Expected revenue<li>Fiscal quarter<li>Fiscal year<li>Forecast category<li>Forecast category name<li>Is closed<li>Is won</li><li>Last activity date</li><li>Person source<li>Name</li><li>Next step</li><li>Probability<li>Quantity<li>Stage</li><li>Type |
+
+Person
+
+| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li> |
+| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone</li><li>Email</li><li>Web</li>|
+| | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
+| | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more Marketo Engage programs. |
+|  [People](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Role in account attributes | The person is or is not assigned a role in the account. Optional constraints: <li>Enter a role name</li> | 
+
+split-merge-paths-nodes.md
+
+Account
+
+| [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | The account is or is not related to an opportunity. Can also be evaluated against one or more of the following opportunity attributes: <li>Amount<li>Close date<li>Description<li>Expected revenue<li>Fiscal quarter<li>Fiscal year<li>Forecast category<li>Forecast category name<li>Is closed<li>Is won <li>Last activity date <li>Person source<li>Name <li>Next step <li>Probability<li>Quantity<li>Stage <li>Type |

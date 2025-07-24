@@ -37,7 +37,6 @@ _How does a split path by accounts node work?_
 | --------------- | ----------- |
 | Account Attributes | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State |
 | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. Can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group status <li>Completeness Score <li>Engagement Score |
-| [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | The account is or is not related to an opportunity. Can also be evaluated against one or more of the following opportunity attributes: <li>Amount<li>Close date<li>Description<li>Expected revenue<li>Fiscal quarter<li>Fiscal year<li>Forecast category<li>Forecast category name<li>Is closed<li>Is won <li>Last activity date <li>Person source<li>Name <li>Next step <li>Probability<li>Quantity<li>Stage <li>Type |
 
 ### Add a split path by account node
 

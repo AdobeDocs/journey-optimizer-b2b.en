@@ -11,49 +11,47 @@ Here is a sampling of the latest additions and enhancements in the Journey Optim
 
 >[!BEGINTABS]
 
->[!TAB Account lists]
+>[!TAB GenStudio email experiences]
 
-Create an account list, which is a collection of named accounts that Marketers can use for targeted journey orchestration. An account list can target named accounts by your defined criteria, such as industry, location, or size of the company. 
+Integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition.
 
-[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Learn about account lists"}
+[!BADGE Learn more]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Learn about GenStudio email experiences"}
 
->[!TAB Account list filters for smart lists]
+>[!TAB Spam detection reporting]
 
-You can now filter Marketo Engage smart lists with account list filters. These filters allow you to suppress and include account list members across Marketo Engage campaigns and programs from account journeys within Journey Optimizer B2B Edition.
+With the new Spam reports, you can avoid spam filters and ensure that messages are delivered to audience inboxes. Generate a _Spam report_ directly in the email design space.
 
-[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Learn about account list filters used in Marketo Engage smart lists"}
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Learn about Spam detection reporting"}
 
->[!TAB Inactivity history filters]
+>[!TAB Account and buying group actions]
 
-Progress journeys based on inactivity within Marketo Engage campaigns and programs including email, interesting moments, data value changes and visited web pages.
+Take actions directly from account details and buying group details pages for timely and intentional engagement. 
 
-[!BADGE Learn more]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Learn about inactivity history filters"}
+Use the _Send email_ action to send an approved Marketo Engage email to selected account contacts or buying group members.
 
->[!TAB Journey duplication]
+[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Learn about sending emails to account contacts"}
+   
+From the buying group details, actions also include _Assign a new member_, _Remove a member_, and _Edit a role_.
 
-Duplicate your account journey structures to minimize manual errors and ensure consistent settings, flows, and paths. In the duplicated journey, you can adjust content or actions, making it easier to manage larger and more complex campaigns​.
+[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Learn about buying group actions"}
 
-[!BADGE Learn more]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="Learn about journey duplication"}
+>[!TAB Custom CSS support]
 
->[!TAB Intelligent insights dashboard]
+You can now add your own custom CSS when you are authoring email and landing page content in the design space.
 
-With the new Intelligent dashboard, you can see the progression of buying group qualification across stages. Know which buying groups are moving quickly and which are stagnant so that you can curate journeys to nurture them as needed. You also have details at the buying group and account level, which provides more context and historical data for customer engagement.
+[!BADGE Learn more]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Learn about using custom CSS"}
 
-[!BADGE Learn more]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="Learn about the Intelligent Dashboard"}
+>[!TAB Intent keyword mapping]
 
->[!TAB Adobe Express image editing]
+ To activate and manage the Intent Detection model, you can now upload a spreadsheet to define an intent data mapping category.
 
-Use the Adobe Express Quick Actions to touch up your content with cropping, resizing, background removal, and format conversion. The intuitive Adobe Express UI is built in so that you can quickly fine-tune your image assets.
+[!BADGE Learn more]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Learn about Intent keyword mapping configuration"}
 
-With Adobe Express Enterprise licensing, you can leverage a full suite of Adobe Express capabilities. Use these features to polish and enhance images, while sticking to brand guidelines, and remove roadblocks in the content supply chain.
+>[!TAB Email testing with Litmus]
 
-[!BADGE Learn more]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Learn about image editing with Adobe Express"}
+With a Litmus account, you can now preview your email rendering in popular email clients from Journey Optimizer B2B Edition. This integration helps you to ensure that your email content looks great and works as designed in every email inbox.
 
->[!TAB Fragment customizable fields]
-
-As a content designer, you can designate a parameter for a component in the fragment as editable. This configuration allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Learn about custom fields for content fragments"}
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Learn about the Litmus email testing integration"}
 
 >[!ENDTABS]
 
@@ -115,7 +113,7 @@ Discover the components of a buying group and understand the basics of building 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Journey content"><br/>
-      <strong>Journey content</strong><br/><a href="./content/add-email.md">Email channel</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/sales-alert-email.md">Sales alert email</a><br/><a href="./content/sms-authoring.md">SMS channel</a>
+      <strong>Journey content</strong><br/><a href="./content/add-email.md">Email channel</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio email experiences</a><br/><a href="./content/sales-alert-email.md">Sales alert email</a><br/><a href="./content/sms-authoring.md">SMS channel</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content management"><br/>

@@ -7,7 +7,7 @@ exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
 ---
 # Email template authoring
 
-After you [create an email template](./email-templates.md#create-an-email-template), use the visual designer to author the structural and content components in your email template. 
+After you [create an email template](./email-templates.md#create-an-email-template), use the visual design space to author the structural and content components in your email template. 
 
 ## Add structure and content {#structure-content}
 
@@ -22,6 +22,16 @@ After you [create an email template](./email-templates.md#create-an-email-templa
 >abstract="Content components are empty content placeholders that you can use to create the layout of a template."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Add custom CSS
+
+You can add your own custom CSS directly within the email template design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components such as images, buttons, and text.
+
+With at least one content component in the canvas, select the **[!UICONTROL Body]** component in the left navigation tree to access the custom CSS editor.
+
+![Access the body styles](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Add fragments
 
@@ -39,7 +49,7 @@ After the template is saved, it appears in the fragment details page when you se
 
 ### Personalize content
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### Edit linked URL tracking
 
@@ -47,7 +57,7 @@ After the template is saved, it appears in the fragment details page when you se
 
 ## View options
 
-Leverage the view and content validation options that are available in the visual designer.
+Leverage the view and content validation options that are available in the visual design space.
 
 * Zoom in/out on the content across preset zoom options.
 
@@ -57,11 +67,11 @@ Leverage the view and content validation options that are available in the visua
 
 ### More options
 
-From the _[!UICONTROL More ...]_ menu at the top of the email designer, you can take the following actions:
+From the _[!UICONTROL More ...]_ menu at the top of the email design space, you can take the following actions:
 
 ![Click More to access template actions](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Reset template]** - Click this option to clear the visual designer canvas to a blank slate and restart building content.
+* **[!UICONTROL Reset template]** - Click this option to clear the design canvas to a blank slate and restart building content.
 * **[!UICONTROL Save as fragment]** - Save all or portions of the template as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragment and save it to the list of available fragments. 
 * **[!UICONTROL Change your design]** - Return to the _Design your template_ page. From there, you can choose to design your template from scratch or use an existing template to restart the design process.
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.

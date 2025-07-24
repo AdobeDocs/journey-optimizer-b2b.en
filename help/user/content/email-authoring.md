@@ -9,9 +9,9 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 
 After you [add a new<!-- or duplicated --> email asset to a journey action node](./add-email.md), you can define the content for the email message. 
 
-Click **[!UICONTROL Add email content]** at the top of the _[!UICONTROL Email]_ preview panel.
+Click **[!UICONTROL Edit email content]** in the _[!UICONTROL Details]_ tab on the right panel.
 
-![Click Add email content ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Click Edit email content ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 This action launches the email design tools, where you can choose how you want to design your email from the following options:
 
@@ -20,8 +20,6 @@ This action launches the email design tools, where you can choose how you want t
 * [Import existing HTML content](#import-existing-html-content) from a file or a .zip folder.
 
 * [Select an existing template](#select-a-template) from a list of built-in or custom email templates.
-
-To configure and personalize the subject line with the expression editor, click the _Personalization_ icon and add any of the Marketo Engage tokens.
 
 After you create and personalize the email content, you can export the content for validation or for later use. Click **[!UICONTROL Export HTML]** to save the content as a .zip file that includes your HTML and assets.
 
@@ -41,22 +39,20 @@ After you create and personalize the email content, you can export the content f
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
 
-Use the visual content editor to define the structure of the email content. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
+Use the visual content design space to define the structure and content of the email. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
-
 1. [Add structure and content](#add-structure-and-content) to the email message.
 1. [Add image assets](#add-assets) to the email message.
 1. [Personalize the email content](#personalize-content).
 1. [Review and update links](#preview-and-edit-linked-urls).
+1. [Test the email](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-When your content is done, click **[!UICONTROL Simulate content]** at the top to check rendering. You can choose the desktop or mobile view.
 
 When you are satisfied with the content, click **[!UICONTROL Save]**.
 
@@ -94,6 +90,20 @@ You can personalize the imported content as needed with the visual email editor 
 
 {{$include /help/_includes/content-design-components.md}}
 
+### Add custom CSS
+
+You can add your own custom CSS directly within the email design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components such as images, buttons, and text.
+
+With at least one content component in the canvas, select the **[!UICONTROL Body]** component in the left navigation tree to access the custom CSS editor.
+
+>[!NOTE]
+>
+>If your email message is designed using a [template with locked content](./template-content-governance.md), you cannot add custom CSS to your content. The button label changes to **[!UICONTROL View custom CSS]** and any custom CSS already present in the content is read-only.
+
+![Access the body styles](./assets/email-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
+
 ### Add fragments
 
 {{$include /help/_includes/content-design-use-fragments.md}}
@@ -110,7 +120,7 @@ After the email is saved, it appears in the fragment details page when you selec
 
 ### Personalize content
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 >[!NOTE]
 >
@@ -130,7 +140,7 @@ Leverage the view and content validation options that are available in the visua
    * Click the _View_ icon for content preview across devices.
    * Select one of the out-of-the-box devices or enter custom dimensions to preview the content.
 
-### More options
+## More options
 
 From the _[!UICONTROL More ...]_ menu at the top of the email design space, you can take the following actions:
 
@@ -142,15 +152,21 @@ From the _[!UICONTROL More ...]_ menu at the top of the email design space, you 
 * **[!UICONTROL Save as content template]** - Save the email body as an email template to be reused across multiple emails or email templates. You provide a name and description for the template and save it to the list of saved email templates.
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
 
-## Check and test the email {#preview-test}
+## Check and test the email {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Check how your content is rendering"
 >abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
 
-When your message content is defined, you can use test profiles to preview it, send proofs, and control its rendering in popular desktop, mobile, and web-based clients. If you inserted personalized content, you can preview how this content is displayed in the message using test profile data.
+When your message content is defined, you can use test profiles to preview it, send proofs, and review its rendering in desktop and mobile aspect ratios. If you inserted personalized content, you can preview how this content is displayed in the message using test profile data.
 
-To preview the email content, click **[!UICONTROL Simulate content]** and then add a test profile to check your message using the test profile data.
+To [preview the email content](./email-simulate-content.md), click **[!UICONTROL Simulate content]** and select a test profile to check your message using the person profile data.
 
 ![Simulate the email content to check your design](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+You can access additional tools to validate and review the email content:
+
+* [Send a proof](./email-simulate-content.md#send-proofs)
+* [Test rendering in email clients](./email-test-rendering.md)
+<!-- * Generate a spam report -->

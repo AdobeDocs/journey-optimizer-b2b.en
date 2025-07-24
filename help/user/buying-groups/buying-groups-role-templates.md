@@ -19,7 +19,7 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
    ![Roles Templates tab](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   The tab provides an inventory list of all existing roles templates with the following columns:
+   The tab provides an inventory list of all existing roles templates and displays the following information in column format:
 
    * [!UICONTROL Name]
    * [!UICONTROL Status]
@@ -30,9 +30,7 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
    * [!UICONTROL Published on]
    * [!UICONTROL Published by]
 
-   The list is sorted by the _[!UICONTROL Last update]_ column by default.
-
-   The number of _live_ (published) roles templates is displayed at the top-right of the page. All roles templates have a status of `Draft` or `Live`.
+   The list is sorted by the _[!UICONTROL Last update]_ by default. All roles templates have a status of `Draft` or `Live`.
 
 1. To filter the list by name, use the search field at the top of the list.
 

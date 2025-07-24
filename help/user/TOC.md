@@ -10,7 +10,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Get started {#get-started}
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
     + [Login and home page](home-page.md)
-    + [Quick start guidance](./start/get-started.md)
+    + [Onboarding guidance](./start/get-started.md)
     + [Tracking and email protocols](./start/email-protocols.md)
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
@@ -33,6 +33,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Add an email](./content/add-email.md)
        + [Email authoring](./content/email-authoring.md)
        + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
+       + [GenStudio workflows](./content/genstudio-email-workflow.md)
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
@@ -44,18 +45,26 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Solution interests](./buying-groups/solution-interests.md)
        + [Role templates](./buying-groups/buying-groups-role-templates.md)
        + [Buying group stages](./buying-groups/buying-group-stages.md)
-       + [Buying group details](./buying-groups/buying-group-details.md)
        + [Create buying groups](./buying-groups/buying-groups-create.md)
        + [Export account list](./audiences/account-list-export.md)
        + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
-       + [Buying group filters in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+       + [Buying group filters in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
     + Account lists {#account-lists}    
        + [Overview](./accounts/account-lists.md)
        + [Use in journeys and programs](./accounts/account-lists-journeys.md)
-    + [Account details](./accounts/account-details.md)
     + [XDM fields](./data/field-mapping.md)
+    + Sales experience {#sales-experience}
+      + [Account details](./accounts/account-details.md)
+      + [Buying group details](./buying-groups/buying-group-details.md)
+      + [Person details](./accounts/person-details.md)
+      + [CRM linking](./accounts/crm-linking.md)
 + Content management {#content-management}
-   + [Emails](./content/emails-list.md)
+   + Emails {#emails}
+      + [Work with email content](./content/emails-list.md)
+      + Preview and validation {#preview}
+         + [Simulate content](./content/email-simulate-content.md)
+         + [Test email rendering](./content/email-test-rendering.md)
+         + [Spam report](./content/email-spam-report.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
       + Marketo Engage assets {#marketo-engage-dam}
@@ -80,6 +89,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/landing-pages.md)       
       + [Landing page design](./content/landing-page-design.md)
    + [Conditional content](./content/conditional-content.md)
+   + [Custom CSS](./content/design-custom-css.md)
 + Insights dashboards {#dashboards}
     + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)
