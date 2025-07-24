@@ -2,7 +2,7 @@
 title: Use Brands for Content Generation and Consistency
 description: Learn about brand guidelines that you can define in Journey Optimizer B2B Edition to generate and optimize your content according to your brand styles and voice.
 badge: label="Beta" type="Informative"
-topic: Content, Brand Identity
+feature: Content, Brand Identity
 hide: yes
 hidefromtoc: yes
 role: User

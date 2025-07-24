@@ -2,7 +2,7 @@
 title: Create Brands for Content Generation and Consistency
 description: Learn how to create and customize your own brands to generate and optimize content that matches your brand style and voice.
 badge: label="Beta" type="Informative"
-topic: Content, Brand Identity
+feature: Content, Brand Identity
 hide: yes
 hidefromtoc: yes
 role: User

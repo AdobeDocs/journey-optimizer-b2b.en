@@ -2,7 +2,7 @@
 title: Brand alignment scoring
 description: Learn how to create, validate, and manage on-brand content using a brand alignment score.
 badge: label="Beta" type="Informative"
-topic: Content, Brand Identity
+feature: Content, Brand Identity
 hide: yes
 hidefromtoc: yes
 role: User
