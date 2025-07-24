@@ -78,7 +78,7 @@ Product administrators can enable access to the brand management and brand align
    >
    >The **[!UICONTROL Enable Ai assistant]** permission provides read-only access to the **[!UICONTROL Brands]** library.
 
-    ![Add AI Assitant permission for brands access](../admin/assets/brands-permission.png){zoomable="yes"}
+    ![Add AI Assitant permission for brands access](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]** to apply the changes.
 
