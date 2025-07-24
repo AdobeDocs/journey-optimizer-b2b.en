@@ -51,11 +51,11 @@ When your brand is well-defined and published, assess your brand alignment score
 
 1. After you create the email content, click the _Brand alignment_ ( ![Brand alignment icon](../assets/do-not-localize/icon-brand-compliance.svg) ) icon on the right to open the _Brand alignment_ right panel in the email design space.
 
-  The [default brand](./brands-manage-create.md#default-brand) is automatically selected.
+   The [default brand](./brands-manage-create.md#default-brand) is automatically selected.
 
-  ![Access the Brand alignment tools](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+   ![Access the Brand alignment tools](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-  You can click the _Full screen_ ( ![Full screen icon](../assets/do-not-localize/icon-full-screen.svg) ) icon at the top of the panel to display the brand alignment tools in full-screen mode.
+   You can click the _Full screen_ ( ![Full screen icon](../assets/do-not-localize/icon-full-screen.svg) ) icon at the top of the panel to display the brand alignment tools in full-screen mode.
 
 1. If needed, click the **[!UICONTROL Brand]** menu arrow ( ![Down arrow](../assets/do-not-localize/icon-down-menu.svg) ) to choose another published brand.
 
