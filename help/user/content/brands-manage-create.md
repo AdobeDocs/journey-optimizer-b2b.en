@@ -115,11 +115,11 @@ To create and define your brand guidelines, you can either enter the details or 
 
 1. In each details tab, review the categories and improve the brand by adding, removing, and changing your definitions.
 
-   A sub-section in a category labeled **[!UICONTROL Do's]** outlines the guidelines. Use this area to add descriptions for guidelines and examples of the guidelines.
+   A sub-section labeled **[!UICONTROL Do's]** outlines the guidelines for the category. Use this area to add guideline descriptions and examples of the guidelines.
 
    ![Defined guideline with examples](./assets/brands-guidelines-examples.png){width="500" zoomable="yes"}
 
-   A sub-section labeled **[!UICONTROL Don'ts]** outlines the exclusions. Use this area to add descriptions for exclusions and examples of the exclusions.
+   A sub-section labeled **[!UICONTROL Don'ts]** outlines the exclusions. Use this area to add exclusion descriptions and examples of the exclusions.
 
    ![Defined exclusions with examples](./assets/brands-exclusions-examples.png){width="500" zoomable="yes"}
 
@@ -131,7 +131,7 @@ To create and define your brand guidelines, you can either enter the details or 
 
    * **Change a guideline or exclusion**.
    
-    In the section where you want to remove a guideline, click the guideline widget. In the popup dialog, change the content for the guideline and the selected checkboxes as needed. Then, click **[!UICONTROL Update]**.
+     In the section where you want to remove a guideline, click the guideline widget. In the popup dialog, change the content for the guideline and the selected checkboxes as needed. Then, click **[!UICONTROL Update]**.
 
       ![Change a guideline](./assets/brands-guideline-update.png){width="600" zoomable="yes"}
    
@@ -272,7 +272,7 @@ The _[!UICONTROL Visual content]_ definitions outline the standards for imagery 
 
 Select the **[!UICONTROL Visual content]** tab, and review each category.
 
-![Visual content tab](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
+![Visual content tab](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
 
 | Category               | Guidelines example  | Exclusions example  |
 |------------------------|---------------------|---------------------|
