@@ -14,6 +14,8 @@ In Journey Optimizer B2B Edition, an account list is a collection of named accou
 
 When an account list is in a _Live_ (published) state, it is available for [use in account journeys and Marketo Engage programs](./account-lists-journeys.md).
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video)
+
 >[!NOTE]
 >
 >Account lists leverage account data from Marketo Engage to create account segments and lists. This means that if an account segment from Adobe Experience Platform is not actively synced to Marketo Engage, accounts in that Experience Platform segment may not be available in Journey Optimizer B2B Edition account lists. Subsequently, any people from accounts in Experience Plafrom segments that are not synced to Marketo Engage may not be included in person membership counts or counted in trigger events.
@@ -169,3 +171,7 @@ You can proceed to publish a dynamic account list as soon as the filter set is c
 The status of the dynamic account list changes to _[!UICONTROL Live]_ and it is available for [use in an account journey](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
+
+## Overview video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
