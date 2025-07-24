@@ -69,10 +69,10 @@ When your brand is well-defined and published, assess your brand alignment score
 
 The score is calculated according to identified violations in the evaluated email content:
 
-   * 100 = Perfect - No violations found
-   * 80-99 = Good - Minor violations only
-   * 60-79 = Fair - Some significant violations
-   * Below 60 = Poor - Major violations need attention
+* 100 = Perfect - No violations found
+* 80-99 = Good - Minor violations only
+* 60-79 = Fair - Some significant violations
+* Below 60 = Poor - Major violations need attention
 
 You can review the evaluation results in more detail to help you identify violations and improve your category alignment scores (_High_, _Medium_, and _Low_) and review the details. For the **[!UICONTROL Writing style]** or **[!UICONTROL Visual content]**, click the _Expand_ ( ![Expand arrow](../assets/do-not-localize/icon-expand-right.svg) ) arrow to display the details for the evaluation.
 
