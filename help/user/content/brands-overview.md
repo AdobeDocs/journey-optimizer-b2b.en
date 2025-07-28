@@ -7,6 +7,7 @@ hide: yes
 hidefromtoc: yes
 role: User
 level: Beginner, Intermediate
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
 ---
 # Use brands for content generation and consistency {#brands}
 
@@ -93,4 +94,3 @@ Product administrators can enable access to the brand management and brand align
    * Click **[!UICONTROL Save]** to apply the changes.
 
 >[!ENDSHADEBOX]
-

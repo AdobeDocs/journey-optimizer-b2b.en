@@ -7,6 +7,7 @@ hide: yes
 hidefromtoc: yes
 role: User
 level: Beginner, Intermediate
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 ---
 # Brand alignment scoring {#brand-score}
 
