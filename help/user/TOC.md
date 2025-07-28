@@ -82,12 +82,16 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Fragments {#visual-fragments}
       + [Overview](./content/fragments.md)
       + [Fragment authoring](./content/fragment-authoring.md)
-   + Forms {#forms}      
+   + Forms (Beta) {#forms}      
       + [Overview](./content/forms.md)
       + [Form design](./content/form-design.md)
-   + Landing pages {#landing-pages}
+   + Landing pages (Beta) {#landing-pages}
       + [Overview](./content/landing-pages.md)       
       + [Landing page design](./content/landing-page-design.md)
+   + Brands (Beta) {#brands}
+      + [Overview](./content/brands-overview.md)
+      + [Manage and create](./content/brands-manage-create.md)
+      + [Brand alignment](./content/brand-alignment.md) 
    + [Conditional content](./content/conditional-content.md)
    + [Custom CSS](./content/design-custom-css.md)
 + Insights dashboards {#dashboards}
