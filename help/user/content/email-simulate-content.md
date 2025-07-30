@@ -6,7 +6,12 @@ level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 ---
-# Preview and test your email content
+# Preview and test your email content {#preview-simulate}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_email_preview_simulate"
+>title="Check how your content is rendering"
+>abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
 
 Use the _Simulate content_ feature to preview the email content and send test deliveries to specific recipients. The required email fields must be defined, including _[!UICONTROL From name]_, _[!UICONTROL From address]_, _[!UICONTROL Reply-to address]_ and _[!UICONTROL Subject line]_, to access the preview and testing features.
 
