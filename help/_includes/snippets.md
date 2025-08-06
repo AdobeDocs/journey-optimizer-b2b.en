@@ -85,6 +85,12 @@ Expand the **[!UICONTROL Alignment]** section and choose the horizontal alignmen
 
 ![Horizontal alignment styles](../assets/content-design-shared/content-components-styles-alignment.png){width="250"}
 
+## Content components - alignment styles vertical {#styles-alignment-v}
+
+Expand the **[!UICONTROL Alignment]** section and choose the vertical alignment that you want to use: top, middle, or bottom. This style translates to a standard `vertical-align` CSS style and affects positioning within the containing component.
+
+![Vertcal alignment styles](../assets/content-design-shared/content-components-styles-alignment-v.png){width="250"}
+
 ## Content components - alignment styles horizontal and vertical {#styles-alignment-h-v}
 
 Expand the **[!UICONTROL Alignment]** section and choose the horizontal and vertical alignment that you want to use. The alignment styles affect how the HTML component is positioned within the containing component (structural or container).
@@ -95,7 +101,7 @@ The horizontal alignment translates to a standard `text-align` CSS style and you
 
 ## Content components - background styles {#styles-background}
 
-With the _[!UICONTROL Styles]_ tab selected in the right panel, use the **[!UICONTROL Background]** section to define the background color or the component.
+With the _[!UICONTROL Styles]_ tab selected in the right panel, use the **[!UICONTROL Background]** section to define the background color for the component.
 
 Select the checkbox and click the color square to choose a color from the picker. You can choose a color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, you can use the color slider and the color field to select the color.
 

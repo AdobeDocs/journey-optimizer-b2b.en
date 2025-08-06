@@ -41,7 +41,7 @@ Currently, you can use only images from Adobe Experience Manager Assets in Adobe
 
 Use assets as you author your emails, email templates, and visual fragments. The visual content editor provides access to the images in your connected asset repositories. If you have a subscription for Experience Manager Assets as a Cloud Service along with the default Adobe Marketo Engage Design Studio, you can choose image assets from either source. You can also upload an image asset, which places it in the Journey Optimizer B2B Edition workspace of the connected Marketo Engage Design Studio repository.
 
-You can choose the image source when you edit the settings for an image component or directly on the canvas.
+You can choose the image source when you edit the settings for an image component or directly on the canvas:
 
 * **_Image component settings_** - When you have an image component selected in the visual designer, you can view and edit the settings in the right panel. To add or change the image file displayed in the component, choose the source type and select an image file.
 
@@ -55,7 +55,7 @@ You can choose the image source when you edit the settings for an image componen
 
    ![Use the toolbar to choose a source to select an image file for the image component](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-You can add an image asset as you author your content, depending on the image asset source.
+You can add an image asset as you author your content, depending on the image asset source. You can also choose an image asset in the background settings for a structure component.
 
 >[!BEGINTABS]
 

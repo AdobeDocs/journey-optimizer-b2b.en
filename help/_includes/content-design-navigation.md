@@ -4,11 +4,11 @@ description: Reused section about using the navigation tree for content authorin
 ---
 # Content authoring - navigation
 
-As you work with the content in the visual designer, you can access the layers/containers and elements using the _Navigation_ tree. Click the _Navigation_ icon to display the tree to the left of the canvas.
+As you work with the content in the visual design space, you can access the components, columns, and content elements using the navigation tree. Click the _[!UICONTROL Navigation tree]_ icon ( ![Navigation tree icon](../assets/do-not-localize/icon-navigation-tree.svg) ) on the left to display the tree.
 
 ![Access the content layers](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-The following example outlines steps to adjust padding and vertical alignment inside a structure component composed of columns.
+The following example outlines steps to adjust padding and vertical alignment inside a structure component with columns.
 
 1. Select the column in the structure component directly in the canvas or using the _Navigation tree_ displayed at the left.
 

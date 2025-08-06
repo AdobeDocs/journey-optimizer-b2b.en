@@ -91,8 +91,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Content design tools {#content-design}
       + [Strucure components](./content/structure-components.md)
       + [Content components](./content/content-components.md)
-      + [Conditional content](./content/conditional-content.md)
       + [Custom CSS](./content/design-custom-css.md)
+   + [Conditional content](./content/conditional-content.md)
 + Insights dashboards {#dashboards}
     + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)

@@ -43,11 +43,11 @@ The **[!UICONTROL Contents]** section at the bottom of the Components library di
 | ![Social icon](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Add this component to your design to insert links to social media pages. |
 | ![Form icon](../../assets/do-not-localize/icon-content-component-form.svg) | [Form](#form) | **_Available for landing pages only._** Add this component to your design to insert a created form. |
 
-## Component toolbars
+## Content component toolbars
 
 Each content component type displays a toolbar when you select it in the canvas. The available tools, which vary by the component type, provide an easy way to work with the component directly in the rendered content. It includes formatting and functional capabilities that are applicable for the component type.
 
-![Component toolbar](../assets/do-not-localize/toolbar-content.png){width="450"}
+![Content component toolbar](../assets/do-not-localize/toolbar-content.png){width="450"}
 
 ### Formatting tools
 
@@ -61,7 +61,7 @@ Each content component type displays a toolbar when you select it in the canvas.
     </tr>
     <tr>
         <td><img width="120px" src="../assets/do-not-localize/toolbar-button-text-styles.png" alt="Change text style tool"></td>
-        <td>Apply bold, italic, underline, or strike-through, superscript, or subscript to a selected text string.</td>
+        <td>Apply bold, italic, underline, or strike-through, superscript, or subscript to the selected text string.</td>
         <td><li>Button <li>Text</td>
     </tr>
 </table>
@@ -78,7 +78,7 @@ Each content component type displays a toolbar when you select it in the canvas.
     </tr>
     <tr>
         <td><img width="120px" src="../assets/do-not-localize/toolbar-button-horizontal-alignment.png" alt="Horizontal alignment tool"></td>
-        <td>Apply a horizontal alignment to the component content.</td>
+        <td>Apply a horizontal alignment type to the component content. Choose left, centered, right or justified. </td>
         <td><li>Button <li>Text</td>
     </tr>
 </table>
@@ -95,8 +95,8 @@ Each content component type displays a toolbar when you select it in the canvas.
     </tr>
     <tr>
         <td><img width="120px" src="../assets/do-not-localize/toolbar-button-create-list.png" alt="Create list tool"></td>
-        <td>Apply ordered or unordered list formatting to the component text, or a selected text excerpt.</td>
-        <td><li>Button <li>Text</td>
+        <td>Apply ordered or unordered list formatting to the component text.</td>
+        <td><li>Text</td>
     </tr>
 </table>
 
@@ -146,7 +146,7 @@ Each content component type displays a toolbar when you select it in the canvas.
     </tr>
     <tr>
         <td><img width="160px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Font color tool"></td>
-        <td>Apply font color to the selected text.</td>
+        <td>Apply font color to the selected text. Choose a color from the picker and use the color slider and the color field to select the color. Or, you can enter a known RGB, HSL, HSB, or hexadecimal value. </td>
         <td><li>Button <li>Text</td>
     </tr>
 </table>
@@ -191,9 +191,9 @@ Each content component type displays a toolbar when you select it in the canvas.
 
 | Tool | Name | Usage | 
 | ---- | ---- | ----- |
-| ![Add personalization](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Add personalization|  Use the personalization editor to insert personalization tokens in the component content. |
-| ![Show the source code](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Show the source code| Display the HTML source code for the component. |
-| ![Enable conditional content](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Enable conditional content | Enable conditional variants for the component. |
+| ![Add personalization](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Add personalization|  Use the personalization editor to insert personalization tokens in the component content. [Learn more](./email-authoring.md#personalize-content) |
+| ![Show the source code](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Show the source code| Display the HTML source code for the component in a read-only popup. <br/>![Show HTML code](./assets/content-components-show-source-code.png){width="200"} |
+| ![Enable conditional content](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Enable conditional content | Enable conditional variants for the component. [Learn more](./conditional-content.md) |
 | ![Duplicate](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Duplicate | Create a copy of the component and add it directly below. |
 | ![Delete](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Delete | Remove the component. |
 
@@ -567,7 +567,7 @@ Choose the [asset source type](./assets-overview.md) and select an image file:
 
    In the _[!UICONTROL Upload image]_ dialog, drag and drop a file from your system to the file box. The maximum file size is 100 MB.
 
-   ![Import an image file to the](./assets/assets-add-dialog.png){width="500"}
+   ![Import an image file to the](./assets/email-designer-image-upload.png){width="450"}
 
    The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists, a message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`). 
 
@@ -667,11 +667,11 @@ Use the _Social_ component to insert links to social media pages into your conte
 
 With a social media type selected, set the options for that type:
 
-   * **[!UICONTROL URL]** - Enter the social media URL that you want to link to the social media graphic or icon. 
-   * **[!UICONTROL Source]** - If you want to use your own image instead of the default, choose and image asset. You can select an image from the connected Marketo Engage asset repository, an Experience Manager Assets repository (if configured), or import an image file from your system. Refer to the [Image component information](#add-the-image-asset) for details about selecting and importing image assets.
-   * **[!UICONTROL Alt text]** - Enter the alt text for the displayed image.
+* **[!UICONTROL URL]** - Enter the social media URL that you want to link to the social media graphic or icon. 
+* **[!UICONTROL Source]** - If you want to use your own image instead of the default, choose and image asset. You can select an image from the connected Marketo Engage asset repository, an Experience Manager Assets repository (if configured), or import an image file from your system. Refer to the [Image component information](#add-the-image-asset) for details about selecting and importing image assets.
+* **[!UICONTROL Alt text]** - Enter the alt text for the displayed image.
 
-      ![Settings for the selected social media type](./assets/content-components-social-settings-for-type.png){width="250"}
+   ![Settings for the selected social media type](./assets/content-components-social-settings-for-type.png){width="250"}
 
 To define a consistent display size for all social media graphics, set the **[!UICONTROL Size of images]**.
 
