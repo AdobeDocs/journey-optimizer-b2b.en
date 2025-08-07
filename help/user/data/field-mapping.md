@@ -23,7 +23,10 @@ Account audience data is stored as attributes in both XDM Business Account and X
 
 >[!IMPORTANT]
 >
->The `workEmail.Address` attribute is required. If it is empty for an account audience member, that person is not ingested and is omitted from account journeys and buying groups that reference the audience. 
+>The email address attribute is required and must be populated for proper functionality. By default, the system uses `workEmail.Address`. If you intend to use a different attribute, contact Adobe Support before publishing any journeys to ensure proper configuration.<br/>
+>
+>Ensure that the email attribute is not null, as this can impact data sync and downstream processes.
+><ul><li>If the email attribute is null in Real-time CDP B2B and the person exists in Journey Optimizer B2B Edition, the attribute in is overwritten in Journey Optimizer B2B Edition with a null value during sync. It subsequently persists in Marketo Engage as null.<li>If the email attribute is null in Real-time CDP B2B and the person does not exist in Journey Optimizer B2B Edition, the person record is not synched.<ul/>
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
