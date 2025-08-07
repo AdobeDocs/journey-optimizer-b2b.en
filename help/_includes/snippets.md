@@ -204,3 +204,55 @@ On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!U
 * **[!UICONTROL Font color]** - Click the color square to choose a font color from the picker. You can choose a color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, you can use the color slider and the color field to select the color.
 
    ![Font color picker](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
+
+## Content - image selection - Marketo DAM {#me-dam}
+
+Choose this type to browse and select an image asset from the Journey Optimizer B2B Edition library or from the connected Market Engage instance. 
+
+![Browse the available image assets](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+
+From the dialog, you can choose an image from the selected repository and workspace. Click **[!UICONTROL Select]** to add the asset.
+
+There are tools available to help you locate the asset that you need: 
+
+* Click the _Filter_ icon on the top left to filter the displayed items according to your criteria.
+
+* Enter text in the _Search_ field to filter the displayed items for a match of the asset name.
+
+   ![Use the filters and search field to find the asset that you need](../user/content/assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+
+## Content - image selection - AEM Assets {#aem-assets-dam}
+
+Choose this type to browse and select an image asset from a [configured Experience Manage Assets repository](../user/admin/configure-aem-repositories.md). 
+
+From the _[!UICONTROL Select Assets]_ dialog, choose an image using the available tools to locate the asset that you need and click **[!UICONTROL Select]**.:
+
+* Change the **[!UICONTROL Repository]** at the top right.
+
+* Click **[!UICONTROL Manage assets]** at the top right to open the Assets repository in another browser tab and use AEM Assets management tools.
+
+* Click the _View type_ selector at the top right to change the display to **[!UICONTROL List View]**, **[!UICONTROL Grid View]**, **[!UICONTROL Gallery View]**, or **[!UICONTROL Waterfall View]**.
+
+* Click the _Sort order_ icon to change the sort order between ascending and descending.
+
+   ![Use tools in the Select Assets dialog to find and select an image asset](../user/content/assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+
+* Click the **[!UICONTROL Sort by]** menu arrow to change the sort criteria to **[!UICONTROL Name]**, **[!UICONTROL Size]**, or **[!UICONTROL Modified]**.
+
+* Click the _Filter_ icon on the top left to filter the displayed items according to your criteria.
+
+* Enter text in the _Search_ field to filter the displayed items for a match of the asset name.
+   
+   ![Use the filters and search field to locate the asset](../user/content/assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
+
+## Content - image upload {#image-upload}
+
+Choose this type to select a file from your system and import it into the Journey Optimizer B2B Edition asset library.
+
+In the _[!UICONTROL Upload image]_ dialog, drag and drop a file from your system to the file box. The maximum file size is 100 MB.
+   
+![Import an image file to the](../user/content/assets/email-designer-image-upload.png){width="450"}
+
+The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists, a message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`). 
+
+Click **[!UICONTROL Import]**.

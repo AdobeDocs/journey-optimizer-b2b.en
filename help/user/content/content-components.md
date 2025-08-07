@@ -725,7 +725,7 @@ You can set the following style options for the _Social_ component:
 
 Use the _Form_ component to add a published form to a landing page or landing page template. For more information about creating and publishing forms, see [Forms](./forms.md).
 
-1. Click the _Form_ icon in the component toolbar, or use the **[!UICONTROL Embed Form]** properties on the right to select the published form. 
+1. Click the _Form_ tool in the component toolbar, or use the **[!UICONTROL Embed Form]** properties on the right to select the published form. 
 
    ![Select the published form](../../assets/content-design-shared/content-design-add-form-properties.png){width="600"}
 
@@ -745,6 +745,6 @@ Use the _Form_ component to add a published form to a landing page or landing pa
     
      ![Change the follow-up setting](../../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"} 
 
-If needed, select the **[!UICONTROL Styles]** tab in the right panel to set the form margins within the page.
+If needed, select the **[!UICONTROL Styles]** tab in the right panel to set the form margins within the structure component.
 
 {{styles-margin}}

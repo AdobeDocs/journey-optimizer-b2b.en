@@ -26,31 +26,31 @@ role: User
 >title="About Structure components"
 >abstract="Structure components are layout elements that you can use to design the structure of a template."
 
-Use the _Structure components_ in the design space to define the structure of your contents. By adding and moving structural elements with simple drag-and-drop actions, you can quickly define the shape of your content layout. Each structure component spans the horizontal space. Stack them to build the layout vertically, and you can divide each component into columns and control the width to form each content block that you need.
+Use the _Structure components_ in the visual design space to define the structure of your content. By adding and moving structural elements with simple drag-and-drop actions, you can quickly define the shape of your content layout. Each structure component spans the horizontal space and you can stack them to build the layout vertically. Divide each component into columns to form each content block that you need.
 
 ## Structure library
 
-The **[!UICONTROL Structure]** section at the top of the Components library displays the available structure components:
+At the top of the _[!UICONTROL Components]_ library, the **[!UICONTROL Structures]** section displays the available structure components:
 
 | Icon  | Component.  | Description | 
 | ----- | ----------- | ----------- |
-| ![1:1 column icon](../assets/do-not-localize/icon-design-structure-1-1.png) | 1:1 column |  A single column container that fills the width of the space. |
-| ![1:2 column icon](../assets/do-not-localize/icon-design-structure-1-2.png) | 1:2 column Left | A two-column container that uses a 1:2 ratio to fill the width of the space. The first (left) column occupies a third of the width and the second (right) occupies the remaining two-thirds. |
-| ![1:3 column icon](../assets/do-not-localize/icon-design-structure-1-3.png) | 1:3 column Left | A two-column container that uses a 1:3 ratio to fill the width of the space. The first (left) column occupies a fourth of the width and the second (right) occupies the remaining three-fourths. |
-| ![2:1 column icon](../assets/do-not-localize/icon-design-structure-2-1.png) | 2:1 column Right | A two-column container that uses a 2:1 ratio to fill the width of the space. The first (left) column occupies a two-thirds of the width and the second (right) occupies the remaining one-third. |
-| ![2:2 column icon](../assets/do-not-localize/icon-design-structure-2-2.png) | 2:2 column | A two-column container that uses a 2:2 ratio to fill the width of the space. The left and right columns are equal in width. |
-| ![3:1 column icon](../assets/do-not-localize/icon-design-structure-3-1.png) | 3:1 column Right | A two-column container that uses a 3:1 ratio to fill the width of the space. The first (left) column occupies a three-fourths (75%) of the width and the second (right) occupies the remaining one-fourth (25%). |
-| ![3:3 column icon](../assets/do-not-localize/icon-design-structure-3-3.png) | 3:3 column | A three-column container that uses a 3:3 ratio to fill the width of the space. All three columns are equal in width. |
-| ![4:4 column icon](../assets/do-not-localize/icon-design-structure-4-4.png) | 4:4 column | A four-column container that uses a 4:4 ratio to fill the width of the space. All four columns are equal in width. |
-| ![n:n column icon](../assets/do-not-localize/icon-design-structure-n-n.png) | n:n column | A customizable column structure that fills the space according to the columns that you define. You set the number of columns (between two and ten) and set the width of each column individually. |
+| ![1:1 column icon](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 column] |  A single column container that fills the width of the space. |
+| ![1:2 column icon](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 column Left] | A two-column container that uses a 1:2 ratio to fill the width of the space. The first (left) column occupies a third of the width and the second (right) occupies the remaining two-thirds. |
+| ![1:3 column icon](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 column Left] | A two-column container that uses a 1:3 ratio to fill the width of the space. The first (left) column occupies a fourth of the width and the second (right) occupies the remaining three-fourths. |
+| ![2:1 column icon](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 column Right] | A two-column container that uses a 2:1 ratio to fill the width of the space. The first (left) column occupies a two-thirds of the width and the second (right) occupies the remaining one-third. |
+| ![2:2 column icon](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 column] | A two-column container that uses a 2:2 ratio to fill the width of the space. The left and right columns are equal in width. |
+| ![3:1 column icon](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 column Right] | A two-column container that uses a 3:1 ratio to fill the width of the space. The first (left) column occupies a three-fourths (75%) of the width and the second (right) occupies the remaining one-fourth (25%). |
+| ![3:3 column icon](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 column] | A three-column container that uses a 3:3 ratio to fill the width of the space. All three columns are equal in width. |
+| ![4:4 column icon](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 column] | A four-column container that uses a 4:4 ratio to fill the width of the space. All four columns are equal in width. |
+| ![n:n column icon](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n column] | A customizable column structure that fills the space according to the columns that you define. You set the number of columns (between two and ten) and set the width of each column individually. [Learn more](#change-nn-columns) |
 
 ## Add structure components
 
-When you design the content for your email, landing page, or fragment, add each structure component to construct the design layout. Drag an item from the **[!UICONTROL Structures]** section on the left of the design space and drop it onto the canvas. You can use the toolbar to change the select a column. Use the _Settings_ and _Styles_ tabs on the right panel to define the parameters for the selected component or column.
+When you design the content for your email, landing page, or fragment, add each structure component to construct the layout. Drag an item from the **[!UICONTROL Structures]** section on the left and drop it onto the canvas. You can use the toolbar to select a column and use the _Settings_ and _Styles_ tabs on the right panel to define the parameters for the selected component or column.
 
 ![Drag a structure onto the canvas](../../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
 
-### Toolbar
+### Component toolbar
 
 The toolbar is displayed in the canvas when you select it in the canvas. The available tools provide an easy way to select a column and apply component functions.
 
@@ -63,7 +63,7 @@ The toolbar is displayed in the canvas when you select it in the canvas. The ava
 | ![Duplicate](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Duplicate | Create a copy of the component and add it directly below. |
 | ![Delete](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Delete | Remove the component. |
 
-### Settings
+### Component settings
 
 After you add a component, it is selected in the visual design space and its properties are displayed in the right panel. The _[!UICONTROL Settings]_ tab is displayed by default. You can also select a structure component at any time to change the settings.
 
@@ -92,7 +92,7 @@ For smaller screens or display windows, the columns in the structure component d
 
 ![Do not stack columns on mobile ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
-## Styles
+## Component styles
 
 After you add a component, it is selected in the visual design space and its properties are displayed in the right panel. You can also select a component at any time to change the settings and styles.
 
@@ -102,7 +102,7 @@ With the _[!UICONTROL Styles]_ tab selected in the right panel, use the **[!UICO
 
 #### [!UICONTROL Background color]
 
-Select the checkbox and click the color square to choose a color from the picker. You can choose a color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, you can use the color slider and the color field to select the color.
+Select the checkbox and click the color square to choose a color from the picker. You can choose a color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, use the color slider and the color field to select the color.
 
 ![Background color picker](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
@@ -112,73 +112,33 @@ Move the toggle selector to enable the background image settings.
 
 ![Background image settings](./assets/structure-components-background-image-settings.png){width="250"}
 
-Choose the [asset source type](./assets-overview.md) and select an image file:
+Choose the [asset source type](./assets-overview.md) and select the image file:
 
 +++[!UICONTROL Marketo Engage Assets]
 
-Choose this type to browse and select an image asset from the Journey Optimizer B2B Edition library or from the connected Market Engage instance. 
-
-![Browse the available image assets](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
-
-From the dialog, you can choose an image from the selected repository and workspace. Click **[!UICONTROL Select]** to add the asset.
-
-There are tools available to help you locate the asset that you need: 
-
-* Click the _Filter_ icon on the top left to filter the displayed items according to your criteria.
-
-* Enter text in the _Search_ field to filter the displayed items for a match of the asset name.
-
-   ![Use the filters and search field to find the asset that you need](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+{{me-dam}}
 
 +++
 
 +++[!UICONTROL Experience Manager Assets]
 
-Choose this type to browse and select an image asset from a [configured Experience Manage Assets repository](../admin/configure-aem-repositories.md). 
-
-From the _[!UICONTROL Select Assets]_ dialog, choose an image using the available tools to locate the asset that you need and click **[!UICONTROL Select]**.:
-
-* Change the **[!UICONTROL Repository]** at the top right.
-
-* Click **[!UICONTROL Manage assets]** at the top right to open the Assets repository in another browser tab and use AEM Assets management tools.
-
-* Click the _View type_ selector at the top right to change the display to **[!UICONTROL List View]**, **[!UICONTROL Grid View]**, **[!UICONTROL Gallery View]**, or **[!UICONTROL Waterfall View]**.
-
-* Click the _Sort order_ icon to change the sort order between ascending and descending.
-
-   ![Use tools in the Select Assets dialog to find and select an image asset](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
-
-* Click the **[!UICONTROL Sort by]** menu arrow to change the sort criteria to **[!UICONTROL Name]**, **[!UICONTROL Size]**, or **[!UICONTROL Modified]**.
-
-* Click the _Filter_ icon on the top left to filter the displayed items according to your criteria.
-
-* Enter text in the _Search_ field to filter the displayed items for a match of the asset name.
-   
-   ![Use the filters and search field to locate the asset](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
+{{aem-assets-dam}}
 
 +++
    
 +++[!UICONTROL Import media]
 
-Choose this type to select a file from your system and import it into the Journey Optimizer B2B Edition asset library.
-
-In the _[!UICONTROL Upload image]_ dialog, drag and drop a file from your system to the file box. The maximum file size is 100 MB.
-   
-![Import an image file to the](./assets/email-designer-image-upload.png){width="450"}
-
-The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists, a message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`). 
-
-Click **[!UICONTROL Import]**.
+{{image-upload}}
 
 +++
 
-Use the **[!UICONTROL Image placement]** option to choose how the image fills the structure component. The placement settings follow the standard [HTML background image fill and alignment attributes](https://www.w3schools.com/html/html_images_background.asp).
+Use the **[!UICONTROL Image placement]** option to choose how the image fills the structure component. The placement settings follow the standard [HTML background image fill and alignment attributes](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
 
 ![Background image settings](./assets/structure-component-styles-background-image.png){width="250"}
 
 ### Other styles
 
-You can apply other structure component styles that differ from the styles applied to the content components that it contains. 
+You can apply other structure component styles to adjust its display in the email message or landing page. 
 
 +++Border
 
@@ -230,6 +190,20 @@ In the canvas, move the column sizing icon to adjust the width of the selected c
 
 With the column selected in the canvas, you can set styles to apply to that column. 
 
++++Background
+
+* **[!UICONTROL Background color]** - Select the checkbox and click the color square to choose a color from the picker. You can choose a color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, you can use the color slider and the color field to select the color.
+
+   ![Background color picker](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
+
+* **[!UICONTROL Background image]** - Move the toggle selector to enable the background image settings.
+
+   ![Background image settings](./assets/structure-components-background-image-settings.png){width="250"}
+
+   Choose the asset source type and [select an image file](#background-image).
+
++++
+
 +++Border
 
 {{styles-border}}
@@ -253,8 +227,6 @@ With the column selected in the canvas, you can set styles to apply to that colu
 {{styles-advanced}}
 
 +++
-
-
 
 ## Navigation tree
 
