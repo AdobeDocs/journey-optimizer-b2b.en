@@ -3,6 +3,7 @@ title: Content Components
 description: Learn how to use content components to design your email, landing page, and visual fragment content.
 feature: Content Design Tools
 role: User
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
 ---
 # Content components {#content-components}
 
