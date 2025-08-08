@@ -11,16 +11,6 @@ After you [create an email template](./email-templates.md#create-an-email-templa
 
 ## Add structure and content {#structure-content}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Add Structure components"
->abstract="Structure components define the layout of the template. Drag and drop a **Structure** component into the canvas to start designing the content for your template."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a template."
-
 {{$include /help/_includes/content-design-components.md}}
 
 ### Add custom CSS

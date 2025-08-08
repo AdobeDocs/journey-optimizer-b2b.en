@@ -1,6 +1,6 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition Documentation
-user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how you can use it orchestrate account and buying group journeys using built-in generative AI and industry-leading automation.
+user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how you can use it to orchestrate account and buying group journeys using built-in generative AI and industry-leading automation.
 ---
 
 # Journey Optimizer B2B Edition User Guide {#user}
@@ -88,12 +88,15 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Landing pages (Beta) {#landing-pages}
       + [Overview](./content/landing-pages.md)       
       + [Landing page design](./content/landing-page-design.md)
+   + Content design tools {#content-design}
+      + [Structure components](./content/structure-components.md)
+      + [Content components](./content/content-components.md)
+      + [Custom CSS](./content/design-custom-css.md)
    + Brands (Beta) {#brands}
       + [Overview](./content/brands-overview.md)
       + [Manage and create](./content/brands-manage-create.md)
       + [Brand alignment](./content/brand-alignment.md) 
    + [Conditional content](./content/conditional-content.md)
-   + [Custom CSS](./content/design-custom-css.md)
 + Insights dashboards {#dashboards}
     + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)

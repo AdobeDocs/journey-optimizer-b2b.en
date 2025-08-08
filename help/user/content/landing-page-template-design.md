@@ -12,16 +12,6 @@ After you [create a landing page template](./landing-page-templates.md#create-a-
 
 ## Add structure and content {#structure-content-landing-page}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_template_structure"
->title="Add Structure components to the landing page"
->abstract="Structure components define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing the content for your page template."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_template_content_components"
->title="About Content components for landing pages"
->abstract="Content components are empty content placeholders that you can use to create the layout of a landing page template."
-
 {{$include /help/_includes/content-design-components.md}}
 
 ### Add custom CSS

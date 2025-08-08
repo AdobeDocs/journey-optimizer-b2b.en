@@ -29,16 +29,6 @@ After you create and personalize the email content, you can export the content f
 
 ## Design your email from scratch {#design-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="Add Structure components"
->abstract="Structure components define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing the content of your landing page."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
-
 Use the visual content design space to define the structure and content of the email. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
@@ -77,16 +67,6 @@ You can personalize the imported content as needed with the visual email editor 
 > Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md).
 
 ## Add structure and content {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Add Structure components"
->abstract="Structure components define the layout of the email. Drag and drop a **Structure** component into the canvas to start designing your email content."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of an email."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -153,11 +133,6 @@ From the _[!UICONTROL More ...]_ menu at the top of the email design space, you 
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
 
 ## Check and test the email {#email-testing}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="Check how your content is rendering"
->abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
 
 When your message content is defined, you can use test profiles to preview it, send proofs, and review its rendering in desktop and mobile aspect ratios. If you inserted personalized content, you can preview how this content is displayed in the message using test profile data.
 
