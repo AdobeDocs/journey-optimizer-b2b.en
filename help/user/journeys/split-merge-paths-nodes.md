@@ -7,11 +7,11 @@ exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 ---
 # Split and merge paths
 
-Use split and merge path nodes in your account journey to orchestrate your account journeys according to the conditions that you define for accounts or people. You can segment the journey audience or accounts list according to the conditions, define a path with action and event nodes for each segment, and then combine the segments and continue the journey further.
+Use split and merge path nodes in your account journey to segment people or accounts according to the conditions that you define. You can define paths for the journey audience or accounts list according to the conditions, define each path with action and event nodes for each segment, and then combine the paths and continue the journey further.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
-A _Split paths_ node defines one or more segmented paths based on either account or people filters.
+A _Split paths_ node defines one or more segmented paths based on **_either_** account or people filters. A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step without losing their account context.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ A _Split paths_ node defines one or more segmented paths based on either account
 
 Paths split by accounts can include both account and people actions and events. These paths can be split further.
 
-_How does a split path by accounts node work?_ 
+_**How a split path by accounts node works**_ 
 
 * Each path that you add includes an end node with the ability to add nodes to each edge.
 * Split by account nodes can be nested (you can split the path by accounts repeatedly). 
@@ -82,9 +82,9 @@ _How does a split path by accounts node work?_
 
 Paths that are split by people can include only people actions. These paths cannot be split again and automatically join back.
 
-_How does a split path by people node work?_ 
+_**How a split path by people node works**_ 
 
-* Split by people nodes function within a _grouped node_ split-merge combination. The split paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
+* Split by people nodes function within a _grouped node_ split-merge combination. The split paths automatically merge so that all people can move forward to the next step without losing their account context.
 * Split by people nodes cannot be nested (you cannot add a split path for people on a path that is in this grouped node).
 * Evaluation of each path is from top to bottom. If a person matches for the first and second paths, they proceed along the first path only.
 * The node supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the relationship.
