@@ -3,6 +3,7 @@ title: Structure Components
 description: Learn how to use structure components to define the layout of your email, landing page, and visual fragment content.
 feature: Content Design Tools
 role: User
+exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
 ---
 # Structure components {#structure-components}
 
