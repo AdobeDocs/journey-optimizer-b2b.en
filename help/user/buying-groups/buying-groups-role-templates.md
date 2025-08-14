@@ -7,7 +7,7 @@ exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 ---
 # Buying group role templates
 
-In a B2B market, buying decisions are usually made by multiple individuals. Those individuals participate in the decision-making process according to their role within the organization. Create Buying Group role templates that contain these role definitions according to each product offering type or account use case.
+In a B2B market, buying decisions are usually made by multiple individuals. Those individuals participate in the decision-making process according to their role within the organization. Create Buying Group role templates that contain a group of role definitions according to each product offering type or account use case.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -17,7 +17,7 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
 1. In the _[!UICONTROL Buying groups]_ page, select the **[!UICONTROL Roles Templates]** tab.
 
-   ![Roles Templates tab](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+   ![Roles Templates tab](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    The tab provides an inventory list of all existing roles templates and displays the following information in column format:
 
@@ -50,7 +50,7 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
 ### Add the template roles
 
-After you create the template, it opens in the workspace and you are prompted to define the roles. The first role card is displayed by default.
+After you create the template, it opens in the workspace and you are prompted to add the roles. The first role card is displayed by default.
 
 Each role that you define for the template uses a set of filters, or _conditions_, to determine the members assigned to the role. Use the following filter types to define the conditions for a role:
 
@@ -64,9 +64,9 @@ Each role that you define for the template uses a set of filters, or _conditions
 
    * Choose the **[!UICONTROL Buying group role]** from the list.
 
-      For the current release, there are six roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`.
+      There are six default roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`. The list also includes any [custom roles that are defined in the _Roles_ list](./default-custom-roles.md#custom-roles).
 
-      ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}  
+      ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
    * Set the **[!UICONTROL Weighting]** for the role, which is used to calculate the engagement score. 
 
