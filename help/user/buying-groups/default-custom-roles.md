@@ -34,6 +34,10 @@ Journey Optimizer B2B Edition includes a set of default roles that are used in r
    * Champion
    * Other
 
+   >[!NOTE]
+   >
+   >You cannot change or delete the default roles.
+
 ## Create a custom role
 
 1. From the _[!UICONTROL Roles]_ tab, click **[!UICONTROL Create Role]** at the top-right corner.
