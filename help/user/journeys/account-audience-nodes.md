@@ -21,7 +21,7 @@ Use one of the following input options for this journey node:
 
    ![Account audience journey node](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
-1. Chooose the input type for accounts entering the journey:
+1. Choose the input type for accounts entering the journey:
 
    * **[!UICONTROL Account audience]**
 
