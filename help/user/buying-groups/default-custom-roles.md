@@ -36,7 +36,7 @@ Journey Optimizer B2B Edition includes a set of default roles that are used in r
 
    >[!NOTE]
    >
-   >You cannot change or delete the default roles.
+   >You cannot change or delete the default roles. There is a maximum limit of 20 roles, including default and custom roles.
 
 ## Create a custom role
 
