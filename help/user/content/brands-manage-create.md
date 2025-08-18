@@ -142,7 +142,7 @@ To create and define your brand guidelines, you can either enter the details or 
 
    * **Add or revise examples of your guidelines and exclusions**.
 
-     In the displayed example tile, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) to change the example, or click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg ) ) icon to remove it.
+     In the displayed example tile, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon to change the example, or click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg ) ) icon to remove it.
 
 1. When you have everything defined, click **[!UICONTROL Save]**.
 

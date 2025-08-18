@@ -119,7 +119,7 @@ Select the checkbox and click the color square to choose a color from the picker
 
    * To set the **[!UICONTROL Border size]** (line width), click the up and down arrow icons to increase or decrease the number of pixels.
 
-   * To set the **[!UICONTROL Border style]**, choose a value from the list standard CSS `border-style` values.  
+   * To set the **[!UICONTROL Border style]**, choose a value from the list of standard CSS `border-style` values.  
 
    * To determine where the border is displayed, select each **[!UICONTROL Border position]** checkbox.
 
