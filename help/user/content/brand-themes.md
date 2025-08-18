@@ -307,7 +307,7 @@ When you create a new email or email template, you can choose to use a brand the
       >
       >If you choose the _[!UICONTROL Manual Styling]_ mode, you must reset the email design to apply a theme.
       >
-      >If you choose _[!UICONTROL Themes]_ mode, only [fragments](../content-management/fragments.md) that are create in _Themes_ mode are available to add to the email content.
+      >If you choose _[!UICONTROL Themes]_ mode, only [fragments](./fragments.md) that are create in _Themes_ mode are available to add to the email content.
 
 1. In the email design space, click the _Themes_ ( ![Themes icon](../assets/do-not-localize/icon-design-themes.svg) ) icon on the right. 
 
