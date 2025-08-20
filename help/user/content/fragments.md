@@ -103,13 +103,9 @@ You can create new visual fragments in Journey Optimizer B2B Edition by clicking
 
    Click the _Themes_ ( ![Themes icon](../assets/do-not-localize/icon-design-themes.svg) ) icon on the right. 
    
-   ![Email design space - Themes icon selected](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
-   
-   The default theme or the theme applied to the template is displayed. You can switch between the color variants for this theme. Click the arrow next to the displayed theme to view the list of available custom and Adobe themes.
+   ![Fragment design space - Themes icon selected](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
-   ![Email design space - Select custom theme](./assets/email-design-themes-select-custom.png){width="325"}
-
-   Click **[!UICONTROL My themes]** to select a custom theme created for your organization. When you lick outside of the list, the selected  theme applies the styles for all components in the canvas. You can toggle between the color variants as needed.
+   Select one of the custom themes listed in the **[!UICONTROL My themes]** tab, or you can Select **[!UICONTROL Adobe themes]** to use a built-in theme. When you click outside of the list, the selected theme applies the styles for all components in the canvas. You can toggle between the color variants as needed.
 
 1. Click **[!UICONTROL Save]** at any time to save the draft fragment.
 
