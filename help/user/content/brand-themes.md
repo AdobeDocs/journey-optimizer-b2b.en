@@ -20,9 +20,9 @@ With themes, non-technical designers have the ability to create reusable email c
 
 As you work with themes, keep the following guidelines and limitations in mind:
 
-* When you create an email or email template from scratch, you can start building your content using a theme to apply specific styling that fits your brand and design (_Theme mode_). If you use the _Manual mode_, you cannot apply a theme unless you reset the email or email template.
+* When you create an email or email template from a blank canvas (_design from scratch_), you can choose _Theme mode_ to start building your content using a theme to apply specific styling that fits your brand and design. If you choose _Manual mode_, you cannot apply a theme unless you reset the design for the email or email template.
 
-* [Fragments](./fragments.md) are not cross-compatible between the _Theme mode_ and _Manual mode_. To use a fragment in email content where a theme is applied, the fragment must also be created in _Theme mode_.
+* [Fragments](./fragments.md) are not cross-compatible between the _Theme mode_ and _Manual mode_ in the email content. To use a fragment in email content where a theme is applied, the fragment must also be created in _Theme mode_.
 
 * Changes to a custom theme do not automatically cascade to all emails or email templates that already use it. Edit the content for each to refresh the theme.
 
@@ -123,7 +123,7 @@ Select the **[!UICONTROL Colors]** tab and use the settings to define the theme 
     | Type | Settings | Description |
     | ---- | -------- | ----------- |
     | [!UICONTROL General] |  ![General color settings for a variant](./assets/email-theme-colors-settings-variant-general.png){width="300"} | These settings allow you to set colors for body, structures, containers, backgrounds, links, grids, and borders.|
-    | [!UICONTROL Headings] | ![Heading color settings for a variant](./assets/email-theme-colors-settings-variant-headings.png){width="300"} |  These setting apply to `Heading` elements, where you can set text and border colors for each of six heading levels. Expand each heading level that you want to set the color for the variant.| 
+    | [!UICONTROL Headings] | ![Heading color settings for a variant](./assets/email-theme-colors-settings-variant-headings.png){width="300"} |  These settings apply to `Heading` elements, where you can set text and border colors for each of six heading levels. Expand each heading level that you want to set the color for the variant.| 
     | [!UICONTROL Paragraphs] | ![Paragraph color settings for a variant](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | These settings apply to `Paragraph` elements, where you can set text and border colors for each of three paragraph types. Expand each paragraph type that you want to set the color for the variant. |
     | [!UICONTROL Buttons] | ![Button color settings for a variant](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | The settings apply to button elements, where you can set the fill color, border color, and text color for each of the three button presets: _Primary_, _Secondary_, and _Tertiary_. |
 
@@ -293,13 +293,13 @@ When you locate the theme, click the _More menu_ (**...**) icon at the lower rig
 
 ## Use a theme for email content authoring {#use-email-theme}
 
-When you create a new email or email template, you can choose to use a brand theme to streamline the content authoring process and make sure that the design aligns with defined standards.
+When you create a new email or email template, you can choose to use a brand theme that streamlines the content authoring process and makes sure that the design aligns with defined standards. For a new fragment, you can also apply a theme before you save the fragment. The fragment remains in _Theme mode_ from that point and is compatible to add to emails and email templates that are also in _Theme mode_. 
 
-1. You can either select one of the following actions:
+1. Select one of the following actions:
 
    * Select an email template that incorporates a theme (created in _Theme mode_). The theme that is specific to each template is automatically applied.
 
-   * Use the Design from scratch option and select **[!UICONTROL Use Themes]** to start with a predefined styling theme.
+   * Use the _[!UICONTROL Design from scratch]_ option and select **[!UICONTROL Use Themes]** to start with a predefined styling theme.
 
       ![Create your email - Use themes](./assets/create-email-use-theme.png){width="450"}
 
@@ -307,7 +307,7 @@ When you create a new email or email template, you can choose to use a brand the
       >
       >If you choose the _[!UICONTROL Manual Styling]_ mode, you must reset the email design to apply a theme.
       >
-      >If you choose _[!UICONTROL Themes]_ mode, only [fragments](./fragments.md) that are create in _Themes_ mode are available to add to the email content.
+      >If you choose _[!UICONTROL Themes]_ mode, only [fragments](./fragments.md) that are also created in _Themes_ mode are available to add to the email content.
 
 1. In the email design space, click the _Themes_ ( ![Themes icon](../assets/do-not-localize/icon-design-themes.svg) ) icon on the right. 
 

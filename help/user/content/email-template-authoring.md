@@ -7,7 +7,7 @@ exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
 ---
 # Email template authoring
 
-After you [create an email template](./email-templates.md#create-an-email-template), use the visual design space to author the structural and content components in your email template. 
+After you [create an email template](./email-templates.md#create-an-email-template), use the visual design space to author the structural and content components in your email template.
 
 ## Add structure and content {#structure-content}
 
@@ -24,6 +24,10 @@ With at least one content component in the canvas, select the **[!UICONTROL Body
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Add fragments
+
+>[!NOTE]
+>
+>Fragments are not cross-compatible between the _Theme mode_ and _Manual mode_ in the email content. To use a fragment in email content where a theme is applied, the fragment must also be created in _Theme mode_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 

@@ -13,7 +13,11 @@ A fragment is a reusable component that can be referenced in one or more emails 
 
 **Visual fragments**
 
-Visual fragments are pre-defined visual blocks built using the visual content designer that you can reuse across multiple emails or email templates. The current scope of Journey Optimizer B2B Edition and this documentation are that of visual fragments only. Expression-based fragments are not yet supported in Journey Optimizer B2B Edition.
+Visual fragments are pre-defined visual blocks built using the visual design tools that you can reuse across multiple emails or email templates. The current scope of Journey Optimizer B2B Edition and this documentation are that of visual fragments only. 
+
+>[!NOTE]
+>
+>Expression-based fragments are not yet supported in [!DNL Journey Optimizer B2B Edition].
 
 >[!ENDSHADEBOX]
 
@@ -36,9 +40,9 @@ The fragment status determines its availability for use in an email or email tem
 
 | Status               | Description |
 | -------------------- | ----------- |
-| Draft                | When you create a fragment, it is in draft status. It remains in this status as you define or edit the visual content until you publish it for use in an email or email template. Available actions:<br/><ul><li>Edit all details<li>Edit in visual designer<li>Publish<li>Duplicate<li>Delete|
-| Published            | When you publish a fragment, it becomes available for use in an email or email template. Published fragment content cannot be modified in the visual designer. Available actions:<br/><ul><li>Edit description<li>Add to an email or template<li>Create draft version<li>Duplicate<li>Delete (if not in-use)|
-| Published with draft | When you create a draft from a published fragment, the published version remains available for use in an email or email template, and the draft content can be modified in the visual designer. If you publish the draft version, it replaces the current published version and the content is updated in the emails and email templates where it is in use. Available actions:<br/><ul><li>Edit description<li>Add to an email or template<li>Edit draft version in visual designer<li>Publish draft version<li>Duplicate<li>Delete (if not in-use)|
+| Draft                | When you create a fragment, it is in draft status. It remains in this status as you define or edit the visual design space until you publish it for use in an email or email template. Available actions:<br/><ul><li>Edit all details<li>Edit in visual design space<li>Publish<li>Duplicate<li>Delete|
+| Published            | When you publish a fragment, it becomes available for use in an email or email template. Published fragment content cannot be modified in the visual design space. Available actions:<br/><ul><li>Edit description<li>Add to an email or template<li>Create draft version<li>Duplicate<li>Delete (if not in-use)|
+| Published with draft | When you create a draft from a published fragment, the published version remains available for use in an email or email template, and the draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the emails and email templates where it is in use. Available actions:<br/><ul><li>Edit description<li>Add to an email or template<li>Edit draft version in the visual design space<li>Publish draft version<li>Duplicate<li>Delete (if not in-use)|
 
 ![Fragment status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -80,7 +84,7 @@ You can create new visual fragments in Journey Optimizer B2B Edition by clicking
 
 1. Click **[!UICONTROL Create]**.
 
-   The visual designer opens with an empty canvas.
+   The visual design space opens with an empty canvas.
 
 1. Use the content design tools to create the visual fragment content:
 
@@ -90,6 +94,22 @@ You can create new visual fragments in Journey Optimizer B2B Edition by clicking
    * [Personalize content](./fragment-authoring.md#personalize-content)
    * [Enable custom fields](./fragment-authoring.md#enable-fragment-customization)
    * [Edit linked URL tracking](./fragment-authoring.md#edit-linked-url-tracking)
+
+1. (Optional) Apply a [brand theme](./brand-themes.md) to the fragment content to streamline the fragment authoring process and make sure that the design aligns with defined standards.
+
+   >[!NOTE]
+   >
+   >When you apply a theme, fragment compatibility is limited to emails and email templates that are created in _Theme mode_.
+
+   Click the _Themes_ ( ![Themes icon](../assets/do-not-localize/icon-design-themes.svg) ) icon on the right. 
+   
+   ![Email design space - Themes icon selected](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
+   
+   The default theme or the theme applied to the template is displayed. You can switch between the color variants for this theme. Click the arrow next to the displayed theme to view the list of available custom and Adobe themes.
+
+   ![Email design space - Select custom theme](./assets/email-design-themes-select-custom.png){width="325"}
+
+   Click **[!UICONTROL My themes]** to select a custom theme created for your organization. When you lick outside of the list, the selected  theme applies the styles for all components in the canvas. You can toggle between the color variants as needed.
 
 1. Click **[!UICONTROL Save]** at any time to save the draft fragment.
 
@@ -160,9 +180,9 @@ Edits to a fragment depend on its current status:
 
    ![Details for frament with Draft status](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. To make changes to the content in the visual designer, click **[!UICONTROL Edit fragment]**.
+1. To make changes to the content in the visual design space, click **[!UICONTROL Edit fragment]**.
 
-   Use the visual designer tools as needed:
+   Use the visual design tools as needed:
 
    * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
    * [Add Assets](./fragment-authoring.md#add-assets)
@@ -187,11 +207,11 @@ Edits to a fragment depend on its current status:
 
 1. If you want to update the content, click **[!UICONTROL Create draft version]** at the top right.
 
-   Click **[!UICONTROL OK]** in the dialog to open the draft version in the visual designer.
+   Click **[!UICONTROL OK]** in the dialog to open the draft version in the visual design space.
 
    ![Create draft version dialog](./assets/fragments-create-draft-version.png){width="300"}
 
-   Use the visual designer tools as needed:
+   Use the visual design tools as needed:
 
    * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
    * [Add Assets](./fragment-authoring.md#add-assets)
@@ -220,7 +240,7 @@ There are two ways to open the draft version for editing from the _[!UICONTROL F
 
 To update the content:
 
-1. Click **[!UICONTROL Edit fragment]** at the top right. Use the visual designer tools as needed:
+1. Click **[!UICONTROL Edit fragment]** at the top right. Use the visual design tools as needed:
 
    * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
    * [Add Assets](./fragment-authoring.md#add-assets)
