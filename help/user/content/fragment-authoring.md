@@ -29,7 +29,7 @@ After you [create a fragment](./fragments.md#create-fragments), use the visual d
 
 To add conditional content that adapts the content to the targeted profiles based on rules, select a content component and click the **[!UICONTROL Enable conditional content]** button in the component toolbar. When the published fragment is included in an email message, the conditional rules determine the variant of a conditional component that is rendered in the email message.
 
-For more information, see [_Conditional content_](../user/content/conditional-content.md).
+For more information, see [_Conditional content_](./conditional-content.md).
 
 ## Enable fragment customization
 
