@@ -111,5 +111,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [SMS configurations](./admin/configure-channels-sms.md)
     + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
     + [Configure AEP event definitions](./admin/configure-aep-events.md)
+    + [Configure engagement score weighting](./admin/engagement-score-weighting.md)
     + [Landing page settings](./admin/landing-page-settings.md)
     + [Governance](./admin/governance.md)
