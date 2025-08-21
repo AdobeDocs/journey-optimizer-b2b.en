@@ -11,12 +11,32 @@ Adobe Journey Optimizer B2B Edition continuously delivers new features, enhancem
 Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
-<!-- hold for 2025.8 release 
+
+<!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## 2025.8 release notes
+
+**Deployment date**: August 26, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Person engagement score filters for roles templates and journeys |You can now use _Person engagement score_ as a filter in Roles templates that are used to create buying groups and in split path nodes in journeys. |
+| Feature | Buying groups custom roles configuration | |
+| Feature | Engagement score weighting configuration | You have the flexibility to assign weights to activities that influence the buying group engagement score. You can define your own custom score models and activate the model that you want to use for engagement score calculations. |
+| Enhancement | Conditional content for fragments | You can now use the conditional content tools for visual fragment design. |
+| Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. |
+| Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of all the accounts that have reached each account node in the journey. |
+
+>[!NOTE]
+>
+>The release changes begin deployment on August 26, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
 
 ## 2025.6 release notes
 
