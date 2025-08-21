@@ -194,10 +194,9 @@ Each content component type displays a toolbar when you select it in the canvas.
 | ---- | ---- | ----- |
 | ![Add personalization](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Add personalization|  Use the personalization editor to insert personalization tokens in the component content. [Learn more](./email-authoring.md#personalize-content) |
 | ![Show the source code](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Show the source code| Display the HTML source code for the component in a read-only popup. <br/>![Show HTML code](./assets/content-components-show-source-code.png){width="200"} |
-| ![Enable conditional content](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Enable conditional content | Enable conditional variants for the component. [Learn more](./conditional-content.md) |
+| ![Enable conditional content](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Enable conditional content | (Emails and fragments) Enable conditional variants for the component. [Learn more](./conditional-content.md) |
 | ![Duplicate](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Duplicate | Create a copy of the component and add it directly below. |
 | ![Delete](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Delete | Remove the component. |
-
 
 ## Add a content component to your design
 
