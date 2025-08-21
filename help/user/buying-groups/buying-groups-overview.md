@@ -96,7 +96,12 @@ For example, if there are four roles within a buying group and three out of the 
 
 The buying group completeness score is re-calculated every time a buying group is created or updated.
 
-### Buying group engagement score
+### Buying group engagement score {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="Engagement score"
+>abstract="Engagement scores determine the level of engagement for buying group members."
 
 Buying group engagement score is a number to determine the engagement of the members of a buying group, based on the activities they perform. 
 
@@ -152,9 +157,14 @@ Buying group engagement score is a number to determine the engagement of the mem
 
 +++
 
-#### Weighting
+#### Weighting {#engagement-score-weighting}
 
-Users can assign _weighting_ to each role in the roles template to allocate different weights for a role to calculate the engagement score.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="Engagement score weighting"
+>abstract="Use weighting to customize the engagement score calculation."
+
+Users can assign _weighting_ to each role in the [roles template](./buying-groups-role-templates.md) to allocate different weights for a role.
 
 ![Set weighting to each role in the roles template](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
