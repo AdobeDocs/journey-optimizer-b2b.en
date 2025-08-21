@@ -27,12 +27,12 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Person engagement score filters for roles templates and journeys |You can now use _Person engagement score_ as a filter in Roles templates that are used to create buying groups and in split path nodes in journeys. |
-| Feature | Buying groups custom roles configuration | |
-| Feature | Engagement score weighting configuration | You have the flexibility to assign weights to activities that influence the buying group engagement score. You can define your own custom score models and activate the model that you want to use for engagement score calculations. |
+| Feature | Person engagement score filters for roles templates and journeys | You can now use _Person engagement score_ as a filter in Roles templates that are used to create buying groups and in split path journey nodes. |
+| Feature | Buying groups custom roles configuration | You now have the flexibility to configure custom roles for buying groups, which allows you to define the roles specific to your use cases.  |
+| Feature | Engagement score weighting configuration | You can now assign weights to the activities that influence the buying group engagement score. This feature includes defining your own custom score models and changing the active model that influences engagement score calculations. |
 | Enhancement | Conditional content for fragments | You can now use the conditional content tools for visual fragment design. |
 | Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. |
-| Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of all the accounts that have reached each account node in the journey. |
+| Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of the accounts that have reached each account node in the journey. |
 
 >[!NOTE]
 >
