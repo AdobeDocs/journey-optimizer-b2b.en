@@ -7,13 +7,13 @@ exl-id: c6864981-209c-4123-8d3f-24deb07026a0
 ---
 # Work with Experience Manager assets
 
-When Adobe Experience Manager Assets as a Cloud Service is integrated with Adobe Journey Optimizer B2B Edition, you can easily discover and access digital assets for use in your marketing content. As you author your content, the assets are accessible from the _Experience Manager Assets_ item on the left navigation, and when authoring email content for an account journey.
+When [!DNL Adobe Experience Manager Assets as a Cloud Service] is integrated with [!DNL Adobe Journey Optimizer B2B Edition], you can easily discover and access digital assets for use in your marketing content. As you author your content, the assets are accessible from the _[!UICONTROL Experience Manager Assets]_ item on the left navigation, and when authoring email content for an account journey.
 
 {{aem-assets-licensing-note}}
 
-When you use these digital assets, the latest changes in Assets as a Cloud Service automatically propagate to live email campaigns through linked references. If images are deleted in Adobe Experience Manager Assets as a Cloud Service, the images appear with a broken reference in the emails. When assets that are currently used within account journeys are modified or deleted, the journey authors are notified about the image changes and the list of journeys using the image. All changes to the assets must be done in the Adobe Experience Manager Assets central repository.
+When you use these digital assets, the latest changes in [!DNL Assets as a Cloud Service] automatically propagate to live email campaigns through linked references. If images are deleted in [!DNL Adobe Experience Manager Assets as a Cloud Service], the images appear with a broken reference in the emails. When assets that are currently used within account journeys are modified or deleted, the journey authors are notified about the image changes and the list of journeys using the image. All changes to the assets must be done in the [!DNL Adobe Experience Manager Assets] central repository.
 
-When your environment has one or more [Assets repositories connections](../admin/configure-aem-repositories.md), content authors can use AEM Assets as the source for assets when creating an email, email template, or visual fragment.
+When your environment has one or more [Assets repositories connections](../admin/configure-aem-repositories.md), content authors can use [!DNL Experience Manager Assets] as the source for assets when creating an email, email template, or visual fragment.
 
 >[!IMPORTANT]
 >
@@ -21,13 +21,13 @@ When your environment has one or more [Assets repositories connections](../admin
 
 ## Access AEM Assets images
 
-In the visual content editor, click the _Experience Manager Assets_  ( ![Experience Manager Assets icon](../../assets/do-not-localize/icon-assets-aem.svg) ) icon in the left sidebar. This changes the tools panel to a list of available assets in the selected repository.
+In the content design space, click the _[!UICONTROL Experience Manager Assets]_  ( ![Experience Manager Assets icon](../../assets/do-not-localize/icon-assets-aem.svg) ) icon in the left sidebar. This changes the tools panel to a list of available assets in the selected repository.
 
 ![Click the Assets selector icon to access the image assets](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Currently, only image assets from Adobe Experience Manager Assets are supported in Adobe Journey Optimizer B2B Edition. Changes to the assets must be done from the Adobe Experience Manager Assets central repository. [Learn more](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Currently, only image assets from [!DNL Adobe Experience Manager Assets] are supported in [!DNL Adobe Journey Optimizer B2B Edition]. Changes to the assets must be done from the [!DNL Adobe Experience Manager Assets] central repository. [Learn more](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Change the displayed repository
 
