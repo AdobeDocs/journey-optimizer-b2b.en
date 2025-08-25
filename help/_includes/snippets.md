@@ -16,7 +16,7 @@ description: Reused notes and visual elements to note a feature or page applying
 
 >[!NOTE]
 >
->Licenses for AEM Assets as a Cloud Service and Dynamic Media license are pre-requisites for the integration. Ensure that [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} is enabled.<br/>
+>Licenses for AEM Assets as a Cloud Service and Dynamic Media license are pre-requisites for the integration. Ensure that [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} is enabled. The integration is limited to repositories from the _Delivery tier_. If you use the _Author tier_ and want to convert it, contact Adobe Experience Manager Support.<br/>
 >Depending on your contract and configuration, Adobe Experience Manager Assets as a Cloud Service can be accessed directly from Adobe Journey Optimizer B2B Edition when designing visual content.
 
 ## Content authoring - components - structures step {#structures-step}
