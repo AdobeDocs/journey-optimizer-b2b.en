@@ -5,7 +5,7 @@ feature: Buying Groups
 role: User
 ---
 
-# Engagement scores
+# Engagement scores {#engagement-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
@@ -28,17 +28,15 @@ There are two types of engagement scores:
 
     ![Most engaged buying group members](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
-    >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-    The person engagement score is an attribute that is available to use for filtering in [roles templates](./buying-groups-role-templates.md#add-the-template-roles) and [journey splt-path-by-people nodes](../journeys/split-merge-paths-nodes.md#people-path-conditions).
+The person engagement score is an attribute that is available to use for filtering in [roles templates](./buying-groups-role-templates.md#add-the-template-roles) and [journey splt-path-by-people nodes](../journeys/split-merge-paths-nodes.md#people-path-conditions).
 
-   ![Access the configured event definitions](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
+![Access the configured event definitions](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
-   >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 Any engagement weighted activity performed by the members of the buying group in the last 30 days is used to calculate the scores. With the 30-day window, activity occurrences expire and scores can move downward (score decay). Displayed scores are rounded (for example, a score of 75.89999 is displayed as 76).
-
-
 
 ## Activities used for engagement scoring
 
