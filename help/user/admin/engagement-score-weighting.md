@@ -87,16 +87,7 @@ The weight settings define the bands that you can assign to each activity in the
 
 Each score model includes the full list of supported engagement score activities:
 
-| Activity name | Description | Engagement type | Max daily frequency count | Default model activity weight |
-| --- | --- | --- | --- | --- |
-| [!UICONTROL Attend Event] | A member attended an event | Event | 20 | 60 |
-| [!UICONTROL Email Clicked] | A member clicks a link in an email | Email | 20 | 30 |
-| [!UICONTROL Email Opened] | A member opens an email | Email | 20 | 30 |
-| [!UICONTROL Form Filled Out]| A member fills and submits a form on a web page | Web | 20 | 40 |
-| [!UICONTROL Interesting Moment] | A member has an interesting moment | Curated | 20 | 60 |
-| [!UICONTROL Link Clicks] | A member clicks a link on a web page | Web | 20 | 40 |
-| [!UICONTROL Page Views]| A member views a web page | Web | 20 | 40 |
-| [!UICONTROL Register for Event] | A member registered for an event | Event | 20 | 60 |
+{{engagement-activities}}
 
 For each activity in the list, set the value that you want to assign for each activity occurrence. Click the down arrow in the Weighting field and choose the weighting band as defined in the engagement weighting settings.
 
@@ -109,8 +100,6 @@ Your changes are saved automatically.
 ## Activate a score model
 
 When you activate a draft score model, it replaces the currently active model. The currently active model is automatically archived.
-
-
 
 1. Open a draft score model to view the details page.
 
