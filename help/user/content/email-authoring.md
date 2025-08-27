@@ -7,7 +7,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 ---
 # Email message authoring
 
-After you [add a new<!-- or duplicated --> email asset to a journey action node](./add-email.md), you can define the content for the email message. 
+After you [add an email asset to a journey action node](./add-email.md), you can define the content for the email message. 
 
 Click **[!UICONTROL Edit email content]** in the _[!UICONTROL Details]_ tab on the right panel.
 
@@ -32,17 +32,24 @@ After you create and personalize the email content, you can export the content f
 Use the visual content design space to define the structure and content of the email. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
-1. [Add structure and content](#add-structure-and-content) to the email message.
-1. [Add image assets](#add-assets) to the email message.
-1. [Personalize the email content](#personalize-content).
+
+1. In the _[!UICONTROL Create email]_ dialog, choose the type of email content that you want to author.
+
+   * **[!UICONTROL Use Themes]** - Choose this option to create the email in _Theme mode_. In this mode, you can use a defined brand theme to streamline the content authoring process and make sure that the design aligns with defined standards.
+
+   * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
+
+1. [Add structure and content](./email-authoring.md#add-structure-and-content) to the template.
+
 1. [Review and update links](#preview-and-edit-linked-urls).
+
 1. [Test the email](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 When you are satisfied with the content, click **[!UICONTROL Save]**.
 
@@ -64,7 +71,7 @@ You can personalize the imported content as needed with the visual email editor 
 
 >[!NOTE]
 >
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md).
+> Saved templates may have governance (content locking) settings applied to one or more components. The visual design space provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md).
 
 ## Add structure and content {#structure-content}
 
@@ -72,7 +79,7 @@ You can personalize the imported content as needed with the visual email editor 
 
 ### Add custom CSS
 
-You can add your own custom CSS directly within the email design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components such as images, buttons, and text.
+You can add your own custom CSS directly within the email design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include content components, such as images, buttons, and text.
 
 With at least one content component in the canvas, select the **[!UICONTROL Body]** component in the left navigation tree to access the custom CSS editor.
 
@@ -85,6 +92,10 @@ With at least one content component in the canvas, select the **[!UICONTROL Body
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Add fragments
+
+>[!NOTE]
+>
+>Fragments are not cross-compatible between the _Theme mode_ and _Manual mode_ in the email content. To use a fragment in email content where a theme is applied, the fragment must also be created in _Theme mode_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -122,13 +133,13 @@ Leverage the view and content validation options that are available in the visua
 
 ## More options
 
-From the _[!UICONTROL More ...]_ menu at the top of the email design space, you can take the following actions:
+From the _[!UICONTROL More ...]_ menu at the top of the visual design space, you can take the following actions:
 
 ![Click More to access template actions](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Reset email]** - Click this option to clear the visual email designer canvas to a blank slate and restart building your content.
+* **[!UICONTROL Reset email]** - Click this option to clear the email design canvas to a blank slate and restart building your content.
 * **[!UICONTROL Save as fragment]** - Save all or portions of the email as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragment and save it to the list of available fragments. 
-* **[!UICONTROL Change your design]** - Return to the _Design your email_ page. From there, you can choose another template to restart the design process, or choose to design the content from scratch in a black canvas.\
+* **[!UICONTROL Change your design]** - Return to the _Design your email_ page. From there, you can choose another template to restart the design process. You can also choose to design the content from scratch with a blank canvas (_Classic mode_) or using a [brand theme](./brand-themes.md) (_Theme mode_).
 * **[!UICONTROL Save as content template]** - Save the email body as an email template to be reused across multiple emails or email templates. You provide a name and description for the template and save it to the list of saved email templates.
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
 

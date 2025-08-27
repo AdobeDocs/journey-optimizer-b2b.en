@@ -7,7 +7,7 @@ exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
 ---
 # Email template authoring
 
-After you [create an email template](./email-templates.md#create-an-email-template), use the visual design space to author the structural and content components in your email template. 
+After you [create an email template](./email-templates.md#create-an-email-template), use the visual design space to author the structural and content components in your email template.
 
 ## Add structure and content {#structure-content}
 
@@ -24,6 +24,10 @@ With at least one content component in the canvas, select the **[!UICONTROL Body
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Add fragments
+
+>[!NOTE]
+>
+>Fragments are not cross-compatible between the _Theme mode_ and _Manual mode_ in the email content. To use a fragment in email content where a theme is applied, the fragment must also be created in _Theme mode_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -63,5 +67,5 @@ From the _[!UICONTROL More ...]_ menu at the top of the email design space, you 
 
 * **[!UICONTROL Reset template]** - Click this option to clear the design canvas to a blank slate and restart building content.
 * **[!UICONTROL Save as fragment]** - Save all or portions of the template as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragment and save it to the list of available fragments. 
-* **[!UICONTROL Change your design]** - Return to the _Design your template_ page. From there, you can choose to design your template from scratch or use an existing template to restart the design process.
+* **[!UICONTROL Change your design]** - Return to the _Design your email_ page. From there, you can choose another template to restart the design process. You can also choose to design the content from scratch with a blank canvas (_Classic mode_) or using a [brand theme](./brand-themes.md) (_Theme mode_).
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
