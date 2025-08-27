@@ -6,6 +6,7 @@ hide: yes
 hidefromtoc: yes
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 role: Admin
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
 ---
 # Configure custom engagement score weighting
 

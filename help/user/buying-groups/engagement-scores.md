@@ -3,8 +3,8 @@ title: Engagement Scores for Buying Groups
 description: Learn about buying group and person engagement scores, including calculation logic and activity types that determine scoring.
 feature: Buying Groups
 role: User
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
 ---
-
 # Engagement scores {#engagement-scores}
 
 >[!CONTEXTUALHELP]
