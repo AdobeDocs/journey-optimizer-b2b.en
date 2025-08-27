@@ -256,3 +256,16 @@ In the _[!UICONTROL Upload image]_ dialog, drag and drop a file from your system
 The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists, a message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`). 
 
 Click **[!UICONTROL Import]**.
+
+## Engagement score activities {#engagement-activities}
+
+| Activity name | Description | Engagement type | Max daily frequency count | Default model activity weight |
+| --- | --- | --- | --- | --- |
+| [!UICONTROL Attend Event] | A member attended an event | Event | 20 | 60 |
+| [!UICONTROL Email Clicked] | A member clicks a link in an email | Email | 20 | 30 |
+| [!UICONTROL Email Opened] | A member opens an email | Email | 20 | 30 |
+| [!UICONTROL Form Filled Out]| A member fills and submits a form on a web page | Web | 20 | 40 |
+| [!UICONTROL Interesting Moment] | A member has an interesting moment | Curated | 20 | 60 |
+| [!UICONTROL Link Clicks] | A member clicks a link on a web page | Web | 20 | 40 |
+| [!UICONTROL Page Views]| A member views a web page | Web | 20 | 40 |
+| [!UICONTROL Register for Event] | A member registered for an event | Event | 20 | 60 |

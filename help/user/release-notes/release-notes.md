@@ -27,11 +27,11 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Person engagement score filters for roles templates and journeys | You can now use _Person engagement score_ as a filter in Roles templates that are used to create buying groups and in split path journey nodes. |
-| Feature | Buying groups custom roles configuration | You now have the flexibility to configure custom roles for buying groups, which allows you to define the roles specific to your use cases.  |
-| Feature | Engagement score weighting configuration | You can now assign weights to the activities that influence the buying group engagement score. This feature includes defining your own custom score models and changing the active model that influences engagement score calculations. |
-| Enhancement | Conditional content for fragments | You can now use the conditional content tools for visual fragment design. |
-| Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. |
+| Feature | Person engagement score filters for roles templates and journeys | You can now use _Person engagement score_ as a filter in Roles templates that are used to create buying groups and in split path journey nodes. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Feature | Buying groups custom roles configuration | You now have the flexibility to configure custom roles for buying groups, which allows you to define the roles specific to your use cases. [Learn more](../buying-groups/default-custom-roles.md)  |
+| Feature | Engagement score weighting configuration | You can now assign weights to the activities that influence the buying group engagement score. This feature includes defining your own custom score models and changing the active model that influences engagement score calculations. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Enhancement | Conditional content for fragments | You can now use the conditional content tools for visual fragment design. [Learn more](../content/conditional-content.md) |
+| Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. [Learn more](../buying-groups/engagement-scores.md) |
 | Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of the accounts that have reached each account node in the journey. |
 
 >[!NOTE]
@@ -147,7 +147,7 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Conditional content in email templates| Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <p>As you author an email for your account journey in the email visual design space, use conditional rules to define multiple variants for any content component. <a href="../content/conditional-content.md">Learn more</a> |
+| Feature | Conditional content in emails | Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <p>As you author an email for your account journey in the email visual design space, use conditional rules to define multiple variants for any content component. <a href="../content/conditional-content.md">Learn more</a> |
 | Feature | _Add to List_ and _Remove from list_ people actions in journeys | Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <a href="../journeys/action-nodes.md">Learn more</a> |
 | Feature | Content governance and component locking | To ensure adherence to approved content designs, use content governance features to lock email template content components. With content governance activated in the email template, marketers can alter only the permitted elements to keep it aligned with the content strategy. <a href="../content/template-content-governance.md">Learn more</a>|
 | Feature | Buying group stages | When you define and publish a custom buying groups staging model, you can track buying group progression through the buying group lifecycle stages. Use these stages for identifying the next best actions for buying group members. You configure the transition rules and journey nodes that determine the stage progression and trigger actions based on changes. <a href="../buying-groups/buying-group-stages.md">Learn more</a> |

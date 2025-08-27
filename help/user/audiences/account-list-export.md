@@ -1,13 +1,13 @@
 ---
-title: Export Account List
+title: Export Accounts
 description: Learn how to export the account list based on buying groups filter.
 feature: Account Lists
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 ---
-# Export account list
+# Export accounts
 
-Use the _Export account list_ feature to export all accounts or a set of accounts based on filtering that you define. The export process produces a CSV file and sends the URL for the stored file within a pulse notification. You can use this feature to move accounts into third-party platforms when needed.
+Use the _Export accounts_ feature to export all accounts or a set of accounts based on filtering that you define. The export process produces a CSV file and sends the URL for the stored file within a pulse notification. You can use this feature to move accounts into third-party platforms when needed.
 
 1. In Journey Optimizer B2B Edition, go to **[!UICONTROL Accounts]** > **[!UICONTROL Buying groups]** in the left navigation.
 
