@@ -5,7 +5,10 @@ feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: Email Themes, Reusability, Brand Alignment, Email Design, 
+keywords: Email Themes, Reusability, Brand Alignment, Email Design
+badge: label="Beta" type="Informative"
+hide: yes
+hidefromtoc: yes
 ---
 # Use brand themes for email content {#email-brand-themes}
 
