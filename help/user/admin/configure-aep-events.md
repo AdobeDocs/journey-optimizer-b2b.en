@@ -56,11 +56,11 @@ As you create and manage your event definitions to meet your organizational goal
 
 ## Access and manage event definitions
 
-1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
+1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
 1. Click **[!UICONTROL Events]** on the intermediate panel to display the list of event definitions.
 
-   From this page, you can [create](#create-an-event-definition), [publish](#publish-an-event-defintion), [edit](#publish-an-event-defintion), and [delete](#delete-an-event-definition) event definitions.
+   From this page, you can [create](#create-an-event-definition), [publish](#publish-an-event-defintion), [edit](#edit-an-event-definition), and [delete](#delete-an-event-definition) event definitions.
 
    ![Access the configured event definitions](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
