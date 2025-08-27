@@ -18,7 +18,7 @@ Within the account, there could be a subset of people who comprise the _buying g
 
 ## Key components
 
-You can increase marketing effectiveness by establishing buying groups in Journey Optimizer B2B Edition that identify members for your target account lists based on the solutions that your Sales teams are responsible for selling. Before you and your Marketing team starts creating your buying groups, make sure that you have the key components defined. These components are critical for meeting your business goals and objectives.
+You can increase marketing effectiveness by establishing buying groups in Journey Optimizer B2B Edition that identify members for your target account lists for the solutions that your Sales teams are responsible for selling. Before you and your Marketing team starts creating your buying groups, make sure that you have the key components defined. These components are critical for meeting your business goals and objectives.
 
 | Component | Purpose |
 | --------- | ------- |
@@ -35,11 +35,11 @@ There are three ways that members are assigned to or removed from a buying group
 2. **_Journey action_** - Journey [action nodes for buying group membership](../journeys/action-nodes.md#add-a-people-based-action) (_Assign to Buying group_ or _Remove from Buying group_)
 3. **_System jobs_** - Buying group [creation](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) and maintenance jobs. 
 
-To ensure that the member assignment in a buying group is not overridden incorrectly, this list is in the order of precedence followed in the system to ensure accurate member assignment. For example, when a sales user manually adds a member to the buying group, they do not want a maintenance job to alter that addition. Using the precedence order, the following scenarios are enforced:
+To avoid incorrectly overriding a member assignment in a buying group, this list is in the order of precedence followed in the system to ensure accurate member assignment. For example, when a sales user manually adds a member to the buying group, they do not want a maintenance job to alter that addition. Using the precedence order, the following scenarios are enforced:
 
-* If a user manually assigns a member to a buying group, and this is followed by a buying group maintenance job that removes the same member from the buying group, the maintenance job **does not remove** that member and cannot override the manual assignment.
-* If a user manually assigns a member to a buying group, and this is followed by a triggered journey node that removes the same member from the buying group, the node action **does not remove** that member and cannot override the manual assignment.
-* If a triggered journey action node adds a member to a buying group, and this is followed by a buying group maintenance job that removes the same member from the buying group, the maintenance job **does not remove** that member and cannot override the journey action assignment.
+* If a user manually assigns a member to a buying group, and it is followed by a buying group maintenance job that removes the same member from the buying group, the maintenance job **does not remove** that member and cannot override the manual assignment.
+* If a user manually assigns a member to a buying group, and it is followed by a triggered journey node that removes the same member from the buying group, the node action **does not remove** that member and cannot override the manual assignment.
+* If a triggered journey action node adds a member to a buying group, and it is followed by a buying group maintenance job that removes the same member from the buying group, the maintenance job **does not remove** that member and cannot override the journey action assignment.
 
 ## Buying group workflow
 
@@ -90,7 +90,7 @@ To access details for a buying group, click the buying group name from the _[!UI
 
 ### Buying group completeness score
 
-The completeness score is used to determine if the buying group is complete, which means that it has the right members assigned to the roles and is ready to be used in an account journey. This score is a percentage based on the number of roles within the buying group and how many roles are assigned with at least one lead.
+The completeness score is used to determine if the buying group has the right members assigned to the roles and is ready to be used in an account journey. This score is a percentage based on the number of roles within the buying group and how many roles are assigned with at least one lead.
 
 For example, if there are four roles within a buying group and three out of the four roles are assigned to at least one lead, the buying group is 75% complete. 
 
@@ -98,11 +98,11 @@ The buying group completeness score is re-calculated every time a buying group i
 
 ### Buying group engagement score {#engagement-score}
 
-The engagement score is based the buying group memnber activities, weighted actions, and weighted roles. The resulting score is normalized within the tenant/instance to enable consistent comparison and allow for actionable insights. 
+The engagement score is based on the buying group member activities, weighted actions, and weighted roles. The resulting score is normalized within the tenant/instance to enable consistent comparison and allow for actionable insights. 
 
-The initial engagement score calculation starts as soon as you create the buying group and is re-calculated on a daily basis.
+The initial engagement score calculation starts as soon as you create the buying group and is re-calculated daily.
 
-See [Engagement scores](./engagement-scores.md) for detailed information about engagement score activities and calculcations.
+See [Engagement scores](./engagement-scores.md) for detailed information about engagement score activities and calculations.
 
 ## Overview video
 

@@ -19,7 +19,7 @@ A _Split paths_ node defines one or more segmented paths based on **_either_** a
 
 ## Split paths by accounts
 
-Paths split by accounts can include both account and people actions and events. These paths can be split further.
+Split by accounts paths can include both account and people actions and events. These paths can be split further.
 
 _**How a split path by accounts node works**_ 
 
@@ -80,7 +80,7 @@ _**How a split path by accounts node works**_
 
 ## Split paths by people
 
-Paths that are split by people can include only people actions. These paths cannot be split again and automatically join back.
+Split by people paths can include only people actions. These paths cannot be split again and automatically join back.
 
 _**How a split path by people node works**_ 
 
