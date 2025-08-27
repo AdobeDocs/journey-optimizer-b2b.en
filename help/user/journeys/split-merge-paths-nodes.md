@@ -7,11 +7,11 @@ exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 ---
 # Split and merge paths
 
-Use split and merge path nodes in your account journey to orchestrate your account journeys according to the conditions that you define for accounts or people. You can segment the journey audience or accounts list according to the conditions, define a path with action and event nodes for each segment, and then combine the segments and continue the journey further.
+Use split and merge path nodes in your account journey to segment people or accounts according to the conditions that you define. You can define paths for the journey audience or accounts list according to the conditions, define each path with action and event nodes for each segment, and then combine the paths and continue the journey further.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
-A _Split paths_ node defines one or more segmented paths based on either account or people filters.
+A _Split paths_ node defines one or more segmented paths based on **_either_** account or people filters. A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step without losing their account context.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ A _Split paths_ node defines one or more segmented paths based on either account
 
 Paths split by accounts can include both account and people actions and events. These paths can be split further.
 
-_How does a split path by accounts node work?_ 
+_**How a split path by accounts node works**_ 
 
 * Each path that you add includes an end node with the ability to add nodes to each edge.
 * Split by account nodes can be nested (you can split the path by accounts repeatedly). 
@@ -82,9 +82,9 @@ _How does a split path by accounts node work?_
 
 Paths that are split by people can include only people actions. These paths cannot be split again and automatically join back.
 
-_How does a split path by people node work?_ 
+_**How a split path by people node works**_ 
 
-* Split by people nodes function within a _grouped node_ split-merge combination. The split paths automatically merge so that all the people in the audience can move forward to the next step without losing their account context.
+* Split by people nodes function within a _grouped node_ split-merge combination. The split paths automatically merge so that all people can move forward to the next step without losing their account context.
 * Split by people nodes cannot be nested (you cannot add a split path for people on a path that is in this grouped node).
 * Evaluation of each path is from top to bottom. If a person matches for the first and second paths, they proceed along the first path only.
 * The node supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the relationship.
@@ -96,12 +96,12 @@ _How does a split path by people node work?_
 
 | Path conditions | Description |
 | --------------- | ----------- |
-| [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City</li><li>Country</li><li>Date of birth</li><li>Email address</li><li>Email invalid</li><li>Email suspended</li><li>First name</li><li>Inferred state region</li><li>Job title</li><li>Last name</li><li>Mobile phone number</li><li>Phone number</li><li>Postal code</li><li>State</li><li>Unsubscribed</li><li>Unsubscribed reason</li>|
 | [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities based on conditions that are evaluated using one or more selected email messages from earlier in the journey: <li>[!UICONTROL Clicked link in email] <li>Opened Email <li>Was delivered email <li>Was sent email <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).|
 | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities based on conditions that are evaluated using one or more selected SMS messages from earlier in the journey: <li>[!UICONTROL Clicked link in SMS] <li>[!UICONTROL SMS Bounced] <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). |
 | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value<li>Previous value<li>Reason<li>Source<li>Date of activity<li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change).|
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone<li>Email<li>Web <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).|
 | [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Web page activity that for one or more web pages managed by the associated Marketo Engage instance. Constraints include: <li>Web page (required)<li>Date of activity<li>Client IP address <li>Querystring <li>Referrer <li>User agent <li>Search engine <li>Search query <li>Personalized URL <li>Token <li>Browser <li>Platform <li>Device <li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page).   |
+| [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Role</li>|
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more Marketo Engage programs. |
