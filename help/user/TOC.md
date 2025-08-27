@@ -45,9 +45,10 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Solution interests](./buying-groups/solution-interests.md)
        + [Role templates](./buying-groups/buying-groups-role-templates.md)
        + [Default and custom roles](./buying-groups/default-custom-roles.md)
+       + [Engagement scores](./buying-groups/engagement-scores.md)
        + [Buying group stages](./buying-groups/buying-group-stages.md)
        + [Create buying groups](./buying-groups/buying-groups-create.md)
-       + [Export account list](./audiences/account-list-export.md)
+       + [Export accounts](./audiences/account-list-export.md)
        + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
        + [Buying group filters in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
     + Account lists {#account-lists}    
@@ -111,5 +112,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [SMS configurations](./admin/configure-channels-sms.md)
     + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
     + [Configure AEP event definitions](./admin/configure-aep-events.md)
+    + [Configure engagement score weighting](./admin/engagement-score-weighting.md)
     + [Landing page settings](./admin/landing-page-settings.md)
     + [Governance](./admin/governance.md)
