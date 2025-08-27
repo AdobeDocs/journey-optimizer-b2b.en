@@ -9,6 +9,7 @@ keywords: Email Themes, Reusability, Brand Alignment, Email Design
 badge: label="Beta" type="Informative"
 hide: yes
 hidefromtoc: yes
+exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
 ---
 # Use brand themes for email content {#email-brand-themes}
 
