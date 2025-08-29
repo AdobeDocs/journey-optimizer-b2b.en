@@ -1,6 +1,6 @@
 ---
 title: Configure Experience Platform Events
-description:  Learn how to configure Experience Platform event definitions for use in Journey Optimizer B2B Edition content authoring.
+description:  Learn how to configure Experience Platform event definitions for use in Journey Optimizer B2B Edition journeys.
 feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
