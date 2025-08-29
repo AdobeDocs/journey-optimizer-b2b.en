@@ -11,29 +11,23 @@ Here is a sampling of the latest additions and enhancements in the Journey Optim
 
 >[!BEGINTABS]
 
+>[!TAB Person engagement score]
+
+B2B marketers can now use a person-level engagement scores as a filter in their split paths for a journey or in a roles template to create buying groups. This score and filtering enables precise targeting of buying groups members to personalize ongoing engagement.
+
+[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Learn about person engagement scores and filtering"}
+
+>[!TAB Custom buying group roles]
+
+B2B marketing strategists can now expand buying group precision with custom buying group roles. Create up to 20 custom roles beyond the default six, and reuse them across buying groups. Within account journeys, tailor messaging to match your unique roles and improve relevance and engagement across buying groups.​
+
+[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Learn about custom buying group roles"}
+
 >[!TAB GenStudio email experiences]
 
 Integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition.
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Learn about GenStudio email experiences"}
-
->[!TAB Spam detection reporting]
-
-With the new Spam reports, you can avoid spam filters and ensure that messages are delivered to audience inboxes. Generate a _Spam report_ directly in the email design space.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Learn about Spam detection reporting"}
-
->[!TAB Account and buying group actions]
-
-Take actions directly from account details and buying group details pages for timely and intentional engagement. 
-
-Use the _Send email_ action to send an approved Marketo Engage email to selected account contacts or buying group members.
-
-[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Learn about sending emails to account contacts"}
-   
-From the buying group details, actions also include _Assign a new member_, _Remove a member_, and _Edit a role_.
-
-[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Learn about buying group actions"}
 
 >[!TAB Custom CSS support]
 
@@ -47,11 +41,11 @@ You can now add your own custom CSS when you are authoring email and landing pag
 
 [!BADGE Learn more]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Learn about Intent keyword mapping configuration"}
 
->[!TAB Email testing with Litmus]
+>[!TAB Spam detection reporting]
 
-With a Litmus account, you can now preview your email rendering in popular email clients from Journey Optimizer B2B Edition. This integration helps you to ensure that your email content looks great and works as designed in every email inbox.
+With the new Spam reports, you can avoid spam filters and ensure that messages are delivered to audience inboxes. Generate a _Spam report_ directly in the email design space.
 
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Learn about the Litmus email testing integration"}
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Learn about Spam detection reporting"}
 
 >[!ENDTABS]
 
@@ -94,7 +88,7 @@ Discover the components of a buying group and understand the basics of building 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
-      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Quick start guidance</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI Assistant</a>
+      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI Assistant</a>
     </td>
     <!--
     <td>
@@ -107,7 +101,7 @@ Discover the components of a buying group and understand the basics of building 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Account journeys"><br/>
-      <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a>
+      <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
     </td>
   </tr>
   <tr style="border: 0;">
