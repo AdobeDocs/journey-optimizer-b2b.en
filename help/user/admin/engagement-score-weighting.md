@@ -12,7 +12,7 @@ exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
 
 A buying group engagement score reflects the level of engagement by evaluating various activities recorded for members of the buying group. With custom score weighting, marketing operations teams have the flexibility to define their own models for weighting the activities that are most meaningful for engagement. A custom scoring model produces a more accurate reflection of your pipeline by prioritizing the behaviors that most accurately signal buying intent in your sales process.
 
-As an administrator, you can define multiple engagement score models for your organization, but only one model can be active at any one time. You define a score model according to the activities to be includes and the weight applied to each activity.
+As an administrator, you can define multiple engagement score models for your organization, but only one model can be active at any one time. You define a score model according to the weight applied to each engagement scoring activity.
 
 ## Access the engagement score weighting models
 
@@ -24,7 +24,7 @@ As an administrator, you can define multiple engagement score models for your or
 
    ![Access the configured event definitions](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   The table is sorted by the _[!UICONTROL Last updated]_ column, with the most recently updated models at the top by default, and includes the ability to search by _[!UICONTROL Name]_. You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes.
+   The table displays the most recently updated models at the top (sorted by _[!UICONTROL Last updated]_) and includes the ability to search by _[!UICONTROL Name]_. You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes.
 
   ![Columns to display in the engagement score weighting list](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -32,7 +32,7 @@ As an administrator, you can define multiple engagement score models for your or
 
 ### Default score model
 
-The system creates an initial engagement score model named _Activity weighting model 1_, which is the active model until you create your own custom model and activate it. WHen you activate your custom model, the default model changes to an _Archived_ status. You can duplicate it if you decide to revert back to the default engagement score model, or to use it as a starting point for another custom model.
+The system creates an initial engagement score model named _Activity weighting model 1_, which is the active model until you create your own custom model and activate it. When you activate your custom model, the default model changes to an _Archived_ status. You can duplicate it if you decide to revert back to the default engagement score model, or to use it as a starting point for another custom model.
 
 ![Default engagement score weighting model](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
@@ -73,11 +73,11 @@ The weight settings define the bands that you can assign to each activity in the
 1. For each weight band, adjust the name or values according to your needs:
 
    * Change the name in the _[!UICONTROL Weighting band]_ field.
-   * Enter a new value, or click **+** or **-** to increase or decrease the value.
+   * Enter a new value. You can also click **&plus;** or **&minus;** to increase or decrease the value.
 
    ![Engagement weight settings](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}   
 
-1. If needed, ad another weighting band:
+1. If needed, add another weighting band:
 
    Click **[!UICONTROL + Add weighting band]** at the bottom of the list. This action inserts a blank weighting band at the bottom of the list. 
 
@@ -93,7 +93,7 @@ Each score model includes the full list of supported engagement score activities
 
 {{engagement-activities}}
 
-For each activity in the list, set the value that you want to assign for each activity occurrence. Click the down arrow in the Weighting field and choose the weighting band as defined in the engagement weighting settings.
+For each activity in the list, set the value that you want to assign to each activity occurrence. Click the down arrow in the **[!UICONTROL Weighting]** field and choose the weighting band as defined in the engagement weighting settings.
 
 ![Set activity weighting](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}  
 
