@@ -23,6 +23,12 @@ B2B marketing strategists can now expand buying group precision with custom buyi
 
 [!BADGE Learn more]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Learn about custom buying group roles"}
 
+>[!TAB Custom engagement score weighting]
+
+Assign custom weights to engagement activities so that engagement scores reflect your highest value activities. By emphasizing high-intent signals, your team can better identify and prioritize accounts with the strongest buying potential.
+
+[!BADGE Learn more]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Learn about custom engagement score weighting"}
+
 >[!TAB GenStudio email experiences]
 
 Integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition.
