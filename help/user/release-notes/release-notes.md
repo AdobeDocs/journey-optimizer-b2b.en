@@ -12,6 +12,54 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+<!-- hold for later release 
+
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
+
+-->
+
+## 2025.8 release notes
+
+**Deployment date**: August 26, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Person engagement score filters for roles templates and journeys | You can now use _Person engagement score_ as a filter in Roles templates that are used to create buying groups and in split path journey nodes. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Feature | Buying groups custom roles configuration | You now have the flexibility to configure custom roles for buying groups, which allows you to define the roles specific to your use cases. [Learn more](../buying-groups/default-custom-roles.md)  |
+| Feature | Engagement score weighting configuration | You can now assign weights to the activities that influence the buying group engagement score. This feature includes defining your own custom score models and changing the active model that influences engagement score calculations. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Enhancement | Conditional content for fragments | You can now use the conditional content tools for visual fragment design. [Learn more](../content/conditional-content.md) |
+| Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. [Learn more](../buying-groups/engagement-scores.md) |
+| Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of the accounts that have reached each account node in the journey. |
+
+>[!NOTE]
+>
+>The release changes begin deployment on August 26, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
+
+## 2025.6 release notes
+
+**Deployment date**: July 15, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Integration with GenStudio for Performance Marketing | (Limited Availability) You can now integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition. [Learn more](../content/genstudio-email-workflow.md) |
+| Feature | Spam detection reporting | To avoid spam filters and ensure that messages are delivered to audience inboxes, you can generate a _Spam report_ directly in the email design space. [Learn more](../content/email-spam-report.md) |
+| Feature | Person details page | You can now click a person's name when it is displayed (as a hyperlink) in the Intelligent Dashboard, buying group details page, and account details page. This action opens the associated person details page, which information for the contact, their activity, and top-engaged buying groups. [Learn more](../accounts/person-details.md)|
+| Feature | Account and buying group actions | Take actions directly from account details and buying group details pages for timely and intentional engagement. <li>Use the _Send email_ action to send an approved Marketo Engage email to selected account contacts or buying group members. [Learn more](../accounts/account-details.md#send-emails) <li>From the buying group details, actions also include _Assign a new member_, _Remove a member_, and _Edit a role_. [Learn more](../buying-groups/buying-group-details.md#members-tab) |
+| Feature | In-CRM access to detail pages | You can now configure direct links to Journey Optimizer B2B Edition detail pages for accounts, contacts, and leads in your Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. [Learn more](../accounts/crm-linking.md) |
+| Feature | Custom CSS support for content design | You can now add your own custom CSS when you are authoring email and landing page content in the design space. [Learn more](../content/design-custom-css.md) |
+| Feature| Intent keyword mapping configuration | To activate and manage the Intent Detection model, you can now upload a spreadsheet to define an intent data mapping category. [Learn more](../admin/intent-data.md) |
+| Enhancement | Simulate Content from email summary | You can now access the _Simulate Content_ tools from the email summary (details and properties) when you open an email from the Emails list. This access is in addition to the email design space. [Learn more](../content/email-simulate-content.md#display-the-email-preview) |
+| Enhancement | Total count display for roles templates list | The _[!UICONTROL Roles templates]_ list page is enhanced with the display of the total count next to the search bar. |
+
+<!-- The following capabilities are currently available only for a set of program participants (Beta):
+
+**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
+
 ## 2025.5 release notes
 
 **Deployment date**: June 3, 2025
@@ -20,8 +68,7 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Integration with GenStudio for Performance Marketing | (Limited Availability) You can now integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition. [Learn more](../content/genstudio-email-workflow.md) |
-| Feature | Email testing with Litmus | With a [Litmus account](https://www.litmus.com/email-testing){target="_blank"}, you can now preview your email rendering in popular email clients from Journey Optimizer B2B Edition. This integration helps you to ensure that your email content looks great and works as designed in every email inbox. [Learn more](../content/email-test-rendering.md) |
+| Feature | Email testing with Litmus | With a [Litmus Enterprise account](https://www.litmus.com/email-testing){target="_blank"}, you can now preview your email rendering in popular email clients from Journey Optimizer B2B Edition. This integration helps you to ensure that your email content looks great and works as designed in every email inbox. [Learn more](../content/email-test-rendering.md) |
 | Enhancement | Duplicate email | When adding an email for a journey node, you can now duplicate an existing email. Modify the setting or content for the duplicated email, or leave it intact.  [Learn more](../content/add-email.md#add-an-email-to-your-journey) |
 | Enhancement | Handlebar token format for email| Personalization tokens for email content now use an updated format that is fully compatible with Handlebar scripting. This format uses _camel case_ or underscores, eliminating spaces. [Learn more](../content/email-authoring.md#content-authoring---personalization) |
 | Enhancement | Total count display for lists | The _[!UICONTROL Solution Interests]_ and _[!UICONTROL Account Journeys]_ list pages are enhanced with the display of the total count next to the search bar. |
@@ -100,7 +147,7 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Conditional content in email templates| Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <p>As you author an email for your account journey in the email visual design space, use conditional rules to define multiple variants for any content component. <a href="../content/conditional-content.md">Learn more</a> |
+| Feature | Conditional content in emails | Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <p>As you author an email for your account journey in the email visual design space, use conditional rules to define multiple variants for any content component. <a href="../content/conditional-content.md">Learn more</a> |
 | Feature | _Add to List_ and _Remove from list_ people actions in journeys | Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <a href="../journeys/action-nodes.md">Learn more</a> |
 | Feature | Content governance and component locking | To ensure adherence to approved content designs, use content governance features to lock email template content components. With content governance activated in the email template, marketers can alter only the permitted elements to keep it aligned with the content strategy. <a href="../content/template-content-governance.md">Learn more</a>|
 | Feature | Buying group stages | When you define and publish a custom buying groups staging model, you can track buying group progression through the buying group lifecycle stages. Use these stages for identifying the next best actions for buying group members. You configure the transition rules and journey nodes that determine the stage progression and trigger actions based on changes. <a href="../buying-groups/buying-group-stages.md">Learn more</a> |

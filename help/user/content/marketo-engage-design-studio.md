@@ -274,7 +274,7 @@ There are multiple methods for adding an image asset to the visual canvas:
 
 * Drag and drop an image thumbnail from the left navigation.
 
-* Add an image component to the canvas and click **[!UICONTROL Browse]** to open the _[!UICONTROL Select Asset from Adobe Marketo Engage]_ dialog.
+* Add an image component to the canvas and click **[!UICONTROL Marketo Engage Assets]** in the component to open the _[!UICONTROL Select Asset from Adobe Marketo Engage]_ dialog.
 
    ![Use the filters and search field to find the asset that you need](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

@@ -8,7 +8,7 @@ exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
 ---
 # Form design
 
-After you [create a form](./landing-pages.md#create-a-landing-page), the visual design space opens a draft with a default basic form definition. In the _[!UICONTROL Summary]_ panel on the right, click **[!UICONTROL Edit form]** and use the visual design space to define the form styling and field components.
+After you [create a form](./forms.md#create-forms), the visual design space opens a draft with a default basic form definition. In the _[!UICONTROL Summary]_ panel on the right, click **[!UICONTROL Edit form]** and use the visual design space to define the form styling and field components.
 
 ![Access the forms library](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 

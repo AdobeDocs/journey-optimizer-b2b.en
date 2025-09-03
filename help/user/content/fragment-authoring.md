@@ -7,19 +7,9 @@ exl-id: d29754cf-6721-489c-bff8-cde034456db2
 ---
 # Fragment authoring
 
-After you [create a fragment](./fragments.md#create-fragments), use the visual editor to author the structural and content components in your fragment.
+After you [create a fragment](./fragments.md#create-fragments), use the visual design space to author the structure and content components in your fragment.
 
 ## Add structure and content {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Add Structure components"
->abstract="Structure components define the layout of the fragment. Drag and drop a **Structure** component into the canvas to start designing the content of your fragment."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -34,6 +24,12 @@ After you [create a fragment](./fragments.md#create-fragments), use the visual e
 ## Personalize content
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+## Conditional content
+
+To add conditional content that adapts the content to the targeted profiles based on rules, select a content component and click the **[!UICONTROL Enable conditional content]** button in the component toolbar. When the published fragment is included in an email message, the conditional rules determine the variant of a conditional component that is rendered in the email message.
+
+For more information, see [_Conditional content_](./conditional-content.md).
 
 ## Enable fragment customization
 

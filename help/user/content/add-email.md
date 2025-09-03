@@ -83,9 +83,9 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
 ## Define the email settings
 
-With the **[!UICONTROL Details]** tab selected in the _Summary_ panel on the right, scroll to the bottom to view and set the email options.
+With the **[!UICONTROL Details]** tab selected in the _Summary_ panel on the right, scroll to the bottom to view and define the email settings.
 
-![Email settings](./assets/email-summary-details-settings.png){width="600" zoomable="yes"}
+![Email settings](./assets/email-summary-details-settings.png){width="700" zoomable="yes"}
 
 | Option | Description |
 | ------ | ----------- |
@@ -93,9 +93,11 @@ With the **[!UICONTROL Details]** tab selected in the _Summary_ panel on the rig
 | [!UICONTROL From email] | The sender address used in the email header. The default value is populated from the [email channel delivery settings](../admin/configure-channels-emails.md#delivery-settings). Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field. |
 | [!UICONTROL Reply-to address] | The sender address used in the email header. The default value is populated from the [email channel delivery settings](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL From Label]). Enter the email address that you want to populate if the recipient uses the reply function (it can be different or the same as the sender address). Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field.|
 | [!UICONTROL Subject line] | The text displayed in the subject field for the email. The default value is populated from the text that you entered in the _[!UICONTROL Create new email]_ dialog. You can change the text if needed. Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
+| [!UICONTROL Branding domain] | If you have more than one [branding domain](../admin/configure-channels-emails.md#branding-domains) defined in the system, select the branding domain to use for sending the email. Use a specific branding domain to send emails that appear to be coming from your brand instead of the company as a whole. It builds trust with the brand, personalizes the email experience, and increases open and response rates. |
+| [!UICONTROL Dedicated IP] | If you have more than one dedicated IP addresses defined, select a dedicated IP address to use for sending the email. When you use a specific dedicated IP for your programs, you can track and monitor deliverability more closely and respond quickly to any changes in your delivery metrics. For more information about adding a dedicated IP for the connected Marketo Engage instance, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}.|
 | [!UICONTROL Operational email] | Select the checkbox if you want to designate the email as operational. Operational emails are excluded from opt-out/unsubscribe lists, and from communication limits. Select this option only when the recipient cannot consider the email message to be an unsolicited commercial message (SPAM).  |
 | [!UICONTROL Include view as web page] | Select the checkbox to include a link to a web page that is generated from the email message content. Email messages have more limited capabilities than web pages, so it is useful for JavaScript, extended CSS, and forms. The text used to generate the link is configured in the [email channel delivery settings](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL View as web page HTML] and [!UICONTROL View as web page text]).  |
-| [!UICONTROL Disable open tracking] | Select the checkbox when you do not want to track email open activity. With the function disabled, email open activity counts are incremented only when a unique person opens the email. You can [manage tracking for email content links](./email-authoring.md#content-authoring---link-tracking) when you design the email body content. |
+| [!UICONTROL Disable open tracking] | Select the checkbox when you do not want to track email open activity. With the function disabled, email open activity counts are incremented only when a unique person opens the email. You can [manage email content link tracking](./email-authoring.md#content-authoring---link-tracking) when you design the email body content. |
 | [!UICONTROL Preheader] | Select the checkbox to include a preheader. A preheader is the short summary text that is displayed after the subject line in some email clients. It usually provides a short summary of the email, and is typically a single sentence. Enter the summary text in the field<!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
 | [!UICONTROL Fields used as CC addresses] | If available, select up to 25 Lead or Company fields that are set up in Marketo Engage using the `Email` type.  |
 
@@ -109,20 +111,22 @@ Two types of alerts can be detected:
 
 * **_Warnings_** that refer to recommendations and best practices, such as:
 
-   * `The opt-out link is not present in the email body`: adding an unsubscription link into your email body is a best practice.
+   * `The opt-out link is not present in the email body`: Adding an unsubscription link into your email body is a best practice.
 
       >[!NOTE]
       >
       >Marketing-style email messages must include an opt-out link, which is not required for transactional messages. 
 
-   * `Text version of HTML is empty`: do not forget to define a text version of your email body, which is used when HTML content cannot be displayed.
+   * `Text version of HTML is empty`: Do not forget to define a text version of your email body, which is used when HTML content cannot be displayed.
 
-   * `Empty link is present in email body`: check that all the links in your email are correct. 
+   * `Empty link is present in email body`: Check that all the links in your email are correct. 
 
-   * `Email size has exceeded the limit of 100KB`: for optimal delivery, make sure that the size of your email does not exceed 100KB. 
+   * `Email size has exceeded the limit of 100KB`: For optimal delivery, make sure that the size of your email does not exceed 100KB. 
 
 * **_Errors_** that prevent you from testing or activating the journey/campaign as long as they are not resolved, such as:
 
-   * `The subject line is missing`: email subject line is mandatory.
+   * `From name is empty`: The email _From_ field (required) is not defined.
+   
+   * `The subject line is missing`: The email subject line (required) is not defined.
 
-   * `The email version of the message is empty`: this error is displayed when the email content has not been configured.
+   * `The email version of the message is empty`: The email content is not defined.

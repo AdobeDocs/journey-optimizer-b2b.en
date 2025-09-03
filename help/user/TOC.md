@@ -1,6 +1,6 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition Documentation
-user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how you can use it orchestrate account and buying group journeys using built-in generative AI and industry-leading automation.
+user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how you can use it to orchestrate account and buying group journeys using built-in generative AI and industry-leading automation.
 ---
 
 # Journey Optimizer B2B Edition User Guide {#user}
@@ -10,7 +10,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Get started {#get-started}
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
     + [Login and home page](home-page.md)
-    + [Quick start guidance](./start/get-started.md)
+    + [Onboarding guidance](./start/get-started.md)
     + [Tracking and email protocols](./start/email-protocols.md)
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
@@ -44,21 +44,29 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Overview](./buying-groups/buying-groups-overview.md)
        + [Solution interests](./buying-groups/solution-interests.md)
        + [Role templates](./buying-groups/buying-groups-role-templates.md)
+       + [Default and custom roles](./buying-groups/default-custom-roles.md)
+       + [Engagement scores](./buying-groups/engagement-scores.md)
        + [Buying group stages](./buying-groups/buying-group-stages.md)
-       + [Buying group details](./buying-groups/buying-group-details.md)
        + [Create buying groups](./buying-groups/buying-groups-create.md)
-       + [Export account list](./audiences/account-list-export.md)
+       + [Export accounts](./audiences/account-list-export.md)
        + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
        + [Buying group filters in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
     + Account lists {#account-lists}    
        + [Overview](./accounts/account-lists.md)
        + [Use in journeys and programs](./accounts/account-lists-journeys.md)
-    + [Account details](./accounts/account-details.md)
     + [XDM fields](./data/field-mapping.md)
+    + Sales experience {#sales-experience}
+      + [Account details](./accounts/account-details.md)
+      + [Buying group details](./buying-groups/buying-group-details.md)
+      + [Person details](./accounts/person-details.md)
+      + [CRM linking](./accounts/crm-linking.md)
 + Content management {#content-management}
    + Emails {#emails}
       + [Work with email content](./content/emails-list.md)
-      + [Test email rendering](./content/email-test-rendering.md)
+      + Preview and validation {#preview}
+         + [Simulate content](./content/email-simulate-content.md)
+         + [Test email rendering](./content/email-test-rendering.md)
+         + [Spam report](./content/email-spam-report.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
       + Marketo Engage assets {#marketo-engage-dam}
@@ -76,12 +84,21 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Fragments {#visual-fragments}
       + [Overview](./content/fragments.md)
       + [Fragment authoring](./content/fragment-authoring.md)
-   + Forms {#forms}      
+   + Forms (Beta) {#forms}      
       + [Overview](./content/forms.md)
       + [Form design](./content/form-design.md)
-   + Landing pages {#landing-pages}
+   + Landing pages (Beta) {#landing-pages}
       + [Overview](./content/landing-pages.md)       
       + [Landing page design](./content/landing-page-design.md)
+   + Content design tools {#content-design}
+      + [Structure components](./content/structure-components.md)
+      + [Content components](./content/content-components.md)
+      + [Custom CSS](./content/design-custom-css.md)
+   + Brands (Beta) {#brands}
+      + [Overview](./content/brands-overview.md)
+      + [Manage and create](./content/brands-manage-create.md)
+      + [Brand alignment](./content/brand-alignment.md)
+   + [Brand themes](./content/brand-themes.md)
    + [Conditional content](./content/conditional-content.md)
 + Insights dashboards {#dashboards}
     + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
@@ -97,4 +114,5 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Landing page settings](./admin/landing-page-settings.md)
     + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
     + [Configure AEP event definitions](./admin/configure-aep-events.md)
+    + [Configure engagement score weighting](./admin/engagement-score-weighting.md)
     + [Governance](./admin/governance.md)

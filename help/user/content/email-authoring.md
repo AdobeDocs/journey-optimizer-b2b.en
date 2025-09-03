@@ -7,7 +7,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 ---
 # Email message authoring
 
-After you [add a new<!-- or duplicated --> email asset to a journey action node](./add-email.md), you can define the content for the email message. 
+After you [add an email asset to a journey action node](./add-email.md), you can define the content for the email message. 
 
 Click **[!UICONTROL Edit email content]** in the _[!UICONTROL Details]_ tab on the right panel.
 
@@ -29,31 +29,27 @@ After you create and personalize the email content, you can export the content f
 
 ## Design your email from scratch {#design-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="Add Structure components"
->abstract="Structure components define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing the content of your landing page."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
-
 Use the visual content design space to define the structure and content of the email. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
-1. [Add structure and content](#add-structure-and-content) to the email message.
-1. [Add image assets](#add-assets) to the email message.
-1. [Personalize the email content](#personalize-content).
+
+1. In the _[!UICONTROL Create email]_ dialog, choose the type of email content that you want to author.
+
+   * **[!UICONTROL Use Themes]** - Choose this option to create the email in _Theme mode_. In this mode, you can use a defined brand theme to streamline the content authoring process and make sure that the design aligns with defined standards.
+
+   * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
+
+1. [Add structure and content](./email-authoring.md#add-structure-and-content) to the template.
+
 1. [Review and update links](#preview-and-edit-linked-urls).
+
+1. [Test the email](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-When your content is done, click **[!UICONTROL Simulate content]** at the top to check rendering. You can choose the desktop or mobile view.
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 When you are satisfied with the content, click **[!UICONTROL Save]**.
 
@@ -75,23 +71,31 @@ You can personalize the imported content as needed with the visual email editor 
 
 >[!NOTE]
 >
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md).
+> Saved templates may have governance (content locking) settings applied to one or more components. The visual design space provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md).
 
 ## Add structure and content {#structure-content}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Add Structure components"
->abstract="Structure components define the layout of the email. Drag and drop a **Structure** component into the canvas to start designing your email content."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of an email."
-
 {{$include /help/_includes/content-design-components.md}}
 
+### Add custom CSS
+
+You can add your own custom CSS directly within the email design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include content components, such as images, buttons, and text.
+
+With at least one content component in the canvas, select the **[!UICONTROL Body]** component in the left navigation tree to access the custom CSS editor.
+
+>[!NOTE]
+>
+>If your email message is designed using a [template with locked content](./template-content-governance.md), you cannot add custom CSS to your content. The button label changes to **[!UICONTROL View custom CSS]** and any custom CSS already present in the content is read-only.
+
+![Access the body styles](./assets/email-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
+
 ### Add fragments
+
+>[!NOTE]
+>
+>Fragments are not cross-compatible between the _Theme mode_ and _Manual mode_ in the email content. To use a fragment in email content where a theme is applied, the fragment must also be created in _Theme mode_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -127,27 +131,28 @@ Leverage the view and content validation options that are available in the visua
    * Click the _View_ icon for content preview across devices.
    * Select one of the out-of-the-box devices or enter custom dimensions to preview the content.
 
-### More options
+## More options
 
-From the _[!UICONTROL More ...]_ menu at the top of the email design space, you can take the following actions:
+From the _[!UICONTROL More ...]_ menu at the top of the visual design space, you can take the following actions:
 
 ![Click More to access template actions](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Reset email]** - Click this option to clear the visual email designer canvas to a blank slate and restart building your content.
+* **[!UICONTROL Reset email]** - Click this option to clear the email design canvas to a blank slate and restart building your content.
 * **[!UICONTROL Save as fragment]** - Save all or portions of the email as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragment and save it to the list of available fragments. 
-* **[!UICONTROL Change your design]** - Return to the _Design your email_ page. From there, you can choose another template to restart the design process, or choose to design the content from scratch in a black canvas.\
+* **[!UICONTROL Change your design]** - Return to the _Design your email_ page. From there, you can choose another template to restart the design process. You can also choose to design the content from scratch with a blank canvas (_Classic mode_) or using a [brand theme](./brand-themes.md) (_Theme mode_).
 * **[!UICONTROL Save as content template]** - Save the email body as an email template to be reused across multiple emails or email templates. You provide a name and description for the template and save it to the list of saved email templates.
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.
 
-## Check and test the email {#preview-test}
+## Check and test the email {#email-testing}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="Check how your content is rendering"
->abstract="When your content is defined, you can preview it and check if the rendering is correct for the channel that you are using."
+When your message content is defined, you can use test profiles to preview it, send proofs, and review its rendering in desktop and mobile aspect ratios. If you inserted personalized content, you can preview how this content is displayed in the message using test profile data.
 
-When your message content is defined, you can use test profiles to preview it, send proofs, and control its rendering in popular desktop, mobile, and web-based clients. If you inserted personalized content, you can preview how this content is displayed in the message using test profile data.
-
-To preview the email content, click **[!UICONTROL Simulate content]** and then add a test profile to check your message using the test profile data.
+To [preview the email content](./email-simulate-content.md), click **[!UICONTROL Simulate content]** and select a test profile to check your message using the person profile data.
 
 ![Simulate the email content to check your design](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+You can access additional tools to validate and review the email content:
+
+* [Send a proof](./email-simulate-content.md#send-proofs)
+* [Test rendering in email clients](./email-test-rendering.md)
+<!-- * Generate a spam report -->
