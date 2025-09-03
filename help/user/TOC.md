@@ -106,13 +106,14 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Buying Groups Overview](./dashboards/buying-groups-dashboard.md)
     + [Account Journeys Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
+    + [Governance](./admin/governance.md)
     + [User management](./admin/user-management.md)
-    + [Intent data](./admin/intent-data.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
-    + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
-    + [Configure AEP event definitions](./admin/configure-aep-events.md)
-    + [Configure engagement score weighting](./admin/engagement-score-weighting.md)
-    + [Landing page settings](./admin/landing-page-settings.md)
-    + [Governance](./admin/governance.md)
+       + [Landing page settings](./admin/landing-page-settings.md)
+    + Configurations {#configurations}
+       + [AEM Assets repositories](./admin/configure-aem-repositories.md)
+       + [AEP event definitions](./admin/configure-aep-events.md)
+       + [Intent data](./admin/intent-data.md)
+       + [Engagement score weighting](./admin/engagement-score-weighting.md)
