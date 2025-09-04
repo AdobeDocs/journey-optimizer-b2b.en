@@ -36,6 +36,20 @@ The account string identifies the Adobe Journey Optimizer B2B Edition instance t
 
 Enable the **[!UICONTROL Form prefill]** option to allow forms within your landing pages to use prefilled information for known users. When this option is disabled, landing page authors cannot include prefilled form fields.
 
+### Datastream {#datastream}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_landing_pages_datastream"
+>title="Datastream requirement"
+>abstract="Datastream is needed to collect page events from the landing pages on this domain."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_landing_pages_missing_datastream"
+>title="Missing Datastream ID"
+>abstract="The subdomian is missing a Datastream ID, which is required for proper routing. Configure it in Settings to continue"
+
+Set the **[!UICONTROL Datastream]** option to configure a datastream for landing page event collection. 
+
 ## Subdomains {#add-subdomain}
 
 >[!CONTEXTUALHELP]
