@@ -1,6 +1,6 @@
 ---
 title: Buying Group Details
-description: Learn about accessing detailed information and generative AI summaries for buying groups in Journey Optimizer B2B Edition.
+description: View buying group details with AI insights, manage members, and track engagement scores in Journey Optimizer B2B Edition.
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de

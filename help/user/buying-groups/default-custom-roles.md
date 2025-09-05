@@ -1,6 +1,6 @@
 ---
 title: Default and Custom Roles
-description: Learn about default and custom roles, and how to define custom roles for use in buying group roles templates.
+description: Manage default and custom buying group roles - create, edit, and configure role definitions for your business needs in Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6

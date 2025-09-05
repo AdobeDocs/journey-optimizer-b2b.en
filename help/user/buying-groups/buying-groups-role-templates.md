@@ -1,6 +1,6 @@
 ---
 title: Buying Group Role Templates
-description: Learn about defining a role template to be used as a buying group component.
+description: Create buying group role templates with auto-assignment conditions to identify decision makers and stakeholders in Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413

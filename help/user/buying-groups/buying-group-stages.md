@@ -1,6 +1,6 @@
 ---
 title: Buying Group Stages
-description: Learn about buying group stages and how you can define them for tracking journey progression against sales goals.
+description: Configure buying group stages to track sales progression from opportunity to customer conversion in Journey Optimizer B2B Edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
