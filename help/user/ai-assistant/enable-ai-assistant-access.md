@@ -1,6 +1,6 @@
 ---
 title: Enable AI Assistant Access
-description: Learn how to enable AI Assistant in Journey Optimizer B2B Edition.
+description: Grant AI Assistant permissions for users through the Permissions UI to enable access in Journey Optimizer B2B Edition.
 feature: AI Assistant
 role: Admin
 level: Beginner

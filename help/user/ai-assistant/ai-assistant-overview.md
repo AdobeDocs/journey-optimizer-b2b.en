@@ -1,6 +1,6 @@
 ---
 title: AI Assistant in Journey Optimizer B2B Edition
-description: Learn about AI Assistant and how it can help you navigate product concepts and access operational insights tailored to your environment.
+description: Accelerate workflows with AI Assistant - get product knowledge, troubleshooting help, and operational insights for Journey Optimizer B2B Edition.
 feature: AI Assistant
 role: User, Admin
 level: Beginner
