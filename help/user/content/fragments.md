@@ -13,7 +13,7 @@ A fragment is a reusable component that can be referenced in one or more emails 
 
 **Visual fragments**
 
-Visual fragments are pre-defined visual blocks built using the visual design tools that you can reuse across multiple emails or email templates. The current scope of Journey Optimizer B2B Edition and this documentation are that of visual fragments only. 
+Visual fragments are pre-defined visual blocks built using the visual design tools that you can reuse across multiple emails or email templates. The current scope of Journey Optimizer B2B Edition and this documentation includes visual fragments only. 
 
 >[!NOTE]
 >
