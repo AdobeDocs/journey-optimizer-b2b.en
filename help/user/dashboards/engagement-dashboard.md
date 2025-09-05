@@ -1,6 +1,6 @@
 ---
 title: Engagement Overview Dashboard
-description: Learn about how you can use the Engagement Overview dashboard to monitor your engagement efforts.
+description: Monitor real-time engagement metrics for accounts, buying groups, and people with interactive charts and trend analysis in Journey Optimizer B2B Edition.
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
