@@ -2,9 +2,6 @@
 title: Configure Engagement Score Weighting
 description: Learn how to configure custom engagement score weighting to reflect the scoring logic that aligns with your business strategies.
 feature: Setup, Engagement, Buying Groups
-hide: yes
-hidefromtoc: yes
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
 ---
