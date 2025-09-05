@@ -1,6 +1,6 @@
 ---
 title: Configure Engagement Score Weighting
-description: Learn how to configure custom engagement score weighting to reflect the scoring logic that aligns with your business strategies.
+description: Create custom engagement score models with weighted activities to measure buying group engagement and intent accurately in Journey Optimizer B2B Edition.
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f

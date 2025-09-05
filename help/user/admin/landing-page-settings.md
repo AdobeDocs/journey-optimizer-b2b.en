@@ -1,6 +1,6 @@
 ---
 title: Landing page configuration
-description: Learn how to access and configure the landing page settings so that your Marketing team can author and publish web pages to support their campaigns.
+description: Configure landing page subdomains, form prefill settings, and datastreams to enable campaign web page publishing in Journey Optimizer B2B Edition.
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: yes
@@ -46,7 +46,7 @@ Enable the **[!UICONTROL Form prefill]** option to allow forms within your landi
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="Missing Datastream ID"
->abstract="The subdomian is missing a Datastream ID, which is required for proper routing. Configure it in Settings to continue"
+>abstract="The subdomain is missing a Datastream ID, which is required for proper routing. Configure it in Settings to continue"
 
 Set the **[!UICONTROL Datastream]** option to configure a datastream for landing page event collection. 
 

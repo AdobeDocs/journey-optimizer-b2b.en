@@ -1,13 +1,13 @@
 ---
 title: Intent Data
-description: Learn how to assemble and submit keywords for generating intent data for Journey Optimizer B2B Edition.
+description: Configure intent data with keyword mapping to predict customer interest and buying signals for account-based marketing in Journey Optimizer B2B Edition.
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
 ---
 # Intent data
 
-In Journey Optimizer B2B Edition, the Intent Detection model predicts a solution/product of interest with high enough confidence based on a lead's activity. It also leverages other account co-members' activities, along with tagged content. The intent of a person can be interpreted as the probability of having interest in a product. 
+In Journey Optimizer B2B Edition, the Intent Detection model predicts a solution/product of interest with high enough confidence based on a lead's activity. It also leverages other account co-members' activities, along with tagged content. The intent of a person can be interpreted as the probability of having interest in a product.
 
 * Levels of intent - Available on known lead, account, and buying group level.
 * Types of intent signal -  Keywords, product, and solution
