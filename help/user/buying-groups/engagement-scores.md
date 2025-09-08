@@ -1,7 +1,7 @@
 ---
 title: Engagement Scores for Buying Groups
-description: Learn about buying group and person engagement scores, including calculation logic and activity types that determine scoring.
-feature: Buying Groups
+description: Track buying group and person engagement scores with weighted activities and role-based calculations in Journey Optimizer B2B Edition.
+feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
 ---
@@ -44,7 +44,16 @@ Buying group scoring is not _triggered-based_. It is a daily process that evalua
 
 There is a daily frequency cap of 20 for each activity. If a member of a buying group performs the same activity more than 20 times in a single day, the count for the activity is capped at 20.
 
-{{engagement-activities}}
+| Activity name | Description | Engagement type | Max daily frequency count | Default model activity weight |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| Attend Event | A member attended an event | Event | 20 | 60 |
+| Email Clicked | A member clicks a link in an email | Email | 20 | 30 |
+| Email Opened | A member opens an email | Email | 20 | 30 |
+| Form Filled Out | A member fills and submits a form on a web page | Web | 20 | 40 |
+| Interesting Moment | A member has an interesting moment | Curated | 20 | 60 |
+| Link Clicks | A member clicks a link on a web page | Web | 20 | 40 |
+| Page Views | A member views a web page | Web | 20 | 40 |
+| Register for Event | A member registered for an event | Event | 20 | 60 |
 
 <!-- old list
 

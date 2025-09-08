@@ -1,6 +1,6 @@
 ---
 title: In-CRM access to detail pages
-description: Learn how Sales team members can access detailed pages for accounts, contacts, and leads directly from their Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics.
+description: Add custom links for account and contact details to enable direct access to Journey Optimizer B2B insights from Salesforce and Dynamics CRM.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
@@ -8,9 +8,9 @@ exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
 ---
 # In-CRM access to detail pages
 
-Adobe Journey Optimizer B2B Edition allows Sales team members and account managers to access detailed pages for account and buying group information directly from their Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. With this integration, sales representatives can quickly access real-time account and buying group insights, such as engagement history, intent signals, and AI-generated recommendations. This ability empowers the Sales team for faster outreach, smarter prioritization, and better alignment with Marketing.
+Adobe Journey Optimizer B2B Edition allows sales and account team members to access detailed pages for account and buying group information directly from their Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. With this integration, sales representatives can quickly access real-time account and buying group insights, such as engagement history, intent signals, and AI-generated recommendations. This ability empowers the Sales team for faster outreach, smarter prioritization, and better alignment with Marketing.
 
-To enable Sales team members for viewing [account details](account-details.md) and [person details](person-details.md) pages in Journey Optimizer B2B Edition from the CRM, the Salesforce or Dynamics administrator can add a Journey Optimizer B2B Edition link from the account, contact, or lead view.
+To enable sales and account team members for viewing [account details](account-details.md) and [person details](person-details.md) pages in Journey Optimizer B2B Edition from the CRM, the Salesforce or Dynamics administrator can add a link from the account, contact, or lead view.
 
 When a Sales team member uses the link from the CRM instance, the sandbox should be _Prod_, and the IMS organization is determined according to the following ordered logic:
 
@@ -314,7 +314,7 @@ Follow this sequence of tasks to add the custom link as an HTML web resource:
 
     ![Web resource](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   Refer to the [Power Apps documentation](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy) for detailed information about web resource properties and formatting.
+   For detailed information about web resource properties and formatting, see the [Power Apps documentation](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy).
 
 1. Click **[!UICONTROL OK]**.
 

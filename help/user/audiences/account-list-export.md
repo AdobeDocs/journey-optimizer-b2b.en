@@ -1,7 +1,7 @@
 ---
 title: Export Accounts
-description: Learn how to export the account list based on buying groups filter.
-feature: Account Lists
+description: Export filtered account lists to CSV for third-party platforms with buying groups and engagement score filters in Journey Optimizer B2B Edition.
+feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 ---

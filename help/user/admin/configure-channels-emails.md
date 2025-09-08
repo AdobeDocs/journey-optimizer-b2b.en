@@ -1,6 +1,6 @@
 ---
 title: Email Channel Configurations
-description: Learn how to access and review the email settings that are configured in Marketo Engage.
+description: Configure email delivery settings, communication limits, and authentication protocols to optimize deliverability in Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a

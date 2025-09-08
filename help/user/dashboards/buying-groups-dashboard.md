@@ -1,6 +1,6 @@
 ---
 title: Buying Groups Overview Dashboard
-description: Learn about the Buying Groups Overview dashboard and how it enables the Sales Handoff from the Marketing team.
+description: Track buying group progress with completion scores, engagement metrics, and solution interest analytics to enable sales handoff in Journey Optimizer B2B Edition.
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03

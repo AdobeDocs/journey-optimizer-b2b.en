@@ -1,6 +1,6 @@
 ---
 title: Solution Interests
-description: Learn about solution interests and how you can define them for use within your buying groups.
+description: Define solution interests to identify target products and automatically create buying groups with role templates in Journey Optimizer B2B Edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
