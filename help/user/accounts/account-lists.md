@@ -1,6 +1,6 @@
 ---
 title: Account Lists
-description: Learn about account lists and how Marketers can use them to target accounts through account journeys.
+description: Create static and dynamic account lists with custom filters for targeted journey orchestration and account-based marketing in Journey Optimizer B2B Edition.
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
@@ -18,7 +18,7 @@ When an account list is in a _Live_ (published) state, it is available for [use 
 
 >[!NOTE]
 >
->Account lists leverage account data from Marketo Engage to create account segments and lists. This means that if an account segment from Adobe Experience Platform is not actively synced to Marketo Engage, accounts in that Experience Platform segment may not be available in Journey Optimizer B2B Edition account lists. Subsequently, any people from accounts in Experience Plafrom segments that are not synced to Marketo Engage may not be included in person membership counts or counted in trigger events.
+>Account lists leverage account data from Marketo Engage to create account segments and lists. This means that if an account segment from Adobe Experience Platform is not actively synced to Marketo Engage, accounts in that Experience Platform segment may not be available in Journey Optimizer B2B Edition account lists. Subsequently, only people from accounts in Experience Platform segments that are synced to Marketo Engage are included in person membership counts and trigger events.
 
 ## Access and browse account lists
 
