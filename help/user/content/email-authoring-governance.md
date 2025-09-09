@@ -1,13 +1,13 @@
 ---
 title: Author from a Governed Template
-description: Learn how to use email authoring with a governed template that contains locked content components.
+description: Author emails from governed templates with locked content - identify editable areas and work within governance constraints in Journey Optimizer B2B Edition.
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
 ---
 # Author from a governed template
 
-Content designers can enable [governance (_content locking_)](./template-content-governance.md) when creating email templates. Governance features allow them to designate the parts of the design that cannot be changed when used in an account journey. When you [select a saved template](./email-authoring.md#select-a-template) to author an email, the visual designer loads the template so that you can use it as a basis for your email. 
+Content designers can enable [governance (_content locking_)](./template-content-governance.md) when creating email templates. Governance features allow them to designate the parts of the design that cannot be changed when used in an account journey. When you [select a saved template](./email-authoring.md#select-a-template) to author an email, the visual design space loads the template so that you can use it as a basis for your email. 
 
 If the template has governance enabled, an alert is displayed in the properties panel on the right. You can turn on the **[!UICONTROL Highlight editable areas]** at the top of the canvas to see which components and content elements are editable for use in your journey.
 

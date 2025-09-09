@@ -1,6 +1,6 @@
 ---
 title: Work with Experience Manager Assets
-description: Learn how you can use image assets from a connected AEM Assets repository when authoring content in Adobe Journey Optimizer B2B Edition.
+description: Access and use AEM Assets images in content authoring - drag and drop, search, filter, and sync changes automatically in Journey Optimizer B2B Edition.
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0

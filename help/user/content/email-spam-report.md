@@ -1,6 +1,6 @@
 ---
 title: Review the Spam Report
-description: Learn how to check your email content spam scoring in a dedicated Spam report that predicts if ISPs or Mailbox providers would consider it as a spam or not.
+description: Generate spam reports with SpamAssassin scoring to check if emails trigger spam filters and improve deliverability in Journey Optimizer B2B Edition.
 feature: Email Authoring
 level: Beginner
 role: User

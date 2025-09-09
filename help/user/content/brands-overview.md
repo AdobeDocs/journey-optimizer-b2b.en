@@ -1,6 +1,6 @@
 ---
 title: Use Brands for Content Generation and Consistency
-description: Learn about brand guidelines that you can define in Journey Optimizer B2B Edition to generate and optimize your content according to your brand styles and voice.
+description: Define brand guidelines for consistent content creation - maintain visual identity, messaging alignment, and authentic voice in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: yes
@@ -14,7 +14,7 @@ exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Get started with brands"
->abstract="Create and customize your own brands to define your unique visual and verbal identity while making it easier to generate content that matches your brand style and voice."
+>abstract="Create and customize your brands to define your unique visual and verbal identity while making it easier to generate content that matches your brand style and voice."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -67,7 +67,7 @@ A defined brand provides the _source of truth_ for your creative team to use whe
 
 ## Brand-related permissions
 
-Product administrators can enable access to the brand management and brand alignment features by assigning the **[!UICONTROL Manage brand kit]** or **[!UICONTROL Enable AI assistant]** resource permissions through the _Permissions_ app in Adobe Experience Cloud. 
+Product administrators can enable access to the brand management and brand alignment features by assigning the **[!UICONTROL Manage brand kit]** or **[!UICONTROL Enable AI assistant]** resource permissions through the _Permissions_ UI in Adobe Experience Cloud. 
 
 1. In the Permissions app, go to the **[!UICONTROL Roles]** tab and select the desired [role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 

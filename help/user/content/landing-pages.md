@@ -1,6 +1,6 @@
 ---
 title: Landing Pages
-description: Learn about landing pages and how to create and manage them to support account journeys and campaigns.
+description: Create, design, and publish landing pages for account journeys - build from scratch, import HTML, add forms, personalize content, and link from emails in Journey Optimizer B2B Edition.
 feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"

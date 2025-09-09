@@ -1,6 +1,6 @@
 ---
 title: Forms
-description: Learn how to create reusable forms that you can include in your landing pages.
+description: Create and manage reusable forms for business data collection - design fields, set thank you pages, publish, and track usage in Journey Optimizer B2B Edition.
 feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
@@ -28,7 +28,7 @@ The form status determines its availability for use in a landing page or landing
 | -------------------- | ----------- |
 | Draft                | When you create a form, it is in draft status. It remains in this status as you define or edit the fields until you publish it for use in a landing page or landing page template. Available actions:<br/><ul><li>Edit all details<li>Edit in visual design space<li>Publish<li>Duplicate<li>Delete|
 | Published            | When you publish a form, it becomes available for use in a landing page or landing page template. Published form content cannot be modified in the visual design space. Available actions:<br/><ul><li>Edit name, description, or thank-you page<li>Add to a landing page or landing page template<li>Create draft version<li>Duplicate<li>Delete (if not in-use)<li>Embed code|
-| Published with draft | When you create a draft from a published form, the published version remains available for use in a landing page or landing page template, and the draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the landing pages or landing page templates where it is in use. Available actions:<br/><ul><li>Edit name, description, or thank-you pages<li>Add to a landing page or landing page template<li>Edit draft version in visual design space<li>Publish draft version<li>Duplicate<li>Delete (if not in-use)<li>Embed code|
+| Published with draft | When you create a draft from a published form, the published version remains available for use in a landing page or template. The draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the landing pages or landing page templates where it is in use. Available actions:<br/><ul><li>Edit name, description, or thank-you pages<li>Add to a landing page or landing page template<li>Edit draft version in visual design space<li>Publish draft version<li>Duplicate<li>Delete (if not in-use)<li>Embed code|
 
 ![Form status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
