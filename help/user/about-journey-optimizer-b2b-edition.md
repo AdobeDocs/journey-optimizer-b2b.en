@@ -1,6 +1,6 @@
 ---
 title: Adobe Journey Optimizer B2B Edition Overview
-description: Discover Adobe Journey Optimizer B2B Edition key features, use cases, and architectures.
+description: Learn about Adobe Journey Optimizer B2B Edition - orchestrate account journeys with buying groups, AI insights, and Experience Platform integration for B2B marketing.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 ---
 # Adobe Journey Optimizer B2B Edition overview
@@ -9,7 +9,7 @@ With Adobe Journey Optimizer B2B Edition, you can orchestrate account and buying
 
 ## Account journeys with buying groups
 
-In comparing Adobe Journey Optimizer B2B Edition to Marketo Engage and Adobe Journey Optimizer standard, the key distinction is that account journeys move accounts through the Journey, not people. A person who is associated with an account typically has a non-linear progression that is based on the progress of the account through the journey, not based on their individual actions. For instance, when an account is in an early phase of the buying journey, the information sent might be about general solution capabilities or features. Further along in the buying process, the content might become more targeted on particular offers or other items geared toward closing a sale. After the solution is purchased, the information might change again to provide how-to guides, best practices, or information about upcoming events, or with content about additional upsells. Even if an individual has not interacted with the early phase content, you still want to progress them to the current phase based not on their own actions, but based on the actions of the other people within their account or buying group. 
+When comparing Adobe Journey Optimizer B2B Edition to Marketo Engage and Adobe Journey Optimizer standard, the key distinction is that account journeys move accounts through the Journey, not people. A person who is associated with an account typically has a non-linear progression that is based on the progress of the account through the journey, not based on their individual actions. For instance, when an account is in an early phase of the buying journey, the information sent might be about general solution capabilities or features. Further along in the buying process, the content might become more targeted on particular offers or other items geared toward closing a sale. After the solution is purchased, the information might change again to provide how-to guides, best practices, or information about upcoming events, or with content about additional upsells. Even if an individual has not interacted with the early phase content, you still want to progress them to the current phase based not on their own actions, but based on the actions of the other people within their account or buying group. 
 
 ## High-level architecture
 
@@ -31,7 +31,7 @@ The purpose of Experience Platform in this setup is to provide a unified view in
 
 Account journeys are authored in Journey Optimizer B2B Edition, and stored in the Marketo Engage instance associated with the subscription. Although it is stored in the Marketo Engage data store, it is not visible from the Marketo Engage UI, and it is only ever usable from Journey Optimizer B2B Edition. 
 
-An account journey always starts with the selection of an account segment to use as the account audience for the journey. The selection of the audience uses the standard Experience Platform audience selector component. Marketers can then implement the account journey by splitting the paths of the journey according to their own criteria, which can include account criteria, people criteria, or buying group criteria. On each branch, actions can be taken to implement the journey, such as sending an email or waiting for an event to occur.
+An account journey always starts with the selection of an account segment to use as the account audience for the journey. The selection of the audience uses the standard Experience Platform audience selector component. Marketers can then implement the account journey by splitting the journey paths according to their own criteria, which can include account criteria, people criteria, or buying group criteria. On each branch, actions can be taken to implement the journey, such as sending an email or waiting for an event to occur.
 
 After the account journey is created, it must be published. At publish time, the account journey is validated and converted into a series of Marketo Engage campaigns that implement the journey experience. Data Integration Services are contacted to start the data flow that, in-turn, starts the account journey operations. The first step is to create the segments for the Account's People.
 
