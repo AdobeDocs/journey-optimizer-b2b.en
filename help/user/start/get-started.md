@@ -1,6 +1,6 @@
 ---
 title: Onboarding Guidance for Administrators and Marketers
-description: As a new administrator or user in Journey Optimizer B2B Edition, learn about the key areas in the onboarding process.
+description: Onboarding guide for administrators and marketers - set up sandboxes, configure channels, create buying groups, and design account journeys in Journey Optimizer B2B Edition.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c

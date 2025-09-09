@@ -1,6 +1,6 @@
 ---
-title: Journey Optimizer B2B Edition Release Rotes
-description: Learn about the latest features and enhancements in Adobe Journey Optimizer B2B Edition.
+title: Journey Optimizer B2B Edition Release Notes
+description: Discover the latest features, enhancements, and bug fixes in Adobe Journey Optimizer B2B Edition - stay updated with new capabilities and product improvements.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 ---
@@ -124,7 +124,7 @@ This release includes the following new capabilities and enhancements:
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Experience Event forwarding | Administrators can configure Adobe Experience Platform (AEP)-based event definitions. These configurations enable Marketers to create account journeys that react to AEP Experience Events.  <a href="../admin/configure-aep-events.md">Learn more</a> |
-| Feature | Paid media destinations | Qualify known people for paid media campaigns from an account journey so that you can further engage them on advertising platforms, such as LinkedIn. Use a split path node in an account journey to segment account audiences based on specific behavior and identify accounts that warrant additional engagement. Then, add people from those accounts to an external customer audience through Real-time CDP to a supported paid media destination. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Learn more</a> |
+| Feature | Paid media destinations | Qualify known people for paid media campaigns from an account journey so that you can further engage them on advertising platforms, such as LinkedIn. Use a split path node to segment account audiences based on specific behavior and to identify accounts that warrant additional engagement. Then, add people from those accounts to an external customer audience through Real-time CDP to a supported paid media destination. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Learn more</a> |
 | Feature | Intelligent dashboard | View the progression of buying groups through their account journeys, including AI-generated insights for more intelligent analysis and accurate account prioritization. <a href="../dashboards/intelligent-dashboard.md">Learn more</a>|
 | Feature | Buying group and account details | View insights at the buying group and account-level to have more context and historical data when you start engaging with a customer.<p>The buying group details include any first-party intent that is detected. <a href="../buying-groups/buying-group-details.md">Learn more</a><p>The account details accounts highlight the surge in engagement detected intent, so that you can alert sales on accounts that are ready for customized sales focused engagement.  <a href="../accounts/account-details.md">Learn more</a>|
 | Feature | Journeys overview | When you access account journeys, the Overview tab provides a comprehensive snapshot of your active account journeys, detailing account progress using circle and bar charts that categorize and quantify completions, and engagement activities.  <a href="../dashboards/journeys-dashboard.md">Learn more</a>|

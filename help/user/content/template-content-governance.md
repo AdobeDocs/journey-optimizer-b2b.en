@@ -1,6 +1,6 @@
 ---
 title: Template Content Governance
-description: Learn how to lock content elements within your email templates so that you can govern how they can be altered for use in account journeys.
+description: Lock email template components for brand compliance - set governance modes, control content editing, and manage permissions for account journey authors in Journey Optimizer B2B Edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
@@ -13,9 +13,9 @@ For example, you might lock the header and footer that is designed for brand com
 
 ## Activate content governance for the template
 
-After you use the visual designer to [author the structural and content components](./email-template-authoring.md) for your email template, enable governance and apply specific content locking as needed. 
+After you use the visual design space to [author the structural and content components](./email-template-authoring.md) for your email template, enable governance and apply specific content locking as needed. 
 
-1. In the visual designer, access the layers/containers and elements using the _Navigation tree_. 
+1. In the visual design space, access the layers/containers and elements using the _Navigation tree_. 
 
    Click the _Navigation tree_ icon ( ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg) ) to the left of the canvas to display the tree.
 

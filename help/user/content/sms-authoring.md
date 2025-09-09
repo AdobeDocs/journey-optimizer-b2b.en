@@ -1,6 +1,6 @@
 ---
 title: SMS Authoring
-description: Learn how to send text messages (SMS) to your customers on their mobile devices, and to personalize and preview messages in text format from the SMS editor.
+description: Create SMS messages for account journeys with personalization, links, and consent management - preview content and configure delivery settings in Journey Optimizer B2B Edition.
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
@@ -118,7 +118,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Check how your content is rendering"
->abstract="When your content is defined, you can preview it and check the rendering for the channel that you are using."
+>abstract="When your content is defined, you can preview and check the rendering for the channel that you are using."
 
 When your message content is defined, you can use test profiles to simulate (preview) its content. If you inserted personalized content, you can check how this content is displayed in the message using test profile data.
 

@@ -1,6 +1,6 @@
 ---
 title: Account Journeys
-description: Get started with account journeys and learn how to use the Account Journeys list to manage them.
+description: Streamline demand generation with account journeys - create, publish, manage buying group engagement across email, SMS, and events in Journey Optimizer B2B Edition.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040

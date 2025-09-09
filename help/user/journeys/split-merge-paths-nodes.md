@@ -1,13 +1,13 @@
 ---
 title: Split and Merge Paths
-description: Learn about the split paths and merge paths node types that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
+description: Create split and merge path nodes to segment accounts and people with conditional logic, filter by buying groups, and recombine paths in Journey Optimizer B2B Edition.
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 ---
 # Split and merge paths
 
-Use split and merge path nodes in your account journey to segment people or accounts according to the conditions that you define. You can define paths for the journey audience or accounts list according to the conditions, define each path with action and event nodes for each segment, and then combine the paths and continue the journey further.
+Use split and merge path nodes to segment people or accounts according to the conditions that you define. Create paths for the audience or accounts list according to conditions, define each path with action and event nodes for the segment, and then combine the paths and continue the journey.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -36,7 +36,7 @@ _**How a split path by accounts node works**_
 | Path conditions | Description |
 | --------------- | ----------- |
 | Account Attributes | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State |
-| [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. Can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group status <li>Completeness Score <li>Engagement Score |
+| [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. It can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group status <li>Completeness Score <li>Engagement Score |
 
 ### Add a split path by account node
 

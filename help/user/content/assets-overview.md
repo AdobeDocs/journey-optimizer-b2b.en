@@ -1,15 +1,15 @@
 ---
 title: Assets
-description: Learn about asset management in Journey Optimizer B2B Edition.
+description: Manage image assets from Marketo Engage Design Studio and AEM Assets for emails, templates, and fragments in Journey Optimizer B2B Edition.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 ---
 # Assets
 
-In [!DNL Adobe Journey Optimizer B2B Edition], assets are typically the images used when designing content to support account journeys. You can use these images within the emails, email templates, and fragments through an asset selector or a simple drag-and-drop interface within the visual design space.
+In [!DNL Adobe Journey Optimizer B2B Edition], assets are typically the images used when designing content to support account journeys. You can use these images within the emails, email templates, and fragments from the asset selector or a simple drag-and-drop interface within the visual design space.
 
-[!DNL Journey Optimizer B2B Edition] offers marketers access to two types of assets libraries: [!DNL Adobe Marketo Engage] [!DNL Design Studio] and [!DNL Adobe Experience Manager Assets as a Cloud Service]. You may use only the Adobe Marketo Engage Design Studio, or use both libraries configured at the same time (based on the [!DNL Experience Manager Assets] license that you have).
+[!DNL Journey Optimizer B2B Edition] offers marketers access to two types of assets libraries: [!DNL Adobe Marketo Engage] [!DNL Design Studio] and [!DNL Adobe Experience Manager Assets as a Cloud Service]. You might use only the Adobe Marketo Engage Design Studio, or use both libraries configured at the same time (based on the [!DNL Experience Manager Assets] license that you have).
 
 ## Asset management
 

@@ -1,6 +1,6 @@
 ---
 title: Email Message Authoring
-description: Learn how to create email content in Adobe Journey Optimizer B2B. Use templates, HTML imports, and AI-powered tools to personalize and optimize your email communications.
+description: Create emails with visual design tools, HTML import, or templates - use AI Assistant content generation, custom CSS, and personalization in Journey Optimizer B2B Edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb

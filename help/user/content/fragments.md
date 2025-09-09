@@ -1,6 +1,6 @@
 ---
 title: Fragments
-description: Learn how to create and use visual content fragments as reusable components for emails and email templates across Adobe Journey Optimizer B2B Edition.
+description: Create, manage, and reuse visual content fragments for emails and templates - build reusable blocks, publish versions, track usage in Journey Optimizer B2B Edition.
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa

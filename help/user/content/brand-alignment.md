@@ -1,6 +1,6 @@
 ---
-title: Brand alignment scoring
-description: Learn how to create, validate, and manage on-brand content using a brand alignment score.
+title: Brand Alignment Scoring
+description: Evaluate email content with brand alignment scoring - validate colors, fonts, logos, and writing style against brand guidelines in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: yes
@@ -19,7 +19,7 @@ exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Brand alignment score"
->abstract="Your brand alignment score measures how well your content adheres to the brand guidelines, ensuring consistency in colors, fonts, logo, imagery and writing style."
+>abstract="Your brand alignment score measures how well your content adheres to the brand guidelines, ensuring consistency in colors, fonts, logo, imagery, and writing style."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

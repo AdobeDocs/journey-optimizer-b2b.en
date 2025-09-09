@@ -1,6 +1,6 @@
 ---
 title: Listen for an Event
-description: Learn about the Listen for an event node type that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
+description: Configure event nodes for account and people triggers - listen for buying group changes, email clicks, form fills, and Experience Platform events in Journey Optimizer B2B Edition.
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
@@ -80,7 +80,7 @@ Listen for an event based on people when you want to move the account forward in
 
 ### Listen for Marketo Engage event
 
-If you have web pages created in your connected Marketo Engage instance, you can trigger an event based on a visit/no visit to Marketo Engage web pages, as well as Marketo Engage forms that were/were not filled. 
+If you have web pages in your connected Marketo Engage instance, you can trigger an event based on a visit/no visit to these web pages, as well as Marketo Engage forms that were/were not filled. 
 
 1. Select a **[!UICONTROL Listen for an event]** node in the journey map.
 

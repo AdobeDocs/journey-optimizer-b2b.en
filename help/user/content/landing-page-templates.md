@@ -1,6 +1,6 @@
 ---
 title: Landing Page Templates
-description: Learn how to create landing page templates that your Marketing team can use to create new pages to support account journeys and campaigns.
+description: Create, manage, and reuse landing page templates - design from scratch, import HTML, duplicate, delete, and track usage for marketing teams in Journey Optimizer B2B Edition.
 feature: Landing Pages, Templates, Content
 role: User
 hide: yes
@@ -14,7 +14,7 @@ For an accelerated and improved design process, you can create standalone landin
 
 ## Access and manage landing page templates
 
-To access landing page templates in Adobe Journey Optimizer B2B edition, go to **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**. Under _[!UICONTROL WEB]_ in the navigation panel, select **[!UICONTROL Landing page templates]**.
+To access landing page templates in Adobe Journey Optimizer B2B Edition, go to **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**. Under _[!UICONTROL WEB]_ in the navigation panel, select **[!UICONTROL Landing page templates]**.
 
 The displayed listing page includes all the landing page templates created in the instance listed in table format. The table is sorted by the _[!UICONTROL Modified]_ column by default, with the most recently updated templates at the top. Click the column title to change between ascending and descending.
 
@@ -76,7 +76,7 @@ You can personalize the imported content as needed with the visual design space.
 
 ## View page template details
 
-In the _Landinhg page templates_ listing page, click the name of a landing page template to open the details page. From here, you can view basic properties for the landing page template and access the visual design space to make changes to the template content.
+In the _Landing page templates_ listing page, click the name of a landing page template to open the details page. From here, you can view basic properties for the landing page template and access the visual design space to make changes to the template content.
 
 ![Review the landing page template details](./assets/template-details.png){width="700" zoomable="yes"}
 
@@ -144,13 +144,13 @@ From the landing page templates listing page, select multiple templates at a tim
 
 ## Author a landing page from a saved template
 
-From the _Create your landing page_ page, use the _Select design template_ section to start building your content from a template.
+From the _[!UICONTROL Create your landing page]_ page, use the _Select design template_ section to start building your content from a template.
 
 To start building your content with one of the landing page templates created, use the following steps:
 
 1. Access the visual design space from the _Edit content_ page.
 
-   On the _Create your landing page_ page, the _Sample templates_ tab is selected by default.
+   On the _[!UICONTROL Create your landing page]_ page, the _Sample templates_ tab is selected by default.
 
 1. To use a custom landing page template, select the **[!UICONTROL Saved templates]** tab.
 
@@ -162,4 +162,4 @@ To start building your content with one of the landing page templates created, u
 
 1. Click **[!UICONTROL Use this template]** at the top right.
 
-1. From the visual content designer, edit your content as needed.
+1. From the visual content design space, edit your content as needed.

@@ -1,6 +1,6 @@
 ---
 title: Email Template Authoring
-description: Learn how to author content email templates that can be used for account journey emails to reuse your designs easily and efficiently.
+description: Author reusable email templates with visual design tools, custom CSS, fragments, and personalization for account journeys in Journey Optimizer B2B Edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
@@ -15,7 +15,7 @@ After you [create an email template](./email-templates.md#create-an-email-templa
 
 ### Add custom CSS
 
-You can add your own custom CSS directly within the email template design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components such as images, buttons, and text.
+You can add your own custom CSS directly within the email template design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components, such as images, buttons, and text.
 
 With at least one content component in the canvas, select the **[!UICONTROL Body]** component in the left navigation tree to access the custom CSS editor.
 

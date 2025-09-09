@@ -1,6 +1,6 @@
 ---
 title: Adobe Journey Optimizer B2B Edition Documentation
-description: Learn how to use the Adobe Journey Optimizer B2B Edition features for orchestrating account and buying group journeys using built-in generative AI and industry-leading automation.
+description: Complete documentation for Journey Optimizer B2B Edition - explore the available resources for onboarding, creating buying groups, building account journeys, and managing content.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
 # Adobe Journey Optimizer B2B Edition Documentation

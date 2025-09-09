@@ -1,6 +1,6 @@
 ---
 title: Buying Group Filters in Market Engage
-description: Filter leads by buying group membership in Marketo Engage Smart Lists to optimize campaigns and lead scoring with Journey Optimizer B2B Edition.
+description: Filter leads by buying group membership in Marketo Engage Smart Lists with constraints like completeness score to optimize campaigns and lead scoring.
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
