@@ -1,6 +1,6 @@
 ---
 title: Engagement Scores for Buying Groups
-description: Track buying group and person engagement scores with weighted activities and role-based calculations in Journey Optimizer B2B Edition.
+description: Calculate buying group and person engagement scores using weighted activities, role-based calculations, and 30-day scoring windows in Journey Optimizer B2B Edition.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
