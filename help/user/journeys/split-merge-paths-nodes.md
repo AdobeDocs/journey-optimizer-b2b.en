@@ -36,7 +36,12 @@ _**How a split path by accounts node works**_
 | Path conditions | Description |
 | --------------- | ----------- |
 | Account Attributes | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State |
-| [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. It can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group status <li>Completeness Score <li>Engagement Score |
+| [!UICONTROL Special filters] > [!UICONTROL Account has matched buying group] | The account is matched with one or more buying groups. It can be evaluated against one or more of the following constraints for a matched buying group: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score <li> Number of people in buying group role |
+[!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. It can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score |
+
+>[!NOTE]
+>
+>The _[!UICONTROL Has Buying Group]_ filter is marked for future deprecation. For new journeys, use the _[!UICONTROL Account has matched buying group]_ filter, which includes all the same constraints.
 
 ### Add a split path by account node
 
@@ -56,7 +61,7 @@ _**How a split path by accounts node works**_
 
    * Drag and drop filter attributes from the left navigation and complete the match definition.
 
-   * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
+   * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all filters or any filter.
 
       ![Split path node - conditions accounts filter logic](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -77,6 +82,34 @@ _**How a split path by accounts node works**_
 1. Enable the **[!UICONTROL Other accounts]** option to define the default path for accounts that are not a match for the defined segments/paths.
 
    When this option is not enabled, the journey ends for accounts that do not match a defined segment/path within the split.
+
+### Buying group filtering for accounts
+
+You can define a path for accounts associated with buying groups and filter the path using buying group criteria. Use the **[!UICONTROL Account has matched buying group]** filter to define the path segment using a matched buying group. This filter also includes that option to identify accounts based on the number of assigned roles within a matched buying group.
+
+For example, you might want to evaluate buying group readiness based on the depth (number of people) it has in different roles, such as three decision makers and two influencers. In this case, set the condition to target accounts with a minimum of three (3) Decision Makers and two (2) Influencers in a matched buying group:
+
+1. Click **[!UICONTROL Add filter]** and choose the **[!UICONTROL Number of people in buying group role]** filter.
+
+   ![Add filter for Account has matched buying grou and choose Number of people in buying group role](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
+
+1. Define the first role parameter.
+
+   * Set the number of people evaluation to `at least` with a value of `3`.
+   * Set the role evaluation to `is` and choose `Decision Maker` from the list of roles.
+
+1. Repeat step 1 to add another buying group role parameter.
+
+1. Define the second role parameter.
+
+   * Set the number of people evaluation to `at least` with a value of `2`.
+   * Set the role evaluation to `is` and choose `Influencer` from the list of roles.
+
+   ![Conditions example for role depth in matched buying group for an account](./assets/node-split-account-condition-matched-buying-group-role-depth-example.png){width="700" zoomable="yes"}
+
+1. Click **[!UICONTROL Done]** when you have all conditions defined for the path.
+
+For the identified accounts, you might then want to add an action node in the path to update the status of the buying group or stage, or to send a sales alert email.
 
 ## Split paths by people
 
