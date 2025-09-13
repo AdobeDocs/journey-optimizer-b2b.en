@@ -92,11 +92,11 @@ _**How a split path by people node works**_
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### People path conditions
+### People path filters
 
-| Path conditions | Description |
-| --------------- | ----------- |
-| [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities based on conditions that are evaluated using one or more selected email messages from earlier in the journey: <li>[!UICONTROL Clicked link in email] <li>Opened Email <li>Was delivered email <li>Was sent email <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).|
+| Filters | Description |
+| ------------ | ----------- |
+| [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities based on conditions that are evaluated using one or more selected email messages from earlier in the journey: <li>[!UICONTROL Clicked link in email] <li>Opened email <li>Was delivered email <li>Was sent email <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).|
 | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities based on conditions that are evaluated using one or more selected SMS messages from earlier in the journey: <li>[!UICONTROL Clicked link in SMS] <li>[!UICONTROL SMS Bounced] <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). |
 | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value<li>Previous value<li>Reason<li>Source<li>Date of activity<li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change).|
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone<li>Email<li>Web <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).|
@@ -135,7 +135,7 @@ _**How a split path by people node works**_
 
 1. In the conditions editor, add one or more filters to define the split path.
 
-   * Drag and drop any of the people attributes from the left navigation and complete the match definition.
+   * Drag and drop any of the people filters from the left navigation and complete the match definition.
 
       >[!NOTE]
       >
