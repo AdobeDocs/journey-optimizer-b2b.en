@@ -9,7 +9,7 @@ exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 
 Add the _Listen for an event_ node to move your audience forward to the next step in the account journey when an event occurs.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", text-align="center"} [Watch the overview video](#overview-video)
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Administrators can configure Adobe Experience Platform (AEP)-based event definit
 
 2. In an account journey, add a _Listen for an event_ node, and select an Experience Platform event definition for a people-based event.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](../admin/configure-aep-events.md#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", text-align="center"} [Watch the video overview](../admin/configure-aep-events.md#overview-video)
 
 _To include an Experience Event in your journey:_
 
