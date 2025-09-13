@@ -9,7 +9,7 @@ exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 
 Add the _Listen for an event_ node to move your audience forward to the next step in the account journey when an event occurs.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", text-align="center"} [Watch the overview video](#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="center"} [Watch the overview video](#overview-video)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Listen for an event based on people when you want to move the account forward in
 | | [!UICONTROL Fills out form] | Form <br/> Select one or more Marketo Engage forms to match. <br/><br/>Additional constraints (optional): <li>Date of activity</li><li>Querystring</li><li>Client IP address</li><li>Referrer</li><li>User agent</li><li>Platform</li><li>Device</li><br/>Timeout (optional) |
 | Adobe Experience Platform | [!UICONTROL Event definition] | Event type <br/><br/>Additional constraints (optional): <li>Fields</li> <br/>Additional constraints (not supported): <li>Date of activity</li><li>Min. number of times</li><br/> Timeout (optional) |
 
-## People event filters
+### People event filters
 
 | Filters | Description |
 | ------------ | ----------- |
@@ -135,7 +135,7 @@ Administrators can configure Adobe Experience Platform (AEP)-based event definit
 
 2. In an account journey, add a _Listen for an event_ node, and select an Experience Platform event definition for a people-based event.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", text-align="center"} [Watch the video overview](../admin/configure-aep-events.md#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="center"} [Watch the video overview](../admin/configure-aep-events.md#overview-video)
 
 _To include an Experience Event in your journey:_
 
