@@ -11,13 +11,28 @@ Adobe Journey Optimizer B2B Edition continuously delivers new features, enhancem
 Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
-
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## 2025.9 release notes
+
+**Deployment date**: September 29, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Email content collaboration | You can now comment on collaborate with the fellow Journey Optimizer B2B Edition users, in the context of an email asset. You can tag your team members so that they receive an email notification with the details of the comment. Notification is also available as a pulse notification. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts)  |
+| Enhancement | Journeys - Person filters for events  | Trigger people events for a specific role for a matched buying group. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+
+>[!NOTE]
+>
+>The release changes begin deployment on September 29, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
 
 ## 2025.8 release notes
 
@@ -33,10 +48,6 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Conditional content for fragments | You can now use the conditional content tools for visual fragment design. [Learn more](../content/conditional-content.md) |
 | Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. [Learn more](../buying-groups/engagement-scores.md) |
 | Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of the accounts that have reached each account node in the journey. |
-
->[!NOTE]
->
->The release changes begin deployment on August 26, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
 
 ## 2025.6 release notes
 
