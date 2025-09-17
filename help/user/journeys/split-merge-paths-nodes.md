@@ -83,7 +83,7 @@ _**How a split path by accounts node works**_
 
    When this option is not enabled, the journey ends for accounts that do not match a defined segment/path within the split.
 
-### Buying group filtering for accounts
+### Buying group filtering for accounts {#buying-group-filtering-accounts}
 
 You can define a path for accounts associated with buying groups and filter the path using buying group criteria. Use the **[!UICONTROL Account has matched buying group]** filter to define the path segment using a matched buying group. This filter also includes that option to identify accounts based on the number of assigned roles within a matched buying group.
 

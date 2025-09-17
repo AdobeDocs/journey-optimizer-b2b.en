@@ -26,8 +26,8 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Email content collaboration | Customers can now comment on & collaborate with the fellow Marketo users, in the context of an email asset. They can tag their team members (who are on Marketo & have the appropriate asset permissions). And these users will receive an email notification with the details of the comment. This is also available as a Pulse notification to the user. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| Enhancement | Journeys - Split path by number of people in role| Target an account in a journey by a split path by account with the number of people in one or more buying group roles. Use the path to evaluate buying group readiness for sales alerts and other engagement based on role depth. <!-- [Learn more](../admin/engagement-score-weighting.md) -->  |
+| Feature | Email content collaboration | You can now comment on collaborate with the fellow Journey Optimizer B2B Edition users, in the context of an email asset. You can tag your team members so that they receive an email notification with the details of the comment. Notification is also available as a pulse notification. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts)  |
 | Enhancement | Journeys - Person filters for events  | Trigger people events for a specific role for a matched buying group. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
 
 >[!NOTE]
