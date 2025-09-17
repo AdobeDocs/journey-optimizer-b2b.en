@@ -179,7 +179,7 @@ _To include an Experience Event in your journey:_
 
    When the journey is live (published) and reaches the _Listen for an event_ node, it begins listening for AEP Experience Events.
 
-### Add a filter to the people event
+### Add filters to the people event
 
 1. After you define the event, select the **[!UICONTROL Filters]** tab in the _[!UICONTROL Edit Event]_ dialog.
 
