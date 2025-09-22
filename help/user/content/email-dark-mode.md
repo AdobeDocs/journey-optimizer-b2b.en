@@ -1,5 +1,5 @@
 ---
-title: Email content dark mode
+title: Dark Mode for Email Content
 description: Learn about dark mode email design in Journey Optimizer B2B. Preview rendering, customize settings, ensure accessibility, and test across email clients.
 feature: Email Authoring
 topic: Content Management
@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: dark mode, email, color, design
 ---
-# Email content dark mode {#dark-mode}
+# Dark mode for email content {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
@@ -133,11 +133,15 @@ _To define custom dark mode settings:_
 
 1. For the images and icons, define specific assets for dark mode only.
 
-   You cannot change the colors of images and icons, but you can define alternative assets to be used for dark mode.
+   You cannot change the colors of images and icons, but you can define alternative assets to be used for dark mode. You can experiment with different color combinations for your icons or make adjustments for color and saturation for photographic images.
+
+    ![Icons with different color combinations](../assets/do-not-localize/color-contrast-images-diagram.svg){width="80%"}
    
    Select any image and switch to **[!UICONTROL Dark mode]** using the dedicated toggle in the **[!UICONTROL Settings]** pane. Then, select a different image asset.
 
     ![Dark mode image settings showing option to select different image asset for dark mode](./assets/email-color-mode-dark-image-settings.png){width="700" zoomable="yes"}
+
+    See [Add image assets](./email-authoring.md#add-image-assets) for more information about selecting an image asset.
 
 1. At any point during your design changes, select **[!UICONTROL Switch to live view]** to check how your content might render on various device sizes.
 
