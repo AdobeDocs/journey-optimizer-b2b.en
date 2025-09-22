@@ -6,6 +6,7 @@ role: Admin
 hide: yes
 hidefromtoc: yes
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: 94391fe5-2cdf-4a40-8c92-049227bed788
 ---
 # Configure datastreams for event collection {#aep-datstreams}
 
