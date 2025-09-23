@@ -27,4 +27,4 @@ If [alerts are displayed](./add-email.md#check-alerts) at the top-right of the p
 
 ![Open the email to make updates](./assets/email-open-update.png){width="700" zoomable="yes"}
 
-You can also access the [_[!UICONTROL Simulate content]_](./email-simulate-content.md) window. Use these tools to preview the content using a test profile, send proofs, and test the email for deliverability and email client rendering. 
+You can also access the [_[!UICONTROL Simulate content]_](./email-simulate-content.md) window. Use these tools to preview the content using a test profile, send proofs, and test the email for deliverability and email client rendering.
