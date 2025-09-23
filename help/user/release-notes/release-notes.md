@@ -28,7 +28,7 @@ This release includes the following new capabilities and enhancements:
 | ---- | ---- | ----------- |
 | Feature | Email content collaboration | You can now comment on collaborate with the fellow Journey Optimizer B2B Edition users, in the context of an email asset. You can tag your team members so that they receive an email notification with the details of the comment. Notification is also available as a pulse notification. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
 | Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts)  |
-| Enhancement | Journeys - Person filters for events  | Trigger people events for a specific role for a matched buying group. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| Enhancement | Journeys - Person filters for events  | Use people filters to listen for people events. These filters include the ability to target for a specific role for a matched buying group. [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ This release includes the following new capabilities and enhancements:
 | Feature | Account list journey orchestration | Use journey action nodes to add and remove accounts for static account lists. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Learn more</a> |
 | Enhancement | Filter journey membership in Marketo Engage | Use Adobe Journey Optimizer B2B Edition account lists for the journey audience and then use the _Member of an account list_ filter in Marketo Engage smart lists. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Learn more</a> |
 | Feature | Inactivity filters | Orchestrate journeys based on inactivity within Marketo Engage campaigns and programs, including email inactivity, interesting moments, data value changes, and visited web pages. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Learn more</a> |
-| Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Learn more</a> |
+| Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Learn more</a> |
 | Enhancement | Emails list | View a global list of active and draft emails to search, review, and update them across the associated account journeys. <a href="../content/emails-list.md">Learn more</a> |
 
 ## 2025.3 release notes
