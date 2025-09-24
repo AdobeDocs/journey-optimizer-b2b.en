@@ -23,7 +23,7 @@ _Dark mode_ allows a supporting email client or app to display emails with darke
 
 ![Light and dark mode concept diagram showing content rendering in both light and dark themes](../assets/do-not-localize/light-dark-mode.svg)
 
-As you [create your email content](./email-authoring.md) in the [!DNL Journey Optimizer B2B Edition] visual design space, you can switch to the _**[!UICONTROL Dark mode]**_ view. In this view, you can also define specific custom settings to be displayed by the supporting email clients when their dark mode is enabled.
+As you [create your email content](./email-authoring.md) in the [!DNL Journey Optimizer B2B Edition] visual design space, you can switch to the _**[!UICONTROL Dark mode]**_ view. In this view, you can also define specific custom settings for supporting email clients when their dark mode is enabled.
 
 ## Email client considerations
 
