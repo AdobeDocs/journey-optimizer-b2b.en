@@ -95,7 +95,7 @@ You can use the collaboration tools to follow a standard content workflow:
    
    As you enter the first few letters of the name after the symbol, a popup list displays matching user names. You can enter more letters in the name to improve the results.
 
-   ![Popup list displaying tagged users when adding comments for email feedback and notifications](./assets/email-comments-tag-users.png){width="600" zoomable="yes"}
+   ![Popup list displaying tagged users when adding comments for email feedback and notifications](./assets/email-comments-tag-users.png){width="550"}
 
    Select the name to add for notification.
 
