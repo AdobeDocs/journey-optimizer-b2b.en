@@ -21,7 +21,7 @@ keywords: dark mode, email, color, design
 
 _Dark mode_ allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. This type of display can reduce eye strain, save battery life, and improve readability in low-light environments for a more comfortable viewing experience. As a growing trend across major operating systems and apps, it is now an important consideration in modern email design to ensure that content remains legible and visually appealing for all users.
 
-![Light and dark mode concept diagram showing content rendering in both light and dark themes](../assets/do-not-localize/light-dark-mode.svg)
+![Light and dark mode concept diagram showing content rendering in both light and dark themes](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
 As you [create your email content](./email-authoring.md) in the [!DNL Journey Optimizer B2B Edition] visual design space, you can switch to the _**[!UICONTROL Dark mode]**_ view. In this view, you can also define specific custom settings for supporting email clients when their dark mode is enabled.
 
