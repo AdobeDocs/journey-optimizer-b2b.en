@@ -115,7 +115,7 @@ As you style your email content for dark mode in [!DNL Journey Optimizer B2B Edi
 >title="Use a specific image for dark mode"
 >abstract="You can select another image to display when dark mode is on. <br>Adding a specific image for dark mode does not guarantee that it renders correctly in all email clients. Note that all email clients do not support custom dark mode."
 
-After switching to dark mode, you can choose to edit specific styling elements of your content to be displayed only when dark mode is enabled in the recipient's email client (provided it supports that feature).
+After switching to dark mode, you can choose to edit specific styling elements of your content that are displayed only when dark mode is enabled in the recipient's email client (provided it supports that feature).
 
 >[!NOTE]
 >
