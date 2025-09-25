@@ -68,6 +68,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
          + [Simulate content](./content/email-simulate-content.md)
          + [Test email rendering](./content/email-test-rendering.md)
          + [Spam report](./content/email-spam-report.md)
+      + [Email collaboration](./content/email-collaboration-tools.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
       + Marketo Engage assets {#marketo-engage-dam}
