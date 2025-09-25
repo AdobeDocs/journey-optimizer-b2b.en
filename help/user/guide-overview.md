@@ -13,7 +13,7 @@ Here is a sampling of the latest additions and enhancements in the Journey Optim
 
 >[!TAB Email content collaboration]
 
-The [email design space](./email-authoring.md) includes collaboration tools for commenting and resolution so that marketing teams can seamlessly review, discuss, and finalize email assets directly within [!DNL Journey Optimizer B2B Edition]. Instead of sharing drafts over external tools (like chat, email threads, or spreadsheets), users can comment, suggest edits, and resolve feedback within the email design space. You can tag your team members so that they receive an email or pulse notification with the details of the comment. 
+The email design space includes collaboration tools for commenting and resolution so that marketing teams can seamlessly review, discuss, and finalize email assets directly within [!DNL Journey Optimizer B2B Edition]. Instead of sharing drafts over external tools (like chat, email threads, or spreadsheets), users can comment, suggest edits, and resolve feedback within the email design space. You can tag your team members so that they receive an email or pulse notification with the details of the comment. 
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Learn about email content collaboration tools"}
 
