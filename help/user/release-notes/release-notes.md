@@ -33,7 +33,7 @@ This release includes the following new capabilities and enhancements:
 
 >[!NOTE]
 >
->The release changes begin deployment on September 29, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
+>The release changes begin deployment on September 30, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
 
 ## 2025.8 release notes
 
