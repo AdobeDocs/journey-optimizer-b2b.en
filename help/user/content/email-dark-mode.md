@@ -1,6 +1,6 @@
 ---
 title: Dark Mode for Email Content
-description: Learn about dark mode email design in Journey Optimizer B2B. Preview rendering, customize settings, ensure accessibility, and test across email clients.
+description: Learn about dark mode email design in Journey Optimizer B2B Edition. Preview rendering, customize settings, ensure accessibility, and test across email clients.
 feature: Email Authoring
 topic: Content Management
 role: User
