@@ -34,6 +34,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Email authoring](./content/email-authoring.md)
        + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
        + [GenStudio workflows](./content/genstudio-email-workflow.md)
+       + [Dark mode for email design](./content/email-dark-mode.md)
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)

@@ -30,7 +30,7 @@ There are two types of engagement scores:
 
 >[!BEGINSHADEBOX]
 
-The person engagement score is an attribute that is available to use for filtering in [roles templates](./buying-groups-role-templates.md#add-the-template-roles) and [journey splt-path-by-people nodes](../journeys/split-merge-paths-nodes.md#people-path-conditions).
+The person engagement score is an attribute that is available to use for filtering in [roles templates](./buying-groups-role-templates.md#add-the-template-roles) and [journey splt-path-by-people nodes](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Access the configured event definitions](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
