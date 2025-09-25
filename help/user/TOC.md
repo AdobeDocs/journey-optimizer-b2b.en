@@ -40,6 +40,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [SMS authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
     + [Audiences](./audiences/account-audience-overview.md)
+    + [Audience Agent](./agents/audience-agent-b2b.md)
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
        + [Solution interests](./buying-groups/solution-interests.md)
