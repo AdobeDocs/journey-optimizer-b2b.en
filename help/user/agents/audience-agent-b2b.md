@@ -31,4 +31,4 @@ These prompt samples demonstrate some of ways you can use the agent:
 * For <product>, list personas and roles with their opportunity metrics (win rate, membership rate, counts).
 * For accounts in <industry>, what is the average account persona coverage for <product>?
 * Which accounts have low intent for any product but still have open opportunities (worth nurturing)?
-* Which accounts added new intent signals for <account name> this week?
+* Which accounts added new intent signals for <account_name> this week?
