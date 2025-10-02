@@ -24,11 +24,11 @@ Powered by [Adobe Experience Platform Agent Orchestrator](https://experienceleag
 
 ## Prompt Examples
 
-These prompt examples demonstrate some of the different ways to use the agent:
+These prompt samples demonstrate some of ways you can use the agent:
 
 * Show the trend window: earliest and latest updated for account product intent per product.
-* For product X, list buying groups with product intent and scores.
-* For product Y, list personas and roles with their opportunity metrics (win rate, membership rate, counts).
-* For accounts in <industry>, what is the average account persona coverage for product Z?
+* For <product>, list buying groups with product intent and scores.
+* For <product>, list personas and roles with their opportunity metrics (win rate, membership rate, counts).
+* For accounts in <industry>, what is the average account persona coverage for <product>?
 * Which accounts have low intent for any product but still have open opportunities (worth nurturing)?
-* Which accounts added new intent signals for purchasing this week?
+* Which accounts added new intent signals for <account name> this week?
