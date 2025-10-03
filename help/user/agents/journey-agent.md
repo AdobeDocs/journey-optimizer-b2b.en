@@ -31,3 +31,12 @@ End-to-end Journey prompt examples:
 * Create a journey to cross-sell a solution to accounts showing high intent with no open pipeline by providing personalized content for the most important buying group roles.
 * Create a B2B journey to invite decision makers to a roadshow in engaged accounts most likely to open new pipeline.
 * Create a journey for whitespace accounts with intent for my solution, focusing on people engaged with content on the website.
+
+### Multi-stage jouneys
+
+You can act as a B2B journey designer to create a multi-stage customer account journey that informs decision-makers and marketing personas early in the exploration phase.
+The goal is to convert anonymous visitors into known contacts, deepen engagement with relevant content, and prime qualified leads for sales outreach.
+
+* Use channels such as `Email`, `Paid media`, `Personalized web experiences` to leverage existing audience segments and content.
+* Structure the journey across a`wareness`, `consideration`, and `evaluation` stages over 4–6 weeks, with clear triggers, actions, and goals for each stage.
+* Include KPIs such as `conversion rates`, `engagement scores`, and `demo requests`, and return the output as a structured journey flow.
