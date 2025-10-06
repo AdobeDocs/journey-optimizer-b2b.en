@@ -3,7 +3,6 @@ title: Journey Build Agent for B2B
 description: Learn how 
 feature: Account Journeys, AI Assistant
 role: User
-hidefromtoc: yes
 ---
 # Journey Build Agent for B2B
 
