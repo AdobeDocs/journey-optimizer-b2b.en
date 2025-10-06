@@ -19,6 +19,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
+    + [Journey Build Agent](./agents/journey-agent.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
     + [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
