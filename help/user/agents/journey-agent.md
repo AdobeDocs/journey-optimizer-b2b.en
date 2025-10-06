@@ -6,7 +6,7 @@ role: User
 ---
 # Journey Build Agent for B2B
 
-Journey Builder Agent B2B is an AI agent that assist you in journey design/creation, execution, and optimization through automation and data-driven recommendations. Journey Builder Agent for B2B automates and reduces the time taken to execute creation of new B2B journeys.
+Journey Builder Agent B2B is an AI agent that assists you in journey design/creation, execution, and optimization through automation and data-driven recommendations. Journey Builder Agent for B2B automates and reduces the time taken to execute creation of new B2B journeys.
 
 The Journey Agent in Journey Optimizer B2B Edition tackles three of the key challenges facing B2B marketers today:
 
@@ -25,7 +25,7 @@ Jobs to be done:
 
 ### End-to-end B2B Journey Creation (Account or Person Journey) from text files or prompt.
 
-The Journey Agent can generate an end-to-end journey flow (account or person journey) from natural language text prompts and metadata, through a conversational experience rather than a tradition user interface.
+The Journey Agent can generate an end-to-end journey flow (account or person journey) from natural language text prompts and metadata, through a conversational experience rather than a traditional user interface.
 
 End-to-end Journey prompt examples:
 
