@@ -11,6 +11,18 @@ Here is a sampling of the latest additions and enhancements in the Journey Optim
 
 >[!BEGINTABS]
 
+>[!TAB Email content collaboration]
+
+The email design space includes collaboration tools for commenting and resolution so that marketing teams can seamlessly review, discuss, and finalize email assets directly within [!DNL Journey Optimizer B2B Edition]. Instead of sharing drafts over external tools (like chat, email threads, or spreadsheets), users can comment, suggest edits, and resolve feedback within the email design space. You can tag your team members so that they receive an email or pulse notification with the details of the comment. 
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Learn about email content collaboration tools"}
+
+>[!TAB Dark mode email design]
+
+The email design space now includes _dark mode_ preview and settings. Dark mode allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. Preview rendering, customize settings, ensure accessibility, and test across email clients.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Learn about dark mode email design"}
+
 >[!TAB Person engagement score]
 
 B2B marketers can now use a person-level engagement scores as a filter in their split paths for a journey or in a roles template to create buying groups. This score and filtering enables precise targeting of buying groups members to personalize ongoing engagement.
@@ -29,12 +41,6 @@ Assign custom weights to engagement activities so that engagement scores reflect
 
 [!BADGE Learn more]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Learn about custom engagement score weighting"}
 
->[!TAB GenStudio email experiences]
-
-Integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Learn about GenStudio email experiences"}
-
 >[!TAB Custom CSS support]
 
 You can now add your own custom CSS when you are authoring email and landing page content in the design space.
@@ -46,12 +52,6 @@ You can now add your own custom CSS when you are authoring email and landing pag
  To activate and manage the Intent Detection model, you can now upload a spreadsheet to define an intent data mapping category.
 
 [!BADGE Learn more]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Learn about Intent keyword mapping configuration"}
-
->[!TAB Spam detection reporting]
-
-With the new Spam reports, you can avoid spam filters and ensure that messages are delivered to audience inboxes. Generate a _Spam report_ directly in the email design space.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Learn about Spam detection reporting"}
 
 >[!ENDTABS]
 

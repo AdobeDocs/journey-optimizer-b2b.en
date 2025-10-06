@@ -11,7 +11,6 @@ Adobe Journey Optimizer B2B Edition continuously delivers new features, enhancem
 Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
-
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -27,10 +26,10 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Email content collaboration | You can now comment on collaborate with the fellow Journey Optimizer B2B Edition users, in the context of an email asset. You can tag your team members so that they receive an email notification with the details of the comment. Notification is also available as a pulse notification. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| Feature | Dark mode for email design | The email design space now includes the ability to switch to _dark mode_. In dark mode, you can preview the email content and define custom settings to be displayed specifically for recipients who view their emails in dark mode. <!-- [Learn more](../content/email-dark-mode.md) --> |
-| Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| Enhancement | Journeys - Person filters for events  | Use people filters to listen for people events. These filters include the ability to target for a specific role for a matched buying group. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| Feature | Email content collaboration | You can now comment on collaborate with the fellow Journey Optimizer B2B Edition users, in the context of an email asset. You can tag your team members so that they receive an email notification with the details of the comment. Notification is also available as a pulse notification. [Learn more](../content/email-collaboration-tools.md) |
+| Feature | Dark mode for email design | The email design space now includes the ability to switch to _dark mode_. In dark mode, you can preview the email content and define custom settings to be displayed specifically for recipients who view their emails in dark mode. [Learn more](../content/email-dark-mode.md) |
+| Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts)  |
+| Enhancement | Journeys - Person filters for events  | Use people filters to listen for people events. These filters include the ability to target for a specific role for a matched buying group. [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -50,10 +49,6 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Conditional content for fragments | You can now use the conditional content tools for visual fragment design. [Learn more](../content/conditional-content.md) |
 | Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. [Learn more](../buying-groups/engagement-scores.md) |
 | Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of the accounts that have reached each account node in the journey. |
-
->[!NOTE]
->
->The release changes begin deployment on August 26, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
 
 ## 2025.6 release notes
 
@@ -102,7 +97,7 @@ This release includes the following new capabilities and enhancements:
 | Feature | Account list journey orchestration | Use journey action nodes to add and remove accounts for static account lists. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Learn more</a> |
 | Enhancement | Filter journey membership in Marketo Engage | Use Adobe Journey Optimizer B2B Edition account lists for the journey audience and then use the _Member of an account list_ filter in Marketo Engage smart lists. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Learn more</a> |
 | Feature | Inactivity filters | Orchestrate journeys based on inactivity within Marketo Engage campaigns and programs, including email inactivity, interesting moments, data value changes, and visited web pages. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Learn more</a> |
-| Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Learn more</a> |
+| Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Learn more</a> |
 | Enhancement | Emails list | View a global list of active and draft emails to search, review, and update them across the associated account journeys. <a href="../content/emails-list.md">Learn more</a> |
 
 ## 2025.3 release notes

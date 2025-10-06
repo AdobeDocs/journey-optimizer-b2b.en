@@ -36,7 +36,12 @@ _**How a split path by accounts node works**_
 | Path conditions | Description |
 | --------------- | ----------- |
 | Account Attributes | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State |
-| [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. It can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group status <li>Completeness Score <li>Engagement Score |
+| [!UICONTROL Special filters] > [!UICONTROL Account has matched buying group] | The account is matched with one or more buying groups. It can be evaluated against one or more of the following constraints for a matched buying group: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score <li> Number of people in buying group role |
+[!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. It can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score |
+
+>[!NOTE]
+>
+>The _[!UICONTROL Has Buying Group]_ filter is marked for future deprecation. For new journeys, use the _[!UICONTROL Account has matched buying group]_ filter, which includes all the same constraints.
 
 ### Add a split path by account node
 
@@ -56,7 +61,7 @@ _**How a split path by accounts node works**_
 
    * Drag and drop filter attributes from the left navigation and complete the match definition.
 
-   * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
+   * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all filters or any filter.
 
       ![Split path node - conditions accounts filter logic](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -78,6 +83,34 @@ _**How a split path by accounts node works**_
 
    When this option is not enabled, the journey ends for accounts that do not match a defined segment/path within the split.
 
+### Buying group filtering for accounts {#buying-group-filtering-accounts}
+
+You can define a path for accounts associated with buying groups and filter the path using buying group criteria. Use the **[!UICONTROL Account has matched buying group]** filter to define the path segment using a matched buying group. This filter also includes that option to identify accounts based on the number of assigned roles within a matched buying group.
+
+For example, you might want to evaluate buying group readiness based on the depth (number of people) it has in different roles, such as three decision makers and two influencers. In this case, set the condition to target accounts with a minimum of three (3) Decision Makers and two (2) Influencers in a matched buying group:
+
+1. Click **[!UICONTROL Add filter]** and choose the **[!UICONTROL Number of people in buying group role]** filter.
+
+   ![Add filter for Account has matched buying grou and choose Number of people in buying group role](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
+
+1. Define the first role parameter.
+
+   * Set the number of people evaluation to `at least` with a value of `3`.
+   * Set the role evaluation to `is` and choose `Decision Maker` from the list of roles.
+
+1. Repeat step 1 to add another buying group role parameter.
+
+1. Define the second role parameter.
+
+   * Set the number of people evaluation to `at least` with a value of `2`.
+   * Set the role evaluation to `is` and choose `Influencer` from the list of roles.
+
+   ![Conditions example for role depth in matched buying group for an account](./assets/node-split-account-condition-matched-buying-group-role-depth-example.png){width="700" zoomable="yes"}
+
+1. Click **[!UICONTROL Done]** when you have all conditions defined for the path.
+
+For the identified accounts, you might then want to add an action node in the path to update the status of the buying group or stage, or to send a sales alert email.
+
 ## Split paths by people
 
 Split by people paths can include only people actions. These paths cannot be split again and automatically join back.
@@ -92,11 +125,11 @@ _**How a split path by people node works**_
 
 ![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### People path conditions
+### People path filters
 
-| Path conditions | Description |
-| --------------- | ----------- |
-| [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities based on conditions that are evaluated using one or more selected email messages from earlier in the journey: <li>[!UICONTROL Clicked link in email] <li>Opened Email <li>Was delivered email <li>Was sent email <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).|
+| Filters | Description |
+| ------------ | ----------- |
+| [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities based on conditions that are evaluated using one or more selected email messages from earlier in the journey: <li>[!UICONTROL Clicked link in email] <li>Opened email <li>Was delivered email <li>Was sent email <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).|
 | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities based on conditions that are evaluated using one or more selected SMS messages from earlier in the journey: <li>[!UICONTROL Clicked link in SMS] <li>[!UICONTROL SMS Bounced] <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). |
 | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value<li>Previous value<li>Reason<li>Source<li>Date of activity<li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change).|
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone<li>Email<li>Web <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).|
@@ -135,7 +168,7 @@ _**How a split path by people node works**_
 
 1. In the conditions editor, add one or more filters to define the split path.
 
-   * Drag and drop any of the people attributes from the left navigation and complete the match definition.
+   * Drag and drop any of the people filters from the left navigation and complete the match definition.
 
       >[!NOTE]
       >
