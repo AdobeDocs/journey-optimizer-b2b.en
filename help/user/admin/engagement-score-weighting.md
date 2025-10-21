@@ -1,10 +1,7 @@
 ---
 title: Configure Engagement Score Weighting
-description: Learn how to configure custom engagement score weighting to reflect the scoring logic that aligns with your business strategies.
+description: Create custom engagement score models with weighted activities to measure buying group engagement and intent accurately in Journey Optimizer B2B Edition.
 feature: Setup, Engagement, Buying Groups
-hide: yes
-hidefromtoc: yes
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
 ---
@@ -22,11 +19,13 @@ As an administrator, you can define multiple engagement score models for your or
 
    From this page, you can [create (duplicate)](#create-an-engagement-score-model), [activate](#activate-a-score-model), and [edit](#change-the-engagement-weighting-settings) engagement score models.
 
-   ![Access the configured event definitions](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+    ![Access the configured event definitions](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   The table displays the most recently updated models at the top (sorted by _[!UICONTROL Last updated]_) and includes the ability to search by _[!UICONTROL Name]_. You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes.
+   The table displays the most recently updated models at the top (sorted by _[!UICONTROL Last updated]_) and includes the ability to search by _[!UICONTROL Name]_.
 
-  ![Columns to display in the engagement score weighting list](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes.
+
+   ![Columns to display in the engagement score weighting list](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. To access the details for an engagement score model, click the name.
 

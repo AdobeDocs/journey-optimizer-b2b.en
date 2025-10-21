@@ -1,6 +1,6 @@
 ---
 title: Intelligent Dashboard
-description: Learn about the Intelligent Dashboard, which provides a comprehensive view of buying group and account metrics
+description: Access AI-powered insights for buying groups and accounts with engagement metrics, intent detection, and predictive analytics in Journey Optimizer B2B Edition.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
@@ -147,7 +147,7 @@ The _[!UICONTROL Surging accounts]_ section displays a visualization of the acco
 
 >[!NOTE]
 >
->Account surge data is limited to accounts that are ingested by Journey Optimizer B2B Edition in an account audience through account journeys or buying groups.
+>Account surge data includes only accounts that Journey Optimizer B2B Edition ingests through account journeys or buying groups.
 
 ![Account surge data visualization](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -191,7 +191,7 @@ The _[!UICONTROL Account highlights]_ section is organized into two rows to surf
 
 >[!NOTE]
 >
->Account highlight data is limited to accounts that are ingested by Journey Optimizer B2B Edition in an account audience through account journeys or buying groups.
+>Account highlights data includes only accounts that Journey Optimizer B2B Edition ingests through account journeys or buying groups.
 
 ![Account highlights](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

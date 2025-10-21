@@ -1,6 +1,6 @@
 ---
-title: Journey Optimizer B2B Edition Release Rotes
-description: Learn about the latest features and enhancements in Adobe Journey Optimizer B2B Edition.
+title: Journey Optimizer B2B Edition Release Notes
+description: Discover the latest features, enhancements, and bug fixes in Adobe Journey Optimizer B2B Edition - stay updated with new capabilities and product improvements.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 ---
@@ -11,13 +11,29 @@ Adobe Journey Optimizer B2B Edition continuously delivers new features, enhancem
 Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
-
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## 2025.9 release notes
+
+**Deployment date**: September 30, 2025
+
+This release includes the following new capabilities and enhancements:
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Email content collaboration | You can now comment on collaborate with the fellow Journey Optimizer B2B Edition users, in the context of an email asset. You can tag your team members so that they receive an email notification with the details of the comment. Notification is also available as a pulse notification. |
+| Feature | Dark mode for email design | The email design space now includes the ability to switch to _dark mode_. In dark mode, you can preview the email content and define custom settings to be displayed specifically for recipients who view their emails in dark mode. |
+| Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts)  |
+| Enhancement | Journeys - Person filters for events  | Use people filters to listen for people events. These filters include the ability to target for a specific role for a matched buying group. [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+
+>[!NOTE]
+>
+>The release changes begin deployment on September 30, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
 
 ## 2025.8 release notes
 
@@ -29,14 +45,10 @@ This release includes the following new capabilities and enhancements:
 | ---- | ---- | ----------- |
 | Feature | Person engagement score filters for roles templates and journeys | You can now use _Person engagement score_ as a filter in Roles templates that are used to create buying groups and in split path journey nodes. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Feature | Buying groups custom roles configuration | You now have the flexibility to configure custom roles for buying groups, which allows you to define the roles specific to your use cases. [Learn more](../buying-groups/default-custom-roles.md)  |
-| Feature | Engagement score weighting configuration | You can now assign weights to the activities that influence the buying group engagement score. This feature includes defining your own custom score models and changing the active model that influences engagement score calculations. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Feature | Engagement score weighting configuration | You can now assign weights to the activities that influence the buying group engagement score. This feature includes defining your own custom score models and changing the active model that influences engagement score calculations. [Learn more](../admin/engagement-score-weighting.md) |
 | Enhancement | Conditional content for fragments | You can now use the conditional content tools for visual fragment design. [Learn more](../content/conditional-content.md) |
 | Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. [Learn more](../buying-groups/engagement-scores.md) |
 | Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of the accounts that have reached each account node in the journey. |
-
->[!NOTE]
->
->The release changes begin deployment on August 26, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
 
 ## 2025.6 release notes
 
@@ -85,7 +97,7 @@ This release includes the following new capabilities and enhancements:
 | Feature | Account list journey orchestration | Use journey action nodes to add and remove accounts for static account lists. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Learn more</a> |
 | Enhancement | Filter journey membership in Marketo Engage | Use Adobe Journey Optimizer B2B Edition account lists for the journey audience and then use the _Member of an account list_ filter in Marketo Engage smart lists. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Learn more</a> |
 | Feature | Inactivity filters | Orchestrate journeys based on inactivity within Marketo Engage campaigns and programs, including email inactivity, interesting moments, data value changes, and visited web pages. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Learn more</a> |
-| Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Learn more</a> |
+| Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Learn more</a> |
 | Enhancement | Emails list | View a global list of active and draft emails to search, review, and update them across the associated account journeys. <a href="../content/emails-list.md">Learn more</a> |
 
 ## 2025.3 release notes
@@ -124,7 +136,7 @@ This release includes the following new capabilities and enhancements:
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Experience Event forwarding | Administrators can configure Adobe Experience Platform (AEP)-based event definitions. These configurations enable Marketers to create account journeys that react to AEP Experience Events.  <a href="../admin/configure-aep-events.md">Learn more</a> |
-| Feature | Paid media destinations | Qualify known people for paid media campaigns from an account journey so that you can further engage them on advertising platforms, such as LinkedIn. Use a split path node in an account journey to segment account audiences based on specific behavior and identify accounts that warrant additional engagement. Then, add people from those accounts to an external customer audience through Real-time CDP to a supported paid media destination. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Learn more</a> |
+| Feature | Paid media destinations | Qualify known people for paid media campaigns from an account journey so that you can further engage them on advertising platforms, such as LinkedIn. Use a split path node to segment account audiences based on specific behavior and to identify accounts that warrant additional engagement. Then, add people from those accounts to an external customer audience through Real-time CDP to a supported paid media destination. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Learn more</a> |
 | Feature | Intelligent dashboard | View the progression of buying groups through their account journeys, including AI-generated insights for more intelligent analysis and accurate account prioritization. <a href="../dashboards/intelligent-dashboard.md">Learn more</a>|
 | Feature | Buying group and account details | View insights at the buying group and account-level to have more context and historical data when you start engaging with a customer.<p>The buying group details include any first-party intent that is detected. <a href="../buying-groups/buying-group-details.md">Learn more</a><p>The account details accounts highlight the surge in engagement detected intent, so that you can alert sales on accounts that are ready for customized sales focused engagement.  <a href="../accounts/account-details.md">Learn more</a>|
 | Feature | Journeys overview | When you access account journeys, the Overview tab provides a comprehensive snapshot of your active account journeys, detailing account progress using circle and bar charts that categorize and quantify completions, and engagement activities.  <a href="../dashboards/journeys-dashboard.md">Learn more</a>|

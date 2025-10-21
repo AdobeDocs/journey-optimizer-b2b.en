@@ -1,6 +1,6 @@
 ---
 title: Edit Images with Adobe Express
-description: Learn about using Adobe Express to edit images in the Journey Optimizer B2B Edition workspace.
+description: Edit images natively with Adobe Express in Journey Optimizer B2B Edition - resize, crop, remove backgrounds, convert formats, and save to your workspace.
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
@@ -50,7 +50,7 @@ _To modify an image:_
 
     ![Open the image in the Adobe Express editor](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
-    If the image is in use, an alert dialog appears to inform you that any changes you make will affect that content. Click **[!UICONTROL Continue]** to proceed to the Adobe Express editor.
+    If the image is in use, an alert dialog appears to inform you that your changes affect that content. Click **[!UICONTROL Continue]** to proceed to the Adobe Express editor.
 
     ![An alert provides information about image usage](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
@@ -64,7 +64,7 @@ If you have an Enterprise license for Adobe Express, you can access and use the 
 
 ![Open the image in the Adobe Express Enterprise editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-The [Adobe Express User Guide](https://helpx.adobe.com/express/user-guide.html){target="_blank"} provides detailed information about the available editing capabilities. 
+The [Adobe Express User Guide](https://helpx.adobe.com/express/web.html){target="_blank"} provides detailed information about the available editing capabilities. 
 
 ## Quick actions in Adobe Express
 

@@ -1,6 +1,6 @@
 ---
 title: Fragment Authoring
-description: Learn how to author content fragments that can be reused for your emails and template designs for efficiency and to maintain design and branding standards.
+description: Author reusable content fragments with visual design tools - add components, personalization, conditional content, and customizable fields for emails and templates in Journey Optimizer B2B Edition.
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2

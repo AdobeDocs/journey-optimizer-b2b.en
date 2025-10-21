@@ -1,6 +1,6 @@
 ---
 title: Adobe Journey Optimizer B2B Edition Documentation
-description: Learn how to use the Adobe Journey Optimizer B2B Edition features for orchestrating account and buying group journeys using built-in generative AI and industry-leading automation.
+description: Complete documentation for Journey Optimizer B2B Edition - explore the available resources for onboarding, creating buying groups, building account journeys, and managing content.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
@@ -10,6 +10,18 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 Here is a sampling of the latest additions and enhancements in the Journey Optimizer B2B Edition application and documentation. 
 
 >[!BEGINTABS]
+
+>[!TAB Email content collaboration]
+
+The email design space includes collaboration tools for commenting and resolution so that marketing teams can seamlessly review, discuss, and finalize email assets directly within [!DNL Journey Optimizer B2B Edition]. Instead of sharing drafts over external tools (like chat, email threads, or spreadsheets), users can comment, suggest edits, and resolve feedback within the email design space. You can tag your team members so that they receive an email or pulse notification with the details of the comment. 
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Learn about email content collaboration tools"}
+
+>[!TAB Dark mode email design]
+
+The email design space now includes _dark mode_ preview and settings. Dark mode allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. Preview rendering, customize settings, ensure accessibility, and test across email clients.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Learn about dark mode email design"}
 
 >[!TAB Person engagement score]
 
@@ -23,11 +35,11 @@ B2B marketing strategists can now expand buying group precision with custom buyi
 
 [!BADGE Learn more]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Learn about custom buying group roles"}
 
->[!TAB GenStudio email experiences]
+>[!TAB Custom engagement score weighting]
 
-Integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition.
+Assign custom weights to engagement activities so that engagement scores reflect your highest value activities. By emphasizing high-intent signals, your team can better identify and prioritize accounts with the strongest buying potential.
 
-[!BADGE Learn more]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Learn about GenStudio email experiences"}
+[!BADGE Learn more]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Learn about custom engagement score weighting"}
 
 >[!TAB Custom CSS support]
 
@@ -40,12 +52,6 @@ You can now add your own custom CSS when you are authoring email and landing pag
  To activate and manage the Intent Detection model, you can now upload a spreadsheet to define an intent data mapping category.
 
 [!BADGE Learn more]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Learn about Intent keyword mapping configuration"}
-
->[!TAB Spam detection reporting]
-
-With the new Spam reports, you can avoid spam filters and ensure that messages are delivered to audience inboxes. Generate a _Spam report_ directly in the email design space.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Learn about Spam detection reporting"}
 
 >[!ENDTABS]
 

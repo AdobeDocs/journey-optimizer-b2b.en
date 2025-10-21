@@ -1,6 +1,6 @@
 ---
 title: Use Account Lists in Journeys and Programs
-description: Learn how to orchestrate account list membership in journeys and filter Marketo Engage Smart Lists based on account list membership.
+description: Use account lists in journey orchestration, add/remove accounts dynamically, and filter Marketo Engage Smart Lists in Journey Optimizer B2B Edition.
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
@@ -29,7 +29,7 @@ All account journeys start with an [_Account audience_ node](../journeys/account
 
 Within an account journey, add accounts to a static account list using [a _Take an Action_ node](../journeys/action-nodes.md).
 
-For example, you might have a journey path where you send an email and some account take various actions as a response actions. You consider this activity to be a qualification point in the journey and want to add them to an account list that is used to as the audience for another journey with a different flow for qualified accounts.
+For example, you might have a journey path where you send an email and some account take various actions as a response actions. You consider this activity to be a qualification point in the journey. With the qualification, you want to add them to an account list that is used to as the audience for another journey with a different flow for qualified accounts.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ For example, you might have a journey path where you send an email and some acco
 
 Within an account journey, remove accounts from a static account list using [a _Take an Action_ node](../journeys/action-nodes.md).
 
-For example, you might have a journey path where you send an email and some account take various actions as a response actions. You consider this activity to be a qualification point in the journey and want to remove them from an account list that is used to as the audience for another journey that sends additional emails so that you don't duplicate your qualification communications.
+For example, you might have a journey path where you send an email and some account take various actions as a response actions. You consider this activity to be a qualification point in the journey. With this qualification, you want to remove them from an account list that is used to as the audience for another journey that sends additional emails so that you don't duplicate your qualification communications.
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
 title: Sales Alert Email
-description: Learn how to include an automated sales alert email in your account journeys.
+description: Configure sales alert emails in account journeys to notify sales teams - includes buying group summaries, AI insights, and member details in Journey Optimizer B2B Edition.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
@@ -59,4 +59,4 @@ You can set up sales alert email deliveries in an account journey when you add a
 
    ![Create new email dialog](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   After the account journey is published, the sales alert is delivered according to these parameters.
+   When the account journey is live, the sales alert is delivered according to these parameters.

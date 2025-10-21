@@ -1,11 +1,11 @@
 ---
-title: AI Assistant for Email Authoring
-description: Learn how to use AI Assistant to optimize the email content that is used in Account Journeys.
+title: AI Assistant for Email Content Generation
+description: Generate email content with AI Assistant - create message content, subject lines, and preheaders with brand assets and buying group role targeting in Journey Optimizer B2B Edition.
 feature: AI Assistant, Email Authoring, Content
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
 ---
-# AI Assistant for email authoring
+# AI Assistant for email content generation
 
 As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content quickly and efficiently. AI Assistant for email authoring in Adobe Journey Optimizer B2B Edition is Adobe's AI-powered content generation capability that revolutionizes the way marketers create professional and brand-consistent email content. With advanced GenAI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more. AI Assistant makes the creation and execution of email marketing campaigns intuitive, simple, and hassle-free. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
 
@@ -198,11 +198,11 @@ An email preheader is the short summary text that follows the subject line when 
 
 After you [create and personalize your email](./email-authoring.md), use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your email body content to the next level.
 
-In the email designer, AI Assistant can help you optimize the impact of your deliveries by generating the full email body, targeted text content, and recommendations for images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement.
+In the email design space, AI Assistant can help you optimize the impact of your deliveries by generating the full email body, targeted text content, and recommendations for images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement.
 
 1. Create an email from an account journey and click **[!UICONTROL Open Email Designer]** or **[!UICONTROL Add Email Content]**.
 
-1. Select and open an email template in the visual email designer.
+1. Select and open an email template in the visual email design space.
 
 1. Personalize the email as needed for the journey node.
 
@@ -214,7 +214,7 @@ In the email designer, AI Assistant can help you optimize the impact of your del
 
 The following steps describe the task sequence for using AI Assistant to refine an existing email template:
 
-1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
+1. In the email design space, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
    ![AI Assistant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -241,7 +241,7 @@ The following steps describe the task sequence for using AI Assistant to refine 
    * **[!UICONTROL Communication strategy]** - Choose the most suitable communication style for your generated text.
    * **[!UICONTROL Language]** - Select the language in which you want your content to be generated.
    * **[!UICONTROL Tone]** - Choose a tone that resonates with your audience. If you specify that you want to sound informative, playful, or persuasive, AI Assistant can adapt the message accordingly.
-   * **Content type** - Choose an option that reflects the nature of the visual elements. This setting distinguishes between different forms of visual representation such as photos, graphics, or art.
+   * **Content type** - Choose an option that reflects the nature of the visual elements. This setting distinguishes between different forms of visual representation, such as photos, graphics, or art.
 
 1. When your prompt is ready, click **[!UICONTROL Generate]**. 
 
@@ -253,15 +253,15 @@ The following steps describe the task sequence for using AI Assistant to refine 
 
       ![AI Assistant - text settings](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
-1. Click **[!UICONTROL Select]** to replace the template contents with the selected variant and return to the email designer.
+1. Click **[!UICONTROL Select]** to replace the template contents with the selected variant and return to the email design space.
 
-   In the email designer, you can use the editing and formatting tools on the canvas to alter the content, as well as the _[!UICONTROL Settings]_ and _[!UICONTROL Style]_ options on the right.
+   In the email design space, you can use the editing and formatting tools on the canvas to alter the content, as well as the _[!UICONTROL Settings]_ and _[!UICONTROL Style]_ options on the right.
 
 >[!TAB Text generation]
 
 The following steps describe the task sequence for using AI Assistant to refine or enhance the text content for an existing email:
 
-1. In the email designer, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
+1. In the email design space, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) at the right.
 
    ![AI Assistant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -309,9 +309,9 @@ The following steps describe the task sequence for using AI Assistant to refine 
 
    ![AI Assistant preview of text variantion and refinement options](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. When you have the content that you want, click **[!UICONTROL Select]** to replace the text with the selected variant and return to the email designer.
+1. When you have the content that you want, click **[!UICONTROL Select]** to replace the text with the selected variant and return to the email design space.
 
-   In the email designer, you can use the editing and formatting tools on the canvas to alter the text, as well as the _[!UICONTROL Settings]_ and _[!UICONTROL Style]_ options on the right.
+   In the email design space, you can use the editing and formatting tools on the canvas to alter the text, as well as the _[!UICONTROL Settings]_ and _[!UICONTROL Style]_ options on the right.
 
 >[!TAB Image recommendations]
 
@@ -357,8 +357,8 @@ You can use AI Assistant to optimize and improve your assets and ensure a more u
    
    To view a full-screen version of the selected variation, click **[!UICONTROL Preview]**.
 
-1. Highlight the image that you want and click **[!UICONTROL Select]** to replace the image or placeholder with the selected item and return to the email designer.
+1. Highlight the image that you want and click **[!UICONTROL Select]** to replace the image or placeholder with the selected item and return to the email design space.
 
-   In the email designer, you can use the editing and formatting tools on the canvas to alter the content, as well as the _[!UICONTROL Settings]_ and _[!UICONTROL Style]_ options on the right.
+   In the email design space, you can use the editing and formatting tools on the canvas to alter the content, as well as the _[!UICONTROL Settings]_ and _[!UICONTROL Style]_ options on the right.
 
 >[!ENDTABS]

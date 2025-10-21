@@ -1,6 +1,6 @@
 ---
 title: Landing Page Template Design
-description: Learn how to design and author content for landing page templates that Marketers can reuse to create landing pages.
+description: Design landing page templates for reuse - add content components, forms, custom CSS, personalization, and device preview in Journey Optimizer B2B Edition.
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
@@ -16,7 +16,7 @@ After you [create a landing page template](./landing-page-templates.md#create-a-
 
 ### Add custom CSS
 
-You can add your own custom CSS directly within the landing page design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components such as images, buttons, and text.
+You can add your own custom CSS directly within the landing page design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components, such as images, buttons, and text.
 
 With at least one content component in the canvas, select the **[!UICONTROL Body]** component in the left navigation tree to access the custom CSS editor.
 

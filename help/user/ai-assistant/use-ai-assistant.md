@@ -1,6 +1,6 @@
 ---
 title: Use AI Assistant
-description: Learn how AI Assistant can help you to get the most from the Journey Optimizer B2B Edition capabilities.
+description: Ask AI Assistant product knowledge questions and get operational insights about journeys, audiences, and buying groups in Journey Optimizer B2B Edition.
 feature: AI Assistant
 role: User
 level: Beginner

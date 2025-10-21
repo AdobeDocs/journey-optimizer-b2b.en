@@ -1,6 +1,6 @@
 ---
 title: Form Design
-description: Learn how to design reusable forms used for collecting business lead information.
+description: Design forms with field types, validation, styling, and XDM schema attributes for business data collection in Journey Optimizer B2B Edition.
 feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
@@ -73,7 +73,7 @@ Use the field design tools to construct the set of fields and layout that you ne
       >
       >_Instructions vs. placeholder text_<br/>
       >
-      >Use these two properties to guide visitors for filling out the field. Instruction text appears as a tool tip/popup text when hovering the pointer over the field. Placeholder text appears _dimmed_ inside the field and disappears as the visitor engers their text into the field. You can use both methods, or just one.
+      >Use these two properties to guide visitors for filling out the field. Instruction text appears as a tool tip/popup text when hovering the pointer over the field. Placeholder text appears _dimmed_ inside the field and disappears as the visitor enters their text into the field. You can use both methods, or just one.
 
    * **[!UICONTROL Default value]** - Use this option to specify a default value for the field. 
 

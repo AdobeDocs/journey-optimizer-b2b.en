@@ -1,6 +1,6 @@
 ---
 title: Buying Group Stages
-description: Learn about buying group stages and how you can define them for tracking journey progression against sales goals.
+description: Build custom buying group stage models with entry, success, and failure stages to track progression and trigger account journey actions in Journey Optimizer B2B Edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
@@ -9,7 +9,7 @@ exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
 
 Buying group stages are designed to track the progression of buying groups in converting opportunities into customers. Use this feature to track buying group progression and identify the next best actions for buying group members. 
 
-Define the stages within a single staging model, defining multiple stages and the transition flow between them. One or more stages are designated for entry into the lifecycle. The model also allows for non-linear progression, where you can specify transitions from one stage to another, such as from stage A to stages B, C, or D. It is required that one stage is designated as the success stage, such as a purchase or signed contract. It is optional that another stage be designated as a failure stage, such as a rejected contract or purchase of a competing solution from another vendor. This is achieved through [intelligent dashboards](../dashboards/intelligent-dashboard.md) that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer.
+Define the stages within a single staging model, defining multiple stages and the transition flow between them. One or more stages are designated for entry into the lifecycle. The model also allows for non-linear progression, where you can specify transitions from one stage to another, such as from stage A to stages B, C, or D. It is required that one stage is designated as the success stage, such as a purchase or signed contract. It is optional that another stage be designated as a failure stage, such as a rejected contract or purchase of a competing solution from another vendor. Monitor these stages through [intelligent dashboards](../dashboards/intelligent-dashboard.md) that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer.
 
 ![Buying group stages example](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 

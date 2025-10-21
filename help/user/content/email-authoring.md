@@ -1,6 +1,6 @@
 ---
 title: Email Message Authoring
-description: Learn how to create email content in Adobe Journey Optimizer B2B. Use templates, HTML imports, and AI-powered tools to personalize and optimize your email communications.
+description: Create emails with visual design tools, HTML import, or templates - use AI Assistant content generation, custom CSS, and personalization in Journey Optimizer B2B Edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
@@ -101,7 +101,7 @@ With at least one content component in the canvas, select the **[!UICONTROL Body
 
 After the email is saved, it appears in the fragment details page when you select the _[!UICONTROL Used By]_ tab in the summary.
 
-### Add assets
+### Add image assets
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -120,6 +120,14 @@ After the email is saved, it appears in the fragment details page when you selec
 ### Edit linked URL tracking
 
 {{$include /help/_includes/content-design-links.md}}
+
+### Apply dark mode styling
+
+Use _Dark mode_ to review your email display for a dark theme in an email client. A dark mode or theme allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. At the top right of the design canvas, change the selector to _Dark mode_ ( ![Dark mode icon](../assets/do-not-localize/icon-content-dark-mode.svg) ). Then, preview and define specific custom settings used for display by the supporting email clients when their dark theme is enabled.
+
+![Email design canvas showing the dark mode selector and email content displayed in dark mode](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+For more information about dark mode styling and best practices, see [Dark mode for email content](./email-dark-mode.md).
 
 ### View options
 

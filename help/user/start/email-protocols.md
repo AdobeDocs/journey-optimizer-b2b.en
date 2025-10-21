@@ -1,6 +1,6 @@
 ---
 title: Protocols for tracking and email delivery
-description: Learn how to configure protocols in Marketo Engage for use by Journey Optimizer B2B Edition for tracking and email channel features.
+description: Configure email delivery protocols - set up DNS, SPF, DKIM, DMARC, and IP allowlists for optimal tracking and deliverability in Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806

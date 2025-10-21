@@ -1,6 +1,6 @@
 ---
 title: Conditional Content
-description: Learn how to create content variations and apply conditional rules when authoring visual fragments and email content for account journeys.
+description: Create dynamic content variants with conditional rules based on profile attributes and events for personalized emails and fragments in Journey Optimizer B2B Edition.
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268

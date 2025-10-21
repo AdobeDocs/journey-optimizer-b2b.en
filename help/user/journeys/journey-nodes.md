@@ -1,6 +1,6 @@
 ---
 title: Account Journey Nodes
-description: Learn about the node types that you can use to construct your account journeys in Journey Optimizer B2B Edition.
+description: Build account journeys with action, event, and orchestration nodes - audience, wait, split, and merge - for cross-channel marketing in Journey Optimizer B2B Edition.
 feature: Account Journeys
 hide: yes
 hidefromtoc: yes
