@@ -2,7 +2,6 @@
 title: Persona Mapping
 description: Learn how to configure personas for account-based marketing by mapping person attributes to create streamlined role templates for buying groups.
 feature: Setup, Buying Groups
-hide: yes
 hidefromtoc: yes
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 role: Admin
