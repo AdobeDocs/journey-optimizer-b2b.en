@@ -1,6 +1,6 @@
 ---
 title: Account Qualification Agent for B2B
-description: Learn how
+description: Learn how to use the AI to assist in qualifying accounts that are ready for the next stage.
 feature: 'Account Journeys, AI Assistant'
 role: User
 ---
@@ -8,6 +8,8 @@ role: User
 # Account Qualification Agent for B2B
 
 Account Qualification Agent (AQA) — an AI-powered assistant designed for account representatives — streamlines and automates core sales development workflows, significantly reducing manual overhead and accelerating pipeline generation.
+
+![Account Qualification Agent](assets/acc-qualification-agent.png)
 
 Built alongside Adobe Journey Optimizer B2B (AJO B2B) and the Adobe Agent Orchestrator framework, this solution intelligently integrates data, orchestration, and generative AI capabilities to empower BDRs with the following skills:
 
@@ -42,4 +44,8 @@ Using natural language, you can ask the agent to:
 * Give me a detailed summary on `<company>`, including their buying group, recent intent signals, and our past engagement.
 
 This helps you to immediately understand which accounts and leads are most active and show the highest intent, so you can focus your energy where it will have the most impact.
+
+Then, iterate over your journey, fine-tuning your prompts to get the results you need.
+
+
 
