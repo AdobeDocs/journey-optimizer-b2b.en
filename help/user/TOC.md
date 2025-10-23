@@ -112,6 +112,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Account Journeys Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [Governance](./admin/governance.md)
+    + [Persona mapping](./admin/persona-mapping.md)
     + [User management](./admin/user-management.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)

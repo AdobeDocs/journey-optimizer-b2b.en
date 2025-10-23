@@ -70,10 +70,7 @@ To locate the persona that you want, use the search and filter tools:
    
    ![Filter the displayed event definitions](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) ) icon at the top left to filter the displayed list  using any of these attributes:
-
-   * ?
-   * ?
+* Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) ) icon at the top left to filter the displayed list by attribute.
 
 ## Create a persona
 
@@ -108,7 +105,6 @@ To locate the persona that you want, use the search and filter tools:
 ## Edit a persona
 
 1. To access the details for the persona, click the name.
-
 
 ## Delete a persona
 
