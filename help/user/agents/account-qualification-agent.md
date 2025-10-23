@@ -7,6 +7,10 @@ role: User
 
 # Account Qualification Agent for B2B
 
+>[!NOTE]
+>This feature is currently in Limited Availability and is not available to all users.
+>
+
 Account Qualification Agent (AQA) — an AI-powered assistant designed for account representatives — streamlines and automates core sales development workflows, significantly reducing manual overhead and accelerating pipeline generation.
 
 ![Account Qualification Agent](assets/acc-qualification-agent.png)
@@ -20,7 +24,6 @@ Built alongside Adobe Journey Optimizer B2B (AJO B2B) and the Adobe Agent Orches
 * Generative Outreach:
 
     Utilizes LLMs to draft highly personalized, multi-channel (email for now) outreach messages
-
     Prompts are dynamically tailored based on account insights, past interactions, and industry-specific context
 
 * Autonomous Engagement:
@@ -37,6 +40,7 @@ This intelligent agent system enhances scalability, maintains contextual awarene
 
 AI agents use "natural language queries", which means use the same language in the text prompt as you would in talking with a person. The more detailed you can be, the better the results.
 
+
 Using natural language, you can ask the agent to:
 
 * Show me my assigned leads with no engagement yet
@@ -46,6 +50,3 @@ Using natural language, you can ask the agent to:
 This helps you to immediately understand which accounts and leads are most active and show the highest intent, so you can focus your energy where it will have the most impact.
 
 Then, iterate over your journey, fine-tuning your prompts to get the results you need.
-
-
-
