@@ -21,8 +21,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Feature | Account Qualification Agent | See which accounts are ready for the next stage using the [Account Qualification Agent](../agents/account-qualification-agent.md) in the AI Assistant. |
 | Feature | Model-based custom schemas | Create custom schemas from model-based classes. |
 | Feature | Activate to destination | New "Activate to destination" company account action. Allows you to activate directly to companies, rather than individuals. (For this release,limited to LinkedIn companies) |
-| Feature | [Persona Mapping](../admin/per) | Tie account members with established personas with attribute mapping. |
-| Enhancement | AJO B2B Sales Insight |  |
+| Feature | [Persona Mapping](../admin/persona-mapping.md) | Tie account members with established personas with attribute mapping. |
 | Enhancement | Buying Groups | The buying group maintenance job frequency has been updated from weekly to daily. |
 | Enhancement | Account Journey | More information is visible about a journey progression: including account counts and lists. |
 | Enhancement | Buying Group Score | The Buying Group completeness score has been improved, including the ability to customize how the score is calculated. |
