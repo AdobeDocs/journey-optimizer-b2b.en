@@ -18,7 +18,6 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-
 | Feature | Account Qualification Agent | See which accounts are ready for the next stage using the [Account Qualification Agent](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/account-qualification-agent#accounts) in the AI Assistant. |
 | Feature | Model-based custom schemas | Create custom schemas from model-based classes. |
 | Feature | Activate to destination | New "Activate to destination" company account action. Allows you to activate directly to companies, rather than individuals. (For this release,limited to LinkedIn companies) |
