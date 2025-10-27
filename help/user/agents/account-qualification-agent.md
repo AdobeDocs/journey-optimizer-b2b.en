@@ -17,29 +17,23 @@ Account Qualification Agent is an AI-powered assistant designed for account repr
 
 Built alongside Adobe Journey Optimizer B2B (AJO B2B) and the Adobe Agent Orchestrator framework, this solution intelligently integrates data, orchestration, and generative AI capabilities to empower Business Development Representatives (BDRs) with the following skills:
 
-* **Automated account intelligence**
+* **Prospect research**
 
-   * Leverage unified customer profiles and real-time signals to generate instant, context-rich summaries of target accounts and associated buying groups, enabling faster and more informed outreach
+   Conduct prospect research using automatic retrieval and display of key prospect information (such as job title, recent engagements, buying group membership) to provide a complete picture in seconds.
 
-   * Conduct prospect research using automatic retrieval and display of key prospect information (such as job title, recent engagements, buying group membership) to provide a complete picture in seconds.
 
-   * Conduct account research using automatic retrieval and display of detailed information about a prospect's organizationThis information includes company vitals, recent news, strategic priorities, and top engaged members.
+* **Account research**
 
-   * Generate email drafts by synthesizing research from prospect and account insights to produce relevant, personalized single email content based on the BDR's objective.
+   Conduct account research using automatic retrieval and display of detailed information about a prospect's organizationThis information includes company vitals, recent news, strategic priorities, and top engaged members.
 
-   * Create engagement plan email drafts that are personalized  for each step of a BDR-defined outreach cadence, ensuring the entire sequence is personalized
+* **Draft emails**
 
-* **Generative outreach**
+    Generate email drafts by synthesizing research from prospect and account insights to produce relevant, personalized single email content based on the BDR's objective.
 
-    Use the large language models (LLMs) to draft highly personalized multi-channel outreach messages (currently limited to email). Your prompts are dynamically tailored based on account insights, past interactions, and industry-specific context.
+* **Engagement plan emails**
 
-* **Autonomous engagement**
+    Create engagement plan email drafts that are personalized for each step of a BDR-defined outreach cadence, ensuring the entire sequence is personalized
 
-    Support automated follow-up and response handling by intelligently interpreting customer replies and continuing conversations until the lead is qualified or routed. This autonomous engagement reduces human dependency while ensuring timeliness.
-
-* **Data hygiene and enrichment**
-
-    Automatically sync updates back to the Customer Relationship Management (CRM) system with enriched company data. This sync includes company details and intent signals, ensuring accurate, up-to-date records and minimizing the burden of manual data entry.
 
 This intelligent agent system enhances scalability, maintains contextual awareness across interactions, and integrates seamlessly into the BDR toolchain — enabling BDRs to focus on high-value conversations rather than repetitive tasks.
 
