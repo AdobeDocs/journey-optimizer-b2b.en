@@ -11,6 +11,22 @@ Adobe Journey Optimizer B2B Edition continuously delivers new features, enhancem
 Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
+
+## 2025.10 release notes
+
+**Deployment date**: October 28, 2025
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Account Qualification Agent | See which accounts are ready for the next stage using the [Account Qualification Agent](../agents/account-qualification-agent.md) in the AI Assistant. |
+| Feature | Model-based custom schemas | Create custom schemas from model-based classes. |
+| Feature | Activate to destination | New "Activate to destination" company account action. Allows you to activate directly to companies, rather than individuals. (For this release,limited to LinkedIn companies) |
+| Feature | [Persona Mapping](../admin/persona-mapping.md) | Tie account members with established personas with attribute mapping. |
+| Enhancement | Buying Groups | The buying group maintenance job frequency has been updated from weekly to daily. |
+| Enhancement | Account Journey | More information is visible about a journey progression: including account counts and lists. |
+| Enhancement | Buying Group Score | The Buying Group completeness score has been improved, including the ability to customize how the score is calculated. |
+
+
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
