@@ -14,7 +14,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 ## 2025.10 release notes
 
-**Deployment date**: October 28, 2025
+**Deployment date**: October 31, 2025
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
@@ -28,7 +28,6 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Enhancement | Buying Group Score | The Buying Group completeness score has been improved, including the ability to customize how the score is calculated. |
 | Enhancement | Communication limits | AJO B2B now respects the combined communication limits of both Marketo and AJO B2B. |
 | Enhancement | Email Deduplication | AJO B2B now prevents duplicate emails from being sent when a contact is found within multiple accounts. |
-
 
 <!-- hold for later release 
 
@@ -47,8 +46,17 @@ This release includes the following new capabilities and enhancements:
 | ---- | ---- | ----------- |
 | Feature | Email content collaboration | You can now comment on collaborate with the fellow Journey Optimizer B2B Edition users, in the context of an email asset. You can tag your team members so that they receive an email notification with the details of the comment. Notification is also available as a pulse notification. |
 | Feature | Dark mode for email design | The email design space now includes the ability to switch to _dark mode_. In dark mode, you can preview the email content and define custom settings to be displayed specifically for recipients who view their emails in dark mode. |
+| Feature | Email Fatigue Deduplication | You can now enable email deduplication to ensure thattthe same email is not sent multiple times to the same address in a journey. Duplicate addresses are blocked until the first record with that email address completes the journey. |
+| Feature | Sales Insights for Salesforce and Dynamics | Sales team members can now view maturing buying groups and related insights within a Salesforce or Dynamics integration to identify new opportunities. The buying group details like stage, score, and related members are included. |
 | Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts)  |
 | Enhancement | Journeys - Person filters for events  | Use people filters to listen for people events. These filters include the ability to target for a specific role for a matched buying group. [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+
+The following agentic AI capabilities are now available for Journey Optimizer B2B Edition within the AI Assistant interface:
+
+| Agent | Update | Description |
+| ----- | ------ | ----------- |
+| Journey Build Agent | New | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
+| Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
 
 >[!NOTE]
 >
