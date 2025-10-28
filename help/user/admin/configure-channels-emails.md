@@ -67,7 +67,7 @@ To review the current settings, go to **[!UICONTROL Administration]** > **[!UICO
 
 ![Access the communication limits settings](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
-The settings are read-only in Journey Optimizer B2B Edition. Click **[!UICONTROL Edit settings]** at the top right to access the configuration options in the connected Marketo Engage instance. 
+Click **[!UICONTROL Edit settings]** at the top right to access the configuration options in the connected Marketo Engage instance. 
 
 >[!NOTE]
 >
