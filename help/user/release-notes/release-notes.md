@@ -47,6 +47,13 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts)  |
 | Enhancement | Journeys - Person filters for events  | Use people filters to listen for people events. These filters include the ability to target for a specific role for a matched buying group. [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
+The following agentic AI capabilities are now available for Journey Optimizer B2B Edition within the AI Assistant interface:
+
+| Agent | Update | Description |
+| ----- | ------ | ----------- |
+| Journey Build Agent | New | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
+| Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
+
 >[!NOTE]
 >
 >The release changes begin deployment on September 30, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
