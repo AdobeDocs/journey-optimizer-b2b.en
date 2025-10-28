@@ -1,9 +1,7 @@
 ---
 title: Persona Mapping
-description: Learn how to configure personas for account-based marketing by mapping person attributes to create streamlined role templates for buying groups.
+description: Learn how to set up persona mapping for B2B marketing. Map person attributes in Journey Optimizer B2B Edition to create role templates and optimize buying group targeting.
 feature: Setup, Buying Groups
-hidefromtoc: yes
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 role: Admin
 ---
 # Persona mapping
@@ -86,7 +84,7 @@ To locate the persona that you want, use the search and filter tools:
 
    * Click **[!UICONTROL Select person attributes]**.
 
-   * In the _[!UICONTROL Select person attributes]_ dialog, select the checkbox for each attribute that you want to map (a maximum of five).
+   * In the dialog, select the checkbox for each attribute that you want to map (a maximum of five).
 
       You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner.   
 
@@ -104,7 +102,7 @@ To locate the persona that you want, use the search and filter tools:
 
 ## Edit a persona
 
-1. To access the details for the persona, click the name.
+Click the persona name to access and edit the details for the persona,
 
 ## Delete a persona
 

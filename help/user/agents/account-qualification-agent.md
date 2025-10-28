@@ -1,6 +1,6 @@
 ---
 title: Account Qualification Agent for B2B
-description: Learn how to use agentic AI to assist in qualifying accounts that are ready for the next stage.
+description: Learn about the AI-powered Account Qualification Agent for B2B sales teams to to accelerate pipeline generation with automated prospect research, account insights, and email drafts.
 feature: Account Journeys, AI Assistant
 role: User
 ---

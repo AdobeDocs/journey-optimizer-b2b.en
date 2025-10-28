@@ -14,17 +14,29 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 ## 2025.10 release notes
 
-**Deployment date**: October 28, 2025
+**Deployment date**: October 31, 2025
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Account Qualification Agent | See which accounts are ready for the next stage using the [Account Qualification Agent](../agents/account-qualification-agent.md) in the AI Assistant. |
 | Feature | Model-based custom schemas | Create custom schemas from model-based classes. |
-| Feature | Activate to destination | New "Activate to destination" company account action. Allows you to activate directly to companies, rather than individuals. (For this release,limited to LinkedIn companies) |
-| Feature | [Persona Mapping](../admin/persona-mapping.md) | Tie account members with established personas with attribute mapping. |
-| Enhancement | Buying Groups | The buying group maintenance job frequency has been updated from weekly to daily. |
-| Enhancement | Account Journey | More information is visible about a journey progression: including account counts and lists. |
-| Enhancement | Buying Group Score | The Buying Group completeness score has been improved, including the ability to customize how the score is calculated. |
+| Feature | Activate to destination | Use the new _Activate to destination_ company account action to activate directly to companies, rather than individuals. (Limited to LinkedIn companies for this release.) |
+| Feature | Brand themes | With brand themes, non-technical users now have the ability to create reusable content that fits a specific brand and design language by adding custom styling on top of the standard templates. [Learn more](../content/brand-themes.md) |
+| Feature | Persona mapping | Tie account members with established personas with attribute mapping. [Learn more](../admin/persona-mapping.md) |
+| Enhancement | Buying group maintenance jobs | The buying group maintenance job frequency is updated from weekly to daily. |
+| Enhancement | Account journey progression | A _More information_ link is visible for journey progression to access account counts and lists. |
+
+<!-- M1.5 changes
+| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
+
+The following agentic AI capabilities are now available for Journey Optimizer B2B Edition within the AI Assistant interface:
+
+| Agent | Update | Description |
+| ----- | ------ | ----------- |
+| Account Qualification Agent | New | See which accounts are ready for the next stage using the Account Qualification Agent in the AI Assistant. This agent empowers your sales team members to focus on the right accounts by surfacing high-value leads and automating qualification workflows. [Learn more](../agents/account-qualification-agent.md) |
+
+>[!NOTE]
+>
+>The release changes begin deployment on October 31, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change. 
 
 
 <!-- hold for later release 
@@ -44,6 +56,8 @@ This release includes the following new capabilities and enhancements:
 | ---- | ---- | ----------- |
 | Feature | Email content collaboration | You can now comment on collaborate with the fellow Journey Optimizer B2B Edition users, in the context of an email asset. You can tag your team members so that they receive an email notification with the details of the comment. Notification is also available as a pulse notification. |
 | Feature | Dark mode for email design | The email design space now includes the ability to switch to _dark mode_. In dark mode, you can preview the email content and define custom settings to be displayed specifically for recipients who view their emails in dark mode. |
+| Feature | Email Fatigue Deduplication | You can now enable email deduplication to ensure thattthe same email is not sent multiple times to the same address in a journey. Duplicate addresses are blocked until the first record with that email address completes the journey. |
+| Feature | Sales Insights for Salesforce and Dynamics | Sales team members can now view maturing buying groups and related insights within a Salesforce or Dynamics integration to identify new opportunities. The buying group details like stage, score, and related members are included. |
 | Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts)  |
 | Enhancement | Journeys - Person filters for events  | Use people filters to listen for people events. These filters include the ability to target for a specific role for a matched buying group. [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
