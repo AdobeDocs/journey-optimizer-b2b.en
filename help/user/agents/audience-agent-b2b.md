@@ -12,13 +12,16 @@ Powered by [Adobe Experience Platform Agent Orchestrator](https://experienceleag
 
 * **_Leverage AI to detect buying groups_**: Use AI, structured, unstructured data, and unified first-party data to streamline buying group discovery and creation.
 
-![Audience Agent B2B in full page mode](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+![Audience Agent for B2B in full page mode](./assets/audience-agent-full.png){width="700" zoomable="yes"}
 
 >[!PREREQUISITES]
 >
->Make sure that you have your [intent mapping data configured](../admin/intent-data.md) and XDM data fields mapped to use the Audience Agent.
+>To use Audience Agent for B2B, there are required data definitions and mappings:
+>
+>* [Intent data taxonomy/mapping](../admin/intent-data.md)
+>* [XDM field taxonomy/mapping](#xdm-data-prerequisites)
 
-## Audience Agent capabilities
+## Audience Agent for B2B capabilities
 
 | Area | What it does | Business value |
 | ---- | ------------ | -------------- |
@@ -53,7 +56,7 @@ These prompt samples demonstrate some of ways that you can use the agent:
 | Roles influencing a buying group | Each buying group is comprised of roles who contribute differently to the purchase decision, such as _Decision Maker_, _Influencer_, _Champion_, and _End User_. Each role has a varying degrees of impact.<br/><br/>Decision Makers hold the most influence and typically control budget approvals. Influencers shape evaluation and recommendations. Champions help build internal consensus, while End Users validate the product's fit.<br/><br/>By showing you these roles, the agent helps you understand who is driving the buying decision, where your engagement is strongest, and where coverage gaps might exist. This information enables you to focus on the roles that matter most for this product. |
 | Persona or role coverage | For any given product, there is usually a set of key roles and personas that are known to influence the purchase (_N_ personas or roles).<br/><br/>For each account, the agent calculates coverage by checking how many of those _N_ roles are represented by at least one person within that account.<br/><br/>If all _N_ roles are present, the account has full coverage. If only some roles are represented, the coverage is partial.<br/><br/>In simple terms, role and persona coverage measure how complete your buying group is for a product, based on whether all the important decision-makers, influencers, and champions are included. |
 
-## Data prerequisites
+## XDM data prerequisites
 
 Audience Agent provides insights on accounts showing first-party intent for products and computes persona and roles based on the defined data. Ensure that the following prerequisite data is configured to use Audience Agent capabilities:
 
@@ -424,7 +427,7 @@ Audience Agent leverages first-party intent detected within Journey Optimizer B2
 1. Labeled assets (event data) are combined with visitor behaviors (number of pages visited) to determine a visitor intent at keyword, product and product category level → Intent calculation
 1. Intent scores at a visitor profile level are aggregated at account level to determine account intent in a given keyword, product and product category > Intent Account Aggregation
 
-The following fields are required in addition to configuring the intent taxonomy:
+The following fields are required in addition to [configuring the intent taxonomy](../admin/intent-data.md):
 
 <table>
   <tbody>

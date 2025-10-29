@@ -7,9 +7,9 @@ role: User
 
 # Account Qualification Agent for B2B
 
->[!NOTE]
->This feature is currently in Limited Availability and is not available to all users.
+>[!AVAILABILITY]
 >
+>This feature is currently in Limited Availability and is not available to all users.
 
 Account Qualification Agent is an AI-powered assistant designed for account representatives. It streamlines and automates core sales development workflows, significantly reducing manual overhead and accelerating pipeline generation.
 
