@@ -16,7 +16,7 @@ Powered by [Adobe Experience Platform Agent Orchestrator](https://experienceleag
 
 >[!PREREQUISITES]
 >
->To use Audience Agent for B2B, there are required data definitions and mappings:
+>To use Audience Agent for B2B, there are required data definitions and mappings:<br/>
 >
 >* [Intent data taxonomy/mapping](../admin/intent-data.md)
 >* [XDM field taxonomy/mapping](#xdm-data-prerequisites)
