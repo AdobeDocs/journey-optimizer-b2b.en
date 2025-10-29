@@ -41,9 +41,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
-    + [Account Qualification Agent](agents/account-qualification-agent.md)
     + [Audiences](./audiences/account-audience-overview.md)
     + [Audience Agent](./agents/audience-agent-b2b.md)
+    + [Account Qualification Agent](agents/account-qualification-agent.md)
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
        + [Solution interests](./buying-groups/solution-interests.md)
