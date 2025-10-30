@@ -1,6 +1,6 @@
 ---
 title: SMS configurations
-description: Learn how to configure connections to supported SMS providers for use by Journey Optimizer B2B Edition SMS messaging.
+description: Connect SMS providers like Sinch, Twilio, and Infobip with API credentials to enable text messaging in Journey Optimizer B2B Edition journeys.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2

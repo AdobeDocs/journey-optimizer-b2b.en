@@ -1,6 +1,6 @@
 ---
 title: Account Audience Nodes
-description: Learn about the account audience node type that you can use for defining the input for your account journeys in Journey Optimizer B2B Edition.
+description: Configure account audience nodes with account audiences or account lists to define journey entry points for targeted orchestration in Journey Optimizer B2B Edition.
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c

@@ -1,6 +1,6 @@
 ---
 title: Test Email Rendering
-description: Learn how to leverage your Litmus account to test rendering for emails in Journey Optimizer B2B Edition.
+description: Test email rendering across desktop, mobile, and web clients with Litmus integration to ensure inbox compatibility in Journey Optimizer B2B Edition.
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User

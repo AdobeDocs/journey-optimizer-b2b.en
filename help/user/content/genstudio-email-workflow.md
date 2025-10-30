@@ -1,6 +1,6 @@
 ---
 title: Email Content Creation with GenStudio for Performance Marketing
-description: Learn how to integrate with GenStudio workflows to streamline email experience design.
+description: Integrate GenStudio for Performance Marketing with Journey Optimizer B2B Edition - export HTML, create AI-powered email experiences, and import branded content.
 feature: Email Authoring, Content, Integrations
 topic: Content Supply Chain
 level: Intermediate

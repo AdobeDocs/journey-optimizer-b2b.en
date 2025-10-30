@@ -1,6 +1,6 @@
 ---
 title: Account Journeys Overview Dashboard
-description: Learn about the information provided by the Journey Overview dashboard and how it can help you monitor and manage your account journey strategy.
+description: Track account journey performance with completion rates, engagement metrics, and channel effectiveness analytics in Journey Optimizer B2B Edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8

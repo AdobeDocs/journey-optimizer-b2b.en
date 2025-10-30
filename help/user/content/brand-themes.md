@@ -1,14 +1,11 @@
 ---
 title: Use Brand Themes for Email Content
-description: Learn how to streamline email content creation with reusable themes, ensuring design consistency and efficiency.
+description: Create custom brand themes for emails and templates - define colors, fonts, spacing, and buttons for consistent design in Journey Optimizer B2B Edition.
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Email Themes, Reusability, Brand Alignment, Email Design
-badge: label="Beta" type="Informative"
-hide: yes
-hidefromtoc: yes
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
 ---
 # Use brand themes for email content {#email-brand-themes}
@@ -16,7 +13,7 @@ exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Apply a brand theme to your email or email template"
->abstract="Select a theme for your email or email template to apply a specific styling that fits your brand and design."
+>abstract="Select a theme for your email or email template to apply styling that fits your brand and design."
 
 With themes, non-technical designers have the ability to create reusable email content design guidelines that align to a specific brand and styling. Themes empower marketers to leverage visually appealing, brand-consistent emails faster and with less effort, and provide advanced customization options for unique design needs.
 
@@ -126,7 +123,7 @@ Select the **[!UICONTROL Colors]** tab and use the settings to define the theme 
 
     | Type | Settings | Description |
     | ---- | -------- | ----------- |
-    | [!UICONTROL General] |  ![General color settings for a variant](./assets/email-theme-colors-settings-variant-general.png){width="300"} | These settings allow you to set colors for body, structures, containers, backgrounds, links, grids, and borders.|
+    | [!UICONTROL General] |  ![General color settings for a variant](./assets/email-theme-colors-settings-variant-general.png){width="300"} | These settings determine the colors for body, structures, containers, backgrounds, links, grids, and borders.|
     | [!UICONTROL Headings] | ![Heading color settings for a variant](./assets/email-theme-colors-settings-variant-headings.png){width="300"} |  These settings apply to `Heading` elements, where you can set text and border colors for each of six heading levels. Expand each heading level that you want to set the color for the variant.| 
     | [!UICONTROL Paragraphs] | ![Paragraph color settings for a variant](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | These settings apply to `Paragraph` elements, where you can set text and border colors for each of three paragraph types. Expand each paragraph type that you want to set the color for the variant. |
     | [!UICONTROL Buttons] | ![Button color settings for a variant](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | The settings apply to button elements, where you can set the fill color, border color, and text color for each of the three button presets: _Primary_, _Secondary_, and _Tertiary_. |
@@ -297,7 +294,7 @@ When you locate the theme, click the _More menu_ (**...**) icon at the lower rig
 
 ## Use a theme for email content authoring {#use-email-theme}
 
-When you create a new email or email template, you can choose to use a brand theme that streamlines the content authoring process and makes sure that the design aligns with defined standards. For a new fragment, you can also apply a theme before you save the fragment. The fragment remains in _Theme mode_ from that point and is compatible to add to emails and email templates that are also in _Theme mode_. 
+When you create a new email or email template, you can choose to use a brand theme that streamlines the content authoring process and ensures that the design aligns with defined standards. For a new fragment, you can also apply a theme before you save the fragment. The fragment remains in _Theme mode_ from that point and is compatible to add to emails and email templates that are also in _Theme mode_. 
 
 1. Select one of the following actions:
 

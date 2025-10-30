@@ -1,6 +1,6 @@
 ---
 title: Email Templates
-description: Learn how to manage and create email templates that are used to author account journey emails easily and efficiently.
+description: Create reusable email templates from scratch, HTML import, or existing designs - manage templates for account journeys in Journey Optimizer B2B Edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f

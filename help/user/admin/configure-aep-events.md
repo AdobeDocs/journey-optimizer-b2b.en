@@ -1,9 +1,9 @@
 ---
 title: Configure Experience Platform Events
-description: Learn about the Wait node type that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
+description: Configure Experience Platform event definitions to trigger real-time account journeys in Journey Optimizer B2B Edition based on customer behavior.
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 ---
 # Configure Experience Platform event definitions
@@ -18,13 +18,13 @@ Using AEP experience events in account journeys is a two-step process:
 
 2. In an account journey, add a _Listen for an event_ node and [select an AEP event definition as a people event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Each event definition requires the following Experience Platform input:
+Each event definition requires the following Experience Platform inputs:
 
 * **_Schema_** – XDM schema that defines the Experience Event data structure. It must be based on an Experience Event and must be profile-enabled.
 
    >[!NOTE]
    >
-   >Coordinate with your Engineering team to ensure that the needed schemas are defined. [Creating XDM schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} is a complex process performed by data engineers based on use case requirements across your organization.
+   >To ensure that the needed schemas are defined, coordinate with your Engineering team. [Creating XDM schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} is a complex process performed by data engineers based on use case requirements across your organization.
 
 * **_Event types_** – XDM ExperienceEvent eventType (maximum of 20 per event definition).
 
@@ -64,7 +64,7 @@ As you create and manage your event definitions to meet your organizational goal
 
    ![Access the configured event definitions](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   The table is sorted by the _[!UICONTROL Modified]_ column, with the most recently updated definitions at the top by default.<!-- Click the column title to change between ascending and descending.-->
+   The table is sorted by the _[!UICONTROL Modified]_ column, with the most recently updated definitions at the top as the default.<!-- Click the column title to change between ascending and descending.-->
 
 1. To access the details for an event definition, click the name.
 
@@ -74,9 +74,9 @@ In the _[!UICONTROL Event definitions]_ list, the **[!UICONTROL Status]** column
 
 | Status               | Description |
 | -------------------- | ----------- |
-| Draft                | When you create an event definition, it is in draft status. It remains in this status until you publish it for use in account journeys. Available actions:<br/><ul><li>Edit all details<li>Publish<li>Delete|
-| Published            | When you publish an event definition, it becomes available for use in account journeys. The details cannot be modified. Available actions:<br/><ul><li>Available for _Listen for an event_ journey node<li>Create draft version<li>Delete (if not in-use)|
-| Published (with draft) | When you create a draft from a published event definition, the published version remains available for use in account journeys, and the draft version can be modified. If you publish the draft version, it replaces the current published version and the event definition is updated for account journeys where it is not yet executed. Available actions:<br/><ul><li>Edit all details<li>Publish draft version<li>Discard draft version<li>Delete (if not in-use)|
+| Draft                | When you create an event definition, it is in draft status. It remains in this status until you publish it for use in account journeys. Available actions: <br/><li>Edit all details<li>Publish<li>Delete|
+| Published            | When you publish an event definition, it becomes available for use in account journeys. The details cannot be modified. Available actions: <br/><li>Available for _Listen for an event_ journey node<li>Create draft version<li>Delete (if not in-use)|
+| Published (with draft) | When you create a draft from a published event definition, the published version remains available for use in account journeys, and the draft version can be modified. If you publish the draft version, it replaces the current published version and the event definition is updated for account journeys where it is not yet executed. Available actions: <br/><li>Edit all details<li>Publish draft version<li>Discard draft version<li>Delete (if not in-use)|
 
 ![Fragment status lifecycle](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -100,7 +100,7 @@ To search for an event definition by name, enter a text string into the search b
 
 1. Set the **[!UICONTROL Schema]** to use for the event definition.
 
-   The schema that you select determines the fields that are available to add to the definition, which are then available as constraints for a _Listen for an event_ node in an account journey.
+   The schema that you select determines the fields that are available to add to the definition. The fields that you add are then available as constraints for a _Listen for an event_ node in an account journey.
 
    * Click **[!UICONTROL Select schema]**.
    * In the dialog, select a schema from the list of Experience Event-based schemas.
@@ -140,7 +140,7 @@ To search for an event definition by name, enter a text string into the search b
 
 ## Publish an event definition
 
-When you are satisfied that the draft event definition is complete and correct for your needs, you can publish it to make it available for use in account journeys. After the event definition is published, you can create a draft version if you need to make changes to it. However, you cannot change the schema, and you can only add event types and fields (you cannot delete them).
+When you are satisfied that the draft event definition is complete and correct for your needs, you can publish it. The published event definition is then available for use in account journeys. After the event definition is published, you can create a draft version if you need to make changes to it. However, you cannot change the schema, and you can only add event types and fields (you cannot delete them).
 
 1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
 
@@ -196,7 +196,7 @@ Follow the steps according to the status:
 
 1. In the confirmation dialog, click **[!UICONTROL Publish]**.
 
-   The status for the event definition changes to _Published_ and it is now available for use in account journeys.
+   The status for the event definition changes to _Published_, and it is now available for use in account journeys.
 
 >[!TAB Published]
 
@@ -212,7 +212,7 @@ Follow the steps according to the status:
 
 1. Click the event definition name to open it.
 
-   For a _Published (with draft)_ event definition, the _[!UICONTROL Published]_ version tab is selected by default.
+   For a _Published (with draft)_ event definition, the _[!UICONTROL Published]_ version tab is selected as the default.
 
 1. Select the **[!UICONTROL Draft]** version tab.
 
@@ -234,7 +234,7 @@ Follow the steps according to the status:
 
 >[!TAB Published (with draft)]
 
-When you open a _Published (with draft)_ event definition, the _[!UICONTROL Published]_ version tab is selected by default.
+When you open a _Published (with draft)_ event definition, the _[!UICONTROL Published]_ version tab is selected as the default.
 
 1. Select the **[!UICONTROL Draft]** version tab.
 
@@ -242,7 +242,7 @@ When you open a _Published (with draft)_ event definition, the _[!UICONTROL Publ
 
 1. Change any of the editable details (**[!UICONTROL Description]**, **[!UICONTROL Event types]**, and **[!UICONTROL Fields]**) as needed.
 
-   Follow that same guidelines that are used for [creating an event definition](#create-an-event-definition).
+   Follow the same guidelines that are used for [creating an event definition](#create-an-event-definition).
 
    The changes are automatically saved in the draft.
 
@@ -268,7 +268,7 @@ You can delete an event definition if it is not in use by a published account jo
 
 1. Click **[!UICONTROL Events]** on the intermediate panel to display the list of event definitions.
 
-1. Locate event definition in list and click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon to the right of the name.
+1. Locate the event definition in list and click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon to the right of the name.
 
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
 

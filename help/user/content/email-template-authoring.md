@@ -1,6 +1,6 @@
 ---
 title: Email Template Authoring
-description: Learn how to author content email templates that can be used for account journey emails to reuse your designs easily and efficiently.
+description: Author reusable email templates with visual design tools, custom CSS, fragments, and personalization for account journeys in Journey Optimizer B2B Edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
@@ -15,7 +15,7 @@ After you [create an email template](./email-templates.md#create-an-email-templa
 
 ### Add custom CSS
 
-You can add your own custom CSS directly within the email template design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components such as images, buttons, and text.
+You can add your own custom CSS directly within the email template design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content. It is a best practice to add this highest-level styling before you include components, such as images, buttons, and text.
 
 With at least one content component in the canvas, select the **[!UICONTROL Body]** component in the left navigation tree to access the custom CSS editor.
 
@@ -33,7 +33,7 @@ With at least one content component in the canvas, select the **[!UICONTROL Body
 
 After the template is saved, it appears in the fragment details page when you select the _[!UICONTROL Used By]_ tab in the summary.
 
-### Add assets
+### Add image assets
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -48,6 +48,14 @@ After the template is saved, it appears in the fragment details page when you se
 ### Edit linked URL tracking
 
 {{$include /help/_includes/content-design-links.md}}
+
+### Apply dark mode styling
+
+Use _Dark mode_ to review your email display for a dark theme in an email client. A dark mode or theme allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. At the top right of the design canvas, change the selector to _Dark mode_ ( ![Dark mode icon](../assets/do-not-localize/icon-content-dark-mode.svg) ). Then, preview and define specific custom settings used for display by the supporting email clients when their dark theme is enabled.
+
+![Email design canvas showing the dark mode selector and email content displayed in dark mode](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+For more information about dark mode styling and best practices, see [Dark mode for email content](./email-dark-mode.md).
 
 ## View options
 

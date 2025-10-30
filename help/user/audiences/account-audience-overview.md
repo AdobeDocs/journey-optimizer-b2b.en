@@ -1,6 +1,6 @@
 ---
 title: Account Audiences
-description: Learn about account audiences and how they enable account-based journeys.
+description: Build account audiences with segmentation to target specific accounts and enable personalized account-based journeys in Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3

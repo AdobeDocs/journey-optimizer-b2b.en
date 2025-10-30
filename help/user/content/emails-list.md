@@ -1,6 +1,6 @@
 ---
 title: Emails
-description: Use the Emails list to manage your email content in Adobe Journey Optimizer B2B Edition. You can easily assess and update emails across your journeys.
+description: Manage your email library with search, filters, and bulk actions - edit content, settings, and test emails outside journeys in Journey Optimizer B2B Edition.
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
@@ -11,7 +11,7 @@ When you [create emails](./add-email.md), you add them in the context of a journ
 
 ## Access and manage emails
 
-To access emails in Adobe Journey Optimizer B2B edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Emails]**. This action opens a listing page with all the emails created for the instance listed in a table.
+To access emails in Adobe Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Emails]**. This action opens a listing page with all the emails created for the instance listed in a table.
 
 The table is sorted by the _[!UICONTROL Modified]_ column by default, with the most recently updated emails at the top. Click the column title to change between ascending and descending.
 
@@ -27,4 +27,4 @@ If [alerts are displayed](./add-email.md#check-alerts) at the top-right of the p
 
 ![Open the email to make updates](./assets/email-open-update.png){width="700" zoomable="yes"}
 
-You can also access the [_[!UICONTROL Simulate content]_](./email-simulate-content.md) window. Use these tools to preview the content using a test profile, send proofs, and test the email for deliverability and email client rendering. 
+You can also access the [_[!UICONTROL Simulate content]_](./email-simulate-content.md) window. Use these tools to preview the content using a test profile, send proofs, and test the email for deliverability and email client rendering.

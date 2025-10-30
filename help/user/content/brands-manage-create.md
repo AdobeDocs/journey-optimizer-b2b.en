@@ -1,6 +1,6 @@
 ---
 title: Create Brands for Content Generation and Consistency
-description: Learn how to create and customize your own brands to generate and optimize content that matches your brand style and voice.
+description: Create and manage brand guidelines with automatic extraction from documents or manual entry - set default brands for consistent content in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: yes

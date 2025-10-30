@@ -1,6 +1,6 @@
 ---
 title: Adobe Journey Optimizer B2B Edition Documentation
-description: Learn how to use the Adobe Journey Optimizer B2B Edition features for orchestrating account and buying group journeys using built-in generative AI and industry-leading automation.
+description: Complete documentation for Journey Optimizer B2B Edition - explore the available resources for onboarding, creating buying groups, building account journeys, and managing content.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
@@ -11,29 +11,35 @@ Here is a sampling of the latest additions and enhancements in the Journey Optim
 
 >[!BEGINTABS]
 
->[!TAB GenStudio email experiences]
+>[!TAB Email content collaboration]
 
-Integrate GenStudio for Performance Marketing email experiences with Journey Optimizer B2B Edition to enhance marketing efficiency and maintain brand consistency. With this integration, you can combine the GenStudio AI-powered content creation with the advanced orchestration capabilities in Journey Optimizer B2B Edition.
+The email design space includes collaboration tools for commenting and resolution so that marketing teams can seamlessly review, discuss, and finalize email assets directly within [!DNL Journey Optimizer B2B Edition]. Instead of sharing drafts over external tools (like chat, email threads, or spreadsheets), users can comment, suggest edits, and resolve feedback within the email design space. You can tag your team members so that they receive an email or pulse notification with the details of the comment. 
 
-[!BADGE Learn more]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Learn about GenStudio email experiences"}
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Learn about email content collaboration tools"}
 
->[!TAB Spam detection reporting]
+>[!TAB Dark mode email design]
 
-With the new Spam reports, you can avoid spam filters and ensure that messages are delivered to audience inboxes. Generate a _Spam report_ directly in the email design space.
+The email design space now includes _dark mode_ preview and settings. Dark mode allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. Preview rendering, customize settings, ensure accessibility, and test across email clients.
 
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Learn about Spam detection reporting"}
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Learn about dark mode email design"}
 
->[!TAB Account and buying group actions]
+>[!TAB Person engagement score]
 
-Take actions directly from account details and buying group details pages for timely and intentional engagement. 
+B2B marketers can now use a person-level engagement scores as a filter in their split paths for a journey or in a roles template to create buying groups. This score and filtering enables precise targeting of buying groups members to personalize ongoing engagement.
 
-Use the _Send email_ action to send an approved Marketo Engage email to selected account contacts or buying group members.
+[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Learn about person engagement scores and filtering"}
 
-[!BADGE Learn more]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Learn about sending emails to account contacts"}
-   
-From the buying group details, actions also include _Assign a new member_, _Remove a member_, and _Edit a role_.
+>[!TAB Custom buying group roles]
 
-[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Learn about buying group actions"}
+B2B marketing strategists can now expand buying group precision with custom buying group roles. Create up to 20 custom roles beyond the default six, and reuse them across buying groups. Within account journeys, tailor messaging to match your unique roles and improve relevance and engagement across buying groups.​
+
+[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Learn about custom buying group roles"}
+
+>[!TAB Custom engagement score weighting]
+
+Assign custom weights to engagement activities so that engagement scores reflect your highest value activities. By emphasizing high-intent signals, your team can better identify and prioritize accounts with the strongest buying potential.
+
+[!BADGE Learn more]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Learn about custom engagement score weighting"}
 
 >[!TAB Custom CSS support]
 
@@ -46,12 +52,6 @@ You can now add your own custom CSS when you are authoring email and landing pag
  To activate and manage the Intent Detection model, you can now upload a spreadsheet to define an intent data mapping category.
 
 [!BADGE Learn more]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Learn about Intent keyword mapping configuration"}
-
->[!TAB Email testing with Litmus]
-
-With a Litmus account, you can now preview your email rendering in popular email clients from Journey Optimizer B2B Edition. This integration helps you to ensure that your email content looks great and works as designed in every email inbox.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Learn about the Litmus email testing integration"}
 
 >[!ENDTABS]
 
@@ -94,7 +94,7 @@ Discover the components of a buying group and understand the basics of building 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
-      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Quick start guidance</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI Assistant</a>
+      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI Assistant</a>
     </td>
     <!--
     <td>
@@ -107,7 +107,7 @@ Discover the components of a buying group and understand the basics of building 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Account journeys"><br/>
-      <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a>
+      <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
     </td>
   </tr>
   <tr style="border: 0;">

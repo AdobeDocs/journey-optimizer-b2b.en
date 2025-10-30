@@ -1,6 +1,6 @@
 ---
 title: Buying Groups
-description: Learn how buying groups in Journey Optimizer B2B Edition can increase marketing effectiveness by identifying and targeting members for your account lists.
+description: Optimize account-based marketing with buying groups - identify decision makers, track engagement scores, and automate targeting in Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
@@ -18,7 +18,7 @@ Within the account, there could be a subset of people who comprise the _buying g
 
 ## Key components
 
-You can increase marketing effectiveness by establishing buying groups in Journey Optimizer B2B Edition that identify members for your target account lists for the solutions that your Sales teams are responsible for selling. Before you and your Marketing team starts creating your buying groups, make sure that you have the key components defined. These components are critical for meeting your business goals and objectives.
+You can increase marketing effectiveness by establishing buying groups that identify members for your target account lists for the solutions that your Sales teams are responsible for selling. Before you and your Marketing team starts creating your buying groups, make sure that you have the key components defined. These components are critical for meeting your business goals and objectives.
 
 | Component | Purpose |
 | --------- | ------- |

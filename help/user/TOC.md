@@ -19,6 +19,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
+    + [Journey Build Agent](./agents/journey-agent.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
     + [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
@@ -34,12 +35,15 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Email authoring](./content/email-authoring.md)
        + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
        + [GenStudio workflows](./content/genstudio-email-workflow.md)
+       + [Dark mode for email design](./content/email-dark-mode.md)
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
     + [Audiences](./audiences/account-audience-overview.md)
+    + [Audience Agent](./agents/audience-agent-b2b.md)
+    + [Account Qualification Agent](agents/account-qualification-agent.md)
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
        + [Solution interests](./buying-groups/solution-interests.md)
@@ -63,10 +67,12 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Content management {#content-management}
    + Emails {#emails}
       + [Work with email content](./content/emails-list.md)
+      + [Design accessible content](./content/email-accessible-content.md)
       + Preview and validation {#preview}
          + [Simulate content](./content/email-simulate-content.md)
          + [Test email rendering](./content/email-test-rendering.md)
          + [Spam report](./content/email-spam-report.md)
+      + [Email collaboration](./content/email-collaboration-tools.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
       + Marketo Engage assets {#marketo-engage-dam}
@@ -107,13 +113,16 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Buying Groups Overview](./dashboards/buying-groups-dashboard.md)
     + [Account Journeys Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
+    + [Governance](./admin/governance.md)
+    + [Persona mapping](./admin/persona-mapping.md)
     + [User management](./admin/user-management.md)
-    + [Intent data](./admin/intent-data.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
-    + [Configure AEM Assets repositories](./admin/configure-aem-repositories.md)
-    + [Configure AEP event definitions](./admin/configure-aep-events.md)
-    + [Configure engagement score weighting](./admin/engagement-score-weighting.md)
-    + [Landing page settings](./admin/landing-page-settings.md)
-    + [Governance](./admin/governance.md)
+       + [Landing page settings](./admin/landing-page-settings.md)
+       + [Configure datastreams for event collection](./data/aep-event-collection.md)
+    + Configurations {#configurations}
+       + [AEM Assets repositories](./admin/configure-aem-repositories.md)
+       + [AEP event definitions](./admin/configure-aep-events.md)
+       + [Intent data](./admin/intent-data.md)
+       + [Engagement score weighting](./admin/engagement-score-weighting.md)

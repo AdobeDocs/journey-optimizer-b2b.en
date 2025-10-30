@@ -1,6 +1,6 @@
 ---
 title: Email Channel Configurations
-description: Learn how to access and review the email settings that are configured in Marketo Engage.
+description: Configure email delivery settings, communication limits, and authentication protocols to optimize deliverability in Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
@@ -67,7 +67,7 @@ To review the current settings, go to **[!UICONTROL Administration]** > **[!UICO
 
 ![Access the communication limits settings](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
-The settings are read-only in Journey Optimizer B2B Edition. Click **[!UICONTROL Edit settings]** at the top right to access the configuration options in the connected Marketo Engage instance. 
+Click **[!UICONTROL Edit settings]** at the top right to access the configuration options in the connected Marketo Engage instance. 
 
 >[!NOTE]
 >

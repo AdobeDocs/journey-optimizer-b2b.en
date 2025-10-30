@@ -1,6 +1,6 @@
 ---
 title: Take an Action
-description: Learn about the Take an action node type that you can use for orchestrating your account journeys in Journey Optimizer B2B Edition.
+description: Configure action nodes for account and people actions - send emails, update buying groups, change scores, and integrate with Marketo Engage in Journey Optimizer B2B Edition.
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
@@ -21,6 +21,7 @@ Use an action on accounts when you want to apply a change to all people that are
 | ------ | ----------- |
 | [!UICONTROL Account Change Data Value] | Select attribute<br/>New value |
 | [!UICONTROL Account Interesting Moment] | Type (email, milestone, or web)<br/>Description (optional)|
+| [!UICONTROL Activate to destination] | Select a destination |
 | [!UICONTROL Add Account to (other) Journey] | Select live account journey |
 | [!UICONTROL Add to account list] | Select live static account list |
 | [!UICONTROL Remove Account from Journey] | Select live account journey |
@@ -150,7 +151,7 @@ Use this action to change the person score in Marketo Engage. [Learn more](https
 
 +++[!UICONTROL Person Interesting Moment]
 
-Use this action to log an interesting moment for people profiles. Choose a type (Email, Milestone, or Web) and add a description (optional).
+Use this action to log an interesting moment for people. Choose a type (Email, Milestone, or Web) and add a description (optional).
 
 ![Take an action - Person interesting moment](./assets/node-action-person-interesting-moment.png){width="300"}
 
@@ -174,7 +175,7 @@ Use this action to send an email. After you [create the email](../content/add-em
 
 +++[!UICONTROL Send SMS]
 
-Use this action to send an SMS message. You can create, personalize, and preview SMS messages in the visual designer (see [SMS authoring](../content/sms-authoring.md)).
+Use this action to send an SMS message. You can create, personalize, and preview SMS messages in the visual design space (see [SMS authoring](../content/sms-authoring.md)).
 
 ![Take an action - Send SMS](./assets/node-action-send-sms.png){width="300"}
 

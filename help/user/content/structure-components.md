@@ -1,6 +1,6 @@
 ---
 title: Structure Components
-description: Learn how to use structure components to define the layout of your email, landing page, and visual fragment content.
+description: Use structure components to build layouts for emails, landing pages, and fragments - drag column layouts, set styles, and configure mobile display in Journey Optimizer B2B Edition.
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180

@@ -1,6 +1,6 @@
 ---
 title: User Management
-description: Learn how to assign team members to Journey Optimizer B2B Edition product profiles.
+description: Manage user access with the Experience Cloud Admin Console - create user groups, assign product profiles, and configure role-based permissions for Journey Optimizer B2B Edition.
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
@@ -11,7 +11,7 @@ After provisioning is complete and sandboxes are bound, complete the following s
 
 1. [Create a Marketo Engage product profile](#marketo-engage-profile) in the Admin Console (new Marketo Engage instance only).
 1. [Create a user group](#create-user-group) in the Admin Console.
-<!-- 1. [Edit built-in roles](#edit-roles) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions. -->
+1. [Edit built-in roles](#edit-roles) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions.
 1. [Add users](#add-users) or [groups](#add-user-groups-to-a-role) to roles.
 
 As an administrator, you can complete these tasks in the Adobe Admin Console, which is a central place to administer and manage your Adobe product licenses and users. In the Admin Console, you can create and manage users in a single location instead of within your various individual solutions. Refer to the [Admin Console overview](https://helpx.adobe.com/enterprise/using/admin-console.html) page to learn more about its functions and capabilities.
@@ -131,7 +131,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
 1. Click **[!UICONTROL Save]**.
 
-<!-- ## Edit roles for product permissions {#edit-roles}
+## Edit roles for product permissions {#edit-roles}
 
 Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is gathered under a capability, such as journeys or buying groups, which represents the different functionalities or objects in Journey Optimizer B2B Edition.
 
@@ -254,7 +254,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
    ![Experience Platform - Add groups dialog](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
-1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add. -->
+1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add.
 
 ## Create a custom role
 

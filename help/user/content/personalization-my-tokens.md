@@ -1,6 +1,6 @@
 ---
 title: Custom Tokens for Email Personalization
-description: Learn how to use a set of tokens defined for an account journey to manage personalization in your email content.
+description: Create and manage custom My Tokens for dynamic email personalization - define text and number variables for account journeys in Journey Optimizer B2B Edition.
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d

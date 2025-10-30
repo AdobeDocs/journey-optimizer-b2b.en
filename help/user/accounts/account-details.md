@@ -1,6 +1,6 @@
 ---
 title: Account Details
-description: Learn about accessing detailed information and generative AI summaries for accounts in Journey Optimizer B2B Edition.
+description: View account insights with AI summaries, intent detection, contact coverage analysis, and email communications in Journey Optimizer B2B Edition.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
