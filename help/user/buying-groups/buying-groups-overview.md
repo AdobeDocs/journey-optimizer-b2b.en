@@ -33,13 +33,17 @@ There are three ways that members are assigned to or removed from a buying group
 
 1. **_Manual action_** - A manual add member or remove member action performed by a sales user for the buying group
 2. **_Journey action_** - Journey [action nodes for buying group membership](../journeys/action-nodes.md#add-a-people-based-action) (_Assign to Buying group_ or _Remove from Buying group_)
-3. **_System jobs_** - Buying group [creation](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) and maintenance jobs. 
+3. **_System jobs_** - Buying group [creation](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) and maintenance jobs.
 
 To avoid incorrectly overriding a member assignment in a buying group, this list is in the order of precedence followed in the system to ensure accurate member assignment. For example, when a sales user manually adds a member to the buying group, they do not want a maintenance job to alter that addition. Using the precedence order, the following scenarios are enforced:
 
 * If a user manually assigns a member to a buying group, and it is followed by a buying group maintenance job that removes the same member from the buying group, the maintenance job **does not remove** that member and cannot override the manual assignment.
 * If a user manually assigns a member to a buying group, and it is followed by a triggered journey node that removes the same member from the buying group, the node action **does not remove** that member and cannot override the manual assignment.
 * If a triggered journey action node adds a member to a buying group, and it is followed by a buying group maintenance job that removes the same member from the buying group, the maintenance job **does not remove** that member and cannot override the journey action assignment.
+
+>[!NOTE]
+>
+>Automated buying group maintenence jobs run daily, starting with the 2025.10 release. 
 
 ## Buying group workflow
 
