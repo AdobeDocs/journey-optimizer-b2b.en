@@ -122,7 +122,7 @@ Starting with the 2025.10 release, use the _Activate to Destination_ action for 
 
 1. In the dialog, select the configured LinkedIn destination and click **[!UICONTROL Save]**.
 
-  ![Journey node - take an action on accounts - activate to destination - select destination dialog](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![Journey node - take an action on accounts - activate to destination - select destination dialog](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Audience name]** that is used to identify the activated audience in the destination.
 
