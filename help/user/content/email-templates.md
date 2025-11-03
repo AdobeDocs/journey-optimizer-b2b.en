@@ -7,7 +7,7 @@ exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 ---
 # Email templates
 
-For an accelerated and improved design process, you can create standalone email templates to reuse custom content across [!DNL Adobe Journey Optimizer B2B Edition] account journeys. Through templates, your content-oriented team members can work on email content outside of journeys. Marketing strategists can then reuse and adapt these standalone templates inside their account journeys. For example, one team member is in charge of content only, with no access to account journeys. However, they can create an email template that marketers can select as a starting point for email communications and customize it according to the requirements for the journey.
+For an accelerated and improved design process, you can create standalone email templates to reuse your custom content across [!DNL Adobe Journey Optimizer B2B Edition] account journeys. Through templates, your content-oriented team members can work on email content outside of journeys. Marketing strategists can then reuse and adapt these standalone templates inside their  journeys. For example, one team member is in charge of content only, with no access to account journeys. However, they can create an email template that marketers can select as a starting point for email communications and customize it according to the requirements for the journey.
 
 ## Access and manage email templates
 
