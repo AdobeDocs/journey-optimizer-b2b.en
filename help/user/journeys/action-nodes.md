@@ -46,7 +46,7 @@ Use an action on accounts when you want to apply a change to all people that are
 
 >[!BEGINSHADEBOX]
 
-## Activate to a LinkedIn destination
+### Activate to a LinkedIn destination
 
 Use the _Activate to destination_ action for accounts to activate accounts to Experience Platform destinations directly from your journey. This action enables you to push qualified accounts (based on buying group filters, engagement scores, and other criteria) into matched audiences on supported destinations. It 
 
