@@ -94,11 +94,11 @@ To access details for a buying group, click the buying group name from the _[!UI
 
 ### Buying group completeness score
 
-The completeness score is used to determine if the buying group has the right members assigned to the roles and is ready to be used in an account journey. This score is a percentage based on the number of roles within the buying group and how many roles are assigned with at least one lead.
+The completeness score is used to determine if the buying group has the right number of members assigned to the required roles and is ready to be used in an account journey. This score is a percentage based on the number of roles within the buying group and the completeness for for each of the defined roles.
 
-For example, if there are four roles within a buying group and three out of the four roles are assigned to at least one lead, the buying group is 75% complete. 
+The initial completeness score calculation starts as soon as you create the buying group and is re-calculated daily and every time a buying group is created or updated.
 
-The buying group completeness score is re-calculated every time a buying group is created or updated.
+See [Completeness scores](./completeness-scores.md) for detailed information about completeness score settings role configuration and calculations.
 
 ### Buying group engagement score {#engagement-score}
 

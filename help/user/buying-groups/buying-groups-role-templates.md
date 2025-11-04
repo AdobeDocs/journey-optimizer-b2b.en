@@ -114,6 +114,24 @@ To use list membership as a role condition, expand **[!UICONTROL Special Filters
 
 Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the _[!UICONTROL Roles templates]_ list.
 
+### Change the completeness score settings
+
+By default, completeness for a role is defined as one member assigned to the role. When you want to use buying group completeness as an indicator of sales readiness or success <!-- journey decisioning coming later-->, you can use these settings to align the score with the number of members per role required to close an opportunity.
+
+For example, closing a deal for your solution _X_ requires multiple marketing decision makers to be identified and engaged because multiple marketing teams across an organization would use the solution. In this case, you want to increase the threshold to calculate a _complete_ buying group by requiring at least two marketing decision makers.
+
+1. At the top right of the roles template page, click **[!UICONTROL Completeness score settings]**.
+
+   ![Roles template - completeness score settings button](./assets/buying-group-details-edit-roles-completeness-settings.png){width="700" zoomable="yes"}
+
+1. In the dialog, change the **[!UICONTROL Members required]** value for each defined role as needed.
+
+   You can enter the value, or click **&plus;** or **&minus;** to increase or decrease the value.
+
+   ![Roles template - completeness score settings button](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+
+1. Click **[!UICONTROL Save]**.
+
 ### Publish the roles template
 
 If the template is ready for use, click **[!UICONTROL Publish]** at the top-right.
