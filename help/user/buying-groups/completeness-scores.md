@@ -14,7 +14,7 @@ role: User
 
 A completeness score is a percentage that indicates how well a buying group is populated with the required members across its defined roles. These scores are based on role member thresholds that you configure in the roles template and the actual number of members assigned to each role in the buying group. The resulting scores help marketers evaluate sales readiness and identify gaps in buying group composition. Score calculation occurs automatically as buying group membership changes.
 
-![Buying group completeness scores](./assets/buying-group-details-page-completeness-scores.png){width="700" zoomable="yes"}
+![Buying group completeness scores](./assets/buying-group-details-page-completeness-scores.png){width="800" zoomable="yes"}
 
 There are two types of completeness scores:
 
@@ -34,7 +34,7 @@ Completeness scores reflect the current state of buying group membership and upd
 
 Adobe Journey Optimizer B2B Edition equips marketers with tools that ensure buying groups align with real decision-making processes. You can define complete buying groups using customizable role member thresholds that reflect your organization's sales methodology. By setting minimum and maximum member requirements for each role, you establish clear criteria for what constitutes a sales-ready buying group.
 
-The buying group completeness score provides an accurate measure of sales readiness for the group. For example, to complete an opportunity for a specific solution, you might need at least two decision makers, one influencer, and at least one practitioner. The completeness score calculation accounts for each of these role-specific requirements, providing a weighted view of overall buying group readiness.
+The buying group completeness score provides an accurate measure of sales readiness for the group. For example, to complete an opportunity for a specific solution, you might need at least two decision makers, one influencer, and at least one practitioner. The completeness score calculation accounts for each of these role-specific requirements, providing a view of overall buying group readiness.
 
 ## Measure journey effectiveness
 
@@ -107,11 +107,11 @@ The following examples illustrate role completeness calculations with different 
 
 ## Buying group completeness calculation {#buying-group-completeness-calculation}
 
-The buying group completeness score aggregates the individual role completeness scores, weighted by the importance of each role. This calculation provides a holistic view of buying group readiness across all defined roles.
+The buying group completeness score aggregates the individual role completeness scores. This calculation provides a holistic view of buying group readiness across all defined roles.
 
 ### Buying group completeness formula
 
-The buying group completeness percentage is calculated using the following weighted formula:
+The buying group completeness percentage is calculated using the following formula:
 
 ```text
 Buying Group Completeness % = Σ(Role Completeness %) / Number of defined roles
