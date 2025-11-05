@@ -98,7 +98,7 @@ The completeness score is used to determine if the buying group has the right nu
 
 The initial completeness score calculation starts as soon as you create the buying group and is re-calculated daily and every time a buying group is created or updated.
 
-See [Completeness scores](./completeness-scores.md) for detailed information about completeness score settings role configuration and calculations.
+See [Completeness scores](./completeness-scores.md) for detailed information about completeness scoring and calculations.
 
 ### Buying group engagement score {#engagement-score}
 

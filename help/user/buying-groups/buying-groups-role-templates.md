@@ -120,6 +120,8 @@ By default, completeness for a role is defined as one member assigned to the rol
 
 For example, closing a deal for your solution _X_ requires multiple marketing decision makers to be identified and engaged because multiple marketing teams across an organization would use the solution. In this case, you want to increase the threshold to calculate a _complete_ buying group by requiring at least two marketing decision makers.
 
+See [Completeness scores](./completeness-scores.md) for detailed information about completeness scoring and calculations.
+
 1. At the top right of the roles template page, click **[!UICONTROL Completeness score settings]**.
 
    ![Roles template - completeness score settings button](./assets/buying-group-details-edit-roles-completeness-settings.png){width="700" zoomable="yes"}

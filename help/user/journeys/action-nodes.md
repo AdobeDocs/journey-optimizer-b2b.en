@@ -54,7 +54,7 @@ Starting with the 2025.10 release, **_LinkedIn_** is the first supported destina
 
 For more information about using account matched audiences for a LinkedIn destination, see [LinkedIn Account Matched Audiences](../data/linkedin-account-matched-audiences.md).
 
-+++ Activate accounts to LinkedIn destination
++++ Set activation of accounts to a LinkedIn destination
 
 1. With the _Take an action_ node selected in the journey canvas, set the **[!UICONTROL Action on accounts]** to **[!UICONTROL Activate to destination]**.
 
