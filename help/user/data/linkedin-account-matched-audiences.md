@@ -1,13 +1,15 @@
 ---
 title: LinkedIn Account Matched Audiences
-description: Learn how to connect a LinkedIn account and activate a dataflow for buying groups.
+description: Learn how to connect a LinkedIn account and activate a dataflow for account members.
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 ---
 # LinkedIn Account Matched Audiences
 
-Journey Optimizer B2B Edition offers the ability to generate LinkedIn Ad audiences through Account Matched Audiences, and is designed to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration. There is a limit of ten dataflows.
+Journey Optimizer B2B Edition offers the ability to generate LinkedIn Ad audiences through Account Matched Audiences, and is designed to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. You can also activate an audience from an account journey from a _Take an action_ node.
+
+This feature leverages Experience Platform Destinations to manage some aspects of the integration. There is a limit of ten dataflows.
 
 Before you initiate a dataflow from Journey Optimizer B2B Edition, you must have at least one instance of the [(Companies) LinkedIn Matched Audience destination connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} with a LinkedIn Campaign Manager account configured in your Experience Platform application.
 
@@ -107,6 +109,24 @@ The name and description for the LinkedIn account are visible for buying groups 
    Click **[!UICONTROL Activate]** again in the confirmation dialog.
 
    A banner is displayed with a link to your dataflows menu in Experience Platform so that you can check the dataflow record.
+
+## Activate an audience from an account journey
+
+Starting with the 2025.10 release, use the _Activate to Destination_ action for accounts to activate accounts to a LinkedIn destination directly from your journey. Use the action for a LinkedIn destination to streamline campaign execution by eliminating multi-system handoffs and reducing latency. For example, as a marketer, you can automatically activate high-intent accounts to LinkedIn for retargeting when key buying roles are missing, or re-engage dormant accounts based on inactivity filters.
+
+1. With the _Take an action_ node selected in the journey canvas, set the **[!UICONTROL Action on accounts]** to **[!UICONTROL Activate to destination]**.
+
+1. Click **[!UICONTROL Select destination]**.
+
+   ![Journey node - take an action on accounts - activate to destination](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+
+1. In the dialog, select the configured LinkedIn destination and click **[!UICONTROL Save]**.
+
+   ![Journey node - take an action on accounts - activate to destination - select destination dialog](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+
+1. Enter the **[!UICONTROL Audience name]** that is used to identify the activated audience in the destination.
+
+   ![Journey node - take an action on accounts - activate to destination - completed settings](../journeys/assets/node-activate-destination-settings.png){width="550" zoomable="yes"}   
 
 ## Orchestrate paid media engagement
 

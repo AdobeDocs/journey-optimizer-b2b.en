@@ -33,13 +33,17 @@ There are three ways that members are assigned to or removed from a buying group
 
 1. **_Manual action_** - A manual add member or remove member action performed by a sales user for the buying group
 2. **_Journey action_** - Journey [action nodes for buying group membership](../journeys/action-nodes.md#add-a-people-based-action) (_Assign to Buying group_ or _Remove from Buying group_)
-3. **_System jobs_** - Buying group [creation](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) and maintenance jobs. 
+3. **_System jobs_** - Buying group [creation](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) and maintenance jobs.
 
 To avoid incorrectly overriding a member assignment in a buying group, this list is in the order of precedence followed in the system to ensure accurate member assignment. For example, when a sales user manually adds a member to the buying group, they do not want a maintenance job to alter that addition. Using the precedence order, the following scenarios are enforced:
 
 * If a user manually assigns a member to a buying group, and it is followed by a buying group maintenance job that removes the same member from the buying group, the maintenance job **does not remove** that member and cannot override the manual assignment.
 * If a user manually assigns a member to a buying group, and it is followed by a triggered journey node that removes the same member from the buying group, the node action **does not remove** that member and cannot override the manual assignment.
 * If a triggered journey action node adds a member to a buying group, and it is followed by a buying group maintenance job that removes the same member from the buying group, the maintenance job **does not remove** that member and cannot override the journey action assignment.
+
+>[!NOTE]
+>
+>Automated buying group maintenence jobs run daily, starting with the 2025.10 release. 
 
 ## Buying group workflow
 
@@ -90,11 +94,11 @@ To access details for a buying group, click the buying group name from the _[!UI
 
 ### Buying group completeness score
 
-The completeness score is used to determine if the buying group has the right members assigned to the roles and is ready to be used in an account journey. This score is a percentage based on the number of roles within the buying group and how many roles are assigned with at least one lead.
+The completeness score is used to determine if the buying group has the right number of members assigned to the required roles and is ready to be used in an account journey. This score is a percentage based on the number of roles within the buying group and the completeness for for each of the defined roles.
 
-For example, if there are four roles within a buying group and three out of the four roles are assigned to at least one lead, the buying group is 75% complete. 
+The initial completeness score calculation starts as soon as you create the buying group and is re-calculated daily and every time a buying group is created or updated.
 
-The buying group completeness score is re-calculated every time a buying group is created or updated.
+See [Completeness scores](./completeness-scores.md) for detailed information about completeness scoring and calculations.
 
 ### Buying group engagement score {#engagement-score}
 

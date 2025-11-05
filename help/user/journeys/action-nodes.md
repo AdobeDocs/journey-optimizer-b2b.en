@@ -44,6 +44,36 @@ Use an action on accounts when you want to apply a change to all people that are
 
    ![Journey node - take an action on an account](./assets/node-take-action-account.png){width="700" zoomable="yes"}
 
+>[!BEGINSHADEBOX]
+
+### Activate to a LinkedIn destination
+
+Use the _Activate to destination_ action for accounts to activate accounts to Experience Platform destinations directly from your journey. This action enables you to push qualified accounts (based on buying group filters, engagement scores, and other criteria) into matched audiences on supported destinations. It 
+
+Starting with the 2025.10 release, **_LinkedIn_** is the first supported destination type. Use the action for a LinkedIn destination to streamline campaign execution by eliminating multi-system handoffs and reducing latency. For example, as a marketer, you can automatically activate high-intent accounts to LinkedIn for retargeting when key buying roles are missing, or re-engage dormant accounts based on inactivity filters.
+
+For more information about using account matched audiences for a LinkedIn destination, see [LinkedIn Account Matched Audiences](../data/linkedin-account-matched-audiences.md).
+
++++ Set activation of accounts to a LinkedIn destination
+
+1. With the _Take an action_ node selected in the journey canvas, set the **[!UICONTROL Action on accounts]** to **[!UICONTROL Activate to destination]**.
+
+1. Click **[!UICONTROL Select destination]**.
+
+   ![Journey node - take an action on accounts - activate to destination](./assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+
+1. In the dialog, select the configured LinkedIn destination and click **[!UICONTROL Save]**.
+
+  ![Journey node - take an action on accounts - activate to destination - select destination dialog](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+
+1. Enter the **[!UICONTROL Audience name]** that is used to identify the activated audience in the destination.
+
+   ![Journey node - take an action on accounts - activate to destination - completed settings](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}   
+
++++
+
+>[!ENDSHADEBOX]
+
 ## People actions
 
 Use an action on people when you want to apply a change to all people on the node path. This node type can be used within the split path by people or split path by accounts.

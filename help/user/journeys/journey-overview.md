@@ -79,7 +79,7 @@ If you abort (stop) a live or scheduled journey, accounts in the journey immedia
 
 >[!IMPORTANT]
 >
->When the account journey is used in another journey from a _Take an action_ node with the _Add Account to (other) Journey_ action, aborting the journey blocks that action in that journey.
+>When the account journey is used in another journey from a _Take an action_ node with the _[!UICONTROL Add Account to (other) Journey]_ action, aborting the journey blocks that action in that journey.
 
 1. Click the journey name to open it.
 
@@ -95,7 +95,7 @@ If you close a live journey, accounts that are currently in the journey continue
 
 >[!IMPORTANT]
 >
->When the account journey is used in another journey from a _Take an action_ node with the _Add Account to (other) Journey_ action, closing it to new entries blocks that action from that journey.
+>When the account journey is used in another journey from a _Take an action_ node with the _[!UICONTROL Add Account to (other) Journey]_ action, closing it to new entries blocks that action from that journey.
 
 1. Click the journey name to open it.
 
@@ -148,6 +148,16 @@ Use a delete action to delete a journey permanently. You cannot delete a live or
    * For other journey statuses, such as _Finished_ or _Aborted_, click **[!UICONTROL Delete]** at the top right.
 
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
+
+## Review account progression
+
+For a published journey that is in a _Live_, _Closed to new entries_, _Aborted_, or _Finished_ status, you can open the journey map to review the account progression for the journey nodes. Each node on the map displays the number of accounts to reach that node and, for live journeys, the number of accounts currently at that node.
+
+![Journey node account progression information](./assets/node-account-progression-observability.png){width="400"}
+
+When you select the node, click the number to view a list of accounts that entered the node or are currently at that step of the journey. 
+
+![Journey node account progression information](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
 
 ## Overview video
 
