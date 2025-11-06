@@ -38,7 +38,7 @@ Where:
 
 * The words **true**, **false**, **null** and **undefined** are only allowed in the first part of a path expression.
 
-* In Handlebars, the values returned by the {{expression}} are _HTML-escaped_. If the expression contains `&`, the returned HTML-escaped output is generated as `&amp;`. If you do not want Handlebars to escape a value, use the +triple-stash_. For example:
+* In Handlebars, the values returned by the {\{expression}\} are _HTML-escaped_. If the expression contains `&`, the returned HTML-escaped output is generated as `&amp;`. If you do not want Handlebars to escape a value, use the +triple-stash_. For example:
 
     If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`.
 
