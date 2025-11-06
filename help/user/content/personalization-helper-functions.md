@@ -384,7 +384,7 @@ The following operation defines people whose favorite color includes red.
 
 +++
 
-## intersects {#intersects}
+### intersects {#intersects}
 
 The `intersects` function is used to determine if two arrays or lists have at least one common member.
 
@@ -944,7 +944,7 @@ Some pattern letters may look similar, but represent different concepts.
 | `d`     | Day-of-month (1–31) | `31` |
 | `D`     | Day-of-year (1–366) | `365` |
 
-### Format date with locale support {#format-date-locale}
+#### Format date with locale support {#format-date-locale}
 
 You can use the `formatDate` function to format a date time value into its corresponding language sensitive representation, such as for a desired locale. The format should be a valid Java `DateTimeFormat` pattern.
 
@@ -1064,7 +1064,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-### SetHours {#set-hours}
+### setHours {#set-hours}
 
 Use the `setHours` function to set the hour of the date-time.
 
@@ -1435,7 +1435,7 @@ In this example, the value `there` is displayed if the `firstName` attribute of 
 
 +++
 
-### Conditions {#if-function}
+### if (conditions) {#if-function}
 
 The `if` helper is used to define a conditional block.
 If the expression evaluation returns true, the block is rendered otherwise it is skipped.
@@ -1516,9 +1516,9 @@ The `elseif` statement specifies a new condition to test if the first statement 
 
 +++
 
-### Unless {#unless}
+### unless {#unless}
 
-Use the `Unless` helper is to define a conditional block. By opposition to the `if`  helper, if the expression evaluation returns false, the block is rendered.
+Use the `unless` helper is to define a conditional block. By opposition to the `if`  helper, if the expression evaluation returns false, the block is rendered.
 
 +++Syntax
 
@@ -1540,7 +1540,7 @@ Some edu specific content
 
 +++
 
-### Each {#each}
+### each {#each}
 
 Use the `each` helper to iterate over an array.
 
@@ -1660,7 +1660,6 @@ Select any element from your channel content inside a campaign or a journey and,
 >[!NOTE]
 >
 >The `executionMetadata` function is not visible when the content itself is displayed.
-
 
 At runtime, the metadata value is added to the existing **[!UICONTROL Message Feedback Event Dataset]** with the following schema addition:
 
@@ -1813,7 +1812,7 @@ Use the `random` function to return a random value between 0 and 1.
 
 +++
 
-## roundDown {#round-down}
+### roundDown {#round-down}
 
 Use the `roundDown` function to round a number down.
 
@@ -1889,7 +1888,7 @@ Use the `toPercentage` function to convert a number to percentage.
 
 +++
 
-### ToPrecision {#to-precision}
+### toPrecision {#to-precision}
 
 Use the `toPrecision` function to convert a number to required precision.
 
@@ -1901,9 +1900,9 @@ Use the `toPrecision` function to convert a number to required precision.
 
 +++
 
-## toString {#to-string}
+### toString {#to-string}
 
-The **toString** function converts any number into its string representation. 
+The `toString` function converts any number into its string representation. 
 
 +++Syntax
 
@@ -1945,7 +1944,7 @@ The following operation checks if the person's home address does not exist.
 
 +++
 
-## isNotNull {#isNotNull}
+### isNotNull {#isNotNull}
 
 The `isNotNull` function determines if an object reference exists.
 
@@ -2725,7 +2724,7 @@ Use the `split` function to split a string by a given character.
 
 +++
 
-## startsWith {#startsWith}
+### startsWith {#startsWith}
 
 Use the `startsWith` function to determine if a string starts with a specified substring.
 

@@ -83,4 +83,4 @@ For more detailed information about these functions, see [Helper functions](./pe
 
 >[!CAUTION]
 >
->The use of **xEvent** variable is not available in personalization expressions. Any reference to Event results in validation failures.
+>The use of **xEvent** variable is not available in personalization expressions. Any reference to xEvent results in validation failures.
