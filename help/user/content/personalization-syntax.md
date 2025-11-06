@@ -17,7 +17,9 @@ For more details about the Handlebars and how it works, refer to the [Handlebars
 
 Simple expression example: 
 
-`\{{account.accountName}\}`
+```
+{{account.accountName}}
+```
 
 Where:
 
@@ -46,7 +48,9 @@ Where:
 
 * For literal functions arguments, the templating language parser does not support single unescaped backslash (`\`) symbol. This character must be escaped with an additional backslash (`\`) symbol. For example :
 
-    `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}` 
+   ```
+   {%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}
+   ``` 
 
 ## Helpers {#helpers-all}
 
