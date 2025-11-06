@@ -1463,7 +1463,7 @@ The `elseif` statement specifies a new condition to test if the first statement 
     }
 }
 ```
-
+<!-- 
 **Examples**
 
 * **Render different store links based on conditional expressions**
@@ -1511,10 +1511,7 @@ The `elseif` statement specifies a new condition to test if the first statement 
     Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
     {%/if%}
     ```
-
->[!NOTE]
->
->To learn more about audiences and the segmentation service, refer to [this section](../../audience/about-audiences.md).
+-->
 
 +++
 
