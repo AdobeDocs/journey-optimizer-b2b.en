@@ -1443,7 +1443,7 @@ If the expression evaluation returns true, the block is rendered otherwise it is
 +++Syntax
 
 ```sql
-{%#if contains(profile.personalEmail.address, ".edu")%}
+{%#if contains(account.accountOrganization.primaryEmailDomain, ".edu")%}
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
@@ -1531,7 +1531,7 @@ Use the `Unless` helper is to define a conditional block. By opposition to the `
 Render some content based on the email address extension:
 
 ```sql
-{%#unless endsWith(profile.personalEmail.address, ".edu")%}
+{%#unless endsWith(account.accountOrganization.primaryEmailDomain}, ".edu")%}
 Some Normal Content
 {%else%}
 Some edu specific content

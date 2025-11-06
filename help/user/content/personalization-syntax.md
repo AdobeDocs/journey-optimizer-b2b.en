@@ -38,21 +38,31 @@ Where:
 
 * The words **true**, **false**, **null** and **undefined** are only allowed in the first part of a path expression.
 
-* In Handlebars, the values returned by the {\{expression}\} are _HTML-escaped_. If the expression contains `&`, the returned HTML-escaped output is generated as `&amp;`. If you do not want Handlebars to escape a value, use the +triple-stash_. For example:
+* In Handlebars, the values returned by the {\{expression}\} are _HTML-escaped_. If the expression contains `&`, the returned HTML-escaped output is generated as `&amp;`. If you do not want Handlebars to escape a value, use the +triple-stash_. 
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`.
+<!-- For example:
+
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
 
 * For literal functions arguments, the templating language parser does not support single unescaped backslash (`\`) symbol. This character must be escaped with an additional backslash (`\`) symbol. For example :
 
     `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}` 
 
-## Helpers{#helpers-all}
+## Helpers {#helpers-all}
 
-A Handlebars helper function is a simple identifier that can be appended with parameters. Each parameter is a Handlebars expression. These helpers can be accessed from any context in a template.
+A Handlebars helper function is a simple identifier that can be appended with parameters. Each parameter is a Handlebars expression. These helpers can be accessed from any context in an email template.
 
-These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+```sql
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ).
+{{#each account.accountOrganization.annualRevenue.amount}}
+    <li>{{this.name}}</li>
+{{/each }}
+
+```
+
+<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
 
 For more detailed information about these functions, see [Helper functions](./personalization-helper-functions.md).
 
@@ -69,4 +79,4 @@ For more detailed information about these functions, see [Helper functions](./pe
 
 >[!CAUTION]
 >
->The use of **xEvent** variable is not available in personalization expressions. Any reference to xEvent  results in validation failures.
+>The use of **xEvent** variable is not available in personalization expressions. Any reference to Event results in validation failures.
