@@ -20,7 +20,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | ----- | ------ | ----------- |
 | Journey Build Agent | New | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
 | Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | New | See which accounts are ready for the next stage using the Account Qualification Agent in the AI Assistant. This agent empowers your sales team members to focus on the right accounts by surfacing high-value leads and automating qualification workflows. [Learn more](../agents/account-qualification-agent.md) |
+| Account Qualification Agent | New | See which accounts are ready for the next stage using the Account Qualification Agent in the AI Assistant. This agent empowers your sales team members to focus on the right accounts by surfacing high-value leads and automating qualification workflows. [Learn more](../agents/sales-qualifier.md) |
 
 ## 2025.10 release notes
 
