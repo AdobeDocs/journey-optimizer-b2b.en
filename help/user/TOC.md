@@ -17,9 +17,12 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
     + [Question guidance](./ai-assistant/question-guidance.md)
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
+    + Agents {#ai-agents}
+       + [Audience Agent](./agents/audience-agent-b2b.md)
+       + [Journey Build Agent](./agents/journey-agent.md)
+       + [Sales Qualifier](./agents/sales-qualifier.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
-    + [Journey Build Agent](./agents/journey-agent.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
     + [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
@@ -42,8 +45,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [SMS authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
     + [Audiences](./audiences/account-audience-overview.md)
-    + [Audience Agent](./agents/audience-agent-b2b.md)
-    + [Account Qualification Agent](agents/account-qualification-agent.md)
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
        + [Solution interests](./buying-groups/solution-interests.md)
@@ -57,6 +58,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Export accounts](./audiences/account-list-export.md)
        + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
        + [Buying group filters in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+       + [In-CRM Insights](./buying-groups/incrm-insights.md)
     + Account lists {#account-lists}    
        + [Overview](./accounts/account-lists.md)
        + [Use in journeys and programs](./accounts/account-lists-journeys.md)
@@ -128,3 +130,4 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [AEP event definitions](./admin/configure-aep-events.md)
        + [Intent data](./admin/intent-data.md)
        + [Engagement score weighting](./admin/engagement-score-weighting.md)
+    + [Simplified architecture setup](simplified-architecture.md)
