@@ -63,6 +63,10 @@ When _[!UICONTROL Strict Transport Security]_ is enabled, it guarantees that tra
 
 Communication limits control the number of emails that a contact receives from your organization. The limits that you set are shared between Journey Optimizer B2B Edition and the connected Marketo Engage instance. Setting these limits ensures that one lead does not receive more than a maximum number of emails over a given period of time.
 
+>[!AVAILABILITY]
+>
+>The communication limits are available for Joureny Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
+
 For example, with a defined limit of five emails per day, the system ensures that one contact does not receive a sixth email within a day by suppressing the sixth email. With shared communication limits between Journey Optimizer B2B Edition and Marketo Engage, the communication limit rules are defined in one location. The sixth email is suppressed, regardless of the send action coming from Journey Optimizer B2B Edition or Marketo Engage.
 
 All Marketo Engage production instances have communication limits defined by default (see the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} for more information). To use shared communication limits, define the rules in Journey Optimizer B2B Edition and extend the sharing of these limits to the Marketo Munchkin codes.
