@@ -20,7 +20,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | ----- | ------ | ----------- |
 | Journey Build Agent | New | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
 | Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | New | See which accounts are ready for the next stage using the Account Qualification Agent in the AI Assistant. This agent empowers your sales team members to focus on the right accounts by surfacing high-value leads and automating qualification workflows. [Learn more](../agents/account-qualification-agent.md) |
+| Account Qualification Agent | New | See which accounts are ready for the next stage using the Account Qualification Agent in the AI Assistant. This agent empowers your sales team members to focus on the right accounts by surfacing high-value leads and automating qualification workflows. [Learn more](../agents/sales-qualifier.md) |
 
 ## 2025.10 release notes
 
@@ -29,16 +29,17 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Relational data model | Leverage the relational data that is linked to B2B Accounts to filter accounts within an account journey or to personalize email content. This relational data can represent real-world business entities such as purchase records, event registrations, software licenses, service subscriptions, or reservations.|
-| Feature | Activate to destination for journeys | Use the new _Activate to destination_ company account action to activate directly to companies, rather than individuals. (Limited to LinkedIn companies for this release.) |
-| Feature | Multiple Marketo Engage activation | Configure connections to remote Marketo Engage instances and use those connections to set up Marketo Engage actions from journeys. These actions, such as adding/removing people from lists or adding people to a request campaign, apply to the designated Marketo Engage instance. |
+| Feature | Activate to destination for journeys | Use the new _Activate to destination_ company account action to activate directly to companies, rather than individuals. (Limited to LinkedIn companies for this release.) [Learn more](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | Feature | Brand themes | With brand themes, non-technical users now have the ability to create reusable content that fits a specific brand and design language by adding custom styling on top of the standard templates. [Learn more](../content/brand-themes.md) |
 | Feature | Email templates - convert image to HTML | You can now use your design files stored as JPG or PNG image files and automatically generate email templates. [Learn more](../content/email-template-image-convert.md) |
 | Feature | Persona mapping | Tie account members with established personas with attribute mapping. [Learn more](../admin/persona-mapping.md) |
 | Feature | Sales Insights for Salesforce and Dynamics | Sales team members can now view maturing buying groups and related insights within a Salesforce or Dynamics integration to identify new opportunities. The buying group details like stage, score, and related members are included. |
+| Feature | Multiple Marketo Engage activation | Configure connections to remote Marketo Engage instances and use those connections to set up Marketo Engage–related journey actions. These actions, such as adding or removing people from lists or adding people to a request campaign, apply to the designated Marketo Engage instance. |
 | Enhancement | Email Fatigue Deduplication | You can now enable email deduplication to ensure that the same email is not sent multiple times to the same address in a journey. Duplicate addresses are blocked until the first record with that email address completes the journey. |
+| Enhancement | Improved buying group completeness scoring | You can now ensure that buying groups reflect real decision-making with customizable role member thresholds for completeness scoring.  [Learn more](../buying-groups/completeness-scores.md) |
 | Enhancement | Communication limits | The system now respects the combined communication limits of both Marketo Engage and Journey Optimizer B2B Edition. |
 | Enhancement | Buying group maintenance jobs | The buying group maintenance job frequency is updated from weekly to daily. |
-| Enhancement | Account journey progression | A _More information_ link is visible for journey progression to access account counts and lists. |
+| Enhancement | Account journey progression | For a published journey that is in a _Live_, _Closed to new entries_, _Aborted_, or _Finished_ status, you can open the journey map to review a list of accounts for each journey node. |
 
 >[!NOTE]
 >

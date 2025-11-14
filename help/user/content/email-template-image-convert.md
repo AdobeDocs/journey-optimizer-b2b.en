@@ -5,11 +5,9 @@ feature: Email Authoring, Content
 ---
 # Convert an image to an email template
 
-You can easily convert design files saved as images (PNG or JPEG) into email template-ready HTML, saving your web team valuable time and resources. 
-
 Creating and updating email templates is a foundational component in your Marketing content supply chain, but these tasks often require significant time and resources because of manual HTML coding. Marketing teams have traditionally relied on agencies or IT teams to develop these templates. The new image-to-HTML tool for email templates simplifies this process by allowing marketers to convert design files into HTML code templates. The converted HTML is ready for further editing in the email design space. This tool supports both JPEG and PNG file types and features a drag-and-drop interface.
 
-The intuitive template generator converts images to HTML code templates that are ready for modification with the email design tools. A marketer or design professional can upload an image and quickly generate an email template, without the need for manual HTML coding. This tool supports conversion from JPEG and PNG file types into HTML-coded email templates.
+You can easily convert design files saved as images (PNG or JPEG) into email template-ready HTML, saving your web team valuable time and resources. The intuitive template generator converts images to HTML-coded email templates that are ready for modification with the email design tools. A marketer or design professional can upload an image and quickly generate an email template, without the need for manual HTML coding. This tool supports conversion from JPEG and PNG file types into HTML-coded email templates.
 
 >[!BEGINSHADEBOX]
 

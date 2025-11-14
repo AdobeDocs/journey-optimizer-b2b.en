@@ -1,6 +1,6 @@
 ---
 title: Journey Build Agent for B2B
-description: Learn how 
+description: Learn how to use the AI-powered Journey Build Agent to help build robust journeys quickly
 feature: Account Journeys, AI Assistant
 role: User
 ---
