@@ -1,6 +1,6 @@
 ---
 title: Simplified architecture setup
-description: 
+description: Set up Journey Optimizer B2B Edition on the simplified architecture. Configure XDM schemas, email/SMS channels, Marketo Engage journey actions, and users.
 feature: Setup, Administration
 role: Admin, Data Engineer
 hide: yes
@@ -8,7 +8,9 @@ hidefromtoc: yes
 ---
 # Simplified architecture setup
 
-The new architecture is the foundation that unlocks new capabilities in Adobe Journey Optimizer B2B Edition:
+Adobe Journey Optimizer B2B Edition is now available using a simplified architecture. With this updated architecture, Journey Optimizer B2B Edition and Marketo Engage are no longer on the same system and same data store. Journey Optimizer B2B Edition receives data only from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system. 
+
+The simplified architecture is the foundation that unlocks new capabilities in Adobe Journey Optimizer B2B Edition:
 
 * **Easily unify and scale your data:** The new platform supports complex data models, including custom objects, buying groups, and account events. 
 
@@ -62,7 +64,7 @@ Use the steps below to define fields for standard XDM classes:
 
 1. In the navigation panel, select **[!UICONTROL XDM Classes]**.
 
-1. Select the **Standard** tab to view the available XDM classes:
+1. Select the **[!UICONTROL Standard]** tab to view the available XDM classes:
 
    * XDM Individual Profile
 
@@ -72,23 +74,23 @@ Use the steps below to define fields for standard XDM classes:
 
 Define which fields are available throughout the application.
 
-1. Click the _More menu_ (**…**) icon and select **Edit managed fields**.
+1. Click the _More menu_ (**…**) icon and select **[!UICONTROL Edit managed fields]**.
 
 1. Review the list of available fields (click the _Information_ icon for field metadata).
 
 1. Select the fields that you want to include and clear selections for the fields that you don't need.
 
-1. Use the **Only show selected fields** slider to review your selections.
+1. Use the **[!UICONTROL Only show selected fields]** slider to review your selections.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 #### Updatable fields
 
-Choose which fields can be modified through **Update Account Profile** or **Update Person Profile** journey actions.
+Choose which fields can be modified through **[!UICONTROL Update Account Profile]** or **[!UICONTROL Update Person Profile]** journey actions.
 
-1. Click the _More menu_ (**…**) icon and select **Edit updatable fields**.
+1. Click the _More menu_ (**…**) icon and select **[!UICONTROL Edit updatable fields]**.
 
-1. Select **Schema** and then **Dataset**.
+1. Select **[!UICONTROL Schema]** and then **[!UICONTROL Dataset]**.
 
    These schemas and datasets are provided by your organization.
 
@@ -104,19 +106,19 @@ Choose which fields can be modified through **Update Account Profile** or **Upda
 
 Select [relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational) for use in **_journey decisioning_** and **_personalization_**. Currently, these schemas are for Custom Object use cases. In the future, relational schemas can also be used for other object use cases. 
 
-1. Select the **Relational** tab.
+1. Select the **[!UICONTROL Relational]** tab.
 
-1. Click **Select relational XDM class**.
+1. Click **[!UICONTROL Select relational XDM class]**.
 
    Currently, only Account many-to-one Custom Object is supported.
 
-1. Review the list of schema fields (click the **info** icon for metadata)
+1. Review the list of schema fields (click the _information_ icon to view the metadata).
 
 1. Select the fields that you want to include.
 
-1. Use the **Only show selected fields** slider to review your selections.
+1. Use the **[!UICONTROL Only show selected fields]** slider to review your selections.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -133,15 +135,15 @@ Select [relational schemas](https://experienceleague.adobe.com/en/docs/experienc
 
 Select the Experience Events to use in **_journey decisioning_**.
 
-1. Select the **Events** tab.
+1. Select the **[!UICONTROL Events]** tab.
 
-1. Click **Select experience event**.
+1. Click **[!UICONTROL Select experience event]**.
 
-1. Click **Select event type**, choose the event type, click **Select**.
+1. Click **[!UICONTROL Select event type]**, choose the event type, click **[!UICONTROL Select]**.
 
-1. Click **Select fields**, choose the fields that you need, click **Select**.
+1. Click **[!UICONTROL Select fields]**, choose the fields that you need, click **[!UICONTROL Select]**.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 ## Email configuration
 
@@ -214,21 +216,21 @@ You can configure one or more remote **_Marketo Engage_** instances for use with
 
 Complete the following steps for configuring these connections:
 
-1. Navigate to **Administration > Configurations.
+1. Navigate to **[!UICONTROL Administration] > [!UICONTROL Configurations]**.
 
 1. In the navigation panel, select **[!UICONTROL XDM Classes]**.
 
-1. Select the **Integrations** tab.
+1. Select the **[!UICONTROL Integrations]** tab.
 
-1. Click **Create connection**.
+1. Click **[!UICONTROL Create connection]**.
 
-1. Enter the **Name** and **Description**.
+1. Enter the **[!UICONTROL Name]** and **[!UICONTROL Description]**.
 
-1. Select **Update policy** for matching person records.
+1. Select **[!UICONTROL Update policy]** for matching person records.
 
-1. Enter **Munchkin ID**, **Client ID**, **Client Secret**, and click **Connect to Marketo**.
+1. Enter **[!UICONTROL Munchkin ID]**, **[!UICONTROL Client ID]**, **[!UICONTROL Client Secret]**, and click **[!UICONTROL Connect to Marketo]**.
 
-1. Click **Create**.
+1. Click **[!UICONTROL Create]**.
 
 ## User onboarding
 
@@ -246,7 +248,7 @@ The profiles grant all roles and permissions already assigned to that user group
 
 ### Create a new user group
 
-1. Create a product profile in the dedicated Marketo Engage.
+1. Create a product profile in the dedicated Marketo Engage instance.
 1. Create a user group for new users.
 1. Select and assign the required product profiles to the user group:
 
@@ -256,5 +258,5 @@ The profiles grant all roles and permissions already assigned to that user group
       * Adobe Experience Platform Data Collection
       * Data Collection All Access
 
-1. Add desired users to the user group.
+1. Add the users to the user group.
 1. Add a new user group to Journey Optimizer B2B Edition roles in Experience Platform.

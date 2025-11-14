@@ -130,4 +130,4 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [AEP event definitions](./admin/configure-aep-events.md)
        + [Intent data](./admin/intent-data.md)
        + [Engagement score weighting](./admin/engagement-score-weighting.md)
-    + [Simplified architecture setup](new-architecture.md)
+    + [Simplified architecture setup](simplified-architecture.md)
