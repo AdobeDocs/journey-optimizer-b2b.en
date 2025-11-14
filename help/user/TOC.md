@@ -111,6 +111,10 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Brand alignment](./content/brand-alignment.md)
    + [Brand themes](./content/brand-themes.md)
    + [Conditional content](./content/conditional-content.md)
+   + Personalization {#personalization}
+      + [Overview](./content/personalization.md)
+      + [Personalization syntax](./content/personalization-syntax.md)
+      + [Helper functions list](./content/personalization-helper-functions.md)
 + Insights dashboards {#dashboards}
     + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement Overview](./dashboards/engagement-dashboard.md)

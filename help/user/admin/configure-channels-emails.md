@@ -61,19 +61,67 @@ When _[!UICONTROL Strict Transport Security]_ is enabled, it guarantees that tra
 
 ## Communication limits
 
-Communication limits control the amount of email your organization sends. It is a best practice to set limits so that you don't overwhelm recipients with too many emails from your organization.
+Communication limits control the number of emails that a contact receives from your organization. The limits that you set are shared between Journey Optimizer B2B Edition and the connected Marketo Engage instance. Setting these limits ensures that one lead does not receive more than a maximum number of emails over a given period of time.
 
-To review the current settings, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Under _[!UICONTROL Email]_ in the navigation panel, select **[!UICONTROL Communication limits]**.
-
-![Access the communication limits settings](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
-
-Click **[!UICONTROL Edit settings]** at the top right to access the configuration options in the connected Marketo Engage instance. 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->To access and edit these settings in Adobe Marketo Engage, you must have Product Administrator permissions.
+>The communication limits are available for Joureny Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
 
-For more information about configuring the communication limits, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+For example, with a defined limit of five emails per day, the system ensures that one contact does not receive a sixth email within a day by suppressing the sixth email. With shared communication limits between Journey Optimizer B2B Edition and Marketo Engage, the communication limit rules are defined in one location. The sixth email is suppressed, regardless of the send action coming from Journey Optimizer B2B Edition or Marketo Engage.
+
+All Marketo Engage production instances have communication limits defined by default (see the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} for more information). To use shared communication limits, define the rules in Journey Optimizer B2B Edition and extend the sharing of these limits to the Marketo Munchkin codes.
+
+>[!IMPORTANT]
+>
+>To extend the communication rule set to the Marketo Munchkin codes, reach out to your Adobe account management team. This configuration is typically part of the onboarding process.
+
+To review or set the communication limit rules, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Under _[!UICONTROL Email]_ in the navigation panel, and select **[!UICONTROL Communication limits]**.
+
+![Access the communication limits configuration](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
+
+By default, there is a global rule set where you can define, activate, and deactivate multiple rules according to your requirements. Click the rule set name to display the rules list.
+
+### Create a rule
+
+1. Click **[!UICONTROL Create rule]** at the top right.
+
+   ![Access the communication limits configuration](./assets/config-email-communication-limits-create-rule-select.png){width="600" zoomable="yes"}
+
+1. Enter the **[!UICONTROL Rule name]**.
+
+1. Set the **[!UICONTROL Capping amount]**.
+
+   Enter the value, or click the _Up_ or _Down_ arrow at the right to increase or decreate the value.
+
+1. Choose the **[!UICONTROL Reset capping frequency]** value according to how you want to define the time period for the limit.
+
+   You can choose _[!UICONTROL Hourly]_, _[!UICONTROL Daily]_, _[!UICONTROL Weekly]_, or _[!UICONTROL Monthly]_.
+
+   ![Access the communication limits configuration](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
+
+1. Set the **[!UICONTROL Every]** value according to how many frequency units to include in the period.
+
+   For example, if you use _Daily_ as the frequency and you set this value to `3`, the period is defined as three days.
+
+1. Click **[!UICONTROL Create rule]** at the top right.
+
+The new rule is in the _Draft_ state and is not applied to the communication limits until you choose to activate it.
+
+### Manage rules
+
+As long as a rule is in the _Draft_ state, you can edit the definition or delete the rule. When you want the rule to be applied, you can activate it. Click the _More menu_ (***...***) icon next to the draft rule name in the list and choose **[!UICONTROL Activate]**.
+
+![Click the More menu for a draft communication limits rule](./assets/config-email-communication-limits-draft-more-menu.png){width="400" zoomable="yes"}
+
+Then, click **[!UICONTROL Activate]** in the confirmation dialog.
+
+An active rule cannot be edited or deleted, it can only be deactivated. For an active rule that you want to remove from the applied communication limits, click the _Deactivate_ ( ![Deactivate icon](../assets/do-not-localize/icon-deactivate.svg) ) icon next to the active rule name. 
+
+![Click the Deactivate icon for an active communication limits rule](./assets/config-email-communication-limits-active-deactivate.png){width="400" zoomable="yes"}
+
+Then, click **[!UICONTROL Deactivate]** in the confirmation dialog.
+
+The rule is displayed with an _Inactive_ status. It is similar to a draft rule, and you can edit, delete, or activate it when needed.
 
 ## SPF/DKIM
 
