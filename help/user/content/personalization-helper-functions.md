@@ -1,10 +1,19 @@
 ---
 title: Helper functions
-description: Helper functions list
+description: Reference guide for personalization helper functions in Journey Optimizer B2B Edition. It includes syntax and examples for strings, dates, math, and more.
+feature: Personalization, Content Design Tools
+topic: Personalization
+role: Developer
+level: Intermediate
+keywords: expression, editor, syntax, personalization
 ---
 # Helper functions
 
 Use the Helper functions within the personalization editor to define personalized content experiences with precision and efficiency by manipulating data, performing calculations, and formatting content. Explore and experiment with these functions, operators, and helpers to discover how they work together to help you craft tailored, data-driven journeys.
+
+>[!AVAILABILITY]
+>
+>Helper functions are available for Joureny Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
 
 ## Aggregation functions
 

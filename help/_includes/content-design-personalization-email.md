@@ -14,7 +14,7 @@ See [Content personalization](../user/content/personalization.md) for more compr
 >
 >Journey Optimizer B2B Edition follows _camel case_ syntax for personalization tokens in emails to match the other Adobe Experience Platform applications for a consistent experience. This token format is fully compatible with the [Handlebars templating language](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Any tokens that were added prior to this change are automatically updated.
 
-The following example outlines steps to personalize content using person and system tokens.
+The following example outlines steps to personalize content using person and system tokens. It reflects the changes that are available for Journey Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../user/simplified-architecture.md).
 
 1. Select the text component and click the _Add personalization_ ( ![Add personalization icon](../assets/do-not-localize/icon-personalization-field.svg) ) icon in the toolbar.
 

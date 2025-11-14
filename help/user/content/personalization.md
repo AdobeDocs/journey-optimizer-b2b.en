@@ -1,6 +1,6 @@
 ---
 title: Content personalization
-description: Get Started with personalization.
+description: Personalize B2B emails using account, person, and system tokens in Journey Optimizer B2B Edition. Learn to use the personalization editor and syntax.
 feature: Personalization, Content Design Tools, Email Authoring
 topic: Personalization
 role: User, Developer
@@ -41,6 +41,10 @@ In [!DNL Journey Optimizer B2B Edition], you can build your dynamic email conten
 ## Personalization editor
 
 The personalization editor is available in every context where you need to define personalization in email content. In the editor, you can select, arrange, customize, and validate all the data to create a customized personalization for your content.
+
+>[!NOTE]
+>
+>The following information for the personalization editor reflects the changes that are available for Journey Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
 
 Add personalization in any field or content component by clicking the _Add personalization_ ( ![Add personalization icon](../../assets/do-not-localize/icon-personalization-field.svg) ) icon. 
 

@@ -1,6 +1,6 @@
 ---
 title: Personalization syntax
-description: Learn how to use personalization syntax.
+description: Learn Handlebars-based personalization syntax in Journey Optimizer B2B Edition, including expressions, helpers, literal types, and formatting rules.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -9,7 +9,7 @@ keywords: expression, editor, syntax, personalization
 ---
 # Personalization syntax {#personalization-syntax}
 
-Expressions in the [!DNL Journey Optimizer B2B Edition] personalization editor are based on the _Handlebars_ templating syntax. It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
+Expressions in the [!DNL Journey Optimizer B2B Edition] [personalization editor](./personalization.md#personalization-editor) are based on the _Handlebars_ templating syntax. It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
 
 For more details about the Handlebars and how it works, refer to the [HandlebarsJS documentation](https://handlebarsjs.com/){target="_blank"}.
 
