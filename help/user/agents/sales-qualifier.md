@@ -1,7 +1,7 @@
 ---
 title: Sales Qualifier 
-description: Learn how to use the Sales Qualifier application to accelerate and maintain your journeys.
-feature: Account Journeys, AI Assistant
+description: Automate B2B prospect qualification and outreach with Sales Qualifier. It provides AI-powered research, email drafting, CRM integration, and engagement plans for BDRs.
+feature:  AI Assistant, Sales Insights, Account Journeys
 role: User
 ---
 
@@ -11,7 +11,7 @@ role: User
 >This feature is currently in Limited Availability and is not available to all users.
 >
 
-The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). The Sales Qualifier automates prospect qualification, outreach, and buyer engagement workflows across channels, reducing manual BDR load and accelerating pipeline velocity for Enterprise B2B companies.
+Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). Sales Qualifier automates prospect qualification, outreach, and buyer engagement workflows across channels. It reduces manual BDR load and accelerates pipeline velocity for Enterprise B2B companies.
 Use the browser and email plugins to access business intelligence directly within CRMs or Outlook.
 
 The Sales Qualifier is included with AJO B2B but is a separate app within the AEP Experience Cloud.
@@ -46,11 +46,11 @@ Adobe AI agents use _natural language queries_, which means that they use the sa
 
 Using natural language, you can ask the agent to:
 
-* Show me my assigned leads with no engagement yet
-* Show me all my leads that are not part of any autonomous engagement
-* Give me a detailed summary on `<company>`, including their buying group, recent intent signals, and our past engagement.
+* `Show me my assigned leads with no engagement yet`
+* `Show me all my leads that are not part of any autonomous engagement`
+* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
 
-You can immediately understand which accounts and leads are most active and show the highest intent, so you can focus your energy where it has the most impact.
+You can immediately understand which accounts and leads are the most active and show the highest intent, so you can focus your energy where it has the most impact.
 
 Iterate over your journey by refining your prompts to get the results you need. For example:
 
@@ -60,11 +60,11 @@ Iterate over your journey by refining your prompts to get the results you need. 
 
 ## Prospects
 
-This window lists all the leads that you have access to. It's a quick to check things such as Lead Status and Last Activity.
+This window lists all the leads that you have access to. It's a quick check on things, such as lead status and last activity.
 
 ![See all your leads in the Leads table](assets/prospects.png)
 
-Click the Filter icon ![Filter icon](../assets/icon-filter.png) to filter by lead status.
+Click the _Filter_ icon ![Filter icon](../assets/icon-filter.png) to filter by lead status.
 
 ## Engagement plans
 
@@ -74,10 +74,10 @@ This window provides details about any defined Engagement plans.
 
 To make a new Engagement plan, click **[!UICONTROL Create engagement plan]**.
 
-1. In the Details stage, provide a name and optional description. Click **[!UICONTROL Save and Continue]**.
-1. In the Select prospects stage, select the leads that should belong in this plan.
-1. In the Define cadence stage, set the parameters for the plan.
-1. In the Preview stage, ensure that everything is working as expected.
+1. In the _Details_ stage, provide a name and optional description. Click **[!UICONTROL Save and Continue]**.
+1. In the _Select prospects_ stage, select the leads that should belong in this plan.
+1. In the _Define cadence_ stage, set the parameters for the plan.
+1. In the _Preview_ stage, ensure that everything is working as expected.
 
 ## Email outbox
 
@@ -93,7 +93,7 @@ This panel displays all your chats threads.
 
 ![Chat inbox](assets/chat-inbox.png)
 
-Not only can you interact with clients, but you can also see a summary of the contact and a summary of the thread, so you can quickly know where you are in the thread.
+You can interact with clients, and see summaries for the contact and the thread so that you can quickly know where you are in the thread.
 
 ## Integrations
 
@@ -110,12 +110,12 @@ To start a new integration, click **[!UICONTROL Create integration]** at the top
 
 ![Integration Details](assets/integration-details.png)
 
-Here we define the URL of the integration and establish the payload to send.
+Define the URL of the integration and establish the payload to send:
 
 1. Provide a unique name and a description (optional) for the integration.
 1. Set the URL field to the integration authentication endpoint of your integration site.
 1. In Path Parameters, set the HTTP method.
-1. In Header Parameters, set any HTTP headers that need to be send. Generally, a JSON object that is sent and requires a content-type header.
+1. In Header Parameters, set any HTTP headers that need to be send. Generally, it is a JSON object that is sent and requires a content-type header.
 1. In Query Parameters, establish any required parameters.
 1. Under Authentication, set up login information for the integration site.
 
@@ -124,27 +124,28 @@ Here we define the URL of the integration and establish the payload to send.
     * API key
     * Basic Auth
 
-1. Set throttling and cache values in the Payload configuration section.
-1. Under Payload configuration, click the pencil icon. In the Paste Payload dialog, paste or enter your JSON payload object.
-    * Request payload : A JSON object containing data to send the integration site.
-    * Response payload: The data structure you expect to get in return.
-1. Click [!UICONTROL Test Connection] to ensure that your settings are correct.
+1. Set throttling and cache values in the **[!UICONTROL Payload configuration]** section.
+   * Click the pencil icon.
+   * In the _Paste Payload_ dialog, paste or enter your JSON payload object.
+   
+      * **[!UICONTROL Request payload]**  - A JSON object containing data to send to the integration site.
+      * **[!UICONTROL Response payload]** - The data structure you expect to be returned.
+
+1. Click **[!UICONTROL Test Connection]** to ensure that your settings are correct.
 
 When the connection settings are valid, click **[!UICONTROL Save as draft]**.
 
-When you are back on the main Integrations table, select the integration and click **[!UICONTROL Activate]** to make the integration live, or **[!UICONTROL Save as draft]**.
-
-
+When you are back on the main _[!UICONTROL Integrations]_ table, select the integration and click **[!UICONTROL Activate]** to make the integration live. If you are not ready to activate it, click **[!UICONTROL Save as draft]**.
 
 #### Manage access
 
-You can manage access to users and what kind of data is shared with different user groups.
+You can manage access to users and the kind of data that is shared with different user groups.
 
-Click **[!UICONTROL Manage access]** to open the Manage Access dialog.
+Click **[!UICONTROL Manage access]** to open the _[!UICONTROL Manage Access]_ dialog.
 
-This dialog lists all the Labels that have been established by your organization. Select the labels that you wish to apply to this integration.
+This dialog lists all the Labels that are established for your organization. Select the labels that you want to apply to this integration.
 
-If you need a new label, click **[!UICONTROL Create label]** and fill in:
+If you need a new label, click **[!UICONTROL Create label]** and enter the label information:
 
 * Name
 * Friendly name
@@ -152,62 +153,51 @@ If you need a new label, click **[!UICONTROL Create label]** and fill in:
 
 ## Representative settings
 
-This is where you enter information about yourself: personal details, email and calendar settings, and chat availability.
+The representative settings specify information about yourself, including personal details, email and calendar settings, and chat availability.
 
 ### Details
 
-The Details tab is where you enter information about yourself:
+The **[!UICONTROL Details]** tab is where you enter information about yourself:
 
 ![Sales Qualifier Details settings](assets/details.png)
 
 ### Email settings
 
-In the Email settings tab, set up your email connections.
+In the **[!UICONTROL Email settings]** tab, set up your email connections.
 
 ![Email settings](assets/email-settings.png)
 
-#### Email connections
+   * **[!UICONTROL Email connections]** - Click **[!UICONTROL Connect]** and follow the Microsoft login procedure. 
 
-Click **[!UICONTROL Connect]** and follow the Microsoft login procedure. 
-
-#### Email signature
-
-Configure your email signature that is used in auto-generated emails.
+   * **[!UICONTROL Email signature]** - Configure the email signature that is used in auto-generated emails.
 
 ### Calendar settings
 
-In the Calendar settings tab, set your time zone and availability.
+In the **[!UICONTROL Calendar settings]** tab, set your time zone and availability.
 
 ![Calendar settings](assets/calendar-settings.png)
 
-#### Calendar connection
+   * **[!UICONTROL Calendar connection]** - Click **[!UICONTROL Connect]** and follow the Microsoft login procedure to integrate you calendar. 
 
-Click **[!UICONTROL Connect]** and follow the Microsoft login procedure to integrate you calendar. 
+   * **[!UICONTROL Meeting confirmation email]** - When a client confirms a meeting with you, they receive the confirmation email as a reply. Use these settings to define the email subject and body.
 
-#### Meeting confirmation email
-
-When a client confirms a meeting with you, they receive the confirmation email ias a reply. 
-Use these settings to define the email subject and body.
-
-#### Preferences
-
-Set your default meeting length, and the time you would like between back-to-back meetings.
+   * **[!UICONTROL Preferences]** - Set your default meeting length, and the time you would like between back-to-back meetings.
 
 ### Chat settings
 
-In this tab, set your Timezone Live chat availability.
+In the **[!UICONTROL Chat settings]** tab, set your Timezone Live chat availability.
 
 ![Chat settings](assets/chat-settings.png)
 
 ## Representative management
 
-In this panel, a table is shown of all defined representatives and their calendar status.
+The _[!UICONTROL Representative management]_ panel displays the defined representatives and their calendar status.
 
 ## Meeting performance
 
 This panel presents analytics around your completed meetings.
 
-## Setting up the Chrome plugin
+## Set up the Chrome plugin
 
 The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
@@ -219,7 +209,7 @@ When the plugin is installed in Chrome, the Adobe logo appears on the middle rig
 * Microsoft Dynamics and web applications
 * Google applications
 
-## Edit left navigation bar
+## Edit the left navigation bar
 
 At the bottom left of the application, click  **[!UICONTROL Edit]** to control which of the icons are visible in the navigation. You can also drag and drop them to reorder as you want.
 
