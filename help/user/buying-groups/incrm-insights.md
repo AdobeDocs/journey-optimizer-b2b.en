@@ -1,29 +1,29 @@
 ---
 title: In-CRM Insights
-description: Review Buying Group data directly within Salesforce, helping you to maximize sales opportunities
-feature: Buying Groups
+description: Access Journey Optimizer B2B Edition buying groups directly in Salesforce. Sales team members can view engagement data and identify sales opportunities with In-CRM Insights.
+feature: Sales Insights, Buying Groups
 role: User
 ---
 
 # In-CRM Insights
 
-The Marketo In-CRM Insights is a web-base application that integrates into Salesforce, giving you access to your AJO B2B buying groups directly within Salesforce. This allows you to identify opportunities for increased engagement and sales potential.
+In-CRM Insights is a web-base application that integrates into Salesforce, giving you access to your Journey Optimizer B2B Edition buying groups directly within Salesforce. It allows you to identify opportunities for increased engagement and sales potential.
 
-The In-CRM Insights is available in the [Marketo Sales Insights package](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+The In-CRM Insights application is available in the [Marketo Sales Insights package](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## Using In-CRM Insights
 
-In-CRM Insights is available in Salesforce through the App Launcher.
+The In-CRM Insights application is available in Salesforce through the App Launcher.
 
-1. Click on the App Launcher in Salesforce.
+1. Click the App Launcher in Salesforce.
 1. Select or search for `Journey Optimizer B2B Edition`.
-1. In the tab that opens, login with your Adobe credentials.
-1. Choose a sandbox that hosts your Account Journeys from the dropdown.
+1. In the displayed tab, log in with your Adobe credentials.
+1. Choose a sandbox that hosts your Account Journeys.
 
-Your Buying Groups are loaded and available. Data is read-only through In-CRM Insights.
+Your buying groups are loaded and available. Data is read-only through In-CRM Insights.
 
 >[!NOTE]
->Users must be a member of the [B2B Sales User](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) role to access In-CRM Insights.
 >
+>Membership in the [B2B Sales User](../admin/user-management.md#b2b-built-in-roles) product role is required to access In-CRM Insights.
 
-By selecting a Buying Group, you can now browse the [group details](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#), just as in Journey Optimizer B2B.
+After selecting a buying group, you can browse the [group details](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#), just as in Journey Optimizer B2B Edition.
