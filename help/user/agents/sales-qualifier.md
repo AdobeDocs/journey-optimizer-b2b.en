@@ -167,9 +167,9 @@ In the **[!UICONTROL Email settings]** tab, set up your email connections.
 
 ![Email settings](assets/email-settings.png)
 
-   * **[!UICONTROL Email connections]** - Click **[!UICONTROL Connect]** and follow the Microsoft login procedure. 
+* **[!UICONTROL Email connections]** - Click **[!UICONTROL Connect]** and follow the Microsoft login procedure. 
 
-   * **[!UICONTROL Email signature]** - Configure the email signature that is used in auto-generated emails.
+* **[!UICONTROL Email signature]** - Configure the email signature that is used in auto-generated emails.
 
 ### Calendar settings
 
@@ -177,11 +177,11 @@ In the **[!UICONTROL Calendar settings]** tab, set your time zone and availabili
 
 ![Calendar settings](assets/calendar-settings.png)
 
-   * **[!UICONTROL Calendar connection]** - Click **[!UICONTROL Connect]** and follow the Microsoft login procedure to integrate you calendar. 
+* **[!UICONTROL Calendar connection]** - Click **[!UICONTROL Connect]** and follow the Microsoft login procedure to integrate you calendar. 
 
-   * **[!UICONTROL Meeting confirmation email]** - When a client confirms a meeting with you, they receive the confirmation email as a reply. Use these settings to define the email subject and body.
+* **[!UICONTROL Meeting confirmation email]** - When a client confirms a meeting with you, they receive the confirmation email as a reply. Use these settings to define the email subject and body.
 
-   * **[!UICONTROL Preferences]** - Set your default meeting length, and the time you would like between back-to-back meetings.
+* **[!UICONTROL Preferences]** - Set your default meeting length, and the time you would like between back-to-back meetings.
 
 ### Chat settings
 
