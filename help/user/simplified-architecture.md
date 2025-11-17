@@ -127,7 +127,7 @@ Select [relational schemas](https://experienceleague.adobe.com/en/docs/experienc
 ><li>Behavior: Record
 > <li>Segmentation: Enabled
 > <li>Relationship Type: Many-to-one
-> <li>Reference Schema: [B2B Account - XDM Business Account schema](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+> <li>Reference Schema: <a href="https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B Account - XDM Business Account schema</a>
 > <li>Required Fields: Primary key, Foreign key, and Version descriptor
 > <li>Associated Dataset: Defined and mapped to the schema
 
