@@ -211,7 +211,7 @@ Choose this type to browse and select an image asset from the Journey Optimizer 
 
 ![Browse the available image assets](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-From the dialog, you can choose an image from the selected repository and workspace. Click **[!UICONTROL Select]** to add the asset.
+From the dialog, you can choose an image from the selected repository. Click **[!UICONTROL Select]** to add the asset.
 
 There are tools available to help you locate the asset that you need: 
 
