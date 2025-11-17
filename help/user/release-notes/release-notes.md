@@ -52,6 +52,10 @@ This updated architecture provides multiple benefits:
 * **Keep your data safe**: Advanced privacy and security features help protect your customer information.  
 * **Built for the future**: This update sets your organization up for ongoing improvements and innovation.
 
+>[!NOTE]
+>
+>If your environment is provisioned on this architecture, review the [guidelines for configuration](../simplified-architecture.md).
+
 With the simplified architecture, the following new features and enhancements are available in the 2025.10 release:
 
 | Type | Item | Description |
@@ -61,7 +65,12 @@ With the simplified architecture, the following new features and enhancements ar
 | Feature | Email Fatigue Deduplication | You can now enable email deduplication to ensure that the same email is not sent multiple times to the same address in a journey. Duplicate addresses are blocked until the first record with that email address completes the journey. |
 | Enhancement | Communication limits | The system now respects the combined communication limits of both Marketo Engage and Journey Optimizer B2B Edition. [Learn more](../admin/configure-channels-emails.md#communication-limits) |
 
-If your environment is provisioned on this architecture, review the [guidelines for configuration](../simplified-architecture.md).
+<!-- There are additional functional changes with the simplified architecture:
+
+| Item | Description |
+| ---- | ----------- |
+| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
+| | | -->
 
 <!-- hold for later release 
 
