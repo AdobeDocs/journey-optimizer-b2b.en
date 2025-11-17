@@ -1,6 +1,6 @@
 ---
 title: Assets
-description: Manage image assets from Marketo Engage Design Studio and AEM Assets for emails, templates, and fragments in Journey Optimizer B2B Edition.
+description: Manage image assets from Journey Optimizer B2B Edition and AEM Assets for emails, templates, and fragments.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb

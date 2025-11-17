@@ -1,6 +1,6 @@
 ---
 title: Work with Internal Image Assets
-description: Browse, manage, and use Marketo Engage Design Studio assets in Journey Optimizer B2B Edition - organize folders, edit images, and create content for account journeys.
+description: Browse, manage, and use Journey Optimizer B2B Edition assets - organize folders, edit images, and create content for account journeys.
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
