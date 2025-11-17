@@ -20,7 +20,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | ----- | ------ | ----------- |
 | Journey Build Agent | New | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
 | Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | New | See which accounts are ready for the next stage using the Account Qualification Agent in the AI Assistant. This agent empowers your sales team members to focus on the right accounts by surfacing high-value leads and automating qualification workflows. [Learn more](../agents/sales-qualifier.md) |
+| Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels [Learn more](../agents/sales-qualifier.md) |
 
 ## 2025.10 release notes
 
@@ -60,6 +60,8 @@ With the simplified architecture, the following new features and enhancements ar
 | Feature | Multiple Marketo Engage activation | Configure connections to remote Marketo Engage instances and use those connections to set up Marketo Engage actions for journeys. These actions, such as adding or removing people from lists or adding people to a request campaign, apply to the designated Marketo Engage instance. |
 | Feature | Email Fatigue Deduplication | You can now enable email deduplication to ensure that the same email is not sent multiple times to the same address in a journey. Duplicate addresses are blocked until the first record with that email address completes the journey. |
 | Enhancement | Communication limits | The system now respects the combined communication limits of both Marketo Engage and Journey Optimizer B2B Edition. [Learn more](../admin/configure-channels-emails.md#communication-limits) |
+
+If your environment is provisioned on this architecture, review the [guidelines for configuration](../simplified-architecture.md).
 
 <!-- hold for later release 
 
@@ -209,8 +211,8 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Conditional content in emails | Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <p>As you author an email for your account journey in the email visual design space, use conditional rules to define multiple variants for any content component. <a href="../content/conditional-content.md">Learn more</a> |
-| Feature | _Add to List_ and _Remove from list_ people actions in journeys | Personalize your email content based on the recipient behavioral and profile characteristics – both at the account and lead level. <a href="../journeys/action-nodes.md">Learn more</a> |
+| Feature | Conditional content in emails | Personalize your email content based on the recipient behavioral and profile characteristics at both the account and lead level. <p>As you author an email for your account journey in the email visual design space, use conditional rules to define multiple variants for any content component. <a href="../content/conditional-content.md">Learn more</a> |
+| Feature | _Add to List_ and _Remove from list_ people actions in journeys | Personalize your email content based on the recipient behavioral and profile characteristics at both the account and lead level. <a href="../journeys/action-nodes.md">Learn more</a> |
 | Feature | Content governance and component locking | To ensure adherence to approved content designs, use content governance features to lock email template content components. With content governance activated in the email template, marketers can alter only the permitted elements to keep it aligned with the content strategy. <a href="../content/template-content-governance.md">Learn more</a>|
 | Feature | Buying group stages | When you define and publish a custom buying groups staging model, you can track buying group progression through the buying group lifecycle stages. Use these stages for identifying the next best actions for buying group members. You configure the transition rules and journey nodes that determine the stage progression and trigger actions based on changes. <a href="../buying-groups/buying-group-stages.md">Learn more</a> |
 | Enhancement | New out-of-the-box email templates | The sample templates library now includes additional email templates designed for B2B marketers. Use these sample templates as a starting point and add your own branding and messaging. <a href="../content/email-templates.md#select-a-design-template">Learn more</a> |
