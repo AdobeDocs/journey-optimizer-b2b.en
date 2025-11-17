@@ -14,13 +14,13 @@ role: User
 Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). Sales Qualifier automates prospect qualification, outreach, and buyer engagement workflows across channels. It reduces manual BDR load and accelerates pipeline velocity for Enterprise B2B companies.
 Use the browser and email plugins to access business intelligence directly within CRMs or Outlook.
 
-The Sales Qualifier is included with AJO B2B but is a separate app within the AEP Experience Cloud.
+Sales Qualifier is included with Journey Optimizer B2B Edition, but it is a separate app within the Exprerience Platform Experience Cloud.
 
 ![Sales Qualifier home page](assets/home-screen.png)
 
 ## Account Qualification Agent
 
-The Account Qualification Agent (AQA) is the heart of the Sales Qualifier. The AQA uses AI to read your accounts and determine which ones are ready for the next step.  It assists with research, email drafting and CRM updates.
+The Account Qualification Agent (AQA) is the heart of the Sales Qualifier. The AQA uses AI to read your accounts and determine which ones are ready for the next step. It assists with research, email drafting, and CRM updates.
 
 ![Account Qualification Agent](assets/acc-qualification-agent.png)
 
@@ -64,7 +64,7 @@ This window lists all the leads that you have access to. It's a quick check on t
 
 ![See all your leads in the Leads table](assets/prospects.png)
 
-Click the _Filter_ icon ![Filter icon](../assets/icon-filter.png) to filter by lead status.
+Click the _Filter_  ![Filter icon](../../assets/do-not-localize/icon_filter-outline.svg) icon to filter the displayed list by lead status.
 
 ## Engagement plans
 
