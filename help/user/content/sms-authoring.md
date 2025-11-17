@@ -43,15 +43,15 @@ Enter the text that you want to send in the **[!UICONTROL Message]** field.
 
 You can create a message of up to 1600 characters, with every 160 characters considered as a single SMS message.
 
-![Click the Personalize icon to add tokens to the message](./assets/sms-message-compose.png){width="800" zoomable="yes"}
+![Compose the SMS message](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
 #### Personalize the text message
 
-1. At anytime while authoring the text message, click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to the right of the text message box.
-   
-   The displayed page provides access to your Adobe Marketo Engage Lead and System tokens. Both standard and custom tokens are included. You can use the _Search_ bar to locate the token you need, or navigate through the folder tree to find and select any of the lead/system tokens.
+1. Place your cursor at the location in the message where you want to add the personalization token.
 
-1. Place your cursor at the location in the message where you want to add the token.
+1. Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to the right of the text message box.
+   
+   The dialog provides access to the account tokens, person tokens, and system tokens. Both standard and custom tokens are included. You can use the _Search_ bar to locate the token you need, or navigate through the folder tree to find and select any of the tokens.
 
 1. Add a token by clicking the plus ( **+** ) symbol next to it.
 
@@ -70,14 +70,16 @@ You can create a message of up to 1600 characters, with every 160 characters con
 #### Add links (URLs) to the text message
 
 1. After entering your message text, click the _Link_ icon ( ![Link icon](../assets/do-not-localize/icon-link.svg) ) to the right of the text message box.
-   
+
+1. Enter the **[!UICONTROL URL]** for the link.
+<!--    
 1. In the dialog, choose the type of URLs to link:
 
    * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
 
-   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box.
+   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. -->
 
-1. If you choose to use a landing page, set the tracking options.
+1. If you choose to use a Marketo Engage landing page, set the tracking options.
 
    * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
 
@@ -103,15 +105,15 @@ You can create a message of up to 1600 characters, with every 160 characters con
    * Use `Marketing` for promotional text messages, which require user consent.
    * Use `Transactional` for non-commercial messages, such as order confirmation, password reset notifications, or delivery information.
 
-1. For **[!UICONTROL SMS configuration]**, choose one of the pre-defined API configurations.
+1. For **[!UICONTROL SMS configuration]**, choose one of the pre-defined [SMS API configurations](../admin/configure-channels-sms.md#create-new-api-credentials-for-an-sms-service-provider).
 
    This setting determines which SMS gateway service provider and account is used to deliver the message.
 
 1. Enter the **[!UICONTROL Sender number]** ​that you want to use for your communications.
 
-   ![Take an action - send sms](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![SMS message properties](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   The recipient number is always mapped to the `Lead.mobilePhone` field in Marketo Engage.
+   The recipient number is always mapped to the `profile.mobilePhone.number` field in Experience Platform.
 
 ### Simulate the text message content {#preview-test}
 
@@ -154,7 +156,7 @@ When your message content is defined, you can use test profiles to simulate (pre
 
 Providing recipients the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function also helps you avoid sending unsolicited communications to your recipients, which could cause them to mark your messages as spam and harm your reputation. 
 
-When you provide this option, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored, and any custom keywords that are configured at the SMS service provider. When unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
+When you provide this option, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored, and any custom keywords that are configured with the SMS service provider. When unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
 
 Journey Optimizer B2B Edition provides the ability to manage opt-out in SMS messages using the following logic:
 

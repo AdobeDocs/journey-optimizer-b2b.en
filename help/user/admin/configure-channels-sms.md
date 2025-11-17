@@ -37,7 +37,7 @@ Before you configure an SMS channel in Adobe Journey Optimizer B2B Edition, you 
 
    ![Click the Filter icon to refine the list of API credentials](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
-## Create a new API credentials for an SMS service provider
+## Create new API credentials for an SMS service provider
 
 >[!BEGINTABS]
 
@@ -59,7 +59,7 @@ _To configure Sinch as your SMS provider with Adobe Journey Optimizer B2B Editio
 
    * **[!UICONTROL Service ID]** and **[!UICONTROL API Token]** - Access the APIs page from your Sinch account (you can find your credentials under the SMS tab).
 
-   For more information about finding this information for your Sinch account, see the [Sinch developer documentation](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
+   For more information about finding this information for your Sinch account, see the [Sinch developer documentation](https://developers.sinch.com/docs/sms/getting-started)
 
 1. Click **[!UICONTROL Submit]** when the configuration details of your API credentials are complete.
 
