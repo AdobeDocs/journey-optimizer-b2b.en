@@ -59,7 +59,7 @@ You can add an image asset as you author your content, depending on the image as
 
 >[!BEGINTABS]
 
->[!TAB Internal Assets]
+>[!TAB Select Asset]
 
 Click **[!UICONTROL Select Asset]** to open the asset selector, where you can choose an image from the Journey Optimizer B2B Edition asset repository.
 
