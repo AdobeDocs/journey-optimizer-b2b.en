@@ -90,10 +90,13 @@ Use an action on people when you want to apply a change to all people on the nod
 | | [!UICONTROL Remove from Buying Group] | Select solution interest |
 | | [!UICONTROL Send email] | Create new email<br/>Select email from Marketo Engage |
 | | [!UICONTROL Send SMS] | Create SMS |
-| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to List]| Select Marketo Engage workspace<br/>List name |
-| | [!UICONTROL Add to Marketo Engage Request campaign] | Select Marketo Engage workspace<br/>Select Request campaign |
-| | [!UICONTROL Change People Partition in Marketo Engage] | New partition |
-| | [!UICONTROL Remove from List] | Select Marketo Engage workspace<br/>List name |
+| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to Marketo Engage Request campaign] | Select Marketo Engage workspace<br/>Select Request campaign |
+| | [!UICONTROL Add to Marketo list]| Select name of external Marketo connection <br/>List name |
+| | [!UICONTROL Remove from Marketo list] | Select name of external Marketo connection <br/>List name |
+
+>[!NOTE]
+>
+>The _[!UICONTROL Change People Partition in Marketo Engage]_ action is deprecated for the 2025.10 release and is not available on the simplified architecture for Journey Optimizer B2B Edition.
 
 ### Add a people-based action
 
@@ -213,43 +216,41 @@ Use this action to send an SMS message. You can create, personalize, and preview
 
 ### Marketo Engage actions
 
-The Marketo Engage people-based actions are designed to coordinate your account-based marketing orchestration in Journey Optimizer B2B Edition with your lead-based marketing efforts in Marketo Engage. Use these actions to orchestrate list membership, people partitions, and request campaigns.
+The Marketo Engage people-based actions are designed to coordinate your account-based marketing orchestration in Journey Optimizer B2B Edition with your lead-based marketing efforts in Marketo Engage. Use these actions to orchestrate list membership and request campaigns.
 
-+++[!UICONTROL Add to list]
+>[!NOTE]
+>
+>The Marketo Engage actions require configured integration with one or more external Marketo Engage instances. <!-- For detailed information about configuring these connections, see #. -->
 
-Use this action to add people to a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. 
+For example, you might want to suppress campaigns in Marketo Engage for people that are part of buying groups in Journey Optimizer B2B Edition. In this case, you can create a static list in Marketo Engage specifically for the solution interest. Then, on a split path by buying group, use the _Add to Marketo list_ action from a journey node. This action adds buying group members to a particular static list in a connected Marketo Engage instance. Then, use the solution interest focused static list for a smart list filter in Marketo Engage.
 
-First select the workspace in the connected Marketo Engage instance. Next, select the list name.
-
-![Take an action - Add to list](./assets/node-action-add-to-list-options.png){width="300"}
-
-+++
-
-+++[!UICONTROL Add to Marketo Request campaign]
++++[!UICONTROL Add to Marketo Engage Request campaign]
 
 Use this action to add people profiles to a [request campaign](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage.
 
-First select the workspace in the connected Marketo Engage instance. Next, select the request campaign name.
+First, select a connected Marketo Engage instance. Next, select the request campaign name.
 
-![Take an action - Add to Marketo Request campaign](./assets/node-action-add-to-request-campaign-options.png){width="300"}
-
-+++
-
-+++[!UICONTROL Change people partition in Marketo Engage]
-
-Use this action to change the [person partition](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} in Marketo Engage. 
-
-![Take an action - Change people partition in Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
+![Take an action - Add to Marketo Engage Request campaign](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
 +++
 
-+++[!UICONTROL Remove from list]
++++[!UICONTROL Add to Marketo list]
 
-Use this action to remove people from a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. First select the workspace in the connected Marketo Engage instance. Next, select the list name.
+Use this action to add people to a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. 
 
-![Take an action - Remove from list](./assets/node-action-remove-from-list-options.png){width="300"}
+First, select a connected Marketo Engage instance. Next, select the list name.
 
-If the person profile was not a member of the Smart List, the action is ignored.
+![Take an action - Add to Marketo list](./assets/node-action-add-to-list-options.png){width="300"}
+
++++
+
++++[!UICONTROL Remove from Marketo list]
+
+Use this action to remove people from a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. 
+
+First, select a connected Marketo Engage instance. Next, select the list name.
+
+![Take an action - Remove from Marketo list](./assets/node-action-remove-from-list-options.png){width="300"}
 
 +++
 

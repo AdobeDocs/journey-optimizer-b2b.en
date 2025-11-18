@@ -61,7 +61,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
 1. In the _[!UICONTROL Enter fallback value]_ dialog, enter the text that appears as a fallback and then click **[!UICONTROL Add]**.
 
-   ![Enter the fallback text for the token](./assets/sms-message-personalize-fallback-text.png){width="400"}
+   ![Enter the fallback text for the token](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. When your personalization tokens are placed, click **[!UICONTROL Save]** to save changes and return to the main SMS authoring workspace.
 
@@ -83,7 +83,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
    * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
 
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.
+   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
 
       >[!NOTE] 
       >
@@ -111,7 +111,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
 1. Enter the **[!UICONTROL Sender number]** ​that you want to use for your communications.
 
-   ![SMS message properties](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![SMS message properties](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    The recipient number is always mapped to the `profile.mobilePhone.number` field in Experience Platform.
 
