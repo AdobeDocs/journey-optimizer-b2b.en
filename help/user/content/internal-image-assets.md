@@ -82,7 +82,7 @@ Use either of the following methods to delete an asset:
 
 * Go to the asset details, click **[!UICONTROL ... More]** at the top right, and choose **[!UICONTROL Delete]** from the options.
 
-   ![Access actions for the asset](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
+   ![Access actions for the asset](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
 * On the _[!UICONTROL Assets]_ listing page, click the _More_ icon (**[!UICONTROL ...]**) next to the asset item and choose **[!UICONTROL Delete]** from the options.
 
