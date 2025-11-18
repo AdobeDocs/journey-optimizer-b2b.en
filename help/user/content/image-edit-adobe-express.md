@@ -1,6 +1,6 @@
 ---
 title: Edit Images with Adobe Express
-description: Edit images natively with Adobe Express in Journey Optimizer B2B Edition - resize, crop, remove backgrounds, convert formats, and save to your workspace.
+description: Edit images natively with Adobe Express in Journey Optimizer B2B Edition - resize, crop, remove backgrounds, convert formats, and save to your asset repository.
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
@@ -12,7 +12,7 @@ exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
 >title="Edit Images in Adobe Express"
 >abstract="Easy and intuitive image-editing tools, powered by Adobe Express, are available directly within Adobe Journey Optimizer B2B Edition to increase content velocity."
 
-Adobe Journey Optimizer B2B Edition integrates natively with Adobe Express, and enables you to access a set of Adobe Express image editing tools. You can use these tools to modify the images stored in the Journey Optimizer B2B Edition workspace for the connected Marketo Engage asset repository. The integration provides the following key benefits:
+Adobe Journey Optimizer B2B Edition integrates natively with Adobe Express, and enables you to access a set of Adobe Express image editing tools. You can use these tools to modify the images stored in the Journey Optimizer B2B Edition asset repository. The integration provides the following key benefits:
 
 * Increased content reuse by editing and saving new image assets in Journey Optimizer B2B Edition.
 
@@ -28,23 +28,23 @@ _To modify an image:_
 
 1. Go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**.
 
-  This action opens a listing page with all the assets listed. The _[!UICONTROL Journey Optimizer B2B Edition]_ workspace is selected by default.
+  This action opens a listing page with all the assets listed.
 
 1. Locate the image that you want to modify or use as an original to create a new asset.
 
-   * To view the assets by workspace and folder, open the structure by clicking the _Show Folders_ icon at the top left.
+   * To view the assets by folder, open the structure by clicking the _Show Folders_ icon at the top left.
 
    * To sort the table by any of the columns, click the column title. The arrow in the title row indicates the current sort column and order.
 
-   * To search for an image asset within the selected workspace or folder, enter a text string in the search bar.
+   * To search for an image asset within the selected folder, enter a text string in the search bar.
 
-   ![Browse assets in the Journey Optimizer B2B Edition workspace](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
+   ![Browse assets in the Journey Optimizer B2B Edition repository](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
 
 1. Click the name of the image asset to open it and view its details.
 
    >[!TIP]
    >
-   >It is a best practice to select [the _[!UICONTROL Used By]_ tab](./marketo-engage-design-studio.md#view-asset-used-by-references) in the image details and review the content where the image is currently used before you proceed to make edits to the image file.
+   >It is a best practice to select [the _[!UICONTROL Used By]_ tab](./internal-image-assets.md#view-asset-used-by-references) in the image details and review the content where the image is currently used before you proceed to make edits to the image file.
 
 1. In the image _[!UICONTROL Details]_ on the right, click **[!UICONTROL Edit with Adobe Express]**.
 
@@ -80,7 +80,7 @@ If you do not have an Adobe Express Enterprise license, you have access to the A
 
    ![Select an edit type to modify the image](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}  
 
-1. When you return to the main Adobe Express quick actions editor, click **[!UICONTROL Save]** to save the modified image file in the Journey Optimizer B2B Edition asset workspace using the same file name.
+1. When you return to the main Adobe Express quick actions editor, click **[!UICONTROL Save]** to save the modified image file in the Journey Optimizer B2B Edition asset repository using the same file name.
 
 ## Resize image
 
@@ -112,8 +112,8 @@ Adobe Express performs an automatic background removal to isolate the primary ob
 
 ## Convert file format
 
-* **[!UICONTROL Convert to JPEG]** - For a PNG image, you can convert the image to a JPEG image file and save it as a new asset in the workspace. 
-* **[!UICONTROL Convert to PNG]** - For a JPEG image, you can convert the image to a PNG image file and save it as a new asset in the workspace. 
+* **[!UICONTROL Convert to JPEG]** - For a PNG image, you can convert the image to a JPEG image file and save it as a new asset. 
+* **[!UICONTROL Convert to PNG]** - For a JPEG image, you can convert the image to a PNG image file and save it as a new asset. 
 
 ![Edit with Adobe Express- convert to PNG](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}   
 

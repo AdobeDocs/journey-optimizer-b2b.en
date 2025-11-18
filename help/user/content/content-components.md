@@ -287,7 +287,7 @@ On the _[!UICONTROL Settings]_ tab, use the **[!UICONTROL Link]** options to def
 
    * **[!UICONTROL External link]** - Choose this type to use a standard URL as the link destination.
 
-      In **[!UICONTROL Url]**, enter the URL for the link destination. Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token as a parameter in the URL.
+      In **[!UICONTROL Url]**, enter the URL for the link destination. Click the _Personalize_ ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) icon to use a personalization token as a parameter in the URL.
       
       ![Define an external link for a button component](./assets/component-button-link-options-external.png){width="200"}       
 
@@ -531,7 +531,7 @@ Choose the [asset source type](./assets-overview.md) and select an image file:
 
   ![Browse the available image assets](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
   
-   From the dialog, you can choose an image from the selected repository and workspace. Click **[!UICONTROL Select]** to add the asset.
+   From the dialog, you can choose an image from the selected repository. Click **[!UICONTROL Select]** to add the asset.
      
    There are tools available to help you locate the asset that you need: 
   
@@ -585,7 +585,7 @@ On the _[!UICONTROL Settings]_ tab, use the **[!UICONTROL Link]** options to lin
 
    * **[!UICONTROL External link]** - Choose this type to use a standard URL as the link destination.
 
-      In **[!UICONTROL Url]**, enter the URL for the link destination. Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token as a parameter in the URL.
+      In **[!UICONTROL Url]**, enter the URL for the link destination. Click the _Personalize_ ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) icon to use a personalization token as a parameter in the URL.
       
       ![Define an external link for a button component](./assets/component-button-link-options-external.png){width="250"}       
 
