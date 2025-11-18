@@ -1,11 +1,19 @@
 ---
-title: Buying Group Filters in Market Engage
+title: Buying Group Filters in Marketo Engage
 description: Filter leads by buying group membership in Marketo Engage Smart Lists with constraints like completeness score to optimize campaigns and lead scoring.
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
 ---
-# Buying group filters in Market Engage
+# Buying group filters in Marketo Engage
+
+>[!IMPORTANT]
+>
+>**Feature deprecation**</br></br>
+>
+>With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, the buying group filters are no longer available in a connected Marketo Engage instance.</br></br>
+>
+>As an alternative, you can create a static list for each solution interest and then use the _Add to Marketo static list_ action from a journey node. This action adds buying group members to a particular static list in a connected Marketo Engage instance. Then, use the  solution interest focused static list for a smart list filter.
 
 As a Marketer, you might want to suppress campaigns in Marketo Engage for people that are part of buying groups in Journey Optimizer B2B Edition. You can also inform the lead scoring workflows in Marketo Engage using information about the leads associated with buying groups. For example:
 
