@@ -52,6 +52,10 @@ This updated architecture provides multiple benefits:
 * **Keep your data safe**: Advanced privacy and security features help protect your customer information.  
 * **Built for the future**: This update sets your organization up for ongoing improvements and innovation.
 
+>[!NOTE]
+>
+>If your environment is provisioned on this architecture, review the [guidelines for configuration](../simplified-architecture.md).
+
 With the simplified architecture, the following new features and enhancements are available in the 2025.10 release:
 
 | Type | Item | Description |
@@ -61,7 +65,12 @@ With the simplified architecture, the following new features and enhancements ar
 | Feature | Email Fatigue Deduplication | You can now enable email deduplication to ensure that the same email is not sent multiple times to the same address in a journey. Duplicate addresses are blocked until the first record with that email address completes the journey. |
 | Enhancement | Communication limits | The system now respects the combined communication limits of both Marketo Engage and Journey Optimizer B2B Edition. [Learn more](../admin/configure-channels-emails.md#communication-limits) |
 
-If your environment is provisioned on this architecture, review the [guidelines for configuration](../simplified-architecture.md).
+<!-- There are additional functional changes with the simplified architecture:
+
+| Item | Description |
+| ---- | ----------- |
+| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
+| | | -->
 
 <!-- hold for later release 
 
@@ -229,7 +238,7 @@ This release includes the following new capabilities and enhancements:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Enhancement | Central assets library | The enhanced _central assets library_ allows you to use all image assets in your Marketo Engage instance, across Design Studio workspaces. There are built-in guardrails that prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition, as well as delete and move operations. These protections ensure that the source assets (Marketo Engage Design Studio) are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition.<p>For assets that are exclusively for use in Journey Optimizer B2B Edition, a specific workspace provides full asset management functions. <a href="../content/marketo-engage-design-studio.md">Learn more</a> |
+| Enhancement | Central assets library | The enhanced _central assets library_ allows you to use all image assets in your Marketo Engage instance, across Design Studio workspaces. There are built-in guardrails that prevent edits to the Marketo Engage assets from Journey Optimizer B2B Edition, as well as delete and move operations. These protections ensure that the source assets (Marketo Engage Design Studio) are maintained while allowing seamless read and reuse in Journey Optimizer B2B Edition.<p>For assets that are exclusively for use in Journey Optimizer B2B Edition, a specific workspace provides full asset management functions. <a href="../content/internal-image-assets.md">Learn more</a> |
 | Feature | Recently accessed assets | The home page in the Journey Optimizer B2B Edition app now includes the _[!UICONTROL Recently accessed]_ section, which provides a list of the most recently accessed assets for the marketer or administrator. You can use this list to go directly to the asset that you recently worked on without navigating through a series of asset pages and searching. <p>The list provides additional information regarding the modification so that you can make the decision about which of the assets needs further modification from the last session. For email assets, it displays the account journey where the email asset is used. <a href="../home-page.md">Learn more</a> |
 | Enhancement | Journey split node - reorder paths | In split path nodes, the path filtering is evaluated in top-down order. Each person or account proceeds along the first path that matches. You can reorder the defined paths by clicking the up and down arrows at the top right of each path card to move it higher or lower in the list. <a href="../journeys/split-merge-paths-nodes.md#split-paths">Learn more</a> |
 | Enhancement | Journey split node - Additional activity history condition attributes | When using conditions to define the path filtering for a split node by people, there are two additional attributes: _Opened email_ and _Was delivered email_. These additions provide greater flexibility for filtering people in journey based on email activity. <a href="../journeys/journey-nodes.md#split-paths">Learn more</a> |

@@ -1,40 +1,32 @@
 ---
-title: Work with Marketo Engage Assets
-description: Browse, manage, and use Marketo Engage Design Studio assets in Journey Optimizer B2B Edition - organize workspaces, edit images, and create content for account journeys.
+title: Work with Internal Image Assets
+description: Browse, manage, and use Journey Optimizer B2B Edition assets - organize folders, edit images, and create content for account journeys.
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
 ---
-# Work with Marketo Engage assets
+# Work with internal image assets
 
-Marketo Engage Design Studio is the default asset source for Journey Optimizer B2B Edition, and you can easily manage and use the available assets to design content that supports your account journeys.
+The internal image asset repository is the default asset source for designing content, and you can easily manage and use the available assets to design content that supports your account journeys.
 
-In Marketo Engage, marketing organizations use workspaces to organize their content assets and help teams to access the correct asset. Well-defined workspaces are especially helpful for large enterprises that have a large portfolio of product offerings, or operate globally with different requirements for marketing to different regions.
-
-## Central asset management
-
-By default, there is a **_[!UICONTROL Journey Optimizer B2B Edition]_** workspace that you can use specifically for your account journey content. The assets that you add to this workspace are not visible or available for use in Marketo Engage. For assets residing in this workspace, you have the full range of asset management functions in Journey Optimizer B2B Edition. These functions include:
+You have the full range of asset management functions in Journey Optimizer B2B Edition. These functions include:
 
 * [Replace](#replace-assets)
 * [Delete](#delete-assets)
 * [Move](#create-a-folder)
 * [Edit with Adobe Express](./image-edit-adobe-express.md)
 
-Assets residing in the Marketo Engage workspaces are limited to read-only access for use in emails, email templates, and fragments. You can add new assets to these workspaces and download a copy of an asset.
-
 ## Browse and access assets
 
-To access Adobe Marketo Engage assets from Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. This action opens a listing page with all the assets listed.
+To access internal assets in Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. This action opens a listing page with all the assets listed.
 
-![Browse Marketo Engage assets](assets/assets-list-page.png){width="800" zoomable="yes"}
+![Browse image assets](assets/assets-list-page.png){width="800" zoomable="yes"}
 
-The Journey Optimizer B2B Edition workspace is selected by default. The other workspaces are listed below.
-
-* To view the assets by workspace and folder, open the structure by clicking the _Show Folders_ icon on the top left.
+* To view the assets by folder, open the structure by clicking the _Show Folders_ icon on the top left.
 
 * To sort the table by any of the columns, click the column title. The arrow in the title row indicates the current sort column and order.
 
-* To search for an image asset within the selected workspace or folder, enter a text string in the search bar.
+* To search for an image asset within the selected folder, enter a text string in the search bar.
 
 * To customize the columns that are displayed in the table, click the _Customize table_ icon ( ![Customize table](../assets/do-not-localize/icon-column-settings.svg) ) on the top right.
 
@@ -62,13 +54,13 @@ Clicking the link directs you to the corresponding email, email template, or fra
 
 ## Add assets
 
-From the _Assets_ list page, you can add image assets to the Journey Optimizer B2B Edition workspace or a Marketo Engage workspace. 
+From the _Assets_ list page, you can add image assets to the Journey Optimizer B2B Edition asset repository. 
 
 1. Click **[!UICONTROL Add Assets]** at the top right. 
 
 1. In the _[!UICONTROL Add assets]_ dialog, drag and drop one or more files from your system to the file box.
 
-   ![Add assets to a workspace](./assets/assets-add-dialog.png){width="500"}
+   ![Add assets to a folder](./assets/assets-add-dialog.png){width="500"}
 
    You can also click the _[!UICONTROL Select a file from your computer]_ link to use your local file system to find and select files. 
 
@@ -76,11 +68,7 @@ From the _Assets_ list page, you can add image assets to the Journey Optimizer B
 
    The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists, a message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`). 
 
-1. Select the destination workspace or folder to store the assets.
-
-   >[!NOTE]
-   >
-   >If you select a location in the _[!UICONTROL Journey Optimizer B2B Edition]_ workspace, you can manage the asset in the app. If you add the asset to a Marketo Engage workspace, asset management functions are available only from the Marketo Engage Design Studio.
+1. Select the destination folder to store the assets.
 
 1. To overwrite (replace) files when you upload one or more files with an existing file name, select the **[!UICONTROL Overwrite existing files]** checkbox.
 
@@ -90,19 +78,15 @@ From the _Assets_ list page, you can add image assets to the Journey Optimizer B
 
 Any asset that is currently in use in any of the emails, email templates, or fragments cannot be deleted. Check the used-by references before initiating an asset removal. Also, a delete action cannot be undone, so check before initiating a removal action.
 
-Use either of the following methods to delete an asset residing in the _[!UICONTROL Journey Optimizer B2B Edition]_ workspace:
+Use either of the following methods to delete an asset:
 
 * Go to the asset details, click **[!UICONTROL ... More]** at the top right, and choose **[!UICONTROL Delete]** from the options.
 
-   ![Access actions for the asset](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
+   ![Access actions for the asset](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
 * On the _[!UICONTROL Assets]_ listing page, click the _More_ icon (**[!UICONTROL ...]**) next to the asset item and choose **[!UICONTROL Delete]** from the options.
 
    ![Access actions for the asset](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
-
-   >[!NOTE]
-   >
-   >Only assets residing in the _[!UICONTROL Journey Optimizer B2B Edition]_ workspace have asset management functions available in the _More_ menu.
 
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Delete]** to confirm deletion.
 
@@ -110,7 +94,7 @@ If the asset is currently in use, the action opens an informational dialog that 
 
 ## Replace assets
 
-Use either of the following methods to replace an asset residing in the _[!UICONTROL Journey Optimizer B2B Edition]_ workspace:
+Use either of the following methods to replace an asset residing in the _[!UICONTROL Journey Optimizer B2B Edition]_ asset repository:
 
 * Go to the asset details, click **[!UICONTROL ... More]** at the top right, and choose **[!UICONTROL Replace]** from the options.
 
@@ -140,7 +124,7 @@ From the listing page (_[!UICONTROL Content Management]_ > _[!UICONTROL Assets]_
 
 ![Selected assets](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-You can take the following bulk actions for selected assets residing in the _[!UICONTROL Journey Optimizer B2B Edition]_ workspace:
+You can take the following bulk actions for selected assets residing in the _[!UICONTROL Journey Optimizer B2B Edition]_ asset repository:
 
 +++Move assets
 
@@ -184,7 +168,7 @@ You can take the following bulk actions for selected assets residing in the _[!U
 
 ## Apply folder-level actions
 
-In the _[!UICONTROL Journey Optimizer B2B Edition]_ workspace, you can apply actions to a folder or assets within the folder. Click the _More_ icon (**...**) next to the folder to reveal the actions that you can apply to it.
+You can apply actions to a folder or assets within the folder. Click the _More_ icon (**...**) next to the folder to reveal the actions that you can apply to it.
 
 ![Apply actions to a folder or assets within the folder](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
@@ -264,17 +248,13 @@ Archiving a folder makes the files within it unsearchable. Use the archive funct
 
 Assets can be used in your team's email, email template, or visual fragment authoring from the visual content editor.
 
-From the visual design space, select the _Marketo Engage Assets_ icon ( ![Marketo Engage Assets icon](../../assets/do-not-localize/icon-assets-me.svg) ) on the left sidebar.
+From the visual design space, select the _Assets_ icon ( ![Assets icon](../../assets/do-not-localize/icon-assets-me.svg) ) on the left sidebar.
 
-This action changes the tools panel that displays a structured list of the available assets in the selected workspace. Select the workspace that you want to display for choosing an asset.
-
-![Selected assets](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
-
-There are multiple methods for adding an image asset to the visual canvas:
+This action changes the tools panel that displays a list of the available assets. There are multiple methods for adding an image asset to the visual canvas:
 
 * Drag and drop an image thumbnail from the left navigation.
 
-* Add an image component to the canvas and click **[!UICONTROL Marketo Engage Assets]** in the component to open the _[!UICONTROL Select Asset from Adobe Marketo Engage]_ dialog.
+* Add an image component to the canvas and click **[!UICONTROL Select Asset]** in the component to open the _[!UICONTROL Select Asset]_ dialog.
 
    ![Use the filters and search field to find the asset that you need](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
