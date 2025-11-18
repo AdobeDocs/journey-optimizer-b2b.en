@@ -96,7 +96,7 @@ Use an action on people when you want to apply a change to all people on the nod
 
 >[!NOTE]
 >
->The _[!UICONTROL Change People Partition in Marketo Engage]_ action is deprecated for the 2025.10 release and not available on the simplified architecture for Journey Optimizer B2B Edition.
+>The _[!UICONTROL Change People Partition in Marketo Engage]_ action is deprecated for the 2025.10 release and is not available on the simplified architecture for Journey Optimizer B2B Edition.
 
 ### Add a people-based action
 
