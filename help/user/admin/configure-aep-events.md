@@ -9,17 +9,17 @@ exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 ---
 # Select Experience Events and fields
 
-Administrators can select specific [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} and their associated fields within the experience event union schema. After selection, users can configure decisioning rules to listen to those experience events to enable dynamic and targeted campaign actions based on near real-time event data. 
+Administrators can select specific [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} and their associated fields within the Experience Event union schema. After selection, users can configure decisioning rules to listen to those Experience Events to enable dynamic and targeted campaign actions based on near real-time event data. 
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 Using AEP experience events in journeys is a two-step process: 
 
-1. [Select AEP experience events and fields](#add-an-event) in Journey Optimizer B2B Edition.
+1. An administrator [adds AEP experience events and fields](#add-an-event) in the Journey Optimizer B2B Edition configurations.
 
-2. In a journey, add a _Listen for an event_ node and [select an Experience Event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. In a journey, a marketer adds a _Listen for an event_ node and [selects an Experience Event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-   * Select the event to use in the node.
-   * Select the fields to use as constraints.
+   * Selects the event to use in the node.
+   * Selects the fields to use as constraints.
 
 >[!BEGINSHADEBOX]
 
@@ -29,7 +29,7 @@ As you select events to meet your organizational goals, keep the following in mi
 
 * Journeys can listen to Experience Events that are ingested using Experience Platform streaming capabilities, such as Web SDK or HTTP API. 
 
-* You can use Experience Events for decisioning purposes within a journey, but they are not retained. Therefore, you cannot leverage an historical record of Experience Events within Journey Optimizer B2B Edition. 
+* You can use Experience Events for decisioning purposes within a journey, but they are not retained. Therefore, you cannot leverage a historical record of Experience Events within Journey Optimizer B2B Edition. 
 
 * When you use an Experience Event and publish the journey, you can add more fields, but you cannot remove fields that were previously selected. 
 
@@ -67,7 +67,7 @@ To make an Experience Event available for a _Listen for an event_ node in a jour
 
 1. Click **[!UICONTROL Select experience event]** at the top right.
 
-   The event details page is displayed. From this page you can choose the event type and the fields.
+   The event details page is displayed. From this page, you can choose the event type and the fields.
 
    ![Event details for a new event](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
 
@@ -97,7 +97,7 @@ To make an Experience Event available for a _Listen for an event_ node in a jour
 
 1. In the event details page, click **[!UICONTROL Save]**.
 
-The saved event is diplayed in the list on the _[!UICONTROL Events]_ tab.
+The saved event is displayed in the list on the _[!UICONTROL Events]_ tab.
 
 ### Edit an event
 

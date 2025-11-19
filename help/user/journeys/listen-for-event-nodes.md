@@ -131,9 +131,9 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 Administrators can select [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, which enable marketers to create journeys that react to the events in near real-time. Using Experience Events in journeys is a two-step process:
 
-1. [Select the event type and fields of interest](../admin/configure-aep-events.md#select-an-event).
+1. An administrator [selects the event types and fields of interest](../admin/configure-aep-events.md#select-an-event) to make them available in journeys.
 
-2. In a journey, add a _Listen for an event_ node, and select an Experience Platform event definition for a people-based event.
+2. In a journey, add a _Listen for an event_ node, and select an Experience Platform event type for a people-based event.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
