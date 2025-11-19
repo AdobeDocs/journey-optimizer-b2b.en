@@ -11,6 +11,17 @@ In-CRM Insights is a web-base application that integrates into Salesforce, givin
 
 The In-CRM Insights application is available in the [Marketo Sales Insights package](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
+## Permissions
+
+To access the application, users must have membership in a role with the  **Sales Insights:View Sales Insights** permission .
+
+If you want to restrict a group of users to InCRM-Insights, use the following guidelines to create a custom role specifically for InCRM-Insights:
+
+* Create a custom role with only the **Sales Insights:View Sales Insights** permission set.
+* Create a new user group, without adding any product profiles.
+* Create another user group and add an AEP product profile, or add an existing AEP profile to the user group you just created.
+* Assign the new user groups to the new role and add new users to the new user groups. 
+
 ## Using In-CRM Insights
 
 The In-CRM Insights application is available in Salesforce through the App Launcher.

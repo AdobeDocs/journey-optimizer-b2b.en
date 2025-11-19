@@ -13,6 +13,11 @@ Account audience data is stored as attributes in both XDM Business Account and X
 >
 >You can model XDM Business Person and XDM Business Account classes in a many-to-many relationship by using the XDM Business Account Person Relation class as described in the [Experience Platform XDM documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
+>[!NOTE]
+>Data Mirror and relational schemas are available to Adobe Journey Optimizer Orchestrated campaigns license holders. They are also available as a limited release for Customer Journey Analytics users, depending on your license and feature enablement. Contact your Adobe representative for access. Relational schemas are also available as a limited release for Adobe Journey Optimizer B2B Edition.
+>
+
+
 ## XDM Business Account Person Relation attributes
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |

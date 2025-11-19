@@ -7,7 +7,7 @@ exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
 ---
 # Work with internal image assets
 
-The internal image asset repository is the default asset source for designing content, and you can easily manage and use the available assets to design content that supports your account journeys.
+The internal image asset repository is the default image asset source, and you can easily manage and use the available assets to design content that supports your account journeys.
 
 You have the full range of asset management functions in Journey Optimizer B2B Edition. These functions include:
 

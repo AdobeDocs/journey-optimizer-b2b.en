@@ -16,13 +16,13 @@ Use the browser and email plugins to access business intelligence directly withi
 
 Sales Qualifier is included with Journey Optimizer B2B Edition, but it is a separate app within the Exprerience Platform Experience Cloud.
 
-![Sales Qualifier home page](assets/home-screen.png)
+![Sales Qualifier dashboard automating BDR prospect qualification and outreach for enterprise B2B](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 The Account Qualification Agent (AQA) is the heart of the Sales Qualifier. The AQA uses AI to read your accounts and determine which ones are ready for the next step. It assists with research, email drafting, and CRM updates.
 
-![Account Qualification Agent](assets/acc-qualification-agent.png)
+![AI-powered Account Qualification Agent dashboard for sales prospect and account research](assets/acc-qualification-agent.png)
 
 * **Prospect research**
 
@@ -38,11 +38,11 @@ The Account Qualification Agent (AQA) is the heart of the Sales Qualifier. The A
 
 * **Engagement plan emails**
 
-    Create engagement plan email drafts that are personalized for each step of a BDR-defined outreach cadence, ensuring the entire sequence is personalized
+    Create engagement plan email drafts that are personalized for each step of a BDR-defined outreach cadence, ensuring the entire sequence is personalized.
 
 ### Basic Usage
 
-Adobe AI agents use _natural language queries_, which means that they use the same language in the text prompt as you would in speaking with a person. The more detailed you are, the better the results.
+Adobe AI agents use _natural language queries_, which means that they use the same language in the text prompt as you would when speaking with a person. The more detailed you are, the better the results.
 
 Using natural language, you can ask the agent to:
 
@@ -62,7 +62,7 @@ Iterate over your journey by refining your prompts to get the results you need. 
 
 This window lists all the leads that you have access to. It's a quick check on things, such as lead status and last activity.
 
-![See all your leads in the Leads table](assets/prospects.png)
+![Leads table displaying lead status and last activity for prospect management](assets/prospects.png)
 
 Click the _Filter_  ![Filter icon](../../assets/do-not-localize/icon_filter-outline.svg) icon to filter the displayed list by lead status.
 
@@ -70,7 +70,7 @@ Click the _Filter_  ![Filter icon](../../assets/do-not-localize/icon_filter-outl
 
 This window provides details about any defined Engagement plans.
 
-![Engagement plans](assets/engagement-plans.png)
+![Engagement plan dashboard showing plan details, selected leads, and schedule settings](assets/engagement-plans.png)
 
 To make a new Engagement plan, click **[!UICONTROL Create engagement plan]**.
 
@@ -89,9 +89,9 @@ This panel displays all meetings set up through automation.
 
 ## Chat inbox
 
-This panel displays all your chats threads.
+This panel displays all your chat threads.
 
-![Chat inbox](assets/chat-inbox.png)
+![Panel showing chat threads with contact and thread summaries for sales automation](assets/chat-inbox.png)
 
 You can interact with clients, and see summaries for the contact and the thread so that you can quickly know where you are in the thread.
 
@@ -100,15 +100,15 @@ You can interact with clients, and see summaries for the contact and the thread 
 With integrations, the Sales Qualifier can leverage CRMs and other data sources to enrich customer profiles and tap into sales activities:
 
 * Integrate with your email inbox to keep track of relevant incoming emails and help generate replies.
-* Read and update CRM data, such as Salesforce or Microsoft&reg; Dynamics, ZoomInfo, or Buildwidth.
+* Read and update CRM data, such as Salesforce or Microsoft&reg; Dynamics, ZoomInfo, or BuiltWith.
 
-![Sales Qualifier Outlook Integration](assets/outlook.png)
+![Sales Qualifier integration with Microsoft Outlook showing email and contact summaries](assets/outlook.png)
 
 ### Set up a new integration
 
 To start a new integration, click **[!UICONTROL Create integration]** at the top right.
 
-![Integration Details](assets/integration-details.png)
+![Integration setup form showing URL, HTTP method, headers, and authentication options](assets/integration-details.png)
 
 Define the URL of the integration and establish the payload to send:
 
@@ -159,13 +159,13 @@ The representative settings specify information about yourself, including person
 
 The **[!UICONTROL Details]** tab is where you enter information about yourself:
 
-![Sales Qualifier Details settings](assets/details.png)
+![Details tab showing personal information, email, and chat availability settings for representatives](assets/details.png)
 
 ### Email settings
 
 In the **[!UICONTROL Email settings]** tab, set up your email connections.
 
-![Email settings](assets/email-settings.png)
+![Email settings tab showing email connection options and email signature configuration](assets/email-settings.png)
 
 * **[!UICONTROL Email connections]** - Click **[!UICONTROL Connect]** and follow the Microsoft login procedure. 
 
@@ -175,7 +175,7 @@ In the **[!UICONTROL Email settings]** tab, set up your email connections.
 
 In the **[!UICONTROL Calendar settings]** tab, set your time zone and availability.
 
-![Calendar settings](assets/calendar-settings.png)
+![Calendar settings tab showing time zone and availability options](assets/calendar-settings.png)
 
 * **[!UICONTROL Calendar connection]** - Click **[!UICONTROL Connect]** and follow the Microsoft login procedure to integrate you calendar. 
 
@@ -187,7 +187,7 @@ In the **[!UICONTROL Calendar settings]** tab, set your time zone and availabili
 
 In the **[!UICONTROL Chat settings]** tab, set your Timezone Live chat availability.
 
-![Chat settings](assets/chat-settings.png)
+![Chat settings tab for configuring timezone and live chat availability](assets/chat-settings.png)
 
 ## Representative management
 
@@ -211,7 +211,7 @@ When the plugin is installed in Chrome, the Adobe logo appears on the middle rig
 
 ## Edit the left navigation bar
 
-At the bottom left of the application, click  **[!UICONTROL Edit]** to control which of the icons are visible in the navigation. You can also drag and drop them to reorder as you want.
+At the bottom left of the application, click **[!UICONTROL Edit]** to control which of the icons are visible in the navigation. You can also drag and drop them to reorder as you want.
 
 ## Demonstration video
 
