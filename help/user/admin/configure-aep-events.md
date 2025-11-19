@@ -1,6 +1,6 @@
 ---
 title: Select Experience Events and Fields
-description: Configure Experience Platform event definitions to trigger real-time account journeys in Journey Optimizer B2B Edition based on customer behavior.
+description: Select Experience Platform events and fields to trigger real-time decisioning in journeys based on customer behavior.
 feature: Setup, Integrations
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a beta release"
