@@ -19,7 +19,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
     + Agents {#ai-agents}
        + [Audience Agent](./agents/audience-agent-b2b.md)
-       + [Journey Build Agent](./agents/journey-agent.md)
+       + [Journey Build Agent B2B](./agents/journey-agent.md)
        + [Sales Qualifier](./agents/sales-qualifier.md)
 + Account journeys {#account-journeys}
     + [Overview](./journeys/journey-overview.md)
@@ -62,7 +62,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + Account lists {#account-lists}    
        + [Overview](./accounts/account-lists.md)
        + [Use in journeys and programs](./accounts/account-lists-journeys.md)
-    + [XDM fields](./data/field-mapping.md)
     + Sales experience {#sales-experience}
       + [Account details](./accounts/account-details.md)
       + [Buying group details](./buying-groups/buying-group-details.md)
@@ -122,8 +121,11 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Account Journeys Overview](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [Governance](./admin/governance.md)
+    + [Marketo Actions Configuration](./admin/marketo-actions-connect.md)
     + [Persona mapping](./admin/persona-mapping.md)
     + [User management](./admin/user-management.md)
+    + [XDM fields](./admin/field-mapping.md)
+    + [XDM field selection](admin/xdm-field-management.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)

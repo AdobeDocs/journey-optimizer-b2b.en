@@ -168,7 +168,7 @@ Use this action to add people profiles to a [buying group](../buying-groups/buyi
 
 +++[!UICONTROL Change Data Value]
 
-Use this action to change the value of a [people profile attribute](../data/field-mapping.md#xdm-business-person-attributes). Select the attribute and then set the new value.
+Use this action to change the value of a [people profile attribute](../admin/field-mapping.md#xdm-business-person-attributes). Select the attribute and then set the new value.
 
 ![Take an action - Change Data Value](./assets/node-action-change-data-value.png){width="300"}
 

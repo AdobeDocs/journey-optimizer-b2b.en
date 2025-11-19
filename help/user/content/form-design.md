@@ -32,7 +32,7 @@ Use the field design tools to construct the set of fields and layout that you ne
 
 1. In the _[!UICONTROL Select field attribute]_ dialog, select the checkbox for the person profile attribute that you want to use for the field and click **[!UICONTROL Select]**.
 
-   The [XDM business schemas](../data/field-mapping.md#xdm-business-person-attributes) determine the available attributes.  Any custom fields that are defined for your Journey Optimizer B2B Edition instance are also available. Use the Search text box to filter the list by name, or click the Filter icon to filter the list by schema/data type. 
+   The [XDM business schemas](../admin/field-mapping.md#xdm-business-person-attributes) determine the available attributes.  Any custom fields that are defined for your Journey Optimizer B2B Edition instance are also available. Use the Search text box to filter the list by name, or click the Filter icon to filter the list by schema/data type. 
 
    ![Add a field component to the form](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
 
