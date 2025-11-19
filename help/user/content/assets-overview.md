@@ -43,15 +43,15 @@ Use assets as you author your emails, email templates, and visual fragments. The
 
 You can choose the image source when you edit the settings for an image component or directly on the canvas:
 
-* **_Image component settings_** - When you have an image component selected in the visual design space, you can view and edit the settings in the right panel. To add or change the image file displayed in the component, choose the source type and select an image file.
+* **_Image component settings_** - When you have an image component selected in the canvas, you can view and edit the settings in the right panel. To add or change the image file displayed in the component, choose the source type and select an image file.
 
    ![Edit the image component settings in the right panel](./assets/content-assets-image-settings.png){width="350"}
 
-* **_Empty component_** - When you add an image component in the visual design space, it is empty and provides easy access to choose a source and select an image file.
+* **_Empty component_** - When you add an image component to the canvas, it is empty and provides easy access to choose a source and select an image file.
 
    ![Choose a source to select an image file for the empty image component](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_Image component toolbar_** - When you have an image component selected in the visual design space, the toolbar provides easy access to choose a source and select the image file.
+* **_Image component toolbar_** - When you have an image component selected in the canvas, the toolbar provides easy access to choose a source and select the image file.
 
    ![Use the toolbar to choose a source to select an image file for the image component](./assets/content-assets-image-toolbar-settings.png){width="500"}
 

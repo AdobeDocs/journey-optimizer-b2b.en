@@ -12,7 +12,7 @@ exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
 >title="Edit Images in Adobe Express"
 >abstract="Easy and intuitive image-editing tools, powered by Adobe Express, are available directly within Adobe Journey Optimizer B2B Edition to increase content velocity."
 
-Adobe Journey Optimizer B2B Edition integrates natively with Adobe Express, and enables you to access a set of Adobe Express image editing tools. You can use these tools to modify the images stored in the Journey Optimizer B2B Edition asset repository. The integration provides the following key benefits:
+[!DNL Adobe Journey Optimizer B2B Edition] integrates natively with Adobe Express, and enables you to access a set of [!DNL Adobe Express] image editing tools. You can use these tools to modify the images stored in the [!DNL Journey Optimizer B2B Edition] asset repository. The integration provides the following key benefits:
 
 * Increased content reuse by editing and saving new image assets in Journey Optimizer B2B Edition.
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer B2B Edition integrates natively with Adobe Express, and 
 >
 >Entitlements for Adobe Express editing features are included with all Journey Optimizer B2B Edition subscriptions.
 
-The Adobe Express functions support PNG and JPEG image file formats.
+The [!DNL Adobe Express] functions support PNG and JPEG image file formats.
 
 _To modify an image:_
 
