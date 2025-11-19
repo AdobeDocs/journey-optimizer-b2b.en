@@ -33,13 +33,13 @@ For example, you might configure a persona called _Product Management_ and defin
 
 1. Click **[!UICONTROL Persona mapping]** on the intermediate panel to display the list of personas.
 
-   ![Access the configured personas](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![Access the configured personas](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   From this page, you can [create](#create-an-engagement-score-model), [edit](#change-the-engagement-weighting-settings), or [delete](#delete-a-persona) personas.
+   From this page, you can [create](#create-a-persona), [edit](#edit-a-persona), or [delete](#delete-a-persona) personas.
 
-   The Persona mapping list. is organized as a table and displays the most recently updated personas at the top (sorted by _[!UICONTROL Last update]_). You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes.
+   The Persona mapping list is organized as a table and displays the most recently updated personas at the top (sorted by _[!UICONTROL Last update]_). You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes.
 
-  ![Columns to display in the persona mapping list](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+  ![Columns to display in the persona mapping list](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. To access the details for a persona, click the name.
    
@@ -62,13 +62,9 @@ The _Persona mapping_ list includes five default personas that are defined accor
 
 ### List filtering
 
-To locate the persona that you want, use the search and filter tools:
-
-* Enter a text string into the search bar to match personas by name, 
+To locate the persona that you want, enter a text string into the search bar to match personas by name, 
    
-   ![Filter the displayed event definitions](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) ) icon at the top left to filter the displayed list by attribute.
+![Filter the displayed persona mappings](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## Create a persona
 
@@ -80,6 +76,8 @@ To locate the persona that you want, use the search and filter tools:
 
 1. Enter a unique **[!UICONTROL Name]** and **[!UICONTROL Description]** (optional) for the persona.
 
+   ![Create a persona mapping](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. Select the attributes to use for matching the persona. 
 
    * Click **[!UICONTROL Select person attributes]**.
@@ -90,6 +88,8 @@ To locate the persona that you want, use the search and filter tools:
 
       To filter the attribute list by name, enter a text string into the search bar. You can also click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) ) icon at the top left to filter the displayed list by type, _Standard_ or _Custom_.
 
+      ![Select persona attributes dialog](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * Click **[!UICONTROL Save]**.
 
      The selected attributes are populated in the _[!UICONTROL Persona attributes]_ section.
@@ -98,11 +98,13 @@ To locate the persona that you want, use the search and filter tools:
 
    In place of a value, you can also add a prompt that can be used to identify a match. For example, you could enter 
 
-1. Click **[!UICONTROL Create]**.
+1. Click **[!UICONTROL Submit]**.
 
 ## Edit a persona
 
 Click the persona name to access and edit the details for the persona,
+
+You can change the name or description, add attributes, or update the attribute values. Click **[!UICONTROL Submit]** when your changes are complete.
 
 ## Delete a persona
 
