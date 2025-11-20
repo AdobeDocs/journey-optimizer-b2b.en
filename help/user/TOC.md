@@ -124,8 +124,10 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Marketo Actions Configuration](./admin/marketo-actions-connect.md)
     + [Persona mapping](./admin/persona-mapping.md)
     + [User management](./admin/user-management.md)
-    + [XDM fields](./admin/field-mapping.md)
-    + [XDM field selection](admin/xdm-field-management.md)
+    + XDM field management {#xdm-field-management}
+      + [XDM classes](admin/xdm-field-management.md)
+      + [Experience Events and fields](./admin/configure-aep-events.md)
+      + [Default XDM fields](./admin/field-mapping.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
@@ -133,7 +135,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Configure datastreams for event collection](./data/aep-event-collection.md)
     + Configurations {#configurations}
        + [AEM Assets repositories](./admin/configure-aem-repositories.md)
-       + [Experience Events and fields](./admin/configure-aep-events.md)
        + [Intent data](./admin/intent-data.md)
        + [Engagement score weighting](./admin/engagement-score-weighting.md)
     + [Simplified architecture setup](simplified-architecture.md)

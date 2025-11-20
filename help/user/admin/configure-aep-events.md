@@ -27,11 +27,13 @@ Using AEP experience events in journeys is a two-step process:
 
 As you select events to meet your organizational goals, keep the following in mind: 
 
-* Journeys can listen to Experience Events that are ingested using Experience Platform streaming capabilities, such as Web SDK or HTTP API. 
+* You can select up to 50 events and up to 100 fields per event.
+
+* Journeys can listen to Experience Events that are ingested using Experience Platform streaming capabilities, such as Web SDK or HTTP API.
 
 * You can use Experience Events for decisioning purposes within a journey, but they are not retained. Therefore, you cannot leverage a historical record of Experience Events within Journey Optimizer B2B Edition. 
 
-* When you use an Experience Event and publish the journey, you can add more fields, but you cannot remove fields that were previously selected. 
+* When you use an Experience Event and publish the journey, you can add more fields, but you cannot remove fields that were previously selected.
 
 * You can reference an Experience Event in multiple journeys or use one more than once within the same journey. 
 

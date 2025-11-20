@@ -1,11 +1,11 @@
 ---
-title: XDM Fields
+title: Default XDM Fields
 description: Review the default attribute fields that are synchronized between the Adobe Experience Platform and Journey Optimizer B2B Edition.
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
 ---
-# XDM fields
+# Default XDM fields
 
 Account audience data is stored as attributes in both XDM Business Account and XDM Business Person classes. The data is periodically synchronized between Adobe Experience Platform and Journey Optimizer B2B Edition. The following sections list the default sets of attributes.
 
@@ -14,9 +14,8 @@ Account audience data is stored as attributes in both XDM Business Account and X
 >You can model XDM Business Person and XDM Business Account classes in a many-to-many relationship by using the XDM Business Account Person Relation class as described in the [Experience Platform XDM documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 >[!NOTE]
->Data Mirror and relational schemas are available to Adobe Journey Optimizer Orchestrated campaigns license holders. They are also available as a limited release for Customer Journey Analytics users, depending on your license and feature enablement. Contact your Adobe representative for access. Relational schemas are also available as a limited release for Adobe Journey Optimizer B2B Edition.
 >
-
+>Data Mirror and relational schemas are available to Adobe Journey Optimizer Orchestrated campaigns license holders. They are also available as a limited release for Customer Journey Analytics users, depending on your license and feature enablement. Contact your Adobe representative for access. Relational schemas are also available as a limited release for Adobe Journey Optimizer B2B Edition.
 
 ## XDM Business Account Person Relation attributes
 
