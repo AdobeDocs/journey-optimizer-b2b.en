@@ -111,7 +111,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Click **[!UICONTROL Edit event]** and define one or more web pages to match and any additional constraints for the event.
 
-   * (Required) In the _[!UICONTROL Edit event]_ dialog, define the **[!UICONTROL Web page]** or **[!UICONTROL Fills out form]** constraint. Use **[!UICONTROL is]** (default) to match on one or more selected pages or forms. Use **[!UICONTROL is not]** to match on all page visits/forms with the exclusion of one or more selected pages/forms. Or, use **[!UICONTROL is any]** to match on any Marketo Engage web page visit or filled form.
+   * (Required) In the _[!UICONTROL Edit event]_ dialog, define the **[!UICONTROL Web page]** or **[!UICONTROL Fills out form]** constraint. Use **[!UICONTROL is]** (default) to match on one or more selected pages or forms. Use **[!UICONTROL is not]** to match on all page visits/forms with the exclusion of one or more selected pages/forms. Or, use the **[!UICONTROL is any]** operator to match on any Marketo Engage web page visit or filled form.
 
    * (Optional) Click **[!UICONTROL Add constraint]** and choose the field that you want to use for the constraint. Set the operator and the value for the field.
 
@@ -129,13 +129,14 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ### Listen for an Experience Event
 
-Administrators can configure Adobe Experience Platform (AEP)-based event definitions, which enable Marketers to create account journeys that react to [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. Using AEP experience events in account journeys is a two-step process:
+Administrators can select [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, which enable marketers to create journeys that react to the events in near real-time. Using Experience Events in journeys is a two-step process:
 
-1. [Create and publish an AEP event definition](../admin/configure-aep-events.md).
+1. An administrator [selects the event types and fields of interest](../admin/configure-aep-events.md#select-an-event) to make them available in journeys.
 
-2. In an account journey, add a _Listen for an event_ node, and select an Experience Platform event definition for a people-based event.
+2. In a journey, add a _Listen for an event_ node, and select an Experience Platform event type for a people-based event.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 _To include an Experience Event in your journey:_
 
@@ -153,21 +154,21 @@ _To include an Experience Event in your journey:_
 
    ![Edit the event](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}   
 
-1. Click **[!UICONTROL Edit event]** and define the event types and any additional constraints for the event.
+1. Click **[!UICONTROL Edit event]** and define one or more constraints for the event.
 
-   * (Required) In the _[!UICONTROL Edit event]_ dialog, define the event type. You can use the default **[!UICONTROL is]** operator to match on one or more selected event types. Or you can use the **[!UICONTROL is not]** operator to match on all event types with the exclusion of one or more selected event types.
+   The available constraints are defined as managed fields for the event configuration.
 
-   * (Optional) Click **[!UICONTROL Add constraint]** and choose the field that you want to use for the constraint. Set the operator and the value for the field.
+   * Click **[!UICONTROL Add constraint]** and choose the field that you want to use for the constraint.
+   
+   * Complete the condition for the constraint. 
+
+      You can use the default **[!UICONTROL is]** operator to match one or more field values. Or you can use the **[!UICONTROL is not]** operator to match on all values with the exclusion of one or more specified values.
   
      ![Listen for an experience event](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >The constraints for _date of activity_ and _minimum number of times_ are not supported.
-
-     You can repeat this action to include additional field constraints as needed.
-
    * If needed, select the **[!UICONTROL Filters]** tab to [add filters for the event](#add-a-filter-to-the-people-event).
+
+   * (Optional) Click **[!UICONTROL Add constraint]** and repeat these steps to include additional field constraints as needed.
 
    * When the constraints and filters are defined, click **[!UICONTROL Done]**.
 
@@ -213,6 +214,6 @@ If needed, define the amount of time the journey waits for the event. The journe
 
    ![Journey event node - set timeout path](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Overview video
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
