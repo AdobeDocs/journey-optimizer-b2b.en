@@ -1,6 +1,6 @@
 ---
 title: Adobe Target External Audiences
-description: 
+description: Activate external audiences to Adobe Target through account journeys. Personalize B2B web experiences and maintain cross-platform consistency.
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 ---
