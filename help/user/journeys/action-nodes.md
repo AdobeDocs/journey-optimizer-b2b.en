@@ -19,7 +19,6 @@ Use an action on accounts when you want to apply a change to all people that are
 
 | Action | Constraints |
 | ------ | ----------- |
-| [!UICONTROL Update account profile] | Select attribute<br/>New value |
 | [!UICONTROL Account Interesting Moment] | Type (email, milestone, or web)<br/>Description (optional)|
 | [!UICONTROL Activate to destination] | Select a destination |
 | [!UICONTROL Add Account to (other) Journey] | Select live account journey |
@@ -27,12 +26,14 @@ Use an action on accounts when you want to apply a change to all people that are
 | [!UICONTROL Remove Account from Journey] | Select live account journey |
 | [!UICONTROL Remove from account list] | Select a live static account list |
 | [!UICONTROL Send Sales Alert] | Select solution interest<br/>Send email to|
+| [!UICONTROL Update account profile] | Select attribute<br/>New value |
 | [!UICONTROL Update Buying Group Stage] | Select solution interest<br/>Select buying group stage |
 | [!UICONTROL Update Buying Group Status] | Select solution interest<br/>Status (required, 50 characters max) |
 
 >[!NOTE]
 >
->The _[!UICONTROL Account Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced by _[!UICONTROL Update account profile]_ for the [simplified architecture](../simplified-architecture.md).<br/><br/>
+>The _[!UICONTROL Account Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced by _[!UICONTROL Update account profile]_ for the [simplified architecture](../simplified-architecture.md).<br/>
+>
 >An administrator can configure the available attributes for the XDM Business Account by updating the fields in the _[!UICONTROL XDM Classes]_ > _[!UICONTROL Standard classes]_. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 
 ### Add an account-based action
@@ -101,7 +102,8 @@ Use an action on people when you want to apply a change to all people on the nod
 
 >[!NOTE]
 >
->The _[!UICONTROL Change People Partition in Marketo Engage]_ action is deprecated for the 2025.10 release and is not available on the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition.<br/><br/>
+>The _[!UICONTROL Change People Partition in Marketo Engage]_ action is deprecated for the 2025.10 release and is not available on the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition.<br/>
+>
 >The _[!UICONTROL Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced with _[!UICONTROL Update person profile]_ on the simplified architecture.
 
 ### Add a people-based action
@@ -220,7 +222,8 @@ Use this action to change the value of a [people profile attribute](../admin/fie
 
 >[!NOTE]
 >
->The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action on the [simplified architecture](../simplified-architecture.md).<br/><br/>
+>The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action on the [simplified architecture](../simplified-architecture.md).<br/>
+>
 >An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Classes]_ > [!UICONTROL Standard classes]. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 
 +++
