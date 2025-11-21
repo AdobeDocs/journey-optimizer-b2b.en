@@ -131,6 +131,8 @@ When you select this people-based action, you can create a new external audience
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch a video overview for paid media orchestration](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
+Starting with the 2025.10 release<!-- and with the simplified architecture-->, you can also orchestrate through external audiences created in Experience Platform, such as Adobe Target destinations. For more detailed information about this audience integration, see [Adobe Target external audiences](../audiences/target-integration.md).
+
 _To create an external audience:_
 
 1. Choose **[!UICONTROL Create new]**.
