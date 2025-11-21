@@ -116,7 +116,7 @@ The Journey Optimizer B2B people-based actions are designed to manage communicat
 
 +++[!UICONTROL Add to external customer audience]
 
-Use this action to push people to an external audience that can be activated across a paid media channel to further target members of buying groups. This action is executed through Real-Time CDP B2B/P Edition. 
+Use this action to push people to an external audience that can be activated across a paid media channel to further target members of buying groups. This action is executed through Real-Time CDP B2B Edition.
 
 >[!NOTE]
 >
@@ -124,7 +124,10 @@ Use this action to push people to an external audience that can be activated acr
 
 ![Take an action - Add to external customer audience](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-When you select this people-based action, you can create a new external audience or select from an existing external audience. For existing audiences, you can choose from external customer audiences that were created in Journey Optimizer B2B Edition only. When you create an audience and use it for this journey action, make sure that you connect the destination. For more information, see [Create a new destination connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} and [Activation overview](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in the Experience Platform documentation.
+When you select this people-based action, you can create a new external audience or select from the list of existing external audiences. 
+
+* For existing audiences, you can choose from external customer audiences that were created in [!DNL Journey Optimizer B2B Edition] only.
+* When you create an audience and use it for this journey action, make sure that you connect the destination. For more information, see [Create a new destination connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} and [Activation overview](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in the Experience Platform documentation.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch a video overview for paid media orchestration](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 

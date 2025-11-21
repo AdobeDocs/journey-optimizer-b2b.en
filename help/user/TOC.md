@@ -43,8 +43,11 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Sales alert email](./content/sales-alert-email.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
     + [SMS authoring](./content/sms-authoring.md)
++ Audiences {#audiences}
+    + [Experience Platform audiences](./audiences/account-audience-overview.md)
+    + [Target external audiences](./audiences/target-integration.md)
+    + [LinkedIn Account Matched audiences](./data/linkedin-account-matched-audiences.md)
 + Accounts {#accounts}
-    + [Audiences](./audiences/account-audience-overview.md)
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
        + [Solution interests](./buying-groups/solution-interests.md)
