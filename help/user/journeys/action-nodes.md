@@ -19,7 +19,7 @@ Use an action on accounts when you want to apply a change to all people that are
 
 | Action | Constraints |
 | ------ | ----------- |
-| [!UICONTROL Account Change Data Value] | Select attribute<br/>New value |
+| [!UICONTROL Update account profile] | Select attribute<br/>New value |
 | [!UICONTROL Account Interesting Moment] | Type (email, milestone, or web)<br/>Description (optional)|
 | [!UICONTROL Activate to destination] | Select a destination |
 | [!UICONTROL Add Account to (other) Journey] | Select live account journey |
@@ -29,6 +29,11 @@ Use an action on accounts when you want to apply a change to all people that are
 | [!UICONTROL Send Sales Alert] | Select solution interest<br/>Send email to|
 | [!UICONTROL Update Buying Group Stage] | Select solution interest<br/>Select buying group stage |
 | [!UICONTROL Update Buying Group Status] | Select solution interest<br/>Status (required, 50 characters max) |
+
+>[!NOTE]
+>
+>The _[!UICONTROL Account Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced by _[!UICONTROL Update account profile]_ for the [simplified architecture](../simplified-architecture.md).<br/><br/>
+>An administrator can configure the available attributes for the XDM Business Account by updating the fields in the _[!UICONTROL XDM Classes]_ > _[!UICONTROL Standard classes]_. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 
 ### Add an account-based action
 
@@ -84,19 +89,20 @@ Use an action on people when you want to apply a change to all people on the nod
 | ------- | ------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Add to external customer audience] | Select external customer audience |
 | | [!UICONTROL Assign to Buying Group] | Select solution interest<br/>Select role |
-| | [!UICONTROL Change Data Value] | Select person attribute<br/>Set new value |
 | | [!UICONTROL Change Score] | Score name<br/>Change in score|
 | | [!UICONTROL Person Interesting Moment] | Type<br/>Description |
 | | [!UICONTROL Remove from Buying Group] | Select solution interest |
 | | [!UICONTROL Send email] | Create new email<br/>Select email from Marketo Engage |
 | | [!UICONTROL Send SMS] | Create SMS |
+| | [!UICONTROL Update person profile] | Select person attribute<br/>Set new value |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to Marketo Engage Request campaign] | Select Marketo Engage workspace<br/>Select Request campaign |
 | | [!UICONTROL Add to Marketo list]| Select name of external Marketo connection <br/>List name |
 | | [!UICONTROL Remove from Marketo list] | Select name of external Marketo connection <br/>List name |
 
 >[!NOTE]
 >
->The _[!UICONTROL Change People Partition in Marketo Engage]_ action is deprecated for the 2025.10 release and is not available on the simplified architecture for Journey Optimizer B2B Edition.
+>The _[!UICONTROL Change People Partition in Marketo Engage]_ action is deprecated for the 2025.10 release and is not available on the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition.<br/><br/>
+>The _[!UICONTROL Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced with _[!UICONTROL Update person profile]_ on the simplified architecture.
 
 ### Add a people-based action
 
@@ -166,14 +172,6 @@ Use this action to add people profiles to a [buying group](../buying-groups/buyi
 
 +++
 
-+++[!UICONTROL Change Data Value]
-
-Use this action to change the value of a [people profile attribute](../admin/field-mapping.md#xdm-business-person-attributes). Select the attribute and then set the new value.
-
-![Take an action - Change Data Value](./assets/node-action-change-data-value.png){width="300"}
-
-+++
-
 +++[!UICONTROL Change Score]
 
 Use this action to change the person score in Marketo Engage. [Learn more](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
@@ -211,6 +209,19 @@ Use this action to send an email. After you [create the email](../content/add-em
 Use this action to send an SMS message. You can create, personalize, and preview SMS messages in the visual design space (see [SMS authoring](../content/sms-authoring.md)).
 
 ![Take an action - Send SMS](./assets/node-action-send-sms.png){width="300"}
+
++++
+
++++[!UICONTROL Update person profile]
+
+Use this action to change the value of a [people profile attribute](../admin/field-mapping.md#xdm-business-person-attributes). Select the attribute and then set the new value.
+
+![Take an action - Update person profile](./assets/node-action-update-person-profile.png){width="300"}
+
+>[!NOTE]
+>
+>The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action on the [simplified architecture](../simplified-architecture.md).<br/><br/>
+>An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Classes]_ > [!UICONTROL Standard classes]. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 
 +++
 
