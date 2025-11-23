@@ -65,7 +65,7 @@ To make an Experience Event available for a _Listen for an event_ node in a jour
 
 >[!NOTE]
 >
->In the beta release, you cannot remove events from the list. Make sure that each event that you add is intended for use by your organization.
+>In the beta release, you cannot remove events from the list. Make sure that each event that you add is one that your organization intends to use.
 
 1. Click **[!UICONTROL Select experience event]** at the top right.
 
@@ -118,6 +118,343 @@ Edit the event details to change the fields.
 >[!NOTE]
 >
 >For the Beta release of this feature, you cannot remove an event from the list of selected events. Event removal is planned for the GA release.
+
+## Events and fields
+
+For [!DNL Journey Optimizer B2B Edition], certain people-level activities are captured as [!DNL Experience Platform] Experience Events. These events are stored in a system dataset that uses the XDM Experience Event schema and includes journey-specific field groups. You can use these events in [!UICONTROL Journey Optimizer B2B Edition] like any other Experience Event. 
+
+Each event exposes a defined set of fields that can be used in journey _Listen for an event_ nodes (decisioning based on events). Review the available event types and their fields to determine which event and fields to use in these journey nodes:
+
+### Email sent
+
+This event tracks when a marketing email was sent to a person.
+
+Event type: `directMarketing.emailSent`
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Email source ID | `directMarketing.emailSent.mailingKey.sourceID` |
+| Email source type | `directMarketing.emailSent.mailingKey.sourceType` |
+| Email source instance ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
+| Email source key | `directMailing.emailSent.mailingKey.sourceKey` |
+| Mailing name | `directMarketing.emailSent.mailingName` |
+| Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Email delivered
+
+This event tracks when an email was delivered successfully to a person's email service.
+
+Event type: `directMarketing.emailDelivered `
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source type | `directMarketing.mailingKey.sourceType` |
+| Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
+| Mailing source key | `directMarketing.mailingKey.sourceKey` |
+| Mailing name | `directMarketing.mailingName` |
+| Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Email opened
+
+This event tracks when a person opened a marketing email.
+
+Event type: `directMarketing.emailOpened`
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source type | `directMarketing.mailingKey.sourceType` |
+| Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
+| Mailing source key | `directMarketing.mailingKey.sourceKey` |
+| Mailing name | `directMarketing.mailingName` |
+| Is mobile device | `device.isMobileDevice` |
+| Device model | `device.model` |
+| User agent | `environment.browserDetails.userAgent` | 
+| Operating system | `environment.operatingSystem` |
+| Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Email clicked
+
+This event tracks when a person clicked a link in a marketing email.
+
+Event type: `directMarketing.emailClicked`
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source type | `directMarketing.mailingKey.sourceType` |
+| Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
+| Mailing source key | `directMarketing.mailingKey.sourceKey` |
+| Mailing name | `directMarketing.mailingName` |
+| Link URL | `directMarketing.linkURL` | 
+| Is mobile device | `device.isMobileDevice` | 
+| Model | `device.model` |
+| User agent  | `environment.browserDetails.userAgent` |
+| Operating system | `environment.operatingSystem` |
+| Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Email bounced
+
+This event tracks when an email to a person bounced.
+
+Event type: `directMarketing.emailBounced`
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source type | `directMarketing.mailingKey.sourceType` |
+| Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
+| Mailing source key | `directMarketing.mailingKey.sourceKey` |
+| Mailing name | `directMarketing.mailingName` |
+| Email | `directMarketing.email` |
+| Email bounced code | `directMarketing.emailBouncedCode` | 
+| Email bounced details | `directMarketing.emailBouncedDetails` |
+| Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Email bounced soft
+
+This event tracks when an email to a person soft-bounced.
+
+Event type: `directMarketing.emailBouncedSoft`
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source type | `directMarketing.mailingKey.sourceType` |
+| Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
+| Mailing source key | `directMarketing.mailingKey.sourceKey` |
+| Mailing name | `directMarketing.mailingName` |
+| Email | `directMarketing.email` | 
+| Email bounced code | `directMarketing.emailBouncedCode` | 
+| Email bounced details | `directMarketing.emailBouncedDetails` |
+| Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Email unsubscribed
+
+This event tracks when a person unsubscribed from a marketing email.
+
+Event type: `directMarketing.emailUnsubscribed `
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source type | `directMarketing.mailingKey.sourceType` |
+| Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
+| Mailing source key | `directMarketing.mailingKey.sourceKey` |
+| Mailing name | `directMarketing.mailingName` |
+| Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Visit web page
+
+This event type is the standard method for marking the hit as a page view.
+
+Event type: `web.webpagedetails.pageViews`
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Web page source ID | `web.webPageDetails.webPageKey.sourceID` |
+| Web page source type | `web.webPageDetails.webPageKey.sourceType` | 
+| Web page source instance ID | `web.webPageDetails.webPageKey.sourceInstanceID` | 
+| Web page source key | `web.webPageDetails.webPageKey.sourceKey` | 
+| Web page name | `web.webPageDetails.name` |
+| Web page URL | `web.webPageDetails.URL` |
+| Web page query parameters | `web.webPageDetails.queryParameters` | 
+| Web page ID | `web.webPageDetails.webPageID` | 
+| User agent | `environment.browserDetails.userAgent` |
+| Referrer URL | `web.webReferrer.URL` |
+
++++
+
+### Form filled out
+
+This event tracks when a person filled out a form on a web page.
+
+Event type: `web.formFilledOut`
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Web form source ID | `web.fillOutForm.webFormKey.sourceID` |
+| Web form source type | `web.fillOutForm.webFormKey.sourceType` |
+| Web form source instance ID | `web.fillOutForm.webFormKey.sourceInstanceID` |
+| Web form source key | `web.fillOutForm.webFormKey.sourceKey` |
+| Web form ID | `web.fillOutForm.webFormID` |
+| Web form name | `web.fillOutForm.webFormName` |
+| Web page query parameters | `web.webPageDetails.queryParameters` | 
+| Web page ID | `web.webPageDetails.webPageID` | 
+| User agent | `environment.browserDetails.userAgent` |
+| Referrer URL | `web.webReferrer.URL` |
+
++++
+
+### Web link clicked
+
+The event signals that the Web SDK automatically recorded a link click.
+
+Event type: `web.webinteraction.linkClicks`
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` | 
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Web interaction source ID | `web.webInteraction.webInteractionKey.sourceID` |
+| Web interaction source type | `web.webInteraction.webInteractionKey.sourceType` | 
+| Web interaction source instance ID | `web.webInteraction.webInteractionKey.sourceInstanceID`|
+| Web interaction source key | `web.webInteraction.webInteractionKey.sourceKey` | 
+| Web interaction link ID | `web.webInteraction.linkID` | 
+| Web interaction link URL | `web.webInteraction.linkURL` |
+| Web page query parameters | `web.webPageDetails.queryParameters` | 
+| Web page ID | `web.webPageDetails.webPageID` | 
+| User agent | `environment.browserDetails.userAgent` |
+| Referrer URL | `web.webReferrer.URL` |
+
++++
+
+### Interesting moment
+
+This event tracks when an interesting moment was recorded for a person.
+
+Event type: `leadOperation.interestingMoment `
+
++++Fields
+
+| Field | Field type |
+| ----- | ---------- |
+| Identifier | `_id` |
+| Event type | `eventType` |
+| Timestamp  | `timestamp` | 
+| Person ID  | `personID` |
+| Person source ID | `personKey.sourceID` |
+| Person source type | `personKey.sourceType` |
+| Person source instance ID | `personKey.sourceInstanceID` |
+| Person source Key | `personKey.sourceKey)` |
+| Moment date  | `leadOperation.interestingMoment.date` | 
+| Moment description | `leadOperation.interestingMoment.description` |
+| Moment source | `leadOperation.interestingMoment.source` |
+| Moment type | `leadOperation.interestingMoment.type` |
+| Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
 
 <!-- ## Overview video
 
