@@ -142,7 +142,7 @@ Event type: `directMarketing.emailSent`
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Email source ID | `directMarketing.emailSent.mailingKey.sourceID` |
 | Email source type | `directMarketing.emailSent.mailingKey.sourceType` |
 | Email source instance ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
@@ -170,7 +170,7 @@ Event type: `directMarketing.emailDelivered `
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Mailing source ID | `directMarketing.mailingKey.sourceID` | 
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
@@ -198,7 +198,7 @@ Event type: `directMarketing.emailOpened`
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Mailing source ID | `directMarketing.mailingKey.sourceID` | 
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
@@ -263,7 +263,7 @@ Event type: `directMarketing.emailBounced`
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Mailing source ID | `directMarketing.mailingKey.sourceID` | 
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
@@ -294,7 +294,7 @@ Event type: `directMarketing.emailBouncedSoft`
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Mailing source ID | `directMarketing.mailingKey.sourceID` | 
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
@@ -353,7 +353,7 @@ Event type: `web.webpagedetails.pageViews`
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Web page source ID | `web.webPageDetails.webPageKey.sourceID` |
 | Web page source type | `web.webPageDetails.webPageKey.sourceType` | 
 | Web page source instance ID | `web.webPageDetails.webPageKey.sourceInstanceID` | 
@@ -384,7 +384,7 @@ Event type: `web.formFilledOut`
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Web form source ID | `web.fillOutForm.webFormKey.sourceID` |
 | Web form source type | `web.fillOutForm.webFormKey.sourceType` |
 | Web form source instance ID | `web.fillOutForm.webFormKey.sourceInstanceID` |
@@ -415,7 +415,7 @@ Event type: `web.webinteraction.linkClicks`
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Web interaction source ID | `web.webInteraction.webInteractionKey.sourceID` |
 | Web interaction source type | `web.webInteraction.webInteractionKey.sourceType` | 
 | Web interaction source instance ID | `web.webInteraction.webInteractionKey.sourceInstanceID`|
@@ -446,7 +446,7 @@ Event type: `leadOperation.interestingMoment `
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Moment date  | `leadOperation.interestingMoment.date` | 
 | Moment description | `leadOperation.interestingMoment.description` |
 | Moment source | `leadOperation.interestingMoment.source` |
