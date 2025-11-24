@@ -45,7 +45,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [SMS authoring](./content/sms-authoring.md)
 + Audiences {#audiences}
     + [Experience Platform audiences](./audiences/account-audience-overview.md)
-    + [Target external audiences](./audiences/target-integration.md)
+    + [Target external audiences](./audiences/target-external-audience.md)
     + [LinkedIn Account Matched audiences](./data/linkedin-account-matched-audiences.md)
 + Accounts {#accounts}
     + Buying groups {#buying-groups}
