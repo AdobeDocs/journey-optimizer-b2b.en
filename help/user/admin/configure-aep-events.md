@@ -230,7 +230,7 @@ Event type: `directMarketing.emailClicked`
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
-| Person source Key | `personKey.sourceKey)` |
+| Person source Key | `personKey.sourceKey` |
 | Mailing source ID | `directMarketing.mailingKey.sourceID` | 
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
