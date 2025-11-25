@@ -127,11 +127,11 @@ Use this action to push people to an external audience that can be activated acr
 When you select this people-based action, you can create a new external audience or select from the list of existing external audiences. 
 
 * For existing audiences, you can choose from external customer audiences that were created in [!DNL Journey Optimizer B2B Edition] only.
-* When you create an audience and use it for this journey action, make sure that you connect the destination. For more information, see [Create a new destination connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} and [Activation overview](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in the Experience Platform documentation.
+* When you create an audience and use it for this journey action, make sure that you connect the destination. For more information, see [Create a new destination connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} and [Activation overview](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in the [!DNL Experience Platform] documentation.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch a video overview for paid media orchestration](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
-Starting with the 2025.10 release<!-- and with the simplified architecture-->, you can also orchestrate through external audiences created in Experience Platform, such as Adobe Target destinations. For more detailed information about this audience integration, see [Adobe Target external audiences](../audiences/target-integration.md).
+Starting with the 2025.10 release, you can also orchestrate through external audiences created in [!DNL Experience Platform], such as [!DNL Adobe Target] destinations. For more detailed information about this audience integration, see [Adobe Target external audiences](../audiences/target-external-audience.md).
 
 _To create an external audience:_
 
