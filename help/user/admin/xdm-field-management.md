@@ -83,10 +83,12 @@ When you choose **[!UICONTROL Managed fields]**, the _Select fields_ dialog list
 
 #### Updatable fields
 
-When you choose **[!UICONTROL Updatable fields]**, the _Select fields_ dialog allows you to choose fields from other data sources.
+Before configuring updatable fields, they must reside in a custom dataset. See [Create datasets and ingest data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#), and use the **[!UICONTROL Create dataset from schema]** option. This dataset is used to isolate updatable fields. All updatable fields must be in this dataset.
 
-1. For **[!UICONTROL Datasets]**, select the data source that you want to configure.
-1. Edit the fields from the selected dataset.
+Create a dataset for Individual Profile, and one for Business Account. Select this new dataset during the configuration process below.
+
+1. For **[!UICONTROL Datasets]**, select the new data source that you created.
+1. Choose the fields from the selected dataset.
 
    ![Dialog for selecting updatable fields from datasets in XDM schema configuration](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
