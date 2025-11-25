@@ -1,48 +1,21 @@
 ---
-title: Adobe Target External Audiences
-description: Activate external audiences to Adobe Target through account journeys. Personalize B2B web experiences and maintain cross-platform consistency.
+title: "[!DNL Adobe Target] External Audiences"
+description: "Activate external audiences to [!DNL Adobe Target] through account journeys. Personalize B2B web experiences and maintain cross-platform consistency."
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 ---
-# Adobe Target external audiences
+# [!DNL Adobe Target] external audiences
 
 You can activate and personalize experiences for external audiences in [!DNL Adobe Target] through account journeys. Use this integration to achieve advanced and tailored personalization that increases engagement, and to maintain cross-platform consistency across [!DNL Target] and [!DNL Journey Optimizer B2B Edition]. This consistency ensures that teams align and personalize web channels for buying groups throughout the entire B2B buyer journey.
 
-## Activate the external audience to Target as a destination
+It is a two-step workflow to activate an external audience through Adobe Target:
 
-Activating the external audience to Adobe Target requires that you have configured [!DNL Adobe Target] as a destination in [!DNL Real-time Customer Data Platform (RTCDP)]. For additional information about this configuration, refer to the [RTCDP documentation](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}.
+1. [Add to external customer audience](#add-to-customer-external-audience-from-a-journey) from a journey.
+2. [Activate the external audience](#activate-the-external-audience-to-target-as-a-destination) to Target as a destination in Experience Platform.
 
->[!IMPORTANT]
->
->Using activation through a journey requires that your implementation of RTCDP uses Email Address as an identity.
+## Add to customer external audience from a journey
 
-The activation process requires that you add [!DNL Adobe Target] as an external audience or external destination. You begin by building a [!DNL Target] audience in the audience builder. You can also create a placeholder audience and add the external audience feature.
-
-1. In Experience Platform, go to **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** in the left navigation.
-
-1. Select the **[!UICONTROL Browse]** tab.
-
-1. Locate the destination connection that you want to use to activate your segments, click the _More menu_ ( **...** ) icon next to the name, and choose **[!UICONTROL Activate audiences]**.
-
-   Enter text in the _[!UICONTROL Search]_ field to filter the displayed destinations for a match by name.
-
-   ![Experience Platform - destinations - browse Target destinations - more menu](./assets/aep-destinations-activate-target-audience.png){width="800" zoomable="yes"}   
-
-1. In the _[!UICONTROL Available audiences]_ list, select your external audience and click **[!UICONTROL Next]**.
-
-   ![Experience Platform - destinations - browse Target destinations - more menu](./assets/aep-destinations-activate-target-audience-available-audiences.png){width="700" zoomable="yes"}   
-
-1. Perform any additional field mapping to the destination (optional) and click **[!UICONTROL Next]**.
-
-1. Review the new audience parameters and click **[!UICONTROL Finish]**.
-
-   ![Experience Platform - destinations - activate destination - review](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}  
-
-Upon activation, you can see the audience in [Adobe Target audiences](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} and use them in Adobe Target activities. 
-
-## Activate a Target audience from a journey
-
-In your journey, you can [add a _Take an action_ node to execute an action](../journeys/action-nodes.md). Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action. The journey executes the action when a qualifying account with person profiles reaches the node.
+In your journey, [add a _Take an action_ node](../journeys/action-nodes.md) to execute the _[!UICONTROL Add to external customer audience]_ action. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action. The journey executes the action when a qualifying account with person profiles reaches the node.
 
 >[!NOTE]
 >
@@ -84,6 +57,39 @@ In your journey, you can [add a _Take an action_ node to execute an action](../j
 
    You can enter text in the _Search_ field to filter the displayed items for a match of the audience name.
 
-   ![Take an action on people - add to external customer audience - add audience dialog](./assets/add-audience-dialog.png){width="650" zoomable="yes"}
+   ![Take an action on people - add to external customer audience - add audience dialog](./assets/add-audience-dialog.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Add audience]**.
+
+## Activate the external audience to Target as a destination
+
+Activating the external audience to Adobe Target requires that you have configured [!DNL Adobe Target] as a destination in [!DNL Real-time Customer Data Platform (RTCDP)]. For additional information about this configuration, refer to the [RTCDP documentation](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}.
+
+>[!IMPORTANT]
+>
+>Using activation through a journey requires that your implementation of RTCDP uses Email Address as an identity.
+
+The activation process requires that you add [!DNL Adobe Target] as an external audience or external destination. You begin by building a [!DNL Target] audience in the audience builder. You can also create a placeholder audience and add the external audience feature.
+
+1. In Experience Platform, go to **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** in the left navigation.
+
+1. Select the **[!UICONTROL Browse]** tab.
+
+1. Locate the destination connection that you want to use to activate your segments, click the _More menu_ ( **...** ) icon next to the name, and choose **[!UICONTROL Activate audiences]**.
+
+   Enter text in the _[!UICONTROL Search]_ field to filter the displayed destinations for a match by name.
+
+   ![Experience Platform - destinations - browse Target destinations - more menu](./assets/aep-destinations-activate-target-audience.png){width="800" zoomable="yes"}   
+
+1. In the _[!UICONTROL Available audiences]_ list, select your external audience and click **[!UICONTROL Next]**.
+
+   ![Experience Platform - destinations - browse Target destinations - more menu](./assets/aep-destinations-activate-target-audience-available-audiences.png){width="700" zoomable="yes"}   
+
+1. Perform any additional field mapping to the destination (optional) and click **[!UICONTROL Next]**.
+
+1. Review the new audience parameters and click **[!UICONTROL Finish]**.
+
+   ![Experience Platform - destinations - activate destination - review](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}  
+
+Upon activation, you can see the audience in [Adobe Target audiences](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} and use them in Adobe Target activities. 
+
