@@ -42,13 +42,15 @@ In [!DNL Journey Optimizer B2B Edition], you can build your dynamic email conten
 
 The personalization editor is available in every context where you need to define personalization in email content. In the editor, you can select, arrange, customize, and validate all the data to create a customized personalization for your content.
 
->[!NOTE]
->
->The following information for the personalization editor reflects the changes that are available for Journey Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
-
 Add personalization in any field or content component by clicking the _Add personalization_ ( ![Add personalization icon](../../assets/do-not-localize/icon-personalization-field.svg) ) icon. 
 
 ![Personalization editor](./assets/personalization-editor.png){width="800" zoomable="yes"}
+
+>[!NOTE]
+>
+>The following information for the personalization editor reflects the changes that are available for [!DNL Journey Optimizer B2B Edition] environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
+
+### Tokens and helper functions
 
 To use a personalization token or helper function, locate it in the left navigation pane and click **+** to add it to the expression.
 
@@ -67,6 +69,18 @@ It is a best practice to validate the expression before you insert it into the c
 ![Personalization editor validated code](./assets/personalization-editor-validated.png){width="500"}
 
 When the expression is complete and free of errors, click **[!UICONTROL Save]**.
+
+### Custom datasets
+
+You can use relational schemas (model-based classes) for email personalization. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. These fields are accessible in the personalization editor. Only custom objects that have a one-to-many (1:M) relationship to Account <!-- (M1.5 Beta) or Person (M1.5 GA) --> are available.
+
+>[!IMPORTANT]
+>
+>Before you use custom objects for scripted personalization, make sure that you review and understand the [Handlebar templating language](https://handlebarsjs.com/guide/), [personalization syntax](./personalization-syntax.md), and the built-in [helper functions](./personalization-helper-functions.md).
+
+When you define personalization using the custom objects, you can access to all variables in script-accessible objects across the **[!UICONTROL Personalization tokens]** (person/lead, account, system, and My Tokens) and the **[!UICONTROL Model-based classes]** (relational schemas). With Model-based classes selected, you can view the fields by clicking the custom object folder. Click **+** for each field that you want to add it to the expression.
+
+![Personalization editor - Model-based classes - add custom object fields](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
 
 <!-- ## Personalization experimentation {#playground}
 
