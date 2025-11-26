@@ -11,7 +11,7 @@ You can activate and personalize experiences for external audiences in [!DNL Ado
 It is a two-step workflow to activate an external audience through Adobe Target:
 
 1. [Add to external customer audience](#add-to-customer-external-audience-from-a-journey) from a journey.
-2. [Activate the external audience](#activate-the-external-audience-to-target-as-a-destination) to Target as a destination in Experience Platform.
+2. [Activate the external audience](#activate-the-external-audience-to-target-as-a-destination) to [!DNL Target] as a destination in Experience Platform.
 
 ## Add to customer external audience from a journey
 
@@ -70,6 +70,15 @@ Activating the external audience to Adobe Target requires that you have configur
 >Using activation through a journey requires that your implementation of RTCDP uses Email Address as an identity.
 
 The activation process requires that you add [!DNL Adobe Target] as an external audience or external destination. You begin by building a [!DNL Target] audience in the audience builder. You can also create a placeholder audience and add the external audience feature.
+
+>[!BEGINSHADEBOX]
+
+![AEP Permissions icon](../../assets/do-not-localize/icon_permissions-outline.svg) These steps require the following permissions for your assigned user role:
+
+* **[!UICONTROL Experience Platform]** - For the _[!UICONTROL Destinations]_ resource: `Activate Destinations`, `Manage and Activate Dataset Destination`, and `View Destination`
+* **[!DNL Target]** - `Approver`
+
+>[!ENDSHADEBOX]
 
 1. In Experience Platform, go to **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** in the left navigation.
 
