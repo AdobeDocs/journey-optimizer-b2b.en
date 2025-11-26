@@ -51,7 +51,7 @@ In your journey, [add a _Take an action_ node](../journeys/action-nodes.md) to e
 
 1. After you choose the **[!UICONTROL Select existing]** option in the node properties, click **[!UICONTROL Select external customer audience]**.
 
-   ![Take an action on people - add to external customer audience - select existing option](./assets/node-add-external-audience-select-existing-option.png){width="400"}
+   ![Take an action on people - add to external customer audience - select existing option](./assets/node-add-external-audience-select-existing-option.png){width="300"}
 
 1. In the _[!UICONTROL Add audience]_ dialog, select the audience that you want to use.
 
