@@ -48,7 +48,7 @@ Add personalization in any field or content component by clicking the _Add perso
 
 >[!NOTE]
 >
->The following information for the personalization editor reflects the changes that are available for [!DNL Journey Optimizer B2B Edition] environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
+>The following information about the personalization editor reflects the changes that are available for [!DNL Journey Optimizer B2B Edition] environments provisioned on the [simplified architecture](../simplified-architecture.md).
 
 ### Tokens and helper functions
 
