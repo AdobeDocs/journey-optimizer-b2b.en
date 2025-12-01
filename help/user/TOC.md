@@ -43,8 +43,11 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Sales alert email](./content/sales-alert-email.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
     + [SMS authoring](./content/sms-authoring.md)
++ Audiences {#audiences}
+    + [Experience Platform audiences](./audiences/account-audience-overview.md)
+    + [Target external audiences](./audiences/target-external-audience.md)
+    + [LinkedIn Account Matched audiences](./data/linkedin-account-matched-audiences.md)
 + Accounts {#accounts}
-    + [Audiences](./audiences/account-audience-overview.md)
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
        + [Solution interests](./buying-groups/solution-interests.md)
@@ -56,7 +59,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Buying group stages](./buying-groups/buying-group-stages.md)
        + [Create buying groups](./buying-groups/buying-groups-create.md)
        + [Export accounts](./audiences/account-list-export.md)
-       + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
        + [Buying group filters in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
        + [In-CRM Insights](./buying-groups/incrm-insights.md)
     + Account lists {#account-lists}    

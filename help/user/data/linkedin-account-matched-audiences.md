@@ -5,9 +5,9 @@ feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 ---
-# LinkedIn Account Matched Audiences
+# LinkedIn Account Matched audiences
 
-Journey Optimizer B2B Edition offers the ability to generate LinkedIn Ad audiences through Account Matched Audiences, and is designed to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. You can also activate an audience from an account journey from a _Take an action_ node.
+[!DNL Journey Optimizer B2B Edition] offers the ability to generate LinkedIn Ad audiences through Account Matched Audiences, and is designed to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. You can also activate an audience from an account journey from a _Take an action_ node.
 
 This feature leverages Experience Platform Destinations to manage some aspects of the integration. There is a limit of ten dataflows.
 
@@ -116,7 +116,17 @@ Starting with the 2025.10 release, use the _Activate to Destination_ action for 
 
 1. With the _Take an action_ node selected in the journey canvas, set the **[!UICONTROL Action on accounts]** to **[!UICONTROL Activate to destination]**.
 
-1. Click **[!UICONTROL Select destination]**.
+   ![Journey node - take an action on accounts - activate to destination](./assets/node-activate-destination.png){width="550" zoomable="yes"}
+
+1. From the node properties on the right, choose the destination.
+
+   * If there are one or more destinations created, you can click **[!UICONTROL Select destination]** to choose an existing destination.
+
+   * If there are no existing destinations, or you want to create a new destination, click **[!UICONTROL Set up destination]**.
+
+     ![Journey node - take an action on accounts - activate to destination - set up destination](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
+
+     This action opens the the Destinations catalog page in a new browser tab.
 
    ![Journey node - take an action on accounts - activate to destination](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
