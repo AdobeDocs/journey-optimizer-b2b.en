@@ -5,15 +5,19 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
 
+[!DNL Adobe Journey Optimizer B2B Edition] is a first-of-its-kind application that lets marketing and sales teams orchestrate account-based experiences and qualify buying groups for specific products across the entire customer lifecycle. It uses AI to engage and qualify buying groups within target accounts, helping your teams to generate a higher quality pipeline, design better acquisition, expansion, and retention strategies. It also enables shared insights across sales and marketing teams. 
+
+This documentation provides information for mastering the application. It is designed for marketers, business development representatives, data analysts, and operational administrators.
+
 ## What's new
 
-Here is a sampling of the latest additions and enhancements in the [!DNL Journey Optimizer B2B Edition] application and documentation. 
+Review this sampling of the latest additions and enhancements in the [!DNL Journey Optimizer B2B Edition] application and documentation. 
 
 >[!BEGINTABS]
 
 >[!TAB AI agents]
 
-With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, the AI Assitant interface can automatically call upon specialized agents to get you the right answers and insights. Agent Orchestrator remembers your conversation history, enabling you to build on previous questions naturally without repeating context, and combines insights from multiple agents to present you with clear, unified responses. In the [!DNL Journey Optimizer B2B Edition] context, there are three purpose-built agents for specific B2B tasks and domains:
+With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, the AI Assistant interface can automatically call upon specialized agents to get you the right answers and insights. Agent Orchestrator remembers your conversation history, enabling you to build on previous questions naturally without repeating context, and combines insights from multiple agents to present you with clear, unified responses. In the [!DNL Journey Optimizer B2B Edition] context, there are three purpose-built agents for specific B2B tasks and domains:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Build Agent B2B](./agents/journey-agent.md)
@@ -39,7 +43,7 @@ Sales team members can now view maturing buying groups and related insights with
 
 >[!TAB Email content collaboration]
 
-The email design space includes collaboration tools for commenting and resolution so that marketing teams can seamlessly review, discuss, and finalize email assets directly within [!DNL Journey Optimizer B2B Edition]. Instead of sharing drafts over external tools (like chat, email threads, or spreadsheets), users can comment, suggest edits, and resolve feedback within the email design space. You can tag your team members so that they receive an email or pulse notification with the details of the comment. 
+The email design space includes collaboration tools for feedback and resolution so that marketing teams can seamlessly review, discuss, and finalize email assets directly within [!DNL Journey Optimizer B2B Edition]. Instead of sharing drafts over external tools (like chat, email threads, or spreadsheets), users can comment, suggest edits, and resolve feedback within the email design space. You can tag your team members so that they receive an email or pulse notification with the details of the comment. 
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Learn about email content collaboration tools"}
 
