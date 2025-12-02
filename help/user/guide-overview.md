@@ -7,9 +7,35 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 
 ## What's new
 
-Here is a sampling of the latest additions and enhancements in the Journey Optimizer B2B Edition application and documentation. 
+Here is a sampling of the latest additions and enhancements in the [!DNL Journey Optimizer B2B Edition] application and documentation. 
 
 >[!BEGINTABS]
+
+>[!TAB AI agents]
+
+With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, the AI Assitant interface can automatically call upon specialized agents to get you the right answers and insights. Agent Orchestrator remembers your conversation history, enabling you to build on previous questions naturally without repeating context, and combines insights from multiple agents to present you with clear, unified responses. In the [!DNL Journey Optimizer B2B Edition] context, there are three purpose-built agents for specific B2B tasks and domains:
+
+* [Audience Agent B2B](./agents/audience-agent-b2b.md)
+* [Journey Build Agent B2B](./agents/journey-agent.md)
+* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB Brand themes]
+
+With themes, non-technical designers have the ability to create reusable email content design guidelines that align to a specific brand and styling. Themes empower marketers to leverage visually appealing, brand-consistent emails faster and with less effort, and provide advanced customization options for unique design needs.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Learn about brand themes"}
+
+>[!TAB Persona mapping]
+
+Marketers can define detailed profiles, including background, responsibilities, pain points, and preferred communication channels. With these definitions, administrators can configure personas according to person attributes in [!DNL Journey Optimizer B2B Edition] so that roles templates can use streamlined and consistent role conditions that capture these personas.
+
+[!BADGE Learn more]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Learn about persona mapping"}
+
+>[!TAB In-CRM Sales Insights]
+
+Sales team members can now view maturing buying groups and related insights within a Salesforce or Dynamics integration to identify new opportunities. The buying group details like stage, score, and related members are included.
+
+[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Learn about In-CRM Sales Insights"}
 
 >[!TAB Email content collaboration]
 
@@ -28,30 +54,6 @@ The email design space now includes _dark mode_ preview and settings. Dark mode 
 B2B marketers can now use a person-level engagement scores as a filter in their split paths for a journey or in a roles template to create buying groups. This score and filtering enables precise targeting of buying groups members to personalize ongoing engagement.
 
 [!BADGE Learn more]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Learn about person engagement scores and filtering"}
-
->[!TAB Custom buying group roles]
-
-B2B marketing strategists can now expand buying group precision with custom buying group roles. Create up to 20 custom roles beyond the default six, and reuse them across buying groups. Within account journeys, tailor messaging to match your unique roles and improve relevance and engagement across buying groups.​
-
-[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Learn about custom buying group roles"}
-
->[!TAB Custom engagement score weighting]
-
-Assign custom weights to engagement activities so that engagement scores reflect your highest value activities. By emphasizing high-intent signals, your team can better identify and prioritize accounts with the strongest buying potential.
-
-[!BADGE Learn more]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Learn about custom engagement score weighting"}
-
->[!TAB Custom CSS support]
-
-You can now add your own custom CSS when you are authoring email and landing page content in the design space.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Learn about using custom CSS"}
-
->[!TAB Intent keyword mapping]
-
- To activate and manage the Intent Detection model, you can now upload a spreadsheet to define an intent data mapping category.
-
-[!BADGE Learn more]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Learn about Intent keyword mapping configuration"}
 
 >[!ENDTABS]
 
@@ -117,11 +119,11 @@ Discover the components of a buying group and understand the basics of building 
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content management"><br/>
-      <strong>Content management</strong><br/><a href="./content/assets-overview.md">Assets overview</a><br/><a href="./content/email-templates.md">Email templates</a><br/><a href="./content/fragments.md">Visual fragments</a><br/><a href="./content/conditional-content.md">Conditional content</a>
+      <strong>Content management</strong><br/><a href="./content/assets-overview.md">Assets overview</a><br/><a href="./content/email-templates.md">Email templates</a><br/><a href="./content/fragments.md">Visual fragments</a><br/><a href="./content/conditional-content.md">Conditional content</a><br/><a href="./content/brand-themes.md">Brand themes</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights and dashboards"><br/>
-      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a>
+      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM Insights</a>
     </td>
 
   </tr>
