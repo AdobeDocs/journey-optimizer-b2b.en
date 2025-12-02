@@ -67,7 +67,7 @@ To select fields from the union schema for standard XDM classes, click the class
 
 >[!NOTE]
 >
->A field must first be _Managed_ before it can be _Updatable_. The _Updatable fields_ that you select must exist in your user-provided schema.
+>A field must first be _Managed_ before it can be _Updatable_. The _Updatable fields_ that you select must exist in your user-provided schema. Your schema may not include required fields, except for those that are system-defined.
 
 #### Managed fields
 
