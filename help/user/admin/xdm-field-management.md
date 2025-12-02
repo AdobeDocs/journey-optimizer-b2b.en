@@ -83,9 +83,9 @@ When you choose **[!UICONTROL Managed fields]**, the _Select fields_ dialog list
 
 #### Updatable fields
 
-Before configuring updatable fields, they must reside in a custom dataset. See [Create datasets and ingest data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#), and use the **[!UICONTROL Create dataset from schema]** option. This dataset is used to isolate updatable fields. All updatable fields must be in this dataset.
+Before you configure updatable fields, they must reside in a custom dataset. For a walkthrough of the custom dataset workflow, see [Create datasets and ingest data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, and use the **[!UICONTROL Create dataset from schema]** option. This dataset is used to isolate updatable fields. All updatable fields must be in this dataset.
 
-Create a dataset for Individual Profile, and one for Business Account. Select this new dataset during the configuration process below.
+Create a dataset for Individual Profile, and another for Business Account. Select each new dataset during the configuration process:
 
 1. For **[!UICONTROL Datasets]**, select the new data source that you created.
 1. Choose the fields from the selected dataset.
