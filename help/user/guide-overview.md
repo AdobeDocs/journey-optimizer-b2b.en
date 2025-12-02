@@ -33,7 +33,7 @@ Marketers can define detailed profiles, including background, responsibilities, 
 
 >[!TAB In-CRM Sales Insights]
 
-Sales team members can now view maturing buying groups and related insights within a Salesforce or Dynamics integration to identify new opportunities. The buying group details like stage, score, and related members are included. [Learn more](../buying-groups/incrm-insights.md)
+Sales team members can now view maturing buying groups and related insights within a Salesforce or Dynamics integration to identify new opportunities. The buying group details like stage, score, and related members are included.
 
 [!BADGE Learn more]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Learn about In-CRM Sales Insights"}
 
