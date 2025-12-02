@@ -17,7 +17,7 @@ Adobe Experience Platform (AEP) schemas typically contain many fields in complex
 Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders should use the procedures on this page.
 
 >[!NOTE]
->[Relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) are available for [!DNL Journey Optimizer B2B Edition] as a limited release. Data Mirror and relational schemas are available to Journey Optimizer Orchestrated campaigns license holders. Relational schemas are also available as a limited release for Customer Journey Analytics users, depending on your license and feature enablement. Contact your Adobe representative for access.
+>[Relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) are available for [!DNL Journey Optimizer B2B Edition] as a limited availability release. Data Mirror and relational schemas are available to Journey Optimizer Orchestrated campaigns license holders. Relational schemas are also available as a limited release for Customer Journey Analytics users, depending on your license and feature enablement. Contact your Adobe representative for access.
 
 ## Access XDM classes
 
@@ -95,6 +95,8 @@ When you choose **[!UICONTROL Updatable fields]**, the _Select fields_ dialog al
 ### Relational schemas
 
 Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities such as purchases, licenses, and event registrations in journey decisions and email personalization. You can select up to 50 schemas and up to 100 fields per schema.
+
+For information about how the selected fields are used for advanced email personalization, see [Content personalization](../content/personalization.md#custom-datasets).
 
 >[!NOTE]
 >
