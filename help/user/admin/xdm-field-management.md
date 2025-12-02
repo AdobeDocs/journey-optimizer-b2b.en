@@ -67,7 +67,7 @@ To select fields from the union schema for standard XDM classes, click the class
 
 >[!NOTE]
 >
->A field must first be _Managed_ before it can be _Updatable_. The _Updatable fields_ that you select must exist in your user-provided schema.
+>A field must first be _Managed_ before it can be _Updatable_. The _Updatable fields_ that you select must exist in your user-provided schema. Your schema may not include required fields, except for those that are system-defined.
 
 #### Managed fields
 
@@ -83,10 +83,12 @@ When you choose **[!UICONTROL Managed fields]**, the _Select fields_ dialog list
 
 #### Updatable fields
 
-When you choose **[!UICONTROL Updatable fields]**, the _Select fields_ dialog allows you to choose fields from other data sources.
+Before you configure updatable fields, they must reside in a custom dataset. For a walkthrough of the custom dataset workflow, see [Create datasets and ingest data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, and use the **[!UICONTROL Create dataset from schema]** option. This dataset is used to isolate updatable fields. All updatable fields must be in this dataset.
 
-1. For **[!UICONTROL Datasets]**, select the data source that you want to configure.
-1. Edit the fields from the selected dataset.
+Create a dataset for Individual Profile, and another for Business Account. Select each new dataset during the configuration process:
+
+1. For **[!UICONTROL Datasets]**, select the new data source that you created.
+1. Choose the fields from the selected dataset.
 
    ![Dialog for selecting updatable fields from datasets in XDM schema configuration](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
