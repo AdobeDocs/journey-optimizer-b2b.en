@@ -13,7 +13,7 @@ Here is a sampling of the latest additions and enhancements in the [!DNL Journey
 
 >[!TAB AI agents]
 
-With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, the AI Assitant interface can automatically call upon specialized agents to get you the right answers and insights. Agent Orchestrator remembers your conversation history, enabling you to build on previous questions naturally without repeating context, and combines insights from multiple agents to present you with clear, unified responses. In the [!DNL Journey Optimizer B2B Edition] context, there arethree purpose-built agents for specific B2B tasks and domains:
+With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, the AI Assitant interface can automatically call upon specialized agents to get you the right answers and insights. Agent Orchestrator remembers your conversation history, enabling you to build on previous questions naturally without repeating context, and combines insights from multiple agents to present you with clear, unified responses. In the [!DNL Journey Optimizer B2B Edition] context, there are three purpose-built agents for specific B2B tasks and domains:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Build Agent B2B](./agents/journey-agent.md)
