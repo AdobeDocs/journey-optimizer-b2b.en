@@ -238,7 +238,7 @@ Within the _[!UICONTROL Special Filters]_ section, there are multiple filters th
 
 ![Split path by people condition for buying group membership](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX "[!DNL Marketo Engage] list membership"]
+>[!BEGINSHADEBOX "Marketo Engage list membership"]
    
 In [!DNL Marketo Engage], _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for [!DNL Marketo Engage] list membership as a condition for your split path by people to help eliminate duplication in journey activities.
       
