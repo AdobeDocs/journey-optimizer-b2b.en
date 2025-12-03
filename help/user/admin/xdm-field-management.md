@@ -3,7 +3,7 @@ title: XDM Field Management
 description: Use XDM field management to control the data that is available to Journey Optimizer B2B Edition.
 feature: Data Management, Integrations
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release on the simplified architecture"
 ---
 
 # XDM field management
@@ -14,10 +14,11 @@ Schemas define fields based on standard XDM classes. Standard XDM classes includ
 
 Adobe Experience Platform (AEP) schemas typically contain many fields in complex hierarchies. Traversing XDM schema trees takes time. XDM field management streamlines field selection by displaying only fields relevant to each journey. Administrators control which fields appear for journey creators. Administrators also set fields to read-only or editable. These actions improve efficiency during journey design.
 
-Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders should use the procedures on this page.
+Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders should use the following steps to configure XDM classes for [!DNL Journey Optimizer B2B Edition].
 
 >[!NOTE]
->[Relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) are available for [!DNL Journey Optimizer B2B Edition] as a limited availability release. Data Mirror and relational schemas are available to Journey Optimizer Orchestrated campaigns license holders. Relational schemas are also available as a limited release for Customer Journey Analytics users, depending on your license and feature enablement. Contact your Adobe representative for access.
+>
+>XDM field management is available for Journey Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../user/simplified-architecture.md).
 
 ## Access XDM classes
 
@@ -98,7 +99,11 @@ Create a dataset for Individual Profile, and another for Business Account. Selec
 
 Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities such as purchases, licenses, and event registrations in journey decisions and email personalization. You can select up to 50 schemas and up to 100 fields per schema.
 
-For information about how the selected fields are used for advanced email personalization, see [Content personalization](../content/personalization.md#custom-datasets).
+For information about how you can use the selected fields for advanced email personalization, see [Content personalization](../content/personalization.md#custom-datasets). For information about how you can use the selected fields for journey decisioning (split paths by account), see [Custom data filtering](../journeys/split-merge-paths-nodes.md#custom-data-filtering). <!-- add link to split path by people in M 1.5 GA release -->
+
+>[!NOTE]
+>
+>The [Relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) are available for [!DNL Journey Optimizer B2B Edition] as a limited availability release. Data Mirror and relational schemas are available to [!DNL Journey Optimizer Orchestrated Campaigns] license holders. Relational schemas are also available as a limited release for [!DNL Customer Journey Analytics] users, depending on your license and feature enablement. Contact your Adobe representative for access.
 
 >[!NOTE]
 >
