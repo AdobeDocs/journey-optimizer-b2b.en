@@ -187,7 +187,11 @@ In the simplified architecture, email settings are configured from the Marketo E
 
 Within the new architecture, Journey Optimizer B2B Edition and Marketo Engage have independent communication limits by default.
 
-If you want the Marketo Engage instance to share the communication limit set in the Journey Optimizer B2B Edition instance, reach out to Adobe Support for assistance in configuration or open a Support ticket. Upon request, the Engineering team can enable the sharing of communication limits between Journey Optimizer B2B Edition and one or more  Marketo Engage instances.
+If you want the Marketo Engage instance to share the communication limit set in the Journey Optimizer B2B Edition instance, contact Adobe Support for assistance in configuration or open a Support ticket. Upon request, the Engineering team can enable the sharing of communication limits between Journey Optimizer B2B Edition and one or more Marketo Engage instances.
+
+When the shared communication limits are enabled, you can define the rules in Journey Optimizer B2B Edition and extend the sharing of these limits to the Marketo Munchkin codes. For more information, see [Communication limits](./admin/configure-channels-emails.md#communication-limits)
+
+<!-- internal info only 
 
 Currently, the shared communication limit in the Marketo Engage instance must be set up through an API call.
 
@@ -201,6 +205,7 @@ The API request should look similar to the following:
 ```
 curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_munchkinId=ABC-123-DEF&featureName=Mktmail%20Config&paramName=ajoB2bMappingMunchkinId&dataType=string&value=JKL-567-MNO'
 ```
+-->
 
 ## SMS channel configuration
 
