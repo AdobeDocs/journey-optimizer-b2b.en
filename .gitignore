@@ -1,3 +1,6 @@
 .DS_Store
 .vscode/settings.json
 .cursor-agents
+.cursor-agents
+.cursor/mcp.json
+.gitmodules
