@@ -18,7 +18,7 @@ Administrators who understand XDM and collaborate with data engineers or B2B cus
 
 >[!NOTE]
 >
->XDM field management is available for Journey Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../user/simplified-architecture.md).
+>XDM field management is available for Journey Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
 
 ## Access XDM classes
 
