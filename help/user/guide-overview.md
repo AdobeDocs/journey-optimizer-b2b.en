@@ -77,6 +77,16 @@ Stay updated with the latest release notes, new features, and improvements in Ad
 :::
 
 :::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Get Started
+
+Review the Journey Optimizer B2B Edition onboarding guidance for administrators and marketers.
+
+[Get Started](./start/get-started.md)
+:::
+
+:::
 ![Configure icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configure Your XDM fields
@@ -84,16 +94,6 @@ Configure Your XDM fields
 Implement the system configurations to activate the XDM schemas and fields that you want to use in Adobe Journey Optimizer B2B Edition.
 
 [View XDM field management](./admin/xdm-field-management.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
-
-Get Started
-
-Learn the basics of Journey Optimizer B2B Edition, including its capabilities, architecture, and user interface.
-
-[Get Started](./rp_landing_pages/get-started-landing-page.md)
 :::
 
 :::
