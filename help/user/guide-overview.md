@@ -61,32 +61,83 @@ B2B marketers can now use a person-level engagement scores as a filter in their 
 
 >[!ENDTABS]
 
-For a full list of new features and improvements, see the [release notes](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
+For a full list of new features and improvements, see the [release notes](../user/release-notes/release-notes.md).
 
-## Start with the basics
+## Start exploring {#section-explore}
 
-<table style="table-layout:fixed">
-  <tr style="border: 0;">
-    <td>
-    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="Product usage launch"></a>
-    <div><strong>Launch from your home page</strong><br/>Learn how to achieve your goals faster in Journey Optimizer B2B Edition with your personalized home page based on your role.</div>
-    </td>
-      <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="Buying groups"></a>
-    <div><strong>Build your first Buying Group</strong><br/>Create your first buying group in Journey Optimizer B2B Edition to automate the process of engaging and qualifying contacts.</div>
-    </td>
-    <td>
-    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Account journeys"></a>
-    <div><strong>Create your first Account Journey</strong><br/>Design and orchestrate personalized account journeys to harmonize marketing outreach with targeted engagement. 
-    </div>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg" alt="Learn more"></a></td>
-    <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg" alt="Learn more"></a></td>
-    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg" alt="Learn more"></a></td>
-    </tr>
-</table>
+:::: landing-cards-container
+:::
+![List icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Latest Release Notes
+
+Stay updated with the latest release notes, new features, and improvements in Adobe Journey Optimizer B2B Edition.
+
+[View Release Notes](./release-notes/release-notes.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Get Started
+
+Review the Journey Optimizer B2B Edition onboarding guidance for administrators and marketers.
+
+[Get Started](./start/get-started.md)
+:::
+
+:::
+![Configure icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Configure Your XDM fields
+
+Implement the system configurations to activate the XDM schemas and fields that you want to use in Adobe Journey Optimizer B2B Edition.
+
+[View XDM field management](./admin/xdm-field-management.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+Communication Channels
+
+Configure and manage email, SMS, and other channels for personalized customer interactions.
+
+[Configure email channel](./admin/configure-channels-emails.md)
+[Configure SMS channel](./admin/configure-channels-sms.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+
+Design Content
+
+Learn how to author and manage content for personalized customer experiences orchestarted through journeys.
+
+[Explore Content Components](./content/content-components.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Create an Account Journey
+
+Design, orchestrate, manage, and optimize personalized account journeys.
+
+[Explore Journeys](./journeys/journey-overview.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+
+Understand Buying Groups
+
+Detailed guidance on creating, managing, and optimizing buying groups for effective targeting.
+
+[Learn about buying groups](./buying-groups/buying-groups-overview.md)
+:::
+
+::::
 
 ## Overview demo
 
@@ -94,7 +145,7 @@ Discover the components of a buying group and understand the basics of building 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12) 
 
-## Explore the documentation
+## Dig into the documentation
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
