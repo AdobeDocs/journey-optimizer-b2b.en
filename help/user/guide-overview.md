@@ -61,7 +61,7 @@ B2B marketers can now use a person-level engagement scores as a filter in their 
 
 >[!ENDTABS]
 
-For a full list of new features and improvements, see the [release notes](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
+For a full list of new features and improvements, see the [release notes](../user/release-notes/release-notes.md).
 
 ## Start exploring {#section-explore}
 
@@ -128,7 +128,7 @@ Design, orchestrate, manage, and optimize personalized account journeys.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Understand Buying Groups
 
