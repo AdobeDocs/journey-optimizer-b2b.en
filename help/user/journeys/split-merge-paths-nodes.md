@@ -2,6 +2,7 @@
 title: Split and Merge Paths
 description: Create split and merge path nodes to segment accounts and people with conditional logic, filter by buying groups, and recombine paths in Journey Optimizer B2B Edition.
 feature: Account Journeys
+solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 ---
@@ -35,9 +36,9 @@ _**How a split path by accounts node works**_
 
 | Path conditions | Description |
 | --------------- | ----------- |
-| Account Attributes | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State |
+| Account Attributes | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State <li>Has `<relational schema>` (See [Custom data filtering](#custom-data-filtering))|
 | [!UICONTROL Special filters] > [!UICONTROL Account has matched buying group] | The account is matched with one or more buying groups. It can be evaluated against one or more of the following constraints for a matched buying group: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score <li> Number of people in buying group role |
-[!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. It can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score |
+| [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. It can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score |
 
 >[!NOTE]
 >
@@ -49,13 +50,13 @@ _**How a split path by accounts node works**_
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Split paths]**.
 
-   ![Add journey node - split paths](./assets/add-node-split.png){width="300"}
+   ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"}
 
 1. In the node properties on the right, choose **[!UICONTROL Accounts]** for the split.
 
 1. To define a condition applicable to _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
 
-   ![Split path node - add condition](./assets/node-split-properties-apply-condition.png){width="500"}
+   ![Split path node - add condition](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
 1. In the conditions editor, add one or more filters to define the split path.
 
@@ -91,7 +92,7 @@ For example, you might want to evaluate buying group readiness based on the dept
 
 1. Click **[!UICONTROL Add filter]** and choose the **[!UICONTROL Number of people in buying group role]** filter.
 
-   ![Add filter for Account has matched buying grou and choose Number of people in buying group role](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
+   ![Add filter for Account has matched buying group and choose Number of people in buying group role](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
 
 1. Define the first role parameter.
 
@@ -110,6 +111,21 @@ For example, you might want to evaluate buying group readiness based on the dept
 1. Click **[!UICONTROL Done]** when you have all conditions defined for the path.
 
 For the identified accounts, you might then want to add an action node in the path to update the status of the buying group or stage, or to send a sales alert email.
+
+### Custom data filtering
+
+[!BADGE Beta]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Available as a beta feature on the simplified architecture"}
+
+You can use relational schemas (model-based classes) to split paths by account. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. The selected schema fields are available in the condition editor for use in split path by account nodes.
+
+![Conditions example for relational schema for offer](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}
+
+<!-- SPHR-23746
+
+Note: These are currently going under Account Attributes folder, which is a bug (SPHR-21734). This will move to Special filters when resolved (January release).
+
+This will also be available for split paths by people (under special filters) for the M 1.5 GA release.
+-->
 
 ## Split paths by people
 
@@ -132,12 +148,12 @@ _**How a split path by people node works**_
 | [!UICONTROL Activity history] > [!UICONTROL Email] | Email activities based on conditions that are evaluated using one or more selected email messages from earlier in the journey: <li>[!UICONTROL Clicked link in email] <li>Opened email <li>Was delivered email <li>Was sent email <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).|
 | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities based on conditions that are evaluated using one or more selected SMS messages from earlier in the journey: <li>[!UICONTROL Clicked link in SMS] <li>[!UICONTROL SMS Bounced] <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). |
 | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value<li>Previous value<li>Reason<li>Source<li>Date of activity<li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change).|
-| [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone<li>Email<li>Web <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).|
-| [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Web page activity that for one or more web pages managed by the associated Marketo Engage instance. Constraints include: <li>Web page (required)<li>Date of activity<li>Client IP address <li>Querystring <li>Referrer <li>User agent <li>Search engine <li>Search query <li>Personalized URL <li>Token <li>Browser <li>Platform <li>Device <li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page).   |
+| [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated [!DNL Marketo Engage] instance. Constraints include: <li>Milestone<li>Email<li>Web <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).|
+| [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Web page activity that for one or more web pages managed by the associated [!DNL Marketo Engage] instance. Constraints include: <li>Web page (required)<li>Date of activity<li>Client IP address <li>Querystring <li>Referrer <li>User agent <li>Search engine <li>Search query <li>Personalized URL <li>Token <li>Browser <li>Platform <li>Device <li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page).   |
 | [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Role</li>|
-| [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more Marketo Engage programs. |
+| [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more [!DNL Marketo Engage] lists. |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more [!DNL Marketo Engage] programs. |
 
 ### Account-person path conditions
 
@@ -155,7 +171,7 @@ _**How a split path by people node works**_
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Split paths]**.
 
-   ![Add journey node - split paths](./assets/add-node-split.png){width="300"}
+   ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"}
 
 1. In the node properties on the right, choose **[!UICONTROL People]** for the split.
 
@@ -194,7 +210,7 @@ _**How a split path by people node works**_
 
 1. Enable the **[!UICONTROL Other people]** option to add a default path for people that are not a match for the defined paths. 
 
-   When this option is not enabled, people that do not match a defined segmant/path move past the split and proceed to the next step in the journey.
+   When this option is not enabled, people that do not match a defined segment/path move past the split and proceed to the next step in the journey.
 
    When you have conditions defined for each path for splitting your audience on the people level, you can add actions that you want to take on people.
 
@@ -205,12 +221,12 @@ For a split path by people, you can define a path according to the person's acti
 * Email messages from earlier in the journey
 * SMS messages from earlier in the journey
 * Change in data value in the person profile
-* An interesting moment (tracked in Marketo Engage) associated with an email, web page, or milestone
-* Visit to a web page tracked in Marketo Engage
+* An interesting moment (tracked in [!DNL Marketo Engage]) associated with an email, web page, or milestone
+* Visit to a web page (tracked in [!DNL Marketo Engage])
 
 >[!BEGINSHADEBOX "Inactivity filtering"]
 
-For each of the _[!UICONTROL Activity history]_ filters, you can enable the **[!UICONTROL Switch to inactivity filter]** option. This option changes the filter to an evaluation for an absence of that activity type. For example, if you want to create a path for people who _**did not**_ open an email from earlier in the journey, add the _[!UICONTROL Email]_ > _[!UICONTROL Opened email]_ filter. Enable the inactivity option and specify the email. It is a best practice to use the _[!UICONTROL Date of activity]_ constraint to define a time period for the inactivity.
+For each of the _[!UICONTROL Activity history]_ filters, you can enable the **[!UICONTROL Switch to inactivity filter]** option. This option changes the filter to an evaluation for an absence of that activity type. For example, add the _[!UICONTROL Email]_ > _[!UICONTROL Opened email]_ filter to create a path for people who _**did not**_ open an email from earlier in the journey. Enable the inactivity option and specify the email. It is a best practice to use the _[!UICONTROL Date of activity]_ constraint to define a time period for the inactivity.
 
 ![Split path by people condition for buying group membership](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -218,17 +234,17 @@ For each of the _[!UICONTROL Activity history]_ filters, you can enable the **[!
 
 ### Membership filtering
 
-Within the _[!UICONTROL Special Filters]_ section, there are multiple filters that you can use to evaluate a person's membership in a buying group or Marketo Engage list. For example, if you want to create a path for people who are members of a buying group and are assigned a particular role, add the _[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_ filter. For the filter, set the membership as _true_, select a _[!UICONTROL Solution interest]_ that is associated with one or more buying groups, and set the _[!UICONTROL Role]_ that you want to match.
+Within the _[!UICONTROL Special Filters]_ section, there are multiple filters that you can use to evaluate a person's membership in a buying group or [!DNL Marketo Engage] list. For example, if you want to create a path for people who are members of a buying group and are assigned a particular role, add the _[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_ filter. For the filter, set the membership as _true_, select a _[!UICONTROL Solution interest]_ that is associated with one or more buying groups, and set the _[!UICONTROL Role]_ that you want to match.
 
 ![Split path by people condition for buying group membership](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX "Marketo Engage list membership"]
    
-In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your split path by people to help eliminate duplication in journey activities.
+In [!DNL Marketo Engage], _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for [!DNL Marketo Engage] list membership as a condition for your split path by people to help eliminate duplication in journey activities.
       
-To use list membership in a split condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space. Complete the filter definition to evaluate membership in one or more Marketo Engage lists.
+To use list membership in a split condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space. Complete the filter definition to evaluate membership in one or more [!DNL Marketo Engage] lists.
    
-![Split path by people condition for Marketo Engage list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Split path by people condition for [!DNL Marketo Engage] list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
    
 >[!ENDSHADEBOX]
 
@@ -248,7 +264,7 @@ Add a _Merge paths_ node to combine different split paths by account in your jou
 
 1. Click the plus ( **+** ) icon for any one of these paths and choose **[!UICONTROL Merge]** from the displayed options.
 
-   ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400"}
+   ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"}
 
 1. In the merge paths node properties, select the paths you want to merge.
 
