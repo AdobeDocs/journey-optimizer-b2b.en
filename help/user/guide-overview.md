@@ -61,12 +61,9 @@ B2B marketers can now use a person-level engagement scores as a filter in their 
 
 >[!ENDTABS]
 
-For a full list of new features and improvements, see the [release notes](../user/release-notes/release-notes.md).
-
 ## Start exploring {#section-explore}
 
 :::: landing-cards-container
-
 :::
 ![List icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
