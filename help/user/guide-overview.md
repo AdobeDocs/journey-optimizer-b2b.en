@@ -66,6 +66,7 @@ For a full list of new features and improvements, see the [release notes](../use
 ## Start exploring {#section-explore}
 
 :::: landing-cards-container
+
 :::
 ![List icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
@@ -108,16 +109,6 @@ Configure and manage email, SMS, and other channels for personalized customer in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
-
-Design Content
-
-Learn how to author and manage content for personalized customer experiences orchestarted through journeys.
-
-[Explore Content Components](./content/content-components.md)
-:::
-
-:::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Create an Account Journey
@@ -138,6 +129,18 @@ Detailed guidance on creating, managing, and optimizing buying groups for effect
 :::
 
 ::::
+
+<!-- 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+
+Design Content
+
+Learn how to author and manage content for personalized customer experiences orchestarted through journeys.
+
+[Explore Content Components](./content/content-components.md)
+::: 
+-->
 
 ## Overview demo
 
