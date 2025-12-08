@@ -41,6 +41,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Dark mode for email design](./content/email-dark-mode.md)
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
+       + [Email deduplication](./content/email-deduplication.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
     + [SMS authoring](./content/sms-authoring.md)
 + Audiences {#audiences}
