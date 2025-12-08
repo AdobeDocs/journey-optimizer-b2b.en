@@ -14,6 +14,12 @@ role: User
 Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). Sales Qualifier automates prospect qualification, outreach, and buyer engagement workflows across channels. It reduces manual BDR load and accelerates pipeline velocity for Enterprise B2B companies.
 Use the browser and email plugins to access business intelligence directly within CRMs or Outlook.
 
+## Demonstration video
+
+The following video provides a short demonstration of the Sales Qualifier and Account Qualification Agent.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
+
 Sales Qualifier is included with [!UICONTROL Journey Optimizer B2B Edition], but it is a separate app within the Exprerience Platform Experience Cloud.
 
 ![Sales Qualifier dashboard automating BDR prospect qualification and outreach for enterprise B2B](assets/home-screen.png)
@@ -212,9 +218,3 @@ When the plugin is installed in Chrome, the Adobe logo appears on the middle rig
 ## Edit the left navigation bar
 
 At the bottom left of the application, click **[!UICONTROL Edit]** to control which of the icons are visible in the navigation. You can also drag and drop them to reorder as you want.
-
-## Demonstration video
-
-The following video provides a short demonstration of the Sales Qualifier and Account Qualification Agent.
-
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
