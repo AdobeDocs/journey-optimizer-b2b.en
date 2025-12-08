@@ -32,7 +32,7 @@ Use an action on accounts when you want to apply a change to all people that are
 
 >[!NOTE]
 >
->The _[!UICONTROL Account Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced by _[!UICONTROL Update account profile]_ for the [simplified architecture](../simplified-architecture.md).<br/>
+>The _[!UICONTROL Account Change Data Value]_ action is deprecated for the 2025.10 release. _[!UICONTROL Update account profile]_ replaces this action for the [simplified architecture](../simplified-architecture.md).<br/>
 >
 >An administrator can configure the available attributes for the XDM Business Account by updating the fields in the _[!UICONTROL XDM Classes]_ > _[!UICONTROL Standard classes]_. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 
@@ -93,7 +93,7 @@ Use an action on people when you want to apply a change to all people on the nod
 | | [!UICONTROL Change Score] | Score name<br/>Change in score|
 | | [!UICONTROL Person Interesting Moment] | Type<br/>Description |
 | | [!UICONTROL Remove from Buying Group] | Select solution interest |
-| | [!UICONTROL Send email] | Create new email<br/>Select email from Marketo Engage |
+| | [!UICONTROL Send email] | Create email |
 | | [!UICONTROL Send SMS] | Create SMS |
 | | [!UICONTROL Update person profile] | Select person attribute<br/>Set new value |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to Marketo Engage Request campaign] | Select Marketo Engage workspace<br/>Select Request campaign |
@@ -209,6 +209,10 @@ Use this action to send an email. After you [create the email](../content/add-em
 
 ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
+>[!NOTE]
+>
+>You can use email deduplication in account journeys to ensure that the same email is not sent multiple times to the same email address within a journey. For more information, see [Email deduplication](../content/email-deduplication.md).
+
 +++
 
 +++[!UICONTROL Send SMS]
@@ -227,7 +231,7 @@ Use this action to change the value of a [people profile attribute](../admin/fie
 
 >[!NOTE]
 >
->The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action on the [simplified architecture](../simplified-architecture.md).<br/>
+>The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action within the [simplified architecture](../simplified-architecture.md).<br/>
 >
 >An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Classes]_ > [!UICONTROL Standard classes]. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 
