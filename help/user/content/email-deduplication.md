@@ -1,7 +1,7 @@
 ---
 title: Email Deduplication
 description: Learn how to use email deduplication in account journeys to prevent the same email from being sent multiple times to the same email address.
-feature: Account Journeys, Email
+feature: Account Journeys, Channels
 topic: Content Management
 role: User
 level: Beginner, Intermediate
