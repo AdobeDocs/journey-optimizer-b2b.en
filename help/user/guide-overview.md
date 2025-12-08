@@ -65,7 +65,6 @@ B2B marketers can now use a person-level engagement scores as a filter in their 
 
 :::: landing-cards-container
 :::
-![List icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Latest Release Notes
 
@@ -85,7 +84,6 @@ Review the Journey Optimizer B2B Edition onboarding guidance for administrators 
 :::
 
 :::
-![Configure icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configure Your XDM fields
 
