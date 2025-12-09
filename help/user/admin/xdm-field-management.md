@@ -89,8 +89,8 @@ Before you configure updatable fields, they must reside in a custom dataset. For
 >
 >Guardrails for updateable fields:
 >
->* Schemas - The schema must not include any required fields other than system-defined ones, such as `identityMap` or `personID`, on the XDM Individual Profile class.
->* Datasets - Do not select a dataset that is already in use for another purpose. As a best practice, create dedicated datasets specifically for storing updatable fields. Use a separate dataset for each XDM class.
+>* Schemas - On the XDM Individual Profile class, any required fields in the schema must be system-defined, such as `identityMap` or `personID`.
+>* Datasets - Do not use a dataset that is already in use for another purpose. As a best practice, create dedicated datasets specifically for storing updatable fields. Use a separate dataset for each XDM class.
 
 Create a dataset for Individual Profile, and another for Business Account. Select each new dataset during the configuration process:
 
