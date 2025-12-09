@@ -8,7 +8,7 @@ badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in
 
 # XDM field management
 
-Experience Data Model (XDM) fields are schema elements that provide data to the [!DNL Journey Optimizer B2B Edition] application. Use XDM fields as filters and constraints in journeys, buying groups, and features, such as email personalization and conditional content.
+Experience Data Model (XDM) fields are schema elements that provide data to the [!DNL Journey Optimizer B2B Edition] application. Use XDM fields as filters and constraints in journey nodes, buying groups, and for content features, such as email personalization and conditional content.
 
 Schemas define fields based on standard XDM classes. Standard XDM classes include Individual Profile, Business Account, and Experience Event. Relational schemas also define fields that allow you to model structured data similarly to traditional relational databases.
 
@@ -68,7 +68,7 @@ To select fields from the union schema for standard XDM classes, click the class
 
 >[!NOTE]
 >
->A field must first be _Managed_ before it can be _Updatable_. The _Updatable fields_ that you select must exist in your user-provided schema. Your schema may not include required fields, except for those that are system-defined.
+>A field must first be _Managed_ before it can be _Updatable_. The _Updatable fields_ that you select must exist in your user-provided schema. Your schema may not include required fields, except for system-defined fields.
 
 #### Managed fields
 
@@ -86,9 +86,17 @@ When you choose **[!UICONTROL Managed fields]**, the _Select fields_ dialog list
 
 Before you configure updatable fields, they must reside in a custom dataset. For a walkthrough of the custom dataset workflow, see [Create datasets and ingest data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, and use the **[!UICONTROL Create dataset from schema]** option. This dataset is used to isolate updatable fields. All updatable fields must be in this dataset.
 
+>[!IMPORTANT]
+>
+>Guardrails for updateable fields:
+>
+>* Schemas - On the XDM Individual Profile class, any required fields in the schema must be system-defined, such as `identityMap` or `personID`.
+>* Datasets - Do not use a dataset that is already in use for another purpose. As a best practice, create dedicated datasets specifically for storing updatable fields. Use a separate dataset for each XDM class.
+
 Create a dataset for Individual Profile, and another for Business Account. Select each new dataset during the configuration process:
 
 1. For **[!UICONTROL Datasets]**, select the new data source that you created.
+
 1. Choose the fields from the selected dataset.
 
    ![Dialog for selecting updatable fields from datasets in XDM schema configuration](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}

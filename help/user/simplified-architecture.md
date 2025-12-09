@@ -94,13 +94,18 @@ Choose which fields can be modified through **[!UICONTROL Update Account Profile
 
    These schemas and datasets are provided by your organization.
 
+   Guardrails for updateable fields:
+
+   * Schemas - The schema must not include any required fields other than system-defined ones, such as `identityMap` or `personID`, on the XDM Individual Profile class.
+   * Datasets - Do not select a dataset that is already in use for another purpose. As a best practice, create dedicated datasets specifically for storing updatable fields. Use a separate dataset for each XDM class.
+
 1. Review the list of updatable fields (click the _Information_ icon for metadata). 
 
    Only the managed fields are editable.
 
 1. Select the fields that you want to make available for update from journeys.
 
-1. Click **Save**
+1. Click **[!UICONTROL Save]**
 
 ### Relational schemas
 
