@@ -25,7 +25,7 @@ Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) )
 
 Select as many values for each attribute that you want to use to filter the data and click **[!UICONTROL Apply]**.
 
-## [!UICONTROL Top page views]
+## [!UICONTROL Top page views] {#top-page-views}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_top_page_views"
@@ -43,7 +43,7 @@ This table displays the top 10 most viewed web pages, helping you identify which
 
 ![Top page views table](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
 
-## [!UICONTROL Page views by account region]
+## [!UICONTROL Page views by account region] {#page-views-by-region}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_region"
@@ -57,7 +57,7 @@ This visualization displays visitor counts segmented by the account region. It i
 
 ![Page views by account region](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
 
-## [!UICONTROL Page views by account industry]
+## [!UICONTROL Page views by account industry] {#page-views-by-industry}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_industry"
