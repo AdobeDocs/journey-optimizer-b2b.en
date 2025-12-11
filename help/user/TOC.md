@@ -118,11 +118,12 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/personalization.md)
       + [Personalization syntax](./content/personalization-syntax.md)
       + [Helper functions list](./content/personalization-helper-functions.md)
-+ Insights dashboards {#dashboards}
-    + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
-    + [Engagement Overview](./dashboards/engagement-dashboard.md)
-    + [Buying Groups Overview](./dashboards/buying-groups-dashboard.md)
-    + [Account Journeys Overview](./dashboards/journeys-dashboard.md)
++ Intelligent dashboards {#dashboards}
+    + [Insights dashboard](./dashboards/intelligent-dashboard.md)
+    + [Engagement dashboard](./dashboards/engagement-dashboard.md)
+    + [Web engagement dashboard](./dashboards/web-engagement-dashboard.md)    
+    + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
+    + [Account Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [Governance](./admin/governance.md)
     + [Marketo Actions Configuration](./admin/marketo-actions-connect.md)
