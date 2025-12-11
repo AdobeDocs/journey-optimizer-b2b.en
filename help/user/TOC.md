@@ -54,6 +54,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Solution interests](./buying-groups/solution-interests.md)
        + [Role templates](./buying-groups/buying-groups-role-templates.md)
        + [Default and custom roles](./buying-groups/default-custom-roles.md)
+       + [Role insights](./buying-groups/buying-group-role-insights.md)
        + Buying group scoring {#scoring}
           + [Engagement scores](./buying-groups/engagement-scores.md)
           + [Completeness scores](./buying-groups/completeness-scores.md)
