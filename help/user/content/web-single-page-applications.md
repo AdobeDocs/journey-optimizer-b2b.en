@@ -1,7 +1,7 @@
 ---
 title: Single-Page Applications
 description: Create web experiences for single-page applications (SPAs) - configure view tracking, handle dynamic content, and manage client-side navigation in Journey Optimizer B2B Edition.
-feature: Web Experiences, Content Design Tools
+feature: Channels, Personalization
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 ---

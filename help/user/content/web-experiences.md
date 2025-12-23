@@ -1,7 +1,7 @@
 ---
 title: Web Experiences
 description: Create, design, and publish personalized web experiences for account journeys - deliver targeted content modifications to website visitors in Journey Optimizer B2B Edition.
-feature: Web Experiences, Content
+feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 ---

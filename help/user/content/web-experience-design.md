@@ -1,7 +1,7 @@
 ---
 title: Web Experience Design
 description: Design web experiences with visual and non-visual editors - add modifications, manage content updates, enable click tracking, and personalize content in Journey Optimizer B2B Edition.
-feature: Web Experiences, Content Design Tools
+feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 ---
@@ -132,7 +132,7 @@ For more information about styling options for page elements, see [Content compo
 
 Use the non-visual editor when you need to make modifications that cannot be easily accomplished in the visual editor. This code-based approach gives you precise control over element targeting and modification.
 
-![Non-visual editor interface](./assets/web-experience-non-visual-editor.png){width="800" zoomable="yes"}
+<!-- ![Non-visual editor interface](./assets/web-experience-non-visual-editor.png){width="800" zoomable="yes"} -->
 
 ### Access the non-visual editor
 
@@ -150,7 +150,7 @@ Use the non-visual editor when you need to make modifications that cannot be eas
    | ---- | ----------- |
    | **[!UICONTROL CSS Selector]** | Target elements using a CSS selector string. |
    | **[!UICONTROL Page]** | Apply modifications to page-level elements, such as `<head>` or `<body>`. |
-   
+
    <!-- | **[!UICONTROL Custom code]** | Insert custom HTML, CSS, or JavaScript. | -->
 
 1. Configure the modification parameters:
