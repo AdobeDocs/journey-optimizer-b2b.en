@@ -33,6 +33,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Wait](./journeys/wait-nodes.md)
     + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
+    + [SMS channel](./content/sms-authoring.md)
     + Email channel {#email-channel}
        + [Add an email](./content/add-email.md)
        + [Email authoring](./content/email-authoring.md)
@@ -42,8 +43,11 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
        + [Email deduplication](./content/email-deduplication.md)
+    + Web channel (Beta) {#web-channel}
+      + [Overview](./content/web-experiences.md)
+      + [Web experience design](./content/web-experience-design.md)
+      + [Single-page applications](./content/web-single-page-applications.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
-    + [SMS authoring](./content/sms-authoring.md)
 + Audiences {#audiences}
     + [Experience Platform audiences](./audiences/account-audience-overview.md)
     + [Target external audiences](./audiences/target-external-audience.md)
