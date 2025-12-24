@@ -13,42 +13,37 @@ The [European accessibility act](https://eur-lex.europa.eu/legal-content/EN/TX
 
 This regulation states that all digital communications, including emails, newsletters, PDFs, and downloadable content, should be accessible. When creating content for your recipients, you are therefore required to follow specific guidelines such as using accessible fonts, readable formats, and provide alternative text for images. 
 
-The [!DNL Journey Optimizer B2B Edition] Email Designer, which enables marketers to build content both for **emails** and **landing pages**, allows you to easily comply with this directive, based on Web Content Accessibility Guidelines (WCAG) 2.1, level AA.
+The [!DNL Journey Optimizer B2B Edition] design tools enable marketers to build content both for **emails** and **landing pages**. Use these tools to comply with this directive, based on Web Content Accessibility Guidelines (WCAG) 2.1, level AA.
 
-In line with this, the best practices for designing accessible content with [!DNL Journey Optimizer B2B Edition] are listed below.
-
->[!NOTE]
->
->This page is about making your content accessible to all your recipients, to make sure that people with disabilities can read, understand, and interact with your emails and landing pages designed with [!DNL Journey Optimizer B2B Edition].
->
+The following sections outline the best practices for designing accessible content with [!DNL Journey Optimizer B2B Edition]. This information focuses on designing content that is accessible to all your recipients, so that people with disabilities can read, understand, and interact with your emails and landing pages.
   
 ## Ensure text readability {#text-readability}
 
-Leverage the **[!UICONTROL Styles]** tab of the **[!UICONTROL Text]** component to ensure that your text is readable, such as using a proper color contrast and simple fonts. [Learn more](content-components.md#text)
+Leverage the **[!UICONTROL Styles]** tab of the **[!UICONTROL Text]** component to ensure that your text is readable, such as using a proper color contrast and simple fonts. For more information about text component styling, see [Content components](content-components.md#text)
 
-![](assets/accessible-text-styles.png){width="80%"}
+![Text component Styles tab showing font, size, and color options](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 For fonts and text, make sure you follow the guidelines below: 
 
-**Font selection**
+### Font selection
 
-* Use sans-serif fonts like Arial, Verdana, Tahoma, Helvetica, or Open Sans.
+* Use sans-serif fonts, such as Arial, Verdana, Tahoma, Helvetica, or Open Sans.
 * Avoid serif, cursive, or decorative fonts in body content.
 * Stick to a limited font set for consistency and fallback (for example: `font-family: Arial, Helvetica, sans-serif;`).
 
-**Font sizing**
+### Font sizing
 
 * Ensure a minimum font size of 16px for body text.
-* Use proper hierarchy for headings. 
+* Use a proper hierarchy for headings. 
 
-**Color contrast**
+### Color contrast
 
 * Maintain a contrast ratio of at least 4.5:1 between text and background.
 * For large text (≥24px or bold 18px), ensure at least a 3:1 contrast.
 * Avoid light gray or pastel text on white backgrounds.
 * Do not rely on color alone to convey meaning, but instead use underlines, icons, etc.
 
-**Text accessibility**
+### Text accessibility
 
 * Avoid text in images.
 * Do not use all caps in body text.
@@ -67,11 +62,11 @@ In [!DNL Journey Optimizer B2B Edition], the size and spacing of the different e
 
 For example, you can update the background, or change the margins, padding and alignment to improve the visual accessibility of your content.
 
-![](assets/accessible-styles.png){width="80%"}
+![Styles pane with background, margins, padding, and alignment settings](assets/accessible-styles.png){width="700" zoomable="yes"}
 
-Moreover, the [!DNL Journey Optimizer B2B Edition] Email Designer enables you to preview and optimize design for different devices and screen sizes. At any time you can **[!UICONTROL Switch to live view]** to check how your content might render on various device sizes.
+Moreover, the [!DNL Journey Optimizer B2B Edition] Email Designer enables you to preview and optimize design for different devices and screen sizes. At any time, you can **[!UICONTROL Switch to live view]** to check how your content might render on various device sizes.
 
-![](assets/accessible-live-view.png){width="80%"}
+![Live view toggle showing desktop, tablet, and mobile preview options](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -79,9 +74,9 @@ Moreover, the [!DNL Journey Optimizer B2B Edition] Email Designer enables you to
 
 ## Use alternative text for images {#alt-text}
 
-Use the **[!UICONTROL Image]** component to provide alternative text for images. [Learn more](content-components.md#image)
+Use the **[!UICONTROL Image]** component to provide alternative text for images. For more information about image component settings, see [Content components](content-components.md#image)
 
-![](assets/accessible-alt-text.png){width="90%"}
+![Image component settings panel with Alternative text field highlighted](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 For effective alternative text in digital products, follow the guidelines below:
 
@@ -93,7 +88,7 @@ For effective alternative text in digital products, follow the guidelines below:
 
 Use the Email Designer relevant structure and [content components](content-components.md), as well as the options in the **[!UICONTROL Styles]** pane, to organize your content in a clear, logical and concise way that is accessible to all.
 
-![](assets/accessible-components.png){width="100%"}
+![Email Designer showing structure and content components for organized layouts](assets/accessible-components.png){width="800" zoomable="yes"}
 
 * Use structured, semantic HTML with proper headings, paragraphs, lists, and tables.
 * Ensure that content follows a logical left-to-right, top-to-bottom flow.
@@ -110,7 +105,7 @@ To be readable, your content must be clear, well-structured, and usable by every
 * Use active voice to keep the sentence structure simpler. 
 * Avoid slang, jargon, or regional words that some people might be unfamiliar with.
 
-To evaluate your email readability, you can use the popular [Flesch Reading Ease test](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}, which can be found in Microsoft Word and calculates how easy your content is to read on a scale of 0-100.
+To evaluate your email readability, use the popular [Flesch Reading Ease test](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} in Microsoft Word. It calculates how easy your content is to read on a scale of 0-100.
 
 ## Test your content {#test}
 
@@ -122,7 +117,7 @@ To verify your content's accessibility, you can use the testing capabilities pro
 
 * Send proofs to test the rendering of your content before sending it to your real audience.
 
-![](assets/accessible-simulate.png){width="90%"}
+![Content simulation interface with test profile preview options](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 To check in a more consistent way if your content is reliably accessible, go for specific external tools such as:
 
@@ -132,13 +127,12 @@ To check in a more consistent way if your content is reliably accessible, go for
  
 ## Use dark mode {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
 Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
 
-![](assets/accessible-dark-mode.png){width="90%"}
+![Email preview comparing light mode and dark mode rendering](assets/accessible-dark-mode.png){width="800" zoomable="yes"}
 
-Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
+When designing for dark mode, use transparent PNG or SVG images and set appropriate meta tags and CSS. Provide accessible fallback styling if dark mode is not supported. Finally, test all email content and UI elements in both light and dark modes.
 
 ## Use specific attributes for accessibility {#attributes}
 
@@ -182,7 +176,7 @@ When creating designs, include the `lang` (language) and `dir` (text direction) 
 
     +++
 
-Screen readers rely on the `lang` attribute to apply the correct pronunciation rules, while text direction ensures content flows naturally for left-to-right or right-to-left languages. Without these attributes, users may experience confusing reading order or mispronunciation. Consequently, always wrap your email body with the appropriate `lang` and `dir` attributes.
+Screen readers rely on the `lang` attribute to apply the correct pronunciation rules. Text direction ensures content flows naturally for left-to-right or right-to-left languages. Without these attributes, users may experience confusing reading order or mispronunciation. Consequently, always wrap your email body with the appropriate `lang` and `dir` attributes.
 
 >[!TIP]
 >
@@ -190,7 +184,7 @@ Screen readers rely on the `lang` attribute to apply the correct pronunciation r
 
 ### Tables {#tables}
 
-In HTML contents, tables are often used for layout. By default, screen readers treat every `<table>` as a data table, announcing rows, columns, and structure. This can be confusing if the table is only used for formatting. 
+In HTML contents, tables are often used for layout. By default, screen readers treat every `<table>` as a data table, announcing rows, columns, and structure. This structure can be confusing if the table is only used for formatting. 
 
 Add `role="presentation"` (or `role="none"`) to layout tables to ensure assistive technologies skip their structure and focus only on the actual content.
 
@@ -208,7 +202,7 @@ Add `role="presentation"` (or `role="none"`) to layout tables to ensure assistiv
 ```
 
 The screen readers read: 
-"Hello World. Welcome to our newsletter." *(No mention of rows, columns, or table)*
+"Hello World. Welcome to this newsletter." *(No mention of rows, columns, or table)*
 
 +++
 
@@ -246,11 +240,11 @@ The screen readers read:
 
 ### Text for links {#links}
 
-Screen readers read out links using their text. If a link is labeled only 'Click here' or 'Read more,' users of assistive technologies won't know the destination. To ensure accessibility, they need descriptive text that clearly indicates the target or action.
+Screen readers read out links using their text. If a link is labeled only _Click here_ or _Read more_, users of assistive technologies don't know the destination. To ensure accessibility, they need descriptive text that clearly indicates the target or action.
 
-Use the Email Designer to add a link to your content and edit the label to make it discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.
+Use the Email Designer to add a link to your content and edit the label to make it discernible (visible) and descriptive (clear about purpose). Avoid vague labels like _here_ or _more_.
 
-![](assets/accessible-link.png){width="70%"}
+![Link settings panel showing URL field and descriptive label options](assets/accessible-link.png){width="600" zoomable="yes"}
 
 +++Example – Good link (descriptive): 
 
@@ -282,7 +276,7 @@ The screen readers read:
 
 <!--for landing pages-->
 
-Providing keyboard navigation and focus support allows people who cannot use a mouse to fully access and interact with content. It also improves overall usability by giving all users a clear and consistent way to move through information.
+Providing keyboard navigation and focus support allows people who cannot use a mouse to access and interact with content. It also improves overall usability by giving all users a clear and consistent way to move through information.
 
 * Focus via keyboard
     * Ensure all interactive elements (such as buttons, checkboxes, links) have `tabindex="0"` so they are included in the natural tab order. 
