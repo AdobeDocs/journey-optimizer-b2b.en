@@ -133,8 +133,8 @@ Event type: `directMarketing.emailSent`
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -161,8 +161,8 @@ Event type: `directMarketing.emailDelivered `
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -189,8 +189,8 @@ Event type: `directMarketing.emailOpened`
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -221,8 +221,8 @@ Event type: `directMarketing.emailClicked`
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -254,8 +254,8 @@ Event type: `directMarketing.emailBounced`
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -285,8 +285,8 @@ Event type: `directMarketing.emailBouncedSoft`
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -316,8 +316,8 @@ Event type: `directMarketing.emailUnsubscribed `
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -344,8 +344,8 @@ Event type: `web.webpagedetails.pageViews`
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -375,8 +375,8 @@ Event type: `web.formFilledOut`
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -406,8 +406,8 @@ Event type: `web.webinteraction.linkClicks`
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
@@ -437,8 +437,8 @@ Event type: `leadOperation.interestingMoment `
 
 +++Fields
 
-| Field | Field type |
-| ----- | ---------- |
+| Display name | Path |
+| ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
 | Timestamp  | `timestamp` | 
