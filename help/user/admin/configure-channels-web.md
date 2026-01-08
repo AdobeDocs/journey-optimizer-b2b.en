@@ -6,7 +6,7 @@ role: Admin
 ---
 # Web channel configurations
 
-A web configuration is a web property identified by a URL where the content is delivered. It can match a single page URL or multiple pages, allowing you to deliver modifications across one or several web pages.
+A web configuration is a web property identified by a URL where the content is delivered. It can match a single page URL or multiple pages so that web experiences can deliver modifications across one or several web pages.
 
 ## Create a web channel configuration
 
@@ -40,13 +40,13 @@ As soon as the web channel is used in a journey, it moves to an _Active_ status.
 
 ## Pages matching rules {#pages-matching-rule}
 
-When creating a web configuration, you can build a _[!UICONTROL Pages matching rule]_ to target multiple URLs that match the same rule. These rules allow you to apply the same content changes across multiple pages at once.
+When creating a web configuration, you can build a _[!UICONTROL Pages matching rule]_ to target multiple URLs that match the same rule. These rules allow you to apply the same content changes across multiple pages.
 
 For example, you might want to apply changes to a hero banner across an entire website, or add a top image that is displayed on all product pages.
 
 ### Build a rule
 
-1. When [creating a web channel configuration](#create-a-web-channel-configuration), select **[!UICONTROL Pages matching rule]**.
+1. When you [create a web channel configuration](#create-a-web-channel-configuration), choose **[!UICONTROL Page matching rule]**.
 
 1. Define your criteria for the **[!UICONTROL Domain]** and **[!UICONTROL Page]** fields using the different operators in each section to build the rule.
 
@@ -79,23 +79,25 @@ For example, you might want to apply changes to a hero banner across an entire w
 
    +++
 
-   For example, to support content changes on all the _Cosmos_ solution pages of your _Terra_ website, select **[!UICONTROL Domain]** > **[!UICONTROL Starts with]** > `terra` and **[!UICONTROL Page]** > **[!UICONTROL Contains]** > `cosmos`.
+   For example, to support content changes on all the _LumaSecure_ solution pages of your _Bodea_ website, select **[!UICONTROL Domain]** > **[!UICONTROL Starts with]** > `bodea` and **[!UICONTROL Page]** > **[!UICONTROL Contains]** > `lumasecure`.
 
-   ![Selecting a page URL for a single-page web channel configuration](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
+   ![Defining a pages matching rule for a web channel configuration](./assets/config-web-channel-pages-matching-rules.png){width="600" zoomable="yes"}
 
 1. If your use case requires multiple rules, click **[!UICONTROL Add another page rule]** and repeat the previous step.
 
    * You can define up to 10 rules.
 
-   * You can use the **[!UICONTROL Or]** or **[!UICONTROL Exclude]** operators between the different rules.
+   * Use the **[!UICONTROL Or]** or **[!UICONTROL Exclude]** operators between the different rules.
 
-     **[!UICONTROL Exclude]** is useful when one of the pages that match the defined rule should not be targeted. For example, you can target all `terra.com` pages that contain `solution`, excluding the following page: `https://terra.com/blogs/solutioninfo`.
+     _[!UICONTROL Or]_ is the default operator for defining multiple rules and is useful for adding multiple criteria definitions that can be matched. 
 
-      <!-- screenshot: image-2025-11-12_12-27-23.png -->
+     _[!UICONTROL Exclude]_ is useful when one of the pages that match the defined rule should not be targeted. For example, you can target all `bodea.com` pages that contain `lumasecure`, but excluding blog pages (such as `bodea.com/blogs/lumasecure/latest-release`).
+
+   ![Pages matching rules with exclusion](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Default authoring and preview URL]**.
 
-   This step ensures that the pages generated or matched by the rule have a designated URL for both content creation and preview purposes.
+   This step ensures that the pages generated or matched by the rule have a designated URL for both web experience content design and preview purposes.
 
 ## Duplicate a web channel
 
@@ -111,6 +113,6 @@ You can duplicate an existing web channel configuration and change it to create 
 
    * Change the name and description to match the purpose or items in the rule.
    * If needed, change the single page URL.
-   * If needed, change the pages match rule according to your requirments.
+   * If needed, change the pages matching rule according to your requirements.
 
 1. When the configuration is complete, click **[!UICONTROL Submit]**.
