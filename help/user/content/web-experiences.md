@@ -16,21 +16,28 @@ Web experiences enable you to:
 * Target specific pages or apply changes across multiple pages using URL matching rules
 * Track engagement and monitor the impact of your web personalization efforts
 
+>[!BEGINSHADEBOX]
+
 ## Prerequisites
 
 Before you can create web experiences, ensure that the following requirements are met:
 
-* A product administrator has configured one or more web channels with appropriate URL matching rules. For more information, see [Web channel configurations](../admin/configure-channels-web.md).
+* A product administrator has configured one or more web channels to define the URLs (pages) to be included for a web experience. For more information, see [Web channel configurations](../admin/configure-channels-web.md).
 
 * Your website has the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implemented for visitor identification and content delivery. Make sure that the Adobe Experience Platform Web SDK version is 2.16 or above.
 
-* You have the necessary [permissions to create and manage web experiences](../admin/user-management.md#b2b-product-permissions) in Journey Optimizer B2B Edition.
+* You have the necessary [permissions](../admin/user-management.md#b2b-product-permissions) to create and manage web experiences in a journey:
+   * _[!UICONTROL Campaigns]_ > _[!UICONTROL Manage Campaigns]_ - Required to add or update a web personalization action node.
+   * _[!UICONTROL Campaigns]_ > _[!UICONTROL View Campaigns]_ - Required to view details for a Web personalization action nodes.
+   * _[!UICONTROL Campaigns]_ > _[!UICONTROL Approve and Publish Campaigns]_ - Required to publish a journey that has one or more Web personalization action nodes.
 
-* You have the Adobe Experience Cloud [Visual Editing Helper browser extension installed](#install-the-visual-editing-helper-extension) for your web browser. This extension is required to open, author, and preview your web pages reliably into the Journey Optimizer B2B Edition content design space.
+* You have the Adobe Experience Cloud [Visual Editing Helper browser extension](#install-the-visual-editing-helper-extension) installed for your web browser. This extension is required to open, author, and preview your web pages reliably into the Journey Optimizer B2B Edition content design space.
 
    >[!NOTE]
    >
    >Google Chrome and Microsoft Edge are currently the only browsers that support authoring web pages in Journey Optimizer B2B Edition.
+
+>[!ENDSHADEBOX]
 
 ## Install the Visual Editing Helper extension
 

@@ -7,7 +7,20 @@ badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in
 ---
 # Web channel configurations
 
-A web configuration is a web property identified by a URL where the content is delivered. It can match a single page URL or multiple pages so that web experiences can deliver modifications across one or several web pages.
+A web configuration is a web property identified by a URL where the content is delivered. It can match a single page URL or multiple pages so that web experiences can deliver modifications across one or several web pages. These configurations are required for marketers to [add web personalization action nodes in journeys](../content/web-experiences.md#create-a-web-experience) and to [design the experience modifications](../content/web-experience-design.md) for a campaign.
+
+>[!BEGINSHADEBOX]
+
+**Prerequisites**
+
+To use web channels, your website must have the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implemented for visitor identification and content delivery. Make sure that the Adobe Experience Platform Web SDK version is 2.16 or above.
+
+Web channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../admin/user-management.md#b2b-product-permissions):
+
+* _[!UICONTROL Channel Configurations]_ > _[!UICONTROL Manage Messages Presets]_ - Required to create, update, and delete web channel configurations.
+* _[!UICONTROL Channel Configurations]_ > _[!UICONTROL View Messages Presets]_ - Required to view web channel configurations.
+
+>[!ENDSHADEBOX]
 
 ## Create a web channel configuration
 

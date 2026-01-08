@@ -9,6 +9,28 @@ badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in
 
 After you [create a web experience](./web-experiences.md#create-a-web-experience), use the visual design space to define the modifications that you want to apply to your web pages.
 
+>[!BEGINSHADEBOX]
+
+## Prerequisites
+
+Before you can design web experiences, ensure that the following requirements are met:
+
+* A product administrator has configured one or more web channels to define the URLs (pages) to be included for a web experience. For more information, see [Web channel configurations](../admin/configure-channels-web.md).
+
+* Your website has the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implemented for visitor identification and content delivery. Make sure that the Adobe Experience Platform Web SDK version is 2.16 or above.
+
+* You have the necessary [permissions](../admin/user-management.md#b2b-product-permissions) to create and manage web experiences in a journey:
+   * _[!UICONTROL Campaigns]_ > _[!UICONTROL Manage Campaigns]_ - Required to add or update a web personalization action node.
+   * _[!UICONTROL Campaigns]_ > _[!UICONTROL View Campaigns]_ - Required to view details for a Web personalization action nodes.
+
+* You have the Adobe Experience Cloud [Visual Editing Helper browser extension](#install-the-visual-editing-helper-extension) installed for your web browser. This extension is required to open, author, and preview your web pages reliably into the Journey Optimizer B2B Edition content design space.
+
+   >[!NOTE]
+   >
+   >Google Chrome and Microsoft Edge are currently the only browsers that support authoring web pages in Journey Optimizer B2B Edition.
+
+>[!ENDSHADEBOX]
+
 >[!IMPORTANT]
 >
 >Before you design a web experience, make sure that you have the Adobe Experience Cloud Visual Editing Helper browser extension installed for your web browser. This extension is required to open, author, and preview your web pages reliably into the Journey Optimizer B2B Edition content design space. For more information, see [Install the Visual Editing Helper extension](./web-experiences.md#install-the-visual-editing-helper-extension).
