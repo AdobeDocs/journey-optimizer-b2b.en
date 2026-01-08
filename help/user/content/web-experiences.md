@@ -49,11 +49,15 @@ Before you can create web experiences, ensure that the following requirements ar
 
 1. Search and navigate to the _[!DNL Adobe Experience Cloud Visual Editing Helper]_ browser extension.
 
+   ![Adobe Experience Cloud Visual Editing Helper extension for Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
+
 1. Click **[!UICONTROL Add to Chrome]**, and then click **[!UICONTROL Add Extension]** in the confirmation dialog.
 
    If you are using [!DNL Microsoft Edge], this action adds the extension to [!DNL Edge].
 
 1. Make sure that the [!DNL Visual Editing Helper] browser extension is correctly enabled in your browser toolbar.
+
+   ![Adobe Experience Cloud Visual Editing Helper extension icon in Google Chrome toolbar](./assets/web-experience-google-chrome-adobe-visual-editing-extension-icon.png){width="450"}
 
 The [!DNL Adobe Experience Cloud Visual Editing Helper] is now automatically enabled when a website is opened in the Journey Optimizer B2B Edition visual editor for web experiences. The extension does not have any conditional settings and handles all the settings automatically, including SameSite cookies settings.
 
@@ -73,9 +77,9 @@ You can set up web experiences in a journey when you [add a _[!UICONTROL Take an
 
 1. For the _[!UICONTROL Action on people]_, choose **[!UICONTROL Personalize web experience]**.
 
-1. Click **[!UICONTROL Create web experience]**.
+  ![Take an action - personalize web experience](./assets/web-experience-add-journey-node.png){width="500"}
 
-   <!-- ![Take an action - personalize web experience](assets/journey-node-personalize-web-experience.png){width="700" zoomable="yes"} -->
+1. Click **[!UICONTROL Create web experience]**.
 
 1. In the _[!UICONTROL Create web experience]_ dialog, enter a useful **[!UICONTROL Name]** and **[!UICONTROL Description]** (optional).
 
@@ -89,29 +93,30 @@ You can set up web experiences in a journey when you [add a _[!UICONTROL Take an
 
    ![Create web experience dialog](./assets/web-experience-create-dialog.png){width="400"}
 
-<!-- WHat is this for? 1. Properties? -->
+<!-- What is this for? 1. Properties? -->
 
-1. Set the web experience properties according to how you want to define it.
+1. In the **[!UICONTROL Properties]** tab, enter the description for the web experience.
 
 1. Click the **[!UICONTROL Actions]** tab and select the **[!UICONTROL Web channel]** to use for the web experience.
 
    The web channel configuration determines where the content modifications are applied based on the configured page matching rules. See [Web channel configurations](../admin/configure-channels-web.md) for more information.
 
-      <!-- ![Selected web channel configuration](assets/journey-node-personalize-web-experience.png){width="700" zoomable="yes"} -->
+   ![Selected web channel configuration](./assets/web-experience-journey-node-actions-tab.png){width="700" zoomable="yes"}
+
+1. To define the web modifications, click **[!UICONTROL Edit content]**.
+
+   The editor opens in the _[!UICONTROL Content]_ tab, where you can define the modifications for your web experience. See [Web experience design](./web-experience-design.md) for detailed information about using the design tools to add the web experience content modifications.
 
 1. In the right panel, set the web experience properties according to how you want to define and manage it.
 
    * **[!UICONTROL Visual editor]** - Toggle between the [visual and non-visual editor](./web-experience-design.md#web-design-tools) for the web experience modification design.
    * **[!UICONTROL Visitor redirection]** - Enable this option to [redirect visitors to another existing URL](#redirect-to-url) rather than authoring a new variation in the content tab.
 
-1. Define the web modifications: 
+   ![Toggle properties for the visual editor and redirect URL](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
 
-   * Visual editor - Click **[!UICONTROL Edit Content]**.
-   * Non-visual editor - Click **[!UICONTROL Add a modification]**.
+1. Click **[!UICONTROL Edit web page]** to [design your web modifications](./web-experience-design.md).
 
-   The editor opens in the _[!UICONTROL Content]_ tab, where you can define the modifications for your web experience. See [Web experience design](./web-experience-design.md) for detailed information about using the design tools to create the web experience content modifications.
-
-1. When the modification definitions are complete, click the left arrow above the editor to return to the content tab and web experience properties. 
+1. When the modification definitions are complete, click the left arrow above the editor to return to the content tab and personalized web experience node properties. 
 
    You can click the left arrow at the very top to return to the journey canvas.
 
@@ -124,6 +129,9 @@ You can set up web experiences in a journey when you [add a _[!UICONTROL Take an
 1. Select the **[!UICONTROL Actions]** tab and change the web configuration as needed.
 
 1. Select the **[!UICONTROL Content]** tab and use the visual design tools as needed.
+
+   * _Visual editor_ - Click **[!UICONTROL Edit Content]**.
+   * _Non-visual editor_ - Click **[!UICONTROL Add a modification]**.
 
    See [Web experience design](./web-experience-design.md) for detailed information.
 
@@ -140,6 +148,8 @@ For example, create a web campaign with two treatments:
 In Treatment A, author a web experience using the content editor for half of your targeted population.
 
 In Treatment B, select the _[!UICONTROL Redirect to URL]_ option for the other half of the targeted population. Enter the URL of a page with an alternate design that you authored outside of Journey Optimizer B2B Edition.
+
+![Set the visitor redirection to redirect visitors to a specific URL](./assets/web-experience-journey-node-content-visitor-redirection.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -161,7 +171,7 @@ After the content design is complete for the web experience, you can use the _Si
 
 ## Activate your web experience
 
-Your web experience is activated and made visible to the audience when you publish the journey. Before you activate a web experience through a journey, consider the following:
+Your web experience is activated and made visible to the audience when you [publish the journey](../journeys/create-publish-journey.md#publish-an-account-journey). Before you activate a web experience through a journey, consider the following:
 
 * If you publish a journey with a web experience that impacts the same pages as another journey that is already live, all the changes are applied to the web pages.
 
@@ -186,4 +196,3 @@ To enable web experience delivery, the following settings must be defined:
 You can use the Edge Delivery view within Adobe Experience Platform Assurance to troubleshoot the delivery of Journey Optimizer B2B Edition Web experiences. This plugin enables you to inspect request calls in detail, verify the expected edge calls, and examine profile data. This profile data includes identity maps, segment memberships, and consent settings. You can also review the qualified and unqualified activities for the request.
 
 For more information about the Edge Delivery view in Assurance, see the [Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery).
-

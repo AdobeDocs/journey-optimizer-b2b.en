@@ -140,8 +140,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
-       + [Web channel configurations](./admin/configure-channels-web.md)
-       + [Landing page settings](./admin/landing-page-settings.md)
+       + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
+       + [Landing page settings (Beta)](./admin/landing-page-settings.md)
        + [Configure datastreams for event collection](./data/aep-event-collection.md)
     + Configurations {#configurations}
        + [AEM Assets repositories](./admin/configure-aem-repositories.md)

@@ -92,6 +92,7 @@ Use an action on people when you want to apply a change to all people on the nod
 | | [!UICONTROL Assign to Buying Group] | Select solution interest<br/>Select role |
 | | [!UICONTROL Change Score] | Score name<br/>Change in score|
 | | [!UICONTROL Person Interesting Moment] | Type<br/>Description |
+| | [!UICONTROL Personalize web experience] (Beta) | Create/edit web experience |
 | | [!UICONTROL Remove from Buying Group] | Select solution interest |
 | | [!UICONTROL Send email] | Create email |
 | | [!UICONTROL Send SMS] | Create SMS |
@@ -192,6 +193,14 @@ Use this action to change the person score in Marketo Engage. [Learn more](https
 Use this action to log an interesting moment for people. Choose a type (Email, Milestone, or Web) and add a description (optional).
 
 ![Take an action - Person interesting moment](./assets/node-action-person-interesting-moment.png){width="300"}
+
++++
+
++++[!UICONTROL Personalize web experience] (Beta)
+
+Use this action to [create personalized experiences](../content/web-experiences.md) directly on your website. The web channel feature offers a flexible toolkit that you can use to enhance engagement with tailored web content.
+
+![Take an action - Personalize web experience](./assets/node-action-person-personalize-web-experience.png){width="300"}
 
 +++
 
