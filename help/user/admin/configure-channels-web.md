@@ -3,6 +3,7 @@ title: Web channel configurations
 description: Learn how to configure web channel settings to define web properties and page matching rules for content delivery in Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 ---
 # Web channel configurations
 

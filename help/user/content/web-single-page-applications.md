@@ -11,20 +11,20 @@ Single-page applications (SPAs) present unique challenges for web personalizatio
 
 ## Understanding SPAs
 
-Unlike traditional multi-page websites where each navigation triggers a full page load, SPAs use JavaScript to dynamically update content while maintaining a single HTML page. This approach creates several considerations for web experiences:
+Unlike traditional multi-page websites where each navigation triggers a full page load, SPAs use JavaScript to update content dynamically while maintaining a single HTML page. This approach creates several considerations for web experiences:
 
 * **No page reloads** - Content changes occur without triggering traditional page load events.
-* **Virtual views** - Different "views" or "screens" within the SPA need to be tracked as separate pages.
-* **Client-side routing** - Navigation is handled by JavaScript routers (React Router, Vue Router, Angular Router, etc.) rather than server requests.
+* **Virtual views** - Different _views_ or _screens_ within the SPA that need to be tracked as separate pages.
+* **Client-side routing** - JavaScript routers (such as React Router, Vue Router, and Angular Router) handle navigation rather than server requests.
 * **Dynamic DOM** - Page elements may be created, modified, or removed after initial page load.
 
 ## Configure SPA support
 
-To effectively personalize SPAs, you need to configure view tracking so that Journey Optimizer B2B Edition can identify when users navigate between virtual views.
+To personalize SPAs effectively, you need to configure view tracking so that Journey Optimizer B2B Edition can identify when users navigate between virtual views.
 
 ### Set up view declarations
 
-Work with your development team to implement view declarations using the Adobe Web SDK. This involves calling the `sendEvent` command with view information whenever the SPA navigates to a new view.
+Work with your development team to implement view declarations using the Adobe Web SDK. Using these view declarations involve calling the `sendEvent` command with view information whenever the SPA navigates to a new view.
 
 **Example implementation:**
 
@@ -64,7 +64,7 @@ Use consistent, descriptive view names that match your application's logical str
 
 >[!NOTE]
 >
->View names are case-sensitive. Use a consistent naming convention (lowercase with hyphens is recommended) across your implementation.
+>View names are case-sensitive. Use a consistent naming convention (lowercase with hyphens is recommended) in your implementation.
 
 ## Create web experiences for SPAs
 
@@ -72,19 +72,19 @@ When creating web experiences for SPAs, consider the following best practices:
 
 ### Target specific views
 
-1. In the web channel configuration, set up URL matching rules that align with your SPA's routing structure.
+* In the [web channel configuration](../admin/configure-channels-web.md), set up URL matching rules that align with your SPA routing structure.
 
-1. When creating modifications, specify the view where the modification should apply.
+* When creating modifications, specify the view where the modification should apply.
 
-1. Use CSS selectors that target elements specific to each view.
+* Use CSS selectors that target elements specific to each view.
 
 ### Handle dynamic content
 
-SPAs often load content dynamically after the initial page render. Use these techniques to ensure modifications apply correctly:
+SPAs often load content dynamically after the initial page render. Use these techniques to ensure that modifications apply correctly:
 
 #### Wait for elements
 
-Configure modifications to wait for target elements to exist before applying:
+Configure modifications to wait for the target elements to exist before applying:
 
 1. In the non-visual editor, add a modification with a CSS selector.
 
@@ -94,7 +94,7 @@ Configure modifications to wait for target elements to exist before applying:
 
 #### Use mutation observers
 
-For highly dynamic content, the Web SDK includes built-in mutation observers that detect when new elements are added to the page. This ensures modifications are applied even when elements load asynchronously.
+For highly dynamic content, the Web SDK includes built-in mutation observers that detect when new elements are added to the page. These observers ensure that modifications are applied even when elements load asynchronously.
 
 ### SPA frameworks
 
@@ -104,14 +104,14 @@ Journey Optimizer B2B Edition web experiences work with popular SPA frameworks:
 | --------- | -------------- |
 | **React** | Modifications apply after React renders components to the DOM. Use class names or data attributes for targeting. |
 | **Angular** | Target elements after Angular's change detection runs. Avoid targeting elements with `*ngIf` before they render. |
-| **Vue.js** | Wait for Vue's `nextTick` to ensure elements are in the DOM. Use refs or custom attributes for stable targeting. |
-| **Next.js / Nuxt.js** | For SSR/SSG pages, ensure the Web SDK hydration completes before expecting modifications. |
+| **Vue.js** | Wait for Vue's `nextTick` to ensure that elements are in the DOM. Use references or custom attributes for stable targeting. |
+| **Next.js / Nuxt.js** | For SSR/SSG pages, ensure that the Web SDK hydration is completed before expecting modifications. |
 
 ## Best practices for SPA personalization
 
 ### Use stable selectors
 
-SPAs often generate dynamic class names or IDs (especially with CSS-in-JS solutions). Instead of targeting these, use:
+SPAs often generate dynamic class names or IDs (especially with CSS-in-JS solutions). As an alternative, you can use:
 
 * **Data attributes** - Add custom data attributes (`data-testid`, `data-section`, etc.) to elements you want to target.
 * **Semantic HTML** - Target based on HTML structure and semantic elements.
@@ -129,7 +129,7 @@ SPAs often generate dynamic class names or IDs (especially with CSS-in-JS soluti
 
 **CSS selector:** `[data-action="signup"]`
 
-### Test across views
+### Test views
 
 When testing SPA web experiences:
 
@@ -138,9 +138,9 @@ When testing SPA web experiences:
 1. Test the full user flow, including:
    * Direct navigation to a view (deep linking)
    * Navigation from other views within the SPA
-   * Browser back/forward navigation
+   * Browser backward and forward navigation
 
-1. Verify modifications reapply when returning to a previously visited view.
+1. Verify that modifications reapply when returning to a previously visited view.
 
 ### Handle view transitions
 
@@ -152,35 +152,31 @@ Some SPAs use animations or transitions between views. Consider:
 
 ## Troubleshooting
 
-### Modifications not appearing
+As you review the SPA design changes, use the following recommendations to resolve some common issues:
 
-If modifications are not appearing on your SPA:
+* **Modifications not appearing** - If modifications are not appearing on your SPA:
 
-1. **Check view tracking** - Verify that `sendEvent` calls include the correct view name.
+   1. **Check view tracking** - Verify that `sendEvent` calls include the correct view name.
 
-1. **Verify element existence** - Ensure target elements are in the DOM when modifications apply.
+   1. **Verify element existence** - Ensure that target elements are in the DOM when modifications apply.
 
-1. **Review selectors** - Confirm CSS selectors match the actual DOM structure.
+   1. **Review selectors** - Confirm CSS selectors match the actual DOM structure.
 
-1. **Check console** - Look for JavaScript errors that might prevent modifications.
+   1. **Check console** - Look for JavaScript errors that might prevent modifications.
 
-### Modifications appearing briefly then disappearing
+* **Modifications appearing briefly then disappearing** - This issue typically occurs when the SPA re-renders and replaces modified elements:
 
-This typically occurs when the SPA re-renders and replaces modified elements:
+   1. Use more specific CSS selectors that remain stable across renders.
 
-1. Use more specific CSS selectors that remain stable across renders.
+   1. Enable mutation observers to reapply modifications when elements are recreated.
 
-1. Enable mutation observers to reapply modifications when elements are recreated.
+   1. Work with your development team to add stable attributes to target elements.
 
-1. Work with your development team to add stable attributes to target elements.
+* **Duplicate modifications** - If modifications appear multiple times:
 
-### Duplicate modifications
+   1. Check that view tracking events fire only once per view transition.
 
-If modifications appear multiple times:
-
-1. Check that view tracking events fire only once per view transition.
-
-1. Verify modifications are scoped to specific views rather than applying globally.
+   1. Verify that modifications are scoped to specific views rather than applying globally.
 
 ## Related topics
 
