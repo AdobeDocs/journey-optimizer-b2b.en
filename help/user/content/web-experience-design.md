@@ -272,7 +272,7 @@ Each modification record includes:
 * The modification type (such as edit, hide, or insert)
 * A preview of the change
 
-![Modifications panel](./assets/web-experience-design-modifications-list.png){width="500"}
+![Modifications panel](./assets/web-experience-design-modifications-list.png){width="500" zoomable="yes"}
 
 ### Edit a modification
 
@@ -308,15 +308,11 @@ Use the device preview options at the top of the visual editor to view your modi
 * Tablet
 * Mobile
 
-![Change the device sizing for the preview](./assets/web-experience-design-device-view.png){width="550"}
+![Change the device sizing for the preview](./assets/web-experience-design-device-view.png){width="550" zoomable="yes"}
 
 The preview updates to show how modifications render on each device size. 
 
-### Page navigation
-
-1. Use the URL bar to navigate to different pages within your web channel configuration.
-
-1. Verify that modifications apply correctly to the targeted pages based on your URL matching rules.
+Use the URL bar to navigate to different pages within your web channel configuration. Then, verify that the modifications apply correctly to the targeted pages based on your URL matching rules.
 
 ## Click tracking for web experiences {#web-click-tracking}
 
