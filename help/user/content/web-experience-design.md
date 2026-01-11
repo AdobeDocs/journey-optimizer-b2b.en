@@ -52,7 +52,7 @@ The visual editor loads the web pages within an iframe, where you can select ele
 
    The visual editor loads your website based on the web channel configuration.
 
-  ![Web experience visual editor](./assets/web-experience-visual-editor.png){width="800" zoomable="yes"}
+  ![Web experience visual editor](./assets/web-experience-design-visual-editor.png){width="800" zoomable="yes"}
 
 1. If needed, click **[!UICONTROL Browse]** at the top right and use the site navigation bar to load the specific page that you want to modify.
 
@@ -299,9 +299,9 @@ Before publishing, preview how your modifications appear to visitors.
 
 Use the device preview options at the top of the visual editor to view your modifications on:
 
-   * Desktop
-   * Tablet
-   * Mobile
+* Desktop
+* Tablet
+* Mobile
 
 ![Change the device sizing for the preview](./assets/web-experience-design-device-view.png){width="550"}
 
