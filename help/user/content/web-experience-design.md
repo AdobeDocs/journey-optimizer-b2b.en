@@ -46,13 +46,18 @@ In the web experience properties, use the **[!UICONTROL Visual editor]** option 
 
 ## Visual editor {#visual-editor}
 
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_web_experience_browse"
+>title="Use the Browse mode"
+>abstract="In this mode, you can navigate to the exact page that you want to personalize for the selected web channel configuration."
+
 The visual editor loads the web pages within an iframe, where you can select elements and apply modifications directly in the page preview. Complete the following steps to use the visual editor for designing your web experience:
 
 1. With the _[!UICONTROL Content]_ tab displayed in the web experience details page, click **[!UICONTROL Edit web experience]** in the right panel.
 
    The visual editor loads your website based on the web channel configuration.
 
-  ![Web experience visual editor](./assets/web-experience-design-visual-editor.png){width="800" zoomable="yes"}
+   ![Web experience visual editor](./assets/web-experience-design-visual-editor.png){width="800" zoomable="yes"}
 
 1. If needed, click **[!UICONTROL Browse]** at the top right and use the site navigation bar to load the specific page that you want to modify.
 
@@ -64,9 +69,9 @@ The visual editor loads the web pages within an iframe, where you can select ele
 
    ![Browse mode in the visual editor](./assets/web-experience-design-visual-editor-browse.png){width="700" zoomable="yes"}
 
-  <!-- If the web channel configuration is defined using page matching rules, use the left and right arrows to sequence through the matched pages -- right now these buttons don't do anything -->
+    <!-- If the web channel configuration is defined using page matching rules, use the left and right arrows to sequence through the matched pages -- right now these buttons don't do anything -->
 
-   Click **[!UICONTROL Design]** at the top right to load the page in the design space.
+    Click **[!UICONTROL Design]** at the top right to load the page in the design space.
 
 1. To define how you want the displayed page to be modified for the web experience, you can:
 
@@ -180,7 +185,7 @@ Use the non-visual editor when you need to make modifications that cannot be eas
 
    The non-visual editor loads a page based on the web channel configuration. 
 
-  ![Non-visual editor interface](./assets/web-experience-design-non-visual-editor.png){width="800" zoomable="yes"}
+   ![Non-visual editor interface](./assets/web-experience-design-non-visual-editor.png){width="800" zoomable="yes"}
 
 1. Define the first modification that you want to make.
 
@@ -215,8 +220,8 @@ CSS selector modifications allow you to target elements precisely using standard
 
    | Selector | Targets |
    | -------- | ------- |
-   | `#hero-banner` | Element with ID "hero-banner" |
-   | `.cta-button` | All elements with class "cta-button" |
+   | `#hero-banner` | Element with ID `hero-banner` |
+   | `.cta-button` | All elements with class `cta-button` |
    | `header nav a` | Links within the navigation, inside the header |
    | `[data-offer="premium"]` | Elements with a specific data attribute |
 
@@ -257,7 +262,7 @@ The `<head>` element is commonly used to add JavaScript or CSS code to the top o
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_modifications"
 >title="Easily manage all your changes"
->abstract="Using this pane, you can navigate through and manage all the adjustments and styles you added to your web page."
+>abstract="Using this pane, you can navigate through and manage all the adjustments and additions defined for the web page."
 
 All modifications that you create are tracked and can be managed from the **[!UICONTROL Modifications]** panel of both the visual editor and non-visual editor. Click the _[!UICONTROL Modifications]_ ( ![Modifications icon](../assets/do-not-localize/icon-web-exp-modifications.svg) ) icon in the left toolbar to view all modifications.
 
