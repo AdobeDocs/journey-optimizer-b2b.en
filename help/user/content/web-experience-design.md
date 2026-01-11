@@ -264,7 +264,7 @@ The `<head>` element is commonly used to add JavaScript or CSS code to the top o
 >title="Easily manage all your changes"
 >abstract="Using this pane, you can navigate through and manage all the adjustments and additions defined for the web page."
 
-All modifications that you create are tracked and can be managed from the **[!UICONTROL Modifications]** panel of both the visual editor and non-visual editor. Click the _[!UICONTROL Modifications]_ ( ![Modifications icon](../assets/do-not-localize/icon-web-exp-modifications.svg) ) icon in the left toolbar to view all modifications.
+All modifications that you create are tracked and can be managed from the **[!UICONTROL Modifications]** panel of both the visual editor and non-visual editor. Click the _[!UICONTROL Modifications]_ <!-- ( ![Modifications icon](../assets/do-not-localize/icon-web-exp-modifications.svg) ) -->icon in the left toolbar to view all modifications.
 
 Each modification record includes:
 
