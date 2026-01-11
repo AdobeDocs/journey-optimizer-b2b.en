@@ -365,7 +365,7 @@ Customize the button styling in the **[!UICONTROL Styles]** tab.
 
 ### Text
 
-Use the Text component to insert a text block into your content. When the text component is selected in the canvas, enter the text and use the toolbar options to add inline formatting and options, including personalization tokens and conditional variants. For detailed information about crafting text, including inline styling and options, in the design space, see Text authoring.
+Use the Text component to insert a text block into your content. When the text component is selected in the canvas, enter the text and use the toolbar options to add inline formatting and options, including personalization tokens and conditional variants. <!-- For detailed information about crafting text, including inline styling and options, in the design space, see [Text authoring](#). -->
 
 Customize the text component styling in the **[!UICONTROL Styles]** tab.
 
