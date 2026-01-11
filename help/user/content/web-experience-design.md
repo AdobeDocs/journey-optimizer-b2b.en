@@ -216,14 +216,14 @@ CSS selector modifications allow you to target elements precisely using standard
 
   <!-- This field helps you find and select the HTML elements (or nodes in the DOM tree). -->
 
-   **Example selectors:**
+    **Example selectors:**
 
-   | Selector | Targets |
-   | -------- | ------- |
-   | `#hero-banner` | Element with ID `hero-banner` |
-   | `.cta-button` | All elements with class `cta-button` |
-   | `header nav a` | Links within the navigation, inside the header |
-   | `[data-offer="premium"]` | Elements with a specific data attribute |
+    | Selector | Targets |
+    | -------- | ------- |
+    | `#hero-banner` | Element with ID `hero-banner` |
+    | `.cta-button` | All elements with class `cta-button` |
+    | `header nav a` | Links within the navigation, inside the header |
+    | `[data-offer="premium"]` | Elements with a specific data attribute |
 
 1. Choose an **[!UICONTROL Action Type]** and specify the required information / content.
 
