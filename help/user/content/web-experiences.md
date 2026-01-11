@@ -116,7 +116,7 @@ You can set up web experiences in a journey when you [add a _[!UICONTROL Take an
 
 1. Click **[!UICONTROL Edit web page]** to [design your web modifications](./web-experience-design.md).
 
-1. When the modification definitions are complete, click the left arrow above the editor to return to the content tab and personalized web experience node properties. 
+1. When the modifications are complete, click the left arrow above the editor to return to the content tab and personalized web experience node properties. 
 
    You can click the left arrow at the very top to return to the journey canvas.
 
