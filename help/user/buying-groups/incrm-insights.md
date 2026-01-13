@@ -9,8 +9,6 @@ role: User
 
 [!DNL In-CRM Insights] is a web-base application that integrates into Salesforce and Microsoft Dynamics 365, giving you access to [!DNL Journey Optimizer B2B Edition] buying groups directly within your CRM. It brings together sales data sources, making it easier to identify opportunities for increased engagement and sales potential.
 
-The [!DNL In-CRM Insights] application is available in the [Marketo Sales Insights package](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
-
 ## Installation
 
 The installation process includes:
