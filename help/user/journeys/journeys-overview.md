@@ -58,19 +58,6 @@ Enter text in the  _Search_ tool at the top of the list to filter the displayed 
 
 ![Filter the account journeys list](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-The _[!UICONTROL Account Journeys]_ list page includes the following columns:
-
-* [!UICONTROL Name] (click the name to open the journey for editing)
-* [!UICONTROL Status]
-* [!UICONTROL Description] 
-* [!UICONTROL Created by]
-* [!UICONTROL Last updated at]
-* [!UICONTROL Last updated by]
-* [!UICONTROL Published on]
-* [!UICONTROL Published by]
-
-You can sort the list by _[!UICONTROL Status]_ by clicking the column header.
-
 >[!TAB Person journeys (Beta)]
 
 [!BADGE Beta]{type=Informative tooltip="Available as a beta feature on the simplified architecture"}
@@ -79,28 +66,30 @@ On the left navigation, expand **[!UICONTROL Journey Management]** and click **[
 
 Enter text in the _Search_ tool at the top of the list to filter the displayed list by name. 
 
-![Filter the account journeys list](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
-
-The _[!UICONTROL Person Journeys]_ list page includes the following columns:
-
-* [!UICONTROL Name] (click the name to open the journey for editing)
-* [!UICONTROL Status]
-* [!UICONTROL Description] 
-* [!UICONTROL Created by]
-* [!UICONTROL Last updated at]
-* [!UICONTROL Last updated by]
-* [!UICONTROL Published on]
-* [!UICONTROL Published by]
-
-You can sort the list by _[!UICONTROL Status]_ by clicking the column header.
+![Filter the person journeys list](./assets/person-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
 
-### Customize column display
+### Journey list columns
 
-You can customize the columns that are displayed in the table by clicking the _Customize table_ ( ![Customize table](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner. Select or clear the checkboxes in the dialog and click **[!UICONTROL Apply]**. 
+The journeys list page includes the following columns:
 
-![Choose the columns to display in the acount journeys list](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
+* [!UICONTROL Name] (click the name to open the journey for editing)
+* [!UICONTROL Status]
+* [!UICONTROL Creation date]
+* [!UICONTROL Created by]
+* [!UICONTROL Last update]
+* [!UICONTROL Last updated by]
+* [!UICONTROL Published on]
+* [!UICONTROL Published by]
+* [!UICONTROL Start date]
+* [!UICONTROL End date]
+
+You can sort the list by _[!UICONTROL Status]_, _[!UICONTROL Creation date]_, or _[!UICONTROL Last update]_ by clicking the column header.
+
+To customize (show/hide) the columns that are displayed in the table, click the _Customize table_ ( ![Customize table](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner. Select or clear the checkboxes in the dialog and click **[!UICONTROL Apply]**. 
+
+![Choose the columns to display in the journeys list](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
 ### Journey status
 
@@ -112,7 +101,7 @@ The status of a journey can change based on the actions that you apply. Based on
 | _**Live**_ | Journey status changes from _Draft_ to _Live_ when a journey is published. In this state, it is no longer editable. | <li>[Duplicate](#duplicate-journey)<li>[Close to new entries](#close-to-new-entries) <li>[Abort](#abort-journey) |
 | _**Closed to new entries**_ | The journey status changes from _Live_ to _Closed to new entries_ when you click [!UICONTROL Close to new entries] in the top navigation. | <li>[Duplicate](#duplicate-journey) <li>[Abort](#abort-journey) |
 | _**Aborted**_ | Journey status changes from _Live_ or _Closed to new entries_ when you abort a journey. An aborted journey cannot be restarted. | <li>[Duplicate](#duplicate-journey) <li>[Delete](#delete-journey)  |
-| _**Finished**_ | When all accounts in a journey complete the journey, the status changes from _Live_ or _Closed to new entries_ to _Finished_.| <li>[Duplicate](#duplicate-journey) <li>[Delete](#delete-journey) |
+| _**Finished**_ | When all account or person audience members in a journey complete the journey, the status changes from _Live_ or _Closed to new entries_ to _Finished_.| <li>[Duplicate](#duplicate-journey) <li>[Delete](#delete-journey) |
 
 ## Journey maps
 
