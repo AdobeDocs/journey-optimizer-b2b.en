@@ -7,13 +7,13 @@ badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in
 ---
 # Person audience journey nodes
 
-The _person audience_ node specifies which person profiles enter the journey. When you [create a person journey](./create-publish-journey.md#create-a-journey), the journey always starts with an person audience node that defines its input. The person audience node can have one of two audience input types: CDP segments or event-based membership. Segment and event-based audience definitions cannot be combined.
+The _person audience_ node specifies which person profiles enter the journey. When you [create a person journey](./create-publish-journey.md#create-a-journey), the journey always starts with a person audience node that defines its input. The person audience node can have one of two audience input types: CDP segments or event-based membership. Segment and event-based audience definitions cannot be combined.
 
-Use one of the following input options for this journey node:
+Use one of the following input options for the person audience journey node:
 
-* **Profile audience** - Use segment audiences defined in a CDP. All profiles qualifying for the audience are added as members to the journey. Newly-qualifying profiles for the segment are added to the journey during the daily [profile ingestion](#profile-ingestion) tasks. However, profiles that no longer qualify for the segment are **_not_** removed from the journey.
+* **Profile audience** - Use segment audiences defined in a CDP. All profiles qualifying for the audience are added as members to the journey. Newly qualifying profiles for the segment are added to the journey during the daily [profile ingestion](#profile-ingestion) tasks. If a profile no longer qualifies for the segment, it is **_not_** removed from the journey.
 
-* **Event audience** - Use qualifying events to define the audience. Define these events are defined in the node configuration and must use [XDM events configured in the administration settings](../admin/configure-aep-events.md). Up to 10 events are supported for event-based audience membership. A profile qualifies immediately for the journey upon the first matching event that their profile takes.
+* **Event audience** - Use qualifying events to define the audience. These events are defined in the node configuration and must use [XDM events configured in the administration settings](../admin/configure-aep-events.md). Up to 10 events are supported for event-based audience membership. A profile qualifies immediately for the journey after the first matching event that their profile takes.
 
    >[!NOTE]
    >
@@ -21,15 +21,15 @@ Use one of the following input options for this journey node:
 
 ## Profile ingestion
 
-In Journey Optimizer B2B Edition, a nightly audience ingestion task keeps profiles in sync with Experience Platform. While event-based person journeys can qualify profiles that are not part of a profile or account audience that is ingested/in-use by Journey Optimizer B2B Edition, this results in profiles being ingested that remain stale unless they are part of an audience that is used by a person journey, account journey, or buying group. If a profile is ingested and later added to an audience, profile stitching is performed and the profile stays in sync with Experience Platform. Improvements to this profile data sychronization are planned for future releases.
+In Journey Optimizer B2B Edition, a nightly audience ingestion task keeps profiles in sync with Experience Platform. While event-based person journeys can qualify profiles that are not part of a profile or account audience that is ingested/in-use by Journey Optimizer B2B Edition, it results in ingested profiles that remain stale unless they are part of an audience that is used by a person journey, account journey, or buying group. If a profile is ingested and later added to an audience, profile stitching is performed and the profile stays in sync with Experience Platform. Improvements to this profile data synchronization are planned for future releases.
 
-A newly-created profiles ingested by an event-based person journey may not have all of the profile information updated at the time of ingestion. For example, if a profile is created through a form fill event, and a person journey ingests them from the qualifying form fill event, the data submitted in the form may not yet be synced to the profile when the journey ingested it. This could result in incomplete data for personalization (such as in email content). Improvements to this profile event data sychronization are planned for future releases.
+A newly created profiles ingested by an event-based person journey may not have the updated profile information at the time of ingestion. For example, if a profile is created through a form fill event, and a person journey ingests them from the qualifying form fill event, the data submitted in the form may not yet be synced to the profile when the journey ingested it. The result could be incomplete data for personalization (such as in email content). Improvements to this profile event data synchronization are planned for future releases.
 
-Event-based person journeys can qualify profiles that are still anonymous/without email addresses and only containing ECIDs. Most commonly, this is done by having qualification logic on web page activity. Overly broad event based audience logic could result in the instance hitting the 40 million profile cap if too many profiles qualify. Limit the possible scope of your audience to prevent this.
+Event-based person journeys can qualify profiles that are still anonymous/without email addresses and only containing ECIDs. It happens most commonly when you have qualification logic for web page activity. Overly broad event based audience logic could result in the instance hitting the 40 million profile cap if too many profiles qualify. Limit the possible scope of your audience to prevent this scenario.
 
 >[!IMPORTANT]
 >
->During the current beta program, the ideal use of person journeys is to qualify only profiles that you are also targeting in account journeys and buying group definitions. This ensures a full profile that stays in sync with Experience Platform.
+>During the current beta program, the ideal use of person journeys is to qualify only profiles that you are also targeting in account journeys and buying group definitions. This usage ensures a full profile that stays in sync with Experience Platform.
 
 ## Set the audience for the person audience node
 
