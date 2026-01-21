@@ -49,7 +49,7 @@ _To add a new journey:_
 The _journey map_ is the central zone in the journey workspace. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design. A journey always starts with an audience node, where you can define the input for your journey:
 
 * [Account audience node](./account-audience-nodes.md)
-* [Person audience node](./person-journeys.md)
+* [Person audience node](./person-audience-nodes.md)
 
 After you create an account journey and add the audience, build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases using the following node types to construct an account journey:
 
