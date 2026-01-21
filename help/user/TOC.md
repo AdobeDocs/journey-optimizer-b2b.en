@@ -22,7 +22,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Journey Build Agent B2B](./agents/journey-agent.md)
        + [Sales Qualifier](./agents/sales-qualifier.md)
 + Journey management {#journeys}
-    + [Overview](./journeys/journeys-overview.md)
+    + [Account and person journeys](./journeys/journeys-overview.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
     + [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
@@ -33,7 +33,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
        + [Wait](./journeys/wait-nodes.md)
     + [Journey details](./journeys/journey-details.md)
-+ [Person journeys (Beta)](./journeys/person-journeys.md)
 + Journey content {#journey-content}
     + [SMS channel](./content/sms-authoring.md)
     + Email channel {#email-channel}
