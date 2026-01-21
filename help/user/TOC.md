@@ -27,7 +27,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
        + [Account audience](./journeys/account-audience-nodes.md)
-       + [Person audience](./journeys/person-audience-nodes.md) (Beta)
+       + [Person audience (Beta)](./journeys/person-audience-nodes.md)
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
