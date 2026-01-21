@@ -203,6 +203,7 @@ The _[!UICONTROL Representative management]_ panel displays the defined represen
 
 This panel presents analytics around your completed meetings.
 
+<!-- SHPHR-24341 remove section 
 ## Set up the Chrome plugin
 
 The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
@@ -213,7 +214,7 @@ When the plugin is installed in Chrome, the Adobe logo appears on the middle rig
 * Salesforce
 * Outlook
 * Microsoft Dynamics and web applications
-* Google applications
+* Google applications -->
 
 ## Edit the left navigation bar
 
