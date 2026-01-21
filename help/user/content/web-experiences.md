@@ -77,7 +77,7 @@ You can set up web experiences in a journey when you [add a _[!UICONTROL Take an
 
 1. For the _[!UICONTROL Action on people]_, choose **[!UICONTROL Personalize web experience]**.
 
-  ![Take an action - personalize web experience](./assets/web-experience-add-journey-node.png){width="500"}
+   ![Take an action - personalize web experience](./assets/web-experience-add-journey-node.png){width="500"}
 
 1. Click **[!UICONTROL Create web experience]**.
 
