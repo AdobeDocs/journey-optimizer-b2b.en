@@ -8,7 +8,7 @@ exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
 
 # Account audience journey nodes
 
-The account audience node specifies which accounts enter the journey. When you [create an account journey](./journey-overview.md#create-an-account-journey), the journey always starts with an account audience node that defines its input.
+The account audience node specifies which accounts enter the journey. When you [create an account journey](./create-publish-journey.md#create-a-journey), the journey always starts with an account audience node that defines its input.
 
 Use one of the following input options for this journey node:
 

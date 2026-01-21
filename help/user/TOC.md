@@ -21,17 +21,19 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Audience Agent](./agents/audience-agent-b2b.md)
        + [Journey Build Agent B2B](./agents/journey-agent.md)
        + [Sales Qualifier](./agents/sales-qualifier.md)
-+ Account journeys {#account-journeys}
-    + [Overview](./journeys/journey-overview.md)
++ Journey management {#journeys}
+    + [Overview](./journeys/journeys-overview.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
     + [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
        + [Account audience](./journeys/account-audience-nodes.md)
+       + [Person audience](./journeys/person-audience-nodes.md) (Beta)
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
        + [Wait](./journeys/wait-nodes.md)
     + [Journey details](./journeys/journey-details.md)
++ [Person journeys (Beta)](./journeys/person-journeys.md)
 + Journey content {#journey-content}
     + [SMS channel](./content/sms-authoring.md)
     + Email channel {#email-channel}

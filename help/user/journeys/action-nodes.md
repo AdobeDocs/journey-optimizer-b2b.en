@@ -7,13 +7,13 @@ exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
 ---
 # Take an action
 
-In your account journey, you can add a _[!UICONTROL Take an action]_ node to execute an action, such as send an email, change a score, assign to a buying group, and so on. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action.
+In your journey, you can add a _[!UICONTROL Take an action]_ node to execute an action, such as send an email, change a score, assign to a buying group, and so on. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
 ## Account actions
 
-Use an action on accounts when you want to apply a change to all people that are part of accounts on the node path.
+In an account journey, use an action on accounts when you want to apply a change to all people that are part of accounts on the node path.
 
 ### Actions and constraints {#account-action-constraints}
 
@@ -82,24 +82,24 @@ For more information about using account matched audiences for a LinkedIn destin
 
 ## People actions
 
-Use an action on people when you want to apply a change to all people on the node path. This node type can be used within the split path by people or split path by accounts.
+In an account or person journey, use an action on people when you want to apply a change to all people on the node path. For an account journey, this node type can be used within the _split path by people_ or _split path by accounts_.
 
 ### Actions and constraints {#people-action-constraints}
 
-| Context | Action | Constraints |
-| ------- | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Add to external customer audience] | Select external customer audience |
-| | [!UICONTROL Assign to Buying Group] | Select solution interest<br/>Select role |
-| | [!UICONTROL Change Score] | Score name<br/>Change in score|
-| | [!UICONTROL Person Interesting Moment] | Type<br/>Description |
-| | [!UICONTROL Personalize web experience] (Beta) | Create/edit web experience |
-| | [!UICONTROL Remove from Buying Group] | Select solution interest |
-| | [!UICONTROL Send email] | Create email |
-| | [!UICONTROL Send SMS] | Create SMS |
-| | [!UICONTROL Update person profile] | Select person attribute<br/>Set new value |
-| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to Marketo Engage Request campaign] | Select Marketo Engage workspace<br/>Select Request campaign |
-| | [!UICONTROL Add to Marketo list]| Select name of external Marketo connection <br/>List name |
-| | [!UICONTROL Remove from Marketo list] | Select name of external Marketo connection <br/>List name |
+| Context | Journey type | Action | Constraints |
+| ------- | ------------ | ------ | ----------- |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | <li>Account journey <li>Person journey | [!UICONTROL Add to external customer audience] | <li>Select external customer audience |
+| | <li>Account journey | [!UICONTROL Assign to Buying Group] | <li>Select solution interest <li>Select role |
+| | <li>Account journey | [!UICONTROL Change Score] | Score name <li>Change in score |
+| | <li>Account journey <li>Person journey | [!UICONTROL Person Interesting Moment] | <li>Type <li>Description |
+| | <li>Account journey | [!UICONTROL Personalize web experience] (Beta) | <li>Create/edit web experience |
+| | <li>Account journey | [!UICONTROL Remove from Buying Group] | <li>Select solution interest |
+| | <li>Account journey <li>Person journey | [!UICONTROL Send email] | <li>Create email |
+| | <li>Account journey | [!UICONTROL Send SMS] | <li>Create SMS |
+| | <li>Account journey <li>Person journey | [!UICONTROL Update person profile] | <li>Select person attribute <li>Set new value |
+| [Marketo Engage](#marketo-engage-actions) | <li>Account journey <li>Person journey | [!UICONTROL Add to Marketo Engage Request campaign] | <li>Select Marketo Engage workspace <li>Select Request campaign |
+| | [!UICONTROL Add to Marketo list] | <li>Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
+| | [!UICONTROL Remove from Marketo list] | Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
 
 >[!NOTE]
 >

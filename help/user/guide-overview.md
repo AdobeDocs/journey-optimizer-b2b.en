@@ -110,7 +110,7 @@ Create an Account Journey
 
 Design, orchestrate, manage, and optimize personalized account journeys.
 
-[Explore Journeys](./journeys/journey-overview.md)
+[Explore Journeys](./journeys/journeys-overview.md)
 :::
 
 :::
@@ -162,7 +162,7 @@ Discover the components of a buying group and understand the basics of building 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Account journeys"><br/>
-      <strong>Account journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys overview</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Create an account journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
+      <strong>Account journeys</strong><br/><a href="./journeys/journeys-overview.md">Journeys overview</a><br/><a href="./journeys/journeys-overview.md#create-an-account-journey">Create an account journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
     </td>
   </tr>
   <tr style="border: 0;">

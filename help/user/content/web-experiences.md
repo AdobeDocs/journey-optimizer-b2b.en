@@ -171,7 +171,7 @@ After the content design is complete for the web experience, you can use the _Si
 
 ## Activate your web experience
 
-Your web experience is activated and made visible to the audience when you [publish the journey](../journeys/create-publish-journey.md#publish-an-account-journey). Before you activate a web experience through a journey, consider the following:
+Your web experience is activated and made visible to the audience when you [publish the journey](../journeys/create-publish-journey.md#publish-a-journey). Before you activate a web experience through a journey, consider the following:
 
 * If you publish a journey with a web experience that impacts the same pages as another journey that is already live, all the changes are applied to the web pages.
 
