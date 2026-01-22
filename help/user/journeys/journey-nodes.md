@@ -10,7 +10,7 @@ exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
 
 After you create a journey (account journey or person journey), add the audience and build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases.
 
-Audience nodes are automtically the first node in the journey:
+Audience nodes are automatically the first node in the journey:
 
 * [Account audience](./account-audience-nodes.md)
 * [Person audience](./person-audience-nodes.md) (Beta)
