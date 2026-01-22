@@ -20,6 +20,8 @@ A _Split paths_ node defines one or more segmented paths based on **_either_** a
 
 ## Split paths by accounts
 
+(Account journeys only)
+
 Split by accounts paths can include both account and people actions and events. These paths can be split further.
 
 _**How a split path by accounts node works**_ 
@@ -139,7 +141,7 @@ _**How a split path by people node works**_
 * The node supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the relationship.
 * The node supports the definition of an _[!UICONTROL Other people]_ path, where you can add actions or events for people that do not match one of the defined segments/paths.
 
-![Journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
+![Account journey node - split paths by people](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
 ### People path filters
 
@@ -175,7 +177,7 @@ _**How a split path by people node works**_
 
 1. In the node properties on the right, choose **[!UICONTROL People]** for the split.
 
-1. Set the **[!UICONTROL Attributes used for conditions]**.
+1. (Account journeys only) Set the **[!UICONTROL Attributes used for conditions]**.
 
    * Choose **[!UICONTROL People attributes only]** to use conditions related to the person profile. 
    * Choose **[!UICONTROL Account-person attributes only]** to use conditions related to the person's role membership within an account.

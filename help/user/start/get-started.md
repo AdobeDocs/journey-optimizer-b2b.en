@@ -67,6 +67,6 @@ Refer to the following sections to set up your first journey, add assets, and se
 
    * In the journey map, build your multi-step use cases, add conditions and send personalized messages.
 
-   [Learn more](../journeys/journey-overview.md)
+   [Learn more](../journeys/journeys-overview.md)
 
 >[!ENDTABS]

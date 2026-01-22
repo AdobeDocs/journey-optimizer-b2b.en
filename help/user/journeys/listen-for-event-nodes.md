@@ -7,17 +7,17 @@ exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 ---
 # Listen for an event
 
-Add the _Listen for an event_ node to move your audience forward to the next step in the account journey when an event occurs.
+Add the _Listen for an event_ node to move your audience forward to the next step in the journey when an event occurs.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
 
 >[!NOTE]
 >
->You cannot add this node type on split path by people.
+>For an account journey, you cannot add this node type on split path by people.
 
 ## Account events
 
-Listen for an event based on the account when you want to move the account forward in the journey according to events triggered by account activity.
+In an account journey, you can listen for an event based on the account when you want to move the account forward in the journey according to events triggered by account activity.
 
 ### Events and constraints
 
@@ -46,7 +46,7 @@ Listen for an event based on the account when you want to move the account forwa
 
 ## People events
 
-Listen for an event based on people when you want to move the account forward in the journey according to events triggered by people activity. You can also filter events according to people attributes, 
+In an account journey, you can listen for an event based on people when you want to move the account forward in the journey according to events triggered by people activity. You can also filter events according to people attributes, 
 
 ### Events and constraints
 
@@ -129,7 +129,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ### Listen for an Experience Event
 
-Administrators can select [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, which enable marketers to create journeys that react to the events in near real-time. Using Experience Events in journeys is a two-step process:
+Administrators can select [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, which enable marketers to create account and person journeys that react to the events in near real-time. Using Experience Events in journeys is a two-step process:
 
 1. An administrator [selects the event types and fields of interest](../admin/configure-aep-events.md#select-an-event) to make them available in journeys.
 
@@ -142,19 +142,19 @@ _To include an Experience Event in your journey:_
 
 1. Select a **[!UICONTROL Listen for an event]** node in the journey map.
 
-1. In the node properties on the right, choose **[!UICONTROL People]** for the event type.
-
-1. Click the arrow for the **[!UICONTROL Select people event]** selector and scroll the menu to the **[!UICONTROL Adobe Experience Platform]** section.
-
-   ![Listen for an experience event](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. (Account journey only) In the node properties on the right, choose **[!UICONTROL People]** for the event type.
 
 1. Select the event.
 
-   The event type is displayed as empty in the node details.
+   For an **_account journey_**, click the arrow for the **[!UICONTROL Select people event]** selector and scroll the menu to the **[!UICONTROL Adobe Experience Platform]** section.
 
-   ![Edit the event](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}   
+   ![Listen for an experience event](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   For a person journey, click the arrow for the **[!UICONTROL Select event]** selector and choose the event.
 
 1. Click **[!UICONTROL Edit event]** and define one or more constraints for the event.
+
+   ![Edit the event](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}   
 
    The available constraints are defined as managed fields for the event configuration.
 
@@ -176,11 +176,13 @@ _To include an Experience Event in your journey:_
 
 1. In the journey map, add the next node to execute when the event occurs.
 
-1. Complete the remaining nodes for your journey and [publish it](./journey-overview.md).
+1. Complete the remaining nodes for your journey and [publish it](./journeys-overview.md).
 
    When the journey is live (published) and reaches the _Listen for an event_ node, it begins listening for AEP Experience Events.
 
 ### Add filters to the people event
+
+(Account journeys only)
 
 1. After you define the event, select the **[!UICONTROL Filters]** tab in the _[!UICONTROL Edit Event]_ dialog.
 

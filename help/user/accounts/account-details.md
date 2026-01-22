@@ -27,7 +27,7 @@ The account overview section includes the following account information:
 * Number of people in the account
 * Industry
 * Open opportunities
-* The three most recent account journeys where the account is currently in use (click the journey name to open the [journey overview](../journeys/journey-overview.md))
+* The three most recent account journeys where the account is currently in use (click the journey name to open the [journey overview](../journeys/journeys-overview.md))
 * Generative AI summary of the account, which includes information about the top engaged buying groups.
 
 ### Intent data

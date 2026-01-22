@@ -1,19 +1,26 @@
 ---
-title: Create and Publish an Account Journey
-description: Create account journeys in the visual canvas, add action and event nodes, configure scheduling, and publish for live orchestration in Journey Optimizer B2B Edition.
+title: Build and Publish a Journey
+description: Create account and person journeys in the visual canvas, add action and event nodes, configure scheduling, and publish for live orchestration in Journey Optimizer B2B Edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
 ---
-# Create and publish an account journey
+# Build and publish a journey
 
-To get started with an account journey, create the journey and then construct the nodes and journey flow in the journey map.
+To get started with a journey, create the journey and then construct the nodes and journey flow in the journey map.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
-## Create an account journey
+## Create a journey
 
-1. On the left navigation, click **[!UICONTROL Account journeys]**.
+Under **[!UICONTROL Journey management]** in the left navigation, select the journey type that you want to create:
+
+* **[!UICONTROL Account journeys]**
+* **[!UICONTROL Person journeys]** (Beta)
+
+_To add a new journey:_
+
++++Account journey
 
 1. Click **[!UICONTROL Create Account Journey]** at the top-right of the page.
 
@@ -21,11 +28,28 @@ To get started with an account journey, create the journey and then construct th
 
    ![Create Account Journey dialog](./assets/account-journey-create-dialog.png){width="400"}
 
-1. Click **[!UICONTROL Create]**.  
+1. Click **[!UICONTROL Create]**. 
 
-## Building blocks of a journey
++++
 
-The _journey map_ is the central zone in the journey workspace. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design. An account journey always starts with an [Account Audience node](./account-audience-nodes.md) where you can add input to your journey.
++++Person journey (Beta)
+
+1. Click **[!UICONTROL Create Journey]** at the top-right of the page.
+
+1. In the dialog, enter a unique **[!UICONTROL Name]** (required) and **[!UICONTROL Description]** (optional).
+
+   ![Create Journey dialog](./assets/person-journey-create-dialog.png){width="400"}
+
+1. Click **[!UICONTROL Create]**.
+
++++
+
+## Building blocks for journey design
+
+The _journey map_ is the central zone in the journey workspace. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design. A journey always starts with an audience node, where you can define the input for your journey:
+
+* [Account audience node](./account-audience-nodes.md)
+* [Person audience node](./person-audience-nodes.md)
 
 After you create an account journey and add the audience, build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases using the following node types to construct an account journey:
 
@@ -103,7 +127,7 @@ When you publish a journey, it can start immediately or on a scheduled future da
 
    When you are ready to publish your journey, you can review these settings when you click _[!UICONTROL Publish]_.
 
-## Publish an account journey
+## Publish a journey
 
 You can publish a journey if there are no blocker errors. When published, the journey status changes to _Live_. If the journey has errors, the _[!UICONTROL Publish]_ button is dimmed with content information: `Resolve errors before publishing`.
 
