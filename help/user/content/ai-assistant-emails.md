@@ -1,15 +1,22 @@
 ---
-title: AI Assistant for Email Content Generation
+title: AI Assistant for Email Content
 description: Generate email content with AI Assistant - create message content, subject lines, and preheaders with brand assets and buying group role targeting in Journey Optimizer B2B Edition.
-feature: AI Assistant, Email Authoring, Content
+feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
 ---
-# AI Assistant for email content generation
+# AI Assistant for email content
 
 As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content quickly and efficiently. AI Assistant for email authoring in Adobe Journey Optimizer B2B Edition is Adobe's AI-powered content generation capability that revolutionizes the way marketers create professional and brand-consistent email content. With advanced GenAI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more. AI Assistant makes the creation and execution of email marketing campaigns intuitive, simple, and hassle-free. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
 
 This new capability provides a prompt-based text generation, full email generation, and content generation within email structures. Images are not generated, but are recommended from within the catalog of images in the input brand asset to the model. You can also use this capability to generate optimal subject lines and preheaders to impact the open rate.
+
+>[!IMPORTANT]
+>
+>Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations).
+></br>
+>
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before you can use AI capabilities in Journey Optimizer B2B Edition. For more information, contact your Adobe representative.
 
 >[!NOTE]
 >
@@ -31,7 +38,7 @@ The following limitations apply to AI Assistant in Adobe Journey Optimizer B2B E
 
 * English is the only supported language.
 * It is only available for the email channel.
-* GenAI content might not be accurate &#8212; share your feedback so that Adobe engineers can refine the models.
+* Generated content might not be accurate &#8212; share your feedback so that Adobe engineers can refine the models.
 * You can upload multiple brand assets, but can leverage only one for a specific generation.
 
 >[!BEGINSHADEBOX]

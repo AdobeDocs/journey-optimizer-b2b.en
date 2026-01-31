@@ -10,7 +10,7 @@ exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
 
 A landing page is a standalone web page where you can direct contacts and customers after they click a linked item in an email, SMS message, or any digital location. You can incorporate these pages into your account journeys to get your prospects and customers to view your messages on the web and progress along in your account journeys. You can create, personalize, and preview landing pages in the landing page visual design space.
 
-To direct your customers to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition. 
+To direct your customers to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
 
 * Create the page
 * Design the landing page and author content
@@ -108,11 +108,11 @@ Adobe Journey Optimizer B2B Edition allows you to import existing HTML content t
 
 You can personalize the imported content as needed with the visual design space.
 
-### Select a saved template
+### Select a saved or sample template
 
 You can choose from:
 
-* **Sample templates**. The Journey Optimizer interface offers a collection of out-of-the-box landing page templates that you can choose from.
+* **Sample templates**. The Journey Optimizer B2B Edition interface offers a collection of out-of-the-box landing page templates that you can use as a starting point for your landing page design.
 
 * **Saved templates**. Use a saved custom template created by a member of your organization using the _[!UICONTROL Templates]_ menu <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
 

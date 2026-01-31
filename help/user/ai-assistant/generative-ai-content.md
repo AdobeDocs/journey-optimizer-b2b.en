@@ -1,0 +1,398 @@
+---
+title: Generative AI for content
+description: Learn to create personalized emails and landing pages with generative AI in Journey Optimizer B2B Edition, including prompting best practices.
+feature: AI Assistant, Generative AI, Content
+role: User
+---
+# Generative AI for content {#generative-ai-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_b2b_ai-generation-settings"
+>title="AI in Journey Optimizer B2B Edition"
+>abstract="After you have crafted and personalized your delivery, you can use generative AI tools in Journey Optimizer B2B Edition to enhance your content. This feature simplifies the process of personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."
+
+>[!CONTEXTUALHELP]
+>id="ajo_b2b_ai-generation-context"
+>title="Upload brand asset"
+>abstract="Use _Upload brand asset_ to add any brand asset containing content that can provide additional context for generative AI in Journey Optimizer B2B Edition, or to select a previously uploaded asset. This option ensures that all necessary materials are available to enhance the quality and relevance of generated content."
+
+>[!CONTEXTUALHELP]
+>id="ajo_b2b_ai-generation-start"
+>title="Adobe Generative AI terms"
+>abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines. Review any output from this feature for accuracy and ensure that it is appropriate for your use case."
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
+
+Use the generative AI features for content creation in Journey Optimizer B2B to harness Adobe's generative AI capabilities. Craft personalized text and visuals for emails, SMS messages, landing pages, and more. When you are building a full campaign or simply refining specific assets, these features help you align content seamlessly with your brand guidelines while saving valuable time.
+
+Generative AI for content in Adobe Journey Optimizer B2B Edition, powered by Microsoft Azure OpenAI and Adobe Firefly, provides proactive content variation suggestions for text and images. Optimize your content impact by experimenting with different main titles and images. 
+
+<!--
+Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. -->
+
+>[!IMPORTANT]
+>
+>To access these features in Adobe Journey Optimizer B2B Edition, you must have the _[!UICONTROL AI Assistant]_ > _[!UICONTROL Generate Content]_ permission. For more information about how a product administrator can grant feature permissions, see [Edit roles for product permissions](../admin/user-management.md#edit-roles-for-product-permissions).
+
+Use the AI Assistant tools for content generation for the following asset types:
+
+* [Emails](../content/ai-assistant-emails.md)
+* [Landing pages (Beta)](../content/ai-assistant-landing-pages.md)
+
+## General guidelines and limitations
+
+Your use of generative AI features is subject to the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. With Adobe's commitment to promote transparency in the use of generative AI tools in media creation, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} for any content or project that includes a Firefly-generated asset when it is downloaded or exported.
+
+Review these general guidelines for using generative AI for content in Journey Optimizer B2B Edition:
+
+* Use well-defined prompts for the generative AI model to interpret with accuracy. The marketing objective/prompt that you provide strongly impacts the quality of the generated content. 
+
+* Upload brand assets to have accurate, on-brand content. Otherwise, content is based on publicly available information. The uploaded content can be in the following formats: PDF, JPEG, PNG, or ZIP files (containing supported file formats). The maximum size for an uploaded brand asset is 50MB. Larger files or a large number of images can work, but this increases the processing time.
+
+* Use a brand specific or custom template to create your email content. Email templates with up to 8-10 images are recommended.
+
+* Make sure to report any problematic outputs using the thumb up, thumb down, or flag icons when selecting variants.
+
+## Prompt best practices for generative AI {#generative-ai-prompting-guide}
+
+>[!CONTEXTUALHELP]
+>id="ajo_b2b_ai_content_prompt"
+>title="Prompt examples"
+>abstract="Explore Journey Optimizer B2B Edition documentation to learn how to create effective prompts that produce high-converting, on-brand marketing content."
+
+This guide helps you structure your requests, communicate intent with clarity, and ensure that the AI produces messaging that aligns with your brand guidelines, audience needs, and campaign goals.
+
+Learn how to write effective prompts that enable AI Assistant to generate high-quality, on-brand marketing content tailored to your objectives. 
+
+### Use the CO-STAR framework {#costar-framework}
+
+For best results with generated content, organize your prompts using the CO-STAR framework. This structured approach provides clarity for exactly what you need.
+
+| Component | What it means | Why it matters |
+| --- | ---- | ------ |
+| **C - Context** | Background about your campaign, product, or situation | Provides understanding for the bigger picture |
+| **O - Objective** | Your specific marketing goal | Drives what the content should achieve |
+| **S - Style** | How you want to communicate | Sets the approach |
+| **T - Tone** | Emotional style and voice | Shapes how your message feels |
+| **A - Audience** | The audience that you are targeting | Ensures that the message resonates with the right people |
+| **R - Requirements** | Specific constraints or must-haves | Defines boundaries and critical elements |
+
+### Prompting essentials {#key-takeaways}
+
+<table style="table-layout: fixed; width: 100%; border: 0;">
+<thead style="border: 0; background-color: #FFFFFF;">
+<tr>
+<th>Do</th>
+<th>Don't</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border: 0;">
+<td>
+<ul><li>Use the CO-STAR framework for structure
+<li>Be explicit about fresh vs. existing content
+<li>Focus document usage with specific extraction guidance
+<li>Make selections for tone, strategy, and locale
+<li>Match marketing objectives to content type capabilities
+<li>Generate multiple variants for A/B testing</ul>
+</td>
+<td>
+<ul><li>Ask for structural changes, styling, or image editing in prompts
+<li>Mention tone/strategy in prompts if available in options
+<li>Use vague objectives like _promote the product_
+<li>Request conditional element selections
+<li>Expect layout modifications through prompts</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Content not supported in prompts
+
+>[!TIP]
+>
+>Use the design tools or Adobe Express for visual/image modifications.
+
+The following requests are **_not supported_** and should be handled through other tools:
+
+<table style="table-layout: fixed; border: 0;">
+<thead style="border: 0; background-color: #FFFFFF">
+<tr>
+<th>&#10005; Email structure modifications</th>
+<th>&#10005; Visual styling changes</th>
+<th>&#10005; Image editing operations</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border: 0;">
+<td>
+<ul>
+<li>Selecting specific sections to change</li>
+<li>Deleting or cloning elements</li>
+<li>Conditional selections</li>
+<li>Adding or removing layout sections</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Text formatting (bold, italic, font size)</li>
+<li>Color modifications</li>
+<li>Layout styling (borders, padding, margins)</li>
+<li>Visual effects (shadows)</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Background changes</li>
+<li>Adding text overlays or logos</li>
+<li>Image cropping or resizing</li>
+<li>Color adjustments</li>
+<li>Image replacement</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Quality checklist {#quality-checklist}
+
+Before generating content, ensure the following:
+
+<font style="bold" color="green">&check;</font> **Clear objective**: Clearly states the action, product/service, value, and context.
+
+<font style="bold" color="green">&check;</font> **Defined target audience**: Specifies the demographic, role, or segment.
+
+<font style="bold" color="green">&check;</font> **Content type alignment**: Objective matches the selected channel or format.
+
+<font style="bold" color="green">&check;</font> **Review selections**: Tone, strategy, and locale are chosen, do not include them in the prompt.
+
+<font style="bold" color="green">&check;</font> **Document focus is specified**: Highlights which content or sections to reference.
+
+<font style="bold" color="green">&check;</font> **Brand applied**: Appropriate brand guidelines are selected.
+
+<font style="bold" color="green">&check;</font> **Realistic scope**: Avoid requests for layout changes, styling, or structural edits.
+
+### Effective marketing objectives {#marketing-objectives}
+
+When crafting marketing objectives, make sure they are clear, actionable, and measurable. Avoid vague or generic statements.
+
+**Examples of good objectives:**
+
+<font style="bold" color="green">&check;</font> "Drive sign-ups for the free 30-day trial of the new AI-powered analytics dashboard"
+
+<font style="bold" color="green">&check;</font> "Generate leads for the B2B webinar on 'Reducing Cloud Costs by 40%' happening March 15"
+
+<font style="bold" color="green">&check;</font> "Promote the limited-time 25% discount on premium subscriptions, ending December 25"
+
+**Examples to avoid:**
+
+<font style="bold" color="red">&#10005;</font> "Promote the product" (too vague)
+
+<font style="bold" color="red">&#10005;</font> "Make people buy stuff" (unclear value)
+
+<font style="bold" color="red">&#10005;</font> "Email about new features" (lacks purpose)
+
+#### Structure your objective
+
+Always provide context and the value proposition for producing relevant content. Use the following formula to help you write effective objectives: **Action + Product/Service + Value/Benefit + Urgency/Context**
+
+**Examples of good objectives:**
+
+<font style="bold" color="green">&check;</font> "Encourage downloads of the new mobile app that helps users track sustainable living habits with personalized eco-friendly recommendations"
+
+<font style="bold" color="green">&check;</font> "Promote registration for the exclusive workshop on advanced data visualization techniques for marketing professionals"
+
+<font style="bold" color="green">&check;</font> "Drive attendance to the product launch event showcasing the revolutionary AI writing assistant that saves 5+ hours per week"
+
+**Examples to avoid:**
+
+<font style="bold" color="red">&#10005;</font> "Announce new app" (missing value proposition and context)
+
+<font style="bold" color="red">&#10005;</font> "Get people to sign up for workshop" (lacks specificity about audience and benefit)
+
+<font style="bold" color="red">&#10005;</font> "Promote event" (no clear action, value, or urgency)
+
+### New content vs. modification of existing content {#new-vs-modify}
+
+Clearly indicate if your request involves generating new content or updating existing material. This distinction is important because it guides the AI in selecting the appropriate approach and ensures a more accurate and useful outcome.
+
+#### Creating new content
+
+Apply this strategy when you are launching marketing campaigns, unveiling new solutions, or initiating updated/refreshed communication. It ensures that your message starts strong and aligns with your goals.
+
+**How to prompt** &#10148; When creating new content, focus on your marketing objective without referencing existing content.
+
+>[!BEGINSHADEBOX]
+
+**Examples:**
+
+* **SaaS trial**: "Launch the new CRM software to small business owners, highlighting 50% time savings, 90% faster lead qualification, and offering a 30-day free trial with personalized onboarding"
+* **Feature announcement**: "Announce new API integration capabilities that reduce development time by 60% for enterprise customers, targeting technical decision-makers"
+* **Event promotion**: "Drive registrations for the webinar on 'Digital Marketing Trends 2024' featuring experts from Google, Meta, and Adobe, emphasizing actionable insights and limited seats (500 max)"
+
+>[!ENDSHADEBOX]
+
+#### Modifying existing content
+
+>[!TIP]
+>
+>For standard modifications such as elaborate, summarize, or simplify, use the **_Refine_** feature instead of writing custom prompts.
+
+Use a modification prompt when you need to update, refresh, or adapt your current marketing campaigns. This method supports incremental improvements, ensuring your messaging stays relevant without starting from scratch.
+
+**How to prompt** &#10148; When modifying existing content, clearly specify what you want changed and how to change it.
+
+>[!BEGINSHADEBOX]
+
+**_Examples:_**
+
+* **Campaign refresh**: "Modify the program launch email to focus on enterprise security features instead of general productivity benefits, targeting IT decision-makers with compliance certifications"
+* **Audience pivot**: "Adapt the software demo invitation to target healthcare specifically, replacing generic examples with healthcare use cases and HIPAA compliance benefits"
+* **Seasonal update**: "Update the Q3 promotional campaign for Q4 holiday shopping, changing focus from back-to-school to holiday gift giving with fast shipping emphasis"
+
+>[!ENDSHADEBOX]
+
+### Advanced prompt settings {#personalize-prompt}
+
+### Communication strategy types
+
+>[!TIP]
+>
+>Use the _[!UICONTROL Communication strategy]_ option from the _[!UICONTROL Text settings]_ menu instead of mentioning it in your prompt for specialized processing.
+
+Your communication strategy determines how you present your message to maximize impact. Different strategies work better for different goals, whether you are building urgency, establishing trust, or driving immediate action. Choose the strategy that best aligns with your campaign objectives and audience mindset.
+
+| **Strategy** | **Best for** | **Messaging style** | **Examples** |
+|--------------|--------------|------------------------|--------------|
+| **Urgent** | Time-sensitive offers, deadlines, immediate action | Creates immediate pressure with time-based language | <li>"Act now: Offer expires at midnight" <li>"Register today before spots fill up" <li>"48-hour flash sale starts now" |
+| **FOMO (Fear of Missing Out)** | Limited offers, events, exclusive access | Uses urgency, scarcity, and time-pressure cues | <li>"Only 24 hours left! Limited stock at 40% off" <li>"Last chance: Early bird pricing ends tomorrow" <li>"Only 100 beta spots remaining" |
+| **Social Proof** | Trust-building, testimonials, popular products | Leverages others' experiences and validation | <li>"Join 50,000+ satisfied customers" <li>"Rated 4.9/5 stars by industry professionals" <li>"Trusted by Fortune 500 companies" |
+| **Scarcity** | Limited inventory, exclusive releases, high-demand items | Emphasizes limited availability and exclusiveness | <li>"Only 5 left in stock" <li>"Limited edition: 100 units available" <li>"Exclusive release: First come, first served" |
+| **Incentive** | Promotions, rewards programs, special offers | Highlights tangible benefits and rewards | <li>"Get 20% off your first order" <li>"Earn double points this weekend" <li>"Free shipping on orders over $50" |
+| **Exclusivity** | Premium products, VIP experiences, members-only offers | Uses premium positioning and special-access language | <li>"Exclusive invitation to a private preview" <li>"Elite membership unlocks advanced analytics" <li>"Join select Fortune 500 companies already using us" |
+| **Gamification** | Engagement campaigns, loyalty programs, interactive content | Uses game mechanics and achievement language | <li>"Unlock your next reward level" <li>"Complete challenges to earn badges" <li>"Climb the leaderboard for exclusive prizes" |
+| **Informative** | Education, research, complex products, thought leadership | Uses facts, data, insights, and explanation | <li>"5 insights from analyzing 10,000+ interactions" <li>"New research reveals 3 breakthrough approaches" <li>"Complete guide to implementing AI in marketing" |
+| **Education & Insights** | Learning content, industry trends, best practices | Provides valuable knowledge and actionable takeaways | <li>"Learn advanced techniques with an expert guide" <li>"Discover 7 strategies top marketers use" <li>"Learn how to optimize your workflow in 5 steps" |
+
+### Set the right tone {#tone}
+
+>[!TIP]
+>
+>Use the Tone option from the Text settings menu rather than specifying it in your prompt. 
+
+Tone shapes how your audience perceives and responds to your message. Always select a tone that aligns with your brand voice and the stage of the profile journey.
+
+Use the table below to explore each tone in detail, including when it works best and examples of content that fit each style.
+
+| Tonality | Best for | Content example |
+| ---- | ----- | ----- |
+| Professional  | B2B communications, formal announcements | "We're pleased to announce our strategic partnership..." |
+| Empathetic | Customer support, sensitive topics | "We understand how frustrating this issue must be for you..."|
+| Humorous | Engaging campaigns, lighthearted content | "Warning: May cause serious productivity gains!"|
+| Exciting | Product launches, event promotions | "This is the moment you've been waiting for!"|
+| Inspirational | Motivational campaigns, brand purpose | "Together, we can make a difference in the world..."|
+| Persuasive| Sales campaigns, conversions | "Don't miss this limited-time opportunity to..."      |
+| Friendly | Customer engagement, welcome messages | "Glad you're here with us!"|
+| Formal | Legal communications, official notices | "This is a notification of the following changes..."|
+| Apologetic | Service recovery, issue resolution | "Bodea sincerely apologizes for any inconvenience caused..."|
+| Assertive | Leadership content, authoritative messaging | "Here's what you need to do right now..."|
+| Storytelling | Brand narratives, emotional connections | "It all started with a simple question..."|
+| Conversational | Nurture campaigns, relationship building | "Let's talk about how this program can help you..."|
+
+### Optimized brand assets {#brand-assets}
+
+>[!TIP]
+>
+>If you have already uploaded a brand asset through the **[!UICONTROL Brand Assets]** menu, you do not need to reference it in your prompt. The system automatically uses any selected documents.
+
+Brand assets provide factual information that enriches your generated content with specific, accurate details. When you upload broad documents, such as product brochures, alter your prompt to include which parts have focus:
+
+* **Instead of** _"Use the product brochure"_ **you should use** _"Focus on the advanced security features and compliance certifications, specifically SOC 2 compliance and data encryption"_
+
+* **Instead of** _"Reference the case studies"_ **you should use** _"Highlight ROI results from healthcare clients, specifically the 40% cost reduction at Regional Medical Center"_
+
+* **Instead of** _"Include technical details"_ **you should use** _"Emphasize API integration capabilities and developer benefits, focusing on REST API endpoints and 99.9% uptime SLA"_
+
+#### Content refinement
+
+>[!TIP]
+>
+>Use the _[!UICONTROL Refine]_ feature instead of prompting when you want to elaborate, summarize, simplify, change tone, or translate existing content. [Learn more](generative-uc.md#refine)
+
+After content is generated, use the **Refine** feature to iterate and enhance it with the following options:
+
+| Action | Use case | Prompt example |
+| ----- | ----- | ------ |
+| **Elaborate** | Add depth and detail to brief content | "Elaborate on the technical benefits of the security features" |
+| **Summarize** | Condense lengthy content for different formats | "Summarize this product overview for a social media post" |
+| **Simplify** | Make complex content more accessible | "Simplify this technical explanation for a general audience" |
+| **Change Tone** | Adapt content for different audiences | "Change tone to more casual for younger demographic" |
+| **Transcreate** | Cultural adaptation beyond translation | "Transcreate this campaign for the Japanese market" |
+
+### Example prompts - channel type {#channel-type-practices}
+
+<table style="table-layout: fixed; border: 0;">
+<thead>
+<tr style="border: 0;background-color: #FFFFFF;">
+<th>Channel</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Email</strong></td>
+<td>"Nurture enterprise prospects by showcasing three customer success stories with detailed ROI metrics (IBM: 45% cost reduction, Accenture: 200% lead increase, Microsoft: 60% time savings), targeting IT directors at companies with 1000+ employees"</td>
+</tr>
+<tr>
+<td><strong>SMS</strong></td>
+<td>"Alert VIP customers about a 4-hour flash sale on premium electronics with 40% discount, limited to the first 100 customers"</td>
+</tr>
+<tr>
+<td><strong>Push Notifications</strong></td>
+<td>"Re-engage users who haven't opened the app in 7 days with personalized content recommendations based on their reading history"</td>
+</tr>
+<tr>
+<td><strong>Landing Pages</strong></td>
+<td>"Convert B2B visitors into qualified leads by demonstrating how the enterprise security solution prevents 99.9% of cyber attacks, with Fortune 500 testimonials and free security audit"</td>
+</tr>
+</tbody>
+</table>
+
+<!-- Wait on more B2B specific examples
+
+### Industry-specific approaches {#industry-approaches}
+
+<table style="table-layout: fixed; border-collapse: collapse; border: 0;">
+<thead>
+<tr style="border: 0;background-color: #FFFFFF;">
+<th>Industry</th>
+<th>Example Prompt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>B2B Technology</strong></td>
+<td>"Demonstrate ROI and technical specifications while addressing security concerns for IT decision-makers evaluating our cloud infrastructure solution, emphasizing 99.9% uptime SLA, SOC 2 compliance, and 40% cost savings."</td>
+</tr>
+<tr>
+<td><strong>E-commerce Retail</strong></td>
+<td>"Create urgency around limited-stock holiday items while highlighting free shipping and easy returns for last-minute shoppers, emphasizing limited quantities (less than 50 remaining) and 24-hour shipping cutoff."</td>
+</tr>
+<tr>
+<td><strong>Financial Services</strong></td>
+<td>"Educate clients about investment portfolio diversification strategies while maintaining regulatory compliance, featuring certified financial advisor insights and risk disclaimers."</td>
+</tr>
+<tr>
+<td><strong>Healthcare & Wellness</strong></td>
+<td>"Promote preventive care benefits and annual health screenings while maintaining medical accuracy, featuring board-certified physician recommendations and patient privacy assurances."</td>
+</tr>
+<tr>
+<td><strong>Education & Training</strong></td>
+<td>"Emphasize career advancement outcomes and industry certifications while showcasing instructor expertise, highlighting 92% job placement rate and project-based curriculum."</td>
+</tr>
+<tr>
+<td><strong>SaaS Platforms</strong></td>
+<td>"Highlight time savings and automation benefits with specific metrics while addressing integration concerns, featuring average 25-hour weekly time savings and integration with 200+ popular tools."</td>
+</tr>
+</tbody>
+</table>
+ -->
