@@ -18,9 +18,28 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 | Agent | Update | Description |
 | ----- | ------ | ----------- |
-| Journey Build Agent | New | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
+| Journey Build Agent | New and updated | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
 | Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
 | Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels [Learn more](../agents/sales-qualifier.md) |
+
+## 2026.1 release notes
+
+**Deployment date**: February 3, 2025
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Brand kits | Define a brand in Journey Optimizer B2B Edition to provide the source of truth for your creative team to use when they create any visual or written content. When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. |
+| Feature | Brands for email content generation | You can define your brand guidelines and use this information to generate email content. With this feature, email content is aligned with your brand specific copywriting guidelines, styles, and tone. |
+| Enhancement | Member of Buying Group filter - Is Removed | For a _split path by people_ node, the _[!UICONTROL Member of Buying Group]_ filter now includes the _Is Removed_ constraint. When you select it, the filter can include the removed buying group member or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
+| Enhancement | Email design - multiple-level bullets | The email content design space tools now support sub-bullets (bullet levels).  |
+
+<!-- >
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
+| -->
+
+>[!NOTE]
+>
+>These release changes begin deployment on February 3, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
 ## 2025.10 release notes
 

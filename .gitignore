@@ -4,3 +4,6 @@
 .cursor-agents
 .cursor/mcp.json
 .gitmodules
+/node_modules
+package.json
+package-lock.json
