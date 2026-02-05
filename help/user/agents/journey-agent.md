@@ -3,6 +3,7 @@ title: Journey Build Agent B2B
 description: Learn how to use the AI-powered Journey Build Agent to help build robust journeys quickly
 feature: Account Journeys, AI Assistant
 role: User
+exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
 ---
 # Journey Build Agent B2B
 

@@ -4,6 +4,7 @@ description: Create web experiences for single-page applications (SPAs) - config
 feature: Channels, Personalization
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
 ---
 # Single-page applications
 

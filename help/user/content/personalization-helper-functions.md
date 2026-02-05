@@ -6,6 +6,7 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expression, editor, syntax, personalization
+exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
 ---
 # Helper functions
 

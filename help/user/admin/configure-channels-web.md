@@ -4,6 +4,7 @@ description: Learn how to configure web channel settings to define web propertie
 feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 ---
 # Web channel configurations
 

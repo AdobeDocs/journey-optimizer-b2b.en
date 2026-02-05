@@ -6,6 +6,7 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: expression, editor, start, personalization
+exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
 ---
 # Content personalization {#add-personalization}
 

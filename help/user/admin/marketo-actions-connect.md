@@ -1,10 +1,10 @@
 ---
 title: Activate Marketo Engage to Support Journey Actions
-description: "Activate Marketo Engage connections to support journey actions so that marketers can coordinate campaigns between Marketo Engage and Journey Optimizer B2B Edition."
+description: Activate Marketo Engage connections to support journey actions so that marketers can coordinate campaigns between Marketo Engage and Journey Optimizer B2B Edition.
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
+exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
 ---
-
 # Activate Marketo Engage instances to support actions
 
 Marketo Engage actions are _people-based_ actions that allow you to coordinate your _account-based_ marketing orchestration between Journey Optimizer B2B Edition and your _lead-based_ marketing efforts in Marketo Engage. Use these actions to orchestrate static list membership and to place people into campaigns.

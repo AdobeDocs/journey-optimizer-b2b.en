@@ -4,6 +4,7 @@ description: Configure person audience nodes with segment or event-based audienc
 feature: Audiences
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 ---
 # Person audience journey nodes
 

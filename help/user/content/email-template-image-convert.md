@@ -2,6 +2,7 @@
 title: Convert an Image to an Email Template
 description: Transform image files into HTML email templates with Journey Optimizer B2B Edition. Upload PNG/JPEG files and automatically generate reusable email content.
 feature: Email Authoring, Content
+exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
 ---
 # Convert an image to an email template
 

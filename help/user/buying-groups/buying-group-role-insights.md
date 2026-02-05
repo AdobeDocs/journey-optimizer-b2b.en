@@ -3,6 +3,7 @@ title: Role Insights Dashboard
 description: Learn about the Role Insights dashboard that tracks role acquisition and engagement across buying groups in Journey Optimizer B2B Edition.
 feature: Buying Groups, Dashboards, Engagement
 role: User
+exl-id: 045a217f-a905-4286-804b-2717bb1d5e5d
 ---
 # Role Insights dashboard
 

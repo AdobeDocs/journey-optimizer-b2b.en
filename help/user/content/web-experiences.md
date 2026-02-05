@@ -4,6 +4,7 @@ description: Create, design, and publish personalized web experiences for accoun
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: d04079ce-da51-40d3-ab05-75c26584521f
 ---
 # Web experiences
 
