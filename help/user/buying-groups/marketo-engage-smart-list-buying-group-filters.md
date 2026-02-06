@@ -20,7 +20,7 @@ As a marketer, you might want to suppress campaigns in Marketo Engage for people
 * Is this lead part of a buying group?
 * Is the buying group complete and engaged?
 
-If these conditions are true, you might choose to score lead the higher. If not, you might choose not to mark it as a marketing-qualified lead (MQL).
+If these conditions are true, you might choose to score the lead the higher. If not, you might choose not to mark it as a marketing-qualified lead (MQL).
 
 In your Marketo Engage instance that is connected to Journey Optimizer B2B Edition, you can use the _[!UICONTROL Member of Buying Group]_ filter in your Smart Lists to identify these leads according to your campaign strategy.
 
@@ -44,7 +44,11 @@ In your Marketo Engage instance that is connected to Journey Optimizer B2B Editi
 
    * Select the constraint that you want to add, such as _Completeness Score_ or _Solution Interest_.
 
-   * Set the evaluation that you want to use for a match. For a score, you can use an exact match, or a range that is above or below the number you enter. 
+   * Set the evaluation that you want to use for a match.
+   
+      For a score, you can use an exact match, or a range that is above or below the number you enter.
+
+      To exclude members who were removed from a buying group, use the _[!UICONTROL Is Removed]_ constraint set to `false`. You can also explicitly include removed members in the smart list by setting this constraint to `true`.
    
       For a discrete item, such as the solution interests defined in Journey Optimizer B2B Edition, you can select one or more items for the list.
       
