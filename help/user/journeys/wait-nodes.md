@@ -20,14 +20,14 @@ There are two ways that you can define the wait time:
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Wait]**.
 
-   ![Add journey node - wait](./assets/add-node-wait.png){width="400"}
+   ![Add journey node - wait](./assets/add-node-wait.png){width="440"}
 
 1. In the node properties on the right, set the **[!UICONTROL Type]** of time to wait before the journey proceeds to the next node in the path.
 
    * **[!UICONTROL Duration]** - Define a specific number of days, hours, or minutes to elapse between entry and exit of the wait node. 
    * **[!UICONTROL Date]** - Specify a specific date and time for the exit.
 
-   ![Journey node - wait](./assets/node-wait.png){width="450"}
+   ![Journey node - wait](./assets/node-wait.png){width="500"}
 
 ## Advanced wait step
 
@@ -35,7 +35,7 @@ Enable the **[!UICONTROL Must end on]** option to configure an _advanced wait st
 
 With an _advanced wait step_, you define **_when_** the person or account should exit, not just how long they should wait.
 
-![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="450"}
+![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"}
 
 ### Wait types
 
