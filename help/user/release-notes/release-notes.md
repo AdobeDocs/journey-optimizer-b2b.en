@@ -24,7 +24,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 ## 2026.1 release notes
 
-**Deployment date**: February 3, 2025
+**Deployment date**: February 3, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
@@ -40,7 +40,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 >[!NOTE]
 >
->These release changes begin deployment on February 3, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
+>These release changes begin deployment on February 3, 2026, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
 ## 2025.10 release notes
 
