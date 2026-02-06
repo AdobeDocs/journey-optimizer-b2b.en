@@ -157,19 +157,19 @@ The following requests are **_not supported_** and should be handled through oth
 
 Before generating content, ensure the following:
 
-<font style="bold" color="green">&check;</font> **Clear objective**: Clearly states the action, product/service, value, and context.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Clear objective**: Clearly states the action, product/service, value, and context.
 
-<font style="bold" color="green">&check;</font> **Defined target audience**: Specifies the demographic, role, or segment.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Defined target audience**: Specifies the demographic, role, or segment.
 
-<font style="bold" color="green">&check;</font> **Content type alignment**: Objective matches the selected channel or format.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Content type alignment**: Objective matches the selected channel or format.
 
-<font style="bold" color="green">&check;</font> **Review selections**: Tone, strategy, and locale are chosen, do not include them in the prompt.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Review selections**: Tone, strategy, and locale are chosen, do not include them in the prompt.
 
-<font style="bold" color="green">&check;</font> **Document focus is specified**: Highlights which content or sections to reference.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Document focus is specified**: Highlights which content or sections to reference.
 
-<font style="bold" color="green">&check;</font> **Brand applied**: Appropriate brand guidelines are selected.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Brand applied**: Appropriate brand guidelines are selected.
 
-<font style="bold" color="green">&check;</font> **Realistic scope**: Avoid requests for layout changes, styling, or structural edits.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Realistic scope**: Avoid requests for layout changes, styling, or structural edits.
 
 ### Effective marketing objectives {#marketing-objectives}
 
@@ -177,19 +177,19 @@ When crafting marketing objectives, make sure they are clear, actionable, and me
 
 **Examples of good objectives:**
 
-<font style="bold" color="green">&check;</font> "Drive sign-ups for the free 30-day trial of the new AI-powered analytics dashboard"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Drive sign-ups for the free 30-day trial of the new AI-powered analytics dashboard"
 
-<font style="bold" color="green">&check;</font> "Generate leads for the B2B webinar on 'Reducing Cloud Costs by 40%' happening March 15"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Generate leads for the B2B webinar on 'Reducing Cloud Costs by 40%' happening March 15"
 
-<font style="bold" color="green">&check;</font> "Promote the limited-time 25% discount on premium subscriptions, ending December 25"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Promote the limited-time 25% discount on premium subscriptions, ending December 25"
 
 **Examples to avoid:**
 
-<font style="bold" color="red">&#10005;</font> "Promote the product" (too vague)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Promote the product" (too vague)
 
-<font style="bold" color="red">&#10005;</font> "Make people buy stuff" (unclear value)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Make people buy stuff" (unclear value)
 
-<font style="bold" color="red">&#10005;</font> "Email about new features" (lacks purpose)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Email about new features" (lacks purpose)
 
 #### Structure your objective
 
@@ -197,19 +197,19 @@ Always provide context and the value proposition for producing relevant content.
 
 **Examples of good objectives:**
 
-<font style="bold" color="green">&check;</font> "Encourage downloads of the new mobile app that helps users track sustainable living habits with personalized eco-friendly recommendations"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Encourage downloads of the new mobile app that helps users track sustainable living habits with personalized eco-friendly recommendations"
 
-<font style="bold" color="green">&check;</font> "Promote registration for the exclusive workshop on advanced data visualization techniques for marketing professionals"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Promote registration for the exclusive workshop on advanced data visualization techniques for marketing professionals"
 
-<font style="bold" color="green">&check;</font> "Drive attendance to the product launch event showcasing the revolutionary AI writing assistant that saves 5+ hours per week"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Drive attendance to the product launch event showcasing the revolutionary AI writing assistant that saves 5+ hours per week"
 
 **Examples to avoid:**
 
-<font style="bold" color="red">&#10005;</font> "Announce new app" (missing value proposition and context)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Announce new app" (missing value proposition and context)
 
-<font style="bold" color="red">&#10005;</font> "Get people to sign up for workshop" (lacks specificity about audience and benefit)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Get people to sign up for workshop" (lacks specificity about audience and benefit)
 
-<font style="bold" color="red">&#10005;</font> "Promote event" (no clear action, value, or urgency)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Promote event" (no clear action, value, or urgency)
 
 ### New content vs. modification of existing content {#new-vs-modify}
 
@@ -251,9 +251,11 @@ Use a modification prompt when you need to update, refresh, or adapt your curren
 
 >[!ENDSHADEBOX]
 
-### Advanced prompt settings {#personalize-prompt}
+### Advanced text settings {#text-settings}
 
-### Communication strategy types
+In addition to using a clear and well-fromed prompt, the text settings in the AI Assistnt content tools include text settings that you can use to optimize the generated outputs.
+
+#### Communication strategy types
 
 >[!TIP]
 >
@@ -273,7 +275,7 @@ Your communication strategy determines how you present your message to maximize 
 | **Informative** | Education, research, complex products, thought leadership | Uses facts, data, insights, and explanation | <li>"5 insights from analyzing 10,000+ interactions" <li>"New research reveals 3 breakthrough approaches" <li>"Complete guide to implementing AI in marketing" |
 | **Education & Insights** | Learning content, industry trends, best practices | Provides valuable knowledge and actionable takeaways | <li>"Learn advanced techniques with an expert guide" <li>"Discover 7 strategies top marketers use" <li>"Learn how to optimize your workflow in 5 steps" |
 
-### Set the right tone {#tone}
+#### Set the right tone {#tone}
 
 >[!TIP]
 >
