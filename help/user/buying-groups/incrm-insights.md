@@ -3,8 +3,8 @@ title: In-CRM Insights
 description: Access Journey Optimizer B2B Edition buying groups directly in CRMs. Sales team members can view engagement data and identify sales opportunities with In-CRM Insights.
 feature: Sales Insights, Buying Groups
 role: User
+exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
 ---
-
 # In-CRM Insights
 
 [!DNL In-CRM Insights] is a web-base application that integrates into Salesforce and Microsoft Dynamics 365, giving you access to [!DNL Journey Optimizer B2B Edition] buying groups directly within your CRM. It brings together sales data sources, making it easier to identify opportunities for increased engagement and sales potential.

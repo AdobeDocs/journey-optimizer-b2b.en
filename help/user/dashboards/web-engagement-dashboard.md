@@ -4,6 +4,7 @@ description: Analyze web visitor behavior with page view analytics, regional ins
 feature: Dashboards, Landing Pages
 level: Beginner
 role: User
+exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
 ---
 # Web engagement dashboard
 

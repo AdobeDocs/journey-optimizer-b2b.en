@@ -6,6 +6,7 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expression, editor, syntax, personalization
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
 ---
 # Personalization syntax {#personalization-syntax}
 

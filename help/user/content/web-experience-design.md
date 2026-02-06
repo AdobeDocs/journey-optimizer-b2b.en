@@ -4,6 +4,7 @@ description: Design web experiences with visual and non-visual editors - add mod
 feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 ---
 # Web experience design
 

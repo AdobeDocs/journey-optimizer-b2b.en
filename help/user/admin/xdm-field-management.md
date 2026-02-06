@@ -4,8 +4,8 @@ description: Use XDM field management to control the data that is available to J
 feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release on the simplified architecture"
+exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
 ---
-
 # XDM field management
 
 Experience Data Model (XDM) fields are schema elements that provide data to the [!DNL Journey Optimizer B2B Edition] application. Use XDM fields as filters and constraints in journey nodes, buying groups, and for content features, such as email personalization and conditional content.

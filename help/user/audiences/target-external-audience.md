@@ -1,8 +1,9 @@
 ---
-title: "[!DNL Adobe Target] External Audiences"
-description: "Activate external audiences to [!DNL Adobe Target] through account journeys. Personalize B2B web experiences and maintain cross-platform consistency."
+title: '[!DNL Adobe Target] External Audiences'
+description: Activate external audiences to [!DNL Adobe Target] through account journeys. Personalize B2B web experiences and maintain cross-platform consistency.
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
+exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
 ---
 # [!DNL Adobe Target] external audiences
 
@@ -100,5 +101,4 @@ The activation process requires that you add [!DNL Adobe Target] as an external 
 
    ![Experience Platform - destinations - activate destination - review](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}  
 
-Upon activation, you can see the audience in [Adobe Target audiences](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} and use them in Adobe Target activities. 
-
+Upon activation, you can see the audience in [Adobe Target audiences](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} and use them in Adobe Target activities.
