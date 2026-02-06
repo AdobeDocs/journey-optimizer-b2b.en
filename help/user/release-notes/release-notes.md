@@ -24,14 +24,14 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 ## 2026.1 release notes
 
-**Deployment date**: February 3, 2025
+**Deployment date**: February 3, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Brand kits | (Beta) Define a brand in Journey Optimizer B2B Edition to provide the source of truth for your creative team to use when they create any visual or written content. When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. |
 | Feature | Brands for email content generation | You can define your brand guidelines and use this information to generate email content. With this feature, email content is aligned with your brand specific copywriting guidelines, styles, and tone. |
 | Enhancement | Journey _Wait_ node - advanced settings | For a _Wait_ node in a journey, you can now specify exit days and times, and select time zones. This enhancement gives you better control for your journey orchestration and campaign timing. |
-| Enhancement | Member of Buying Group filter - Is Removed | For a _split path by people_ node, the _[!UICONTROL Member of Buying Group]_ filter now includes the _Is Removed_ constraint. When you select it, the filter can include the removed buying group member or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
+| Enhancement | Member of Buying Group special filter - Is Removed constraint| The _[!UICONTROL Member of Buying Group]_ special filter now includes the _Is Removed_ constraint. When you add this constraint to the filter, you can include removed buying group members or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
 | Enhancement | Email design - multiple-level bullets | The email content design space tools now support sub-bullets (bullet levels).  |
 
 <!--
@@ -40,7 +40,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 >[!NOTE]
 >
->These release changes begin deployment on February 3, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
+>These release changes begin deployment on February 3, 2026, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
 ## 2025.10 release notes
 

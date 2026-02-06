@@ -153,7 +153,7 @@ _**How a split path by people node works**_
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated [!DNL Marketo Engage] instance. Constraints include: <li>Milestone<li>Email<li>Web <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).|
 | [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Web page activity that for one or more web pages managed by the associated [!DNL Marketo Engage] instance. Constraints include: <li>Web page (required)<li>Date of activity<li>Client IP address <li>Querystring <li>Referrer <li>User agent <li>Search engine <li>Search query <li>Personalized URL <li>Token <li>Browser <li>Platform <li>Device <li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page).   |
 | [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Role</li>|
+| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li>|
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more [!DNL Marketo Engage] lists. |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more [!DNL Marketo Engage] programs. |
 
@@ -236,15 +236,29 @@ For each of the _[!UICONTROL Activity history]_ filters, you can enable the **[!
 
 ### Membership filtering
 
-Within the _[!UICONTROL Special Filters]_ section, there are multiple filters that you can use to evaluate a person's membership in a buying group or [!DNL Marketo Engage] list. For example, if you want to create a path for people who are members of a buying group and are assigned a particular role, add the _[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_ filter. For the filter, set the membership as _true_, select a _[!UICONTROL Solution interest]_ that is associated with one or more buying groups, and set the _[!UICONTROL Role]_ that you want to match.
+Within the _[!UICONTROL Special Filters]_ section, there are multiple filters that you can use to evaluate a person's membership in a buying group or [!DNL Marketo Engage] list. 
+
+For example, if you want to create a path for people who are members of a buying group and are assigned a particular role, add the _[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_ filter. For the filter, set the membership as _true_, select a _[!UICONTROL Solution interest]_ that is associated with one or more buying groups, and set the _[!UICONTROL Role]_ that you want to match.
 
 ![Split path by people condition for buying group membership](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX "Marketo Engage list membership"]
+You can also include additional buying group membership constraints:
+
+* _[!UICONTROL Buying group stage]_
+* _[!UICONTROL Buying group status]_
+* _[!UICONTROL Completeness score]_
+* _[!UICONTROL Engagement score]_
+* _[!UICONTROL Is Removed]_
+
+>[!TIP]
+>
+>To exclude members who were removed from a buying group, use the _[!UICONTROL Is Removed]_ constraint set to `false`. You can also explicitly include removed members by setting this constraint to `true`.
+
+>[!BEGINSHADEBOX "Marketo Engage list and program membership"]
    
 In [!DNL Marketo Engage], _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for [!DNL Marketo Engage] list membership as a condition for your split path by people to help eliminate duplication in journey activities.
       
-To use list membership in a split condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space. Complete the filter definition to evaluate membership in one or more [!DNL Marketo Engage] lists.
+To use list membership in a split condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** or **[!UICONTROL Member of Program]** condition into the filter space. Complete the filter definition to evaluate membership in one or more [!DNL Marketo Engage] lists.
    
 ![Split path by people condition for [!DNL Marketo Engage] list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
    
