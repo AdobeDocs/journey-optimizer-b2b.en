@@ -1,20 +1,22 @@
 ---
 title: Generative AI for content
-description: Learn to create personalized emails and landing pages with generative AI in Journey Optimizer B2B Edition, including prompting best practices.
+description: Learn to create personalized emails and landing pages with generative AI in [!DNL Journey Optimizer B2B Edition], including prompting best practices.
 feature: AI Assistant, Generative AI, Content
+level: Beginner
+topic: Artificial Intelligence
 role: User
 ---
 # Generative AI for content {#generative-ai-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
->title="AI in Journey Optimizer B2B Edition"
->abstract="After you have crafted your layout, you can use generative AI tools in Journey Optimizer B2B Edition to enhance your content. This feature simplifies the process of personalization and content improvement by fine-tuning the content according to your descriptive prompt."
+>title="AI Content Generation"
+>abstract="After you have crafted your layout, you can use generative AI tools in [!DNL Journey Optimizer B2B Edition] to enhance your content. This feature simplifies the process of personalization and content improvement by fine-tuning the content according to your descriptive prompt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="Reference content"
->abstract="Use _Reference content_ to upload an asset file containing content that provides additional context for generative AI in Journey Optimizer B2B Edition, or to select a previously uploaded file. This option ensures that all necessary materials are available to enhance the quality and relevance of generated content."
+>abstract="Use _Reference content_ to upload an asset file containing content that provides additional context for generative AI in [!DNL Journey Optimizer B2B Edition], or to select a previously uploaded file. This option ensures that all necessary materials are available to enhance the quality and relevance of generated content."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
@@ -22,31 +24,31 @@ role: User
 >abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines. Review any output from this feature for accuracy and ensure that it is appropriate for your use case."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 
-Use the generative AI features for content creation in Journey Optimizer B2B to harness Adobe's generative AI capabilities. Craft personalized text and visuals for emails, SMS messages, landing pages, and more. When you are building a full campaign or simply refining specific assets, these features help you align content seamlessly with your brand guidelines while saving valuable time.
+Generative AI for content in [!DNL Adobe Journey Optimizer B2B Edition], powered by Microsoft Azure OpenAI and Adobe Firefly, provides proactive content variation suggestions for text and images. Optimize your content impact by experimenting with different main titles and images. 
 
-Generative AI for content in Adobe Journey Optimizer B2B Edition, powered by Microsoft Azure OpenAI and Adobe Firefly, provides proactive content variation suggestions for text and images. Optimize your content impact by experimenting with different main titles and images. 
+Use the generative AI features for content creation in [!DNL Journey Optimizer B2B Edition] to harness Adobe's generative AI capabilities. Craft personalized text and visuals for emails, SMS messages, landing pages, and more. When you are building a full campaign or simply refining specific assets, these features help you align content seamlessly with your brand guidelines while saving valuable time.
 
 <!--
 Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. -->
 
 >[!IMPORTANT]
 >
->To access these features in Adobe Journey Optimizer B2B Edition, you must have the _[!UICONTROL AI Assistant]_ > _[!UICONTROL Generate Content]_ permission. For more information about how a product administrator can grant feature permissions, see [Edit roles for product permissions](../admin/user-management.md#edit-roles-for-product-permissions).
+>To access these features in [!DNL Journey Optimizer B2B Edition], you must have the _[!UICONTROL AI Assistant]_ > _[!UICONTROL Generate Content]_ permission. For more information about how a product administrator can grant feature permissions, see [Edit roles for product permissions](../admin/user-management.md#edit-roles-for-product-permissions).
 
-Use the AI Assistant tools for content generation for the following asset types:
+AI Assistant tools for content generation are supported with the following asset types:
 
 * [Emails](../content/ai-assistant-emails.md)
-* [Landing pages (Beta)](../content/ai-assistant-landing-pages.md)
+* [!BADGE Beta] [Landing pages](../content/ai-assistant-landing-pages.md)
 
 ## General guidelines and limitations
 
-Your use of generative AI features is subject to the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. With Adobe's commitment to transparency in the use of generative AI tools for media creation, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} for any content or project that includes a Firefly-generated asset when it is downloaded or exported.
+Your use of generative AI features is subject to the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. With Adobe's commitment to transparency in the use of generative AI tools for media creation, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} for any content or project that includes a [!DNL Firefly]-generated asset when it is downloaded or exported.
 
-Review these general guidelines for using generative AI for content in Journey Optimizer B2B Edition:
+Review these general guidelines for using generative AI for content in [!DNL Journey Optimizer B2B Edition]:
 
-* Use well-defined prompts for the generative AI model to interpret with accuracy. The marketing objective/prompt that you provide strongly impacts the quality of the generated content. 
+* Use well-defined prompts for the generative AI model to interpret with accuracy. The marketing objective or prompt you provide strongly affects the quality of the generated content.
 
-* Upload brand assets to have accurate, on-brand content. Otherwise, content is based on publicly available information. The uploaded content can be in the following formats: PDF, JPEG, PNG, or ZIP files (containing supported file formats). The maximum size for an uploaded brand asset is 50MB. Larger files or a large number of images can work, but this increases the processing time.
+* Upload content reference files to have accurate, on-brand content. Otherwise, content is based on publicly available information. The uploaded content can be in the following file formats: PDF, JPEG, PNG, or ZIP (containing supported file formats). The maximum size for an uploaded file is 50MB. Larger files or a large number of images can work, but this increases the processing time.
 
 * Use a brand specific or custom template to create your email content. Email templates with up to 8-10 images are recommended.
 
@@ -56,8 +58,8 @@ Review these general guidelines for using generative AI for content in Journey O
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai_content_prompt"
->title="Prompt examples"
->abstract="Explore Journey Optimizer B2B Edition documentation to learn how to create effective prompts that produce high-converting, on-brand marketing content."
+>title="Prompt guidance"
+>abstract="Explore [!DNL Journey Optimizer B2B Edition] documentation to learn how to create effective prompts that produce high-converting, on-brand marketing content."
 
 This guide helps you structure your requests, communicate intent with clarity, and ensure that the AI produces messaging that aligns with your brand guidelines, audience needs, and campaign goals.
 
@@ -110,7 +112,7 @@ For best results with generated content, organize your prompts using the CO-STAR
 
 >[!TIP]
 >
->Use the design tools or Adobe Express for visual/image modifications.
+>Use the design tools or [!DNL Adobe Express] for visual/image modifications.
 
 The following requests are **_not supported_** and should be handled through other tools:
 
@@ -223,7 +225,7 @@ Always provide context and the value proposition for producing relevant content.
 <tbody>
 <tr>
 <td><strong>Email</strong></td>
-<td>"Nurture enterprise prospects by showcasing three customer success stories with detailed ROI metrics (Oracle: 45% cost reduction, Accenture: 200% lead increase, Microsoft: 60% time savings), targeting IT directors at companies with 1000+ employees"</td>
+<td>"Nurture enterprise prospects by showcasing three customer success stories with detailed ROI metrics (Oracle: 45% cost reduction, Accenture: 200% lead increase, Microsoft: 60% time savings). Target IT directors at companies with 1000+ employees"</td>
 </tr>
 <tr>
 <td><strong>Landing Pages</strong></td>
@@ -322,16 +324,16 @@ Use a modification prompt when you need to update, refresh, or adapt your curren
 
 In addition to using a clear and well-formed prompt, the text settings in the AI Assistant content tools include text settings that you can use to optimize the generated outputs.
 
-### Communication strategy types
-
 >[!TIP]
 >
->Use the _[!UICONTROL Communication strategy]_ option in the _[!UICONTROL Text settings]_ menu instead of mentioning it in your prompt.
+>Use the _[!UICONTROL Communication strategy]_ and _[!UICONTROL Tone]_ options in the _[!UICONTROL Text settings]_ instead of mentioning these characteristics in your prompt.
+
+### Communication strategy types
 
 Your communication strategy determines how you present your message to maximize impact. Different strategies work better for different goals, whether you are building urgency, establishing trust, or driving immediate action. Choose the strategy that best aligns with your campaign objectives and audience mindset.
 
 | **Strategy** | **Best for** | **Messaging style** | **Examples** |
-|--------------|--------------|------------------------|--------------|
+| ------------ | ------------ | ------------------- | ------------ |
 | **Urgent** | Time-sensitive offers, deadlines, immediate action | Creates immediate pressure with time-based language | <li>"Act now: Offer expires at midnight" <li>"Register today before spots fill up" <li>"48-hour flash sale starts now" |
 | **FOMO (Fear of Missing Out)** | Limited offers, events, exclusive access | Uses urgency, scarcity, and time-pressure cues | <li>"Only 24 hours left! Limited stock at 40% off" <li>"Last chance: Early bird pricing ends tomorrow" <li>"Only 100 beta spots remaining" |
 | **Social Proof** | Trust-building, testimonials, popular products | Leverages others' experiences and validation | <li>"Join 50,000+ satisfied customers" <li>"Rated 4.9/5 stars by industry professionals" <li>"Trusted by Fortune 500 companies" |
@@ -344,28 +346,24 @@ Your communication strategy determines how you present your message to maximize 
 
 ### Set the right tone {#tone}
 
->[!TIP]
->
->Use the Tone option from the Text settings menu rather than specifying it in your prompt. 
-
 Tone shapes how your audience perceives and responds to your message. Always select a tone that aligns with your brand voice and the stage of the profile journey.
 
-Use the table below to explore each tone in detail, including when it works best and examples of content that fit each style.
+Review the available tone options, including when each works best and examples of content that fit each style.
 
 | Tonality | Best for | Content example |
 | ---- | ----- | ----- |
-| Professional  | B2B communications, formal announcements | "We're pleased to announce our strategic partnership..." |
-| Empathetic | Customer support, sensitive topics | "We understand how frustrating this issue must be for you..."|
-| Humorous | Engaging campaigns, lighthearted content | "Warning: May cause serious productivity gains!"|
-| Exciting | Product launches, event promotions | "This is the moment that you've been waiting for!"|
-| Inspirational | Motivational campaigns, brand purpose | "Together, we can make a difference in the world..."|
-| Persuasive| Sales campaigns, conversions | "Don't miss this limited-time opportunity to..."      |
-| Friendly | Customer engagement, welcome messages | "Glad you're here with us!"|
-| Formal | Legal communications, official notices | "This is a notification of the following changes..."|
-| Apologetic | Service recovery, issue resolution | "Bodea sincerely apologizes for any inconvenience caused..."|
-| Assertive | Leadership content, authoritative messaging | "Here's what you need to do right now..."|
-| Storytelling | Brand narratives, emotional connections | "It all started with a simple question..."|
-| Conversational | Nurture campaigns, relationship building | "Let's talk about how this program can help you..."|
+| Professional | B2B communications, formal announcements | "We're pleased to announce our strategic partnership..." |
+| Empathetic | Customer support, sensitive topics | "We understand how frustrating this issue must be for you..." |
+| Humorous | Engaging campaigns, lighthearted content | "Warning: May cause serious productivity gains!" |
+| Exciting | Product launches, event promotions | "This is the moment that you've been waiting for!" |
+| Inspirational | Motivational campaigns, brand purpose | "Together, we can make a difference in the world..." |
+| Persuasive | Sales campaigns, conversions | "Don't miss this limited-time opportunity to..." |
+| Friendly | Customer engagement, welcome messages | "Glad you're here with us!" |
+| Formal | Legal communications, official notices | "This is a notification of the following changes..." |
+| Apologetic | Service recovery, issue resolution | "Bodea sincerely apologizes for any inconvenience caused..." |
+| Assertive | Leadership content, authoritative messaging | "Here's what you need to do right now..." |
+| Storytelling | Brand narratives, emotional connections | "It all started with a simple question..." |
+| Conversational | Nurture campaigns, relationship building | "Let's talk about how this program can help you..." |
 
 ## Optimized reference content {#reference-content}
 
