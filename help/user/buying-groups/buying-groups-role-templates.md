@@ -110,6 +110,12 @@ To use list membership as a role condition, expand **[!UICONTROL Special Filters
 
 ![Roles template condition for Marketo Engage list membership](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
+>[!NOTE]
+>
+>**Feature deprecation**</br></br>
+>
+>With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, filtering based on list or program membership in a Marketo Engage instance in not supported.
+
 >[!ENDSHADEBOX] 
 
 Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the _[!UICONTROL Roles templates]_ list.
