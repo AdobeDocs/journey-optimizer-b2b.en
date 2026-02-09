@@ -261,6 +261,7 @@ In [!DNL Marketo Engage], _Smart Campaigns_ check membership of programs to ensu
 To use list membership in a split condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** or **[!UICONTROL Member of Program]** condition into the filter space. Complete the filter definition to evaluate membership in one or more [!DNL Marketo Engage] lists.
    
 ![Split path by people condition for [!DNL Marketo Engage] list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+<br/>
 
 >[!NOTE]
 >
