@@ -1,2 +1,0 @@
-{"timestamp":"2026-02-10T21:20:00.000Z","agent":"scoring-agent","version":"1.3.0","user":"","action":"start","status":"started"}
-{"timestamp":"2026-02-10T21:25:00.000Z","agent":"scoring-agent","version":"1.3.0","user":"","action":"complete","status":"success","scan_type":"current_file","files_analyzed":1}
