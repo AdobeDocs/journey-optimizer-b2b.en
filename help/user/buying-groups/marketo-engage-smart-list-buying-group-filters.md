@@ -13,14 +13,14 @@ exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
 >
 >With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, the buying group filters are no longer available in a connected Marketo Engage instance.</br></br>
 >
->As an alternative, you can create a static list for each solution interest and then [use the _Add to Marketo list_ action](../journeys/action-nodes.md#marketo-engage-actions) from a journey node. This action adds buying group members to a particular static list in a connected Marketo Engage instance. Then, use the  solution interest-focused static list for a smart list filter.
+>As an alternative, you can create a static list for each solution interest and then [use the _Add to Marketo list_ action](../journeys/action-nodes.md#marketo-engage-actions) from a journey node. This action adds buying group members to a particular static list in a connected Marketo Engage instance. Then, use the solution interest-focused static list for a smart list filter.
 
 As a marketer, you might want to suppress campaigns in Marketo Engage for people that are part of buying groups in Journey Optimizer B2B Edition. You can also inform the lead scoring workflows in Marketo Engage using information about the leads associated with buying groups. For example:
 
 * Is this lead part of a buying group?
 * Is the buying group complete and engaged?
 
-If these conditions are true, you might choose to score lead the higher. If not, you might choose not to mark it as a marketing-qualified lead (MQL).
+If these conditions are true, you might choose to score the lead the higher. If not, you might choose not to mark it as a marketing-qualified lead (MQL).
 
 In your Marketo Engage instance that is connected to Journey Optimizer B2B Edition, you can use the _[!UICONTROL Member of Buying Group]_ filter in your Smart Lists to identify these leads according to your campaign strategy.
 
@@ -44,7 +44,11 @@ In your Marketo Engage instance that is connected to Journey Optimizer B2B Editi
 
    * Select the constraint that you want to add, such as _Completeness Score_ or _Solution Interest_.
 
-   * Set the evaluation that you want to use for a match. For a score, you can use an exact match, or a range that is above or below the number you enter. 
+   * Set the evaluation that you want to use for a match.
+   
+      For a score, you can use an exact match, or a range that is above or below the number you enter.
+
+      To exclude members who were removed from a buying group, use the _[!UICONTROL Is Removed]_ constraint set to `false`. You can also explicitly include removed members in the smart list by setting this constraint to `true`.
    
       For a discrete item, such as the solution interests defined in Journey Optimizer B2B Edition, you can select one or more items for the list.
       
