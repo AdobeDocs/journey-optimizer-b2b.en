@@ -66,7 +66,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 ### Simplified architecture
 
-Adobe Journey Optimizer B2B Edition is now available using a simplified architecture. With this updated architecture, Journey Optimizer B2B Edition and Marketo Engage are no longer on the same system and same data store. Journey Optimizer B2B Edition receives data only from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system. 
+Adobe Journey Optimizer B2B Edition is now available using a simplified architecture. With this updated architecture, Journey Optimizer B2B Edition and Marketo Engage are no longer on the same system and same data store. Journey Optimizer B2B Edition receives data only from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system.
 
 This updated architecture provides multiple benefits:
 
@@ -86,6 +86,7 @@ With the simplified architecture, the following new features and enhancements ar
 | Feature | Relational data model | Leverage the relational data that is linked to B2B accounts to filter accounts within an account journey or to personalize email content. This relational data can represent real-world business entities such as purchase records, event registrations, software licenses, service subscriptions, or reservations. [Learn more](../admin/xdm-field-management.md#relational-schemas) |
 | Feature | Multiple Marketo Engage activations | Configure connections to remote Marketo Engage instances and use those connections to set up Marketo Engage actions for journeys. These actions, such as adding/removing people from lists or adding people to a request campaign, apply to the designated Marketo Engage instance. [Learn more](../admin/marketo-actions-connect.md) |
 | Feature | Email Fatigue Deduplication | You can now enable email deduplication to ensure that the same email is not sent multiple times to the same address in a journey. Duplicate addresses are blocked until the first record with that email address completes the journey.  [Learn more](../content/email-deduplication.md) |
+| Enhancement | Engagement score weighting - AEP events | Engagement score weighting can now include any of the standard or custom Experience Platform events and weighted according to your needs. [Learn more](../admin/engagement-score-weighting.md) |
 | Enhancement | Communication limits | The system now respects the combined communication limits of both Marketo Engage and Journey Optimizer B2B Edition. [Learn more](../admin/configure-channels-emails.md#communication-limits) |
 
 <!-- There are additional functional changes with the simplified architecture:
