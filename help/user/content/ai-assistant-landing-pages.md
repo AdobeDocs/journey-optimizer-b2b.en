@@ -9,7 +9,7 @@ level: Beginner
 ---
 # AI Assistant for Landing Page Content {#generative-full-content}
 
-AI Assistant for landing page content in Adobe Journey Optimizer B2B Edition uses Adobe's AI-powered content generation capabilities and revolutionizes the way marketers create professional and brand-consistent landing page content. With advanced generative AI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more. AI Assistant makes campaign and program creation and execution more intuitive, simple, and hassle-free. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
+AI Assistant for landing page content in [!DNL Adobe Journey Optimizer B2B Edition] uses Adobe's AI-powered content generation capabilities and revolutionizes the way marketers create professional and brand-consistent landing page content. With advanced generative AI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content. It uses your marketing objective and optimizes the content for brand outlined styles, layouts, tone, and more. AI Assistant makes campaign and program creation and execution more intuitive, simple, and hassle-free. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
 
 You can generate complete content experiences for your landing pages, including both text and images. This robust functionality helps you create compelling, on-brand content that connects with your audience.
 
@@ -19,21 +19,21 @@ You can generate complete content experiences for your landing pages, including 
 
 >[!IMPORTANT]
 >
->To access these features in Adobe Journey Optimizer B2B Edition, you must have the _[!UICONTROL AI Assistant]_ > _[!UICONTROL Generate Content]_ permission. For more information about how a product administrator can grant feature permissions, see [Edit roles for product permissions](../admin/user-management.md#edit-roles-for-product-permissions).
+>To access these features in [!DNL Journey Optimizer B2B Edition], you must have the _[!UICONTROL AI Assistant]_ > _[!UICONTROL Generate Content]_ permission. For more information about how a product administrator can grant feature permissions, see [Edit roles for product permissions](../admin/user-management.md#edit-roles-for-product-permissions).
 
 ## Guidelines and limitations
 
-Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). You must also accept a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before you can use AI capabilities in Journey Optimizer B2B Edition. For more information, contact your Adobe representative.
+Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). You must also accept a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
 
 With Adobe's commitment to promote transparency in the use of generative AI tools in media creation, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} for any content or project that includes a Firefly-generated asset when it is downloaded or exported.
 
-The following limitations and guidelines apply to AI Assistant features used for landing page content generation in Journey Optimizer B2B Edition:
+The following limitations and guidelines apply to AI Assistant features used for landing page content generation in [!DNL Journey Optimizer B2B Edition]:
 
 * English is the only supported language.
 * Generated content might not be accurate &#8212; share your feedback so that Adobe engineers can refine the models.
-* You can upload multiple brand assets, but can leverage only one for a specific generation.
+* You can upload multiple content reference assets, but can leverage only one for a specific generation.
 * Use a brand specific or custom template for generating content for a full landing page. Landing page templates with up to 8-10 images are recommended.
-* Make sure to report any problematic outputs using the thumb up, thumb down, or flag icons when selecting variants.
+* Make sure to report any problematic outputs using the thumb up, thumb down, or flag icons when selecting generated variants.
 
 ## Input and settings for content generation
 
@@ -100,7 +100,7 @@ From the **[!UICONTROL Reference content]** settings, click **[!UICONTROL Upload
 
 The file to upload can be in the following formats: PDF, JPEG, PNG, or ZIP files (containing supported file formats). The maximum size for an uploaded brand asset is 50MB. Larger files or a large number of images can work, but this increases the processing time.
 
-You can select a previously uploaded file using the **[!UICONTROL Uploaded reference content]** menu. Simply toggle the asset you that you want to include in your generation.
+You can select a previously uploaded file using the **[!UICONTROL Uploaded reference content]** menu. Simply toggle the asset that you want to include in your generation.
 
 <!-- ![Toggle reference content to use](./assets/gen-ai-full-upload-brand-assets.png){zoomable="yes"} -->
 
@@ -112,7 +112,7 @@ Use the following steps according to the type of landing page content generation
 
 >[!BEGINTABS]
 
->[!TAB Full page generation]
+>[!TAB Full page]
 
 Follow these steps to use AI Assistant for full landing page generation by refining an existing landing page template:
 
@@ -148,7 +148,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
    * [**[!UICONTROL Text settings]**](#text-settings) - Provide guidance for the generated text content.
    * [**[!UICONTROL Image settings]**](#image-settings) - If you want to include images in the generated content, enable image generation and provide guidance. 
-   * [**[!UICONTROL Reference content]**](#reference-content) - Provide the content assets that serve as the source for content generation. 
+   * [**[!UICONTROL Reference content]**](#reference-content) - Provide the content asset that serves as the source for content generation. 
 
 1. When your prompt and settings are ready, click **[!UICONTROL Generate]**. 
 
@@ -164,7 +164,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
    You can use the editing and formatting tools on the canvas to alter the generated content, as well as the _[!UICONTROL Settings]_ and _[!UICONTROL Style]_ options on the right.
 
->[!TAB Text generation]
+>[!TAB Text only]
 
 Follow these steps to use AI Assistant to refine or enhance the text content for an existing landing page:
 
@@ -204,7 +204,7 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
    You can use the editing and formatting tools on the canvas to alter the text, as well as the _[!UICONTROL Settings]_ and _[!UICONTROL Style]_ options on the right.
 
->[!TAB Image recommendations]
+>[!TAB Image only]
 
 Follow these steps to use AI Assistant to refine or enhance the image content for an existing landing page:
 
@@ -258,9 +258,9 @@ After generating content variations, you can fine-tune the results to ensure tha
 
 1. After the initial content generation, browse through the **[!UICONTROL Variations]**.
 
-1. Identify the variation that is the best match for your goals and click **[!UICONTROL Preview]** to view the selected variation in more depth.
+1. Identify the variation that is the best match for your goals and click **[!UICONTROL Preview]** to view it in more depth.
 
-   ![Access the preview dialog](./assets/gen-ai-preview-text-refine.png){zoomable="yes"}
+   ![Access the preview dialog](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 1. When you are satisfied with the selected variation, click **[!UICONTROL Select]** to apply it to your canvas.
 
@@ -292,10 +292,12 @@ Provide feedback for the generated variants by clicking the _Thumbs Up_, _Thumbs
 
 ![AI Assistant - preview the generated variations](./assets/gen-ai-preview-feedback-thumbs-up.png){width="600" zoomable="yes"}
 
-<!-- 1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand.
+### Check your brand alignment (Beta)
 
-For detailed information, see [Brand alignment scoring](./brand-alignment.md)
+<!-- Are we surfacing scoring here in the future, or will it be a separate post-creation task? 1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand. -->
 
-![Brand Alignment Score panel showing percentage score](./assets/gen-ai-full-brand-alignment-score.png){zoomable="yes"}
+The brand alignment evaluation and scoring help you to ensure consistency in tone, messaging, and visual identity across your campaigns, while also serving as a quality check before your content goes live. When the landing page content is complete, click the _Brand alignment_ ( ![Brand alignment icon](../assets/do-not-localize/icon-brand-compliance.svg) ) icon on the right to open the _Brand alignment_ right panel in the landing page design space.
 
--->
+![Access the Brand alignment tools](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+
+For detailed information, see [Validate your brand alignment](./brand-alignment.md#validate-your-brand-alignment)
