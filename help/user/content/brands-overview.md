@@ -21,7 +21,7 @@ exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
 >title="Select your Brand"
 >abstract="Choose your brand to ensure that all AI-generated content is tailored to align with your brand specifications and guidelines."
 
-Brands help to define your _brand identity_ and play a crucial role in ensuring consistent and effective content creation that accurately represents your brand identity, values, and messaging. By adhering to well-defined brand styles, organizations can maintain a cohesive and recognizable brand presence across channels and touchpoints, and strengthen their brand recognition, trust, and loyalty among their target audiences.
+Brands help to define a _brand identity_ and play a crucial role in ensuring consistent and effective content creation that accurately represents your brand identity, values, and messaging. By adhering to well-defined brand styles, organizations can maintain a cohesive and recognizable brand presence across channels and touchpoints, and strengthen their brand recognition, trust, and loyalty among their target audiences.
 
 +++Benefits of using brands
 
