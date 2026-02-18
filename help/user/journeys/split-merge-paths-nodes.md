@@ -20,7 +20,7 @@ A _Split paths_ node defines one or more segmented paths based on **_either_** a
 
 ## Split paths by accounts
 
-(Account journeys only)
+_(Account journeys only)_
 
 Split by accounts paths can include both account and people actions and events. These paths can be split further.
 
@@ -38,7 +38,8 @@ _**How a split path by accounts node works**_
 
 | Path conditions | Description |
 | --------------- | ----------- |
-| Account Attributes | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State <li>Has `<relational schema>` (See [Custom data filtering](#custom-data-filtering))|
+| [!UICONTROL Account Attributes] | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State |
+| [!UICONTROL Account Attributes] > Has `<custom object>` | The account does or does not have relational schema records. It can also be evaluated against any of the selected custome object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas). (See [Custom data filtering](#custom-data-filtering)) |
 | [!UICONTROL Special filters] > [!UICONTROL Account has matched buying group] | The account is matched with one or more buying groups. It can be evaluated against one or more of the following constraints for a matched buying group: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score <li> Number of people in buying group role |
 | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. It can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score |
 
@@ -114,22 +115,9 @@ For example, you might want to evaluate buying group readiness based on the dept
 
 For the identified accounts, you might then want to add an action node in the path to update the status of the buying group or stage, or to send a sales alert email.
 
-### Custom data filtering
-
-[!BADGE Beta]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Available as a beta feature on the simplified architecture"}
-
-You can use relational schemas (model-based classes) to split paths by account. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. The selected schema fields are available in the condition editor for use in split path by account nodes.
-
-![Conditions example for relational schema for offer](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}
-
-<!-- SPHR-23746
-
-Note: These are currently going under Account Attributes folder, which is a bug (SPHR-21734). This will move to Special filters when resolved (January release).
-
-This will also be available for split paths by people (under special filters) for the M 1.5 GA release.
--->
-
 ## Split paths by people
+
+_(Account and person journeys)_
 
 Split by people paths can include only people actions. These paths cannot be split again and automatically join back.
 
@@ -152,7 +140,8 @@ _**How a split path by people node works**_
 | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value<li>Previous value<li>Reason<li>Source<li>Date of activity<li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change).|
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated [!DNL Marketo Engage] instance. Constraints include: <li>Milestone<li>Email<li>Web <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).|
 | [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Web page activity that for one or more web pages managed by the associated [!DNL Marketo Engage] instance. Constraints include: <li>Web page (required)<li>Date of activity<li>Client IP address <li>Querystring <li>Referrer <li>User agent <li>Search engine <li>Search query <li>Personalized URL <li>Token <li>Browser <li>Platform <li>Device <li>Min. number of times <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page).   |
-| [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
+| [!UICONTROL Person Attributes] | Attributes from the person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason <li>Has `<custom object>` (See [Custom data filtering](#custom-data-filtering)) |
+| [!UICONTROL Person Attributes] > Has `<custom object>` | The person does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas). (See [Custom data filtering](#custom-data-filtering)) |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li>|
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more [!DNL Marketo Engage] lists. |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more [!DNL Marketo Engage] programs. |
@@ -270,6 +259,17 @@ To use list membership in a split condition, expand **[!UICONTROL Special Filter
 >With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, filtering based on list or program membership in a Marketo Engage instance in not supported.
    
 >[!ENDSHADEBOX]
+
+## Custom data filtering
+
+You can use relational schemas (model-based classes) to split paths by account or people. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. The selected schema fields are available in the condition editor for use in _split path by account_ and _split path by people_ nodes.
+
+![Conditions example for relational schema for offer](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}
+
+<!-- SPHR-21734
+
+Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
+-->
 
 ## Merge paths
 
