@@ -39,7 +39,7 @@ _**How a split path by accounts node works**_
 | Path conditions | Description |
 | --------------- | ----------- |
 | [!UICONTROL Account Attributes] | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State |
-| [!UICONTROL Account Attributes] > Has `<custom object>` | The account does or does not have relational schema records. It can also be evaluated against any of the selected custome object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas). (See [Custom data filtering](#custom-data-filtering)) |
+| [!UICONTROL Account Attributes] > Has `<custom object>` | The account does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas). (See [Custom data filtering](#custom-data-filtering)) |
 | [!UICONTROL Special filters] > [!UICONTROL Account has matched buying group] | The account is matched with one or more buying groups. It can be evaluated against one or more of the following constraints for a matched buying group: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score <li> Number of people in buying group role |
 | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | The account does or does not have members of buying groups. It can also be evaluated against one or more of the following criteria: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score |
 
@@ -256,7 +256,7 @@ To use list membership in a split condition, expand **[!UICONTROL Special Filter
 >
 >**Feature deprecation**</br></br>
 >
->With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, filtering based on list or program membership in a Marketo Engage instance in not supported.
+>With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, filtering based on list or program membership in a Marketo Engage instance is not supported.
    
 >[!ENDSHADEBOX]
 
@@ -264,7 +264,13 @@ To use list membership in a split condition, expand **[!UICONTROL Special Filter
 
 You can use relational schemas (model-based classes) to split paths by account or people. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. The selected schema fields are available in the condition editor for use in _split path by account_ and _split path by people_ nodes.
 
-![Conditions example for relational schema for offer](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}
+For a **[!UICONTROL Split path by account]** condition, use the search field to filter the list by the custom object name under _[!UICONTROL Account Attributes]_. Add the condition and set the value to `true` or `false`.
+
+![Person attributes conditions example for relational schema custom object](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+
+For a **[!UICONTROL Split path by people]** condition, use the search field to filter the list by the custom object name under _[!UICONTROL Person Attributes]_. 
+
+![Person attributes conditions example for relational schema custom object](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
 
 <!-- SPHR-21734
 
@@ -273,7 +279,7 @@ Note: These are currently going under Account Attributes/Person Attributes folde
 
 ## Merge paths
 
-Add a _Merge paths_ node to combine different split paths by account in your journey. 
+Add a _Merge paths_ node to combine different _split paths by account_ in your journey. 
 
 1. Navigate to the journey map.
 

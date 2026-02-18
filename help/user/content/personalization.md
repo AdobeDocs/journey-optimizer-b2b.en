@@ -73,15 +73,15 @@ When the expression is complete and free of errors, click **[!UICONTROL Save]**.
 
 ### Custom datasets
 
-You can use relational schemas (model-based classes) for email personalization. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. These fields are accessible in the personalization editor. Only custom objects that have a one-to-many (1:M) relationship to Account <!-- (M1.5 Beta) or Person (M1.5 GA) --> are available.
+You can use relational schemas (relational schemas) for email personalization. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. These fields are accessible in the personalization editor. Only custom objects that have a one-to-many (1:M) relationship to People or Account are available.
 
 >[!IMPORTANT]
 >
 >Before you use custom objects for scripted personalization, make sure that you review and understand the [Handlebar templating language](https://handlebarsjs.com/guide/), [personalization syntax](./personalization-syntax.md), and the built-in [helper functions](./personalization-helper-functions.md).
 
-When you define personalization using the custom objects, you can access to all variables in script-accessible objects across the **[!UICONTROL Personalization tokens]** (person/lead, account, system, and My Tokens) and the **[!UICONTROL Model-based classes]** (relational schemas). With Model-based classes selected, you can view the fields by clicking the custom object folder. Click **+** for each field that you want to add it to the expression.
+When you define personalization using the custom objects, you can access to all variables in script-accessible objects across the **[!UICONTROL Personalization tokens]** (person/lead, account, system, and My Tokens) and the **[!UICONTROL Custom objects]** (relational schemas). With custom objects selected, you can view the fields by clicking the custom object folder. Click **+** for each field that you want to add it to the expression.
 
-![Personalization editor - Model-based classes - add custom object fields](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
+![Personalization editor - Model-based classes - add custom object fields](./assets/personalization-editor-custom-object-fields.png){width="700" zoomable="yes"}
 
 <!-- ## Personalization experimentation {#playground}
 
