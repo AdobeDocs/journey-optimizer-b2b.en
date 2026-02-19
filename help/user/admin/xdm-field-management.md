@@ -109,7 +109,7 @@ Relational schemas allow you to create custom data classes. With access to multi
 
 For information about how you can use the selected fields for advanced email personalization, see [Content personalization](../content/personalization.md#custom-datasets). For information about how you can use the selected fields for journey decisioning (split paths by account or people), see [Custom data filtering](../journeys/split-merge-paths-nodes.md#custom-data-filtering).
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >The [Relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) are available for [!DNL Journey Optimizer B2B Edition] as a limited availability release. Data Mirror and relational schemas are available to [!DNL Journey Optimizer Orchestrated Campaigns] license holders. Relational schemas are also available as a limited release for [!DNL Customer Journey Analytics] users, depending on your license and feature enablement. Contact your Adobe representative for access.
 

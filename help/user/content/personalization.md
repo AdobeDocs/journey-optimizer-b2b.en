@@ -17,7 +17,7 @@ exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
 
 [!DNL Adobe Journey Optimizer B2B Edition] personalization capabilities allow you to adapt your email messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, industry, title, and more.
 
-Using the _personalization editor_, you can select, arrange, customize and validate all the data to create a customized personalization for your content. Use various tools, such as helper functions, to tailor messages. The editor uses an inline personalization syntax based on _Handlebars_, where expressions are constructed with contents enclosed by double curly braces `{{}}`.
+Using the _personalization editor_, you can select, arrange, customize, and validate all the data to create a customized personalization for your content. Use various tools, such as helper functions, to tailor messages. The editor uses an inline personalization syntax based on _Handlebars_, where expressions are constructed with contents enclosed by double curly braces `{{}}`.
 
 When processing the message, Journey Optimizer B2B Edition replaces the expression with the data contained in the Adobe Experience Platform dataset and local system values. For example, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` dynamically becomes `Hello John Doe`.
 
@@ -73,36 +73,14 @@ When the expression is complete and free of errors, click **[!UICONTROL Save]**.
 
 ### Custom datasets
 
-You can use relational schemas (relational schemas) for email personalization. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. These fields are accessible in the personalization editor. Only custom objects that have a one-to-many (1:M) relationship to People or Account are available.
+[!BADGE Beta]{type=Informative tooltip="Beta feature"} 
+
+You can use relational schemas for email personalization. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. These fields are accessible in the personalization editor. Only custom objects that have a one-to-many (1:M) relationship to People or Account are available.
 
 >[!IMPORTANT]
 >
->Before you use custom objects for scripted personalization, make sure that you review and understand the [Handlebar templating language](https://handlebarsjs.com/guide/), [personalization syntax](./personalization-syntax.md), and the built-in [helper functions](./personalization-helper-functions.md).
+>Before you use custom objects for scripted personalization, make sure that you review and understand the [Handlebars templating language](https://handlebarsjs.com/guide/), [personalization syntax](./personalization-syntax.md), and the built-in [helper functions](./personalization-helper-functions.md).
 
-When you define personalization using the custom objects, you can access to all variables in script-accessible objects across the **[!UICONTROL Personalization tokens]** (person/lead, account, system, and My Tokens) and the **[!UICONTROL Custom objects]** (relational schemas). With custom objects selected, you can view the fields by clicking the custom object folder. Click **+** for each field that you want to add it to the expression.
+When you define personalization using the custom objects, you can access all variables in script-accessible objects across the **[!UICONTROL Personalization tokens]** (person/lead, account, system, and My Tokens) and the **[!UICONTROL Custom objects]** (relational schemas). With custom objects selected, you can view the fields by clicking the custom object folder. Click **+** for each field that you want to add to the expression.
 
 ![Personalization editor - Model-based classes - add custom object fields](./assets/personalization-editor-custom-object-fields.png){width="700" zoomable="yes"}
-
-<!-- ## Personalization experimentation {#playground}
-
-**[!DNL Adobe Journey Optimizer]** includes an interactive tool designed to help you learn and experiment with personalization capabilities.
-
-This playground provides a simulated environment to write and test personalization code using sample data without requiring live datasets. You can leverage predefined code samples, edit dummy profile payloads, and preview the output of your personalization code in real-time. 
-
-![personalization playground](assets/playground.png)
-
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"} 
-
-## How-to videos{#video-perso}
-
-Learn how to use contextual event information from a journey to personalize a message.
-
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
-
-Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
-
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
-
-Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
-
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12) -->
