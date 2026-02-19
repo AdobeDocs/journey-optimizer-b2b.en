@@ -81,6 +81,6 @@ You can use relational schemas for email personalization. The custom objects are
 >
 >Before you use custom objects for scripted personalization, make sure that you review and understand the [Handlebars templating language](https://handlebarsjs.com/guide/), [personalization syntax](./personalization-syntax.md), and the built-in [helper functions](./personalization-helper-functions.md).
 
-When you define personalization using the custom objects, you can access all variables in script-accessible objects across the **[!UICONTROL Personalization tokens]** (person/lead, account, system, and My Tokens) and the **[!UICONTROL Custom objects]** (relational schemas). With custom objects selected, you can view the fields by clicking the custom object folder. Click **+** for each field that you want to add to the expression.
+When you define personalization using custom objects, you can access all variables in script-accessible objects across the **[!UICONTROL Personalization tokens]** (person/lead, account, system, and My Tokens) and the **[!UICONTROL Custom objects]** (relational schemas). With custom objects selected, you can view the fields by clicking the custom object folder. Click **+** for each field that you want to add to the expression.
 
 ![Personalization editor - Model-based classes - add custom object fields](./assets/personalization-editor-custom-object-fields.png){width="700" zoomable="yes"}
