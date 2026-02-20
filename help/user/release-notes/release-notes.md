@@ -12,15 +12,23 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
-## Agentic-AI capabilities
+## 2026.2 release notes
 
-The following agentic AI capabilities are now available for Journey Optimizer B2B Edition within the AI Assistant interface:
+**Deployment date**: February 20, 2026
 
-| Agent | Update | Description |
-| ----- | ------ | ----------- |
-| Journey Build Agent | New and updated | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
-| Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
-| Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels [Learn more](../agents/sales-qualifier.md) |
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | XDM fields/relational schemas - support for person custom objects | Administrators can now select custom objects that are related to a person using a single-level, one-to-one relationship with an account. This capability enables your marketing organization to represent a richer view of your real-world business data to target, personalize, and report on entities beyond the person or account level. |
+| Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
+| Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
+| Enhancement | Journey re-entry | You can now send accounts/people through a journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. |
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions  within the same journey and remove accounts from virtual audiences. |
+| Enhancement | Account and person journeys - support for person custom objects | Leverage the relational data that is linked to accounts for filtering people within an account or person journey. |
+| Enhancement | Content personalization - support for person custom objects | When you define content personalization using the custom objects, you can access variables for the model-based class custom objects (relational schemas). |
+
+>[!NOTE]
+>
+>These release changes begin deployment on February 20, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.1 release notes
 
@@ -31,7 +39,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | Feature | Brand kits | (Beta) Define a brand in Journey Optimizer B2B Edition to provide the source of truth for your creative team to use when they create any visual or written content. When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. |
 | Feature | Brands for email content generation | You can define your brand guidelines and use this information to generate email content. With this feature, email content is aligned with your brand specific copywriting guidelines, styles, and tone. |
 | Enhancement | Journey _Wait_ node - advanced settings | For a _Wait_ node in a journey, you can now specify exit days and times, and select time zones. This enhancement gives you better control for your journey orchestration and campaign timing. |
-| Enhancement | Member of Buying Group special filter - Is Removed constraint| The _[!UICONTROL Member of Buying Group]_ special filter now includes the _Is Removed_ constraint. When you add this constraint to the filter, you can include removed buying group members or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
+| Enhancement | Member of Buying Group special filter - Is Removed constraint | The _[!UICONTROL Member of Buying Group]_ special filter now includes the _Is Removed_ constraint. When you add this constraint to the filter, you can include removed buying group members or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
 | Enhancement | Email design - multiple-level bullets | The email content design space tools now support sub-bullets (bullet levels).  |
 
 <!--
@@ -41,6 +49,16 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 >[!NOTE]
 >
 >These release changes begin deployment on February 3, 2026, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
+
+## Agentic-AI capabilities
+
+The following agentic AI capabilities are now available for Journey Optimizer B2B Edition within the AI Assistant interface:
+
+| Agent | Update | Description |
+| ----- | ------ | ----------- |
+| Journey Build Agent | New and updated | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
+| Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
+| Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels [Learn more](../agents/sales-qualifier.md) |
 
 ## 2025.10 release notes
 
