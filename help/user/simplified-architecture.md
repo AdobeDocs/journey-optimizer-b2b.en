@@ -5,6 +5,7 @@ feature: Setup, Administration
 role: Admin, Data Engineer
 hide: yes
 hidefromtoc: yes
+exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
 ---
 # Simplified architecture setup
 

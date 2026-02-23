@@ -6,6 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: email, deduplication, journey, duplicate
+exl-id: 93107acd-1cb2-4316-acfc-e32ab1e065ae
 ---
 # Email deduplication
 

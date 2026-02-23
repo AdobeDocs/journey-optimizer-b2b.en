@@ -3,6 +3,7 @@ title: Persona Mapping
 description: Learn how to set up persona mapping for B2B marketing. Map person attributes in Journey Optimizer B2B Edition to create role templates and optimize buying group targeting.
 feature: Setup, Buying Groups
 role: Admin
+exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
 ---
 # Persona mapping
 

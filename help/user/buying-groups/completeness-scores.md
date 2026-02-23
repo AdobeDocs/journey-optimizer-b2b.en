@@ -3,8 +3,8 @@ title: Completeness Scores for Buying Groups
 description: Calculate buying group completeness scores using role-based thresholds, customizable member requirements, and completeness settings in Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
+exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
 ---
-
 # Completeness scores {#completeness-scores}
 
 >[!CONTEXTUALHELP]

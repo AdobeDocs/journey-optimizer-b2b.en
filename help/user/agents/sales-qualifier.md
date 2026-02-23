@@ -1,10 +1,10 @@
 ---
-title: Sales Qualifier 
+title: Sales Qualifier
 description: Automate B2B prospect qualification and outreach with Sales Qualifier. It provides AI-powered research, email drafting, CRM integration, and engagement plans for BDRs.
-feature:  AI Assistant, Sales Insights, Account Journeys
+feature: AI Assistant, Sales Insights, Account Journeys
 role: User
+exl-id: cc590444-41df-44fe-830b-92241718ee81
 ---
-
 # Sales Qualifier
 
 >[!NOTE]

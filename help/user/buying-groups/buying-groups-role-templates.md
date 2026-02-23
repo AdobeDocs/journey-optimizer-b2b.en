@@ -58,7 +58,7 @@ Each role that you define for the template uses a set of filters, or _conditions
 | ---- | --------- |
 | Person attributes | <li>Email address <li>Email invalid <li>Email suspended <li>Fax number <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Middle name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
 | Special filters | <li>Member of list <li>Member of program|
-| Intent data | Category intent <li>Product intent <li>Keyword intent<br/>[Learn about intent data](../admin/intent-data.md).|
+| Intent data | <li>Category intent <li>Product intent <li>Keyword intent<br/>[Learn about intent data](../admin/intent-data.md) |
 
 1. For the first role card, define the role properties.
 
@@ -109,6 +109,13 @@ In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that
 To use list membership as a role condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space. Then complete the filter definition to evaluate membership in one or more Marketo Engage lists.
 
 ![Roles template condition for Marketo Engage list membership](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+<br/>
+
+>[!NOTE]
+>
+>**Feature deprecation**</br></br>
+>
+>With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, filtering based on list or program membership in a Marketo Engage instance in not supported.
 
 >[!ENDSHADEBOX] 
 

@@ -1,8 +1,9 @@
 ---
 title: Email Collaboration Tools
-description: Collaborate on emails in Journey Optimizer B2B Edition. Add comments, invite reviewers, resolve feedback, and streamline review workflows for teams. 
+description: Collaborate on emails in Journey Optimizer B2B Edition. Add comments, invite reviewers, resolve feedback, and streamline review workflows for teams.
 feature: Email Authoring, Content
 role: User
+exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
 ---
 # Email collaboration tools
 
