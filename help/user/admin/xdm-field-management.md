@@ -107,15 +107,15 @@ Create a dataset for Individual Profile, and another for Business Account. Selec
 
 Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities such as purchases, licenses, and event registrations in journey decisions and email personalization. You can select up to 50 schemas and up to 100 fields per schema.
 
-For information about how you can use the selected fields for advanced email personalization, see [Content personalization](../content/personalization.md#custom-datasets). For information about how you can use the selected fields for journey decisioning (split paths by account), see [Custom data filtering](../journeys/split-merge-paths-nodes.md#custom-data-filtering). <!-- add link to split path by people in M 1.5 GA release -->
+For information about how you can use the selected fields for advanced email personalization, see [Content personalization](../content/personalization.md#custom-datasets). For information about how you can use the selected fields for journey decisioning (split paths by account or people), see [Custom data filtering](../journeys/split-merge-paths-nodes.md#custom-data-filtering).
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >The [Relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) are available for [!DNL Journey Optimizer B2B Edition] as a limited availability release. Data Mirror and relational schemas are available to [!DNL Journey Optimizer Orchestrated Campaigns] license holders. Relational schemas are also available as a limited release for [!DNL Customer Journey Analytics] users, depending on your license and feature enablement. Contact your Adobe representative for access.
 
 >[!NOTE]
 >
->This feature currently supports account-related custom object use cases, with plans to support more out-of-the-box object use cases in the future.
+>This feature currently supports account-related and people-related custom object use cases, with plans to support more out-of-the-box object use cases in the future.
 
 You can create relational schemas using the schema editor (go to **[!UICONTROL Data Management]** > **[!UICONTROL Schemas]** in the left navigation).
 
@@ -138,13 +138,9 @@ To select relational schema fields for use in [!DNL Journey Optimizer B2B Editio
 
    >[!NOTE]
    >
-   >In this beta feature release, only _Account many-to-one Custom Objects_ are supported.
+   >In this beta feature release, only _Account and People many-to-one Custom Objects_ are supported.
 
 1. Select a relational schema and click **[!UICONTROL Next]**.
-
-   >[!NOTE]
-   >
-   >In this beta feature release, you cannot remove a schema from the list after you select it.
 
    ![Select a relational schema in the dialog](./assets/xdm-classes-relational-select-schema-dialog.png){width="500" zoomable="yes"}      
 
