@@ -42,13 +42,13 @@ With an _advanced wait step_, you define **_when_** the person or account should
 | Wait type | Description | Configuration |
 | --------- | ----------- | ------------- |
 | **Specific time of day** | Hold until a specific time (such as 9:00 AM) | Set the time (hour and minute). Exits at the next occurrence of that time (for the selected time zone). |
-| **Specific day of week** | Hold until a particular day (such as Tuesday) | Select one or more days of the week. If no time is specified, exits at midnight (for the selected time zone) on the next matching day. |
+| **Specific day of week** | Hold until a particular day (such as Tuesday) | Select a day of the week. If no time is specified, exits at midnight (for the selected time zone) on the next matching day. |
 | **Day range or combination** | Hold until any day within a range (such as Monday–Friday), or on any one of the specified days | Select your target days. If no time is specified, exits at midnight (for the selected time zone) on the next matching day. |
 | **Time + Day combination** | Combine both for precise scheduling (such as Tuesday at 10:00 AM) | Select your target days and set the target time. Exits at the next day/time occurrence (for the selected time zone). |
 
 ### Common scenarios
 
-The following example scenarios illustrate how you can apply typical scenarios to your wait node configuration:
+The following scenarios illustrate how you can apply typical scenarios to your wait node configuration:
 
 +++Email arrival during business hours
 
