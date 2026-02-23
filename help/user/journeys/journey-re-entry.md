@@ -10,7 +10,7 @@ exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
 
 _Account journeys only_
 
-When you enable re-entry for an account journey, you can control when and how often an account can re-enter the same journey. Use the re-entry settings to set criteria, limits, and wait times so that accounts requalify in a controlled way.
+When you enable re-entry for an account journey, you can control when and how often an account can re-enter the same journey. Use the re-entry settings to set criteria, limits, and wait times so that accounts requalify for the journey in a controlled way.
 
 An account can requalify for a journey when the following items are true:
 

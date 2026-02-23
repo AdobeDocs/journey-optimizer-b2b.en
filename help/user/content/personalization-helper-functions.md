@@ -14,7 +14,7 @@ Use the Helper functions within the personalization editor to define personalize
 
 >[!AVAILABILITY]
 >
->Helper functions are available for Joureny Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
+>Helper functions are available for [!DNL Journey Optimizer B2B Edition] environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
 
 ## Aggregation functions
 
