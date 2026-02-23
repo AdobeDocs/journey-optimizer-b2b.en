@@ -36,11 +36,11 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Brand kits | (Beta) Define a brand in Journey Optimizer B2B Edition to provide the source of truth for your creative team to use when they create any visual or written content. When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. |
-| Feature | Brands for email content generation | You can define your brand guidelines and use this information to generate email content. With this feature, email content is aligned with your brand specific copywriting guidelines, styles, and tone. |
-| Enhancement | Journey _Wait_ node - advanced settings | For a _Wait_ node in a journey, you can now specify exit days and times, and select time zones. This enhancement gives you better control for your journey orchestration and campaign timing. |
+| Feature | Brand kits | (Beta) Define a brand in Journey Optimizer B2B Edition to provide the source of truth for your creative team to use when they create any visual or written content. When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. [Learn more](../content/brands-overview.md) |
+| Feature | Brands for email content generation | You can define your brand guidelines and use this information to generate email content. With this feature, email content is aligned with your brand specific copywriting guidelines, styles, and tone. [Learn more](../content/ai-assistant-emails.md) |
+| Enhancement | Journey _Wait_ node - advanced settings | For a _Wait_ node in a journey, you can now specify exit days and times, and select time zones. This enhancement gives you better control for your journey orchestration and campaign timing. [Learn more](../journeys/wait-nodes.md) |
 | Enhancement | Member of Buying Group filter - Is Removed | For a _split path by people_ node, the _[!UICONTROL Member of Buying Group]_ filter now includes the _Is Removed_ constraint. When you select it, the filter can include the removed buying group member or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
-| Enhancement | Email design - multiple-level bullets | The email content design space tools now support sub-bullets (bullet levels).  |
+| Enhancement | Email design - multiple-level bullets | The email content design space tools now support sub-bullets (bullet levels). |
 
 <!--
 | Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
