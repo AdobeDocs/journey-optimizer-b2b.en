@@ -29,13 +29,17 @@ There are two ways that you can define the wait time:
 
    ![Journey node - wait](./assets/node-wait.png){width="500"}
 
-## Advanced wait step
+## Advanced wait settings
 
 Enable the **[!UICONTROL Must end on]** option to configure an _advanced wait step_ and ensure that your messages reach people and account members at the optimal moment. This configuration gives you precise control over when a person or account exits a wait step and proceeds to the next node in the journey. Rather than a fixed number of hours or days from entry to exit, you can schedule actions to occur at specific times and on specific days of the week. 
 
 With an _advanced wait step_, you define **_when_** the person or account should exit, not just how long they should wait.
 
 ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"}
+
+>[!AVAILABILITY]
+>
+>Advanced wait settings are available for [!DNL Journey Optimizer B2B Edition] environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
 
 ### Wait types
 
