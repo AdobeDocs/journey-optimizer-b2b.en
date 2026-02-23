@@ -4,8 +4,8 @@ description: Control when and how often accounts can re-enter the same account j
 feature: Account Journeys
 role: User
 level: Intermediate
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
 ---
-
 # Journey re-entry
 
 _Account journeys only_
