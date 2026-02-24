@@ -18,13 +18,17 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | XDM fields/relational schemas - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  (Beta) Administrators can now select custom objects that are related to a person using a single-level, one-to-one relationship with an account. This capability enables your marketing organization to represent a richer view of your real-world business data to target, personalize, and report on entities beyond the person or account level. [Learn more](../admin/xdm-field-management.md#relational-schemas) |
+| Feature | XDM fields/relational schemas - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} (Beta) Administrators can now select custom objects that are related to a person using a single-level, one-to-one relationship with an account. This capability enables your marketing organization to represent a richer view of your real-world business data to target, personalize, and report on entities beyond the person or account level. [Learn more](../admin/xdm-field-management.md#relational-schemas) |
 | Feature | Journey re-entry | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  You can now send accounts/people through a journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. [Learn more](../journeys/journey-re-entry.md) |
-| Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
-| Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
 | Enhancement | Account and person journeys - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} (Beta) Leverage the relational data that is linked to accounts for filtering people within an account or person journey. [Learn more](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Enhancement | (Beta) Content personalization - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  When you define content personalization using the custom objects, you can access variables for the model-based class custom objects (relational schemas). [Learn more](../content/personalization.md#custom-datasets) |
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions  within the same journey and remove accounts from virtual audiences. |
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
+
+<!-- wait for next release
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
+| Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
+| Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
+| -->
 
 >[!NOTE]
 >
@@ -41,10 +45,6 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Enhancement | Journey _Wait_ node - advanced settings | [!BADGE Simplified architecture]{type=Informative tooltip="Available for simplified architecture"}  For a _Wait_ node in a journey, you can now specify exit days and times, and select time zones. This enhancement gives you better control for your journey orchestration and campaign timing. [Learn more](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Enhancement | Member of Buying Group filter - Is Removed | For a _split path by people_ node, the _[!UICONTROL Member of Buying Group]_ filter now includes the _Is Removed_ constraint. When you select it, the filter can include the removed buying group member or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
 | Enhancement | Email design - multiple-level bullets | The email content design space tools now support sub-bullets (bullet levels). |
-
-<!--
-| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
-| -->
 
 >[!NOTE]
 >
