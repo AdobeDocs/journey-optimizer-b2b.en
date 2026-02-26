@@ -23,6 +23,12 @@ With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe
 * [Journey Build Agent B2B](./agents/journey-agent.md)
 * [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
 
+>[!TAB Journey re-entry]
+
+You can now send accounts/people through an account journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. Use the re-entry settings to set criteria, limits, and wait times so that accounts requalify for the journey in a controlled way.
+
+[!BADGE Learn more]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Learn about journey re-entry"}
+
 >[!TAB Brand themes]
 
 With themes, non-technical designers have the ability to create reusable email content design guidelines that align to a specific brand and styling. Themes empower marketers to leverage visually appealing, brand-consistent emails faster and with less effort, and provide advanced customization options for unique design needs.
@@ -53,18 +59,13 @@ The email design space now includes _dark mode_ preview and settings. Dark mode 
 
 [!BADGE Learn more]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Learn about dark mode email design"}
 
->[!TAB Person engagement score]
-
-B2B marketers can now use a person-level engagement scores as a filter in their split paths for a journey or in a roles template to create buying groups. This score and filtering enables precise targeting of buying groups members to personalize ongoing engagement.
-
-[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Learn about person engagement scores and filtering"}
-
 >[!ENDTABS]
 
 ## Start exploring {#section-explore}
 
 :::: landing-cards-container
 :::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Latest Release Notes
 
@@ -84,6 +85,7 @@ Review the Journey Optimizer B2B Edition onboarding guidance for administrators 
 :::
 
 :::
+![Configure icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configure Your XDM fields
 
@@ -143,7 +145,7 @@ Discover the components of a buying group and understand the basics of building 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12) 
 
-## Dig into the documentation
+## Explore the documentation
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
