@@ -85,7 +85,7 @@ Review the Journey Optimizer B2B Edition onboarding guidance for administrators 
 :::
 
 :::
-![Configure icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![Configure icon](https://cdn.experienceleague.adobe.com/icons/gear.svg){width="25"}
 
 Configure Your XDM fields
 
