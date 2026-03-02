@@ -103,7 +103,7 @@ The file to upload can be in the following formats: PDF, JPEG, PNG, or ZIP files
 
 If you want to select a previously uploaded file, expand the **[!UICONTROL Uploaded reference content]** list and enable the asset that you want to use for your content generation.
 
-![Enable existing reference content to use](./assets/gen-ai-full-upload-brand-assets.png){zoomable="yes"}
+![Enable existing reference content to use](./assets/gen-ai-reference-content-select.png){zoomable="yes"}
 
 ## Use the generative AI tools {#gen-ai-tools}
 
