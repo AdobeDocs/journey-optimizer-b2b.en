@@ -78,6 +78,8 @@ For best results with generated content, organize your prompts using the CO-STAR
 | **A - Audience** | The audience that you are targeting | Ensures that the message resonates with the right people |
 | **R - Requirements** | Specific constraints or must-haves | Defines boundaries and critical elements |
 
+{style="table-layout:fixed"}
+
 ### Prompting essentials {#key-takeaways}
 
 <table style="table-layout: fixed; width: 100%; border: 0;">
@@ -119,9 +121,9 @@ The following requests are **_not supported_** and should be handled through oth
 <table style="table-layout: fixed; border: 0;">
 <thead style="border: 0; background-color: #FFFFFF">
 <tr>
-<th>&#10005; Email structure modifications</th>
-<th>&#10005; Visual styling changes</th>
-<th>&#10005; Image editing operations</th>
+<th><img src="../../assets/do-not-localize/check-box-red.svg" alt="Red cross out">  Email structure modifications</th>
+<th><img src="../../assets/do-not-localize/check-box-red.svg" alt="Red cross out">  Visual styling changes</th>
+<th><img src="../../assets/do-not-localize/check-box-red.svg" alt="Red cross out">  Image editing operations</th>
 </tr>
 </thead>
 <tbody>
@@ -159,19 +161,19 @@ The following requests are **_not supported_** and should be handled through oth
 
 Before generating content, ensure the following:
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Clear objective**: Clearly states the action, product/service, value, and context.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} **Clear objective**: Clearly states the action, product/service, value, and context.
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Defined target audience**: Specifies the demographic, role, or segment.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} **Defined target audience**: Specifies the demographic, role, or segment.
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Content type alignment**: Objective matches the selected channel or format.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} **Content type alignment**: Objective matches the selected channel or format.
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Review selections**: Tone, strategy, and locale are chosen, do not include them in the prompt.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} **Review selections**: Tone, strategy, and locale are chosen, do not include them in the prompt.
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Document focus is specified**: Highlights which content or sections to reference.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} **Document focus is specified**: Highlights which content or sections to reference.
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Brand applied**: Appropriate brand guidelines are selected.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} **Brand applied**: Appropriate brand guidelines are selected.
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) **Realistic scope**: Avoid requests for layout changes, styling, or structural edits.
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} **Realistic scope**: Avoid requests for layout changes, styling, or structural edits.
 
 ### Effective marketing objectives {#marketing-objectives}
 
@@ -179,19 +181,19 @@ When crafting marketing objectives, make sure they are clear, actionable, and me
 
 **Examples of good objectives:**
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Drive sign-ups for the free 30-day trial of the new AI-powered analytics dashboard"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} "Drive sign-ups for the free 30-day trial of the new AI-powered analytics dashboard"
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Generate leads for the B2B webinar on 'Reducing Cloud Costs by 40%' happening March 15"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} "Generate leads for the B2B webinar on 'Reducing Cloud Costs by 40%' happening March 15"
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Promote the limited-time 25% discount on premium subscriptions, ending December 25"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} "Promote the limited-time 25% discount on premium subscriptions, ending December 25"
 
 **Examples to avoid:**
 
-![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Promote the product" (too vague)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg){width="20"} "Promote the product" (too vague)
 
-![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Make people sign deals" (unclear value)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg){width="20"} "Make people sign deals" (unclear value)
 
-![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Email about new features" (lacks purpose)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg){width="20"} "Email about new features" (lacks purpose)
 
 #### Structure your objective
 
@@ -199,23 +201,23 @@ Always provide context and the value proposition for producing relevant content.
 
 **Examples of good objectives:**
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Encourage downloads of the new mobile app that helps users track sustainable living habits with personalized eco-friendly recommendations"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} "Encourage downloads of the new mobile app that helps users track sustainable living habits with personalized eco-friendly recommendations"
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Promote registration for the exclusive workshop on advanced data visualization techniques for marketing professionals"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} "Promote registration for the exclusive workshop on advanced data visualization techniques for marketing professionals"
 
-![Green check mark](../../assets/do-not-localize/check-box-green.svg) "Drive attendance to the product launch event showcasing the revolutionary AI writing assistant that saves 5+ hours per week"
+![Green check mark](../../assets/do-not-localize/check-box-green.svg){width="20"} "Drive attendance to the product launch event showcasing the revolutionary AI writing assistant that saves 5+ hours per week"
 
 **Examples to avoid:**
 
-![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Announce new app" (missing value proposition and context)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg){width="20"} "Announce new app" (missing value proposition and context)
 
-![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Get people to sign up for workshop" (lacks specificity about audience and benefit)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg){width="20"} "Get people to sign up for workshop" (lacks specificity about audience and benefit)
 
-![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Promote event" (no clear action, value, or urgency)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg){width="20"} "Promote event" (no clear action, value, or urgency)
 
 #### Example prompts by channel type {#channel-type-practices}
 
-<table style="table-layout: fixed; border: 0;">
+<table style="table-layout: auto; border: 0;">
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
 <th>Channel</th>

@@ -47,7 +47,7 @@ For more information about creating effective prompts, see _[Prompt best practic
 
 An effective prompt is essential for generating the best possible content. If you want assistance with crafting your prompt, click the _Prompt library_ ![Prompt library icon](../assets/do-not-localize/icon-library.svg) icon to access a library of prompt ideas that are organized according to objectives. Enter text in the search field to find a prompt based on a keyword string.
 
-![AI Assistant - access the Prompt Library](./assets/gen-ai-prompt-library.png){width="500" zoomable="no"}
+![AI Assistant - access the Prompt Library](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
 Select the prompt that best reflects your intended goals and click **[!UICONTROL Try this Prompt]**. In the _[!UICONTROL Prompt]_ field, replace any placeholders (such as `[Key Feature/Information]`) with the needed values that specify your brand, offering, campaign, and use cases.
 
@@ -72,7 +72,7 @@ Expand the **[!UICONTROL Text settings]** in the right panel and set the options
 * **[!UICONTROL Language]** - Choose the language of your generated content.
 * **[!UICONTROL Tone]** - The tone should resonate with your audience. For example, you can adjust the message to sound informative, playful, or persuasive.
 
-![Text settings panel showing buying group, marketing journey stage, communication strategy, language, and tone options](./assets/gen-ai-text-settings.png){width="400" zoomable="yes"}
+![Text settings panel showing buying group, marketing journey stage, communication strategy, language, and tone options](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
 Click the left arrow to return to the main _[!UICONTROL Settings]_.
 
@@ -90,7 +90,7 @@ The **[!UICONTROL Generate images using AI]** option is disabled by default. Ena
 * **[!UICONTROL Lighting]**: The lighting style used for the image, which shapes its atmosphere and highlights specific elements.
 * **[!UICONTROL Composition]**: The arrangement of elements within the frame of an image.
 
-![Image settings panel displaying Content type, Visual intensity, Color and tone, Lighting, and Composition options](./assets/gen-ai-image-settings.png){zoomable="yes"}
+![Image settings panel displaying Content type, Visual intensity, Color and tone, Lighting, and Composition options](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 Click the left arrow to return to the main _[!UICONTROL Settings]_.
 
@@ -100,23 +100,19 @@ Upload reference content assets to generate accurate, on-brand content. Otherwis
 
 From the **[!UICONTROL Reference content]** settings, click **[!UICONTROL Upload file]** to add any asset that contains content you want to use for additional context.
 
-![Upload file to use for reference content](./assets/gen-ai-reference-content-upload.png){zoomable="yes"}
+![Upload file to use for reference content](./assets/gen-ai-reference-content-upload.png){width="350" zoomable="yes"}
 
 The file to upload can be in the following formats: PDF, JPEG, PNG, or ZIP files (containing supported file formats). The maximum size for an uploaded brand asset is 50MB. Larger files or a large number of images can work, but this increases the processing time.
 
 If you want to select a previously uploaded file, expand the **[!UICONTROL Uploaded reference content]** list and enable the asset that you want to use for your content generation.
 
-![Enable existing reference content to use](./assets/gen-ai-reference-content-select.png){zoomable="yes"}
+![Enable existing reference content to use](./assets/gen-ai-reference-content-select.png){width="350" zoomable="yes"}
 
 ## Generate email properties with AI Assistant
 
 When you [add an email action](./add-email.md#add-an-email-action-node-in-a-journey) to an account journey, you define a set of email properties that are used for sending the email. AI Assistant can help achieve better email engagement by generating recommended content for the email **_subject line_** and **_preheader_**.
 
-1. Create an email from a journey or open an existing email from a journey node.
-
-   The email preview page is displayed with the _[!UICONTROL Email properties]_ on the right.
-
-1. Select any of the following tabs to learn how to use AI Assistant in your email property authoring.
+When you create an email from a journey or open an existing email from a journey node, the email preview page is displayed with the _[!UICONTROL Email properties]_ on the right. In the _[!UICONTROL Summary]_ tab, you can use the AI Assitant content generation tools to generate a subject line, preheader, or both.
 
 >[!BEGINTABS]
 
@@ -218,7 +214,7 @@ An email preheader is the short summary text that follows the subject line when 
 
 After you [create and personalize your email](./email-authoring.md), use AI Assistant in [!DNL Journey Optimizer B2B Edition], powered by generative AI to elevate your email body content to the next level.
 
-In the email design space, AI Assistant can help you optimize the impact of your deliveries by generating the full email body, targeted text content, and images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement. Select the _AI Assistant_ ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="30" zoomable="no"} ) to display the content generation tools that are available for the current content selection.
+In the email design space, AI Assistant can help you optimize the impact of your deliveries by generating the full email body, targeted text content, and images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement. Select the _AI Assistant_ ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) to display the content generation tools that are available for the current content selection.
 
 ![AI Assistant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -238,7 +234,7 @@ Follow these steps to use AI Assistant for full email generation by refining an 
 
    For more information about using an email template, see _[Select a template](./email-authoring.md#select-a-template)_. 
 
-1. In the email design space, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="30"} ) at the right.
+1. In the email design space, access the AI Assistant menu by clicking the icon ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ) at the right.
 
    The AI Assistant settings on the right reflect _Generate Email_.
 
@@ -284,7 +280,7 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
 1. In the email design space, select a _Text_ component to target the specific content.
 
-1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="30"} ) icon.
+1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ) icon.
 
    The settings on the right reflect the content generation settings for the text component.
 
@@ -324,7 +320,7 @@ Follow these steps to use AI Assistant to refine or enhance the image content fo
 
 1. In the email design space, select an _Image_ component to target the specific content.
 
-1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="30"} ) icon.
+1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ) icon.
 
    The AI Assistant settings on the right reflect the generation settings for the image component.
 
@@ -408,7 +404,7 @@ Click the **[!UICONTROL Refine]** option to access additional customization feat
 
 Provide feedback for the generated variants by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choose the reason that best summarizes your feedback. 
 
-![AI Assistant - preview the generated variations](./assets/gen-ai-preview-feedback-thumbs-up.png){width="600" zoomable="yes"}
+![AI Assistant - preview the generated variations](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 
 ### Check your brand alignment (Beta)
 
