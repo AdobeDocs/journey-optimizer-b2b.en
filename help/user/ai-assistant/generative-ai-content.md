@@ -40,7 +40,7 @@ AI Assistant tools for content generation are supported with the following asset
 * [Emails](../content/ai-assistant-emails.md)
 * [!BADGE Beta] [Landing pages](../content/ai-assistant-landing-pages.md)
 
-## General guidelines and limitations
+## General guidelines and limitations {#general-guidelines-and-limitations}
 
 Your use of generative AI features is subject to the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. With Adobe's commitment to transparency in the use of generative AI tools for media creation, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} for any content or project that includes a [!DNL Firefly]-generated asset when it is downloaded or exported.
 
@@ -92,7 +92,7 @@ For best results with generated content, organize your prompts using the CO-STAR
 <td>
 <ul><li>Use the CO-STAR framework for structure
 <li>Be explicit about fresh vs. existing content
-<li>Focus document usage with specific extraction guidance
+<li>Provide focus for document usage with specific extraction guidance
 <li>Make selections for tone, strategy, and locale
 <li>Match marketing objectives to content type capabilities
 <li>Generate multiple variants for A/B testing</ul>
@@ -189,7 +189,7 @@ When crafting marketing objectives, make sure they are clear, actionable, and me
 
 ![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Promote the product" (too vague)
 
-![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Make people buy stuff" (unclear value)
+![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Make people sign deals" (unclear value)
 
 ![Red cross out](../../assets/do-not-localize/check-box-red.svg) "Email about new features" (lacks purpose)
 
@@ -381,16 +381,18 @@ Reference content files provide factual information that enriches your generated
 
 ### Content refinement
 
->[!TIP]
->
->Select _[!UICONTROL Refine]_ instead of additional prompting when you want to elaborate, summarize, simplify, change tone, or translate existing content.
+After content is generated, use the **_[!UICONTROL Refine]_** feature to iterate and enhance it with the following options:
 
-After content is generated, use the **Refine** feature to iterate and enhance it with the following options:
+* **[!UICONTROL Elaborate]** - AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
 
-| Action | Use case | Prompt example |
-| ----- | ----- | ------ |
-| **Elaborate** | Add depth and detail to brief content | "Elaborate on the technical benefits of the security features" |
-| **Summarize** | Condense lengthy content for different formats | "Summarize this product overview for a social media post" |
-| **Simplify** | Make complex content more accessible | "Simplify this technical explanation for a general audience" |
-| **Change Tone** | Adapt content for different audiences | "Change tone to more casual for younger demographic" |
-| **Transcreate** | Cultural adaptation beyond translation | "Transcreate this campaign for the Japanese market" |
+* **[!UICONTROL Summarize]** - Lengthy information can overload page viewers. Use AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
+
+* **[!UICONTROL Rephrase]** - Rewrite the message while preserving its meaning. This option helps you generate alternative wording, improve flow, or adjust phrasing without changing the core message.
+
+* **[!UICONTROL Use simpler language]** - Simplify the language, ensuring clarity and accessibility for a wider audience.
+
+* **[!UICONTROL Translate]** - Translate the text to another language. (Currently, English is the only supported language.)
+
+* **[!UICONTROL Change tone]** - Adjust the tone of the message to align with your communication style, such as making it more friendly, professional, urgent, or inspirational.
+
+* **[!UICONTROL Change Communication strategy]** - Modify the messaging approach based on your objectives, such as creating urgency, or emphasizing exciting appeal.

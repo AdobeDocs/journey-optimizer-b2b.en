@@ -23,7 +23,7 @@ You can generate complete content experiences for your landing pages, including 
 
 ## Guidelines and limitations
 
-Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). You must also accept a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
+Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
 
 With Adobe's commitment to promote transparency in the use of generative AI tools in media creation, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} for any content or project that includes a Firefly-generated asset when it is downloaded or exported.
 
@@ -45,7 +45,7 @@ Use well-defined prompts for the generative AI model to interpret with accuracy.
 
 ![Prompt field](./assets/gen-ai-prompt.png){width="320"}
 
-For more information about creating effective prompts, see _[Prompt best practices](../ai-assistant/generative-ai-content.md#prompt-best-practices-for-generative-ai)_. 
+For more information about creating effective prompts, see _[Prompt best practices](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_. 
 
 >[!BEGINSHADEBOX]
 
@@ -67,7 +67,7 @@ Expand the **[!UICONTROL Text settings]** in the right panel and set the options
 * **[!UICONTROL Marketing journey stage]** - Choose the [buying group stage](../buying-groups/buying-group-stages.md) to use for targeting the messaging.
 * **[!UICONTROL Communication strategy]** - Choose the most suitable communication style for your generated text.
 * **[!UICONTROL Language]** - Choose the language of your generated content.
-* **[!UICONTROL Tone]** - The tone should resonate with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant can adapt the message accordingly.
+* **[!UICONTROL Tone]** - The tone should resonate with your audience. For example, you can adjust the message to sound informative, playful, or persuasive.
 
 ![Text settings panel showing buying group, marketing journey stage, communication strategy, language, and tone options](./assets/gen-ai-text-settings.png){width="400" zoomable="yes"}
 
@@ -79,12 +79,13 @@ To include images in your generated content, expand the **[!UICONTROL Image sett
 
 The **[!UICONTROL Generate images using AI]** option is disabled by default. Enable this feature and set the following options to include generated images in the proposed content variations:
 
+<!-- * **[!UICONTROL Generative model]**: Select from available built-in models, custom Firefly models trained on your brand assets, or third-party image generation providers to create images that align with your specific needs and brand requirements. -->
 * **[!UICONTROL Aspect ratio]**: When an image component is selected, this setting determines the width and height of the asset. You have the option to choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or you can enter a custom size.
-* **[!UICONTROL Content type]**: This categorizes the nature of the visual element, distinguishing between different forms of visual representation such as photos, graphics, or art.
-* **[!UICONTROL Visual intensity]**: Control the image's impact by adjusting its intensity. A lower setting (2) will create a softer, more restrained appearance, while a higher setting (10) makes the image more vibrant and visually powerful.
+* **[!UICONTROL Content type]**: The type categorizes the nature of the visual element, distinguishing between different forms of visual representation, such as photos, graphics, or art.
+* **[!UICONTROL Visual intensity]**: Control the image's impact by adjusting its intensity. A lower setting (such as 2) creates a softer, more restrained appearance, while a higher setting (such as 10) makes the image more vibrant and visually powerful.
 * **[!UICONTROL Color and tone]**: The overall appearance of the colors within an image and the mood or atmosphere it conveys.
-* **[!UICONTROL Lighting]**: This refers to the lighting present in an image, which shapes its atmosphere and highlights specific elements.
-* **[!UICONTROL Composition]**: This refers to the arrangement of elements within the frame of an image.
+* **[!UICONTROL Lighting]**: The lighting style used for the image, which shapes its atmosphere and highlights specific elements.
+* **[!UICONTROL Composition]**: The arrangement of elements within the frame of an image.
 
 ![Image settings panel displaying Content type, Visual intensity, Color and tone, Lighting, and Composition options](./assets/gen-ai-image-settings.png){zoomable="yes"}
 
@@ -92,21 +93,21 @@ Click the left arrow to return to the main _[!UICONTROL Settings]_.
 
 ### Reference content
 
-Upload reference content assets to generate accurate, on-brand content. Otherwise, generated content is based on publicly available information. Reference content serves as the source for content generation and image recommendations. For guidelines and best practices, see _[Optimized brand assets](../ai-assistant/generative-ai-content.md#optimized-brand-assets)_.
+Upload reference content assets to generate accurate, on-brand content. Otherwise, generated content is based on publicly available information. Reference content serves as the source for content generation and image recommendations. For guidelines and best practices, see _[Optimized reference content](../ai-assistant/generative-ai-content.md#reference-content)_.
 
 From the **[!UICONTROL Reference content]** settings, click **[!UICONTROL Upload file]** to add any asset that contains content you want to use for additional context.
 
-<!-- ![Upload file for reference content](./assets/gen-ai-full-upload-brand-assets.png){zoomable="yes"} -->
+![Upload file to use for reference content](./assets/gen-ai-reference-content-upload.png){zoomable="yes"}
 
 The file to upload can be in the following formats: PDF, JPEG, PNG, or ZIP files (containing supported file formats). The maximum size for an uploaded brand asset is 50MB. Larger files or a large number of images can work, but this increases the processing time.
 
-You can select a previously uploaded file using the **[!UICONTROL Uploaded reference content]** menu. Simply toggle the asset that you want to include in your generation.
+If you want to select a previously uploaded file, expand the **[!UICONTROL Uploaded reference content]** list and enable the asset that you want to use for your content generation.
 
-<!-- ![Toggle reference content to use](./assets/gen-ai-full-upload-brand-assets.png){zoomable="yes"} -->
+![Enable existing reference content to use](./assets/gen-ai-full-upload-brand-assets.png){zoomable="yes"}
 
 ## Use the generative AI tools {#gen-ai-tools}
 
-To begin generating your content, open the content editor for the landing page and access the generative AI tools on the outer rail of the right panel. Select the _AI Assistant_ ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) to display the content generation tools that are available for the current content selection.
+To begin generating your content, open the content editor for the landing page and access the generative AI tools on the outer rail of the right panel. Select the _AI Assistant_ ( ![AI Assistant for content toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="30" zoomable="no"} ) to display the content generation tools that are available for the current content selection.
 
 Use the following steps according to the type of landing page content generation that you want to use:
 
@@ -124,7 +125,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
    For more information about using a landing page template, see _[Select a saved or sample template](./landing-pages.md#select-a-saved-or-sample-template)_. 
 
-1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) icon.
+1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant for content toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="30" zoomable="no"} ) icon.
 
    ![AI Assistant toggle in the landing page design space](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
 
@@ -138,11 +139,11 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
    Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
 
-   <!-- ![AI Assistant - prompt for generating landing page content](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"} -->
+   ![AI Assistant - prompt library for generating landing page content](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >
-   >If you are new to prompting for generated content, review the _[Prompting best practices](../ai-assistant/generative-ai-content.md#prompt-best-practices)_.
+   >If you are new to prompting for generated content, review the _[Prompting best practices](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 1. Complete the content guidance settings to tailor the generated content:
 
@@ -154,11 +155,11 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
 1. Scroll down in the AI Assistant panel and browse through the generated variations to determine which one is the best fit. 
 
-   * Click **[!UICONTROL Preview]** to view a full-screen version of a selected variation.
+   * Click the _Full screen_ ( ![Full screen icon](../assets/do-not-localize/icon-full-screen.svg) ) icon to open the _[!UICONTROL Generate Landing Page]_ dialog
 
-   * Provide feedback for the generated variants by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choose the reason that best summarizes your feedback.
+   * If needed, use the [refinement actions](#refine-a-variation) to fine-tune the variation to ensure that they meet your exact requirements.
 
-   ![AI Assistant - preview the generated variations](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
+   * [Submit feedback](#submit-variation-feedback) for the generated variants by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choose the reason that best summarizes your feedback.
 
 1. Click **[!UICONTROL Select]** to replace the template contents with the selected variant and return to the landing page design space.
 
@@ -170,7 +171,7 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
 1. In the landing page design space, select a _Text_ component to target the specific content.
 
-1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) icon.
+1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant for content toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="30" zoomable="no"} ) icon.
 
    ![AI Assistant toggle in the landing page design space](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -194,11 +195,13 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
 1. When your prompt and settings are ready, click **[!UICONTROL Generate]**. 
 
-1. Browse through the generated _Variations_ and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Scroll down in the AI Assistant panel and browse through the generated variations to determine which one is the best fit. 
 
-   The _Preview_ dialog provides additional space to compare the variations, adjust your text and image settings if needed, and to regenerate the variations.
+   * Click the _Full screen_ ( ![Full screen icon](../assets/do-not-localize/icon-full-screen.svg) ) icon to open the _[!UICONTROL Generate Text]_ dialog
 
-   You can also fine-tune a variation by applying refinement actions and submit feedback for the generated variations. See _[Preview and content refinement](#preview-and-content-refinement)_ for more details about variation refinement and feedback.
+   * If needed, use the [refinement actions](#refine-a-variation) to fine-tune the variation to ensure that they meet your exact requirements.
+
+   * [Submit feedback](#submit-variation-feedback) for the generated variants by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choose the reason that best summarizes your feedback.
 
 1. When you have the content that you want, click **[!UICONTROL Select]** to replace the text with the selected variant and return to the landing page design space.
 
@@ -210,7 +213,7 @@ Follow these steps to use AI Assistant to refine or enhance the image content fo
 
 1. In the landing page design space, select an _Image_ component to target the specific content.
 
-1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant menu toggle](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) icon.
+1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant for content toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="30" zoomable="no"} ) icon.
 
    ![AI Assistant toggle in the landing page design space](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -240,9 +243,15 @@ Follow these steps to use AI Assistant to refine or enhance the image content fo
    >
    >If there are no images in the reference content or there are no images relevant to the input prompt, the output is empty.
 
-1. Browse through the _[!UICONTROL Variations]_ and select the one that is the best fit for the landing page.
-   
-   To view a full-screen version of the selected variation, click **[!UICONTROL Preview]**.
+1. Browse through the generated variations or click the _Full screen_ ( ![Full screen icon](../assets/do-not-localize/icon-full-screen.svg) ) icon to open the _[!UICONTROL Generate Image]_ dialog.
+
+   The dialog provides additional space to compare the variations, adjust your image and reference content settings (if needed), and to regenerate the variations.
+
+   You can select a variation and click **[!UICONTROL Generate Similar]** to generate additional images that are similar to the selected variant. Or, click **[!UICONTROL Edit in Adobe Express]** to make your own changes to the image. See [Quick actions in Adobe Express](./image-edit-adobe-express.md#quick-actions-in-adobe-express) for more information about using Adobe Express to refine your images.
+
+   ![AI Assistant preview of text variation and refinement options](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+
+   You can also [submit feedback](#submit-variation-feedback) for the generated variations.
 
 1. Highlight the image that you want and click **[!UICONTROL Select]** to replace the image or placeholder with the selected item and return to the landing page design space.
 
@@ -254,19 +263,19 @@ Follow these steps to use AI Assistant to refine or enhance the image content fo
 
 After generating content variations, you can fine-tune the results to ensure that they meet your exact requirements. Review the brand alignment, adjust tone and language, and prepare the content for a reviewable draft. You can also submit feedback for a variation to help train AI Assistant and improve future output.
 
-### Open the preview
+### Open the full screen view
 
 1. After the initial content generation, browse through the **[!UICONTROL Variations]**.
 
-1. Identify the variation that is the best match for your goals and click **[!UICONTROL Preview]** to view it in more depth.
+1. Identify the variation that is the best match for your goals and click the _Full screen_ ( ![Full screen icon](../assets/do-not-localize/icon-full-screen.svg) ) icon to open the dialog.
 
-   ![Access the preview dialog](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+   ![Access the Generate dialog](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 1. When you are satisfied with the selected variation, click **[!UICONTROL Select]** to apply it to your canvas.
 
 ### Refine a variation
 
-Click the **[!UICONTROL Refine]** option to access additional customization features:
+Click the **[!UICONTROL Refine]** option to access additional customization features for landing page and text variations:
 
 * **[!UICONTROL Elaborate]** - AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
 
@@ -278,7 +287,7 @@ Click the **[!UICONTROL Refine]** option to access additional customization feat
 
 * **[!UICONTROL Translate]** - Translate the text to another language. (Currently, English is the only supported language.)
 
-* **[!UICONTROL Change tone]** - Adjust the tone of the message to better match your communication style, such as making it more friendly, professional, urgent, or inspirational.
+* **[!UICONTROL Change tone]** - Adjust the tone of the message to align with your communication style, such as making it more friendly, professional, urgent, or inspirational.
 
 * **[!UICONTROL Change Communication strategy]** - Modify the messaging approach based on your objectives, such as creating urgency, or emphasizing exciting appeal.
 
