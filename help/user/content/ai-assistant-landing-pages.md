@@ -131,7 +131,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
    The AI Assistant settings on the right reflect the generation settings for the full landing page.
 
-1. Select your **[!UICONTROL Brand]** to ensure that the AI-generated content aligns with your brand specifications.
+1. (Beta) Select your **[!UICONTROL Brand]** to ensure that the AI-generated content aligns with your brand specifications.
 
    If there are no published brands, click **[!UICONTROL Create a brand]** to define your [reusable brand guidelines](./brands-overview.md). 
 
@@ -177,7 +177,7 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
    The settings on the right reflect the content generation settings for the text component.
 
-1. Select your **[!UICONTROL Brand]** to ensure that the AI-generated content aligns with your brand specifications.
+1. (Beta) Select your **[!UICONTROL Brand]** to ensure that the AI-generated content aligns with your brand specifications.
 
    If there are no published brands, click **[!UICONTROL Create a brand]** to [define your reusable brand guidelines](./brands-overview.md).
 
@@ -219,7 +219,7 @@ Follow these steps to use AI Assistant to refine or enhance the image content fo
 
    The AI Assistant settings on the right reflect the generation settings for the image component.
 
-1. Select your **[!UICONTROL Brand]** to ensure that the AI-generated content aligns with your brand specifications.
+1. (Beta) Select your **[!UICONTROL Brand]** to ensure that the AI-generated content aligns with your brand specifications.
 
    If there are no published brands, click **[!UICONTROL Create a brand]** to [define your reusable brand guidelines](./brands-overview.md). 
 
