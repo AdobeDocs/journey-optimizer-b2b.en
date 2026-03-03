@@ -112,7 +112,7 @@ If you want to select a previously uploaded file, expand the **[!UICONTROL Uploa
 
 When you [add an email action](./add-email.md#add-an-email-action-node-in-a-journey) to an account journey, you define a set of email properties that are used for sending the email. AI Assistant can help achieve better email engagement by generating recommended content for the email **_subject line_** and **_preheader_**.
 
-When you create an email from a journey or open an existing email from a journey node, the email preview page is displayed with the _[!UICONTROL Email properties]_ on the right. In the _[!UICONTROL Summary]_ tab, you can use the AI Assitant content generation tools to generate a subject line, preheader, or both.
+When you create an email from a journey or open an existing email from a journey node, the email preview page is displayed with the _[!UICONTROL Email properties]_ on the right. In the _[!UICONTROL Summary]_ tab, you can use the AI Assistant content generation tools to generate a subject line, preheader, or both.
 
 >[!BEGINTABS]
 
