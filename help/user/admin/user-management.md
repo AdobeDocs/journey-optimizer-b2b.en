@@ -100,10 +100,10 @@ For more information about how user groups are used to manage permissions, see [
 
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Adobe Experience Platform Data Collection]
-   * [!UICONTROL Data Collection All Access]
+   * [!UICONTROL Adobe Experience Platform Data Collection - Default Data Collection All Access]
+   * [!UICONTROL Adobe Experience Platform - Default Production All Access]
 
-   ![Admin Console - user-group - add products](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
+   ![Admin Console - user-group - add products](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
 
