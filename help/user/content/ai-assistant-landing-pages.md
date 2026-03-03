@@ -6,6 +6,7 @@ badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in
 topic: Artificial Intelligence
 role: User
 level: Beginner
+exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
 ---
 # AI Assistant for Landing Page Content {#generative-full-content}
 
