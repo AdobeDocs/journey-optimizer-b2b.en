@@ -12,7 +12,7 @@ AI Assistant in Journey Optimizer B2B Edition is created from the same technolog
  
 >[!IMPORTANT]
 >
->An agreement to the [user guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) is required before you can use AI Assistant in Journey Optimizer B2B Edition. This agreement also contains the public beta agreement so that you can use additional AI Assistant features as they roll out in a beta capacity.
+>An agreement to the [user guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} is required before you can use AI Assistant in Journey Optimizer B2B Edition. This agreement also contains the public beta agreement so that you can use additional AI Assistant features as they roll out in a beta capacity.
 
 +++View the user agreement interface
 

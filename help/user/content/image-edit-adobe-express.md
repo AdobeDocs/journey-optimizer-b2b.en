@@ -82,7 +82,7 @@ If you do not have an Adobe Express Enterprise license, you have access to the A
 
 1. When you return to the main Adobe Express quick actions editor, click **[!UICONTROL Save]** to save the modified image file in the Journey Optimizer B2B Edition asset repository using the same file name.
 
-## Resize image
+### Resize image
 
 1. Use the resize settings to reduce or expand the image:
 
@@ -96,13 +96,13 @@ If you do not have an Adobe Express Enterprise license, you have access to the A
 
 1. When you are satisfied with the result, click **[!UICONTROL Apply]**.
 
-## Remove background
+### Remove background
 
 ![Edit with Adobe Express- remove background](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
 Adobe Express performs an automatic background removal to isolate the primary object in the image. If you are satisfied with the result, click **[!UICONTROL Apply]**.
 
-## Crop image
+### Crop image
 
 1. Drag the handles on the corners of the image to remove the outer areas that you do not want to include in the image asset.
 
@@ -110,7 +110,7 @@ Adobe Express performs an automatic background removal to isolate the primary ob
 
 1. When you are satisfied with the result, click **[!UICONTROL Apply]**.
 
-## Convert file format
+### Convert file format
 
 * **[!UICONTROL Convert to JPEG]** - For a PNG image, you can convert the image to a JPEG image file and save it as a new asset. 
 * **[!UICONTROL Convert to PNG]** - For a JPEG image, you can convert the image to a PNG image file and save it as a new asset. 
