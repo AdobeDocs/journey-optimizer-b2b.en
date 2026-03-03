@@ -79,7 +79,7 @@ To include images in your generated content, expand the **[!UICONTROL Image sett
 
 The **[!UICONTROL Generate images using AI]** option is disabled by default. Enable this feature and set the following options to include generated images in the proposed content variations:
 
-<!-- * **[!UICONTROL Generative model]**: Select from available built-in models, custom Firefly models trained on your brand assets, or third-party image generation providers to create images that align with your specific needs and brand requirements. -->
+* **[!UICONTROL Generative model]**: Select from the ready-to-use Adobe-provided model, the partner model for specialized capabilities, or configured custom models trained on your brand assets. For more information about generative models, see _[Generative AI models for brand alignment](generative-ai-models.md)_.
 * **[!UICONTROL Aspect ratio]**: When an image component is selected, this setting determines the width and height of the asset. You have the option to choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or you can enter a custom size.
 * **[!UICONTROL Content type]**: The type categorizes the nature of the visual element, distinguishing between different forms of visual representation, such as photos, graphics, or art.
 * **[!UICONTROL Visual intensity]**: Control the image's impact by adjusting its intensity. A lower setting (such as 2) creates a softer, more restrained appearance, while a higher setting (such as 10) makes the image more vibrant and visually powerful.
