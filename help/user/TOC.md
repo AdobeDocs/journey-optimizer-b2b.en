@@ -17,6 +17,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
     + [Question guidance](./ai-assistant/question-guidance.md)
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
+    + [Generative AI for content](./ai-assistant/generative-ai-content.md)
     + Agents {#ai-agents}
        + [Audience Agent](./agents/audience-agent-b2b.md)
        + [Journey Build Agent B2B](./agents/journey-agent.md)
@@ -110,6 +111,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Landing pages (Beta) {#landing-pages}
       + [Overview](./content/landing-pages.md)       
       + [Landing page design](./content/landing-page-design.md)
+      + [AI Assistant for landing page content](./content/ai-assistant-landing-pages.md)
    + Content design tools {#content-design}
       + [Structure components](./content/structure-components.md)
       + [Content components](./content/content-components.md)
@@ -133,7 +135,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Account Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [Governance](./admin/governance.md)
-    + [Marketo Actions Configuration](./admin/marketo-actions-connect.md)
+    + [Marketo Actions configuration](./admin/marketo-actions-connect.md)
     + [Persona mapping](./admin/persona-mapping.md)
     + [User management](./admin/user-management.md)
     + XDM field management {#xdm-field-management}
