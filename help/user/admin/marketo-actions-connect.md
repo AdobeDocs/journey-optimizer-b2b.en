@@ -49,7 +49,7 @@ Marketo Engage workspace visibility for assets, such as lists and campaigns, is 
    
    >[!NOTE]
    >
-   >People proceed through the journey regardless of a match, except when an error occurs.
+   >A person/lead proceeds through the journey regardless of a match, except when an error occurs. A journey action does not create a new person record in Marketo Engage when a matching record does not exist.
 
 1. Enter the Munchkin ID, Client ID, and Client Secret for the service created in the external Marketo Engage instance.
 1. Click **[!UICONTROL Connect to Marketo]**.
