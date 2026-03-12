@@ -58,10 +58,10 @@ To send emails from [!DNL Journey Optimizer B2B Edition] on the simplified archi
 | | **Initial setup** for the attached Marketo Engage instance | |
 | | <li>Configure new CNAME for Tracking Links in DNS records | [Learn more](./start/email-protocols.md#create-dns-records-for-landing-pages-and-email) |
 | | <li>Configure branding domains for the attached Marketo Engage instance | [Learn more](./start/branding-domains.md) |
-| | <li>Configure DKIM and SPF to the attached Marketo Engage instance | [Learn more](./start/email-protocols#set-up-spf-and-dkim) |
-| | <li>Set up DMARC | [Learn more](./start/email-protocols#set-up-dmarc) |
-| | <li>Set up MX records for your domain | [Learn more](./start/email-protocols#set-up-mx-records-for-your-domain) |
-| | <li>Add outbound IP addresses to allowlists | [Learn more](./start/email-protocols#outbound-ip-addresses) |
+| | <li>Configure DKIM and SPF to the attached Marketo Engage instance | [Learn more](./start/email-protocols.md#set-up-spf-and-dkim) |
+| | <li>Set up DMARC | [Learn more](./start/email-protocols.md#set-up-dmarc) |
+| | <li>Set up MX records for your domain | [Learn more](./start/email-protocols.md#set-up-mx-records-for-your-domain) |
+| | <li>Add outbound IP addresses to allowlists | [Learn more](./start/email-protocols.md#outbound-ip-addresses) |
 | | **Email parameters and filtering** for the attached Marketo Engage instance | |
 | | <li>Configure _From_ email | <!-- [Learn more](TBD) --> |
 | | <li>Configure _From_ label | <!-- [Learn more](TBD) --> |
