@@ -3,19 +3,17 @@ title: Simplified architecture setup
 description: Set up Journey Optimizer B2B Edition on the simplified architecture. Configure XDM schemas, email/SMS channels, Marketo Engage journey actions, and users.
 feature: Setup, Administration
 role: Admin, Data Engineer
-hide: yes
-hidefromtoc: yes
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
 ---
 # Simplified architecture setup
 
-Adobe Journey Optimizer B2B Edition is now available using a simplified architecture. With this updated architecture, Journey Optimizer B2B Edition and Marketo Engage are no longer on the same system and same data store. Journey Optimizer B2B Edition receives data only from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system. 
+Adobe Journey Optimizer B2B Edition is now available using a simplified architecture. With this architecture, Journey Optimizer B2B Edition and Marketo Engage are no longer on the same system and same data store. Journey Optimizer B2B Edition receives data only from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some backend features, such as email delivery, to provision and configure the system.
 
-The simplified architecture is the foundation that unlocks new capabilities in Adobe Journey Optimizer B2B Edition:
+The simplified architecture is the foundation that unlocks new capabilities in Journey Optimizer B2B Edition:
 
 * **Easily unify and scale your data:** The new platform supports complex data models, including custom objects, buying groups, and account events. 
 
-* **Connect multiple Adobe Marketo Engage instances:** Manage and unify data from several Adobe Marketo Engage environments in one place.
+* **Connect multiple Adobe Marketo Engage instances:** Manage and unify data from several Marketo Engage environments in one place.
 
 * **Keeps your data safe:** Advanced privacy and security features that help protect your customer information. (_Coming soon_)
 
@@ -23,253 +21,130 @@ The simplified architecture is the foundation that unlocks new capabilities in A
 
 For environments that are provisioned for this architecture, use the following guidelines for configuration.
 
-## Namespaces and schemas
+## Setup checklist
 
-See [B2B namespaces and schemas](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) in the Experience Platform documentation for an overview. 
+Use this checklist to complete Journey Optimizer B2B Edition setup on the simplified architecture.
 
-### Environment setup
+### 1. Generate B2B namespaces and schemas
 
-Set up a Postman environment to support the B2B namespace and schema auto-generation utility.
+| | Task | Details and instructions |
+| - | -- | ------------------------ |
+| | **Environment setup**: | |
+| | <li>Download the namespace and schema auto-generation utility from GitHub. <li>Gather Experience Platform API credentials and required headers. | [Learn more](./data/namespaces-schemas.md#set-up-the-auto-generation-utility) |
+| | <li>Apply environment values to your Postman environment. | [Learn more](./data/namespaces-schemas.md#environment-values) |
+| | **Run the scripts**: | |
+| | <li>Run the _Namespaces and Schemas_ generation utility in Postman and confirm namespaces and schemas are created. | [Learn more](./data/namespaces-schemas.md#run-the-scripts) |
 
-* You can download the namespace and schema auto-generation utility collection and environment from the [GitHub repository](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility).
+### 2. Configure XDM fields and events
 
-* For information about using Experience Platform APIs, including details for how to gather values for required headers and read sample API calls, see the [getting started with Experience Platform APIs](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide) guide.
+| | Task | Details and instructions |
+| - | -- | ------------------------ |
+| | **Standard XDM classes**: Set up XDM Individual Profile and XDM Business Account classes. | |
+| | <li> Edit managed fields - select fields to expose for journeys, buying groups, and email personalization. | [Learn more](./admin/xdm-field-management.md#standard-classes) |
+| | <li>Edit updatable fields - select the schema and dataset and choose fields. | [Learn more](./admin/xdm-field-management.md#updatable-fields) |
+| | **Relational schemas**: Select relational XDM class (Account many-to-one Custom Object). | |
+| | <li> Ensure that schemas have Record behavior, Segmentation enabled, Many-to-one relationship, B2B Account reference, required keys, and associated dataset. | [Learn more](./admin/xdm-field-management.md#relational-schemas) |
+| | **Events**: Configure Experience Platform event types and fields for journey decisioning/split paths. | [Learn more](./admin/configure-aep-events.md) | 
 
-* For information about how to generate your credentials for Experience Platform APIs, see the tutorial on [authenticating and accessing Experience Platform APIs](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication).
+### 3. Configure tracking and email deliverability
 
-* For information about setting up Postman for Experience Platform APIs, see the detailed steps in [Postman in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman).
+To send emails from [!DNL Journey Optimizer B2B Edition] on the simplified architecture, configure the email channel and deliverability in the associated [!DNL Marketo Engage] production instance and in the [!DNL Journey Optimizer B2B Edition] app.
 
-With an Experience Platform developer console and Postman set up, you can now start applying the appropriate environment values to your Postman environment.
+[Marketo Engage setup steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps) 
+[Configure protocols for Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
-### Run the scripts
+| | Task | Details and instructions |
+| - | -- | ------------------------ |
+| | **Initial setup** for the attached Marketo Engage instance | |
+| | <li>Configure new CNAME for Tracking Links in DNS records | [Learn more](./start/email-protocols.md#create-dns-records-for-landing-pages-and-email) |
+| | <li>Configure branding domains for the attached Marketo Engage instance | [Learn more](./start/branding-domains.md) |
+| | <li>Configure DKIM and SPF to the attached Marketo Engage instance | [Learn more](./start/email-protocols#set-up-spf-and-dkim) |
+| | <li>Set up DMARC | [Learn more](./start/email-protocols#set-up-dmarc) |
+| | <li>Set up MX records for your domain | [Learn more](./start/email-protocols#set-up-mx-records-for-your-domain) |
+| | <li>Add outbound IP addresses to allowlists | [Learn more](./start/email-protocols#outbound-ip-addresses) |
+| | **Email parameters and filtering** for the attached Marketo Engage instance | |
+| | <li>Configure _From_ email | <!-- [Learn more](TBD) --> |
+| | <li>Configure _From_ label | <!-- [Learn more](TBD) --> |
+| | <li>Configure _Unsubscribe HTML_ | <!-- [Learn more](TBD) --> |
+| | <li>Configure _Unsubscribe Text_ | <!-- [Learn more](TBD) --> |
+| | <li>Configure _View as Web Page HTML_ | <!-- [Learn more](TBD) --> |
+| | <li>Configure _View as Web Page Text_ | <!-- [Learn more](TBD) --> |
+| | <li>Configure _Custom Object Retrieval Limits_ | <!-- [Learn more](TBD) --> |
+| | <li>Configure _Custom Header Options_ | <!-- [Learn more](TBD) --> |
+| | <li>Configure _Text Editor Settings_ | <!-- [Learn more](TBD) --> |
+| | <li>Configure _Email Editor Settings_ | <!-- [Learn more](TBD) --> |
+| | <li>Configure _Email CC Settings_ | <!-- [Learn more](TBD) --> |
+| | <li>Configure _Bot Activty_ filtering | [Learn more](./start/email-settings.md#filter-email-bot-activity) |
+| | **Set up email channels** for Journey Optimizer B2B Edition | |
+| | <li>Configure _Communciation Limits_ in Journey Optimizer B2B Edition | [Learn more](./admin/configure-channels-emails.md#communication-limits) |
+| | Configure _Location Settings_ in the attached Marketo Engage instance |  <!-- [Learn more](TBD) --> |
+| | Define and configure which Binding Groups / IPs to move over | <!-- [Learn more](TBD) --> |
+| | Test Email Send | <!-- [Learn more](TBD) -->  |
 
-With your Postman collection and environment setup, you can run the script through the Postman interface.
+[Assess current docs](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails). 
 
-In the Postman interface, select the root folder of the auto-generator utility and then select **Run** from the top header.
+<!-- assess docs for what we need
 
-When the Runner interface is displayed, ensure that all the checkboxes are selected and then select **Run Namespaces and Schemas Autogeneration Utility**.
+* [ ] **Email header parameters (in Marketo Engage) https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/change-the-default-from-email-and-from-label 
+https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/edit-the-unsubscribe-message 
+https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/edit-the-view-as-web-page-message -->
 
-A successful request creates the namespaces and schemas required for B2B.
+Configure default from address/label, unsubscribe message, and view-as-web-page message.
 
-## XDM field selection
+### 4. Configure SMS channels in Journey Optimizer B2B Edition
 
-You can manage the XDM fields that are available throughout the application in the Journey Optimizer B2B Edition UI. These fields help to streamline your instance by exposing only the fields that are relevant for building **_journeys_**, **_buying groups_**, or **_email personalizations_**.
+* [ ] **SMS configuration:** Complete [SMS configurations](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms) as needed.
 
-### XDM classes
+### 5. Connect Marketo Engage instance to support journey actions
 
-#### Standard classes
+* [ ] **Create connection(s):** **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** > **[!UICONTROL XDM Classes]** > **[!UICONTROL Integrations]** tab > **[!UICONTROL Create connection]**.
+  * [ ] Enter name and description; select update policy; enter Munchkin ID, Client ID, Client Secret; Connect to Marketo; Create.
+  * [ ] Repeat for each remote Marketo Engage instance used for Add to List, Remove from List, Add to Request Campaign.
 
-Use the steps below to define fields for standard XDM classes:
+### 6. Enable user access for Journey Optimizer B2B Edition and Marketo Engage 
 
-1. Navigate to **[!UICONTROL Administration] > [!UICONTROL Configurations]**.
+* [ ] **Existing user groups:** Create a product profile for the dedicated Marketo Engage instance; add existing Journey Optimizer B2B Edition user group to that product profile.
+* [ ] **New user group (optional):** Create product profile in dedicated Marketo Engage; create user group; assign product profiles (Marketo Engage, AEP-Default-All-Users, Adobe Experience Platform Data Collection, Data Collection All Access); add users; add user group to Journey Optimizer B2B Edition roles in Experience Platform.
 
-1. In the navigation panel, select **[!UICONTROL XDM Classes]**.
+<!-- review for anything that is not covered
 
-1. Select the **[!UICONTROL Standard]** tab to view the available XDM classes:
+## Other email configuration
 
-   * XDM Individual Profile
+Complete the following steps based on the referenced documentation.
 
-   * XDM Business Account
+### Initial setup and protocols
 
-#### Managed fields
+* [Marketo Engage setup steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
+* [Configure protocols for Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
-Define which fields are available throughout the application.
 
-1. Click the _More menu_ (**…**) icon and select **[!UICONTROL Edit managed fields]**.
+* [Configure email channels in Journey Optimizer B2B Edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
 
-1. Review the list of available fields (click the _Information_ icon for field metadata).
+### Email header parameters
 
-1. Select the fields that you want to include and clear selections for the fields that you don't need.
+Configure the default from address and labels, unsubscribe message, and view-as-web-page message in the attached [!DNL Marketo Engage] instance:
 
-1. Use the **[!UICONTROL Only show selected fields]** slider to review your selections.
+* [Change the default from email and from label](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/change-the-default-from-email-and-from-label)
+* [Edit the unsubscribe message](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/edit-the-unsubscribe-message)
+* [Edit the view as web page message](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/edit-the-view-as-web-page-message)
 
-1. Click **[!UICONTROL Save]**.
+### Email bot activity filtering
 
-#### Updatable fields
-
-Choose which fields can be modified through **[!UICONTROL Update Account Profile]** or **[!UICONTROL Update Person Profile]** journey actions.
-
-1. Click the _More menu_ (**…**) icon and select **[!UICONTROL Edit updatable fields]**.
-
-1. Select **[!UICONTROL Schema]** and then **[!UICONTROL Dataset]**.
-
-   These schemas and datasets are provided by your organization.
-
-   Guardrails for updateable fields:
-
-   * Schemas - The schema must not include any required fields other than system-defined ones, such as `identityMap` or `personID`, on the XDM Individual Profile class.
-   * Datasets - Do not select a dataset that is already in use for another purpose. As a best practice, create dedicated datasets specifically for storing updatable fields. Use a separate dataset for each XDM class.
-
-1. Review the list of updatable fields (click the _Information_ icon for metadata). 
-
-   Only the managed fields are editable.
-
-1. Select the fields that you want to make available for update from journeys.
-
-1. Click **[!UICONTROL Save]**
-
-### Relational schemas
-
-Select [relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational) for use in **_journey decisioning_** and **_personalization_**. Currently, these schemas are for Custom Object use cases. In the future, relational schemas can also be used for other object use cases. 
-
-1. Select the **[!UICONTROL Relational]** tab.
-
-1. Click **[!UICONTROL Select relational XDM class]**.
-
-   Currently, only Account many-to-one Custom Object is supported.
-
-1. Review the list of schema fields (click the _information_ icon to view the metadata).
-
-1. Select the fields that you want to include.
-
-1. Use the **[!UICONTROL Only show selected fields]** slider to review your selections.
-
-1. Click **[!UICONTROL Save]**.
-
->[!NOTE]
->
->Note that relational schemas must have the following configurations:
->
-><li>Behavior: Record
-> <li>Segmentation: Enabled
-> <li>Relationship Type: Many-to-one
-> <li>Reference Schema: <a href="https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B Account - XDM Business Account schema</a>
-> <li>Required Fields: Primary key, Foreign key, and Version descriptor
-> <li>Associated Dataset: Defined and mapped to the schema
-
-### Events
-
-Select the Experience Events to use in **_journey decisioning_**.
-
-1. Select the **[!UICONTROL Events]** tab.
-
-1. Click **[!UICONTROL Select experience event]**.
-
-1. Click **[!UICONTROL Select event type]**, choose the event type, click **[!UICONTROL Select]**.
-
-1. Click **[!UICONTROL Select fields]**, choose the fields that you need, click **[!UICONTROL Select]**.
-
-1. Click **[!UICONTROL Save]**.
-
-## Email configuration
-
-The following should be configured to send emails out of Journey Optimizer B2B Edition.  
-
-[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols)
+* [Filtering email bot activity](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity)
 
 ### Protocols for tracking and email delivery
 
 1. [Create DNS records for email](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
-
 1. [Set up SPF and DKIM](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
-
 1. [Set up DMARC](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
-
 1. [Set up MX records for your domain](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [Add outbound IP addresses to allowlists](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
-1. [Add Outbound IP addresses to allowlists](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+If you need to share a dedicated IP pool, contact the Adobe deliverability team to confirm feasibility and get help with setup.
 
-1. If you need to share the dedicated IP pool, reach out to the deliverability team on the feasibility and assisted setup.
-
-### Email channel configurations
-
-In the simplified architecture, email settings are configured from the Marketo Engage application. Complete the email related setup steps: 
-
-* [https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
-
-* [https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
-
-### Communication limits
-
-1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Channels]**.
-
-1. In the navigation panel, select **[!UICONTROL Communication Limit]**.
-
-1. Create a global communication limit rule set (this rule set is created by default in every Journey Optimizer B2B Edition instance).
-
-   There is no communication limit if the global rule set is not created.
-
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
-
-### Shared communication limits
-
-Within the new architecture, Journey Optimizer B2B Edition and Marketo Engage have independent communication limits by default.
-
-If you want the Marketo Engage instance to share the communication limit set in the Journey Optimizer B2B Edition instance, contact Adobe Support for assistance in configuration or open a Support ticket. Upon request, the Engineering team can enable the sharing of communication limits between Journey Optimizer B2B Edition and one or more Marketo Engage instances.
-
-When the shared communication limits are enabled, you can define the rules in Journey Optimizer B2B Edition and extend the sharing of these limits to the Marketo Munchkin codes. For more information, see [Communication limits](./admin/configure-channels-emails.md#communication-limits)
-
-<!-- internal info only 
-
-Currently, the shared communication limit in the Marketo Engage instance must be set up through an API call.
-
-For example, when:
-
-* The munchkinId of the Journey Optimizer B2B Edition instance is `JKL-567-MNO`.
-* The munchkinId of the Marketo Engage instance is `ABC-123-DEF` and it is in the SJ datacenter
-
-The API request should look similar to the following:
-
-```
-curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_munchkinId=ABC-123-DEF&featureName=Mktmail%20Config&paramName=ajoB2bMappingMunchkinId&dataType=string&value=JKL-567-MNO'
-```
--->
 
 ## SMS channel configuration
 
-See [_SMS configurations_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms) for detailed information. 
+See [_SMS configurations_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms) for detailed information.
 
-## Marketo Engage actions from journeys
-
-You can configure one or more remote **_Marketo Engage_** instances for use with the following journey actions:
-
-* Add to Marketo List
-* Remove from Marketo List
-* Add to Marketo Request Campaign
-
-Complete the following steps for configuring these connections:
-
-1. Navigate to **[!UICONTROL Administration] > [!UICONTROL Configurations]**.
-
-1. In the navigation panel, select **[!UICONTROL XDM Classes]**.
-
-1. Select the **[!UICONTROL Integrations]** tab.
-
-1. Click **[!UICONTROL Create connection]**.
-
-1. Enter the **[!UICONTROL Name]** and **[!UICONTROL Description]**.
-
-1. Select **[!UICONTROL Update policy]** for matching person records.
-
-1. Enter **[!UICONTROL Munchkin ID]**, **[!UICONTROL Client ID]**, **[!UICONTROL Client Secret]**, and click **[!UICONTROL Connect to Marketo]**.
-
-1. Click **[!UICONTROL Create]**.
-
-## User onboarding
-
-See the [User management](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) page for an overview.
-
-### Existing user groups
-
-If all the existing Journey Optimizer B2B Edition users need access to the new architecture, use the existing Journey Optimizer B2B Edition user group. A system administrator or product administrator can perform the following steps.
-
-1. Create a product profile in the dedicated Marketo Engage.
-
-1. Add an existing user group to the created product profile.
-
-The profiles grant all roles and permissions already assigned to that user group, which should already be configured for the users to access Journey Optimizer B2B Edition. If only a subset of users should access the new architecture, complete the steps outlined below. More details in the [current documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management).
-
-### Create a new user group
-
-1. Create a product profile in the dedicated Marketo Engage instance.
-1. Create a user group for new users.
-1. Select and assign the required product profiles to the user group:
-
-   * Marketo Engage profile that you created
-   * Adobe Experience Platform profiles
-      * AEP-Default-All-Users
-      * Adobe Experience Platform Data Collection
-      * Data Collection All Access
-
-1. Add the users to the user group.
-1. Add a new user group to Journey Optimizer B2B Edition roles in Experience Platform.
+-->

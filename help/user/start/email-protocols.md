@@ -1,17 +1,17 @@
 ---
-title: Protocols for tracking and email delivery
+title: Setup for email tracking and delivery
 description: Configure email delivery protocols - set up DNS, SPF, DKIM, DMARC, and IP allowlists for optimal tracking and deliverability in Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
 ---
-# Protocols for tracking and email delivery
+# Setup for email tracking and delivery
 
-Adobe Journey Optimizer B2B Edition leverages the email channel functions and event tracking in Marketo Engage. To ensure that email delivery works as expected for organizations that use restrictive firewall or proxy server settings, a systems administrator must add certain domains and IP address ranges to the allowlist. 
+Adobe Journey Optimizer B2B Edition leverages the email channel functions and event tracking in the attached Marketo Engage instance. To ensure that email delivery works as expected for organizations that use restrictive firewall or proxy server settings, a systems administrator must add certain domains and IP address ranges to the allowlist.
 
 >[!NOTE]
 >
->If your organization is already using the connected Marketo Engage instance to run their marketing operations, these protocols and configurations should already be in place.
+>If your organization is already using the connected Marketo Engage instance to run your marketing operations, these protocols and configurations should already be in place.
 
 Make sure that the following domains (including the asterisk) are added to the allowlist to enable all Marketo Engage resources and web sockets:
 
@@ -23,16 +23,21 @@ Make sure that the following domains (including the asterisk) are added to the a
 
 Work through the following steps to ensure tracking and email delivery:
 
-1. [Create DNS records for <!-- landing pages and -->email](#create-dns-records-for-landing-pages-and-email)
+1. [Create DNS records for landing pages and email](#create-dns-records-for-landing-pages-and-email)
 1. [Set up SPF and DKIM](#set-up-spf-and-dkim)
 1. [Set up DMARC](#set-up-dmarc)
 1. [Set up MX records for your domain](#set-up-mx-records-for-your-domain)
 1. [Add Outbound IP addresses to allowlists](#outbound-ip-addresses)
 
-## Create DNS records for <!-- landing pages and -->email
+>[!NOTE]
+>
+>Email Deliverability Services and consulting are separate paid offerings from Adobe. If you need or want support from the deliverability team for your Journey Optimizer B2B Edition instance, you must purchase one of the Email Deliverability Services packages (Essentials, Enhanced, or Plus) for that instance. This is independent of any deliverability package on a pre-existing Marketo Engage instance. Deliverability services are attached per instance, not per organization. Deliverability support on both instances requires two separate Deliverability Services packages. Whenever a new IP is provisioned for Journey Optimizer B2B Edition, a new Deliverability Services package is required for IP warming and ongoing deliverability support.
+
+## Create DNS records for landing pages and email
 
 Connecting a CNAME record allows marketers to host web versions of emails, landing pages, and blogs with consistent branding that improves traffic and conversions. It is highly recommended that you add the CNAMEs to your root domain host for Marketo Engage to host your marketing-focused web assets. As an administrator, you should work with your Marketing team to plan and implement a CNAME record for the tracking links that are included in the emails sent through Marketo Engage.
-<!-- As an administrator, you should work with your Marketing team to plan and implement two CNAME records. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
+
+As an administrator, you should work with your Marketing team to plan and implement two CNAME records. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
 
 ### Add the CNAME for landing pages
 
@@ -41,7 +46,6 @@ Add the landing page CNAME to your DNS record, so that `[YourLandingPageCNAME]` 
 * Alias: Enter `[YourLandingPageCNAME]`
 * Type: CNAME
 * Point to: Enter `[MunchkinID].mktoweb.com`
--->
 
 ### Add the CNAME for email tracking links
 
@@ -66,6 +70,8 @@ This process can take up to three business days to complete.
 ## Set up SPF and DKIM
 
 Your marketing team should provide the DKIM (Domain Keys Identified Mail) information to be added to your DNS resource record. Follow these steps to configure DKIM and SPF (Sender Policy Framework), and then notify your Marketing team when it is updated.
+
+You can use the same DKIM configuration for your production Marketo Engage instance and the attached Journey Optimizer B2B Edition instance. In the attached instance, create the same exact domain as in your Marketo Engage instance. The selector and encryption values do not need to match. After the domain is added to the Journey Optimizer B2B Edition instance, open an Adobe support ticket to request that your DKIM configuration be shared from your Marketo Engage instance to the new instance. Provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID).
 
 1. To set up SPF, add the following line to the DNS entries:
 
@@ -99,7 +105,7 @@ DMARC (Domain-based Message Authentication, Reporting, and Conformance) is an au
 For DMARC to function, you must have at least one of the following DNS TXT records:
 
 * A Valid SPF
-* A Valid DKIM Record for your FROM: domain (recommended for Marketo Engage and Journey Optimizer B2B Edition)
+* A Valid DKIM Record for your FROM: domain (recommended for [!DNL Marketo Engage] and [!UICONTROL Journey Optimizer B2B Edition])
 
 You must also have a DMARC-specific DNS TXT record for your `FROM:` domain. Optionally, you can define an email address that specifies where DMARC reports should go within your organization for report monitoring.
 
@@ -198,11 +204,25 @@ There are two types of alignment for DMARC:
 
 If you send mail through Marketo Engage over a dedicated IP and have not implemented a branded return-path (or are not sure if you have), open a ticket with [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}.
 
+>[!BEGINSHADEBOX]
+
+**Migration to the simplified architecture**
+
+If you have dedicated IPs, you must have the new Journey Optimizer B2B Edition instance created in the same region as your existing Marketo Engage instance. If the new instance is in a different region, sharing the existing IP is not possible. If the region matches, open a ticket with [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} to request that your existing IP and binding groups be shared with the new instance. Provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID). 
+
+With this request, Adobe replicates the same IPs, binding groups, and configured Return-Path domains as your existing Marketo Engage instance. When IPs are shared between your Marketo Engage instance and Journey Optimizer B2B Edition, both use them at the same time (a send from Marketo Engage and a send from Journey Optimizer B2B Edition use the same IPs).
+
+>[!ENDSHADEBOX]
+
 Trusted IPs are a shared pool of IPs that are reserved for lower volume users sending less than 75k per month and do not qualify for a dedicated IP. These users must also meet best practice requirements.
 
 * If you are sending mail through Marketo Engage using a shared pool of IPs, you can check if you qualify for Trusted IPs by [applying for the Trusted IP sending range program](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}. The branded return-path is included when sending from Marketo Engage Trusted IPs. If approved for this program, reach out to Adobe Support to set up the branded return-path.
 
 * If you send more than 100,000 messages per month and want to send email through Marketo Engage using shared IPs, contact the Adobe Account Team (your account manager) to purchase a dedicated IP.
+
+Customers on the shared IP pool do not need any additional configuration. You continue to use the same IP pools and the same default Return-Path domain as before.
+
+
 
 ## Set up MX records for your domain
 

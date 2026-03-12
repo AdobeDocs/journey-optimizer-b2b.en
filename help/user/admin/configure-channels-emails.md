@@ -69,7 +69,23 @@ Communication limits control the number of emails that a contact receives from y
 
 For example, with a defined limit of five emails per day, the system ensures that one contact does not receive a sixth email within a day by suppressing the sixth email. With shared communication limits between Journey Optimizer B2B Edition and Marketo Engage, the communication limit rules are defined in one location. The sixth email is suppressed, regardless of the send action coming from Journey Optimizer B2B Edition or Marketo Engage.
 
-All Marketo Engage production instances have communication limits defined by default (see the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} for more information). To use shared communication limits, define the rules in Journey Optimizer B2B Edition and extend the sharing of these limits to the Marketo Munchkin codes.
+All Marketo Engage production instances have communication limits defined by default (see the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} for more information). You can use a separate communication limit for Journey Optimizer B2B Edition and a different one for your production Marketo Engage instance. To use shared communication limits, define the rules in Journey Optimizer B2B Edition and extend the sharing of these limits to the Marketo Munchkin codes.
+
+<!-- internal info only 
+
+Currently, the shared communication limit in the Marketo Engage instance must be set up through an API call.
+
+For example, when:
+
+* The munchkinId of the Journey Optimizer B2B Edition instance is `JKL-567-MNO`.
+* The munchkinId of the Marketo Engage instance is `ABC-123-DEF` and it is in the SJ datacenter
+
+The API request should look similar to the following:
+
+```
+curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_munchkinId=ABC-123-DEF&featureName=Mktmail%20Config&paramName=ajoB2bMappingMunchkinId&dataType=string&value=JKL-567-MNO'
+```
+-->
 
 >[!IMPORTANT]
 >
