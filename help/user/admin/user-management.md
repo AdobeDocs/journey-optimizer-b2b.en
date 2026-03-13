@@ -9,8 +9,8 @@ exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
 
 After provisioning is complete and sandboxes are bound, complete the following steps to provide Adobe Journey Optimizer B2B Edition access for your team and users.
 
-1. [Create a Marketo Engage product profile](#marketo-engage-profile) in the Admin Console (new Marketo Engage instance only).
-1. [Add a user group](#add-user-group) in the Admin Console.
+1. [Create a Marketo Engage product profile](#create-the-marketo-engage-product-profile) in the Admin Console (new Marketo Engage instance only).
+1. [Add a user group](#add-a-user-group-for-the-profile) in the Admin Console.
 1. [Edit built-in roles](#edit-roles-for-product-permissions) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions.
 1. [Add users](#add-users) or [groups](#add-user-groups-to-a-role) to roles.
 

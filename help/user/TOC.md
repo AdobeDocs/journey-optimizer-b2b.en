@@ -16,9 +16,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Experience Events and fields](./admin/configure-aep-events.md)
        + [Branding domains](./start/branding-domains.md)
        + [Email tracking and delivery](./start/email-protocols.md)
-       + [Email settings](./start/email-settings.md)
-       + [User management](./admin/user-management.md)
+       + [Email setup](./start/email-setup.md)
        + [Marketo Engage journey actions](./admin/marketo-actions-connect.md)
+       + [User management](./admin/user-management.md)
     + [User onboarding guidance](./start/get-started.md)
     + [Login and home page](home-page.md)
 + AI Assistant {#ai-assistant}
