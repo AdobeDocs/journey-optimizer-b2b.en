@@ -39,8 +39,13 @@ Use this checklist to complete Journey Optimizer B2B Edition setup on the simpli
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
-<td>Download the namespace and schema auto-generation utility from GitHub. <li>Gather Experience Platform API credentials and required headers.</td>
+<td>Download the namespace and schema auto-generation utility from GitHub.</td>
 <td><a href="./data/namespaces-schemas.md#set-up-the-auto-generation-utility">Learn more</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Gather Experience Platform API credentials and required headers.</td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide">Learn more</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
