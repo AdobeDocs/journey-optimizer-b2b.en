@@ -38,7 +38,7 @@ For non-operational marketing emails, unsubscribe text and links are appended at
 
    >[!TIP]
    >
-   >Marketers can change the position of the unsubscribe HTML in their email using [system tokens](/help/marketo/product-docs/email-marketing/general/using-tokens/add-a-system-token-as-a-link-in-an-email.md).
+   >Marketers can change the position of the unsubscribe HTML in their email using system tokens.
 
    ![Email settings - Unsubscribe HTML and Unsubscribe Text default values](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
 
