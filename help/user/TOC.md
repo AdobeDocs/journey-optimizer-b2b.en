@@ -32,13 +32,14 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Person audience (Beta)](./journeys/person-audience-nodes.md)
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
-       + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
+       + [Split and merge paths](./journeys/split-merge-paths-nodes.md)       
        + [Wait](./journeys/wait-nodes.md)
     + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
     + [SMS channel](./content/sms-authoring.md)
     + Email channel {#email-channel}
        + [Add an email](./content/add-email.md)
+       + [Send-time optimization](./content/email-send-time-optimization.md)
        + [Email authoring](./content/email-authoring.md)
        + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
        + [GenStudio workflows](./content/genstudio-email-workflow.md)
