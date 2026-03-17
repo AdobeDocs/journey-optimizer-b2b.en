@@ -19,8 +19,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
     + [Generative AI for content](./ai-assistant/generative-ai-content.md)
     + Agents {#ai-agents}
-       + [Audience Agent](./agents/audience-agent-b2b.md)
-       + [Journey Build Agent B2B](./agents/journey-agent.md)
+       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
+       + [Journey Agent B2B](./agents/journey-agent.md)
        + [Sales Qualifier](./agents/sales-qualifier.md)
 + Journey management {#journeys}
     + [Account and person journeys](./journeys/journeys-overview.md)
