@@ -107,7 +107,11 @@ Select the **[!UICONTROL Colors]** tab and use the settings to define the theme 
 
    Click the _Back_ arrow to close the color palette tools.
 
-* Click **[!UICONTROL Add variant]** to create multiple color variants, such as a _light_ and _dark_ mode, where each variant has its own color palette and nuance controls. You can have up to six variants.
+* Click **[!UICONTROL Add variant]** to create multiple color variants, such as a _light_ and _dark_ mode, where each variant has its own color palette and nuance controls. 
+
+   >[!NOTE]
+   >
+   >For each brand theme, you can define up to four variants.
 
     For each variant, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon. You can use the default palette, or any custom colors.
    
@@ -294,7 +298,7 @@ When you locate the theme, click the _More menu_ (**...**) icon at the lower rig
 
 ## Use a theme for email content authoring {#use-email-theme}
 
-When you create a new email or email template, you can choose to use a brand theme that streamlines the content authoring process and ensures that the design aligns with defined standards. For a new fragment, you can also apply a theme before you save the fragment. The fragment remains in _Theme mode_ from that point and is compatible to add to emails and email templates that are also in _Theme mode_. 
+When you create a new email or email template, you can choose to use a brand theme that streamlines the content authoring process and ensures that the design aligns with defined standards. For a new fragment, you can also apply a theme before you save the fragment. The fragment remains in _Theme mode_ from that point and is compatible to add to emails and email templates that are also in _Theme mode_.
 
 1. Select one of the following actions:
 
