@@ -1,7 +1,7 @@
 ---
 title: Audience Agent B2B
 description: Audience Agent B2B in Journey Optimizer B2B Edition uses intent analysis and persona mapping to create buying groups and accelerate B2B marketing workflows.
-feature: Agentic AI, Audiences]
+feature: Agentic AI, Audiences
 role: User
 exl-id: c1210912-66ba-4b5f-8f3b-96eb6280c926
 ---
