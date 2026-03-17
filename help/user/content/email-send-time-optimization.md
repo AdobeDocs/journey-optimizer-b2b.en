@@ -33,9 +33,9 @@ There are many **_future enhancements_** planned for STO:
 
 >[!ENDSHADEBOX]
 
-### Configuration
+## Configuration
 
-You can configure Send-time optimization when you [add a _[!UICONTROL Take an action]_ node](../journeys/action-nodes.md) and do the following:
+You can configure Send-time optimization when you [add a _[!UICONTROL Take an action]_ node](../journeys/action-nodes.md) to a person journey.
 
 1. For _[!UICONTROL Select action]_, choose **[!UICONTROL Send email]**.
 
@@ -59,6 +59,6 @@ You can configure Send-time optimization when you [add a _[!UICONTROL Take an ac
 
 1. After you complete the rest of the person journey, proceed to [publish](../journeys/create-publish-journey.md#publish-a-journey).
 
-## Reporting
+## STO insights
 
-STO insights are delivered through the _AI Assistant_**_ using the Journey Agent [Observability skill](../agents/journey-agent.md#journey-observability-skill). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.
+STO insights are delivered through the _AI Assistant_ using the Journey Agent [Observability skill](../agents/journey-agent.md#journey-observability-skill). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.
