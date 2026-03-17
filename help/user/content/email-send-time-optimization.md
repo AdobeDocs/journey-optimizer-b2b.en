@@ -3,7 +3,6 @@ title: Email Send-Time Optimization
 description: Send-time optimization (STO) in Adobe Journey Optimizer personalizes email delivery for person journeys. Learn how to enable STO and improve engagement.
 feature: Person Journeys, Channels
 role: User
-exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
 ---
 # Email send-time optimization
 
