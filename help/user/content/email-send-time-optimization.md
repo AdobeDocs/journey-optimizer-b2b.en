@@ -20,16 +20,16 @@ Send-time optimization is currently supported for:
 * **Configuration**: Email action node
 * **Reporting**: AI Assistant via the Journey Observability skill
 
-Performance insights—such as usage, engagement lift, and STO vs. non-STO comparisons—are available through natural language queries in the AI Assistant.
+Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in the AI Assistant.
 
 >[!BEGINSHADEBOX]
 
 There are many **_future enhancements_** planned for STO:
 
 * Support for _Account Journeys_
-* Global STO controls configured in the _[!UICONTROL Admin]_ area
+* Global STO configuration in the _[!UICONTROL Admin]_ area
 * Journey-level STO enablement
-* Configurable test/control splits
+* Configurable test / control splits
 * A dedicated STO reporting dashboard
 
 >[!ENDSHADEBOX]
@@ -46,18 +46,20 @@ You can configure Send-time optimization when you [add a _[!UICONTROL Take an ac
 
    * **[!UICONTROL Send within next]** - This value determines the optimization window (in days), which is the time range in which emails can be delivered. For example, for a webinar occurring in five days, you might set a four- or five-day window. STO selects the best predicted send time for each profile within this window.
 
-   * **STO / Fixed distribution** - STO automatically creates a _test and control split_ to divide eligible profiles between optimized and fixed send times. This enables direct performance comparison. Future releases will allow custom split percentages.
+   * **STO / Fixed distribution** - STO automatically creates a _test and control split_ to divide eligible profiles between optimized and fixed send times. The split enables direct performance comparison. (Future enhancements are planned to allow custom split percentages.)
 
    >[!NOTE]
    >
    >Profiles with strong engagement history are split evenly into control and test groups to measure STO impact. To ensure statistically reliable results, the STO vs. non‑STO split is constrained between 30% and 70%. This helps prevent smaller cohorts from skewing outcomes and ensures meaningful comparisons.
 
-1. Directly after the the _[!UICONTROL Send email]_ node, [add a _Wait_ node](../journeys/wait-nodes.md).
+   ![Send email journey node - Send-time Optimization options](./assets/email-node-send-time-optimization.png){width="700" zoomable="no"}
 
-   A wait node must immediately follow an STO-enabled email action. This ensures that profiles remain in the journey until the full optimization window is cleared and all STO sends are complete. If you omit this node, the system flags the configuration as invalid.
+1. Directly after the _[!UICONTROL Send email]_ node, [add a _Wait_ node](../journeys/wait-nodes.md).
 
-1. After you complete the rest of the person journey, proceed to publish.
+   A wait node must immediately follow an STO-enabled email action. Adding this node ensures that profiles remain in the journey until the full optimization window is cleared and all STO sends are complete. If you omit this node, the system flags the configuration as invalid.
+
+1. After you complete the rest of the person journey, proceed to [publish](../journeys/create-publish-journey.md#publish-a-journey).
 
 ## Reporting
 
-STO insights are delivered through the _AI Assistant_**_ using Journey Observability. You can query usage, engagement metrics, test/control results, node performance, and overall journey impact.
+STO insights are delivered through the _AI Assistant_**_ using the Journey Agent [Observability skill](../agents/journey-agent.md#journey-observability-skill). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.

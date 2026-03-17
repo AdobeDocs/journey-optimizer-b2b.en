@@ -94,7 +94,7 @@ In an account or person journey, use an action on people when you want to apply 
 | | <li>Account journey <li>Person journey | [!UICONTROL Person Interesting Moment] | <li>Type <li>Description |
 | | <li>Account journey | [!UICONTROL Personalize web experience] (Beta) | <li>Create/edit web experience |
 | | <li>Account journey | [!UICONTROL Remove from Buying Group] | <li>Select solution interest |
-| | <li>Account journey <li>Person journey | [!UICONTROL Send email] | <li>Create email |
+| | <li>Account journey <li>Person journey | [!UICONTROL Send email] | <li>Create email <li>Send-time optimization (optional, person journey only) |
 | | <li>Account journey | [!UICONTROL Send SMS] | <li>Create SMS |
 | | <li>Account journey <li>Person journey | [!UICONTROL Update person profile] | <li>Select person attribute <li>Set new value |
 | [Marketo Engage](#marketo-engage-actions) | <li>Account journey <li>Person journey | [!UICONTROL Add to Marketo Engage Request campaign] | <li>Select Marketo Engage workspace <li>Select Request campaign |
@@ -217,6 +217,8 @@ Use this action to remove people profiles from a [buying group](../buying-groups
 Use this action to send an email. After you [create the email](../content/add-email.md#add-an-email-to-your-journey) for the node, you can design, personalize, and preview email messages in the email design space (see [Email authoring](../content/email-authoring.md)). You can also send an [email from Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Select the Marketo Engage workspace and then select the email to send.
 
 ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"}
+
+For person journeys, you can use [Send-time optimization](../content/email-send-time-optimization.md) to personalize email delivery timing by predicting when each profile is most likely to engage.
 
 >[!NOTE]
 >
