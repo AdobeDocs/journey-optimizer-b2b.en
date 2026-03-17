@@ -98,8 +98,8 @@ In an account or person journey, use an action on people when you want to apply 
 | | <li>Account journey | [!UICONTROL Send SMS] | <li>Create SMS |
 | | <li>Account journey <li>Person journey | [!UICONTROL Update person profile] | <li>Select person attribute <li>Set new value |
 | [Marketo Engage](#marketo-engage-actions) | <li>Account journey <li>Person journey | [!UICONTROL Add to Marketo Engage Request campaign] | <li>Select Marketo Engage workspace <li>Select Request campaign |
-| | [!UICONTROL Add to Marketo list] | <li>Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
-| | [!UICONTROL Remove from Marketo list] | Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
+| | <li>Account journey <li>Person journey | [!UICONTROL Add to Marketo list] | <li>Name of external Marketo connection <li>List name |
+| | <li>Account journey <li>Person journey | [!UICONTROL Remove from Marketo list] | <li>Name of external Marketo connection <li>List name |
 
 >[!NOTE]
 >
