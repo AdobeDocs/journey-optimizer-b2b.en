@@ -78,7 +78,7 @@ Define your own brand theme that you can apply to your email and email template 
 
 1. Click **[!UICONTROL Close]** to return to the _[!UICONTROL Create a theme]_ page, and then **[!UICONTROL Cancel]** to return to the design page.
 
-   You can then choose **[!UICONTROL Design from scratch]** to open the visual design space and [use the theme](#use-your-theme-for-email-content-authoring) for the email or template.
+   You can then choose **[!UICONTROL Design from scratch]** to open the visual design space and [use the theme](#use-email-theme) for the email or template.
 
 ### General settings
 
@@ -103,7 +103,7 @@ Select the **[!UICONTROL Colors]** tab and use the settings to define the theme 
    
    ![Theme colors settings- change preset](./assets/email-theme-colors-settings-preset.png){width="350"}
 
-   For the selected color square at the top, you can  set the color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, you can use the color slider and the color field to select the color.
+   For the selected color square at the top, you can set the color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, you can use the color slider and the color field to select the color.
 
    Click the _Back_ arrow to close the color palette tools.
 
@@ -146,7 +146,7 @@ In the **[!UICONTROL Text settings]** tab, you can set the global font types, st
 | ---- | -------- | ----------- |
 | [!UICONTROL Global] | ![Select library for the global text settings](./assets/email-theme-text-settings-global-library.png){width="300"} |  Set the **[!UICONTROL Font library]** to _[!UICONTROL Standard]_ or _[!UICONTROL Google Fonts]_. Then, choose the font family that you want to use. These global text settings are applied throughout, unless you set different text styles for the heading levels and paragraph types. |
 | [!UICONTROL Headings] | ![Heading text styles for H1](./assets/email-theme-text-settings-headings.png){width="300"} | For the heading level that you want to set, select **[!UICONTROL H1]**, **[!UICONTROL H2]**, and so on. Set the **[!UICONTROL Font library]** to _[!UICONTROL Standard]_ or _[!UICONTROL Google Fonts]_. Then, choose the font family, size, and style. Choose the **[!UICONTROL Text alignment]**: _Left_, _Centered_, _Right_, or _Justified_.  |
-| [!UICONTROL Paragraphs] | ![Paragraph text styles for type P1](./assets/email-theme-text-settings-headings.png){width="300"} | For the heading level that you want to set, select **[!UICONTROL P1]**, **[!UICONTROL HP]**, and so on. Set the **[!UICONTROL Font library]** to _[!UICONTROL Standard]_ or _[!UICONTROL Google Fonts]_. Then, choose the font family, size, and style. Adjust the **[!UICONTROL Line height]** as needed. Choose the **[!UICONTROL Text alignment]**: _Left_, _Centered_, _Right_, or _Justified_.  |
+| [!UICONTROL Paragraphs] | ![Paragraph text styles for type P1](./assets/email-theme-text-settings-paragraphs.png){width="300"} | For the paragraph type that you want to set, select **[!UICONTROL P1]**, **[!UICONTROL P2]**, and so on. Set the **[!UICONTROL Font library]** to _[!UICONTROL Standard]_ or _[!UICONTROL Google Fonts]_. Then, choose the font family, size, and style. Adjust the **[!UICONTROL Line height]** as needed. Choose the **[!UICONTROL Text alignment]**: _Left_, _Centered_, _Right_, or _Justified_.  |
 
 +++
 
@@ -160,8 +160,8 @@ In the **[!UICONTROL Spacing]** tab, you can set the padding and margin for the 
 
 | Type | Settings | Description |
 | ---- | -------- | ----------- |
-| [!UICONTROL Margins] | ![Margin settings](./assets/email-theme-spacing-settings-margins.png){width="300"} | Choose the _Margin_ icon to display settings that replicate the CSS `margin` parameter, which controls to the space outside a component border and separates it from other components/elements. It creates a gap around the component to influence its positioning and the layout of surrounding content. Set the margin values in pixels according to your design needs. You can set the margin for all sides, the top-botton, the left-right, or each side of the component independently. Click the _Lock_ and _Unlock_ icons to synch or unsynch the top-bottom and left-right margin values.|
-| [!UICONTROL Paddings] | ![Padding settings](./assets/email-theme-spacing-settings-paddings.png){width="300"} | Choose the _Padding_ icon to display settings that replicate the CSS `padding` parameter, which is the space between the content of a component/element and its border. The padding provides internal spacing that you can use to control the distance between the content and the border of the component. Set the padding values in pixels according to your design needs. You can set the padding for all sides, the top-botton, the left-right, or each side of the component independently. Click the _Lock_ and _Unlock_ icons to synch or unsynch the top-bottom and left-right padding values. |
+| [!UICONTROL Margins] | ![Margin settings](./assets/email-theme-spacing-settings-margins.png){width="300"} | Choose the _Margin_ icon to display settings that replicate the CSS `margin` parameter, which controls the space outside a component border and separates it from other components/elements. It creates a gap around the component to influence its positioning and the layout of surrounding content. Set the margin values in pixels according to your design needs. You can set the margin for all sides, the top-bottom, the left-right, or each side of the component independently. Click the _Lock_ and _Unlock_ icons to synch or unsynch the top-bottom and left-right margin values.|
+| [!UICONTROL Paddings] | ![Padding settings](./assets/email-theme-spacing-settings-paddings.png){width="300"} | Choose the _Padding_ icon to display settings that replicate the CSS `padding` parameter, which is the space between the content of a component/element and its border. The padding provides internal spacing that you can use to control the distance between the content and the border of the component. Set the padding values in pixels according to your design needs. You can set the padding for all sides, the top-bottom, the left-right, or each side of the component independently. Click the _Lock_ and _Unlock_ icons to synch or unsynch the top-bottom and left-right padding values. |
 | [!UICONTROL Corners] | ![Corner settings](./assets/email-theme-spacing-settings-corners.png){width="300"} | Choose the _Corners_ icon to display settings that replicate the CSS `border-radius` parameter, which defines the radius of the component/element corners. Set the numerical value according to the curve that you want for the corners. A value of 0 (default) produces a squared corner.  |
 
 +++
@@ -206,7 +206,7 @@ In the **[!UICONTROL Divider]** tab, you can set the line styling and container 
 
 | Type | Settings | Description |
 | ---- | -------- | ----------- |
-| [!UICONTROL Line] | ![Divider linesettings](./assets/email-theme-divider-settings-line.png){width="300"} | Set the **[!UICONTROL Border style]** by choosing a value from the list of standard CSS `border-style` values, such as _Solid_, _Dotted_, and _Dashed_.   |
+| [!UICONTROL Line] | ![Divider line settings](./assets/email-theme-divider-settings-line.png){width="300"} | Set the **[!UICONTROL Border style]** by choosing a value from the list of standard CSS `border-style` values, such as _Solid_, _Dotted_, and _Dashed_.   |
 | [!UICONTROL Container size] | ![Divider container size settings](./assets/email-theme-divider-settings-container-size.png){width="300"} | For the **[!UICONTROL Height]** option, click the up and down arrow icons to increase or decrease the number of pixels for the component/element. An empty value (Auto) is the default and sizes the height according to its contents (line styling). For the **[!UICONTROL Width]**, use the toggle to set the width by pixels or percentage. For a percentage width, use the slider to set the percentage value. The percentage determines the element width based on the content box of the containing block. For example, a value of 50 sets the divider width to 50% of its containing block content width. For a pixel-based width, click the up and down arrow icons to increase or decrease the number of pixels. An empty value (_Auto_) is the default and sizes the width of the divider according to its contents. |
 | [!UICONTROL Alignment] | ![Divider alignment settings](./assets/email-theme-divider-settings-alignment.png){width="300"} | Choose the horizontal alignment within the containing block: _Left_, _Centered_, or _Right_. |
 
