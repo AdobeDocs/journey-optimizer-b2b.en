@@ -12,7 +12,7 @@ Experience Data Model (XDM) fields are schema elements that provide data to the 
 
 Schemas define fields based on standard XDM classes. Standard XDM classes include Individual Profile, Business Account, and Experience Event. Relational schemas also define fields that allow you to model structured data similarly to traditional relational databases.
 
-Adobe Experience Platform (AEP) schemas typically contain many fields in complex hierarchies. Traversing XDM schema trees takes time. XDM field management streamlines field selection by displaying only the fields that are relevant to your journeys, buying groups, and personaliation.  Administrators enable these fields for use in Journey Optimizer B2B Edition, including which are read-only or editable.
+Adobe Experience Platform (AEP) schemas typically contain many fields in complex hierarchies. Traversing XDM schema trees takes time. XDM field management streamlines field selection by displaying only the fields that are relevant to your journeys, buying groups, and personalization.  Administrators enable these fields for use in Journey Optimizer B2B Edition, including which are read-only or editable.
 
 Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders should use the following steps to configure XDM classes for [!DNL Journey Optimizer B2B Edition].
 
@@ -84,7 +84,7 @@ When you choose **[!UICONTROL Managed fields]**, the _Select fields_ dialog list
 
 #### Updatable fields
 
-Set the updateable fields to choose which fields can be modified through **[!UICONTROL Update Account Profile]** or **[!UICONTROL Update Person Profile]** journey actions.
+Set the updatable fields to choose which fields can be modified through **[!UICONTROL Update Account Profile]** or **[!UICONTROL Update Person Profile]** journey actions.
 
 Before you configure updatable fields, they must reside in a custom dataset. For a walkthrough of the custom dataset workflow, see [Create datasets and ingest data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, and use the **[!UICONTROL Create dataset from schema]** option. This dataset is used to isolate updatable fields. All updatable fields must be in this dataset.
 
