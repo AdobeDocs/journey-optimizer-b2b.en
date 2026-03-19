@@ -6,19 +6,19 @@ role: User
 ---
 # WhatsApp authoring
 
-Use Adobe Journey Optimizer B2B Edition to send WhatsApp messages to account members on their mobile devices. You can create, personalize, and preview messages using approved Meta message templates from the WhatsApp editor. Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings.
+Use Adobe Journey Optimizer B2B Edition to send WhatsApp messages to account members on their mobile devices. You can create, personalize, and preview messages using approved Meta message templates from the WhatsApp editor. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 Before creating WhatsApp messages for account journeys, make sure that you have the needed [WhatsApp channel configured](../admin/configure-channels-whatsapp.md) in the _[!UICONTROL Administrator]_ settings.
 
 >[!NOTE]
 >
->Only _outbound_ WhatsApp messages elements are supported in Journey Optimizer B2B Edition.
+>Only _outbound_ WhatsApp message elements are supported in Journey Optimizer B2B Edition.
 
 +++ Supported message elements and calls to action options
 
 The following message types are supported in WhatsApp:
 
-| Message elemnt | Description |
+| Message element | Description |
 | - | - |
 | Headers | Optional text that appears above the body of your message. |
 | Text | Supports dynamic content through parameters. |
@@ -55,7 +55,7 @@ You can set up WhatsApp message deliveries in an account journey when you [add a
 
 1. In the dialog, enter a unique **[!UICONTROL Name]** (required) and **[!UICONTROL Description]** (optional) for the WhatsApp message.
 
-   ![Create new WhatsApp message dialog](assets/whatsapp-create-dialog.png){width="400"}
+   ![Create new WhatsApp message dialog](./assets/whatsapp-create-dialog.png){width="400"}
 
 1. Click **[!UICONTROL Create]**.
 
@@ -69,7 +69,7 @@ You can set up WhatsApp message deliveries in an account journey when you [add a
 
    ![Create WhatsApp - Actions tab](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Edit content]** to move on the message parameters and text.
+1. Click **[!UICONTROL Edit content]** to move on to the message parameters and text.
 
 ### Select a message template
 
@@ -91,7 +91,7 @@ WhatsApp messages are sent using pre-approved message templates from your Meta W
 
    ![Selected WhatsApp message template with message loaded in the preview window](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   Templates are organized by category (_Marketing_, _Utility_, and _Authentication_) and status. Only **_Approved_** templates are available for selection. For more information about creating WhatsAPp templates, see [_Create message templates for your WhatsApp Business account_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in the Meta documentation.
+   Templates are organized by category (_Marketing_, _Utility_, and _Authentication_) and status. Only **_Approved_** templates are available for selection. For more information about creating WhatsApp templates, see [_Create message templates for your WhatsApp Business account_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in the Meta documentation.
 
 ### Image URLs
 
