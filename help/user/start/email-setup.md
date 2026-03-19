@@ -3,6 +3,7 @@ title: Email Setup
 description: Placeholder
 feature: Setup, Channels
 role: Admin
+exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
 ---
 # Email setup
 
@@ -253,4 +254,3 @@ Adobe has identified a list of IP addresses that are responsible for generating 
 >Every IP address is meticulously analyzed and scrutinized before it is included in this list, ensuring only the most critical and harmful IPs are blocked.
 
 +++
-

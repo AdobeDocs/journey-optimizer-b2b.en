@@ -3,6 +3,7 @@ title: B2B Namespaces and schemas
 description: Configure Experience Platform B2B namespaces and schemas for Journey Optimizer B2B Edition using the Postman auto-generation utility.
 feature: Setup, Data Management
 role: Admin
+exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
 ---
 # B2B Namespaces and schemas
 
