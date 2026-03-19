@@ -1,16 +1,16 @@
 ---
-title: User Management
+title: User Access and Permissions
 description: Manage user access with the Experience Cloud Admin Console - create user groups, assign product profiles, and configure role-based permissions for Journey Optimizer B2B Edition.
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
 ---
-# User management
+# User access and permissions
 
 After provisioning is complete and sandboxes are bound, complete the following steps to provide Adobe Journey Optimizer B2B Edition access for your team and users.
 
-1. [Create a Marketo Engage product profile](#marketo-engage-profile) in the Admin Console (new Marketo Engage instance only).
-1. [Create a user group](#create-user-group) in the Admin Console.
+1. [Create a Marketo Engage product profile](#create-the-marketo-engage-product-profile) in the Admin Console (new Marketo Engage instance only).
+1. [Add a user group](#add-a-user-group-for-the-profile) in the Admin Console.
 1. [Edit built-in roles](#edit-roles-for-product-permissions) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions.
 1. [Add users](#add-users) or [groups](#add-user-groups-to-a-role) to roles.
 
@@ -50,11 +50,11 @@ Before you can use the Admin Console to administer users within your team, you n
 
 When granting users access to an Adobe solution, you do not necessarily want to give them full access. Product profiles enable each solution to have its own set of user permissions. Use the Admin Console to assign product profiles.
 
-For more information about using product profiles for user entitlements, see [Manage product profiles for enterprise users](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"} in the Admin Console documentation.
+For more information about using product profiles for user entitlements, see [_Manage product profiles for enterprise users_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"} in the Admin Console documentation.
 
 >[!BEGINSHADEBOX]
 
-When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
+When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _x_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
 
 For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
 
@@ -70,13 +70,17 @@ For more information about managing these permissions within Marketo Engage, see
 
    ![Admin Console - Marketo Engage instance - New profile](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
-1. Enter a product profile name, such as _Standard User_.
+1. Enter a product profile name, such as _B2B Users_.
 
-1. Click **Next** and then **Save**.
+1. Click **[!UICONTROL Next]** and then **[!UICONTROL Save]**.
 
-## Create a user group {#create-user-group}
+## Add a user group for the profile {#add-user-group}
 
 A user group is a collection of users are granted a shared set of permissions. You can add or remove users in your user group. The group permissions remain the same while the users within the group change.
+
+>[!TIP]
+>
+>If you are migrating to the simplified architecture and want to add your existing Journey Optimizer B2B Edition users to Marketo Engage, you can skip the user group creation steps, and simply open the existing user group and add the Marketo Engage product profile.
 
 For more information about how user groups are used to manage permissions, see [Manage user groups](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} in the Admin Console documentation.
 
@@ -90,7 +94,7 @@ For more information about how user groups are used to manage permissions, see [
 
 1. Click **[!UICONTROL New user group]** at the top right.
 
-1. Enter a name for the user group, such as _Standard Users_ and click **[!UICONTROL Save]**.
+1. Enter a name for the user group, such as _B2B Users_ and click **[!UICONTROL Save]**.
 
 1. Click the user group you just created.
 
@@ -107,7 +111,7 @@ For more information about how user groups are used to manage permissions, see [
 
 1. Click **[!UICONTROL Save]**.
 
-## Add users to a group
+## Add users to a new group
 
 For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
 
