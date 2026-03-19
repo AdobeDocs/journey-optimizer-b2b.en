@@ -186,11 +186,6 @@ To send emails from [!DNL Journey Optimizer B2B Edition] on the simplified archi
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
-<td>Configure <em>Email CC Settings</em></td>
-<td><!-- [Learn more](TBD) --></td>
-</tr>
-<tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Configure <em>Bot Activity</em> filtering</td>
 <td><a href="./start/email-setup.md#filter-email-bots">Learn more</a></td>
 </tr>
@@ -203,6 +198,17 @@ To send emails from [!DNL Journey Optimizer B2B Edition] on the simplified archi
 <td>Configure <em>Communication Limits</em> in Journey Optimizer B2B Edition</td>
 <td><a href="./admin/configure-channels-emails.md#communication-limits">Learn more</a></td>
 </tr>
+</tbody>
+</table>
+
+<!-- TBD for later 
+
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Configure <em>Email CC Settings</em></td>
+<td>[Learn more](TBD)</td>
+</tr>
+
 <tr>
 <td colspan="2"><strong>Additional configurations</strong></td>
 <td></td>
@@ -210,20 +216,19 @@ To send emails from [!DNL Journey Optimizer B2B Edition] on the simplified archi
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Configure <em>Location Settings</em> for the attached Marketo Engage instance</td>
-<td><!-- [Learn more](TBD) --></td>
+<td>< [Learn more](TBD)</td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Define and configure which Binding Groups / IPs to move over</td>
-<td><!-- [Learn more](TBD) --></td>
+<td>[Learn more](TBD)</td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Test Email Send</td>
-<td><!-- [Learn more](TBD) --></td>
+<td>[Learn more](TBD)</td>
 </tr>
-</tbody>
-</table>
+-->
 
 ## 4. Configure additional content channels
 
