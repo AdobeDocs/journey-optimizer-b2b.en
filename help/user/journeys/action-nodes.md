@@ -96,6 +96,7 @@ In an account or person journey, use an action on people when you want to apply 
 | | <li>Account journey | [!UICONTROL Remove from Buying Group] | <li>Select solution interest |
 | | <li>Account journey <li>Person journey | [!UICONTROL Send email] | <li>Create email |
 | | <li>Account journey | [!UICONTROL Send SMS] | <li>Create SMS |
+| | <li>Account journey | [!UICONTROL Send WhatsApp] | <li>Create WhatsApp message |
 | | <li>Account journey <li>Person journey | [!UICONTROL Update person profile] | <li>Select person attribute <li>Set new value |
 | [Marketo Engage](#marketo-engage-actions) | <li>Account journey <li>Person journey | [!UICONTROL Add to Marketo Engage Request campaign] | <li>Select Marketo Engage workspace <li>Select Request campaign |
 | | [!UICONTROL Add to Marketo list] | <li>Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
@@ -229,6 +230,14 @@ Use this action to send an email. After you [create the email](../content/add-em
 Use this action to send an SMS message. You can create, personalize, and preview SMS messages in the visual design space (see [SMS authoring](../content/sms-authoring.md)).
 
 ![Take an action - Send SMS](./assets/node-action-send-sms.png){width="300"}
+
++++
+
++++[!UICONTROL Send WhatsApp]
+
+Use this action to send a WhatsApp message. You can create, personalize, and preview WHatsApp messages in the visual design space (see [WhatsApp authoring](../content/whatsapp-authoring.md).
+
+![Take an action - Send WhatsApp](./assets/node-action-send-whatsapp.png){width="300"}
 
 +++
 

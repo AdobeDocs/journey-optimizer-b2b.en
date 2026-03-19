@@ -25,7 +25,7 @@ Before you configure an SMS channel in Adobe Journey Optimizer B2B Edition, you 
 >
 >The described settings are accessible only to the users with SMS Admin privileges.
 
-1. On the left navigation, expand the **[!UICONTROL Administrator]** section and click **[!UICONTROL Channels]**.
+1. On the left navigation, expand the **[!UICONTROL Administration]** section and click **[!UICONTROL Channels]**.
 
    ![Access the congfiguration of SMS API credentials](./assets/config-sms-api.png){width="800" zoomable="yes"}
 

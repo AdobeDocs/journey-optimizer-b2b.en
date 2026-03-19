@@ -37,6 +37,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
     + [SMS channel](./content/sms-authoring.md)
+    + [WhatsApp channel](./content/whatsapp-authoring.md)
     + Email channel {#email-channel}
        + [Add an email](./content/add-email.md)
        + [Email authoring](./content/email-authoring.md)
@@ -144,6 +145,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
+       + [WhatsApp configurations](./admin/configure-channels-whatsapp.md)
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
        + [Landing page settings (Beta)](./admin/landing-page-settings.md)
        + [Configure datastreams for event collection](./data/aep-event-collection.md)
