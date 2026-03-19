@@ -161,7 +161,7 @@ To send emails from [!DNL Journey Optimizer B2B Edition] on the simplified archi
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
-<td>Configure <em>From Email</em> and <em>From Label</em></td>
+<td>Configure <em>From Email</em> and <em>From Label</em> (optional)</td>
 <td><a href="./start/email-setup.md#from-email-and-label">Learn more</a></td>
 </tr>
 <tr>
