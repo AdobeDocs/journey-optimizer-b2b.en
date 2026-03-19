@@ -3,8 +3,6 @@ title: Landing page configuration
 description: Configure landing page subdomains, form prefill settings, and datastreams to enable campaign web page publishing in Journey Optimizer B2B Edition.
 feature: Setup, Landing Pages, Content
 role: Admin
-hide: yes
-hidefromtoc: yes
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 ---
@@ -14,7 +12,7 @@ Administrators should ensure that the landing page settings are configured for M
 
 ## Settings
 
-To review the landing page configuration, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Under _[!UICONTROL Landing Pages]_ in the navigation panel, select **[!UICONTROL Settings]**.
+To review the landing page configuration, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Under _[!UICONTROL Landing Pages]_ in the navigation pane, select **[!UICONTROL Settings]**.
 
 ![Landing page settings](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 

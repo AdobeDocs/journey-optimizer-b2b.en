@@ -1,15 +1,19 @@
 ---
 title: Activate Marketo Engage to Support Journey Actions
 description: Activate Marketo Engage connections to support journey actions so that marketers can coordinate campaigns between Marketo Engage and Journey Optimizer B2B Edition.
-feature: Integrations, Audiences, Buying Groups
-role: User, Admin
+feature: Setup, Integrations
+role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
 ---
-# Activate Marketo Engage instances to support actions
+# Activate Marketo Engage connections to support actions
 
 Marketo Engage actions are _people-based_ actions that allow you to coordinate your _account-based_ marketing orchestration between Journey Optimizer B2B Edition and your _lead-based_ marketing efforts in Marketo Engage. Use these actions to orchestrate static list membership and to place people into campaigns.
 
-To use Marketo Engage journey actions, an administrator first creates a [custom service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, which provides the credentials needed for authentication. Then, a product administrator for Journey Optimizer B2B Edition uses the credentials to create a connection to Marketo Engage. Journey Optimizer B2B Edition users can then reference the connection to configure Marketo Engage actions in <!-- person and -->account journeys, such as adding or removing people from Marketo Engage lists or adding them to request campaigns.
+To use Marketo Engage journey actions, an administrator first creates a [custom service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, which provides the credentials needed for authentication. Then, a product administrator for Journey Optimizer B2B Edition uses the credentials to create a connection to Marketo Engage. Journey Optimizer B2B Edition users can then reference the connection to configure Marketo Engage actions in <!-- person and -->account journeys:
+
+* [!UICONTROL Add to Marketo List]
+* [!UICONTROL Remove from Marketo List]
+* [!UICONTROL Add to Marketo Request Campaign]
 
 ## Configure a Marketo Engage connection {#external-marketo-configure}
 
