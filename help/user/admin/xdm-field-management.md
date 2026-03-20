@@ -107,7 +107,7 @@ Create a dataset for Individual Profile, and another for Business Account. Selec
 
 ### Relational schemas
 
-Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities such as purchases, licenses, and event registrations in journey decisions and email personalization. You can select up to 50 schemas and up to 100 fields per schema.
+Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities such as purchases, licenses, and event registrations in journey decisions and email personalization. You can select up to 20 schemas and up to 50 fields per schema.
 
 For information about how you can use the selected fields for advanced email personalization, see [Content personalization](../content/personalization.md#custom-datasets). For information about how you can use the selected fields for journey decisioning (split paths by account or people), see [Custom data filtering](../journeys/split-merge-paths-nodes.md#custom-data-filtering).
 
