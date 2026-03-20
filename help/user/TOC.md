@@ -19,7 +19,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Email setup](./start/email-setup.md)
        + [Marketo Engage journey actions](./admin/marketo-actions-connect.md)
        + [User management](./admin/user-management.md)
-    + [User onboarding guidance](./start/get-started.md)
+    + [User onboarding](./start/get-started.md)
     + [Login and home page](home-page.md)
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
