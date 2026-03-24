@@ -31,6 +31,11 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 <!-- wait for later release
 | Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
+>[!NOTE]
+>
+>These release changes begin deployment on Marh 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
+
 ## 2026.2 release notes
 
 **Deployment date**: February 20, 2026
