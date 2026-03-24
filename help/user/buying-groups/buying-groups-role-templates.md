@@ -57,7 +57,7 @@ Each role that you define for the template uses a set of filters, or _conditions
 | Type | Conditions |
 | ---- | --------- |
 | [!UICONTROL Person attributes] | Attributes from the [person profile](../admin/field-mapping.md#xdm-business-person-attributes), including: <li>City <li>Country <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State |
-| [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The account does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas) (see [_Custom data filtering_](#custom-data-filtering)). |
+| [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The account does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schemas](../admin/xdm-field-management.md#relational-schemas). |
 | Special filters | <li>Member of list (deprecated) <li>Member of program (deprecated) |
 | Intent data | <li>Category intent <li>Product intent <li>Keyword intent <br/>(see [_Intent data_](../admin/intent-data.md)) |
 
@@ -89,17 +89,17 @@ Each role that you define for the template uses a set of filters, or _conditions
       >
       >If you have custom person fields defined in the business person schema in Experience Platform, these fields are also available to use as person attributes in conditions.
 
-   * If there are configured custom objects related to people [defined in the XDM Relational schemas](../admin/xdm-field-management.md#relational-schemas), expand the list of **[!UICONTROL Custom Objects]** to use them in the role condition.
-
-      ![Roles template add custom object condition](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
-
-   * Use the attribute to create a matching filter using one or more values. 
+      Use the attribute to create a matching filter using one or more values. 
     
       In the following example, the Job title attribute is used to identify a match for Decision Maker. Any value for title that starts with `Director` or `Sr Director` evaluates as true for the condition.
 
       ![Roles template condition example using job title](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * If needed, add another attribute and condition that further refines the criteria for a match to the role.
+   * If there are configured custom objects related to people [defined in the XDM Relational schemas](../admin/xdm-field-management.md#relational-schemas), expand the list of **[!UICONTROL Custom Objects]** to use them in the role condition.
+
+      ![Roles template add custom object condition](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
+
+   * If needed, add another attribute/object and condition that further refines the criteria for a match to the role.
 
    * Click **[!UICONTROL Done]**.
 
