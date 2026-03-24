@@ -7,7 +7,7 @@ exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 ---
 # Buying group role templates
 
-In a B2B market, buying decisions are usually made by multiple individuals. Those individuals participate in the decision-making process according to their role within the organization. Create Buying Group role templates that contain a group of role definitions according to each product offering type or account use case.
+In a B2B market, buying decisions are usually made by multiple individuals. Those individuals participate in the decision-making process according to their role within the organization. Create buying group role templates that contain a group of role definitions according to each product offering type or account use case.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -54,11 +54,12 @@ After you create the template, it opens in the workspace and you are prompted to
 
 Each role that you define for the template uses a set of filters, or _conditions_, to determine the members assigned to the role. Use the following filter types to define the conditions for a role:
 
-| Type | Condition |
+| Type | Conditions |
 | ---- | --------- |
-| Person attributes | <li>Email address <li>Email invalid <li>Email suspended <li>Fax number <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Middle name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
-| Special filters | <li>Member of list <li>Member of program|
-| Intent data | <li>Category intent <li>Product intent <li>Keyword intent<br/>[Learn about intent data](../admin/intent-data.md) |
+| [!UICONTROL Person attributes] | Attributes from the [person profile](../admin/field-mapping.md#xdm-business-person-attributes), including: <li>City <li>Country <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State |
+| [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The account does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas) (see [_Custom data filtering_](#custom-data-filtering)). |
+| Special filters | <li>Member of list (deprecated) <li>Member of program (deprecated) |
+| Intent data | <li>Category intent <li>Product intent <li>Keyword intent <br/>(see [_Intent data_](../admin/intent-data.md)) |
 
 1. For the first role card, define the role properties.
 
@@ -86,7 +87,11 @@ Each role that you define for the template uses a set of filters, or _conditions
 
       >[!NOTE]
       >
-      >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions.
+      >If you have custom person fields defined in the business person schema in Experience Platform, these fields are also available to use as person attributes in conditions.
+
+   * If there are configured custom objects related to people [defined in the XDM Relational schemas](../admin/xdm-field-management.md#relational-schemas), expand the list of **[!UICONTROL Custom Objects]** to use them in the role condition.
+
+      ![Roles template add custom object condition](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
    * Use the attribute to create a matching filter using one or more values. 
     
@@ -102,6 +107,8 @@ Each role that you define for the template uses a set of filters, or _conditions
 
    ![Roles template with multiple roles defined](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
+   Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the _[!UICONTROL Roles templates]_ list.
+
 >[!BEGINSHADEBOX "Marketo Engage list membership"]
 
 In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your roles template to help eliminate duplication in buying group membership and journey activities.
@@ -115,11 +122,9 @@ To use list membership as a role condition, expand **[!UICONTROL Special Filters
 >
 >**Feature deprecation**</br></br>
 >
->With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, filtering based on list or program membership in a Marketo Engage instance in not supported.
+>With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, filtering based on list or program membership in a Marketo Engage instance is not supported.
 
->[!ENDSHADEBOX] 
-
-Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the _[!UICONTROL Roles templates]_ list.
+>[!ENDSHADEBOX]
 
 ### Change the completeness score settings
 
