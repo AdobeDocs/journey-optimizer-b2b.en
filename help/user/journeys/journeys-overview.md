@@ -151,7 +151,7 @@ If you close a live journey, accounts that are currently in the journey continue
 
 1. In the confirmation dialog, click **[!UICONTROL Close to new entries]**.
 
-### Duplicate a journey
+### Duplicate a journey {#duplicate-journey}
 
 A duplicate action is similar to a clone function, but a duplicated journey does not include any created journey content assets. You can duplicate the details for the journey, or just a simple _skeleton_ of the flow and path structure.
 
