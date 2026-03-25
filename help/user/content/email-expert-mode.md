@@ -33,7 +33,7 @@ In _Expert mode_, you have direct access to the full HTML source of your email t
 * Add [conditional content](./conditional-content.md) logic using expression syntax.
 * Add custom HTML attributes, tracking tags, or other markup that is not available through the visual editor controls.
 
-![Expert mode showing raw HTML source of the email content](./assets/email-expert-mode-view.png){width="800" zoomable="yes"}
+<!-- ![Expert mode showing raw HTML source of the email content](./assets/email-expert-mode-view.png){width="800" zoomable="yes"} -->
 
 ### Access expert mode
 
