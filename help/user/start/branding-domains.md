@@ -3,6 +3,7 @@ title: Configure Branding Domains
 description: Configure your branding domains so that each of your brands has its own branded tracking links.
 feature: Setup, Channels
 role: Admin
+exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
 ---
 # Configure branding domains
 
