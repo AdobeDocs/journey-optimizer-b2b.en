@@ -17,7 +17,7 @@ In Journey Optimizer B2B Edition, you can manually define and organize your bran
 
 >[!AVAILABILITY]
 >
->This capability is currently available as a private beta, with progressive availability planned for all customers in future releases.
+>This capability is currently available as a public beta.
 >
 ><br>
 >
