@@ -90,7 +90,7 @@ In an account or person journey, use an action on people when you want to apply 
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Add to external customer audience] | <li>Account journey <li>Person journey | <li>Select external customer audience |
 | | [!UICONTROL Assign to Buying Group] | <li>Account journey | <li>Select solution interest <li>Select role |
-| | [!UICONTROL Change Score] | <li>Account journey | Score name <li>Change in score |
+| | [!UICONTROL Change Score] | <li>Account journey | <li>Score name <li>Change in score |
 | | [!UICONTROL Person Interesting Moment] | <li>Account journey <li>Person journey | <li>Type <li>Description |
 | | [!UICONTROL Personalize web experience] (Beta) | <li>Account journey | <li>Create/edit web experience |
 | | [!UICONTROL Remove from Buying Group] | <li>Account journey | <li>Select solution interest |
@@ -103,7 +103,7 @@ In an account or person journey, use an action on people when you want to apply 
 
 >[!NOTE]
 >
->The _[!UICONTROL Change People Partition in Marketo Engage]_ action is deprecated for the 2025.10 release and is not available on the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition.<br/>
+>The _[!UICONTROL Change People Partition in Marketo Engage]_ and _[!UICONTROL Change Score]_ actions are deprecated for the 2025.10 release and are not available on the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition.<br/>
 >
 >The _[!UICONTROL Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced with _[!UICONTROL Update person profile]_ on the simplified architecture.
 
