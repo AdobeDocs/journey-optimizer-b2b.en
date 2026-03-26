@@ -90,7 +90,7 @@ The **[!UICONTROL Generate images using AI]** option is disabled by default. Ena
 * **[!UICONTROL Lighting]**: The lighting style used for the image, which shapes its atmosphere and highlights specific elements.
 * **[!UICONTROL Composition]**: The arrangement of elements within the frame of an image.
 
-![Image settings panel displaying Content type, Visual intensity, Color and tone, Lighting, and Composition options](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+![Image settings panel displaying Generative model, Content type, Visual intensity, Color and tone, Lighting, and Composition options](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 Click the left arrow to return to the main _[!UICONTROL Settings]_.
 
