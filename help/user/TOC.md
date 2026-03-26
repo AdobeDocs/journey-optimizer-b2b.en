@@ -9,9 +9,18 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + [Release notes](./release-notes/release-notes.md)
 + Get started {#get-started}
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
+    + Simplified architecture {#simplified-architecture}
+       + [Setup checklist](./simplified-architecture.md)
+       + [Namespaces and schemas](./data/namespaces-schemas.md)
+       + [XDM field selection](./admin/xdm-field-management.md)
+       + [Experience Events and fields](./admin/configure-aep-events.md)
+       + [Branding domains](./start/branding-domains.md)
+       + [Email tracking and delivery](./start/email-protocols.md)
+       + [Email setup](./start/email-setup.md)
+       + [Marketo Engage journey actions](./admin/marketo-actions-connect.md)
+       + [User management](./admin/user-management.md)
+    + [User onboarding](./start/get-started.md)
     + [Login and home page](home-page.md)
-    + [Onboarding guidance](./start/get-started.md)
-    + [Tracking and email protocols](./start/email-protocols.md)
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
     + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
@@ -19,8 +28,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
     + [Generative AI for content](./ai-assistant/generative-ai-content.md)
     + Agents {#ai-agents}
-       + [Audience Agent](./agents/audience-agent-b2b.md)
-       + [Journey Build Agent B2B](./agents/journey-agent.md)
+       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
+       + [Journey Agent B2B](./agents/journey-agent.md)
        + [Sales Qualifier](./agents/sales-qualifier.md)
 + Journey management {#journeys}
     + [Account and person journeys](./journeys/journeys-overview.md)
@@ -55,6 +64,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Experience Platform audiences](./audiences/account-audience-overview.md)
     + [Target external audiences](./audiences/target-external-audience.md)
     + [LinkedIn Account Matched audiences](./data/linkedin-account-matched-audiences.md)
+    + [Default XDM fields](./admin/field-mapping.md)
 + Accounts {#accounts}
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
@@ -135,13 +145,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Account Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [Governance](./admin/governance.md)
-    + [Marketo Actions configuration](./admin/marketo-actions-connect.md)
     + [Persona mapping](./admin/persona-mapping.md)
-    + [User management](./admin/user-management.md)
-    + XDM field management {#xdm-field-management}
-      + [XDM classes](admin/xdm-field-management.md)
-      + [Experience Events and fields](./admin/configure-aep-events.md)
-      + [Default XDM fields](./admin/field-mapping.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
@@ -152,4 +156,3 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [AEM Assets repositories](./admin/configure-aem-repositories.md)
        + [Intent data](./admin/intent-data.md)
        + [Engagement score weighting](./admin/engagement-score-weighting.md)
-    + [Simplified architecture setup](simplified-architecture.md)

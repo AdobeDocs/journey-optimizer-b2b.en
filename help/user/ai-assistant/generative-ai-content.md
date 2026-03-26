@@ -5,6 +5,7 @@ feature: AI Assistant, Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
+exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 ---
 # Generative AI for content {#generative-ai-content}
 

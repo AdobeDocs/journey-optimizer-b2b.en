@@ -53,7 +53,7 @@ Before you create a solution interest, you must have a live (published) roles te
 
 1. Enable the **[!UICONTROL Update existing buying groups]** setting (optional).
 
-   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 7-day sync cycle.
+   When this option is enabled, all the existing buying groups paired with the solution interest are updated through the daily sync cycle.
 
 1. Click **[!UICONTROL Create]** at the top-right corner.
 
@@ -80,7 +80,7 @@ At any time, you can change the name and description for a solution interest. Th
 
    * Change the **[!UICONTROL Update existing buying groups]** setting.
 
-      When this option is enabled, all the existing buying groups paired with the solution interest are updated through the 7-day sync cycle.
+      When this option is enabled, all the existing buying groups paired with the solution interest are updated through the daily sync cycle.
 
 1. Click **[!UICONTROL Save]**.
 

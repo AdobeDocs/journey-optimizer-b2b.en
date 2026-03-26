@@ -12,7 +12,7 @@ Experience Data Model (XDM) fields are schema elements that provide data to the 
 
 Schemas define fields based on standard XDM classes. Standard XDM classes include Individual Profile, Business Account, and Experience Event. Relational schemas also define fields that allow you to model structured data similarly to traditional relational databases.
 
-Adobe Experience Platform (AEP) schemas typically contain many fields in complex hierarchies. Traversing XDM schema trees takes time. XDM field management streamlines field selection by displaying only fields relevant to each journey. Administrators control which fields appear for journey creators. Administrators also set fields to read-only or editable. These actions improve efficiency during journey design.
+Adobe Experience Platform (AEP) schemas typically contain many fields in complex hierarchies. Traversing XDM schema trees takes time. XDM field management streamlines field selection by displaying only the fields that are relevant to your journeys, buying groups, and personalization.  Administrators enable these fields for use in Journey Optimizer B2B Edition, including which are read-only or editable.
 
 Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders should use the following steps to configure XDM classes for [!DNL Journey Optimizer B2B Edition].
 
@@ -84,6 +84,8 @@ When you choose **[!UICONTROL Managed fields]**, the _Select fields_ dialog list
 
 #### Updatable fields
 
+Set the updatable fields to choose which fields can be modified through **[!UICONTROL Update Account Profile]** or **[!UICONTROL Update Person Profile]** journey actions.
+
 Before you configure updatable fields, they must reside in a custom dataset. For a walkthrough of the custom dataset workflow, see [Create datasets and ingest data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, and use the **[!UICONTROL Create dataset from schema]** option. This dataset is used to isolate updatable fields. All updatable fields must be in this dataset.
 
 >[!IMPORTANT]
@@ -105,7 +107,7 @@ Create a dataset for Individual Profile, and another for Business Account. Selec
 
 ### Relational schemas
 
-Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities such as purchases, licenses, and event registrations in journey decisions and email personalization. You can select up to 50 schemas and up to 100 fields per schema.
+Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities such as purchases, licenses, and event registrations in journey decisions and email personalization. You can select up to 20 schemas and up to 50 fields per schema.
 
 For information about how you can use the selected fields for advanced email personalization, see [Content personalization](../content/personalization.md#custom-datasets). For information about how you can use the selected fields for journey decisioning (split paths by account or people), see [Custom data filtering](../journeys/split-merge-paths-nodes.md#custom-data-filtering).
 
@@ -119,14 +121,20 @@ For information about how you can use the selected fields for advanced email per
 
 You can create relational schemas using the schema editor (go to **[!UICONTROL Data Management]** > **[!UICONTROL Schemas]** in the left navigation).
 
+>[!BEGINSHADEBOX]
+
+**Schema requirements**
+
 When creating a schema for use with [!DNL Journey Optimizer B2B Edition], the following configurations values are required:
 
 * Behavior: Record
 * Segmentation: Enabled
 * Relationship type: Many-to-one
-* Reference schema: B2B Account
+* Reference schema: [B2B Account](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
 * Required fields: Primary key, foreign key, and version descriptor
 * Associated dataset: Defined and mapped to the schema
+
+>[!ENDSHADEBOX]
 
 To select relational schema fields for use in [!DNL Journey Optimizer B2B Edition]:
 
