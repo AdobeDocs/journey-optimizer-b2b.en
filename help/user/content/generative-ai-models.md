@@ -1,7 +1,8 @@
 ---
 title: Generative AI Models
 description: Create and manage generative AI image models that marketers can select for generating images for email and landing page content.
-topic: Generative AI, Brand Identity, Content
+topic: Artificial Intelligence
+feature: Generative AI, Brand Identity, Content
 role: User
 level: Beginner, Intermediate
 ---
