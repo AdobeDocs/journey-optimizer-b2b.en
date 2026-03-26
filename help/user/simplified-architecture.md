@@ -330,12 +330,12 @@ When provisioning is complete, sandboxes are bound, and initial setup tasks are 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Create a Marketo Engage product profile in the Adobe Admin Console (new Marketo Engage instance only)</td>
-<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">Learn more</a></td>
+<td><a href="./admin/user-management.md#marketo-engage-profile">Learn more</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Add a user group for the profile</td>
-<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">Learn more</a></td>
+<td><a href="./admin/user-management.md#add-user-group">Learn more</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
