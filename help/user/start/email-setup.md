@@ -1,6 +1,6 @@
 ---
 title: Email Setup
-description: Placeholder
+description: Configure Marketo Engage options for Journey Optimizer B2B email delivery, including defaults, unsubscribe, web view, Velocity object limits, tracking headers, and bot filtering.
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
