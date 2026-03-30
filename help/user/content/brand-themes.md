@@ -7,6 +7,27 @@ role: User
 level: Beginner, Intermediate
 keywords: Email Themes, Reusability, Brand Alignment, Email Design
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: a509712a-4df0-4095-9c79-78116d8e3311
+    internal-label: Brand Themes
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+    internal-label: Content and assets
+autotag-review: '2026-03-30T21:49:24.359Z'
 ---
 # Use brand themes for email content {#email-brand-themes}
 
