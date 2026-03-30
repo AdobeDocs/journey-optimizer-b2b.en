@@ -20,14 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-    internal-label: Metadata
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
     internal-label: Experience design
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
 ---

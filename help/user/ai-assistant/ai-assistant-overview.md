@@ -14,6 +14,15 @@ feature_v2:
 subfeature_v2:
   - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
     internal-label: Operational Insights
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
 ---
 # AI Assistant in Journey Optimizer B2B Edition
 

@@ -16,9 +16,15 @@ feature_v2:
     internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+subfeature_v2:
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence

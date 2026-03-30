@@ -1,9 +1,27 @@
 ---
 title: Onboarding Guidance for Administrators and Marketers
-description: Onboarding guide for administrators and marketers - set up sandboxes, configure channels, create buying groups, and design account journeys in Journey Optimizer B2B Edition.
+description: Onboarding guide for marketers - create buying groups and design account journeys in Journey Optimizer B2B Edition.
 role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+autotag-review: '2026-03-30T23:05:00.531Z'
 ---
 # User onboarding guidance 
 

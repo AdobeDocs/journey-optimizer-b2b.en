@@ -4,6 +4,34 @@ description: Configure Marketo Engage options for Journey Optimizer B2B email de
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+    internal-label: Cross channel delivery
 ---
 # Email setup
 
