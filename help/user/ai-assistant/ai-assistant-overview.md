@@ -5,6 +5,15 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: 'AI Assistant '
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+    internal-label: Operational Insights
 ---
 # AI Assistant in Journey Optimizer B2B Edition
 
