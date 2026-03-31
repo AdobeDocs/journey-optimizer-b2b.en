@@ -68,7 +68,6 @@ Complete the following tasks:
 
     ![WhatsApp settings API credentials ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
-
 1. Click **[!UICONTROL Continue]**.
 
 1. Choose the **[!UICONTROL WhatsApp Business Account]** that you want to connect to your WhatsApp API credentials.
@@ -204,15 +203,15 @@ A channel configuration defines the delivery settings used when sending WhatsApp
    >
    >The name must begin with a letter (A–Z) and can contain only alphanumeric characters, underscores (`_`), dots (`.`), and hyphens (`-`).
 
-1. For **[!UICONTROL Channel]**, select `WhatsApp`.
+1. For **[!UICONTROL Select channel]**, choose `WhatsApp`.
 
-1. (Not currently applicable for Journey Optimizer B2B Edition) For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration.
+ <!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration.
 
-  <!-- Make sure to include all applicable marketing actions to ensure compliance with customer preferences.
+   Make sure to include all applicable marketing actions to ensure compliance with customer preferences.
 
    All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 
-1. Under _[!UICONTROL WhatsApp settings]_, select the **[!UICONTROL WhatsApp configuration]** (API credentials) that you created in the previous task.
+1. Under _[!UICONTROL WhatsApp Settings]_, select the **[!UICONTROL WhatsApp configuration]** (API credentials) that you created in the previous task.
 
 1. Enter the **[!UICONTROL Sender phone number]** to use for message delivery.
 
