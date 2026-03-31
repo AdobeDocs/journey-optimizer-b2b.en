@@ -6,7 +6,7 @@ role: User
 ---
 # Email send-time optimization
 
-Use the Send-time optimization (STO) feature to personalize email delivery timing for person journeys by predicting when each profile is most likely to engage. Instead of a fixed send time, STO uses historical email engagement signals to schedule delivery at the optimal time for each recipient, improving overall engagement.
+Use the Send-time optimization (STO) feature to personalize email delivery timing for [person journeys](../journeys/journeys-overview.md) by predicting when each profile is most likely to engage. Instead of a fixed send time, STO uses historical email engagement signals to schedule delivery at the optimal time for each recipient, improving overall engagement.
 
 STO analyzes each profile's historical engagement using a large language model. It predicts and ranks potential send times, then schedules delivery at the highest-ranked time within the optimization window.
 
