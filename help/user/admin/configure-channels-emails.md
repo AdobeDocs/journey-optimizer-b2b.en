@@ -67,31 +67,24 @@ Communication limits control the number of emails that a contact receives from y
 >
 >The communication limits are available for Journey Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md). Contact Adobe Support or open a Support ticket to enable the sharing of communication limits between Journey Optimizer B2B Edition and one or more Marketo Engage instances.
 
+>[!BEGINSHADEBOX]
+
+![AEP Permissions icon](../../assets/do-not-localize/icon_permissions-outline.svg) These steps require the following [permissions for your assigned user role in Experience Platform](../admin/user-management.md#b2b-product-permissions):
+
+* **[!UICONTROL B2B Channel Configurations]** - `Manage B2B Channels`
+* **[!UICONTROL Journey Optimizer Rules]** - `View Frequency Rules` and `Manage Frequency Rules`
+
+>[!ENDSHADEBOX]
+
 For example, with a defined limit of five emails per day, the system ensures that one contact does not receive a sixth email within a day by suppressing the sixth email. With shared communication limits between Journey Optimizer B2B Edition and Marketo Engage, the communication limit rules are defined in one location. The sixth email is suppressed, regardless of the send action coming from Journey Optimizer B2B Edition or Marketo Engage.
 
-All Marketo Engage production instances have communication limits defined by default (see the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} for more information). You can use separate communication limits for Journey Optimizer B2B Edition and  your production Marketo Engage instance. To use shared communication limits, define the rules in Journey Optimizer B2B Edition and extend the sharing of these limits to the Marketo Munchkin codes.
-
-<!-- internal info only 
-
-Currently, the shared communication limit in the Marketo Engage instance must be set up through an API call.
-
-For example, when:
-
-* The munchkinId of the Journey Optimizer B2B Edition instance is `JKL-567-MNO`.
-* The munchkinId of the Marketo Engage instance is `ABC-123-DEF` and it is in the SJ datacenter
-
-The API request should look similar to the following:
-
-```
-curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_munchkinId=ABC-123-DEF&featureName=Mktmail%20Config&paramName=ajoB2bMappingMunchkinId&dataType=string&value=JKL-567-MNO'
-```
--->
+All Marketo Engage production instances have communication limits defined by default (see the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} for more information). You can use separate communication limits for Journey Optimizer B2B Edition and your production Marketo Engage instance. To use shared communication limits, define the rules in Journey Optimizer B2B Edition and extend the sharing of these limits to the Marketo Munchkin codes.
 
 >[!IMPORTANT]
 >
 >To extend the communication rule set to the Marketo Munchkin codes, reach out to your Adobe account management team. This configuration is typically part of the onboarding process.
 
-To review or set the communication limit rules, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Under _[!UICONTROL Email]_ in the navigation panel, and select **[!UICONTROL Communication limits]**.
+To review or set the communication limit rules, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Under _[!UICONTROL Email]_ in the navigation panel, select **[!UICONTROL Communication limits]**.
 
 ![Access the communication limits configuration](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
@@ -107,7 +100,7 @@ By default, there is a global rule set where you can define, activate, and deact
 
 1. Set the **[!UICONTROL Capping amount]**.
 
-   Enter the value, or click the _Up_ or _Down_ arrow at the right to increase or decreate the value.
+   Enter the value, or click the _Up_ or _Down_ arrow at the right to increase or decrease the value.
 
 1. Choose the **[!UICONTROL Reset capping frequency]** value according to how you want to define the time period for the limit.
 

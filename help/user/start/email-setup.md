@@ -1,17 +1,17 @@
 ---
 title: Email Setup
-description: Placeholder
+description: Configure Marketo Engage options for Journey Optimizer B2B email delivery, including defaults, unsubscribe, web view, Velocity object limits, tracking headers, and bot filtering.
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
 ---
 # Email setup
 
-To support the email delivery infrastructure provided by the attached Marketo Egage instance, set the following email options. A Marketo Engage product administrator can configure these settings by navigating to the **[!UICONTROL Admin]** area in the Marketo Engage instance and selecting **[!UICONTROL Email]**.
+To support the email delivery infrastructure provided by the attached Marketo Engage instance, set the following email options. A Marketo Engage product administrator can configure these settings by navigating to the **[!UICONTROL Admin]** area in the Marketo Engage instance and selecting **[!UICONTROL Email]**.
 
 ## Email settings
 
-To setup email default values for the attached Marketo Engage instance, change the configured values to reflect usage by your marketing organization.
+To set up email default values for the attached Marketo Engage instance, change the configured values to reflect usage by your marketing organization.
 
 ### From email and label
 
@@ -52,7 +52,7 @@ For non-operational marketing emails, unsubscribe text and links are appended at
 
 1. Click **[!UICONTROL Save Changes]**.
 
-If you ever need to revert to default system content, copy and paste the following:
+If you ever need to revert to the default system content, copy and paste the following:
 
 +++ System default Unsubscribe Text
 
@@ -65,7 +65,7 @@ If you ever need to revert to default system content, copy and paste the followi
 
 ### View as web page
 
-Email content has limited display capabilities (limited CSS and no JavaScript or forms). Marketers can use _View as Web Page_ option applies a cookie for he email recipient using the Marketo Munchkin. As a product administrator, you should configure the default HTML and text that is populated when a marketer chooses this option.
+Email content has limited display capabilities (limited CSS and no JavaScript or forms). Marketers can use the _View as Web Page_ option to apply a cookie for the email recipient using the Marketo Munchkin. As a product administrator, you should configure the default HTML and text that is populated when a marketer chooses this option.
 
 1. Go to the **[!UICONTROL Admin]** area in the attached Marketo Engage instance and select **[!UICONTROL Email]**.
 
@@ -88,7 +88,7 @@ Email content has limited display capabilities (limited CSS and no JavaScript or
 
 1. Click **[!UICONTROL Save Changes]**.
 
-If you ever need to revert to default system content, copy and paste the following:
+If you ever need to revert to the default system content, copy and paste the following:
 
 +++ System default web page HTML
 
@@ -139,7 +139,7 @@ Change the _[!UICONTROL Custom Header Options]_ for email to configure email tra
    ![Marketo Engage email admin - Custom Header Options default settings](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
    * **[!UICONTROL Strict Transport Security]** - Set this option to Enabled to guarantee that tracking links are always served over HTTPS (should only be set for subscriptions with tracking links secured by SSL). 
-   * **[!UICONTROL Max-age]** - This field supports the mandatory directive to specify the time, in seconds, that the browser should remember to only access the domain over HTTPS.
+   * **[!UICONTROL Max-age]** - This field supports the mandatory directive to specify the time, in seconds, that the browser should remember to access only the domain over HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Use this option to include the directive that applies the HSTS policy to all subdomains of the host.
 
    >[!IMPORTANT]
@@ -183,11 +183,11 @@ For email link click and email open activity, attributes are populated with the 
 
    ![Marketo Engage email admin - Bot Activity Identification options](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
 
-   For  _[!UICONTROL Match with Proximity Pattern]_, you can also set the amount of seconds for **[!UICONTROL Duration Between Activities]** (default is `0`, maximum is `3`).
+   For  _[!UICONTROL Match with Proximity Pattern]_, you can also set the number of seconds for **[!UICONTROL Duration Between Activities]** (default is `0`, maximum is `3`).
 
    >[!NOTE]
    >
-   >With _Duration Between Activities_ set to `0` seconds, Marketo Engage identifies email activities that are happening at the exact same second. If multiple email activities happen within the designated amount of seconds, it is identified as bot activity.
+   >With _Duration Between Activities_ set to `0` seconds, Marketo Engage identifies email activities that are happening at that exact second. If multiple email activities happen within the designated number of seconds, it is identified as bot activity.
 
    To disable either filtering method, toggle the slider to the left. If you do, the data does not reset.
 
@@ -251,6 +251,6 @@ Adobe has identified a list of IP addresses that are responsible for generating 
 
 >[!NOTE]
 >
->Every IP address is meticulously analyzed and scrutinized before it is included in this list, ensuring only the most critical and harmful IPs are blocked.
+>Every IP address is carefully analyzed and scrutinized before it is included in this list, ensuring that only the most critical and harmful IPs are blocked.
 
 +++
