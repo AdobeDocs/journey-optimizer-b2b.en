@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 ---
-# Content scoring
+# Content scoring {#content-scoring}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -91,9 +91,9 @@ In addition to brand alignment, you can assess general content quality to identi
 
 Scroll to the **[!UICONTROL Content quality]** section to review the quality insights and recommendations.
 
-![Content quality evaluation](assets/brand-score-6.png)
+<!-- ![Content quality evaluation](assets/content-scoring-quality-insights.png) -->
 
-You can click the ![Full screen icon for detailed insights](assets/do-not-localize/Smock_FullScreen_18_N.svg "Full screen") icon for a detailed view of your quality score.
+You can click the ![Full screen icon for detailed insights](../assets/do-not-localize/icon-full-screen.svg) icon for a detailed view of your quality score.
 
 Select any flagged item to view specific feedback and actionable suggestions for improvement. Scores are based on the following categories:
 
@@ -104,6 +104,6 @@ Select any flagged item to view specific feedback and actionable suggestions for
 * **[!UICONTROL Content Cohesiveness]**: Ensures your content flows smoothly and stays on topic.
 * **[!UICONTROL Proofreading]**: Checks for spelling, grammar, and clarity issues.
 
-![Full screen view of the content quality evaluation](assets/brand-score-7.png)
+<!-- ![Full screen view of the content quality evaluation](assets/content-scoring-quality-full-screen.png) -->
 
 Based on the recommendations, you can edit your content to enhance readability, content cohesiveness, and overall quality. Click **[!UICONTROL Re-evaluate score]** after making changes to refresh the quality score.
