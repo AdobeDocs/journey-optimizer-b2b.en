@@ -412,6 +412,6 @@ Provide feedback for the generated variants by clicking the _Thumbs Up_, _Thumbs
 
 The brand alignment evaluation and scoring help you to ensure consistency in tone, messaging, and visual identity across your email campaigns, while also serving as a quality check before your content goes live. When the email content is complete, click the _Brand alignment_ ( ![Brand alignment icon](../assets/do-not-localize/icon-brand-compliance.svg) ) icon on the right to open the _Brand alignment_ right panel in the email design space.
 
-![Access the Brand alignment tools](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+![Access the Brand alignment scoring tools](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-For detailed information, see [Validate your brand alignment](./brand-alignment.md#validate-your-brand-alignment)
+For detailed information, see [_Brand alignment score_](./content-evaluation.md#brand-alignment-score)

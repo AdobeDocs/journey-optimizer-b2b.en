@@ -152,7 +152,7 @@ To create and define your brand guidelines, you can either enter the details or 
 
 When your brand includes a complete set of definitions and meets your requirements, click **[!UICONTROL Publish]** to make your brand guidelines available for content alignment and generation.
 
-Published brands are accessible from the **[!UICONTROL Brand]** option in the AI [brand alignment](./brand-alignment.md) and content generation tools. <!-- [Learn more about content generation](gs-generative.md) -->
+Published brands are accessible from the **[!UICONTROL Brand]** option in the AI [brand alignment score](./content-evaluation.md#brand-alignment-score) and [content generation tools](../ai-assistant/generative-ai-content.md).
 
 ![Brand options for content](./assets/brand-menu-content-ai-tools.png){width="300"}
 
