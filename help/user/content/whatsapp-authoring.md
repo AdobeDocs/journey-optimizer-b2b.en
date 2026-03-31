@@ -23,9 +23,9 @@ The following message types are supported in WhatsApp:
 | Headers | Optional text that appears above the body of your message. |
 | Text | Supports dynamic content through parameters. |
 | Images (JPEG, PNG) | Must be in 8-bit RGB or RGBA format and under 5 MB in size. |
-| Videos | Must be 3GPP or MP4, under 16 MB, and hosted via URL. |
+| Videos | Must be 3GPP or MP4, under 16 MB, and hosted by URL. |
 | Audio | Only available for response messages. Must be AAC, AMR, MP3, MP4 audio, or OGG format, hosted on a URL, and under 16 MB. |
-| Documents | Must be under 100 MB, hosted on a URL, and in one of the following formats: .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx, or .pdf. |
+| Documents | Must be under 100 MB, hosted on a URL, and in one of the following formats: `.txt`, `.xls`/`.xlsx`, `.doc`/`.docx`, `.ppt`/`.pptx`, or `.pdf`. |
 | Body Text | Supports dynamic content through parameters. |
 | Footer Text | Supports dynamic content through parameters. |
 
@@ -77,7 +77,7 @@ You can set up WhatsApp message deliveries in an account journey when you [add a
 >
 >**WhatsApp consent management**: In accordance with Meta's policies and applicable regulations, all WhatsApp marketing messages must be sent only to recipients who have opted in to receive communications. WhatsApp recipients can opt out at any time by replying with an opt-out keyword. Opt-out responses are automatically honored, and the corresponding profiles are removed from future marketing message audiences.
 
-WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in Journey Optimizer B2B Edition. Work with your Meta Business Manager account administrator to manage and submit templates for approval.
+WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in Journey Optimizer B2B Edition. Work with your [!DNL Meta Business Manager] account administrator to manage and submit templates for approval.
 
 1. For **[!UICONTROL Select template category]**, choose one of the following:
 
@@ -110,5 +110,3 @@ The dialog provides access to the account tokens, person tokens, and system toke
 For detailed information about using tokens for personalization, see [Content personalization](./personalization.md).
 
 When your personalization tokens are defined, click **[!UICONTROL Save]** to save changes and return to the main WhatsApp message workspace.
-
-
