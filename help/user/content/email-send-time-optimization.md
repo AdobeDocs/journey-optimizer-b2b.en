@@ -16,10 +16,10 @@ Send-time optimization is currently supported for:
 
 * **Journey type**: Person Journeys
 * **Channel**: Email
-* **Configuration**: Email action node
-* **Reporting**: AI Assistant via the Journey Observability skill
+* **Configuration**: _Send email_ action node
+* **Reporting**: AI Assistant through the Journey Observability skill
 
-Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in the AI Assistant.
+   Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in the AI Assistant.
 
 >[!BEGINSHADEBOX]
 
@@ -35,13 +35,13 @@ There are many **_future enhancements_** planned for STO:
 
 ## Configuration
 
-You can configure Send-time optimization when you [add a _[!UICONTROL Take an action]_ node](../journeys/action-nodes.md) to a person journey.
+You can configure send-time optimization when you [add a _[!UICONTROL Take an action]_ node](../journeys/action-nodes.md) to a person journey.
 
 1. For _[!UICONTROL Select action]_, choose **[!UICONTROL Send email]**.
 
 1. Use the **[!UICONTROL Send-time Optimization]** toggle to enable the feature.
 
-1. Set the STO options to set the window and test distribution:
+1. Set the STO options to specify the window and test distribution:
 
    * **[!UICONTROL Send within next]** - This value determines the optimization window (in days), which is the time range in which emails can be delivered. For example, for a webinar occurring in five days, you might set a four- or five-day window. STO selects the best predicted send time for each profile within this window.
 
@@ -61,4 +61,4 @@ You can configure Send-time optimization when you [add a _[!UICONTROL Take an ac
 
 ## STO insights
 
-STO insights are delivered through the _AI Assistant_ using the Journey Agent [Observability skill](../agents/journey-agent.md#journey-observability-skill). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.
+STO insights are delivered through the _AI Assistant_ using the Journey Agent [_Observability skill_](../agents/journey-agent.md#journey-observability-skill). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.
