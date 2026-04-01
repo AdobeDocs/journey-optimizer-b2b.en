@@ -3,24 +3,19 @@ title: Form Design
 description: Design forms with field types, validation, styling, and XDM schema attributes for business data collection in Journey Optimizer B2B Edition.
 feature: Forms, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
 ---
 # Form design
 
 After you [create a form](./forms.md#create-forms), the visual design space opens a draft with a default basic form definition. In the _[!UICONTROL Summary]_ panel on the right, click **[!UICONTROL Edit form]** and use the visual design space to define the form styling and field components.
 
-![Access the forms library](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+![Form design space](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+
+The _**Submit**_ button (footer field) is part of the form by default and cannot be removed. You can select the button/footer component in the form to [change the text and styling for the button](#submit-button).
 
 ## Fields
 
-Form fields are used to capture person profile data that can be used to target people and associate them with accounts and buying groups. All new forms start with the following fields in a single column layout:
-
-* First name
-* Last name
-* Email address
-
-Use the field design tools to construct the set of fields and layout that you need for gathering the data that you need for your account-based marketing activities.
+Form fields are used to capture person profile data that can be used to target people and associate them with accounts and buying groups. Use the field design tools to construct the set of fields and layout that you need for gathering the data that you need for your account-based marketing activities.
 
 ### Add a field {#add-field}
 
@@ -28,13 +23,29 @@ Use the field design tools to construct the set of fields and layout that you ne
 
    ![Add a field component to the form](./assets/form-content-add-field.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Select field attribute]**.
+1. For _[!UICONTROL Select field attribute]_, choose **[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.
 
-1. In the _[!UICONTROL Select field attribute]_ dialog, select the checkbox for the person profile attribute that you want to use for the field and click **[!UICONTROL Select]**.
+   >[!BEGINTABS]
 
-   The [XDM business schemas](../admin/field-mapping.md#xdm-business-person-attributes) determine the available attributes.  Any custom fields that are defined for your Journey Optimizer B2B Edition instance are also available. Use the Search text box to filter the list by name, or click the Filter icon to filter the list by schema/data type. 
+   >[!TAB Select field attribute]
 
-   ![Add a field component to the form](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+   Use this option to select an attribute based on the dataset schema defined in the preset for your form. 
+
+   In the _[!UICONTROL Select field attribute]_ dialog, select the checkbox for the attribute that you want to use for the field and click **[!UICONTROL Select]**.
+
+   ![Add a selected attribute field component to the form](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+
+   For example, you can set the Email and Company. When users complete and submit the form, the information entered is saved to the selected dataset.
+
+   To map the collected data with a Profile, select a profile identity field. The identity fields are marked as **[!UICONTROL Required]** in the attribute list - you can filter on them.
+
+   >[!TAB Add custom field]
+
+   With this option, you can just define a free field without mapping it to a field in the linked dataset. 
+
+   ![Add custom field component to the form](./assets/form-field-add-custom-field.png){width="600" zoomable="yes"}
+
+   >[!ENDTABS]
 
    On the canvas, the default field label for the selected attribute is populated on the canvas. The **[!UICONTROL Field details]** are displayed in the panel on the right.
 
@@ -44,26 +55,28 @@ Use the field design tools to construct the set of fields and layout that you ne
 
 1. Set **[!UICONTROL Field type]** according to the type of data for the field:
 
-   | Field type | Usage | Example |
-   | ---------- | ----- | ------- |
-   | **[!UICONTROL Checkbox]** | Use this type so that visitors can select a _true_ (checked) or _false_ (unchecked) value. | |
-   | **[!UICONTROL Checkbox Group]** | Use this type so that visitors can select a _true_ (checked) or _false_ (unchecked) value for multiple items. | |
-   | **[!UICONTROL Currency]** | Use this type to allow a float field that represents the default currency type selected for the Journey Optimizer B2B Edition instance. | |
-   | **[!UICONTROL Date]** | Use this type to restrict entry to a date format and provide a calendar selector in the field. | |
-   | **[!UICONTROL Double]** |  | |
-   | **[!UICONTROL Email]**  |  Use this type to restrict entry to an email address format. | |
-   | **[!UICONTROL Number]** | Use this type to restrict the field to a numerical value. | |
-   | **[!UICONTROL Radio Group]** | Use this type to allow visitors to select one of a set of options. | |
-   | **[!UICONTROL Select]** | Use this type to allow visitors to select one of a set of options using a drop-down list. | |
-   | **[!UICONTROL Slider]** | Use this type to allow visitors to set a numeric value using a slider. | |
-   | **[!UICONTROL Telephone]** | Use this type for a telephone number entry field.  | |
-   | **[!UICONTROL Text]** | Use this type for a standard text (string) entry field. | |
-   | **[!UICONTROL Textarea]** | Use this type to support longer text entry.  | |
-   | **[!UICONTROL URL]** | Use this type to restrict text input to a URL, including the standard URL protocol. | |
+   | Field type | Usage | 
+   | ---------- | ----- | 
+   | **[!UICONTROL Checkbox]** | Use this type so that visitors can select a _true_ (checked) or _false_ (unchecked) value. |
+   | **[!UICONTROL Checkbox Group]** | Use this type so that visitors can select a _true_ (checked) or _false_ (unchecked) value for multiple items. |
+   | **[!UICONTROL Currency]** | Use this type to allow a float field that represents the default currency type selected for the Journey Optimizer B2B Edition instance. |
+   | **[!UICONTROL Date]** | Use this type to restrict entry to a date format and provide a calendar selector in the field. |
+   | **[!UICONTROL Double]** | Double (double-precision floating-point) variable stored as IEEE 64-bit (8-byte) floating-point numbers. |
+   | **[!UICONTROL Email]** | Use this type to restrict entry to an email address format. |
+   | **[!UICONTROL Number]** | Use this type to restrict the field to a numerical value. |
+   | **[!UICONTROL Radio Group]** | Use this type to allow visitors to select one of a set of options. |
+   | **[!UICONTROL Select]** | Use this type to allow visitors to select one of a set of options using a drop-down list. |
+   | **[!UICONTROL Slider]** | Use this type to allow visitors to set a numeric value using a slider. |
+   | **[!UICONTROL Telephone]** | Use this type for a telephone number entry field. |
+   | **[!UICONTROL Text]** | Use this type for a standard text (string) entry field. |
+   | **[!UICONTROL Textarea]** | Use this type to support longer text entry. |
+   | **[!UICONTROL URL]** | Use this type to restrict text input to a URL, including the standard URL protocol. |
 
-1. Depending on the selected field type, set the other options for the field entry and validation:
+1. Depending on the selected field type, set the other options for the field entry and validation.
 
-   ![Set options for the field according to the selected field type](./assets//form-field-details-text-type.png){width="400" zoomable="yes"}
+   ![Set options for the field according to the selected field type](./assets/form-field-details-text-type.png){width="400" zoomable="yes"}
+
+   For example, the _Text_ field type has the following options for field entry and validation:
 
    * **[!UICONTROL Placeholder]** - The placeholder value for the field that gives the visitor an example of what is expected for the field.
 
@@ -79,15 +92,21 @@ Use the field design tools to construct the set of fields and layout that you ne
 
    * **[!UICONTROL Validation message]** - Use this option to specify a validation message for the field. This message is displayed if the visitor enters an invalid value for the field. The _[!UICONTROL Standard]_ message is set by default. Choose **[!UICONTROL Custom]** and enter your own message. 
 
-   * **Max length** - Enter the maximum number of characters that can be entered into the field.
+   * **[!UICONTROL Max length]** - Enter the maximum number of characters that can be entered into the field.
 
 1. Set the **[!UICONTROL Field behaviors]** as needed: 
 
-   * **Required** - Select the checkbox to make the field input required for submitting the form.
+   * **[!UICONTROL Required]** - Select the checkbox to make the field input required for submitting the form.
 
-   * **Enable input mask** - Select the checkbox to restrict input from your visitor using an input mask. For example, you may want visitors to enter phone numbers in a specific format. In the dialog, enter the mask using `9` for any number, `a` for any letter, and `*` for either. Click Save to enable the specified input mask.
+   * **[!UICONTROL Sensitive]** - Select the checkbox to make the field case-sensitive.
+
+   * **[!UICONTROL Prefilled Enabled]** - Select the checkbox to populate the field from the profile information if available.
+
+   * **[!UICONTROL Enable input mask]** - Select the checkbox to restrict input from your visitor using an input mask. For example, you may want visitors to enter phone numbers in a specific format. In the dialog, enter the mask using `9` for any number, `a` for any letter, and `*` for either.
 
       ![Define an input mask for the field](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
+
+      Click **[!UICONTROL Save]** to enable the specified input mask.
 
 ### Change field styling {#field-styling}
 
@@ -109,7 +128,7 @@ Select the **[!UICONTROL Styles]** tab in the right panel to change the styling 
 
 * **[!UICONTROL Margin]** - Set margins (in pixels) around the field. You can set the same margin on all four sides, or select the **[!UICONTROL Different margin for each side]** checkbox to set the horizontal and vertical margins separately.
 
-* **[!UICONTROL Padding]** - Set padding (in pixels) around the field. You can set the same margin on all four sides, or select the **[!UICONTROL Different padding for each side]** checkbox to set the horizontal and vertical margins separately.
+* **[!UICONTROL Padding]** - Set padding (in pixels) around the field. You can set the same padding on all four sides, or select the **[!UICONTROL Different padding for each side]** checkbox to set the horizontal and vertical padding separately.
 
    ![Set the size, margin, and padding styles for the form field](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
 
@@ -119,7 +138,7 @@ You can move form fields directly in the visual workspace. Click the _Move_ tool
 
 Add structural components to the form and move fields into columns to group them and change the layout. Click the _Move_ tool on the left edge of the selected column component and drag it to a new location within the form.
 
-![Move fields in the form and use structural components for grouping and layput](./assets/form-field-move-tool.png){width="500"}
+![Move fields in the form and use structural components for grouping and layout](./assets/form-field-move-tool.png){width="500" zoomable="yes"}
 
 ### Delete or duplicate a field {#field-delete-duplicate}
 
@@ -131,13 +150,13 @@ Click the _Duplicate_ icon ( ![Duplicate icon](../assets/do-not-localize/icon-du
 
 ## Submit button
 
-The submit button (footer field) is part of the form by default and cannot be removed. Select the butto/footer component in the form to change the text and styling for the button.
+The submit button (footer field) is part of the form by default and cannot be removed. Select the button/footer component in the form to change the text and styling for the button.
 
 ### Edit the button content {#button-content}
 
-Withe the _[!UICONTROL Content]_ tab displayed in the right panel, change the text in the **[!UICONTROL Button text]** field. The button sizing adjusts to accommodate the length of the text.
+With the _[!UICONTROL Content]_ tab displayed in the right panel, change the text in the **[!UICONTROL Button text]** field. The button sizing adjusts to accommodate the length of the text.
 
-![Change the button text in the form](./assets//form-field-button-text.png){width="600" zoomable="yes"}
+![Change the button text in the form](./assets/form-field-button-text.png){width="600" zoomable="yes"}
 
 ### Style the submit button {#button-styles}
 
@@ -157,15 +176,15 @@ Select the **[!UICONTROL Styles]** tab in the right panel to change the styling 
 
 * **[!UICONTROL Button Alignment]** - When you choose a _Half width_ or _Auto_ size for the button, set the alignment at left, right, or center. The padding adjusts according to the size and alignment settings.
 
-* **[!UICONTROL Margin]** - Set margins (in pixels) around the field. You can set the same margin on all four sides, or select the **[!UICONTROL Different margin for each side]** checkbox to set the horizontal and vertical margins separately.
+* **[!UICONTROL Margin]** - Set margins (in pixels) around the button. You can set the same margin on all four sides, or select the **[!UICONTROL Different margin for each side]** checkbox to set the horizontal and vertical margins separately.
 
-* **[!UICONTROL Padding]** - Set padding (in pixels) around the field. You can set the same margin on all four sides, or select the **[!UICONTROL Different padding for each side]** checkbox to set the horizontal and vertical margins separately. The padding adjusts if you change the size and alignment settings.
+* **[!UICONTROL Padding]** - Set padding (in pixels) around the button. You can set the same padding on all four sides, or select the **[!UICONTROL Different padding for each side]** checkbox to set the horizontal and vertical padding separately. The padding adjusts if you change the size and alignment settings.
 
    ![Set the alignment, margin, and padding styles for the form button](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
 
 ## Form styling {#form-styling}
 
-You can change styles for the form area when you click outside of the structural or form components. The form components (fields and button) inherit the _Body_ styles defined the top-level styles, unless other styles are defined at the field or button/footer level.
+You can change styles for the form area when you click outside of the structural or form components. The form components (fields and button) inherit the _Body_ styles defined at the top level, unless other styles are defined at the field or button/footer level.
 
 ![Set the top-level styles for the form body](./assets/form-body-styles.png){width="600" zoomable="yes"}
 
@@ -177,7 +196,7 @@ _To define a custom CSS for the form:_
 
 1. Click **[!UICONTROL View CSS]** in the right panel to review the CSS code.
 
-   ![Set the background colors for the form](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
+   ![View CSS for the form](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
 
 1. Select the CSS code in the scrolling window and copy it to your clipboard.
 
@@ -189,7 +208,7 @@ _To define a custom CSS for the form:_
 
 1. Paste the CSS code into the window.
 
-   ![Set the background colors for the form](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
+   ![Add custom CSS for the form](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
 
    You can edit the pasted text in this window.
 

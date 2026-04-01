@@ -116,7 +116,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Fragments {#visual-fragments}
       + [Overview](./content/fragments.md)
       + [Fragment authoring](./content/fragment-authoring.md)
-   + Forms (Beta) {#forms}      
+   + Forms {#forms}      
       + [Overview](./content/forms.md)
       + [Form design](./content/form-design.md)
    + Landing pages (Beta) {#landing-pages}
@@ -151,6 +151,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [SMS configurations](./admin/configure-channels-sms.md)
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
        + [Landing page settings (Beta)](./admin/landing-page-settings.md)
+       + [Forms configurations](./admin/configure-channels-forms.md)
        + [Configure datastreams for event collection](./data/aep-event-collection.md)
     + Configurations {#configurations}
        + [AEM Assets repositories](./admin/configure-aem-repositories.md)
