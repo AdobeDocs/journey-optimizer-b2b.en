@@ -44,7 +44,7 @@ The _External action_ node calls an external service and continues along a singl
 
 1. Continue building the journey from the outgoing paths of the node.
 
-   The _[!UICONTROL Timeout or error]_ path is automatically created. If the timeout period (as configured in the service) elapses before a response is received, the account or person progresses down this path. You can add journey nodes to this path to handle timeout scenarios. For error responses, the journey ends for the audience member.
+   The _[!UICONTROL Timeout or error]_ path is automatically created. If the timeout period (as configured in the service) elapses before a response is received, the account or person progresses down this path. It is the same if an error response is received. You can add journey nodes to this path to handle these scenarios, or the journey ends for the audience member.
 
 ## External split paths node {#external-split-paths}
 
@@ -82,6 +82,6 @@ The External split paths node calls an external service and uses the response to
 
 1. Continue building the journey from each outgoing path of the node.
 
-   The _[!UICONTROL Timeout or error]_ path is automatically created. If the timeout period (as configured in the service) elapses before a response is received, the account or person progresses down this path. You can add journey nodes to this path to handle timeout scenarios. For error responses, the journey ends for the audience member.
+   The _[!UICONTROL Timeout or error]_ path is automatically created. If the timeout period (as configured in the service) elapses before a response is received, the account or person progresses down this path. It is the same if an error response is received. You can add journey nodes to this path to handle these scenarios, or the journey ends for the audience member.
 
 1. For _Split by accounts_, you can add a [Merge paths node](./split-merge-paths-nodes.md#merge-paths) to combine two or more paths as needed.
