@@ -43,6 +43,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md) 
        + [Wait](./journeys/wait-nodes.md)
+       + [External nodes](./journeys/external-nodes.md)
     + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
     + [SMS channel](./content/sms-authoring.md)
@@ -146,13 +147,14 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Administration {#admin}
     + [Governance](./admin/governance.md)
     + [Persona mapping](./admin/persona-mapping.md)
+    + Configurations {#configurations}
+       + [AEM Assets repositories](./admin/configure-aem-repositories.md)
+       + [Intent data](./admin/intent-data.md)
+       + [Engagement score weighting](./admin/engagement-score-weighting.md)
+       + [External actions](./admin/configure-external-actions.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
        + [Landing page settings (Beta)](./admin/landing-page-settings.md)
        + [Configure datastreams for event collection](./data/aep-event-collection.md)
-    + Configurations {#configurations}
-       + [AEM Assets repositories](./admin/configure-aem-repositories.md)
-       + [Intent data](./admin/intent-data.md)
-       + [Engagement score weighting](./admin/engagement-score-weighting.md)
