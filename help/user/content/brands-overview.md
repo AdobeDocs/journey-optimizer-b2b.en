@@ -3,8 +3,6 @@ title: Use Brands for Content Generation and Consistency
 description: Define brand guidelines for consistent content creation - maintain visual identity, messaging alignment, and authentic voice in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: yes
-hidefromtoc: yes
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
@@ -41,7 +39,7 @@ Your organization can realize significant value by using a brand in creating and
 
 >[!AVAILABILITY]
 >
->This capability is currently available as a private beta, with progressive availability planned for all customers in future releases.
+>This capability is currently available as a public beta.
 >
 >A [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} is required before you can use AI-powered features in Adobe Journey Optimizer B2B Edition. For more information, contact your Adobe representative.
 
