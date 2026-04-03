@@ -86,24 +86,25 @@ In an account or person journey, use an action on people when you want to apply 
 
 ### Actions and constraints {#people-action-constraints}
 
-| Context | Journey type | Action | Constraints |
-| ------- | ------------ | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | <li>Account journey <li>Person journey | [!UICONTROL Add to external customer audience] | <li>Select external customer audience |
-| | <li>Account journey | [!UICONTROL Assign to Buying Group] | <li>Select solution interest <li>Select role |
-| | <li>Account journey | [!UICONTROL Change Score] | Score name <li>Change in score |
-| | <li>Account journey <li>Person journey | [!UICONTROL Person Interesting Moment] | <li>Type <li>Description |
-| | <li>Account journey | [!UICONTROL Personalize web experience] (Beta) | <li>Create/edit web experience |
-| | <li>Account journey | [!UICONTROL Remove from Buying Group] | <li>Select solution interest |
-| | <li>Account journey <li>Person journey | [!UICONTROL Send email] | <li>Create email |
-| | <li>Account journey | [!UICONTROL Send SMS] | <li>Create SMS |
-| | <li>Account journey <li>Person journey | [!UICONTROL Update person profile] | <li>Select person attribute <li>Set new value |
-| [Marketo Engage](#marketo-engage-actions) | <li>Account journey <li>Person journey | [!UICONTROL Add to Marketo Engage Request campaign] | <li>Select Marketo Engage workspace <li>Select Request campaign |
+| Context | Action | Journey type | Constraints |
+| ------- | ------ | ------------ | ----------- |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Add to external customer audience] | <li>Account journey <li>Person journey | <li>Select external customer audience |
+| | [!UICONTROL Assign to Buying Group] | <li>Account journey | <li>Select solution interest <li>Select role |
+| | [!UICONTROL Change Score] | <li>Account journey | <li>Score name <li>Change in score |
+| | [!UICONTROL Person Interesting Moment] | <li>Account journey <li>Person journey | <li>Type <li>Description |
+| | [!UICONTROL Personalize web experience] (Beta) | <li>Account journey | <li>Create/edit web experience |
+| | [!UICONTROL Remove from Buying Group] | <li>Account journey | <li>Select solution interest |
+| | [!UICONTROL Send email] | <li>Account journey <li>Person journey | <li>Create email <li>Send-time optimization (optional, person journey only) |
+| | [!UICONTROL Send SMS] | <li>Account journey | <li>Create SMS |
+| | [!UICONTROL Send WhatsApp] | <li>Account journey | <li>Create WhatsApp message |
+| | [!UICONTROL Update person profile] | <li>Account journey <li>Person journey | <li>Select person attribute <li>Set new value |
+| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to Marketo request campaign] | <li>Account journey <li>Person journey | <li>Select Marketo Engage workspace <li>Select Request campaign |
 | | [!UICONTROL Add to Marketo list] | <li>Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
-| | [!UICONTROL Remove from Marketo list] | Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
+| | [!UICONTROL Remove from Marketo list] | <li>Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
 
 >[!NOTE]
 >
->The _[!UICONTROL Change People Partition in Marketo Engage]_ action is deprecated for the 2025.10 release and is not available on the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition.<br/>
+>The _[!UICONTROL Change People Partition in Marketo Engage]_ and _[!UICONTROL Change Score]_ actions are deprecated for the 2025.10 release and are not available on the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition.<br/>
 >
 >The _[!UICONTROL Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced with _[!UICONTROL Update person profile]_ on the simplified architecture.
 
@@ -218,6 +219,8 @@ Use this action to send an email. After you [create the email](../content/add-em
 
 ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
+For person journeys, you can use [Send-time optimization](../content/email-send-time-optimization.md) to personalize email delivery timing by predicting when each profile is most likely to engage.
+
 >[!NOTE]
 >
 >You can use email deduplication in account journeys to ensure that the same email is not sent multiple times to the same email address within a journey. For more information, see [Email deduplication](../content/email-deduplication.md).
@@ -229,6 +232,14 @@ Use this action to send an email. After you [create the email](../content/add-em
 Use this action to send an SMS message. You can create, personalize, and preview SMS messages in the visual design space (see [SMS authoring](../content/sms-authoring.md)).
 
 ![Take an action - Send SMS](./assets/node-action-send-sms.png){width="300"}
+
++++
+
++++[!UICONTROL Send WhatsApp]
+
+Use this action to send a WhatsApp message. You can create, personalize, and preview WhatsApp messages in the visual design space (see [WhatsApp authoring](../content/whatsapp-authoring.md).
+
+![Take an action - Send WhatsApp](./assets/node-action-send-whatsapp.png){width="300"}
 
 +++
 
@@ -252,13 +263,13 @@ The Marketo Engage people-based actions are designed to coordinate your account-
 
 >[!NOTE]
 >
->The Marketo Engage actions require configured integration with one or more external Marketo Engage instances. <!-- For detailed information about configuring these connections, see #. -->
+>The Marketo Engage actions require configured integration with one or more external Marketo Engage instances. For detailed information about this configuration, see [_Activate Marketo Engage connections to support actions_](../admin/marketo-actions-connect.md).
 
 For example, you might want to suppress campaigns in Marketo Engage for people that are part of buying groups in Journey Optimizer B2B Edition. In this case, you can create a static list in Marketo Engage specifically for the solution interest. Then, on a split path by buying group, use the _Add to Marketo list_ action from a journey node. This action adds buying group members to a particular static list in a connected Marketo Engage instance. Then, use the solution interest focused static list for a smart list filter in Marketo Engage.
 
-+++[!UICONTROL Add to Marketo Engage Request campaign]
++++[!UICONTROL Add to Marketo request campaign]
 
-Use this action to add people profiles to a [request campaign](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage.
+Use this action to add people profiles to a [request campaign](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in a connected Marketo Engage instance.
 
 First, select a connected Marketo Engage instance. Next, select the request campaign name.
 
@@ -268,7 +279,7 @@ First, select a connected Marketo Engage instance. Next, select the request camp
 
 +++[!UICONTROL Add to Marketo list]
 
-Use this action to add people to a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. 
+Use this action to add people to a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in a connected Marketo Engage instance. 
 
 First, select a connected Marketo Engage instance. Next, select the list name.
 
