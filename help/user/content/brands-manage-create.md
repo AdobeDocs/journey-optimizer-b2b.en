@@ -3,8 +3,6 @@ title: Create Brands for Content Generation and Consistency
 description: Create and manage brand guidelines with automatic extraction from documents or manual entry - set default brands for consistent content in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: yes
-hidefromtoc: yes
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
@@ -17,7 +15,7 @@ In Journey Optimizer B2B Edition, you can manually define and organize your bran
 
 >[!AVAILABILITY]
 >
->This capability is currently available as a private beta, with progressive availability planned for all customers in future releases.
+>This capability is currently available as a public beta.
 >
 ><br>
 >
