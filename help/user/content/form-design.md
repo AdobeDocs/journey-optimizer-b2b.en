@@ -23,29 +23,23 @@ Form fields are used to capture person profile data that can be used to target p
 
    ![Add a field component to the form](./assets/form-content-add-field.png){width="800" zoomable="yes"}
 
-1. For _[!UICONTROL Select field attribute]_, choose **[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.
+1. For _[!UICONTROL Select field attribute]_, choose an option and set the attribute for the field.
 
-   >[!BEGINTABS]
+   * **[!UICONTROL Select field attribute]** - Use this option to select an attribute based on the dataset schema defined in the preset for your form. 
 
-   >[!TAB Select field attribute]
+      In the _[!UICONTROL Select field attribute]_ dialog, select the checkbox for the attribute that you want to use for the field and click **[!UICONTROL Select]**.
 
-   Use this option to select an attribute based on the dataset schema defined in the preset for your form. 
+      ![Add a selected attribute field component to the form](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
 
-   In the _[!UICONTROL Select field attribute]_ dialog, select the checkbox for the attribute that you want to use for the field and click **[!UICONTROL Select]**.
+      For example, you can set the Email and Company. When users complete and submit the form, the information entered is saved to the selected dataset.
 
-   ![Add a selected attribute field component to the form](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+      To map the collected data with a Profile, select a profile identity field. The identity fields are marked as **[!UICONTROL Required]** in the attribute list - you can filter on them.
 
-   For example, you can set the Email and Company. When users complete and submit the form, the information entered is saved to the selected dataset.
+   * **[!UICONTROL Add custom field]**
 
-   To map the collected data with a Profile, select a profile identity field. The identity fields are marked as **[!UICONTROL Required]** in the attribute list - you can filter on them.
+      With this option, you can define a free field without mapping it to a field in the linked dataset. 
 
-   >[!TAB Add custom field]
-
-   With this option, you can just define a free field without mapping it to a field in the linked dataset. 
-
-   ![Add custom field component to the form](./assets/form-field-add-custom-field.png){width="600" zoomable="yes"}
-
-   >[!ENDTABS]
+      ![Add custom field component to the form](./assets/form-field-add-custom-field.png){width="600" zoomable="yes"}
 
    On the canvas, the default field label for the selected attribute is populated on the canvas. The **[!UICONTROL Field details]** are displayed in the panel on the right.
 
