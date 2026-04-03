@@ -119,7 +119,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Forms {#forms}      
       + [Overview](./content/forms.md)
       + [Form design](./content/form-design.md)
-   + Landing pages (Beta) {#landing-pages}
+   + Landing pages {#landing-pages}
       + [Overview](./content/landing-pages.md)       
       + [Landing page design](./content/landing-page-design.md)
       + [AI Assistant for landing page content](./content/ai-assistant-landing-pages.md)
@@ -150,7 +150,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
-       + [Landing page settings (Beta)](./admin/landing-page-settings.md)
+       + [Landing page configurations](./admin/configure-channels-landing-pages.md)
        + [Forms configurations](./admin/configure-channels-forms.md)
        + [Configure datastreams for event collection](./data/aep-event-collection.md)
     + Configurations {#configurations}

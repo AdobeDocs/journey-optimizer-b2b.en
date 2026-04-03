@@ -3,7 +3,6 @@ title: Landing Pages
 description: Create, design, and publish landing pages for account journeys - build from scratch, import HTML, add forms, personalize content, and link from emails in Journey Optimizer B2B Edition.
 feature: Landing Pages, Content
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
 ---
 # Landing pages
@@ -20,9 +19,7 @@ To direct your customers to a defined web page when they click a specific link, 
 
 For example, you can create and design landing pages to direct your users to online information. The page could include a form where they can opt in or opt out from receiving your communications. Or it could be an opportunity to subscribe to a recurring communications, such as a newsletter. 
 
-You can create, personalize, and preview landing pages in the visual design space.
-<!-- 
-For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
+You can create, personalize, and preview landing pages in the visual design space. 
 
 ## Access and manage landing pages
 

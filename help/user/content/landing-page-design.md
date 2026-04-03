@@ -3,7 +3,6 @@ title: Landing Page Design
 description: Design landing pages with visual tools - add content components, forms, custom CSS, personalization, and device preview for account journeys in Journey Optimizer B2B Edition.
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 ---
 # Landing page design
