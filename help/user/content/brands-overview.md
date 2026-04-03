@@ -3,8 +3,6 @@ title: Use Brands for Content Generation and Consistency
 description: Define brand guidelines for consistent content creation - maintain visual identity, messaging alignment, and authentic voice in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: yes
-hidefromtoc: yes
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
