@@ -237,7 +237,7 @@ Use this action to send an SMS message. You can create, personalize, and preview
 
 +++[!UICONTROL Send WhatsApp]
 
-Use this action to send a WhatsApp message. You can create, personalize, and preview WHatsApp messages in the visual design space (see [WhatsApp authoring](../content/whatsapp-authoring.md).
+Use this action to send a WhatsApp message. You can create, personalize, and preview WhatsApp messages in the visual design space (see [WhatsApp authoring](../content/whatsapp-authoring.md).
 
 ![Take an action - Send WhatsApp](./assets/node-action-send-whatsapp.png){width="300"}
 
