@@ -21,7 +21,7 @@ Form fields are used to capture person profile data that can be used to target p
 
 1. In the _[!UICONTROL Components]_ panel on the left, drag the **[!UICONTROL Field]** content component and drop it onto the canvas.
 
-   ![Add a field component to the form](./assets/form-content-add-field.png){width="700" zoomable="yes"}
+   ![Add a field component to the form](./assets/form-content-add-field.png){width="800" zoomable="yes"}
 
 1. For _[!UICONTROL Select field attribute]_, choose **[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.
 
@@ -74,7 +74,7 @@ Form fields are used to capture person profile data that can be used to target p
 
 1. Depending on the selected field type, set the other options for the field entry and validation.
 
-   ![Set options for the field according to the selected field type](./assets/form-field-details-text-type.png){width="400" zoomable="yes"}
+   ![Set options for the field according to the selected field type](./assets/form-field-details-text-type.png){width="800" zoomable="yes"}
 
    For example, the _Text_ field type has the following options for field entry and validation:
 
@@ -104,7 +104,7 @@ Form fields are used to capture person profile data that can be used to target p
 
    * **[!UICONTROL Enable input mask]** - Select the checkbox to restrict input from your visitor using an input mask. For example, you may want visitors to enter phone numbers in a specific format. In the dialog, enter the mask using `9` for any number, `a` for any letter, and `*` for either.
 
-      ![Define an input mask for the field](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
+      ![Define an input mask for the field](./assets/form-field-mask-input-dialog.png){width="550" zoomable="yes"}
 
       Click **[!UICONTROL Save]** to enable the specified input mask.
 
