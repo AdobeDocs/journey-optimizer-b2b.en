@@ -109,11 +109,15 @@ Create a dataset for Individual Profile, and another for Business Account. Selec
 
 Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities such as purchases, licenses, and event registrations in journey decisions and email personalization. You can select up to 20 schemas and up to 50 fields per schema.
 
-For information about how you can use the selected fields for advanced email personalization, see [Content personalization](../content/personalization.md#custom-datasets). For information about how you can use the selected fields for journey decisioning (split paths by account or people), see [Custom data filtering](../journeys/split-merge-paths-nodes.md#custom-data-filtering).
+There are multiple features that support the use of the configured relational schemas and fields:
+
+* [Content personalization](../content/personalization.md#custom-datasets)
+* [Journey decisioning (split paths)](../journeys/split-merge-paths-nodes.md#custom-data-filtering)
+* [Buying group roles](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) (B2B Person only)
 
 >[!AVAILABILITY]
 >
->The [Relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) are available for [!DNL Journey Optimizer B2B Edition] as a limited availability release. Data Mirror and relational schemas are available to [!DNL Journey Optimizer Orchestrated Campaigns] license holders. Relational schemas are also available as a limited release for [!DNL Customer Journey Analytics] users, depending on your license and feature enablement. Contact your Adobe representative for access.
+>The [relational schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) are available for [!DNL Journey Optimizer B2B Edition] as a limited availability release. Data Mirror and relational schemas are available to [!DNL Journey Optimizer Orchestrated Campaigns] license holders. Relational schemas are also available as a limited release for [!DNL Customer Journey Analytics] users, depending on your license and feature enablement. Contact your Adobe representative for access.
 
 >[!NOTE]
 >
