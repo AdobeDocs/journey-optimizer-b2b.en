@@ -57,7 +57,6 @@ Complete the following tasks:
 
    ![Administration > Channels with the WhatsApp Settings expanded](./assets/config-whatsapp-channels.png){width="800" zoomable="yes"}
 
-
 1. Click **[!UICONTROL Create new API credentials]** at the top right.
 
 1. Configure your API credentials, as detailed below:
@@ -106,7 +105,8 @@ If you encounter an HTTP 500 error when configuring WhatsApp API credentials, fo
 
 1. Test the credentials externally - Verify your credentials directly with the Meta API to confirm whether the issue is with the credentials or with Journey Optimizer B2B Edition credential handling.
 
-1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
+<!-- 1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures. 
+do we have advanced logs? How are they enabled?-->
 
 1. Contact Adobe - If the environment and entitlements are confirmed valid but the HTTP 500 error persists, contact your Adobe representative.
 
