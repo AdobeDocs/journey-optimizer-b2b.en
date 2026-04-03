@@ -3,6 +3,7 @@ title: WhatsApp Channel Setup
 description: Connect your WhatsApp Business Account through Meta's Cloud API to enable WhatsApp messaging in Journey Optimizer B2B Edition account journeys.
 feature: Setup, Channels
 role: Admin
+exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
 ---
 # WhatsApp channel setup
 

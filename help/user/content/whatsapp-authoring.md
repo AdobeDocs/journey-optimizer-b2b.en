@@ -3,6 +3,7 @@ title: WhatsApp Authoring
 description: Create WhatsApp messages for account journeys using approved Meta templates, personalization tokens, and delivery settings in Journey Optimizer B2B Edition.
 feature: Content, Channels, Account Journeys
 role: User
+exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
 ---
 # WhatsApp authoring
 
