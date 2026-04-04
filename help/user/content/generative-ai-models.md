@@ -5,6 +5,7 @@ topic: Artificial Intelligence
 feature: Generative AI, Brand Identity, Content
 role: User
 level: Beginner, Intermediate
+exl-id: 9f69320e-8603-4343-80e0-052d820ba61f
 ---
 # Generative AI models for brand alignment
 
