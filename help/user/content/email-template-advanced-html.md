@@ -2,7 +2,7 @@
 title: Advanced HTML Mode for Email Template Design
 description: Use Advanced HTML mode to directly view and edit the raw HTML source of your email template content in the email design space in Journey Optimizer B2B Edition.
 feature: Email Authoring, Templates, Content Design Tools
-level: Advanced
+level: Experienced
 role: User
 ---
 # Advanced HTML mode for email template design
@@ -63,13 +63,9 @@ Advanced HTML mode is accessible from the toolbar at the top of the visual desig
 
    Content simulation and saving are not available in advanced HTML mode for compatibility reasons. You can switch back to the desktop view to preview your content and save the template. Any edits you make are preserved when you switch between the HTML source view and the visual design view.
 
-   >[!BEGINSHADEBOX]
-
    If you click **[!UICONTROL Save]** or **[!UICONTROL Save & close]** at the top right while you are in advanced HTML mode, an alert dialog appears to inform you that you must switch out of advanced HTML mode before saving the template and exiting the design space. 
 
    ![Alert dialog that save is disabled in advanced HTML mode](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
-
-   >[!ENDSHADEBOX]
 
 1. Click the _[!UICONTROL Desktop]_ ( ![Desktop icon](../assets/do-not-localize/icon-desktop-spectrum-1.svg) ) icon in the toolbar to switch from advanced HTML mode (the HTML source view) to the visual design canvas. 
 
