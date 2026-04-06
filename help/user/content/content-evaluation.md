@@ -9,31 +9,6 @@ exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 ---
 # Content scoring {#content-scoring}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_brand_score_overview"
->title="Brand selection"
->abstract="Select your brand to ensure that your content is crafted in alignment with its specific guidelines, standards, and identity, maintaining consistency and brand integrity."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_brand_score"
->title="Brand alignment score"
->abstract="Your brand alignment score measures how well your content adheres to the brand guidelines to ensure consistency in colors, fonts, logo, imagery, and writing style."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_brand_colors"
->title="Colors score"
->abstract="Colors score"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_brand_fonts"
->title="Fonts score"
->abstract="Fonts score"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_brand_logos"
->title="Logos score"
->abstract="Logos score"
-
 The content evaluation and scores help you to create, review, and manage content that adheres to the guidelines [defined in the selected brand](./brands-manage-create.md#brand-definitions) and the overall quality. Running an evaluation ensures consistency in tone, messaging, and visual identity across your email campaigns, while also serving as a quality check before your content goes live.
 
 >[!AVAILABILITY]
@@ -60,9 +35,34 @@ The content evaluation and scores help you to create, review, and manage content
 
    The system evaluates the content against the guidelines for the selected brand and displays the resulting score.
 
-   ![Brand alignment evaluation score](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
+   ![Evaluation scores in the right panel](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
 ## Brand alignment score {#brand-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_brand_score_overview"
+>title="Brand selection"
+>abstract="Select your brand to ensure that your content is crafted in alignment with its specific guidelines, standards, and identity, maintaining consistency and brand integrity."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_brand_score"
+>title="Brand alignment score"
+>abstract="Your brand alignment score measures how well your content adheres to the brand guidelines to ensure consistency in colors, fonts, logo, imagery, and writing style."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_brand_colors_score"
+>title="Colors score"
+>abstract="Colors score"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_brand_fonts_score"
+>title="Fonts score"
+>abstract="Fonts score"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_brand_logos_score"
+>title="Logos score"
+>abstract="Logos score"
 
 When your brand is well-defined and published, assess your brand alignment score directly within the email design space to ensure that the content aligns with your brand guidelines:
 
@@ -73,27 +73,36 @@ The score is calculated according to identified violations in the evaluated emai
 * 60-79 = Fair - Some significant violations
 * Below 60 = Poor - Major violations need attention
 
-You can review the evaluation results in more detail to help you identify violations and improve your category alignment scores (_High_, _Medium_, and _Low_) and review the details. For the **[!UICONTROL Writing style]** or **[!UICONTROL Visual content]**, click the _Expand_ ( ![Expand arrow](../assets/do-not-localize/icon-expand-right.svg) ) arrow to display the details for the evaluation.
+You can review the evaluation results in more detail to help you identify violations and improve your category alignment scores (_High_, _Medium_, and _Low_) and review the details. 
+
+For the **[!UICONTROL Writing style]** or **[!UICONTROL Visual content]**, click the _Expand_ ( ![Expand arrow](../assets/do-not-localize/icon-expand-right.svg) ) arrow to display the details for the evaluation.
 
 ![Brand alignment evaluation details](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
 
+Click the _Full screen_ ( ![Full screen icon for detailed insights](../assets/do-not-localize/icon-full-screen.svg) ) icon for a detailed view of each score insight.
+
 Select any flagged guideline to view specific feedback and suggestions.
+
+![Brand alignment evaluation details in full-screen view](./assets/brands-alignment-evaluation-details-full-screen.png){width="700" zoomable="yes"}
 
 You can make changes to the content and click **[!UICONTROL Re-evaluate score]** to run another evaluation and check for an improved result.
 
 ## Content quality score {#quality-score}
 
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_quality_score_overview"
+>title="Content quality"
+>abstract="Assess general content quality to identify potential issues with readability, content cohesiveness, and effectiveness. The quality assessment is independent of your brand guidelines."
+
 >[!NOTE]
 >
->Content quality evaluation is independent of brand guidelines. Even if a brand is selected in the drop-down menu, its guidelines are not applied to the quality check. The brand selection is only relevant for brand alignment scoring.
+>Content quality evaluation is independent of brand guidelines. Even if a brand is selected, its guidelines are not applied to the quality check. The brand selection is only relevant for brand alignment scoring.
 
 In addition to brand alignment, you can assess general content quality to identify potential issues with readability, content cohesiveness, and effectiveness, independent of your brand guidelines. 
 
 Scroll to the **[!UICONTROL Content quality]** section to review the quality insights and recommendations.
 
-<!-- ![Content quality evaluation](assets/content-scoring-quality-insights.png) -->
-
-You can click the ![Full screen icon for detailed insights](../assets/do-not-localize/icon-full-screen.svg) icon for a detailed view of your quality score.
+![Content quality evaluation](./assets/content-scoring-quality-insights.png){width="600" zoomable="yes"}
 
 Select any flagged item to view specific feedback and actionable suggestions for improvement. Scores are based on the following categories:
 
@@ -104,6 +113,8 @@ Select any flagged item to view specific feedback and actionable suggestions for
 * **[!UICONTROL Content Cohesiveness]**: Ensures your content flows smoothly and stays on topic.
 * **[!UICONTROL Proofreading]**: Checks for spelling, grammar, and clarity issues.
 
-<!-- ![Full screen view of the content quality evaluation](assets/content-scoring-quality-full-screen.png) -->
+Click the _Full screen_ ( ![Full screen icon for detailed insights](../assets/do-not-localize/icon-full-screen.svg) ) icon for a detailed view of your quality score.
+
+![Full screen view of the content quality evaluation](./assets/content-scoring-quality-full-screen.png){width="700" zoomable="yes"}
 
 Based on the recommendations, you can edit your content to enhance readability, content cohesiveness, and overall quality. Click **[!UICONTROL Re-evaluate score]** after making changes to refresh the quality score.
