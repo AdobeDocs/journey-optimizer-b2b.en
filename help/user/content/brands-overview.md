@@ -3,8 +3,6 @@ title: Use Brands for Content Generation and Consistency
 description: Define brand guidelines for consistent content creation - maintain visual identity, messaging alignment, and authentic voice in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: yes
-hidefromtoc: yes
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
@@ -21,7 +19,7 @@ exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
 >title="Select your Brand"
 >abstract="Choose your brand to ensure that all AI-generated content is tailored to align with your brand specifications and guidelines."
 
-Brands help to define your _brand identity_ and play a crucial role in ensuring consistent and effective content creation that accurately represents your brand identity, values, and messaging. By adhering to well-defined brand styles, organizations can maintain a cohesive and recognizable brand presence across channels and touchpoints, and strengthen their brand recognition, trust, and loyalty among their target audiences.
+Brands help to define a _brand identity_ and play a crucial role in ensuring consistent and effective content creation that accurately represents your brand identity, values, and messaging. By adhering to well-defined brand styles, organizations can maintain a cohesive and recognizable brand presence across channels and touchpoints, and strengthen their brand recognition, trust, and loyalty among their target audiences.
 
 +++Benefits of using brands
 
@@ -41,7 +39,7 @@ Your organization can realize significant value by using a brand in creating and
 
 >[!AVAILABILITY]
 >
->This capability is currently available as a private beta, with progressive availability planned for all customers in future releases.
+>This capability is currently available as a public beta.
 >
 >A [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} is required before you can use AI-powered features in Adobe Journey Optimizer B2B Edition. For more information, contact your Adobe representative.
 
@@ -60,8 +58,8 @@ A defined brand provides the _source of truth_ for your creative team to use whe
 1. When it is ready for use, [publish the brand](./brands-manage-create.md#publish-the-brand).
 
 1. Use the brand for [email content alignment](./brand-alignment.md).
-<!-- 
-1. Use the brand to generate content. -->
+
+1. Use the brand to [generate email content](./ai-assistant-emails.md).
 
 >[!BEGINSHADEBOX]
 
