@@ -46,6 +46,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
     + [SMS channel](./content/sms-authoring.md)
+    + [WhatsApp channel](./content/whatsapp-authoring.md)
     + Email channel {#email-channel}
        + [Add an email](./content/add-email.md)
        + [Send-time optimization](./content/email-send-time-optimization.md)
@@ -131,6 +132,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/brands-overview.md)
       + [Manage and create](./content/brands-manage-create.md)
       + [Brand alignment](./content/brand-alignment.md)
+      + [Generative AI models](./content/generative-ai-models.md)
    + [Brand themes](./content/brand-themes.md)
    + [Conditional content](./content/conditional-content.md)
    + Personalization {#personalization}
@@ -149,6 +151,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
+       + [WhatsApp configurations](./admin/configure-channels-whatsapp.md)
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
        + [Landing page configurations](./admin/configure-channels-landing-pages.md)
        + [Forms configurations](./admin/configure-channels-forms.md)

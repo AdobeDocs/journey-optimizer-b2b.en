@@ -40,7 +40,7 @@ The brand alignment evaluation and scores help you to create, review, and manage
 
 >[!AVAILABILITY]
 >
->This capability is currently available as a private beta, with progressive availability planned for all customers in future releases.
+>This capability is currently available as a public beta.
 >
 >A [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} is required before you can use AI-powered features in Adobe Journey Optimizer B2B Edition. For more information, contact your Adobe representative.
 >
