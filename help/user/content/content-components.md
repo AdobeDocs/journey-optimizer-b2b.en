@@ -339,9 +339,13 @@ Customize the button styling in the **[!UICONTROL Styles]** tab.
 
 +++Alignment
 
+{{styles-alignment-h-v}}
+
 +++
 
 +++Button margin
+
+{{styles-margin}}
 
 +++
 
