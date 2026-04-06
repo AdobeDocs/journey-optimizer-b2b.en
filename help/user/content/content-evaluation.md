@@ -13,8 +13,6 @@ The content evaluation and scores help you to create, review, and manage content
 
 >[!AVAILABILITY]
 >
->This capability is currently available as a beta, with progressive availability planned for all customers in future releases.
->
 >A [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} is required before you can use AI-powered features in Adobe Journey Optimizer B2B Edition. For more information, contact your Adobe representative.
 >
 >See [Brand-related permissions](./brands-overview.md#brand-related-permissions) for information about how product administrators can enable these features.
@@ -63,6 +61,10 @@ The content evaluation and scores help you to create, review, and manage content
 >id="ajo-b2b_brand_logos_score"
 >title="Logos score"
 >abstract="Logos score"
+
+>[!AVAILABILITY]
+>
+>This capability is currently available as a public beta.
 
 When your brand is well-defined and published, assess your brand alignment score directly within the email design space to ensure that the content aligns with your brand guidelines:
 
