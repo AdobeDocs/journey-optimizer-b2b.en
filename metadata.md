@@ -5,7 +5,9 @@ type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/journey-optimizer-b2b.en
 feature-set: Journey Optimizer B2B Edition
-index: yes
+landing-page-name: journey-optimizer-b2b
+landing-page-breadcrumb-title: Journey Optimizer B2B
+index: true
 ---
 
 # Metadata for internal use
