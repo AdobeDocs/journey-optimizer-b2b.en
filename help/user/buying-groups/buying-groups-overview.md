@@ -62,7 +62,8 @@ To avoid incorrectly overriding a member assignment in a buying group, this list
 <!--
    * Acquire missing people
    * Send to LinkedIn Destination
-   * Enrich with Zoominfo -->
+   * Enrich with Zoominfo 
+-->
 
 1. Add buying group actions to your account journeys.
 

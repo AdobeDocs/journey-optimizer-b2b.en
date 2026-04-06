@@ -59,7 +59,8 @@ Click the _More menu_ ( **...** ) icon (next to the _Add_ ( **+** ) icon) to vie
 
 ![Personalization editor - token More menu](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
-<!-- >>[!NOTE]
+<!--
+ >>[!NOTE]
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->

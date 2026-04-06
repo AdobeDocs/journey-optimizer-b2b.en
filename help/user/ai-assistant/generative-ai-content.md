@@ -30,7 +30,8 @@ Generative AI for content in [!DNL Adobe Journey Optimizer B2B Edition], powered
 Use the generative AI features for content creation in [!DNL Journey Optimizer B2B Edition] to harness Adobe's generative AI capabilities. Craft personalized text and visuals for emails, SMS messages, landing pages, and more. When you are building a full campaign or simply refining specific assets, these features help you align content seamlessly with your brand guidelines while saving valuable time.
 
 <!--
-Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. -->
+Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
+-->
 
 >[!IMPORTANT]
 >
@@ -237,7 +238,8 @@ Always provide context and the value proposition for producing relevant content.
 </tbody>
 </table>
 
-<!-- channels not yet supported
+<!--
+ channels not yet supported
 <tr>
 <td><strong>SMS</strong></td>
 <td>"Alert VIP customers about a 4-hour flash sale on premium electronics with 40% discount, limited to the first 100 customers"</td>
@@ -245,9 +247,11 @@ Always provide context and the value proposition for producing relevant content.
 <tr>
 <td><strong>Push Notifications</strong></td>
 <td>"Re-engage users who haven't opened the app in 7 days with personalized content recommendations based on their reading history"</td>
-</tr> -->
+</tr> 
+-->
 
-<!-- Wait on more B2B specific examples
+<!--
+ Wait on more B2B specific examples
 
 ### Industry-specific approaches {#industry-approaches}
 
@@ -285,7 +289,8 @@ Always provide context and the value proposition for producing relevant content.
 </tr>
 </tbody>
 </table>
- -->
+ 
+-->
 
 ### New content vs. modification of existing content {#new-vs-modify}
 

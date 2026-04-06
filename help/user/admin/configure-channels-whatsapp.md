@@ -106,8 +106,10 @@ If you encounter an HTTP 500 error when configuring WhatsApp API credentials, fo
 
 1. Test the credentials externally - Verify your credentials directly with the Meta API to confirm whether the issue is with the credentials or with Journey Optimizer B2B Edition credential handling.
 
-<!-- 1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures. 
-do we have advanced logs? How are they enabled?-->
+<!--
+ 1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
+do we have advanced logs? How are they enabled?
+-->
 
 1. Contact Adobe - If the environment and entitlements are confirmed valid but the HTTP 500 error persists, contact your Adobe representative.
 
@@ -206,11 +208,14 @@ A channel configuration defines the delivery settings used when sending WhatsApp
 
 1. For **[!UICONTROL Select channel]**, choose `WhatsApp`.
 
- <!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration.
+    <!--
+ 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration.
 
    Make sure to include all applicable marketing actions to ensure compliance with customer preferences.
 
-   All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
+   All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. 
+ 
+  -->
 
 1. Under _[!UICONTROL WhatsApp Settings]_, select the **[!UICONTROL WhatsApp configuration]** (API credentials) that you created in the previous task.
 

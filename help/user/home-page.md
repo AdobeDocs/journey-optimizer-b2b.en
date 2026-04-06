@@ -9,13 +9,16 @@ exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 
 With Adobe Journey Optimizer B2B Edition, you can orchestrate account and buying group journeys using built-in generative AI and industry-leading automation to maximize demand for specific offerings using marketing-qualified buying groups. 
 
-<!-- Requirements?
+<!--
+ Requirements?
 -->
+
 To access to [!DNL Adobe Journey Optimizer B2B Edition], connect to Adobe Experience Cloud with your Adobe ID, and select [!DNL Journey Optimizer B2B Edition].
 
 ![Adobe Experience Platform apps](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-When you log in to the Adobe Experience Platform and select the Adobe Journey Optimizer B2B Edition app, the home page is displayed. This page provides an overview of the current state of your Journey Optimizer B2B initiatives in the form of<!-- refined insights and--> quick access links to the relevant resources. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+When you log in to the Adobe Experience Platform and select the Adobe Journey Optimizer B2B Edition app, the home page is displayed. This page provides an overview of the current state of your Journey Optimizer B2B initiatives in the form of<!-- refined insights and--> quick access links to the relevant resources. 
+<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![Journey Optimizer B2B Edition home page](./assets/home-page.png){width="800" zoomable="yes"}
 
@@ -30,7 +33,7 @@ The Journey Optimizer B2B Edition has two primary user personas: a _**marketer**
 
 The page also includes access to [AI Assistant](./ai-assistant/ai-assistant-overview.md), which helps users to get quick information about any specific questions or topics that they need.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
-<!-- 
+<!--
 
 ## Marketer - new user
 
@@ -75,5 +78,4 @@ The second row consists of the recent assets used by the B2B marketers in a sing
 The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
 
 The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
-
 -->

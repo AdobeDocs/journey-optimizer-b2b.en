@@ -414,7 +414,9 @@ The following operation defines people whose favorite colors include at least on
 
 +++
 
-<!-- ## Intersection{#intersection}
+<!--
+
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -431,7 +433,7 @@ The following operation defines if person 1 and person 2 both have favorite colo
 ```sql
 intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "green"]
 ```
---> 
+-->
 
 ### bottomN {#last-n}
 
@@ -444,7 +446,7 @@ The `bottomN` function sorts an array in ascending order based on the given nume
 ```
 
 | Argument | Description |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | The array or list to sort. |
 | `{VALUE}` | The property used to sort the array or list. |
 | `{AMOUNT}` | The number of items to return. |

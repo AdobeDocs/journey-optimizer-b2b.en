@@ -19,11 +19,13 @@ The [email design space](./email-authoring.md) includes collaboration tools for 
 
 * **_Collaboration in context_** - Review email body copy, images, and call-to-action (CTA) elements within the layout.
 
-<!-- Enable asynchronous collaboration between team members for an email asset
+<!--
+ Enable asynchronous collaboration between team members for an email asset
 Allow users to attach comments to specific design elements
 Provide a unified interface for viewing and managing all comments within a project
 Support comment placement, editing, deleting, and navigation
-Display visual indicators (badges) for elements with associated comments -->
+Display visual indicators (badges) for elements with associated comments 
+-->
 
 ## Enable email collaboration tools for reviewers
 

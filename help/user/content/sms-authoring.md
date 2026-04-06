@@ -72,12 +72,13 @@ You can create a message of up to 1600 characters, with every 160 characters con
 1. After entering your message text, click the _Link_ icon ( ![Link icon](../assets/do-not-localize/icon-link.svg) ) to the right of the text message box.
 
 1. Enter the **[!UICONTROL URL]** for the link.
-<!--    
+<!--
 1. In the dialog, choose the type of URLs to link:
 
    * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
 
-   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. -->
+   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. 
+-->
 
 1. If you choose to use a Marketo Engage landing page, set the tracking options.
 

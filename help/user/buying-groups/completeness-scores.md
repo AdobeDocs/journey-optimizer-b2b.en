@@ -44,7 +44,8 @@ In a large enterprise, you might identify one person per role. However, that per
 
 After you analyze the current buying group completeness, you can adjust the required number of contacts for each role in the roles template. These adjustments allow you to tune your buying group strategy based on real-world patterns and sales outcomes.
 
-<!-- ## Analyze audiences for journey optimization
+<!--
+ ## Analyze audiences for journey optimization
 
 Marketers can view the starting buying group completeness score of target account audiences to find the best performance indicators for a solution. This visibility enables marketers to:
 
@@ -56,7 +57,8 @@ Marketers can view the starting buying group completeness score of target accoun
 
 The buying group completeness score is available to use for filtering in [journey split-path-by-account nodes](../journeys/split-merge-paths-nodes.md#account-path-filters) and for audience segmentation. Role completeness can be used to create personalized content that addresses specific gaps in buying group composition.
 
->[!ENDSHADEBOX] -->
+>[!ENDSHADEBOX] 
+-->
 
 ## Role completeness calculation {#role-completeness-calculation}
 
@@ -145,5 +147,4 @@ Set up journey events that trigger specific actions when buying groups reach com
 * Trigger an automated assessment when a buying group stalls at the same completeness level for an extended period.
 
 By leveraging completeness scores throughout the journey, you create more targeted, efficient campaigns that align with the actual composition and maturity of your buying groups.
-
 -->

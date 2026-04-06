@@ -72,7 +72,7 @@ There are multiple methods for adding an image asset to the visual canvas.
    ![Use the filters and search field to locate the asset](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Select]**.
-<!-- 
+<!--
 
 ## Upload assets
 

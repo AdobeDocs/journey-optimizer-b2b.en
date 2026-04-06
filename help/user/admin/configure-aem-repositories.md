@@ -31,7 +31,8 @@ Adobe Experience Manager Cloud Manager is organized into programs, and each prog
 
    ![Access the Assets configuration space](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
-<!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
+<!--
+   The default digital asset management option is configured as `Adobe Marketo Engage`.
 -->
    From here, you can configure the connections to each AEM environment repository one by one.
 

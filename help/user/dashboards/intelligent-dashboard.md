@@ -211,8 +211,9 @@ Each card includes the following data:
    * The sort order is high to low for category, product, and keywords. If one or more of each type has the same intent strength, the sort uses alphabetical order.  
 
    {{intent-data-note}}
-<!-- 
-At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
+<!--
+At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. 
+-->
 
 ### Attribute filter {#attribute-filter-acct-highlights}
 
