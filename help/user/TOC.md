@@ -131,9 +131,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Brands (Beta) {#brands}
       + [Overview](./content/brands-overview.md)
       + [Manage and create](./content/brands-manage-create.md)
-      + [Brand alignment](./content/brand-alignment.md)
       + [Generative AI models](./content/generative-ai-models.md)
    + [Brand themes](./content/brand-themes.md)
+   + [Content evaluation](./content/content-evaluation.md)
    + [Conditional content](./content/conditional-content.md)
    + Personalization {#personalization}
       + [Overview](./content/personalization.md)
