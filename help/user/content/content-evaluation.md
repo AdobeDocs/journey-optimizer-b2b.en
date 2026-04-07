@@ -9,7 +9,7 @@ exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 ---
 # Content scoring {#content-scoring}
 
-The content evaluation and scores help you to create, review, and manage content that adheres to the guidelines [defined in the selected brand](./brands-manage-create.md#brand-definitions) and the overall quality. Running an evaluation ensures consistency in tone, messaging, and visual identity across your email campaigns, while also serving as a quality check before your content goes live.
+The content evaluation and scoring help you to create, review, and manage content that adheres to the guidelines [defined in the selected brand](./brands-manage-create.md#brand-definitions) and the general quality standards. Running an evaluation ensures consistency in tone, messaging, and visual identity across your email campaigns, while also serving as a quality check before your content goes live.
 
 >[!AVAILABILITY]
 >
