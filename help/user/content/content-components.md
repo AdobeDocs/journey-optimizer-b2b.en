@@ -443,7 +443,7 @@ On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!U
 
    * For a pixel-based width, click the up and down arrow icons to increase or decrease the number of pixels. An empty value (Auto) is the default and sizes the width of the element according to its contents.
 
-* ***[!UICONTROL Style]** - Choose the a value from the list of standard CSS `line-style` values, such as _Solid_, _Dotted_, and _Dashed_.
+* **[!UICONTROL Style]** - Choose the a value from the list of standard CSS `line-style` values, such as _Solid_, _Dotted_, and _Dashed_.
 
 +++
 
