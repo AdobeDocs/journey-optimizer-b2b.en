@@ -31,8 +31,8 @@ Adobe Experience Manager Cloud Manager is organized into programs, and each prog
 
    ![Access the Assets configuration space](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
-<!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
--->
+    <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
+    -->
    From here, you can configure the connections to each AEM environment repository one by one.
 
 1. Within the _[!UICONTROL Adobe Experience Manager Assets]_ box, click the arrow next to **[!UICONTROL Configure a repository]** and choose the repository.
@@ -118,6 +118,7 @@ Deleting a repository removes user access to the Experience Manager Assets envir
 1. Choose **[!UICONTROL Delete]**.
 
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
+
 <!--
 
 ## Switch back to Adobe Marketo Engage Assets
