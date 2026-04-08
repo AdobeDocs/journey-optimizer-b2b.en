@@ -3,6 +3,7 @@ title: External Nodes
 description: Learn how to use External Action and External Split Path nodes in account journeys to connect with external services and route accounts and people based on the service response.
 feature: Account Journeys, Integrations
 role: User
+exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
 ---
 # External nodes
 
