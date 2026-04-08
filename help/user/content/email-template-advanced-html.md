@@ -4,6 +4,7 @@ description: Use Advanced HTML mode to directly view and edit the raw HTML sourc
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
+exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
 ---
 # Advanced HTML mode for email template design
 
