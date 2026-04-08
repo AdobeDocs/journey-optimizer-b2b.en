@@ -12,7 +12,7 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
-## 2026.3 release notes
+## 2026.3 release notes {#rel-2026-3}
 
 **Deployment date**: March 27, 2026
 
@@ -37,7 +37,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 >These release changes begin deployment on Marh 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 
-## 2026.2 release notes
+## 2026.2 release notes {#rel-2026-2}
 
 **Deployment date**: February 20, 2026
 
@@ -52,7 +52,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 >
 >These release changes begin deployment on February 20, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
-## 2026.1 release notes
+## 2026.1 release notes {#rel-2026-1}
 
 **Deployment date**: February 3, 2026
 
@@ -68,7 +68,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 >
 >These release changes begin deployment on February 3, 2026, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
-## Agentic-AI capabilities
+## Agentic-AI capabilities {#rel-agents}
 
 The following agentic AI capabilities are now available for Journey Optimizer B2B Edition within the AI Assistant interface:
 
@@ -78,7 +78,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
 | Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels. [Learn more](../agents/sales-qualifier.md) |
 
-## 2025.10 release notes
+## 2025.10 release notes {#rel-2025-10}
 
 **Deployment date**: October 31, 2025
 
@@ -132,7 +132,7 @@ With the simplified architecture, the following new features and enhancements ar
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
 | | | -->
 
-## 2025.9 release notes
+## 2025.9 release notes {#rel-2025-9}
 
 **Deployment date**: September 30, 2025
 
@@ -149,7 +149,7 @@ This release includes the following new capabilities and enhancements:
 >
 >These release changes begin deployment on September 30, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
-## 2025.8 release notes
+## 2025.8 release notes {#rel-2025-8}
 
 **Deployment date**: August 26, 2025
 
@@ -164,7 +164,7 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. [Learn more](../buying-groups/engagement-scores.md) |
 | Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of the accounts that have reached each account node in the journey. |
 
-## 2025.6 release notes
+## 2025.6 release notes {#rel-2025-6}
 
 **Deployment date**: July 15, 2025
 
@@ -182,7 +182,7 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Simulate Content from email summary | You can now access the _Simulate Content_ tools from the email summary (details and properties) when you open an email from the Emails list. This access is in addition to the email design space. [Learn more](../content/email-simulate-content.md#display-the-email-preview) |
 | Enhancement | Total count display for roles templates list | The _[!UICONTROL Roles templates]_ list page is enhanced with the display of the total count next to the search bar. |
 
-## 2025.5 release notes
+## 2025.5 release notes {#rel-2025-5}
 
 **Deployment date**: June 3, 2025
 
@@ -195,7 +195,7 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Handlebar token format for email| Personalization tokens for email content now use an updated format that is fully compatible with Handlebar scripting. This format uses _camel case_ or underscores, eliminating spaces. [Learn more](../content/email-authoring.md#content-authoring---personalization) |
 | Enhancement | Total count display for lists | The _[!UICONTROL Solution Interests]_ and _[!UICONTROL Account Journeys]_ list pages are enhanced with the display of the total count next to the search bar. |
 
-## 2025.4 release notes
+## 2025.4 release notes {#rel-2025-4}
 
 **Deployment date**: April 29, 2025
 
@@ -210,7 +210,7 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Learn more</a> |
 | Enhancement | Emails list | View a global list of active and draft emails to search, review, and update them across the associated account journeys. <a href="../content/emails-list.md">Learn more</a> |
 
-## 2025.3 release notes
+## 2025.3 release notes {#rel-2025-3}
 
 **Deployment date**: April 1, 2025
 
@@ -223,7 +223,7 @@ This release includes the following new capabilities and enhancements:
 | Feature | Delete buying group stages | You can delete the buying group stages model when it is in a draft or published state. If it is published (live), you can delete it only when it is not associated with a solution interest. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Learn more</a> |
 | Enhancement | Journey node counts | Improved visibility into published journey membership counts at the node level. In the _Journey map_, nodes display _[!UICONTROL Total accounts entered]_. When a marketer selects an action node, the details on the right also include _[!UICONTROL Accounts not yet actioned on]_. And details for _Listen for an event_ nodes include _[!UICONTROL Accounts at this step]_. This information is useful for validating account progression in live, finished, and aborted journeys. |
 
-## 2025.2 release notes
+## 2025.2 release notes {#rel-2025-2}
 
 **Deployment date**: March 11, 2025
 

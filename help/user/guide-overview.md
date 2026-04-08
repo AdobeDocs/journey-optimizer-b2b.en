@@ -23,6 +23,24 @@ With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe
 * [Journey Agent B2B](./agents/journey-agent.md)
 * [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
 
+>[!TAB WhatsApp channel]
+
+When developers and product administrators configure an integration with a Meta Business Manager account, marketers can include WhatsApp messages as a content channel in account journeys using the Meta Cloud API. WhatsApp joins email and SMS as an available channel for delivering journey content directly to account members.
+
+[!BADGE Learn more]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Learn about the WhatsApp channel"}
+
+>[!TAB Generative AI models]
+
+Email designers can now select from standard [!DNL Firefly] models, custom [!DNL Firefly] models trained on brand-specific assets, and approved third-party image models when generating images for email content. This selection gives teams control over which model fits their specific design scenario, from general content needs to branded or specialized use cases.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Learn about generative AI model selection"}
+
+>[!TAB Send-time optimization]
+
+For _Send email_ action nodes in person journeys, you can now use send-time optimization to personalize email delivery timing. The system predicts when each person is most likely to engage and schedules delivery accordingly, rather than sending to all recipients at the same time.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="Learn about send-time optimization"}
+
 >[!TAB Journey re-entry]
 
 You can now send accounts/people through an account journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. Use the re-entry settings to set criteria, limits, and wait times so that accounts requalify for the journey in a controlled way.
@@ -37,27 +55,9 @@ With themes, non-technical designers have the ability to create reusable email c
 
 >[!TAB Persona mapping]
 
-Marketers can define detailed profiles, including background, responsibilities, pain points, and preferred communication channels. With these definitions, administrators can configure personas according to person attributes in [!DNL Journey Optimizer B2B Edition] so that roles templates can use streamlined and consistent role conditions that capture these personas.
+Marketers can define detailed profiles, including background, responsibilities, pain points, and preferred communication channels. With these definitions, administrators can configure personas according to person attributes in [!DNL Journey Optimizer B2B Edition] so that role templates can use streamlined and consistent role conditions that capture these personas.
 
 [!BADGE Learn more]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Learn about persona mapping"}
-
->[!TAB In-CRM Sales Insights]
-
-Sales team members can now view maturing buying groups and related insights within a Salesforce or Dynamics integration to identify new opportunities. The buying group details like stage, score, and related members are included.
-
-[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Learn about In-CRM Sales Insights"}
-
->[!TAB Email content collaboration]
-
-The email design space includes collaboration tools for feedback and resolution so that marketing teams can seamlessly review, discuss, and finalize email assets directly within [!DNL Journey Optimizer B2B Edition]. Instead of sharing drafts over external tools (like chat, email threads, or spreadsheets), users can comment, suggest edits, and resolve feedback within the email design space. You can tag your team members so that they receive an email or pulse notification with the details of the comment. 
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Learn about email content collaboration tools"}
-
->[!TAB Dark mode email design]
-
-The email design space now includes _dark mode_ preview and settings. Dark mode allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. Preview rendering, customize settings, ensure accessibility, and test across email clients.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Learn about dark mode email design"}
 
 >[!ENDTABS]
 
@@ -85,7 +85,7 @@ Review the Journey Optimizer B2B Edition onboarding guidance for administrators 
 :::
 
 :::
-![Configure icon](https://cdn.experienceleague.adobe.com/icons/gear.svg){width="25"}
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configure Your XDM fields
 
@@ -99,10 +99,11 @@ Implement the system configurations to activate the XDM schemas and fields that 
 
 Communication Channels
 
-Configure and manage email, SMS, and other channels for personalized customer interactions.
+Configure and manage email, SMS, WhatsApp, and other channels for personalized customer interactions.
 
 [Configure email channel](./admin/configure-channels-emails.md)
 [Configure SMS channel](./admin/configure-channels-sms.md)
+[Configure WhatsApp channel](./admin/configure-channels-whatsapp.md)
 :::
 
 :::
@@ -133,7 +134,7 @@ Detailed guidance on creating, managing, and optimizing buying groups for effect
 
 Design Content
 
-Learn how to author and manage content for personalized customer experiences orchestarted through journeys.
+Learn how to author and manage content for personalized customer experiences orchestrated through journeys.
 
 [Explore Content Components](./content/content-components.md)
 ::: 
@@ -164,7 +165,7 @@ Discover the components of a buying group and understand the basics of building 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Account journeys"><br/>
-      <strong>Account journeys</strong><br/><a href="./journeys/journeys-overview.md">Journeys overview</a><br/><a href="./journeys/journeys-overview.md#create-an-account-journey">Create an account journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
+      <strong>Account journeys</strong><br/><a href="./journeys/journeys-overview.md">Journeys overview</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Create an account journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -186,7 +187,7 @@ Discover the components of a buying group and understand the basics of building 
 
 ## Additional resources
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+<table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
