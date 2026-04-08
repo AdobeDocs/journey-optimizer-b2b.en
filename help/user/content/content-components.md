@@ -339,9 +339,13 @@ Customize the button styling in the **[!UICONTROL Styles]** tab.
 
 +++Alignment
 
+{{styles-alignment-h-v}}
+
 +++
 
 +++Button margin
+
+{{styles-margin}}
 
 +++
 
@@ -417,8 +421,6 @@ These styles are applied to the whole text block. You can apply inline styling t
 
 Add a _Divider_ component to incorporate a linear division between sections of your content.
 
-
-
 +++Background
 
 {{styles-background}}
@@ -426,6 +428,22 @@ Add a _Divider_ component to incorporate a linear division between sections of y
 +++
 
 +++Line
+
+On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!UICONTROL Line]** section and set the options for the component height and width:
+
+* **[!UICONTROL Color]** - Click the color square to choose a color from the picker. You can choose a color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, you can use the color slider and the color field to select the color.
+
+* **[!UICONTROL Height]** - Click the up and down arrow icons to increase or decrease the number of pixels. An empty value (Auto) is the default and sizes the height of the element according to its contents.
+
+* **[!UICONTROL Width]** - Use the toggle to set the width by pixels or percentage.
+
+   * For a percentage width, use the slider to set the percentage value. The percentage determines the element size based on the content box of the containing block, which excludes padding and borders. For example, a value of 50 sets the element width to 50% of its containing block content width.
+
+   ![Define line styling for a divider component](./assets/component-divider-line-options.png){width="250"}
+
+   * For a pixel-based width, click the up and down arrow icons to increase or decrease the number of pixels. An empty value (Auto) is the default and sizes the width of the element according to its contents.
+
+* **[!UICONTROL Style]** - Choose the a value from the list of standard CSS `line-style` values, such as _Solid_, _Dotted_, and _Dashed_.
 
 +++
 

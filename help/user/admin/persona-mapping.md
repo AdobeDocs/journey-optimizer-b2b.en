@@ -40,7 +40,7 @@ For example, you might configure a persona called _Product Management_ and defin
 
    The Persona mapping list is organized as a table and displays the most recently updated personas at the top (sorted by _[!UICONTROL Last update]_). You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes.
 
-  ![Columns to display in the persona mapping list](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![Columns to display in the persona mapping list](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. To access the details for a persona, click the name.
    
