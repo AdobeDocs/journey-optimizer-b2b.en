@@ -23,6 +23,24 @@ With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe
 * [Journey Agent B2B](./agents/journey-agent.md)
 * [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
 
+>[!TAB WhatsApp channel]
+
+When developers and product administrators configure an integration, marketers can now include WhatsApp messages as a content channel in account journeys using the Meta Cloud API. WhatsApp joins email and SMS as an available channel for delivering journey content directly to account members.
+
+[!BADGE Learn more]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Learn about the WhatsApp channel"}
+
+>[!TAB Generative AI models]
+
+Email designers can now select from standard [!DNL Firefly] models, custom [!DNL Firefly] models trained on brand-specific assets, and approved third-party image models when generating images for email content. This selection gives teams control over which model fits their specific design scenario, from general content needs to branded or specialized use cases.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Learn about generative AI model selection"}
+
+>[!TAB Send-time optimization]
+
+For _Send email_ action nodes in person journeys, you can now use send-time optimization to personalize email delivery timing. The system predicts when each person is most likely to engage and schedules delivery accordingly, rather than sending to all recipients at the same time.
+
+[!BADGE Learn more]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="Learn about send-time optimization"}
+
 >[!TAB Journey re-entry]
 
 You can now send accounts/people through an account journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. Use the re-entry settings to set criteria, limits, and wait times so that accounts requalify for the journey in a controlled way.
@@ -40,24 +58,6 @@ With themes, non-technical designers have the ability to create reusable email c
 Marketers can define detailed profiles, including background, responsibilities, pain points, and preferred communication channels. With these definitions, administrators can configure personas according to person attributes in [!DNL Journey Optimizer B2B Edition] so that roles templates can use streamlined and consistent role conditions that capture these personas.
 
 [!BADGE Learn more]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Learn about persona mapping"}
-
->[!TAB In-CRM Sales Insights]
-
-Sales team members can now view maturing buying groups and related insights within a Salesforce or Dynamics integration to identify new opportunities. The buying group details like stage, score, and related members are included.
-
-[!BADGE Learn more]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Learn about In-CRM Sales Insights"}
-
->[!TAB Email content collaboration]
-
-The email design space includes collaboration tools for feedback and resolution so that marketing teams can seamlessly review, discuss, and finalize email assets directly within [!DNL Journey Optimizer B2B Edition]. Instead of sharing drafts over external tools (like chat, email threads, or spreadsheets), users can comment, suggest edits, and resolve feedback within the email design space. You can tag your team members so that they receive an email or pulse notification with the details of the comment. 
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Learn about email content collaboration tools"}
-
->[!TAB Dark mode email design]
-
-The email design space now includes _dark mode_ preview and settings. Dark mode allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. Preview rendering, customize settings, ensure accessibility, and test across email clients.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Learn about dark mode email design"}
 
 >[!ENDTABS]
 
@@ -85,7 +85,7 @@ Review the Journey Optimizer B2B Edition onboarding guidance for administrators 
 :::
 
 :::
-![Configure icon](https://cdn.experienceleague.adobe.com/icons/gear.svg){width="25"}
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configure Your XDM fields
 
