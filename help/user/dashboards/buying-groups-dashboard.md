@@ -43,7 +43,7 @@ This visualization illustrates the distribution of buying groups based on their 
 
 To view more detailed information, click the **...** menu icon at the top right.
 
-![Buying group engagement score visualization](./assets/buying-group-completion-score-chart.png){width="500"}
+![Buying group engagement score visualization](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## Buying groups by solution interest
 

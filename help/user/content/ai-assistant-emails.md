@@ -82,7 +82,7 @@ To include images in your generated content, expand the **[!UICONTROL Image sett
 
 The **[!UICONTROL Generate images using AI]** option is disabled by default. Enable this feature and set the following options to include generated images in the proposed content variations:
 
-<!-- * **[!UICONTROL Generative model]**: Select from available built-in models, custom Firefly models trained on your brand assets, or third-party image generation providers to create images that align with your specific needs and brand requirements. -->
+* **[!UICONTROL Generative model]**: Select from the ready-to-use Adobe-provided model, the partner model for specialized capabilities, or configured custom models trained on your brand assets. For more information about generative models, see _[Generative AI models for brand alignment](generative-ai-models.md)_.
 * **[!UICONTROL Aspect ratio]**: When an image component is selected, this setting determines the width and height of the asset. You have the option to choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or you can enter a custom size.
 * **[!UICONTROL Content type]**: The type categorizes the nature of the visual element, distinguishing between different forms of visual representation, such as photos, graphics, or art.
 * **[!UICONTROL Visual intensity]**: Control the image's impact by adjusting its intensity. A lower setting (such as 2) creates a softer, more restrained appearance, while a higher setting (such as 10) makes the image more vibrant and visually powerful.
@@ -90,7 +90,7 @@ The **[!UICONTROL Generate images using AI]** option is disabled by default. Ena
 * **[!UICONTROL Lighting]**: The lighting style used for the image, which shapes its atmosphere and highlights specific elements.
 * **[!UICONTROL Composition]**: The arrangement of elements within the frame of an image.
 
-![Image settings panel displaying Content type, Visual intensity, Color and tone, Lighting, and Composition options](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+![Image settings panel displaying Generative model, Content type, Visual intensity, Color and tone, Lighting, and Composition options](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 Click the left arrow to return to the main _[!UICONTROL Settings]_.
 
@@ -412,6 +412,6 @@ Provide feedback for the generated variants by clicking the _Thumbs Up_, _Thumbs
 
 The brand alignment evaluation and scoring help you to ensure consistency in tone, messaging, and visual identity across your email campaigns, while also serving as a quality check before your content goes live. When the email content is complete, click the _Brand alignment_ ( ![Brand alignment icon](../assets/do-not-localize/icon-brand-compliance.svg) ) icon on the right to open the _Brand alignment_ right panel in the email design space.
 
-![Access the Brand alignment tools](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+![Access the Brand alignment scoring tools](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-For detailed information, see [Validate your brand alignment](./brand-alignment.md#validate-your-brand-alignment)
+For detailed information, see [_Brand alignment score_](./content-evaluation.md#brand-alignment-score)

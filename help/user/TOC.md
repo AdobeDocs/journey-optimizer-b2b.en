@@ -47,6 +47,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
     + [SMS channel](./content/sms-authoring.md)
+    + [WhatsApp channel](./content/whatsapp-authoring.md)
     + Email channel {#email-channel}
        + [Add an email](./content/add-email.md)
        + [Send-time optimization](./content/email-send-time-optimization.md)
@@ -110,6 +111,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + Email templates {#email-templates}
         + [Overview](./content/email-templates.md)
         + [Email template authoring](./content/email-template-authoring.md)
+        + [Advanced HTML editing](./content/email-template-advanced-html.md)
         + [Convert image to template](./content/email-template-image-convert.md)
       + Landing page templates (Beta) {#landing-page-templates}
         + [Overview](./content/landing-page-templates.md)
@@ -131,8 +133,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Brands (Beta) {#brands}
       + [Overview](./content/brands-overview.md)
       + [Manage and create](./content/brands-manage-create.md)
-      + [Brand alignment](./content/brand-alignment.md)
+      + [Generative AI models](./content/generative-ai-models.md)
    + [Brand themes](./content/brand-themes.md)
+   + [Content evaluation](./content/content-evaluation.md)
    + [Conditional content](./content/conditional-content.md)
    + Personalization {#personalization}
       + [Overview](./content/personalization.md)
@@ -155,6 +158,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
+       + [WhatsApp configurations](./admin/configure-channels-whatsapp.md)
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
        + [Landing page settings (Beta)](./admin/landing-page-settings.md)
        + [Configure datastreams for event collection](./data/aep-event-collection.md)

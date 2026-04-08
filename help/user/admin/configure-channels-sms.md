@@ -25,9 +25,9 @@ Before you configure an SMS channel in Adobe Journey Optimizer B2B Edition, you 
 >
 >The described settings are accessible only to the users with SMS Admin privileges.
 
-1. On the left navigation, expand the **[!UICONTROL Administrator]** section and click **[!UICONTROL Channels]**.
+1. On the left navigation, expand the **[!UICONTROL Administration]** section and click **[!UICONTROL Channels]**.
 
-   ![Access the congfiguration of SMS API credentials](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![Access the configuration of SMS API credentials](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
 1. In the navigation panel, select **[!UICONTROL API Credentials]**. 
 
@@ -51,7 +51,7 @@ _To configure Sinch as your SMS provider with Adobe Journey Optimizer B2B Editio
 
 1. Configure your SMS API credentials:
 
-   ![Configure the Sinch SMS API credentials](./assets/config-sms-api-sinch.png){width="500"}
+   ![Configure the Sinch SMS API credentials](./assets/config-sms-api-sinch.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL SMS vendor]** - Choose `Sinch` as the SMS provider.
 
@@ -73,7 +73,7 @@ _To configure Twilio as your SMS provider with Adobe Journey Optimizer B2B Editi
 
 1. Configure your SMS API credentials:
 
-   ![Configure the Twilio SMS API credentials](./assets/config-sms-api-twilio.png){width="500"}
+   ![Configure the Twilio SMS API credentials](./assets/config-sms-api-twilio.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL SMS vendor]** - Choose `Twilio` as the SMS provider.
 
@@ -95,7 +95,7 @@ _To configure Infobip as your SMS provider with Adobe Journey Optimizer B2B Edit
 
 1. Configure your SMS API credentials:
 
-   ![Configure the Infobip SMS API credentials](./assets/config-sms-api-infobip.png){width="500"}
+   ![Configure the Infobip SMS API credentials](./assets/config-sms-api-infobip.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL SMS vendor]** - Choose `Infobip` as the SMS provider.
 
