@@ -22,3 +22,4 @@ Build your journey by combining the different action, event, and orchestration n
 * [Split paths](./split-merge-paths-nodes.md)
 * [Wait](./wait-nodes.md)
 * [Merge paths](./split-merge-paths-nodes.md)
+* [External](./external-nodes.md)
