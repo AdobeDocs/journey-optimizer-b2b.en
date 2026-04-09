@@ -12,14 +12,24 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+<!-- ## 2026.4 release notes {#rel-2026-4}
+
+**Deployment date**: May 1, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
+| Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. | -->
+
+<!-- wait for release information
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
+
 ## 2026.3 release notes {#rel-2026-3}
 
 **Deployment date**: March 27, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
-| Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
 | Feature | WhatsApp channel | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} Marketers can now send WhatsApp messages directly from account journeys through the [!DNL Meta Cloud API]. This feature enables seamless integration of WhatsApp messaging to support journey content channels. [Learn more](../admin/configure-channels-whatsapp.md) |
 | Feature | Support for [!DNL Firefly] and custom Generative AI models | Marketing teams can now enable integration of standard and custom [!DNL Firefly] models, along with approved third-party image models (such as [!DNL NanoBanana]). Email designers can select the best model for each use case: standard [!DNL Firefly] for general needs, custom [!DNL Firefly] for on-brand generation, or approved third-party models for specialized or experimental scenarios. [Learn more](../content/generative-ai-models.md) |
 | Feature | Custom external actions for journeys | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} Developers can now use APIs to build integrations with their first-party systems. With these custom integrations, marketers can add _External action_ and _External split path_ nodes to make outbound requests to external services during account journey execution. [Learn more](../admin/configure-external-actions.md) |
@@ -28,9 +38,6 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Enhancement | Email template design tools - Advanced HTML mode | With _Advanced HTML mode_ in the email template design space, users can make minor HTML/CSS edits and add script tags to an email template to resolve rendering issues. [Learn more](../content/email-template-advanced-html.md) |
 | Enhancement | Person custom objects - buying group roles templates | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} When administrators configure custom objects that are related to a business person profile, marketers can now define buying group roles using these custom objects. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Enhancement | Email content scoring - content quality evaluation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/content-evaluation.md) |
-
-<!-- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
 >[!NOTE]
 >
