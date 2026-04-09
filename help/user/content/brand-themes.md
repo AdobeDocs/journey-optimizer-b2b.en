@@ -28,7 +28,7 @@ As you work with themes, keep the following guidelines and limitations in mind:
 * Changes to a custom theme do not automatically cascade to all emails or email templates that already use it. Edit the content for each to refresh the theme.
 
 * If you delete a theme, it does not affect any email or email template where it was already applied.
-<!-- 
+<!--
 * If using a content created in HTML, you will be in [compatibility mode](existing-content.md) and you cannot apply themes to this content.
 -->
 
@@ -128,7 +128,7 @@ Select the **[!UICONTROL Colors]** tab and use the settings to define the theme 
     | Type | Settings | Description |
     | ---- | -------- | ----------- |
     | [!UICONTROL General] |  ![General color settings for a variant](./assets/email-theme-colors-settings-variant-general.png){width="300"} | These settings determine the colors for body, structures, containers, backgrounds, links, grids, and borders.|
-    | [!UICONTROL Headings] | ![Heading color settings for a variant](./assets/email-theme-colors-settings-variant-headings.png){width="300"} |  These settings apply to `Heading` elements, where you can set text and border colors for each of six heading levels. Expand each heading level that you want to set the color for the variant.| 
+    | [!UICONTROL Headings] | ![Heading color settings for a variant](./assets/email-theme-colors-settings-variant-headings.png){width="300"} |  These settings apply to `Heading` elements, where you can set text and border colors for each of six heading levels. Expand each heading level that you want to set the color for the variant.|
     | [!UICONTROL Paragraphs] | ![Paragraph color settings for a variant](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | These settings apply to `Paragraph` elements, where you can set text and border colors for each of three paragraph types. Expand each paragraph type that you want to set the color for the variant. |
     | [!UICONTROL Buttons] | ![Button color settings for a variant](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | The settings apply to button elements, where you can set the fill color, border color, and text color for each of the three button presets: _Primary_, _Secondary_, and _Tertiary_. |
 
@@ -373,4 +373,5 @@ For an email or email template created in _Theme mode_, you can change the theme
 - The theme is saved and reused by marketers to author multiple emails.
 
 ### 2. Switching Themes
-- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
+- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.
+-->

@@ -33,7 +33,7 @@ Use the _Structure components_ in the visual design space to define the structur
 
 At the top of the _[!UICONTROL Components]_ library, the **[!UICONTROL Structures]** section displays the available structure components:
 
-| Icon  | Component.  | Description | 
+| Icon  | Component.  | Description |
 | ----- | ----------- | ----------- |
 | ![1:1 column icon](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 column] |  A single column container that fills the width of the space. |
 | ![1:2 column icon](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 column Left] | A two-column container that uses a 1:2 ratio to fill the width of the space. The first (left) column occupies a third of the width and the second (right) occupies the remaining two-thirds. |
@@ -57,7 +57,7 @@ The toolbar is displayed in the canvas when you select it in the canvas. The ava
 
 ![Structure component toolbar](../assets/do-not-localize/toolbar-structure.png){width="150"}
 
-| Tool | Name | Usage | 
+| Tool | Name | Usage |
 | ---- | ---- | ----- |
 | ![Enable conditional content](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Enable conditional content | Enable conditional variants for the component. [Learn more](./conditional-content.md) |
 | ![Select column](../assets/do-not-localize/toolbar-button-column-select.png){width="100"} | Select a column |  Select a column by number. When the column is selected, you can apply column settings and styles. |
@@ -165,7 +165,7 @@ Use the _Select a column_ tool in the component toolbar to select a column. You 
 
 ![Column toolbar](../assets/do-not-localize/toolbar-column.png){width="500"}
 
-| Tool | Name | Usage | 
+| Tool | Name | Usage |
 | ---- | ---- | ----- |
 | ![Clear column](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Clear column | Clear the content in the column. |
 | ![Enable conditional content](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Enable conditional content | Enable conditional variants for the column. [Learn more](./conditional-content.md) |

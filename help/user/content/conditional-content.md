@@ -92,7 +92,8 @@ The rules are stored in the conditions library, where they are available for reu
 <!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.
+-->
 
 ### Condition filters {#condition-filters}
 

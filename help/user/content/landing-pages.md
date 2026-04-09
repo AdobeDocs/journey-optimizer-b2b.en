@@ -19,7 +19,7 @@ To direct your customers to a defined web page when they click a specific link, 
 
 For example, you can create and design landing pages to direct your users to online information. The page could include a form where they can opt in or opt out from receiving your communications. Or it could be an opportunity to subscribe to a recurring communications, such as a newsletter. 
 
-You can create, personalize, and preview landing pages in the visual design space. 
+You can create, personalize, and preview landing pages in the visual design space.
 
 ## Access and manage landing pages
 
@@ -143,10 +143,11 @@ Adobe Journey Optimizer B2B Edition offers a selection of _out-of-the-box_ landi
 
 >[!ENDTABS]
 
-<!-- 
+<!--
 >[!NOTE]
 >
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). -->
+> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). 
+-->
 
 ## Edit a landing page
 

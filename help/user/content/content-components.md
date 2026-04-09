@@ -33,7 +33,7 @@ When you design content for emails, landing pages, templates, and visual fragmen
 
 The **[!UICONTROL Contents]** section at the bottom of the Components library displays the available content components:
 
-| Icon | Component | Description | 
+| Icon | Component | Description |
 | --------- | ---- | ----------- |
 | ![Container icon](../../assets/do-not-localize/icon-content-component-container.svg) | [Container](#container) | Add this component to your design to include a rectangular container that you can use to group components or apply background or border styling to an area. |
 | ![Button icon](../../assets/do-not-localize/icon-content-component-button.svg) | [Button](#button) | Add this component to your design to include a clickable button element. |
@@ -190,7 +190,7 @@ Each content component type displays a toolbar when you select it in the canvas.
 
 ### Functional tools
 
-| Tool | Name | Usage | 
+| Tool | Name | Usage |
 | ---- | ---- | ----- |
 | ![Add personalization](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Add personalization|  Use the personalization editor to insert personalization tokens in the component content. [Learn more](./email-authoring.md#personalize-content) |
 | ![Show the source code](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Show the source code| Display the HTML source code for the component in a read-only popup. <br/>![Show HTML code](./assets/content-components-show-source-code.png){width="200"} |

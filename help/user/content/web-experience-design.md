@@ -215,16 +215,16 @@ CSS selector modifications allow you to target elements precisely using standard
 
 1. Enter the selector in the **[!UICONTROL CSS Element Selector]** field.
 
-  <!-- This field helps you find and select the HTML elements (or nodes in the DOM tree). -->
+   <!-- This field helps you find and select the HTML elements (or nodes in the DOM tree). -->
 
-    **Example selectors:**
+   **Example selectors:**
 
-    | Selector | Targets |
-    | -------- | ------- |
-    | `#hero-banner` | Element with ID `hero-banner` |
-    | `.cta-button` | All elements with class `cta-button` |
-    | `header nav a` | Links within the navigation, inside the header |
-    | `[data-offer="premium"]` | Elements with a specific data attribute |
+   | Selector | Targets |
+   | -------- | ------- |
+   | `#hero-banner` | Element with ID `hero-banner` |
+   | `.cta-button` | All elements with class `cta-button` |
+   | `header nav a` | Links within the navigation, inside the header |
+   | `[data-offer="premium"]` | Elements with a specific data attribute |
 
 1. Choose an **[!UICONTROL Action Type]** and specify the required information / content.
 
@@ -250,9 +250,9 @@ The `<head>` element is commonly used to add JavaScript or CSS code to the top o
 
 1. Add your custom code in the **[!UICONTROL Content]** box.
 
-    >[!CAUTION]
-    >
-    >You can only add `<script>` and `<style>` elements to the `<head>` section. Adding `<div>` tags and other elements might cause remaining `<head>` elements to populate within the `<body>`.
+   >[!CAUTION]
+   >
+   >You can only add `<script>` and `<style>` elements to the `<head>` section. Adding `<div>` tags and other elements might cause remaining `<head>` elements to populate within the `<body>`.
 
    ![Non-visual editor page-head modification](./assets/web-experience-design-non-visual-editor-modification-page-head.png){width="800" zoomable="yes"}
 
@@ -293,11 +293,13 @@ Each modification record includes:
 
 1. Confirm the removal when prompted.
 
-<!-- ### Reorder modifications
+<!--
+ ### Reorder modifications
 
 Modifications are applied in the order that they appear in the list. If you have multiple modifications that affect the same element, the order may impact the final result.
 
-Drag and drop modifications in the list to change the order. The preview updates to reflect the new modification order. -->
+Drag and drop modifications in the list to change the order. The preview updates to reflect the new modification order. 
+-->
 
 ## Preview your modifications
 

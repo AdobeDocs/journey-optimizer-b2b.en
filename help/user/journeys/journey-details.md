@@ -54,8 +54,9 @@ The performance tables provide a detailed look at the effectiveness of Email and
 * _[!UICONTROL Sent]_ - number of SMS messages sent
 * _[!UICONTROL Delivery rate]_ - number of delivered SMS messages divided by the number sent
 * _[!UICONTROL Click-through rate]_ - number of clicked SMS messages divided by the number delivered
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+<!--
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
+-->
 
 ## Enhanced interaction
 
@@ -67,7 +68,8 @@ For the _[!UICONTROL Journey status]_ chart, choose **[!UICONTROL Drill through]
 
 ![The drill through for the graph data](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
+-->
 
 ### View more
 

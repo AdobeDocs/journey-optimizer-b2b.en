@@ -245,7 +245,8 @@ Select the **[!UICONTROL Writing Style]** tab, and review each category.
 |                            | [!UICONTROL Copyright standards] | Include copyright notices on marketing materials. | Do not use third-party content without permission. |
 |                            | [!UICONTROL Disclaimer standards] | Display disclaimers legibly on digital assets. | Do not hide disclaimers in non-visible areas. |
 
-<!-- #### Preferred and avoided terms
+<!--
+ #### Preferred and avoided terms
 
 Supplement your work choice guidelines by adding preferred and avoided terms. 
 
@@ -280,14 +281,14 @@ Select the **[!UICONTROL Visual content]** tab, and review each category.
 | [!UICONTROL Icon standards]         | Use a consistent 24px grid system. | Do not mix icon dimensions, use inconsistent stroke weights, or deviate from grid rules. |
 | [!UICONTROL Usage guidelines]       | Choose lifestyle images that reflect real customers using the product in professional environments. | Do not use imagery that contradicts brand tone or appears out of context. |
 
-<!-- #### Styles
+<!--
+ #### Styles
 
 To define the overall style for the category, click **[!UICONTROL Add style]**. In the popup dialog, enter the style type and description. 
 
 ![Add style for visual content category](./assets/brands-visual-content-add-style.png){width="500" zoomable="yes"}
 
 #### Specifications
-
 -->
 
 #### Example images

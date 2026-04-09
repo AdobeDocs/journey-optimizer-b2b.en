@@ -136,7 +136,8 @@ Administrators can select [Adobe Experience Platform (AEP) Experience Events](ht
 2. In a journey, add a _Listen for an event_ node, and select an Experience Platform event type for a people-based event.
 
 <!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) 
+-->
 
 _To include an Experience Event in your journey:_
 
@@ -216,6 +217,8 @@ If needed, define the amount of time the journey waits for the event. The journe
 
    ![Journey event node - set timeout path](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
+-->

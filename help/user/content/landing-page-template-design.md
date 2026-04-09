@@ -48,7 +48,8 @@ With at least one content component in the canvas, select the **[!UICONTROL Body
 
 Click **[!UICONTROL Save]** at any time to save the landing page template.
 <!--
-You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). 
+-->
 
 ### View options
 
@@ -68,5 +69,5 @@ From the _[!UICONTROL More ...]_ menu at the top of the visual design space, you
 
 * **[!UICONTROL Reset landing page]** - Click this option to clear the visual design canvas to a blank slate and restart building your page content.
 * **[!UICONTROL Change your design]** - Return to the _[!UICONTROL Create your primary landing page]_ home page. From there, you can choose another template to restart the design process, or choose to design the page from scratch in a blank canvas.
-<!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
+<!-- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL Export HTML]** - Download the content in the visual canvas to your local system in HTML format packaged as a zip file.

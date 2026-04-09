@@ -3,6 +3,7 @@ title: External Actions Configuration
 description: Learn how developers, administrators, and marketers work together to implement, configure, and use external actions that connect Journey Optimizer B2B Edition with external services in account journeys.
 feature: Setup, Integrations
 role: Admin, Developer
+exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
 ---
 # External actions configuration
 

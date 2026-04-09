@@ -274,7 +274,8 @@ For a **[!UICONTROL Split path by people]** condition, use the search field to f
 
 ![Person attributes conditions example for relational schema custom object](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
 
-<!-- SPHR-21734
+<!--
+ SPHR-21734
 
 Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
 -->

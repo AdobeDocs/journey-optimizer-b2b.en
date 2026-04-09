@@ -9,9 +9,11 @@ exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
 
 Personas are a key aspect in an account-based marketing (ABM) approach because they help marketers adjust their strategies to the specific needs, preferences, and pain points of individuals within target accounts. Marketers can create detailed profiles for each persona, including their background, responsibilities, pain points, and preferred communication channels. With these definitions, administrators can configure personas according to person attributes in Journey Optimizer B2B Edition so that roles templates can use streamlined and consistent role conditions that capture these personas.
 
-<!-- Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc. 
+<!--
+ Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc.
 
-Then based on what agent informed, users can create a template with those personas. -->
+Then based on what agent informed, users can create a template with those personas. 
+-->
 Persona definition and usage limitations:
 
 * You can have up to 20 personas defined in the _[!UICONTROL Persona mapping]_ list.

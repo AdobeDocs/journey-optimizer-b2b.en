@@ -8,7 +8,7 @@ exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 
 # Journey management
 
-In Journey Optimizer B2B Edition, journeys are automated, multistep account and lead-based marketing plans that orchestrate personalized  experiences across channels in response to engagement, business events, or scheduled campaigns. Define sales-driven engagement that includes email, SMS, and more in to coordinate inbound marketing with outbound sales activities for each buying group member.
+In Journey Optimizer B2B Edition, journeys are automated, multistep account and lead-based marketing plans that orchestrate personalized  experiences across channels in response to engagement, business events, or scheduled campaigns. Define sales-driven engagement that includes email, SMS, and more to coordinate inbound marketing with outbound sales activities for each buying group member.
 
 Journey Optimizer B2B Edition supports two journey types:
 

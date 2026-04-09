@@ -84,7 +84,7 @@ Choose **[!UICONTROL View more]** for extended data and insights.
 Depending on the chart, there is extended data for the following:
 
 | Engagement by accounts / buying groups / people | Accounts /buying groups / people engaged over time |
-| ----------------------------------------------- | -------------------------------------------------- | 
+| ----------------------------------------------- | -------------------------------------------------- |
 | <li>Engaged <li>Not Engaged | <li>Date <li>Accounts / Buying groups / People (number) <li>Engaged / Not engaged |
 
 To copy the extended data, click **[!UICONTROL Download CSV]** at the top right.
