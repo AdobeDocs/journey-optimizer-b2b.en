@@ -36,11 +36,12 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Enhancement | Email template design tools - Advanced HTML mode | With _Advanced HTML mode_ in the email template design space, users can make minor HTML/CSS edits and add script tags to an email template to resolve rendering issues. [Learn more](../content/email-template-advanced-html.md) |
 | Enhancement | Person custom objects - buying group roles templates | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} When administrators configure custom objects that are related to a business person profile, marketers can now define buying group roles using these custom objects. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Enhancement | Email content scoring - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
+| Enhancement | Email content scoring - content quality evaluation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/content-evaluation.md) |
+
 <!--
  wait for later release
 | Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
 -->
-| Enhancement | Email content scoring - content quality evaluation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/content-evaluation.md) |
 
 >[!NOTE]
 >
