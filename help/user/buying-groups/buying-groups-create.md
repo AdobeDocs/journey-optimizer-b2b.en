@@ -50,11 +50,13 @@ The creation job automatically creates buying groups for each new account in the
 
 ![Buying group jobs by solution interest](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
-<!-- Other buying group activities:
+<!--
+ Other buying group activities:
 
 Member of buying group.
 Assign a member of the buying group.
-Remove a member of the buying group. -->
+Remove a member of the buying group. 
+-->
 
 ## How-to video
 

@@ -35,7 +35,13 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Enhancement | Send Email - Send-time optimization | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  For _Send email_ action nodes in person journeys, you can use _Send-time optimization_ options to personalize email delivery timing by predicting when each profile is most likely to engage. [Learn more](../content/email-send-time-optimization.md) |
 | Enhancement | Email template design tools - Advanced HTML mode | With _Advanced HTML mode_ in the email template design space, users can make minor HTML/CSS edits and add script tags to an email template to resolve rendering issues. [Learn more](../content/email-template-advanced-html.md) |
 | Enhancement | Person custom objects - buying group roles templates | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} When administrators configure custom objects that are related to a business person profile, marketers can now define buying group roles using these custom objects. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Enhancement | Email content scoring - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
 | Enhancement | Email content scoring - content quality evaluation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/content-evaluation.md) |
+
+<!--
+ wait for later release
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
+-->
 
 >[!NOTE]
 >
@@ -130,12 +136,14 @@ With the simplified architecture, the following new features and enhancements ar
 | Enhancement | Engagement score weighting - AEP events | Engagement score weighting can now include any of the standard or custom Experience Platform events and weighted according to your needs. [Learn more](../admin/engagement-score-weighting.md) |
 | Enhancement | Communication limits | The system now respects the combined communication limits of both Marketo Engage and Journey Optimizer B2B Edition. [Learn more](../admin/configure-channels-emails.md#communication-limits) |
 
-<!-- There are additional functional changes with the simplified architecture:
+<!--
+ There are additional functional changes with the simplified architecture:
 
 | Item | Description |
 | ---- | ----------- |
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | | -->
+| | |
+-->
 
 ## 2025.9 release notes {#rel-2025-9}
 
@@ -237,7 +245,7 @@ This release includes the following new capabilities and enhancements:
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Customizable fields - content fragments | During visual fragment design, you can designate parameters for a component in the fragment as editable. This feature allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components. <a href="../content/fragment-authoring.md#enable-fragment-customization">Learn more</a> |
-| Feature | Journey duplication types | When you duplicate an account journey, you can include node details, excluding emails and SMS messages created in Journey Optimizer B2B Edition. As an alternative, you can create a skeleton copy of the structure and path flows, without node details and settings. <a href="../journeys/journeys-overview.md#duplicate-journey">Learn more</a> | 
+| Feature | Journey duplication types | When you duplicate an account journey, you can include node details, excluding emails and SMS messages created in Journey Optimizer B2B Edition. As an alternative, you can create a skeleton copy of the structure and path flows, without node details and settings. <a href="../journeys/journeys-overview.md#duplicate-journey">Learn more</a> |
 | Enhancement | Four additional sample email templates | The sample email templates library now includes four _SecurFinancial_ templates as examples for reengagement, inform, nurture, and feedback content examples. |
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->

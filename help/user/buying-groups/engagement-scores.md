@@ -55,7 +55,8 @@ There is a daily frequency cap of 20 for each activity. If a member of a buying 
 | Page Views | A member views a web page | Web | 20 | 40 |
 | Register for Event | A member registered for an event | Event | 20 | 60 |
 
-<!-- old list
+<!--
+ old list
 
 | Activity name | Description | Engagement type | Max daily frequency count | Activity weight |
 | --- | --- | --- | --- | --- |
@@ -93,7 +94,8 @@ There is a daily frequency cap of 20 for each activity. If a member of a buying 
 | [!UICONTROL Interacted with Document in Conversational Flow] | A member interacts with a document in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Engaged with an Agent in Conversational Flow] | A member engages with an Agent in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
-| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 | -->
+| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
+-->
 
 >[!NOTE]
 >

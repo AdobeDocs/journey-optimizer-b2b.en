@@ -42,14 +42,15 @@ After you use the visual design space to [author the structural and content comp
    ![Enable content additions](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
    With this mode set at the root level, all elements in the template are locked. The tree structure on the left displays the _Read only_ icon ( ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg) ) next to the root and all child elements.
-<!-- 
+<!--
 
    
 - ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg)
 - ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-content-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-edit-text.svg)
-- ![Edit element](../assets/do-not-localize/icon-edit.svg) -->
+- ![Edit element](../assets/do-not-localize/icon-edit.svg) 
+-->
 
 ## Apply locking to a structure
 

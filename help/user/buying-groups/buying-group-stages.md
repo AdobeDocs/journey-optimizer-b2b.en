@@ -175,12 +175,14 @@ If there are no validation errors, the model can be published. When it is publis
    With the return to the model details page, the model is designated as _[!UICONTROL Live]_. Click the _Back_ arrow at the top left to return to the _[!UICONTROL Stages]_ tab page.
 
 ![The published model](assets/stages-tab-model-live.png){width="700" zoomable="yes"} 
-<!-- list these later when the Published columns are working correctly
+<!--
+ list these later when the Published columns are working correctly
 
 Columns - Name, Status, Created by, Created date, Last updated by, Last update, Published by, Published on.
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
-Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. 
+-->
 
 ## Delete the buying group stages model
 
