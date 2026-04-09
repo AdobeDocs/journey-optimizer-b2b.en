@@ -43,6 +43,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md) 
        + [Wait](./journeys/wait-nodes.md)
+       + [External nodes](./journeys/external-nodes.md)
     + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
     + [SMS channel](./content/sms-authoring.md)
@@ -110,6 +111,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + Email templates {#email-templates}
         + [Overview](./content/email-templates.md)
         + [Email template authoring](./content/email-template-authoring.md)
+        + [Advanced HTML editing](./content/email-template-advanced-html.md)
         + [Convert image to template](./content/email-template-image-convert.md)
       + Landing page templates (Beta) {#landing-page-templates}
         + [Overview](./content/landing-page-templates.md)
@@ -131,9 +133,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Brands (Beta) {#brands}
       + [Overview](./content/brands-overview.md)
       + [Manage and create](./content/brands-manage-create.md)
-      + [Brand alignment](./content/brand-alignment.md)
       + [Generative AI models](./content/generative-ai-models.md)
    + [Brand themes](./content/brand-themes.md)
+   + [Content evaluation](./content/content-evaluation.md)
    + [Conditional content](./content/conditional-content.md)
    + Personalization {#personalization}
       + [Overview](./content/personalization.md)
@@ -148,6 +150,11 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Administration {#admin}
     + [Governance](./admin/governance.md)
     + [Persona mapping](./admin/persona-mapping.md)
+    + Configurations {#configurations}
+       + [AEM Assets repositories](./admin/configure-aem-repositories.md)
+       + [Intent data](./admin/intent-data.md)
+       + [Engagement score weighting](./admin/engagement-score-weighting.md)
+       + [External actions](./admin/configure-external-actions.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
@@ -155,7 +162,3 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
        + [Landing page settings (Beta)](./admin/landing-page-settings.md)
        + [Configure datastreams for event collection](./data/aep-event-collection.md)
-    + Configurations {#configurations}
-       + [AEM Assets repositories](./admin/configure-aem-repositories.md)
-       + [Intent data](./admin/intent-data.md)
-       + [Engagement score weighting](./admin/engagement-score-weighting.md)

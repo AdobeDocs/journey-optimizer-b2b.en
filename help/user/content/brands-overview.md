@@ -57,9 +57,9 @@ A defined brand provides the _source of truth_ for your creative team to use whe
 
 1. When it is ready for use, [publish the brand](./brands-manage-create.md#publish-the-brand).
 
-1. Use the brand for [email content alignment](./brand-alignment.md).
-
-1. Use the brand to [generate email content](./ai-assistant-emails.md).
+1. Use the brand for [email content alignment](./content-evaluation.md#brand-alignment-score).
+<!-- 
+1. Use the brand to generate content. -->
 
 >[!BEGINSHADEBOX]
 
