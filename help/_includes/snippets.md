@@ -38,10 +38,10 @@ description: Reused notes and visual elements to note a feature or page applying
 1. Expand the **[!UICONTROL Contents]** section and add as many elements as you need into one or more structure components.
 
    ![Drag a content element onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
-            <!--
+
+   <!--
    reference to the contents elements
-   
-      -->
+   -->
 
 ## Content authoring - components - settings step {#settings-step}
 

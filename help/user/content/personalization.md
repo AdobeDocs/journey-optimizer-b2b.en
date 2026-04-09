@@ -60,10 +60,11 @@ Click the _More menu_ ( **...** ) icon (next to the _Add_ ( **+** ) icon) to vie
 ![Personalization editor - token More menu](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
 <!--
- >>[!NOTE]
+>[!NOTE]
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
+
 You can also define a default fallback text string that is displayed if a string-type profile attribute is empty. Click the _More menu_ ( **...** ) icon for the attribute and select **[!UICONTROL Insert with fallback text]**. Enter the text that should be displayed when the attribute's value is empty for a profile, and then click **[!UICONTROL Add]**.
 
 It is a best practice to validate the expression before you insert it into the content. Click **[!UICONTROL Validate]** at the bottom of the editor to check your syntax and ensure that there are no errors.
