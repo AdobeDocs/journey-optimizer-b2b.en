@@ -123,7 +123,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/forms.md)
       + [Form design](./content/form-design.md)
    + Landing pages {#landing-pages}
-      + [Overview](./content/landing-pages.md)       
+      + [Overview](./content/landing-pages.md)
+      + [Create and publish](./content/landing-pages-create-publish.md)
       + [Landing page design](./content/landing-page-design.md)
       + [AI Assistant for landing page content](./content/ai-assistant-landing-pages.md)
    + Content design tools {#content-design}
