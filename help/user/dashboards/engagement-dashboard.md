@@ -37,7 +37,7 @@ Use the _[!UICONTROL Date range filter]_ at the top right to filter the data acc
 
 ![Filter the displayed data by date range](./assets/engagement-date-filter.png){width="380"}
 
-For the **[!UICONTROL Custom]** range, you can use the calendar tool to specify a start and end date. The end date defaults to the current day.
+For the **[!UICONTROL Custom]** range, click the _Calendar_  ( ![Calendar icon](../assets/do-not-localize/icon-calendar.svg) ) icon to specify a start and end date. The end date defaults to the current day.
 
 ![Filter the displayed data by attributes](./assets/engagement-date-filter-custom.png){width="380"}
 

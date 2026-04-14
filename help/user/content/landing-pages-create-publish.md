@@ -54,16 +54,16 @@ Before marketers can create landing pages to support their journeys and campaign
 
 1. Click **[!UICONTROL Create]**.
 
-1. The primary page and its properties display. Learn how to configure the primary page settings [here](#configure-primary-page).
+   The primary page and its properties are displayed.
 
-    ![New landing page - primary page properties](assets/lp_primary-page.png)
+    ![New landing page - primary page properties](./assets/landing-page-primary-new-properties.png){width="700" zoomable="yes"}
 
-### Configure the primary page {#configure-primary-page}
+## Configure the primary page {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="Define your primary page settings"
->abstract="The primary page is immediately displayed to the users after they click the link to your landing page, such as from an email or a website."
+>abstract="Define the primary page, which is immediately displayed when a recipient clicks the landing page link, such as from an email or a website."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
@@ -82,27 +82,35 @@ Before marketers can create landing pages to support their journeys and campaign
     >
     >You cannot access your landing page by simply copy-pasting this URL into a web browser, even if published. Test it using the preview function.
 
-    ![](assets/lp_access-url.png)
+1. If you want an anonymous landing page, disable the **[!UICONTROL Require identified users]** option.
 
-1. Set the **[!UICONTROL Page expiry]**.
+    <!-- The option 'Require identified users' would be visible in both AJO & AJOB2B when the Landing page is of type 'Data capture' -->
+
+1. Click the _Calendar_  ( ![Calendar icon](../assets/do-not-localize/icon-calendar.svg) ) icon to set the **[!UICONTROL Page expiry]**.
 
    After you select an expiry date, choose the action upon page expiration:
 
     * **[!UICONTROL Redirect URL]** - Enter the URL of the page to use as a redirect.
-    <!-- * **[!UICONTROL Custom page]** - Configure a subpage and select it from the list. -->
+
+       ![Landing page expiry - redirect URL](./assets/landing-page-expiry-redirect-url.png){width="400"}
+
+        <!-- * **[!UICONTROL Custom page]** - Configure a subpage and select it from the list. -->
     * **[!UICONTROL Browser error]** - Enter the error text to display in place of the page.
 
-1. To add the _[!UICONTROL Content]_ for the page, click **[!UICONTROL Open Designer]**.
+       ![Landing page expiry - browser error](./assets/landing-page-expiry-browser-error.png){width="400"}
 
-    The _[!UICONTROL Create your primary landing page]_ home page loads and the design process begins with choosing the design type.
+## Choose the content design type
 
-## Choose the design type 
+To add the _[!UICONTROL Content]_ for the page, click **[!UICONTROL Open Designer]**. The _[!UICONTROL Create your primary landing page]_ home page loads and the design process begins with choosing how you want to start the design:
 
-The _[!UICONTROL Create your primary landing page]_ home page provides multiple options for creating the page: _[!UICONTROL Design from scratch]_, _[!UICONTROL Code your own]_, _[!UICONTROL Import HTML]_, or use a landing page template.
+* [[!UICONTROL Design from scratch]](#design-from-scratch)
+* [[!UICONTROL Code your own]](#code-your-own)
+* [[!UICONTROL Import HTML]](#import-html)
+* [Use a landing page template](#select-a-template)
    
 ![Choose how you want to start your landing page design](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
    
-After you select the method that you want to use to start landing page design, use the visual design tools to [design the page](./landing-page-design.md).
+After you select the method that you want to use to start landing page design, use the visual design tools to [complete the page content](./landing-page-design.md).
 
 ### Design from scratch
    
@@ -146,9 +154,9 @@ Adobe Journey Optimizer B2B Edition allows you to import existing HTML content t
    
 You can personalize the imported content as needed with the visual design space.
 
-### Select a saved or sample template
+### Select a template
    
-If you want to use a temples, you can choose from:
+If you want to use a template, you can choose from:
 
 * **Sample templates**. The Journey Optimizer B2B Edition interface offers a collection of out-of-the-box landing page templates that you can use as a starting point for your landing page design.
 
@@ -173,6 +181,11 @@ Select a template thumbnail to display a preview. In preview mode, you can navig
 When the display matches what you want to use, click **[!UICONTROL Use this template]** at the top right of the preview window.
 
 This action copies the content into the visual design space, where you can edit the content as needed.
+
+<!-- 
+>[!NOTE]
+>
+>Saved templates may have governance (content locking) settings applied to one or more components. The design tools provide guidelines about locked components when you [author content from a governed template](./email-authoring-governance.md). -->
    
 >[!TAB Sample templates]
 
@@ -181,11 +194,6 @@ Adobe Journey Optimizer B2B Edition offers a selection of _out-of-the-box_ landi
 <!-- ![Choose a sample template provided by Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"} -->
 
 >[!ENDTABS]
-   
-<!-- 
->[!NOTE]
->
->Saved templates may have governance (content locking) settings applied to one or more components. The design tools provide guidelines about locked components when you [author content from a governed template](./email-authoring-governance.md). -->
 
 ## Check alerts
 
@@ -209,23 +217,55 @@ There are two types of alerts:
 
    * `The landing page content is empty`: Page content is mandatory.
 
+## Test the landing page {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_lp_profiles"
+>title="Preview and test your landing page"
+>abstract="After you define your landing page settings and content, use test profiles to preview the page."
+
+When the landing page settings and content are defined, you can use test profiles to preview the page. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the landing page, using test profile data.
+
+>[!PREREQUISITES]
+>
+>To preview and test landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
+>
+>This function requires that there are test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../audience/creating-test-profiles.md).
+
+1. Click **[!UICONTROL Preview & test]** to open the test profile selection.
+
+    <!-- ![](assets/landing-page-test-preview.png) -->
+
+    >[!NOTE]
+    >
+    >You can also use **[!UICONTROL Simulate content]** when you are in the visual design space.
+
+1. From the _[!UICONTROL Simulate]_ screen, select one or more test profiles.
+
+    <!-- ![](assets/lp_test-profiles.png) -->
+
+    The steps to select test profiles are the same as when testing a message. They are detailed in the [Content Management](../content-management/test-profiles.md) section.
+
+1. Select **[!UICONTROL Open preview]** to test your landing page.
+
+   The landing page preview opens in a new tab. Personalized elements are replaced by the selected test profile data.
+
+    <!--![](assets/lp_preview.png)-->
+
+1. Select other test profiles to preview the rendering for each variant of your landing page.
+
 ## Publish the page {#publish-landing-page}
 
-When the draft page meets your criteria and you want to make the page available to link from journeys, click **[!UICONTROL Publish]**.
+When the draft page meets your criteria and you want to make the page available to link from journey messages, click **[!UICONTROL Publish]**. Before publishing, [check and resolve all alerts](#check-alerts).
 
->[!CAUTION]
+>[!PREREQUISITES]
 >
->* To publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
->* Before publishing, check and resolve all alerts. [Learn more](#check-alerts)
+>To publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
 
 ![](assets/lp_publish.png)
 
-Once your landing page is published, it is added to the landing page list with the **[!UICONTROL Published]** status.
+When the landing page is published, it is displayed in the landing page list with the **_[!UICONTROL Published]_** status. This means that it is live and ready to be used in an email, SMS, or WhatsApp message sent through a journey.
 
-It is now live and ready to be used in a [!DNL Journey Optimizer] message that will be sent through a [journey](../building-journeys/journey.md).
+You cannot access the published landing page by copy-pasting the URL into a web browser. You can test it at any time using the [preview function](#).
 
->[!NOTE]
->
->You cannot access your landing page by simply copy-pasting into a web browser the URL defined when [creating the page](#create-landing-page), even if published. Instead you can test it using the preview function such as described in [this section](#test-landing-page).
-
-You can monitor your landing page impacts through specific reports. [Learn more](../reports/lp-report-live.md)
+You can monitor your landing page impacts through specific reports.
