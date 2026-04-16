@@ -3,7 +3,6 @@ title: XDM Field Management
 description: Use XDM field management to control the data that is available to Journey Optimizer B2B Edition.
 feature: Data Management, Integrations
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release on the simplified architecture"
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
 ---
 # XDM field management
@@ -15,10 +14,6 @@ Schemas define fields based on standard XDM classes. Standard XDM classes includ
 Adobe Experience Platform (AEP) schemas typically contain many fields in complex hierarchies. Traversing XDM schema trees takes time. XDM field management streamlines field selection by displaying only the fields that are relevant to your journeys, buying groups, and personalization.  Administrators enable these fields for use in Journey Optimizer B2B Edition, including which are read-only or editable.
 
 Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders should use the following steps to configure XDM classes for [!DNL Journey Optimizer B2B Edition].
-
->[!NOTE]
->
->XDM field management is available for Journey Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
 
 ## Access XDM classes
 

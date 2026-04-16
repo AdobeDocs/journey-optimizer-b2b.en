@@ -60,7 +60,7 @@ Enter text in the  _Search_ tool at the top of the list to filter the displayed 
 
 >[!TAB Person journeys (Beta)]
 
-[!BADGE Beta]{type=Informative tooltip="Available as a beta feature on the simplified architecture"}
+[!BADGE Beta]{type=Informative tooltip="Available as a beta feature"}
 
 On the left navigation, expand **[!UICONTROL Journey Management]** and click **[!UICONTROL Person journeys]**.
 

@@ -12,10 +12,6 @@ exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
 
 Use the Helper functions within the personalization editor to define personalized content experiences with precision and efficiency by manipulating data, performing calculations, and formatting content. Explore and experiment with these functions, operators, and helpers to discover how they work together to help you craft tailored, data-driven journeys.
 
->[!AVAILABILITY]
->
->Helper functions are available for [!DNL Journey Optimizer B2B Edition] environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
-
 ## Aggregation functions
 
 Use aggregation functions to group multiple values to form a single summary value. You can also use array and list functions to define interactions with arrays, lists, and strings easier.

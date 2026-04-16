@@ -37,10 +37,6 @@ With an _advanced wait step_, you define **_when_** the person or account should
 
 ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"}
 
->[!AVAILABILITY]
->
->Advanced wait settings are available for [!DNL Journey Optimizer B2B Edition] environments that are provisioned on the [simplified architecture](../simplified-architecture.md).
-
 ### Wait types
 
 | Wait type | Description | Configuration |
