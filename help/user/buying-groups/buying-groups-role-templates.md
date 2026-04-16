@@ -122,7 +122,7 @@ To use list membership as a role condition, expand **[!UICONTROL Special Filters
 >
 >**Feature deprecation**</br></br>
 >
->With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, filtering based on list or program membership in a Marketo Engage instance is not supported.
+>In the current Journey Optimizer B2B Edition release, filtering based on list or program membership in a Marketo Engage instance is no longer supported.
 
 >[!ENDSHADEBOX]
 

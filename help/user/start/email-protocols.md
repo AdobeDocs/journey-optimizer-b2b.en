@@ -206,7 +206,7 @@ If you send mail through Marketo Engage over a dedicated IP and have not impleme
 
 >[!BEGINSHADEBOX]
 
-**Migration to the simplified architecture**
+**Migrating dedicated IPs to Journey Optimizer B2B Edition**
 
 If you have dedicated IPs, you must have the new Journey Optimizer B2B Edition instance created in the same region as your existing Marketo Engage instance. If the new instance is in a different region, sharing the existing IP is not possible. If the region matches, open a ticket with [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} to request that your existing IP and binding groups be shared with the new instance. Provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID). 
 

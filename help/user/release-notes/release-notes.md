@@ -28,13 +28,13 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | WhatsApp channel | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} Marketers can now send WhatsApp messages directly from account journeys through the [!DNL Meta Cloud API]. This feature enables seamless integration of WhatsApp messaging to support journey content channels. [Learn more](../admin/configure-channels-whatsapp.md) |
+| Feature | WhatsApp channel | Marketers can now send WhatsApp messages directly from account journeys through the [!DNL Meta Cloud API]. This feature enables seamless integration of WhatsApp messaging to support journey content channels. [Learn more](../admin/configure-channels-whatsapp.md) |
 | Feature | Support for [!DNL Firefly] and custom Generative AI models | Marketing teams can now enable integration of standard and custom [!DNL Firefly] models, along with approved third-party image models (such as [!DNL NanoBanana]). Email designers can select the best model for each use case: standard [!DNL Firefly] for general needs, custom [!DNL Firefly] for on-brand generation, or approved third-party models for specialized or experimental scenarios. [Learn more](../content/generative-ai-models.md) |
-| Feature | Custom external actions for journeys | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} Developers can now use APIs to build integrations with their first-party systems. With these custom integrations, marketers can add _External action_ and _External split path_ nodes to make outbound requests to external services during account journey execution. [Learn more](../admin/configure-external-actions.md) |
+| Feature | Custom external actions for journeys | Developers can now use APIs to build integrations with their first-party systems. With these custom integrations, marketers can add _External action_ and _External split path_ nodes to make outbound requests to external services during account journey execution. [Learn more](../admin/configure-external-actions.md) |
 | Feature | Brands | (Beta) Marketing teams can maintain brand consistency across their email content assets by storing and managing brand profiles. By adding assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, they can use the brand profile for generative AI content creation. They can also measure brand alignment to ensure compliance. [Learn more](../content/brands-overview.md) |
-| Enhancement | Send Email - Send-time optimization | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  For _Send email_ action nodes in person journeys, you can use _Send-time optimization_ options to personalize email delivery timing by predicting when each profile is most likely to engage. [Learn more](../content/email-send-time-optimization.md) |
+| Enhancement | Send Email - Send-time optimization | For _Send email_ action nodes in person journeys, you can use _Send-time optimization_ options to personalize email delivery timing by predicting when each profile is most likely to engage. [Learn more](../content/email-send-time-optimization.md) |
 | Enhancement | Email template design tools - Advanced HTML mode | With _Advanced HTML mode_ in the email template design space, users can make minor HTML/CSS edits and add script tags to an email template to resolve rendering issues. [Learn more](../content/email-template-advanced-html.md) |
-| Enhancement | Person custom objects - buying group roles templates | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} When administrators configure custom objects that are related to a business person profile, marketers can now define buying group roles using these custom objects. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Enhancement | Person custom objects - buying group roles templates | When administrators configure custom objects that are related to a business person profile, marketers can now define buying group roles using these custom objects. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Enhancement | Email content scoring - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
 | Enhancement | Email content scoring - content quality evaluation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/content-evaluation.md) |
 
@@ -45,7 +45,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 >[!NOTE]
 >
->These release changes begin deployment on Marh 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>These release changes begin deployment on March 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 
 ## 2026.2 release notes {#rel-2026-2}
@@ -54,10 +54,10 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | XDM fields/relational schemas - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} (Beta) Administrators can now select custom objects that are related to a person using a single-level, one-to-one relationship with an account. This capability enables your marketing organization to represent a richer view of your real-world business data to target, personalize, and report on entities beyond the person or account level. [Learn more](../admin/xdm-field-management.md#relational-schemas) |
-| Feature | Journey re-entry | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  You can now send accounts/people through a journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. [Learn more](../journeys/journey-re-entry.md) |
-| Enhancement | Account and person journeys - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} (Beta) Leverage the relational data that is linked to accounts for filtering people within an account or person journey. [Learn more](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
-| Enhancement | (Beta) Content personalization - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  When marketers define content personalization using the custom objects, they can access variables for the model-based class custom objects (relational schemas). [Learn more](../content/personalization.md#custom-datasets) |
+| Feature | XDM fields/relational schemas - support for person custom objects | (Beta) Administrators can now select custom objects that are related to a person using a single-level, one-to-one relationship with an account. This capability enables your marketing organization to represent a richer view of your real-world business data to target, personalize, and report on entities beyond the person or account level. [Learn more](../admin/xdm-field-management.md#relational-schemas) |
+| Feature | Journey re-entry | You can now send accounts/people through a journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. [Learn more](../journeys/journey-re-entry.md) |
+| Enhancement | Account and person journeys - support for person custom objects | (Beta) Leverage the relational data that is linked to accounts for filtering people within an account or person journey. [Learn more](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| Enhancement | (Beta) Content personalization - support for person custom objects | When marketers define content personalization using the custom objects, they can access variables for the model-based class custom objects (relational schemas). [Learn more](../content/personalization.md#custom-datasets) |
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | ---- | ---- | ----------- |
 | Feature | Brand kits | (Beta) Define a brand in Journey Optimizer B2B Edition to provide the source of truth for your creative team to use when they create any visual or written content. When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. [Learn more](../content/brands-overview.md) |
 | Feature | Brands for email content generation | You can define your brand guidelines and use this information to generate email content. With this feature, email content is aligned with your brand specific copywriting guidelines, styles, and tone. [Learn more](../content/ai-assistant-emails.md) |
-| Enhancement | Journey _Wait_ node - advanced settings | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  For a _Wait_ node in a journey, marketers can now specify exit days and times, and select time zones. This enhancement enables better control for journey orchestration and campaign timing. [Learn more](../journeys/wait-nodes.md#advanced-wait-settings) |
+| Enhancement | Journey _Wait_ node - advanced settings | For a _Wait_ node in a journey, marketers can now specify exit days and times, and select time zones. This enhancement enables better control for journey orchestration and campaign timing. [Learn more](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Enhancement | Member of Buying Group filter - Is Removed | For a _split path by people_ node, the _[!UICONTROL Member of Buying Group]_ filter now includes the _Is Removed_ constraint. When you select it, the filter can include the removed buying group member or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
 | Enhancement | Email design - multiple-level bullets | The email content design space tools now support sub-bullets (bullet levels). |
 
@@ -111,11 +111,15 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 >
 >These release changes begin deployment on October 31, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
-### Simplified architecture
+### Updated architecture
 
-Adobe Journey Optimizer B2B Edition is now available using a simplified architecture. With this updated architecture, Journey Optimizer B2B Edition and Marketo Engage are no longer on the same system and same data store. Journey Optimizer B2B Edition receives data only from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system.
+With the updated architecture, Journey Optimizer B2B Edition and Marketo Engage are not on the same system and same data store. Journey Optimizer B2B Edition receives data from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system.
 
-This updated architecture provides multiple benefits:
+>[!NOTE]
+>
+>Earlier release notes referred to this deployment as the *simplified architecture*. That model is now the default Journey Optimizer B2B Edition implementation.
+
+This implementation provides multiple benefits:
 
 * **Easily unify and scale your data**: The updated platform supports complex data models, including custom objects, buying groups, and account events. 
 * **Connect multiple Adobe Marketo Engage instances**: Manage and unify data from several Adobe Marketo Engage environments in one place. 
@@ -124,9 +128,9 @@ This updated architecture provides multiple benefits:
 
 >[!NOTE]
 >
->If your environment is provisioned on this architecture, review the [guidelines for configuration](../simplified-architecture.md).
+>Review the [setup checklist](../setup-ultimate.md) for configuration guidance.
 
-With the simplified architecture, the following new features and enhancements are available in the 2025.10 release:
+The following new features and enhancements are available in the 2025.10 release with the updated architecture:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
@@ -135,15 +139,6 @@ With the simplified architecture, the following new features and enhancements ar
 | Feature | Email Fatigue Deduplication | You can now enable email deduplication to ensure that the same email is not sent multiple times to the same address in a journey. Duplicate addresses are blocked until the first record with that email address completes the journey.  [Learn more](../content/email-deduplication.md) |
 | Enhancement | Engagement score weighting - AEP events | Engagement score weighting can now include any of the standard or custom Experience Platform events and weighted according to your needs. [Learn more](../admin/engagement-score-weighting.md) |
 | Enhancement | Communication limits | The system now respects the combined communication limits of both Marketo Engage and Journey Optimizer B2B Edition. [Learn more](../admin/configure-channels-emails.md#communication-limits) |
-
-<!--
- There are additional functional changes with the simplified architecture:
-
-| Item | Description |
-| ---- | ----------- |
-| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | |
--->
 
 ## 2025.9 release notes {#rel-2025-9}
 

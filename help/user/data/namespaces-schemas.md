@@ -7,7 +7,7 @@ exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
 ---
 # B2B Namespaces and schemas
 
-The Journey Optimizer B2B Edition setup on the simplified architecture includes configuration of the Experience Platform namespaces and schemas that are used with B2B sources. The Postman automation utility is required for generating B2B namespaces and schemas.
+Journey Optimizer B2B Edition setup includes configuration of the Experience Platform namespaces and schemas that are used with B2B sources. The Postman automation utility is required for generating B2B namespaces and schemas.
 
 >[!AVAILABILITY]
 >

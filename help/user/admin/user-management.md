@@ -80,7 +80,7 @@ A user group is a collection of users who are granted a shared set of permission
 
 >[!TIP]
 >
->If you are migrating to the simplified architecture and want to add your existing Journey Optimizer B2B Edition users to Marketo Engage, you can skip the user group creation steps, and simply open the existing user group and add the Marketo Engage product profile.
+>If you are migrating from a legacy deployment and want to add your existing Journey Optimizer B2B Edition users to Marketo Engage, you can skip the user group creation steps, and simply open the existing user group and add the Marketo Engage product profile.
 
 For more information about how user groups are used to manage permissions, see [Manage user groups](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} in the Admin Console documentation.
 
