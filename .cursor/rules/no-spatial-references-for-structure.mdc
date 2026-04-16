@@ -1,0 +1,29 @@
+---
+description: Markdown only — avoid "below"/"above" for document order; use following/previous instead
+globs: "**/*.md"
+alwaysApply: false
+---
+
+# Spatial language (below / above)
+
+Do not use **below** or **above** to mean content that follows or precedes elsewhere in the page or topic. Order is not fixed in all reading modes (assistive tech, small screens, PDF, excerpts), and these terms assume a single visual layout.
+
+## Prefer
+
+- **Following content:** *the following table*, *in the next section*, *see also*, *next steps*, *as described in [title]*  
+- **Preceding content:** *earlier in this topic*, *the previous section*, *as noted previously*
+
+## Examples
+
+```markdown
+❌ The steps below describe how to save your work.
+✅ The following steps describe how to save your work.
+
+❌ As shown in the table above, revenue increased.
+✅ As shown in the previous table, revenue increased.
+
+❌ See the diagram below for the architecture.
+✅ See the architecture diagram in the next section.
+```
+
+Exception: **below** and **above** are fine when they mean **lower or higher on the same page in a fixed graphic** (for example, *the label below the icon in the figure*), not the document structure.

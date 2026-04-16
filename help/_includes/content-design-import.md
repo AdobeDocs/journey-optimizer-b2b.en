@@ -11,7 +11,7 @@ Imported content can be:
 
    >[!NOTE]
    >
-   >There are no constraints on the .zip file structure. However, references must be relative and fit with the tree structure of the .zip folder. The images are always uploaded to the connected Marketo Engage assets repository. If you want to manage the image files in Experience Manager Assets, upload them separately in that app interface and change the image links in the email designer. 
+   >There are no constraints on the .zip file structure. However, references must be relative and fit with the tree structure of the .zip folder. The images are always uploaded to the connected Marketo Engage assets repository. If you want to manage the image files in Experience Manager Assets, upload them separately in that app interface and change the image links in the email design space. 
 
 _To import a file containing HTML content:_
 

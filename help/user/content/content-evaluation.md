@@ -1,5 +1,5 @@
 ---
-title: Content Scoring
+title: Content Evaluation and Scoring
 description: Evaluate email content with brand alignment scoring - validate colors, fonts, logos, and writing style against brand guidelines in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 ---
-# Content scoring {#content-scoring}
+# Content evaluation and scoring {#content-scoring}
 
 The content evaluation and scoring help you to create, review, and manage content that adheres to the guidelines [defined in the selected brand](./brands-manage-create.md#brand-definitions) and the general quality standards. Running an evaluation ensures consistency in tone, messaging, and visual identity across your email campaigns, while also serving as a quality check before your content goes live.
 
@@ -35,7 +35,7 @@ The content evaluation and scoring help you to create, review, and manage conten
 
    ![Evaluation scores in the right panel](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
-## Brand alignment score {#brand-score}
+## Brand alignment score {#brand-alignment-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -75,7 +75,7 @@ The score is calculated according to identified violations in the evaluated emai
 * 60-79 = Fair - Some significant violations
 * Below 60 = Poor - Major violations need attention
 
-You can review the evaluation results in more detail to help you identify violations and improve your category alignment scores (_High_, _Medium_, and _Low_) and review the details. 
+You can review the evaluation results in more detail to help you identify violations and improve your category alignment scores (_High_, _Medium_, and _Low_). 
 
 For the **[!UICONTROL Writing style]** or **[!UICONTROL Visual content]**, click the _Expand_ ( ![Expand arrow](../assets/do-not-localize/icon-expand-right.svg) ) arrow to display the details for the evaluation.
 

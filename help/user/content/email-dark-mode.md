@@ -13,7 +13,7 @@ exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Switch to dark mode"
->abstract="Switch to dark mode where you can preview how it may render, and define specific custom settings. <br>The final rendering depends on the recipient's email client. Note that all email clients do not support custom dark mode."
+>abstract="Switch to dark mode where you can preview how it may render, and define specific custom settings. <br>The final rendering depends on the recipient's email client. Be aware that all email clients do not support custom dark mode."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
@@ -26,7 +26,7 @@ _Dark mode_ allows a supporting email client or app to display emails with darke
 
 As you [create your email content](./email-authoring.md) in the [!DNL Journey Optimizer B2B Edition] visual design space, you can switch to the _**[!UICONTROL Dark mode]**_ view. In this view, you can also define specific custom settings for supporting email clients when their dark mode is enabled.
 
-## Email client considerations
+## Email client considerations {#email-client-considerations}
 
 There is significant variance in the way that different email clients and apps apply dark mode. For this reason, you should consider the expectations for dark mode rendering with caution. Before you use dark mode in the email design space, consider the following email client use cases:
 <!--
@@ -55,7 +55,7 @@ Some email clients systematically apply their own default dark mode to all recei
 * Outlook Windows Mail
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
-In this case, the client dark mode settings override the custom dark mode settings that you define in [!DNL Journey Optimizer B2B Edition]
+In this case, the client dark mode settings override the custom dark mode settings that you define in [!DNL Journey Optimizer B2B Edition].
 
 +++
 
@@ -80,9 +80,9 @@ For optimal results, test your content with the email clients that you are targe
 
 As you style your email content for dark mode in [!DNL Journey Optimizer B2B Edition], the visual design space provides two types of tools:
 
-* Use the [preview function](#preview-default-dark-mode) to review the default dark mode rendering for most supporting email clients.
+* Use the [preview function](#preview-dark-mode) to review the default dark mode rendering for most supporting email clients.
 
-* If you want to override the default settings of supporting email clients, define and apply custom dark mode settings to your email content. [Learn more](#define-custom-dark-mode)
+* If you want to override the default settings of supporting email clients, define and apply custom dark mode settings to your email content. [Learn more](#custom-dark-mode)
 
 ### Preview default dark mode {#preview-dark-mode}
 
@@ -101,7 +101,7 @@ As you style your email content for dark mode in [!DNL Journey Optimizer B2B Edi
 
 1. Change the selector to _Dark mode_ ( ![Dark mode icon](../assets/do-not-localize/icon-content-dark-mode.svg) ).
 
-   The canvas displays the content using the default dark mode preview.x
+   The canvas displays the content using the default dark mode preview.
 
    By default, the dark mode preview applies the `full color invert` color scheme to all elements except images and icons. This color scheme detects areas with light and dark elements and inverts them. Light backgrounds become dark and dark text becomes light, or dark backgrounds become light and light text becomes dark.
 
@@ -162,7 +162,7 @@ _To define custom dark mode settings:_
 
     Use the preview and proofing tools to test your email design. See [Preview and test your email content](./email-simulate-content.md) for more information.
 
-1. If you have a Litmus Enterprise account, select **[!UICONTROL Render email]** to see the final dark mode rendering for various email clients in the Litmus . 
+1. If you have a Litmus Enterprise account, select **[!UICONTROL Render email]** to see the final dark mode rendering for various email clients in the Litmus integration. 
 
    See [Test email rendering with Litmus](./email-test-rendering.md) for more information.
 
@@ -172,7 +172,7 @@ _To define custom dark mode settings:_
 
 ## Best practices {#best-practices}
 
-As dark mode adoption increases across major email clients, it is essential to consider how your emails render in both light and dark environments - whether you are using [custom dark mode](#define-custom-dark-mode) or not.
+As dark mode adoption increases across major email clients, it is essential to consider how your emails render in both light and dark environments - whether you are using [custom dark mode](#custom-dark-mode) or not.
 
 Dark mode can alter colors, backgrounds, and images — sometimes overriding design choices. To ensure visual consistency, accessibility, and brand integrity, follow these best practices:
 
@@ -181,12 +181,12 @@ Dark mode can alter colors, backgrounds, and images — sometimes overriding des
 | Optimize your images and logos | Checklist:<ul><li>Save logos and icons as PNG files with transparent backgrounds to avoid visible white boxes in dark mode. <li>Avoid images with hardcoded white or light backgrounds. <li>If transparency is not an option, place images on a solid background in your design to prevent awkward color inversions. |
 | Watch your backgrounds | Checklist:<ul><li>Ensure sufficient contrast between text and background colors for readability in both light and dark modes. <li>Avoid relying on background colors alone for critical content. Some clients override background colors in dark mode, so ensure that key information is still visible. |
 | Design accessible content in dark mode | Checklist:<ul><li>Use color combinations easy to distinguish for people with color blindness. <li>Use a midtone palette to ensure contrast against both light and dark backgrounds. <li>Use accessible color combinations with high contrast to improve readability and meet [!DNL Web Content Accessibility Guidelines (WCAG)] standards. Use tools like [!DNL WebAIM Contrast Checker] to verify color contrast. <li>Avoid thin fonts as it can impact readability. If your brand requires a thin font, bold it in dark mode. <li>Skip pure white on pure black, which can cause eye strain and could be inverted automatically in some email clients. <li>Provide accessible fallback styling if dark mode is not supported. |
-| Test your emails in a dark mode environment | Checklist:<ul><li>Use the [dark mode preview](#preview-dark-mode) in the email design space, which uses inverted color schemes to spot issues early. <li>Use a Litmus Enterprise account with the [[!UICONTROL Render email]](./email-test-rendering.md) option to simulate your designs across major email clients (such as Apple Mail, Gmail, and Outlook) and see how colors and images behave in dark mode. |
+| Test your emails in a dark mode environment | Checklist:<ul><li>Use the [dark mode preview](#preview-dark-mode) in the email design space, which uses inverted color schemes to spot issues early. <li>Use a Litmus Enterprise account with the [_[!UICONTROL Render email]_](./email-test-rendering.md) option to simulate your designs across major email clients (such as Apple Mail, Gmail, and Outlook) and see how colors and images behave in dark mode. |
 
 <!--
 KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+The best practices for designing accessible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
 -->
 
 <!--
