@@ -216,7 +216,7 @@ After you [create and personalize your email](./email-authoring.md), use AI Assi
 
 In the email design space, AI Assistant can help you optimize the impact of your deliveries by generating the full email body, targeted text content, and images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement. Select the _AI Assistant_ ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) to display the content generation tools that are available for the current content selection.
 
-![AI Assistant toggle in the email designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+![AI Assistant toggle in the email design space](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 Use the following steps according to the type of email content generation that you want to use:
 

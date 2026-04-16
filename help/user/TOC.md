@@ -94,7 +94,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Content management {#content-management}
    + Emails {#emails}
       + [Work with email content](./content/emails-list.md)
-      + [Design accessible content](./content/email-accessible-content.md)
       + Preview and validation {#preview}
          + [Simulate content](./content/email-simulate-content.md)
          + [Test email rendering](./content/email-test-rendering.md)
@@ -137,6 +136,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + [Brand themes](./content/brand-themes.md)
    + [Content evaluation](./content/content-evaluation.md)
    + [Conditional content](./content/conditional-content.md)
+   + [Content accessibility](./content/accessible-content.md)
    + Personalization {#personalization}
       + [Overview](./content/personalization.md)
       + [Personalization syntax](./content/personalization-syntax.md)
