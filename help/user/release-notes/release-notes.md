@@ -12,15 +12,21 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
-<!-- ## 2026.4 release notes {#rel-2026-4}
+<!--
+## 2026.4/5 release notes {#rel-2026-5}
 
-**Deployment date**: May 1, 2026
+**Deployment date**: May 15, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
 | Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | 
+
+>[!NOTE]
+>
+>These release changes begin deployment on May 15, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+-->
 
 ## 2026.3 release notes {#rel-2026-3}
 
@@ -35,7 +41,6 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Enhancement | Send Email - Send-time optimization | For _Send email_ action nodes in person journeys, you can use _Send-time optimization_ options to personalize email delivery timing by predicting when each profile is most likely to engage. [Learn more](../content/email-send-time-optimization.md) |
 | Enhancement | Email template design tools - Advanced HTML mode | With _Advanced HTML mode_ in the email template design space, users can make minor HTML/CSS edits and add script tags to an email template to resolve rendering issues. [Learn more](../content/email-template-advanced-html.md) |
 | Enhancement | Person custom objects - buying group roles templates | When administrators configure custom objects that are related to a business person profile, marketers can now define buying group roles using these custom objects. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| Enhancement | Email content scoring - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
 | Enhancement | Email content scoring - content quality evaluation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/content-evaluation.md) |
 
 <!--
