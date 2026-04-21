@@ -63,6 +63,10 @@ Marketo Engage workspace visibility for assets, such as lists and campaigns, is 
 
 When a marketer uses a Marketo Engage action in a journey, they can configure the node using the connection name.
 
+>[!NOTE]
+>
+>Marketo Engage actions executed from a journey do not apply to the REST API limits for the connected Marketo Engage instance.
+
 With the completed integration, Marketo Engage actions are available from **Actions on:** in the node properties.
 
 ![Marketo actions list](assets/marketo-actions-list.png){width="800" zoomable="yes"}
