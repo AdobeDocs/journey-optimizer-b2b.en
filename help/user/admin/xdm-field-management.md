@@ -34,7 +34,7 @@ Administrators who understand XDM and collaborate with data engineers or B2B cus
 Use the following guideline for making field selections:
 
 * You can add new fields only after a schema is actively being used in a journey.
-* Deleting, renaming, or changing field types can cause journey functionality issues. Take care when manipulating schemas.
+* Deleting, renaming, or changing field types can cause journey functionality issues. Exercise caution when manipulating schemas.
 * Do not rename or delete schemas or modify keys in relational schemas.
 
 ### Standard classes
@@ -57,7 +57,7 @@ The displayed class information includes:
 * Number of Updatable fields
 * Last update time
 
-To select fields from the union schema for standard XDM classes, click the class name to open the _Managed fields_ selection dialog, or click the _More menu_ ( **...** ) icon to choose between _[!UICONTROL Managed fields]_ and _[!UICONTROL Updatable fields]_.
+To select fields from the union schema, click the class name to open the Managed fields selection dialog. Or, click the _More menu_ (**...**) icon and choose between Managed and Updatable fields.
 
 ![Click the More menu icon to choose between managed fields and updatable fields](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
 
@@ -102,7 +102,7 @@ Create a dataset for Individual Profile, and another for Business Account. Selec
 
 ### Relational schemas
 
-Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities such as purchases, licenses, and event registrations in journey decisions and email personalization. You can select up to 20 schemas and up to 50 fields per schema.
+Relational schemas allow you to create custom data classes. With access to multiple datasets, you can create classes specifically tailored to your data needs. Use relational schemas for business entities, such as purchases, licenses, and event registrations, in journey decisions and email personalization. You can select up to 20 schemas and up to 50 fields per schema.
 
 There are multiple features that support the use of the configured relational schemas and fields:
 
@@ -124,7 +124,7 @@ You can create relational schemas using the schema editor (go to **[!UICONTROL D
 
 **Schema requirements**
 
-When creating a schema for use with [!DNL Journey Optimizer B2B Edition], the following configurations values are required:
+When creating a schema for use with [!DNL Journey Optimizer B2B Edition], the following configuration values are required:
 
 * Behavior: Record
 * Segmentation: Enabled

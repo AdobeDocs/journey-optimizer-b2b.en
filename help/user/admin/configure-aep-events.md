@@ -25,7 +25,7 @@ Using AEP experience events in journeys is a two-step process:
 
 ## Guidelines and limitations
 
-As you select events to meet your organizational goals, keep the following in mind: 
+As you select events to meet your organizational goals, consider the following: 
 
 * You can select up to 50 events and up to 100 fields per event.
 
@@ -47,7 +47,7 @@ As you select events to meet your organizational goals, keep the following in mi
 
    ![Access the selected Experience Events](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   The table is sorted by the _[!UICONTROL Last update]_ column, with the most recently updated events at the top by default.
+   The list is displayed according to the _[!UICONTROL Last update]_ column, with the most recently updated events at the top by default.
 
    From this page, you can [select](#add-an-event) and [edit](#edit-an-event) events for use in journeys.
       
