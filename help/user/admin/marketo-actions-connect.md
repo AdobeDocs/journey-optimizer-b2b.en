@@ -33,17 +33,17 @@ Complete the following tasks to configure an external Marketo Engage instance fo
    * Client ID
    * Client Secret
 
-Marketo Engage workspace visibility for assets, such as lists and campaigns, is governed by the [role permissions assigned in the custom service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Marketers can use the same connection multiple times within a journey, and use different Marketo Engage connections within the same journey.
+The [role permissions assigned in the custom service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} govern Marketo Engage workspace visibility for assets, such as lists and campaigns. Marketers can use the same connection multiple times within a journey and use different Marketo Engage connections within the same journey.
 
 ### Add the integration
 
 ![Add integration details](assets/integration-connection-details.png){width="800" zoomable="yes"}
 
 1. In Journey Optimizer B2B Edition, navigate to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
-1. Select to the **[!UICONTROL Integrations]** tab.
+1. Select the **[!UICONTROL Integrations]** tab.
 1. Click **[!UICONTROL Create a connection]**.
 1. Enter a **[!UICONTROL Name]** (required) and **[!UICONTROL Description]** (optional).
-1. Select the update policy that is used for applying an action to a matching a person record.
+1. Select the update policy that is used for applying an action to a matching person record.
 
    When an action runs for the connected Marketo Engage instance, the selected _update policy_ determines the person records in Marketo Engage to select if multiple identifiers exist in the unified person profile. 
    

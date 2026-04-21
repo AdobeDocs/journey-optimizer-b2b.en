@@ -52,7 +52,7 @@ For non-operational marketing emails, unsubscribe text and links are appended at
 
 1. Click **[!UICONTROL Save Changes]**.
 
-If you ever need to revert to the default system content, copy and paste the following:
+If you need to revert to the default system content, copy and paste the following:
 
 +++ System default Unsubscribe Text
 
@@ -124,21 +124,21 @@ field.
 
    ![Marketo Engage email admin - Custom Object Retrieval Limits default values](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
-   Values from 10 - 100 are supported. The _[!UICONTROL Child Retrieval Limit]_ is set automatically by dividing 1000 by the parent limit. For example, if you set the parent limit to 50, the child limit is calculated as 20 (1000 ÷ 50 = 20).
+   Values from 10 - 100 are supported. The system automatically sets the _[!UICONTROL Child Retrieval Limit]_ by dividing 1000 by the parent limit. For example, if you set the parent limit to 50, the child limit is calculated as 20 (1000 ÷ 50 = 20).
 
 1. Click **[!UICONTROL Save Changes]**.
 
 ## Custom header options
 
-Change the _[!UICONTROL Custom Header Options]_ for email to configure email tracking link headers. Enable these options to implement secure tracking links using HTTPS using Strict Transport.
+Change the _[!UICONTROL Custom Header Options]_ for email to configure email tracking link headers. Enable these options to implement secure tracking links using HTTPS with Strict Transport.
 
 1. Go to the **[!UICONTROL Admin]** area in the attached Marketo Engage instance and select **[!UICONTROL Email]**.
 
 1. Scroll to the _[!UICONTROL Custom Header Options]_ panel, and change the setting according to your tracking link policies:
 
-   ![Marketo Engage email admin - Custom Header Options default settings](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![Marketo Engage email admin - Custom Header Options default settings](./assets/me-admin-email-custom-header-options.png){width="500"}
 
-   * **[!UICONTROL Strict Transport Security]** - Set this option to Enabled to guarantee that tracking links are always served over HTTPS (should only be set for subscriptions with tracking links secured by SSL). 
+   * **[!UICONTROL Strict Transport Security]** - Set this option to _Enabled_ to guarantee that tracking links are always served over HTTPS. Only enable this for subscriptions with tracking links secured by SSL. 
    * **[!UICONTROL Max-age]** - This field supports the mandatory directive to specify the time, in seconds, that the browser should remember to access only the domain over HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Use this option to include the directive that applies the HSTS policy to all subdomains of the host.
 
@@ -193,7 +193,7 @@ For email link click and email open activity, attributes are populated with the 
 
 ### IP Blocklist
 
-Adobe has identified a list of IP addresses that are responsible for generating millions of fake engagements, as such engagement received from any of the following IPs is automatically filtered out and not added to your Marketo Engage instance. This filtering may result in a reduction in email opens, clicks, and other related activities. This list may be updated periodically.
+Adobe has identified IP addresses responsible for generating fake engagements. Engagement from these IPs is automatically filtered and excluded from your Marketo Engage instance. This filtering may reduce email opens, clicks, and other related activities. This list may be updated periodically.
 
 +++ Blocked IP addresses
 

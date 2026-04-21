@@ -81,7 +81,8 @@ Get Started
 
 Review the Journey Optimizer B2B Edition onboarding guidance for administrators and marketers.
 
-[Get Started](./start/get-started.md)
+[Administrators](./setup-ultimate.md)
+[Users](./start/get-started.md)
 :::
 
 :::
@@ -109,9 +110,9 @@ Configure and manage email, SMS, WhatsApp, and other channels for personalized c
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Create an Account Journey
+Create a Journey
 
-Design, orchestrate, manage, and optimize personalized account journeys.
+Design, orchestrate, manage, and optimize personalized journeys.
 
 [Explore Journeys](./journeys/journeys-overview.md)
 :::

@@ -15,7 +15,7 @@ Journey Optimizer B2B Edition setup includes configuration of the Experience Pla
 >
 >- Your Experience Platform B2B entities must use the standard relationships outlined in the [B2B namespaces and schemas guide](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
-Review the following information about the underlying set up for the namespaces and schemas to be used with B2B sources. It also provides details for setting up your Postman automation utility, which is required for generating B2B namespaces and schemas.
+Review the following information about the underlying setup for the namespaces and schemas to be used with B2B sources. It also provides details for setting up your Postman automation utility, which is required for generating B2B namespaces and schemas.
 
 ## Set up the auto-generation utility
 

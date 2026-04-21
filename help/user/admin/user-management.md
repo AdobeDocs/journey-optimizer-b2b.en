@@ -22,7 +22,7 @@ Before you can use the Admin Console to administer users within your team, you n
 
 1. As a system administrator, you should receive multiple emails from Adobe as part of the onboarding process.
 
-   Look for the welcome email that provides the information about the organization name to which you have been granted access.
+   Locate the welcome email that provides the information about the organization name to which you have been granted access.
 
 1. Click the **[!UICONTROL Get started]** link in your welcome email to navigate to the Admin Console. 
 
@@ -40,11 +40,11 @@ Before you can use the Admin Console to administer users within your team, you n
 
    ![Admin Console overview - click Administrators](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
-1. Search by entering your Adobe ID email, username, first, or last name.
+1. Search by entering your Adobe ID email, username, first name, or last name.
 
    * If your access is correctly configured, the search returns your record. 
 
-   * If the value in the **[!UICONTROL ADMIN ROLE]** column shows `System`, you know that you (or the displayed user) are a system administrator.
+   * If the value in the **[!UICONTROL ADMIN ROLE]** column shows `System`, the displayed user is a system administrator.
 
 ## Create the Marketo Engage product profile {#marketo-engage-profile}
 
@@ -80,7 +80,7 @@ A user group is a collection of users who are granted a shared set of permission
 
 >[!TIP]
 >
->If you are migrating from a legacy deployment and want to add your existing Journey Optimizer B2B Edition users to Marketo Engage, you can skip the user group creation steps, and simply open the existing user group and add the Marketo Engage product profile.
+>When migrating from a legacy deployment and adding existing users to Marketo Engage, you can skip the user group creation, and simply open the existing group and add the Marketo Engage product profile.
 
 For more information about how user groups are used to manage permissions, see [Manage user groups](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} in the Admin Console documentation.
 
@@ -137,7 +137,7 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
 ## Edit roles for product permissions {#edit-roles-for-product-permissions}
 
-Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is gathered under a capability, such as journeys or buying groups, which represents the different functionalities or objects in Journey Optimizer B2B Edition.
+Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is grouped under a capability, such as _journeys_ or _buying groups_. These capabilities represent functions or objects in Journey Optimizer B2B Edition.
 
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
@@ -171,9 +171,9 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 ### Edit role permissions
 
-For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
+For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it affects every user assigned to the role.
 
-In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change enables users for that role to manage account journeys also.
+In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change allows users in that role to also manage account journeys.
 
 >[!NOTE]
 >
@@ -291,7 +291,7 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
 1. Add B2B product permissions:
 
-   Refer to the list of [B2B product permissions](#b2b-product-permissions) to determine which product capabilities that you want for the role.
+   Refer to the list of [B2B product permissions](#b2b-product-permissions) to determine which product capabilities you want for the role.
 
    In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL B2B]** items and click the _Add_ (**+**) icon to add each attribute that you want to enable for the role.
 

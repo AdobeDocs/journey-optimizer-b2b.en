@@ -17,7 +17,7 @@ A branding domain in Marketo Engage is a custom subdomain (such as `links.yourco
 
 **Unique CNAMEs for tracking links**
 
-Email tracking links must be new and unique for the attached Marketo Engage instance. If you have existing CNAMEs for tracking links point to a pre-existing (production) Marketo Engage instance, they cannot be reused _as-is_.
+Email tracking links must be new and unique for the attached Marketo Engage instance. If you have existing CNAMEs for tracking links pointing to a pre-existing (production) Marketo Engage instance, they cannot be reused without modification.
 
 You can share return-path domain branding between your production Marketo Engage instance and the attached instance, but this is a backend change. Open a support ticket and provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID) to request shared return-path domain branding.
 
@@ -27,7 +27,7 @@ You can share return-path domain branding between your production Marketo Engage
 >
 >Before you edit or add a domain in the UI, you must have a [mapped CNAME to an Adobe-provided Marketo Engage domain](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
->When adding a domain, the system checks for pre-existing SSLs, which may have been manually created prior. If you encounter this validation, create your domain without selecting SSL creation and then connect them as a separate procedure.
+>When adding a domain, the system checks for pre-existing SSLs, which may have been manually created prior. If you encounter this validation, create your domain without selecting SSL creation and then connect it as a separate procedure.
 
 ## Access branding domains in Marketo Engage
 
@@ -65,11 +65,11 @@ The first step in working with branding domains is to edit the default branding 
 
 ## Define an additional domain
 
-After you edit the default domain, you can add another branding domain when you want to run multiple brands out of your Journey Optimizer B2B Edition environment where each has its own branded tracking links. When you add a domain, you have the following options:
+After you edit the default domain, you can add another branding domain to support multiple brands within your Journey Optimizer B2B Edition environment, where each has its own branded tracking links. When you add a domain, you have the following options:
 
 >* _Make Primary Domain_: Make this the primary domain for the workspace. When you select this option, all existing unsent emails are set to the default primary domain and all newly created emails automatically default to this primary domain. Marketers can choose an alternative branding domain where needed.
 >
->* _Generate SSL Certificate_: Create a Secure Sockets Layer (SSL) with the creation of the domain. The first tracking domain initiates a one-time set up of infrastructure that may take a few hours. The system sends a notification upon completion.
+>* _Generate SSL Certificate_: Create a Secure Sockets Layer (SSL) with the creation of the domain. The first tracking domain initiates a one-time setup of infrastructure that may take a few hours. The system sends a notification upon completion.
 
 _To add the domain:_
 
@@ -83,11 +83,11 @@ _To add the domain:_
 
    ![New Branding Domain dialog](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
-   If needed and available, you can also select _Make Primary Domain_ check box.
+   If needed and available, you can also select the _Make Primary Domain_ check box.
 
    >[!NOTE]
    >
-   >**_Custom SSLs_**: If you need a custom SSL, you can submit a [support ticket](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Do not use the checkbox for SSL creation.
+   >**_Custom SSLs_**: If you need a custom SSL, you can submit a [support ticket](https://experienceleague.adobe.com/en/support){target="_blank"}. Do not use the checkbox for SSL creation.
 
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
