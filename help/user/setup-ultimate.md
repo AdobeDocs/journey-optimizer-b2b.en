@@ -1,27 +1,33 @@
 ---
-title: Simplified architecture setup
-description: Set up Journey Optimizer B2B Edition on the simplified architecture. Configure XDM schemas, email/SMS channels, Marketo Engage journey actions, and users.
+title: Setup checklist
+description: Set up Journey Optimizer B2B Edition. Configure XDM schemas, email/SMS channels, Marketo Engage journey actions, and users.
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
 ---
-# Simplified architecture setup
+# Setup checklist
 
-Adobe Journey Optimizer B2B Edition is now available using a simplified architecture. With this architecture, Journey Optimizer B2B Edition and Marketo Engage are no longer on the same system and same data store. Journey Optimizer B2B Edition receives data only from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some backend features, such as email delivery, to provision and configure the system.
+Adobe Journey Optimizer B2B Edition is built on Adobe Experience Platform. With this implementation, Journey Optimizer B2B Edition and Marketo Engage are not on the same system and same data store. Journey Optimizer B2B Edition receives data from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some backend features, such as email delivery, to provision and configure the system.
 
-The simplified architecture is the foundation that unlocks new capabilities in Journey Optimizer B2B Edition:
+<!-- 
+>>[!NOTE]
+>
+>Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
+-->
 
-* **Easily unify and scale your data:** The new platform supports complex data models, including custom objects, buying groups, and account events. 
+This implementation is the foundation that unlocks capabilities in Journey Optimizer B2B Edition:
+
+* **Easily unify and scale your data:** The platform supports complex data models, including custom objects, buying groups, and account events. 
 
 * **Connect multiple Adobe Marketo Engage instances:** Manage and unify data from several Marketo Engage environments in one place.
 
-* **Keeps your data safe:** Advanced privacy and security features that help protect your customer information. (_Coming soon_)
+* **Keep your data safe:** Advanced privacy and security features that help protect your customer information. (_Coming soon_)
 
-* **Built for the future:** This upgrade sets you up for ongoing improvements and innovation. 
+* **Built for the future:** This setup supports ongoing improvements and innovation. 
 
-For environments that are provisioned for this architecture, use the following guidelines for configuration.
+Use the following guidelines for configuration.
 
-Use this checklist to complete Journey Optimizer B2B Edition setup on the simplified architecture.
+Use this checklist to complete Journey Optimizer B2B Edition setup.
 
 ## 1. Generate B2B namespaces and schemas
 
@@ -111,7 +117,7 @@ Use this checklist to complete Journey Optimizer B2B Edition setup on the simpli
 
 ## 3. Configure tracking and email deliverability
 
-To send emails from [!DNL Journey Optimizer B2B Edition] on the simplified architecture, configure the email tracking and deliverability in the attached [!DNL Marketo Engage] production instance and in the [!DNL Journey Optimizer B2B Edition] app.
+To send emails from [!DNL Journey Optimizer B2B Edition], configure the email tracking and deliverability in the attached [!DNL Marketo Engage] production instance and in the [!DNL Journey Optimizer B2B Edition] app.
 
 <table>
 <thead>

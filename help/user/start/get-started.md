@@ -9,7 +9,7 @@ exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 
 The features and tools that you want to tackle in Adobe Journey Optimizer B2B Edition depends on your role within your team. Based on your organization, administrators can define several types of users and grant them access to certain capabilities depending on their permissions.
 
-After an administrator completes the [setup tasks](../simplified-architecture.md), use this information for general user onboarding.
+After an administrator completes the [setup tasks](../setup-ultimate.md), use this information for general user onboarding.
 
 >[!TIP]
 >

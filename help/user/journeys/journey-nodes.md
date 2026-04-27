@@ -2,7 +2,7 @@
 title: Journey Nodes
 description: Build journeys with action, event, and orchestration nodes - audience, wait, split, and merge - for cross-channel marketing in Journey Optimizer B2B Edition.
 feature: Account Journeys
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
 ---

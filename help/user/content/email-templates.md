@@ -136,7 +136,7 @@ You can duplicate an email template using either of the following methods:
 
 * From the email template details on the right, expand **[!UICONTROL More]** and click **[!UICONTROL Duplicate]**.
 
-   ![Click More to acess Delete and Duplicate actions](./assets/template-details-more-menu.png){width="400"}
+   ![Click More to access Delete and Duplicate actions](./assets/template-details-more-menu.png){width="400"}
 
 * From the _[!UICONTROL Email Templates]_ listing page, click the ellipsis (...) next to the template and choose **[!UICONTROL Duplicate]**.
 
@@ -151,7 +151,7 @@ An email template removal cannot be undone, so check before initiating a delete 
 * From the template details on the right, expand **[!UICONTROL More]** and click **[!UICONTROL Delete]**.
 * From the _[!UICONTROL Email Templates]_ listing page, click the ellipsis (...) next to the template and choose **[!UICONTROL Delete]**.
 
-   ![Click ... to acess Duplicate and Delete actions](./assets/templates-list-more-menu.png){width="500"}
+   ![Click ... to access Duplicate and Delete actions](./assets/templates-list-more-menu.png){width="500"}
 
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Delete]** to confirm removal.
 
@@ -169,7 +169,7 @@ From the _Create your email_ screen, use the _Select design template_ section to
 
 To start building your content with one of the email templates created, use the following steps:
 
-1. Access the Email Designer from the _Edit content_ page.
+1. Access the visual design space from the _Edit content_ page.
 
    On the _Create your email_ page, the _Sample templates_ tab is selected by default.
 

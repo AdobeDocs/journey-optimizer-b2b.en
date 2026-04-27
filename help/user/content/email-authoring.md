@@ -15,7 +15,7 @@ Click **[!UICONTROL Edit email content]** in the _[!UICONTROL Details]_ tab on t
 
 This action launches the email design tools, where you can choose how you want to design your email from the following options:
 
-* [Design your email from scratch](#design-your-email-from-scratch) using the Email Designer interface.
+* [Design your email from scratch](#design-your-email-from-scratch) using the visual design interface.
 
 * [Import existing HTML content](#import-existing-html-content) from a file or a .zip folder.
 

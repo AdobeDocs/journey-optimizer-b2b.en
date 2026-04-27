@@ -65,7 +65,7 @@ Communication limits control the number of emails that a contact receives from y
 
 >[!AVAILABILITY]
 >
->The communication limits are available for Journey Optimizer B2B Edition environments that are provisioned on the [simplified architecture](../simplified-architecture.md). Contact Adobe Support or open a Support ticket to enable the sharing of communication limits between Journey Optimizer B2B Edition and one or more Marketo Engage instances.
+>Contact Adobe Support or open a Support ticket to enable the sharing of communication limits between Journey Optimizer B2B Edition and one or more Marketo Engage instances.
 
 >[!BEGINSHADEBOX]
 

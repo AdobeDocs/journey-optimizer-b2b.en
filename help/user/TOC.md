@@ -9,8 +9,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + [Release notes](./release-notes/release-notes.md)
 + Get started {#get-started}
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
-    + Simplified architecture {#simplified-architecture}
-       + [Setup checklist](./simplified-architecture.md)
+    + Environment setup {#admin-setup}
+       + [Setup checklist](./setup-ultimate.md)
        + [Namespaces and schemas](./data/namespaces-schemas.md)
        + [XDM field selection](./admin/xdm-field-management.md)
        + [Experience Events and fields](./admin/configure-aep-events.md)
@@ -94,7 +94,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Content management {#content-management}
    + Emails {#emails}
       + [Work with email content](./content/emails-list.md)
-      + [Design accessible content](./content/email-accessible-content.md)
       + Preview and validation {#preview}
          + [Simulate content](./content/email-simulate-content.md)
          + [Test email rendering](./content/email-test-rendering.md)
@@ -138,6 +137,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + [Brand themes](./content/brand-themes.md)
    + [Content evaluation](./content/content-evaluation.md)
    + [Conditional content](./content/conditional-content.md)
+   + [Content accessibility](./content/accessible-content.md)
    + Personalization {#personalization}
       + [Overview](./content/personalization.md)
       + [Personalization syntax](./content/personalization-syntax.md)

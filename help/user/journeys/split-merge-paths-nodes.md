@@ -256,7 +256,7 @@ To use list membership in a split condition, expand **[!UICONTROL Special Filter
 >
 >**Feature deprecation**</br></br>
 >
->With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, filtering based on list or program membership in a Marketo Engage instance is not supported.
+>In the current Journey Optimizer B2B Edition release, filtering based on list or program membership in a Marketo Engage instance is not supported.
    
 >[!ENDSHADEBOX]
 

@@ -37,15 +37,13 @@ Open the _[!UICONTROL Engagement score weighting]_ list to view active, draft, a
 
 ### Default score model
 
-The system creates an initial engagement score model named _Activity weighting model 1_. The model status and engagement activities depend on the data architecture for your [!DNL Journey Optimizer B2B Edition] environment:
+The system creates an initial engagement score model named _Activity weighting model 1_. Engagement activities are based on standard and custom Experience Platform events. The weights on all activities are 0 by default.
 
-* **Simplified architecture** (Beta) - If your environment uses the [simplified architecture](../simplified-architecture.md), the engagement activities are based on standard and custom Experience Platform events. The weights on all activities are 0 by default.
+![Default engagement score weighting model for Experience Platform events](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-   ![Default engagement score weighting model for the simplified architecture](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
 
-* **Standard architecture** - If your environment uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it.
-
-   ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
+<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 When you activate a custom model, the active model changes to an _Archived_ status. If you decide to revert back to the default engagement score model, you can duplicate the original default model and then activate it or use it as a starting point for another custom model.
 
@@ -104,9 +102,9 @@ The weight settings define the bands that you can assign to each activity in the
 
 Each score model includes the full list of supported engagement score activities.
 
-+++Activities for simplified architecture
++++Activities for Experience Platform events
 
-The default model for the simplified architecture includes the Experience Platform tracked activities. Each activity has a zero (0) weight (not used) until you assign a weight to it. All activities also have a maximum daily frequency of 20, which you cannot change.
+The default model for Experience Platform events includes the Experience Platform tracked activities. Each activity has a zero (0) weight (not used) until you assign a weight to it. All activities also have a maximum daily frequency of 20, which you cannot change.
 
 <table style="table-layout: fixed; width: 100%; border: 0;">
 <tbody>
