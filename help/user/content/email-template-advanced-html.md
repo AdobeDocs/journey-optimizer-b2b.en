@@ -10,10 +10,12 @@ exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
 
 _Advanced HTML mode_ provides a view that lets experienced users directly view and edit the raw source code for email template content. This mode is ideal when you want to insert sophisticated expressions, such as conditional logic, directly into the source. It is also useful for making structural adjustments that go beyond what the visual design tools expose.
 
-<!-- We don't have the code editor at this point 
+<!-- 
+We don't have the code editor at this point 
 >[!NOTE]
 >
->_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. -->
+>_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. 
+-->
 
 >[!AVAILABILITY]
 >
