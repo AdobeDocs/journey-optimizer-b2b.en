@@ -119,7 +119,6 @@ Deleting a repository removes user access to the Experience Manager Assets envir
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
 
 <!--
-
 ## Switch back to Adobe Marketo Engage Assets
 
 Select Adobe Marketo Engage digital asset management in the Assets section.
