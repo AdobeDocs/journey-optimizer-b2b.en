@@ -4,7 +4,6 @@ description: Learn how to configure a datastream to enable Journey Optimizer B2B
 feature: Setup, Landing Pages
 role: Admin
 hide: true
-hidefromtoc: yes
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 94391fe5-2cdf-4a40-8c92-049227bed788
 ---
