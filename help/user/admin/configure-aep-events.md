@@ -49,7 +49,7 @@ Using AEP experience events in journeys is a two-step process:
 
 ## Guidelines and limitations
 
-As you select events to meet your organizational goals, keep the following in mind: 
+As you select events to meet your organizational goals, consider the following: 
 
 * You can select up to 50 events and up to 100 fields per event.
 
@@ -71,7 +71,7 @@ As you select events to meet your organizational goals, keep the following in mi
 
    ![Access the selected Experience Events](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   The table is sorted by the _[!UICONTROL Last update]_ column, with the most recently updated events at the top by default.
+   The list is displayed according to the _[!UICONTROL Last update]_ column, with the most recently updated events at the top by default.
 
    From this page, you can [select](#add-an-event) and [edit](#edit-an-event) events for use in journeys.
       
@@ -161,8 +161,8 @@ Event type: `directMarketing.emailSent`
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
@@ -189,13 +189,13 @@ Event type: `directMarketing.emailDelivered `
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
 | Person source Key | `personKey.sourceKey` |
-| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source ID | `directMarketing.mailingKey.sourceID` |
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
 | Mailing source key | `directMarketing.mailingKey.sourceKey` |
@@ -217,20 +217,20 @@ Event type: `directMarketing.emailOpened`
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
 | Person source Key | `personKey.sourceKey` |
-| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source ID | `directMarketing.mailingKey.sourceID` |
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
 | Mailing source key | `directMarketing.mailingKey.sourceKey` |
 | Mailing name | `directMarketing.mailingName` |
 | Is mobile device | `device.isMobileDevice` |
 | Device model | `device.model` |
-| User agent | `environment.browserDetails.userAgent` | 
+| User agent | `environment.browserDetails.userAgent` |
 | Operating system | `environment.operatingSystem` |
 | Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -249,19 +249,19 @@ Event type: `directMarketing.emailClicked`
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
 | Person source Key | `personKey.sourceKey` |
-| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source ID | `directMarketing.mailingKey.sourceID` |
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
 | Mailing source key | `directMarketing.mailingKey.sourceKey` |
 | Mailing name | `directMarketing.mailingName` |
-| Link URL | `directMarketing.linkURL` | 
-| Is mobile device | `device.isMobileDevice` | 
+| Link URL | `directMarketing.linkURL` |
+| Is mobile device | `device.isMobileDevice` |
 | Model | `device.model` |
 | User agent  | `environment.browserDetails.userAgent` |
 | Operating system | `environment.operatingSystem` |
@@ -282,19 +282,19 @@ Event type: `directMarketing.emailBounced`
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
 | Person source Key | `personKey.sourceKey` |
-| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source ID | `directMarketing.mailingKey.sourceID` |
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
 | Mailing source key | `directMarketing.mailingKey.sourceKey` |
 | Mailing name | `directMarketing.mailingName` |
 | Email | `directMarketing.email` |
-| Email bounced code | `directMarketing.emailBouncedCode` | 
+| Email bounced code | `directMarketing.emailBouncedCode` |
 | Email bounced details | `directMarketing.emailBouncedDetails` |
 | Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -313,19 +313,19 @@ Event type: `directMarketing.emailBouncedSoft`
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
 | Person source Key | `personKey.sourceKey` |
-| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source ID | `directMarketing.mailingKey.sourceID` |
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
 | Mailing source key | `directMarketing.mailingKey.sourceKey` |
 | Mailing name | `directMarketing.mailingName` |
-| Email | `directMarketing.email` | 
-| Email bounced code | `directMarketing.emailBouncedCode` | 
+| Email | `directMarketing.email` |
+| Email bounced code | `directMarketing.emailBouncedCode` |
 | Email bounced details | `directMarketing.emailBouncedDetails` |
 | Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -344,13 +344,13 @@ Event type: `directMarketing.emailUnsubscribed `
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
 | Person source Key | `personKey.sourceKey` |
-| Mailing source ID | `directMarketing.mailingKey.sourceID` | 
+| Mailing source ID | `directMarketing.mailingKey.sourceID` |
 | Mailing source type | `directMarketing.mailingKey.sourceType` |
 | Mailing source instance ID | `directMarketing.mailingKey.sourceInstanceID` |
 | Mailing source key | `directMarketing.mailingKey.sourceKey` |
@@ -372,20 +372,20 @@ Event type: `web.webpagedetails.pageViews`
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
 | Person source Key | `personKey.sourceKey` |
 | Web page source ID | `web.webPageDetails.webPageKey.sourceID` |
-| Web page source type | `web.webPageDetails.webPageKey.sourceType` | 
-| Web page source instance ID | `web.webPageDetails.webPageKey.sourceInstanceID` | 
-| Web page source key | `web.webPageDetails.webPageKey.sourceKey` | 
+| Web page source type | `web.webPageDetails.webPageKey.sourceType` |
+| Web page source instance ID | `web.webPageDetails.webPageKey.sourceInstanceID` |
+| Web page source key | `web.webPageDetails.webPageKey.sourceKey` |
 | Web page name | `web.webPageDetails.name` |
 | Web page URL | `web.webPageDetails.URL` |
-| Web page query parameters | `web.webPageDetails.queryParameters` | 
-| Web page ID | `web.webPageDetails.webPageID` | 
+| Web page query parameters | `web.webPageDetails.queryParameters` |
+| Web page ID | `web.webPageDetails.webPageID` |
 | User agent | `environment.browserDetails.userAgent` |
 | Referrer URL | `web.webReferrer.URL` |
 
@@ -403,8 +403,8 @@ Event type: `web.formFilledOut`
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
@@ -415,8 +415,8 @@ Event type: `web.formFilledOut`
 | Web form source key | `web.fillOutForm.webFormKey.sourceKey` |
 | Web form ID | `web.fillOutForm.webFormID` |
 | Web form name | `web.fillOutForm.webFormName` |
-| Web page query parameters | `web.webPageDetails.queryParameters` | 
-| Web page ID | `web.webPageDetails.webPageID` | 
+| Web page query parameters | `web.webPageDetails.queryParameters` |
+| Web page ID | `web.webPageDetails.webPageID` |
 | User agent | `environment.browserDetails.userAgent` |
 | Referrer URL | `web.webReferrer.URL` |
 
@@ -434,20 +434,20 @@ Event type: `web.webinteraction.linkClicks`
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
-| Person ID  | `personID` | 
+| Timestamp  | `timestamp` |
+| Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
 | Person source Key | `personKey.sourceKey` |
 | Web interaction source ID | `web.webInteraction.webInteractionKey.sourceID` |
-| Web interaction source type | `web.webInteraction.webInteractionKey.sourceType` | 
+| Web interaction source type | `web.webInteraction.webInteractionKey.sourceType` |
 | Web interaction source instance ID | `web.webInteraction.webInteractionKey.sourceInstanceID`|
-| Web interaction source key | `web.webInteraction.webInteractionKey.sourceKey` | 
-| Web interaction link ID | `web.webInteraction.linkID` | 
+| Web interaction source key | `web.webInteraction.webInteractionKey.sourceKey` |
+| Web interaction link ID | `web.webInteraction.linkID` |
 | Web interaction link URL | `web.webInteraction.linkURL` |
-| Web page query parameters | `web.webPageDetails.queryParameters` | 
-| Web page ID | `web.webPageDetails.webPageID` | 
+| Web page query parameters | `web.webPageDetails.queryParameters` |
+| Web page ID | `web.webPageDetails.webPageID` |
 | User agent | `environment.browserDetails.userAgent` |
 | Referrer URL | `web.webReferrer.URL` |
 
@@ -465,13 +465,13 @@ Event type: `leadOperation.interestingMoment `
 | ------------ | ---- |
 | Identifier | `_id` |
 | Event type | `eventType` |
-| Timestamp  | `timestamp` | 
+| Timestamp  | `timestamp` |
 | Person ID  | `personID` |
 | Person source ID | `personKey.sourceID` |
 | Person source type | `personKey.sourceType` |
 | Person source instance ID | `personKey.sourceInstanceID` |
 | Person source Key | `personKey.sourceKey` |
-| Moment date  | `leadOperation.interestingMoment.date` | 
+| Moment date  | `leadOperation.interestingMoment.date` |
 | Moment description | `leadOperation.interestingMoment.description` |
 | Moment source | `leadOperation.interestingMoment.source` |
 | Moment type | `leadOperation.interestingMoment.type` |
@@ -480,6 +480,8 @@ Event type: `leadOperation.interestingMoment `
 
 +++
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
+-->

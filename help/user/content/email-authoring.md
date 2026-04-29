@@ -39,7 +39,7 @@ Click **[!UICONTROL Edit email content]** in the _[!UICONTROL Details]_ tab on t
 
 This action launches the email design tools, where you can choose how you want to design your email from the following options:
 
-* [Design your email from scratch](#design-your-email-from-scratch) using the Email Designer interface.
+* [Design your email from scratch](#design-your-email-from-scratch) using the visual design interface.
 
 * [Import existing HTML content](#import-existing-html-content) from a file or a .zip folder.
 
@@ -69,11 +69,13 @@ Use the visual content design space to define the structure and content of the e
 
 1. [Test the email](#check-and-test-the-email).
 
-<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
+<!--
+ If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual design space for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. 
+-->
 
 When you are satisfied with the content, click **[!UICONTROL Save]**.
 

@@ -9,8 +9,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + [Release notes](./release-notes/release-notes.md)
 + Get started {#get-started}
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
-    + Simplified architecture {#simplified-architecture}
-       + [Setup checklist](./simplified-architecture.md)
+    + Environment setup {#admin-setup}
+       + [Setup checklist](./setup-ultimate.md)
        + [Namespaces and schemas](./data/namespaces-schemas.md)
        + [XDM field selection](./admin/xdm-field-management.md)
        + [Experience Events and fields](./admin/configure-aep-events.md)
@@ -35,19 +35,22 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Account and person journeys](./journeys/journeys-overview.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
     + [Journey re-entry](./journeys/journey-re-entry.md)
-    + [Journey nodes](./journeys/journey-nodes.md)
+    + {hide-from-toc} [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
        + [Account audience](./journeys/account-audience-nodes.md)
        + [Person audience (Beta)](./journeys/person-audience-nodes.md)
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
-       + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
+       + [Split and merge paths](./journeys/split-merge-paths-nodes.md) 
        + [Wait](./journeys/wait-nodes.md)
+       + [External nodes](./journeys/external-nodes.md)
     + [Journey details](./journeys/journey-details.md)
 + Journey content {#journey-content}
     + [SMS channel](./content/sms-authoring.md)
+    + [WhatsApp channel](./content/whatsapp-authoring.md)
     + Email channel {#email-channel}
        + [Add an email](./content/add-email.md)
+       + [Send-time optimization](./content/email-send-time-optimization.md)
        + [Email authoring](./content/email-authoring.md)
        + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
        + [GenStudio workflows](./content/genstudio-email-workflow.md)
@@ -91,7 +94,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Content management {#content-management}
    + Emails {#emails}
       + [Work with email content](./content/emails-list.md)
-      + [Design accessible content](./content/email-accessible-content.md)
       + Preview and validation {#preview}
          + [Simulate content](./content/email-simulate-content.md)
          + [Test email rendering](./content/email-test-rendering.md)
@@ -108,9 +110,10 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + Email templates {#email-templates}
         + [Overview](./content/email-templates.md)
         + [Email template authoring](./content/email-template-authoring.md)
+        + [Advanced HTML editing](./content/email-template-advanced-html.md)
         + [Convert image to template](./content/email-template-image-convert.md)
       + Landing page templates (Beta) {#landing-page-templates}
-        + [Overview](./content/landing-page-templates.md)
+        + {hide-from-toc} [Overview](./content/landing-page-templates.md)
         + [Landing page template design](./content/landing-page-template-design.md)
    + Fragments {#visual-fragments}
       + [Overview](./content/fragments.md)
@@ -129,9 +132,11 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Brands (Beta) {#brands}
       + [Overview](./content/brands-overview.md)
       + [Manage and create](./content/brands-manage-create.md)
-      + [Brand alignment](./content/brand-alignment.md)
+      + [Generative AI models](./content/generative-ai-models.md)
    + [Brand themes](./content/brand-themes.md)
+   + [Content evaluation](./content/content-evaluation.md)
    + [Conditional content](./content/conditional-content.md)
+   + [Content accessibility](./content/accessible-content.md)
    + Personalization {#personalization}
       + [Overview](./content/personalization.md)
       + [Personalization syntax](./content/personalization-syntax.md)
@@ -145,13 +150,15 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Administration {#admin}
     + [Governance](./admin/governance.md)
     + [Persona mapping](./admin/persona-mapping.md)
-    + Channels {#channels}
-       + [Email configurations](./admin/configure-channels-emails.md)
-       + [SMS configurations](./admin/configure-channels-sms.md)
-       + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
-       + [Landing page settings (Beta)](./admin/landing-page-settings.md)
-       + [Configure datastreams for event collection](./data/aep-event-collection.md)
     + Configurations {#configurations}
        + [AEM Assets repositories](./admin/configure-aem-repositories.md)
        + [Intent data](./admin/intent-data.md)
        + [Engagement score weighting](./admin/engagement-score-weighting.md)
+       + [External actions](./admin/configure-external-actions.md)
+    + Channels {#channels}
+       + [Email configurations](./admin/configure-channels-emails.md)
+       + [SMS configurations](./admin/configure-channels-sms.md)
+       + [WhatsApp configurations](./admin/configure-channels-whatsapp.md)
+       + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
+       + [Landing page settings (Beta)](./admin/landing-page-settings.md)
+       + {hide-from-toc} [Configure datastreams for event collection](./data/aep-event-collection.md)

@@ -29,7 +29,7 @@ autotag-review: '2026-03-30T23:09:32.398Z'
 
 # Journey management
 
-In Journey Optimizer B2B Edition, journeys are automated, multistep account and lead-based marketing plans that orchestrate personalized  experiences across channels in response to engagement, business events, or scheduled campaigns. Define sales-driven engagement that includes email, SMS, and more in to coordinate inbound marketing with outbound sales activities for each buying group member.
+In Journey Optimizer B2B Edition, journeys are automated, multistep account and lead-based marketing plans that orchestrate personalized  experiences across channels in response to engagement, business events, or scheduled campaigns. Define sales-driven engagement that includes email, SMS, and more to coordinate inbound marketing with outbound sales activities for each buying group member.
 
 Journey Optimizer B2B Edition supports two journey types:
 
@@ -81,7 +81,7 @@ Enter text in the  _Search_ tool at the top of the list to filter the displayed 
 
 >[!TAB Person journeys (Beta)]
 
-[!BADGE Beta]{type=Informative tooltip="Available as a beta feature on the simplified architecture"}
+[!BADGE Beta]{type=Informative tooltip="Available as a beta feature"}
 
 On the left navigation, expand **[!UICONTROL Journey Management]** and click **[!UICONTROL Person journeys]**.
 

@@ -31,7 +31,7 @@ autotag-review: '2026-03-30T21:39:24.495Z'
 >
 >**Feature deprecation**</br></br>
 >
->With the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition, the buying group filters are no longer available in a connected Marketo Engage instance.</br></br>
+>In Journey Optimizer B2B Edition, the buying group filters are no longer available in a connected Marketo Engage instance.</br></br>
 >
 >As an alternative, you can create a static list for each solution interest and then [use the _Add to Marketo list_ action](../journeys/action-nodes.md#marketo-engage-actions) from a journey node. This action adds buying group members to a particular static list in a connected Marketo Engage instance. Then, use the solution interest-focused static list for a smart list filter.
 

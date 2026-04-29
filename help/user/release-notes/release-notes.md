@@ -32,47 +32,63 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
-## 2026.3 release notes
+<!--
+## 2026.4/5 release notes {#rel-2026-5}
 
-**Deployment date**: March 27, 2026
+**Deployment date**: May 15, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
 | Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
-| Feature | WhatsApp channel | Marketers can now send WhatsApp messages directly from account journeys through the Meta Cloud API. This feature enables seamless integration of WhatsApp messaging to support journey content channels. |
-| Feature | Support for [!DNL Firefly] and custom Generative AI models | Marketing teams can now enable integration of standard and custom [!DNL Firefly] models, along with approved third-party image models (such as [!DNL NanoBanana]). Email designers can select the best model for each use case: standard [!DNL Firefly] for general needs, custom [!DNL Firefly] for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
-| Feature | Custom external actions for journeys | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} Developers can now use APIs to build integrations with their first-party systems. With these custom integrations, marketers can add _External action_ and _External split path_ nodes to make outbound requests to external services during account journey execution. |
-| Feature | Brands | (Beta) Marketing teams can maintain brand consistency across their email content assets by storing and managing brand profiles. By adding assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, they can use the brand profile for generative AI content creation. They can also measure brand alignment to ensure compliance. |
-| Enhancement | Send Email - Send-time optimization | For _Send email_ action nodes in person journeys, you can use _Send-time optimization_ options to personalize email delivery timing by predicting when each profile is most likely to engage. |
-| Enhancement | Email design tools - Expert mode | With _Expert mode_ in the email design space, users can make minor HTML/CSS edits and add script tags to an email to resolve rendering issues. |
-| Enhancement | Person custom objects - buying group roles templates | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} When administrators configure custom objects that are related to a business person profile, marketers can now define buying group roles using these custom objects. |
-| Enhancement | Email content scoring - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
-
-<!-- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | 
 
 >[!NOTE]
 >
->These release changes begin deployment on Marh 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>These release changes begin deployment on May 15, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+-->
+
+## 2026.3 release notes {#rel-2026-3}
+
+**Deployment date**: March 27, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | WhatsApp channel | Marketers can now send WhatsApp messages directly from account journeys through the [!DNL Meta Cloud API]. This feature enables seamless integration of WhatsApp messaging to support journey content channels. [Learn more](../admin/configure-channels-whatsapp.md) |
+| Feature | Support for [!DNL Firefly] and custom Generative AI models | Marketing teams can now enable integration of standard and custom [!DNL Firefly] models, along with approved third-party image models (such as [!DNL NanoBanana]). Email designers can select the best model for each use case: standard [!DNL Firefly] for general needs, custom [!DNL Firefly] for on-brand generation, or approved third-party models for specialized or experimental scenarios. [Learn more](../content/generative-ai-models.md) |
+| Feature | Custom external actions for journeys | Developers can now use APIs to build integrations with their first-party systems. With these custom integrations, marketers can add _External action_ and _External split path_ nodes to make outbound requests to external services during account journey execution. [Learn more](../admin/configure-external-actions.md) |
+| Feature | Brands | (Beta) Marketing teams can maintain brand consistency across their email content assets by storing and managing brand profiles. By adding assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, they can use the brand profile for generative AI content creation. They can also measure brand alignment to ensure compliance. [Learn more](../content/brands-overview.md) |
+| Enhancement | Send Email - Send-time optimization | For _Send email_ action nodes in person journeys, you can use _Send-time optimization_ options to personalize email delivery timing by predicting when each profile is most likely to engage. [Learn more](../content/email-send-time-optimization.md) |
+| Enhancement | Email template design tools - Advanced HTML mode | With _Advanced HTML mode_ in the email template design space, users can make minor HTML/CSS edits and add script tags to an email template to resolve rendering issues. [Learn more](../content/email-template-advanced-html.md) |
+| Enhancement | Person custom objects - buying group roles templates | When administrators configure custom objects that are related to a business person profile, marketers can now define buying group roles using these custom objects. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Enhancement | Email content scoring - content quality evaluation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/content-evaluation.md) |
+
+<!--
+ wait for later release
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
+-->
+
+>[!NOTE]
+>
+>These release changes begin deployment on March 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 
-## 2026.2 release notes
+## 2026.2 release notes {#rel-2026-2}
 
 **Deployment date**: February 20, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | XDM fields/relational schemas - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} (Beta) Administrators can now select custom objects that are related to a person using a single-level, one-to-one relationship with an account. This capability enables your marketing organization to represent a richer view of your real-world business data to target, personalize, and report on entities beyond the person or account level. [Learn more](../admin/xdm-field-management.md#relational-schemas) |
-| Feature | Journey re-entry | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  You can now send accounts/people through a journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. [Learn more](../journeys/journey-re-entry.md) |
-| Enhancement | Account and person journeys - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"} (Beta) Leverage the relational data that is linked to accounts for filtering people within an account or person journey. [Learn more](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
-| Enhancement | (Beta) Content personalization - support for person custom objects | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  When marketers define content personalization using the custom objects, they can access variables for the model-based class custom objects (relational schemas). [Learn more](../content/personalization.md#custom-datasets) |
+| Feature | XDM fields/relational schemas - support for person custom objects | (Beta) Administrators can now select custom objects that are related to a person using a single-level, one-to-one relationship with an account. This capability enables your marketing organization to represent a richer view of your real-world business data to target, personalize, and report on entities beyond the person or account level. [Learn more](../admin/xdm-field-management.md#relational-schemas) |
+| Feature | Journey re-entry | You can now send accounts/people through a journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. [Learn more](../journeys/journey-re-entry.md) |
+| Enhancement | Account and person journeys - support for person custom objects | (Beta) Leverage the relational data that is linked to accounts for filtering people within an account or person journey. [Learn more](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| Enhancement | (Beta) Content personalization - support for person custom objects | When marketers define content personalization using the custom objects, they can access variables for the model-based class custom objects (relational schemas). [Learn more](../content/personalization.md#custom-datasets) |
 
 >[!NOTE]
 >
 >These release changes begin deployment on February 20, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
-## 2026.1 release notes
+## 2026.1 release notes {#rel-2026-1}
 
 **Deployment date**: February 3, 2026
 
@@ -80,7 +96,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | ---- | ---- | ----------- |
 | Feature | Brand kits | (Beta) Define a brand in Journey Optimizer B2B Edition to provide the source of truth for your creative team to use when they create any visual or written content. When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. [Learn more](../content/brands-overview.md) |
 | Feature | Brands for email content generation | You can define your brand guidelines and use this information to generate email content. With this feature, email content is aligned with your brand specific copywriting guidelines, styles, and tone. [Learn more](../content/ai-assistant-emails.md) |
-| Enhancement | Journey _Wait_ node - advanced settings | [!BADGE Simplified architecture]{type=Informative tooltip="Available with simplified architecture"}  For a _Wait_ node in a journey, marketers can now specify exit days and times, and select time zones. This enhancement enables better control for journey orchestration and campaign timing. [Learn more](../journeys/wait-nodes.md#advanced-wait-settings) |
+| Enhancement | Journey _Wait_ node - advanced settings | For a _Wait_ node in a journey, marketers can now specify exit days and times, and select time zones. This enhancement enables better control for journey orchestration and campaign timing. [Learn more](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Enhancement | Member of Buying Group filter - Is Removed | For a _split path by people_ node, the _[!UICONTROL Member of Buying Group]_ filter now includes the _Is Removed_ constraint. When you select it, the filter can include the removed buying group member or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
 | Enhancement | Email design - multiple-level bullets | The email content design space tools now support sub-bullets (bullet levels). |
 
@@ -88,7 +104,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 >
 >These release changes begin deployment on February 3, 2026, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
-## Agentic-AI capabilities
+## Agentic-AI capabilities {#rel-agents}
 
 The following agentic AI capabilities are now available for Journey Optimizer B2B Edition within the AI Assistant interface:
 
@@ -98,7 +114,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
 | Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels. [Learn more](../agents/sales-qualifier.md) |
 
-## 2025.10 release notes
+## 2025.10 release notes {#rel-2025-10}
 
 **Deployment date**: October 31, 2025
 
@@ -120,11 +136,15 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 >
 >These release changes begin deployment on October 31, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
-### Simplified architecture
+### Updated architecture
 
-Adobe Journey Optimizer B2B Edition is now available using a simplified architecture. With this updated architecture, Journey Optimizer B2B Edition and Marketo Engage are no longer on the same system and same data store. Journey Optimizer B2B Edition receives data only from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system.
+With the updated architecture, Journey Optimizer B2B Edition and Marketo Engage are not on the same system and same data store. Journey Optimizer B2B Edition receives data from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system.
 
-This updated architecture provides multiple benefits:
+>[!NOTE]
+>
+>Earlier release notes referred to this deployment as the *simplified architecture*. That model is now the default Journey Optimizer B2B Edition implementation.
+
+This implementation provides multiple benefits:
 
 * **Easily unify and scale your data**: The updated platform supports complex data models, including custom objects, buying groups, and account events. 
 * **Connect multiple Adobe Marketo Engage instances**: Manage and unify data from several Adobe Marketo Engage environments in one place. 
@@ -133,9 +153,9 @@ This updated architecture provides multiple benefits:
 
 >[!NOTE]
 >
->If your environment is provisioned on this architecture, review the [guidelines for configuration](../simplified-architecture.md).
+>Review the [setup checklist](../setup-ultimate.md) for configuration guidance.
 
-With the simplified architecture, the following new features and enhancements are available in the 2025.10 release:
+The following new features and enhancements are available in the 2025.10 release with the updated architecture:
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
@@ -145,14 +165,7 @@ With the simplified architecture, the following new features and enhancements ar
 | Enhancement | Engagement score weighting - AEP events | Engagement score weighting can now include any of the standard or custom Experience Platform events and weighted according to your needs. [Learn more](../admin/engagement-score-weighting.md) |
 | Enhancement | Communication limits | The system now respects the combined communication limits of both Marketo Engage and Journey Optimizer B2B Edition. [Learn more](../admin/configure-channels-emails.md#communication-limits) |
 
-<!-- There are additional functional changes with the simplified architecture:
-
-| Item | Description |
-| ---- | ----------- |
-| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | | -->
-
-## 2025.9 release notes
+## 2025.9 release notes {#rel-2025-9}
 
 **Deployment date**: September 30, 2025
 
@@ -169,7 +182,7 @@ This release includes the following new capabilities and enhancements:
 >
 >These release changes begin deployment on September 30, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
-## 2025.8 release notes
+## 2025.8 release notes {#rel-2025-8}
 
 **Deployment date**: August 26, 2025
 
@@ -184,7 +197,7 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Engagement score updates | Buying group engagement score logic is updated to normalize the scores. Additionally, you can work with member-level engagement scores, as well as collective engagement scores for the whole buying group. [Learn more](../buying-groups/engagement-scores.md) |
 | Enhancement | Active journey observability - accounts at each node | For an active account journey, you can access a list of the accounts that have reached each account node in the journey. |
 
-## 2025.6 release notes
+## 2025.6 release notes {#rel-2025-6}
 
 **Deployment date**: July 15, 2025
 
@@ -202,7 +215,7 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Simulate Content from email summary | You can now access the _Simulate Content_ tools from the email summary (details and properties) when you open an email from the Emails list. This access is in addition to the email design space. [Learn more](../content/email-simulate-content.md#display-the-email-preview) |
 | Enhancement | Total count display for roles templates list | The _[!UICONTROL Roles templates]_ list page is enhanced with the display of the total count next to the search bar. |
 
-## 2025.5 release notes
+## 2025.5 release notes {#rel-2025-5}
 
 **Deployment date**: June 3, 2025
 
@@ -215,7 +228,7 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Handlebar token format for email| Personalization tokens for email content now use an updated format that is fully compatible with Handlebar scripting. This format uses _camel case_ or underscores, eliminating spaces. [Learn more](../content/email-authoring.md#content-authoring---personalization) |
 | Enhancement | Total count display for lists | The _[!UICONTROL Solution Interests]_ and _[!UICONTROL Account Journeys]_ list pages are enhanced with the display of the total count next to the search bar. |
 
-## 2025.4 release notes
+## 2025.4 release notes {#rel-2025-4}
 
 **Deployment date**: April 29, 2025
 
@@ -230,7 +243,7 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Learn more</a> |
 | Enhancement | Emails list | View a global list of active and draft emails to search, review, and update them across the associated account journeys. <a href="../content/emails-list.md">Learn more</a> |
 
-## 2025.3 release notes
+## 2025.3 release notes {#rel-2025-3}
 
 **Deployment date**: April 1, 2025
 
@@ -243,7 +256,7 @@ This release includes the following new capabilities and enhancements:
 | Feature | Delete buying group stages | You can delete the buying group stages model when it is in a draft or published state. If it is published (live), you can delete it only when it is not associated with a solution interest. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Learn more</a> |
 | Enhancement | Journey node counts | Improved visibility into published journey membership counts at the node level. In the _Journey map_, nodes display _[!UICONTROL Total accounts entered]_. When a marketer selects an action node, the details on the right also include _[!UICONTROL Accounts not yet actioned on]_. And details for _Listen for an event_ nodes include _[!UICONTROL Accounts at this step]_. This information is useful for validating account progression in live, finished, and aborted journeys. |
 
-## 2025.2 release notes
+## 2025.2 release notes {#rel-2025-2}
 
 **Deployment date**: March 11, 2025
 
@@ -252,7 +265,7 @@ This release includes the following new capabilities and enhancements:
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Customizable fields - content fragments | During visual fragment design, you can designate parameters for a component in the fragment as editable. This feature allows the email or template author to specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components. <a href="../content/fragment-authoring.md#enable-fragment-customization">Learn more</a> |
-| Feature | Journey duplication types | When you duplicate an account journey, you can include node details, excluding emails and SMS messages created in Journey Optimizer B2B Edition. As an alternative, you can create a skeleton copy of the structure and path flows, without node details and settings. <a href="../journeys/journeys-overview.md#duplicate-journey">Learn more</a> | 
+| Feature | Journey duplication types | When you duplicate an account journey, you can include node details, excluding emails and SMS messages created in Journey Optimizer B2B Edition. As an alternative, you can create a skeleton copy of the structure and path flows, without node details and settings. <a href="../journeys/journeys-overview.md#duplicate-journey">Learn more</a> |
 | Enhancement | Four additional sample email templates | The sample email templates library now includes four _SecurFinancial_ templates as examples for reengagement, inform, nurture, and feedback content examples. |
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->

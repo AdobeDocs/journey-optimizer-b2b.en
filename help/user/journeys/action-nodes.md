@@ -50,7 +50,7 @@ In an account journey, use an action on accounts when you want to apply a change
 
 >[!NOTE]
 >
->The _[!UICONTROL Account Change Data Value]_ action is deprecated for the 2025.10 release. _[!UICONTROL Update account profile]_ replaces this action for the [simplified architecture](../simplified-architecture.md).<br/>
+>The _[!UICONTROL Account Change Data Value]_ action is deprecated for the 2025.10 release. _[!UICONTROL Update account profile]_ replaces this action in Journey Optimizer B2B Edition.<br/>
 >
 >An administrator can configure the available attributes for the XDM Business Account by updating the fields in the _[!UICONTROL XDM Classes]_ > _[!UICONTROL Standard classes]_. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 
@@ -112,8 +112,9 @@ In an account or person journey, use an action on people when you want to apply 
 | | [!UICONTROL Person Interesting Moment] | <li>Account journey <li>Person journey | <li>Type <li>Description |
 | | [!UICONTROL Personalize web experience] (Beta) | <li>Account journey | <li>Create/edit web experience |
 | | [!UICONTROL Remove from Buying Group] | <li>Account journey | <li>Select solution interest |
-| | [!UICONTROL Send email] | <li>Account journey <li>Person journey | <li>Create email |
+| | [!UICONTROL Send email] | <li>Account journey <li>Person journey | <li>Create email <li>Send-time optimization (optional, person journey only) |
 | | [!UICONTROL Send SMS] | <li>Account journey | <li>Create SMS |
+| | [!UICONTROL Send WhatsApp] | <li>Account journey | <li>Create WhatsApp message |
 | | [!UICONTROL Update person profile] | <li>Account journey <li>Person journey | <li>Select person attribute <li>Set new value |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to Marketo request campaign] | <li>Account journey <li>Person journey | <li>Select Marketo Engage workspace <li>Select Request campaign |
 | | [!UICONTROL Add to Marketo list] | <li>Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
@@ -121,9 +122,9 @@ In an account or person journey, use an action on people when you want to apply 
 
 >[!NOTE]
 >
->The _[!UICONTROL Change People Partition in Marketo Engage]_ and _[!UICONTROL Change Score]_ actions are deprecated for the 2025.10 release and are not available on the [simplified architecture](../simplified-architecture.md) for Journey Optimizer B2B Edition.<br/>
+>The _[!UICONTROL Change People Partition in Marketo Engage]_ and _[!UICONTROL Change Score]_ actions are deprecated for the 2025.10 release and are no longer available in Journey Optimizer B2B Edition.<br/>
 >
->The _[!UICONTROL Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced with _[!UICONTROL Update person profile]_ on the simplified architecture.
+>The _[!UICONTROL Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced with _[!UICONTROL Update person profile]_ in the current Journey Optimizer B2B Edition release.
 
 ### Add a people-based action
 
@@ -236,6 +237,8 @@ Use this action to send an email. After you [create the email](../content/add-em
 
 ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
+For person journeys, you can use [Send-time optimization](../content/email-send-time-optimization.md) to personalize email delivery timing by predicting when each profile is most likely to engage.
+
 >[!NOTE]
 >
 >You can use email deduplication in account journeys to ensure that the same email is not sent multiple times to the same email address within a journey. For more information, see [Email deduplication](../content/email-deduplication.md).
@@ -250,6 +253,14 @@ Use this action to send an SMS message. You can create, personalize, and preview
 
 +++
 
++++[!UICONTROL Send WhatsApp]
+
+Use this action to send a WhatsApp message. You can create, personalize, and preview WhatsApp messages in the visual design space (see [WhatsApp authoring](../content/whatsapp-authoring.md).
+
+![Take an action - Send WhatsApp](./assets/node-action-send-whatsapp.png){width="300"}
+
++++
+
 +++[!UICONTROL Update person profile]
 
 Use this action to change the value of a [people profile attribute](../admin/field-mapping.md#xdm-business-person-attributes). Select the attribute and then set the new value.
@@ -258,7 +269,7 @@ Use this action to change the value of a [people profile attribute](../admin/fie
 
 >[!NOTE]
 >
->The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action within the [simplified architecture](../simplified-architecture.md).<br/>
+>The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action in the current Journey Optimizer B2B Edition release.<br/>
 >
 >An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Classes]_ > [!UICONTROL Standard classes]. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 

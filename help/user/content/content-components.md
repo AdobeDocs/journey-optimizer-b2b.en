@@ -54,7 +54,7 @@ When you design content for emails, landing pages, templates, and visual fragmen
 
 The **[!UICONTROL Contents]** section at the bottom of the Components library displays the available content components:
 
-| Icon | Component | Description | 
+| Icon | Component | Description |
 | --------- | ---- | ----------- |
 | ![Container icon](../../assets/do-not-localize/icon-content-component-container.svg) | [Container](#container) | Add this component to your design to include a rectangular container that you can use to group components or apply background or border styling to an area. |
 | ![Button icon](../../assets/do-not-localize/icon-content-component-button.svg) | [Button](#button) | Add this component to your design to include a clickable button element. |
@@ -211,7 +211,7 @@ Each content component type displays a toolbar when you select it in the canvas.
 
 ### Functional tools
 
-| Tool | Name | Usage | 
+| Tool | Name | Usage |
 | ---- | ---- | ----- |
 | ![Add personalization](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Add personalization|  Use the personalization editor to insert personalization tokens in the component content. [Learn more](./email-authoring.md#personalize-content) |
 | ![Show the source code](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Show the source code| Display the HTML source code for the component in a read-only popup. <br/>![Show HTML code](./assets/content-components-show-source-code.png){width="200"} |
@@ -360,9 +360,13 @@ Customize the button styling in the **[!UICONTROL Styles]** tab.
 
 +++Alignment
 
+{{styles-alignment-h-v}}
+
 +++
 
 +++Button margin
+
+{{styles-margin}}
 
 +++
 
@@ -438,8 +442,6 @@ These styles are applied to the whole text block. You can apply inline styling t
 
 Add a _Divider_ component to incorporate a linear division between sections of your content.
 
-
-
 +++Background
 
 {{styles-background}}
@@ -447,6 +449,22 @@ Add a _Divider_ component to incorporate a linear division between sections of y
 +++
 
 +++Line
+
+On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!UICONTROL Line]** section and set the options for the component height and width:
+
+* **[!UICONTROL Color]** - Click the color square to choose a color from the picker. You can choose a color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, you can use the color slider and the color field to select the color.
+
+* **[!UICONTROL Height]** - Click the up and down arrow icons to increase or decrease the number of pixels. An empty value (Auto) is the default and sizes the height of the element according to its contents.
+
+* **[!UICONTROL Width]** - Use the toggle to set the width by pixels or percentage.
+
+   * For a percentage width, use the slider to set the percentage value. The percentage determines the element size based on the content box of the containing block, which excludes padding and borders. For example, a value of 50 sets the element width to 50% of its containing block content width.
+
+   ![Define line styling for a divider component](./assets/component-divider-line-options.png){width="250"}
+
+   * For a pixel-based width, click the up and down arrow icons to increase or decrease the number of pixels. An empty value (Auto) is the default and sizes the width of the element according to its contents.
+
+* **[!UICONTROL Style]** - Choose the a value from the list of standard CSS `line-style` values, such as _Solid_, _Dotted_, and _Dashed_.
 
 +++
 

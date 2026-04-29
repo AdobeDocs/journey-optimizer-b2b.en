@@ -48,7 +48,8 @@ Gain insights into your buying groups' progression with the Buying Group Status 
 **[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
 **[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. 
+-->
 
 ## Buying group completion score distribution
 
@@ -64,7 +65,7 @@ This visualization illustrates the distribution of buying groups based on their 
 
 To view more detailed information, click the **...** menu icon at the top right.
 
-![Buying group engagement score visualization](./assets/buying-group-completion-score-chart.png){width="500"}
+![Buying group engagement score visualization](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## Buying groups by solution interest
 
