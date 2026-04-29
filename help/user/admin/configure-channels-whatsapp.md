@@ -4,6 +4,24 @@ description: Connect your WhatsApp Business Account through Meta's Cloud API to 
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: a7692144-1dc6-426f-b00f-fe187797f61d
+    internal-label: Deliverability
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # WhatsApp channel setup
 

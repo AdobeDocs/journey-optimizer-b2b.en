@@ -24,6 +24,7 @@ level_v2:
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
+autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 
 # Account audience journey nodes

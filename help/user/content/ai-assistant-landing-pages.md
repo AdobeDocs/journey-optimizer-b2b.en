@@ -31,6 +31,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
     internal-label: Content production
+autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # AI Assistant for Landing Page Content {#generative-full-content}
 

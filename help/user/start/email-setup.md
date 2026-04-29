@@ -32,6 +32,7 @@ topic_v2:
     internal-label: Administration
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
+autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Email setup
 

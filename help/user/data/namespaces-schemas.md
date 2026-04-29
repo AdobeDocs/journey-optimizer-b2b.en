@@ -28,6 +28,7 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
+autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # B2B Namespaces and schemas
 

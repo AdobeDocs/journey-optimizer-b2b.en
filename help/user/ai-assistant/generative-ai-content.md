@@ -28,6 +28,7 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
+autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Generative AI for content {#generative-ai-content}
 

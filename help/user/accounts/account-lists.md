@@ -10,6 +10,8 @@ product_v2:
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e935834c-48b7-43d8-b754-a815196a1b05
     internal-label: Account lists
 subfeature_v2:
@@ -22,8 +24,11 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
+autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Account lists
 
