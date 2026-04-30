@@ -55,6 +55,9 @@ You can enable re-entry and change re-entry settings when the journey is in a _D
 ## Account progression and activity 
 
 For a published account journey, the journey map displays [account progression](./journeys-overview.md#review-account-progression) for the journey nodes. Each node on the map displays the number of accounts to reach that node and, for live journeys, the number of accounts currently at that node. Each time an account re-enters a journey, it counts as a distinct entry. 
-<!-- You can see how many times accounts have entered the journey. ?? -->
+
+<!-- 
+You can see how many times accounts have entered the journey. ?? 
 
 When you drill in to [account details](../accounts/account-details.md), the account activity shows each time the account entered the journey. It includes explicit activity and a recurrence count so that you can see re-entries clearly.
+-->
