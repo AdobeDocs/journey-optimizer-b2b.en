@@ -4,6 +4,28 @@ description: Access Journey Optimizer B2B Edition buying groups directly in CRMs
 feature: Sales Insights, Buying Groups
 role: User
 exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+    internal-label: CRM integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+autotag-review: '2026-03-30T21:40:22.011Z'
 ---
 # In-CRM Insights
 
