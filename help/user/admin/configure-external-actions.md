@@ -60,9 +60,7 @@ An action must be configured and activated before marketers can use it in a jour
 
    ![Enter the service URL](./assets/configuration-external-actions-create-url.png){width="500"}
 
-   >[!NOTE]
-   >
-   >Your external service must be live and reachable for this step to succeed.
+   The external service must be live and reachable for this step to succeed. If there is a validation error, the dialog displays a message to describe the error and a suggestion for resolving it. For more information, see [_Troubleshooting_](#troubleshooting).
 
 1. When the URL resolves successfully, review the **[!UICONTROL Service details]**.
 
@@ -111,7 +109,7 @@ An action must be configured and activated before marketers can use it in a jour
 
    * **[!UICONTROL Outgoing Fields]** – Map each field in the table to an [XDM field](../admin/xdm-field-management.md). These fields are sent in the request body to the external service. Service definition properties: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
-   ![Map external action outgoing fields](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+      ![Map external action outgoing fields](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Incoming Fields]** – Map each field in the table to an [updatable XDM field](../admin/xdm-field-management.md#updatable-fields). These fields are populated from the external service response. Service definition properties: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Updatable after creation.
 
@@ -121,11 +119,26 @@ An action must be configured and activated before marketers can use it in a jour
 
    * **[!UICONTROL Global attributes]** – Enter a value for each row to include as a static field in the request body. Service definition property: `invocationPayloadDef.globalAttributes`.
 
-   ![External action header parameters, timeout, and global attributes](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
+      ![External action header parameters, timeout, and global attributes](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
 
 1. Click the _Back arrow_ to return to the list and keep the action in a _Draft_ state. 
 
    Or, click **[!UICONTROL Activate]** to change the action configuration to the _Active_ state. The configured external action must be active to make it available for use in account journeys.
+
+### Troubleshooting
+
+When you enter the URL to the OpenAPI specification for your external service and click **[!UICONTROL Create]**, the system performs validation of the service. When it encounters an error, the dialog displays a message to describe the error and a suggestion for resolving it.
+
+![External action URL service validation error message](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+
+| Error description | Suggested resolution |
+| ----------------- | -------------------- |
+| The OpenAPI specification was not found at the provided URL | Check the URL and try again. |
+| The request to fetch the OpenAPI specification timed out | Check the URL and try again. |
+| The provided document is not a valid OpenAPI specification | Check the specification and try again. | 
+| <n> OpenAPI specification validation error(s) | Check the specification and try again. |
+| An error occurred | Check the specification and try again. |
+| The OpenAPI specification version is not supported | Only version 3.0.x of the OpenAPI specification is supported. |
 
 ## Add an external node to a journey {#add-journey-node}
 
