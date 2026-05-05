@@ -1,8 +1,10 @@
 ---
 title: User Access and Permissions
-description: Manage user access with the Experience Cloud Admin Console - create user groups, assign product profiles, and configure role-based permissions for Journey Optimizer B2B Edition.
+description: Manage user access with the Adobe Admin Console: create user groups, assign product profiles, and set role-based permissions for Journey Optimizer B2B Edition.
 feature: Setup, Permissions
 roles: Admin
+level: Beginner
+solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -110,26 +112,11 @@ For more information about how user groups are used to manage permissions, see [
 
 1. Enter a name for the user group, such as _B2B Users_ and click **[!UICONTROL Save]**.
 
-1. Click the user group you just created.
-
-1. Select the **[!UICONTROL Assigned product profiles]** tab and click **[!UICONTROL Assign profile]**.
-
-1. Click **+** and add each instance of the following products:
-
-   * [!UICONTROL Marketo Engage]
-   * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Adobe Experience Platform Data Collection - Default Data Collection All Access]
-   * [!UICONTROL Adobe Experience Platform - Default Production All Access]
-
-   ![Admin Console - user-group - add products](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
-
-1. Click **[!UICONTROL Save]**.
-
-## Add users to a new group {#add-users}
+## Add users to the new group {#add-users}
 
 For information about user management, see [_Adobe Admin Console users_](https://helpx.adobe.com/enterprise/using/users.html){target="_blank"} in the Admin Console documentation.
 
-![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or product administrator can perform the following steps. A product administrator can add only users that already exist in their organization. 
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or product administrator can perform the following steps. A product administrator can add only users that already exist in their organization.
 
 1. Go to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -146,6 +133,29 @@ For information about user management, see [_Adobe Admin Console users_](https:/
    * Select the user group that you created previously.
    
    * Click **[!UICONTROL Apply]**.
+
+1. Click **[!UICONTROL Save]**.
+
+## Assign the product profile {#assign-profile}
+
+>[!IMPORTANT]
+>
+>When configuring user groups, always add users to the group before assigning the product profile to the group. Assigning a product profile to an empty user group and adding users afterward does not correctly propagate access. To ensure that permissions are applied, populate the user group with members first, then assign the product profiles.
+
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A product administrator can perform the following steps.
+
+1. Click the user group where you added users.
+
+1. Select the **[!UICONTROL Assigned product profiles]** tab and click **[!UICONTROL Assign profile]**.
+
+1. Click **+** and add each instance of the following products:
+
+   * [!UICONTROL Marketo Engage]
+   * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
+   * [!UICONTROL Adobe Experience Platform Data Collection - Default Data Collection All Access]
+   * [!UICONTROL Adobe Experience Platform - Default Production All Access]
+
+   ![Admin Console - user-group - add products](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
 
@@ -172,7 +182,7 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 | B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
 | Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
 
-### B2B built-in roles
+### B2B built-in roles {#b2b-built-in-roles}
 
 When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
@@ -183,7 +193,7 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 | B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
 | B2B Sales User | <li>View B2B Engagement Dashboard <li>View B2B Buying Groups <li>Access In-CRM Insights |
 
-### Edit role permissions
+### Edit role permissions {#edit-role-permissions}
 
 For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
 
@@ -219,17 +229,17 @@ _To change the permissions for a role:_
    
 1. Click the _Add_ icon (**+**) for the B2B Journeys resource.
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+   ![Experience Platform - B2B Journeys resource added to Channel Manager role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL B2B Journeys]_ permissions card, select **[!UICONTROL Manage B2B Account Journeys]**.
 
 1. Click **[!UICONTROL Save]**.
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+   ![Experience Platform - B2B Journeys permissions saved for Channel Manager role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Close]** to return to the details page.
 
-### Add users to a role
+### Add users to a role {#add-users-to-a-role}
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
@@ -251,7 +261,7 @@ _To change the permissions for a role:_
 
 1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add.
 
-### Add user groups to a role
+### Add user groups to a role {#add-user-groups-to-a-role}
 
 For information about user management, see [_Adobe Admin Console users_](https://helpx.adobe.com/enterprise/using/users.html){target="_blank"} in the Admin Console documentation.
 
@@ -275,7 +285,7 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
 1. Click **[!UICONTROL Save]** when you have selected all the groups that you want to add.
 
-## Create a custom role
+## Create a custom role {#create-a-custom-role}
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
@@ -317,8 +327,10 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
 1. Click **[!UICONTROL Add Groups]**.
 
-   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - select user group for the custom role](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
 1. Select the checkbox next to the user group that you created previously in the Admin Console.
 
 1. Click **[!UICONTROL Save]**.
+
+Your custom role is configured and users in the assigned group can now access the Journey Optimizer B2B Edition capabilities you selected.
