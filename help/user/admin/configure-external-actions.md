@@ -135,7 +135,7 @@ When you enter the URL to the OpenAPI specification for your external service an
 | ----------------- | -------------------- |
 | The OpenAPI specification was not found at the provided URL | Check the URL and try again. |
 | The request to fetch the OpenAPI specification timed out | Check the URL and try again. |
-| The provided document is not a valid OpenAPI specification | Check the specification and try again. | 
+| The provided document is not a valid OpenAPI specification | Check the specification and try again. |
 | <n> OpenAPI specification validation error(s) | Check the specification and try again. |
 | An error occurred | Check the specification and try again. |
 | The OpenAPI specification version is not supported | Only version 3.0.x of the OpenAPI specification is supported. |
