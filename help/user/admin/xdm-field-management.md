@@ -149,12 +149,12 @@ You can create relational schemas using the schema editor (go to **[!UICONTROL D
 
 **Schema requirements**
 
-When creating a schema for use with [!DNL Journey Optimizer B2B Edition], the following configuration values are required:
+When [creating a schema for use with [!DNL Journey Optimizer B2B Edition]](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data), the following configuration values are required:
 
 * Behavior: Record
 * Segmentation: Enabled
 * Relationship type: Many-to-one
-* Reference schema: [B2B Account](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+* Reference schema: B2B Account or B2B Person
 * Required fields: Primary key, foreign key, and version descriptor
 * Associated dataset: Defined and mapped to the schema
 
