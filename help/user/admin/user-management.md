@@ -1,6 +1,6 @@
 ---
 title: User Access and Permissions
-description: Manage user access with the Adobe Admin Console: create user groups, assign product profiles, and set role-based permissions for Journey Optimizer B2B Edition.
+description: "Manage user access with the Adobe Admin Console: create user groups, assign product profiles, and set role-based permissions for Journey Optimizer B2B Edition."
 feature: Setup, Permissions
 roles: Admin
 level: Beginner
