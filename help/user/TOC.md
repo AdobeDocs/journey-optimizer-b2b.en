@@ -35,7 +35,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Account and person journeys](./journeys/journeys-overview.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
     + [Journey re-entry](./journeys/journey-re-entry.md)
-    + [Journey nodes](./journeys/journey-nodes.md)
+    + {hide-from-toc} [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
        + [Account audience](./journeys/account-audience-nodes.md)
        + [Person audience (Beta)](./journeys/person-audience-nodes.md)
@@ -113,7 +113,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
         + [Advanced HTML editing](./content/email-template-advanced-html.md)
         + [Convert image to template](./content/email-template-image-convert.md)
       + Landing page templates (Beta) {#landing-page-templates}
-        + [Overview](./content/landing-page-templates.md)
+        + {hide-from-toc} [Overview](./content/landing-page-templates.md)
         + [Landing page template design](./content/landing-page-template-design.md)
    + Fragments {#visual-fragments}
       + [Overview](./content/fragments.md)
@@ -156,6 +156,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Intent data](./admin/intent-data.md)
        + [Engagement score weighting](./admin/engagement-score-weighting.md)
        + [External actions](./admin/configure-external-actions.md)
+       + {hide-from-toc} [Configure datastreams for event collection](./data/aep-event-collection.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
@@ -163,4 +164,3 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
        + [Landing page configurations](./admin/configure-channels-landing-pages.md)
        + [Forms configurations](./admin/configure-channels-forms.md)
-       + [Configure datastreams for event collection](./data/aep-event-collection.md)
