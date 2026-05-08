@@ -43,6 +43,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
        + [Next best path](./journeys/next-best-path-node.md)
+       + [Variant split paths (Beta)](./journeys/variant-split-paths-nodes.md)
        + [Wait](./journeys/wait-nodes.md)
        + [External nodes](./journeys/external-nodes.md)
     + [Journey details](./journeys/journey-details.md)
