@@ -28,7 +28,6 @@ autotag-review: '2026-03-30T21:43:47.624Z'
 ---
 # Engagement scores {#engagement-scores}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
 >title="Engagement score"
@@ -124,7 +123,6 @@ There is a daily frequency cap of 20 for each activity. If a member of a buying 
 >Engagement score activities are recorded in the Marketo Engage activity log for a person. You can access this log in the connected Marketo Engage instance. For more information, see [Locate the Activity Log for a Person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in the Marketo Engage documentation.
 
 ## Role template weighting {#engagement-score-weighting}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"

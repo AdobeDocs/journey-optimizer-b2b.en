@@ -37,7 +37,6 @@ autotag-review: '2026-03-30T22:24:40.416Z'
 ---
 # Email content creation with GenStudio for Performance Marketing {#genstudio-workflow}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="Use a template built with GenStudio"

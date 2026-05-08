@@ -28,24 +28,20 @@ autotag-review: '2026-03-30T22:16:05.946Z'
 ---
 # Content components {#content-components}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to design an email."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to design a landing page."
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to design a fragment."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"

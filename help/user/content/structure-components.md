@@ -26,24 +26,20 @@ autotag-review: '2026-03-30T22:18:21.301Z'
 ---
 # Structure components {#structure-components}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
 >title="About Structure components"
 >abstract="Structure components are layout elements that you can use to design the structure of an email."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="About Structure components"
 >abstract="Structure components are layout elements that you can use to design the structure of a page."
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
 >title="About Structure components"
 >abstract="CStructure components are layout elements that you can use to design the structure of a fragment."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"

@@ -29,7 +29,6 @@ autotag-review: '2026-03-30T21:58:42.309Z'
 ---
 # Edit images with Adobe Express {#edit-images-adobe-express}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_assets_edit_adobe_express"
 >title="Edit Images in Adobe Express"
