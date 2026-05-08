@@ -1,6 +1,9 @@
 ---
 cloud: Experience Cloud
 solution: Journey Optimizer B2B Edition
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    label: "Journey Optimizer B2B Edition"
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/journey-optimizer-b2b.en
