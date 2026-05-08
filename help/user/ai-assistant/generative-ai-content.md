@@ -32,18 +32,15 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Generative AI for content {#generative-ai-content}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="AI Content Generation"
 >abstract="After you have crafted your layout, you can use generative AI tools in [!DNL Journey Optimizer B2B Edition] to enhance your content. This feature simplifies the process of personalization and content improvement by fine-tuning the content according to your descriptive prompt."
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="Reference content"
 >abstract="Use _Reference content_ to upload an asset file containing content that provides additional context for generative AI in [!DNL Journey Optimizer B2B Edition], or to select a previously uploaded file. This option ensures that all necessary materials are available to enhance the quality and relevance of generated content."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
@@ -83,7 +80,6 @@ Review these general guidelines for using generative AI for content in [!DNL Jou
 * Make sure to report any problematic outputs using the thumb up, thumb down, or flag icons when selecting variants.
 
 ## Prompt best practices for generative AI {#generative-ai-prompting-guide}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai_content_prompt"

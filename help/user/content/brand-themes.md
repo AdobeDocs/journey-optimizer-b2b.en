@@ -31,7 +31,6 @@ autotag-review: '2026-03-30T21:49:24.359Z'
 ---
 # Use brand themes for email content {#email-brand-themes}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Apply a brand theme to your email or email template"

@@ -31,7 +31,6 @@ autotag-review: '2026-03-30T22:31:50.715Z'
 ---
 # Preview and test your email content {#preview-simulate}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Check how your content is rendering"

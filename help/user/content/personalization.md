@@ -33,7 +33,6 @@ autotag-review: '2026-03-30T21:59:25.221Z'
 ---
 # Content personalization {#add-personalization}
 
-
 >[!CONTEXTUALHELP]
 >id="aj-b2b_personalization"
 >title="Personalize content experiences"

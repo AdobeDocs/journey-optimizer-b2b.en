@@ -50,30 +50,25 @@ The content evaluation and scoring help you to create, review, and manage conten
 
 ## Brand alignment score {#brand-alignment-score}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
 >title="Brand selection"
 >abstract="Select your brand to ensure that your content is crafted in alignment with its specific guidelines, standards, and identity, maintaining consistency and brand integrity."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Brand alignment score"
 >abstract="Your brand alignment score measures how well your content adheres to the brand guidelines to ensure consistency in colors, fonts, logo, imagery, and writing style."
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
 >title="Colors score"
 >abstract="Colors score"
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_fonts_score"
 >title="Fonts score"
 >abstract="Fonts score"
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_logos_score"
@@ -108,7 +103,6 @@ Select any flagged guideline to view specific feedback and suggestions.
 You can make changes to the content and click **[!UICONTROL Re-evaluate score]** to run another evaluation and check for an improved result.
 
 ## Content quality score {#quality-score}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"

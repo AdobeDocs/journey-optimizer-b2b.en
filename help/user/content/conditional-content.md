@@ -36,12 +36,10 @@ To add conditional content to your fragments and email messages, Adobe Journey O
 
 ## Add conditional content {#email-fragment-content}
 
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="Conditional content"
 >abstract="Use conditional rules to create multiple variants of a content component. If none of the conditions are met when sending the message, the content from the Default variant displays."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
@@ -131,7 +129,6 @@ The rules are stored in the conditions library, where they are available for reu
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li>|
 
 ### Create a conditional rule {#create-condition}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditions_rule_editor"
