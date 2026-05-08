@@ -31,10 +31,12 @@ autotag-review: '2026-03-30T22:06:55.168Z'
 ---
 # Dark mode for email content {#dark-mode}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Switch to dark mode"
 >abstract="Switch to dark mode where you can preview how it may render, and define specific custom settings. <br>The final rendering depends on the recipient's email client. Be aware that all email clients do not support custom dark mode."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
@@ -133,6 +135,7 @@ As you style your email content for dark mode in [!DNL Journey Optimizer B2B Edi
 >The final rendering could vary according to the recipient's email client. To see a simulation that comes as close as possible to the final result for each email client, use the [Litmus test email rendering](./email-test-rendering.md) integration.
 
 ### Define custom dark mode settings {#custom-dark-mode}
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"

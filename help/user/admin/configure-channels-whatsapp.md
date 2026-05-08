@@ -135,20 +135,24 @@ do we have advanced logs? How are they enabled?
 
 ### Add the WhatsApp webhooks {#configure-webhooks}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="Inbound keyword category"
 >abstract="<b>Opt-In</b>: sends your defined auto-response when a user subscribes. <br/><b>Opt-Out</b>: sends your defined auto-response when a user unsubscribes. <br/><b>Help</b>: sends your defined auto-response when a user requests help or support. <br/><b>Default</b>: sends your fallback auto-response when no keywords match."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
 >title="Enter your keywords"
 >abstract="You can define keywords to trigger specific auto-responses based on what users text. Keywords are not case-sensitive (stop and STOP are treated the same)."
 
+
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-webhook-url"
 >title="Callback URL"
 >abstract="The validation request and webhook notifications for this object are sent to the specified URL."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-verify-token"

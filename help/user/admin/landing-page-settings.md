@@ -36,6 +36,7 @@ To review the landing page configuration, go to **[!UICONTROL Administration]** 
 
 ### Account string {#account-string}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_account_string"
 >title="Landing pages account string"
@@ -44,6 +45,7 @@ To review the landing page configuration, go to **[!UICONTROL Administration]** 
 The account string identifies the Adobe Journey Optimizer B2B Edition instance that is hosting the landing pages. Make sure that your Systems team adds and configures the DNS entry.
 
 ### Form prefill {#form-prefill}
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_form_prefill"
@@ -54,10 +56,12 @@ Enable the **[!UICONTROL Form prefill]** option to allow forms within your landi
 
 ### Datastream {#datastream}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_datastream"
 >title="Datastream requirement"
 >abstract="Datastream is needed to collect page events from the landing pages on this domain."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
@@ -68,10 +72,12 @@ Set the **[!UICONTROL Datastream]** option to configure a datastream for landing
 
 ## Subdomains {#add-subdomain}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_add_subdomain"
 >title="Add landing page subdomain"
 >abstract="You can add a maximum of 50 subdomains. Set up a new subdomain for each unique brand URL that you want to host on Adobe Journey Optimizer B2B Edition."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_configure_subdomain"

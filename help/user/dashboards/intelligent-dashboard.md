@@ -55,6 +55,7 @@ To make use of the information and insights provided by the Intelligent Dashboar
 
 ## Buying group stages {#buying-group-stages}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Buying group stages"
@@ -98,15 +99,18 @@ Click the _Filter_ ( ![Edit icon](../assets/do-not-localize/icon-filter.svg) ) i
 
 ## Buying group highlights {#buying-group-highlights}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
 >title="Top 5 buying groups by engagement"
 >abstract="Top engaged buying groups based on their normalized engagement score."
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_velocity"
 >title="Top 5 High velocity buying groups"
 >abstract="Buying groups based on the velocity with which they are progressing through stages."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_stagnant"
@@ -158,6 +162,7 @@ Use the date filter at the top right to change the date range for the data visua
 
 ## Surging accounts {#account-surge}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_surge"
 >title="Account surge"
@@ -197,10 +202,12 @@ Use the date filter at the top right to change the date range for the data visua
 
 ## Account highlights {#account-highlights}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
 >title="Surging accounts"
 >abstract="Accounts with significant increase in engagement momentum in the selected time frame "
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_at_risk"
@@ -252,6 +259,7 @@ Use the date filter at the top right to change the date range for the data visua
 
 ## Contact coverage {#contact-coverage}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_coverage"
 >title="Contact coverage"
@@ -283,6 +291,7 @@ Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) )
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
 ## Contact overlap {#contact-overlap}
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"

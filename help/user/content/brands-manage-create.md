@@ -79,6 +79,7 @@ You can set any published (_Live_) brand as the default brand. On the brand card
 
 ## Create and define a brand {#create-brand}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="Create your brand"
@@ -237,6 +238,7 @@ You can proceed to refine the [writing style](#writing-style) or [visual content
 
 ### Writing style {#writing-style}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Writing style alignment score"
@@ -280,6 +282,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 -->
 
 ### Visual content {#visual-content}
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"

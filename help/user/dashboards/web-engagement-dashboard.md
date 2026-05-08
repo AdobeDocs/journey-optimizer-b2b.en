@@ -49,6 +49,7 @@ Select as many values for each attribute that you want to use to filter the data
 
 ## [!UICONTROL Top page views] {#top-page-views}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_top_page_views"
 >title="Top page views"
@@ -67,6 +68,7 @@ This table displays the top 10 most viewed web pages, helping you identify which
 
 ## [!UICONTROL Page views by account region] {#page-views-by-region}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_region"
 >title="Page views by account region"
@@ -80,6 +82,7 @@ This visualization displays visitor counts segmented by the account region. It i
 ![Page views by account region](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
 
 ## [!UICONTROL Page views by account industry] {#page-views-by-industry}
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_industry"

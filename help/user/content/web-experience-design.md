@@ -73,6 +73,7 @@ In the web experience properties, use the **[!UICONTROL Visual editor]** option 
 
 ## Visual editor {#visual-editor}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_browse"
 >title="Use the Browse mode"
@@ -285,6 +286,7 @@ The `<head>` element is commonly used to add JavaScript or CSS code to the top o
 1. (Optional) Click **[!UICONTROL Add personalization]** and use the [personalization editor](./personalization.md#personalization-editor) to create a customized personalization for the content.
 
 ## Manage modifications {#manage-modifications}
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_modifications"

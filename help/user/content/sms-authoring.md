@@ -140,6 +140,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
 ### Simulate the text message content {#preview-test}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Check how your content is rendering"

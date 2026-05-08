@@ -27,10 +27,12 @@ autotag-review: '2026-03-30T21:50:39.165Z'
 ---
 # Use brands for content generation and consistency {#brands}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Get started with brands"
 >abstract="Create and customize your brands to define your unique visual and verbal identity while making it easier to generate content that matches your brand style and voice."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
