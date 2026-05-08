@@ -40,6 +40,7 @@ Before you initiate a dataflow from Journey Optimizer B2B Edition, you must have
 
 ## Configure a new LinkedIn account connection {#linkedin-destination-setup}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
 >title="LinkedIn destination setup is required"

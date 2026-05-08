@@ -36,6 +36,7 @@ To use Marketo Engage journey actions, an administrator first creates a [custom 
 
 ## Configure a Marketo Engage connection {#external-marketo-configure}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_marketo-configure-connections"
 >title="External Marketo Engage connections"

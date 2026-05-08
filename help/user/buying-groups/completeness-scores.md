@@ -20,6 +20,7 @@ autotag-review: '2026-03-30T21:41:28.711Z'
 ---
 # Completeness scores {#completeness-scores}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_completeness_score"
 >title="Completeness score"
@@ -74,6 +75,7 @@ The buying group completeness score is available to use for filtering in [journe
 -->
 
 ## Role completeness calculation {#role-completeness-calculation}
+
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_role_completeness_calculation"

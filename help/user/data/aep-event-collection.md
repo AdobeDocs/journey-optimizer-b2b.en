@@ -30,6 +30,7 @@ autotag-review: '2026-03-30T22:50:51.165Z'
 ---
 # Configure datastreams for event collection {#aep-datstreams}
 
+
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_subdomain_datastream_id"
 >title="Subdomain datastream ID"
