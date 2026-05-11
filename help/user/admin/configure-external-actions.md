@@ -127,7 +127,7 @@ An action must be configured and activated before marketers can use it in a jour
 
 ### Troubleshooting {#troubleshooting}
 
-When you enter the URL to the OpenAPI specification for your external service and click **[!UICONTROL Create]**, the system performs validation of the service. When it encounters an error, the dialog displays a message to describe the error and a suggestion for resolving it.
+When you enter the URL to the OpenAPI specification for your external service and click **[!UICONTROL Create]**, the system performs validation of the service. When it encounters an error, the dialog displays a message to describe the error.
 
 ![External action URL service validation error message](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
 
