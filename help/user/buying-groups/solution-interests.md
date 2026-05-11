@@ -4,6 +4,22 @@ description: Create solution interests for target products, automate buying grou
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+subfeature_v2:
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+    internal-label: Solution Interests
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+autotag-review: '2026-03-30T21:38:19.586Z'
 ---
 # Solution interests
 

@@ -5,6 +5,31 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
+  - id: a7692144-1dc6-426f-b00f-fe187797f61d
+    internal-label: Deliverability
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
+autotag-review: '2026-03-30T22:30:57.478Z'
 ---
 # Review the spam report
 

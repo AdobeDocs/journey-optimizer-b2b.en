@@ -4,6 +4,31 @@ description: Configure Experience Platform B2B namespaces and schemas for Journe
 feature: Setup, Data Management
 role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+  - id: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+    internal-label: Real-Time Customer Data Platform B2B Edition
+feature_v2:
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+topic_v2:
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
+autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # B2B Namespaces and schemas
 

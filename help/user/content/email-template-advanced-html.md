@@ -5,6 +5,22 @@ feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Advanced HTML mode for email template design
 
