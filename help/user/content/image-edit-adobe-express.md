@@ -25,7 +25,8 @@ level_v2:
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
     internal-label: Content and assets
-autotag-review: '2026-03-30T21:58:42.309Z'
+autotag-review: 2026-03-30T21:58:42.309Z
+TQID: https://experienceleague.adobe.com/-U1lp9chaRnq7nEKin-YnJUMYJbHQ8Q3KtF-PvaGwhA
 ---
 # Edit images with Adobe Express {#edit-images-adobe-express}
 

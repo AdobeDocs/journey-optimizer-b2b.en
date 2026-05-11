@@ -14,11 +14,6 @@ feature_v2:
     internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-    internal-label: 'Assets '
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +25,8 @@ topic_v2:
     internal-label: Governance
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-autotag-review: '2026-03-30T22:38:14.175Z'
+autotag-review: 2026-03-30T22:38:14.175Z
+TQID: https://experienceleague.adobe.com/xcGhfHeUuvmdsUws17Kpb7w3HmM7LaB3C633HiicmJ0
 ---
 # Work with Experience Manager assets
 

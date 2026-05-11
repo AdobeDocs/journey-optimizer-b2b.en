@@ -18,9 +18,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-autotag-review: '2026-03-30T21:45:20.382Z'
+autotag-review: 2026-03-30T21:45:20.382Z
+TQID: https://experienceleague.adobe.com/qHzxSCz9m5JzAbc6g0v2y5m4nXs7O2-TALzA-PjA3GE
 ---
-
 # Create buying groups
 
 After the buying group is created, it is available for use in an account journey through the [solution interest](./solution-interests.md).

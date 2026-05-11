@@ -12,9 +12,6 @@ feature_v2:
     internal-label: Buying Groups
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
     internal-label: Administration
-subfeature_v2:
-  - id: d5e018de-9479-48a8-96a8-176c73166631
-    internal-label: Engagement
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -23,7 +20,8 @@ topic_v2:
     internal-label: Administration
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-autotag-review: '2026-03-27T23:14:34.224Z'
+autotag-review: 2026-03-27T23:14:34.224Z
+TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
 ---
 # Configure custom engagement score weighting
 

@@ -26,7 +26,8 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: '2026-03-27T23:16:47.648Z'
+autotag-review: 2026-03-27T23:16:47.648Z
+TQID: https://experienceleague.adobe.com/SCUDOEQRJb1cx-zj1oC2Qac4tPyZZg2l130MO5ds-DQ
 ---
 # Configure Experience Manager asset repositories
 

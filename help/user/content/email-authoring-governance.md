@@ -10,11 +10,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-    internal-label: Templates
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,7 +18,8 @@ topic_v2:
     internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-autotag-review: '2026-03-30T22:35:16.900Z'
+autotag-review: 2026-03-30T22:35:16.900Z
+TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
 ---
 # Author from a governed template
 

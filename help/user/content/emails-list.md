@@ -12,9 +12,6 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,7 +21,8 @@ level_v2:
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-autotag-review: '2026-03-30T22:28:57.542Z'
+autotag-review: 2026-03-30T22:28:57.542Z
+TQID: https://experienceleague.adobe.com/mx0dF-BCApRTQ4KnMr-KnXHq27tWZa2oh-l9qFRLqlI
 ---
 # Emails
 

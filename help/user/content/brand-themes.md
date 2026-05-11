@@ -15,9 +15,6 @@ feature_v2:
     internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: a509712a-4df0-4095-9c79-78116d8e3311
-    internal-label: Brand Themes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +24,8 @@ level_v2:
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
     internal-label: Content and assets
-autotag-review: '2026-03-30T21:49:24.359Z'
+autotag-review: 2026-03-30T21:49:24.359Z
+TQID: https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY
 ---
 # Use brand themes for email content {#email-brand-themes}
 

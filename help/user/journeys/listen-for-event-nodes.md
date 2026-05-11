@@ -10,11 +10,6 @@ product_v2:
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-    internal-label: Account Journeys
-  - id: d0031543-532c-4a26-8f90-01af2b91e6d0
-    internal-label: Event Triggers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,7 +19,8 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: '2026-03-30T23:08:46.228Z'
+autotag-review: 2026-03-30T23:08:46.228Z
+TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
 ---
 # Listen for an event
 

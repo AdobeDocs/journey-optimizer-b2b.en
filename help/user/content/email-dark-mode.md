@@ -13,9 +13,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +24,8 @@ topic_v2:
     internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
     internal-label: Content production
-autotag-review: '2026-03-30T22:06:55.168Z'
+autotag-review: 2026-03-30T22:06:55.168Z
+TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
 ---
 # Dark mode for email content {#dark-mode}
 

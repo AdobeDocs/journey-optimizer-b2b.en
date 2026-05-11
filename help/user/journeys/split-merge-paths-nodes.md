@@ -11,9 +11,6 @@ product_v2:
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
-subfeature_v2:
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-    internal-label: Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,7 +22,8 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: '2026-03-30T23:10:13.939Z'
+autotag-review: 2026-03-30T23:10:13.939Z
+TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
 ---
 # Split and merge paths
 

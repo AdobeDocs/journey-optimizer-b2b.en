@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe Target] External Audiences'
+title: "[!DNL Adobe Target] External Audiences"
 description: Activate external audiences to [!DNL Adobe Target] through account journeys. Personalize B2B web experiences and maintain cross-platform consistency.
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
@@ -29,7 +29,8 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-autotag-review: '2026-03-30T19:48:50.374Z'
+autotag-review: 2026-03-30T19:48:50.374Z
+TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
 ---
 # [!DNL Adobe Target] external audiences
 

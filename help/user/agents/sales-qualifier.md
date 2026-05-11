@@ -4,7 +4,7 @@ description: Automate B2B prospect qualification and outreach with Sales Qualifi
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
-autotag-review: '2026-03-30T15:10:20.350Z'
+autotag-review: 2026-03-30T15:10:20.350Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -15,9 +15,6 @@ feature_v2:
     internal-label: Sales Experience
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
     internal-label: Intelligent Insights
-subfeature_v2:
-  - id: d918a333-f043-4717-886b-aefeef1f8267
-    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,6 +23,7 @@ topic_v2:
     internal-label: Insights
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
+TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
 ---
 # Sales Qualifier
 
