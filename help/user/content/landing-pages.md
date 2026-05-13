@@ -11,9 +11,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,7 +20,8 @@ level_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-autotag-review: '2026-03-30T21:57:18.444Z'
+autotag-review: 2026-03-30T21:57:18.444Z
+TQID: https://experienceleague.adobe.com/vrsWEm-DjB2IuI4ghEBKhQAlbYRgnWgddPCDV4a2mmI
 ---
 # Landing pages
 

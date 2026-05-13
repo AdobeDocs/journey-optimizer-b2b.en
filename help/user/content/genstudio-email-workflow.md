@@ -19,9 +19,6 @@ feature_v2:
     internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +30,8 @@ topic_v2:
     internal-label: Personalization
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
     internal-label: Content production
-autotag-review: '2026-03-30T22:24:40.416Z'
+autotag-review: 2026-03-30T22:24:40.416Z
+TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ
 ---
 # Email content creation with GenStudio for Performance Marketing {#genstudio-workflow}
 

@@ -21,7 +21,8 @@ topic_v2:
     internal-label: Digital asset management
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-autotag-review: '2026-03-30T23:05:00.531Z'
+autotag-review: 2026-03-30T23:05:00.531Z
+TQID: https://experienceleague.adobe.com/3gCGyaNUShU2ZHvIqc4FwsH7floQjrSy9fcdfevRYlE
 ---
 # User onboarding guidance 
 

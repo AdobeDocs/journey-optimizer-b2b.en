@@ -14,9 +14,6 @@ feature_v2:
     internal-label: Sales Experience
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
     internal-label: Integrations
-subfeature_v2:
-  - id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
-    internal-label: CRM integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,7 +22,8 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-03-30T21:40:22.011Z'
+autotag-review: 2026-03-30T21:40:22.011Z
+TQID: https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs
 ---
 # In-CRM Insights
 

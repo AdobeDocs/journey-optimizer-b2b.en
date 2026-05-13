@@ -13,9 +13,6 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
-subfeature_v2:
-  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,7 +28,8 @@ topic_v2:
     internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-autotag-review: '2026-03-30T22:02:23.111Z'
+autotag-review: 2026-03-30T22:02:23.111Z
+TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
 ---
 # Single-page applications
 

@@ -13,9 +13,6 @@ feature_v2:
     internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
     internal-label: AI Assistant
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-    internal-label: Agentic AI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +24,8 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-04-29T23:21:59.633Z'
+autotag-review: 2026-04-29T23:21:59.633Z
+TQID: https://experienceleague.adobe.com/nLvepx6T0xVR0KZqO-8zRgf2z63sJtGJLCVCCpYoNYk
 ---
 # Use AI Assistant in Journey Optimizer B2B Edition
 

@@ -10,9 +10,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,7 +23,8 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-autotag-review: '2026-03-30T22:36:27.982Z'
+autotag-review: 2026-03-30T22:36:27.982Z
+TQID: https://experienceleague.adobe.com/yOvuidpHGmO0jnf8X0PeWDORJyFf2c8QWnqY9epK0nE
 ---
 # Add Custom CSS for your content
 

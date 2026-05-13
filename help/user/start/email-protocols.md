@@ -12,9 +12,6 @@ feature_v2:
     internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
     internal-label: Administration
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -26,7 +23,8 @@ topic_v2:
     internal-label: Implementation
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-autotag-review: '2026-03-30T23:06:01.153Z'
+autotag-review: 2026-03-30T23:06:01.153Z
+TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
 ---
 # Setup for email tracking and delivery
 

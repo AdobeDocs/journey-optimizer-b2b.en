@@ -13,16 +13,14 @@ feature_v2:
     internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
-subfeature_v2:
-  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-    internal-label: Web channel
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: '2026-03-27T22:50:39.828Z'
+autotag-review: 2026-03-27T22:50:39.828Z
+TQID: https://experienceleague.adobe.com/Ktrp5S1Q4IcjblT83CVlihkuU-gb5sWnRmzCGy9QKCA
 ---
 # Landing page configuration
 

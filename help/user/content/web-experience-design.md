@@ -13,9 +13,6 @@ feature_v2:
     internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
     internal-label: Generative AI
-subfeature_v2:
-  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +27,8 @@ topic_v2:
     internal-label: Insights
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-autotag-review: '2026-04-29T23:47:13.174Z'
+autotag-review: 2026-04-29T23:47:13.174Z
+TQID: https://experienceleague.adobe.com/8L1-UpqqSPlLqMwUpwOgOMT4cDzc55tua87M8-X1dKk
 ---
 # Web experience design
 

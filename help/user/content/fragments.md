@@ -10,11 +10,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: e1663313-7961-4100-bea9-fa9f4edf8493
-    internal-label: Fragments
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,7 +19,8 @@ level_v2:
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-autotag-review: '2026-03-30T22:25:36.421Z'
+autotag-review: 2026-03-30T22:25:36.421Z
+TQID: https://experienceleague.adobe.com/uSnmvOt0QVY4GbYxIfC0byCqvCZO8F4rMHmyoo3zIJ0
 ---
 # Fragments
 

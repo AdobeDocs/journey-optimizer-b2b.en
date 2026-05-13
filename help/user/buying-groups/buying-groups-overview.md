@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-03-30T21:43:13.945Z'
+autotag-review: 2026-03-30T21:43:13.945Z
+TQID: https://experienceleague.adobe.com/OaEehWYLH-z7YPbwhw-sppBWnKS9T8XoropQV4M46Wo
 ---
-
 # Buying groups
 
 For B2B sales and marketing activities, accounts are key to any strategy. Each account has a group of people associated with it, and these people may be employees of the account or contractors who work with the account. Accounts are hierarchical, and different products might be sold at different levels in the hierarchy. For example, Adobe Experience Platform might be sold at the corporate level to a top-level account. And Adobe Photoshop might be sold to an account that represents a division or department within an organization, such as a design department within a larger corporation.

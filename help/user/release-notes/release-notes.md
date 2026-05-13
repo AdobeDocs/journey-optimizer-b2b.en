@@ -22,7 +22,8 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: '2026-03-30T22:58:45.043Z'
+autotag-review: 2026-03-30T22:58:45.043Z
+TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
 ---
 # Journey Optimizer B2B Edition release notes
 

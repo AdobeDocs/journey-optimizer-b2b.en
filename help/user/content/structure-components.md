@@ -10,9 +10,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,7 +19,8 @@ level_v2:
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
     internal-label: Experience design
-autotag-review: '2026-03-30T22:18:21.301Z'
+autotag-review: 2026-03-30T22:18:21.301Z
+TQID: https://experienceleague.adobe.com/HuQTfczlpI3Iw9laE3rp-ndKPUHtHFNW9D7sa02Y50M
 ---
 # Structure components {#structure-components}
 
