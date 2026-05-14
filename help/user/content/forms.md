@@ -273,7 +273,7 @@ CHanges to a form depend on its current status:
 
    A preview of the draft version form content is displayed, with the form details on the right.
 
-   ![Edit the from draft verion](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
+   ![Edit the form draft version](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Edit form]** in the _[!UICONTROL Summary]_ pane on the right and use the visual design tools as needed:
 
