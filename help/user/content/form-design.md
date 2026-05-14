@@ -138,7 +138,7 @@ You can move form fields directly in the visual workspace. Click the _Move_ tool
 
 Add structural components to the form and move fields into columns to group them and change the layout. Click the _Move_ tool on the left edge of the selected column component and drag it to a new location within the form.
 
-![Move fields in the form and use structural components for grouping and layput](./assets/form-field-move-tool.png){width="500"}
+![Move fields in the form and use structural components for grouping and layout](./assets/form-field-move-tool.png){width="500"}
 
 ### Delete or duplicate a field {#field-delete-duplicate}
 
