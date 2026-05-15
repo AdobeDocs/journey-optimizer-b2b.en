@@ -10,9 +10,6 @@ product_v2:
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
     internal-label: Buying Groups
-subfeature_v2:
-  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
-    internal-label: Roles Template
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,7 +19,8 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-03-30T21:44:30.589Z'
+autotag-review: 2026-03-30T21:44:30.589Z
+TQID: https://experienceleague.adobe.com/myDmqkwFIDUN6R0RKvbQX3nrnQPfDx4KcgZAmzGSte8
 ---
 # Default and custom roles
 

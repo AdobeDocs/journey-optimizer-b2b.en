@@ -23,7 +23,8 @@ topic_v2:
     internal-label: Personalization
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-autotag-review: '2026-03-30T19:50:18.033Z'
+autotag-review: 2026-03-30T19:50:18.033Z
+TQID: https://experienceleague.adobe.com/JvPzSX83WY7Edws8IMHseCSwqFR4Ro-jy-UO-WvRgDc
 ---
 # Account audiences
 

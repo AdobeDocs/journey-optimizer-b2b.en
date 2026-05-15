@@ -19,7 +19,8 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: '2026-03-27T22:47:43.575Z'
+autotag-review: 2026-03-27T22:47:43.575Z
+TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
 ---
 # User access and permissions
 

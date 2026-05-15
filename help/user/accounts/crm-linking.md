@@ -23,7 +23,8 @@ topic_v2:
     internal-label: Insights
   - id: addf009e-030a-4310-8534-776a3e62ed48
     internal-label: Customer lifecycle
-autotag-review: '2026-03-27T22:24:19.286Z'
+autotag-review: 2026-03-27T22:24:19.286Z
+TQID: https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0
 ---
 # In-CRM access to detail pages
 

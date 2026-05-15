@@ -10,11 +10,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-    internal-label: Web forms
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,7 +21,8 @@ topic_v2:
     internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-autotag-review: '2026-03-30T22:15:18.544Z'
+autotag-review: 2026-03-30T22:15:18.544Z
+TQID: https://experienceleague.adobe.com/xUMPdHtj6Z4LQjGZm-R0QtJXoEXkXbbl3L49ysIZBo0
 ---
 # Form design
 
@@ -155,7 +151,7 @@ You can move form fields directly in the visual workspace. Click the _Move_ tool
 
 Add structural components to the form and move fields into columns to group them and change the layout. Click the _Move_ tool on the left edge of the selected column component and drag it to a new location within the form.
 
-![Move fields in the form and use structural components for grouping and layout](./assets/form-field-move-tool.png){width="500" zoomable="yes"}
+![Move fields in the form and use structural components for grouping and layout](./assets/form-field-move-tool.png){width="500"}
 
 ### Delete or duplicate a field {#field-delete-duplicate}
 

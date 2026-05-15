@@ -11,9 +11,6 @@ product_v2:
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
     internal-label: Intelligent Insights
-subfeature_v2:
-  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
-    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,7 +22,8 @@ topic_v2:
     internal-label: Insights
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-autotag-review: '2026-03-30T22:41:52.137Z'
+autotag-review: 2026-03-30T22:41:52.137Z
+TQID: https://experienceleague.adobe.com/Uq-9dwXH-k9Y0jmVDXoSfI29i-8gw384J8dXTG07EZk
 ---
 # Web engagement dashboard
 

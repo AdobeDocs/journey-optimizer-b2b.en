@@ -23,7 +23,8 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
     internal-label: Content strategy
-autotag-review: '2026-03-30T21:55:06.504Z'
+autotag-review: 2026-03-30T21:55:06.504Z
+TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
 ---
 # Create and manage your brands {#brand-library}
 

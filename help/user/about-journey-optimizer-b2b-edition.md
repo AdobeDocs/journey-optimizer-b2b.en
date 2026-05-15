@@ -2,7 +2,7 @@
 title: Adobe Journey Optimizer B2B Edition Overview
 description: Learn about Adobe Journey Optimizer B2B Edition - orchestrate account journeys with buying groups, AI insights, and Experience Platform integration for B2B marketing.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-autotag-review: '2026-04-29T23:21:13.339Z'
+autotag-review: 2026-04-29T23:21:13.339Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -18,6 +18,7 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
+TQID: https://experienceleague.adobe.com/L58cK4MP-S-8U9fFiXU2qZn4HCieNzjoOaSRCLkyanI
 ---
 # Adobe Journey Optimizer B2B Edition overview
 

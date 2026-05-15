@@ -10,11 +10,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: e1663313-7961-4100-bea9-fa9f4edf8493
-    internal-label: Fragments
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,7 +21,8 @@ topic_v2:
     internal-label: Content reuse
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
     internal-label: Experience design
-autotag-review: '2026-03-30T22:26:28.969Z'
+autotag-review: 2026-03-30T22:26:28.969Z
+TQID: https://experienceleague.adobe.com/mCpO2VPJbZtkGFlIljSZ4Zsx-3cKW38YfX-KmZC4RZ0
 ---
 # Fragment authoring
 

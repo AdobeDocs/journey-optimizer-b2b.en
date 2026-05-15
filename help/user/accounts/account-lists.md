@@ -14,9 +14,6 @@ feature_v2:
     internal-label: Generative AI
   - id: e935834c-48b7-43d8-b754-a815196a1b05
     internal-label: Account lists
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,7 +25,8 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-autotag-review: '2026-04-29T23:21:59.633Z'
+autotag-review: 2026-04-29T23:21:59.633Z
+TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
 ---
 # Account lists
 

@@ -12,9 +12,6 @@ feature_v2:
     internal-label: Buying Groups
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
     internal-label: Intelligent Insights
-subfeature_v2:
-  - id: dd41174d-42f1-4265-98b1-dfe80da860ce
-    internal-label: Buying Group insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,7 +21,8 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-03-30T21:46:01.279Z'
+autotag-review: 2026-03-30T21:46:01.279Z
+TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
 ---
 # Buying group details
 

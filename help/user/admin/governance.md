@@ -20,7 +20,8 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-autotag-review: '2026-03-27T23:18:44.352Z'
+autotag-review: 2026-03-27T23:18:44.352Z
+TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
 ---
 # Governance features
 

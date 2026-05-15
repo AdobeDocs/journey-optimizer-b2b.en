@@ -13,11 +13,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-    internal-label: Design tools
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -29,7 +24,8 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-autotag-review: '2026-03-30T22:05:22.123Z'
+autotag-review: 2026-03-30T22:05:22.123Z
+TQID: https://experienceleague.adobe.com/n--W9LWqVlmHK4y8TI9E-ip4qr5X1xfgKj5pkWd8wJM
 ---
 # Personalization syntax {#personalization-syntax}
 

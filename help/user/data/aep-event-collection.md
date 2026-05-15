@@ -14,9 +14,6 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-    internal-label: Web forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -26,9 +23,10 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-autotag-review: '2026-03-30T22:50:51.165Z'
+autotag-review: 2026-03-30T22:50:51.165Z
+TQID: https://experienceleague.adobe.com/uKN47g2pGEhEv9QV0bbUkI-utUt7DZ0OPnvvG-Y9uKk
 ---
-# Configure datastreams for event collection {#aep-datstreams}
+# Configure datastreams for event collection {#aep-datastreams}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_subdomain_datastream_id"

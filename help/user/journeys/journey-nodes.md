@@ -19,7 +19,8 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: '2026-03-30T23:13:57.315Z'
+autotag-review: 2026-03-30T23:13:57.315Z
+TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
 ---
 # Journey nodes
 

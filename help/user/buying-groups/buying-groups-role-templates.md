@@ -10,16 +10,14 @@ product_v2:
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
     internal-label: Buying Groups
-subfeature_v2:
-  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
-    internal-label: Roles Template
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-autotag-review: '2026-03-30T21:37:51.618Z'
+autotag-review: 2026-03-30T21:37:51.618Z
+TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
 ---
 # Buying group role templates
 

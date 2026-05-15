@@ -14,9 +14,6 @@ feature_v2:
     internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
     internal-label: Integrations
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,7 +25,8 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-autotag-review: '2026-03-30T22:49:08.608Z'
+autotag-review: 2026-03-30T22:49:08.608Z
+TQID: https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ
 ---
 # LinkedIn Account Matched audiences
 

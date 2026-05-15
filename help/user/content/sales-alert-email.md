@@ -12,9 +12,6 @@ feature_v2:
     internal-label: Buying Groups
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
     internal-label: Sales Experience
-subfeature_v2:
-  - id: d918a333-f043-4717-886b-aefeef1f8267
-    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,7 +21,8 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-03-30T22:20:15.181Z'
+autotag-review: 2026-03-30T22:20:15.181Z
+TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldljXzk
 ---
 # Sales alert email
 

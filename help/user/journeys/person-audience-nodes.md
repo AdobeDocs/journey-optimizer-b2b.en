@@ -13,9 +13,6 @@ feature_v2:
     internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
     internal-label: Audiences
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +24,8 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: '2026-03-30T23:13:05.616Z'
+autotag-review: 2026-03-30T23:13:05.616Z
+TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
 ---
 # Person audience journey nodes
 

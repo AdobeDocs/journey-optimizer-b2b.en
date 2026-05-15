@@ -20,16 +20,14 @@ feature_v2:
     internal-label: Administration
   - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
     internal-label: Integrations
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: '2026-03-27T22:58:08.848Z'
+autotag-review: 2026-03-27T22:58:08.848Z
+TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
 ---
 # Select Experience Events and fields
 
