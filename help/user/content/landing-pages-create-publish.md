@@ -16,8 +16,8 @@ As a marketer, you can define and publish pages that you want to incorporate int
 
 Before marketers can create landing pages to support their journeys and campaigns, the following configurations and assets must be in place:
 
-* [Landing page subdomain](../admin/configure-channels-landing-pages.md#subdomains) - Set up a subdomain dedicated to hosting your landing pages.
-* [Landing page preset](../admin/configure-channels-landing-pages.md#presets) - A preset defines the subdomain and other settings applied to your landing pages.
+* [Landing page subdomain](../admin/configure-channels-landing-pages.md#lp-subdomains) - Set up a subdomain dedicated to hosting your landing pages.
+* [Landing page preset](../admin/configure-channels-landing-pages.md#lp-presets) - A preset defines the subdomain and other settings applied to your landing pages.
 * [Form](./forms.md) (for data capture use cases) - Required when you want to embed a form on a landing page and submit data to Experience Platform.
 <!-- * Subscription list (for subscription use cases) - Required if you want customers to subscribe to or unsubscribe from a specific service. This is in AJO B2C-->
 
@@ -269,6 +269,6 @@ When the draft page meets your criteria and you want to make the page available 
 
 When the landing page is published, it is displayed in the landing page list with the **_[!UICONTROL Published]_** status. This means that it is live and ready to be used in an email, SMS, or WhatsApp message sent through a journey.
 
-You cannot access the published landing page by copy-pasting the URL into a web browser. You can test it at any time using the [preview function](#).
+You cannot access the published landing page by copy-pasting the URL into a web browser. You can test it at any time using the [preview function](#test-landing-page).
 
 You can monitor your landing page impacts through specific reports.

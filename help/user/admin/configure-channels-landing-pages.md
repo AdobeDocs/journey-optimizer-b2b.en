@@ -126,7 +126,7 @@ To use a subdomain that is already delegated to Adobe:
 
    The record to be placed in your DNS servers displays.
 
-1. Make sure that DNS record was generated into your domain-hosting solution. 
+1. Make sure that the DNS record was generated into your domain-hosting solution. 
 
    If everything is configured properly, select the confirmation checkbox and click **[!UICONTROL Submit]**.
 
@@ -149,10 +149,12 @@ To use a subdomain that is already delegated to Adobe:
 1. In [!DNL Journey Optimizer], unpublish all the landing pages associated with the subdomain.
 
 1. If the landing page subdomain points to a CNAME record, delete the CNAME record from your hosting solution (do not delete the original email subdomain, if any).
-<!--
+
+   <!--
     >[!NOTE]
     >
-    >A landing page subdomain can point to a CNAME record because it was either an [existing subdomain](#lp-use-existing-subdomain) delegated to Adobe using the [CNAME method](../configuration/delegate-subdomain.md#cname-subdomain-setup), or a [new landing page subdomain](#lp-configure-new-subdomain) that you configured. -->
+    >A landing page subdomain can point to a CNAME record because it was either an [existing subdomain](#lp-use-existing-subdomain) delegated to Adobe using the [CNAME method](../configuration/delegate-subdomain.md#cname-subdomain-setup), or a [new landing page subdomain](#lp-configure-new-subdomain) that you configured. 
+    -->
 
 1. Contact your Adobe representative with the subdomain you want to undelegate.
 
