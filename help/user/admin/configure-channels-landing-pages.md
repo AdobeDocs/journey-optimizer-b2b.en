@@ -51,7 +51,8 @@ A landing page subdomain configuration is **common to all environments**. Theref
 
 * Any modification to a landing page subdomain also impacts the production sandboxes.
 
-<!-- ### Use an existing subdomain {#lp-existing-subdomain}
+<!-- 
+### Use an existing subdomain {#lp-existing-subdomain}
 
 To use a subdomain that is already delegated to Adobe:
 
@@ -157,7 +158,8 @@ To use a subdomain that is already delegated to Adobe:
 
 After Adobe handles your request, the subdomain inventory page no longer displays the undelegated domain.
 
-<!-- old marketo way for Prime?
+<!-- 
+old marketo way for Prime?
 
 A landing page subdomain should help to identify the content type, product name, or campaign, and reinforce the page authenticity. Before you configure the subdomains, define one or more CNAMEs to use for your landing pages. For example:
 

@@ -61,13 +61,15 @@ To search for a landing page by name, enter a text string into the search bar fo
 
 ![Filter the displayed landing pages](./assets/landing-pages-list-filtered.png){width="700" zoomable="yes"}
 
-<!-- This is going away? ### Customize the column display
+<!-- 
+This is going away? ### Customize the column display
 
 Customize the columns that you want to display in the table by clicking the _Customize table_ icon ( ![Customize table icon](../assets/do-not-localize/icon-column-settings.svg) ) at the top right. 
 
 In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
-![Select the columns that you want to display](./assets/landing-pages-customize-table-dialog.png){width="300"} -->
+![Select the columns that you want to display](./assets/landing-pages-customize-table-dialog.png){width="300"} 
+-->
 
 ### Landing page status and lifecycle
 

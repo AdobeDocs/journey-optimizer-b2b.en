@@ -68,8 +68,8 @@ Form fields are used to capture person profile data that can be used to target p
 
 1. Set **[!UICONTROL Field type]** according to the type of data for the field:
 
-   | Field type | Usage | 
-   | ---------- | ----- | 
+   | Field type | Usage |
+   | ---------- | ----- |
    | **[!UICONTROL Checkbox]** | Use this type so that visitors can select a _true_ (checked) or _false_ (unchecked) value. |
    | **[!UICONTROL Checkbox Group]** | Use this type so that visitors can select a _true_ (checked) or _false_ (unchecked) value for multiple items. |
    | **[!UICONTROL Currency]** | Use this type to allow a float field that represents the default currency type selected for the Journey Optimizer B2B Edition instance. |

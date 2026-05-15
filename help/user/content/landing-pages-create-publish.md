@@ -185,7 +185,8 @@ This action copies the content into the visual design space, where you can edit 
 <!-- 
 >[!NOTE]
 >
->Saved templates may have governance (content locking) settings applied to one or more components. The design tools provide guidelines about locked components when you [author content from a governed template](./email-authoring-governance.md). -->
+>Saved templates may have governance (content locking) settings applied to one or more components. The design tools provide guidelines about locked components when you [author content from a governed template](./email-authoring-governance.md). 
+-->
    
 >[!TAB Sample templates]
 
@@ -224,13 +225,13 @@ There are two types of alerts:
 >title="Preview and test your landing page"
 >abstract="After you define your landing page settings and content, use test profiles to preview the page."
 
-When the landing page settings and content are defined, you can use test profiles to preview the page. If you inserted [personalized content](../personalization/personalize.md), you can check how this content is displayed in the landing page, using test profile data.
+When the landing page settings and content are defined, you can use test profiles to preview the page. If you inserted [personalized content](./personalization.md), you can check how this content is displayed in the landing page, using test profile data.
 
 >[!PREREQUISITES]
 >
 >To preview and test landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
 >
->This function requires that there are test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../audience/creating-test-profiles.md).
+>This function requires that there are test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](./email-simulate-content.md#add-people-to-the-profiles-list).
 
 1. Click **[!UICONTROL Preview & test]** to open the test profile selection.
 
@@ -244,7 +245,7 @@ When the landing page settings and content are defined, you can use test profile
 
     <!-- ![](assets/lp_test-profiles.png) -->
 
-    The steps to select test profiles are the same as when testing a message. They are detailed in the [Content Management](../content-management/test-profiles.md) section.
+    The steps to [select test profiles](email-simulate-content.md#add-people-to-the-profiles-list) are the same as when testing an email message.
 
 1. Select **[!UICONTROL Open preview]** to test your landing page.
 
@@ -262,7 +263,9 @@ When the draft page meets your criteria and you want to make the page available 
 >
 >To publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
 
+<!--
 ![](assets/lp_publish.png)
+-->
 
 When the landing page is published, it is displayed in the landing page list with the **_[!UICONTROL Published]_** status. This means that it is live and ready to be used in an email, SMS, or WhatsApp message sent through a journey.
 
