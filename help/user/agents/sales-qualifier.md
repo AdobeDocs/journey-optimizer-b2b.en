@@ -43,24 +43,6 @@ Sales Qualifier is included with [!UICONTROL Journey Optimizer B2B Edition], but
 
 The Account Qualification Agent (AQA) is the heart of the Sales Qualifier. The AQA uses AI to read your accounts and determine which ones are ready for the next step. It assists with research, email drafting, and CRM-informed context when your organization has connected the CRM (read-only).
 
-![AI-powered Account Qualification Agent dashboard for sales prospect and account research](./assets/acc-qualification-agent.png){width="800" zoomable="yes"}
-
-* **Prospect research**
-
-   Conduct prospect research using automatic retrieval and display of key prospect information (such as job title, recent engagements, buying group membership) to provide a complete picture in seconds.
-
-* **Account research**
-
-   Conduct account research using automatic retrieval and display of detailed information about a prospect's organization. This information includes company vitals, recent news, strategic priorities, and top engaged members.
-
-* **Draft emails**
-
-    Generate email drafts by synthesizing research from prospect and account insights to produce relevant, personalized single email content based on the BDR objective.
-
-* **Engagement plan emails**
-
-    Create engagement plan email drafts that are personalized for each step of a BDR-defined outreach cadence, ensuring the entire sequence is personalized.
-
 <!--
 ## Edit the left navigation bar
 
@@ -73,17 +55,15 @@ Adobe AI agents use _natural language queries_, which means that they use the sa
 
 Using natural language, you can ask the agent to:
 
-* `Show me my assigned leads with no engagement yet`
-* `Show me all my leads that are not part of any autonomous engagement`
-* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
+* `Tell me the latest financial results of Bodea`
+* `Tell me more about hiring at TechNova`
+* `Tell me about the new AI features in Bodea LumaSecure4`
 
-You can immediately understand which accounts and leads are the most active and show the highest intent, so you can focus your energy where it has the most impact.
+Iterate your outbound workflows by refining your prompts to get the results you need. For example:
 
-Iterate over your journey by refining your prompts to get the results you need. For example:
+* _Draft a follow-up email drawing from context like earnings calls or reports._ Up to 120 words. Subject line: Captivating, incorporating a key theme. Intro: Hook with a direct quote from context sources. Body: Connect to pain points and value propositions. CTA: Propose a short call to explore further._
 
-* _Draft a follow-up email drawing from context like earnings calls or reports. Up to 120 words. Subject line: Captivating, incorporating a key theme. Intro: Hook with a direct quote from context sources. Body: Connect to pain points and value propositions. CTA: Propose a short call to explore further._
-
-* _The goal of this email is to start a conversation and build credibility. Draft an email under 120 words that has a consultative and empathetic tone. Make sure to avoid an overly familiar or sales approach and do not use the phrases "hope you are well," "just checking in," or "please."_
+* _The goal of this email is to start a conversation and build credibility._ Draft an email under 120 words that has a consultative and empathetic tone. Make sure to avoid an overly familiar or sales approach and do not use the phrases "hope you are well," "just checking in," or "please."_
 
 ### Product access and user groups
 
@@ -115,21 +95,6 @@ Select **[!UICONTROL Prospects]** in the left navigation to view a list of all t
 ![Prospects table displaying lead status and last activity for prospect management](./assets/prospects.png){width="800" zoomable="yes"}
 
 Click the _Filter_  ![Filter icon](../../assets/do-not-localize/icon_filter-outline.svg) icon to filter the displayed list by lead status. 
-
-<!--
-## Engagement plans
-
-This window provides details about any defined Engagement plans.
-
-![Engagement plan dashboard showing plan details, selected leads, and schedule settings](assets/engagement-plans.png)
-
-To make a new Engagement plan, click **[!UICONTROL Create engagement plan]**.
-
-1. In the _Details_ stage, provide a name and optional description. Click **[!UICONTROL Save and Continue]**.
-1. In the _Select prospects_ stage, select the leads that should belong in this plan.
-1. In the _Define cadence_ stage, set the parameters for the plan.
-1. In the _Preview_ stage, ensure that everything is working as expected.
--->
 
 ## Outbound workflows
 
@@ -168,7 +133,7 @@ The following sections describe the full lifecycle: creating a workflow in the w
 
 ### Create an outbound workflow
 
-Workflow creation is a five-step wizard: **Goal**, **Targeting**, **Generate touchpoints**, **Settings**, and **Add prospects**. Each step builds on the last, with the goal you define first shaping every later decision.
+Workflow creation is a five-step wizard: **Goal**, **Targeting**, **Generate touchpoints**, **Settings**, and **Add prospects**. Each step builds on the last; your initial goal shapes every subsequent decision.
 
 1. In the left navigation, select **[!UICONTROL Outbound workflow]**.
 
@@ -190,7 +155,7 @@ Goals work best when they state a **concrete outcome**, not only a topic. For ex
 
 #### Step 2: Configure targeting filters
 
-Targeting filters define which prospects are eligible. When you add prospects later, only those who match these filters appear in the selection list.
+Targeting filters define which prospects are eligible. When you add prospects later, only those prospects who match these filters appear in the selection list.
 
 1. Click the down arrow to display the **[!UICONTROL Add a filter]** list and select a filter to apply.
 
@@ -210,7 +175,7 @@ After targeting is set, the AI builds the **_cadence_**: it analyzes your goal a
 
 ![Outbound workflow generated touchpoint cadence and prompts](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"} 
 
-Expand an email touchpoint to read its prompt, which is the instruction the AI follows when writing each prospect's actual email (tone, length, focus, and call to action).
+Expand an email touchpoint to read its prompt. This instruction guides the AI when writing each prospect's email, including tone, length, focus, and call to action.
 
 **Regenerate the cadence**
 
@@ -314,7 +279,7 @@ Approval activates the cadence for a prospect. Until a prospect is approved and 
 
 ![Outbound workflow select and approve prospects](./assets/outbound-workflow-create-approve-enroll-prospects.png){width="700" zoomable="yes"}
 
-Approved emails queue to send during the workflow **send window**, in the configured **timezone**, on each touchpoint's scheduled day relative to enrollment. Prospects you do not approve remain in **[!UICONTROL Ready for Review]** until you act. After approval, the workflow runs according to the cadence you defined.
+Approved emails send during the workflow **send window** in the configured **timezone**, on each touchpoint's scheduled day relative to enrollment. Prospects you do not approve remain in **[!UICONTROL Ready for Review]** until you act. After approval, the workflow runs according to the cadence you defined.
 
 ### Manage existing workflows
 
@@ -323,10 +288,10 @@ On the _[!UICONTROL Outbound workflow]_ page, the **[!UICONTROL Browse]** tab li
 ### Outbound workflow best practices
 
 * **Invest in the goal.** Downstream targeting, cadence, and emails all trace back to the goal. Specific, outcome-focused goals outperform vague ones.
-* **Finalize touchpoint prompts before per-prospect generation.** After bulk generation, changes are typically made one prospect at a time.
+* **Finalize touchpoint prompts before per-prospect generation.**** After bulk generation, changes are typically made one prospect at a time.
 * **Use Reasoning as a quality check.** If the wrong signal is emphasized—or an obvious one is missing—edit the email or revisit the touchpoint prompt and regenerate the cadence.
-* **Match the editing tool to the change.** Direct edits for wording and tone; **[!UICONTROL Generate with AI]** for restructuring or reframing.
-* **Approve only what you have reviewed.** Expand touchpoints, read the content, and refine where needed before enrollment.
+* **Match the editing tool to the change.**** Direct edits for wording and tone; **[!UICONTROL Generate with AI]** for restructuring or reframing.
+* **Approve only what you have reviewed.**** Expand touchpoints, read the content, and refine where needed before enrollment.
 
 ## Email outbox
 
@@ -349,7 +314,7 @@ You can interact with clients, and see summaries for the contact and the thread 
 
 ## Tasks
 
-The _Tasks_ area in Sales Qualifier gives Business Development Representatives (BDRs) a dedicated space to manage and process their outbound workflow actions. Tasks are generated automatically by the outbound workflow engine and represent the specific actions a BDR needs to take with each prospect — phone calls, LinkedIn InMails, and email reviews.
+The _Tasks_ area in Sales Qualifier gives Business Development Representatives (BDRs) a dedicated space to manage and process their outbound workflow actions. The outbound workflow engine automatically generates tasks that represent the specific actions a BDR needs to take with each prospect — phone calls, LinkedIn InMails, and email reviews.
 
 The task management experience is designed as a **processing queue**, not just a to-do list. You can open a task, take action, mark it complete, and move to the next one — all without leaving the page.
 
@@ -369,7 +334,7 @@ All tasks are tied to outbound workflow steps. There are three types:
 
 **LinkedIn InMail** — Created when a sequence reaches a LinkedIn InMail step. The task panel shows suggested InMail content that you can copy and send outside the product.
 
-**Email Review** — Created once the system finishes generating personalized emails for a prospect enrolled in a workflow. You review and approve the emails before outbound begins for that prospect. Each prospect gets a separate Email Review task; if you enroll 10 prospects in a workflow, you'll see up to 10 Email Review tasks as generation completes.
+**Email Review** — Created once the system finishes generating personalized emails for a prospect enrolled in a workflow. You review and approve the emails before outbound begins for that prospect. Each prospect gets a separate Email Review task; if you enroll 10 prospects in a workflow, you see up to 10 Email Review tasks as generation completes.
 
 ### Task management
 
@@ -394,13 +359,11 @@ For Phone Call and LinkedIn InMail tasks, an inline notes field is available in 
 
 Use the following actions to manage your tasks:
 
-* **[!UICONTROL Mark Complete]** - The primary action. Use this after you've executed the task — made the call, sent the InMail, or reviewed and approved the emails. On completion, the task is recorded as **Completed** and the queue advances automatically.
+* **[!UICONTROL Mark Complete]** - The primary action. Use this action after you've executed the task — made the call, sent the InMail, or reviewed and approved the emails. On completion, the task is recorded as **Completed** and the queue advances automatically.
 
-* **[!UICONTROL Skip Touchpoint]** - Available from the overflow menu in the work panel. Use this when you can't complete this specific step but the prospect is still a valid target and should remain in the workflow.
-
-   When you skip a touchpoint:
+* **[!UICONTROL Skip Touchpoint]** - Available from the overflow menu in the work panel. Use this option when you cannot complete this step, but the prospect remains a valid target in the workflow.
    * The prospect advances to the next step in the sequence. Future tasks still generate on schedule.
-   * You must select a reason: *Bad contact info*, *Bad timing*, *Content not relevant*, or *Other* (with a freetext field).
+   * Select a reason: *Bad contact info*, *Bad timing*, *Content not relevant*, or *Other* (with a freetext field).
    * The task status is set to **Skipped** and logged with the reason and timestamp.
    * If this was the last step in the workflow, the prospect's workflow run ends. The task is still logged as Skipped (not Removed).
 
@@ -409,13 +372,13 @@ Use the following actions to manage your tasks:
    When you remove a prospect from a workflow:
    * All pending and future tasks for that prospect within this workflow are cancelled.
    * The prospect's enrollment status changes to **Removed by BDR**.
-   * You must select a reason: *Left company*, *Duplicate*, *Wrong fit*, *Already converted*, or *Other* (with a text field).
-   * A confirmation dialog appears: *"This will cancel all remaining touchpoints for [Prospect] in [Workflow Name]. Continue?"*
+   * Select a reason: *Left company*, *Duplicate*, *Wrong fit*, *Already converted*, or *Other* (with a text field).
+   * A confirmation dialog appears: *"This action will cancel all remaining touchpoints for [Prospect] in [Workflow Name]. Continue?"*
    * The task status is set to **Removed**. All cancelled sibling tasks are also marked **Removed**.
 
 >[!NOTE]
 >
->Skip and Remove reason data feeds into analytics — skip rate by channel, removal rate by workflow, and top reasons. This helps improve workflow quality and informs performance analysis over time.
+>Skip and Remove reason data informs analytics, including skip rate by channel, removal rate by workflow, and top reasons. This helps improve workflow quality and informs performance analysis over time.
 
 ### Task status
 
@@ -438,9 +401,9 @@ Use the tabs at the top of the task list to switch between views:
 
 * **Today** *(default)* — Tasks due today that haven't been completed.
 
-* **Overdue** — Tasks whose due date has passed and are still open. Address these first.
+* **Overdue** — Tasks whose due date has passed and are still open. Address these tasks first.
 
-* **Upcoming** — Tasks with a future due date where the preceding workflow step has already been completed. These are visible early so you can plan ahead or act sooner if the timing is right (for example, if you're already on a call with a prospect). The scheduled due date is displayed so you know the intended timing.
+* **Upcoming** — Tasks with a future due date where the preceding workflow step has already been completed. These tasks are visible early so you can plan ahead or act sooner if the timing is right (for example, if you're already on a call with a prospect). The scheduled due date is displayed so you know the intended timing.
 
 * **Completed** — A record of tasks you've completed, skipped, or removed. Useful for review and audit purposes.
 
@@ -478,7 +441,7 @@ A task becomes overdue the day after its due date if it hasn't been completed. O
 
 ### Upcoming tasks
 
-Upcoming tasks are created the moment a prospect completes a workflow step, even if the next step due date is still in the future. This gives you early visibility into your pipeline so you can plan ahead or act early when the opportunity arises.
+Upcoming tasks are created the moment a prospect completes a workflow step, even if the next step due date is still in the future. This visibility gives you early insight into your pipeline so you can plan ahead or act early when the opportunity arises.
 
 Upcoming tasks show their scheduled due date, so you always know when they're intended to be addressed. Completing an upcoming task early is fully supported — the workflow engine records the actual completion date and advances the prospect normally.
 
@@ -501,7 +464,7 @@ With integrations, Sales Qualifier can use your CRM so the Account Qualification
 
 >[!IMPORTANT]
 >
->Access to integrations in Sales Qualifier requires membership in the `Sales Qualifier Admins` user group.
+>Accessing integrations in Sales Qualifier requires membership in the `Sales Qualifier Admins` user group.
 
 ### CRM access scope
 
@@ -523,7 +486,7 @@ Work with your CRM administrator before you connect Sales Qualifier. The followi
 
 1. Assign a security role that grants **read** access to the entities Sales Qualifier needs (for example leads, contacts, accounts, opportunities, and activities). 
 
-   Without a role, the app cannot read data.
+   The app requires a security role with read access to read data.
 
 **Information to provide when connecting Dynamics:**
 
@@ -534,7 +497,7 @@ Work with your CRM administrator before you connect Sales Qualifier. The followi
 
 #### Salesforce
 
-In Salesforce, [create an External Client App](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm) (or a _Connected App_) with OAuth enabled and scopes that allow API access to identity and data, following your org's security standards. The integrating user (for example when using a client-credentials style configuration) must have read access to objects such as leads, accounts, contacts, tasks, events, opportunities, and related opportunity objects. Administrative tasks often require a user with **[!UICONTROL Manage Connected Apps]** (among other permissions) to view a consumer key and secret after creation.
+In Salesforce, [create an External Client App](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) (or a _Connected App_) with OAuth enabled and scopes that allow API access to identity and data, following your org's security standards. The integrating user (for example when using a client-credentials style configuration) must have read access to objects such as leads, accounts, contacts, tasks, events, opportunities, and related opportunity objects. Administrative tasks often require a user with **[!UICONTROL Manage Connected Apps]** (among other permissions) to view a consumer key and secret after creation.
 
 >[!PREREQUISITES]
 >
@@ -687,7 +650,7 @@ On the **[!UICONTROL Calendar configuration]** tab, set your time zone and avail
 If you disconnect your calendar:
 
 * Active booking links are effectively disabled.
-* The booking page shows a friendly temporarily unavailable state.
+* The booking page shows a friendly, temporarily unavailable state.
 * Reconnecting preserves settings.
 
 ### Calendar availability
