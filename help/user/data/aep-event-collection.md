@@ -26,7 +26,7 @@ topic_v2:
 autotag-review: 2026-03-30T22:50:51.165Z
 TQID: https://experienceleague.adobe.com/uKN47g2pGEhEv9QV0bbUkI-utUt7DZ0OPnvvG-Y9uKk
 ---
-# Configure datastreams for event collection {#aep-datstreams}
+# Configure datastreams for event collection {#aep-datastreams}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_subdomain_datastream_id"
