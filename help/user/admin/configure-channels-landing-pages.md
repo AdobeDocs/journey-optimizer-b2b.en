@@ -141,21 +141,21 @@ To use a subdomain that is already delegated to Adobe:
 
    When the checks are successful, the subdomain is listed with the _[!UICONTROL Success]_ status and it is ready to use for creating landing page presets.
 
-   The subdomain is marked as _[!UICONTROL Failed]_ if you  did not create the validation record on your hosting solution.
+   The subdomain is marked as _[!UICONTROL Failed]_ if you did not create the validation record on your hosting solution.
 
 ### Undelegate a subdomain {#undelegate-subdomain}
 
 1. In [!DNL Journey Optimizer], unpublish all the landing pages associated with the subdomain.
 
-1. If the landing page subdomain points to a CNAME record, you can delete the CNAME DNS record that you created for the landing page subdomain from your hosting solution (but do not delete the original email subdomain if any).
+1. If the landing page subdomain points to a CNAME record, delete the CNAME record from your hosting solution (do not delete the original email subdomain, if any).
 <!--
     >[!NOTE]
     >
     >A landing page subdomain can point to a CNAME record because it was either an [existing subdomain](#lp-use-existing-subdomain) delegated to Adobe using the [CNAME method](../configuration/delegate-subdomain.md#cname-subdomain-setup), or a [new landing page subdomain](#lp-configure-new-subdomain) that you configured. -->
 
-1. Reach out to your Adobe representative with the subdomain you want to undelegate.
+1. Contact your Adobe representative with the subdomain you want to undelegate.
 
-After your request is handled by Adobe, the undelegated domain is no longer displayed on the subdomain inventory page.
+After Adobe handles your request, the subdomain inventory page no longer displays the undelegated domain.
 
 <!-- old marketo way for Prime?
 

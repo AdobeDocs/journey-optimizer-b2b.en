@@ -6,7 +6,7 @@ role: User
 ---
 # Create and publish landing pages
 
-As a marketer, you can define and publish pages that you want to incorporate into your account and people journeys. WHen you add a new landing page, you configure the primary page and any subpages, design the content, test it, and publish it.
+As a marketer, you can define and publish pages that you want to incorporate into your account and person journeys. When you add a new landing page, you configure the primary page and any subpages, design the content, test it, and publish it.
 
 ![Landing page work flow diagram](./assets/landing-page-work-flow-diagram-no-subpages.svg)
 
@@ -50,7 +50,7 @@ Before marketers can create landing pages to support their journeys and campaign
 
 1. Select a **[!UICONTROL Preset]**.
 
-   A product administrator [configures a preset](../admin/configure-channels-landing-pages.md#presets) to define the subdomain and other settings used for landing pages. You can select a preset and then click **[!UICONTROL View preset]** to open the preset details and check the settings to make sure that it matches with your landing page requirements.
+   A product administrator [configures a preset](../admin/configure-channels-landing-pages.md#presets) to define the subdomain and other settings used for landing pages. You can select a preset and then click **[!UICONTROL View preset]** to open the preset details and check the settings to make sure that it matches your landing page requirements.
 
 1. Click **[!UICONTROL Create]**.
 
@@ -74,7 +74,7 @@ Before marketers can create landing pages to support their journeys and campaign
 
 1. Define the ending portion of the page URL. 
 
-    The first part of the URL is determined by the preset you selected.
+    The preset that you selected determines the first part of the URL.
 
     >[!CAUTION]
     >
@@ -110,7 +110,7 @@ To add the _[!UICONTROL Content]_ for the page, click **[!UICONTROL Open Designe
    
 ![Choose how you want to start your landing page design](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
    
-After you select the method that you want to use to start landing page design, use the visual design tools to [complete the page content](./landing-page-design.md).
+After you select your preferred method for starting the landing page design, use the visual design tools to [complete the page content](./landing-page-design.md).
 
 ### Design from scratch
    
@@ -130,7 +130,7 @@ Use the visual content editor to define the structure of the landing page conten
 
 ### Code your own
 
-_Code your own_ lets you write or paste raw HTML to build the page content directly in the design space. Use this mode when you need full control over markup. Using this mode requires that yuo have HTML skills.
+_Code your own_ lets you write or paste raw HTML to build the page content directly in the design space. Use this mode when you need full control over markup. Using this mode requires that you have HTML skills.
 
 After you choose this mode, you stay in the code editor; you cannot switch to the visual editor.
 
@@ -168,7 +168,7 @@ If you want to use a template, you can choose from:
    
 >[!TAB Saved templates]
 
-On the _Create your primary landing page_ home page, the _Sample templates_ tab is displayed by default. To use a custom template, select the **[!UICONTROL Saved templates]** tab.
+The _Create your primary landing page_ home page displays the _Sample templates_ tab by default. To use a custom template, select the **[!UICONTROL Saved templates]** tab.
 
 The list of all saved landing page templates is displayed. You can sort them by _[!UICONTROL Name]_, _[!UICONTROL Last modified]_, and _[!UICONTROL Last created]_.
 
@@ -248,7 +248,7 @@ When the landing page settings and content are defined, you can use test profile
 
 1. Select **[!UICONTROL Open preview]** to test your landing page.
 
-   The landing page preview opens in a new tab. Personalized elements are replaced by the selected test profile data.
+   The landing page preview opens in a new tab. The selected test profile data replaces personalized elements.
 
     <!--![](assets/lp_preview.png)-->
 

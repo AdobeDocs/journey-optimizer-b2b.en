@@ -41,7 +41,7 @@ Common use cases for landing pages:
 To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
-1. [Design the landing page](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
+1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
 1. [Test and publish the landing page](./landing-pages-create-publish.md) - Preview the page, test form behavior, and then publish to make it live.
 1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
 
@@ -119,7 +119,7 @@ Edits to a landing page depend on its current status:
 
 >[!TAB Published]
 
-1. From the _[!UICONTROL Landing page]_ listing page, click the page name to open it.
+1. From the _[!UICONTROL Landing pages]_ listing page, click the page name to open it.
 
    A preview of the visual content is displayed, with the landing page details on the right.
 
