@@ -6,7 +6,7 @@ role: Admin
 ---
 # Forms configurations
 
-Before marketers can [create and publish forms](../content/forms.md) to use in their landing pages, a product administrator must create one or more  dedicated presets. Each preset defines the connection endpoint used to send the form submission data, and the dataset used to store the captured data.
+Before marketers can [create and publish forms](../content/forms.md) to use in their landing pages, a product administrator must create one or more dedicated presets. Each preset defines the connection endpoint used to send the form submission data, and the dataset used to store the captured data.
 
 When data lands on the streaming endpoint, it is linked with the dataset information. Using the generated source/target connections and source flow, the data is then pushed into the dataset.
 

@@ -28,29 +28,27 @@ autotag-review: '2026-03-30T22:51:56.324Z'
 
 To capture information from web page visitors, create forms and add them to your landing pages. A form is a set of fields that page visitors complete and submit to obtain some kind of content or offer, such as a white paper, on-demand webinar, or a free trial. 
 
-The amount of information that the form should capture depends on the value of the content or offer. If you are offering something simple, like a white paper, you should collect only minimal information, such as their name, email, and company. If the offer is something of higher value, like a demo or a free trial, you can collect more information. Requiring a submitted form to permit content viewing is called _gated content_. Your organization decides which content should be gated and which is not (_free_). The best practice is to allow some content for free and gate only your premium or high demand content.
+The amount of information that the form should capture depends on the value of the content or offer. If you are offering something simple, like a white paper, collect only minimal information, such as name, email, and company. If the offer is something of higher value, like a demo or a free trial, you can collect more information. Requiring a submitted form to permit content viewing is called _gated content_. Your organization decides which content should be gated and which is not (_free_). The best practice is to allow some content for free and gate only your premium or high demand content.
 
->[!BEGINSHADEBOX]
+>[!PREREQUISITES]
+>
+>Before marketing teams can create and use forms to capture information, an administrator must define one or more form presets. For more information, see [_Forms configurations_](../admin/configure-channels-forms.md).
+>
+>Form creation in Journey Optimizer B2B Edition requires the following [permissions](../admin/user-management.md#b2b-product-permissions):
+>
+>* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
+>* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
+>* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Publish B2C Forms]_ - Required to publish forms.
 
-## Prerequisites
+## Access and manage forms {#view-forms}
 
-Before marketing teams can create and use forms to capture information, an administrator must define one or more form presets. For more information, see [_Forms configurations_](../admin/configure-channels-forms.md). 
-<!-- Form creation in Journey Optimizer B2B Edition requires the following [permissions](../admin/user-management.md#b2b-product-permissions):
-
-* _[!UICONTROL Channel Configurations]_ > _[!UICONTROL Manage Messages Presets]_ - Required to create, update, and delete channel configurations.
-* _[!UICONTROL Channel Configurations]_ > _[!UICONTROL View Messages Presets]_ - Required to view channel configurations. -->
-
->[!ENDSHADEBOX]
-
-## Access and manage forms
-
-To access forms in Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Forms]**. This action opens a listing page with all the forms created in the instance listed in a table.
+To access forms in Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Forms]**. This action opens a listing page that displays all forms created in the instance.
 
 ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"}
 
-The table is sorted by the _[!UICONTROL Modified]_ column, with the most recently updated forms at the top by default. Click the column title to change between ascending and descending.
+The system sorts the table by the _[!UICONTROL Modified]_ column, showing the most recently updated forms at the top by default. Click the column title to change between ascending and descending.
 
-### Form status and lifecycle
+### Form status and lifecycle {#form-status}
 
 The form status determines its availability for use in a landing page or landing page template, and the changes that you can make to it. 
 
@@ -62,13 +60,13 @@ The form status determines its availability for use in a landing page or landing
 
 ![Form status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
-### Filter the forms list
+### Filter the forms list {#filter-list}
 
 To search for a form by name, enter a text string into the search bar for a match. Click the _Filter_ icon ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) to show the available filter options and change the settings to filter the displayed items according to your specified criteria.
 
 ![Filter the displayed forms](./assets/forms-list-filtered.png){width="700" zoomable="yes"}
 
-### Customize the column display
+### Customize the column display {#column-display}
 
 Customize the columns that you want to display in the table by clicking the _Customize table_ icon ( ![Customize table icon](../assets/do-not-localize/icon-column-settings.svg) ) at the top right. 
 
@@ -76,7 +74,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 ![Columns to display in the Forms list](./assets/forms-customize-table-dialog.png){width="300"}
 
-## Create forms
+## Create forms {#create-forms}
 
 There are several things to consider before you start building reusable forms in Journey Optimizer B2B Edition:
 
@@ -88,7 +86,7 @@ There are several things to consider before you start building reusable forms in
 
    Consider using shorter forms, since they are proven to be better for conversions. When you think through each form, decide what fields are reasonable and necessary for its purpose.
 
-   Consider whether to pre-fill form fields, so that basic information, such as name and email are pre-filled. But other information, such as job title and size of the organization, are not. This way, the visitor needs to fill only two fields and submit the form. You can also use a social form fill with data from Facebook or Twitter. 
+   Consider whether to pre-fill form fields, so that basic information, such as name and email, is pre-filled. But other information, such as job title and size of the organization, is not. This way, the visitor needs to fill only two fields and submit the form. You can also use a social form fill with data from Facebook or Twitter. 
 
 * Plan what follow-up page is displayed after a visitor submits a form (_thank you_ page). 
 
@@ -98,7 +96,7 @@ There are several things to consider before you start building reusable forms in
 
    When you allow a form bypass for a known person who visits your landing page, they can simply access the content directly. Bypassing the form provides a more streamlined visitor experience.
 
-### Add a new form
+### Add a new form {#new-form}
 
 You can create a form in Journey Optimizer B2B Edition by clicking **[!UICONTROL Create form]** at the top right of the _[!UICONTROL Forms]_ list page.
 
@@ -126,7 +124,7 @@ You can create a form in Journey Optimizer B2B Edition by clicking **[!UICONTROL
 
    ![Default form content](./assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### Change the default form design
+### Change the default form design {#design}
 
 Use the visual design tools to change the form content as needed:
 
@@ -138,7 +136,7 @@ Use the visual design tools to change the form content as needed:
 
 Click **[!UICONTROL Save & close]** to save your form content design changes and go to the form details.
 
-### Set the thank you page
+### Set the thank you page {#thank-you-page}
 
 In the _[!UICONTROL Summary]_ panel on the right, scroll to the **[!UICONTROL Thank you page]** section and use the **[!UICONTROL Follow up with]** setting to define what happens when a visitor submits the form:
 
@@ -152,7 +150,7 @@ In the _[!UICONTROL Summary]_ panel on the right, scroll to the **[!UICONTROL Th
    >
    >If you want to use the form for downloading a file, you can specify a URL for the hosted file. With this configuration, the submit button functions as a download button.
 
-### Publish the form draft
+### Publish the form draft {#publish}
 
 When you are ready to make the form available for use in a landing page or landing page template, click **[!UICONTROL Publish]**.
 
@@ -160,7 +158,7 @@ When you are ready to make the form available for use in a landing page or landi
 
 This action opens a confirmation dialog. You can abort the publishing process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Publish]** to confirm.
 
-## View form details
+## View form details {#view-details}
 
 Click the name of any form in the list page to open the form details page. You can choose to edit the form, rename the form, or update the form description. Make updates and click outside of the name or description field to auto-save changes.
 
@@ -186,14 +184,14 @@ In the _[!UICONTROL Summary]_ panel on the right, click the **[!UICONTROL Used B
 
 References are displayed according to category: _Landing page_ or _Landing page template_. Click the link to open the corresponding page or template where the form is used.
 
-## Delete forms
+## Delete forms {#delete-forms}
 
 Any form that is currently in use by a landing page or landing page template cannot be deleted. You can check the _used-by_ references before initiating a form removal. Also, a removal cannot be undone, so check before initiating a delete action.
 
 You can delete a form using either of the following methods:
 
 * At the top right, click **[!UICONTROL ... More]** and choose **[!UICONTROL Delete]**.
-* From the _[!UICONTROL Forms]_ list page, click the ellipsis next to the form name and choose **[!UICONTROL Delete]**.
+* From the _[!UICONTROL Forms]_ list page, click the _More_ (**...**) icon next to the form name and choose **[!UICONTROL Delete]**.
 
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Delete]** to confirm deletion.
 
@@ -203,14 +201,14 @@ If the form is currently in use, the action opens an informational dialog that a
 
 ![Delete form dialog - cannot delete in-use form](./assets/form-delete-dialog-in-use.png){width="400"}
 
-## Duplicate forms
+## Duplicate forms {#duplicate-forms}
 
 Duplicate a form as a quick and easy way to create a new form using an existing form as a starting point for your form design.
 
 You can duplicate a form using either of the following methods:
 
 * At the top right of the form details page, click **[!UICONTROL ... More]** and choose **[!UICONTROL Duplicate]**.
-* From the _[!UICONTROL Forms]_ list page, click the ellipsis next to the form name and choose **[!UICONTROL Duplicate]**.
+* From the _[!UICONTROL Forms]_ list page, click the _More_ (**...**) icon next to the form name and choose **[!UICONTROL Duplicate]**.
 
 ![Duplicate the form](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -220,7 +218,7 @@ In the dialog, enter a useful name (unique) and description. Click **[!UICONTROL
 
 Edit the duplicate form to change the name as needed and alter the form for its intended use. 
 
-## Edit forms
+## Edit forms {#edit-forms}
 
 Changes to a form depend on its current status:
 
@@ -306,18 +304,18 @@ Changes to a form depend on its current status:
 
 >[!ENDTABS]
 
-## Add forms to a landing page or template
+## Add forms to a landing page or template {#insert-forms}
 
 Forms are designed for reuse and can be inserted when you are designing a [landing page](./landing-page-design.md) or [landing page template](./landing-page-templates.md).
 
 {{$include /help/_includes/content-design-add-forms.md}}
 
-## Form actions for page and template authoring
+## Form actions for page and template authoring {#form-actions}
 
 When a form is included in a landing page or landing page template, the form content cannot be changed within the page or template. However, you can apply the following actions:
 
-* **[!UICONTROL Delete]** - This action removes the form from the current page or template content (the fragment source is unaffected).
-* **[!UICONTROL Duplicate]** - This action duplicates the form within the same page or template within the editor, with the same dimensions and added just below it.
+* **[!UICONTROL Delete]** - This action removes the form from the current page or template content (the form source is unaffected).
+* **[!UICONTROL Duplicate]** - This action duplicates the form in the editor, maintaining the same dimensions.
 * **[!UICONTROL View HTML]** - This action opens a popup with the HTML for the form. You can edit the HTML, or copy it for use in other web content.
 * **[!UICONTROL Edit Form]** - This action opens a new browser tab with the form editor page and details.
 
