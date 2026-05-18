@@ -10,3 +10,4 @@ package.json
 package-lock.json
 usage-agents.log
 /.claude
+*.mdc
