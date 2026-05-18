@@ -41,7 +41,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Person audience (Beta)](./journeys/person-audience-nodes.md)
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
-       + [Split and merge paths](./journeys/split-merge-paths-nodes.md) 
+       + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
        + [Wait](./journeys/wait-nodes.md)
        + [External nodes](./journeys/external-nodes.md)
     + [Journey details](./journeys/journey-details.md)
@@ -102,8 +102,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
       + Internal assets {#internal-dam}
-        + [Work with internal assets](./content/internal-image-assets.md)
-        + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
+         + [Work with internal assets](./content/internal-image-assets.md)
+         + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager image assets](./content/aem-assets.md)
    + Templates {#templates}
       + [Content governance](./content/template-content-governance.md)
@@ -144,7 +144,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Intelligent dashboards {#dashboards}
     + [Insights dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement dashboard](./dashboards/engagement-dashboard.md)
-    + [Web engagement dashboard](./dashboards/web-engagement-dashboard.md)    
+    + [Web engagement dashboard](./dashboards/web-engagement-dashboard.md)
     + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
     + [Account Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
@@ -155,10 +155,10 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Intent data](./admin/intent-data.md)
        + [Engagement score weighting](./admin/engagement-score-weighting.md)
        + [External actions](./admin/configure-external-actions.md)
+       + {hide-from-toc} [Configure datastreams for event collection](./data/aep-event-collection.md)
     + Channels {#channels}
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
        + [WhatsApp configurations](./admin/configure-channels-whatsapp.md)
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
        + [Landing page settings (Beta)](./admin/landing-page-settings.md)
-       + {hide-from-toc} [Configure datastreams for event collection](./data/aep-event-collection.md)
