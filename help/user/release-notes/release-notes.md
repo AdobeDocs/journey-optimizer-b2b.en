@@ -240,8 +240,8 @@ This release includes the following new capabilities and enhancements:
 | Feature | Account lists | You can now create a static or dynamic account list to target named accounts by your defined criteria, such as industry, location, or size of the company. <a href="../accounts/account-lists.md">Learn more</a> |
 | Feature | Account list journey orchestration | Use journey action nodes to add and remove accounts for static account lists. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Learn more</a> |
 | Enhancement | Filter journey membership in Marketo Engage | Use Adobe Journey Optimizer B2B Edition account lists for the journey audience and then use the _Member of an account list_ filter in Marketo Engage smart lists. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Learn more</a> |
-| Feature | Inactivity filters | Orchestrate journeys based on inactivity within Marketo Engage campaigns and programs, including email inactivity, interesting moments, data value changes, and visited web pages. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Learn more</a> |
-| Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Learn more</a> |
+| Feature | Inactivity filters | Orchestrate journeys based on inactivity within Marketo Engage campaigns and programs, including email inactivity, interesting moments, data value changes, and visited web pages. |
+| Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. |
 | Enhancement | Emails list | View a global list of active and draft emails to search, review, and update them across the associated account journeys. <a href="../content/emails-list.md">Learn more</a> |
 
 ## 2025.3 release notes {#rel-2025-3}
