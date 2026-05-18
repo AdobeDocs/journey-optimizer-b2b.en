@@ -171,10 +171,6 @@ If you close a live journey, accounts that are currently in the journey continue
 
 A duplicate action is similar to a clone function, but a duplicated journey does not include any created journey content assets. You can duplicate the details for the journey, or just a simple _skeleton_ of the flow and path structure.
 
->[!NOTE]
->
->This action is not currently available for person journeys.
-
 1. Click the _More_ icon (**...**) next to the journey name and choose **[!UICONTROL Duplicate]**.
 
    ![Click the ... icon and choose Duplicate](./assets/account-journeys-list-more-menu.png){width="450"}
