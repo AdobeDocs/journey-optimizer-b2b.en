@@ -33,20 +33,31 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
-<!--
-## 2026.4/5 release notes {#rel-2026-5}
+## 2026.5 release notes {#rel-2026-5}
 
-**Deployment date**: May 15, 2026
+**Deployment date**: May 22, 2026
+
+<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
-| Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | 
+| Feature | Forms | Marketers can now create and publish reusable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
+| Feature | Member of Account List filter | Use the membership of Account Lists as an orchestration point in account journeys. Marketers can create account blocklists, priority lists, or any other kind of subset of their audience and provide accounts unique experiences in journeys based on their membership. |
+| Feature | Experience event history filtering | This feature enables B2B journey orchestration to use historical engagement to drive behavior-based decisions for audience members. |
+| Feature | Journey split path decisioning | You can optimize split path decisioning for account and person journeys, refining how audiences are routed across paths before journey activation or at runtime. |
+| Enhancement | Audience Agent skills | Audience Agent skills are updated, including AI-powered buying group template creation. Use first-party intent and persona mapping to generate buying group templates, review AI-recommended role-to-persona mappings, and refine templates with natural language before you publish them. |
+| Enhancement | Email Engagement Performance report | The Email Engagement Performance report gives marketers a unified view of email activity across all journeys in Adobe Journey Optimizer B2B Edition. |
+| Enhancement | Person Journeys Overview dashboard | This dashboard provides a comprehensive overview of your active person journeys. |
+| Enhancement | Support for AEP relational datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
 
 >[!NOTE]
 >
->These release changes begin deployment on May 15, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>These release changes begin deployment on May 22, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
+<!--
+ wait for later release
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
 -->
 
 ## 2026.3 release notes {#rel-2026-3}
@@ -63,11 +74,6 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Enhancement | Email template design tools - Advanced HTML mode | With _Advanced HTML mode_ in the email template design space, users can make minor HTML/CSS edits and add script tags to an email template to resolve rendering issues. [Learn more](../content/email-template-advanced-html.md) |
 | Enhancement | Person custom objects - buying group roles templates | When administrators configure custom objects that are related to a business person profile, marketers can now define buying group roles using these custom objects. [Learn more](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Enhancement | Email content scoring - content quality evaluation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/content-evaluation.md) |
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
 
 >[!NOTE]
 >
