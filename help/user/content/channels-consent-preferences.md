@@ -46,7 +46,7 @@ Journey Optimizer B2B Edition evaluates the following XDM attribute for email co
 
 Keep the following considerations in mind for email consent:
 
-* Persons who opted out globally from email can still receive emails marked as operational.
+* Persons who opted out globally from email can receive emails marked as operational.
 * Subscription-level preferences are not supported.
 
 ## SMS {#sms}
