@@ -43,7 +43,7 @@ With Journey Optimizer B2B Edition and access to the Adobe Admin Console, admini
 
 ## Consent opt-in/opt-out
 
-Journey Optimizer B2B Edition reads per-person consent preferences stored in Adobe Experience Platform XDM profiles and enforces them at message delivery time for email, SMS, and WhatsApp channels. Persons who opted out of a channel are excluded from delivery before content is sent from the channel or downstream messaging provider.
+Journey Optimizer B2B Edition reads per-person consent preferences stored in Adobe Experience Platform XDM profiles and enforces them at message delivery time for email, SMS, and WhatsApp channels. A person who opted out of a channel is excluded from delivery before content is sent from the channel or downstream messaging provider.
 
 Consent is evaluated at the time of delivery using XDM fields from the Profile Consent Field Group. The default consent behavior differs by channel — email defaults to opted in when no preference is set, while SMS and WhatsApp default to opted out.
 
