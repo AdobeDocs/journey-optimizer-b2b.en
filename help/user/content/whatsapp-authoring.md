@@ -91,7 +91,7 @@ You can set up WhatsApp message deliveries in an account journey when you [add a
 
 >[!IMPORTANT]
 >
->**WhatsApp consent management**: In accordance with Meta's policies and applicable regulations, all WhatsApp marketing messages must be sent only to recipients who have opted in to receive communications. WhatsApp recipients can opt out at any time by replying with an opt-out keyword. Opt-out responses are automatically honored, and the corresponding profiles are removed from future marketing message audiences.
+>**WhatsApp consent management**: In accordance with Meta's policies and applicable regulations, all WhatsApp marketing messages must be sent only to recipients who have opted in to receive communications. WhatsApp recipients can opt out at any time by replying with an opt-out keyword. Opt-out responses are automatically honored, and the corresponding profiles are removed from future marketing message audiences. For details about how WhatsApp consent preferences are evaluated at delivery time, see [Consent preferences](./channels-consent-preferences.md).
 
 WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in Journey Optimizer B2B Edition. Work with your [!DNL Meta Business Manager] account administrator to manage and submit templates for approval.
 
