@@ -3,7 +3,6 @@ title: Select Experience Events and Fields
 description: Select Experience Platform events and fields to trigger real-time decisioning in journeys based on customer behavior.
 feature: Setup, Integrations
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a beta release"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 product_v2:
@@ -45,7 +44,7 @@ Using AEP experience events in journeys is a two-step process:
 
 >[!BEGINSHADEBOX]
 
-## Guidelines and limitations
+## Guidelines and limitations {#guidelines-and-limitations}
 
 As you select events to meet your organizational goals, consider the following: 
 
@@ -57,11 +56,11 @@ As you select events to meet your organizational goals, consider the following:
 
 * When you use an Experience Event and publish the journey, you can add more fields, but you cannot remove fields that were previously selected.
 
-* You can reference an Experience Event in multiple journeys or use one more than once within the same journey. 
+* You can reference an Experience Event in multiple journeys or use it more than once in the same journey. 
 
 >[!ENDSHADEBOX]
 
-## Manage Experience Events
+## Manage Experience Events {#manage-experience-events}
 
 1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
@@ -75,19 +74,15 @@ As you select events to meet your organizational goals, consider the following:
       
    To access the details for a selected event, click the event name.
 
-### Filter the event list
+### Filter the event list {#filter-the-event-list}
 
 Enter text in the _[!UICONTROL Search]_ field to filter the displayed events for a match of the event name.
 
 ![Filter the list of selected events by name](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-### Add an event
+### Add an event {#add-an-event}
 
 To make an Experience Event available for a _Listen for an event_ node in a journey, select the event and the supported fields.
-
->[!NOTE]
->
->In the beta release, you cannot remove events from the list. Make sure that each event that you add is one that your organization intends to use.
 
 1. Click **[!UICONTROL Select experience event]** at the top right.
 
@@ -123,7 +118,7 @@ To make an Experience Event available for a _Listen for an event_ node in a jour
 
 The saved event is displayed in the list on the _[!UICONTROL Events]_ tab.
 
-### Edit an event
+### Edit an event {#edit-an-event}
 
 Edit the event details to change the fields.
 
@@ -135,19 +130,23 @@ Edit the event details to change the fields.
 
 1. Click **[!UICONTROL Select]** to save your selections.
 
-### Remove an event
+### Remove an event {#remove-an-event}
 
->[!NOTE]
->
->For the Beta release of this feature, you cannot remove an event from the list of selected events. Event removal is planned for the GA release.
+To prevent an Experience Event from being used in a _Listen for an event_ node within a journey, remove the event. You cannot remove an event if a journey in the _Scheduled_, _Live_, or _Finished_ status uses it.
 
-## Events and fields
+1. Click the _More menu_ ( **...** ) icon next to the event name and choose **[!UICONTROL Remove]**. 
+
+1. In the confirmation dialog, click **[!UICONTROL Remove]**.
+
+   ![Confirm the event removal](./assets/configurations-xdm-events-remove.png){width="500" zoomable="yes"} 
+
+## Events and fields {#events-and-fields}
 
 For [!DNL Journey Optimizer B2B Edition], certain people-level activities are captured as [!DNL Experience Platform] Experience Events. These events are stored in a system dataset that uses the XDM Experience Event schema and includes journey-specific field groups. You can use these events in [!UICONTROL Journey Optimizer B2B Edition] like any other Experience Event. 
 
 Each event exposes a defined set of fields that can be used in journey _Listen for an event_ nodes (decisioning based on events). Review the available event types and their fields to determine which event and fields to use in these journey nodes:
 
-### Email sent
+### Email sent {#email-sent}
 
 This event tracks when a marketing email was sent to a person.
 
@@ -167,7 +166,7 @@ Event type: `directMarketing.emailSent`
 | Person source Key | `personKey.sourceKey` |
 | Email source ID | `directMarketing.emailSent.mailingKey.sourceID` |
 | Email source type | `directMarketing.emailSent.mailingKey.sourceType` |
-| Email source instance ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
+| Email source instance ID | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
 | Email source key | `directMailing.emailSent.mailingKey.sourceKey` |
 | Mailing name | `directMarketing.emailSent.mailingName` |
 | Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
@@ -175,11 +174,11 @@ Event type: `directMarketing.emailSent`
 
 +++
 
-### Email delivered
+### Email delivered {#email-delivered}
 
 This event tracks when an email was delivered successfully to a person's email service.
 
-Event type: `directMarketing.emailDelivered `
+Event type: `directMarketing.emailDelivered`
 
 +++Fields
 
@@ -203,7 +202,7 @@ Event type: `directMarketing.emailDelivered `
 
 +++
 
-### Email opened
+### Email opened {#email-opened}
 
 This event tracks when a person opened a marketing email.
 
@@ -235,7 +234,7 @@ Event type: `directMarketing.emailOpened`
 
 +++
 
-### Email clicked
+### Email clicked {#email-clicked}
 
 This event tracks when a person clicked a link in a marketing email.
 
@@ -268,7 +267,7 @@ Event type: `directMarketing.emailClicked`
 
 +++
 
-### Email bounced
+### Email bounced {#email-bounced}
 
 This event tracks when an email to a person bounced.
 
@@ -299,7 +298,7 @@ Event type: `directMarketing.emailBounced`
 
 +++
 
-### Email bounced soft
+### Email bounced soft {#email-bounced-soft}
 
 This event tracks when an email to a person soft-bounced.
 
@@ -330,11 +329,11 @@ Event type: `directMarketing.emailBouncedSoft`
 
 +++
 
-### Email unsubscribed
+### Email unsubscribed {#email-unsubscribed}
 
 This event tracks when a person unsubscribed from a marketing email.
 
-Event type: `directMarketing.emailUnsubscribed `
+Event type: `directMarketing.emailUnsubscribed`
 
 +++Fields
 
@@ -358,7 +357,7 @@ Event type: `directMarketing.emailUnsubscribed `
 
 +++
 
-### Visit web page
+### Visit web page {#visit-web-page}
 
 This event type is the standard method for marking the hit as a page view.
 
@@ -389,7 +388,7 @@ Event type: `web.webpagedetails.pageViews`
 
 +++
 
-### Form filled out
+### Form filled out {#form-filled-out}
 
 This event tracks when a person filled out a form on a web page.
 
@@ -420,7 +419,7 @@ Event type: `web.formFilledOut`
 
 +++
 
-### Web link clicked
+### Web link clicked {#web-link-clicked}
 
 The event signals that the Web SDK automatically recorded a link click.
 
@@ -451,11 +450,11 @@ Event type: `web.webinteraction.linkClicks`
 
 +++
 
-### Interesting moment
+### Interesting moment {#interesting-moment}
 
 This event tracks when an interesting moment was recorded for a person.
 
-Event type: `leadOperation.interestingMoment `
+Event type: `leadOperation.interestingMoment`
 
 +++Fields
 
