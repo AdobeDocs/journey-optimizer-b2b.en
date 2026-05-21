@@ -26,7 +26,7 @@ TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4
 ---
 # Add an email to your journey
 
-Use Adobe Journey Optimizer B2B Edition to send email messages to your customers through account journeys. You can choose to create, personalize, and preview messages in the email design space. Alternatively, you can choose to send an email that is already defined in the connected Marketo Engage instance.
+Use Adobe Journey Optimizer B2B Edition to send email messages to your customers through account journeys. You can choose to create, personalize, and preview messages in the email design space. Alternatively, you can choose to send an email that is already defined in the connected Marketo Engage instance. After emails are live in journeys, monitor send, delivery, and engagement in the [Email performance report](../dashboards/email-performance-dashboard.md).
 
 >[!NOTE]
 >

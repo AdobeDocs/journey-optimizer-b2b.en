@@ -25,7 +25,7 @@ TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mp
 
 When you click the name for an active account journey, the journey details are displayed. The _[!UICONTROL Overview]_ tab provides useful information about the journey, including generative AI summaries.
 
-This dashboard provides a comprehensive overview of a selected account journey, detailing account progress using circle and line charts that categorize and quantify completions, in-progress activities, and aborts over time. It helps Marketers evaluate the effectiveness of Email and SMS channels through key delivery and engagement metrics.
+This dashboard provides a comprehensive overview of a selected account journey, detailing account progress using circle and line charts that categorize and quantify completions, in-progress activities, and aborts over time. It helps Marketers evaluate the effectiveness of email and SMS channels through key delivery and engagement metrics. For email metrics aggregated across all journeys, see the [Email performance report](../dashboards/email-performance-dashboard.md).
 
 This overview is available for published account journeys, and it takes approximately four hours for data to start populating the charts and tables.
 
@@ -54,7 +54,7 @@ This section presents two vital metrics:
 
 ## Email and SMS performance
 
-The performance tables provide a detailed look at the effectiveness of Email and SMS channels. Each table showcases metrics, such as delivery rates and click-through rates, that help you assess the impact of each communication touchpoint.
+The performance tables provide a detailed look at the effectiveness of Email and SMS channels. Each table showcases metrics, such as delivery rates and click-through rates, that help you assess the impact of each communication touchpoint. The tables below show email and SMS metrics for this journey only. For the same email metrics across all journeys, use the [Email performance report](../dashboards/email-performance-dashboard.md).
 
 **[!UICONTROL Email performance]** table columns:
 

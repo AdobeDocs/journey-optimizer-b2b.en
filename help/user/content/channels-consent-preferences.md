@@ -49,6 +49,8 @@ Keep the following considerations in mind for email consent:
 * Persons who opted out globally from email can receive emails marked as operational.
 * Subscription-level preferences are not supported.
 
+To review unsubscribe activity for sent email, see the [Email performance report](../dashboards/email-performance-dashboard.md).
+
 ## SMS {#sms}
 
 Journey Optimizer B2B Edition evaluates the following XDM attributes for SMS consent when sending messages through the [SMS channel](../admin/configure-channels-sms.md):

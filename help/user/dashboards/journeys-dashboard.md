@@ -28,7 +28,7 @@ TQID: https://experienceleague.adobe.com/jI0qWqL96aKv0FxEAwtFOnabJQZQ4r1OZd1CMz0
 ---
 # Account Journeys Overview dashboard
 
-This dashboard provides a comprehensive overview of your active account journeys, detailing account progress using circle and bar charts that categorize and quantify completions, and engagement activities. It helps Marketers evaluate the effectiveness of Email and SMS channels through key delivery and engagement metrics.
+This dashboard provides a comprehensive overview of your active account journeys, detailing account progress using circle and bar charts that categorize and quantify completions, and engagement activities. It helps Marketers evaluate the effectiveness of Email and SMS channels through key delivery and engagement metrics. For a cross-journey view of email-specific delivery and engagement data, see the [Email performance report](email-performance-dashboard.md).
 
 This overview is available for published account journeys, and it takes approximately four hours for data to start populating the charts and tables.
 
