@@ -147,7 +147,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Engagement dashboard](./dashboards/engagement-dashboard.md)
     + [Web engagement dashboard](./dashboards/web-engagement-dashboard.md)
     + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
-    + [Account Journeys dashboard](./dashboards/journeys-dashboard.md)
+    + [Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [Governance](./admin/governance.md)
     + [Persona mapping](./admin/persona-mapping.md)
