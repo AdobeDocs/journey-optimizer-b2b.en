@@ -63,6 +63,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Web experience design](./content/web-experience-design.md)
       + [Single-page applications](./content/web-single-page-applications.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
+    + [Consent preferences](./content/channels-consent-preferences.md)
 + Audiences {#audiences}
     + [Experience Platform audiences](./audiences/account-audience-overview.md)
     + [Target external audiences](./audiences/target-external-audience.md)

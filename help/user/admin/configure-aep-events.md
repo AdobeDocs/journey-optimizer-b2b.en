@@ -34,7 +34,12 @@ TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd
 Administrators can select specific [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} and their associated fields within the Experience Event union schema. After selection, users can configure decisioning rules to listen to those Experience Events to enable dynamic and targeted campaign actions based on near real-time event data. 
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
-Using AEP Experience Events in journeys is a two-step process: 
+
+>[!PREREQUISITES]
+>
+>Using Experience Events and fields in Journey Optimizer B2B Edition requires profile-enabled Experience Event schemas. For more information, see [Enable Real-Time Customer Profiles](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} in the Experience Platform tutorials.
+
+Using AEP experience events in journeys is a two-step process: 
 
 1. An administrator [adds AEP Experience Events and fields](#add-an-event) in the Journey Optimizer B2B Edition configurations.
 
@@ -67,7 +72,7 @@ As you select events to meet your organizational goals, consider the following:
 
 1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
-1. Click **[!UICONTROL XDM Classes]** on the intermediate panel, and then click the **[!UICONTROL Events]** tab to display the list of the available events.
+1. Click **[!UICONTROL XDM Configurations]** on the intermediate panel, and then click the **[!UICONTROL Events]** tab to display the list of the available events.
 
    ![Access the selected Experience Events](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
