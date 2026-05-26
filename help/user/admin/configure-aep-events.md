@@ -70,7 +70,7 @@ As you select events to meet your organizational goals, consider the following:
 
 1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
-1. Click **[!UICONTROL XDM Classes]** on the intermediate panel, and then click the **[!UICONTROL Events]** tab to display the list of the available events.
+1. Click **[!UICONTROL XDM Configurations]** on the intermediate panel, and then click the **[!UICONTROL Events]** tab to display the list of the available events.
 
    ![Access the selected Experience Events](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
