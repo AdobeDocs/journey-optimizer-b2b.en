@@ -63,7 +63,7 @@ Use the following guideline for making field selections:
 * Deleting, renaming, or changing field types can cause journey functionality issues. Exercise caution when manipulating schemas.
 * Do not rename or delete schemas or modify keys in relational schemas.
 
-### Standard classes
+### Standard schemas
 
 In the _[!UICONTROL Standard]_ tab, you can edit _Managed fields_ and _Updatable fields_ for the standard classes:
 

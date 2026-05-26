@@ -41,12 +41,12 @@ Administrators can select specific [AEP Experience Events](https://experiencelea
 
 Using AEP experience events in journeys is a two-step process: 
 
-1. An administrator [adds AEP experience events and fields](#add-an-event) in the Journey Optimizer B2B Edition configurations.
+1. An administrator [adds AEP Experience Events and fields](#add-an-event) in the Journey Optimizer B2B Edition configurations.
 
-2. In a journey, a marketer adds a _Listen for an event_ node and [selects an Experience Event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+1. In a journey, a marketer uses the configured events in one of two ways:
 
-   * Selects the event to use in the node.
-   * Selects the fields to use as constraints.
+   * Adds a _Listen for an event_ node and [selects an Experience Event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) to trigger journey progression based on real-time event activity during the journey.
+   * Adds a _Split paths by people_ node and configures a path to [filter on an event](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) from the **[!UICONTROL Event history]** folder.
 
 >[!BEGINSHADEBOX]
 
@@ -58,11 +58,13 @@ As you select events to meet your organizational goals, consider the following:
 
 * Journeys can listen to Experience Events that are ingested using Experience Platform streaming capabilities, such as Web SDK or HTTP API.
 
-* You can use Experience Events for decisioning purposes within a journey, but they are not retained. Therefore, you cannot leverage a historical record of Experience Events within Journey Optimizer B2B Edition. 
+* Historical experience event data begins accumulating for a person when the event exists in the Journey Optimizer B2B Edition database. For people who already exist when an event type is first configured, backfill begins at configuration time. For new people, accumulation starts when the person is first added (their prior history is not retroactively available).
+
+* There is currently no delete mechanism for accumulated event history. Long-term retention policy is subject to change.
 
 * When you use an Experience Event and publish the journey, you can add more fields, but you cannot remove fields that were previously selected.
 
-* You can reference an Experience Event in multiple journeys or use one more than once within the same journey. 
+* You can reference an Experience Event in multiple journeys or use the same event more than once within the same journey. 
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +88,7 @@ Enter text in the _[!UICONTROL Search]_ field to filter the displayed events for
 
 ![Filter the list of selected events by name](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-### Add an event
+### Add an event {#add-an-event}
 
 To make an Experience Event available for a _Listen for an event_ node in a journey, select the event and the supported fields.
 
@@ -128,7 +130,7 @@ To make an Experience Event available for a _Listen for an event_ node in a jour
 
 The saved event is displayed in the list on the _[!UICONTROL Events]_ tab.
 
-### Edit an event
+### Edit an event {#edit-an-event}
 
 Edit the event details to change the fields.
 
@@ -136,7 +138,9 @@ Edit the event details to change the fields.
 
    ![Click the More menu icon](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}    
 
-1. Click **[!UICONTROL Edit fields]** to add more fields or remove existing selections in the _[!UICONTROL Select fields]_ dialog.
+1. Click **[!UICONTROL Edit fields]** to open the _[!UICONTROL Select fields]_ dialog and add more fields.
+
+   You cannot remove fields that were previously selected after a journey that uses this event is published.
 
 1. Click **[!UICONTROL Select]** to save your selections.
 
@@ -172,8 +176,8 @@ Event type: `directMarketing.emailSent`
 | Person source Key | `personKey.sourceKey` |
 | Email source ID | `directMarketing.emailSent.mailingKey.sourceID` |
 | Email source type | `directMarketing.emailSent.mailingKey.sourceType` |
-| Email source instance ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
-| Email source key | `directMailing.emailSent.mailingKey.sourceKey` |
+| Email source instance ID | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
+| Email source key | `directMarketing.emailSent.mailingKey.sourceKey` |
 | Mailing name | `directMarketing.emailSent.mailingName` |
 | Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -184,7 +188,7 @@ Event type: `directMarketing.emailSent`
 
 This event tracks when an email was delivered successfully to a person's email service.
 
-Event type: `directMarketing.emailDelivered `
+Event type: `directMarketing.emailDelivered`
 
 +++Fields
 
@@ -339,7 +343,7 @@ Event type: `directMarketing.emailBouncedSoft`
 
 This event tracks when a person unsubscribed from a marketing email.
 
-Event type: `directMarketing.emailUnsubscribed `
+Event type: `directMarketing.emailUnsubscribed`
 
 +++Fields
 
@@ -445,7 +449,7 @@ Event type: `web.webinteraction.linkClicks`
 | Person source Key | `personKey.sourceKey` |
 | Web interaction source ID | `web.webInteraction.webInteractionKey.sourceID` |
 | Web interaction source type | `web.webInteraction.webInteractionKey.sourceType` |
-| Web interaction source instance ID | `web.webInteraction.webInteractionKey.sourceInstanceID`|
+| Web interaction source instance ID | `web.webInteraction.webInteractionKey.sourceInstanceID` |
 | Web interaction source key | `web.webInteraction.webInteractionKey.sourceKey` |
 | Web interaction link ID | `web.webInteraction.linkID` |
 | Web interaction link URL | `web.webInteraction.linkURL` |
@@ -460,7 +464,7 @@ Event type: `web.webinteraction.linkClicks`
 
 This event tracks when an interesting moment was recorded for a person.
 
-Event type: `leadOperation.interestingMoment `
+Event type: `leadOperation.interestingMoment`
 
 +++Fields
 
