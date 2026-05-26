@@ -63,14 +63,14 @@ Use the following guideline for making field selections:
 * Deleting, renaming, or changing field types can cause journey functionality issues. Exercise caution when manipulating schemas.
 * Do not rename or delete schemas or modify keys in relational schemas.
 
-### Standard classes
+### Standard schemas
 
 In the _[!UICONTROL Standard]_ tab, you can edit _Managed fields_ and _Updatable fields_ for the standard classes:
 
 * Managed fields appear in journeys, buying groups, and personalization features.
 * Updatable fields serve as constraints for the _Update Account Profile_ and _Update Person Profile_ journey nodes.
 
-![Standard classes tab showing XDM class configuration](assets/xdm-standard.png){width="600" zoomable="yes"}
+![Standard tab showing XDM configuration](./assets/xdm-standard.png){width="600" zoomable="yes"}
 
 The list includes two classes:
 
