@@ -36,6 +36,7 @@ Build your journey by combining the different action, event, and orchestration n
 * [Take an action](./action-nodes.md)
 * [Listen for an event](./listen-for-event-nodes.md)
 * [Split paths](./split-merge-paths-nodes.md)
+* [Next best path](./next-best-path-node.md)
 * [Wait](./wait-nodes.md)
 * [Merge paths](./split-merge-paths-nodes.md)
 * [External](./external-nodes.md)

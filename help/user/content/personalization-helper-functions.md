@@ -1573,7 +1573,7 @@ Some edu specific content
 
 Use the `each` helper to iterate over an array.
 
-The helper structure is ```{{#each ArrayName}}``` YourContent `{{/each}}` 
+The helper structure is `{{#each ArrayName}}` YourContent `{{/each}}` 
 
 You can use the keyword `this` inside the block  to refer to the individual array items. Use `{{@index}}` to render the index of the array's element. 
 

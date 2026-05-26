@@ -35,21 +35,21 @@ TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt
 
 Experience Data Model (XDM) fields are schema elements that provide data to the [!DNL Journey Optimizer B2B Edition] application. Use XDM fields as filters and constraints in journey nodes, buying groups, and for content features, such as email personalization and conditional content.
 
-Schemas define fields based on standard XDM classes. Standard XDM classes include Individual Profile, Business Account, and Experience Event. Relational schemas also define fields that allow you to model structured data similarly to traditional relational databases.
+Schemas define fields based on standard XDM profiles. Standard XDM configurations include Individual Profile, Business Account, and Experience Event. Relational schemas also define fields that allow you to model structured data similarly to traditional relational databases.
 
 Adobe Experience Platform (AEP) schemas typically contain many fields in complex hierarchies. Traversing XDM schema trees takes time. XDM field management streamlines field selection by displaying only the fields that are relevant to your journeys, buying groups, and personalization.  Administrators enable these fields for use in Journey Optimizer B2B Edition, including which are read-only or editable.
 
-Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders should use the following steps to configure XDM classes for [!DNL Journey Optimizer B2B Edition].
+Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders should use the following steps to configure XDM fields for [!DNL Journey Optimizer B2B Edition].
 
-## Access XDM classes
+## Access XDM configurations
 
 1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
 
-1. Click **[!UICONTROL XDM Classes]** on the intermediate panel.
+1. Click **[!UICONTROL XDM Configurations]** on the intermediate panel.
 
    * Use the **[!UICONTROL Standard]** and **[!UICONTROL Relational]** tabs to add new fields and make them available in Journey Optimizer B2B Edition.
 
-   * Use the **Events** tab to [select specific AEP Experience Events and their associated fields](./configure-aep-events.md) to use for journey event nodes.
+   * Use the **[!UICONTROL Events]** tab to [select specific AEP Experience Events and their associated fields](./configure-aep-events.md) to use for journey event nodes.
 
 ## Field selections
 
@@ -63,14 +63,14 @@ Use the following guideline for making field selections:
 * Deleting, renaming, or changing field types can cause journey functionality issues. Exercise caution when manipulating schemas.
 * Do not rename or delete schemas or modify keys in relational schemas.
 
-### Standard classes
+### Standard schemas
 
 In the _[!UICONTROL Standard]_ tab, you can edit _Managed fields_ and _Updatable fields_ for the standard classes:
 
 * Managed fields appear in journeys, buying groups, and personalization features.
 * Updatable fields serve as constraints for the _Update Account Profile_ and _Update Person Profile_ journey nodes.
 
-![Standard classes tab showing XDM class configuration](assets/xdm-standard.png){width="600" zoomable="yes"}
+![Standard classes tab showing XDM configuration](./assets/xdm-standard.png){width="600" zoomable="yes"}
 
 The list includes two classes:
 
@@ -95,11 +95,11 @@ To select fields from the union schema, click the class name to open the Managed
 
 When you choose **[!UICONTROL Managed fields]**, the _Select fields_ dialog lists all configurable fields.
 
-1. Select up to 100 fields for each XDM class.
+1. Select up to 100 fields for each XDM schema.
 
    Use the _[!UICONTROL Search]_ field to filter the displayed list by name. Use the **[!UICONTROL Only show selected fields]** slider to review the current selections.
 
-   ![Managed fields selection dialog for standard XDM classes displaying configurable fields options](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
+   ![Managed fields selection dialog for standard XDM schemas displaying configurable fields options](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]** to confirm your selections.
 
@@ -114,7 +114,7 @@ Before you configure updatable fields, they must reside in a custom dataset. For
 >Guardrails for updateable fields:
 >
 >* Schemas - The schema must use the B2B Person primary identity (`b2b.personKey.sourceKey`). On the XDM Individual Profile class, any required fields in the schema must be system-defined, such as `identityMap` or `personID`.
->* Datasets - Do not use a dataset that is already in use for another purpose. As a best practice, create dedicated datasets specifically for storing updatable fields. Use a separate dataset for each XDM class.
+>* Datasets - Do not use a dataset that is already in use for another purpose. As a best practice, create dedicated datasets specifically for storing updatable fields. Use a separate dataset for each XDM schema.
 
 Create a dataset for Individual Profile, and another for Business Account. Select each new dataset during the configuration process:
 
