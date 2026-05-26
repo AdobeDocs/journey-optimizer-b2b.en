@@ -29,7 +29,7 @@ Journey Optimizer B2B Edition is an integrated Adobe Experience Platform app. It
 
 ## Privacy - GDPR  
 
-Journey Optimizer B2B Edition uses the existing Marketo Engage GDPR governance features provides by the Privacy Service and Marketo Privacy Broker Service.
+Journey Optimizer B2B Edition uses the existing Marketo Engage GDPR governance features provided by the Privacy Service and Marketo Privacy Broker Service.
 
 ## Role-based access control (RBAC)
 
@@ -37,19 +37,21 @@ With Journey Optimizer B2B Edition and access to the Adobe Admin Console, admini
 
 ## Data encryption
 
-**_Encryption for data at rest_** - All accounts and person profiles data transferred from Adobe Experience Platform into Journey Optimizer B2B Edition is encrypted to maintain the existing compliance from Experience Platform. All entities originating in Journey Optimizer B2B Edition, such as journeys and buying groups, are also encrypted.
+**_Encryption for data at rest_** - All account and person profile data transferred from Adobe Experience Platform into Journey Optimizer B2B Edition are encrypted to maintain the existing compliance from Experience Platform. All entities originating in Journey Optimizer B2B Edition, such as journeys and buying groups, are also encrypted.
 
 **_Encryption for data in transit_** (over a public network) - All Journey Optimizer B2B Edition APIs and entities are encrypted in transit using TLS 1.2. 
 
 ## Consent opt-in/opt-out
 
-Consent opt-in/opt-out is a form of governance where a profile can opt out from a communication channel, such as email or SMS, and a profile is then excluded from the communication channel. 
-   
-With Journey Optimizer B2B Edition, you can build and manage subscribe/un-subscribe use-cases for your email and SMS delivery use cases. These consent preferences are stored within the XDM Profile Consent Field Group, and are synced into and out of Journey Optimizer B2B Edition as part of the Data Sync Framework. These preferences are used at delivery time to exclude opted out profiles from deliveries.
+Journey Optimizer B2B Edition reads per-person consent preferences stored in Adobe Experience Platform XDM profiles and enforces them at message delivery time for email, SMS, and WhatsApp channels. A person who opted out of a channel is excluded from delivery before content is sent from the channel or downstream messaging provider.
+
+Consent is evaluated at the time of delivery using XDM fields from the Profile Consent Field Group. The default consent behavior differs by channel — email defaults to opted in when no preference is set, while SMS and WhatsApp default to opted out.
+
+For details on the XDM attributes evaluated for each channel and their default behaviors, see [Consent preferences](../content/channels-consent-preferences.md).
 
 ## Sandbox reset
 
-Sandbox reset is **not currently supported** for Adobe Journey Optimizer B2B Edition. Resetting or deleting a sandbox that is mapped to Journey Optimizer B2B Edition may result in permanent loss of data in Journey Optimizer B2B Edition and could require provisioning of a new Journey Optimizer B2B Edition instance.
+Sandbox reset is **not currently supported** for Adobe Journey Optimizer B2B Edition. Resetting or deleting a sandbox mapped to Journey Optimizer B2B Edition may cause permanent data loss and require provisioning a new instance.
 
 ## Not yet available
 

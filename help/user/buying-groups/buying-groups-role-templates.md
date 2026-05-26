@@ -21,17 +21,41 @@ TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r
 ---
 # Buying group role templates
 
-In a B2B market, buying decisions are usually made by multiple individuals. Those individuals participate in the decision-making process according to their role within the organization. Create buying group role templates that contain a group of role definitions according to each product offering type or account use case.
+In a B2B market, multiple individuals usually make buying decisions. Those individuals participate in the decision-making process according to their role within the organization. Create buying group role templates that contain a group of role definitions according to each product offering type or account use case.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
-## Access and browse role templates
+>[!BEGINSHADEBOX]
+
+## Audience Agent B2B
+
+[Audience Agent B2B](../agents/audience-agent-b2b.md) can generate a buying group roles template from first-party intent detection and persona mapping. In the guided flow, you can identify personas linked to a product, review AI-recommended role-to-persona mappings, and refine the template with natural language before you publish it.
+
+**Prompts to try:**
+
+* Create a buying group template for `<product>`
+* Add `<role>` mapped to `<persona>`
+* Remove `<role>` / `<persona>`
+
+![Audience Agent B2B creating a buying group roles template](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+
+>[!ENDSHADEBOX]
+
+>[!PREREQUISITES]
+>
+>Before you create a roles template, configure the data that role conditions can use:
+>
+>* [Person profile field mapping](../admin/field-mapping.md#xdm-business-person-attributes) for person attribute filters
+>* [Intent data](../admin/intent-data.md) if you use intent filters in role conditions
+>* [Custom buying group roles](./default-custom-roles.md#custom-roles) (optional) if you need roles beyond the six defaults
+
+## Access and browse role templates {#access-and-browse-role-templates}
 
 1. On the left navigation, click **[!UICONTROL Buying groups]**.
 
 1. In the _[!UICONTROL Buying groups]_ page, select the **[!UICONTROL Roles Templates]** tab.
 
-   ![Roles Templates tab](assets/roles-templates-tab.png){width="800" zoomable="yes"}
+   ![Roles Templates inventory tab](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    The tab provides an inventory list of all existing roles templates and displays the following information in column format:
 
@@ -62,9 +86,11 @@ In a B2B market, buying decisions are usually made by multiple individuals. Thos
 
 1. Click **[!UICONTROL Create]**.
 
-### Add the template roles
+### Add the template roles {#add-the-template-roles}
 
-After you create the template, it opens in the workspace and you are prompted to add the roles. The first role card is displayed by default.
+After you create the template, it opens in the workspace and you are prompted to add the roles. The system displays the first role card by default.
+
+#### Role condition filter types
 
 Each role that you define for the template uses a set of filters, or _conditions_, to determine the members assigned to the role. Use the following filter types to define the conditions for a role:
 
@@ -74,6 +100,8 @@ Each role that you define for the template uses a set of filters, or _conditions
 | [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The account or person does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schemas](../admin/xdm-field-management.md#relational-schemas). |
 | Special filters | <li>Member of list (deprecated) <li>Member of program (deprecated) |
 | Intent data | <li>Category intent <li>Product intent <li>Keyword intent <br/>(see [_Intent data_](../admin/intent-data.md)) |
+
+#### Define role properties
 
 1. For the first role card, define the role properties.
 
@@ -87,11 +115,13 @@ Each role that you define for the template uses a set of filters, or _conditions
 
       The value for each option is translated to a percentage for the score calculation: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] =  80, and [!UICONTROL Vital] = 100.
 
-      For example, a role template with roles using Vital, Important, and Normal, are then converted as 100/240, 80/240, 60/240.
+      For example, a role template with Vital, Important, and Normal roles converts to 100, 80, and 60 out of 240.
 
    * **[!UICONTROL Add conditions for auto-assignment]** - Select this checkbox to add conditions for auto-assigning members to the buying group who match the condition. If the checkbox is not selected, then adding conditions is NOT required.
 
    * **[!UICONTROL Required for completeness score]** - Select this checkbox for the role if you want it to be a requirement for calculating a completeness score.
+
+#### Add conditions for auto-assignment
 
 1. Click **[!UICONTROL Add Condition]** and define the conditional rule for the role.
 
@@ -101,7 +131,7 @@ Each role that you define for the template uses a set of filters, or _conditions
 
       >[!NOTE]
       >
-      >If you have custom person fields defined in the business person schema in Experience Platform, these fields are also available to use as person attributes in conditions.
+      >If you have custom person fields defined in the Experience Platform business person schema, you can use these fields as person attributes in conditions.
 
       Use the attribute to create a matching filter using one or more values. 
     
@@ -117,7 +147,9 @@ Each role that you define for the template uses a set of filters, or _conditions
 
    * Click **[!UICONTROL Done]**.
 
-1. For each additional role that you want to include for the template, click **[!UICONTROL Add another role]** and repeat steps 1 and 2 to define the role.
+#### Add more roles
+
+1. For each additional role that you want to include for the template, click **[!UICONTROL Add another role]** and repeat the steps under **Define role properties** and **Add conditions for auto-assignment** to define the role.
 
    ![Roles template with multiple roles defined](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -134,15 +166,15 @@ To use list membership as a role condition, expand **[!UICONTROL Special Filters
 
 >[!NOTE]
 >
->**Feature deprecation**</br></br>
+>**Feature deprecation**
 >
 >In the current Journey Optimizer B2B Edition release, filtering based on list or program membership in a Marketo Engage instance is no longer supported.
 
 >[!ENDSHADEBOX]
 
-### Change the completeness score settings
+### Change the completeness score settings {#change-the-completeness-score-settings}
 
-By default, completeness for a role is defined as one member assigned to the role. When you want to use buying group completeness as an indicator of sales readiness or success <!-- journey decisioning coming later-->, you can use these settings to align the score with the number of members per role required to close an opportunity.
+By default, completeness for a role is defined as one member assigned to the role. When using buying group completeness to indicate sales readiness, use these settings to align the score with the number of members required to close an opportunity.
 
 For example, closing a deal for your solution _X_ requires multiple marketing decision makers to be identified and engaged because multiple marketing teams across an organization would use the solution. In this case, you want to increase the threshold to calculate a _complete_ buying group by requiring at least two marketing decision makers.
 
@@ -156,7 +188,7 @@ See [Completeness scores](./completeness-scores.md) for detailed information abo
 
    You can enter the value, or click **&plus;** or **&minus;** to increase or decrease the value.
 
-   ![Roles template - completeness score settings button](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+   ![Roles template completeness score settings dialog](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
 1. Click **[!UICONTROL Save]**.
 
@@ -164,13 +196,15 @@ See [Completeness scores](./completeness-scores.md) for detailed information abo
 
 If the template is ready for use, click **[!UICONTROL Publish]** at the top-right.
 
-Publishing the template sets the status to _Live_ status and makes it available for association with a solution interest. There must be at least one defined role to publish the roles template. 
+Publishing the template sets the status to _Live_ and makes it available for association with a solution interest. There must be at least one defined role to publish the roles template.
+
+After you publish, the template status is _Live_ on the **[!UICONTROL Roles Templates]** tab and you can select it when you [create a solution interest](./solution-interests.md).
 
 ## Edit a draft roles template
 
 When a roles template is in a _Draft_ state, you can continue to edit the defined roles. Any changes that you make are automatically saved.
 
-Change any of the settings in the header of the role card, including the buying group role, weighting, auto-assignment, and completeness scoring requirement.
+Change the role card header settings, such as the buying group role, weighting, auto-assignment, or completeness scoring requirement.
 
 ![Change buying group role properties](./assets/roles-template-role-properties.png){width="600"}
 
@@ -196,10 +230,12 @@ You can delete a roles template if it is in the _Draft_ status.
 
 1. Click **[!UICONTROL Delete]** at the top right.
 
-   ![Change role priority](./assets/roles-template-delete.png){width="700"}
+   ![Delete roles template confirmation dialog](./assets/roles-template-delete.png){width="700"}
 
 1. In the dialog, click **[!UICONTROL Delete]** to confirm.
 
-## Overview video
+   After you confirm, the roles template is removed from the **[!UICONTROL Roles Templates]** inventory list.
+
+## Overview video {#overview-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
