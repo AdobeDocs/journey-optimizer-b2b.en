@@ -11,3 +11,4 @@ package-lock.json
 usage-agents.log
 /.claude
 *.mdc
+/.cursor/skills
