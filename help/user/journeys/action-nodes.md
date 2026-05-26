@@ -53,7 +53,7 @@ In an account journey, use an action on accounts when you want to apply a change
 >
 >The _[!UICONTROL Account Change Data Value]_ action is deprecated for the 2025.10 release. _[!UICONTROL Update account profile]_ replaces this action in Journey Optimizer B2B Edition.<br/>
 >
->An administrator can configure the available attributes for the XDM Business Account by updating the fields in the _[!UICONTROL XDM Classes]_ > _[!UICONTROL Standard classes]_. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
+>An administrator can configure the available attributes for the XDM Business Account by updating the fields in the _[!UICONTROL XDM Configurations]_ > _[!UICONTROL Standard classes]_. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 
 ### Add an account-based action
 
@@ -272,7 +272,7 @@ Use this action to change the value of a [people profile attribute](../admin/fie
 >
 >The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action in the current Journey Optimizer B2B Edition release.<br/>
 >
->An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Classes]_ > [!UICONTROL Standard classes]. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
+>An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Configurations]_ > [!UICONTROL Standard classes]. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
 
 +++
 

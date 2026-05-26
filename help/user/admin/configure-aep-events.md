@@ -33,14 +33,19 @@ TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd
 Administrators can select specific [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} and their associated fields within the Experience Event union schema. After selection, users can configure decisioning rules to listen to those Experience Events to enable dynamic and targeted campaign actions based on near real-time event data. 
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
+
+>[!PREREQUISITES]
+>
+>Using Experience Events and fields in Journey Optimizer B2B Edition requires profile-enabled Experience Event schemas. For more information, see [Enable Real-Time Customer Profiles](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} in the Experience Platform tutorials.
+
 Using AEP experience events in journeys is a two-step process: 
 
-1. An administrator [adds AEP experience events and fields](#add-an-event) in the Journey Optimizer B2B Edition configurations.
+1. An administrator [adds AEP Experience Events and fields](#add-an-event) in the Journey Optimizer B2B Edition configurations.
 
-2. In a journey, a marketer adds a _Listen for an event_ node and [selects an Experience Event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+1. In a journey, a marketer uses the configured events in one of two ways:
 
-   * Selects the event to use in the node.
-   * Selects the fields to use as constraints.
+   * Adds a _Listen for an event_ node and [selects an Experience Event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) to trigger journey progression based on real-time event activity during the journey.
+   * Adds a _Split paths by people_ node and configures a path to [filter on an event](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) from the **[!UICONTROL Event history]** folder.
 
 >[!BEGINSHADEBOX]
 
@@ -52,7 +57,9 @@ As you select events to meet your organizational goals, consider the following:
 
 * Journeys can listen to Experience Events that are ingested using Experience Platform streaming capabilities, such as Web SDK or HTTP API.
 
-* You can use Experience Events for decisioning purposes within a journey, but they are not retained. Therefore, you cannot leverage a historical record of Experience Events within Journey Optimizer B2B Edition. 
+* Historical experience event data begins accumulating for a person when the event exists in the Journey Optimizer B2B Edition database. For people who already exist when an event type is first configured, backfill begins at configuration time. For new people, accumulation starts when the person is first added (their prior history is not retroactively available).
+
+* There is currently no delete mechanism for accumulated event history. Long-term retention policy is subject to change.
 
 * When you use an Experience Event and publish the journey, you can add more fields, but you cannot remove fields that were previously selected.
 
@@ -64,7 +71,7 @@ As you select events to meet your organizational goals, consider the following:
 
 1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
-1. Click **[!UICONTROL XDM Classes]** on the intermediate panel, and then click the **[!UICONTROL Events]** tab to display the list of the available events.
+1. Click **[!UICONTROL XDM Configurations]** on the intermediate panel, and then click the **[!UICONTROL Events]** tab to display the list of the available events.
 
    ![Access the selected Experience Events](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
@@ -126,7 +133,9 @@ Edit the event details to change the fields.
 
    ![Click the More menu icon](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}    
 
-1. Click **[!UICONTROL Edit fields]** to add more fields or remove existing selections in the _[!UICONTROL Select fields]_ dialog.
+1. Click **[!UICONTROL Edit fields]** to open the _[!UICONTROL Select fields]_ dialog and add more fields.
+
+   You cannot remove fields that were previously selected after a journey that uses this event is published.
 
 1. Click **[!UICONTROL Select]** to save your selections.
 
@@ -167,7 +176,7 @@ Event type: `directMarketing.emailSent`
 | Email source ID | `directMarketing.emailSent.mailingKey.sourceID` |
 | Email source type | `directMarketing.emailSent.mailingKey.sourceType` |
 | Email source instance ID | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
-| Email source key | `directMailing.emailSent.mailingKey.sourceKey` |
+| Email source key | `directMarketing.emailSent.mailingKey.sourceKey` |
 | Mailing name | `directMarketing.emailSent.mailingName` |
 | Journey ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | Node ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -439,7 +448,7 @@ Event type: `web.webinteraction.linkClicks`
 | Person source Key | `personKey.sourceKey` |
 | Web interaction source ID | `web.webInteraction.webInteractionKey.sourceID` |
 | Web interaction source type | `web.webInteraction.webInteractionKey.sourceType` |
-| Web interaction source instance ID | `web.webInteraction.webInteractionKey.sourceInstanceID`|
+| Web interaction source instance ID | `web.webInteraction.webInteractionKey.sourceInstanceID` |
 | Web interaction source key | `web.webInteraction.webInteractionKey.sourceKey` |
 | Web interaction link ID | `web.webInteraction.linkID` |
 | Web interaction link URL | `web.webInteraction.linkURL` |

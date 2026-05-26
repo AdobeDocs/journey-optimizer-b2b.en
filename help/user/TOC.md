@@ -42,6 +42,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
+       + [Next best path](./journeys/next-best-path-node.md)
        + [Wait](./journeys/wait-nodes.md)
        + [External nodes](./journeys/external-nodes.md)
     + [Journey details](./journeys/journey-details.md)
@@ -63,6 +64,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Web experience design](./content/web-experience-design.md)
       + [Single-page applications](./content/web-single-page-applications.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
+    + [Consent preferences](./content/channels-consent-preferences.md)
 + Audiences {#audiences}
     + [Experience Platform audiences](./audiences/account-audience-overview.md)
     + [Target external audiences](./audiences/target-external-audience.md)
