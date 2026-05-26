@@ -26,6 +26,7 @@ Use Adobe Journey Optimizer B2B Edition to send WhatsApp messages to account mem
 
 Before creating WhatsApp messages for account journeys, make sure that you have the needed [WhatsApp channel configured](../admin/configure-channels-whatsapp.md) in the _[!UICONTROL Administrator]_ settings.
 
+
 >[!NOTE]
 >
 >Only _outbound_ WhatsApp message elements are supported in Journey Optimizer B2B Edition.
@@ -56,6 +57,10 @@ The following call-to-action options are available for your WhatsApp messages:
 +++
 
 ## Add a WhatsApp action in an account journey
+
+>[!IMPORTANT]
+>
+>**WhatsApp consent management**: In accordance with Meta's policies and applicable regulations, all WhatsApp marketing messages must be sent only to recipients who have opted in to receive communications. WhatsApp recipients can opt out at any time by replying with an opt-out keyword. Opt-out responses are automatically honored, and the corresponding profiles are removed from future marketing message audiences. For details about how WhatsApp consent preferences are evaluated at delivery time, see [Consent preferences](./channels-consent-preferences.md).
 
 You can set up WhatsApp message deliveries in an account journey when you [add a _[!UICONTROL Take an action]_ node](../journeys/action-nodes.md) and do the following:
 
@@ -88,10 +93,6 @@ You can set up WhatsApp message deliveries in an account journey when you [add a
 1. Click **[!UICONTROL Edit content]** to move on to the message parameters and text.
 
 ### Select a message template
-
->[!IMPORTANT]
->
->**WhatsApp consent management**: In accordance with Meta's policies and applicable regulations, all WhatsApp marketing messages must be sent only to recipients who have opted in to receive communications. WhatsApp recipients can opt out at any time by replying with an opt-out keyword. Opt-out responses are automatically honored, and the corresponding profiles are removed from future marketing message audiences.
 
 WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in Journey Optimizer B2B Edition. Work with your [!DNL Meta Business Manager] account administrator to manage and submit templates for approval.
 
