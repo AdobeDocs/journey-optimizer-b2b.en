@@ -29,7 +29,7 @@ topic_v2:
 ---
 # Journeys Overview dashboard
 
-The Overview dashboard for [account and person journeys](../journeys/journeys-overview.md) provides a comprehensive snapshot of your active journeys. Circle and bar charts categorize and quantify completions and engagement activities so you can evaluate the effectiveness of email and SMS channels through key delivery and engagement metrics.
+The Overview dashboard for [account or person journeys](../journeys/journeys-overview.md) provides a comprehensive snapshot of your active journeys. Circle and bar charts categorize and quantify completions and engagement activities so you can evaluate the effectiveness of email and SMS channels through key delivery and engagement metrics. For a cross-journey view of email-specific delivery and engagement data, see the [Email performance report](email-performance-dashboard.md).
 
 This overview is available for published journeys, and it takes approximately four hours for data to start populating the charts and tables.
 
