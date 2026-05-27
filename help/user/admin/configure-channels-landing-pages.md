@@ -5,6 +5,25 @@ feature: Setup, Landing Pages, Content
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
+autotag-review: '2026-05-27T16:08:42.537Z'
+TQID: 'https://experienceleague.adobe.com/yYJUH3-uiNxk-lT4S6hpuMmntMg267ezc-gbsegu7vI'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
 ---
 # Landing page configuration
 

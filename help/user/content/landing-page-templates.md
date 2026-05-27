@@ -6,12 +6,19 @@ role: User
 hide: true
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
+autotag-review: '2026-05-27T16:15:59.668Z'
+TQID: 'https://experienceleague.adobe.com/UaFB79KiXDdiGIAcfl0JwyRQLCxqcrb-mApLG2R3shU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -21,8 +28,6 @@ level_v2:
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-autotag-review: 2026-03-30T22:23:06.459Z
-TQID: https://experienceleague.adobe.com/wtXTnsmEkeno3paTsUksTZpg5Ki3soGb2N1N5pvwsko
 ---
 # Landing page templates
 
