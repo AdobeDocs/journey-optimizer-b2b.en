@@ -30,6 +30,12 @@ Use Adobe Journey Optimizer B2B Edition to send text messages (SMS) to your cust
 
 Before creating SMS messages for account journeys, make sure that the [SMS service provider is configured](../admin/configure-channels-sms.md) from the _[!UICONTROL Administrator]_ settings.
 
+>[!IMPORTANT]
+>
+>**SMS consent management**<br/>
+>
+>In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to unsubscribe easily. To do this, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored. In addition, any custom keywords configured for your SMS service provider account are supported and honored. For details about how SMS consent preferences are evaluated at delivery time, see [Consent preferences](./channels-consent-preferences.md).
+
 ## Add an SMS action in an account journey
 
 You can set up text message deliveries in an account journey when you add a _[!UICONTROL Take an action]_ node and do the following:
@@ -51,12 +57,6 @@ You can set up text message deliveries in an account journey when you add a _[!U
    The _Journey map_ opens and you can create the message and set the SMS properties for sending the message.
 
 ### Create the SMS message
-
->[!IMPORTANT]
->
->**SMS consent management**<br/>
->
->In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to unsubscribe easily. To do this, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored. In addition, any custom keywords configured for your SMS service provider account are supported and honored.
 
 Enter the text that you want to send in the **[!UICONTROL Message]** field.
 

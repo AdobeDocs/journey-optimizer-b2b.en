@@ -29,7 +29,7 @@ TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVa
 ---
 # Review the spam report
 
-Many email inbox providers and most corporate systems employ a spam filtering process. Sending emails that trigger these filters can severely impact deliverability. In Journey Optimizer B2B Edition, you can check email content spam scoring by generating a Spam report. This report uses [[!DNL SpamAssassin]](https://spamassassin.apache.org/) to test the email and helps you to determine whether a message could be considered as spam by anti-spam tools. You can use the information in the report to take actions that improve the email content score and deliverability. 
+Many email inbox providers and most corporate systems employ a spam filtering process. Sending emails that trigger these filters can severely impact deliverability. In Journey Optimizer B2B Edition, you can check email content spam scoring by generating a Spam report. This report uses [[!DNL SpamAssassin]](https://spamassassin.apache.org/) to test the email and helps you to determine whether a message could be considered as spam by anti-spam tools. You can use the information in the report to take actions that improve the email content score and deliverability. After you tune content, track bounce rate and delivery in the [Email performance report](../dashboards/email-performance-dashboard.md).
 
 When you review your email settings or edit the content, open the _[!UICONTROL Simulate]_ page and generate a _Spam report_ to review scoring and flagged elements that can trigger anti-spam filtering.
 

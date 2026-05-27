@@ -42,6 +42,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
+       + [Next best path](./journeys/next-best-path-node.md)
        + [Wait](./journeys/wait-nodes.md)
        + [External nodes](./journeys/external-nodes.md)
     + [Journey details](./journeys/journey-details.md)
@@ -63,6 +64,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Web experience design](./content/web-experience-design.md)
       + [Single-page applications](./content/web-single-page-applications.md)
     + [Custom personalization tokens](./content/personalization-my-tokens.md)
+    + [Consent preferences](./content/channels-consent-preferences.md)
 + Audiences {#audiences}
     + [Experience Platform audiences](./audiences/account-audience-overview.md)
     + [Target external audiences](./audiences/target-external-audience.md)
@@ -146,8 +148,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Insights dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement dashboard](./dashboards/engagement-dashboard.md)
     + [Web engagement dashboard](./dashboards/web-engagement-dashboard.md)
+    + [Email performance report](./dashboards/email-performance-dashboard.md)
     + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
-    + [Account Journeys dashboard](./dashboards/journeys-dashboard.md)
+    + [Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [Governance](./admin/governance.md)
     + [Persona mapping](./admin/persona-mapping.md)

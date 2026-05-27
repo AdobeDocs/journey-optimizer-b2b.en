@@ -110,7 +110,7 @@ Use this checklist to complete Journey Optimizer B2B Edition setup.
 </thead>
 <tbody>
 <tr>
-<td colspan="2"><strong>Standard XDM classes</strong>: Set up XDM Individual Profile and XDM Business Account classes.</td>
+<td colspan="2"><strong>Standard XDM configurations</strong>: Set up XDM Individual Profile and XDM Business Account schemas.</td>
 <td></td>
 </tr>
 <tr>
@@ -124,7 +124,7 @@ Use this checklist to complete Journey Optimizer B2B Edition setup.
 <td><a href="./admin/xdm-field-management.md#updatable-fields">Learn more</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Relational schemas</strong>: Select relational XDM class (Account many-to-one Custom Object).</td>
+<td colspan="2"><strong>Relational schemas</strong>: Select relational XDM fields (Account many-to-one Custom Object).</td>
 <td></td>
 </tr>
 <tr>
