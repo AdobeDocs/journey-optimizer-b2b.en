@@ -177,8 +177,10 @@ Adobe Journey Optimizer B2B Edition allows you to import existing HTML content t
 You can personalize the imported content as needed with the visual design space.
 
 ### Select a template
+
+[!BADGE Beta]{type=Informative tooltip="Beta feature"}
    
-If you want to use a template, you can choose from:
+If you want to use a landing page template, you can choose from:
 
 * **Sample templates**. The Journey Optimizer B2B Edition interface offers a collection of out-of-the-box landing page templates that you can use as a starting point for your landing page design.
 
