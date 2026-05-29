@@ -291,15 +291,13 @@ When the landing page settings and content are defined, you can use test profile
 
 ## Publish the page {#publish-landing-page}
 
-When the draft page meets your criteria and you want to make the page available to link from journey messages, click **[!UICONTROL Publish]**. Before publishing, [check and resolve all alerts](#check-alerts).
-
 >[!PREREQUISITES]
 >
->To publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
+>To publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission.  Before publishing, [check and resolve all alerts](#check-alerts).
 
-<!--
-![](assets/lp_publish.png)
--->
+When the draft page meets your criteria and you want to make the page available to link from journey messages, click **[!UICONTROL Publish]** at the top right. And in the confirmation dialong, click **[!UICONTROL Publish]**.
+
+![Confirmation dialog for publish](./assets/landing-page-publish-confirm.png){width="250"}
 
 When the landing page is published, it is displayed in the landing page list with the **_[!UICONTROL Published]_** status. This means that it is live and ready to be used in an email, SMS, or WhatsApp message sent through a journey.
 
