@@ -30,11 +30,11 @@ topic_v2:
 
 As a marketer, you can define and publish pages that you want to incorporate into your account and person journeys. When you add a new landing page, you configure the primary page and any subpages, design the content, test it, and publish it.
 
-![Landing page work flow diagram](./assets/landing-page-work-flow-diagram-no-subpages.svg)
+![Landing page workflow diagram](./assets/landing-page-work-flow-diagram-no-subpages.svg)
 
 >[!BEGINSHADEBOX]
 
-## Landing page prerequisites
+## Landing page prerequisites {#landing-page-prerequisites}
 
 Before marketers can create landing pages to support their journeys and campaigns, the following configurations and assets must be in place:
 
@@ -72,7 +72,7 @@ Before marketers can create landing pages to support their journeys and campaign
 
 1. Select a **[!UICONTROL Preset]**.
 
-   A product administrator [configures a preset](../admin/configure-channels-landing-pages.md#presets) to define the subdomain and other settings used for landing pages. You can select a preset and then click **[!UICONTROL View preset]** to open the preset details and check the settings to make sure that it matches your landing page requirements.
+   A product administrator [configures a preset](../admin/configure-channels-landing-pages.md#lp-presets) to define the subdomain and other settings used for landing pages. You can select a preset and then click **[!UICONTROL View preset]** to open the preset details and check the settings to make sure that it matches your landing page requirements.
 
 1. Click **[!UICONTROL Create]**.
 
@@ -90,7 +90,7 @@ Before marketers can create landing pages to support their journeys and campaign
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="Define your landing page URL"
->abstract="In this section, define a unique landing page URL. The first part of the URL requires you previously set up a landing page subdomain as part of the preset you selected."
+>abstract="In this section, define a unique landing page URL. The first part of the URL requires that you previously set up a landing page subdomain as part of the preset you selected."
 
 1. Change the **[!UICONTROL Page Name]** according to your needs, which is _Primary page_ by default.
 
@@ -121,20 +121,20 @@ Before marketers can create landing pages to support their journeys and campaign
 
        ![Landing page expiry - browser error](./assets/landing-page-expiry-browser-error.png){width="400"}
 
-## Choose the content design type
+## Choose the content design type {#choose-design-type}
 
 To add the _[!UICONTROL Content]_ for the page, click **[!UICONTROL Open Designer]**. The _[!UICONTROL Create your primary landing page]_ home page loads and the design process begins with choosing how you want to start the design:
 
 * [[!UICONTROL Design from scratch]](#design-from-scratch)
 * [[!UICONTROL Code your own]](#code-your-own)
 * [[!UICONTROL Import HTML]](#import-html)
-* [Use a landing page template](#select-a-template)
+* [Use a landing page template](#select-template)
    
 ![Choose how you want to start your landing page design](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
    
 After you select your preferred method for starting the landing page design, use the visual design tools to [complete the page content](./landing-page-design.md).
 
-### Design from scratch
+### Design from scratch {#design-from-scratch}
    
 Use the visual content editor to define the structure of the landing page content. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the page content within seconds.
    
@@ -148,9 +148,9 @@ Use the visual content editor to define the structure of the landing page conten
 
 1. Click **[!UICONTROL Confirm]**.
    
-1. [Add structure and content](./landing-page-design.md#add-structure-and-content) to the page.
+1. [Add structure and content](./landing-page-design.md#structure-content-landing-page) to the page.
 
-### Code your own
+### Code your own {#code-your-own}
 
 _Code your own_ lets you write or paste raw HTML to build the page content directly in the design space. Use this mode when you need full control over markup. Using this mode requires that you have HTML skills.
 
@@ -162,13 +162,13 @@ After you choose this mode, you stay in the code editor; you cannot switch to th
 
 If you want to clear your page content and start from a new design, select **[!UICONTROL Change your design]** from the options menu.
    
-### Import HTML
+### Import HTML {#import-html}
    
 Adobe Journey Optimizer B2B Edition allows you to import existing HTML content to design your landing pages.
    
 {{$include /help/_includes/content-design-import.md}}
    
-![import html content in a zip file](./assets/templates-import-zip-file.png){width="500"}  
+![Import html content in a zip file](./assets/templates-import-zip-file.png){width="500"}  
    
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ Adobe Journey Optimizer B2B Edition allows you to import existing HTML content t
    
 You can personalize the imported content as needed with the visual design space.
 
-### Select a template
+### Select a template {#select-template}
 
 [!BADGE Beta]{type=Informative tooltip="Beta feature"}
    
@@ -220,7 +220,7 @@ Adobe Journey Optimizer B2B Edition offers a selection of _out-of-the-box_ landi
 
 >[!ENDTABS]
 
-## Check alerts
+## Check alerts {#check-alerts}
 
 As you design your landing page content, alerts appear at the top right when key settings are missing.
 
@@ -253,29 +253,39 @@ When the landing page settings and content are defined, you can use test profile
 
 >[!PREREQUISITES]
 >
->To preview and test landing pages, you must have the **[!UICONTROL Publish Messages]** permission.
->
->This function requires that there are test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](./email-simulate-content.md#add-people-to-the-profiles-list).
+>To preview and test landing pages, you must have the **[!UICONTROL Publish Messages]** permission and a defined dataset that contains [test profiles](../audiences/test-profiles.md).
 
 1. Click **[!UICONTROL Preview & test]** to open the test profile selection.
 
-    <!-- ![](assets/landing-page-test-preview.png) -->
+   >[!NOTE]
+   >
+   >You can also use **[!UICONTROL Simulate content]** when you are in the visual design space.
 
-    >[!NOTE]
-    >
-    >You can also use **[!UICONTROL Simulate content]** when you are in the visual design space.
+1. From the _[!UICONTROL Simulate]_ screen, select a test profile.
 
-1. From the _[!UICONTROL Simulate]_ screen, select one or more test profiles.
+   ![Simulate landing page content for selected profile](./assets/landing-page-simulate.png){width="700" zoomable="yes"}
 
-    <!-- ![](assets/lp_test-profiles.png) -->
+   If the profiles that you need are not listed, click **[!UICONTROL Manage test profiles]** to use a known [test profile](../audiences/test-profiles.md) email address and add it to the list.
 
-    The steps to [select test profiles](email-simulate-content.md#add-people-to-the-profiles-list) are the same as when testing an email message.
+   +++Add test profiles
+
+   For **[!UICONTROL Identity namespace]**, click the  _Select_ ( ![Select icon](../assets/do-not-localize/icon-select-data.svg) ) icon and choose the `Email` namespace to use to test profiles.
+
+   ![Manage test profiles set Email identity namespace](./assets/manage-test-profiles.png){width="700" zoomable="yes"}
+
+   In the **[!UICONTROL Identity value]** field, enter the email address to identify the test profile and click **[!UICONTROL Add profile]**. You can repeat this to add multiple profiles.
+
+   ![Manage test profiles add profiles](./assets/manage-test-profiles-add.png){width="700" zoomable="yes"}
+
+   Click the back arrow at the top left to return to the _[!UICONTROL Simulate]_ page.
+
+   +++
 
 1. Select **[!UICONTROL Open preview]** to test your landing page.
 
    The landing page preview opens in a new tab. The selected test profile data replaces personalized elements.
 
-    <!--![](assets/lp_preview.png)-->
+   ![Landing page preview with profile data](assets/landing-page-preview.png){width="600"}
 
 1. Select other test profiles to preview the rendering for each variant of your landing page.
 

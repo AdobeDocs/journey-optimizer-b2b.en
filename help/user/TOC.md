@@ -70,6 +70,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Target external audiences](./audiences/target-external-audience.md)
     + [LinkedIn Account Matched audiences](./data/linkedin-account-matched-audiences.md)
     + [Default XDM fields](./admin/field-mapping.md)
+    + [Test profiles](./audiences/test-profiles.md)
 + Accounts {#accounts}
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
