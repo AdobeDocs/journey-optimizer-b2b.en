@@ -110,7 +110,7 @@ You can create new visual fragments in Journey Optimizer B2B Edition by clicking
 
 1. Use the content design tools to create the visual fragment content:
 
-   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add structure and content](./fragment-authoring.md#design-fragment)
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
@@ -202,7 +202,7 @@ Edits to a fragment depend on its current status:
 
    Use the visual design tools as needed:
 
-   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add structure and content](./fragment-authoring.md#design-fragment)
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
@@ -231,7 +231,7 @@ Edits to a fragment depend on its current status:
 
    Use the visual design tools as needed:
 
-   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add structure and content](./fragment-authoring.md#design-fragment)
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
@@ -260,7 +260,7 @@ To update the content:
 
 1. Click **[!UICONTROL Edit fragment]** at the top right. Use the visual design tools as needed:
 
-   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add structure and content](./fragment-authoring.md#design-fragment)
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)

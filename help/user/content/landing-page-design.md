@@ -28,7 +28,7 @@ TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFf
 ---
 # Landing page design
 
-After you [create a landing page](./landing-pages.md#create-a-landing-page), use the visual design space to author the structural and content components in your page. 
+After you [create a landing page](./landing-pages-create-publish.md#create-landing-page), use the visual design space to author the structural and content components in your page. 
 
 ## Add structure and content {#structure-content-landing-page}
 
@@ -64,6 +64,18 @@ With at least one content component in the canvas, select the **[!UICONTROL Body
 
 {{$include /help/_includes/content-design-links.md}}
 
+![Click the Edit icon to access link tracking](./assets/landing-page-link-tracking.png){width="400"}
+
+Use the **[!UICONTROL Tracking Type]** to control tracking for the link:
+
+* **[!UICONTROL Tracked]** - Activates tracking on the link URL.
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL Never]** - Never activates tracking of the link URL.
+
 ### Save your work
 
 Click **[!UICONTROL Save]** at any time to save the draft landing page.
@@ -84,7 +96,7 @@ Leverage the view and content validation options that are available in the visua
 
 From the _[!UICONTROL More ...]_ menu at the top of the visual design space, you can take the following actions:
 
-![Click More to access template actions](./assets/landing-page-designer-more-menu.png){width="500"}
+![Click More to access landing page actions](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL Reset landing page]** - Click this option to clear the visual design canvas to a blank slate and restart building your page content.
 * **[!UICONTROL Change your design]** - Return to the _[!UICONTROL Create your primary landing page]_ home page. From there, you can choose another template to restart the design process, or choose to design the page from scratch in a blank canvas.

@@ -110,7 +110,7 @@ Edits to a landing page depend on its current status:
 
    Use the visual design tools as needed:
 
-   * [Add structure and content](./landing-page-design.md#add-structure-and-content)
+   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
    * [Add Assets](./landing-page-design.md#add-assets)
    * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./landing-page-design.md#personalize-content)
@@ -138,7 +138,7 @@ Edits to a landing page depend on its current status:
 
    Use the visual design tools as needed:
 
-   * [Add structure and content](./landing-page-design.md#add-structure-and-content)
+   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
    * [Add Assets](./landing-page-design.md#add-assets)
    * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./landing-page-design.md#personalize-content)
@@ -160,7 +160,7 @@ To update the content:
 
 1. Click **[!UICONTROL Edit landing page]** at the top right. Use the visual design tools as needed:
 
-   * [Add structure and content](./landing-page-design.md#add-structure-and-content)
+   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
    * [Add Assets](./landing-page-design.md#add-assets)
    * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./landing-page-design.md#personalize-content)

@@ -142,7 +142,7 @@ Use the following steps according to the type of landing page content generation
 
 Follow these steps to use AI Assistant for full landing page generation by refining an existing landing page template:
 
-1. After [creating the landing page](./landing-pages.md#create-a-landing-page), click **[!UICONTROL Edit landing page]**.
+1. After [creating the landing page](./landing-pages-create-publish.md#create-landing-page), click **[!UICONTROL Edit landing page]**.
 
 1. Select a template.
 

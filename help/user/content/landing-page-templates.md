@@ -75,7 +75,7 @@ Use the visual design space to define the structure of the landing page content.
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
 
-1. [Add structure and content](./landing-page-design.md#add-structure-and-content) to the template.
+1. [Add structure and content](./landing-page-design.md#structure-content-landing-page) to the template.
 
 ### Import HTML
 

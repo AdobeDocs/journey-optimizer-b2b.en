@@ -165,7 +165,7 @@ Each content component type displays a toolbar when you select it in the canvas.
         <th style="width: 20%;">Components</th>
     </tr>
     <tr>
-        <td><img width="160px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Font color tool"></td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Font color tool"></td>
         <td>Apply font color to the selected text. Choose a color from the picker and use the color slider and the color field to select the color. Or, you can enter a known RGB, HSL, HSB, or hexadecimal value. </td>
         <td><li>Button <li>Text</td>
     </tr>
@@ -182,8 +182,8 @@ Each content component type displays a toolbar when you select it in the canvas.
         <th style="width: 20%;">Components</th>
     </tr>
     <tr>
-        <td><img width="120px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Insert link tool"></td>
-        <td>Create a clickable link (external URL or landing page) for the selected text or element.</td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Insert link tool"></td>
+        <td>Create a clickable link for the selected text or element. <li>Email content - Specify an external URL or landing page.<li>Landing page content - Specify an external link.</td>
         <td><li>Button <li>Text <li>Image </td>
     </tr>
 </table>
@@ -200,7 +200,7 @@ Each content component type displays a toolbar when you select it in the canvas.
     </tr>
     <tr>
         <td><img width="80px" src="../assets/do-not-localize/toolbar-button-remove-link.png" alt="Remove link tool"></td>
-        <td> Remove the clickable link (external URL or landing page) for the selected text or element.</td>
+        <td> Remove the clickable link for the selected text or element.</td>
         <td><li>Button <li>Text <li>Image </td>
     </tr>
 </table>
@@ -778,7 +778,7 @@ Use the _Form_ component to add a published form to a landing page or landing pa
 
       >[!TIP]
       >
-      >If you want the use the form for downloading a file, you can specify a URL for the hosted file. With this configuration, the submit button functions as a download button.
+      >If you want to use the form for downloading a file, you can specify a URL for the hosted file. With this configuration, the submit button functions as a download button.
     
      ![Change the follow-up setting](../../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"} 
 

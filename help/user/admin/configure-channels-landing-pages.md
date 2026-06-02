@@ -223,7 +223,7 @@ _To add a landing page subdomain:_
 >title="Create a landing page preset"
 >abstract="In order to build a landing page and leverage it through Journey Optimizer B2B Edition, you must create a landing page preset that includes the subdomain to use."
 
-When marketers [create a landing page](../content/landing-pages.md#create-a-landing-page), they must select a landing page preset to be able to build the landing page and leverage it through [!DNL Journey Optimizer B2B Edition]. The preset includes the subdomain to use for the landing page.
+When marketers [create a landing page](../content/landing-pages-create-publish.md#create-landing-page), they must select a landing page preset to be able to build the landing page and leverage it through [!DNL Journey Optimizer B2B Edition]. The preset includes the subdomain to use for the landing page.
 
 Before you configure a preset, ensure that there is at least one configured landing page subdomain with the _[!UICONTROL Success]_ status.
 
@@ -269,4 +269,4 @@ Click any preset name to access the landing page preset details.
 
    <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   When the landing page preset is created, it is displayed in the list with the _[!UICONTROL Active]_ status and is ready to use for [creating landing pages](../content/landing-pages.md#create-a-landing-page).
+   When the landing page preset is created, it is displayed in the list with the _[!UICONTROL Active]_ status and is ready to use for [creating landing pages](../content/landing-pages-create-publish.md#create-landing-page).
