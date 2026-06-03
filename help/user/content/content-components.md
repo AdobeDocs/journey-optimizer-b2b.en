@@ -312,7 +312,7 @@ On the _[!UICONTROL Settings]_ tab, use the **[!UICONTROL Link]** options to def
 
    * **Landing page** - Choose this type to select a published landing page in <!-- Journey Optimizer B2B Edition (_Beta_) or -->the connected Marketo Engage instance.
 
-      For the **[!UICONTROL Landing Page]** option, select the published landing page. Click the _Select page_ icon ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ) and [select the published landing page](./landing-pages.md#link-to-a-landing-page).
+      For the **[!UICONTROL Landing Page]** option, select the published landing page. Click the _Select page_ icon ( ![Show links icon](../assets/do-not-localize/icon-landing-page-select.svg) ) and [select the published landing page](./landing-pages.md#link-to-a-landing-page).
       
       ![Define a link to a landing page for a button component](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -628,7 +628,7 @@ On the _[!UICONTROL Settings]_ tab, use the **[!UICONTROL Link]** options to lin
 
    * **Landing page** - Choose this type to select a published landing page in <!-- Journey Optimizer B2B Edition (_Beta_) or -->the connected Marketo Engage instance.
 
-      For the **[!UICONTROL Landing Page]** option, select the published landing page. Click the _Select page_ icon ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ) and [select the published landing page](./landing-pages.md#link-to-a-landing-page).
+      For the **[!UICONTROL Landing Page]** option, select the published landing page. Click the _Select page_ icon ( ![Show links icon](../assets/do-not-localize/icon-landing-page-select.svg) ) and [select the published landing page](./landing-pages.md#link-to-a-landing-page).
       
       ![Define a link to a landing page for a button component](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -756,7 +756,7 @@ You can set the following style options for the _Social_ component:
 
 +++
 
-### Form (landing pages)
+### Form (landing pages only) {#form}
 
 [!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Beta feature"}
 
