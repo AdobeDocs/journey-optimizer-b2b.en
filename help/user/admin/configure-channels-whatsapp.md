@@ -155,6 +155,16 @@ do we have advanced logs? How are they enabled?
 >title="Verify Token"
 >abstract="The token that Meta echoes back to confirm and verify the callback URL during the verification process."
 
+>[!BEGINSHADEBOX]
+
+![AEP Permissions icon](../../assets/do-not-localize/icon_permissions-outline.svg) These steps require the following [permissions for your assigned user role in Experience Platform](./user-management.md#b2b-product-permissions):
+
+* **[!UICONTROL B2B Channel Configurations]** - `Manage B2B Channels`
+* **[!UICONTROL B2B Channel Configurations]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL B2B Channel Configurations]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
+
 Webhooks enable Journey Optimizer B2B Edition to receive inbound messages, consent responses, and delivery notifications from your WhatsApp Business Account. Configure webhooks to ensure proper consent management and message tracking.
 
 >[!NOTE]
@@ -209,6 +219,16 @@ After the webhook is submitted, you can retrieve the token and URL values, and t
 1. In the [Meta for Developers portal](https://developers.facebook.com/), navigate to your WhatsApp application settings and configure the webhook using the values that you copied.
 
 ### Create channel configuration {#create-channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+![AEP Permissions icon](../../assets/do-not-localize/icon_permissions-outline.svg) These steps require the following [permissions for your assigned user role in Experience Platform](./user-management.md#b2b-product-permissions):
+
+* **[!UICONTROL B2B Channel Configurations]** - `Manage B2B Channels`
+* **[!UICONTROL B2B Channel Configurations]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL B2B Channel Configurations]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
 
 A channel configuration defines the delivery settings used when sending WhatsApp messages from a journey action node.
 
