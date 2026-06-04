@@ -50,10 +50,7 @@ Before you can create web experiences, ensure that the following requirements ar
 
 * Your website has the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implemented for visitor identification and content delivery. Make sure that the Adobe Experience Platform Web SDK version is 2.16 or above.
 
-* You have the necessary [permissions](../admin/user-management.md#b2b-product-permissions) to create and manage web experiences in a journey:
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL Manage Campaigns]_ - Required to add or update a web personalization action node.
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL View Campaigns]_ - Required to view details for a Web personalization action nodes.
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL Approve and Publish Campaigns]_ - Required to publish a journey that has one or more Web personalization action nodes.
+* You have the necessary [permission](../admin/user-management.md#b2b-product-permissions) to create and manage web experiences in a journey: _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Author B2B Web Experiences]_.
 
 * You have the Adobe Experience Cloud [Visual Editing Helper browser extension](#install-the-visual-editing-helper-extension) installed for your web browser. This extension is required to open, author, and preview your web pages reliably into the Journey Optimizer B2B Edition content design space.
 
