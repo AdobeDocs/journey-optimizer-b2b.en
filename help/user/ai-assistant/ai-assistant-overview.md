@@ -5,12 +5,14 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
+autotag-review: '2026-06-05T16:05:30.499Z'
+TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-    internal-label: 'AI Assistant '
+    internal-label: AI Assistant
 subfeature_v2:
   - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
     internal-label: Operational Insights
@@ -23,11 +25,14 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-autotag-review: '2026-04-29T23:21:59.633Z'
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # AI Assistant in Journey Optimizer B2B Edition
 
-AI Assistant in Journey Optimizer B2B Edition is created from the same technology foundation of [AI Assistant in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. It is a conversational experience that you can use to accelerate your workflows in Adobe Journey Optimizer B2B Edition. You can use AI Assistant to gain more understanding of the product capabilities, troubleshoot problems, or search through information and find operational insights for Journey Optimizer B2B Edition. 
+AI Assistant in Journey Optimizer B2B Edition is created from the same technology foundation as [AI Assistant in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. It is a conversational experience that you can use to accelerate your workflows in Adobe Journey Optimizer B2B Edition. You can use AI Assistant to gain more understanding of the product capabilities, troubleshoot problems, or search through information and find operational insights for Journey Optimizer B2B Edition. 
  
 >[!IMPORTANT]
 >
@@ -43,10 +48,10 @@ AI Assistant in Journey Optimizer B2B Edition is created from the same technolog
 
 ## AI Assistant capabilities in Journey Optimizer B2B Edition
 
-To formulate a response to your submitted questions, AI Assistant queries a database and translates data from the database into a human-readable answer. This response is an internal representation of underlying data, and is also known as the _**_Knowledge Graph_**_ -- a comprehensive web of concepts, data, and metadata for a given answer. The Knowledge Graph consists of sub-graphs that are referenced whenever queries are submitted:
+To formulate a response to your submitted questions, AI Assistant queries a database and translates data from the database into a human-readable answer. This response is an internal representation of underlying data, and is also known as the _**_Knowledge Graph_**_ -- a comprehensive collection of concepts, data, and metadata for a given answer. The Knowledge Graph consists of sub-graphs that are referenced whenever queries are submitted:
 
 * Experience League documentation.
-* Operational artifacts, such as schemas, fields, audiences and journeys.
+* Operational artifacts, such as schemas, fields, audiences, and journeys.
 
 Consider which type of inquiry you need before you submit an AI Assistant query:
 
@@ -62,7 +67,7 @@ Product knowledge refers to concepts and topics grounded in the Journey Optimize
 
 ### Operational insights
 
-_Operational insights_ refer to answers that AI Assistant generates about your meta data objects (attributes, account audiences, dataflows, datasets, destinations, account journeys, schemas, sources, buying group templates, and solution interests). These insights include counts, lookups, and lineage impact. They do not look at any data within the sandbox.
+_Operational insights_ refer to answers that AI Assistant generates about your metadata objects (attributes, account audiences, dataflows, datasets, destinations, account journeys, schemas, sources, buying group templates, and solution interests). These insights include counts, lookups, and lineage impact. They do not look at any data within the sandbox.
 
 * Which account audience has the largest audience size and what is that size?
 * How many account audiences have never been used in any journeys?
@@ -97,11 +102,11 @@ Currently, the scope of AI Assistant is as follows:
 
 ### Privacy, security, and governance
 
-AI Assistant in Journey Optimizer B2B Edition is built with privacy, security, and governance at the forefront. Review the following information to learn about the customer trust-focused capabilities that you can expect from AI Assistant:
+AI Assistant in Journey Optimizer B2B Edition prioritizes privacy, security, and governance. Review the following information to learn about the customer trust-focused capabilities that you can expect from AI Assistant:
 
-* No personal data is used by AI Assistant today, even for training purposes.
+* AI Assistant does not use personal data today, even for training purposes.
 
-* AI Assistant is unaware of customer data, such as people, account, opportunities, and buying groups.
+* AI Assistant is unaware of customer data, such as people, accounts, opportunities, and buying groups.
 
 * You must have explicit permission to interact with AI Assistant. 
 
@@ -109,7 +114,7 @@ AI Assistant in Journey Optimizer B2B Edition is built with privacy, security, a
 
    * Permissions are granular and your sandbox administrator can configure which users are able to ask different question categories (product knowledge-based questions with AI Assistant or questions on operational insights).
 
-* You can view a log of your previous interactions with AI Assistant with a 30-day retention policy.
+* You can view a 30-day log of your previous interactions with AI Assistant.
 
 * AI Assistant is grounded in sandbox-specific data and public Adobe documentation when answering to user prompts. Data is not shared across sandboxes.
 
@@ -129,7 +134,7 @@ The following is a list of answers to frequently asked questions about AI Assist
 
 **Can AI Assistant provide information about customer data?**
 
-   No. AI Assistant does not have access to customer data and therefore, it is not looked at or used by AI Assistant.
+   No. AI Assistant does not have access to customer data and therefore, it is not looked at or used.
 
 **Is my personal information used in AI Assistant's training data?**
 

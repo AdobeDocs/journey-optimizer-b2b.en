@@ -25,7 +25,7 @@ TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mp
 
 When you click the name for an active account journey, the journey details are displayed. The _[!UICONTROL Overview]_ tab provides useful information about the journey, including generative AI summaries.
 
-This dashboard provides a comprehensive overview of a selected account journey, detailing account progress using circle and line charts that categorize and quantify completions, in-progress activities, and aborts over time. It helps Marketers evaluate the effectiveness of email and SMS channels through key delivery and engagement metrics. For email metrics aggregated across all journeys, see the [Email performance report](../dashboards/email-performance-dashboard.md).
+This dashboard provides a comprehensive overview of a selected account journey, detailing account progress using circle and line charts that categorize and quantify completions, in-progress activities, and aborts over time. It helps marketing teams evaluate the effectiveness of email and SMS channels through key delivery and engagement metrics. For email metrics aggregated across all journeys, see the [Email performance report](../dashboards/email-performance-dashboard.md).
 
 This overview is available for published account journeys, and it takes approximately four hours for data to start populating the charts and tables.
 
@@ -40,9 +40,9 @@ This section presents two completion metrics:
 
 ## Journey engagement
 
-This section presents two completion metrics:
+This section presents two engagement metrics:
 
-* **[!UICONTROL Engagement by accounts]** - This circle chart segments the accounts in a journey into _Engaged_ and _Not engaged_ categories. The central figure displays the total count. This visualization provides an at-a-glance understanding of overall account engagement.
+* **[!UICONTROL Engagement by accounts]** - This circle chart segments the accounts in a journey into _Engaged_ and _Not engaged_ categories. The central figure displays the total count. This visualization provides a quick understanding of overall account engagement.
 * **Engagement by people** - This visualization displays the total number of people qualified as _engaged_ in a journey.
 
 ## Journey performance
@@ -54,29 +54,29 @@ This section presents two vital metrics:
 
 ## Email and SMS performance
 
-The performance tables provide a detailed look at the effectiveness of Email and SMS channels. Each table showcases metrics, such as delivery rates and click-through rates, that help you assess the impact of each communication touchpoint. The tables below show email and SMS metrics for this journey only. For the same email metrics across all journeys, use the [Email performance report](../dashboards/email-performance-dashboard.md).
+The performance tables provide detailed information about the effectiveness of Email and SMS channels. Each table showcases metrics, such as delivery rates and click-through rates, that help you assess the impact of each communication touchpoint. The tables below show email and SMS metrics for this journey only. For the same email metrics across all journeys, use the [Email performance report](../dashboards/email-performance-dashboard.md).
 
 **[!UICONTROL Email performance]** table columns:
 
-* _[!UICONTROL Asset name]_ - name of the asset
-* _[!UICONTROL Sent]_ - number of emails sent
-* _[!UICONTROL Delivery rate]_ - number of delivered emails divided by the number sent
-* _[!UICONTROL Open Rate]_ - number opened emails divided by the number delivered
-* _[!UICONTROL Click-through rate]_ - number of clicked emails divided by the number delivered
+* _[!UICONTROL Asset name]_ - Name of the asset
+* _[!UICONTROL Sent]_ - Number of emails sent
+* _[!UICONTROL Delivery rate]_ - Number of delivered emails divided by the number sent
+* _[!UICONTROL Open Rate]_ - Number of opened emails divided by the number delivered
+* _[!UICONTROL Click-through rate]_ - Number of clicked emails divided by the number delivered
 
 **[!UICONTROL SMS performance]** table columns:
 
-* _[!UICONTROL Asset name]_ - name of the asset
-* _[!UICONTROL Sent]_ - number of SMS messages sent
-* _[!UICONTROL Delivery rate]_ - number of delivered SMS messages divided by the number sent
-* _[!UICONTROL Click-through rate]_ - number of clicked SMS messages divided by the number delivered
+* _[!UICONTROL Asset name]_ - Name of the asset
+* _[!UICONTROL Sent]_ - Number of SMS messages sent
+* _[!UICONTROL Delivery rate]_ - Number of delivered SMS messages divided by the number sent
+* _[!UICONTROL Click-through rate]_ - Number of clicked SMS messages divided by the number delivered
 <!--
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
 ## Enhanced interaction
 
-Engage further with the data by using the action icon (**...**) in the top right of each chart or table. 
+Interact with the data by using the action icon (**...**) in the top right of each chart or table. 
 
 ### Drill-Through
 

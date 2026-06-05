@@ -127,7 +127,7 @@ The saved event is displayed in the list on the _[!UICONTROL Events]_ tab.
 
 ### Edit an event {#edit-an-event}
 
-Edit the event details to change the fields.
+To change the fields, edit the event details.
 
 1. Click the event name, or click the _More menu_ ( **...** ) icon and choose **[!UICONTROL Edit]**.
 
@@ -153,7 +153,7 @@ To prevent an Experience Event from being used in a _Listen for an event_ node w
 
 For [!DNL Journey Optimizer B2B Edition], certain people-level activities are captured as [!DNL Experience Platform] Experience Events. These events are stored in a system dataset that uses the XDM Experience Event schema and includes journey-specific field groups. You can use these events in [!UICONTROL Journey Optimizer B2B Edition] like any other Experience Event. 
 
-Each event exposes a defined set of fields that can be used in journey _Listen for an event_ nodes (decisioning based on events). Review the available event types and their fields to determine which event and fields to use in these journey nodes:
+Each event exposes a defined set of fields that can be used in journey _Listen for an event_ nodes (decisioning based on events). To determine which event and fields to use in these journey nodes, review the available event types and their fields:
 
 ### Email sent {#email-sent}
 

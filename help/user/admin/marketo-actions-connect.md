@@ -42,7 +42,7 @@ To use Marketo Engage journey actions, an administrator first creates a [custom 
 >title="External Marketo Engage connections"
 >abstract="Product administrators can configure connections to external Marketo Engage instances, which makes them available for journey actions."
 
-Complete the following tasks to configure an external Marketo Engage instance for use with journey actions.
+To configure an external Marketo Engage instance for use with journey actions, complete the following tasks.
 
 ### Create the Marketo Engage custom service
 
@@ -87,6 +87,6 @@ When a marketer uses a Marketo Engage action in a journey, they can configure th
 >
 >Marketo Engage actions executed from a journey do not apply to the REST API limits for the connected Marketo Engage instance.
 
-With the completed integration, Marketo Engage actions are available from **Actions on:** in the node properties.
+With the completed integration, Marketo Engage actions are available from **_Actions on:_** in the node properties.
 
 ![Marketo actions list](assets/marketo-actions-list.png){width="800" zoomable="yes"}

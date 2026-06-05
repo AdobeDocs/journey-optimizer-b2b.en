@@ -24,13 +24,13 @@ TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9
 ---
 # Listen for an event
 
-Add the _Listen for an event_ node to move your audience forward to the next step in the journey when an event occurs.
+To move your audience forward to the next step in the journey when an event occurs, add the _Listen for an event_ node.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
 
 >[!NOTE]
 >
->For an account journey, you cannot add this node type on split path by people.
+>For an account journey, you cannot add this node type on a split path by people.
 
 ## Account events
 
@@ -67,7 +67,7 @@ In an account journey, you can listen for an event based on people when you want
 
 >[!TIP]
 >
->To route people based on experience events that occurred _before_ they entered the journey (such as a prior email click or web interaction), use the [!UICONTROL Event history] filter in a [Split paths by people](./split-merge-paths-nodes.md#experience-event-history-filtering) node.
+>Experience events can occur _before_ people enter the journey (such as a prior email click or web interaction). To route people based on these events, use the [!UICONTROL Event history] filter in a [Split paths by people](./split-merge-paths-nodes.md#experience-event-history-filtering) node.
 
 ### Events and constraints
 
@@ -138,7 +138,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
      ![Listen for an experience event](./assets/node-listen-events-people-me-event-edit-dialog.png){width="700" zoomable="yes"}
 
-     You can repeat this action to include additional field constraints as needed.
+     To include additional field constraints as needed, repeat this action.
 
    * If needed, select the **[!UICONTROL Filters]** tab to [add filters for the event](#add-a-filter-to-the-people-event).
 
@@ -210,7 +210,7 @@ _To include an Experience Event in your journey:_
 
    ![Listen for Event node by people - Select Filters tab for editing the event](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
-1. Add one or more filters to target the people for the event.
+1. To target the people for the event, add one or more filters.
 
    * Drag and drop any of the [people filters](#people-event-filters) from the left navigation and complete the match definition.
 
@@ -218,7 +218,7 @@ _To include an Experience Event in your journey:_
       >
       >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available under **[!UICONTROL Attributes]** to use as person attributes in filters. 
 
-   * Fine tune your filtering by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all filters or any filter.
+   * Refine your filtering by applying the **[!UICONTROL Filter logic]** at the top. You can choose to match all filters or any filter.
 
       ![Person filters used in an event definition](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 

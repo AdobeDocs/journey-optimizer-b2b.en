@@ -60,7 +60,7 @@ Change the values for the From email and label so that new emails are automatica
 
 ### Unsubscribe messaging
 
-For non-operational marketing emails, unsubscribe text and links are appended at the bottom. As a product administrator, you should configure the default HTML and text that is populated when a marketer does not mark the email as operational.
+For non-operational marketing emails, unsubscribe text and links are appended at the bottom. As a product administrator, configure the default HTML and text that is populated when a marketer does not mark the email as operational.
 
 1. Go to the **[!UICONTROL Admin]** area in the attached Marketo Engage instance and select **[!UICONTROL Email]**.
 
@@ -94,7 +94,7 @@ If you need to revert to the default system content, copy and paste the followin
 
 ### View as web page
 
-Email content has limited display capabilities (limited CSS and no JavaScript or forms). Marketers can use the _View as Web Page_ option to apply a cookie for the email recipient using the Marketo Munchkin. As a product administrator, you should configure the default HTML and text that is populated when a marketer chooses this option.
+Email content has limited display capabilities (limited CSS and no JavaScript or forms). Marketers can use the _View as Web Page_ option to apply a cookie for the email recipient using the Marketo Munchkin. As a product administrator, configure the default HTML and text that is populated when a marketer chooses this option.
 
 1. Go to the **[!UICONTROL Admin]** area in the attached Marketo Engage instance and select **[!UICONTROL Email]**.
 
@@ -168,7 +168,7 @@ Change the _[!UICONTROL Custom Header Options]_ for email to configure email tra
    ![Marketo Engage email admin - Custom Header Options default settings](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL Strict Transport Security]** - Set this option to _Enabled_ to guarantee that tracking links are always served over HTTPS. Only enable this for subscriptions with tracking links secured by SSL. 
-   * **[!UICONTROL Max-age]** - This field supports the mandatory directive to specify the time, in seconds, that the browser should remember to access only the domain over HTTPS.
+   * **[!UICONTROL Max-age]** - This field supports the mandatory directive to specify the time, in seconds, that the browser remembers to access only the domain over HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Use this option to include the directive that applies the HSTS policy to all subdomains of the host.
 
    >[!IMPORTANT]

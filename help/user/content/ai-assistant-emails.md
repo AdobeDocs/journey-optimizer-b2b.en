@@ -36,7 +36,7 @@ TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1a
 
 As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content quickly and efficiently. AI Assistant for email authoring in [!DNL Adobe Journey Optimizer B2B Edition] is Adobe's AI-powered content generation capability that revolutionizes the way marketers create professional and brand-consistent email content. With advanced generative AI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content. It uses your marketing objective and optimizes the content for brand outlined styles, layouts, tone, and more. AI Assistant makes the creation and execution of email marketing campaigns intuitive, simple, and hassle-free. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
 
-This new capability provides a prompt-based content generation for full email generation or targeted within email structural components. For images, you can generate new image assets or simply generate recommendations from within the catalog of images in the input brand asset. You can also use this capability to generate optimal subject lines and preheaders to impact the email open rate.
+This new capability provides a prompt-based content generation for full email generation or targeted within email structural components. For images, you can generate new image assets or generate recommendations from within the catalog of images in the input brand asset. You can also use this capability to generate optimal subject lines and preheaders to impact the email open rate.
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ This new capability provides a prompt-based content generation for full email ge
 
 Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
 
-With Adobe's commitment to promote transparency in the use of generative AI tools in media creation, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} for any content or project that includes a Firefly-generated asset when it is downloaded or exported.
+Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} to Firefly-generated assets upon download or export to promote transparency.
 
 The following limitations and guidelines apply to AI Assistant features used for email content generation in [!DNL Journey Optimizer B2B Edition]:
 
@@ -58,7 +58,7 @@ The following limitations and guidelines apply to AI Assistant features used for
 
 ## Input and settings for content generation
 
-You can generate full content for an email, or for selected components in the email. When you use the AI Assistant tools to generate the content that you need, you provide the input, including prompts and reference content, and the settings for text and images.
+You can generate full content for an email, or for selected components in the email. When you use the AI Assistant tools, you provide prompts, reference content, and settings for text and images.
 
 ### Prompts
 
@@ -107,10 +107,10 @@ Click the left arrow to return to the main _[!UICONTROL Settings]_.
 
 To include images in your generated content, expand the **[!UICONTROL Image settings]** in the right panel and set the options.
 
-The **[!UICONTROL Generate images using AI]** option is disabled by default. Enable this feature and set the following options to include generated images in the proposed content variations:
+The system disables the **[!UICONTROL Generate images using AI]** option by default. Enable this feature and set the following options to include generated images in the proposed content variations:
 
 * **[!UICONTROL Generative model]**: Select from the ready-to-use Adobe-provided model, the partner model for specialized capabilities, or configured custom models trained on your brand assets. For more information about generative models, see _[Generative AI models for brand alignment](generative-ai-models.md)_.
-* **[!UICONTROL Aspect ratio]**: When an image component is selected, this setting determines the width and height of the asset. You have the option to choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or you can enter a custom size.
+* **[!UICONTROL Aspect ratio]**: When an image component is selected, this setting determines the width and height of the asset. Choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or enter a custom size.
 * **[!UICONTROL Content type]**: The type categorizes the nature of the visual element, distinguishing between different forms of visual representation, such as photos, graphics, or art.
 * **[!UICONTROL Visual intensity]**: Control the image's impact by adjusting its intensity. A lower setting (such as 2) creates a softer, more restrained appearance, while a higher setting (such as 10) makes the image more vibrant and visually powerful.
 * **[!UICONTROL Color and tone]**: The overall appearance of the colors within an image and the mood or atmosphere it conveys.
@@ -159,7 +159,7 @@ The following steps describe the task sequence for using AI Assistant to generat
 
    Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
 
-1. (Optional) Complete the content guidance settings to provide additional input for generating the preheader:
+1. (Optional) To provide additional input for generating the preheader, complete the content guidance settings:
 
    * [**[!UICONTROL Text settings]**](#text-settings) - Provide guidance for the generated text content.
    * [**[!UICONTROL Reference content]**](#reference-content) - Provide the content asset that serves as the source for content generation.
@@ -172,7 +172,7 @@ The following steps describe the task sequence for using AI Assistant to generat
 
 1. Scroll the AI Assistant panel and browse through the generated variations to determine which one is the best fit. 
 
-   You can [submit feedback](#submit-variation-feedback) for a generated variant by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choose the reason that best summarizes your feedback.
+   You can [submit feedback](#submit-variation-feedback) for a generated variant by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choosing the reason that best summarizes your feedback.
 
 1. Click the **[!UICONTROL Refine]** option to access additional customization features:
 
@@ -204,7 +204,7 @@ An email preheader is the short summary text that follows the subject line when 
 
    Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
 
-1. (Optional) Complete the content guidance settings to provide additional input for generating the preheader:
+1. (Optional) To provide additional input for generating the preheader, complete the content guidance settings:
 
    * [**[!UICONTROL Text settings]**](#text-settings) - Provide guidance for the generated text content.
    * [**[!UICONTROL Reference content]**](#reference-content) - Provide the content asset that serves as the source for content generation. 

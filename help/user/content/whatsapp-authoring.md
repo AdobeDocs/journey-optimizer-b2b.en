@@ -90,11 +90,11 @@ You can set up WhatsApp message deliveries in an account journey when you [add a
 
    ![Create WhatsApp - Actions tab](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Edit content]** to move on to the message parameters and text.
+1. Click **[!UICONTROL Edit content]** to proceed to the message parameters and text.
 
 ### Select a message template
 
-WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in Journey Optimizer B2B Edition. Work with your [!DNL Meta Business Manager] account administrator to manage and submit templates for approval.
+WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in Journey Optimizer B2B Edition. To manage and submit templates for approval, work with your [!DNL Meta Business Manager] account administrator.
 
 1. For **[!UICONTROL Select template category]**, choose one of the following:
 
@@ -108,7 +108,7 @@ WhatsApp messages are sent using pre-approved message templates from your Meta W
 
    ![Selected WhatsApp message template with message loaded in the preview window](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   Templates are organized by category (_Marketing_, _Utility_, and _Authentication_) and status. Only **_Approved_** templates are available for selection. For more information about creating WhatsApp templates, see [_Create message templates for your WhatsApp Business account_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in the Meta documentation.
+   The system organizes templates by category (_Marketing_, _Utility_, and _Authentication_) and status. Only **_Approved_** templates are available for selection. For more information about creating WhatsApp templates, see [_Create message templates for your WhatsApp Business account_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in the Meta documentation.
 
 ### Image URLs
 

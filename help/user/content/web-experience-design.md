@@ -46,7 +46,7 @@ Before you can design web experiences, ensure that the following requirements ar
 
 * You have the necessary [permissions](../admin/user-management.md#b2b-product-permissions) to create and manage web experiences in a journey:
    * _[!UICONTROL Campaigns]_ > _[!UICONTROL Manage Campaigns]_ - Required to add or update a web personalization action node.
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL View Campaigns]_ - Required to view details for a Web personalization action nodes.
+   * _[!UICONTROL Campaigns]_ > _[!UICONTROL View Campaigns]_ - Required to view details for a Web personalization action node.
    
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Before you can design web experiences, ensure that the following requirements ar
 >
 >Before you design a web experience, make sure that you have the Adobe Experience Cloud Visual Editing Helper browser extension installed for your web browser. This extension is required to open, author, and preview your web pages reliably into the Journey Optimizer B2B Edition web experience design space.<br/>
 >
->Google Chrome and Microsoft Edge are currently the only browsers that support the extension and authoring web experiences in Journey Optimizer B2B Edition. For more information, see [Install the Visual Editing Helper extension](./web-experiences.md#install-the-visual-editing-helper-extension).
+>Google Chrome and Microsoft Edge are currently the only browsers that support the extension and authoring of web experiences in Journey Optimizer B2B Edition. For more information, see [Install the Visual Editing Helper extension](./web-experiences.md#install-the-visual-editing-helper-extension).
 
 ## Web experience editors
 
@@ -102,11 +102,11 @@ The visual editor loads the web pages within an iframe, where you can select ele
 
    * [Insert new components](#insert-new-components) (divider, HTML, image, heading, paragraph, or link) to the page for the web experience.
 
-   * Select any existing element from the page, such as an image, button, paragraph, text, container, heading, or link, and [modify it for the web experience](#modify-elements).
+   * Select any existing element from the page and [modify it for the web experience](#modify-elements).
 
    * [Add click tracking](#click-tracking-for-web-experiences) for elements to measure engagement and gather insights.
 
-1. Repeat step 2 to load other pages that you want to include in the web experience and repeat step 3 to define the page modifications.
+1. Repeat step 2 to load other pages that you want to include in the web experience. Repeat step 3 to define the page modifications.
 
 1. [Review your modifications](#manage-modifications) and make any adjustments that are needed.
 
@@ -182,14 +182,14 @@ For more information about text styling options for text components, see [Conten
 
 ### Insert new components
 
-When you select the **+** icon in the design left navigation for the visual editor, you can add the following components types to the page as a web experience modification:
+When you select the **+** icon in the design left navigation for the visual editor, you can add the following component types to the page as a web experience modification:
 
 * **[!UICONTROL Divider]** - Use this component to insert a dividing line to organize the layout and content of your email. You can adjust styling attributes such as the line color, style, and height from the properties in the right panel. See [Divider](./content-components.md#divider) in _Content components_ for more information.
 * **[!UICONTROL HTML]** - Use this component to copy-paste HTML code in the existing structure. It enables you to create free modular HTML components to reuse some external content. See [HTML](./content-components.md#html) in _Content components_ for more information.
 * **[!UICONTROL Image]** - Use this component to insert an image file into the page. You can adjust styling attributes such as the width and height from the properties in the right panel. See [Image](./content-components.md#image) in _Content components_ for more information.
 * **[!UICONTROL Heading]** - Use this component to insert heading class text. You can adjust styling attributes such as the text color, style, font, and size from the properties in the right panel. See [Text](./content-components.md#text) in _Content components_ for more information.
 * **[!UICONTROL Paragraph]** - Use this component to insert a standard text element. You can adjust styling attributes such as the text color, style, font, and size from the properties in the right panel. See [Text](./content-components.md#text) in _Content components_ for more information.
-* **[!UICONTROL Link]** - Use this component to insert a freestanding text link to a specified URL. You can adjust styling attributes such as the text color, style, alignment, and size from the properties in the right panel.
+* **[!UICONTROL Link]** - Use this component to insert a freestanding text link to a specified URL. You can adjust styling attributes from the properties in the right panel.
 
 Select a component type on the left and then hover over an element that is adjacent to where you want to add it.
 
@@ -254,7 +254,7 @@ CSS selector modifications allow you to target elements precisely using standard
 
    * **[!UICONTROL Set Content]** - Enter the text in the **[!UICONTROL Content]** field for the element identified by the _[!UICONTROL CSS Element Selector]_ value.
 
-   * **[!UICONTROL Set Attribute]** - Specify an attribute to be associated with the current CSS selector so that the element can be identified by this attribute. Enter a name in the **[!UICONTROL Attribute name]** field and a value in the **[!UICONTROL Content]** field. If the attribute already exists, the value is updated; otherwise, a new attribute is added with the specified name and value.
+   * **[!UICONTROL Set Attribute]** - Specify an attribute to associate with the current CSS selector so that you can identify the element by this attribute. Enter a name in the **[!UICONTROL Attribute name]** field and a value in the **[!UICONTROL Content]** field. If the attribute already exists, the value is updated; otherwise, a new attribute is added with the specified name and value.
 
    ![Non-visual editor css selector modification](./assets/web-experience-design-non-visual-editor-modification-css-selector.png){width="800" zoomable="yes"}
 
@@ -339,7 +339,7 @@ Use the device preview options at the top of the visual editor to view your modi
 
 The preview updates to show how modifications render on each device size. 
 
-Use the URL bar to navigate to different pages within your web channel configuration. Then, verify that the modifications apply correctly to the targeted pages based on your URL matching rules.
+Use the URL bar to navigate to different pages within your web channel configuration. Then, verify that the modifications apply in the correct way to the targeted pages based on your URL matching rules.
 
 ## Click tracking for web experiences {#web-click-tracking}
 

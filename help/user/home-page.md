@@ -29,7 +29,7 @@ With Adobe Journey Optimizer B2B Edition, you can orchestrate account and buying
  Requirements?
 -->
 
-To access to [!DNL Adobe Journey Optimizer B2B Edition], connect to Adobe Experience Cloud with your Adobe ID, and select [!DNL Journey Optimizer B2B Edition].
+To access [!DNL Adobe Journey Optimizer B2B Edition], connect to Adobe Experience Cloud with your Adobe ID, and select [!DNL Journey Optimizer B2B Edition].
 
 ![Adobe Experience Platform apps](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
@@ -40,7 +40,7 @@ When you log in to the Adobe Experience Platform and select the Adobe Journey Op
 
 The Journey Optimizer B2B Edition has two primary user personas: a _**marketer**_ and an _**administrator**_. Each persona has a specific home page for different maturity stages (new or advanced). The page content is based on what each persona needs in terms of information and the next actions to be taken.
 
-* **Marketer - new user** -- The _Marketer_ home page for a new user helps them to get accustomed to Journey Optimizer B2B and its capabilities. It includes a guided walkthrough for the new marketer to obtain an onboarding walkthrough so that they can understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives.
+* **Marketer - new user** -- The _Marketer_ home page for a new user helps them to get accustomed to Journey Optimizer B2B and its capabilities. It includes a guided walkthrough for the new marketer so that they can understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives.
 * **Marketer - advanced user** -- The _Marketer_ home page for an advanced marketer displays current initiative progress, recommended next actions, and provides quick access to relevant sections.
 * **Administrator - new user** -- The _Admin_ home page for a new administrator helps them to get accustomed to Journey Optimizer B2B Edition and its capabilities. It includes a guided walkthrough for the new administrator to obtain a step-by-step onboarding journey to understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives.
 * **Administrator - advanced user** -- The _Admin_ home page for an advanced administrator displays the current instance status and actionable steps to improve efficiency and effectiveness for administrators.

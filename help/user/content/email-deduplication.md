@@ -26,15 +26,15 @@ TQID: https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82o
 ---
 # Email deduplication
 
-Use email deduplication in account journeys to ensure that the same email is not sent multiple times to the same email address within a journey. When you enable this feature, duplicate email addresses are blocked until the first record with that email address completes the journey. After an account finishes a journey, a person can qualify to receive emails again as part of a new account entering the journey.
+To ensure that the same email is not sent multiple times to the same email address within a journey, use email deduplication in account journeys. When you enable this feature, duplicate email addresses are blocked until the first record with that email address completes the journey. After an account finishes a journey, a person can qualify to receive emails again as part of a new account entering the journey.
 
 ## When to use email deduplication
 
-There are a couple of key scenarios where you should consider enabling email deduplication:
+There are some key scenarios to consider for enabling email deduplication:
 
 * **Email is not used as an identity in Real-Time CDP** - The same email address may appear across multiple person profiles. If those duplicate profiles qualify for the same journey and you want to prevent sending the email more than once, enable this feature.
 
-* **Single person associated with multiple accounts** - If your Real-Time CDP data model allows a single person to be associated with multiple accounts, and you want to avoid sending the same email twice to that person when multiple accounts (including profiles with the same email address) qualify for the same journey, enable this feature.
+* **Single person associated with multiple accounts** - If your [!DNL Real-Time CDP] data model associates a single person with multiple accounts, enable this feature to avoid sending the same email twice when multiple profiles with the same email address qualify for the same journey.
 
 >[!NOTE]
 >
@@ -58,4 +58,4 @@ To enable email deduplication for an account journey:
 
 1. Click **[!UICONTROL Save]**.
 
-When email deduplication is enabled, the journey checks each email address before sending the email. If a record with the same email address already entered that journey node, the new entry is blocked until the first record completes the journey.
+When email deduplication is enabled, the journey checks each email address before sending the email. If a record with the same email address has already entered that journey node, the new entry is blocked until the first record completes the journey.

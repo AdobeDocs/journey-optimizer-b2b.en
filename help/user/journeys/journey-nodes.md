@@ -24,14 +24,14 @@ TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH4
 ---
 # Journey nodes
 
-After you create a journey (account journey or person journey), add the audience and build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases.
+After you create a journey (account journey or person journey), add the audience and construct the journey using nodes. The journey map provides a canvas where you can build your multistep B2B marketing use cases.
 
 Audience nodes are automatically the first node in the journey:
 
 * [Account audience](./account-audience-nodes.md)
 * [Person audience](./person-audience-nodes.md) (Beta)
 
-Build your journey by combining the different action, event, and orchestration nodes as a multi-step, cross-channel scenario. Each node of a journey represents a step along a logical path. Use the following node types to construct an account journey:
+Construct your journey by combining the different action, event, and orchestration nodes as a multi-step, cross-channel scenario. Each node of a journey represents a step along a logical path. Use the following node types to construct an account journey:
 
 * [Take an action](./action-nodes.md)
 * [Listen for an event](./listen-for-event-nodes.md)

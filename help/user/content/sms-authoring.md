@@ -74,7 +74,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
 1. Add a token by clicking the plus ( **+** ) symbol next to it.
 
-   If you want to add the token with a fallback (default that appears in case that field is not available for a lead), click the _More_ icon ( **...** ) and choose **[!UICONTROL Insert with fallback text]**.
+   If you want to add the token with a fallback, click the _More_ icon ( **...** ) and choose **[!UICONTROL Insert with fallback text]**. The fallback is the default that appears in case that field is not available for a lead.
 
    ![Click the ellipses to use a fallback for the token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
@@ -157,7 +157,7 @@ When your message content is defined, you can use test profiles to simulate (pre
 
    In the displayed list, you can search for and add any of the leads (up to 10 leads at a time) from the Marketo Engage lead database.
 
-   To search, enter the whole email address and pressing _Enter_. The corresponding lead profile is displayed for selection.
+   To search, enter the whole email address and press _Enter_. The corresponding lead profile is displayed for selection.
 
    The preview updates to the personalization fields for the selected profile.
 
@@ -175,9 +175,9 @@ When your message content is defined, you can use test profiles to simulate (pre
 
 ## SMS consent management
 
-Providing recipients the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function also helps you avoid sending unsolicited communications to your recipients, which could cause them to mark your messages as spam and harm your reputation. 
+Providing recipients the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function helps you avoid sending unsolicited communications to your recipients, which could cause them to mark your messages as spam and harm your reputation. 
 
-When you provide this option, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored, and any custom keywords that are configured with the SMS service provider. When unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
+When you provide this option, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored, as are any custom keywords that are configured with the SMS service provider. When unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
 
 Journey Optimizer B2B Edition provides the ability to manage opt-out in SMS messages using the following logic:
 

@@ -26,9 +26,9 @@ TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldl
 ---
 # Sales alert email
 
-A _sales alert email_ signals the hand-off of buying groups to Sales. The email contains a summary of the buying group and information about the buying group members and their activities.
+A _sales alert email_ signals the transfer of buying groups to Sales. The email contains a summary of the buying group and information about the buying group members and their activities.
 
-As a marketer, you can configure a sales alert email node in your account journeys to alert your sales team about the completion of the journey for particular buying groups. Within the node, you can specify the email addresses of the sales team or a distribution alias that reaches a set of accounts.
+To alert your sales team about the completion of the journey for particular buying groups, you can configure a sales alert email node in your account journeys. Within the node, you can specify the email addresses of the sales team or a distribution alias that reaches a set of accounts.
 
 >[!IMPORTANT]
 >

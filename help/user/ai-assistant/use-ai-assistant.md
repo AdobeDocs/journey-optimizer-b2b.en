@@ -5,14 +5,17 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+autotag-review: '2026-06-05T16:09:10.773Z'
+TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-    internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
     internal-label: AI Assistant
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+    internal-label: Operational Insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,8 +27,6 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: 2026-04-29T23:21:59.633Z
-TQID: https://experienceleague.adobe.com/nLvepx6T0xVR0KZqO-8zRgf2z63sJtGJLCVCCpYoNYk
 ---
 # Use AI Assistant in Journey Optimizer B2B Edition
 
@@ -39,7 +40,7 @@ To access AI Assistant, click the icon in the header. AI Assistant opens in a pa
 
 ![Click the icon to access the AI Assistant](./assets/ai-assistant-icon-displayed.png){width="420"}
 
-The AI Assistant interface appears, immediately providing you with information to get started. You can use the options provided under _Ideas to get started_ to answer questions and commands, such as:
+The AI Assistant interface appears, immediately providing you with information to get started. You can use the options provided under _[!UICONTROL Ideas to get started]_ to answer questions and commands, such as:
 
 * Which journeys were published?
 * What solution interests were created?
@@ -55,7 +56,7 @@ Product knowledge questions are about Journey Optimizer B2B Edition concepts and
 * How do I send an email in a journey?
 * How can I personalize my email content?
 
-To ask a product question, enter it in the field at the bottom of the panel and press enter. For example, when you need to learn how to use a buying group in a journey. In this case, you enter _How do I use a buying group in a journey?_ After you submit the question, AI Assistant queries its knowledge base and compiles an answer in a few seconds.
+To ask a product question, enter it in the field at the bottom of the panel and press enter. For example, when you need to learn how to use a buying group in a journey. In this case, you enter _How do I use a buying group in a journey?_ After you submit the question, AI Assistant queries its knowledge base and generates an answer in a few seconds.
 
 ![Enter a question in the text box](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -67,13 +68,13 @@ To ask a product question, enter it in the field at the bottom of the panel and 
 
 ## Ask operational insights questions
 
-Operational insights questions are about the journey objects in your organization's sandbox. You can ask questions about operational artifacts, such as account audience, account journey, solution interest, and buying group template. Some examples of operational insights questions or prompts include:
+Operational insights questions are about the journey objects in your organization's sandbox. You can ask questions about operational artifacts, such as account audiences, journeys, solution interests, and buying group templates. Some examples of operational insights questions or prompts include:
 
 * How many live journeys do I have in Adobe Journey Optimizer B2B Edition?
 * Give me a list of all the scheduled journeys
 * How many journeys have been created in the last 7 days?
 
-You must be in an active sandbox for AI Assistant to provide a sufficient response to a question about your operational insights.
+Ensure you are in an active sandbox for AI Assistant to provide a sufficient response to a question about your operational insights.
 
 >[!NOTE]
 >
@@ -107,13 +108,13 @@ AI Assistant provides links to the documentation that corroborates the initial r
 
 After receiving a response for an operational insights question, click **[!UICONTROL Show source]** and then select **[!UICONTROL View source query]**.
 
-You can verify each response related to operational insights questions using an SQL query that AI Assistant provides. When queried with an operational insights question, AI Assistant provides an SQL query that you can use to verify the process that it took to compute the answer. This source query is for verification purposes only and is not supported on Query Service.
+You can verify each response related to operational insights questions using an SQL query that AI Assistant provides. When queried with an operational insights question, AI Assistant provides an SQL query. You can use it to verify the process that it took to compute the answer. This source query is for verification purposes only and is not supported on Query Service.
 
 ![Results from the AI Assistant query](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
 ## Provide feedback
 
-Use the _Thumb up_ ( ![Thumb up](../assets/do-not-localize/icon-thumb-up.svg) ) or _Thumb down_ ( ![Thumb down](../assets/do-not-localize/icon-thumb-down.svg) ) icons to rate the usefulness and quality of the response. Complete the brief survey form according to your experience and click **[!UICONTROL Submit]**. The information that you provide is used to make improvements to AI Assistant. 
+Use the _Positive rating_ ( ![Thumb up](../assets/do-not-localize/icon-thumb-up.svg) ) or _Negative rating_ ( ![Thumb down](../assets/do-not-localize/icon-thumb-down.svg) ) icons to rate the usefulness and quality of the response. Complete the brief survey form according to your experience and click **[!UICONTROL Submit]**. The information that you provide is used to make improvements to AI Assistant. 
 
 If you notice something in the response that is problematic, click the _Flag_ ( ![Flag icon](../assets/do-not-localize/icon-flag.svg) ) icon. Use the form to describe the problem and click **[!UICONTROL Submit]** to report the issue.
 
