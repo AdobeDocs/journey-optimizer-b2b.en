@@ -27,7 +27,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Journey re-entry
 
-_Account journeys only_
+_**Account journeys only**_
 
 When you enable re-entry for an account journey, you can control when and how often an account can re-enter the same journey. Use the re-entry settings to set criteria, limits, and wait times so that accounts requalify for the journey in a controlled way.
 
