@@ -28,11 +28,11 @@ TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNv
 ---
 # Setup for email tracking and delivery
 
-Adobe Journey Optimizer B2B Edition leverages the email channel functions and event tracking in the attached Marketo Engage instance. To ensure that email delivery works as expected for organizations that use restrictive firewall or proxy server settings, a systems administrator must add certain domains and IP address ranges to the allow list.
+Adobe Journey Optimizer B2B Edition leverages the email channel functions and event tracking in the attached Marketo Engage instance. Some organizations use restrictive firewall or proxy server settings. To ensure that email delivery works as expected for these organizations, a systems administrator must add certain domains and IP address ranges to the allow list.
 
 >[!NOTE]
 >
->If your organization is already using the connected Marketo Engage instance to run your marketing operations, these protocols and configurations should already be in place.
+>If your organization is already using the connected Marketo Engage instance to run your marketing operations, these protocols and configurations are already in place.
 
 Make sure that the following domains (including the asterisk) are added to the allow list to enable all Marketo Engage resources and web sockets:
 
@@ -52,13 +52,13 @@ Complete the following steps to ensure tracking and email delivery:
 
 >[!NOTE]
 >
->Email Deliverability Services and consulting are separate paid offerings from Adobe. If you need or want support from the deliverability team for your Journey Optimizer B2B Edition instance, you must purchase one of the Email Deliverability Services packages (Essentials, Enhanced, or Plus) for that instance. This is independent of any deliverability package on a pre-existing Marketo Engage instance. Deliverability services are attached per instance, not per organization. Deliverability support on both instances requires two separate Deliverability Services packages. Whenever a new IP is provisioned for Journey Optimizer B2B Edition, a new Deliverability Services package is required for IP warming and ongoing deliverability support.
+>Email Deliverability Services and consulting are separate paid offerings from Adobe. If you need or want support from the deliverability team for your Journey Optimizer B2B Edition instance, you must purchase one of the Email Deliverability Services packages (Essentials, Enhanced, or Plus) for that instance. This configuration is independent of any deliverability package on a pre-existing Marketo Engage instance. Deliverability services are attached per instance, not per organization. Deliverability support on both instances requires two separate Deliverability Services packages. Whenever a new IP is provisioned for Journey Optimizer B2B Edition, a new Deliverability Services package is required for IP warming and ongoing deliverability support.
 
 ## Create DNS records for landing pages and email
 
-Connecting a CNAME record allows marketers to host web versions of emails, landing pages, and blogs with consistent branding that improves traffic and conversions. It is highly recommended that you add the CNAMEs to your root domain host for Marketo Engage to host your marketing-focused web assets. As an administrator, you should work with your Marketing team to plan and implement a CNAME record for the tracking links that are included in the emails sent through Marketo Engage.
+Connecting a CNAME record allows marketers to host web versions of emails, landing pages, and blogs with consistent branding that improves traffic and conversions. It is highly recommended that you add the CNAMEs to your root domain host for Marketo Engage to host your marketing-focused web assets. To plan and implement a CNAME record for the tracking links that are included in the emails sent through Marketo Engage, work with your Marketing team as an administrator.
 
-As an administrator, you should work with your Marketing team to plan and implement two CNAME records. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
+To plan and implement two CNAME records, work with your Marketing team as an administrator. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
 
 ### Add the CNAME for landing pages
 
@@ -90,9 +90,9 @@ This process can take up to three business days to complete.
 
 ## Set up SPF and DKIM
 
-Your marketing team should provide the DKIM (Domain Keys Identified Mail) information to be added to your DNS resource record. Follow these steps to configure DKIM and SPF (Sender Policy Framework), and then notify your Marketing team when it is updated.
+Your marketing team should provide the DKIM (Domain Keys Identified Mail) information to be added to your DNS resource record. To configure DKIM and SPF (Sender Policy Framework), follow these steps, and then notify your Marketing team when it is updated.
 
-You can use the same DKIM configuration for your production Marketo Engage instance and the attached Journey Optimizer B2B Edition instance. In the attached instance, create the same exact domain as in your Marketo Engage instance. The selector and encryption values do not need to match. After the domain is added to the Journey Optimizer B2B Edition instance, open an Adobe support ticket to request that your DKIM configuration be shared from your Marketo Engage instance to the new instance. Provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID).
+You can use the same DKIM configuration for your production Marketo Engage instance and the attached Journey Optimizer B2B Edition instance. In the attached instance, create the exact same domain as in your Marketo Engage instance. The selector and encryption values do not need to match. After the domain is added to the Journey Optimizer B2B Edition instance, open an Adobe support ticket to request that your DKIM configuration be shared from your Marketo Engage instance to the new instance. Provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID).
 
 1. To set up SPF, add the following line to the DNS entries:
 
@@ -101,7 +101,7 @@ You can use the same DKIM configuration for your production Marketo Engage insta
    include: mktomail.com ~all
    ```
   
-   If you already have an existing SPF record in the DNS entry, simply add the following to it:
+   If you have an SPF record in the DNS entry, add the following to it:
    
    ```
    include: mktomail.com
@@ -128,7 +128,7 @@ For DMARC to function, you must have at least one of the following DNS TXT recor
 * A Valid SPF
 * A Valid DKIM Record for your FROM: domain (recommended for [!DNL Marketo Engage] and [!UICONTROL Journey Optimizer B2B Edition])
 
-Also, configure a DMARC-specific DNS TXT record for your `FROM:` domain. Optionally, you can define an email address that specifies where DMARC reports should go within your organization for report monitoring.
+Also, configure a DMARC-specific DNS TXT record for your `FROM:` domain. Optionally, define an email address that specifies where DMARC reports go within your organization for report monitoring.
 
 ### Example DMARC workflow
 
@@ -136,7 +136,7 @@ Also, configure a DMARC-specific DNS TXT record for your `FROM:` domain. Optiona
 >
 >It is a best practice to implement DMARC as a _gradual rollout_. Escalate your DMARC policy from `p=none`, to `p=quarantine`, and then to `p=reject` as you gain understanding of the potential impact, and set your DMARC policy to relaxed alignment on SPF and DKIM.
 
-If you receive DMARC reports, you should do the following:
+If you receive DMARC reports, do the following:
 
 1. Use `p=none` and analyze the feedback and reports you receive. The reports tell the receiver to perform no actions against messages that fail authentication, and send email reports to the sender.
 
@@ -166,7 +166,7 @@ DMARC offers the ability to receive reports regarding emails that fail SPF/DKIM.
 
 * **Forensic Reports (RUF)** - Contain email addresses that are GDPR sensitive. Before you implement this report, verify your organizational policy for handling information that needs to be GDPR compliant.
 
-The main use of these reports is to receive an overview of emails that are attempted spoofing. They are highly technical reports and are best analyzed through a third-party tool.
+The main use of these reports is to receive an overview of emails that are attempting spoofing. They are highly technical reports and are best analyzed through a third-party tool.
 
 ### Example DMARC records
 
@@ -229,7 +229,7 @@ If you send mail through Marketo Engage over a dedicated IP and have not impleme
 
 **Migrating dedicated IPs to Journey Optimizer B2B Edition**
 
-If you have dedicated IPs, you must have the new Journey Optimizer B2B Edition instance created in the same region as your existing Marketo Engage instance. If the new instance is in a different region, sharing the existing IP is not possible. If the region matches, open a ticket with [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} to request that your existing IP and binding groups be shared with the new instance. Provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID). 
+If you have dedicated IPs, you must have the new Journey Optimizer B2B Edition instance created in the same region as your existing Marketo Engage instance. If the new instance is in a different region, sharing the existing IP is not possible. If the region matches, open a ticket with [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} and request that your existing IP and binding groups be shared with the new instance. Provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID). 
 
 With this request, Adobe replicates the same IPs, binding groups, and configured Return-Path domains as your existing Marketo Engage instance. When IPs are shared between your Marketo Engage and Journey Optimizer B2B Edition instances, they use them simultaneously.
 
@@ -249,7 +249,7 @@ An MX record allows you to receive mail to the domain that you're sending email 
 
 ## Outbound IP addresses
 
-Marketo Engage makes an outbound connection to an Internet server on your behalf. Your IT organization and some partners/vendors may use allow lists to restrict access to servers. If so, you must provide them with Marketo Engage outbound IP address blocks to add to their allow lists. 
+Marketo Engage makes an outbound connection to an Internet server on your behalf. Your IT organization and some partners/vendors may use allow lists to restrict access to servers. If so, provide them with Marketo Engage outbound IP address blocks to add to their allow lists. 
 
 <!--
 Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.

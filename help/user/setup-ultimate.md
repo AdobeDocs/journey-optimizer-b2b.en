@@ -36,7 +36,7 @@ autotag-review: '2026-03-27T22:15:07.682Z'
 ---
 # Setup checklist
 
-Adobe Journey Optimizer B2B Edition is built on Adobe Experience Platform. With this implementation, Journey Optimizer B2B Edition and Marketo Engage are not on the same system and same data store. Journey Optimizer B2B Edition receives data from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some backend features, such as email delivery, to provision and configure the system.
+Adobe Journey Optimizer B2B Edition is built on Adobe Experience Platform. With this implementation, Journey Optimizer B2B Edition and Marketo Engage are not on the same system or the same data store. Journey Optimizer B2B Edition receives data from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some backend features, such as email delivery, to provision and configure the system.
 
 <!-- 
 >>[!NOTE]
@@ -44,15 +44,15 @@ Adobe Journey Optimizer B2B Edition is built on Adobe Experience Platform. With 
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-This implementation is the foundation that unlocks capabilities in Journey Optimizer B2B Edition:
+This implementation is the foundation that enables capabilities in Journey Optimizer B2B Edition:
 
-* **Easily unify and scale your data:** The platform supports complex data models, including custom objects, buying groups, and account events. 
+* **Unify and scale your data:** The system supports complex data models, including custom objects, buying groups, and account events. 
 
-* **Connect multiple Adobe Marketo Engage instances:** Manage and unify data from several Marketo Engage environments in one place.
+* **Connect multiple Adobe Marketo Engage instances:** Manage and unify data from several Marketo Engage environments.
 
-* **Keep your data safe:** Advanced privacy and security features that help protect your customer information. (_Coming soon_)
+* **Protect your data:** Advanced privacy and security features that help protect your customer information. (_Coming soon_)
 
-* **Built for the future:** This setup supports ongoing improvements and innovation. 
+* **Design for scalability:** This setup supports ongoing improvements and innovation. 
 
 Use the following guidelines for configuration.
 
@@ -268,7 +268,7 @@ To send emails from [!DNL Journey Optimizer B2B Edition], configure the email tr
 
 ## 4. Configure additional content channels
 
-To support marketers for including other channels in their journeys, configure additional channels.
+To support marketing teams that include other channels in their journeys, configure additional channels.
 
 <table>
 <thead>
@@ -320,7 +320,7 @@ To support marketers for including other channels in their journeys, configure a
 
 ## 5. Connect Marketo Engage instance to support journey actions (optional)
 
-If you plan to supplement Journey Optimizer B2B Edition capabilities with campaigns and programs in Marketo Engage, set up support for Marketo Engage actions. These action allow your marketing teams to coordinate their _account-based_ marketing in Journey Optimizer B2B Edition and _lead-based_ marketing efforts in Marketo Engage.
+If you plan to supplement Journey Optimizer B2B Edition capabilities with campaigns and programs in Marketo Engage, set up support for Marketo Engage actions. These actions allow your marketing teams to coordinate their _account-based_ marketing in Journey Optimizer B2B Edition and _lead-based_ marketing efforts in Marketo Engage.
 
 <table>
 <thead>

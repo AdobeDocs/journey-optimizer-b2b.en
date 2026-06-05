@@ -29,15 +29,15 @@ A branding domain in Marketo Engage is a custom subdomain (such as `links.yourco
 
 * It replaces generic links with your own branding in email hyperlinks.
 * When an account lead clicks a link, it redirects through this custom domain to allow performance tracking while appearing legitimate to email filters.
-* If you have multiple brands, you can configure additional branding domains to support different business units or brands.
+* To support different business units or brands, you can configure additional branding domains if you have multiple brands.
 
 >[!BEGINSHADEBOX]
 
 **Unique CNAMEs for tracking links**
 
-Email tracking links must be new and unique for the attached Marketo Engage instance. If you have existing CNAMEs for tracking links pointing to a pre-existing (production) Marketo Engage instance, they cannot be reused without modification.
+Email tracking links must be new and unique for the attached Marketo Engage instance. If you have existing CNAMEs for tracking links pointing to a pre-existing (production) Marketo Engage instance, they require modification before they can be reused.
 
-You can share return-path domain branding between your production Marketo Engage instance and the attached instance, but this is a backend change. Open a support ticket and provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID) to request shared return-path domain branding.
+You can share return-path domain branding between your production Marketo Engage instance and the attached instance, but this change is a backend change. Open a support ticket and provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID) to request shared return-path domain branding.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ You can share return-path domain branding between your production Marketo Engage
 >
 >Before you edit or add a domain in the UI, you must have a [mapped CNAME to an Adobe-provided Marketo Engage domain](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
->When adding a domain, the system checks for pre-existing SSLs, which may have been manually created prior. If you encounter this validation, create your domain without selecting SSL creation and then connect it as a separate procedure.
+>When adding a domain, the system checks for pre-existing SSLs, which were manually created prior. If you encounter this validation, create your domain without selecting SSL creation and then connect it as a separate procedure.
 
 ## Access branding domains in Marketo Engage
 

@@ -36,11 +36,11 @@ Journey Optimizer B2B Edition setup includes configuration of the Experience Pla
 
 >[!AVAILABILITY]
 >
->- You must have access to [Adobe Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} for your B2B schemas to qualify in [Real-Time Customer Profile](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home){target="_blank"}.
+>- For your B2B schemas to qualify in [Real-Time Customer Profile](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home){target="_blank"}, you must have access to [Adobe Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}.
 >
 >- Your Experience Platform B2B entities must use the standard relationships outlined in the [B2B namespaces and schemas guide](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
-Review the following information about the underlying setup for the namespaces and schemas to be used with B2B sources. It also provides details for setting up your Postman automation utility, which is required for generating B2B namespaces and schemas.
+Review the following information about the underlying setup for the namespaces and schemas to be used with B2B sources. It also provides details for configuring your Postman automation utility, which is necessary for generating B2B namespaces and schemas.
 
 ## Set up the auto-generation utility
 
@@ -107,7 +107,7 @@ B2B namespaces are used in the primary identity of the entity.
 
 Experience Platform uses schemas to describe the structure of data in a consistent and reusable way. By defining data consistently across systems, it becomes easier to retain meaning and therefore gain value from data.
 
-Before Experience Platform can ingest data, there must be a schema that describes the data's structure and provides constraints to the type of data that can be contained within each field. Schemas consist of a base class and zero or more schema field groups.
+Before Experience Platform can ingest data, there must be a schema that describes the data's structure and provides constraints on the type of data that can be contained within each field. Schemas consist of a base class and zero or more schema field groups.
 
 For more information on the schema composition model, including design principles and best practices, see [_Basics of schema composition_](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}.
 
@@ -390,7 +390,7 @@ For more information on the schema composition model, including design principle
 
 >[!NOTE]
 >
->Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 
@@ -434,7 +434,7 @@ For more information on the schema composition model, including design principle
 
 >[!NOTE]
 >
->Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 

@@ -39,7 +39,7 @@ Schemas define fields based on standard XDM profiles. Standard XDM configuration
 
 Adobe Experience Platform (AEP) schemas typically contain many fields in complex hierarchies. Traversing XDM schema trees takes time. XDM field management streamlines field selection by displaying only the fields that are relevant to your journeys, buying groups, and personalization.  Administrators enable these fields for use in Journey Optimizer B2B Edition, including which are read-only or editable.
 
-Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders should use the following steps to configure XDM fields for [!DNL Journey Optimizer B2B Edition].
+Administrators who understand XDM and collaborate with data engineers or B2B customer data platform (CDP) data modeling stakeholders use the following steps to configure XDM fields for [!DNL Journey Optimizer B2B Edition].
 
 ## Access XDM configurations
 
@@ -55,7 +55,7 @@ Administrators who understand XDM and collaborate with data engineers or B2B cus
 
 >[!IMPORTANT]
 >
->You can update your field selection at any time by selecting new fields or deselecting fields that you no longer need. When you publish a journey using this schema, you lock the schema structure. Deleting or renaming the schema, adding new fields, or changing field types is not supported and may cause journey failures.
+>You can update your field selection at any time by selecting new fields or deselecting fields that you no longer need. When you publish a journey using this schema, you lock the schema structure. Deleting or renaming the schema, adding new fields, or changing field types is not supported and could cause journey failures.
 
 Use the following guideline for making field selections:
 
@@ -105,13 +105,13 @@ When you choose **[!UICONTROL Managed fields]**, the _Select fields_ dialog list
 
 #### Updatable fields
 
-Set the updatable fields to choose which fields can be modified through **[!UICONTROL Update Account Profile]** or **[!UICONTROL Update Person Profile]** journey actions.
+To choose which fields are modified through **[!UICONTROL Update Account Profile]** or **[!UICONTROL Update Person Profile]** journey actions, set the updatable fields.
 
 Before you configure updatable fields, they must reside in a custom dataset. For a walkthrough of the custom dataset workflow, see [Create datasets and ingest data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, and use the **[!UICONTROL Create dataset from schema]** option. This dataset is used to isolate updatable fields. All updatable fields must be in this dataset.
 
 >[!IMPORTANT]
 >
->Guardrails for updateable fields:
+>Guardrails for updatable fields:
 >
 >* Schemas - The schema must use the B2B Person primary identity (`b2b.personKey.sourceKey`). On the XDM Individual Profile class, any required fields in the schema must be system-defined, such as `identityMap` or `personID`.
 >* Datasets - Do not use a dataset that is already in use for another purpose. As a best practice, create dedicated datasets specifically for storing updatable fields. Use a separate dataset for each XDM schema.
@@ -142,7 +142,7 @@ There are multiple features that support the use of the configured relational sc
 
 >[!NOTE]
 >
->This feature currently supports account-related and people-related custom object use cases, with plans to support more out-of-the-box object use cases in the future.
+>This feature currently supports account-related and people-related custom object use cases, with plans to support more standard object use cases in the future.
 
 You can create relational schemas using the schema editor (go to **[!UICONTROL Data Management]** > **[!UICONTROL Schemas]** in the left navigation).
 
@@ -179,7 +179,7 @@ To select relational schema fields for use in [!DNL Journey Optimizer B2B Editio
 
 1. Enter a namespace or use the default namespace. Click **[!UICONTROL Next]**.
 
-   You can only set the namespace once, and cannot reverse this action.
+   You can only set the namespace once and cannot reverse this action.
 
    ![The default namespace in the Create namespace dialog](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}   
 
