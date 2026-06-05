@@ -44,7 +44,7 @@ Journey Optimizer B2B Edition evaluates the following XDM attribute for email co
 | --- | --- | --- | --- |
 | `consents.marketing.email.val` | Opted in | Opted out | Opted in |
 
-Keep the following considerations in mind for email consent:
+Consider the following for email consent:
 
 * Persons who opted out globally from email can receive emails marked as operational.
 * Subscription-level preferences are not supported.
@@ -61,7 +61,7 @@ Journey Optimizer B2B Edition evaluates the following XDM attributes for SMS con
 | `consents.marketing.subscriptions.<senderID>` | Opted in | Opted out | Opted out |
 | `consents.marketing.sms.subscriptions.<senderId>.subscribers.<phoneNumber>` | Opted in | Opted out | Opted out |
 
-Keep the following considerations in mind for SMS consent:
+Consider the following for SMS consent:
 
 * When a lead (person) record is opted out of SMS, the record is excluded entirely and is not passed to downstream SMS providers.
 * When available, subscription-level consent is evaluated. Global opt-out is used as a fallback when subscription-level consent is unavailable.
@@ -77,7 +77,7 @@ Journey Optimizer B2B Edition evaluates the following XDM attributes for WhatsAp
 | `consents.marketing.whatsApp.val` | Opted in | Opted out | Opted out |
 | `consents.idSpecific.Phone.<number>.marketing.whatsApp.val` | Opted in | Opted out | Opted out |
 
-Keep the following considerations in mind for WhatsApp consent:
+Consider the following for WhatsApp consent:
 
 * If the global WhatsApp attribute value (`consents.marketing.whatsApp.val`) is present, it is used for consent evaluation.
 * If the global attribute value is not present but a sender-specific entry is present, the sender-specific entry is used for consent evaluation.

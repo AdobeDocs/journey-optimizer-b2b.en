@@ -31,12 +31,12 @@ TQID: https://experienceleague.adobe.com/tdFuPXow263TwebK-OF7bUenVrBuT1MYIG9FYC6
 ---
 # Web experiences
 
-The web channel in Adobe Journey Optimizer B2B Edition empowers you to create personalized experiences directly on your website, helping you connect with customers in meaningful ways. This feature offers a flexible toolkit that you can use to enhance engagement with tailored content and seamlessly integrate it with other channels, such as email and SMS.
+The web channel in Adobe Journey Optimizer B2B Edition empowers you to create personalized experiences directly on your website, helping you connect with customers in meaningful ways. This feature offers a flexible set of tools that you can use to enhance engagement with tailored content and seamlessly integrate it with other channels, such as email and SMS.
 
 Web experiences enable you to:
 
 * Deliver personalized content modifications to targeted website visitors
-* Customize website elements such as banners, text, images, and buttons based on account attributes
+* Customize website elements like banners, text, images, and buttons using account attributes
 * Target specific pages or apply changes across multiple pages using URL matching rules
 * Track engagement and monitor the impact of your web personalization efforts
 
@@ -52,10 +52,10 @@ Before you can create web experiences, ensure that the following requirements ar
 
 * You have the necessary [permissions](../admin/user-management.md#b2b-product-permissions) to create and manage web experiences in a journey:
    * _[!UICONTROL Campaigns]_ > _[!UICONTROL Manage Campaigns]_ - Required to add or update a web personalization action node.
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL View Campaigns]_ - Required to view details for a Web personalization action nodes.
+   * _[!UICONTROL Campaigns]_ > _[!UICONTROL View Campaigns]_ - Required to view details for a Web personalization action node.
    * _[!UICONTROL Campaigns]_ > _[!UICONTROL Approve and Publish Campaigns]_ - Required to publish a journey that has one or more Web personalization action nodes.
 
-* You have the Adobe Experience Cloud [Visual Editing Helper browser extension](#install-the-visual-editing-helper-extension) installed for your web browser. This extension is required to open, author, and preview your web pages reliably into the Journey Optimizer B2B Edition content design space.
+* You have the Adobe Experience Cloud [Visual Editing Helper browser extension](#install-the-visual-editing-helper-extension) installed for your web browser. This extension is required to open, author, and preview your web pages reliably in the Journey Optimizer B2B Edition content design space.
 
    >[!NOTE]
    >
@@ -142,7 +142,7 @@ You can set up web experiences in a journey when you [add a _[!UICONTROL Take an
 
 1. When the modifications are complete, click the left arrow above the editor to return to the content tab and personalized web experience node properties. 
 
-   You can click the left arrow at the very top to return to the journey canvas.
+   Click the left arrow at the top to return to the journey canvas.
 
 ## Edit a web experience
 
@@ -161,11 +161,11 @@ You can set up web experiences in a journey when you [add a _[!UICONTROL Take an
 
 1. When the modification definitions are complete, click the left arrow above the editor to return to the content tab and web experience properties. 
 
-   You can click the left arrow at the very top to return to the journey canvas.
+   Click the left arrow at the top to return to the journey canvas.
 
 ## Redirect to URL
 
-When creating a web experience, you can redirect visitors to another existing URL rather than authoring a new variation in the content editor. This option is useful when you want to run a content experiment comparing two different experiences instead of just changing a few elements within a page.
+When creating a web experience, you can redirect visitors to another existing URL rather than authoring a new variation in the content editor. This option is useful when you want to run a content experiment comparing two different experiences instead of changing a few elements within a page.
 
 For example, create a web campaign with two treatments:
 
@@ -179,7 +179,7 @@ In Treatment B, select the _[!UICONTROL Redirect to URL]_ option for the other h
 >
 >With this option selected, the website preview is not displayed and the _[!UICONTROL Visual editor]_ toggle is disabled. 
 
-When your web campaign is live, you can track how the web experience that you defined in Journey Optimizer B2B Edition is performing against web experiences that used a redirection to the alternative page.
+When your web campaign is live, you can track how the web experience that you defined in Journey Optimizer B2B Edition is performing against web experiences that use a redirection to the alternative page.
 
 ## Test the web experience
 
@@ -189,7 +189,7 @@ After the content design is complete for the web experience, you can use the _Si
 
 1. Select a test profile.
 
-1. Add a test profile to check your web page using the test profile data.
+1. To check your web page using the test profile data, add a test profile.
 
 <!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
 
@@ -205,15 +205,15 @@ Your web experience is activated and made visible to the audience when you [publ
 
 To enable web experience delivery, the following settings must be defined:
 
-* In the Adobe Experience Platform Data Collection, make sure that you have a datastream defined with the Adobe Journey Optimizer B2B Edition option enabled under the Adobe Experience Platform service.
+* In the Adobe Experience Platform Data Collection, make sure that you have a datastream defined. Ensure the Adobe Journey Optimizer B2B Edition option is enabled under the Adobe Experience Platform service.
 
    This configuration ensures that the Adobe Experience Platform Edge can handle the inbound events correctly. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * In Adobe Experience Platform, make sure that you have one merge policy with the _[!UICONTROL Active-On-Edge Merge Policy]_ option enabled. 
 
-   Select a policy under the Customer > Profiles > Merge Policies Experience Platform menu. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+   Select a policy under the Customer > Profiles > Merge Policies menu in Experience Platform. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-   This merge policy is used by Journey Optimizer B2B Edition inbound channels to correctly activate and publish inbound web experiences on the edge. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+   Journey Optimizer B2B Edition inbound channels use this merge policy to activate and publish inbound web experiences correctly on the edge. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Troubleshooting
 

@@ -32,7 +32,7 @@ In addition to _My Tokens_, which are specific to the account journey, you can u
 
 ## Manage My Tokens {#my-tokens}
 
-The _My Tokens_ are custom variables that you create or modify for an account journey in Draft status. This custom token set currently support text and number token definitions. 
+The _My Tokens_ are custom variables that you create or modify for an account journey in Draft status. This custom token set currently supports text and number token definitions. 
 
 When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars.
 
@@ -100,7 +100,7 @@ When you are authoring email content for your account journey, you can use any o
 
    This action opens the _Edit Personalization_ dialog. The dialog includes a _[!UICONTROL My tokens]_ folder in the _[!UICONTROL Personalization Tokens]_ library if there are custom tokens defined for the account journey.
 
-1. Expand the **[!UICONTROL My tokens]** folder, then click **+** or **...** to add one of your custom tokens to the blank space.
+1. To add one of your custom tokens to the blank space, expand the **[!UICONTROL My tokens]** folder, then click **+** or **...**.
 
    You can add any additional static text as needed.
 
