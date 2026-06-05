@@ -4,10 +4,14 @@ description: Audience Agent B2B in Journey Optimizer B2B Edition uses intent ana
 feature: Agentic AI, Audiences
 role: User
 exl-id: c1210912-66ba-4b5f-8f3b-96eb6280c926
+autotag-review: '2026-06-05T16:43:42.459Z'
+TQID: 'https://experienceleague.adobe.com/d7KMYbH0NpoYGnBdTCmCpzLgpGIYfNP-YIFCQUjZpIg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
     internal-label: Audiences
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
@@ -22,13 +26,18 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
 topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-autotag-review: '2026-04-29T23:21:59.633Z'
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # Audience Agent B2B
 
-Powered by [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), Audience Agent B2B is available in Journey Optimizer B2B Edition. Using this agent enhances efficiency and effectiveness in exploring and scaling audiences, accelerating buying group creation and seamless workflows for journey activation:
+Powered by [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), Audience Agent B2B is available in Journey Optimizer B2B Edition. Using this agent enhances efficiency and effectiveness in exploring and scaling audiences, accelerating buying group creation, and seamless workflows for journey activation:
 
 * **_Prioritize target audiences by intent_**: Infer personas based on product intent for various audiences and streamline campaign planning, reducing time spent on audience validation.
 
@@ -60,7 +69,7 @@ Audience Agent B2B depends on configured intent taxonomy, XDM field mappings, an
 
 These prompt samples demonstrate some of the ways that you can use the agent:
 
-* Show the trend window: earliest and latest updated for account product intent per product.
+* Show the trend window: earliest and latest updates for account product intent per product.
 * For `<product>`, list buying groups with product intent and scores.
 * For `<product>`, list personas and roles with their opportunity metrics (win rate, membership rate, counts).
 * For accounts in `<industry>`, what is the average account persona coverage for `<product>`?

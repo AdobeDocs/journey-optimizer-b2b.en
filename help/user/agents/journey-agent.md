@@ -4,6 +4,8 @@ description: Learn how to use the AI-powered Journey Agent and its skills to bui
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
+autotag-review: '2026-06-05T16:42:46.785Z'
+TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -22,9 +24,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
 topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-autotag-review: '2026-04-29T23:21:59.633Z'
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Journey Agent B2B
 
@@ -39,7 +46,7 @@ The Journey Agent B2B provides a set of AI skills, each focused on a different a
 
 ## Journey Build skill
 
-The Journey Build skill translates your marketing objectives, engagement strategy, and KPIs into complete B2B customer journeys. It tackles three key challenges facing B2B marketers today:
+The Journey Build skill translates your marketing objectives, engagement strategy, and KPIs into complete B2B customer journeys. It addresses three key challenges facing B2B marketers today:
 
 * Dealing with increasingly complex customer journeys (complexity in audience, content and messaging, and omnichannel)
 * Increasing efficiency in light of tighter budgets
@@ -60,7 +67,7 @@ To use the Journey Agent Build skill, type into the prompt window what you are l
 
 ![Journey agent B2B prompt for the Build skill](./assets/journey-agent-tasks.png)
 
-The more detail that you can provide, the better the reply will be. If you have existing marketing materials that describe the event, or your product, etc., paste that into the prompt, so the Agent has a better sense of the goal.
+The more detail you provide, the better the reply is. If you have existing marketing materials that describe the event, or your product, etc., paste that into the prompt, so the Agent has a better understanding of the goal.
 
 "Act as a B2B journey strategist to create a multi-stage customer account journey that nurtures and engages decision-makers and marketing personas in the early exploration phase of `<Solution Name>`. The goal is to convert anonymous visitors into known contacts, deepen engagement with relevant content on `<domain>`.com, and prime qualified leads for `<Product Name>` sales outreach. Use channels such as email and paid media, leveraging existing audience segments and content. Structure the journey across awareness, consideration, and evaluation stages over 4–6 weeks, with clear triggers, actions, and goals for each stage. Include KPIs like conversion rates, engagement scores, and demo requests, and return the output as a structured journey flow."
 
@@ -86,8 +93,7 @@ End-to-end Journey prompt examples:
 
 ### Multi-stage journeys
 
-You can act as a B2B journey designer to create a multi-stage customer account journey that informs decision-makers and marketing personas early in the exploration phase.
-The goal is to convert anonymous visitors into known contacts, deepen engagement with relevant content, and prime qualified leads for sales outreach.
+You can act as a B2B journey designer to create a multi-stage customer account journey that informs decision-makers and marketing personas early in the exploration phase. The goal is to convert anonymous visitors into known contacts, deepen engagement with relevant content, and prime qualified leads for sales outreach.
 
 * Use channels such as `Email`, `Paid media`, `Personalized web experiences` to leverage existing audience segments and content.
 * Structure the journey across `awareness`, `consideration`, and `evaluation` stages over 4–6 weeks, with clear triggers, actions, and goals for each stage.
@@ -146,7 +152,7 @@ For journeys that push to external channels such as LinkedIn, you can check acti
 
 ### Data sync and pipeline observability
 
-The Observability skill can also surface data sync health information to help troubleshoot why an account or lead may not have been included in a journey:
+The Observability skill can also surface data sync health information to help troubleshoot why an account or lead was not included in a journey:
 
 * External audience export job metrics and status
 * Batch segmentation schedules and completion times

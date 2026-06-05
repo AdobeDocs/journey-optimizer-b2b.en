@@ -4,7 +4,8 @@ description: Automate B2B prospect qualification and outreach with Sales Qualifi
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
-autotag-review: 2026-03-30T15:10:20.350Z
+autotag-review: '2026-06-05T16:42:16.451Z'
+TQID: 'https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -15,15 +16,22 @@ feature_v2:
     internal-label: Sales Experience
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
     internal-label: Intelligent Insights
+subfeature_v2:
+  - id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+    internal-label: CRM integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
 ---
 # Sales Qualifier
 
@@ -41,7 +49,7 @@ Sales Qualifier is included with [!UICONTROL Journey Optimizer B2B Edition], but
 
 ### Account Qualification Agent
 
-The Account Qualification Agent (AQA) is the heart of the Sales Qualifier. The AQA uses AI to read your accounts and determine which ones are ready for the next step. It assists with research, email drafting, and CRM-informed context when your organization has connected the CRM (read-only).
+The Account Qualification Agent (AQA) is the core of the Sales Qualifier. The AQA uses AI to read your accounts and determine which ones are ready for the next step. It assists with research, email drafting, and CRM-informed context when your organization has connected the CRM (read-only).
 
 <!--
 ## Edit the left navigation bar
@@ -51,7 +59,7 @@ At the bottom left of the application, click the _Edit_ ( ![Edit icon](../assets
 
 ### Basic agent usage
 
-Adobe AI agents use _natural language queries_, which means that they use the same language in the text prompt as you would when speaking with a person. The more detailed you are, the better the results.
+Adobe AI agents use _natural language queries_, which means they use the same language in the text prompt as you do when speaking with a person. The more detailed you are, the better the results.
 
 Using natural language, you can ask the agent to:
 
@@ -63,7 +71,7 @@ Iterate your outbound workflows by refining your prompts to get the results you 
 
 * _Draft a follow-up email drawing from context like earnings calls or reports._ Up to 120 words. Subject line: Captivating, incorporating a key theme. Intro: Hook with a direct quote from context sources. Body: Connect to pain points and value propositions. CTA: Propose a short call to explore further._
 
-* _The goal of this email is to start a conversation and build credibility._ Draft an email under 120 words that has a consultative and empathetic tone. Make sure to avoid an overly familiar or sales approach and do not use the phrases "hope you are well," "just checking in," or "please."_
+* _The goal of this email is to start a conversation and build credibility._ Draft an email under 120 words that has a consultative and empathetic tone. Avoid an overly familiar or sales approach and do not use the phrases "hope you are well," "just checking in," or "please."_
 
 ### Product access and user groups
 
@@ -90,7 +98,7 @@ Standard BDR users must be members of the `Sales Qualifier users` user group to 
 
 ## Prospects
 
-Select **[!UICONTROL Prospects]** in the left navigation to view a list of all the leads that you can access. It provides a quick check on things, such as lead status and last activity.
+Select **[!UICONTROL Prospects]** in the left navigation to view a list of all the leads that you can access. It provides a quick review of information, such as lead status and last activity.
 
 ![Prospects table displaying lead status and last activity for prospect management](./assets/prospects.png){width="800" zoomable="yes"}
 
@@ -175,7 +183,7 @@ After targeting is set, the AI builds the **_cadence_**: it analyzes your goal a
 
 ![Outbound workflow generated touchpoint cadence and prompts](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"} 
 
-Expand an email touchpoint to read its prompt. This instruction guides the AI when writing each prospect's email, including tone, length, focus, and call to action.
+Expand an email touchpoint to read its prompt. This instruction guides the AI when writing each prospect's email, including tone, length, focus, and _call to action_.
 
 **Regenerate the cadence**
 
@@ -239,7 +247,7 @@ When generation finishes, the workflow detail view shows a banner to review draf
 
 #### Read the AI reasoning
 
-For each generated email, **[!UICONTROL Reasoning]** explains how the AI crafted that message, including the signals, attributes, and sources that shaped the content and call to action. Review this information to validate personalization before you approve.
+For each generated email, **[!UICONTROL Reasoning]** explains how the AI crafted that message, including the signals, attributes, and sources that shaped the content and call to action. Review this information and validate personalization before you approve.
 
 ![Outbound workflow generated email AI reasoning](./assets/outbound-workflow-create-review-generated-email-reasoning.png){width="600" zoomable="yes"}
 
@@ -288,10 +296,10 @@ On the _[!UICONTROL Outbound workflow]_ page, the **[!UICONTROL Browse]** tab li
 ### Outbound workflow best practices
 
 * **Invest in the goal.** Downstream targeting, cadence, and emails all trace back to the goal. Specific, outcome-focused goals outperform vague ones.
-* **Finalize touchpoint prompts before per-prospect generation.**** After bulk generation, changes are typically made one prospect at a time.
+* **Finalize touchpoint prompts before per-prospect generation.** After bulk generation, changes are typically made one prospect at a time.
 * **Use Reasoning as a quality check.** If the wrong signal is emphasized—or an obvious one is missing—edit the email or revisit the touchpoint prompt and regenerate the cadence.
-* **Match the editing tool to the change.**** Direct edits for wording and tone; **[!UICONTROL Generate with AI]** for restructuring or reframing.
-* **Approve only what you have reviewed.**** Expand touchpoints, read the content, and refine where needed before enrollment.
+* **Match the editing tool to the change.** Direct edits for wording and tone; **[!UICONTROL Generate with AI]** for restructuring or reframing.
+* **Approve only what you have reviewed.** Expand touchpoints, read the content, and refine where needed before enrollment.
 
 ## Email outbox
 
@@ -318,7 +326,7 @@ The _Tasks_ area in Sales Qualifier gives Business Development Representatives (
 
 The task management experience is designed as a **processing queue**, not just a to-do list. You can open a task, take action, mark it complete, and move to the next one — all without leaving the page.
 
-Select **[!UICONTROL Tasks]** in the left navigation bar to open the full Tasks page. This is the primary workspace for processing tasks one by one.
+Select **[!UICONTROL Tasks]** in the left navigation bar to open the full tasks page. This page is the primary workspace for processing tasks one by one.
 
 ![Tasks page showing the task queue and detail panel](./assets/tasks.png){width="800" zoomable="yes"}
 
@@ -367,7 +375,7 @@ Use the following actions to manage your tasks:
    * The task status is set to **Skipped** and logged with the reason and timestamp.
    * If this was the last step in the workflow, the prospect's workflow run ends. The task is still logged as Skipped (not Removed).
 
-* **[!UICONTROL Remove from Workflow]** - Available from the overflow menu in the work panel. Use this when the prospect should no longer be in this workflow at all.
+* **[!UICONTROL Remove from Workflow]** - Available from the overflow menu in the work panel. Use this when the prospect no longer belongs in this workflow.
 
    When you remove a prospect from a workflow:
    * All pending and future tasks for that prospect within this workflow are cancelled.
@@ -464,7 +472,7 @@ With integrations, Sales Qualifier can use your CRM so the Account Qualification
 
 >[!IMPORTANT]
 >
->Accessing integrations in Sales Qualifier requires membership in the `Sales Qualifier Admins` user group.
+>Accessing integrations in Sales Qualifier requires `Sales Qualifier Admins` user group membership.
 
 ### CRM access scope
 
@@ -501,7 +509,7 @@ In Salesforce, [create an External Client App](https://help.salesforce.com/s/art
 
 >[!PREREQUISITES]
 >
->To create an External Client App, you should be a System Administrator and verify that you have the following enabled (from Profile or Permission Set):
+>To create an External Client App, a product administrator should verify that you have the following enabled (from Profile or Permission Set):
 >
 >* Customize Application
 >* View Setup and Configuration
@@ -546,7 +554,7 @@ Ensure that the configured user has read access to the following objects:
 
 1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Integrations]**.
 
-   You should see cards for Salesforce and Microsoft Dynamics.
+   The page displays cards for Salesforce and Microsoft Dynamics.
 
    ![Integrations page with Salesforce and Dynamics connection cards](./assets/integrations-crm-connections.png){width="800" zoomable="yes"}   
 
@@ -645,7 +653,7 @@ On the **[!UICONTROL Calendar configuration]** tab, set your time zone and avail
 
 * **[!UICONTROL Meeting confirmation email]** - When a client confirms a meeting with you, they receive the confirmation email as a reply. Use these settings to define the email subject and body.
 
-* **[!UICONTROL Preferences]** - Set your default meeting length, and the time you would like between back-to-back meetings.
+* **[!UICONTROL Preferences]** - Set your default meeting length and the time between back-to-back meetings.
 
 If you disconnect your calendar:
 
