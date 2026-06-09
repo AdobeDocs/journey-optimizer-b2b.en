@@ -101,7 +101,7 @@ There are multiple methods for adding an image asset to the visual canvas.
 
 To import files to Assets as a Cloud Service, you first need to browse or create the folder to be used for storage. You can then import an asset and add it to your email content. After assets are uploaded, you can [use the image assets as you author content](./assets-overview.md#add-assets-to-your-content).
 
-1. While authoring your content in the email designer, drag an image element into the canvas. 
+1. While authoring your content in the email design space, drag an image element into the canvas. 
 
    The properties on the right reflect the image element selection. 
 
