@@ -294,7 +294,7 @@ To support marketing teams that include other channels in their journeys, config
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Complete the landing page settings to support marketers who author and publish these pages</td>
-<td><a href="./admin/landing-page-settings.md">Learn more</a></td>
+<td><a href="./admin/configure-channels-landing-pages.md">Learn more</a></td>
 </tr>
 <tr>
 <td colspan="2"><strong>Web</strong> (Beta) channel configuration for Journey Optimizer B2B Edition</td>

@@ -16,13 +16,19 @@ description: Reused section about using components and content elements for cont
 
    Each column size cannot be less than 10% of the total width of the structure component. Only empty columns can be removed.
 
+   For more information about using and formatting these components, see _[Structure Components](../user/content/structure-components.md)_.
+
 1. Expand the **[!UICONTROL Contents]** section and add as many content components as you need into one or more structure components.
 
    ![Drag a content element onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
             
-   <!--
-   reference to the contents elements when we have a completed reference for each.
-   -->
+   * [Container](../user/content/content-components.md#container)
+   * [Button](../user/content/content-components.md#button)
+   * [Text](../user/content/content-components.md#text)
+   * [Divider](../user/content/content-components.md#divider)
+   * [Image](../user/content/content-components.md#image)
+   * [Social](../user/content/content-components.md#social)
+   * [Form](../user/content/content-components.md#form) (landing pages only)
 
 1. If needed, you can make additional customizations for each component in the _[!UICONTROL Settings]_ or _[!UICONTROL Style]_ tabs.
 

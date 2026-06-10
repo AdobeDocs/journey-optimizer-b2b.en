@@ -7,12 +7,17 @@ role: Developer
 level: Intermediate
 keywords: expression, editor, syntax, personalization
 exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+autotag-review: '2026-05-27T16:18:02.498Z'
+TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -24,8 +29,6 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-autotag-review: 2026-03-30T22:05:22.123Z
-TQID: https://experienceleague.adobe.com/n--W9LWqVlmHK4y8TI9E-ip4qr5X1xfgKj5pkWd8wJM
 ---
 # Personalization syntax {#personalization-syntax}
 

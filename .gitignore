@@ -12,3 +12,4 @@ usage-agents.log
 /.claude
 *.mdc
 /.cursor/skills
+/.cursor/rules

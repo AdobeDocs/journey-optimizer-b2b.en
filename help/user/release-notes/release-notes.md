@@ -41,14 +41,14 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
-| Feature | Forms | Marketers can now create and publish reusable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
+| Feature | Landing pages | Landing pages are available in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. <ul><li>Administrators can configure landing page subdomains and presets to enable landing page publishing. [Learn more](../admin/configure-channels-landing-pages.md)</li><li>Marketers can create, design, and publish landing pages to support their journeys with personalized web content. [Learn more](../content/landing-pages.md)</li></ul> |
+| Feature | Forms | Journey Optimizer B2B Edition now supports reusable form components to enable data submission from landing pages _(previously a Beta program feature)_. <ul><li>Administrators can configure multiple form presets using different combinations of datasets and streaming connections. [Learn more](../admin/configure-channels-forms.md)</li><li>Marketers can now define reusable form components to capture information from web page visitors. [Learn more](../content/forms.md)</li></ul> |
 | Feature | Member of Account List filter | Use the membership of Account Lists as an orchestration point in account journeys. Marketers can create account blocklists, priority lists, or any other kind of subset of their audience and provide accounts unique experiences in journeys based on their membership. |
 | Feature | Experience event history filtering | This feature enables B2B journey orchestration to use historical engagement to drive behavior-based decisions for audience members. [Learn more](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)  |
 | Feature | Next best path journey nodes | You can optimize split path decisioning for person journeys, refining how audiences are routed across paths before journey activation or at runtime. [Learn more](../journeys/next-best-path-node.md) |
 | Feature | Email performance dashboard | The Email Performance dashboard gives marketers a unified view of email activity across all journeys in Adobe Journey Optimizer B2B Edition. [Learn more](../dashboards/email-performance-dashboard.md) |
 | Enhancement | Audience Agent B2B skills | Audience Agent B2B skills are updated, including AI-powered buying group template creation. Use first-party intent and persona mapping to generate buying group templates, review AI-recommended role-to-persona mappings, and refine templates with natural language before you publish them. [Learn more](../agents/audience-agent-b2b.md) |
-| Enhancement | Journeys overview dashboard - Person journeys | Person journeys (Beta) now include an _[!UICONTROL Overview]_ tab with the same analytics as account journeys, including journey completion rate distribution, journeys by engagement type, and drill-through and export actions. <a href="../dashboards/journeys-dashboard.md">Learn more</a> |
+| Enhancement | Journeys overview dashboard - Person journeys | Person journeys (Beta) now include an _[!UICONTROL Overview]_ tab with the same analytics as account journeys, including journey completion rate distribution, journeys by engagement type, and drill-through and export actions. [Learn more](../dashboards/journeys-dashboard.md) |
 | Enhancement | Support for AEP relational datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
 
 >[!NOTE]
@@ -297,7 +297,7 @@ This release includes the following new capabilities and enhancements:
 | Enhancement | Marketo Engage list membership filter for journeys and roles | In Journey Optimizer B2B, check for Marketo Engage list membership as a condition for a _split path by people_ node to help eliminate duplication in journey activities. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Learn more</a> <p> For buying group roles templates, use list membership as a role condition. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Learn more</a>|
 | Enhancement | Engagement overview dashboard | This dashboard is updated to provide a comprehensive view of engagement. It showcases real-time metrics of account and individual interactions through snapshot circle charts and trend-revealing line charts over time. <a href="../dashboards/engagement-dashboard.md">Learn more</a>|
 
-## 2024 releases
+## 2024 releases {#2024-releases}
 
 Expand the following lists for the features and enhancements for Journey Optimizer B2B Edition released in 2024.
 
