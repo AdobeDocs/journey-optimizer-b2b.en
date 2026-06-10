@@ -8,18 +8,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
 + [Adobe Journey Optimizer B2B Prime Documentation](guide-overview.md)
 + [Setup](./start/setup-prime.md)
 + [Home and Insights](./home-insights/home-insights.md)
-<!-- 
-+ AI Assistant {#ai-assistant}
-    + [Overview](./ai-assistant/ai-assistant-overview.md)
-    + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
-    + [Question guidance](./ai-assistant/question-guidance.md)
-    + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
-    + [Generative AI for content](./ai-assistant/generative-ai-content.md)
-    + Agents {#agents}
-       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-       + [Journey Agent B2B](./agents/journey-agent.md)
-       + [Account Qualification](./agents/sales-qualifier.md)
--->
 + Marketing management {#marketing-management}
    + [Overview](./marketing/marketing-management.md)
    + [Person journeys](./marketing/person-journeys.md)
@@ -41,18 +29,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
       + [Templates overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
       + [Content locking](./content/template-content-locking.md)
-<!--
-   + {hide-from-toc} Assets
-   + {hide-from-toc} Fragments
-   + {hide-from-toc} Forms
-   + {hide-from-toc} Landing pages
-
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc} [Brand Concierge](./brand-concierge/brand-concierge.md)
-
-+ [Data and connections](./data/data.md)
-   + Destinations
--->
 + Administration {#admin}
    + [Administration](./admin/admin.md) 
    + Channels {#channels}
@@ -66,4 +44,26 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
 <!--
    + Business rules
    + Program types
+-->
+
+<!-- 
++ AI Assistant {#ai-assistant}
+    + [Overview](./ai-assistant/ai-assistant-overview.md)
+    + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
+    + [Question guidance](./ai-assistant/question-guidance.md)
+    + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
+    + [Generative AI for content](./ai-assistant/generative-ai-content.md)
+    + Agents {#agents}
+       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
+       + [Journey Agent B2B](./agents/journey-agent.md)
+       + [Account Qualification](./agents/sales-qualifier.md)
+
++ [Data and connections](./data/data.md)
+   + Destinations
+
+For Content
+   + {hide-from-toc} Assets
+   + {hide-from-toc} Fragments
+   + {hide-from-toc} Forms
+   + {hide-from-toc} Landing pages
 -->
