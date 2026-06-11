@@ -12,7 +12,7 @@ Common use cases for landing pages:
 * Collect consent before sending communications and send a confirmation email upon opt-in or opt-out.
 * Capture or update profile data (progressive profiling, preferences, registrations, and similar scenarios) using forms on landing pages.
 * Direct people to campaign-specific information designed for your journey orchestration.
-* Redirect people to a dedicated web form without building an external page outside of Journey Optimizer B2B Edition.
+* Redirect people to a dedicated web form without building an external page outside of Journey Optimizer B2B Prime.
 
 <!-- 
 ## Landing page workflow
@@ -61,7 +61,7 @@ The landing page status determines its availability for linking in your email an
 | Status               | Description |
 | -------------------- | ----------- |
 | Draft                | When you create a landing page, it is in draft status. It remains in this status as you define or edit the visual content and until you publish it as a hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Edit in visual design space<li>Publish<li>Duplicate<li>Delete|
-| Published            | When you publish a landing page, it is hosted on the Journey Optimizer B2B Edition instance and it becomes available for linking in an email or SMS message content. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Create draft version<li>Duplicate<li>Delete |
+| Published            | When you publish a landing page, it is hosted on the Journey Optimizer B2B Prime instance and it becomes available for linking in an email or SMS message content. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Create draft version<li>Duplicate<li>Delete |
 | Published with draft | When you create a draft from a published landing page, the published version remains, and the draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Edit draft version in visual design space<li>Publish draft version<li>Duplicate<li>Delete (deletes both versions)<li>Discard draft (returns to published status)|
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
