@@ -99,6 +99,12 @@ There are several things to consider before you start building reusable forms in
 
 ### Add a new form {#new-form}
 
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_lp_form_preset"
+>title="Select a preset"
+>abstract="Choose a predefined preset that contains the connection to be used and a predefined dataset for your form."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Create a form preset"
+
 You can create a form in Journey Optimizer B2B Edition by clicking **[!UICONTROL Create form]** at the top right of the _[!UICONTROL Forms]_ list page.
 
 1. In the _[!UICONTROL Create form]_ dialog, enter a useful **[!UICONTROL Name]** (required) and **[!UICONTROL Description]** (optional).
