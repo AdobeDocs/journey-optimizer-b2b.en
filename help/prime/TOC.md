@@ -29,6 +29,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
       + [Templates overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
       + [Content locking](./content/template-content-locking.md)
+   + [Landing pages](./content/landing-pages.md)
+   + [Forms](./content/forms.md)
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc} [Brand Concierge](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
@@ -38,7 +40,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
       + [SMS channel configuration](./admin/configuration-channels-sms.md)
       + [Web channel configuration](./admin/configuration-channels-web.md)
       + [WhatsApp channel configuration](./admin/configuration-channels-whatsapp.md)
-      + [Landing page preset configuration](./admin/configuration-presets-landing-pages.md)
+      + [Landing page configuration](./admin/configuration-presets-landing-pages.md)
       + [Form preset configuration](./admin/configuration-presets-forms.md)
 
 <!--
