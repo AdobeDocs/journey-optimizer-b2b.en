@@ -1,6 +1,7 @@
 ---
 title: Landing Pages
 description: Create, design, and publish landing pages for person journeys - build from scratch, import HTML, add forms, personalize content, and link from emails in Journey Optimizer B2B Prime.
+hide: true
 ---
 # Landing pages
 

@@ -1,6 +1,7 @@
 ---
 title: Marketing Management
 description: Placeholder page for marketing management.
+hide: true
 ---
 # Marketing management
 

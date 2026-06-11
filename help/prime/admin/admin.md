@@ -1,6 +1,7 @@
 ---
 title: Administration
 description: Placeholder page for administration.
+hide: true
 ---
 # Administration
 
