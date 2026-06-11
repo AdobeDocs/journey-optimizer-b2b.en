@@ -13,3 +13,4 @@ usage-agents.log
 *.mdc
 /.cursor/skills
 /.cursor/rules
+*.docx
