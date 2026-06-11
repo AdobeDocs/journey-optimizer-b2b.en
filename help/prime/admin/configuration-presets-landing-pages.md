@@ -1,7 +1,6 @@
 ---
 title: Landing Page Configuration
 description: Placeholder
-hide: true
 ---
 
 # Landing page configuration

@@ -1,7 +1,6 @@
 ---
 title: Forms
 description: Create and manage reusable forms for business data collection - design fields, set thank you pages, publish, and track usage in Journey Optimizer B2B Prime.
-hide: true
 ---
 # Forms
 

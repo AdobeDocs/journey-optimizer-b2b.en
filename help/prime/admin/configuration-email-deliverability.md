@@ -1,7 +1,6 @@
 ---
 title: Email deliverability and channel configuration
 description: Configure subdomain delegation, DMARC, SPF, DKIM, IP pools, and email channel configurations for Journey Optimizer B2B Prime.
-hide: true
 ---
 # Email deliverability and channel configuration
 

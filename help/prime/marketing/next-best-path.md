@@ -2,7 +2,6 @@
 title: Next Best Path Node
 description: Use the Next best path node in Journey Optimizer B2B Prime for AI-driven journey routing with natural language prompts, path simulation, confidence scores, and live split path results.
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
-hide: true
 ---
 # Next best path node
 

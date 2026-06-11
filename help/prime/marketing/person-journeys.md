@@ -1,7 +1,6 @@
 ---
 title: Person Journeys
 description: Placeholder page for person journeys.
-hide: true
 ---
 # Person Journeys
 

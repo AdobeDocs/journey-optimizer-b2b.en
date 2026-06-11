@@ -1,7 +1,6 @@
 ---
 title: Email authoring
 description: Use the email design tools in Journey Optimizer B2B Prime, including email templates, fragments, personalization, themes, dark mode, and validation.
-hide: true
 ---
 # Email authoring
 

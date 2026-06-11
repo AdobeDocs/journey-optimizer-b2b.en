@@ -2,7 +2,6 @@
 title: Email templates
 description: Learn how to access and manage email templates in Journey Optimizer B2B Prime, including how to organize templates using folders.
 badgeBeta: label="Beta" type="informative" tooltip="This feature is par of a limited beta release."
-hide: true
 ---
 
 # Email templates

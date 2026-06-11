@@ -2,7 +2,6 @@
 title: Content locking for email templates
 description: Use governance settings in Journey Optimizer B2B Prime to lock content in email templates at the structure or component level, controlling what email authors can edit.
 badgeBeta: label="Beta" type="informative" tooltip="This feature is par of a limited beta release."
-hide: true
 ---
 
 # Content locking for email templates

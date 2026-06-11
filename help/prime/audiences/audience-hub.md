@@ -1,7 +1,6 @@
 ---
 title: Audiences
 description: Placeholder page for audiences.
-hide: true
 ---
 # Audiences
 

@@ -9,7 +9,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
 + [Setup](./start/setup-prime.md)
 + [Home and Insights](./home-insights/home-insights.md)
 + Marketing management {#marketing-management}
-   + [Overview](./marketing/marketing-management.md)
+   + {hide-from-toc} [Overview](./marketing/marketing-management.md)
    + [Person journeys](./marketing/person-journeys.md)
    + Journey nodes {#journey-nodes}
       + [Nodes overview](./marketing/person-journey-nodes.md)
@@ -34,7 +34,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc} [Brand Concierge](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
-   + [Administration](./admin/admin.md) 
+   + {hide-from-toc} [Administration](./admin/admin.md)
    + Channels {#channels}
       + [Email deliverability and channel configuration](./admin/configuration-email-deliverability.md)
       + [SMS channel configuration](./admin/configuration-channels-sms.md)

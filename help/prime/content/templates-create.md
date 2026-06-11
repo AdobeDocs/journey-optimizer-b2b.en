@@ -2,7 +2,6 @@
 title: Create email templates
 description: Learn how to create email templates in Journey Optimizer B2B Prime — design from scratch, save an email from a journey as a template, or convert a design image to an email template.
 badgeBeta: label="Beta" type="informative" tooltip="This feature is par of a limited beta release."
-hide: true
 ---
 
 # Create email templates

@@ -1,7 +1,6 @@
 ---
 title: Add Journey Nodes
 description: Placeholder page for person journey nodes.
-hide: true
 ---
 # Add journey nodes
 

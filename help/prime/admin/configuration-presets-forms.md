@@ -1,7 +1,6 @@
 ---
 title: Forms Configuration
 description: Placeholder
-hide: true
 ---
 # Forms configurations
 

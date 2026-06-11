@@ -1,7 +1,7 @@
 ---
 title: Adobe Journey Optimizer B2B Prime Documentation
 description: Complete documentation for Journey Optimizer B2B Prime - explore the available resources for onboarding, TBD.
-hide: true
+
 ---
 # Adobe Journey Optimizer B2B Prime Documentation
 
