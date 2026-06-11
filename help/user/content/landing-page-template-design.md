@@ -5,12 +5,17 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
+autotag-review: '2026-05-27T16:15:29.609Z'
+TQID: 'https://experienceleague.adobe.com/vWu6NGGG-pyhypi4RR76gMO8Jx3YnumXuJlDdbS9qTc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -18,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
 topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-autotag-review: 2026-03-30T22:22:17.743Z
-TQID: https://experienceleague.adobe.com/XlNcjTTWblzkxOISNEvzdI--xHz-sZiFUqsO3ferXTM
 ---
 # Landing page template design
 

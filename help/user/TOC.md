@@ -70,6 +70,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Ultimate
     + [Target external audiences](./audiences/target-external-audience.md)
     + [LinkedIn Account Matched audiences](./data/linkedin-account-matched-audiences.md)
     + [Default XDM fields](./admin/field-mapping.md)
+    + [Test profiles](./audiences/test-profiles.md)
 + Accounts {#accounts}
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
@@ -115,16 +116,17 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Ultimate
         + [Advanced HTML editing](./content/email-template-advanced-html.md)
         + [Convert image to template](./content/email-template-image-convert.md)
       + Landing page templates (Beta) {#landing-page-templates}
-        + {hide-from-toc} [Overview](./content/landing-page-templates.md)
+        + [Overview](./content/landing-page-templates.md)
         + [Landing page template design](./content/landing-page-template-design.md)
    + Fragments {#visual-fragments}
       + [Overview](./content/fragments.md)
       + [Fragment authoring](./content/fragment-authoring.md)
-   + Forms (Beta) {#forms}      
+   + Forms {#forms}      
       + [Overview](./content/forms.md)
       + [Form design](./content/form-design.md)
-   + Landing pages (Beta) {#landing-pages}
-      + [Overview](./content/landing-pages.md)       
+   + Landing pages {#landing-pages}
+      + [Overview](./content/landing-pages.md)
+      + [Create and publish](./content/landing-pages-create-publish.md)
       + [Landing page design](./content/landing-page-design.md)
       + [AI Assistant for landing page content](./content/ai-assistant-landing-pages.md)
    + Content design tools {#content-design}
@@ -164,4 +166,5 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Ultimate
        + [SMS configurations](./admin/configure-channels-sms.md)
        + [WhatsApp configurations](./admin/configure-channels-whatsapp.md)
        + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
-       + [Landing page settings (Beta)](./admin/landing-page-settings.md)
+       + [Landing page configurations](./admin/configure-channels-landing-pages.md)
+       + [Forms configurations](./admin/configure-channels-forms.md)

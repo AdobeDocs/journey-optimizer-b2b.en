@@ -4,12 +4,19 @@ description: Create, manage, and reuse visual content fragments for emails and t
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
+autotag-review: '2026-05-27T16:13:50.677Z'
+TQID: 'https://experienceleague.adobe.com/Jvf48iWEQ2aOznKw2QEy33-X-q8cMfUQkbPAjgmgZqw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+    internal-label: Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,8 +26,6 @@ level_v2:
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-autotag-review: 2026-03-30T22:25:36.421Z
-TQID: https://experienceleague.adobe.com/uSnmvOt0QVY4GbYxIfC0byCqvCZO8F4rMHmyoo3zIJ0
 ---
 # Fragments
 
@@ -105,7 +110,7 @@ You can create new visual fragments in Journey Optimizer B2B Edition by clicking
 
 1. Use the content design tools to create the visual fragment content:
 
-   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add structure and content](./fragment-authoring.md#design-fragment)
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
@@ -197,7 +202,7 @@ Edits to a fragment depend on its current status:
 
    Use the visual design tools as needed:
 
-   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add structure and content](./fragment-authoring.md#design-fragment)
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
@@ -226,7 +231,7 @@ Edits to a fragment depend on its current status:
 
    Use the visual design tools as needed:
 
-   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add structure and content](./fragment-authoring.md#design-fragment)
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)
@@ -255,7 +260,7 @@ To update the content:
 
 1. Click **[!UICONTROL Edit fragment]** at the top right. Use the visual design tools as needed:
 
-   * [Add structure and content](./fragment-authoring.md#add-structure-and-content)
+   * [Add structure and content](./fragment-authoring.md#design-fragment)
    * [Add Assets](./fragment-authoring.md#add-assets)
    * [Navigate the layers, settings, and styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./fragment-authoring.md#personalize-content)

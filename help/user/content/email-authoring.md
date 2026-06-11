@@ -59,7 +59,7 @@ Use the visual content design space to define the structure and content of the e
 
    * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
 
-1. [Add structure and content](./email-authoring.md#add-structure-and-content) to the template.
+1. [Add structure and content](./email-authoring.md#structure-content) to the template.
 
 1. [Review and update links](#preview-and-edit-linked-urls).
 
@@ -142,6 +142,20 @@ After the email is saved, it appears in the fragment details page when you selec
 ### Edit linked URL tracking
 
 {{$include /help/_includes/content-design-links.md}}
+
+![Click the Edit icon to access link tracking](./assets/email-link-tracking.png){width="400"}
+
+The email delivery system (through Marketo Engage) automatically wraps all URLs in HTML emails with a unique tracking redirect when sent. Use the **[!UICONTROL Tracking Type]** to control tracking for the link:
+
+* **[!UICONTROL Track without token]** - The system registers the click, but does track what the user does next on the web page. This can be important in certain technical cases, such as when dealing with third-party systems that might not handle mkt_tok correctly. However, the subsequent web tracking is limited.
+
+* **[!UICONTROL Track with mkt-tok]** - Use the tracking token (mkt_tok) to track subsequent web activities through Munchkin. When a recipient clicks the link, it registers a _Click Email_ event in the activity log, securely tracks their activity, and applies a cookie to monitor future site interactions.
+
+* **[!UICONTROL Do not track]** - The system does not track activity associated with the link. This is useful when the destination page does not support URL parameters and may result in a broken link.
+
+   >[!NOTE]
+   >
+   >If an email was sent over 365 days ago and no one clicked any of its links in the last 180 days, the system prunes the route to the URL from the database. This removal causes the link to break. If you want the link to be permanent, you should disable tracking.
 
 ### Apply dark mode styling
 

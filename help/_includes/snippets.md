@@ -135,7 +135,7 @@ Select the checkbox and click the color square to choose a color from the picker
 
 On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!UICONTROL Margin]** section and set the options for margin spacing within the structural component. This style replicates the CSS `margin` parameter, which controls to the space outside a component border, separating it from other components. It creates a gap around the component to influence its positioning and the layout of surrounding content.
 
-Set the margin values in pixels according to your design needs. You can set the margin for all sides, the top-botton, the left-right, or each side of the component independently:
+Set the margin values in pixels according to your design needs. You can set the margin for all sides, the top-bottom, the left-right, or each side of the component independently:
 
 * **All sides** - To set one value to apply to all sides, clear the **[!UICONTROL Different margin for each side]** checkbox. Click the up and down arrow icons to increase or decrease the number of pixels.
 
@@ -155,7 +155,7 @@ Set the margin values in pixels according to your design needs. You can set the 
 
 On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!UICONTROL Padding]** section and set the options for padding within the structural component. This style replicates the CSS `padding` parameter, which is the space between the content of a component and its border. The padding provides internal spacing that you can use to control the distance between the content and the border of the component.
 
-Set the padding values in pixels according to your design needs. You can set the padding for all sides, the top-botton, the left-right, or each side of the component independently:
+Set the padding values in pixels according to your design needs. You can set the padding for all sides, the top-bottom, the left-right, or each side of the component independently:
 
 * **All sides** - To set one value to apply to all sides, clear the **[!UICONTROL Different padding for each side]** checkbox. Click the up and down arrow icons to increase or decrease the number of pixels.
 

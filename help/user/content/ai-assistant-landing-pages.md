@@ -2,7 +2,6 @@
 title: AI Assistant for Landing Page Content
 description: Generate landing page content with AI Assistant - create page text and images with your reference assets and buying group role targeting in Journey Optimizer B2B Edition.
 feature: Generative AI, Landing Pages, Content
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 topic: Artificial Intelligence
 role: User
 level: Beginner
@@ -143,7 +142,7 @@ Use the following steps according to the type of landing page content generation
 
 Follow these steps to use AI Assistant for full landing page generation by refining an existing landing page template:
 
-1. After [creating the landing page](./landing-pages.md#create-a-landing-page), click **[!UICONTROL Edit landing page]**.
+1. After [creating the landing page](./landing-pages-create-publish.md#create-landing-page), click **[!UICONTROL Edit landing page]**.
 
 1. Select a template.
 

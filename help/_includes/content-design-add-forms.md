@@ -32,7 +32,7 @@ The following example outlines steps to add a form as you design your page.
 
       >[!TIP]
       >
-      >If you want the use the form for downloading a file, you can specify a URL for the hosted file. With this configuration, the submit botton functions as a download button.
+      >If you want to use the form for downloading a file, you can specify a URL for the hosted file. With this configuration, the submit button functions as a download button.
     
     ![Change the follow-up setting](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"} 
 
