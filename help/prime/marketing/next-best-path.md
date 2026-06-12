@@ -2,6 +2,28 @@
 title: Next Best Path Node
 description: Use the Next best path node in Journey Optimizer B2B Prime for AI-driven journey routing with natural language prompts, path simulation, confidence scores, and live split path results.
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+autotag-review: '2026-06-12T23:02:18.769Z'
+TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+    internal-label: Decisioning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Next best path node
 

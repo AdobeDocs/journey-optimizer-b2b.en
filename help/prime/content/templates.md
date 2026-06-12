@@ -1,7 +1,25 @@
 ---
 title: Email templates
 description: Learn how to access and manage email templates in Journey Optimizer B2B Prime, including how to organize templates using folders.
-badgeBeta: label="Beta" type="informative" tooltip="This feature is par of a limited beta release."
+badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
+autotag-review: '2026-06-12T22:56:19.345Z'
+TQID: 'https://experienceleague.adobe.com/TTr-0Pm7Jb0LLCHt6hZb8mkXdeC7PUqteYVDuyanfs0'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 
 # Email templates

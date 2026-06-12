@@ -1,49 +1,80 @@
 ---
 title: Create email templates
-description: Learn how to create email templates in Journey Optimizer B2B Prime — design from scratch, save an email from a journey as a template, or convert a design image to an email template.
-badgeBeta: label="Beta" type="informative" tooltip="This feature is par of a limited beta release."
+description: Learn how to create email templates in Journey Optimizer B2B Prime — create new, save an email from a journey as a template, or convert a design image to an email template.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
+autotag-review: '2026-06-12T22:55:41.432Z'
+TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 
 # Create email templates
 
 You can create an email template in [!DNL Journey Optimizer B2B Edition Prime] in three ways:
 
-* **Design from scratch** — Build a new template in the template library using the visual email design space.
+* **Build a new template** — Create a template in the template library using the visual email design space.
 * **Save from a journey email** — Save an email you have authored in a journey as a reusable template.
 * **Convert an image** — Upload a design image and use generative AI to convert it into an editable email template.
 
->[!NOTE]
->
->In this Beta release, only email templates are supported.
-
-## Design a template from scratch {#design-from-scratch}
+## Build a new template {#build-new}
 
 1. Navigate to **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**.
 1. Click **[!UICONTROL Create template]**.
 1. Enter a **[!UICONTROL Template name]** and optional **[!UICONTROL Description]**.
-1. Optionally add tags to categorize the template.
+1. Set the **[!UICONTROL Channel]** (type) for the template.
+
+   >[!NOTE]
+   >
+   >In this Beta release, only email templates are supported.
+
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 1. Click **[!UICONTROL Create]** to open the email design space.
-1. Design the email layout using structures and content components. For a full reference on available tools, see [Email authoring](email-authoring.md).
-1. Optionally configure [content locking](template-content-locking.md) to restrict which parts of the template authors can edit when using it in a journey.
+
+1. Click **[!UICONTROL Edit email body]** to access the content design space. 
+
+   See [Email authoring](email-authoring.md) for deatiled information about content design.
+
+1. Optionally enable **[!UICONTROL Governance]** and configure [content locking](template-content-governance.md) to restrict which parts of the template authors can edit when applying the template.
+
 1. Click **[!UICONTROL Save]**.
 
-## Save a journey email as a template {#save-as-template}
+## Save an email as a template {#save-as-template}
 
-When you design an email in a journey that you want to reuse, save it directly to the template library from within the email design space.
+When you open the email conetnt that you want to reuse, save it directly to the template library from within the email content page.
 
-1. In the email design space, open the **[!UICONTROL Save]** dropdown at the top of the editor.
+1. Click **[!UICONTROL Content template]** at the top of the page.
 1. Select **[!UICONTROL Save as content template]**.
-1. Enter a **[!UICONTROL Template name]** and optional **[!UICONTROL Description]**.
-1. Optionally add tags and configure [content locking](template-content-locking.md).
-1. Click **[!UICONTROL Save]**.
+1. Enter a **[!UICONTROL Name]** and optional **[!UICONTROL Description]**.
+1. Optionally add **[!UICONTROL Tags]**.
+1. Click **[!UICONTROL Create]**.
 
-The original journey email is unaffected. The saved template is available in the template library for all users in the sandbox.
+The original journey email is unaffected. The saved template is available in the template library for all users in the sandbox. You can update the created template to optimize reuse:
+
+* Edit text and add [personalization](email-authoring.md#personalization) tokens.
+* Update or replace images and add links.
+* Configure [content locking](template-content-governance.md).
 
 ## Convert an image to a template {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime] can convert a static image — such as a mockup from Figma or Photoshop — into an editable email template using generative AI. This eliminates the need to manually rebuild layouts from design files.
+[!DNL Journey Optimizer B2B Edition Prime] can convert a static image — such as a mockup from Figma or Photoshop — into an editable email template using generative AI. This eliminates the need to manually rebuild layouts from design files, and is ideal for migrating existing email designs from other platforms. This feature is available for email content templates only.
 
-### Requirements
+>[!BEGINSHADEBOX]
+
+### Prerequisites
 
 Before you begin:
 
@@ -59,34 +90,57 @@ Before you begin:
 >
 >The image must not contain personally identifiable information (PII) or sensitive data.
 
-### Convert an image
+>[!ENDSHADEBOX]
+
+### Create the template
 
 1. Navigate to **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**.
-1. Click **[!UICONTROL Convert Image to Template]** in the header.
+1. Click **[!UICONTROL Create template]**.
 1. Enter a **[!UICONTROL Template name]** and optional **[!UICONTROL Description]**.
-1. Optionally select a **[!UICONTROL Brand theme]** to apply your brand's colors, fonts, and spacing to the generated output.
-1. Upload your image using drag-and-drop or the file browser.
-1. Confirm that the image contains no personal data.
-1. Review and accept the Adobe Generative AI User Guidelines (first time only).
-1. Click **[!UICONTROL Convert]**.
+1. Set the **[!UICONTROL Channel]** to Email.
 
-   Conversion typically completes within five minutes. Complex or large images may take up to ten minutes. You can navigate away — the process continues in the background.
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+1. Click **[!UICONTROL Create]**.
 
-1. When conversion is complete, click the template name to preview and edit the generated content.
+### Generate the template content
 
->[!NOTE]
->
->The result is not displayed automatically. Refresh the page or return to the template library to see the completed template.
+1. In the **[!UICONTROL Convert image to template]** section:
 
-### Edit after conversion
+   * Optionally select a **[!UICONTROL Brand theme]** to apply your brand's colors, fonts, and spacing to the generated output.
+   * Select the acknowledgment check box to confirm that your image contains no personally identifiable information (PII) or other sensitive data.
+   * Click **[!UICONTROL Upload image]** and select your image file.
 
-The converted template opens in the email design space as a fully editable email. Use the standard design tools to:
+   >[!CAUTION]
+   >
+   >Uploading an image deletes any content currently in the email and replaces it with the generated template.
+
+1. If prompted, review and accept the Adobe Generative AI User Guidelines.
+
+1. Click **[!UICONTROL Open]** to start the conversion process.
+
+   Conversion typically completes within about five minutes. Complex or large images may take up to ten minutes. The conversion runs in the background — you can navigate away and the draft template auto-saves when conversion is complete.
+
+1. Refresh the page to see the completed template.
+
+   >[!NOTE]
+   >
+   >The result is not displayed automatically. Refresh the page or return to the template library to see the completed template.
+
+1. Optionally, use the **[!UICONTROL Image to template converter feedback]** section to share suggestions with Adobe.
+
+1. Click **[!UICONTROL Edit email body]** to open the converted template in the email design space for editing.
+
+1. Click **[!UICONTROL Save]**.
+
+### Edit the converted content
+
+The converted template content opens in the design space as a fully editable email template. Use the standard content design tools to:
 
 * Edit text and add [personalization](email-authoring.md#personalization) tokens.
 * Update or replace images and add links.
 * Adjust colors, fonts, and spacing.
 * Add, remove, or rearrange content components.
-* Configure [content locking](template-content-locking.md).
+* Enable governance and configure [content locking](template-content-governance.md).
 
 >[!IMPORTANT]
 >
