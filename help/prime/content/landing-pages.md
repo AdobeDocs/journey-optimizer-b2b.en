@@ -1,29 +1,6 @@
 ---
 title: Landing Pages
-description: Create, design, and publish landing pages for account journeys - build from scratch, import HTML, add forms, personalize content, and link from emails in Journey Optimizer B2B Edition.
-feature: Landing Pages, Content
-role: User
-exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-autotag-review: '2026-05-27T16:16:24.088Z'
-TQID: 'https://experienceleague.adobe.com/zAr9SwPBHxU50gD1ZRdJQo3M-qL-BEO6R1UYq7hSG-8'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-    internal-label: Journey Optimizer B2B Edition
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-    internal-label: Content management
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-    internal-label: Landing pages
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-    internal-label: Beginner
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-    internal-label: Web experience
+description: Create, design, and publish landing pages for person journeys - build from scratch, import HTML, add forms, personalize content, and link from emails in Journey Optimizer B2B Prime.
 ---
 # Landing pages
 
@@ -35,34 +12,35 @@ Common use cases for landing pages:
 * Collect consent before sending communications and send a confirmation email upon opt-in or opt-out.
 * Capture or update profile data (progressive profiling, preferences, registrations, and similar scenarios) using forms on landing pages.
 * Direct people to campaign-specific information designed for your journey orchestration.
-* Redirect people to a dedicated web form without building an external page outside of Journey Optimizer B2B Edition.
+* Redirect people to a dedicated web form without building an external page outside of Journey Optimizer B2B Prime.
 
+<!-- 
 ## Landing page workflow
 
 To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
+
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
 1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
 1. [Test and publish the landing page](./landing-pages-create-publish.md) - Preview the page, test form behavior, and then publish to make it live.
 1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
 
+
 For example, you can create and design landing pages to direct your users to online information. The page could include a form where they can opt in or opt out from receiving your communications. Or it could be an opportunity to subscribe to a recurring communications, such as a newsletter. 
 
 You can create, personalize, and preview landing pages in the visual design space.
-
+-->
 ## Access and manage landing pages
 
-To access landing pages in Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]**. This action displays a list of all landing pages created in the instance.
-
-![Access the landing pages library](./assets/landing-pages-list.png){width="800" zoomable="yes"}
+To access landing pages in Journey Optimizer B2B Prime, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]**. This action displays a list of all landing pages created in the instance.
 
 The list is sorted according to the _[!UICONTROL Modified]_ column, with the most recently updated items at the top. Click the column title to change between ascending and descending.
 
 ### Filter the landing pages list
 
-To search for a landing page by name, enter a text string into the search bar for a match. Click the _Filter_ icon ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) to show the available filter options and change the settings to filter the displayed items according to your specified criteria.
+To search for a landing page by name, enter a text string into the search bar for a match. Click the _Filter_ icon <!-- ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) --> to show the available filter options and change the settings to filter the displayed items according to your specified criteria.
 
-![Filter the displayed landing pages](./assets/landing-pages-list-filtered.png){width="700" zoomable="yes"}
+![Filter the displayed landing pages](./assets/landing-pages-list-filtered.png){width="800" zoomable="yes"}
 
 <!-- 
 This is going away? ### Customize the column display
@@ -81,10 +59,42 @@ The landing page status determines its availability for linking in your email an
 | Status               | Description |
 | -------------------- | ----------- |
 | Draft                | When you create a landing page, it is in draft status. It remains in this status as you define or edit the visual content and until you publish it as a hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Edit in visual design space<li>Publish<li>Duplicate<li>Delete|
-| Published            | When you publish a landing page, it is hosted on the Journey Optimizer B2B Edition instance and it becomes available for linking in an email or SMS message content. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Create draft version<li>Duplicate<li>Delete |
+| Published            | When you publish a landing page, it is hosted on the Journey Optimizer B2B Prime instance and it becomes available for linking in an email or SMS message content. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Create draft version<li>Duplicate<li>Delete |
 | Published with draft | When you create a draft from a published landing page, the published version remains, and the draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Edit draft version in visual design space<li>Publish draft version<li>Duplicate<li>Delete (deletes both versions)<li>Discard draft (returns to published status)|
 
-![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+<!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
+
+## Create a landing page {#create-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_lp_create"
+>title="Define and configure your landing page"
+>abstract="To create a landing page, you need to select a preset, then configure the primary page and subpages, and finally test your page before publishing it."
+
+TBD
+
+## Configure the primary page {#configure-primary-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_lp_primary_page"
+>title="Define your primary page settings"
+>abstract="Define the primary page, which is immediately displayed when a recipient clicks the landing page link, such as from an email or a website."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_lp_access_settings"
+>title="Define your landing page URL"
+>abstract="In this section, define a unique landing page URL. The first part of the URL requires that you previously set up a landing page subdomain as part of the preset you selected."
+
+TBD
+
+## Test the landing page {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_preview_lp_profiles"
+>title="Preview and test your landing page"
+>abstract="After you define your landing page settings and content, use test profiles to preview the page."
+
+TBD
 
 ## Edit a landing page
 
@@ -104,10 +114,11 @@ Edits to a landing page depend on its current status:
 
 1. Modify any of the details, such as name and description.
 
-   ![Details for landing page with Draft status](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
+   <!-- ![Details for landing page with Draft status](./assets/landing-page-draft-details.png){width="700" zoomable="yes"} -->
 
 1. To make changes to the content in the visual design space, click **[!UICONTROL Edit landing page]**.
 
+   <!-- 
    Use the visual design tools as needed:
 
    * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
@@ -115,6 +126,7 @@ Edits to a landing page depend on its current status:
    * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./landing-page-design.md#personalize-content)
    * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
+   -->
 
 1. Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the landing page details.
 
@@ -134,7 +146,8 @@ Edits to a landing page depend on its current status:
 
    Click **[!UICONTROL Create draft version]** in the dialog to open the draft version in the visual design space.
 
-   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"}
+   <!-- 
+   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"} 
 
    Use the visual design tools as needed:
 
@@ -143,6 +156,7 @@ Edits to a landing page depend on its current status:
    * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./landing-page-design.md#personalize-content)
    * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
+   -->
 
 1. Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the landing page details.
 
@@ -154,17 +168,23 @@ Edits to a landing page depend on its current status:
 
 When you open the landing page, the draft version is displayed. The tabs at the top of the preview space allow you to toggle the display between the published and draft versions. The draft actions and details are displayed on the right. 
 
-![Preview and details for the landing page draft version](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
+<!-- ![Preview and details for the landing page draft version](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"} -->
 
 To update the content:
 
-1. Click **[!UICONTROL Edit landing page]** at the top right. Use the visual design tools as needed:
+1. Click **[!UICONTROL Edit landing page]** at the top right.
+
+   <!--
+
+   Use the visual design tools as needed:
 
    * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
    * [Add Assets](./landing-page-design.md#add-assets)
    * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalize content](./landing-page-design.md#personalize-content)
    * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
+
+   -->
 
 1. Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the landing page details.
 
@@ -181,11 +201,11 @@ You can duplicate a landing page using either of the following methods:
 * From the _[!UICONTROL Landing page]_ listing page, click the _More_ icon (**...**) next to the landing page name and choose **[!UICONTROL Duplicate]**.
 * At the top right of the landing page details page, click **[!UICONTROL ... More]** and choose **[!UICONTROL Duplicate]**.
 
-![Duplicate the landing page](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
+<!-- ![Duplicate the landing page](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"} -->
 
 In the dialog, enter a useful name (unique) and description (optional). Click **[!UICONTROL Duplicate]** to complete the action.
 
-![Enter a name and description for the duplicated landing page](./assets/landing-page-duplicate-dialog.png){width="350"}
+<!-- ![Enter a name and description for the duplicated landing page](./assets/landing-page-duplicate-dialog.png){width="350"} -->
 
 The duplicated (new) page then appears in the _Landing pages_ listing.
 
@@ -198,11 +218,11 @@ You can delete a landing page using either of the following methods:
 
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Delete]** to confirm deletion.
 
-![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"}
+<!-- ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"} -->
 
 ## Link to a landing page
 
-As a Marketer or Designer that creates email, fragment, and page content, you can embed links to the published (live) landing pages that are created in your Journey Optimizer B2B Edition instance.
+As a marketer or creative that produces email, fragment, and page content, you can embed links to the published (live) landing pages that are created in your Journey Optimizer B2B Prime instance.
 
 1. As you work in the visual design space for a fragment, email, landing page, or template, select an excerpt of text, a button component, or an image component for the link.
 
@@ -210,13 +230,13 @@ As a Marketer or Designer that creates email, fragment, and page content, you ca
 
 1. For the **[!UICONTROL Type]** option, choose **[!UICONTROL Landing page]**.
 
-   ![Link options for a landing page](../../assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
 
-1. For the **[!UICONTROL Landing page]** option, click the _Select page_ icon ( ![Show links icon](../assets/do-not-localize/icon-landing-page-select.svg) ).
+1. For the **[!UICONTROL Landing page]** option, click the _Select page_ icon <!-- ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ) -->.
 
 1. In the Select landing page dialog, set the **[!UICONTROL Landing page source]** as **[!UICONTROL Journey Optimizer B2B Edition]**, select the checkbox for the landing page from the list of published pages, and click **[!UICONTROL Select]**.
 
-   ![Link options for a landing page](../../assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"} -->
 
 1. For the **[!UICONTROL Target]** option, choose the link target behavior:
 
