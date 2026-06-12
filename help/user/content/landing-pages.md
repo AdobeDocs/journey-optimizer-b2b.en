@@ -210,13 +210,13 @@ As a Marketer or Designer that creates email, fragment, and page content, you ca
 
 1. For the **[!UICONTROL Type]** option, choose **[!UICONTROL Landing page]**.
 
-   ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+   ![Link options for a landing page](../../assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
 
-1. For the **[!UICONTROL Landing page]** option, click the _Select page_ icon ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ).
+1. For the **[!UICONTROL Landing page]** option, click the _Select page_ icon ( ![Show links icon](../assets/do-not-localize/icon-landing-page-select.svg) ).
 
 1. In the Select landing page dialog, set the **[!UICONTROL Landing page source]** as **[!UICONTROL Journey Optimizer B2B Edition]**, select the checkbox for the landing page from the list of published pages, and click **[!UICONTROL Select]**.
 
-   ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+   ![Link options for a landing page](../../assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 
 1. For the **[!UICONTROL Target]** option, choose the link target behavior:
 

@@ -32,9 +32,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 -->
 ## Access and manage landing pages
 
-To access landing pages in Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]**. This action displays a list of all landing pages created in the instance.
-
-<!-- ![Access the landing pages library](./assets/landing-pages-list.png){width="800" zoomable="yes"} -->
+To access landing pages in Journey Optimizer B2B Prime, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]**. This action displays a list of all landing pages created in the instance.
 
 The list is sorted according to the _[!UICONTROL Modified]_ column, with the most recently updated items at the top. Click the column title to change between ascending and descending.
 
@@ -42,7 +40,7 @@ The list is sorted according to the _[!UICONTROL Modified]_ column, with the mos
 
 To search for a landing page by name, enter a text string into the search bar for a match. Click the _Filter_ icon <!-- ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) --> to show the available filter options and change the settings to filter the displayed items according to your specified criteria.
 
-<!-- ![Filter the displayed landing pages](./assets/landing-pages-list-filtered.png){width="700" zoomable="yes"} -->
+![Filter the displayed landing pages](./assets/landing-pages-list-filtered.png){width="800" zoomable="yes"}
 
 <!-- 
 This is going away? ### Customize the column display
@@ -224,7 +222,7 @@ This action opens a confirmation dialog. You can abort the process by clicking *
 
 ## Link to a landing page
 
-As a Marketer or Designer that creates email, fragment, and page content, you can embed links to the published (live) landing pages that are created in your Journey Optimizer B2B Edition instance.
+As a marketer or creative that produces email, fragment, and page content, you can embed links to the published (live) landing pages that are created in your Journey Optimizer B2B Prime instance.
 
 1. As you work in the visual design space for a fragment, email, landing page, or template, select an excerpt of text, a button component, or an image component for the link.
 
