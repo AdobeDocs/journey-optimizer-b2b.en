@@ -59,7 +59,7 @@ Administrators who understand XDM and collaborate with data engineers or B2B cus
 
 Use the following guideline for making field selections:
 
-* You can add new fields only after a schema is actively being used in a journey.
+* You can add new fields only after a schema is being used in a journey.
 * Deleting, renaming, or changing field types can cause journey functionality issues. Exercise caution when manipulating schemas.
 * Do not rename or delete schemas or modify keys in relational schemas.
 

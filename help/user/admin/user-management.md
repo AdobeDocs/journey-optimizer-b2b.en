@@ -24,7 +24,7 @@ TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz
 ---
 # User access and permissions
 
-After provisioning is complete and sandboxes are bound, complete the following steps to provide Adobe Journey Optimizer B2B Edition access for your team and users.
+After provisioning is complete and sandboxes are bound, use the following steps to provide Adobe Journey Optimizer B2B Edition access for your team and users.
 
 1. [Create a Marketo Engage product profile](#marketo-engage-profile) in the Admin Console (new Marketo Engage instance only).
 1. [Add a user group](#add-user-group) in the Admin Console.

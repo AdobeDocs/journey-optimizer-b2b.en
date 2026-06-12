@@ -73,7 +73,7 @@ With an Experience Platform developer console and [!DNL Postman] set up, you can
 
 ### Run the scripts
 
-After the environment values are in place, use the [!DNL Postman] interface to run the script for creating the namespaces and schemas. Select the root folder of the auto-generator utility and then select **[!DNL Run]** from the top header.
+After the environment values are in place, use the [!DNL Postman] interface to run the script for creating the namespaces and schemas. Select the root folder of the auto-generator utility and then select **[!DNL Run]** in the top header.
 
 ![Root folder of the Namespaces and Schemas generator in the Postman UI](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
 

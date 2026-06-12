@@ -56,7 +56,7 @@ Complete the following steps to ensure tracking and email delivery:
 
 ## Create DNS records for landing pages and email
 
-Connecting a CNAME record allows marketers to host web versions of emails, landing pages, and blogs with consistent branding that improves traffic and conversions. It is highly recommended that you add the CNAMEs to your root domain host for Marketo Engage to host your marketing-focused web assets. To plan and implement a CNAME record for the tracking links that are included in the emails sent through Marketo Engage, work with your Marketing team as an administrator.
+Connecting a CNAME record allows marketers to host web versions of emails, landing pages, and blogs with consistent branding that improves traffic and conversions. It is highly recommended that you add the CNAMEs to your root domain host for Marketo Engage to host your marketing-focused web assets.
 
 To plan and implement two CNAME records, work with your Marketing team as an administrator. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
 
