@@ -10,6 +10,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
 + [Home and Insights](./home-insights/home-insights.md)
 + Marketing management {#marketing-management}
    + {hide-from-toc} [Overview](./marketing/marketing-management.md)
+   + [Programs](./marketing/programs.md)
    + [Person journeys](./marketing/person-journeys.md)
    + Journey nodes {#journey-nodes}
       + [Nodes overview](./marketing/person-journey-nodes.md)
@@ -20,9 +21,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
       + [Next best path](./marketing/next-best-path.md)
 + [Agents](./agents/agents.md)
 + Audiences {#audiences}
-   + [Audience hub](./audiences/audience-hub.md)
-   + [Dynamic Audience Qualification](./audiences/dynamic-audience-qualification.md)
-   + [Event-Based Audiences](./audiences/event-based-audiences.md)
+   + [Audience management](./audiences/audience-management.md)
+   + [Dynamic audience Qualification](./audiences/dynamic-audience-qualification.md)
+   + [Event-based Audiences](./audiences/event-based-audiences.md)
 + Content {#content}
    + [Emails](./content/email-authoring.md)
    + Templates {#templates}
