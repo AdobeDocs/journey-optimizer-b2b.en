@@ -1,24 +1,22 @@
 ---
 title: Email authoring
-description: Use the email design tools in Journey Optimizer B2B Prime, including email templates, fragments, personalization, themes, dark mode, and validation.
+description: Use the email design tools in Journey Optimizer B2B Prime, including email templates, fragments, personalization, dark mode, and validation.
 ---
 # Email authoring
 
-In [!DNL Adobe Journey Optimizer B2B Edition] Prime, the email design space provides a visual canvas where marketers compose email. The email design tools in the left and top panels (structures, content components, templates, fragments, and more) support building from scratch with drag and drop. You can also choose to start from a template, paste raw HTML, or assemble messages from reusable visual fragments.
+In [!DNL Adobe Journey Optimizer B2B Prime], the email design space provides a visual canvas where marketers compose email. The email design tools in the left and top panels (structures, content components, templates, fragments, and more) support building from scratch with drag and drop. You can also choose to start from a template, paste raw HTML, or assemble messages from reusable visual fragments.
 
 >[!IMPORTANT]
 >
 >For administrator setup of subdomains, authentication, IP pools, and email channel configurations, see [Email deliverability and channel configuration](../admin/configuration-email-deliverability.md).
 
-In [!DNL Journey Optimizer B2B Edition] Prime, every email is associated with a _[!UICONTROL Send Email]_ action within a journey. The full workflow from journey design to email definition happens in one continuous experience. When you [add a _Send email_ node](../marketing/person-journey-nodes.md#add-an-action-node) to a person journey, click **[!UICONTROL Create email]** to start the email content design process.
+In [!DNL Journey Optimizer B2B Prime], every email is associated with a _[!UICONTROL Send Email]_ action within a journey. The full workflow from journey design to email definition happens in one continuous experience. When you [add a _Send email_ node](../marketing/person-journey-nodes.md#add-an-action-node) to a person journey, click **[!UICONTROL Create email]** to start the email content design process.
 
-
-
-This action launches the email design tools, where you can choose how you want to design your email from the following options:
+This action launches the email design space, where you can choose how you want to design your email from the following options:
 
 * [Design your email from scratch](#design-your-email-from-scratch) using the visual design interface. Build the email layout component by component using drag-and-drop on a blank canvas. This method is best for creating new templates or one-off emails.
 
-* [Code or paste your raw HTML](#html) into the code editor or work side-by-side with the visual canvas. 
+* [Import HTML](#html) into the code editor or work side-by-side with the visual canvas. 
 
    <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
 
@@ -32,6 +30,20 @@ This action launches the email design tools, where you can choose how you want t
 * **Left rail:** Structures (column layouts), Contents (text, button, image, divider, social, HTML), Fragments, Templates, Navigation tree (DOM-style hierarchy of the email).
 * **Center canvas:** WYSIWYG editor with desktop and mobile preview.
 * **Right rail:** Settings and Styles for the currently selected component, including content properties, background, border, padding, and personalization.
+
+## Email design best practices {#design-best-practices}
+
+Following HTML and CSS best practices helps ensure consistent rendering across email clients.
+
+| Approach | Guidance |
+| -------- | -------- |
+| **Recommended** | Static, table-based layouts · HTML tables and nested tables · Template widths of 600–800 px · Simple inline CSS · Web-safe fonts |
+| **Use with care** | Background images (limited client support) · Custom web fonts (always define a fallback font) · Layouts wider than 800 px · Image maps |
+| **Avoid** | JavaScript, iframes, or Flash · Embedded audio or video · HTML forms · Div-based layouts |
+
+>[!NOTE]
+>
+>Email content must also meet applicable digital accessibility requirements. Structure headings logically, provide alt text for all images, and verify color contrast in both light and dark modes.
 
 ## Creat an email from a journey {#email-from-journey}
 
@@ -113,7 +125,7 @@ Templates are reusable email layouts. They speed up email creation, enforce bran
 * **Sample templates (out-of-the-box).** Around 20 ready-made templates covering common use cases (account-based outreach, event invitations, nurture, product announcements). Available immediately for every customer.
 * **Saved templates (custom).** Templates created by your team — either built from scratch under **[!UICONTROL Content Management]** → **[!UICONTROL Templates]**, or saved from an existing email using the "Save as template" option.
 
-### Step-by-step: create an email from a template {#create-from-template}
+### Create an email from a template {#create-from-template}
 
 1. From the journey email node, click **[!UICONTROL Edit content]** → **[!UICONTROL Edit email body]**.
 1. On the Create your email screen, the **[!UICONTROL Sample templates]** tab is selected by default.
@@ -124,7 +136,7 @@ Templates are reusable email layouts. They speed up email creation, enforce bran
 1. Customize text, images, and links. The structure inherited from the template can be modified just like a from-scratch email.
 1. Click **[!UICONTROL Save]** → **[!UICONTROL Back]** to return to the email properties.
 
-### Step-by-step: create a reusable template {#create-reusable-template}
+### Create a reusable template {#create-reusable-template}
 
 1. Navigate to **[!UICONTROL Content Management]** → **[!UICONTROL Templates]**.
 1. Click **[!UICONTROL Create template]**.
@@ -136,7 +148,7 @@ Templates are reusable email layouts. They speed up email creation, enforce bran
    * Lock specific components — make individual components read-only when used in an email.
 1. Click **[!UICONTROL Save]**. The template is now available to all users in the Saved templates gallery.
 
-### Step-by-step: save an email as a template {#save-as-template}
+### Save an email as a template {#save-as-template}
 
 1. Open an existing email in the email design space.
 1. In the **[!UICONTROL Save]** dropdown menu, click **[!UICONTROL Save as template]**.
@@ -152,7 +164,7 @@ Templates are reusable email layouts. They speed up email creation, enforce bran
 
 A visual fragment is a reusable block of content — a header, footer, CTA, legal disclaimer, set of social links — that can be inserted into many emails. When you update a fragment, the change automatically propagates to every email that uses it. Fragments are the recommended way to enforce brand consistency and centralize content updates.
 
-### Step-by-step: create a visual fragment {#create-fragment}
+### Create a visual fragment {#create-fragment}
 
 1. Navigate to **[!UICONTROL Content Management]** → **[!UICONTROL Fragments]**.
 1. Click **[!UICONTROL Create fragment]**.
@@ -165,7 +177,7 @@ A visual fragment is a reusable block of content — a header, footer, CTA, lega
    * Email authors using the fragment can override these fields without breaking the fragment's structure.
 1. Click **[!UICONTROL Save]**.
 
-### Step-by-step: insert a fragment into an email {#insert-fragment}
+### Insert a fragment into an email {#insert-fragment}
 
 1. Open the email in the email design space.
 1. In the left rail, click **[!UICONTROL Fragments]**.
@@ -193,7 +205,7 @@ Prime uses Handlebars syntax for personalization. Tokens are replaced at send ti
 >
 >Only profile attributes are available in the Personalization Editor in this release.
 
-### Step-by-step: insert a personalization token {#insert-token}
+### Insert a personalization token {#insert-token}
 
 1. In the email design space (or on the email properties screen for the subject line), click the field where you want to insert a token.
 1. Click the personalization icon (often labeled **[!UICONTROL Open personalization dialog]** or **[!UICONTROL Add expression]**).
@@ -211,6 +223,18 @@ Use Handlebars expressions such as the following (personalization uses the same 
 * **`{{profile.firstName}}, ready to take the next step?`** — Combine token and static text inline.
 
 For a first-name greeting with a fallback when the value is missing, use the `default` helper as shown in the earlier personalization steps (for example, first name with default `"there"`).
+
+### Handlebars helpers {#handlebars-helpers}
+
+Beyond `default`, the personalization editor includes built-in Handlebars helpers for conditional logic, text transformation, and date formatting. Use the editor's function browser to explore available helpers and insert them with the correct syntax.
+
+>[!TIP]
+>
+>In the email design space, type `{{` directly in any text field to trigger an inline autocomplete dropdown listing available profile attributes — no need to open the full personalization dialog for quick insertions.
+
+### AI-assisted expressions {#ai-personalization}
+
+The AI Assistant in the personalization editor can generate Handlebars expressions from a plain-language description, explain what an existing expression does, and identify potential issues. Use it to accelerate expression authoring, especially for conditional logic or date-formatting helpers.
 
 ## Adding assets from Marketo Design Studio {#marketo-assets}
 
@@ -239,29 +263,11 @@ Prime makes your existing Marketo Design Studio assets available in the email de
    * Link target — make the image clickable.
 1. Click **[!UICONTROL Save]**.
 
-## Themes and dark mode {#themes-dark-mode}
+## Dark mode {#dark-mode}
 
-### Themes {#themes}
+Dark mode rendering is supported via CSS `prefers-color-scheme` media queries. The email design tools include a dark mode preview and options to define custom styling for supporting email clients — helping you validate that text remains readable, logos are visible, and brand colors hold up against dark backgrounds.
 
-A theme is a reusable styling preset that defines colors, typography, spacing, button styles, and dividers. Apply a theme to an email to instantly enforce brand styling across every component.
-
-To apply or edit themes:
-
-1. In the email design space, click **[!UICONTROL Themes]** (in the top toolbar or the right rail, depending on your view).
-1. Choose **[!UICONTROL Apply theme]** to select an existing theme, or **[!UICONTROL Create new theme]** to define a brand palette.
-1. Customize colors, fonts, and component-level styles. Light/dark variants are both supported.
-1. Apply globally; per-component local overrides remain possible.
-1. Switch the theme later to re-brand without reauthoring.
-
-### Dark mode {#dark-mode}
-
-Dark mode rendering is supported via CSS `prefers-color-scheme` media queries. The email design tools include a dark-mode preview per email client to help authors validate that text remains readable, logos do not disappear, and brand colors hold up against dark backgrounds.
-
-To preview dark mode, click the dark-mode toggle in the canvas preview controls.
-
->[!TIP]
->
->Common dark-mode pitfalls: dark logos disappearing on dark backgrounds, low-contrast text, and inverted colors on transparent images. Always preview your email in dark mode before saving the final version.
+For detailed guidance on previewing, configuring custom dark mode settings, email client support, and testing best practices, see [Dark mode for email content](./email-dark-mode.md).
 
 ## Validating email content {#validation}
 
@@ -279,7 +285,7 @@ Before your journey can be activated, the email content must be valid. Prime sur
 | **Unresolved personalization token** | A Handlebars token references a profile attribute with no fallback, and the attribute may be missing for some recipients. | Add a fallback using the Handlebars `default` helper as described in [Personalization](#personalization). Alternatively, restrict the journey audience to profiles where the attribute is guaranteed. |
 | **Image not loaded** | An image component references an asset that is no longer available. | Click the image, open the asset picker, and re-select the asset from Marketo Design Studio. |
 
-### Step-by-step: review and resolve alerts {#resolve-alerts}
+### Review and resolve alerts {#resolve-alerts}
 
 1. Open the journey containing the email node. Email nodes with unresolved alerts are flagged with a red badge on the canvas.
 1. Click the email node to open the property rail.

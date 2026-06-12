@@ -1,6 +1,7 @@
 ---
 user-guide-title: Journey Optimizer B2B Prime Documentation
 user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime and how you can use it to ?.
+hide: true
 ---
 
 # Journey Optimizer B2B Prime User Guide {#prime}
@@ -25,11 +26,13 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime an
    + [Dynamic audience Qualification](./audiences/dynamic-audience-qualification.md)
    + [Event-based Audiences](./audiences/event-based-audiences.md)
 + Content {#content}
-   + [Emails](./content/email-authoring.md)
+   + Emails {#emails}
+      + [Email authoring](./content/email-authoring.md)
+      + [Dark mode design](./content/email-dark-mode.md)
    + Templates {#templates}
-      + [Templates overview](./content/templates.md)
+      + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
-      + [Content locking](./content/template-content-locking.md)
+      + [Content governance](./content/template-content-governance.md)
    + [Landing pages](./content/landing-pages.md)
    + [Forms](./content/forms.md)
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
