@@ -2,6 +2,22 @@
 title: Content Governance for templates
 description: Use governance settings in Journey Optimizer B2B Prime to lock content in email templates at the structure or component level, controlling what email authors can edit.
 badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
+autotag-review: '2026-06-12T22:54:55.127Z'
+TQID: 'https://experienceleague.adobe.com/Ui1NkZSLoZ-fDe3xRJLgPLnbh-0FzC01kOafAsFzA9M'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 
 # Content governance for templates
