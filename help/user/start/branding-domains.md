@@ -144,7 +144,7 @@ Follow these steps to enable SSL for your existing domains.
 
 >[!NOTE]
 >
->If you want to delete the primary branding domain (in one or more workspaces), you must first select a different branding domain to be the primary for each workspace.
+>If you want to delete the primary branding domain (in one or more workspaces), first select a different branding domain to be the primary for each workspace.
 >
 >Deleting a domain **_does not_** delete the SSL certificate. This guardrail prevents user errors that result in a website being without SSL certificates. If you do want to remove the SSL certificates, contact Adobe support.
 

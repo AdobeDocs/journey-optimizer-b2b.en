@@ -123,7 +123,7 @@ To make an Experience Event available for a _Listen for an event_ node in a jour
 
 1. In the event details page, click **[!UICONTROL Save]**.
 
-The saved event is displayed in the list on the _[!UICONTROL Events]_ tab.
+The list on the _[!UICONTROL Events]_ tab displays the saved event.
 
 ### Edit an event {#edit-an-event}
 

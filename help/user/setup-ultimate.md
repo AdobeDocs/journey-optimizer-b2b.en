@@ -36,7 +36,7 @@ autotag-review: '2026-03-27T22:15:07.682Z'
 ---
 # Setup checklist
 
-Adobe Journey Optimizer B2B Edition is built on Adobe Experience Platform. With this implementation, Journey Optimizer B2B Edition and Marketo Engage are not on the same system or the same data store. Journey Optimizer B2B Edition receives data from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some backend features, such as email delivery, to provision and configure the system.
+Adobe Journey Optimizer B2B Edition is built on Adobe Experience Platform. With this implementation, Journey Optimizer B2B Edition and Marketo Engage are not on the same system or the same data store. Journey Optimizer B2B Edition receives data from Experience Platform. However, it continues to rely on Marketo Engage entitlements and some backend features, such as email delivery, to provision and configure the system.
 
 <!-- 
 >>[!NOTE]
