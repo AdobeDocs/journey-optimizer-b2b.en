@@ -36,17 +36,15 @@ In [!DNL Journey Optimizer B2B Prime], every email is associated with a _[!UICON
 
 This action launches the email design space, where you can choose how you want to design your email from the following options:
 
-* [Design your email from scratch](#design-your-email-from-scratch) using the visual design interface. Build the email layout component by component using drag-and-drop on a blank canvas. This method is best for creating new templates or one-off emails.
+* [Design your email from scratch](#build-from-scratch) using the visual design interface. Build the email layout component by component using drag-and-drop on a blank canvas. This method is best for creating new templates or one-off emails.
 
-* [Import HTML](#html) into the code editor or work side-by-side with the visual canvas. 
+* Import HTML into the code editor or work side-by-side with the visual canvas. Full HTML import workflow with .html and .zip uploads is on the Beta roadmap.
 
-   <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
-
-* [Select an existing template](#select-a-template) from a list of built-in or custom email templates. This method is best for repeatable email use cases.
+* [Select an existing template](#create-from-template) from a list of built-in or custom email templates. This method is best for repeatable email use cases.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
-## Email design tools
+## Email design tools {#email-design-tools}
 
 * **Top toolbar:** Save, Back, Switch to code editor, preview controls.
 * **Left rail:** Structures (column layouts), Contents (text, button, image, divider, social, HTML), Fragments, Templates, Navigation tree (DOM-style hierarchy of the email).
@@ -67,7 +65,7 @@ Following HTML and CSS best practices helps ensure consistent rendering across e
 >
 >Email content must also meet applicable digital accessibility requirements. Structure headings logically, provide alt text for all images, and verify color contrast in both light and dark modes.
 
-## Creat an email from a journey {#email-from-journey}
+## Create an email from a journey {#email-from-journey}
 
 1. Click the **[!UICONTROL Edit email]** button to proceed to the email configuration step.
 1. On the next screen, select a previously created channel configuration from the **[!UICONTROL Email configuration]** drop-down. Only Active configurations are listed.
@@ -142,7 +140,7 @@ The preheader is the snippet of text shown after the subject line in inbox previ
 
 Templates are reusable email layouts. They speed up email creation, enforce brand consistency, and make team collaboration easier.
 
-### Template types
+### Template types {#template-types}
 
 * **Sample templates (out-of-the-box).** Around 20 ready-made templates covering common use cases (account-based outreach, event invitations, nurture, product announcements). Available immediately for every customer.
 * **Saved templates (custom).** Templates created by your team — either built from scratch under **[!UICONTROL Content Management]** → **[!UICONTROL Templates]**, or saved from an existing email using the "Save as template" option.
@@ -216,7 +214,7 @@ A visual fragment is a reusable block of content — a header, footer, CTA, lega
 
 Prime uses Handlebars syntax for personalization. Tokens are replaced at send time with values from each recipient's profile data.
 
-### Where you can personalize
+### Where you can personalize {#where-you-can-personalize}
 
 * **Subject line** — most common personalization point.
 * **Preheader** — set inside the visual canvas; supports profile attribute tokens.
