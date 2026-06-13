@@ -22,7 +22,7 @@ role_v2:
 ---
 # Landing pages
 
-A landing page is a standalone web page where you can direct contacts and customers after they click a linked item in an email, SMS message, or any digital location. You can incorporate these pages into your account journeys to get your prospects and customers to view your messages on the web and progress along in your account journeys. You can create, personalize, and preview landing pages in the landing page visual design space.
+A landing page is a standalone web page where you can direct contacts and customers after they click a linked item in an email, SMS message, or any digital location. You can incorporate these pages into your journeys to get your prospects and customers to view your messages on the web and progress along in your journeys. You can create, personalize, and preview landing pages in the landing page visual design space.
 
 Common use cases for landing pages:
 
@@ -40,7 +40,7 @@ To direct members of a journey audience to a defined web page when they click a 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
 1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
-1. [Test and publish the landing page](./landing-pages-create-publish.md) - Preview the page, test form behavior, and then publish to make it live.
+1. [Test the landing page](./landing-pages-create.md) - Preview the page, test form behavior, and then publish to make it live.
 1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
 
 
@@ -48,13 +48,13 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
-## Access and manage landing pages
+## Access and manage landing pages {#access-manage-landing-pages}
 
 To access landing pages in Journey Optimizer B2B Prime, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]**. This action displays a list of all landing pages created in the instance.
 
 The list is sorted according to the _[!UICONTROL Modified]_ column, with the most recently updated items at the top. Click the column title to change between ascending and descending.
 
-### Filter the landing pages list
+### Filter the landing pages list {#filter-list}
 
 To search for a landing page by name, enter a text string into the search bar for a match. Click the _Filter_ icon <!-- ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) --> to show the available filter options and change the settings to filter the displayed items according to your specified criteria.
 
@@ -70,15 +70,15 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 ![Select the columns that you want to display](./assets/landing-pages-customize-table-dialog.png){width="300"} 
 -->
 
-### Landing page status and lifecycle
+### Landing page status and lifecycle {#landing-page-status}
 
 The landing page status determines its availability for linking in your email and SMS content, and the changes that you can make to it. 
 
 | Status               | Description |
 | -------------------- | ----------- |
-| Draft                | When you create a landing page, it is in draft status. It remains in this status as you define or edit the visual content and until you publish it as a hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Edit in visual design space<li>Publish<li>Duplicate<li>Delete|
-| Published            | When you publish a landing page, it is hosted on the Journey Optimizer B2B Prime instance and it becomes available for linking in an email or SMS message content. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Create draft version<li>Duplicate<li>Delete |
-| Published with draft | When you create a draft from a published landing page, the published version remains, and the draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the hosted page. Available actions:<br/><ul><li>Edit name or description<li>Edit link URL<li>Add link in email or SMS message content<li>Edit draft version in visual design space<li>Publish draft version<li>Duplicate<li>Delete (deletes both versions)<li>Discard draft (returns to published status)|
+| Draft                | When you create a landing page, it is in draft status. It remains in this status as you define or edit the visual content and until you publish it as a hosted page. Available actions:<br/><ul><li>Edit name or description</li><li>Edit link URL</li><li>Edit in visual design space</li><li>Publish</li><li>Duplicate</li><li>Delete</li></ul> |
+| Published            | When you publish a landing page, it is hosted on the Journey Optimizer B2B Prime instance and it becomes available for linking in an email or SMS message content. Available actions:<br/><ul><li>Edit name or description</li><li>Edit link URL</li><li>Add link in email or SMS message content</li><li>Create draft version</li><li>Duplicate</li><li>Delete</li></ul> |
+| Published with draft | When you create a draft from a published landing page, the published version remains, and the draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the hosted page. Available actions:<br/><ul><li>Edit name or description</li><li>Edit link URL</li><li>Add link in email or SMS message content</li><li>Edit draft version in visual design space</li><li>Publish draft version</li><li>Duplicate</li><li>Delete (deletes both versions)</li><li>Discard draft (returns to published status)</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
 
@@ -89,7 +89,46 @@ The landing page status determines its availability for linking in your email an
 >title="Define and configure your landing page"
 >abstract="To create a landing page, you need to select a preset, then configure the primary page and subpages, and finally test your page before publishing it."
 
-TBD
+To direct members of a person journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]. You select a preset, configure the primary page and any subpages, [test the page](#test-landing-page), and publish it.
+
+>[!IMPORTANT]
+>
+>Before you create your first landing page, complete the landing page setup. This includes configuring a subdomain to host your landing pages and defining at least one preset that specifies the subdomain and other channel settings. You select a preset when you create the landing page. For administrator setup, see [Landing page configuration](../admin/configuration-presets-landing-pages.md).
+>
+>For data capture use cases, create a [form](./forms.md) before you embed it on a landing page.
+
+To create a landing page, follow these steps:
+
+1. Go to the left navigation and select **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]**.
+
+1. From the landing page list, click **[!UICONTROL Create landing page]**.
+
+1. Enter a **[!UICONTROL Title]** (required) and **[!UICONTROL Description]** (optional).
+
+   Title and description criteria:
+
+   * **Title** — Maximum of 100 characters. Must be unique (case-insensitive).
+   * **Description** — Maximum of 300 characters.
+   * Alpha, numeric, and special characters are allowed.
+   * Reserved characters are **_not allowed_**: `\ / : * ? " < > |`
+
+1. Select a **[!UICONTROL Preset]**.
+
+   An administrator [creates landing page presets](../admin/configuration-presets-landing-pages.md#lp-presets) to define the subdomain and other settings used for landing pages. Select a preset, then click **[!UICONTROL View preset]** to review its settings and confirm they match your landing page requirements.
+
+1. Click **[!UICONTROL Create]**.
+
+   The primary page and its properties are displayed. Learn how to [configure the primary page settings](#configure-primary-page).
+
+1. To add a subpage (for example, a thank-you or error page), click the **+** icon.
+
+   You can add up to two subpages per landing page.
+
+Once you configure and design the primary page and any subpages, [test your landing page](#test-landing-page) before you publish it.
+
+>[!CAUTION]
+>
+>You cannot access your landing page by copying and pasting the defined URL into a web browser, even if the page is published. Test the page using the preview function as described in [Test the landing page](#test-landing-page).
 
 ## Configure the primary page {#configure-primary-page}
 
@@ -103,7 +142,30 @@ TBD
 >title="Define your landing page URL"
 >abstract="In this section, define a unique landing page URL. The first part of the URL requires that you previously set up a landing page subdomain as part of the preset you selected."
 
-TBD
+The primary page is the page that is immediately displayed when a recipient clicks the landing page link, such as from an email or a website.
+
+To define the primary page settings, follow these steps:
+
+1. Change the **[!UICONTROL Page Name]** according to your needs, which is _Primary page_ by default.
+
+1. Define the ending portion of the page URL.
+
+   The preset that you selected determines the first part of the URL. An administrator configures the [landing page subdomain](../admin/configuration-presets-landing-pages.md#lp-subdomains) as part of the preset.
+
+   >[!CAUTION]
+   >
+   >The landing page URL must be unique.
+   >
+   >You cannot access your landing page by copying and pasting this URL into a web browser, even if the page is published. Test it using the preview function as described in [Test the landing page](#test-landing-page).
+
+1. If you want an anonymous landing page, disable the **[!UICONTROL Require identified users]** option.
+
+1. Click the _Calendar_ icon to set the **[!UICONTROL Page expiry]**.
+
+   After you select an expiry date, choose the action upon page expiration:
+
+   * **[!UICONTROL Redirect URL]** - Enter the URL of the page to use as a redirect.
+   * **[!UICONTROL Browser error]** - Enter the error text to display in place of the page.
 
 ## Test the landing page {#test-landing-page}
 
@@ -112,9 +174,39 @@ TBD
 >title="Preview and test your landing page"
 >abstract="After you define your landing page settings and content, use test profiles to preview the page."
 
-TBD
+When the landing page settings and content are defined, you can use test profiles to preview the page. If you inserted [personalized content](email-authoring.md#personalization), you can check how this content is displayed in the landing page using test profile data.
 
-## Edit a landing page
+>[!PREREQUISITES]
+>
+>To preview and test landing pages, you must have the **[!UICONTROL Publish Messages]** permission and a defined dataset that contains test profiles.
+
+1. Click **[!UICONTROL Preview & test]** to open the test profile selection.
+
+   >[!NOTE]
+   >
+   >You can also use **[!UICONTROL Simulate content]** when you are in the visual design space.
+
+1. From the _[!UICONTROL Simulate]_ screen, select a test profile.
+
+   If the profiles that you need are not listed, click **[!UICONTROL Manage test profiles]** to use a known test profile email address and add it to the list.
+
+   +++Add test profiles
+
+   For **[!UICONTROL Identity namespace]**, click the _Select_ icon <!-- ( ![Select icon](../assets/do-not-localize/icon-select-data.svg) ) --> and choose the `Email` namespace to use to test profiles.
+
+   In the **[!UICONTROL Identity value]** field, enter the email address to identify the test profile and click **[!UICONTROL Add profile]**. You can repeat this to add multiple profiles.
+
+   Click the back arrow at the top left to return to the _[!UICONTROL Simulate]_ page.
+
+   +++
+
+1. Select **[!UICONTROL Open preview]** to test your landing page.
+
+   The landing page preview opens in a new tab. The selected test profile data replaces personalized elements.
+
+1. Select other test profiles to preview the rendering for each variant of your landing page.
+
+## Edit a landing page {#edit-landing-page}
 
 Edits to a landing page depend on its current status:
 
@@ -212,7 +304,7 @@ To update the content:
 
 >[!ENDTABS]
 
-## Duplicate a landing page
+## Duplicate a landing page {#duplicate-landing-page}
 
 You can duplicate a landing page using either of the following methods:
 
@@ -227,7 +319,7 @@ In the dialog, enter a useful name (unique) and description (optional). Click **
 
 The duplicated (new) page then appears in the _Landing pages_ listing.
 
-## Delete a landing page
+## Delete a landing page {#delete-landing-page}
 
 You can delete a landing page using either of the following methods:
 
@@ -238,7 +330,7 @@ This action opens a confirmation dialog. You can abort the process by clicking *
 
 <!-- ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"} -->
 
-## Link to a landing page
+## Link to a landing page {#link-to-landing-page}
 
 As a marketer or creative that produces email, fragment, and page content, you can embed links to the published (live) landing pages that are created in your Journey Optimizer B2B Prime instance.
 
