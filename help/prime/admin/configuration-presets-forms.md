@@ -67,7 +67,7 @@ When creating a preset:
    * _Target connection_ – where the data is stored or consumed.
    * _Source flow_ – the pipeline that moves data from the source connection into Experience Platform. It handles mapping, transformation, and validation.
 
-## Create a form preset
+## Create a form preset {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
