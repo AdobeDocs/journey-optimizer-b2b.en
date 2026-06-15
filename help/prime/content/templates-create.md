@@ -41,7 +41,8 @@ You can create an email template in [!DNL Journey Optimizer B2B Edition Prime] i
    >
    >In this Beta release, only email templates are supported.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Click **[!UICONTROL Create]** to open the email design space.
 
 1. Click **[!UICONTROL Edit email body]** to access the content design space. 
@@ -99,7 +100,8 @@ Before you begin:
 1. Enter a **[!UICONTROL Template name]** and optional **[!UICONTROL Description]**.
 1. Set the **[!UICONTROL Channel]** to Email.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Click **[!UICONTROL Create]**.
 
 ### Generate the template content

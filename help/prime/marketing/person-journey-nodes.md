@@ -48,7 +48,7 @@ In a person journey, use an action on people when you want to apply a change to 
 | **[!UICONTROL Send email]** | <li>Create email <li>Send-time optimization (optional) |
 | **[!UICONTROL Change Data Value]** | <li>Select person attribute <li>Set new value |
 
-### Add an action node
+### Add an action node {#add-an-action-node}
 
 1. Navigate to the journey map.
 

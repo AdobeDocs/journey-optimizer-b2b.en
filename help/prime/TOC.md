@@ -50,9 +50,7 @@ hide: true
 <!--
    + Business rules
    + Program types
--->
 
-<!-- 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
     + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
