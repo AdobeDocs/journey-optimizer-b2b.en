@@ -20,8 +20,6 @@ role_v2:
 ---
 # Audience management
 
-How do audiences play in AJO B2B Prime?
-
 From the Marketing management hub, click **[!UICONTROL People lists]** in the right navigation.
 
 ![Access people lists to manage your audiences](./assets/people-lists.png){width="800" zoomable="yes"}
@@ -73,7 +71,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## Create a people list
 
 
-To create a new Dynamic or Static list:
+To create a dynamic or static list:
 
 1. Click **Create list** at the top right of the _[!UICONTROL People lists]_ page.
 1. Select a program as the **[!UICONTROL Parent]** for the list.
@@ -92,6 +90,10 @@ To create a new Dynamic or Static list:
 ## Static lists
 
 Static list membership is defined by simple filters that reference people attributes and activities. Membership does not change unless you manually qualify or disqualify members.
+
+>[!NOTE]
+>
+>Static List filter definitions are applied only once when you add to or remove members from the list. The defined filter is not available afterwards. If you want to maintain a consistent audience definition using filters, use a dynamic list instead.
 
 ### Add members
 
