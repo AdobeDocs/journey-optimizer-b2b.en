@@ -56,7 +56,7 @@ The list is sorted according to the _[!UICONTROL Modified]_ column, with the mos
 
 ### Filter the landing pages list {#filter-list}
 
-To search for a landing page by name, enter a text string into the search bar for a match. Click the _Filter_ icon <!-- ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) --> to show the available filter options and change the settings to filter the displayed items according to your specified criteria.
+To search for a landing page by name, enter a text string into the search bar for a match. Click the _Filter_ icon ( ![Show or hide filters icon](../../user/assets/do-not-localize/icon-filter.svg) ) to show the available filter options and change the settings to filter the displayed items according to your specified criteria.
 
 ![Filter the displayed landing pages](./assets/landing-pages-list-filtered.png){width="800" zoomable="yes"}
 
