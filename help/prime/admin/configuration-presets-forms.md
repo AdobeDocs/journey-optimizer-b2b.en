@@ -106,7 +106,7 @@ When creating a preset:
 
    >[!NOTE]
    >
-   >Currently only Profile-enabled and Non-Profile-enabled [Adobe Experience Platform datasets](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) are available for selection. One dataset can be selected at a time. System datasets cannot be used for saving form data.
+   >Currently only Profile-enabled and Non-Profile-enabled [Adobe Experience Platform datasets](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) are available for selection. You can select one dataset at a time. System datasets cannot be used for saving form data.
 
    Select the checkbox for the dataset and click **[!UICONTROL Select]**.
 
