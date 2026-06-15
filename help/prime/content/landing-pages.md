@@ -192,7 +192,7 @@ When the landing page settings and content are defined, you can use test profile
 
    +++Add test profiles
 
-   For **[!UICONTROL Identity namespace]**, click the _Select_ icon <!-- ( ![Select icon](../assets/do-not-localize/icon-select-data.svg) ) --> and choose the `Email` namespace to use to test profiles.
+   For **[!UICONTROL Identity namespace]**, click the _Select_ icon ( ![Select icon](../../user/assets/do-not-localize/icon-select-data.svg) ) and choose the `Email` namespace to use to test profiles.
 
    In the **[!UICONTROL Identity value]** field, enter the email address to identify the test profile and click **[!UICONTROL Add profile]**. You can repeat this to add multiple profiles.
 
@@ -342,7 +342,7 @@ As a marketer or creative that produces email, fragment, and page content, you c
 
    <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
 
-1. For the **[!UICONTROL Landing page]** option, click the _Select page_ icon <!-- ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ) -->.
+1. For the **[!UICONTROL Landing page]** option, click the _Select page_ icon ( ![Show links icon](../../user/assets/do-not-localize/icon-landing-page-select.svg) ).
 
 1. In the Select landing page dialog, set the **[!UICONTROL Landing page source]** as **[!UICONTROL Journey Optimizer B2B Edition]**, select the checkbox for the landing page from the list of published pages, and click **[!UICONTROL Select]**.
 

@@ -98,7 +98,7 @@ When creating a preset:
 
    This connection is the streaming endpoint used to send the data when a web viewer submits a form. If the needed streaming connection does not appear in the list, verify that the requirements are met.
 
-1. Click the _Select dataset_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) --> icon to link a dataset with the form. 
+1. Click the _Select dataset_ ( ![Select dataset icon](../../user/assets/do-not-localize/icon-select-data.svg) ) icon to link a dataset with the form. 
 
    The dataset is where the form responses are stored and reflected. You can enter a text string to search for a specific dataset or select it from the list.
 

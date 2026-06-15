@@ -251,7 +251,9 @@ Click any preset name to access the landing page preset details.
 
     The settings corresponding to the selected subdomain display.
 
-1. You can select the landing page subdomain for the **[!UICONTROL Tracking URL]** by checking the **[!UICONTROL Same as landing page subdomain]** option.<!-- [Learn more about tracking](../email/message-tracking.md) -->
+1. You can select the landing page subdomain for the **[!UICONTROL Tracking URL]** by checking the **[!UICONTROL Same as landing page subdomain]** option.
+
+    <!-- [Learn more about tracking](../email/message-tracking.md) -->
 
     <!-- ![Landing page preset with subdomain settings](./assets/config-channels-landing-pages-preset-subdomain-settings.png){width="500" zoomable="yes"} -->
 
