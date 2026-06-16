@@ -24,4 +24,29 @@ role_v2:
 ---
 # Listen for an event node
 
-TBD
+Add the _Listen for an event_ node to move your audience forward to the next step in the journey when an event occurs.
+
+## People event filters
+
+| Filters | Description |
+| ------- | ----------- |
+| Activity history > Email | Email activities based on conditions that are evaluated using one or more selected email messages: <li>Clicked link in email <li>Opened email |
+| Activity history > Data Value Changed | For a selected person attribute, a value change occurred. These change types include: <li>New value <li>Previous value <li>Reason <li>Source <li>Date of activity <li> Min. number of times |
+
+## Add an event node
+
+1. Navigate to the journey map.
+
+1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Listen for an event]**.
+
+1. In the node properties on the right, choose **[!UICONTROL People]** for the event type.
+
+   <!-- ![Journey node - listen to events on people](./assets/node-listen-events-people.png){width="700" zoomable="yes"} -->
+
+1. Select an event from the list.
+
+1. Click **[!UICONTROL Edit event]** and define details for the event.
+
+>[!NOTE]
+>
+>The timeout functionality for Listen for an event node does not currently function and will be enabled in a later phase.

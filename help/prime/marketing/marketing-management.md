@@ -22,13 +22,11 @@ role_v2:
 ---
 # Marketing management
 
-Marketing Management home page:
-
-Journey Hub
+Marketing Hub
 
 Programs and Folders
    Person Journeys
-   Account Journeys
+   Account Journeys (later)
 Arbitration Console
 
 ## Journey hub
