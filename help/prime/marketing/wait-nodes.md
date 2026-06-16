@@ -33,7 +33,7 @@ There are two ways that you can define the wait time:
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Wait]**.
 
-  <!-- > ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
+  <!-- ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
 
 1. To set the time to wait before the journey proceeds to the next node in the path, use the node properties on the right to set the **[!UICONTROL Type]**.
 
