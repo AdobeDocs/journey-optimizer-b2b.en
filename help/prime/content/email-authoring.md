@@ -32,7 +32,7 @@ In [!DNL Adobe Journey Optimizer B2B Prime], the email design space provides a v
 >
 >For administrator setup of subdomains, authentication, IP pools, and email channel configurations, see [Email deliverability and channel configuration](../admin/configuration-email-deliverability.md).
 
-In [!DNL Journey Optimizer B2B Prime], every email is associated with a _[!UICONTROL Send Email]_ action within a journey. The full workflow from journey design to email definition happens in one continuous experience. When you [add a _Send email_ node](../marketing/person-journey-nodes.md#add-an-action-node) to a person journey, click **[!UICONTROL Create email]** to start the email content design process.
+In [!DNL Journey Optimizer B2B Prime], every email is associated with a _[!UICONTROL Send Email]_ action within a journey. The full workflow from journey design to email definition happens in one continuous experience. When you [add a _Send email_ node](../marketing/action-nodes.md#add-an-action-node) to a person journey, click **[!UICONTROL Create email]** to start the email content design process.
 
 This action launches the email design space, where you can choose how you want to design your email from the following options:
 

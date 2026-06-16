@@ -1,7 +1,7 @@
 ---
 title: Person Journey Nodes
-description: Placeholder page for person journey nodes.
-autotag-review: '2026-06-12T23:02:52.147Z'
+description: Learn about person journey nodes in Journey Optimizer B2B Edition Prime - audience, actions, events, waits, path splits, and AI-driven next best path routing.
+autotag-review: '2026-06-16T21:21:16.531Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -16,18 +16,20 @@ subfeature_v2:
     internal-label: Prime
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
     internal-label: Person Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
 # Person journey nodes
 
 After you create a person journey, add the audience and build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases.
 
-The _[!UICONTROL Person audience]_ node is automatically the first node in the journey. After you select the audience, build your journey by combining the different action, event, and desicioning nodes as a multi-step, cross-channel scenario. Each node of a journey represents a step along a logical path.
+The _[!UICONTROL Person audience]_ node is automatically the first node in the journey. After you select the audience, build your journey by combining the different action, event, and decisioning nodes as a multistep, cross-channel scenario. Each node of a journey represents a step along a logical path.
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Person audience node
 
@@ -37,7 +39,7 @@ The journey always starts with a person audience node. Set the input audience us
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Action nodes
 
@@ -47,7 +49,7 @@ Apply changes to every person on a path, such as sending an email or updating a 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Event nodes
 
@@ -57,7 +59,7 @@ Advance people to the next journey step when a specific activity or data change 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Wait nodes
 
@@ -67,7 +69,7 @@ Pause journey progression for a set duration or until a specific date and time b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Split and merge paths nodes
 
@@ -77,7 +79,7 @@ Segment people into separate paths based on conditions, apply different actions 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 Next best path node
 
