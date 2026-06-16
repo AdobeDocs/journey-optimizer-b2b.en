@@ -9,18 +9,19 @@ hide: true
 + [Adobe Journey Optimizer B2B Prime Documentation](guide-overview.md)
 + [Setup](./start/setup-prime.md)
 + [Home and Insights](./home-insights/home-insights.md)
++ [Agents](./agents/agents.md)
 + Marketing management {#marketing-management}
    + {hide-from-toc} [Overview](./marketing/marketing-management.md)
    + [Programs](./marketing/programs.md)
    + [Person journeys](./marketing/person-journeys.md)
    + Journey nodes {#journey-nodes}
       + [Nodes overview](./marketing/person-journey-nodes.md)
+      + [Person audience](./marketing/person-audience-node.md)
       + [Take an action](./marketing/action-nodes.md)
       + [Listen for an event](./marketing/listen-for-event-nodes.md)
       + [Wait](./marketing/wait-nodes.md)
       + [Split and merge paths](./marketing/split-merge-paths-nodes.md)
       + [Next best path](./marketing/next-best-path.md)
-+ [Agents](./agents/agents.md)
 + Audiences {#audiences}
    + [Audience management](./audiences/audience-management.md)
    + [Dynamic audience Qualification](./audiences/dynamic-audience-qualification.md)
