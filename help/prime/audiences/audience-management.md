@@ -73,7 +73,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 To create a dynamic or static list:
 
-1. Click **Create list** at the top right of the _[!UICONTROL People lists]_ page.
+1. Click **[!UICONTROL Create list]** at the top right of the _[!UICONTROL People lists]_ page.
 1. Select a program as the **[!UICONTROL Parent]** for the list.
 1. Enter the list a **[!UICONTROL Name]** and **[!UICONTROL Description]** (optional).
 1. Choose then list **[!UICONTROL Type]**:
