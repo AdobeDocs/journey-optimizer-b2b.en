@@ -55,7 +55,7 @@ Create folders to group templates by team, campaign, brand, or any structure tha
 
 **To move a template into a folder:**
 
-1. Click the **[!UICONTROL More]** icon (⋯) next to the template.
+1. Click the **[!UICONTROL More]** icon ( ... ) next to the template.
 1. Select **[!UICONTROL Move to folder]**.
 1. Select the destination folder and click **[!UICONTROL Move]**.
 
@@ -67,15 +67,15 @@ Click a template name to open its details page. From here you can review propert
 
 ### Edit a template
 
-Click a template name to open the details page, then click **[!UICONTROL Edit email template]**. You can also click the **[!UICONTROL More]** icon (⋯) in the template list and select **[!UICONTROL Edit]**.
+Click a template name to open the details page, then click **[!UICONTROL Edit email template]**. You can also click the **[!UICONTROL More]** icon ( ... ) in the template list and select **[!UICONTROL Edit]**.
 
 ### Duplicate a template
 
-Click the **[!UICONTROL More]** icon (⋯) next to the template and select **[!UICONTROL Duplicate]**. The copy opens so you can rename it and make adjustments.
+Click the **[!UICONTROL More]** icon ( ... ) next to the template and select **[!UICONTROL Duplicate]**. The copy opens so you can rename it and make adjustments.
 
 ### Delete a template
 
-Click the **[!UICONTROL More]** icon (⋯) next to the template and select **[!UICONTROL Delete]**. Confirm the deletion when prompted.
+Click the **[!UICONTROL More]** icon ( ... ) next to the template and select **[!UICONTROL Delete]**. Confirm the deletion when prompted.
 
 >[!NOTE]
 >
