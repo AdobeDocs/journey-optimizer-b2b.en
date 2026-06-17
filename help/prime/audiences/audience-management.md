@@ -70,8 +70,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 ## Create a people list
 
-
-To create a dynamic or static list:
+To create a dynamic or static people list:
 
 1. Click **[!UICONTROL Create list]** at the top right of the _[!UICONTROL People lists]_ page.
 1. Select a program as the **[!UICONTROL Parent]** for the list.
@@ -94,6 +93,17 @@ Static list membership is defined by simple filters that reference people attrib
 >[!NOTE]
 >
 >Static List filter definitions are applied only once when you add to or remove members from the list. The defined filter is not available afterwards. If you want to maintain a consistent audience definition using filters, use a dynamic list instead.
+
+<!--
+What internet says about Marketo static lists -- which of these is also true in AJO B2B Prime?
+
+* Manual Targeting: Storing fixed cohorts, such as attendees of a specific webinar, people who purchased a certain product, or a list of competitors.
+* Third-Party Syncing: Allowing external platforms (like Amplitude or Twilio Segment) to automatically sync and export groups of users directly into Marketo as targeted audiences.
+* Status Tracking: Helping marketers organize leads into specific categories or track multi-value interests without needing to create new, permanent database fields.List 
+* Segmentation: Acting as a reliable, unchanging recipient or suppression list for email campaigns and engagement programs. Unlike a Smart List—which dynamically adds or removes people based on changing criteria or rules—a static list serves as a reliable snapshot. People remain on the list until explicitly added or removed by you or a backend flow.
+
+So far, activating to a destination is the only thing that they are used for that I have found.
+-->
 
 ### Add members
 
