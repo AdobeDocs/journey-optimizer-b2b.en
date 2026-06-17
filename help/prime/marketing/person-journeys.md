@@ -29,7 +29,7 @@ In [!DNL Adobe Journey Optimizer B2B Edition Prime], person journeys are automat
 _To build a new person journey:_
 
 1. Create the person journey.
-1. Add the nodes and define the journey flow in the journey map.
+1. Add the nodes and define the journey flow in the journey canvas.
 1. [Publish the journey](#publish-a-journey).
 
 ## Access and browse person journeys {#access-and-browse-person-journeys}
@@ -54,7 +54,7 @@ _To build a new person journey:_
 
 The journeys list page includes the following columns:
 
-* [!UICONTROL Name] (click the name to open the journey map for editing)
+* [!UICONTROL Name] (click the name to open the journey canvas for editing)
 * [!UICONTROL Status]
 * [!UICONTROL Creation date]
 * [!UICONTROL Created by]
@@ -97,7 +97,7 @@ The status of a journey can change based on the actions that you apply. Based on
 
 ### Journey header {#journey-header}
 
-The header of each journey map includes the journey name, status, and schedule.
+The header of each journey canvas includes the journey name, status, and schedule.
 
 ![Person journey header](./assets/person-journey-header.png){width="600" zoomable="yes"}
 
@@ -108,9 +108,9 @@ The header of each journey map includes the journey name, status, and schedule.
 
 ### Journey design {#journey-design}
 
-The _journey map_ is the central zone in the journey workspace. It is where you can add journey nodes and configure them. Click a node to open its properties in the panel to the right of the layout and set them according to your design. A person journey always starts with a [_[!UICONTROL Person audience]_ node](./person-audience-node.md), where you can define the input for the journey.
+The _journey canvas_ is the central zone in the journey workspace. It is where you can add journey nodes and configure them. Click a node to open its properties in the panel to the right of the layout and set them according to your design. A person journey always starts with a [_[!UICONTROL Person audience]_ node](./person-audience-node.md), where you can define the input for the journey.
 
-After you create a person journey and define the person audience, build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases using the following node types to construct the journey:
+After you create a person journey and define the person audience, build out the journey using nodes. The journey canvas provides a visual design space where you can build your multistep B2B marketing use cases using the following node types to construct the journey:
 
 * [Take an action](./action-nodes.md)
 * [Listen for an event](./listen-for-event-nodes.md)
@@ -133,7 +133,7 @@ You can publish a journey if there are no blocker errors. When published, the jo
 
 1. Open the draft journey from the _[!UICONTROL Person journeys]_ list.
 
-1. At the top right of the journey map, click **[!UICONTROL Publish]**.
+1. At the top right of the journey canvas, click **[!UICONTROL Publish]**.
 
 1. In the _[!UICONTROL Review journey settings]_ dialog, set the journey start options.
 
@@ -184,7 +184,7 @@ A duplicate action is similar to a clone function, but a duplicated journey does
 
    ![Draft person journey More menu](./assets/person-journey-draft-more-menu.png){width="400"}
 
-   Depending on the status of the journey, you can also access the duplicate action from the journey details or journey map:
+   Depending on the status of the journey, you can also access the duplicate action from the journey details or journey canvas:
 
    * For a draft journey, click **[!UICONTROL ... More]** at the top right and choose **[!UICONTROL Duplicate]**.
    * For all other journey statuses, click **[!UICONTROL Duplicate]** at the top right.

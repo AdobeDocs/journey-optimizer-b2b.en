@@ -64,7 +64,7 @@ If no path is a strong match, or if the prompt references data not available for
 
 ## Add a next best path node {#add-node}
 
-1. Open the person journey and navigate to the journey map.
+1. Open the person journey and navigate to the journey canvas.
 
 1. Click the plus ( **+** ) icon on a path and choose **Next best path**.
 
@@ -171,7 +171,7 @@ After validating the simulation results:
 
 After the journey is live, the next best path node runs at execution time. As each person reaches the node, the AI evaluates them in real time using the latest signals and routes them to the most relevant path.
 
-For a published journey, open the journey map and select the next best path node to view the **_[!UICONTROL Live results]_** section in the right panel. Live results show:
+For a published journey, open the journey canvas and select the next best path node to view the **_[!UICONTROL Live results]_** section in the right panel. Live results show:
 
 * The percentage distribution of profiles across each path
 * The confidence score for each path assignment

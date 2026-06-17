@@ -50,12 +50,6 @@ For each path that you define for the node, use the following filter types to ma
 
 ### Add a split paths node
 
-<!--
->[!NOTE]
->
->When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
--->
-
 1. Navigate to the journey canvas.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Split paths]**.
