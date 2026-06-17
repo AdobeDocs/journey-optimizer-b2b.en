@@ -30,6 +30,7 @@ hide: true
    + Emails {#emails}
       + [Email authoring](./content/email-authoring.md)
       + [Dark mode design](./content/email-dark-mode.md)
+   + [WhatsApp messages](./content/whatsapp-authoring.md)
    + Templates {#templates}
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
