@@ -1,6 +1,6 @@
 ---
-title: Audience Management
-description: Placeholder page for audiences.
+title: People Lists
+description: Learn how to create and manage people lists in Journey Optimizer B2B Prime, including dynamic lists with rule-based qualification and static lists with fixed membership.
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
 product_v2:
@@ -18,20 +18,30 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Audience management
+# People lists
 
-From the Marketing management hub, click **[!UICONTROL People lists]** in the right navigation.
+In [!DNL Adobe Journey Optimizer B2B Prime], people lists are the person-level audience containers for targeting and person journey entry, with dynamic lists for rule-based live qualification and static lists for fixed or journey-managed membership.
 
-![Access people lists to manage your audiences](./assets/people-lists.png){width="800" zoomable="yes"}
+## Access and browse people lists {#access-and-browse}
 
-There are two tabs for the page where you can view and manage of **[!UICONTROL Dynamic lists]** and **[!UICONTROL Static lists]**. Click the tab to switch the list view between each type.
+1. On the left navigation, expand **[!UICONTROL Marketing Management]**.
 
-From this page you can:
+1. On the right in the **[!UICONTROL Marketing]** resource list, select **[!UICONTROL People lists]**.
+
+   ![Access people lists to manage your audiences](./assets/people-lists.png){width="800" zoomable="yes"}
+
+There are two tabs for the page where you can view and manage of **[!UICONTROL Dynamic lists]** and **[!UICONTROL Static lists]**. Click the tab to switch the list view between each type. 
+
+You can enter text in the _Search_ tool at the top of the list to filter the displayed list by name. Use the list tools to customize the displayed list:
+
+* Click the _Customize table_ ( ![Customize table icon](../../assets/do-not-localize/icon-falco-customize-table.svg) ) icon to control the displayed columns.
+* Click the _Reset columns_ ( ![Reset column width icon](../../assets/do-not-localize/icon-falco-reset-columns.svg) ) icon to reset the column widths.
+
+From this space you can also:
 
 * Create new dynamic and static lists
-* Search for existing lists
-* See asset information
-* Access lists to review their membership
+* Access lists to review current membership
+* Apply membership filters
 
 <!--
 ## Audience Hub
@@ -68,25 +78,28 @@ Low data or incomplete audience - Explain what's missing (e.g., insufficient con
 AI insights unavailable - Provide a graceful fallback with a clear explanation, so users understand why insights aren't shown and what actions they can take manually.
 -->
 
-## Create a people list
-
-To create a dynamic or static people list:
+## Create a people list {#create-people-list}
 
 1. Click **[!UICONTROL Create list]** at the top right of the _[!UICONTROL People lists]_ page.
-1. Select a program as the **[!UICONTROL Parent]** for the list.
+
+1. In the dialog, select a program as the **[!UICONTROL Parent]** for the list.
+
 1. Enter the list a **[!UICONTROL Name]** and **[!UICONTROL Description]** (optional).
+
 1. Choose then list **[!UICONTROL Type]**:
 
-   * **[!UICONTROL Static]** - Membership is determined by qualifying filters evaluated when you create the list. The list membership does not update unless you manually qualify or disqualify records.
+   * **[!UICONTROL Static]** - Membership is determined by qualifying filters evaluated when you create the list. The list membership does not update unless you manually qualify or disqualify records. 
    ***[!UICONTROL  Dynamic]** - Membership is dynamically determined by qualifying filters. The list membership refreshes automatically.
+
+   ![Create people list dialog](./assets/people-list-create-dialog.png){width="450"}
 
 1. Click **[!UICONTROL Create]**.
 
 >[!NOTE]
 >
->Delete and dulicate are not currently supported for people lists in this Beta release.
+>Delete and duplicate are not currently supported for people lists in this Beta release.
 
-## Static lists
+## Static lists {#static-list}
 
 Static list membership is defined by simple filters that reference people attributes and activities. Membership does not change unless you manually qualify or disqualify members.
 
@@ -105,7 +118,7 @@ What internet says about Marketo static lists -- which of these is also true in 
 So far, activating to a destination is the only thing that they are used for that I have found.
 -->
 
-### Add members
+### Add members {#static-list-add-members}
 
 1. Open the static list and click **[!UICONTROL Add people]** at the top right.
 
@@ -116,7 +129,7 @@ So far, activating to a destination is the only thing that they are used for tha
    * Activity history
    * Company attributes
    * Person attributes
-   * Special filters such as Journey membership
+   * Special filters such as journey membership
 
 1. To save your changes, click **[!UICONTROL Done]**.
 
@@ -124,7 +137,7 @@ So far, activating to a destination is the only thing that they are used for tha
 
    After a brief time, qualifying members appear in the list.
 
-### Remove members
+### Remove members {#static-list-remove-members}
 
 1. Open the static list and click **[!UICONTROL Remove people]** at the top right.
 
@@ -136,15 +149,42 @@ So far, activating to a destination is the only thing that they are used for tha
 
    After a brief time, disqualified members leave the list.
 
-## Dynamic lists
+### Activate to a destination {#static-list-activate}
+
+When you activate a static list, it is actionable in downstream systems, with ongoing sync instead of manual exports. This is useful for paid media targeting, suppression, and downstream orchestration.
+
+* The static list acts as a container for the people.
+* The activation sends/syncs that membership to a destination.
+* The destination can then do something with those people, suuch as target them on LinkedIn or remove them from an external audience.
+
+Because the activation model is meant to be persistent, not a one-time export:
+
+* People added to the list later are propagated automatically.
+* People removed later are deactivated automatically.
+* Marketers avoid repeated CSV exports and manual uploads.
+* Journeys can refresh the audience over time for ongoing orchestration.
+
+1. Select the **[!UICONTROL Static lists]** tab.
+
+1. Locate the static list that you want to activate to a destination.
+
+1. Click the _Activate_ ( ![Customize table icon](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) icon next to the static list name.
+
+1. Select the check box for the configured destination connection.
+
+   ![Configured destinations available for activation](./assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+
+1. Click **[!UICONTROL Save]**.
+
+## Dynamic lists {#dynamic-lists}
 
 Dynamic list membership is defined using simple filters that reference people attributes and activities. Membership is automatically maintained by qualifying and disqualifying leads according to the filter logic.
 
-### Define the membership logic
+### Set membership rules
 
-1. Open the static list and select the Rules tab.
+1. Open the dynamic list and select the **[!UICONTROL Rules]** tab.
 
-1. Click the Edit rules.
+1. Click the **[!UICONTROL Edit rules]**.
 
 1. In the dialog, define the rules for qualifying your leads by dragging and dropping filters from the left.
 
@@ -153,7 +193,7 @@ Dynamic list membership is defined using simple filters that reference people at
    * Activity history
    * Company attributes
    * Person attributes
-   * Special filters such as Journey membership
+   * Special filters such as journey membership
 
 1. To save your changes, click **[!UICONTROL Done]**.
 
@@ -162,3 +202,19 @@ Dynamic list membership is defined using simple filters that reference people at
    After a brief time, qualifying members appear in the list.
 
 To open the lead profile detail page where you can view the summary and recent activities, click the name of a person in the list.
+
+### Duplicate a dynamic list
+
+For a dynamic list, a duplicate action is similar to a clone function. Use this function to replicate the membership filtering and add it to a different program.
+
+1. In the _[!UICONTROL Dyanmic lists]_ tab, click the _Duplicate_ ( **...** ) icon next to the list you want to duplicate.
+
+1. In the dialog, select the **[!UICONTROL Parent]** program for the duplicated journey.
+
+1. Enter a unique **[!UICONTROL Name]** (required) and **[!UICONTROL Description]** (optional).
+
+   By default, the dialog uses the name of the originating list appended with `_copy`. Enter a different unique name for the list as needed.
+
+   ![Duplicate list dialog](./assets/people-list-duplicate-dialog.png){width="375"}
+
+1. Click **[!UICONTROL Duplicate]**.

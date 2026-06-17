@@ -23,7 +23,8 @@ hide: true
       + [Split and merge paths](./marketing/split-merge-paths-nodes.md)
       + [Next best path](./marketing/next-best-path.md)
 + Audiences {#audiences}
-   + [Audience management](./audiences/audience-management.md)
+   + [People lists](./audiences/people-lists.md)
+   + [Destinations](./audiences/destinations.md)
    + [Dynamic audience Qualification](./audiences/dynamic-audience-qualification.md)
    + [Event-based Audiences](./audiences/event-based-audiences.md)
 + Content {#content}
