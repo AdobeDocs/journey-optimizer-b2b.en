@@ -1,6 +1,6 @@
 ---
 title: Listen for an Event Node
-description: Placeholder
+description: Configure Listen for an event nodes in Journey Optimizer B2B Edition Prime - set event triggers, apply optional filters, and advance people when activities or data changes occur.
 autotag-review: '2026-06-12T23:00:36.531Z'
 TQID: 'https://experienceleague.adobe.com/SBEfrrIKSCnO5x1tGXQTz1EZryH0IKhQx4tuqVn78FI'
 product_v2:
@@ -26,27 +26,55 @@ role_v2:
 
 Add the _Listen for an event_ node to move your audience forward to the next step in the journey when an event occurs.
 
-## People event filters
+## Event triggers {#event-triggers}
+
+Get list from PM
+
+## Event filters {#event-filters}
+
+Get updated list from PM
 
 | Filters | Description |
 | ------- | ----------- |
 | Activity history > Email | Email activities based on conditions that are evaluated using one or more selected email messages: <li>Clicked link in email <li>Opened email |
 | Activity history > Data Value Changed | For a selected person attribute, a value change occurred. These change types include: <li>New value <li>Previous value <li>Reason <li>Source <li>Date of activity <li> Min. number of times |
 
-## Add an event node
+## Add an event node {#add-event-node}
 
-1. Navigate to the journey map.
+1. Navigate to the journey canvas.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Listen for an event]**.
 
-1. In the node properties on the right, choose **[!UICONTROL People]** for the event type.
+   ![Click add icon on journey path](./assets/person-journey-canvas-add-node.png){width="200"}
 
-   <!-- ![Journey node - listen to events on people](./assets/node-listen-events-people.png){width="700" zoomable="yes"} -->
+1. In the node properties on the right, click **[!UICONTROL Add event criteria]**.
 
-1. Select an event from the list.
+1. In the _[!UICONTROL Edit event]_ dialog, add the events to trigger.
+
+   ![Edit event - event triggers](./assets/edit-event-triggers.png){width="600" zoomable="yes"}
+
+1. (Optional) Select the **[!UICONTROL Filters]** tab in the dialog and add filtering criteria for the triggers.
 
 1. Click **[!UICONTROL Edit event]** and define details for the event.
 
+   ![Edit event - event filtering](./assets/edit-event-filters.png){width="600" zoomable="yes"}
+
+1. Click **[!UICONTROL Save]**.
+
+<!--
+1. If needed, set the **[!UICONTROL Timeout]** option to limit the time period to listen for the event.
+
+   >[!NOTE]
+   >
+   >The journey ends after a timeout unless you define a timeout path, where you can add other nodes.
+
+   Enable the **[!UICONTROL Timeout]** option and select the duration for which the journey waits for an event to occur before it times out.
+
+   You can choose to end the path here or take a different course of action by setting another path. To create a new path in the journey where you can add actions and events applicable to accounts when the event does not occur, select the **[!UICONTROL Set timeout path]** check box.
+
+   ![Journey event node - set timeout path](../../user/journeys/assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
+-->
+
 >[!NOTE]
 >
->The timeout functionality for Listen for an event node does not currently function and will be enabled in a later phase.
+>The timeout functionality for Listen for an event node does not currently function. It is planned for a later release.

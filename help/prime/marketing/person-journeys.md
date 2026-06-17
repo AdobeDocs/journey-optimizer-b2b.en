@@ -29,7 +29,7 @@ In [!DNL Adobe Journey Optimizer B2B Edition Prime], person journeys are automat
 _To build a new person journey:_
 
 1. Create the person journey.
-1. Add the nodes and define the journey flow in the journey map.
+1. Add the nodes and define the journey flow in the journey canvas.
 1. [Publish the journey](#publish-a-journey).
 
 ## Access and browse person journeys {#access-and-browse-person-journeys}
@@ -54,7 +54,7 @@ _To build a new person journey:_
 
 The journeys list page includes the following columns:
 
-* [!UICONTROL Name] (click the name to open the journey map for editing)
+* [!UICONTROL Name] (click the name to open the journey canvas for editing)
 * [!UICONTROL Status]
 * [!UICONTROL Creation date]
 * [!UICONTROL Created by]
@@ -97,20 +97,20 @@ The status of a journey can change based on the actions that you apply. Based on
 
 ### Journey header {#journey-header}
 
-The header of each journey map includes the journey name, status, and schedule.
+The header of each journey canvas includes the journey name, status, and schedule.
 
 ![Person journey header](./assets/person-journey-header.png){width="600" zoomable="yes"}
 
 * Click the _Edit_ icon ( ![Edit icon](../../assets/do-not-localize/icon-react-edit.svg) ) to change the journey name or description information.
 * Click **[!UICONTROL Journey settings]** to change the journey start and recurrence.
-* Click **[!UICONTROL More]** to apply a journey action, or to enable/disable traffic control and re-entry.
+* Click **[!UICONTROL ... More]** to apply a journey action, or to enable/disable traffic control and re-entry.
 * If all errors are resolved and you want to activate the journey, click **[!UICONTROL Publish]**.
 
 ### Journey design {#journey-design}
 
-The _journey map_ is the central zone in the journey workspace. It is where you can add journey nodes and configure them. Click a node to open its properties in the panel to the right of the layout and set them according to your design. A person journey always starts with a [_[!UICONTROL Person audience]_ node](./person-audience-node.md), where you can define the input for the journey.
+The _journey canvas_ is the central zone in the journey workspace. It is where you can add journey nodes and configure them. Click a node to open its properties in the panel to the right of the layout and set them according to your design. A person journey always starts with a [_[!UICONTROL Person audience]_ node](./person-audience-node.md), where you can define the input for the journey.
 
-After you create a person journey and define the person audience, build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases using the following node types to construct the journey:
+After you create a person journey and define the person audience, build out the journey using nodes. The journey canvas provides a visual design space where you can build your multistep B2B marketing use cases using the following node types to construct the journey:
 
 * [Take an action](./action-nodes.md)
 * [Listen for an event](./listen-for-event-nodes.md)
@@ -133,7 +133,7 @@ You can publish a journey if there are no blocker errors. When published, the jo
 
 1. Open the draft journey from the _[!UICONTROL Person journeys]_ list.
 
-1. At the top right of the journey map, click **[!UICONTROL Publish]**.
+1. At the top right of the journey canvas, click **[!UICONTROL Publish]**.
 
 1. In the _[!UICONTROL Review journey settings]_ dialog, set the journey start options.
 
@@ -146,7 +146,7 @@ You can publish a journey if there are no blocker errors. When published, the jo
 
 1. If needed, specify the **[!UICONTROL End date]** for the journey.
 
-   ![Review journey settings dialog](./assets/journey-settings.png){width="400" zoomable="no"}
+   ![Review journey settings dialog](./assets/journey-publish-review-settings.png){width="400" zoomable="no"}
 
    It can be a maximum of three years from the start date. This field is required to publish.
 
@@ -160,7 +160,7 @@ If you abort (stop) a live journey or a journey scheduled for a future start dat
 
 1. Open the journey from the _[!UICONTROL Person journeys]_ list.
 
-1. Click the **[!UICONTROL More...]** menu at the top right and choose **[!UICONTROL Abort]**.
+1. Click **[!UICONTROL ... More]** at the top right and choose **[!UICONTROL Abort]**.
 
    ![Live person journey header](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
 
@@ -172,7 +172,7 @@ If you close a live journey to new entries, people currently in the journey cont
 
 1. Open the journey from the _[!UICONTROL Person journeys]_ list.
 
-1. Click the **[!UICONTROL More...]** menu at the top right and choose **[!UICONTROL Close to new entries]**.
+1. Click **[!UICONTROL ... More]** at the top right and choose **[!UICONTROL Close to new entries]**.
 
 1. In the confirmation dialog, click **[!UICONTROL Close to new entries]**.
 
@@ -184,9 +184,9 @@ A duplicate action is similar to a clone function, but a duplicated journey does
 
    ![Draft person journey More menu](./assets/person-journey-draft-more-menu.png){width="400"}
 
-   Depending on the status of the journey, you can also access the duplicate action from the journey details or journey map:
+   Depending on the status of the journey, you can also access the duplicate action from the journey details or journey canvas:
 
-   * For a draft journey, click the **[!UICONTROL More]** menu at the top right and choose **[!UICONTROL Duplicate]**.
+   * For a draft journey, click **[!UICONTROL ... More]** at the top right and choose **[!UICONTROL Duplicate]**.
    * For all other journey statuses, click **[!UICONTROL Duplicate]** at the top right.
 
 1. In the dialog, select the **[!UICONTROL Parent]** program for the duplicated journey.
@@ -219,7 +219,7 @@ Use a delete action to delete a journey permanently. You cannot delete a live jo
 
    Depending on the status of the journey, you can also access the delete action from the journey header:
 
-   * For a draft journey, click **[!UICONTROL More...]** at the top right and choose **[!UICONTROL Delete]**.
+   * For a draft journey, click **[!UICONTROL ... More]** at the top right and choose **[!UICONTROL Delete]**.
    * For other journey statuses, such as _Finished_ or _Aborted_, click **[!UICONTROL Delete]** at the top right.
 
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.

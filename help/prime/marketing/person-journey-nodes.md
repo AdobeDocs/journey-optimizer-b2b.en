@@ -22,7 +22,7 @@ role_v2:
 ---
 # Person journey nodes
 
-After you create a person journey, add the audience and build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases.
+After you create a person journey, add the audience and build out the journey using nodes. The journey canvas provides a visual design space, where you can build your multistep B2B marketing use cases.
 
 The _[!UICONTROL Person audience]_ node is automatically the first node in the journey. After you select the audience, build your journey by combining the different action, event, and decisioning nodes as a multistep, cross-channel scenario. Each node of a journey represents a step along a logical path.
 

@@ -1,6 +1,6 @@
 ---
 title: Wait Node
-description: Placeholder
+description: Configure Wait nodes in Journey Optimizer B2B Edition Prime - pause journey progression by duration, date, or advanced day and time scheduling.
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
 product_v2:
@@ -27,30 +27,30 @@ There are two ways that you can define the wait time:
 * A specific date when you want to move forward to the next node in the journey
 * A relative duration (number of minutes, hours, days, weeks, or months)
 
-## Add the wait node
+## Add the wait node {#add-wait-node}
 
-1. Navigate to the journey map.
+1. Navigate to the journey canvas.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Wait]**.
 
-  <!-- ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
+   ![Click add icon on journey path](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. To set the time to wait before the journey proceeds to the next node in the path, use the node properties on the right to set the **[!UICONTROL Type]**.
 
    * **[!UICONTROL Duration]** - Define a specific number of days, hours, or minutes to elapse between entry and exit of the wait node. 
    * **[!UICONTROL Date]** - Specify a date and time for the exit.
 
-  <!-- ![Journey node - wait](./assets/node-wait.png){width="500"} -->
+   ![Journey node - wait](./assets/wait-node.png){width="500"}
 
-## Advanced wait settings
+## Advanced wait settings {#advanced-wait-settings}
 
 Enable the **[!UICONTROL Must end on]** option to configure an _advanced wait step_ and ensure that your messages reach people and account members at the optimal moment. This configuration gives you precise control over when a person or account exits a wait step and proceeds to the next node in the journey. Rather than a fixed number of hours or days from entry to exit, you can schedule actions to occur at specific times and on specific days of the week. 
 
 With an _advanced wait step_, you define **_when_** the person or account exits, not simply how long they wait.
 
-<!-- ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"} -->
+![Journey node - advanced wait step](./assets/wait-node-advanced.png){width="500"}
 
-### Wait types
+### Wait types {#wait-types}
 
 | Wait type | Description | Configuration |
 | --------- | ----------- | ------------- |
@@ -59,7 +59,7 @@ With an _advanced wait step_, you define **_when_** the person or account exits,
 | **Day range or combination** | Hold until any day within a range (such as Monday–Friday), or on any one of the specified days | Select your target days. If no time is specified, exits at midnight (for the selected time zone) on the next matching day. |
 | **Time + Day combination** | Combine both for precise scheduling (such as Tuesday at 10:00 AM) | Select your target days and set the target time. Exits at the next day/time occurrence (for the selected time zone). |
 
-### Common scenarios
+### Common scenarios {#common-scenarios}
 
 The following scenarios illustrate how you can apply typical examples to your wait node configuration:
 
@@ -87,7 +87,7 @@ The following scenarios illustrate how you can apply typical examples to your wa
 
 +++
 
-### Entry and exit examples
+### Entry and exit examples {#entry-exit-examples}
 
 | Wait configuration | Account/lead enters | Account/lead exits |
 | ------------------ | ------------------- | ------------------ |
