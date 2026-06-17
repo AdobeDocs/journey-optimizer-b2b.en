@@ -127,7 +127,7 @@ Open the journeys list to review journey status, make changes, and take actions.
 
 The journeys list page includes all person journeys in your Journey Optimizer B2B Prime instance. From the list page, you can apply a number of actions to a journey.
 
-#### Publish a journey {#publish-a-journey}
+#### Publish a journey {#publish}
 
 You can publish a journey if there are no blocker errors. When published, the journey status changes to _Live_. If the journey has errors, the **[!UICONTROL Publish]** button is dimmed with the message `Resolve errors before publishing`.
 
