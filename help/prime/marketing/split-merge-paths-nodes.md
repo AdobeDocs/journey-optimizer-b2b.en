@@ -1,6 +1,6 @@
 ---
 title: Split and Merge Paths Nodes
-description: Placeholder
+description: Learn how to use split and merge paths nodes in person journeys to segment people into distinct paths based on defined conditions, then reunite them at a common point downstream.
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
 product_v2:
@@ -22,7 +22,7 @@ role_v2:
 ---
 # Split and merge paths nodes
 
-
+Use split and merge paths nodes in person journeys to segment people into distinct paths based on conditions you define, then bring those paths back together so the journey can continue. Split paths let you tailor actions and events to specific audience segments, while merge paths reunite those segments at a common point downstream.
 
 ## Split paths nodes
 
@@ -31,7 +31,6 @@ Use split nodes to segment people according to the conditions that you define. C
 A Split paths node defines one or more segmented paths based on people filters.
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
-
 
 _**How a split path by people node works**_ 
 
@@ -57,11 +56,11 @@ For each path that you define for the node, use the following filter types to ma
 >When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
 -->
 
-1. Navigate to the journey map.
+1. Navigate to the journey canvas.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Split paths]**.
 
-   <!-- ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"} -->
+   ![Click add icon on journey path](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. To define a condition applicable to _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
 
@@ -95,13 +94,11 @@ When you have conditions defined for each path, you can add action or event node
 
 ## Merge paths nodes
 
-1. Navigate to the journey map and locate the split paths node with two or more paths.
+1. Navigate to the journey canvas and locate the split paths node with two or more paths.
 
    Each path should have a combination of actions and events on each path.
 
 1. Click the plus ( **+** ) icon at the end of any one of these paths and choose **[!UICONTROL Merge paths]** from the displayed options.
-
-   <!-- ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"} -->
 
 1. In the node properties at the right, select the paths you want to merge.
 
