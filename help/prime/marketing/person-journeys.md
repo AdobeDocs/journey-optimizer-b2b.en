@@ -103,7 +103,7 @@ The header of each journey map includes the journey name, status, and schedule.
 
 * Click the _Edit_ icon ( ![Edit icon](../../assets/do-not-localize/icon-react-edit.svg) ) to change the journey name or description information.
 * Click **[!UICONTROL Journey settings]** to change the journey start and recurrence.
-* Click **[!UICONTROL More]** to apply a journey action, or to enable/disable traffic control and re-entry.
+* Click **[!UICONTROL ... More]** to apply a journey action, or to enable/disable traffic control and re-entry.
 * If all errors are resolved and you want to activate the journey, click **[!UICONTROL Publish]**.
 
 ### Journey design {#journey-design}
@@ -146,7 +146,7 @@ You can publish a journey if there are no blocker errors. When published, the jo
 
 1. If needed, specify the **[!UICONTROL End date]** for the journey.
 
-   ![Review journey settings dialog](./assets/journey-settings.png){width="400" zoomable="no"}
+   ![Review journey settings dialog](./assets/journey-publish-review-settings.png){width="400" zoomable="no"}
 
    It can be a maximum of three years from the start date. This field is required to publish.
 
@@ -160,7 +160,7 @@ If you abort (stop) a live journey or a journey scheduled for a future start dat
 
 1. Open the journey from the _[!UICONTROL Person journeys]_ list.
 
-1. Click the **[!UICONTROL More...]** menu at the top right and choose **[!UICONTROL Abort]**.
+1. Click **[!UICONTROL ... More]** at the top right and choose **[!UICONTROL Abort]**.
 
    ![Live person journey header](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
 
@@ -172,7 +172,7 @@ If you close a live journey to new entries, people currently in the journey cont
 
 1. Open the journey from the _[!UICONTROL Person journeys]_ list.
 
-1. Click the **[!UICONTROL More...]** menu at the top right and choose **[!UICONTROL Close to new entries]**.
+1. Click **[!UICONTROL ... More]** at the top right and choose **[!UICONTROL Close to new entries]**.
 
 1. In the confirmation dialog, click **[!UICONTROL Close to new entries]**.
 
@@ -186,7 +186,7 @@ A duplicate action is similar to a clone function, but a duplicated journey does
 
    Depending on the status of the journey, you can also access the duplicate action from the journey details or journey map:
 
-   * For a draft journey, click the **[!UICONTROL More]** menu at the top right and choose **[!UICONTROL Duplicate]**.
+   * For a draft journey, click **[!UICONTROL ... More]** at the top right and choose **[!UICONTROL Duplicate]**.
    * For all other journey statuses, click **[!UICONTROL Duplicate]** at the top right.
 
 1. In the dialog, select the **[!UICONTROL Parent]** program for the duplicated journey.
@@ -219,7 +219,7 @@ Use a delete action to delete a journey permanently. You cannot delete a live jo
 
    Depending on the status of the journey, you can also access the delete action from the journey header:
 
-   * For a draft journey, click **[!UICONTROL More...]** at the top right and choose **[!UICONTROL Delete]**.
+   * For a draft journey, click **[!UICONTROL ... More]** at the top right and choose **[!UICONTROL Delete]**.
    * For other journey statuses, such as _Finished_ or _Aborted_, click **[!UICONTROL Delete]** at the top right.
 
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
