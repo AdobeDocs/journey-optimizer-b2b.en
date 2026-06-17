@@ -7,7 +7,9 @@ hide: true
 # Journey Optimizer B2B Prime User Guide {#prime}
 
 + [Adobe Journey Optimizer B2B Prime Documentation](guide-overview.md)
-+ [Setup](./start/setup-prime.md)
++ Get started {#start}
+   + [Setup checklist](./start/setup-prime.md)
+   + [User management](./start/user-management.md)
 + [Home and Insights](./home-insights/home-insights.md)
 + [Agents](./agents/agents.md)
 + Marketing management {#marketing-management}
@@ -22,6 +24,7 @@ hide: true
       + [Wait](./marketing/wait-nodes.md)
       + [Split and merge paths](./marketing/split-merge-paths-nodes.md)
       + [Next best path](./marketing/next-best-path.md)
+   + [Email send-time optimization](./marketing/email-send-time-optimization.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
    + [Destinations](./audiences/destinations.md)
