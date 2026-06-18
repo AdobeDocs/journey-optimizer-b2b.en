@@ -29,9 +29,7 @@ In [!DNL Adobe Journey Optimizer B2B Prime], assets are typically the images use
 
 Supported file formats: JPG, JPEG, GIF, PNG, EPS, SVG, and RGB
 
->[!NOTE]
->
->In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. You can also upload additional image assets from the _[!UICONTROL Assets]_ library or content design space. These uploaded assets are available for use only in the [!DNL Adobe Journey Optimizer B2B Prime] instance.
+
 >
 >Import of assets from external systems such as the Marketo Engage DAM and access to a pre-populated asset library are not yet available. Future releases are expected to include asset import from existing systems, folder support, and expanded asset management capabilities.
 
@@ -41,7 +39,19 @@ The **Assets** library provides access to the centralized repository for storing
 
 In the left navigation, expand **[!UICONTROL Content Management]** and select **[!UICONTROL Assets]**.
 
+>[!NOTE]
+>
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. You can also upload additional image assets from the _[!UICONTROL Assets]_ library or content design space. These uploaded assets are available for use only in the [!DNL Adobe Journey Optimizer B2B Prime] instance.
+
 ![Assets library](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+The first time you access the _[!UICONTROL Assets]_ library, review the _[!UICONTROL Generative AI Terms of Use]_ and click **[!UICONTROL Agree & Continue]**.
+
+![Assets library](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+
+>[!ENDSHADEBOX]
 
 The library supports two layout options:
 
