@@ -24,17 +24,19 @@ hide: true
       + [Wait](./marketing/wait-nodes.md)
       + [Split and merge paths](./marketing/split-merge-paths-nodes.md)
       + [Next best path](./marketing/next-best-path.md)
-   + [Email send-time optimization](./marketing/email-send-time-optimization.md)
+   + Email channel {#email-channel}
+      + [Overview](./marketing/email-channel.md)
+      + [Email send-time optimization](./marketing/email-send-time-optimization.md)
+      + [Email authoring](./content/email-authoring.md)
+      + [Dark mode design](./content/email-dark-mode.md)   
+   + [WhatsApp channel](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
    + [Destinations](./audiences/destinations.md)
    + [Dynamic audience Qualification](./audiences/dynamic-audience-qualification.md)
    + [Event-based Audiences](./audiences/event-based-audiences.md)
 + Content {#content}
-   + Emails {#emails}
-      + [Email authoring](./content/email-authoring.md)
-      + [Dark mode design](./content/email-dark-mode.md)
-   + [WhatsApp messages](./content/whatsapp-authoring.md)
+   + [Assets](./content/digital-asset-management.md)
    + Templates {#templates}
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
