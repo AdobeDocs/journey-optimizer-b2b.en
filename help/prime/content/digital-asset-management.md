@@ -47,7 +47,7 @@ In the left navigation, expand **[!UICONTROL Content Management]** and select **
 
 >[!BEGINSHADEBOX]
 
-The first time you access the _[!UICONTROL Assets]_ library, review the _[!UICONTROL Generative AI Terms of Use]_ and click **[!UICONTROL Agree & Continue]**.
+The first time you access the _[!UICONTROL Assets]_ library, review the [_[!UICONTROL Generative AI Terms of Use]_](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) and confirm your agreement.
 
 ![Assets library](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
@@ -93,4 +93,3 @@ Select any asset in list or gallery view to open its detail view on the right. S
 After the upload completes, the system automatically generates a description, assigns tags and keywords, and extracts visual attributes such as subject and setting. No manual tagging is required. The new image is displayed with a _[!UICONTROL PROCESSING]_ status until this process is complete.
 
 ![New image asset in processing status](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
-<!-- -->
