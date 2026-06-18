@@ -1,6 +1,6 @@
 ---
 title: Assets
-description: Manage image assets from Journey Optimizer B2B Edition for emails, templates, and vidual fragments.
+description: Manage image assets from Journey Optimizer B2B Edition for emails, templates, and visual fragments.
 feature: Assets, Content
 role: User
 badge: label="Beta" type="Informative"
@@ -29,9 +29,7 @@ In [!DNL Adobe Journey Optimizer B2B Prime], assets are typically the images use
 
 Supported file formats: JPG, JPEG, GIF, PNG, EPS, SVG, and RGB
 
->[!NOTE]
->
->In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. You can also upload additional image assets from the _[!UICONTROL Assets]_ library or content design space. These uploaded assets are available for use only in the [!DNL Adobe Journey Optimizer B2B Prime] instance.
+
 >
 >Import of assets from external systems such as the Marketo Engage DAM and access to a pre-populated asset library are not yet available. Future releases are expected to include asset import from existing systems, folder support, and expanded asset management capabilities.
 
@@ -41,7 +39,19 @@ The **Assets** library provides access to the centralized repository for storing
 
 In the left navigation, expand **[!UICONTROL Content Management]** and select **[!UICONTROL Assets]**.
 
+>[!NOTE]
+>
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. You can also upload additional image assets from the _[!UICONTROL Assets]_ library or content design space. These uploaded assets are available for use only in the [!DNL Adobe Journey Optimizer B2B Prime] instance.
+
 ![Assets library](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+The first time you access the _[!UICONTROL Assets]_ library, review the _[!UICONTROL Generative AI Terms of Use]_ and click **[!UICONTROL Agree & Continue]**.
+
+![Assets library](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+
+>[!ENDSHADEBOX]
 
 The library supports two layout options:
 
@@ -64,7 +74,7 @@ Use the _[!UICONTROL Search]_ field to find assets by describing what you need i
 
 Select an asset to open its detail view. The detail view displays an AI-generated description, tags and keywords, and additional metadata fields. This information is generated automatically when the asset is uploaded.
 
-Select any asset in list or gallery view to open its detail view on the right. Select the AI metadat tab to view AI-generated description, tags, and metadata. 
+Select any asset in list or gallery view to open its detail view on the right. Select the AI metadata tab to view AI-generated description, tags, and metadata. 
 
 ![Selected image from search results in Assets library](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
 
@@ -76,7 +86,7 @@ Select any asset in list or gallery view to open its detail view on the right. S
 
    ![Upload an image asset](./assets/dam-upload-assets-dialog.png){width="450"}
 
-   Alternatively, you can click **[!UICONTROL Select file from your computer]** to use you local file system to locate and select the file.
+   Alternatively, you can click **[!UICONTROL Select file from your computer]** to use your local file system to locate and select the file.
 
 1. Click **[!UICONTROL Upload file]** to confirm and upload the file to the repository.
 
