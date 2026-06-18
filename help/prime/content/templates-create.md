@@ -171,3 +171,4 @@ Use the following guidelines to get the best results from image-to-template conv
 * Test rendering across email clients and devices before using the template in a journey.
 * Verify alignment with brand colors, fonts, and style guidelines.
 * Review and enhance accessibility, including image alt text.
+<!-- -->

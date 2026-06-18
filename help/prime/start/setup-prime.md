@@ -103,4 +103,5 @@ Before marketers can send email from journeys, configure the sending infrastruct
 </tr>
 </tbody>
 </table>
+<!-- -->
 
