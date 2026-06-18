@@ -1,5 +1,5 @@
 ---
-title: Email deliverability and channel configuration
+title: Email Deliverability and Channel Configuration
 description: Configure subdomain delegation, DMARC, SPF, DKIM, IP pools, and email channel configurations for Journey Optimizer B2B Prime.
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
@@ -24,37 +24,19 @@ role_v2:
 ---
 # Email deliverability and channel configuration
 
-[!DNL Adobe Journey Optimizer B2B Edition] Prime brings a modern, enterprise-grade email authoring and delivery experience to B2B marketers. This release introduces redesigned email design tools and a complete set of email deliverability controls.
-
 The following information is for administrators who configure sending infrastructure to support marketers and email authors. It describes deliverability features, roles and permissions, and how to configure subdomains, authentication, IP pools, and channel configurations.
 
 For detailed information about creating emails and authoring email content in the email design space, see [Email authoring](../content/email-authoring.md).
 
-## Email channel overview {#overview}
-
-* **Visual drag-and-drop email design tools** -  Design your email content with structures, content components, themes, dark-mode support, and reusable visual fragments.
-* **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
-* **Email deliverability controls** - Set up your email deliverability channel, including subdomain delegation (Fully Delegated and CNAME methods), DMARC, SPF/DKIM auto-configuration, and shared IP pool support.
-* **Send Email action** - From a journey, add a Send email action, including personalization using profile attributes (Handlebars syntax).
-* **Marketo Design Studio assets** — choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas.
-* **Reusable templates and fragments** — Save common headers, footers, CTAs, and full email layouts and reuse them across journeys.
-* **Role-Based Access Control (RBAC)** — apply granular permissions for creating, editing, approving, and sending email.
-
 ## Key concepts {#key-concepts}
 
-Before configuring email, review these concepts that apply to email channel features throughout the product.
+Before configuring email, review these concepts that apply to email channel deliverability features:
 
 | Concept | What it means in [!DNL Journey Optimizer B2B Edition] Prime |
 | ------- | ---------------------- |
 | **_Channel configuration_** | A reusable set of email-sending settings — including sender identity, reply-to address, subdomain, IP pool, email type (marketing or transactional), and tracking — that you attach to email actions in journeys. You can have multiple named channel configurations for different brands, business units, or send types. |
 | **_Subdomain_** | A delegated portion of your sending domain (for example, `mail.contoso.com`) used to send email through Prime. Subdomains isolate your B2B marketing reputation from corporate or transactional mail. |
 | **_IP pool_** | A group of IP addresses associated with one or more subdomains. Prime supports a shared IP pool managed by Adobe in this release; dedicated IP pools are on the GA roadmap. |
-| **_Email design space_** | The visual canvas and design tools used to compose email content. It includes drag-and-drop layout components, templates, fragments, themes, and a personalization editor. |
-| **_Template_** | A reusable email layout that is available for creating a new email. It can be either a built-in sample template provided by Adobe or a custom-built template created by your team. |
-| **_Visual fragment_** | A reusable block of content (such as a header, footer, CTA, legal disclaimer) that can be inserted into multiple emails. Updating a fragment propagates the change to every email that uses it. |
-| **_Theme_** | A reusable styling preset (colors, typography, spacing, button styles) applied across an email. |
-| **_Personalization token_** | A Handlebars expression — for example, `{{profile.firstName}}` — resolved at send time using each recipient's profile data. |
-| **_Send Email action_** | The journey action node that uses a channel configuration and email content to deliver an email. |
 
 ## Roles and permissions {#roles-permissions}
 
@@ -85,7 +67,7 @@ Most email features follow a `view-*` (read) and `manage-*` (write) pattern. A u
 | **Manage assets** | `manage-b2b-assets` | All read access plus future asset-management actions (Beta scope). |
 | **Export message data** | `manage-b2b-message-export` | Export email-level message data and reports. |
 
-Within a journey, the **Send email** action requires `manage-b2b-person-journeys` (to add the action and activate the journey). A user with only email permissions can author content but cannot add an email to a journey.
+Within a person journey, the **Send email** action requires `manage-b2b-person-journeys` (to add the action and activate the journey). A user with only email permissions can author content but cannot add an email to a journey.
 
 ### Email deliverability permissions {#email-deliverability-permissions}
 

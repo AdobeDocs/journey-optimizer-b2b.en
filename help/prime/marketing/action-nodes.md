@@ -155,7 +155,7 @@ Use this action to send an email to opted-in people. People who are unsubscribed
 
 ![Take an action - Send email](./assets/person-action-node-send-email.png){width="450"}
 
-You can create an email, edit an existing email, or use an AI-personalized email. For information about creating and editing emails, see [Email authoring](../content/email-authoring.md).
+You can create an email, edit an existing email, or use an AI-personalized email. For information about creating and editing emails, see [Email channel](../marketing/email-channel.md).
 
 You can use [Send-time optimization](../marketing/email-send-time-optimization.md) to personalize email delivery timing by predicting when each profile is most likely to engage.
 

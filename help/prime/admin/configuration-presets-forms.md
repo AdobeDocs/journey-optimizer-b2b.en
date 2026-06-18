@@ -44,7 +44,7 @@ For detailed information about creating a streaming source connections, refer to
 <!-- 
 permissions coming in GA
 
-Forms channel configuration in Journey Optimizer B2B Edition requires the following permissions](../admin/user-management.md#b2b-product-permissions):
+Forms channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 
 * _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View Forms Presets]_ - Required to view forms preset configurations.
 * _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage Forms Presets]_ - Required to create, update, and delete forms preset configurations.

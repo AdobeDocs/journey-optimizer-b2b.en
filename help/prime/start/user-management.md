@@ -6,14 +6,16 @@ description: "Manage user access in the Adobe Admin Console: create user groups,
 
 After provisioning is complete and sandboxes are bound, complete the following steps to provide Adobe Journey Optimizer B2B Edition access for your team and users.
 
-1. [Create an Adobe Journey Optimizer B2B Edition product profile](#ajo-b2b-profile) in the Admin Console (one-time/initial setup only).
+1. [Create an Adobe Journey Optimizer B2B Edition product profile](#create-profile) in the Admin Console (one-time/initial setup only).
 1. [Add a user group](#add-user-group) in the Admin Console.
 1. [Edit built-in roles](#edit-roles-for-product-permissions) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions in Adobe Experience Platform permissions.
 1. [Add users](#add-users-to-a-role) or [groups](#add-user-groups-to-a-role) to roles in Adobe Experience Platform.
 
+## Configure the product profile {#config-profile}
+
 As an administrator, you can complete these tasks in the Adobe Admin Console, which is a central place to administer and manage your Adobe product licenses and users. In the Admin Console, you can create and manage users in a single location instead of within your various individual solutions. To learn more about its functions and capabilities, refer to the [Admin Console overview](https://helpx.adobe.com/enterprise/using/admin-console.html) page.
 
-## Access the Admin Console
+### Access the Admin Console
 
 Before you can use the Admin Console to administer users within your team, you need to ensure that you can access the Admin Console and have the appropriate permissions.
 
@@ -43,15 +45,13 @@ Before you can use the Admin Console to administer users within your team, you n
 
    * If the value in the **[!UICONTROL ADMIN ROLE]** column shows `System`, you know that you (or the displayed user) are a system administrator.
 
-## Create the Adobe Journey Optimizer B2B Edition product profile {#ajo-b2b-profile}
+### Create the Adobe Journey Optimizer B2B Edition product profile {#create-profile}
 
 When granting users access to an Adobe solution, you do not necessarily want to give them full access. Product profiles enable each solution to have its own set of user permissions. Use the Admin Console to assign product profiles.
 
 For more information about using product profiles for user entitlements, see [_Manage product profiles for enterprise users_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"} in the Admin Console documentation.
 
-![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or Adobe Journey Optimizer B2B Edition product administrator can perform the following steps.
-
-1. Log in to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or Adobe Journey Optimizer B2B Edition product administrator can perform the following steps from [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Select the **[!UICONTROL Products]** tab.
 
@@ -63,15 +63,13 @@ For more information about using product profiles for user entitlements, see [_M
 
 1. Click **[!UICONTROL Next]** and then **[!UICONTROL Save]**.
 
-## Add a user group {#add-user-group}
+### Add a user group {#add-user-group}
 
 A user group is a collection of users who are granted a shared set of permissions. You can add or remove users in your user group. The group permissions remain the same while the users within the group change.
 
 For more information about how user groups are used to manage permissions, see [Manage user groups](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} in the Admin Console documentation.
 
-![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator can perform the following steps.
-
-1. Log in to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator can perform the following steps from [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Select the **[!UICONTROL Users]** tab.
 
@@ -83,39 +81,11 @@ For more information about how user groups are used to manage permissions, see [
 
    ![Admin console - add user group](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"} 
 
-## Add users to the new group {#add-users}
+### Assign the product profile {#assign-profile}
 
-For information about user management, see [_Adobe Admin Console users_](https://helpx.adobe.com/enterprise/using/users.html){target="_blank"} in the Admin Console documentation.
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A product administrator can perform the following steps from [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or product administrator can perform the following steps. A product administrator can add only users that already exist in their organization.
-
-1. Go to [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
-
-1. Under _[!UICONTROL Quick links]_, click **[!UICONTROL Add users]**.
-
-1. Add each user:
-
-   * Enter the user's email address, first name, and last name.
-
-     ![Admin console - add user profile for the new group](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
-
-   * For **[!UICONTROL User groups]**, click **+**.
-
-   * Select the user group that you created previously.
-   
-   * Click **[!UICONTROL Apply]**.
-
-1. Click **[!UICONTROL Save]**.
-
-## Assign the product profile {#assign-profile}
-
->[!IMPORTANT]
->
->When configuring user groups, always add users to the group before assigning the product profile to the group. Assigning a product profile to an empty user group and adding users afterward does not correctly propagate access. To ensure that permissions are applied, populate the user group with members first, then assign the product profiles.
-
-![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A product administrator can perform the following steps.
-
-1. Click the user group where you added users.
+1. Click the user group that you created.
 
 1. Select the **[!UICONTROL Assigned product profiles]** tab and click **[!UICONTROL Assign profile]**.
 
@@ -130,6 +100,38 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
 1. Click **[!UICONTROL Save]**.
 
+### Add users to the new group {#add-users}
+
+For information about user management, see [_Adobe Admin Console users_](https://helpx.adobe.com/enterprise/using/users.html){target="_blank"} in the Admin Console documentation.
+
+![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or product administrator can perform the following steps from [https://adminconsole.adobe.com](https://adminconsole.adobe.com). A product administrator can add only users that already exist in their organization.
+
+1. If the users are not already members of your organization, add each user:
+
+   * Under _[!UICONTROL Quick links]_, click **[!UICONTROL Add users]**.
+
+   * Enter the user's email address and click **[!UICONTROL Add as new user]**.
+
+      ![Admin console - add user profile for the new group](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
+   
+   * Enter the first and last name, then click **[!UICONTROL Save]**.
+
+1. Add each user to the group:
+
+   * Click the user name.
+
+   * In the user details page, scroll to **[!UICONTROL User groups]**.
+   
+   * Click the _More_ ( **...** ) icon on the left and choose **[!UICONTROL Edit user groups]**.
+
+   * Click the _Add_ ( **+** ) icon below **[!UICONTROL User groups]**.
+
+      ![Admin console - select user group for user](./assets/admin-console-user-edit-user-groups.png){width="600" zoomable="yes"}
+
+   * Select the user group that you created previously and click **[!UICONTROL Apply]**.
+
+   * Click **[!UICONTROL Save]** for the user changes.
+
 ## Edit roles for product permissions {#edit-roles-for-product-permissions}
 
 Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is grouped under a capability, such as journeys or buying groups, representing functionalities in Journey Optimizer B2B Edition.
@@ -137,6 +139,16 @@ Permissions are unitary rights that allow you to define the authorizations assig
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
 For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
+
+1. Go to [experience.adobe.com](https://experience.adobe.com/).
+
+1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
+
+   >[!NOTE]
+   >
+   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
+
+   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 <!--
 
@@ -154,7 +166,6 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 | B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
 | B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
 | Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
--->
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
@@ -167,6 +178,8 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 | B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
 | B2B Sales User | <li>View B2B Engagement Dashboard <li>View B2B Buying Groups <li>Access In-CRM Insights |
 
+-->
+
 ### Edit role permissions {#edit-role-permissions}
 
 For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
@@ -178,16 +191,6 @@ In the following example, you want to add permissions related to the B2B Journey
 >An Admin Console system administrator can perform these steps.
 
 _To change the permissions for a role:_
-
-1. Go to [experience.adobe.com](https://experience.adobe.com/).
-
-1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
-
-   >[!NOTE]
-   >
-   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
-
-   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 1. Select **[!UICONTROL Roles]** in the left navigation.
 
@@ -259,7 +262,7 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
 1. Click **[!UICONTROL Save]** when you have selected all the groups that you want to add.
 
-## Create a custom role {#create-a-custom-role}
+### Create a custom role {#create-a-custom-role}
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
