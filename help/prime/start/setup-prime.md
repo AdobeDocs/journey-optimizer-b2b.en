@@ -45,22 +45,22 @@ When provisioning is complete, sandboxes are bound, and initial setup tasks are 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Create a Marketo Engage product profile in the Adobe Admin Console (new Marketo Engage instance only)</td>
-<td><a href="./admin/user-management.md#marketo-engage-profile">Learn more</a></td>
+<td><a href="./user-management.md#create-profile">Learn more</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Add a user group for the profile</td>
-<td><a href="./admin/user-management.md#add-user-group">Learn more</a></td>
+<td><a href="./user-management.md#add-user-group">Learn more</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Configure B2B user roles</td>
-<td><a href="./admin/user-management.md#b2b-built-in-roles">Learn more</a></td>
+<td><a href="./user-management.md#edit-roles-for-product-permissions">Learn more</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Add users or groups to the roles</td>
-<td><a href="./admin/user-management.md#add-users-to-a-role">Learn more</a></td>
+<td><a href="./user-management.md#add-users-to-a-role">Learn more</a></td>
 </tr>
 </tbody>
 </table>

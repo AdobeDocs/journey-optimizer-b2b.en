@@ -31,7 +31,7 @@ The amount of information that the form should capture depends on the value of t
 >
 
 <!-- 
->Form creation in Journey Optimizer B2B Edition requires the following [permissions](../admin/user-management.md#b2b-product-permissions):
+>Form creation in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.

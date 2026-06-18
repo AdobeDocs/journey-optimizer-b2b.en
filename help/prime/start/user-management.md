@@ -6,7 +6,7 @@ description: "Manage user access in the Adobe Admin Console: create user groups,
 
 After provisioning is complete and sandboxes are bound, complete the following steps to provide Adobe Journey Optimizer B2B Edition access for your team and users.
 
-1. [Create an Adobe Journey Optimizer B2B Edition product profile](#ajo-b2b-profile) in the Admin Console (one-time/initial setup only).
+1. [Create an Adobe Journey Optimizer B2B Edition product profile](#create-profile) in the Admin Console (one-time/initial setup only).
 1. [Add a user group](#add-user-group) in the Admin Console.
 1. [Edit built-in roles](#edit-roles-for-product-permissions) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions in Adobe Experience Platform permissions.
 1. [Add users](#add-users-to-a-role) or [groups](#add-user-groups-to-a-role) to roles in Adobe Experience Platform.
@@ -110,7 +110,7 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
    * Under _[!UICONTROL Quick links]_, click **[!UICONTROL Add users]**.
 
-   * Enter the user's email address and click Add as new user.
+   * Enter the user's email address and click **[!UICONTROL Add as new user]**.
 
       ![Admin console - add user profile for the new group](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
    
