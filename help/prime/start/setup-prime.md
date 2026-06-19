@@ -102,5 +102,3 @@ Before marketers can send email from journeys, configure the sending infrastruct
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Configure email channel</a></td>
 </tr>
 </tbody>
-</table>
-
