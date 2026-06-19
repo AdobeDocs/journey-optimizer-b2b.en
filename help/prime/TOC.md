@@ -10,6 +10,7 @@ hide: true
 + Get started {#start}
    + [Setup checklist](./start/setup-prime.md)
    + [User management](./start/user-management.md)
+   + [Email deliverability](./start/email-deliverability.md)
 + [Home and Insights](./home-insights/home-insights.md)
 + [Agents](./agents/agents.md)
 + Marketing management {#marketing-management}
@@ -27,7 +28,7 @@ hide: true
    + Email channel {#email-channel}
       + [Overview](./marketing/email-channel.md)
       + [Email send-time optimization](./marketing/email-send-time-optimization.md)
-      + [Email authoring](./content/email-authoring.md)
+      + [Content authoring](./content/email-authoring.md)
       + [Dark mode design](./content/email-dark-mode.md)   
    + [WhatsApp channel](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
@@ -48,9 +49,9 @@ hide: true
 + Administration {#admin}
    + {hide-from-toc} [Administration](./admin/admin.md)
    + Channels {#channels}
-      + [Email deliverability and channel configuration](./admin/configuration-email-deliverability.md)
-      + [SMS channel configuration](./admin/configuration-channels-sms.md)
-      + [Web channel configuration](./admin/configuration-channels-web.md)
+      + [Email channel configuration](./admin/email-channel-configuration.md)
+      + {hide-from-toc} [SMS channel configuration](./admin/configuration-channels-sms.md)
+      + {hide-from-toc} [Web channel configuration](./admin/configuration-channels-web.md)
       + [WhatsApp channel configuration](./admin/configuration-channels-whatsapp.md)
       + [Landing page configuration](./admin/configuration-presets-landing-pages.md)
       + [Form preset configuration](./admin/configuration-presets-forms.md)

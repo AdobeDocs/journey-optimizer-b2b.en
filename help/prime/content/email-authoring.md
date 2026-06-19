@@ -1,5 +1,5 @@
 ---
-title: Email authoring
+title: Email Content
 description: Use the email design tools in Journey Optimizer B2B Prime, including email templates, fragments, personalization, dark mode, and validation.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
@@ -24,15 +24,15 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Email authoring
+# Email content authoring
 
 In [!DNL Adobe Journey Optimizer B2B Prime], the email design space provides a visual canvas where marketers compose email. The email design tools in the left and top panels (structures, content components, templates, fragments, and more) support building from scratch with drag and drop. You can also choose to start from a template, paste raw HTML, or assemble messages from reusable visual fragments.
 
 >[!IMPORTANT]
 >
->For administrator setup of subdomains, authentication, IP pools, and email channel configurations, see [Email deliverability and channel configuration](../admin/configuration-email-deliverability.md).
+>For administrator setup of subdomains, authentication, IP pools, and email channel configurations, see [Email deliverability](../start/email-deliverability.md) and [Email channel configuration](../admin/email-channel-configuration.md).
 
-In [!DNL Journey Optimizer B2B Prime], every email is associated with a _[!UICONTROL Send Email]_ action within a journey. The full workflow from journey design to email definition happens in one continuous experience. When you [add a _Send email_ node](../marketing/action-nodes.md#add-an-action-node) to a person journey, click **[!UICONTROL Create email]** to start the email content design process.
+In [!DNL Adobe Journey Optimizer B2B Prime], every email is associated with a _[!UICONTROL Send Email]_ action within a journey. The full workflow from journey design to email definition happens in one continuous experience. When you [add a _Send Email_ node](../marketing/action-nodes.md#add-an-action-node) to a person journey, click **[!UICONTROL Create email]** to start the email content design process.
 
 This action launches the email design space, where you can choose how you want to design your email from the following options:
 
@@ -67,16 +67,13 @@ Following HTML and CSS best practices helps ensure consistent rendering across e
 
 ## Create an email from a journey {#email-from-journey}
 
-1. Click the **[!UICONTROL Edit email]** button to proceed to the email configuration step.
-1. On the next screen, select a previously created channel configuration from the **[!UICONTROL Email configuration]** drop-down. Only Active configurations are listed.
-1. Enter a Label for the action (visible on the journey canvas) and an internal Email name.
-1. Enter the Subject line.
-1. Optionally toggle **[!UICONTROL Enable URL tracking]** for this email node.
-1. Click **[!UICONTROL Edit content]** to open the email design space.
+To add a _[!UICONTROL Send Email]_ action to a person journey, create the email, and configure channel settings on the **[!UICONTROL Actions]** tab, see [Add emails to journeys](../marketing/email-channel.md).
+
+After you configure the email on the **[!UICONTROL Properties]**, **[!UICONTROL Actions]**, and **[!UICONTROL Content]** tabs, use the sections in this topic to design the email body in the email design space.
 
 ### The Edit Content screen {#edit-content-screen}
 
-From this screen you confirm sender details (inherited from the channel configuration), set the subject line, and open the email design space to author the body. The preheader is configured in the email design space (see [Setting the preheader](#preheader)).
+From the **[!UICONTROL Content]** tab, you confirm sender details (inherited from the [email channel configuration](../admin/email-channel-configuration.md)), set the subject line, and open the email design space to author the body. The preheader is configured in the email design space (see [Setting the preheader](#preheader)).
 
 * **From Name, From Email, BCC:** Inherited from the channel configuration. Read-only on this screen.
 * **Subject line:** Required. Personalization is supported.
@@ -297,10 +294,10 @@ Before your journey can be activated, the email content must be valid. Prime sur
 
 | Alert | What it means | How to resolve |
 | ----- | ------------- | -------------- |
-| **Subject line is missing** | The Subject line field is empty. | Open the email and enter a subject line on the Edit content screen. Personalization tokens are allowed but the field cannot be empty. |
+| **Subject line is missing** | The Subject line field is empty. | Open the email and enter a subject line on the **[!UICONTROL Content]** tab. Personalization tokens are allowed but the field cannot be empty. |
 | **Email body is empty** | The canvas in the email design space has no content. | Click **[!UICONTROL Edit email body]** to open the email design space. Drag at least one Structure and one Content component onto the canvas, then click Save. |
-| **Channel configuration not selected** | No Email configuration has been chosen for the email node. | On the email properties screen, select an Active channel configuration from the **[!UICONTROL Email configuration]** drop-down. |
-| **Channel configuration deleted** | The previously selected channel configuration has been deleted or is no longer Active. | Open the email properties and select another Active channel configuration. If none are available, an administrator must create or reactivate one. |
+| **Channel configuration not selected** | No email channel configuration has been chosen for the email node. | On the **[!UICONTROL Actions]** tab, select an Active **[!UICONTROL Email channel configuration]**. |
+| **Channel configuration deleted** | The previously selected channel configuration has been deleted or is no longer Active. | On the **[!UICONTROL Actions]** tab, select another Active **[!UICONTROL Email channel configuration]**. If none are available, an administrator must create or reactivate one in [Email channel configuration](../admin/email-channel-configuration.md). |
 | **Email size exceeds 100 KB** | Total email size (HTML, inline CSS, encoded content) is larger than the 100 KB ISP best-practice cap. | Reduce the email size: replace large inline images with externally-hosted images from Marketo Design Studio, remove unused inline CSS, simplify nested structures. |
 | **Unresolved personalization token** | A Handlebars token references a profile attribute with no fallback, and the attribute may be missing for some recipients. | Add a fallback using the Handlebars `default` helper as described in [Personalization](#personalization). Alternatively, restrict the journey audience to profiles where the attribute is guaranteed. |
 | **Image not loaded** | An image component references an asset that is no longer available. | Click the image, open the asset picker, and re-select the asset from Marketo Design Studio. |
