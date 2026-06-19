@@ -81,7 +81,7 @@ The [role permissions assigned in the custom service](https://experienceleague.a
 
 ## Use the connection in a journey action
 
-When a marketer uses a Marketo Engage action in a journey, they can configure the node using the connection name.
+When a marketer uses a Marketo Engage action in a journey, they configure the node using the connection name.
 
 >[!NOTE]
 >

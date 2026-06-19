@@ -40,7 +40,7 @@ To support the email delivery infrastructure provided by the attached Marketo En
 
 ## Email settings
 
-To set up email default values for the attached Marketo Engage instance, change the configured values to reflect usage by your marketing organization.
+To set up email default values for the attached Marketo Engage instance, change the configured values to reflect usage by your Marketing team.
 
 ### From email and label
 

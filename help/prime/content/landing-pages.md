@@ -229,16 +229,6 @@ Edits to a landing page depend on its current status:
 
 1. To make changes to the content in the visual design space, click **[!UICONTROL Edit landing page]**.
 
-   <!-- 
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the landing page details.
 
 1. When the page meets your criteria and you want to make it available for display, click **[!UICONTROL Publish]**.
@@ -257,18 +247,6 @@ Edits to a landing page depend on its current status:
 
    Click **[!UICONTROL Create draft version]** in the dialog to open the draft version in the visual design space.
 
-   <!-- 
-   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"} 
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the landing page details.
 
 1. When the draft landing page meets your criteria and you want to make the changes available on the published page, click **[!UICONTROL Publish]**.
@@ -284,18 +262,6 @@ When you open the landing page, the draft version is displayed. The tabs at the 
 To update the content:
 
 1. Click **[!UICONTROL Edit landing page]** at the top right.
-
-   <!--
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-
-   -->
 
 1. Click **[!UICONTROL Save]**, or **[!UICONTROL Save & close]** to return to the landing page details.
 

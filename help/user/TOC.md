@@ -1,6 +1,6 @@
 ---
-user-guide-title: Journey Optimizer B2B Ultimate Documentation
-user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Ultimate and how you can use it to orchestrate account and buying group journeys using built-in generative AI and industry-leading automation.
+user-guide-title: Journey Optimizer B2B Edition Documentation
+user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how you can use it to orchestrate account and buying group journeys using built-in generative AI and industry-leading automation.
 ---
 
 # Journey Optimizer B2B Ultimate User Guide {#user}
@@ -9,7 +9,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Ultimate
 + [Release notes](./release-notes/release-notes.md)
 + Get started {#get-started}
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
-    + Ultimate setup {#ultimate}
+    + Environment setup {#admin-setup}
        + [Setup checklist](./setup-ultimate.md)
        + [Namespaces and schemas](./data/namespaces-schemas.md)
        + [XDM field selection](./admin/xdm-field-management.md)
