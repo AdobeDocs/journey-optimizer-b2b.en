@@ -299,4 +299,3 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 1. Click **[!UICONTROL Save]**.
 
 Your custom role is configured and users in the assigned group can now access the Journey Optimizer B2B Edition capabilities you selected.
-<!-- -->

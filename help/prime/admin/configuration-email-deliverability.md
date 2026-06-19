@@ -369,4 +369,3 @@ Most B2B organizations use multiple channel configurations to separate brands, r
 | **Subdomain delegation** | Granting Adobe authority over a portion of your domain (a subdomain) for sending email. |
 
 -->
-<!-- -->
