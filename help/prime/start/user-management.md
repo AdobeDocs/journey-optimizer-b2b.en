@@ -8,14 +8,14 @@ After provisioning is complete and sandboxes are bound, complete the following s
 
 1. [Create an Adobe Journey Optimizer B2B Edition product profile](#create-profile) in the Admin Console (one-time/initial setup only).
 1. [Add a user group](#add-user-group) in the Admin Console.
-1. [Edit built-in roles](#edit-roles-for-product-permissions) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions in Adobe Experience Platform permissions.
+1. [Edit built-in roles](#edit-role-permissions) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions in Adobe Experience Platform permissions.
 1. [Add users](#add-users-to-a-role) or [groups](#add-user-groups-to-a-role) to roles in Adobe Experience Platform.
 
 ## Configure the product profile {#config-profile}
 
 As an administrator, you can complete these tasks in the Adobe Admin Console, which is a central place to administer and manage your Adobe product licenses and users. In the Admin Console, you can create and manage users in a single location instead of within your various individual solutions. To learn more about its functions and capabilities, refer to the [Admin Console overview](https://helpx.adobe.com/enterprise/using/admin-console.html) page.
 
-### Access the Admin Console
+### Access the Admin Console {#admin-console}
 
 Before you can use the Admin Console to administer users within your team, you need to ensure that you can access the Admin Console and have the appropriate permissions.
 
@@ -132,9 +132,9 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
    * Click **[!UICONTROL Save]** for the user changes.
 
-## Edit roles for product permissions {#edit-roles-for-product-permissions}
+## Assign product permissions {#assign-product-permissions}
 
-Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is grouped under a capability, such as journeys or buying groups, representing functionalities in Journey Optimizer B2B Edition.
+Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is grouped under a capability, such as journeys or buying groups, representing functionalities in [!DNL Journey Optimizer B2B Prime].
 
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 

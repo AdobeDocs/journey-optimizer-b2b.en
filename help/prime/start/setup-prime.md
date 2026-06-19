@@ -1,5 +1,5 @@
 ---
-title: Setup
+title: Setup Checklist
 description: Complete initial setup tasks for your Journey Optimizer B2B Prime instance, including user access configuration and email deliverability infrastructure.
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
@@ -22,13 +22,13 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 ---
-# Setup
+# Setup checklist
 
-Complete these tasks to enable functionality in your provisioned Journey B2B Prime instance.
+Complete these tasks to enable functionality in your provisioned [!DNL Journey Optimizer B2B Prime] instance.
 
-## Enable user access
+## Enable user access {#enable-user-access}
 
-When provisioning is complete, sandboxes are bound, and initial setup tasks are complete, configure Journey Optimizer B2B Edition and Marketo Engage access for your team and users.
+When provisioning is complete and sandboxes are bound, configure [!DNL Journey Optimizer B2B Edition] access for your team and users.
 
 <table>
 <thead>
@@ -43,29 +43,29 @@ When provisioning is complete, sandboxes are bound, and initial setup tasks are 
 <td></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
-<td>Create a Marketo Engage product profile in the Adobe Admin Console (new Marketo Engage instance only)</td>
-<td><a href="./user-management.md#create-profile">Learn more</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
+<td>Create a Journey Optimizer B2B Edition product profile in the Admin Console (one-time/initial setup only)</td>
+<td><a href="./user-management.md#create-profile">Create profile</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
-<td>Add a user group for the profile</td>
-<td><a href="./user-management.md#add-user-group">Learn more</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
+<td>Add a user group in the Admin Console</td>
+<td><a href="./user-management.md#add-user-group">Add user group</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
-<td>Configure B2B user roles</td>
-<td><a href="./user-management.md#edit-roles-for-product-permissions">Learn more</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
+<td>Edit built-in roles or create a custom role with product permissions</td>
+<td><a href="./user-management.md#edit-role-permissions">Edit roles</a> <br/> <a href="./user-management.md#create-a-custom-role">Create a custom role</a></td>
 </tr>
 <tr>
-<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
-<td>Add users or groups to the roles</td>
-<td><a href="./user-management.md#add-users-to-a-role">Learn more</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
+<td>Add users or groups to roles in Adobe Experience Platform</td>
+<td><a href="./user-management.md#add-users-to-a-role">Add users</a> <br/><a href="./user-management.md#add-user-groups-to-a-role">Add groups</a></td>
 </tr>
 </tbody>
 </table>
 
-## Email deliverability
+## Email deliverability {#email-deliverability}
 
 Before marketers can send email from journeys, configure the sending infrastructure for your organization, including subdomain delegation, email authentication, and channel settings.
 
@@ -82,24 +82,24 @@ Before marketers can send email from journeys, configure the sending infrastruct
 <td></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
-<td>Delegate a subdomain to Adobe</td>
-<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Fully Delegated</a> or <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
+<td>Delegate a subdomain to Adobe (Fully delegated or CNAME)</td>
+<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Fully delegated</a> <br/> <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
 <td>Configure DMARC for the subdomain</td>
-<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Learn more</a></td>
+<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Configure DMARC</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
 <td>Review and assign an IP pool</td>
-<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Learn more</a></td>
+<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Review IP pool</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
 <td>Create an email channel configuration</td>
-<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Learn more</a></td>
+<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Configure email channel</a></td>
 </tr>
 </tbody>
 </table>
