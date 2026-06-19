@@ -43,22 +43,22 @@ When provisioning is complete, sandboxes are bound, and initial setup tasks are 
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Create a Marketo Engage product profile in the Adobe Admin Console (new Marketo Engage instance only)</td>
 <td><a href="./user-management.md#create-profile">Learn more</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Add a user group for the profile</td>
 <td><a href="./user-management.md#add-user-group">Learn more</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Configure B2B user roles</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">Learn more</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Add users or groups to the roles</td>
 <td><a href="./user-management.md#add-users-to-a-role">Learn more</a></td>
 </tr>
@@ -82,22 +82,22 @@ Before marketers can send email from journeys, configure the sending infrastruct
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Delegate a subdomain to Adobe</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Fully Delegated</a> or <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Configure DMARC for the subdomain</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Learn more</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Review and assign an IP pool</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Learn more</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
 <td>Create an email channel configuration</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Learn more</a></td>
 </tr>

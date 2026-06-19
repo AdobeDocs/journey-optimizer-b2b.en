@@ -3,7 +3,7 @@ title: Assets
 description: Manage image assets from Journey Optimizer B2B Edition for emails, templates, and visual fragments.
 feature: Assets, Content
 role: User
-badge: label="Beta" type="Informative"
+badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
 product_v2:
@@ -25,13 +25,17 @@ role_v2:
 ---
 # Assets
 
-In [!DNL Adobe Journey Optimizer B2B Prime], assets are typically the images used when designing content to support journeys. You can use these images within your emails, email templates, and visual fragments from the asset selector or a simple drag-and-drop interface within the visual design space.
+In [!DNL Adobe Journey Optimizer B2B Prime], assets are typically the images used when designing content to support journeys. You can use these images within your [emails](email-authoring.md), [email templates](templates.md), and [visual fragments](email-authoring.md#visual-fragments) from the asset selector or a simple drag-and-drop interface within the visual design space.
 
 Supported file formats: JPG, JPEG, GIF, PNG, EPS, SVG, and RGB
 
-
+>[!NOTE]
 >
->Import of assets from external systems such as the Marketo Engage DAM and access to a pre-populated asset library are not yet available. Future releases are expected to include asset import from existing systems, folder support, and expanded asset management capabilities.
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+>
+>You can upload additional image assets from the _[!UICONTROL Assets]_ library or content design space. These uploaded assets are available for use only in the [!DNL Journey Optimizer B2B Prime] instance.
+>
+>Import of assets from external systems and access to a pre-populated asset library are not yet available. Future releases are expected to include asset import from existing systems, folder support, and expanded asset management capabilities.
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
@@ -39,17 +43,13 @@ The **Assets** library provides access to the centralized repository for storing
 
 In the left navigation, expand **[!UICONTROL Content Management]** and select **[!UICONTROL Assets]**.
 
->[!NOTE]
->
->In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. You can also upload additional image assets from the _[!UICONTROL Assets]_ library or content design space. These uploaded assets are available for use only in the [!DNL Adobe Journey Optimizer B2B Prime] instance.
-
-![Assets library](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
+![Assets library list view showing sortable metadata columns](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
 The first time you access the _[!UICONTROL Assets]_ library, review the [_[!UICONTROL Generative AI Terms of Use]_](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) and confirm your agreement.
 
-![Assets library](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+![Generative AI Terms of Use agreement dialog in Assets library](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ The library supports two layout options:
 
 ## Search for assets {#find-assets}
 
-Use the _[!UICONTROL Search]_ field to find assets by describing what you need in natural language. Search results are based on AI-generated metadata, so you are not limited to searching by file name. 
+Use the _[!UICONTROL Search]_ field to find assets by describing what you need in natural language. Search results are based on AI-generated metadata, so you are not limited to searching by file name.
 
 **Examples:**
 
@@ -72,15 +72,13 @@ Use the _[!UICONTROL Search]_ field to find assets by describing what you need i
 
 ## View asset details {#view-details}
 
-Select an asset to open its detail view. The detail view displays an AI-generated description, tags and keywords, and additional metadata fields. This information is generated automatically when the asset is uploaded.
+Select any asset in list or gallery view to open its detail view on the right, which displays an AI-generated description, tags, keywords, and additional metadata fields. This information is generated automatically when the asset is uploaded. Select the **[!UICONTROL AI metadata]** tab to review the generated description, tags, and metadata.
 
-Select any asset in list or gallery view to open its detail view on the right. Select the AI metadata tab to view AI-generated description, tags, and metadata. 
-
-![Selected image from search results in Assets library](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
+![Asset detail view showing AI-generated metadata and tags](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
 
 ## Upload an asset {#upload}
 
-1. Click **[!UICONTROL Upload]** to the top right.
+1. Click **[!UICONTROL Upload]** at the top right.
 
 1. In the dialog, drag and drop a file from your local system.
 

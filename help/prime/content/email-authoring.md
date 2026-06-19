@@ -262,7 +262,7 @@ Prime makes your existing Marketo Design Studio assets available in the email de
 
 >[!IMPORTANT]
 >
->Asset availability in Prime is based on a **one-time copy** of your assets from Marketo Design Studio. Re-uploading or modifying assets in Marketo after the initial copy will **not** be reflected in Prime. Image uploads directly into Prime are also not supported in this release. Native digital asset management within Prime — including upload, folder navigation, search, and image editing — is part of the Beta scope.
+>Asset availability in Prime is based on a **one-time copy** of your assets from Marketo Design Studio. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime]. 
 
 ### Supported file types {#asset-file-types}
 
