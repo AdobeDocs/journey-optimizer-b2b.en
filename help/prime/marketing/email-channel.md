@@ -171,7 +171,8 @@ The optimization is email-client safe:
 >
 >The reduction in email size depends on the original HTML structure of your email. If the content is already compact or the email payload is very large, the reduction may be minimal and may not fully prevent clipping in all cases.
 
-<!-- Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
+<!-- 
+Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
 
 ### Test HTML size optimization {#optimize-html-proof}
 
