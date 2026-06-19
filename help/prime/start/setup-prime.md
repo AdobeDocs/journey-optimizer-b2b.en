@@ -1,6 +1,7 @@
 ---
 title: Setup Checklist
 description: Complete initial setup tasks for your Journey Optimizer B2B Prime instance, including user access configuration and email deliverability infrastructure.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
 product_v2:
@@ -84,21 +85,21 @@ Before marketers can send email from journeys, configure the sending infrastruct
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
 <td>Delegate a subdomain to Adobe (Fully delegated or CNAME)</td>
-<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Fully delegated</a> <br/> <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
+<td><a href="./email-deliverability.md#delegate-fully-delegated">Fully delegated</a> <br/> <a href="./email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
 <td>Configure DMARC for the subdomain</td>
-<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Configure DMARC</a></td>
+<td><a href="./email-deliverability.md#configure-dmarc">Configure DMARC</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
 <td>Review and assign an IP pool</td>
-<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Review IP pool</a></td>
+<td><a href="./email-deliverability.md#review-ip-pool">Review IP pool</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
 <td>Create an email channel configuration</td>
-<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Configure email channel</a></td>
+<td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">Configure email channel</a></td>
 </tr>
 </tbody>

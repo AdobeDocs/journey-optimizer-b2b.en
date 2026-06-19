@@ -1,6 +1,7 @@
 ---
-title: Email Deliverability and Channel Configuration
-description: Configure subdomain delegation, DMARC, SPF, DKIM, IP pools, and email channel configurations for Journey Optimizer B2B Prime.
+title: Email Deliverability Configuration
+description: Configure subdomain delegation, DMARC, SPF, DKIM, and IP pools for Journey Optimizer B2B Prime.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
 product_v2:
@@ -22,27 +23,49 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 ---
-# Email deliverability and channel configuration
+# Email deliverability
 
-The following information is for administrators who configure sending infrastructure to support marketers and email authors. It describes deliverability features, roles and permissions, and how to configure subdomains, authentication, IP pools, and channel configurations.
+The following information is for administrators who configure sending infrastructure to support marketers and email content creators. It describes deliverability features and how to configure subdomains, authentication, and IP pools. See the following topics for additional information about email channels:
 
-For detailed information about creating emails and authoring email content in the email design space, see [Email authoring](../content/email-authoring.md).
+* Configuring email channels - [Email channel configuration](../admin/email-channel-configuration.md)
+* Creating emails - [Add emails to journeys](../marketing/email-channel.md)
+* Designing email content - [Email content authoring](../content/email-authoring.md).
+
+Email deliverability in [!DNL Journey Optimizer B2B Prime] is the set of infrastructure and authentication configurations that help email messages reach the recipient's inbox, not the spam folder, and not blocked by ISPs (Internet Service Providers).
+
+It uses the following building blocks, configured by an administrator, typically in the following order:
+
+1. [Delegate one or more subdomains](#subdomain-delegation) to Adobe.
+1. [Configure DMARC, SPF, and DKIM records](#dmarc-spf-dkim) on each subdomain.
+1. [Confirm the IP pool](#ip-pools) used to send email for your subdomain.
+1. [Create one or more email channel configurations](../admin/email-channel-configuration.md#create-email-channel-configuration) that bind a subdomain, IP pool, and sender identity.
+
+>[!TIP]
+>
+>Treat deliverability and channel setup as a one-time administrator activity. When configured, marketers and email authors do not need to revisit it.
+
+## Current limitations {#limitations}
+
+* **Custom Delegation method** for subdomain delegation is not yet available — use Fully Delegated or CNAME. Custom Delegation is targeted for GA.
+* **Dedicated IP pools** are not available at Beta. The shared IP pool is the only option. Dedicated IPs ship at GA, including IP warmup planning and PTR record management.
 
 ## Key concepts {#key-concepts}
 
 Before configuring email, review these concepts that apply to email channel deliverability features:
 
-| Concept | What it means in [!DNL Journey Optimizer B2B Edition] Prime |
+| Concept | What it means in [!DNL Journey Optimizer B2B Prime]  |
 | ------- | ---------------------- |
-| **_Channel configuration_** | A reusable set of email-sending settings — including sender identity, reply-to address, subdomain, IP pool, email type (marketing or transactional), and tracking — that you attach to email actions in journeys. You can have multiple named channel configurations for different brands, business units, or send types. |
 | **_Subdomain_** | A delegated portion of your sending domain (for example, `mail.contoso.com`) used to send email through Prime. Subdomains isolate your B2B marketing reputation from corporate or transactional mail. |
 | **_IP pool_** | A group of IP addresses associated with one or more subdomains. Prime supports a shared IP pool managed by Adobe in this release; dedicated IP pools are on the GA roadmap. |
+| **_Channel configuration_** | A reusable set of email-sending settings (sender identity, reply-to address, subdomain, IP pool, email type, and tracking) that you attach to email actions in journeys. You can have multiple named channel configurations for different brands, business units, or send types. |
+
+<!--
 
 ## Roles and permissions {#roles-permissions}
 
-[!DNL Journey Optimizer B2B Edition] Prime uses role-based access control (RBAC) for email features. Permissions are managed in the Adobe Admin Console (IMS) and synced at login. Product administrators assign granular permissions to product profiles, and then attach those product profiles to users.
+[!DNL Journey Optimizer B2B Prime] uses role-based access control (RBAC) for email features. Permissions are managed in the Adobe Admin Console (IMS) and synced at login. Product administrators assign granular permissions to product profiles, and then attach those product profiles to users.
 
-Access to email functionality in [!DNL Journey Optimizer B2B Edition] Prime is gated by two layers:
+Access to email functionality in [!DNL Journey Optimizer B2B Prime] is gated by two layers:
 
 1. **Feature flag (LD).** A LaunchDarkly flag controls whether the entire feature is turned on for your organization. Email authoring and deliverability are gated by `dx_ajo_btob_channel_foundation`. Without this flag, the feature is hidden regardless of permissions.
 2. **Functional permission.** A user-level permission that controls whether a specific user can read or write within a feature.
@@ -88,25 +111,11 @@ Channel configurations sit under **[!UICONTROL Channels]** → **[!UICONTROL Gen
 | ---------- | ---------- | -------------- |
 | **Manage channel configurations** | `manage-b2b-channels-configurations` | View, create, edit, and delete email channel configurations. |
 
-## Email deliverability overview {#deliverability-overview}
-
-Email deliverability in [!DNL Journey Optimizer B2B Edition] Prime is the set of infrastructure and authentication configurations that help email messages reach the recipient's inbox, not the spam folder, and not blocked by ISPs (Internet Service Providers).
-
-It uses the following building blocks, configured by an administrator, typically in the following order:
-
-1. Delegate one or more subdomains to Adobe.
-1. Configure DMARC, SPF, and DKIM records on each subdomain.
-1. Confirm the IP pool that will send email for your subdomain.
-1. Create one or more email channel configurations that bind a subdomain, IP pool, and sender identity.
-1. Use those channel configurations in journey email actions.
-
->[!TIP]
->
->Treat deliverability setup as a one-time administrator activity per business unit or brand. When configured, marketers and email authors do not need to revisit it.
+-->
 
 ## Subdomain delegation {#subdomain-delegation}
 
-Subdomain delegation tells the internet that Adobe is authorized to send email on behalf of a specific subdomain (for example, `mail.contoso.com`) of your domain. Delegating a dedicated subdomain — rather than your root domain — protects your corporate mail and results in a 
+Subdomain delegation tells the internet that Adobe is authorized to send email on behalf of a specific subdomain (for example, `mail.contoso.com`) of your domain. Delegating a dedicated subdomain — rather than your root domain — protects your corporate mail and provides the following benefits:
 
 * **Reputation isolation.** Marketing sends are kept separate from corporate mail. If marketing reputation dips, your transactional and corporate mail are not affected.
 * **Faster IP warmup.** Dedicated subdomains help establish positive sender reputation more quickly with ISPs.
@@ -117,9 +126,9 @@ Subdomain delegation tells the internet that Adobe is authorized to send email o
 >
 >Each subdomain in Prime can only be used by one Adobe product. You cannot share the same sending subdomain between Prime and another product such as Adobe Marketo Engage or Adobe Campaign — you must use distinct subdomains.
 
-### Supported methods
+### Supported methods {#supported-methods}
 
-Prime supports two of the three subdomain delegation methods at Alpha. The third method (Custom Delegation) is on the roadmap.
+Prime supports two of the three subdomain delegation methods in this Beta release. The third method (Custom Delegation) is on the roadmap.
 
 | Method | When to use | What it involves |
 | ------ | ----------- | ---------------- |
@@ -136,15 +145,16 @@ Prime supports two of the three subdomain delegation methods at Alpha. The third
 >* Create the new subdomain in your DNS provider, then wait 24–48 hours for DNS propagation before delegating to Adobe.
 >* Confirm you have the Administrator role in Prime.
 
-1. [!DNL Adobe Journey Optimizer B2B Edition] Prime, navigate to **[!UICONTROL Administration]** → **[!UICONTROL Channels]** → **[!UICONTROL Email settings]** → **[!UICONTROL Subdomains]**.
+1. In the [!DNL Adobe Journey Optimizer B2B Prime] left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Channels]**.
+1. In the panel, expand **[!UICONTROL Email settings]** and select **[!UICONTROL Subdomains]**.
 1. Click **[!UICONTROL Set up subdomain]**.
 1. Enter the full subdomain name (for example, `mail.contoso.com`).
 1. Choose **[!UICONTROL Fully Delegated]** as the delegation method.
-1. Configure DMARC for the subdomain (see [DMARC, SPF, and DKIM](#dmarc-spf-dkim)). 
+1. Configure DMARC for the subdomain (see [DMARC, SPF, and DKIM](#dmarc-spf-dkim)).
 
    At minimum, set up a DMARC record with a starting policy of `none` so you can monitor reports without affecting delivery.
 
-1. Review the list of DNS records for Adobe to manage. 
+1. Review the list of DNS records for Adobe to manage.
 
    These typically include MX, SPF, DKIM, DMARC, A, and CNAME records (for tracking and mirror-page URLs).
 
@@ -152,7 +162,7 @@ Prime supports two of the three subdomain delegation methods at Alpha. The third
 
 1. Your DNS team adds the NS records in your domain hosting solution that delegate the subdomain to Adobe.
 
-1. After your DNS team confirms the records are in place, return to [!DNL Journey Optimizer B2B Edition] Prime and check the box confirming that you have created the required records on the hosting site.
+1. After your DNS team confirms the records are in place, return to [!DNL Journey Optimizer B2B Prime] and check the box confirming that you have created the required records on the hosting site.
 
 1. Click **[!UICONTROL Submit]** to initiate a series of validation checks (pre-validation, MX, SPF, DKIM, DMARC, FBL registration).
 
@@ -162,26 +172,28 @@ Prime supports two of the three subdomain delegation methods at Alpha. The third
 
 >[!NOTE]
 >
->If validation fails, the status changes to **[!UICONTROL Failed]** and [!DNL Journey Optimizer B2B Edition] Prime displays the reason (for example, NS record not found, MX record missing, or DMARC misconfigured). Fix the underlying DNS issue, then retry submission.
+>If validation fails, the status changes to **[!UICONTROL Failed]** and [!DNL Journey Optimizer B2B Prime] displays the reason (for example, NS record not found, MX record missing, or DMARC misconfigured). Fix the underlying DNS issue, then retry submission.
 
 ### Delegate a subdomain (CNAME method) {#delegate-cname}
 
 Use this method only if your organization's DNS policy prohibits full delegation. With CNAME, you maintain DNS records on your side.
 
-1. In [!DNL Adobe Journey Optimizer B2B Edition] Prime, navigate to **[!UICONTROL Administration]** → **[!UICONTROL Channels]** → **[!UICONTROL Email settings]** → **[!UICONTROL Subdomains]**.
+1. In the [!DNL Adobe Journey Optimizer B2B Prime] left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Channels]**.
+1. In the panel, expand **[!UICONTROL Email settings]** and select **[!UICONTROL Subdomains]**.
 1. Click **[!UICONTROL Set up subdomain]**.
 1. Enter the full subdomain name.
 1. Choose **[!UICONTROL CNAME]** as the delegation method.
 1. Configure DMARC for the subdomain ([DMARC, SPF, and DKIM](#dmarc-spf-dkim)).
-1. Review the list of CNAME records that Prime generates — these point your subdomain's components to Adobe-managed records.
+1. Review the list of CNAME records to generate. These point your subdomain's components to Adobe-managed records.
 1. Download the records as CSV and share with your DNS team.
 1. Your DNS team adds each CNAME record to your DNS hosting solution.
-1. Once records are in place and propagated, return to Prime and confirm. Click **[!UICONTROL Submit]**.
+1. When records are in place and propagated, return to [!DNL Adobe Journey Optimizer B2B Prime] and confirm.
+1. Click **[!UICONTROL Submit]**.
 1. Wait for status to reach **[!UICONTROL Success]**.
 
 >[!IMPORTANT]
 >
->With CNAME, Adobe cannot help you change, maintain, or troubleshoot DNS for the subdomain. Any future changes — for example, adding a new CNAME for a feature update — must be made by your DNS team.
+>With CNAME, Adobe cannot help you change, maintain, or troubleshoot DNS for the subdomain. Any future changes, such as adding a new CNAME for a feature update, must be made by your DNS team.
 
 ### Subdomain guardrails {#subdomain-guardrails}
 
@@ -199,7 +211,7 @@ DMARC, SPF, and DKIM are email authentication standards. Together they prove to 
 | **DKIM** | DomainKeys Identified Mail | A cryptographic signature added to every outbound email. The receiving server verifies the signature against a public key published in DNS. Adobe automatically generates DKIM keys and DNS records during subdomain delegation. |
 | **DMARC** | Domain-based Message Authentication, Reporting & Conformance | Tells receiving servers what to do if SPF or DKIM fails — and gives you reports about authentication results. DMARC has three policy modes: none, quarantine, and reject. |
 
-### DMARC policy modes
+### DMARC policy modes {#dmarc-policy-modes}
 
 | Policy | Action | When to use |
 | ------ | ------ | ----------- |
@@ -211,15 +223,17 @@ DMARC, SPF, and DKIM are email authentication standards. Together they prove to 
 
 DMARC is configured at the time of subdomain delegation, but you can also add or update DMARC for an already-delegated subdomain.
 
-1. Navigate to **[!UICONTROL Administration]** → **[!UICONTROL Channels]** → **[!UICONTROL Email settings]** → **[!UICONTROL Subdomains]**.
+1. In the [!DNL Adobe Journey Optimizer B2B Prime] left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Channels]**.
 
-1. In the Subdomains list, locate your subdomain and check the DMARC Record column. 
+1. In the panel, expand **[!UICONTROL Email settings]** and select **[!UICONTROL Subdomains]**.
+
+1. In the Subdomains list, locate your subdomain and check the DMARC Record column.
 
    If a record is missing, an alert is displayed.
 
 1. Open the subdomain and scroll to the DMARC record section.
 
-   * If a DMARC record already exists on the parent domain, [!DNL Journey Optimizer B2B Edition] Prime fetches the values automatically. You can keep them or override.
+   * If a DMARC record already exists on the parent domain, [!DNL Journey Optimizer B2B Prime] fetches the values automatically. You can keep them or override.
    * If no record exists, choose **[!UICONTROL Manage with Adobe]** and Adobe creates and hosts the DMARC record.
 
 1. Set the policy: `none`, `quarantine`, or `reject`. Start with `none` unless you already have a mature DMARC posture on your parent domain.
@@ -228,7 +242,7 @@ DMARC is configured at the time of subdomain delegation, but you can also add or
 
 1. If using Fully Delegated, click **[!UICONTROL Save]**.
 
-   Adobe applies the record automatically. If using CNAME, copy the DNS record and have your DNS team add it, then confirm it in [!DNL Journey Optimizer B2B Edition] Prime.
+   Adobe applies the record automatically. If using CNAME, copy the DNS record and have your DNS team add it, then confirm it in [!DNL Journey Optimizer B2B Prime].
 
 1. Allow up to 48 hours for DNS propagation, then verify that the DMARC status indicator on the subdomain page is green/healthy.
 
@@ -240,18 +254,19 @@ DMARC is configured at the time of subdomain delegation, but you can also add or
 
 An IP pool is a named group of IP addresses used to send your email. IP pools are critical for sender reputation: each pool has its own reputation with ISPs, so a problem with one pool (for example, a marketing burst that triggers spam complaints) does not contaminate another (for example, transactional confirmations).
 
-### Pool types
+### Pool types {#pool-types}
 
 | Pool type | Availability | Description |
 | --------- | ------------ | ----------- |
-| **Shared IP pool** | Available at Alpha | A pool of IP addresses managed by Adobe and shared across many customers. Reputation is maintained by Adobe across the pool. Best for low-to-mid email volume and customers who do not want to manage IP warmup. |
+| **Shared IP pool** | Available at Beta | A pool of IP addresses managed by Adobe and shared across many customers. Reputation is maintained by Adobe across the pool. Best for low-to-mid email volume and customers who do not want to manage IP warmup. |
 | **Dedicated IP pool** | Roadmap (GA) | One or more IP addresses allocated exclusively to your organization. You own the reputation. Recommended for high-volume senders. Includes IP warmup planning and PTR record management. |
 
 ### Review and assign an IP pool {#review-ip-pool}
 
 In this release, IP pools are pre-provisioned for your organization. You assign an IP pool when creating an email channel configuration.
 
-1. Navigate to **[!UICONTROL Administration]** → **[!UICONTROL Channels]** → **[!UICONTROL Email settings]** → **[!UICONTROL IP pools]**.
+1. In the [!DNL Adobe Journey Optimizer B2B Prime] left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Channels]**.
+1. In the panel, expand **[!UICONTROL Email settings]** and select **[!UICONTROL IP pools]**.
 1. Confirm that an IP pool with status **[!UICONTROL Active]** is available for your organization.
 1. Hover over the pool to view the IP addresses and their PTR records (reverse DNS).
 1. If your organization has multiple business units or brands, plan how you will use IP pools (for example, marketing-pool versus webinar-pool) before creating channel configurations.
@@ -259,84 +274,6 @@ In this release, IP pools are pre-provisioned for your organization. You assign 
 >[!IMPORTANT]
 >
 >Do not mix marketing and transactional traffic on the same IP pool, even when the shared pool is available. The Email type setting on the channel configuration (Marketing vs. Transactional) governs suppression behavior, but your channel configurations should still use distinct pools where possible.
-
-## Email channel configurations {#email-channel-configurations}
-
-A channel configuration is the central object that ties together your sender identity, subdomain, IP pool, and tracking settings. Email actions in journeys reference a channel configuration to know how to send the message:
-
-* **Channel:** Email.
-* **Email type:** Marketing or Transactional. This setting determines whether suppression rules apply (Marketing applies them; Transactional bypasses spam-complaint suppression by default for legitimate transactional messages).
-* **Header parameters:** From Name, From Email, Reply-To Name, Reply-To Email, Error Email.
-* **Subdomain:** The delegated subdomain used for sending. The From Email must use this subdomain.
-* **IP pool:** The IP pool used to deliver the message.
-* **URL tracking:** Enable or disable click and open tracking; configure the tracking domain.
-* **Tags:** Tags for organization and search.
-
-### Create an email channel configuration {#create-email-channel-configuration}
-
->[!PREREQUISITES]
->
->* At least one subdomain must be delegated and Active.
->* At least one IP pool must be assigned to your organization.
->* You need the Administrator role.
-
-1. Navigate to **[!UICONTROL Channels]** → **[!UICONTROL General settings]** → **[!UICONTROL Channel configurations]**.
-1. Click **[!UICONTROL Create channel configuration]**.
-1. Enter a Name (for example, "Contoso B2B Marketing — North America") and an optional Description.
-1. Select the **[!UICONTROL Email]** channel.
-1. Optionally select tags to categorize the configuration.
-1. In the **[!UICONTROL Email type]** section, choose Marketing or Transactional.
-1. In the **[!UICONTROL Subdomain]** section, select a previously delegated subdomain.
-1. In the **[!UICONTROL IP pool]** section, select an Active IP pool. You can hover over the IPs to view PTR records.
-1. Configure the **[!UICONTROL Header parameters]**:
-   * From Name (for example, "Contoso Marketing").
-   * From Email — must use the selected subdomain (for example, `marketing@mail.contoso.com`).
-   * Reply-To Name and Reply-To Email — defaults to From if blank.
-   * Error Email — address that receives non-delivery notifications.
-1. Enable **[!UICONTROL URL Tracking]** and select the tracking domain.
-1. Click **[!UICONTROL Submit]**.
-1. Prime runs validation: subdomain status, MX record, SPF/DKIM/DMARC alignment, IP pool readiness, FBL registration. The configuration moves through Draft → Processing → Active.
-
->[!NOTE]
->
->If validation fails, the configuration moves to the **[!UICONTROL Failed]** status. Open the configuration to view the failure reason — common causes are MX record validation failure, IPs in the pool not matching the configuration, or DMARC misalignment. Resolve and resubmit.
-
-### Edit or delete a channel configuration {#edit-channel-configuration}
-
-You can edit channel configurations after creation, but with one important constraint:
-
-* **Channel cannot be changed.** A configuration is bound to its channel.
-
-When you edit a configuration that is in use:
-
-* **For published journeys:** the change is applied at the next recurrence or the next execution. In-flight executions continue with the previous settings.
-* **For transactional or real-time messages:** changes propagate within about five minutes.
-
-To delete a configuration, first remove or update every email action that references it. [!DNL Journey Optimizer B2B Edition] Prime does not delete a configuration that is currently used by an active journey.
-
-### Multiple channel configurations {#multiple-channel-configurations}
-
-Most B2B organizations use multiple channel configurations to separate brands, regions, or send types. Common patterns:
-
-* A separate marketing configuration per business unit (for example, *BU-A Marketing*, *BU-B Marketing*).
-* A dedicated transactional configuration with Email Type = Transactional for product or contract notifications.
-* Region-specific configurations using region-specific subdomains (for example, `mail.eu.contoso.com`, `mail.us.contoso.com`) to align with regional ISPs and compliance.
-
->[!TIP]
->
->Name your configurations with a clear, structured convention — for example: *[Brand] – [Region] – [Type]*. This becomes critical once you have a dozen or more configurations.
-
-### Known limitations {#known-limitations}
-
-* **Custom Delegation method** for subdomain delegation is not yet available — use Fully Delegated or CNAME. Custom Delegation is targeted for GA.
-* **Dedicated IP pools** are not available at Alpha. The shared IP pool is the only option. Dedicated IPs ship at GA, including IP warmup planning and PTR record management.
-* **HTML import via .html or .zip upload** is limited at Alpha. Full HTML import — including code editor + visual canvas dual view, validation, and inline-CSS auto-conversion — ships at Beta.
-* **Native image upload and DAM in Prime** (upload, organize, edit) is on the Beta roadmap. Use Marketo Design Studio assets in this release. Re-uploads in Marketo are not reflected in Prime.
-* **Test profiles, Simulate Content, and Send Proof** are not available in this release. Litmus rendering and SpamAssassin-based spam reports are on the Beta roadmap.
-* **Account-level personalization and custom-object data** are not available in this release. Use profile attributes.
-* **Velocity-to-Handlebars automated migration** of existing Marketo templates ships at GA.
-* **Comments and collaboration on emails** (inline comments, @mentions, request-review workflow) ship in the Fast Follow-up release.
-* **AEM Assets, AEM Content Fragments, and Adobe Express** integrations are on the Fast Follow-up roadmap.
 
 <!--
 
@@ -369,3 +306,4 @@ Most B2B organizations use multiple channel configurations to separate brands, r
 | **Subdomain delegation** | Granting Adobe authority over a portion of your domain (a subdomain) for sending email. |
 
 -->
+
