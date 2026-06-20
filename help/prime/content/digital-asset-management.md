@@ -1,6 +1,6 @@
 ---
 title: Assets
-description: Manage image assets from Journey Optimizer B2B Edition for emails, templates, and visual fragments.
+description: Manage image assets from Journey Optimizer B2B Prime for emails, templates, and visual fragments.
 feature: Assets, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
@@ -91,3 +91,29 @@ Select any asset in list or gallery view to open its detail view on the right, w
 After the upload completes, the system automatically generates a description, assigns tags and keywords, and extracts visual attributes such as subject and setting. No manual tagging is required. The new image is displayed with a _[!UICONTROL PROCESSING]_ status until this process is complete.
 
 ![New image asset in processing status](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+
+## Use assets for content authoring {#assets-authoring}
+
+Use assets as you author your emails, email templates, and visual fragments. The visual content editor provides access to the images in the _Assets_ library. You can also upload an image asset, which places it in the internal assets repository.
+
+You can choose the image asset when you edit the settings for an image component or directly on the canvas:
+
+* **_Empty component_** - When you add an image component to the canvas, it is empty and provides easy access to choose select or import an image file.
+
+   ![Choose a source to select an image file for the empty image component](./assets/dam-assets-image-component-empty.png){width="500"}
+
+* **_Image component toolbar_** - When you have an image component selected in the canvas, the toolbar provides easy access to choose a source and select the image file.
+
+   ![Use the toolbar to choose a source to select an image file for the image component](./assets/dam-assets-image-toolbar-settings.png){width="500"}
+
+* **_Image component settings_** - When you have an image component selected in the canvas, you can view and edit the settings in the right panel. To add or change the image file displayed in the component, choose the source type and select an image file.
+
+   ![Edit the image component settings in the right panel](./assets/dam-assets-image-settings.png){width="350"}
+
+Click **[!UICONTROL Select Asset]** to open the asset selector, where you can choose an image from the [!DNL Journey Optimizer B2B Prime] asset repository.
+
+![Select an image asset](./assets/dam-assets-internal-image-selected.png){width="700" zoomable="yes"}
+
+You can use search and filters to locate the desired image asset. Select the asset and click **[!UICONTROL Select]** to use it for the image component.
+
+You can also choose an image asset in the background settings for a structure component.

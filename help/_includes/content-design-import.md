@@ -15,6 +15,6 @@ Imported content can be:
 
 _To import a file containing HTML content:_
 
-1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Import HTML]** option.
+1. From the design home page, select the **[!UICONTROL Import HTML]** option.
 
 1. Drag and drop the HTML or .zip file containing your HTML content and click **[!UICONTROL Import]**.

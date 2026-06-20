@@ -24,7 +24,7 @@ role_v2:
 
 # Create email templates
 
-You can create an email template in [!DNL Journey Optimizer B2B Edition Prime] in three ways:
+You can create an email template in [!DNL Adobe Journey Optimizer B2B Prime] in three ways:
 
 * **Build a new template** — Create a template in the template library using the visual email design space.
 * **Save from a journey email** — Save an email you have authored in a journey as a reusable template.
@@ -47,7 +47,7 @@ You can create an email template in [!DNL Journey Optimizer B2B Edition Prime] i
 
 1. Click **[!UICONTROL Edit email body]** to access the content design space. 
 
-   See [Email authoring](email-authoring.md) for deatiled information about content design.
+   See [Email authoring](email-authoring.md) for detailed information about content design.
 
 1. Optionally enable **[!UICONTROL Governance]** and configure [content locking](template-content-governance.md) to restrict which parts of the template authors can edit when applying the template.
 
@@ -65,13 +65,13 @@ When you open the email conetnt that you want to reuse, save it directly to the 
 
 The original journey email is unaffected. The saved template is available in the template library for all users in the sandbox. You can update the created template to optimize reuse:
 
-* Edit text and add [personalization](email-authoring.md#personalization) tokens.
+* Edit text and add [personalization](email-authoring.md#personalize-content) tokens.
 * Update or replace images and add links.
 * Configure [content locking](template-content-governance.md).
 
 ## Convert an image to a template {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime] can convert a static image — such as a mockup from Figma or Photoshop — into an editable email template using generative AI. This eliminates the need to manually rebuild layouts from design files, and is ideal for migrating existing email designs from other platforms. This feature is available for email content templates only.
+[!DNL Adobe Journey Optimizer B2B Prime] can convert a static image — such as a mockup from Figma or Photoshop — into an editable email template using generative AI. This eliminates the need to manually rebuild layouts from design files, and is ideal for migrating existing email designs from other platforms. This feature is available for email content templates only.
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +95,7 @@ Before you begin:
 
 ### Create the template
 
-1. Navigate to **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**.
+1. In the left navigation, expand **[!UICONTROL Content Management]** and select **[!UICONTROL Templates]**.
 1. Click **[!UICONTROL Create template]**.
 1. Enter a **[!UICONTROL Template name]** and optional **[!UICONTROL Description]**.
 1. Set the **[!UICONTROL Channel]** to Email.
@@ -138,7 +138,7 @@ Before you begin:
 
 The converted template content opens in the design space as a fully editable email template. Use the standard content design tools to:
 
-* Edit text and add [personalization](email-authoring.md#personalization) tokens.
+* Edit text and add [personalization](email-authoring.md#personalize-content) tokens.
 * Update or replace images and add links.
 * Adjust colors, fonts, and spacing.
 * Add, remove, or rearrange content components.

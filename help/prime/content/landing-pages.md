@@ -30,12 +30,12 @@ Common use cases for landing pages:
 * Collect consent before sending communications and send a confirmation email upon opt-in or opt-out.
 * Capture or update profile data (progressive profiling, preferences, registrations, and similar scenarios) using forms on landing pages.
 * Direct people to campaign-specific information designed for your journey orchestration.
-* Redirect people to a dedicated web form without building an external page outside of Journey Optimizer B2B Prime.
+* Redirect people to a dedicated web form without building an external page outside of [!DNL Journey Optimizer B2B Prime].
 
 <!-- 
 ## Landing page workflow
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
@@ -51,7 +51,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 
 ## Access and manage landing pages {#access-manage-landing-pages}
 
-To access landing pages in Journey Optimizer B2B Prime, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]**. This action displays a list of all landing pages created in the instance.
+To access landing pages in [!DNL Journey Optimizer B2B Prime], go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]**. This action displays a list of all landing pages created in the instance.
 
 The list is sorted according to the _[!UICONTROL Modified]_ column, with the most recently updated items at the top. Click the column title to change between ascending and descending.
 
@@ -78,7 +78,7 @@ The landing page status determines its availability for linking in your email an
 | Status               | Description |
 | -------------------- | ----------- |
 | Draft                | When you create a landing page, it is in draft status. It remains in this status as you define or edit the visual content and until you publish it as a hosted page. Available actions:<br/><ul><li>Edit name or description</li><li>Edit link URL</li><li>Edit in visual design space</li><li>Publish</li><li>Duplicate</li><li>Delete</li></ul> |
-| Published            | When you publish a landing page, it is hosted on the Journey Optimizer B2B Prime instance and it becomes available for linking in an email or SMS message content. Available actions:<br/><ul><li>Edit name or description</li><li>Edit link URL</li><li>Add link in email or SMS message content</li><li>Create draft version</li><li>Duplicate</li><li>Delete</li></ul> |
+| Published            | When you publish a landing page, it is hosted on the [!DNL Journey Optimizer B2B Prime] instance and it becomes available for linking in an email or SMS message content. Available actions:<br/><ul><li>Edit name or description</li><li>Edit link URL</li><li>Add link in email or SMS message content</li><li>Create draft version</li><li>Duplicate</li><li>Delete</li></ul> |
 | Published with draft | When you create a draft from a published landing page, the published version remains, and the draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the hosted page. Available actions:<br/><ul><li>Edit name or description</li><li>Edit link URL</li><li>Add link in email or SMS message content</li><li>Edit draft version in visual design space</li><li>Publish draft version</li><li>Duplicate</li><li>Delete (deletes both versions)</li><li>Discard draft (returns to published status)</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
@@ -175,7 +175,7 @@ To define the primary page settings, follow these steps:
 >title="Preview and test your landing page"
 >abstract="After you define your landing page settings and content, use test profiles to preview the page."
 
-When the landing page settings and content are defined, you can use test profiles to preview the page. If you inserted [personalized content](email-authoring.md#personalization), you can check how this content is displayed in the landing page using test profile data.
+When the landing page settings and content are defined, you can use test profiles to preview the page. If you inserted [personalized content](email-authoring.md#personalize-content), you can check how this content is displayed in the landing page using test profile data.
 
 >[!PREREQUISITES]
 >
@@ -299,7 +299,7 @@ This action opens a confirmation dialog. You can abort the process by clicking *
 
 ## Link to a landing page {#link-to-landing-page}
 
-As a marketer or creative that produces email, fragment, and page content, you can embed links to the published (live) landing pages that are created in your Journey Optimizer B2B Prime instance.
+As a marketer or creative that produces email, fragment, and page content, you can embed links to the published (live) landing pages that are created in your [!DNL Journey Optimizer B2B Prime] instance.
 
 1. As you work in the visual design space for a fragment, email, landing page, or template, select an excerpt of text, a button component, or an image component for the link.
 
