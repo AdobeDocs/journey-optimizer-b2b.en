@@ -175,7 +175,7 @@ In this case **jobTitle** is a string, not an array:
 
 This error occurs when invalid Handlebars syntax is used.
 
-Handlebars expressions are surrounded with **{{expression}}**
+Handlebars expressions are surrounded by `{{` and `}}` only.
 
 ```handlebars
 {{[profile.firstName}}
