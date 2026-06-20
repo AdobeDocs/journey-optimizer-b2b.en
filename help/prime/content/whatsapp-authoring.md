@@ -25,13 +25,13 @@ level_v2:
 ---
 # WhatsApp authoring
 
-Use Journey Optimizer B2B Prime to send WhatsApp messages to people on their mobile devices. You can create, personalize, and preview messages using approved Meta message templates from the WhatsApp editor.
+Use [!DNL Adobe Journey Optimizer B2B Prime] to send WhatsApp messages to people on their mobile devices. You can create, personalize, and preview messages using approved Meta message templates from the WhatsApp editor.
 
 Before creating WhatsApp messages for person journeys, make sure that you have a [WhatsApp channel configured](../admin/configuration-channels-whatsapp.md) in the _[!UICONTROL Administrator]_ settings.
 
 >[!NOTE]
 >
->Only _outbound_ WhatsApp message elements are supported in Journey Optimizer B2B Prime.
+>Only _outbound_ WhatsApp message elements are supported in [!DNL Journey Optimizer B2B Prime].
 
 +++ Supported message elements and call-to-action options
 
@@ -92,7 +92,7 @@ You can set up WhatsApp message deliveries in a person journey when you [add a _
 
 ### Select a message template {#select-message-template}
 
-WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in Journey Optimizer B2B Prime. To manage and submit templates for approval, work with your [!DNL Meta Business Manager] account administrator.
+WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in [!DNL Journey Optimizer B2B Prime]. To manage and submit templates for approval, work with your [!DNL Meta Business Manager] account administrator.
 
 1. For **[!UICONTROL Select template category]**, choose one of the following:
 

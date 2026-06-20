@@ -1,16 +1,16 @@
 ---
 title: Forms
 description: Create and manage reusable forms for business data collection - design fields, set thank you pages, publish, and track usage in Journey Optimizer B2B Prime.
-autotag-review: '2026-06-12T22:53:03.357Z'
+autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
     internal-label: Tiers
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
     internal-label: Data management
 subfeature_v2:
@@ -18,6 +18,14 @@ subfeature_v2:
     internal-label: Web forms
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
     internal-label: Prime
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Forms
 
@@ -31,7 +39,7 @@ The amount of information that the form should capture depends on the value of t
 >
 
 <!-- 
->Form creation in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
+>Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
@@ -40,7 +48,7 @@ The amount of information that the form should capture depends on the value of t
 
 ## Access and manage forms {#view-forms}
 
-To access forms in Journey Optimizer B2B Edition, go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Forms]**. This action opens a listing page that displays all forms created in the instance.
+To access forms in [!DNL Journey Optimizer B2B Prime], go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Forms]**. This action opens a listing page that displays all forms created in the instance.
 
 <!-- ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"} -->
 
@@ -74,7 +82,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 ## Create forms {#create-forms}
 
-There are several things to consider before you start building reusable forms in Journey Optimizer B2B Edition:
+There are several things to consider before you start building reusable forms in [!DNL Journey Optimizer B2B Prime]:
 
 * Determine what forms you need. 
 
@@ -108,7 +116,7 @@ Add to context help when available
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
-You can create a form in Journey Optimizer B2B Edition by clicking **[!UICONTROL Create form]** at the top right of the _[!UICONTROL Forms]_ list page.
+You can create a form in [!DNL Journey Optimizer B2B Prime] by clicking **[!UICONTROL Create form]** at the top right of the _[!UICONTROL Forms]_ list page.
 
 1. In the _[!UICONTROL Create form]_ dialog, enter a useful **[!UICONTROL Name]** (required) and **[!UICONTROL Description]** (optional).
 
@@ -156,7 +164,7 @@ In the _[!UICONTROL Summary]_ panel on the right, scroll to the **[!UICONTROL Th
 
 * **[!UICONTROL Stay on page]** - Choose this option to keep the visitor on the same page when the form is submitted.
 
-* **[!UICONTROL Landing page]** - Choose this option to select any Journey Optimizer B2B Edition landing page as the follow-up.
+* **[!UICONTROL Landing page]** - Choose this option to select any [!DNL Journey Optimizer B2B Prime] landing page as the follow-up.
 
 * **[!UICONTROL External URL]** - Choose this option to specify any URL as the follow-up page. After the visitor submits the form, the browser loads the designated URL.
 
@@ -188,7 +196,7 @@ Exit the view at any time by clicking the _Back_ arrow at the top left, which re
 
 ## View form used-by references
 
-In the _[!UICONTROL Summary]_ panel on the right, click the **[!UICONTROL Used By]** tab to view details of where the form is currently used within Journey Optimizer B2B Edition, across landing pages and landing page templates.
+In the _[!UICONTROL Summary]_ panel on the right, click the **[!UICONTROL Used By]** tab to view details of where the form is currently used within [!DNL Journey Optimizer B2B Prime], across landing pages and landing page templates.
 
 >[!IMPORTANT]
 >

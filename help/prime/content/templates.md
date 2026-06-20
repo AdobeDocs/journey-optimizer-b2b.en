@@ -24,7 +24,7 @@ role_v2:
 
 # Email templates
 
-Email templates in [!DNL Journey Optimizer B2B Edition Prime] allow content specialists to build reusable email layouts independently, so marketing teams can apply them across account journeys without rebuilding designs each time.
+Email templates in [!DNL Adobe Journey Optimizer B2B Prime] allow content specialists to build reusable email layouts independently, so marketing teams can apply them across account journeys without rebuilding designs each time.
 
 >[!NOTE]
 >
@@ -87,4 +87,4 @@ Select the checkbox next to each template you want to remove, or select the head
 
 ## Use a template in an email {#use-in-journey}
 
-When authoring an email in a journey, the **[!UICONTROL Select design template]** section lets you choose from saved templates or sample templates. Click a template thumbnail to preview it, then click **[!UICONTROL Use this template]** to apply it. See [Email authoring](email-authoring.md#templates) for the full workflow.
+When authoring an email in a journey, the **[!UICONTROL Select design template]** section lets you choose from saved templates or sample templates. Click a template thumbnail to preview it, then click **[!UICONTROL Use this template]** to apply it. For where template selection fits in the overall email workflow, see [Email content authoring](./email-authoring.md).

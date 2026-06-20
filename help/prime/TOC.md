@@ -29,7 +29,7 @@ hide: true
       + [Overview](./marketing/email-channel.md)
       + [Email send-time optimization](./marketing/email-send-time-optimization.md)
       + [Content authoring](./content/email-authoring.md)
-      + [Dark mode design](./content/email-dark-mode.md)   
+      + [Dark mode design](./content/email-dark-mode.md) 
    + [WhatsApp channel](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
@@ -44,6 +44,11 @@ hide: true
       + [Content governance](./content/template-content-governance.md)
    + [Landing pages](./content/landing-pages.md)
    + [Forms](./content/forms.md)
+   + Content design tools {#content-design}
+      + [Structure components](./content/structure-components.md)
+      + [Content components](./content/content-components.md)
+      + [Custom CSS](./content/design-custom-css.md)
+   + [Personalization](./content/personalization-expressions.md)
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc} [Brand Concierge](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
