@@ -46,6 +46,7 @@ hide: true
    + [Forms](./content/forms.md)
    + [Personalization](./content/personalization-expressions.md)
    + Content design tools {#content-design}
+      + [Structure components](./content/structure-components.md)
       + [Custom CSS](./content/design-custom-css.md)
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc} [Brand Concierge](./brand-concierge/brand-concierge.md)
@@ -79,12 +80,4 @@ hide: true
        + [Journey Agent B2B](./agents/journey-agent.md)
        + [Account Qualification](./agents/sales-qualifier.md)
 
-+ [Data and connections](./data/data.md)
-   + Destinations
-
-For Content
-   + {hide-from-toc} Assets
-   + {hide-from-toc} Fragments
-   + {hide-from-toc} Forms
-   + {hide-from-toc} Landing pages
 -->
