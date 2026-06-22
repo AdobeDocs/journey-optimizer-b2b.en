@@ -138,7 +138,9 @@ For detailed guidance on previewing, configuring custom dark mode settings, emai
 
 ### Add structure and content components {#components}
 
-Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. Drag items from the **[!UICONTROL Structures]** and **[!UICONTROL Contents]** sections in the left panel, then configure each component in the _[!UICONTROL Settings]_ and _[!UICONTROL Styles]_ tabs on the right.
+<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+
+Drag items from the **[!UICONTROL Structures]** and **[!UICONTROL Contents]** sections in the left panel, then configure each component in the _[!UICONTROL Settings]_ and _[!UICONTROL Styles]_ tabs on the right.
 
 ### Add custom CSS {#custom-css}
 
@@ -221,7 +223,7 @@ For more information about using assets, see [_Use assets for content authoring_
 
 ### Navigate the layers, settings, and styles {#navigation-layers}
 
-Use the navigation tree to select components and columns, then adjust their settings and styles in the right panel. See [Navigation tree](./structure-components.md#navigation-tree).
+Use the navigation tree to select components and columns, then adjust their settings and styles in the right panel. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
 
 ### Personalize content {#personalize-content}
 

@@ -45,7 +45,9 @@ role_v2:
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to design a template."
 
-When you design content for emails, landing pages, templates, and visual fragments, use the [!UICONTROL Content components] to add visual design elements. You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout.
+When you design content for emails, landing pages, templates, and visual fragments, use the [!UICONTROL Content components] to add visual design elements. 
+
+<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
 
 ## Contents library
 
