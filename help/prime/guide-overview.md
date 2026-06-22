@@ -1,6 +1,7 @@
 ---
 title: Adobe Journey Optimizer B2B Prime Documentation
 description: Complete documentation for Journey Optimizer B2B Prime - explore the available resources for onboarding, TBD.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 autotag-review: '2026-06-12T22:37:55.790Z'
 TQID: 'https://experienceleague.adobe.com/qIeIKMJLaBkBTuh7qpwer-2MTRlzrELRVtYFzAIcdjw'
 product_v2:
@@ -22,7 +23,7 @@ role_v2:
 ---
 # Adobe Journey Optimizer B2B Prime Documentation
 
-[!DNL Adobe Journey Optimizer B2B Prime] is 
+[!DNL Adobe Journey Optimizer B2B Prime] is ?
 
 <!--
 ## What's new
@@ -40,7 +41,7 @@ Email designers can now select from standard [!DNL Firefly] models, custom [!DNL
 >[!ENDTABS]
 -->
 
-## Start exploring {#section-explore}
+## Expore the product capabilities {#section-explore}
 
 :::: landing-cards-container
 

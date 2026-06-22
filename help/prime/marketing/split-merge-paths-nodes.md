@@ -1,6 +1,7 @@
 ---
 title: Split and Merge Paths Nodes
 description: Learn how to use split and merge paths nodes in person journeys to segment people into distinct paths based on defined conditions, then reunite them at a common point downstream.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
 product_v2:

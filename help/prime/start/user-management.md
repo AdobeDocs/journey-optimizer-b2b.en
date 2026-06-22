@@ -1,6 +1,29 @@
 ---
 title: User Access and Permissions
-description: "Manage user access in the Adobe Admin Console: create user groups, assign product profiles, and set role-based permissions for Journey Optimizer B2B Edition Prime."
+description: 'Manage user access in the Adobe Admin Console: create user groups, assign product profiles, and set role-based permissions for Journey Optimizer B2B Edition Prime.'
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+autotag-review: '2026-06-22T20:31:37.404Z'
+TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # User access and permissions
 
