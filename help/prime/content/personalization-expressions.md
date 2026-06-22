@@ -30,7 +30,7 @@ role_v2:
 >title="About the personalization editor"
 >abstract="The personalization editor allows you to select, arrange, customize, and validate profile attributes to create personalized content."
 
-The personalization editor is the centerpiece of personalization in [!DNL Journey Optimizer B2B Prime]. Use it wherever you need dynamic content — in [emails](./email-authoring.md#personalize-content), [WhatsApp messages](./whatsapp-authoring.md#personalize-message-content), [landing pages](./landing-pages.md), and URL fields.
+The personalization editor is the centerpiece of personalization in [!DNL Journey Optimizer B2B Prime]. Use it wherever you need dynamic content — in emails, WhatsApp messages, landing pages, and URL fields.
 
 In the personalization editor interface, you can select, arrange, customize, and validate profile attributes to create personalized content.
 
@@ -44,7 +44,7 @@ You can add personalization in any field with the _Personalize_ ( ![Personalize 
 
 +++Emails and WhatsApp messages
 
-In emails and [WhatsApp messages](./whatsapp-authoring.md#personalize-message-content), personalization can be added at different locations, such as the **[!UICONTROL Subject line]** field in an email or dynamic parameters in an approved WhatsApp template.
+In [emails](./email-authoring.md#personalize-content) and [WhatsApp messages](./whatsapp-authoring.md#personalize-message-content), personalization can be added at different locations, such as the **[!UICONTROL Subject line]** field in an email or dynamic parameters in an approved WhatsApp template.
 
 It can also be added in other sections of your content, including email body text, preheaders, and button URLs.
 
@@ -174,8 +174,6 @@ In this case **jobTitle** is a string, not an array:
 * **Invalid handlebars syntax. Found `'[XYZ}}'`**
 
 This error occurs when invalid Handlebars syntax is used.
-
-Handlebars expressions are surrounded by `{{` and `}}` only.
 
 ```handlebars
 {{[profile.firstName}}
