@@ -1,6 +1,7 @@
 ---
 title: WhatsApp Authoring
 description: Create WhatsApp messages for person journeys using approved Meta templates, personalization tokens, and delivery settings in Journey Optimizer B2B Prime.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
 autotag-review: '2026-06-17T03:12:08.373Z'
 TQID: 'https://experienceleague.adobe.com/HijiC-uJ1rz5yl6bzsZRuFLJb7VWE38f-aqAGWLd2rQ'
 product_v2:
