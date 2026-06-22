@@ -87,4 +87,4 @@ Select the checkbox next to each template you want to remove, or select the head
 
 ## Use a template in an email {#use-in-journey}
 
-When authoring an email in a journey, the **[!UICONTROL Select design template]** section lets you choose from saved templates or sample templates. Click a template thumbnail to preview it, then click **[!UICONTROL Use this template]** to apply it. For where template selection fits in the overall email workflow, see [Email content authoring](./email-authoring.md).
+When authoring an email in a journey, the **[!UICONTROL Select design template]** section lets you choose from saved templates or sample templates. Click a template thumbnail to preview it, then click **[!UICONTROL Use this template]** to apply it. For information about how you can use templates in your email wuthoring workflow, see [Email content authoring](./email-authoring.md#templates).

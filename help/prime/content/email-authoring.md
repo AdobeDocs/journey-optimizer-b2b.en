@@ -283,7 +283,7 @@ For details about expression editor tools and syntax, see [Personalization expre
 
 Use the desktop and mobile preview controls in the email design space toolbar to review your email layout before saving. Switch to dark mode preview to validate readability and contrast (see [Dark mode for email content](./email-dark-mode.md)).
 
-Test profiles, **[!UICONTROL Simulate content]**, and send proof workflows are not available in this Beta release. See [Current limitations](../marketing/email-channel.md#limitations) in the email channel overview.
+Test profiles, [!UICONTROL Simulate content], and send proof workflows are not available in this Beta release. See [Current limitations](../marketing/email-channel.md#limitations) in the email channel overview.
 
 Review [Validating email content](#validation) for content alerts you must resolve before journey activation.
 

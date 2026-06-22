@@ -44,10 +44,6 @@ hide: true
       + [Content governance](./content/template-content-governance.md)
    + [Landing pages](./content/landing-pages.md)
    + [Forms](./content/forms.md)
-   + Content design tools {#content-design}
-      + [Structure components](./content/structure-components.md)
-      + [Content components](./content/content-components.md)
-      + [Custom CSS](./content/design-custom-css.md)
    + [Personalization](./content/personalization-expressions.md)
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc} [Brand Concierge](./brand-concierge/brand-concierge.md)
@@ -64,6 +60,11 @@ hide: true
 <!--
    + Business rules
    + Program types
+
+   + Content design tools {#content-design}
+      + [Structure components](./content/structure-components.md)
+      + [Content components](./content/content-components.md)
+      + [Custom CSS](./content/design-custom-css.md)
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
