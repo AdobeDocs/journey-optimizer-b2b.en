@@ -31,20 +31,6 @@ Review this sampling of the latest additions and enhancements in the [!DNL Journ
 
 >[!BEGINTABS]
 
->[!TAB AI agents]
-
-With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, the AI Assistant interface can automatically call upon specialized agents to get you the right answers and insights. Agent Orchestrator remembers your conversation history, enabling you to build on previous questions naturally without repeating context, and combines insights from multiple agents to present you with clear, unified responses. In the [!DNL Journey Optimizer B2B Edition] context, there are three purpose-built agents for specific B2B tasks and domains:
-
-* [Audience Agent B2B](./agents/audience-agent-b2b.md)
-* [Journey Agent B2B](./agents/journey-agent.md)
-* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
-
->[!TAB WhatsApp channel]
-
-When developers and product administrators configure an integration with a Meta Business Manager account, marketers can include WhatsApp messages as a content channel in account journeys using the Meta Cloud API. WhatsApp joins email and SMS as an available channel for delivering journey content directly to account members.
-
-[!BADGE Learn more]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Learn about the WhatsApp channel"}
-
 >[!TAB Generative AI models]
 
 Email designers can now select from standard [!DNL Firefly] models, custom [!DNL Firefly] models trained on brand-specific assets, and approved third-party image models when generating images for email content. This selection gives teams control over which model fits their specific design scenario, from general content needs to branded or specialized use cases.

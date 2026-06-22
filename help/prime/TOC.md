@@ -1,6 +1,6 @@
 ---
 user-guide-title: Journey Optimizer B2B Prime Documentation
-user-guide-description: Learn about Adobe Journey Optimizer B2B Edition Prime and how you can use it to ?.
+user-guide-description: Learn about Adobe Journey Optimizer B2B Prime and how you can use it to ?.
 hide: true
 ---
 
@@ -50,13 +50,9 @@ hide: true
       + [Content components](./content/content-components.md)
       + [Custom CSS](./content/design-custom-css.md)
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc} [Brand Concierge](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
-   + {hide-from-toc} [Administration](./admin/admin.md)
    + Channels {#channels}
       + [Email channel configuration](./admin/email-channel-configuration.md)
-      + {hide-from-toc} [SMS channel configuration](./admin/configuration-channels-sms.md)
-      + {hide-from-toc} [Web channel configuration](./admin/configuration-channels-web.md)
       + [WhatsApp channel configuration](./admin/configuration-channels-whatsapp.md)
       + [Landing page configuration](./admin/configuration-presets-landing-pages.md)
       + [Form preset configuration](./admin/configuration-presets-forms.md)
