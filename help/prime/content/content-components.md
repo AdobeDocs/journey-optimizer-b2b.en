@@ -47,7 +47,7 @@ role_v2:
 
 When you design content for emails, landing pages, templates, and visual fragments, use the [!UICONTROL Content components] to add visual design elements. 
 
-<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
+You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout.
 
 ## Contents library
 

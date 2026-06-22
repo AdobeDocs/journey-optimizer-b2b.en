@@ -47,6 +47,7 @@ hide: true
    + [Personalization](./content/personalization-expressions.md)
    + Content design tools {#content-design}
       + [Structure components](./content/structure-components.md)
+      + [Content components](./content/content-components.md)
       + [Custom CSS](./content/design-custom-css.md)
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc} [Brand Concierge](./brand-concierge/brand-concierge.md)
@@ -63,11 +64,6 @@ hide: true
 <!--
    + Business rules
    + Program types
-
-   + Content design tools {#content-design}
-      + [Structure components](./content/structure-components.md)
-      + [Content components](./content/content-components.md)
-      + [Custom CSS](./content/design-custom-css.md)
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
