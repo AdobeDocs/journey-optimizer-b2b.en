@@ -23,6 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
+# Add custom CSS for your content
 
 You can add your own custom CSS directly within the email or landing page design space. Use custom CSS to apply advanced and specific styling, for greater flexibility and control over the appearance of your content.
 
