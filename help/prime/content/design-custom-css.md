@@ -3,6 +3,7 @@ title: Add Custom CSS for Your Content
 description: Add custom CSS to emails and landing pages for advanced styling and precise design control beyond standard components in Journey Optimizer B2B Prime.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
+badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
 autotag-review: '2026-06-19T22:00:56.704Z'
 TQID: 'https://experienceleague.adobe.com/z0vACEVhY2WZcSgeO3Kbx7ceSNsf4Se3DZut36xnN4E'
 product_v2:
@@ -201,7 +202,7 @@ body {
 
 If you want to use custom CSS with content imported into the email or landing page design space, consider the following:
 
-* If you import external HTML content including CSS, <!-- unless converting that content, -->it is populated in [!UICONTROL Compatibility mode] and the [!UICONTROL CSS styles] section is not available.
+* If you import external HTML content including CSS, it is populated in [!UICONTROL Compatibility mode] and the [!UICONTROL CSS styles] section is not available.
 
 * If you import content that was originally created in the email or landing page design space with the [!UICONTROL Add custom CSS] option, the applied CSS is visible and editable from the same option.
 

@@ -45,6 +45,8 @@ hide: true
    + [Landing pages](./content/landing-pages.md)
    + [Forms](./content/forms.md)
    + [Personalization](./content/personalization-expressions.md)
+   + Content design tools {#content-design}
+      + [Custom CSS](./content/design-custom-css.md)
 + {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc} [Brand Concierge](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
