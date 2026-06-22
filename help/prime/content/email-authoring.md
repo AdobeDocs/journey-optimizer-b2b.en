@@ -138,7 +138,9 @@ For detailed guidance on previewing, configuring custom dark mode settings, emai
 
 ### Add structure and content components {#components}
 
-Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. Drag items from the **[!UICONTROL Structures]** and **[!UICONTROL Contents]** sections in the left panel, then configure each component in the _[!UICONTROL Settings]_ and _[!UICONTROL Styles]_ tabs on the right.
+<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+
+Drag items from the **[!UICONTROL Structures]** and **[!UICONTROL Contents]** sections in the left panel, then configure each component in the _[!UICONTROL Settings]_ and _[!UICONTROL Styles]_ tabs on the right.
 
 ### Add custom CSS {#custom-css}
 
@@ -221,7 +223,7 @@ For more information about using assets, see [_Use assets for content authoring_
 
 ### Navigate the layers, settings, and styles {#navigation-layers}
 
-Use the navigation tree to select components and columns, then adjust their settings and styles in the right panel. See [Navigation tree](./structure-components.md#navigation-tree).
+Use the navigation tree to select components and columns, then adjust their settings and styles in the right panel. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
 
 ### Personalize content {#personalize-content}
 
@@ -283,7 +285,7 @@ For details about expression editor tools and syntax, see [Personalization expre
 
 Use the desktop and mobile preview controls in the email design space toolbar to review your email layout before saving. Switch to dark mode preview to validate readability and contrast (see [Dark mode for email content](./email-dark-mode.md)).
 
-Test profiles, **[!UICONTROL Simulate content]**, and send proof workflows are not available in this Beta release. See [Current limitations](../marketing/email-channel.md#limitations) in the email channel overview.
+Test profiles, [!UICONTROL Simulate content], and send proof workflows are not available in this Beta release. See [Current limitations](../marketing/email-channel.md#limitations) in the email channel overview.
 
 Review [Validating email content](#validation) for content alerts you must resolve before journey activation.
 

@@ -45,7 +45,7 @@ role_v2:
 >title="About Structure components"
 >abstract="Structure components are layout elements that you can use to design the structure of a template."
 
-Use the _Structure components_ in the visual design space to define the structure of your content. By adding and moving structural elements with simple drag-and-drop actions, you can quickly define the shape of your content layout. Each structure component spans the horizontal space and you can stack them to build the layout vertically. Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout.
+Use the _Structure components_ in the visual design space to define the structure of your content. By adding and moving structural elements with simple drag-and-drop actions, you can quickly define the shape of your content layout. Each structure component spans the horizontal space and you can stack them to build the layout vertically. <!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## Structure library {#structure-library}
 
