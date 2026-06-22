@@ -121,7 +121,7 @@ With the _[!UICONTROL Styles]_ tab selected in the right panel, use the **[!UICO
 
 #### [!UICONTROL Background color]
 
-Select the checkbox and click the color square to choose a color from the picker. You can choose a color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, use the color slider and the color field to select the color.
+Select the check box and click the color square to choose a color from the picker. You can choose a color by entering a known RGB, HSL, HSB, or hexadecimal value. Or, use the color slider and the color field to select the color.
 
 ![Background color picker](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
