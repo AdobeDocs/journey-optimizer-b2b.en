@@ -11,10 +11,11 @@ hide: true
    + [Setup checklist](./start/setup-prime.md)
    + [User management](./start/user-management.md)
    + [Email deliverability](./start/email-deliverability.md)
-+ [Home and Insights](./home-insights/home-insights.md)
-+ [Agents](./agents/agents.md)
++ [Home page](./home-insights/home-page.md)
++ [Chat interface](./agents/chat-interface.md)
++ [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + Marketing management {#marketing-management}
-   + {hide-from-toc} [Overview](./marketing/marketing-management.md)
+   + [Overview](./marketing/marketing-management.md)
    + [Programs](./marketing/programs.md)
    + [Person journeys](./marketing/person-journeys.md)
    + Journey nodes {#journey-nodes}
@@ -49,7 +50,6 @@ hide: true
       + [Structure components](./content/structure-components.md)
       + [Content components](./content/content-components.md)
       + [Custom CSS](./content/design-custom-css.md)
-+ {hide-from-toc} [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + Administration {#admin}
    + Channels {#channels}
       + [Email channel configuration](./admin/email-channel-configuration.md)

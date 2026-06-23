@@ -1,6 +1,7 @@
 ---
 title: Sales Qualifier
 description: Sales Qualifier for Journey Optimizer B2B Prime provides AI prospect qualification, outbound workflows, CRM integration, tasks, and profile settings for BDRs.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 autotag-review: '2026-06-22T18:49:11.199Z'
 TQID: 'https://experienceleague.adobe.com/pfm5edN0IqvzhCaQIVC43i0Mwckmc6UVkUAC5eGrF4Y'
 product_v2:
