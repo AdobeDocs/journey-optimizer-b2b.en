@@ -36,9 +36,10 @@ hide: true
    + [WhatsApp channel](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
-   + [Destinations](./audiences/destinations.md)
-   + [Dynamic audience Qualification](./audiences/dynamic-audience-qualification.md)
    + [Event-based Audiences](./audiences/event-based-audiences.md)
+   + [Derived personas](./audiences/personas.md)
+   + [Destinations](./audiences/destinations.md)
+   + [Dynamic audience qualification](./audiences/dynamic-audience-qualification.md)
 + Content {#content}
    + [Assets](./content/digital-asset-management.md)
    + Templates {#templates}
@@ -62,6 +63,7 @@ hide: true
 
 <!--
    + Business rules
+   + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
