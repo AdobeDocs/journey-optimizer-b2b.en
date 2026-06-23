@@ -16,7 +16,9 @@ hide: true
 + [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + Marketing management {#marketing-management}
    + [Overview](./marketing/marketing-management.md)
-   + [Programs](./marketing/programs.md)
+   + Programs {#programs}
+      + [Overview](./marketing/programs.md)
+      + [Custom tokens for personalization](./marketing/personalization-my-tokens.md)
    + [Person journeys](./marketing/person-journeys.md)
    + Journey nodes {#journey-nodes}
       + [Nodes overview](./marketing/person-journey-nodes.md)
@@ -30,7 +32,7 @@ hide: true
       + [Overview](./marketing/email-channel.md)
       + [Email send-time optimization](./marketing/email-send-time-optimization.md)
       + [Content authoring](./content/email-authoring.md)
-      + [Dark mode design](./content/email-dark-mode.md) 
+      + [Dark mode design](./content/email-dark-mode.md)
    + [WhatsApp channel](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
@@ -56,10 +58,10 @@ hide: true
       + [WhatsApp channel configuration](./admin/configuration-channels-whatsapp.md)
       + [Landing page configuration](./admin/configuration-presets-landing-pages.md)
       + [Form preset configuration](./admin/configuration-presets-forms.md)
+   + [Program types](./admin/program-types.md)
 
 <!--
    + Business rules
-   + Program types
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
