@@ -54,15 +54,15 @@ For the Beta release of Journey Optimizer B2B Prime, the following default perso
 
 ## Filter by derived persona {#derived-persona-filter}
 
-Journey Optimizer B2B Prime derives a persona for each person record by evaluating the record's attributes against the defined personas. You can use the inferred result — the _Derived Persona_ — as a filter when defining the audience for a people list or a person journey.
+Journey Optimizer B2B Prime derives a persona for each person record by evaluating the record's attributes against the defined personas. You can use the inferred result — the _Derived Persona_ — as a filter when defining the audience for a people list or for segmenting in a person journey.
 
 The _[!UICONTROL Derived Persona]_ filter appears in the filter panel under the **[!UICONTROL Person attributes]** category.
-
-![Access the configured personas](../../user/admin/assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
 ### People lists {#people-lists}
 
 When you add or remove members from a [static people list](./people-lists.md#static-list), or when you define the membership rules for a [dynamic people list](./people-lists.md#dynamic-lists), you can filter by Derived Persona to target all people whose attributes match a specific configured persona.
+
+![Derived persona filtering for a people list](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
 
 **Static list — Add members**
 
@@ -91,6 +91,8 @@ When you add or remove members from a [static people list](./people-lists.md#sta
 ### Person journeys {#person-journeys}
 
 When you configure segmentation for a person journey in a [_Split paths_ node](../marketing/split-merge-paths-nodes.md), you can use a derived persona as a person profile filter to control which people enter the journey path.
+
+![Derived persona filtering for a split path condition](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
 
 1. Click the **[!UICONTROL Split paths]** node in the journey canvas.
 
