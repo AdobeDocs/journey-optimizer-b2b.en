@@ -12,7 +12,9 @@ hide: true
    + [User management](./start/user-management.md)
    + [Email deliverability](./start/email-deliverability.md)
 + [Home page](./home-insights/home-page.md)
-+ [Chat interface](./agents/chat-interface.md)
++ AI Assistant {#ai-assistant}
+   + [Chat interface](./agents/chat-interface.md)
+   + [Create program from brief](./agents/program-from-brief.md)
 + [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + Marketing management {#marketing-management}
    + [Overview](./marketing/marketing-management.md)
@@ -72,9 +74,5 @@ hide: true
     + [Question guidance](./ai-assistant/question-guidance.md)
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
     + [Generative AI for content](./ai-assistant/generative-ai-content.md)
-    + Agents {#agents}
-       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-       + [Journey Agent B2B](./agents/journey-agent.md)
-       + [Account Qualification](./agents/sales-qualifier.md)
 
 -->
