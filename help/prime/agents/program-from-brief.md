@@ -21,7 +21,7 @@ role_v2:
 ---
 # Create a program from a brief
 
-A [_program_](../marketing/programs.md) is the top-level container for journeys, people lists, tokens, and configuration within a campaign. From the [chat interface](./chat-interface.md), the Program Creation skill builds that entire structure end-to-end from your brief — the program itself, subfolders, tokens, people lists, and person journeys — in one guided conversation.
+In [!DNL Adobe Journey Optimizer B2B Prime], [_program_](../marketing/programs.md) is the top-level container for journeys, people lists, tokens, and configuration within a campaign. From the [chat interface](./chat-interface.md), the Program Creation skill builds that entire structure end-to-end from your brief — the program itself, subfolders, tokens, people lists, and person journeys — in one guided conversation.
 
 * **Skill** - `program-creation`
 * **Invocation** - Upload a brief and enter _Create a program from this brief_ / _Build a program from brief_, or describe the campaign directly
