@@ -20,7 +20,7 @@ hide: true
       + [Overview](./marketing/programs.md)
       + [Custom tokens for personalization](./marketing/personalization-my-tokens.md)
    + [Person journeys](./marketing/person-journeys.md)
-   + Journey nodes {#journey-nodes}
+   + Journey canvas and nodes {#journey-nodes}
       + [Nodes overview](./marketing/person-journey-nodes.md)
       + [Person audience](./marketing/person-audience-node.md)
       + [Take an action](./marketing/action-nodes.md)
@@ -37,6 +37,7 @@ hide: true
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
    + [Event-based Audiences](./audiences/event-based-audiences.md)
+   + [Person engagement scores](./audiences/engagement-scores.md)
    + [Derived personas](./audiences/personas.md)
    + [Destinations](./audiences/destinations.md)
    + [Dynamic audience qualification](./audiences/dynamic-audience-qualification.md)
