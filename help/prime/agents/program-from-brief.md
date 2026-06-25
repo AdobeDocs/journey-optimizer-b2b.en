@@ -157,7 +157,7 @@ Programs are **permanently bound** to a tenant-defined program type at creation 
 | **Async list membership** | Static (from criteria) lists populate over several minutes — not instant |
 | **Error handling** | Tool failures are reported with the exact error; the assistant prompts to confirm input and retry |
 | **Name collisions** | Not auto-resolved — a different name will be requested |
-| **Scope** | Journey Optimizer B2B Prime only; Marketo users should use the separate program-creation / program-planning skills |
+| **Scope** | Journey Optimizer B2B Prime only; [!DNL Marketo Engage] users should use the separate program-creation / program-planning skills |
 
 
 ## QA check
