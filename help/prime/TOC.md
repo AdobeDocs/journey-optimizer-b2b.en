@@ -16,6 +16,7 @@ hide: true
    + [Chat interface](./agents/chat-interface.md)
    + [Skills](./agents/skills.md)
    + [Create program from brief](./agents/program-from-brief.md)
+   + [Create audiences for programs](./agents/audience-creation.md)
 + [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + Marketing management {#marketing-management}
    + [Overview](./marketing/marketing-management.md)

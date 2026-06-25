@@ -33,7 +33,7 @@ A _skill_ is a packaged workflow the agent knows how to run — the building blo
 
 | Skill | What it does | Access | Product surface | Impact / data flow |
 |---|---|---|---|---|
-| `falco-program-creation` | End-to-end [!DNL Journey Optimizer B2B Prime] program creation — program, subfolders, tokens, lists, journeys. | Write | [!DNL Journey Optimizer B2B Prime] | Reads + writes [!DNL Journey Optimizer B2B Prime] |
+| `falco-program-creation` | End-to-end [!DNL Journey Optimizer B2B Prime] program creation — program, subfolders, tokens, lists, journeys. | Write | [!DNL Journey Optimizer B2B Prime] | Reads + writes [!DNL Journey Optimizer B2B Prime] See _[Create a program from a brief](./program-from-brief.md)_. |
 | `adapt-program` | Generate migration stories from [!DNL Marketo Engage] programs for [!DNL Journey Optimizer B2B Prime] adaptation. | Read | [!DNL Journey Optimizer B2B Prime] | Reads [!DNL Marketo Engage], writes [!DNL Journey Optimizer B2B Prime] |
 | `folder-creation` | Create organizational folders in the asset tree. | Write | [!DNL Journey Optimizer B2B Prime] | Reads + writes [!DNL Journey Optimizer B2B Prime] |
 | `program-creation` *(Build Programs)* | Create Marketo programs from a campaign brief. | Write | [!DNL Marketo Engage] | Reads + writes [!DNL Marketo Engage] |
@@ -56,7 +56,7 @@ A _skill_ is a packaged workflow the agent knows how to run — the building blo
 
 | Skill | What it does | Access | Product | Backend (data flow) |
 |---|---|---|---|---|
-| `audience-creation` | Adapt a [!DNL Marketo Engage] smartlist, create a people list, or add/update rules. | Write | [!DNL Journey Optimizer B2B Prime] | Reads [!DNL Marketo Engage] + reads/writes [!DNL Journey Optimizer B2B Prime] |
+| `audience-creation` | Adapt a [!DNL Marketo Engage] smartlist, create a people list, or add/update rules. | Write | [!DNL Journey Optimizer B2B Prime] | Reads [!DNL Marketo Engage] + reads/writes [!DNL Journey Optimizer B2B Prime]  See _[Create audiences for programs](./audience-creation.md)_. |
 | `people-list-comparison` | Compare two people lists and show overlapping members. | Read | [!DNL Journey Optimizer B2B Prime] | Reads [!DNL Journey Optimizer B2B Prime] |
 | `import-leads` | Inspect CSV data quality and commit imports to [!DNL Marketo Engage]. | Read+Write | Both | Reads + writes [!DNL Marketo Engage] |
 | `lead-investigation` *(Investigate Leads)* | Investigate a lead's activity, scoring, qualification, lifecycle. | Read | [!DNL Marketo Engage] | Reads [!DNL Marketo Engage] |

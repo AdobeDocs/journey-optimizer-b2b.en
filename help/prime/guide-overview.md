@@ -106,7 +106,7 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="AI Assistant"><br/>
-      <strong>AI Assistant</strong><br/><a href="./agents/chat-interface.md">Chat interface</a><br/><a href="./agents/skills.md">Skills</a><br/><a href="./agents/program-from-brief.md">Create program from brief</a>
+      <strong>AI Assistant</strong><br/><a href="./agents/chat-interface.md">Chat interface</a><br/><a href="./agents/skills.md">Skills</a><br/><a href="./agents/program-from-brief.md">Create program from brief</a><br/><a href="./agents/audience-creation.md">Create audiences for programs</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Marketing management"><br/>
