@@ -29,7 +29,7 @@ The _[!UICONTROL Person audience]_ node is automatically the first node in the j
 :::: landing-cards-container
 
 :::
-![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg)
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 Person audience node
 
@@ -39,7 +39,7 @@ The journey always starts with a person audience node. Set the input audience us
 :::
 
 :::
-![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 Action nodes
 
@@ -49,7 +49,7 @@ Apply changes to every person on a path, such as sending an email or updating a 
 :::
 
 :::
-![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 Event nodes
 
@@ -59,7 +59,7 @@ Advance people to the next journey step when a specific activity or data change 
 :::
 
 :::
-![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 Wait nodes
 
@@ -69,7 +69,7 @@ Pause journey progression for a set duration or until a specific date and time b
 :::
 
 :::
-![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 Split and merge paths nodes
 
@@ -79,7 +79,7 @@ Segment people into separate paths based on conditions, apply different actions 
 :::
 
 :::
-![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 Next best path node
 

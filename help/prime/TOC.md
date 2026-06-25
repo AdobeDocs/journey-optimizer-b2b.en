@@ -39,11 +39,10 @@ hide: true
    + [WhatsApp channel](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
-   + [Event-based Audiences](./audiences/event-based-audiences.md)
+   + [Event-based audiences](./audiences/event-based-audiences.md)
    + [Person engagement scores](./audiences/engagement-scores.md)
    + [Derived personas](./audiences/personas.md)
    + [Destinations](./audiences/destinations.md)
-   + [Dynamic audience qualification](./audiences/dynamic-audience-qualification.md)
 + Content {#content}
    + [Assets](./content/digital-asset-management.md)
    + Templates {#templates}
