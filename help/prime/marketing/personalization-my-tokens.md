@@ -34,6 +34,10 @@ When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. 
 
 In addition to _My Tokens_, which are specific to the program or folder, you can use any of the standard (built-in) tokens for personalization.
 
+>[!NOTE]
+>
+>_My Tokens_ are not currently enabled in the Personalization Editor for this Beta release.
+
 ## Access tokens
 
 1. On the left navigation, expand **[!UICONTROL Marketing Management]**.
