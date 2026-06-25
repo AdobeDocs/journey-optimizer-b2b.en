@@ -23,7 +23,7 @@ role_v2:
 
 In [!DNL Adobe Journey Optimizer B2B Prime], _event‑based audiences_ let you add audience members to a live [person journey](../marketing/person-journeys.md) in near real time when a [!DNL Marketo Engage] activity occurs. You configure event‑based audiences on the Audience node of the journey canvas:
 
-* Select one or more Marketo activities (standard or custom) as the qualifying events.
+* Select one or more [!DNL Marketo Engage] activities (standard or custom) as the qualifying events.
 * Optionally add person profile filters (such as industry, region, or lifecycle stage) to narrow which people can enter.
 * Optionally define activity‑attribute constraints (such as a specific form, URL, or program) to narrow which occurrences of each activity qualify.
 

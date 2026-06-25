@@ -92,6 +92,7 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
 
 [Email authoring](./content/email-authoring.md)
 [Templates](./content/templates.md)
+[Landing pages](./content/landing-pages.md)
 :::
 
 ::::

@@ -25,7 +25,7 @@ role_v2:
 ---
 # Person audience node
 
-The _person audience_ node specifies which person profiles enter the journey. When you [create a person journey](./person-journeys.md), the journey always starts with a person audience node that defines its input. The person audience node can have one of two audience input types: a static people list or a dynamic people list.
+The _person audience_ node specifies which person profiles enter the journey. When you [create a person journey](./person-journeys.md), the journey always starts with a person audience node that defines its input. The person audience node can have one of two audience input types: a dynamic people list or an event trigger.
 
 If the dynamic people list that you need for the person journey does not aleady exist, [create the people list](../audiences/people-lists.md#create-a-people-list) and then configure the Person audience node.
 

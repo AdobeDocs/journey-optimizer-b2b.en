@@ -6,7 +6,7 @@ hide: true
 
 # Journey Optimizer B2B Prime User Guide {#prime}
 
-+ [Adobe Journey Optimizer B2B Prime Documentation](guide-overview.md)
++ [Adobe Journey Optimizer B2B Prime documentation](guide-overview.md)
 + Get started {#start}
    + [Setup checklist](./start/setup-prime.md)
    + [User management](./start/user-management.md)
