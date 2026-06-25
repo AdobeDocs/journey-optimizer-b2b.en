@@ -14,6 +14,7 @@ hide: true
 + [Home page](./home-insights/home-page.md)
 + AI Assistant {#ai-assistant}
    + [Chat interface](./agents/chat-interface.md)
+   + [Skills](./agents/skills.md)
    + [Create program from brief](./agents/program-from-brief.md)
 + [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + Marketing management {#marketing-management}

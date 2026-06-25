@@ -85,9 +85,11 @@ Connectors open a modal instead of inserting text. Navigation shortcuts take you
 
 A skill is a packaged workflow the agent knows how to run — the building blocks behind both the `/` menu and natural-language requests. Each skill bundles step-by-step instructions and the specific tools needed for one job (for example, "publish a journey", "compare two people lists", "build a scoring model").
 
+See _[AI Assistant Skills](./skills.md)_ for a complete list of currently supported skills.
+
 Key things to know about skills:
 
-* **Skills are product-scoped.** In AJO B2B Prime you'll see AJO B2B skills (journeys, people lists, scoring, channels, send-time optimization, and so on). A few skills are Marketo-only and a couple work in both products (lead import, product knowledge). You only see skills relevant to where you are.
+* **Skills are product-scoped.** In [!DNL Journey Optimizer B2B Prime] you'll see various product-specific skills (journeys, people lists, scoring, channels, send-time optimization, and so on). A few skills are [!DNL Marketo Engage]-only and a couple work in both products (lead import, product knowledge). You only see skills relevant to where you are.
 * **You don't need to memorize skill names.** Describe your goal and the agent picks the matching skill. The `/` menu is a faster, discoverable shortcut to the same workflows.
 * **Some skills only read; others change things.** Investigative and report skills (for example, lead investigation, intent query, send-time report) only read data. Build and configure skills (for example, journey creation, scoring) create or change data.
 
