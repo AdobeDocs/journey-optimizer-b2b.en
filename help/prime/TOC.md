@@ -17,6 +17,7 @@ hide: true
    + [Skills](./agents/skills.md)
    + [Create program from brief](./agents/program-from-brief.md)
    + [Create audiences for programs](./agents/audience-creation.md)
+   + [Create custom scoring models](./agents/lead-scoring-model.md)
 + [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 + Marketing management {#marketing-management}
    + [Overview](./marketing/marketing-management.md)
