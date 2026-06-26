@@ -28,11 +28,17 @@ Add the _Listen for an event_ node to move your audience forward to the next ste
 
 ## Event triggers {#event-triggers}
 
-Get list from PM
+You can build triggers around [!DNL Marketo Engage] activities, such as:
+
+* Fills Out Form - Fires when a person submits a [!DNL Marketo Engage] form on your landing page.
+* Visits Web Page - Fires when a lead views a tracked webpage (you can specify exact URLs or use wildcards).
+* Clicks Link - Fires when a tracked link in a marketing email is clicked.
+* Data Value Changes - Fires when a specific field (like Lead Status, Score, or Industry) is updated on a person's record.
+* Campaign is Requested - Often used for API or webhook integrations, this trigger kicks off a campaign when another program or web service calls it.
+* Score is Changed - Fires when an individual's lead score increases or decreases past a certain threshold.
+* Mobile Push Tapped - Fires in mobile marketing smart campaigns when a push notification is interacted with on a device.
 
 ## Event filters {#event-filters}
-
-Get updated list from PM
 
 | Filters | Description |
 | ------- | ----------- |
