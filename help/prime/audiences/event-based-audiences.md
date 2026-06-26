@@ -65,4 +65,3 @@ _To define an event-based audience for a person journey:_
    If you add filters, the person must satisfy at least one configured activity condition and the configured filters.
 
 1. Click **[!UICONTROL Save]**.
-

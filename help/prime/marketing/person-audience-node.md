@@ -42,4 +42,3 @@ _To configure the journey audience:_
    * **[!UICONTROL Dynamic list]** - Use a dynamic, rules-based people list. The list rules are evaluated at journey runtime to qualify members of the journey. People that later disqualify for the dynamic list are not removed from the journey. See _[Dynamic lists](../audiences/people-lists.md#dynamic-lists)_.
 
    * **[!UICONTROL Event audience]** - Use an event audience define the journey audience based on qualifying events. Define audience members using person profile filtering and trigger journey entry using event criteria. See _[Event-based audiences](../audiences/event-based-audiences.md)_.
-
