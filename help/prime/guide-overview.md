@@ -37,6 +37,7 @@ Get Started
 Complete initial setup and configuration, then learn how to navigate the application and use the home page.
 
 [Administrator setup](./start/setup-prime.md)
+
 [Home page](./home-insights/home-page.md)
 :::
 
@@ -48,6 +49,7 @@ AI Assistant
 Use natural language to plan programs, build journeys, manage audiences, and create content with agentic AI skills.
 
 [Chat interface](./agents/chat-interface.md)
+
 [Available skills](./agents/skills.md)
 :::
 
@@ -69,6 +71,7 @@ Marketing Management
 Organize campaigns into programs, design person journeys with multi-channel content, and personalize with custom tokens.
 
 [Marketing overview](./marketing/marketing-management.md)
+
 [Person journeys](./marketing/person-journeys.md)
 :::
 
@@ -80,6 +83,7 @@ Audiences
 Build and maintain people lists, define event-based audiences, and track engagement with persona-based scoring.
 
 [People lists](./audiences/people-lists.md)
+
 [Engagement scores](./audiences/engagement-scores.md)
 :::
 
@@ -91,7 +95,9 @@ Content
 Author emails and WhatsApp messages, manage templates and assets, create landing pages and forms, and apply personalization.
 
 [Email authoring](./content/email-authoring.md)
+
 [Templates](./content/templates.md)
+
 [Landing pages](./content/landing-pages.md)
 :::
 
