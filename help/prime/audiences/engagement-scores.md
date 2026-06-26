@@ -158,10 +158,8 @@ For background on engagement score models, weighting bands, and activity weights
 1. Open the **[!UICONTROL AI Assistant]** chat panel from the left side of the screen (chat icon).
 
 1. In the chat input field, type the forward slash command followed by your intent. For example:
-
-   ```text
-   /engagement-configuration Configure activity weights for the person engagement score model
-   ```
+  
+   `/engagement-configuration Configure activity weights for the person engagement score model`
 
    As you type `/`, AI Assistant displays a list of available slash commands and skills. The engagement configuration command routes directly to the Engagement Score Weighting page.
 

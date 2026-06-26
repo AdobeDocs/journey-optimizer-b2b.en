@@ -35,7 +35,7 @@ _To configure the journey audience:_
 
    This action displays the node properties on the right.
 
-   ![Person audience journey node](./assets/person-audience-node-properties.png){width="500" zoomable="yes"}
+   ![Person audience journey node](./assets/person-audience-node-properties.png){width="600" zoomable="yes"}
 
 1. Use one of the following audience configuration options for the person audience:
 
