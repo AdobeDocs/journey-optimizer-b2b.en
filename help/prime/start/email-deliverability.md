@@ -48,7 +48,7 @@ It uses the following building blocks, configured by an administrator, typically
 
 ## Current limitations {#limitations}
 
-* **Custom Delegation method** for subdomain delegation is not yet available — use Fully Delegated or CNAME. Custom Delegation is targeted for the GA release.
+* **Custom Delegation method** for subdomain delegation is not yet available. Use Fully Delegated or CNAME. Custom Delegation is targeted for the GA release.
 * **Dedicated IP pools** are not available at Beta. The shared IP pool is the only option. Dedicated IPs ship at GA, including IP warmup planning and PTR record management.
 
 ## Key concepts {#key-concepts}

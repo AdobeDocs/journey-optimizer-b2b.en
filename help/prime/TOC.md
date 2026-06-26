@@ -67,7 +67,7 @@ hide: true
    + [Program types](./admin/program-types.md)
 
 <!--
-   + Business rules
+   + Business rules admin
    + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}
