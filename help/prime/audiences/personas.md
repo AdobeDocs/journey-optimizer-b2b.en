@@ -62,7 +62,7 @@ The _[!UICONTROL Derived Persona]_ filter appears in the filter panel under the 
 
 When you add or remove members from a [static people list](./people-lists.md#static-list), or when you define the membership rules for a [dynamic people list](./people-lists.md#dynamic-lists), you can filter by Derived Persona to target all people whose attributes match a specific configured persona.
 
-![Derived persona filtering for a people list](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
+![Derived persona filtering for a people list](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 
 **Static list — Add members**
 
@@ -92,7 +92,7 @@ When you add or remove members from a [static people list](./people-lists.md#sta
 
 When you configure segmentation for a person journey in a [_Split paths_ node](../marketing/split-merge-paths-nodes.md), you can use a derived persona as a person profile filter to control which people enter the journey path.
 
-![Derived persona filtering for a split path condition](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
+![Derived persona filtering for a split path condition](./assets/derived-persona-filter-split-path.png){width="750" zoomable="yes"}
 
 1. Click the **[!UICONTROL Split paths]** node in the journey canvas.
 

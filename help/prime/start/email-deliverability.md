@@ -40,7 +40,7 @@ It uses the following building blocks, configured by an administrator, typically
 1. [Confirm the IP pool](#ip-pools) used to send email for your subdomain.
 1. [Create one or more email channel configurations](../admin/email-channel-configuration.md#create-email-channel-configuration) that bind a subdomain, IP pool, and sender identity.
 
-![Email deliverabilityy setup for Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
+![Email deliverabilityy setup for Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
 
 >[!TIP]
 >

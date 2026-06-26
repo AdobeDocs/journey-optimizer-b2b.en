@@ -36,8 +36,7 @@ Get Started
 
 Complete initial setup and configuration, then learn how to navigate the application and use the home page.
 
-[Administrator setup](./start/setup-prime.md)
-
+[Administrator setup](./start/setup-prime.md) <br/>
 [Home page](./home-insights/home-page.md)
 :::
 
@@ -48,8 +47,7 @@ AI Assistant
 
 Use natural language to plan programs, build journeys, manage audiences, and create content with agentic AI skills.
 
-[Chat interface](./agents/chat-interface.md)
-
+[Chat interface](./agents/chat-interface.md) <br/>
 [Available skills](./agents/skills.md)
 :::
 
@@ -70,8 +68,7 @@ Marketing Management
 
 Organize campaigns into programs, design person journeys with multi-channel content, and personalize with custom tokens.
 
-[Marketing overview](./marketing/marketing-management.md)
-
+[Marketing overview](./marketing/marketing-management.md) <br/>
 [Person journeys](./marketing/person-journeys.md)
 :::
 
@@ -82,8 +79,7 @@ Audiences
 
 Build and maintain people lists, define event-based audiences, and track engagement with persona-based scoring.
 
-[People lists](./audiences/people-lists.md)
-
+[People lists](./audiences/people-lists.md) <br/>
 [Engagement scores](./audiences/engagement-scores.md)
 :::
 
@@ -94,10 +90,8 @@ Content
 
 Author emails and WhatsApp messages, manage templates and assets, create landing pages and forms, and apply personalization.
 
-[Email authoring](./content/email-authoring.md)
-
-[Templates](./content/templates.md)
-
+[Email authoring](./content/email-authoring.md) <br/>
+[Templates](./content/templates.md) <br/>
 [Landing pages](./content/landing-pages.md)
 :::
 
@@ -113,7 +107,7 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="AI Assistant"><br/>
-      <strong>AI Assistant</strong><br/><a href="./agents/chat-interface.md">Chat interface</a><br/><a href="./agents/skills.md">Skills</a><br/><a href="./agents/program-from-brief.md">Create program from brief</a>
+      <strong>AI Assistant</strong><br/><a href="./agents/chat-interface.md">Chat interface</a><br/><a href="./agents/skills.md">Skills</a><br/><a href="./agents/program-from-brief.md">Create program from brief</a><br/><a href="./agents/audience-creation.md">Create audiences for programs</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Marketing management"><br/>
