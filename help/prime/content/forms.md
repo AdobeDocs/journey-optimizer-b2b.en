@@ -286,13 +286,11 @@ Changes to a form depend on its current status:
 1. Use the visual design tools as needed to update the form content:
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    Click **[!UICONTROL Save & close]** to return to the form details.
@@ -313,13 +311,11 @@ Changes to a form depend on its current status:
 1. Click **[!UICONTROL Edit form]** in the _[!UICONTROL Summary]_ pane on the right and use the visual design tools as needed:
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    Click **[!UICONTROL Save & close]** to return to the form details.
