@@ -36,7 +36,6 @@ The amount of information that the form should capture depends on the value of t
 >[!PREREQUISITES]
 >
 >Before marketing teams can create and use forms to capture information, an administrator must define one or more form presets. For more information, see [_Forms configurations_](../admin/configuration-presets-forms.md)
->
 
 <!-- 
 >Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
@@ -123,11 +122,8 @@ You can create a form in [!DNL Journey Optimizer B2B Prime] by clicking **[!UICO
    Form requirements:
 
    * Name - Maximum of 100 characters, must be unique, case-insensitive
-
    * Description - Maximum of 300 characters
-
    * Alpha, numeric, and special characters are allowed
-
    * Reserved characters are **_not allowed_**: `\ / : * ? " < > |`
 
    <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
@@ -163,9 +159,7 @@ Click **[!UICONTROL Save & close]** to save your form content design changes and
 In the _[!UICONTROL Summary]_ panel on the right, scroll to the **[!UICONTROL Thank you page]** section and use the **[!UICONTROL Follow up with]** setting to define what happens when a visitor submits the form:
 
 * **[!UICONTROL Stay on page]** - Choose this option to keep the visitor on the same page when the form is submitted.
-
 * **[!UICONTROL Landing page]** - Choose this option to select any [!DNL Journey Optimizer B2B Prime] landing page as the follow-up.
-
 * **[!UICONTROL External URL]** - Choose this option to specify any URL as the follow-up page. After the visitor submits the form, the browser loads the designated URL.
 
    >[!TIP]
@@ -262,7 +256,7 @@ Changes to a form depend on its current status:
 
 1. To make changes to the form in the visual design space, click **[!UICONTROL Edit form]**.
 
-  <!--
+   <!--
    Use the visual design tools as needed:
 
    * [Add fields](./form-design.md#add-field)
@@ -310,7 +304,6 @@ Changes to a form depend on its current status:
 >[!TAB Published with draft]
 
 1. Click the form name to open it. 
-
 1. Select the **[!UICONTROL Draft]** tab.
 
    A preview of the draft version form content is displayed, with the form details on the right.
@@ -357,4 +350,3 @@ When a form is included in a landing page or landing page template, the form con
 When you select the form on the landing page design space, these actions are available from the context toolbar and the properties panel on the right.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
-
