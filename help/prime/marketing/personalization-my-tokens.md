@@ -136,4 +136,3 @@ When you are authoring email content for your programs, you can use any of the t
 1. Click **[!UICONTROL Save]**.
 
 -->
-
