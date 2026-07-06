@@ -61,11 +61,11 @@ The created model is organized into _dimensions_ and _signals_. You can configur
 * **Activity or attribute** — The specific item to score
 * **Signal parameters** — Adjustable settings for the signal
 
-You can build and configure models entirely through the agent using natural language, or interact directly with the UI controls.
+You can build and configure models entirely through AI Assistant using natural language, or interact directly with the UI controls.
 
 ## Publish a scoring model {#publish-model}
 
-When your model is finalized, instruct the agent to publish it. The publish process handles the following automatically:
+When your model is finalized, instruct AI Assistant to publish it. The publish process handles the following automatically:
 
 | Step | What happens |
 |---|---|

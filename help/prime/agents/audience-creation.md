@@ -1,58 +1,58 @@
 ---
 title: Create Audiences for Programs
-description: Use the Audience Creation skill in Journey Optimizer B2B Prime to create people lists, adapt Marketo smart lists, and edit list rules in chat.
+description: Use the Audience Creation skill in Journey Optimizer B2B Prime to create people lists, adapt Marketo Engage Smart Lists, and edit list rules in chat.
 badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
-autotag-review: '2026-06-25T19:19:21.361Z'
+autotag-review: '2026-07-06T16:19:54.563Z'
 TQID: 'https://experienceleague.adobe.com/l3xd0u8LR0UDLfeGMXPEEJ9qwXPJX5DxkaH41W4Q7PE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
     internal-label: Audiences
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
     internal-label: AI Assistant
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-    internal-label: Tiers
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
     internal-label: Prime
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
     internal-label: Agentic AI
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Create audiences for programs
 
-In [!DNL Adobe Journey Optimizer B2B Prime], [_people lists_](../audiences/people-lists.md) define the audience for person journeys — either as dynamic filter-based lists that update automatically, or static lists with fixed membership. From the [chat interface](./chat-interface.md), the _Audience Creation_ skill builds, adapts, and edits people lists through a guided conversation.
+In [!DNL Adobe Journey Optimizer B2B Prime], [_people lists_](../audiences/people-lists.md) define the audience for person journeys — either as dynamic filter-based lists that update automatically, or static lists with fixed membership. From the [chat interface](./chat-interface.md), the _Audience Creation_ [skill](./skills.md) builds, adapts, and edits people lists through a guided conversation.
 
 * **Skills** - `audience-creation` and `people-list-comparison`
-* **Invocation** - Describe audience criteria directly, upload a [!DNL Marketo Engage] smart list, or name an existing list to edit
-* **Reads from / writes to** - [!DNL Journey Optimizer B2B Prime]; reads [!DNL Marketo Engage] when adapting smart lists
+* **Invocation** - Describe audience criteria directly, upload a [!DNL Marketo Engage] Smart List, or name an existing list to edit
+* **Reads from / writes to** - [!DNL Journey Optimizer B2B Prime]; reads [!DNL Marketo Engage] when adapting Smart Lists
 
 ## Supported workflows {#workflows}
 
-The assistant supports three workflows and determines which one applies from your request. If your intent is ambiguous, it asks before proceeding.
+AI Assistant supports three audience creation workflows and determines which one applies from your request. If your intent is ambiguous, it asks before proceeding.
 
 | Workflow | When to use it | Example prompt |
 |---|---|---|
 | **Create from scratch** | You want a new people list defined by criteria or membership. | _"Create a dynamic list of VPs of Marketing at SaaS companies in North America."_ |
-| **Adapt a [!DNL Marketo Engage] smart list** | You have an existing [!DNL Marketo Engage] Smart List or Smart Campaign and want an equivalent people list. | _"Adapt this Marketo smart list into a people list."_ (attach the asset) |
+| **Adapt a [!DNL Marketo Engage] Smart List** | You have an existing [!DNL Marketo Engage] Smart List or Smart Campaign and want an equivalent people list. | _"Adapt this Marketo smart list into a people list."_ (attach the asset) |
 | **Edit an existing list** | You want to add to or replace the rules on a list you already have. | _"Add a rule to my 'Enterprise Trials' list for lead score over 50."_ |
 
 ## Create a people list from scratch {#create-from-scratch}
 
-Before generating anything, the assistant confirms all four of the following. It asks for any that are missing — in a single message.
+Before generating anything, AI Assistant confirms all four of the following. It asks for any that are missing — in a single message.
 
 1. **Rules / criteria** — A plain-language description of who belongs in the list.
 1. **Name** — What to call the list.
-1. **Location** — Which program the list should live in. Provide a program name and the assistant finds it; if there are multiple matches it asks you to pick.
-1. **Type** — Dynamic (filter-based, auto-updating) or static (fixed membership). This is required — the assistant will not guess; if you don't specify, it asks.
+1. **Location** — Which program the list should live in. Provide a program name and AI Assistant finds it; if there are multiple matches it asks you to pick.
+1. **Type** — Dynamic (filter-based, auto-updating) or static (fixed membership). This is required — AI Assistant will not guess; if you don't specify, it asks.
 
-### Dynamic lists
+### Dynamic lists {#dynamic-lists}
 
-For dynamic lists, the assistant proactively suggests including personalization attributes to make targeting richer. These attributes are **_included by default — you opt out, not in_**:
+For dynamic lists, AI Assistant proactively suggests including personalization attributes to make targeting richer. These attributes are **_included by default — you opt out, not in_**:
 
 | Attribute | Why it helps |
 |---|---|
@@ -60,16 +60,16 @@ For dynamic lists, the assistant proactively suggests including personalization 
 | **Derived Intent** | Inferred purchase-intent signals that surface in-market accounts. |
 | **Engagement Tier** | Calculated engagement level that prioritizes engaged contacts. |
 
-Tell the assistant if you want to remove any of these before it proceeds.
+Tell AI Assistant if you want to remove any of these before it proceeds.
 
-### Static lists
+### Static lists {#static-lists}
 
 * **Static, no criteria** — The list is created empty, ready for you to add members manually.
-* **Static from criteria (a snapshot)** — AI Assistant builds the matching set and copies those people in. Population is asynchronous — the assistant confirms the list was created but notes that it may take a few minutes for people to appear. It will not claim the list is ready immediately.
+* **Static from criteria (a snapshot)** — AI Assistant builds the matching set and copies those people in. Population is asynchronous — AI Assistant confirms the list was created but notes that it may take a few minutes for people to appear. It will not claim the list is ready immediately.
 
 ## Review card {#review-card}
 
-Nothing is created until you approve it. After you describe your criteria, the assistant presents an interactive _People List Creation Review_ card (for adaptations from [!DNL Marketo Engage] lists, the card is titled _People List Conversion Review_).
+Nothing is created until you approve it. After you describe your criteria, AI Assistant presents an interactive _People List Creation Review_ card (for adaptations from [!DNL Marketo Engage] lists, the card is titled _People List Conversion Review_).
 
 Each row in the card represents one condition:
 
@@ -96,13 +96,13 @@ You can also type a follow-up at any point (for example, _"also restrict to comp
 
 ## Attribute mapping {#attribute-mapping}
 
-When you describe criteria, the assistant translates each condition into a real, known person-level attribute. Three outcomes can appear on the Review card:
+When you describe criteria, AI Assistant translates each condition into a real, known person-level attribute. Three outcomes can appear on the Review card:
 
 1. **Matched (high confidence)** — Your condition maps directly to an attribute (for example, _"email is acme.com"_ maps to the `email` attribute). Checked by default.
 1. **Approximate (low confidence)** — The closest available attribute differs in name or data model (for example, a Marketo _Amount_ filter approximated as _Lead Score_). Shown with a note explaining the difference; unchecked by default.
 1. **Not found** — The condition couldn't be mapped to any known attribute. Shown as _"No equivalent found"_; no rule is generated.
 
-This is why a list you describe might come back with fewer rules than conditions you specified — unmatched conditions are surfaced explicitly rather than silently dropped. If important criteria land as "not found," rephrase them using the attribute's real name and the assistant re-tries.
+This is why a list you describe might come back with fewer rules than conditions you specified — unmatched conditions are surfaced explicitly rather than silently dropped. If important criteria land as "not found," rephrase them using the attribute's real name and AI Assistant re-tries.
 
 >[!NOTE]
 >
@@ -110,12 +110,12 @@ This is why a list you describe might come back with fewer rules than conditions
 
 ## Edit rules for an existing list {#edit-rules}
 
-When you ask to change rules on a list you already have, the assistant establishes which list and which edit mode:
+When you ask to change rules on a list you already have, AI Assistant establishes which list and which edit mode:
 
 * **Add / append** (default for _"add rules"_, _"add more rules"_) — new rules are merged with the existing ones.
 * **Replace** (default for _"replace rules"_, _"change rules to"_) — new rules replace all existing rules on the list.
 
-The assistant summarizes what will be applied and clearly states whether it's adding or replacing, then asks you to confirm before it commits. After applying, it reports the total rule count and how many were added or replaced.
+AI Assistant summarizes what will be applied and clearly states whether it's adding or replacing, then asks you to confirm before it commits. After applying, it reports the total rule count and how many were added or replaced.
 
 >[!NOTE]
 >
@@ -137,8 +137,8 @@ Ask AI Assistant to compare two people lists (for example, _"Show me the overlap
 |---|---|
 | **Table size** | Shows up to 200 members; beyond that it notes _"Showing 200 of N — ask me to refine the query to narrow results."_ |
 | **Overlap computation** | Computed on email address; people without an email are excluded from the intersection. |
-| **List size** | Reads up to approximately the first ~1,000 members of each list. For larger lists the assistant tells you results are partial. |
-| **Draft dynamic lists** | Can't be compared — a list that hasn't been published has no live segment. The assistant asks you to publish it first or use a static list instead. |
+| **List size** | Reads up to approximately the first ~1,000 members of each list. For larger lists AI Assistant tells you results are partial. |
+| **Draft dynamic lists** | Can't be compared — a list that hasn't been published has no live segment. AI Assistant asks you to publish it first or use a static list instead. |
 
 ## QA validation {#qa-validation}
 
@@ -156,10 +156,10 @@ After creating or updating a list, AI Assistant offers: _"Would you like me to v
 
 | Limitation | Detail |
 |---|---|
-| **Static-list adaptation from [!DNL Marketo Engage]** | You can't adapt a [!DNL Marketo Engage] static list (or an email or other non-filter asset) into a people list. Static lists are explicit member IDs and can't be expressed as filters; the assistant asks for a Smart List or Smart Campaign instead. |
+| **Static-list adaptation from [!DNL Marketo Engage]** | You can't adapt a [!DNL Marketo Engage] static list (or an email or other non-filter asset) into a people list. Static lists are explicit member IDs and can't be expressed as filters; AI Assistant asks for a Smart List or Smart Campaign instead. |
 | **Activity- and membership-based filters** | When adapting from [!DNL Marketo Engage], filters like _Email Was Opened_, _Visited Web Page_, _Form Was Filled Out_, _Member of List_, and _Member of Smart Campaign_ have no people-list equivalent and come back as "No equivalent found." |
 | **Company-level conditions** | Translated to the nearest person-level attribute where possible (people lists operate on person attributes) and flagged low-confidence when the fit is loose. |
-| **Deeply nested AND/OR logic** | Complex nested logic may collapse to a top-level AND/OR; the assistant notes this when it happens. |
-| **Name collisions** | Not auto-resolved — if the name is taken, the assistant asks you for a different one rather than silently appending a suffix. |
-| **Approval required** | The assistant will not create or modify a list until you click **[!UICONTROL Proceed]**, confirm, or give a clear go-ahead (_"approved"_, _"looks good"_, _"build it"_). |
+| **Deeply nested AND/OR logic** | Complex nested logic may collapse to a top-level AND/OR; AI Assistant notes this when it happens. |
+| **Name collisions** | Not auto-resolved — if the name is taken, AI Assistant asks you for a different one rather than silently appending a suffix. |
+| **Approval required** | AI Assistant will not create or modify a list until you click **[!UICONTROL Proceed]**, confirm, or give a clear go-ahead (_"approved"_, _"looks good"_, _"build it"_). |
 | **Static snapshot population** | Membership in static lists created from criteria fills in over a few minutes — not instantly. |
