@@ -103,3 +103,4 @@ When you configure segmentation for a person journey in a [_Split paths_ node](.
 1. In the filter condition, choose **[!UICONTROL is]** and select one or more personas from the list.
 
 1. Click **[!UICONTROL Done]** to save the filter for the path.
+
