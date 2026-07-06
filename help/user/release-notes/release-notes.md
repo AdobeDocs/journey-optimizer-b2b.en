@@ -33,6 +33,22 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## 2026.6 release notes {#rel-2026-6}
+
+**Deployment date**: July 10, 2026
+
+<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Enhancement | Split path journey nodes - Variants | Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. |
+| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
+| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
+
+>[!NOTE]
+>
+>These release changes begin deployment on July 10, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
 ## 2026.5 release notes {#rel-2026-5}
 
 **Deployment date**: May 22, 2026
@@ -43,7 +59,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Landing pages are available in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. <ul><li>Administrators can configure landing page subdomains and presets to enable landing page publishing. [Learn more](../admin/configure-channels-landing-pages.md)</li><li>Marketers can create, design, and publish landing pages to support their journeys with personalized web content. [Learn more](../content/landing-pages.md)</li></ul> |
 | Feature | Forms | Journey Optimizer B2B Edition now supports reusable form components to enable data submission from landing pages _(previously a Beta program feature)_. <ul><li>Administrators can configure multiple form presets using different combinations of datasets and streaming connections. [Learn more](../admin/configure-channels-forms.md)</li><li>Marketers can now define reusable form components to capture information from web page visitors. [Learn more](../content/forms.md)</li></ul> |
-| Feature | Member of Account List filter | Use the membership of Account Lists as an orchestration point in account journeys. Marketers can create account blocklists, priority lists, or any other kind of subset of their audience and provide accounts unique experiences in journeys based on their membership. |
+| Feature | Member of Account List filter | Use account list membership as an orchestration point in account journeys. Marketers can create account blocklists, priority lists, or any other kind of subset of their audience and provide accounts unique experiences in journeys based on their membership. |
 | Feature | Experience event history filtering | This feature enables B2B journey orchestration to use historical engagement to drive behavior-based decisions for audience members. [Learn more](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)  |
 | Feature | Next best path journey nodes | You can optimize split path decisioning for person journeys, refining how audiences are routed across paths before journey activation or at runtime. [Learn more](../journeys/next-best-path-node.md) |
 | Feature | Email performance dashboard | The Email Performance dashboard gives marketers a unified view of email activity across all journeys in Adobe Journey Optimizer B2B Edition. [Learn more](../dashboards/email-performance-dashboard.md) |
