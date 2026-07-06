@@ -55,7 +55,7 @@ If you define dark mode custom settings in the email design, these email clients
 
 +++
 
-+++Clients applying their own dark mode {#default-support}
++++Clients applying their own dark mode
 
 Some email clients systematically apply their own default dark mode to all received emails. They automatically adjust colors, backgrounds, images, and other elements according to their dark mode settings, and external settings are not possible. These clients include:
 

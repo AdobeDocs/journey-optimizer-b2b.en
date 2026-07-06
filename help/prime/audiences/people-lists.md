@@ -1,6 +1,7 @@
 ---
 title: People Lists
-description: Learn how to create and manage people lists in Journey Optimizer B2B Prime, including dynamic lists with rule-based qualification and static lists with fixed membership.
+description: Create and manage people lists in Journey Optimizer B2B Prime for journey targeting, dynamic rule-based membership, and static list destination activation.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
 product_v2:
@@ -46,7 +47,7 @@ From this space you can also:
 <!--
 ## Audience Hub
 
-The AI Audience Hub is a centralized, AI-driven starting point for all audience-related capabilities across AJO B2B. It is designed to accelerate first-time user success while progressively unlocking advanced intelligence, insights, and control for returning and power users.
+The AI Audience Hub is a centralized, AI-driven starting point for all audience-related capabilities across [!DNL Adobe Journey Optimizer B2B Prime]. It is designed to accelerate first-time user success while progressively unlocking advanced intelligence, insights, and control for returning and power users.
 
 The Hub acts as:
 

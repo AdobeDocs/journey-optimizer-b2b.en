@@ -30,11 +30,11 @@ The following example outlines steps to add a form as you design your page.
 
    * **[!UICONTROL External URL]** - Choose this option to specify any URL as the follow-up page. After the visitor submits the form, the browser loads the designated URL.
 
-      >[!TIP]
-      >
-      >If you want to use the form for downloading a file, you can specify a URL for the hosted file. With this configuration, the submit button functions as a download button.
+     >[!TIP]
+     >
+     >If you want to use the form for downloading a file, you can specify a URL for the hosted file. With this configuration, the submit button functions as a download button.
     
-    ![Change the follow-up setting](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"} 
+     ![Change the follow-up setting](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"} 
 
 1. If you want to limit the form display by device type, change the **[!UICONTROL Display Options]** setting:
 

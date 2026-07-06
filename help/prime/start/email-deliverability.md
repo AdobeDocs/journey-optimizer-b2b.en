@@ -40,13 +40,15 @@ It uses the following building blocks, configured by an administrator, typically
 1. [Confirm the IP pool](#ip-pools) used to send email for your subdomain.
 1. [Create one or more email channel configurations](../admin/email-channel-configuration.md#create-email-channel-configuration) that bind a subdomain, IP pool, and sender identity.
 
+![Email deliverabilityy setup for Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+
 >[!TIP]
 >
 >Treat deliverability and channel setup as a one-time administrator activity. When configured, marketers and email authors do not need to revisit it.
 
 ## Current limitations {#limitations}
 
-* **Custom Delegation method** for subdomain delegation is not yet available — use Fully Delegated or CNAME. Custom Delegation is targeted for GA.
+* **Custom Delegation method** for subdomain delegation is not yet available. Use Fully Delegated or CNAME. Custom Delegation is targeted for the GA release.
 * **Dedicated IP pools** are not available at Beta. The shared IP pool is the only option. Dedicated IPs ship at GA, including IP warmup planning and PTR record management.
 
 ## Key concepts {#key-concepts}

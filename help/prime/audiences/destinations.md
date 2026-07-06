@@ -96,7 +96,7 @@ The connected destination appears in the list on the _[!UICONTROL Browse]_ tab a
 
 1. Select the check box for the configured destination connection.
 
-   ![Configured destinations available for activation](./assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+   ![Configured destinations available for activation](./assets/static-list-activate-destination-select.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
 
