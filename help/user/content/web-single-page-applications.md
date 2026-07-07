@@ -50,7 +50,7 @@ To personalize SPAs effectively, you need to configure view tracking so that Jou
 
 ### Set up view declarations
 
-Work with your development team to implement view declarations using the Adobe Web SDK. Using these view declarations involve calling the `sendEvent` command with view information whenever the SPA navigates to a new view.
+Work with your development team to implement view declarations using the Adobe Web SDK. Using these view declarations involves calling the `sendEvent` command with view information whenever the SPA navigates to a new view.
 
 **Example implementation:**
 
@@ -118,9 +118,9 @@ Configure modifications to wait for the target elements to exist before applying
 
 1. The modification applies once the target element appears in the DOM.
 
-#### Use mutation observers
+#### Implement mutation observers
 
-For highly dynamic content, the Web SDK includes built-in mutation observers that detect when new elements are added to the page. These observers ensure that modifications are applied even when elements load asynchronously.
+For highly dynamic content, the Web SDK includes mutation observers that detect when new elements are added to the page. These observers ensure that modifications are applied even when elements load asynchronously.
 
 ### SPA frameworks
 
@@ -173,12 +173,12 @@ When testing SPA web experiences:
 Some SPAs use animations or transitions between views. Consider:
 
 * **Timing** - Ensure modifications apply after transition animations complete.
-* **Element visibility** - Elements may exist but be hidden during transitions.
+* **Element visibility** - Elements may exist but are hidden during transitions.
 * **Flickering** - Apply modifications early enough to avoid visible content changes.
 
 ## Troubleshooting
 
-As you review the SPA design changes, use the following recommendations to resolve some common issues:
+As you review the SPA design changes, use the following recommendations to address some common issues:
 
 * **Modifications not appearing** - If modifications are not appearing on your SPA:
 

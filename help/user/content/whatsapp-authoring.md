@@ -4,21 +4,27 @@ description: Create WhatsApp messages for account journeys using approved Meta t
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
+autotag-review: '2026-05-27T16:19:44.490Z'
+TQID: 'https://experienceleague.adobe.com/B368ny2Y9BSzsE7CClVIbVr-5Kha5d2pTiNiDGCwML4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-autotag-review: '2026-04-29T23:21:59.633Z'
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # WhatsApp authoring
 
@@ -90,11 +96,11 @@ You can set up WhatsApp message deliveries in an account journey when you [add a
 
    ![Create WhatsApp - Actions tab](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Edit content]** to move on to the message parameters and text.
+1. Click **[!UICONTROL Edit content]** to proceed to the message parameters and text.
 
 ### Select a message template
 
-WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in Journey Optimizer B2B Edition. Work with your [!DNL Meta Business Manager] account administrator to manage and submit templates for approval.
+WhatsApp messages are sent using pre-approved message templates from your Meta WhatsApp Business Account. **Templates must be reviewed and approved by Meta** before you can use them in Journey Optimizer B2B Edition. To manage and submit templates for approval, work with your [!DNL Meta Business Manager] account administrator.
 
 1. For **[!UICONTROL Select template category]**, choose one of the following:
 
@@ -108,7 +114,7 @@ WhatsApp messages are sent using pre-approved message templates from your Meta W
 
    ![Selected WhatsApp message template with message loaded in the preview window](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   Templates are organized by category (_Marketing_, _Utility_, and _Authentication_) and status. Only **_Approved_** templates are available for selection. For more information about creating WhatsApp templates, see [_Create message templates for your WhatsApp Business account_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in the Meta documentation.
+   The system organizes templates by category (_Marketing_, _Utility_, and _Authentication_) and status. Only **_Approved_** templates are available for selection. For more information about creating WhatsApp templates, see [_Create message templates for your WhatsApp Business account_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in the Meta documentation.
 
 ### Image URLs
 

@@ -26,7 +26,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Take an action
 
-In your journey, you can add a _[!UICONTROL Take an action]_ node to execute an action, such as send an email, change a score, assign to a buying group, and so on. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action.
+To execute an action, such as send an email, change a score, assign to a buying group, and so on, you can add a _[!UICONTROL Take an action]_ node in your journey. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -101,7 +101,7 @@ For more information about using account matched audiences for a LinkedIn destin
 
 ## People actions
 
-In an account or person journey, use an action on people when you want to apply a change to all people on the node path. For an account journey, this node type can be used within the _split path by people_ or _split path by accounts_.
+In an account or person journey, use an action on people when you want to apply a change to all people on the node path. For an account journey, you can use this node type within the _split path by people_ or _split path by accounts_.
 
 ### Actions and constraints {#people-action-constraints}
 
@@ -145,7 +145,7 @@ The Journey Optimizer B2B people-based actions are designed to manage communicat
 
 +++[!UICONTROL Add to external customer audience]
 
-Use this action to push people to an external audience that can be activated across a paid media channel to further target members of buying groups. This action is executed through Real-Time CDP B2B Edition.
+Use this action to push people to an external audience that can be activated across a paid media channel to target members of buying groups further. This action is executed through Real-Time CDP B2B Edition.
 
 >[!NOTE]
 >
@@ -238,7 +238,7 @@ Use this action to send an email. After you [create the email](../content/add-em
 
 ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
-For person journeys, you can use [Send-time optimization](../content/email-send-time-optimization.md) to personalize email delivery timing by predicting when each profile is most likely to engage.
+For person journeys, use [Send-time optimization](../content/email-send-time-optimization.md) to personalize email delivery timing by predicting when each profile is most likely to engage.
 
 >[!NOTE]
 >
@@ -284,7 +284,7 @@ The Marketo Engage people-based actions are designed to coordinate your account-
 >
 >The Marketo Engage actions require configured integration with one or more external Marketo Engage instances. For detailed information about this configuration, see [_Activate Marketo Engage connections to support actions_](../admin/marketo-actions-connect.md).
 
-For example, you might want to suppress campaigns in Marketo Engage for people that are part of buying groups in Journey Optimizer B2B Edition. In this case, you can create a static list in Marketo Engage specifically for the solution interest. Then, on a split path by buying group, use the _Add to Marketo list_ action from a journey node. This action adds buying group members to a particular static list in a connected Marketo Engage instance. Then, use the solution interest focused static list for a smart list filter in Marketo Engage.
+For example, suppress campaigns in Marketo Engage for people that are part of buying groups in Journey Optimizer B2B Edition. In this case, you can create a static list in Marketo Engage specifically for the solution interest. Then, on a split path by buying group, use the _Add to Marketo list_ action from a journey node. This action adds buying group members to a particular static list in a connected Marketo Engage instance. Then, use the solution interest focused static list for a smart list filter in Marketo Engage.
 
 +++[!UICONTROL Add to Marketo request campaign]
 

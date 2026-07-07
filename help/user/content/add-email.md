@@ -96,7 +96,7 @@ You can set up email deliveries in a journey when you [add a _[!UICONTROL Take a
 
    * Choose **[!UICONTROL Select email from Adobe Marketo Engage]** to use one of the pre-authored emails in Marketo Engage and send it as a part of the journey.
 
-      If you have more than one workspace available in the connected Market Engage instance, select the workspace. Then, select the approved email that you want to send for the journey node.
+      If you have more than one workspace available in the connected Marketo Engage instance, select the workspace. Then, select the approved email that you want to send for the journey node.
 
      ![Select Marketo Engage email](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -138,7 +138,7 @@ Two types of alerts can be detected:
       >
       >Marketing-style email messages must include an opt-out link, which is not required for transactional messages. 
 
-   * `Text version of HTML is empty`: Do not forget to define a text version of your email body, which is used when HTML content cannot be displayed.
+   * `Text version of HTML is empty`: Define a text version of your email body, which is used when HTML content cannot be displayed.
 
    * `Empty link is present in email body`: Check that all the links in your email are correct. 
 

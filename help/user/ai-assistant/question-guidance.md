@@ -5,12 +5,14 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
+autotag-review: '2026-06-05T16:08:18.792Z'
+TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-    internal-label: 'AI Assistant '
+    internal-label: AI Assistant
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -20,11 +22,12 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-autotag-review: '2026-04-29T23:21:59.633Z'
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Question guidance for AI Assistant in Journey Optimizer B2B Edition
 
-Review the following set of example questions for querying AI Assistant in Journey Optimizer B2B Edition. This information also includes tips for how to phrase your questions to get optimal responses from AI Assistant. 
+Review the following example questions for querying AI Assistant in Journey Optimizer B2B Edition. This information also includes tips for how to phrase your questions to get optimal responses from AI Assistant. 
 
 ## Objective-based questions
 
@@ -41,13 +44,13 @@ The following example questions are grouped according to objectives that you can
 
 ## Phrasing your questions
 
-You must phrase your questions to AI Assistant with clarity and context to get as accurate a response as possible. Refer to the following list of tips for guidance on how to ask a clear question with context:
+To get as accurate a response as possible, phrase your questions to AI Assistant with clarity and context. Refer to the following list of tips for guidance on how to ask a clear question with context:
 
 * State your task and/or question in a concise manner.
 * Avoid ambiguous language or overly complex syntax to facilitate comprehension.
 * Provide relevant context regarding your task and/or question as context can help AI Assistant generate more relevant responses.
 
-The following tables provide some best practices that you can follow when using AI Assistant:
+The following tables provide some recommendations that you can follow when using AI Assistant:
 
 | Do | Example |
 | --- | --- |
@@ -67,12 +70,12 @@ The following tables provide some best practices that you can follow when using 
 
 The following list includes examples of questions AI Assistant in Journey Optimizer B2B Edition does not currently support:
 
-* Which account audiences use the workEmail.address field of ... field group in its condition? 
-* Show me the number of active journeys using account audiences of size of over 10,000, 5000-10,000, 1000-5000, and below 1000, in a distribution visual
+* Which account audiences use the workEmail.address field of ... field group in their condition? 
+* Show me the number of active journeys using account audiences of size over 10,000, 5000-10,000, 1000-5000, and below 1000, in a distribution visual
 * Who made the last update on account journey x?
 * How many active journeys add buying group members for solution interest x?
 * What active journeys add buying group members for solution interest x?
-* What is the most common decision maker title of buying group templates?
+* What is the most common decision-maker title of buying group templates?
 * Who are the decision makers for buying group template x?
 
 ## Next steps

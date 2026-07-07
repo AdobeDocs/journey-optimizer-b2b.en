@@ -39,10 +39,10 @@ There are two ways that you can define the wait time:
 
    ![Add journey node - wait](./assets/add-node-wait.png){width="440"}
 
-1. In the node properties on the right, set the **[!UICONTROL Type]** of time to wait before the journey proceeds to the next node in the path.
+1. To set the time to wait before the journey proceeds to the next node in the path, use the node properties on the right to set the **[!UICONTROL Type]**.
 
    * **[!UICONTROL Duration]** - Define a specific number of days, hours, or minutes to elapse between entry and exit of the wait node. 
-   * **[!UICONTROL Date]** - Specify a specific date and time for the exit.
+   * **[!UICONTROL Date]** - Specify a date and time for the exit.
 
    ![Journey node - wait](./assets/node-wait.png){width="500"}
 
@@ -50,7 +50,7 @@ There are two ways that you can define the wait time:
 
 Enable the **[!UICONTROL Must end on]** option to configure an _advanced wait step_ and ensure that your messages reach people and account members at the optimal moment. This configuration gives you precise control over when a person or account exits a wait step and proceeds to the next node in the journey. Rather than a fixed number of hours or days from entry to exit, you can schedule actions to occur at specific times and on specific days of the week. 
 
-With an _advanced wait step_, you define **_when_** the person or account should exit, not just how long they should wait.
+With an _advanced wait step_, you define **_when_** the person or account exits, not simply how long they wait.
 
 ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"}
 
@@ -65,11 +65,11 @@ With an _advanced wait step_, you define **_when_** the person or account should
 
 ### Common scenarios
 
-The following scenarios illustrate how you can apply typical scenarios to your wait node configuration:
+The following scenarios illustrate how you can apply typical examples to your wait node configuration:
 
 +++Email arrival during business hours
 
-**Scenario:** You market to B2B customers who read emails at work. You want all emails to arrive during business hours.
+**Scenario:** You market to B2B customers who read emails during their workday. You want all emails to arrive during business hours.
 
 **Solution:** Configure your wait step to release leads at 9:00 AM on weekdays (Monday–Friday). No matter when a lead enters the wait node, they receive your email during business hours.
 
@@ -85,7 +85,7 @@ The following scenarios illustrate how you can apply typical scenarios to your w
 
 +++SLA-compliant follow-up tasks
 
-**Scenario:** Your Sales team has a two-business-day SLA to follow up on marketing-qualified account leads. Weekends do not count.
+**Scenario:** Your Sales team has a two-business-day SLA to follow up on marketing-qualified account leads. Weekends are excluded.
 
 **Solution:** Configure the wait step to release leads only on business days. A lead qualified on Friday is routed for follow-up on Monday or Tuesday, not over the weekend.
 

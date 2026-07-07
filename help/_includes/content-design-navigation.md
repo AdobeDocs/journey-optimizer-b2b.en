@@ -29,7 +29,7 @@ The following example outlines steps to adjust padding and vertical alignment in
 
       Select **[!UICONTROL Different padding for each side]** if you want to fine tune the padding. Click the _Lock_ icon to break synchronization.
 
-   * Exapnd the **[!UICONTROL Advanced]** section to define inline styles for the column.
+   * Expand the **[!UICONTROL Advanced]** section to define inline styles for the column.
 
     ![Change the styles for the selected column](../assets/content-design-shared/content-design-layers-column-styles.png){width="700" zoomable="yes"}
 

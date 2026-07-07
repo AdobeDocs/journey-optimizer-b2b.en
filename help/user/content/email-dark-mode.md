@@ -32,12 +32,12 @@ TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJ
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Switch to dark mode"
->abstract="Switch to dark mode where you can preview how it may render, and define specific custom settings. <br>The final rendering depends on the recipient's email client. Be aware that all email clients do not support custom dark mode."
+>abstract="Switch to dark mode to preview rendering and define custom settings. <br>Rendering depends on the recipient's email client. Not all email clients support custom dark mode."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Switch to dark mode"
->abstract="Switch to dark mode to preview how it may render on supporting email clients. <br>The final rendering depends on the recipient's email client. Note that all email clients do not support dark mode."
+>abstract="Switch to dark mode to preview rendering on supporting email clients. <br>The final rendering depends on the recipient's email client. Note that not all email clients support dark mode."
 
 _Dark mode_ allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. This type of display can reduce eye strain, save battery life, and improve readability in low-light environments for a more comfortable viewing experience. As a growing trend across major operating systems and apps, it is now an important consideration in modern email design to ensure that content remains legible and visually appealing for all users.
 
@@ -47,7 +47,7 @@ As you [create your email content](./email-authoring.md) in the [!DNL Journey Op
 
 ## Email client considerations {#email-client-considerations}
 
-There is significant variance in the way that different email clients and apps apply dark mode. For this reason, you should consider the expectations for dark mode rendering with caution. Before you use dark mode in the email design space, consider the following email client use cases:
+There is significant variance in the way that different email clients and apps apply dark mode. For this reason, consider the expectations for dark mode rendering with caution. Before you use dark mode in the email design space, consider the following email client use cases:
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
@@ -67,7 +67,7 @@ If you define dark mode custom settings in the email design, these email clients
 
 +++Clients applying their own dark mode {#default-support}
 
-Some email clients systematically apply their own default dark mode to all received emails. They automatically adjust colors, backgrounds, images, and other elements according to their dark mode settings and external settings are not possible. These clients include:
+Some email clients systematically apply their own default dark mode to all received emails. They automatically adjust colors, backgrounds, images, and other elements according to their dark mode settings, and external settings are not possible. These clients include:
 
 * Gmail (Desktop Webmail, iOS, Android&trade;, Mobile Webmail)
 * Outlook Windows
@@ -128,14 +128,14 @@ As you style your email content for dark mode in [!DNL Journey Optimizer B2B Edi
 
 >[!CAUTION]
 >
->The final rendering could vary according to the recipient's email client. To see a simulation that comes as close as possible to the final result for each email client, use the [Litmus test email rendering](./email-test-rendering.md) integration.
+>The final rendering could vary according to the recipient's email client. To see a simulation that comes as close as possible to the final result for each email client, use the [Litmus email test rendering](./email-test-rendering.md) integration.
 
 ### Define custom dark mode settings {#custom-dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Use a specific image for dark mode"
->abstract="You can select another image to display when dark mode is on. <br>Adding a specific image for dark mode does not guarantee that it renders correctly in all email clients. Note that all email clients do not support custom dark mode."
+>abstract="Select another image for dark mode. <br>Adding a specific image does not guarantee correct rendering in all email clients. Not all email clients support custom dark mode."
 
 After switching to dark mode, you can choose to edit specific styling elements of your content that are displayed only when dark mode is enabled in the recipient's email client (provided it supports that feature).
 
@@ -143,7 +143,7 @@ After switching to dark mode, you can choose to edit specific styling elements o
 >
 >The dark mode final rendering depends on each email client, so results can vary from one to another. Review the [email client considerations](#email-client-considerations) for more information.
 
-The custom dark mode styling in the email design space uses the<!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` CSS query, which detects if the email client is set to dark mode and applies the dark-themed design that is defined in your email.
+The custom dark mode styling uses the `@media (prefers-color-scheme: dark)` CSS query to detect if the email client is set to dark mode and apply your defined dark-themed design.
 
 _To define custom dark mode settings:_
 
@@ -191,7 +191,7 @@ _To define custom dark mode settings:_
 
 ## Best practices {#best-practices}
 
-As dark mode adoption increases across major email clients, it is essential to consider how your emails render in both light and dark environments - whether you are using [custom dark mode](#custom-dark-mode) or not.
+As dark mode adoption increases across major email clients, it is essential to consider how your emails render in both light and dark environments—whether you are using [custom dark mode](#custom-dark-mode) or not.
 
 Dark mode can alter colors, backgrounds, and images — sometimes overriding design choices. To ensure visual consistency, accessibility, and brand integrity, follow these best practices:
 

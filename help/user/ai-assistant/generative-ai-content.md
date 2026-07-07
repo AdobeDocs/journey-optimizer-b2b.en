@@ -6,14 +6,16 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
+autotag-review: '2026-06-05T16:07:36.688Z'
+TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-    internal-label: 'AI Assistant '
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
     internal-label: Generative AI
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
 subfeature_v2:
@@ -28,29 +30,34 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-autotag-review: '2026-04-29T23:21:59.633Z'
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Generative AI for content {#generative-ai-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="AI Content Generation"
->abstract="After you have crafted your layout, you can use generative AI tools in [!DNL Journey Optimizer B2B Edition] to enhance your content. This feature simplifies the process of personalization and content improvement by fine-tuning the content according to your descriptive prompt."
+>abstract="After crafting your layout, use generative AI tools in [!DNL Journey Optimizer B2B Edition] to enhance your content. This feature simplifies personalization and content improvement by fine-tuning content based on your prompt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="Reference content"
->abstract="Use _Reference content_ to upload an asset file containing content that provides additional context for generative AI in [!DNL Journey Optimizer B2B Edition], or to select a previously uploaded file. This option ensures that all necessary materials are available to enhance the quality and relevance of generated content."
+>abstract="Use _Reference content_ to upload or select an asset file that provides context for generative AI in [!DNL Journey Optimizer B2B Edition]. This ensures materials are available to enhance the quality and relevance of generated content."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe generative AI terms"
->abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines. Review any output from this feature for accuracy and ensure that it is appropriate for your use case."
+>abstract="Access to this feature requires your acceptance of the Adobe Experience Cloud Generative AI User Guidelines. Review any output from this feature for accuracy and ensure that it is appropriate for your use case."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 
 Generative AI for content in [!DNL Adobe Journey Optimizer B2B Edition], powered by Microsoft Azure OpenAI and Adobe Firefly, provides proactive content variation suggestions for text and images. Optimize your content impact by experimenting with different main titles and images. 
 
-Use the generative AI features for content creation in [!DNL Journey Optimizer B2B Edition] to harness Adobe's generative AI capabilities. Craft personalized text and visuals for emails, SMS messages, landing pages, and more. When you are building a full campaign or simply refining specific assets, these features help you align content seamlessly with your brand guidelines while saving valuable time.
+Use the generative AI features for content creation in [!DNL Journey Optimizer B2B Edition] to harness Adobe's generative AI capabilities. Craft personalized text and visuals for emails, SMS messages, landing pages, and more. When building a campaign or refining assets, these features help you align content with your brand guidelines while saving time.
 
 <!--
 Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
@@ -315,7 +322,7 @@ Always provide context and the value proposition for producing relevant content.
  
 -->
 
-### New content vs. modification of existing content {#new-vs-modify}
+### New content or modification of existing content {#new-vs-modify}
 
 Clearly indicate if your request involves generating new content or updating existing material. This distinction is important because it guides the AI in selecting the appropriate approach and ensures a more accurate and useful outcome.
 

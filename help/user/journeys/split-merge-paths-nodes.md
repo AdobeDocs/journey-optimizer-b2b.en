@@ -47,7 +47,7 @@ _**How a split path by accounts node works**_
 
 * Each path that you add includes an end node with the ability to add nodes to each edge.
 * Split by account nodes can be nested (you can split the path by accounts repeatedly). 
-* Evaluation of each path is from top to bottom. If an account matches for the first and second paths, it proceeds along the first path only.
+* Evaluation of each path is from top to bottom. If an account matches the first and second paths, it proceeds along the first path only.
 * Two or more paths can be combined using a merge node.
 * The node supports the definition of an _[!UICONTROL Other accounts]_ path, where you can add actions or events for accounts that do not match one of the defined segments/paths.
 
@@ -75,11 +75,11 @@ _**How a split path by accounts node works**_
 
    ![Split path node - add condition](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
-1. In the conditions editor, add one or more filters to define the split path.
+1. To define the split path, add one or more filters in the conditions editor.
 
    * Drag and drop filter attributes from the left navigation and complete the match definition.
 
-   * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all filters or any filter.
+   * Refine your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all filters or any filter.
 
       ![Split path node - conditions accounts filter logic](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -105,7 +105,7 @@ _**How a split path by accounts node works**_
 
 You can define a path for accounts associated with buying groups and filter the path using buying group criteria. Use the **[!UICONTROL Account has matched buying group]** filter to define the path segment using a matched buying group. This filter also includes the option to identify accounts based on the number of assigned roles within a matched buying group.
 
-For example, you might want to evaluate buying group readiness based on the depth (number of people) it has in different roles, such as three decision makers and two influencers. In this case, set the condition to target accounts with a minimum of three (3) Decision Makers and two (2) Influencers in a matched buying group:
+For example, you could evaluate buying group readiness based on the depth (number of people) it has in different roles, such as three decision makers and two influencers. In this case, set the condition to target accounts with a minimum of three (3) Decision Makers and two (2) Influencers in a matched buying group:
 
 1. Click **[!UICONTROL Add filter]** and choose the **[!UICONTROL Number of people in buying group role]** filter.
 
@@ -127,7 +127,7 @@ For example, you might want to evaluate buying group readiness based on the dept
 
 1. Click **[!UICONTROL Done]** when you have all conditions defined for the path.
 
-For the identified accounts, you might then want to add an action node in the path to update the status of the buying group or stage, or to send a sales alert email.
+For the identified accounts, you could then add an action node in the path to update the status of the buying group or stage, or to send a sales alert email.
 
 ## Split paths by people
 
@@ -139,7 +139,7 @@ _**How a split path by people node works**_
 
 * Split by people nodes function within a _grouped node_ split-merge combination. The split paths automatically merge so that all people can move forward to the next step without losing their account context.
 * Split by people nodes cannot be nested (you cannot add a split path for people on a path that is in this grouped node).
-* Evaluation of each path is from top to bottom. If a person matches for the first and second paths, they proceed along the first path only.
+* Evaluation of each path is from top to bottom. If a person matches the first and second paths, they proceed along the first path only.
 * The node supports the use of _account-person relationships_, which allows you to filter people based on their role (such as contractor or full-time employee) as defined in the relationship.
 * The node supports the definition of an _[!UICONTROL Other people]_ path, where you can add actions or events for people that do not match one of the defined segments/paths.
 
@@ -152,7 +152,7 @@ _**How a split path by people node works**_
 | [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The person does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas). (See [Custom data filtering](#custom-data-filtering)) |
 | [!UICONTROL Event history] | Splits people based on experience events that occurred prior to journey entry. Expand the folder to see all event types configured in [Admin > XDM event configuration](../admin/configure-aep-events.md) and select one to add as a filter. Constraints include fields from the selected event, a lookback time window measured back from when the person enters the journey, and an optional minimum number of times. |
 | [!UICONTROL Person attributes] | Attributes from the [person profile](../admin/field-mapping.md#xdm-business-person-attributes), including: <li>City <li>Country <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | (Deprecated) The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li> |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li> |
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | (Deprecated) The person is or is not a member of one or more [!DNL Marketo Engage] lists. |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | (Deprecated) The person is or is not a member of one or more [!DNL Marketo Engage] programs. |
 
@@ -191,7 +191,7 @@ _**How a split path by people node works**_
       >
       >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions. 
 
-   * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
+   * Refine your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
 
       ![Split path node - conditions person filter logic](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 

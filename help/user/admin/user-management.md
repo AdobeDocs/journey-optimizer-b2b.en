@@ -24,14 +24,14 @@ TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz
 ---
 # User access and permissions
 
-After provisioning is complete and sandboxes are bound, complete the following steps to provide Adobe Journey Optimizer B2B Edition access for your team and users.
+After provisioning is complete and sandboxes are bound, use the following steps to provide Adobe Journey Optimizer B2B Edition access for your team and users.
 
 1. [Create a Marketo Engage product profile](#marketo-engage-profile) in the Admin Console (new Marketo Engage instance only).
 1. [Add a user group](#add-user-group) in the Admin Console.
 1. [Edit built-in roles](#edit-roles-for-product-permissions) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions.
 1. [Add users](#add-users) or [groups](#add-user-groups-to-a-role) to roles.
 
-As an administrator, you can complete these tasks in the Adobe Admin Console, which is a central place to administer and manage your Adobe product licenses and users. In the Admin Console, you can create and manage users in a single location instead of within your various individual solutions. Refer to the [Admin Console overview](https://helpx.adobe.com/enterprise/using/admin-console.html) page to learn more about its functions and capabilities.
+As an administrator, you can complete these tasks in the Adobe Admin Console, which is a central place to administer and manage your Adobe product licenses and users. In the Admin Console, you can create and manage users in a single location instead of within your various individual solutions. To learn more about its functions and capabilities, refer to the [Admin Console overview](https://helpx.adobe.com/enterprise/using/admin-console.html) page.
 
 ## Access the Admin Console
 
@@ -316,7 +316,7 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
 1. Add B2B product permissions:
 
-   Refer to the list of [B2B product permissions](#b2b-product-permissions) to determine which product capabilities that you want for the role.
+   To determine which product capabilities that you want for the role, refer to the list of [B2B product permissions](#b2b-product-permissions).
 
    In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL B2B]** items and click the _Add_ (**+**) icon to add each attribute that you want to enable for the role.
 

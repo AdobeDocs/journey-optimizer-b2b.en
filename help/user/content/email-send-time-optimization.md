@@ -62,7 +62,7 @@ You can configure send-time optimization when you [add a _[!UICONTROL Take an ac
 
 1. Use the **[!UICONTROL Send-time Optimization]** toggle to enable the feature.
 
-1. Set the STO options to specify the window and test distribution:
+1. To specify the window and test distribution, set the STO options:
 
    * **[!UICONTROL Send within next]** - This value determines the optimization window (in days), which is the time range in which emails can be delivered. For example, for a webinar occurring in five days, you might set a four- or five-day window. STO selects the best predicted send time for each profile within this window.
 

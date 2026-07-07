@@ -68,7 +68,7 @@ The _journey map_ is the central zone in the journey workspace. It is in this zo
 * [Account audience node](./account-audience-nodes.md)
 * [Person audience node](./person-audience-nodes.md)
 
-After you create an account journey and add the audience, build out the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases using the following node types to construct an account journey:
+After you create an account journey and add the audience, design the journey using nodes. The journey map provides a canvas, where you can build your multistep B2B marketing use cases using the following node types to construct an account journey:
 
 * [Take an action](./action-nodes.md)
 * [Listen for an event](./listen-for-event-nodes.md)
@@ -99,7 +99,7 @@ To help you build a journey without running into errors, the following guard rai
 
 1. In the node properties on the right, click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon.
 
-1. In the conformation dialog, click **[!UICONTROL Delete]**.
+1. In the confirmation dialog, click **[!UICONTROL Delete]**.
 
 ## Add and delete a path
 

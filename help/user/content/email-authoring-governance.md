@@ -25,7 +25,7 @@ TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742
 
 Content designers can enable [governance (_content locking_)](./template-content-governance.md) when creating email templates. Governance features allow them to designate the parts of the design that cannot be changed when used in an account journey. When you [select a saved template](./email-authoring.md#select-a-template) to author an email, the visual design space loads the template so that you can use it as a basis for your email. 
 
-If the template has governance enabled, an alert is displayed in the properties panel on the right. You can turn on the **[!UICONTROL Highlight editable areas]** at the top of the canvas to see which components and content elements are editable for use in your journey.
+If the template has governance enabled, an alert is displayed in the properties panel on the right. Select **[!UICONTROL Highlight editable areas]** at the top of the canvas to see which components and content elements are editable for use in your journey.
 
 ![View editable areas in a governed template](./assets/email-designer-governed-highlight.png){width="800" zoomable="yes"}
 

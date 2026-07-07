@@ -4,14 +4,21 @@ description: Create SMS messages for account journeys with personalization, link
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
+autotag-review: '2026-05-27T16:18:50.732Z'
+TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-    internal-label: Communication channels
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -21,8 +28,10 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-autotag-review: 2026-03-30T22:13:38.262Z
-TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # SMS authoring
 
@@ -74,7 +83,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
 1. Add a token by clicking the plus ( **+** ) symbol next to it.
 
-   If you want to add the token with a fallback (default that appears in case that field is not available for a lead), click the _More_ icon ( **...** ) and choose **[!UICONTROL Insert with fallback text]**.
+   If you want to add the token with a fallback, click the _More_ icon ( **...** ) and choose **[!UICONTROL Insert with fallback text]**. The fallback is the default that appears in case that field is not available for a lead.
 
    ![Click the ellipses to use a fallback for the token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
@@ -157,7 +166,7 @@ When your message content is defined, you can use test profiles to simulate (pre
 
    In the displayed list, you can search for and add any of the leads (up to 10 leads at a time) from the Marketo Engage lead database.
 
-   To search, enter the whole email address and pressing _Enter_. The corresponding lead profile is displayed for selection.
+   To search, enter the whole email address and press _Enter_. The corresponding lead profile is displayed for selection.
 
    The preview updates to the personalization fields for the selected profile.
 
@@ -175,9 +184,9 @@ When your message content is defined, you can use test profiles to simulate (pre
 
 ## SMS consent management
 
-Providing recipients the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function also helps you avoid sending unsolicited communications to your recipients, which could cause them to mark your messages as spam and harm your reputation. 
+Providing recipients the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function helps you avoid sending unsolicited communications to your recipients, which could cause them to mark your messages as spam and harm your reputation. 
 
-When you provide this option, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored, and any custom keywords that are configured with the SMS service provider. When unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
+When you provide this option, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored, as are any custom keywords that are configured with the SMS service provider. When unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
 
 Journey Optimizer B2B Edition provides the ability to manage opt-out in SMS messages using the following logic:
 

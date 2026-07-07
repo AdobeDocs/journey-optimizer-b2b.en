@@ -109,7 +109,7 @@ To customize (show/hide) the columns that are displayed in the table, click the 
 
 ### Journey status
 
-The status of a journey can change based on the actions that you apply. Based on the status of a journey, certain actions are/are not available from the right side of the header.
+The status of a journey can change based on the actions that you apply. Based on the status of a journey, certain actions are or are not available from the right side of the header.
 
 | Status | Description | Available actions |
 | ------ | ----------- | ----------------- |
@@ -169,7 +169,7 @@ If you close a live journey, accounts that are currently in the journey continue
 
 ### Duplicate a journey {#duplicate-journey}
 
-A duplicate action is similar to a clone function, but a duplicated journey does not include any created journey content assets. You can duplicate the details for the journey, or just a simple _skeleton_ of the flow and path structure.
+A duplicate action is similar to a clone function, but a duplicated journey does not include any created journey content assets. You can duplicate the details for the journey, or a simple _structure_ of the flow and path structure.
 
 1. Click the _More_ icon (**...**) next to the journey name and choose **[!UICONTROL Duplicate]**.
 
@@ -193,7 +193,7 @@ A duplicate action is similar to a clone function, but a duplicated journey does
 
    * **[!UICONTROL Partial content duplication]** - Use this type to copy everything in the journey, excluding any created emails or SMS messages. Nodes that reference a Marketo Engage email or SMS message are fully intact.
 
-   * **[!UICONTROL Duplicate without details]** - Use this type copy only the node structure and paths. All node settings and path conditions are undefined (default), so that you can reuse the basic flow with different audience, actions, and path segmentation settings. All _Wait_ nodes use the default of five days.
+   * **[!UICONTROL Duplicate without details]** - Use this type to copy only the node structure and paths. All node settings and path conditions are undefined (default), so that you can reuse the basic flow with different audience, actions, and path segmentation settings. All _Wait_ nodes use the default of five days.
 
 1. Click **[!UICONTROL Duplicate]**.
 

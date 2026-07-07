@@ -45,11 +45,11 @@ After you create and personalize the email content, you can export the content f
 
 >[!TIP]
 >
->Use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to elevate your content to the next level. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. [Learn more](./ai-assistant-emails.md)
+>Use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to improve your content. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. [Learn more](./ai-assistant-emails.md)
 
 ## Design your email from scratch {#design-from-scratch}
 
-Use the visual content design space to define the structure and content of the email. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
+Use the visual content design space to define the structure and content of the email. By adding and moving structural components with simple drag-and-drop actions, you can design the layout and organization of the email content within seconds.
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
 
@@ -59,7 +59,7 @@ Use the visual content design space to define the structure and content of the e
 
    * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
 
-1. [Add structure and content](./email-authoring.md#add-structure-and-content) to the template.
+1. [Add structure and content](./email-authoring.md#structure-content) to the template.
 
 1. [Review and update links](#preview-and-edit-linked-urls).
 
@@ -93,7 +93,7 @@ You can personalize the imported content as needed with the visual email editor 
 
 >[!NOTE]
 >
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual design space provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md).
+> Saved templates can have governance (content locking) settings applied to one or more components. The visual design space provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md).
 
 ## Add structure and content {#structure-content}
 
@@ -143,6 +143,20 @@ After the email is saved, it appears in the fragment details page when you selec
 
 {{$include /help/_includes/content-design-links.md}}
 
+![Click the Edit icon to access link tracking](./assets/email-link-tracking.png){width="400"}
+
+The email delivery system (through Marketo Engage) automatically wraps all URLs in HTML emails with a unique tracking redirect when sent. Use the **[!UICONTROL Tracking Type]** to control tracking for the link:
+
+* **[!UICONTROL Track without token]** - The system registers the click, but does track what the user does next on the web page. This can be important in certain technical cases, such as when dealing with third-party systems that might not handle mkt_tok correctly. However, the subsequent web tracking is limited.
+
+* **[!UICONTROL Track with mkt-tok]** - Use the tracking token (mkt_tok) to track subsequent web activities through Munchkin. When a recipient clicks the link, it registers a _Click Email_ event in the activity log, securely tracks their activity, and applies a cookie to monitor future site interactions.
+
+* **[!UICONTROL Do not track]** - The system does not track activity associated with the link. This is useful when the destination page does not support URL parameters and may result in a broken link.
+
+   >[!NOTE]
+   >
+   >If an email was sent over 365 days ago and no one clicked any of its links in the last 180 days, the system prunes the route to the URL from the database. This removal causes the link to break. If you want the link to be permanent, you should disable tracking.
+
 ### Apply dark mode styling
 
 Use _Dark mode_ to review your email display for a dark theme in an email client. A dark mode or theme allows a supporting email client or app to display emails with darker backgrounds and lighter colors for text, buttons, and other visual elements. At the top right of the design canvas, change the selector to _Dark mode_ ( ![Dark mode icon](../assets/do-not-localize/icon-content-dark-mode.svg) ). Then, preview and define specific custom settings used for display by the supporting email clients when their dark theme is enabled.
@@ -157,9 +171,9 @@ Leverage the view and content validation options that are available in the visua
 
 * Zoom in/out on the content across preset zoom options.
 
-* Switch viewing the content across Desktop, Mobile, or Text-only/Plain-text.
+* Switch between viewing the content across Desktop, Mobile, or Text-only/Plain-text.
    * Click the _View_ icon for content preview across devices.
-   * Select one of the out-of-the-box devices or enter custom dimensions to preview the content.
+   * Select one of the predefined devices or enter custom dimensions to preview the content.
 
 ## More options
 
@@ -167,7 +181,7 @@ From the _[!UICONTROL More ...]_ menu at the top of the visual design space, you
 
 ![Click More to access template actions](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Reset email]** - Click this option to clear the email design canvas to a blank slate and restart building your content.
+* **[!UICONTROL Reset email]** - Click this option to clear the email design canvas and restart building your content.
 * **[!UICONTROL Save as fragment]** - Save all or portions of the email as a fragment to be reused across multiple emails or email templates. You provide a name and description for the fragment and save it to the list of available fragments. 
 * **[!UICONTROL Change your design]** - Return to the _Design your email_ page. From there, you can choose another template to restart the design process. You can also choose to design the content from scratch with a blank canvas (_Classic mode_) or using a [brand theme](./brand-themes.md) (_Theme mode_).
 * **[!UICONTROL Save as content template]** - Save the email body as an email template to be reused across multiple emails or email templates. You provide a name and description for the template and save it to the list of saved email templates.
@@ -181,7 +195,7 @@ To [preview the email content](./email-simulate-content.md), click **[!UICONTROL
 
 ![Simulate the email content to check your design](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
-You can access additional tools to validate and review the email content:
+To validate and review the email content, access additional tools:
 
 * [Send a proof](./email-simulate-content.md#send-proofs)
 * [Test rendering in email clients](./email-test-rendering.md)

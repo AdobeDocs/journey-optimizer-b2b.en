@@ -38,7 +38,7 @@ Use one of the following input options for this journey node:
 
 ## Set the audience for the account audience node
 
-1. Click the **[!UICONTROL Account audience]** node. This action displays the node properties on the right.
+1. Click the **[!UICONTROL Account audience]** node. This action displays the node properties in the right panel.
 
    ![Account audience journey node](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 

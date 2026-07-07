@@ -90,7 +90,7 @@ Use the visual content editor to define the structure of the email content. By a
    
    When you click outside of the list, the selected theme applies the styles. You can toggle between the color variants.
 
-1. [Add structure and content](./email-authoring.md#add-structure-and-content) to the template.
+1. [Add structure and content](./email-authoring.md#structure-content) to the template.
 
    If there is an applied theme, the added components automatically inherit the styles defined in the theme.
 

@@ -30,7 +30,7 @@ TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd
 ---
 # Select Experience Events and fields
 
-Administrators can select specific [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} and their associated fields within the Experience Event union schema. After selection, users can configure decisioning rules to listen to those Experience Events to enable dynamic and targeted campaign actions based on near real-time event data. 
+Administrators can select specific Adobe Experience Platform (AEP) [Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} and their associated fields within the Experience Event union schema. After selection, users can configure decisioning rules to listen to those Experience Events to enable dynamic and targeted campaign actions based on near real-time event data. 
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
@@ -38,7 +38,7 @@ Administrators can select specific [AEP Experience Events](https://experiencelea
 >
 >Using Experience Events and fields in Journey Optimizer B2B Edition requires profile-enabled Experience Event schemas. For more information, see [Enable Real-Time Customer Profiles](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} in the Experience Platform tutorials.
 
-Using AEP experience events in journeys is a two-step process: 
+Using AEP Experience Events in journeys is a two-step process: 
 
 1. An administrator [adds AEP Experience Events and fields](#add-an-event) in the Journey Optimizer B2B Edition configurations.
 
@@ -51,7 +51,7 @@ Using AEP experience events in journeys is a two-step process:
 
 ## Guidelines and limitations {#guidelines-and-limitations}
 
-As you select events to meet your organizational goals, consider the following: 
+As you select events to meet your organizational goals, consider the following:
 
 * You can select up to 50 events and up to 100 fields per event.
 
@@ -63,7 +63,11 @@ As you select events to meet your organizational goals, consider the following:
 
 * When you use an Experience Event and publish the journey, you can add more fields, but you cannot remove fields that were previously selected.
 
-* You can reference an Experience Event in multiple journeys or use it more than once in the same journey. 
+* You can reference an Experience Event in multiple journeys or use it more than once in the same journey.
+
+>[!NOTE]
+>
+>When selecting XDM fields for _[!UICONTROL Standard]_, _[!UICONTROL Relational]_, or _[!UICONTROL Events]_, only basic data types are supported (string, integer, double, and Boolean). Arrays and objects are not allowed.
 
 >[!ENDSHADEBOX]
 
@@ -123,11 +127,11 @@ To make an Experience Event available for a _Listen for an event_ node in a jour
 
 1. In the event details page, click **[!UICONTROL Save]**.
 
-The saved event is displayed in the list on the _[!UICONTROL Events]_ tab.
+The list on the _[!UICONTROL Events]_ tab displays the saved event.
 
 ### Edit an event {#edit-an-event}
 
-Edit the event details to change the fields.
+To change the fields, edit the event details.
 
 1. Click the event name, or click the _More menu_ ( **...** ) icon and choose **[!UICONTROL Edit]**.
 
@@ -153,7 +157,7 @@ To prevent an Experience Event from being used in a _Listen for an event_ node w
 
 For [!DNL Journey Optimizer B2B Edition], certain people-level activities are captured as [!DNL Experience Platform] Experience Events. These events are stored in a system dataset that uses the XDM Experience Event schema and includes journey-specific field groups. You can use these events in [!UICONTROL Journey Optimizer B2B Edition] like any other Experience Event. 
 
-Each event exposes a defined set of fields that can be used in journey _Listen for an event_ nodes (decisioning based on events). Review the available event types and their fields to determine which event and fields to use in these journey nodes:
+Each event exposes a defined set of fields that can be used in journey _Listen for an event_ nodes (decisioning based on events). To determine which event and fields to use in these journey nodes, review the available event types and their fields:
 
 ### Email sent {#email-sent}
 

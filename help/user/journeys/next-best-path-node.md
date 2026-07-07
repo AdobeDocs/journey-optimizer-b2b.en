@@ -30,7 +30,7 @@ The _Next best path_ node brings AI-driven split path decisioning directly into 
 
 >[!NOTE]
 >
->Next best path nodes are available only in person journeys. They are not supported in account journeys.
+>Next best path nodes are available in person journeys only. They are not supported in account journeys.
 
 In B2B buying, a profile may appear to be one type of buyer, but their behavior, firmographic data, and engagement context reveal a more nuanced story. The next best path node evaluates that context to make an intelligent routing decision, while letting you review, modify, or override any AI recommendation before activating the journey.
 

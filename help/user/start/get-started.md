@@ -26,7 +26,7 @@ TQID: https://experienceleague.adobe.com/3gCGyaNUShU2ZHvIqc4FwsH7floQjrSy9fcdfev
 ---
 # User onboarding guidance 
 
-The features and tools that you want to tackle in Adobe Journey Optimizer B2B Edition depends on your role within your team. Based on your organization, administrators can define several types of users and grant them access to certain capabilities depending on their permissions.
+The features and tools that you want to use in Adobe Journey Optimizer B2B Edition depend on your role within your team. Based on your organization, administrators can define several types of users and grant them access to certain capabilities depending on their permissions.
 
 After an administrator completes the [setup tasks](../setup-ultimate.md), use this information for general user onboarding.
 
@@ -38,17 +38,17 @@ As a marketer, or an _Account Journey Practitioner_, you are responsible for des
 
 Refer to the following sections to set up your first journey, add assets, and send content:
 
-1. **Add account audiences**. Journey Optimizer B2B Edition allows you to create account audiences through segment definitions directly from the application, and leverage them into your account journeys. [Learn more](../audiences/account-audience-overview.md)
+1. **Add account audiences**. Journey Optimizer B2B Edition allows you to create account audiences through segment definitions directly from the application, and leverage them in your account journeys. [Learn more](../audiences/account-audience-overview.md)
 
 1. **Create buying groups**. Define the key components for meeting your business goals and objectives, and create buying groups that identify the members for your target account lists. [Learn more](../buying-groups/buying-groups-overview.md)
 
-1. **Create and manage assets**. Adobe Experience Manager Assets provides a single, centralized repository of assets that you can use to populate your messages. [Learn more](../content/assets-overview.md)
+1. **Create and manage assets**. Adobe Experience Manager Assets provides a single, centralized repository of assets that you can use in your messages. [Learn more](../content/assets-overview.md)
 
-1. **Add personalizalized and dynamic email templates**. Leverage Journey Optimizer B2B Edition personalization and dynamic content capabilities to adapt your message to your audience. [Learn more](../content/email-templates.md)
+1. **Add personalized and dynamic email templates**. Leverage Journey Optimizer B2B Edition personalization and dynamic content capabilities to adapt your message to your audience. [Learn more](../content/email-templates.md)
 
 1. **Design account journeys to deliver personalized, contextual experiences**. Journey Optimizer B2B Edition allows you to build real-time orchestration use cases with contextual data stored in events or data sources. Design multi-step, advanced scenarios powered by the following capabilities:
 
-   * Send real-time unitary delivery triggered when an event is received, or in batch using Adobe Experience Platform audiences.
+   * Send real-time unitary deliveries that are triggered when an event is received, or in a batch using Adobe Experience Platform audiences.
 
    * Use contextual data from events, information from Adobe Experience Platform, or data from third-party API services.
 

@@ -38,7 +38,7 @@ TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJ
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="Use a template built with GenStudio"
->abstract="Use the integration with Adobe GenStudio for Performance Marketing to import a GenStudio template enhanced with the Adobe AI technology."
+>abstract="Use the integration with Adobe GenStudio for Performance Marketing to import a GenStudio template enhanced with Adobe AI technology."
 
 >[!AVAILABILITY]
 >
@@ -46,7 +46,7 @@ TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJ
 >
 >This integration is available for the email channel only.
 
-To enhance workflow efficiency and maintain brand consistency, you can combine GenStudio for Performance Marketing experiences with Adobe Journey Optimizer B2B Edition email orchestration. This expanded workflow enables you to leverage the AI-power content creation tools in GenStudio to expand and maximize email communications through account journeys.
+To enhance workflow efficiency and maintain brand consistency, you can combine GenStudio for Performance Marketing experiences with Adobe Journey Optimizer B2B Edition email orchestration. This expanded workflow enables you to leverage the AI-powered content creation tools in GenStudio to expand and maximize email communications through account journeys.
 
 For example, a technical marketer who uses Journey Optimizer B2B Edition to develop and automate email communications to key accounts can collaborate with a performance marketer who creates content using GenStudio. With this workflow, both can work together to combine on-brand content from GenStudio into Journey Optimizer B2B Edition account-based marketing automation, delivering engaging emails that target specific buying groups and drive sales.
 
@@ -54,7 +54,7 @@ For example, a technical marketer who uses Journey Optimizer B2B Edition to deve
 
 ## GenStudio content generation capabilities
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} is a generative AI-first application that empowers marketing teams to create impactful, personalized ads and emails that adhere to brand standards and comply with their enterprise policies. By leveraging Adobe AI technology, it provides a comprehensive suite of tools that simplify the complexities of content creation and management so that creatives can focus on innovation.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"} is a generative AI-first application that empowers marketing teams to create impactful, personalized ads and emails that adhere to brand standards and comply with their enterprise policies. By leveraging Adobe AI technology, it provides a comprehensive suite of tools that simplify the complexities of content creation and management so that content creators can focus on innovation.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Create on-brand marketing emails](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -92,7 +92,7 @@ GenStudio for Performance Marketing recognizes certain elements within the impor
 
 Use the HTML file to create a template in GenStudio for Performance Marketing.
 
-For detailed information about uploading an HTML template into GenStudio in the Adobe GenStudio for Performance Marketing, refer to [Add a template](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) in the GenStudio for Performance Marketing documentation.
+To learn more about uploading an HTML template into Adobe GenStudio for Performance Marketing, refer to [Add a template](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template) in the GenStudio for Performance Marketing documentation.
 
 When you upload the exported HTML as a template, GenStudio for Performance Marketing scans the HTML file for recognized fields. Use the preview to review your template elements and confirm that you identified them properly with the recognized field names.
 

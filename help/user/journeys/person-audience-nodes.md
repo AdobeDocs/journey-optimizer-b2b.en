@@ -43,15 +43,15 @@ Use one of the following input options for the person audience journey node:
 
 ## Profile ingestion
 
-In Journey Optimizer B2B Edition, a nightly audience ingestion task keeps profiles in sync with Experience Platform. While event-based person journeys can qualify profiles that are not part of a profile or account audience that is ingested/in-use by Journey Optimizer B2B Edition, it results in ingested profiles that remain stale unless they are part of an audience that is used by a person journey, account journey, or buying group. If a profile is ingested and later added to an audience, profile stitching is performed and the profile stays in sync with Experience Platform. Improvements to this profile data synchronization are planned for future releases.
+In Journey Optimizer B2B Edition, a nightly audience ingestion task synchronizes profiles with Experience Platform. Event-based person journeys can qualify profiles not in an audience used by Journey Optimizer B2B Edition, but these profiles remain stale unless they join an audience used by a person journey, account journey, or buying group. If a profile is ingested and later added to an audience, profile stitching is performed and the profile remains synchronized with Experience Platform. Improvements to this profile data synchronization are planned for future releases.
 
-A newly created profile ingested by an event-based person journey may not have the updated profile information at the time of ingestion. For example, if a profile is created through a form fill event, and a person journey ingests them from the qualifying form fill event, the data submitted in the form may not yet be synced to the profile when the journey ingested it. The result could be incomplete data for personalization (such as in email content). Improvements to this profile event data synchronization are planned for future releases.
+A newly created profile ingested by an event-based person journey could lack the updated profile information at the time of ingestion. For example, if a profile is created through a form fill event, the data submitted may not be synced to the profile when the journey ingests it. The result could be incomplete data for personalization (such as in email content). Improvements to this profile event data synchronization are planned for future releases.
 
-Event-based person journeys can qualify profiles that are still anonymous/without email addresses and only containing ECIDs. It happens most commonly when you have qualification logic for web page activity. Overly broad event based audience logic could result in the instance hitting the 40 million profile cap if too many profiles qualify. Limit the possible scope of your audience to prevent this scenario.
+Event-based person journeys can qualify profiles that are still anonymous/without email addresses and that only contain ECIDs. This occurs most commonly when you have qualification logic for web page activity. Overly broad event-based audience logic could result in the instance reaching the 40 million profile cap if too many profiles qualify. To prevent this scenario, limit the possible scope of your audience.
 
 >[!IMPORTANT]
 >
->During the current beta program, the ideal use of person journeys is to qualify only profiles that you are also targeting in account journeys and buying group definitions. This usage ensures a full profile that stays in sync with Experience Platform.
+>During the current beta program, the ideal use of person journeys is to qualify only profiles that you are also targeting in account journeys and buying group definitions. This usage ensures a full profile that remains synchronized with Experience Platform.
 
 ## Set the audience for the person audience node
 
