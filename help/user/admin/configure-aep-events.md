@@ -65,13 +65,13 @@ As you select events to meet your organizational goals, consider the following:
 
 * You can reference an Experience Event in multiple journeys or use it more than once in the same journey.
 
+>[!NOTE]
+>
+>When selecting XDM fields for _[!UICONTROL Standard]_, _[!UICONTROL Relational]_, or _[!UICONTROL Events]_, only basic data types are supported (string, integer, double, and Boolean). Arrays and objects are not allowed.
+
 >[!ENDSHADEBOX]
 
 ## Manage Experience Events {#manage-experience-events}
-
->[!NOTE]
->
->When selecting XDM fields for _[!UICONTROL Standard]_, [!UICONTROL Relational], or [!UICONTROL Events], only basic data types are supported (string, integer, double, and Boolean). Arrays and objects are not allowed.
 
 1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
