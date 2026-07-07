@@ -41,7 +41,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Enhancement | Split path journey nodes - Variants | Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. |
+| Feature | Variant split path journey nodes | (Beta) Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
 | Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
 | Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
 
