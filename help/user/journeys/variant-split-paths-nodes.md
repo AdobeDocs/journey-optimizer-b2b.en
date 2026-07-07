@@ -22,11 +22,11 @@ role_v2:
 ---
 # Variant split paths
 
-Use a _Variant split paths_ node to randomly distribute accounts across two or more journey paths based on percentage allocations that you define. This node is useful for exploratory testing of different messaging, timing, or engagement tactics across segments of your account audience, without applying conditional rules. It is not suitable for controlled A/B experiments that require consistent per-account path assignment.
+Use a _Variant split paths_ node to distribute accounts randomly across two or more journey paths based on percentage allocations that you define. This node is useful for exploratory testing of different messaging, timing, or engagement tactics across segments of your account audience, without applying conditional rules. It is not suitable for controlled A/B experiments that require consistent per-account path assignment.
 
 >[!AVAILABILITY]
 >
->The variant split path node is currently available to select customers as a limited beta release, for **_account journeys only_**. Support for person journeys is planned for a future release. Contact your Adobe representative to get access.
+>The variant split paths node is currently available to select customers as a limited beta release, for **_account journeys only_**. Support for person journeys is planned for a future release. To get access, contact your Adobe representative.
 
 ## Comparison to split paths {#compare-split-paths}
 
@@ -51,13 +51,13 @@ When an account reaches a variant split paths node, the node assigns it to exact
 >
 >**Quota-based algorithm: not deterministic**
 >
->The distribution algorithm uses quota-based random assignment. This algorithm is **not deterministic**: the same account may be assigned to a different path each time it enters or re-enters the journey. Path assignment depends on the current quota state at the time of evaluation, not on a fixed property of the account. See [Limitations](#limitations) for details on what use cases this affects.
+>The distribution algorithm uses quota-based random assignment. This algorithm is **_not deterministic_**: the same account could be assigned to a different path each time it enters or re-enters the journey. Path assignment depends on the current quota state at evaluation time, not on a fixed account property. See [Limitations](#limitations) for details on what use cases this affects.
 
 ### Distribution algorithm {#distribution-algorithm}
 
-The variant split paths node uses a **_quota-based random assignment_** algorithm. When an account reaches the node, the runtime evaluates how many accounts were already assigned to each path during the current journey instance and routes the account to the path that is furthest below its configured quota. There are two key properties for the algorithm:
+The variant split paths node uses a **_quota-based random assignment_** algorithm. When an account reaches the node, the system evaluates the existing account assignments for each path and routes the account to the path that is furthest below its configured quota. There are two key properties for the algorithm:
 
-* Distribution closely tracks the configured percentages at all account volumes. Because the algorithm actively maintains quota counts, actual distribution only drifts by at most one account per path due to rounding when totals do not divide evenly.
+* Distribution closely tracks the configured percentages at all account volumes. Because the algorithm actively maintains quota counts, actual distribution only varies by at most one account per path due to rounding when totals do not divide evenly.
 * The algorithm uses a pessimistic lock during quota evaluation to serialize assignments, which ensures accurate count tracking under concurrent execution.
 
 ### Limitations {#limitations}
@@ -80,7 +80,7 @@ Review these limitations before using variant split paths in your journeys.
 
 ## Split by people {#split-by-people}
 
-In an account journey, you can also use a variant split paths node to randomly distribute the _people within accounts_ across percentage-based paths. This is useful when you want to test different content or experiences at the person level while accounts continue moving through the journey. The variant split path by people node operates with the following guardrails:
+In an account journey, you can also use a variant split paths node to distribute the _people within accounts_ randomly across percentage-based paths. This split type is useful when you want to test different content or experiences at the person level as accounts continue to move through the journey. The variant split paths by people node operates with the following guardrails:
 
 * The node functions as a _grouped node_, which is a split-merge combination. The split paths automatically close at a corresponding merge node so that all people can move forward without losing their account context.
 * Each person in the account is assigned to exactly one path based on the configured percentages.
@@ -113,7 +113,7 @@ People within an account are processed as a batch. The number assigned to each p
 
 1. In the node properties on the right, choose either **[!UICONTROL Accounts]** or **[!UICONTROL People]** for the split.
 
-   If you are using a split path by people, a _Close variant split paths_ node is automatically inserted to close the grouped split.
+   If you are using the _[!UICONTROL People]_ type, a _Close variant split paths_ node is automatically inserted to close the grouped split.
 
    ![Journey canvas - variant split by people with auto-inserted close node](./assets/node-variant-split-paths-people-canvas.png){width="700" zoomable="yes"}
 
