@@ -264,7 +264,6 @@ Changes to a form depend on its current status:
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    Click **[!UICONTROL Save & close]** to return to the form details.
