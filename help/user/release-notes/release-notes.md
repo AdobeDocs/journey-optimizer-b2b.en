@@ -41,13 +41,17 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Enhancement | Split path journey nodes - Variants | Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. |
-| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
-| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
+| Feature | Split path journey nodes - Variants | (Beta) Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. |
 
 >[!NOTE]
 >
 >These release changes begin deployment on July 10, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
+<!-- 
+Add for 2026.8 release
+| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
+| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
+-->
 
 ## 2026.5 release notes {#rel-2026-5}
 
