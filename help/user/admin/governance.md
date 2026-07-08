@@ -1,5 +1,5 @@
 ---
-title: Governance Features
+title: Governance and Privacy Features
 description: Learn about governance features that are currently available in Journey Optimizer B2B Edition.
 feature: Setup
 role: Admin
@@ -23,13 +23,29 @@ topic_v2:
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
 ---
-# Governance features
+# Governance and privacy features
 
-Journey Optimizer B2B Edition is an integrated Adobe Experience Platform app. It employs several tools and services that provide control of your collected experience data in compliance with your business practices, legal obligations, and development processes. The sections below provide a summary of each of these governance features.
+[!DNL Journey Optimizer B2B Edition] is an integrated Adobe Experience Platform app. It employs several tools and services that provide control of your collected experience data in compliance with your business practices, legal obligations, and development processes. The sections below provide a summary of each of these governance features.
 
-## Privacy - GDPR  
+## Privacy
 
-Journey Optimizer B2B Edition uses the existing Marketo Engage GDPR governance features provided by the Privacy Service and Marketo Privacy Broker Service.
+There are various regulations that apply to [!DNL Journey Optimizer B2B Edition] customers who hold data for Data Subjects residing in the respective regions or countries mentioned above (EU, California, Thailand, Brazil, New Zealand). This information on this page is not legal advice and does not warrant your compliance with applicable law.
+
+### GDPR
+
+General Data Protection Regulation (GDPR) is the European Union's (EU) privacy law that harmonizes and modernizes [data protection requirements](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} for EU countries.
+
+[!DNL Journey Optimizer B2B Edition] uses the existing Marketo Engage GDPR governance features provided by the Privacy Service and Marketo Privacy Broker Service.
+
+### CNIL
+
+On April 14, 2026, the Commission nationale de l'informatique et des libertés (CNIL) [published a recommendation](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) on the use of tracking pixels within emails. The guidance clarifies when consent is required and highlights the importance of proper consent practices for email pixel tracking. This policy impacts any entity sending emails to subscribers based in France.
+
+CNIL provided a three-month period from the date of the recommendation for companies to inform their email recipients of the presence of the tracking pixels, their purpose, and the recipients' right to opt-out. During this transition period, Marketo Engage users are expected to notify their recipients about pixel tracking and provide an opt-out if necessary. CNIL is expected to begin enforcement activities after July 14, 2026.
+
+As the CNIL and other regulators clarify guidance on tracking pixels and related issues, Adobe will continue to monitor updates and inform you of changing technical capabilities.
+
+[!DNL Journey Optimizer B2B Edition] offers controls that help you manage open tracking at the email level. Users are responsible for determining their own compliance obligations under applicable CNIL guidance and other laws. For infromation about using these capabilities to manage email open tracking, see [_Manage email tracking_](../content/email-tracking-manage.md).
 
 ## Role-based access control (RBAC)
 

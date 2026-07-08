@@ -33,9 +33,17 @@ level_v2:
 ---
 # Manage email open tracking
 
-Your organization is responsible for determining your own compliance obligations under applicable jurisdictional guidance and laws, but you can use the following [!DNL Journey Optimizer B2B Edition] capabilities to support your compliance efforts.
-
 You can disable open tracking for an individual email, or capture each person's tracking preference in Adobe Experience Platform and use a split path to route people to tracking and non-tracking email variants.
+
+>[!BEGINSHADEBOX "CNIL guidance on email tracking pixels"]
+
+On April 14, 2026, the *Commission Nationale de l'Informatique et des Libertés* (CNIL) published a [recommendation on the use of tracking pixels within emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). The guidance clarifies when consent is required and highlights the importance of proper consent practices for email pixel tracking. This policy could impact sending practices for any entity delivering emails to subscribers based in France.
+
+An email tracking pixel is a 1x1 transparent image embedded in the HTML of an email. When the recipient's email client loads that image, the pixel pings a server that records data such as a timestamp, device type, email client, and sometimes an IP address for approximate location. That log is then tied to a recipient's record, allowing marketers to know whether an email is opened.
+
+The [!UICONTROL Journey Optimizer B2B Edition] product capabilities described here are building blocks that, configured and operated appropriately, may support a compliant implementation. Each customer is responsible for determining and complying with their obligations under applicable law.
+
+>[!ENDSHADEBOX]
 
 ## Disable tracking for a single email {#disable-tracking-single-email}
 
