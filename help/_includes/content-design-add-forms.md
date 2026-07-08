@@ -14,7 +14,7 @@ The following example outlines steps to add a form as you design your landing pa
 
    >[!TIP]
    >
-   >To add the form so that it occupies the entire horizontal layout within the email, add a 1:1 column structure and then drag and drop the form into it.
+   >To add the form so that it occupies the entire horizontal layout within the page, add a 1:1 column structure and then drag and drop the form into it.
 
 1. Click the _Form_ icon in component toolbar, or use the **[!UICONTROL Embed Form]** properties on the right to select the published form. 
 
