@@ -55,6 +55,16 @@ When provisioning is complete and sandboxes are bound, configure [!DNL Journey O
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
+<td>Assign the product profile to the user group in the Admin Console</td>
+<td><a href="./user-management.md#assign-profile">Assign product profile</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
+<td>Add users to the user group in the Admin Console</td>
+<td><a href="./user-management.md#add-users">Add users</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
 <td>Edit built-in roles or create a custom role with product permissions</td>
 <td><a href="./user-management.md#edit-role-permissions">Edit roles</a> <br/> <a href="./user-management.md#create-a-custom-role">Create a custom role</a></td>
 </tr>
