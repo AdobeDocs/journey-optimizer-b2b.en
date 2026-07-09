@@ -329,3 +329,4 @@ When a form is included in a landing page or landing page template, the form con
 When you select the form on the landing page design space, these actions are available from the context toolbar and the properties panel on the right.
 
 ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"}
+

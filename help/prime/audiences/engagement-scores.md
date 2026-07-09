@@ -224,3 +224,4 @@ Activating a draft model automatically archives the previously active model. The
 1. Click **[!UICONTROL Activate]** at the top right.
 
 1. Confirm in the dialog.
+

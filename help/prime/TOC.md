@@ -51,8 +51,13 @@ hide: true
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
       + [Content governance](./content/template-content-governance.md)
-   + [Landing pages](./content/landing-pages.md)
-   + [Forms](./content/forms.md)
+   + Landing pages {#landing-pages}
+      + [Overview](./content/landing-pages.md)
+      + [Create and publish landing pages](./content/landing-pages-create-publish.md)
+      + [Landing page design](./content/landing-page-design.md)
+   + Forms {#forms}
+      + [Overview](./content/forms.md)
+      + [Form design](./content/form-design.md)
    + [Personalization](./content/personalization-expressions.md)
    + Content design tools {#content-design}
       + [Structure components](./content/structure-components.md)

@@ -1,6 +1,7 @@
 ---
 title: Forms
 description: Create and manage reusable forms for business data collection - design fields, set thank you pages, publish, and track usage in Journey Optimizer B2B Prime.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
 product_v2:
@@ -35,7 +36,7 @@ The amount of information that the form should capture depends on the value of t
 
 >[!PREREQUISITES]
 >
->Before marketing teams can create and use forms to capture information, an administrator must define one or more form presets. For more information, see [_Forms configurations_](../admin/configuration-presets-forms.md)
+>Before marketing teams can create and use forms to capture information, an administrator must define one or more form presets. For more information, see [_Forms configurations_](../admin/configuration-presets-forms.md).
 
 <!-- 
 >Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
@@ -49,7 +50,7 @@ The amount of information that the form should capture depends on the value of t
 
 To access forms in [!DNL Journey Optimizer B2B Prime], go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Forms]**. This action opens a listing page that displays all forms created in the instance.
 
-<!-- ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"} -->
+![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"}
 
 The system sorts the table by the _[!UICONTROL Modified]_ column, showing the most recently updated forms at the top by default. Click the column title to change between ascending and descending.
 
@@ -63,13 +64,13 @@ The form status determines its availability for use in a landing page or landing
 | Published            | When you publish a form, it becomes available for use in a landing page or landing page template. Published form content cannot be modified in the visual design space. Available actions:<br/><ul><li>Edit name, description, or thank-you page<li>Add to a landing page or landing page template<li>Create draft version<li>Duplicate<li>Delete (if not in-use)<li>Embed code |
 | Published with draft | When you create a draft from a published form, the published version remains available for use in a landing page or template. The draft content can be modified in the visual design space. If you publish the draft version, it replaces the current published version and the content is updated in the landing pages or landing page templates where it is in use. Available actions:<br/><ul><li>Edit name, description, or thank-you pages<li>Add to a landing page or landing page template<li>Edit draft version in visual design space<li>Publish draft version<li>Duplicate<li>Delete (if not in-use)<li>Embed code |
 
-<!-- ![Form status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
+![Form status lifecycle](../../user/content/assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### Filter the forms list {#filter-list}
 
 To search for a form by name, enter a text string into the search bar for a match. Click the _Filter_ icon ( ![Show or hide filters icon](../../user/assets/do-not-localize/icon-filter.svg) ) to show the available filter options and change the settings to filter the displayed items according to your specified criteria.
 
-<!-- ![Filter the displayed forms](./assets/forms-list-filtered.png){width="700" zoomable="yes"} -->
+![Filter the displayed forms](../../user/content/assets/forms-list-filtered.png){width="700" zoomable="yes"}
 
 ### Customize the column display {#column-display}
 
@@ -77,7 +78,7 @@ Customize the columns that you want to display in the table by clicking the _Cus
 
 In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
-<!-- ![Columns to display in the Forms list](./assets/forms-customize-table-dialog.png){width="300"} -->
+![Columns to display in the Forms list](../../user/content/assets/forms-customize-table-dialog.png){width="300"}
 
 ## Create forms {#create-forms}
 
@@ -109,11 +110,7 @@ There are several things to consider before you start building reusable forms in
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Select a preset"
 >abstract="Choose a predefined preset that contains the connection to be used and a predefined dataset for your form."
-
-<!--
-Add to context help when available
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
--->
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Create a form preset"
 
 You can create a form in [!DNL Journey Optimizer B2B Prime] by clicking **[!UICONTROL Create form]** at the top right of the _[!UICONTROL Forms]_ list page.
 
@@ -126,7 +123,7 @@ You can create a form in [!DNL Journey Optimizer B2B Prime] by clicking **[!UICO
    * Alpha, numeric, and special characters are allowed
    * Reserved characters are **_not allowed_**: `\ / : * ? " < > |`
 
-   <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
+   ![Create form dialog](../../user/content/assets/forms-create-dialog.png){width="400"}
 
 1. For **[!UICONTROL Preset]**, click the _Select data_ ( ![Select data icon](../../user/assets/do-not-localize/icon-select-data.svg) ) icon to link a configured form preset with the form. 
 
@@ -136,21 +133,17 @@ You can create a form in [!DNL Journey Optimizer B2B Prime] by clicking **[!UICO
 
    The form details page opens with a default basic form definition.
 
-   <!-- ![Default form content](./assets/form-new-default-content.png){width="700" zoomable="yes"} -->
+   ![Default form content](../../user/content/assets/form-new-default-content.png){width="700" zoomable="yes"}
 
 ### Change the default form design {#design}
 
 Use the visual design tools to change the form content as needed:
-
-<!-- 
 
 * [Add fields](./form-design.md#add-field)
 * [Change field styling](./form-design.md#field-styling)
 * [Reorder fields](./form-design.md#field-reorder)
 * [Change submit button text and styling](./form-design.md#submit-button)
 * [Change the form styling](./form-design.md#form-styling)
-
--->
 
 Click **[!UICONTROL Save & close]** to save your form content design changes and go to the form details.
 
@@ -170,7 +163,7 @@ In the _[!UICONTROL Summary]_ panel on the right, scroll to the **[!UICONTROL Th
 
 When you are ready to make the form available for use in a landing page or landing page template, click **[!UICONTROL Publish]**.
 
-<!-- ![Publish form dialog](./assets/form-publish-dialog.png){width="400"} -->
+![Publish form dialog](../../user/content/assets/form-publish-dialog.png){width="400"}
 
 This action opens a confirmation dialog. You can abort the publishing process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Publish]** to confirm.
 
@@ -182,13 +175,13 @@ Click the name of any form in the list page to open the form details page. You c
 >
 >If a published form is in use by a landing page or landing page template, you cannot edit the content or change the thank-you page. You can create a draft version if you want to make changes to the form.
 
-<!-- ![View details for a published form](./assets/form-details-published.png){width="600" zoomable="yes"} -->
+![View details for a published form](../../user/content/assets/form-details-published.png){width="600" zoomable="yes"}
 
 Click **[!UICONTROL Edit form]** to open the form in the visual design space.
 
 Exit the view at any time by clicking the _Back_ arrow at the top left, which returns you to the _[!UICONTROL Forms]_ list page.
 
-## View form used-by references
+## View form used-by references {#used-by}
 
 In the _[!UICONTROL Summary]_ panel on the right, click the **[!UICONTROL Used By]** tab to view details of where the form is currently used within [!DNL Journey Optimizer B2B Prime], across landing pages and landing page templates.
 
@@ -196,7 +189,7 @@ In the _[!UICONTROL Summary]_ panel on the right, click the **[!UICONTROL Used B
 >
 >Any form that is currently in use by any landing page or landing page template cannot be deleted.
 
-<!-- ![Used by references for the form](./assets/form-used-by-published.png){width="600" zoomable="yes"} -->
+![Used by references for the form](../../user/content/assets/form-used-by-published.png){width="600" zoomable="yes"}
 
 References are displayed according to category: _Landing page_ or _Landing page template_. Click the link to open the corresponding page or template where the form is used.
 
@@ -211,11 +204,11 @@ You can delete a form using either of the following methods:
 
 This action opens a confirmation dialog. You can abort the process by clicking **[!UICONTROL Cancel]**, or click **[!UICONTROL Delete]** to confirm deletion.
 
-<!-- ![Delete form dialog](./assets/form-delete-dialog.png){width="400"} -->
+![Delete form dialog](../../user/content/assets/form-delete-dialog.png){width="400"}
 
 If the form is currently in use, the action opens an informational dialog that alerts you that it cannot be deleted. Click **[!UICONTROL OK]**, which aborts the delete action.
 
-<!-- ![Delete form dialog - cannot delete in-use form](./assets/form-delete-dialog-in-use.png){width="400"} -->
+![Delete form dialog - cannot delete in-use form](../../user/content/assets/form-delete-dialog-in-use.png){width="400"}
 
 ## Duplicate forms {#duplicate-forms}
 
@@ -226,11 +219,11 @@ You can duplicate a form using either of the following methods:
 * At the top right of the form details page, click **[!UICONTROL ... More]** and choose **[!UICONTROL Duplicate]**.
 * From the _[!UICONTROL Forms]_ list page, click the _More_ (**...**) icon next to the form name and choose **[!UICONTROL Duplicate]**.
 
-<!-- ![Duplicate the form](./assets/form-list-page-duplicate.png){width="450"} -->
+![Duplicate the form](../../user/content/assets/form-list-page-duplicate.png){width="450"}
 
 In the dialog, enter a useful name (unique) and description. Click **[!UICONTROL Duplicate]** to complete the action. 
 
-<!-- ![Name and description for the duplicate form](./assets/form-duplicate-dialog.png){width="400"} -->
+![Name and description for the duplicate form](../../user/content/assets/form-duplicate-dialog.png){width="400"}
 
 Edit the duplicate form to change the name as needed and alter the form for its intended use. 
 
@@ -252,11 +245,10 @@ Changes to a form depend on its current status:
 
 1. Modify any of the details, such as name and description.
 
-   <!-- ![Details for form with Draft status](./assets/form-details-draft.png){width="600" zoomable="yes"} -->
+   ![Details for form with Draft status](../../user/content/assets/form-details-draft.png){width="600" zoomable="yes"}
 
 1. To make changes to the form in the visual design space, click **[!UICONTROL Edit form]**.
 
-   <!--
    Use the visual design tools as needed:
 
    * [Add fields](./form-design.md#add-field)
@@ -264,8 +256,6 @@ Changes to a form depend on its current status:
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
-   -->
 
    Click **[!UICONTROL Save & close]** to return to the form details.
 
@@ -281,17 +271,15 @@ Changes to a form depend on its current status:
 
 1. Click **[!UICONTROL Create draft version]** in the dialog to open the draft version in the visual design space.
 
-   <!-- ![Create draft version dialog](./assets/form-published-edit-create-draft-dialog.png){width="400"} -->
+   ![Create draft version dialog](../../user/content/assets/form-published-edit-create-draft-dialog.png){width="400"}
 
 1. Use the visual design tools as needed to update the form content:
 
-   <!--
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-   -->
 
    Click **[!UICONTROL Save & close]** to return to the form details.
 
@@ -306,17 +294,15 @@ Changes to a form depend on its current status:
 
    A preview of the draft version form content is displayed, with the form details on the right.
 
-   <!-- ![Edit the form draft version](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"} -->
+   ![Edit the form draft version](../../user/content/assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Edit form]** in the _[!UICONTROL Summary]_ pane on the right and use the visual design tools as needed:
 
-   <!--
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-   -->
 
    Click **[!UICONTROL Save & close]** to return to the form details.
 
@@ -341,8 +327,8 @@ When a form is included in a landing page or landing page template, the form con
 * **[!UICONTROL Delete]** - This action removes the form from the current page or template content (the form source is unaffected).
 * **[!UICONTROL Duplicate]** - This action duplicates the form in the editor, maintaining the same dimensions.
 * **[!UICONTROL View HTML]** - This action opens a popup with the HTML for the form. You can edit the HTML, or copy it for use in other web content.
-* **[!UICONTROL Edit Form]** - This action opens a new browser tab with the form editor page and details.
+* **[!UICONTROL Edit form]** - This action opens a new browser tab with the form editor page and details.
 
 When you select the form on the landing page design space, these actions are available from the context toolbar and the properties panel on the right.
 
-<!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
+![Apply actions to the selected form](../../user/content/assets/form-actions-page-authoring.png){width="600" zoomable="yes"}

@@ -60,6 +60,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Governed templates](./content/email-authoring-governance.md)
        + [Sales alert email](./content/sales-alert-email.md)
        + [Email deduplication](./content/email-deduplication.md)
+       + [Email tracking](./content/email-tracking-manage.md)
     + Web channel (Beta) {#web-channel}
       + [Overview](./content/web-experiences.md)
       + [Web experience design](./content/web-experience-design.md)
@@ -154,7 +155,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
     + [Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
-    + [Governance](./admin/governance.md)
+    + [Governance and privacy](./admin/governance.md)
     + [Persona mapping](./admin/persona-mapping.md)
     + Configurations {#configurations}
        + [AEM Assets repositories](./admin/configure-aem-repositories.md)

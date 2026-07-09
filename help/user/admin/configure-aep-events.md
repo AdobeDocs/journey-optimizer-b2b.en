@@ -30,7 +30,7 @@ TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd
 ---
 # Select Experience Events and fields
 
-Administrators can select specific [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} and their associated fields within the Experience Event union schema. After selection, users can configure decisioning rules to listen to those Experience Events to enable dynamic and targeted campaign actions based on near real-time event data. 
+Administrators can select specific Adobe Experience Platform (AEP) [Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} and their associated fields within the Experience Event union schema. After selection, users can configure decisioning rules to listen to those Experience Events to enable dynamic and targeted campaign actions based on near real-time event data. 
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
@@ -38,7 +38,7 @@ Administrators can select specific [AEP Experience Events](https://experiencelea
 >
 >Using Experience Events and fields in Journey Optimizer B2B Edition requires profile-enabled Experience Event schemas. For more information, see [Enable Real-Time Customer Profiles](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} in the Experience Platform tutorials.
 
-Using AEP experience events in journeys is a two-step process: 
+Using AEP Experience Events in journeys is a two-step process: 
 
 1. An administrator [adds AEP Experience Events and fields](#add-an-event) in the Journey Optimizer B2B Edition configurations.
 
@@ -51,7 +51,7 @@ Using AEP experience events in journeys is a two-step process:
 
 ## Guidelines and limitations {#guidelines-and-limitations}
 
-As you select events to meet your organizational goals, consider the following: 
+As you select events to meet your organizational goals, consider the following:
 
 * You can select up to 50 events and up to 100 fields per event.
 
@@ -63,7 +63,11 @@ As you select events to meet your organizational goals, consider the following:
 
 * When you use an Experience Event and publish the journey, you can add more fields, but you cannot remove fields that were previously selected.
 
-* You can reference an Experience Event in multiple journeys or use it more than once in the same journey. 
+* You can reference an Experience Event in multiple journeys or use it more than once in the same journey.
+
+>[!NOTE]
+>
+>When selecting XDM fields for _[!UICONTROL Standard]_, _[!UICONTROL Relational]_, or _[!UICONTROL Events]_, only basic data types are supported (string, integer, double, and Boolean). Arrays and objects are not allowed.
 
 >[!ENDSHADEBOX]
 
