@@ -62,6 +62,7 @@ hide: true
       + [Overview](./content/forms.md)
       + [Form design](./content/form-design.md)
    + [Personalization](./content/personalization-expressions.md)
+   + [Conditional content](./content/conditional-content.md)
    + Content design tools {#content-design}
       + [Structure components](./content/structure-components.md)
       + [Content components](./content/content-components.md)
