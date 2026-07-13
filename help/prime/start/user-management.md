@@ -38,7 +38,7 @@ After provisioning is complete and sandboxes are bound, complete the following s
 
 ## Configure the product profile {#config-profile}
 
-As an administrator, you can complete these tasks in the Adobe Admin Console, which is a central place to administer and manage your Adobe product licenses and users. In the Admin Console, you can create and manage users in a single location instead of within your various individual solutions. To learn more about its functions and capabilities, refer to the [Admin Console overview](https://helpx.adobe.com/enterprise/using/admin-console.html) page.
+As an administrator, you can complete these tasks in the Adobe Admin Console, which is a central place to administer and manage your Adobe product licenses and users. In the Admin Console, you can create and manage users in a single location instead of within your various individual solutions. To learn more about its functions and capabilities, refer to the [Admin Console overview](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html) page.
 
 ### Access the Admin Console {#admin-console}
 
@@ -46,7 +46,7 @@ Before you can use the Admin Console to administer users within your team, you n
 
 1. As a system administrator, you should receive multiple emails from Adobe as part of the onboarding process.
 
-   Look for the welcome email that provides the information about the organization name to which you have been granted access.
+   Locate the welcome email that provides the information about the organization name to which you have been granted access.
 
 1. Click the **[!UICONTROL Get started]** link in your welcome email to navigate to the Admin Console. 
 
@@ -74,7 +74,7 @@ Before you can use the Admin Console to administer users within your team, you n
 
 When granting users access to an Adobe solution, you do not necessarily want to give them full access. Product profiles enable each solution to have its own set of user permissions. Use the Admin Console to assign product profiles.
 
-For more information about using product profiles for user entitlements, see [_Manage product profiles for enterprise users_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"} in the Admin Console documentation.
+For more information about using product profiles for user entitlements, see [_Manage product profiles for enterprise users_](https://helpx.adobe.com/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} in the Admin Console documentation.
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or [!DNL Experience Platform] product administrator can perform the following steps from [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -92,7 +92,7 @@ For more information about using product profiles for user entitlements, see [_M
 
 A user group is a collection of users who are granted a shared set of permissions. You can add or remove users in your user group. The group permissions remain the same while the users within the group change.
 
-For more information about how user groups are used to manage permissions, see [Manage user groups](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} in the Admin Console documentation.
+For more information about how user groups are used to manage permissions, see [Manage user groups](https://helpx.adobe.com/business/enterprise/manage-users/user-groups.html){target="_blank"} in the Admin Console documentation.
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator can perform the following steps from [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -127,7 +127,7 @@ For more information about how user groups are used to manage permissions, see [
 
 ### Add users to the new group {#add-users}
 
-For information about user management, see [_Adobe Admin Console users_](https://helpx.adobe.com/enterprise/using/users.html){target="_blank"} in the Admin Console documentation.
+For information about user management, see [_Adobe Admin Console users_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"} in the Admin Console documentation.
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or product administrator can perform the following steps from [https://adminconsole.adobe.com](https://adminconsole.adobe.com). A product administrator can add only users that already exist in their organization.
 
@@ -269,7 +269,7 @@ _To change the permissions for a role:_
 
 ### Add user groups to a role {#add-user-groups-to-a-role}
 
-For information about user management, see [_Adobe Admin Console users_](https://helpx.adobe.com/enterprise/using/users.html){target="_blank"} in the Admin Console documentation.
+For information about user management, see [_Adobe Admin Console users_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"} in the Admin Console documentation.
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or Experience Platform administrator can perform the following steps.
 

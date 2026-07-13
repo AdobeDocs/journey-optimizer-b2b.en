@@ -47,7 +47,7 @@ For example, you can create and design landing pages to direct your users to onl
 
 ## Access and manage landing pages {#access-manage-landing-pages}
 
-To access landing pages in [!DNL Journey Optimizer B2B Prime], go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]**. This action displays a list of all landing pages created in the instance.
+To access landing pages in [!DNL Journey Optimizer B2B Prime], go to the left navigation and expand **[!UICONTROL Content Management]**. Then select **[!UICONTROL Landing pages]**. This action displays a list of all landing pages created in the instance.
 
 ![Access the landing pages library](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 

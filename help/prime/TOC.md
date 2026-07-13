@@ -51,6 +51,9 @@ hide: true
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
       + [Content governance](./content/template-content-governance.md)
+   + Fragments {#visual-fragments}
+      + [Overview](./content/fragments.md)
+      + [Fragment authoring](./content/fragment-authoring.md)
    + Landing pages {#landing-pages}
       + [Overview](./content/landing-pages.md)
       + [Create and publish landing pages](./content/landing-pages-create-publish.md)
