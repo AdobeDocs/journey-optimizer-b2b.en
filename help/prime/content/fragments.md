@@ -2,6 +2,24 @@
 title: Fragments
 description: Create, manage, and reuse visual content fragments for emails and templates - build reusable blocks, publish versions, track usage in Journey Optimizer B2B Prime.
 badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
+autotag-review: '2026-07-13T16:38:41.335Z'
+TQID: 'https://experienceleague.adobe.com/XJWDq9xAv-9JvHshU834bcEcbG57zWymQcdZ36nOFmU'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+    internal-label: Fragments
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Fragments
 
