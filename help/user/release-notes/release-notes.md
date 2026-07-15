@@ -37,11 +37,9 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 **Deployment date**: July 10, 2026
 
-<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
-
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Split path journey nodes - Variants | (Beta) Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. |
+| Feature | Split path journey nodes - Variants | (Beta) Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
 
 >[!NOTE]
 >
