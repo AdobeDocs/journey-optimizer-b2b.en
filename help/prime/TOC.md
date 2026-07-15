@@ -73,10 +73,10 @@ hide: true
       + [WhatsApp channel configuration](./admin/configuration-channels-whatsapp.md)
       + [Landing page configuration](./admin/configuration-presets-landing-pages.md)
       + [Form preset configuration](./admin/configuration-presets-forms.md)
+   + [Business rules](./admin/business-rules.md)
    + [Program types](./admin/program-types.md)
 
 <!--
-   + Business rules admin
    + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}

@@ -104,7 +104,9 @@ The email page opens when you create an email for a _[!UICONTROL Send Email]_ no
 
       Administrators create configurations in [Email channel configuration](../admin/email-channel-configuration.md).
 
-   * **[!UICONTROL Business rules]** - (Optional) Apply capping rules to your email action by selecting a Rule set.
+   * **[!UICONTROL Business rules]** - (Optional) Apply capping or quiet hours rules to your email action by selecting a rule set.
+    
+      For more information about business rules and how to define and activate rule sets for channel communications, see [_Business rules_](../admin/business-rules.md). 
 
    * **[!UICONTROL Action tracking]** - Select the check boxes for the actions that you want to track for the email.
 
