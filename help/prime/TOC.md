@@ -41,6 +41,7 @@ hide: true
    + [WhatsApp channel](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
+   + [Person details](./audiences/person-details.md)
    + [Event-based audiences](./audiences/event-based-audiences.md)
    + [Person engagement scores](./audiences/engagement-scores.md)
    + [Derived personas](./audiences/personas.md)
