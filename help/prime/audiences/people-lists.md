@@ -202,7 +202,7 @@ Dynamic list membership is defined using simple filters that reference people at
 
    After a brief time, qualifying members appear in the list.
 
-To open the lead profile detail page where you can view the summary and recent activities, click the name of a person in the list.
+To open the [person details](./person-details.md) page where you can view the summary and recent activities, click the name of a person in the list.
 
 ### Duplicate a dynamic list
 

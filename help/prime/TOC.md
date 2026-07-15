@@ -41,6 +41,7 @@ hide: true
    + [WhatsApp channel](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
+   + [Person details](./audiences/person-details.md)
    + [Event-based audiences](./audiences/event-based-audiences.md)
    + [Person engagement scores](./audiences/engagement-scores.md)
    + [Derived personas](./audiences/personas.md)
@@ -51,9 +52,18 @@ hide: true
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
       + [Content governance](./content/template-content-governance.md)
-   + [Landing pages](./content/landing-pages.md)
-   + [Forms](./content/forms.md)
+   + Fragments {#visual-fragments}
+      + [Overview](./content/fragments.md)
+      + [Fragment authoring](./content/fragment-authoring.md)
+   + Landing pages {#landing-pages}
+      + [Overview](./content/landing-pages.md)
+      + [Create and publish landing pages](./content/landing-pages-create-publish.md)
+      + [Landing page design](./content/landing-page-design.md)
+   + Forms {#forms}
+      + [Overview](./content/forms.md)
+      + [Form design](./content/form-design.md)
    + [Personalization](./content/personalization-expressions.md)
+   + [Conditional content](./content/conditional-content.md)
    + Content design tools {#content-design}
       + [Structure components](./content/structure-components.md)
       + [Content components](./content/content-components.md)
@@ -64,10 +74,10 @@ hide: true
       + [WhatsApp channel configuration](./admin/configuration-channels-whatsapp.md)
       + [Landing page configuration](./admin/configuration-presets-landing-pages.md)
       + [Form preset configuration](./admin/configuration-presets-forms.md)
+   + [Business rules](./admin/business-rules.md)
    + [Program types](./admin/program-types.md)
 
 <!--
-   + Business rules admin
    + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}

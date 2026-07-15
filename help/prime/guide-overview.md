@@ -29,11 +29,11 @@ role_v2:
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
-  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="https://cdn.experienceleague.adobe.com/icons/circle-play.svg"  alt="Setup checklist"></a> </td>
-  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="https://cdn.experienceleague.adobe.com/icons/home.svg"  alt="Home page"></a> </td>
-  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="https://cdn.experienceleague.adobe.com/icons/comment-dots.svg"  alt="AI Assistant chat interface"></a> </td>
-  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/users-gear.svg"  alt="Marketing activities hub"></a> </td>
-  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/images.svg"  alt="Digital asset management"></a> </td>
+  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="../assets/do-not-localize/setup-teal.svg"  alt="Setup checklist"></a> </td>
+  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="../assets/do-not-localize/home-page-teal.svg"  alt="Home page"></a> </td>
+  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="../assets/do-not-localize/ai-assistant-teal.svg"  alt="AI Assistant chat interface"></a> </td>
+  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="../assets/do-not-localize/marketing-hub-teal.svg"  alt="Marketing activities hub"></a> </td>
+  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="../assets/do-not-localize/asset-management-teal.svg"  alt="Digital asset management"></a> </td>
   <tr style="border: 0;">
     <td valign="top">
     <div><strong>Setup</strong><br/><br/>Complete initial setup and configuration so that your marketing team can get started.</div>
