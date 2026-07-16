@@ -1,7 +1,8 @@
 ---
 title: Email Send-Time Optimization
-description: Send-time optimization (STO) in Adobe Journey Optimizer B2B Prime personalizes email delivery for person journeys. Learn how to enable STO and improve engagement.
-autotag-review: '2026-06-17T20:52:02.535Z'
+description: Configure send-time optimization in Journey Optimizer B2B Prime person journeys. Set send windows, add wait nodes, and view STO reports in AI Assistant.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+autotag-review: '2026-06-24T00:17:58.032Z'
 TQID: 'https://experienceleague.adobe.com/wlxhS7E8DnbThm5ge-wzTkMcn-eBzFUXfw3ZGrfcRHA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -9,17 +10,22 @@ product_v2:
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
     internal-label: AI Assistant
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-    internal-label: Tiers
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
     internal-label: Prime
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
     internal-label: Email channel
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+    internal-label: Operational Insights
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Email send-time optimization
 
@@ -27,7 +33,7 @@ Use the Send-time optimization (STO) feature to personalize email delivery timin
 
 STO analyzes each profile's historical engagement using a large language model. It predicts and ranks potential send times, then schedules delivery at the highest-ranked time within the optimization window.
 
-<!-- Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in the AI Assistant. -->
+Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in AI Assistant.
 
 >[!BEGINSHADEBOX]
 
@@ -65,6 +71,55 @@ You can configure send-time optimization when you [add a _[!UICONTROL Take an ac
 
 1. After you complete the rest of the person journey, proceed to [publish](./person-journeys.md#publish).
 
-## Reporting
+## Reporting {#reporting}
 
+STO performance data is available through the [AI Assistant](../agents/chat-interface.md) using the `send-time-report` skill. You can view a journey-level report that summarizes all email nodes, or drill down to a node-level report for a specific email action.
 
+The report displays each email node in the journey and indicates whether STO is enabled for it. It also shows a tabular comparison between STO-enabled and non-STO emails so you can evaluate engagement lift.
+
+### Generate the STO report {#generate-sto-report}
+
+There are three ways to generate an STO report using the AI Assistant:
+
+**Use the slash command**
+
+1. In the AI Assistant panel, type `/` to display the list of available skills.
+1. Select **[!UICONTROL send-time-report]** from the list and click the up arrow to submit the query.
+
+   ![AI Assistant send-time-report skill query](./assets/email-sto-reporting-ai-assistant.png){width="700" zoomable="yes"}
+
+   If a journey is open in the editor, AI assistant uses it as context automatically. Otherwise, the assistant prompts you to specify the journey.
+
+   AI assistant loads the report and displays a summary card. 
+
+1. Click **[!UICONTROL Open report]** to view the full report with node-level detail.
+
+**Click an email node**
+
+1. In the journey canvas, click the **[!UICONTROL Send email]** node.
+
+1. In the AI Assistant panel, ask for the STO report.
+
+   Because the node is selected, AI Assistant uses it as context and returns a report scoped to that node only.
+
+   It loads the report and displays a summary card. 
+
+1. Click **[!UICONTROL Open report]** to view the full report.
+
+**Natural language query**
+
+1. In the AI Assistant panel, enter a request such as _Give me the STO report for [journey name]_.
+
+   The assistant interprets the request, loads the `send-time-report` skill, generates the report, and displays a summary card.
+   
+1. Click **[!UICONTROL Open report]** to view the full report.
+
+### View the email report data {#sto-report-data}
+
+You can reduce the AI Assistant panel to increase the size of the displayed report, or scroll to see the full width.
+
+![Send-time optimization report - email performance summary](./assets/email-sto-reporting-summary-report.png){width="700" zoomable="yes"}
+
+In the _[!UICONTROL Details]_ column, click **[!UICONTROL View STO results]** to open a popup window. The window provides email data visualizations for _Performance comparison_, _Send-time distribution_, and _Data integrity_.
+
+![Send-time optimization report - email performance data](./assets/email-sto-reporting-data.png){width="500" zoomable="yes"}

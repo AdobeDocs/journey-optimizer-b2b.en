@@ -55,7 +55,7 @@ If you define dark mode custom settings in the email design, these email clients
 
 +++
 
-+++Clients applying their own dark mode {#default-support}
++++Clients applying their own dark mode
 
 Some email clients systematically apply their own default dark mode to all received emails. They automatically adjust colors, backgrounds, images, and other elements according to their dark mode settings, and external settings are not possible. These clients include:
 
@@ -175,3 +175,4 @@ Dark mode can alter colors, backgrounds, and images — sometimes overriding des
 | Watch your backgrounds | Checklist:<ul><li>Ensure sufficient contrast between text and background colors for readability in both light and dark modes. <li>Avoid relying on background colors alone for critical content. Some clients override background colors in dark mode, so ensure that key information is still visible. |
 | Design accessible content in dark mode | Checklist:<ul><li>Use color combinations easy to distinguish for people with color blindness. <li>Use a midtone palette to ensure contrast against both light and dark backgrounds. <li>Use accessible color combinations with high contrast to improve readability and meet [!DNL Web Content Accessibility Guidelines (WCAG)] standards. Use tools like [!DNL WebAIM Contrast Checker] to verify color contrast. <li>Avoid thin fonts as they can impact readability. If your brand requires a thin font, bold it in dark mode. <li>Skip pure white on pure black, which can cause eye strain and could be inverted automatically in some email clients. <li>Provide accessible fallback styling if dark mode is not supported. |
 | Test your emails in a dark mode environment | Checklist:<ul><li>Use the [dark mode preview](#preview-dark-mode) in the email design space, which uses inverted color schemes to spot issues early. <li>If you have a Litmus Enterprise account, use the **[!UICONTROL Render email]** option to simulate your designs across major email clients (such as Apple Mail, Gmail, and Outlook) and see how colors and images behave in dark mode. |
+

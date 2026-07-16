@@ -1,6 +1,7 @@
 ---
 title: Person Journeys
 description: Create, publish, and manage person journeys in Journey Optimizer B2B Edition Prime - browse the journey list, design multistep flows, and duplicate or delete journeys.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
 product_v2:

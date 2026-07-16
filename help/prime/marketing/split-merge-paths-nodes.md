@@ -47,7 +47,7 @@ For each path that you define for the node, use the following filter types to ma
    * Email messages
    * Change in data value
 
-* Person attributes - Define a condition according to a person's attributes, such as country, job title, or list membership.
+* Person attributes - Define a condition according to a person's attributes, such as country, job title, dervived persona, or list membership.
 
 ### Add a split paths node
 

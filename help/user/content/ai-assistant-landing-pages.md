@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Content production
 autotag-review: '2026-04-29T23:21:59.633Z'
 ---
-# AI Assistant for Landing Page Content {#generative-full-content}
+# AI Assistant for landing page content {#generative-full-content}
 
 AI Assistant for landing page content in [!DNL Adobe Journey Optimizer B2B Edition] uses Adobe's AI-powered content generation capabilities and revolutionizes the way marketers create professional and brand-consistent landing page content. With advanced generative AI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content. It uses your marketing objective and optimizes the content for brand outlined styles, layouts, tone, and more. AI Assistant makes campaign and program creation and execution more intuitive, simple, and hassle-free. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
 
