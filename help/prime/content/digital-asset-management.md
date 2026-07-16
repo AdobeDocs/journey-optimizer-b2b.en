@@ -30,13 +30,14 @@ In [!DNL Adobe Journey Optimizer B2B Prime], assets are typically the images use
 Supported file formats: JPG, JPEG, GIF, PNG, EPS, SVG, and RGB
 
 <!--
+
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+
+--> 
+
 >[!NOTE]
 >
->In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
--->
-
->
->You can upload additional image assets from the _[!UICONTROL Assets]_ library or content design space. These uploaded assets are available for use only in the [!DNL Journey Optimizer B2B Prime] instance.
+>You can upload image assets from the _[!UICONTROL Assets]_ library or content design space. These uploaded assets are available for use only in the [!DNL Journey Optimizer B2B Prime] instance.
 >
 >Import of assets from external systems and access to a pre-populated asset library are not yet available. Future releases are expected to include asset import from existing systems, folder support, and expanded asset management capabilities.
 
