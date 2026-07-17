@@ -25,13 +25,13 @@ role_v2:
 ---
 # Journey traffic control
 
-Journey traffic control (JTC) prioritizes the best journey for a person when audiences overlap. When a person qualifies for two or more JTC-enabled journeys at the same time, an AI decisioning model evaluates that person against each candidate journey and adds them to the single best-fit journey at that moment, holding them out of the others.
+Journey traffic control (JTC) prioritizes the best journey for a person when audiences overlap. When a person qualifies for multiple JTC-enabled journeys, an AI model evaluates them against each candidate and adds them to the best-fit journey, holding them out of the others.
 
 >[!NOTE]
 >
 >Journey traffic control works the same way for both [!DNL Journey Optimizer B2B Ultimate] and [!DNL Journey Optimizer B2B Prime]. The capability and logic are identical; only minor UI differences exist between tiers. The information in this page reflects the [!DNL Journey Optimizer B2B Prime] experience.
 
-After the person completes the journey, they are re-evaluated for the remaining journeys for which they remain qualified. JTC then adds them to the next best-fit journey, and so on. This prevents the same person from being flooded across multiple overlapping journeys simultaneously and ensures each contact receives the most relevant experience first.
+After the person completes the journey, they are re-evaluated for the remaining journeys for which they remain qualified. JTC then adds them to the next best-fit journey, and so on. This prevents the same person from being assigned to multiple overlapping journeys simultaneously and ensures each contact receives the most relevant experience first.
 
 >[!NOTE]
 >
@@ -55,14 +55,14 @@ Dimensions for which a person has no data are skipped automatically, so scoring 
 
 >[!IMPORTANT]
 >
->At least two journeys must have JTC enabled for the capability to do anything meaningful. Enabling it on a single journey causes no harm, but with no competing journey there is nothing to arbitrate. Only when two or more journeys are JTC-enabled does the model begin resolving conflicts.
+>At least two journeys must have JTC enabled for the capability to do anything meaningful. Enabling it on a single journey is ineffective, as there is no competing journey to arbitrate. Only when two or more journeys are JTC-enabled does the model begin resolving conflicts.
 
 ## Prerequisites {#prerequisites}
 
 Before journey traffic control can produce results, keep the following in mind:
 
 * **Reporting requires a published, JTC-enabled journey.** The _[!UICONTROL Reporting]_ tab does not show any data until at least one journey is published with journey traffic control enabled.
-* **Simulation requires at least one published journey in the instance.** Simulation evaluates [profiles](../audiences/people-lists.md) that are already in live journeys, so it does not work unless the instance has at least one published journey to draw profiles from. Simulation itself does not require JTC to be enabled (see [_Simulate scoring_](#simulate-scoring)).
+* **Simulation requires at least one published journey in the instance.** Simulation evaluates [profiles](../audiences/people-lists.md) that are already in live journeys, so it requires at least one published journey in the instance to draw profiles from. Simulation itself does not require JTC to be enabled (see [_Simulate scoring_](#simulate-scoring)).
 
 ## Get started {#get-started}
 
@@ -89,7 +89,7 @@ Click **[!UICONTROL Reset to equal]** to return all dimensions to an even weight
 
 ### Simulate scoring {#simulate-scoring}
 
-Before committing weights to production, you can simulate how traffic control would behave. Simulation does not require journey traffic control to be enabled. It evaluates profiles that are already in your live journeys and applies the traffic control logic to them, so you can judge whether the outcomes look right for the weights you've chosen.
+Before committing weights to production, you can simulate how traffic control would behave with those changes. Simulation does not require journey traffic control to be enabled. It evaluates profiles that are already in your live journeys and applies the traffic control logic to them, so you can judge whether the outcomes look right for the weights you've chosen.
 
 1. Choose how many profiles to simulate.
 
@@ -160,7 +160,7 @@ Journey traffic control can be enabled directly on an individual journey when it
 
 1. In the dialog, enable the **[!UICONTROL Enable journey traffic control]** option.
 
-   The settings dialog explains the behavior: when enabled, the journey becomes a candidate in the traffic control process, and if a person qualifies for two or more active journeys the decisioning model evaluates and recommends the most suitable journey for them.
+   The settings dialog explains the behavior: when enabled, the journey becomes a candidate, and the model evaluates and recommends the most suitable journey for a person qualifying for multiple active journeys.
 
    ![Journey traffic control - enable toggle](./assets/journey-traffic-control-enable-dialog.png){width="380"}
 
@@ -168,13 +168,13 @@ Journey traffic control can be enabled directly on an individual journey when it
 
 >[!IMPORTANT]
 >
->The toggle can be changed at any time while the journey remains in _Draft_ status. <!-- If it was already enabled from the admin section (or previously enabled by someone else), the toggle appears on. --> After you publish the journey with JTC enabled, entry into that journey is evaluated by traffic control, and the setting can no longer be disabled.
+>The toggle can be changed at any time while the journey remains in _Draft_ status. <!-- If it was already enabled from the admin section (or previously enabled by someone else), the toggle appears on. --> After you publish the journey with JTC enabled, traffic control evaluates entry into that journey, and you can no longer disable the setting.
 
 ### Optimize the journey description {#optimize-journey-description}
 
 The traffic control agent can effectively use the metadata of a journey — the nodes in the journey, the name of the audience, and similar structural signals — to inform its decision. However, it benefits greatly from a rich, descriptive journey description that clearly states the purpose and goals of the journey.
 
-A strong description gives the model the context it needs to make a better-informed decision about whether a person belongs in that journey versus a competing one. This matters most when a journey is very basic. For example, a journey with only a few nodes offers limited structural context on its own, and a clear description of the intended goal of the journey and who it is meant to reach can be the deciding factor in the model choosing correctly.
+A strong description gives the model the context it needs to make a better-informed decision about whether a person belongs in that journey versus a competing one. This matters most when a journey is very basic. For example, a journey with few nodes offers limited context, so a clear description of its goal and target audience helps the model choose correctly.
 
 >[!TIP]
 >
@@ -182,11 +182,11 @@ A strong description gives the model the context it needs to make a better-infor
 
 ## Reporting tab {#reporting-tab}
 
-After traffic control is enabled for two journeys or more with completed runs, the _[!UICONTROL Reporting]_ tab displays the results. There are two views: **[!UICONTROL By run]** and **[!UICONTROL By journey]**.
+After traffic control is enabled for two or more journeys with completed runs, the _[!UICONTROL Reporting]_ tab displays the results. There are two views: **[!UICONTROL By run]** and **[!UICONTROL By journey]**.
 
 ### By run {#by-run}
 
-The _[!UICONTROL By run]_ view lists every traffic control run. For each run, you can see the time, trigger (Scheduled or Manual), active journeys evaluated, people evaluated, traffic control decisions, processing time, and status. Select a run to open a detail panel with the key metrics for the run — people evaluated, active journeys evaluated, traffic control decisions, activity records generated, and processing time — along with the list of journeys evaluated in that run.
+The _[!UICONTROL By run]_ view lists every traffic control run. For each run, you can see the time, trigger (Scheduled or Manual), active journeys evaluated, people evaluated, traffic control decisions, processing time, and status. Select a run to open a detail panel with these key metrics for the run, along with the list of journeys evaluated in that run.
 
 ![Journey traffic control - Reporting tab - By run view](./assets/journey-traffic-control-reporting-tab-by-run.png){width="700" zoomable="yes"}
 
