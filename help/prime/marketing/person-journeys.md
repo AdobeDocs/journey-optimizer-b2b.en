@@ -104,7 +104,7 @@ The header of each journey canvas includes the journey name, status, and schedul
 
 * Click the _Edit_ icon ( ![Edit icon](../../assets/do-not-localize/icon-react-edit.svg) ) to change the journey name or description information.
 * Click **[!UICONTROL Journey settings]** to change the journey start and recurrence.
-* Click **[!UICONTROL ... More]** to apply a journey action, or to enable/disable traffic control and re-entry.
+* Click **[!UICONTROL ... More]** to apply a journey action, or to enable/disable [journey traffic control](./journey-traffic-control.md) and re-entry.
 * If all errors are resolved and you want to activate the journey, click **[!UICONTROL Publish]**.
 
 ### Journey design {#journey-design}
