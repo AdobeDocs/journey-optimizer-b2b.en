@@ -277,7 +277,7 @@ When you define a [people event in an account journey](#people-events) or an [ev
 
 | Filters | Description |
 | ------------ | ----------- |
-| [!UICONTROL Event history] | Experience events configured by an administrator. See _[!UICONTROL Select Experience Events and fields](../admin/configure-aep-events.md)_. |
+| [!UICONTROL Event history] | Experience events configured by an administrator. See _[Select Experience Events and fields](../admin/configure-aep-events.md)_. |
 | [!UICONTROL Person Attributes] | Attributes from the B2B person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
 | [!UICONTROL Person attributes] | (Person journeys only) Attribute value |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li>|
