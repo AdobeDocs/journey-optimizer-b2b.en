@@ -30,7 +30,7 @@ To execute an action, such as send an email, change a score, assign to a buying 
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
-## Account actions
+## Account actions {#account-actions}
 
 In an account journey, use an action on accounts when you want to apply a change to all people that are part of accounts on the node path.
 
@@ -53,7 +53,7 @@ In an account journey, use an action on accounts when you want to apply a change
 >
 >The _[!UICONTROL Account Change Data Value]_ action is deprecated for the 2025.10 release. _[!UICONTROL Update account profile]_ replaces this action in Journey Optimizer B2B Edition.<br/>
 >
->An administrator can configure the available attributes for the XDM Business Account by updating the fields in the _[!UICONTROL XDM Configurations]_ > _[!UICONTROL Standard classes]_. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
+>An administrator can configure the available attributes for the XDM Business Account by updating the fields in the _[!UICONTROL XDM Configurations]_ > _[!UICONTROL Standard classes]_. For more information, see [Standard schemas](../admin/xdm-field-management.md#standard-schemas).
 
 ### Add an account-based action
 
@@ -73,13 +73,11 @@ In an account journey, use an action on accounts when you want to apply a change
 
 ### Activate to a LinkedIn destination
 
-Use the _Activate to destination_ action for accounts to activate accounts to Experience Platform destinations directly from your journey. This action enables you to push qualified accounts (based on buying group filters, engagement scores, and other criteria) into matched audiences on supported destinations. It 
+Use the _Activate to destination_ action to activate accounts to Experience Platform destinations directly from your journey. This action enables you to push qualified accounts (based on buying group filters, engagement scores, and other criteria) into matched audiences on supported destinations.
 
 Starting with the 2025.10 release, **_LinkedIn_** is the first supported destination type. Use the action for a LinkedIn destination to streamline campaign execution by eliminating multi-system handoffs and reducing latency. For example, as a marketer, you can automatically activate high-intent accounts to LinkedIn for retargeting when key buying roles are missing, or re-engage dormant accounts based on inactivity filters.
 
 For more information about using account matched audiences for a LinkedIn destination, see [LinkedIn Account Matched Audiences](../data/linkedin-account-matched-audiences.md).
-
-+++ Set activation of accounts to a LinkedIn destination
 
 1. With the _Take an action_ node selected in the journey canvas, set the **[!UICONTROL Action on accounts]** to **[!UICONTROL Activate to destination]**.
 
@@ -89,17 +87,15 @@ For more information about using account matched audiences for a LinkedIn destin
 
 1. In the dialog, select the configured LinkedIn destination and click **[!UICONTROL Save]**.
 
-  ![Journey node - take an action on accounts - activate to destination - select destination dialog](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![Journey node - take an action on accounts - activate to destination - select destination dialog](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Audience name]** that is used to identify the activated audience in the destination.
 
-   ![Journey node - take an action on accounts - activate to destination - completed settings](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}   
-
-+++
+   ![Journey node - take an action on accounts - activate to destination - completed settings](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
-## People actions
+## People actions {#people-actions}
 
 In an account or person journey, use an action on people when you want to apply a change to all people on the node path. For an account journey, you can use this node type within the _split path by people_ or _split path by accounts_.
 
@@ -107,7 +103,8 @@ In an account or person journey, use an action on people when you want to apply 
 
 | Context | Action | Journey type | Constraints |
 | ------- | ------ | ------------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Add to external customer audience] | <li>Account journey <li>Person journey | <li>Select external customer audience |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Add Person to (other) journey] | <li>Account journey (Action on People) <li>Person journey| <li>Select live Person Journey |
+| | [!UICONTROL Add to external customer audience] | <li>Account journey <li>Person journey | <li>Select external customer audience |
 | | [!UICONTROL Assign to Buying Group] | <li>Account journey | <li>Select solution interest <li>Select role |
 | | [!UICONTROL Change Score] | <li>Account journey | <li>Score name <li>Change in score |
 | | [!UICONTROL Person Interesting Moment] | <li>Account journey <li>Person journey | <li>Type <li>Description |
@@ -133,15 +130,25 @@ In an account or person journey, use an action on people when you want to apply 
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Take an action]**.
 
-1. In the node properties on the right, choose **[!UICONTROL People]** for the action.
+1. (_Account journeys only_) In the node properties on the right, choose **[!UICONTROL People]** for the action context.
 
 1. Select an action from the list and set any values for the action.
 
-![Journey node - take an action on people](./assets/node-take-action-people.png){width="700" zoomable="yes"}
+   ![Journey node - take an action on people](./assets/node-take-action-people.png){width="700" zoomable="yes"}
 
 ### Journey Optimizer B2B actions
 
 The Journey Optimizer B2B people-based actions are designed to manage communications through the configured channels and manage people categorization within your buying groups and accounts. The journey applies the action when a qualifying account with person profiles reaches the node.
+
++++[!UICONTROL Add Person to (other) Journey]
+
+Use this action to add a person profile to a live person journey. When a person enters the action node, the system adds them as an audience member for the specified person journey.
+
+Use the **[!UICONTROL Select live Person Journey]** selector to specify the person journey where you want to add the person profile. You can enter text in the field to filter the list.
+
+![Take an action - Add person to (other) Journey](./assets/node-action-add-to-person-journey.png){width="300"}
+
++++
 
 +++[!UICONTROL Add to external customer audience]
 
@@ -153,7 +160,7 @@ Use this action to push people to an external audience that can be activated acr
 
 ![Take an action - Add to external customer audience](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-When you select this people-based action, you can create a new external audience or select from the list of existing external audiences. 
+When you select this people-based action, you can create a new external audience or select from the list of existing external audiences.
 
 * For existing audiences, you can choose from external customer audiences that were created in [!DNL Journey Optimizer B2B Edition] only.
 * When you create an audience and use it for this journey action, make sure that you connect the destination. For more information, see [Create a new destination connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} and [Activation overview](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in the [!DNL Experience Platform] documentation.
@@ -168,7 +175,7 @@ _To create an external audience:_
 
 1. Click **[!UICONTROL Create external customer audience]**.
 
-1. Enter a **[!UICONTROL Name]** (required) and **[!UICONTROL Description]** (optional) for the new external audience. 
+1. Enter a **[!UICONTROL Name]** (required) and **[!UICONTROL Description]** (optional) for the new external audience.
 
    ![Add to external customer audience - Create audience](./assets/node-action-add-to-external-create-new.png){width="300"}
 
@@ -194,7 +201,7 @@ _To use an existing audience:_
 
 +++[!UICONTROL Assign to Buying Group]
 
-Use this action to add people profiles to a [buying group](../buying-groups/buying-groups-overview.md) based on a selected solution interest and role. 
+Use this action to add people profiles to a [buying group](../buying-groups/buying-groups-overview.md) based on a selected solution interest and role.
 
 ![Take an action - Add to Buying Group](./assets/node-action-add-to-buying-group.png){width="300"}
 
@@ -226,15 +233,25 @@ Use this action to [create personalized experiences](../content/web-experiences.
 
 +++[!UICONTROL Remove from Buying Group]
 
-Use this action to remove people profiles from a [buying group](../buying-groups/buying-groups-overview.md) based on a selected solution interest. 
+Use this action to remove people profiles from a [buying group](../buying-groups/buying-groups-overview.md) based on a selected solution interest.
 
 ![Take an action - Add to Buying Group](./assets/node-action-remove-from-buying-group.png){width="300"}
 
 +++
 
++++[!UICONTROL Remove Person from Journey]
+
+Use this action to remove a person profile from a person journey. When a person enters the action node, the system removes them as an audience member for the specified person journey.
+
+Use the **[!UICONTROL Select Person Journey]** selector to specify the person journey where you want to remove the person profile. You can enter text in the field to filter the list.
+
+![Take an action - Remove person from Journey](./assets/node-action-remove-from-person-journey.png){width="300"}
+
++++
+
 +++[!UICONTROL Send email]
 
-Use this action to send an email. After you [create the email](../content/add-email.md#add-an-email-to-your-journey) for the node, you can design, personalize, and preview email messages in the email design space (see [Email authoring](../content/email-authoring.md)). You can also send an [email from Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Select the Marketo Engage workspace and then select the email to send.
+Use this action to send an email. After you [create the email](../content/add-email.md#add-an-email-action-node-in-a-journey) for the node, you can design, personalize, and preview email messages in the email design space (see [Email authoring](../content/email-authoring.md)). You can also send an [email from Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Select the Marketo Engage workspace and then select the email to send.
 
 ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -256,7 +273,7 @@ Use this action to send an SMS message. You can create, personalize, and preview
 
 +++[!UICONTROL Send WhatsApp]
 
-Use this action to send a WhatsApp message. You can create, personalize, and preview WhatsApp messages in the visual design space (see [WhatsApp authoring](../content/whatsapp-authoring.md).
+Use this action to send a WhatsApp message. You can create, personalize, and preview WhatsApp messages in the visual design space (see [WhatsApp authoring](../content/whatsapp-authoring.md)).
 
 ![Take an action - Send WhatsApp](./assets/node-action-send-whatsapp.png){width="300"}
 
@@ -272,7 +289,7 @@ Use this action to change the value of a [people profile attribute](../admin/fie
 >
 >The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action in the current Journey Optimizer B2B Edition release.<br/>
 >
->An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Configurations]_ > [!UICONTROL Standard classes]. For more information, see [Standard classes](../admin/xdm-field-management.md#standard-classes).
+>An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Configurations]_ > [!UICONTROL Standard classes]. For more information, see [Standard schemas](../admin/xdm-field-management.md#standard-schemas).
 
 +++
 
@@ -298,7 +315,7 @@ First, select a connected Marketo Engage instance. Next, select the request camp
 
 +++[!UICONTROL Add to Marketo list]
 
-Use this action to add people to a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in a connected Marketo Engage instance. 
+Use this action to add people to a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in a connected Marketo Engage instance.
 
 First, select a connected Marketo Engage instance. Next, select the list name.
 
@@ -308,7 +325,7 @@ First, select a connected Marketo Engage instance. Next, select the list name.
 
 +++[!UICONTROL Remove from Marketo list]
 
-Use this action to remove people from a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. 
+Use this action to remove people from a [Static List](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage.
 
 First, select a connected Marketo Engage instance. Next, select the list name.
 
