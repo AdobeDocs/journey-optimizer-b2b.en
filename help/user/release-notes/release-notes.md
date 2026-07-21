@@ -39,7 +39,10 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Split path journey nodes - Variants | (Beta) Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
+| Feature | _Split path_ journey nodes - Variants | (Beta) Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
+| Enhancement | _Listen for an event_ journey nodes | In person journeys, the event listener nodes can now be configured with multiple events to trigger. The first qualifying event advances the record forward in the journey. (Planned support in account journeys for upcoming release.) [Learn more](../journeys/listen-for-event-nodes.md#person-journeys) |
+| Enhancement | _Listen for an event_ journey nodes | The _[!UICONTROL Filters]_ tab for people/person events is changed from a single action selector to a rule builder interface. This provides support for multiple activity configurations using configured Experience Events. [Learn more](../journeys/listen-for-event-nodes.md#filters-people-event) |
+| Enhancement | _Take an action_ journey nodes | Additional actions are now available for the people context of account journey and from a person journey: _Add to Person journey_ and _Remove from Person journey_. |
 
 >[!NOTE]
 >
