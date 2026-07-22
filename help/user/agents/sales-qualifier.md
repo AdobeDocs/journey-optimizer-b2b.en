@@ -453,7 +453,7 @@ Use the following actions to manage your tasks:
 
 **Automatic skipping**
 
-Stagnant LinkedIn InMail and phone call tasks are skipped automatically if they remain incomplete for 2 days. Automatic skipping keeps a prospect moving through the cadence without stalling the run, and it does not affect the email timeline. Scheduled email touchpoints continue to send as planned.
+Stagnant LinkedIn InMail and phone call tasks are skipped automatically if they remain incomplete for two days. Automatic skipping keeps a prospect moving through the cadence without stalling the run, and it does not affect the email timeline. Scheduled email touchpoints continue to send as planned.
 
 ### Task status
 
@@ -566,7 +566,7 @@ After you upload your documents, select **[!UICONTROL Build Playbook]** to turn 
 >
 >A playbook takes about 24 hours to process before it is ready to use.
 
-Once the playbook is ready, it feeds both outreach and assistance:
+When the playbook is ready, it feeds both outreach and assistance:
 
 * **Outbound email prompts** – Reference the playbook when generating emails by naming the document and context in your prompt. See [Generate and review touchpoints](#step-3-generate-and-review-touchpoints).
 * **Conversational Sales Assistant** – To pull from the playbook, point the assistant at the Knowledge Center. See [Conversational Sales Assistant](#conversational-sales-assistant).
