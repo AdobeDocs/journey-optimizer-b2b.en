@@ -18,6 +18,7 @@ hide: true
    + [Create program from brief](./agents/program-from-brief.md)
    + [Create audiences for programs](./agents/audience-creation.md)
    + [Create custom scoring models](./agents/lead-scoring-model.md)
++ [AI decisioning](./agents/ai-decisioning.md)
 + Marketing management {#marketing-management}
    + [Overview](./marketing/marketing-management.md)
    + Programs {#programs}
