@@ -1,6 +1,7 @@
 ---
 title: Destinations
-description: Learn how to connect destinations and activate static people lists in Journey Optimizer B2B Prime to export audience data to advertising, email, and other marketing platforms.
+description: Learn about required permissions, supported destinations, and how to connect a destination in Journey Optimizer B2B Prime to activate static people lists to advertising and social platforms.
+badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 autotag-review: '2026-06-17T18:30:02.442Z'
 TQID: 'https://experienceleague.adobe.com/xO1p-VvIfv1KB77g0l2-fFRHQ0w2hy97vnG1QHpMw8c'
 product_v2:
@@ -24,104 +25,87 @@ role_v2:
 ---
 # Destinations
 
-Destinations are pre-built integrations that allow you to export people list data from [!DNL Adobe Journey Optimizer B2B Prime] to external marketing platforms such as advertising networks, email service providers, and CRM systems. In [!DNL Journey Optimizer B2B Prime], you activate [static people lists](./people-lists.md#static-list) (composed of Marketo Engage person records) to destinations so that those audiences are available for targeting and engagement in downstream channels.
+Destinations are pre-built integrations that let you send [static people lists](./people-lists.md#static-lists) from [!DNL Journey Optimizer B2B Prime] to external advertising or social platforms, such as a LinkedIn campaign audience, a Google Customer Match audience, or a Facebook Custom Audience. Activating a static list to a destination keeps membership in sync: as people are added to or removed from the list, they are correspondingly added to or removed from the destination audience and, by extension, from any campaign that the audience feeds.
 
-<!-- 
-Does not align w/AEP info for Beta
+There are two ways to activate people to a connected destination:
 
-Activating a static list to a destination follows a three-step process:
+* **From a static list** — Activate an existing static list directly from the **_[!UICONTROL People lists]_** tab. See [Activate to a destination](./people-lists.md#static-list-activate).
+* **From a person journey** — Add an **_[!UICONTROL Activate to destination]_** action to a journey path so that anyone who reaches that node is added to a list and sent to the destination. See [_Add an action node_](../marketing/action-nodes.md#add-an-action-node).
 
-1. **Connect** — Authenticate and configure a connection to a destination platform.
-1. **Map** — Select the static list and map its people attributes to the fields required by the destination.
-1. **Schedule** — Define when and how often the list data is exported to the destination.
+>[!BEGINSHADEBOX]
 
-Destination activations reflect the membership state of the static list at the time of each synch.
+## Required permissions {#required-permissions}
 
-## Destination types {#destination-types}
+Full destination capability requires the following [!DNL Adobe Experience Platform] permissions to be enabled.
 
-[!DNL Journey Optimizer B2B Prime] supports the following destination types for activating static people lists:
+| Category | Permission | Required |
+|--- |--- |--- |
+| Sandboxes | Sandbox access _(enabled by default)_ | Yes |
+| Dashboards | View Standard Dashboards | Yes |
+| Dashboards | Manage Standard Dashboards | Yes |
+| Destinations | View Destinations | Yes |
+| Destinations | Manage Destinations | Yes |
+| Destinations | Activate Destinations | Yes |
+| Destinations | Activate Segment without Mapping | Yes |
+| Destinations | Manage and Activate Dataset Destination | Yes |
+| Destinations | Destination Authoring | Yes |
+| Data Governance | View Data Usage Policies | Yes |
+| Data Governance | Manage Data Usage Policies | Yes |
+| Data Ingestion | View Sources | Yes |
+| Data Ingestion | Manage Sources | Yes |
+| Profile Management | View Profile Settings | Yes |
+| Profile Management | Manage Profile Settings | Yes |
 
-| Type | Description |
-|--- |--- |
-| Streaming | Real-time API-based connections that push audience membership updates to the destination as they occur. |
-| File-based (batch) | Scheduled exports that deliver audience data as structured files to cloud storage or SFTP locations, which the destination platform then ingests. |
+>[!ENDSHADEBOX]
 
--->
+## Supported destinations {#supported-destinations}
 
-## Connect a destination {#connect-destination}
+Before you can activate a static list, a destination must exist in the destinations catalog. On the left navigation, expand **[!UICONTROL Connections]** and select **[!UICONTROL Destinations]**. [!DNL Journey Optimizer B2B Prime] currently supports the following destinations:
 
-1. On the left navigation, expand **[!UICONTROL Connections]** and select **[!UICONTROL Destinations]**.
+* **[!UICONTROL Google Customer Match]** (Advertising)
+* **[!UICONTROL Facebook Custom Audience]** (Social)
+* **[!UICONTROL LinkedIn Matched Audience]** (Social)
 
-1. In the _[!UICONTROL Catalog]_ tab, locate the external destination type connector.
+![Access the available connector types](./assets/destinations-catalog.png){width="800" zoomable="yes"}
 
-   >[!TIP]
-   >
-   >You can quickly find the connector by entering the name, such as `LinkedIn`, in the search box.
+>[!NOTE]
+>
+>This catalog is not the full [!DNL Adobe Experience Platform] destinations catalog. If you access destinations directly from [!DNL Experience Platform], you see a larger catalog, but only these destinations are currently available for activation in [!DNL Journey Optimizer B2B Prime]. Additional destinations are planned for future releases.
 
-   ![Access the available connector types](./assets/destinations-catalog.png){width="800" zoomable="yes"}   
+## Set up a destination {#set-up-destination}
+
+Each supported destination card shows **[!UICONTROL Configure new destination]**. Configuring a destination is a prerequisite for activation.
 
 1. In the connector card, click **[!UICONTROL Configure new destination]**.
 
-1. Select **[!UICONTROL New Account]** and enter your account credentials.
+1. Select **[!UICONTROL Existing account]** or **[!UICONTROL New account]** and enter the account details, such as the account name and description.
 
    ![Connect a new destination account](./assets/destinations-configure-new.png){width="500"}
 
 1. Click **[!UICONTROL Connect to destination]**.
 
+   An OAuth flow lets you sign in to the corresponding account: LinkedIn, Google, or Facebook.
+
    >[!IMPORTANT]
    >
    >At this point, **do not** enter the _[!UICONTROL Destination details]_. Only the connection is needed.
 
+1. Complete any required field mapping between people attributes and the fields required by the destination.
+
 1. Review the data governance and marketing action settings, then click **[!UICONTROL Save]**.
 
-The connected destination appears in the list on the _[!UICONTROL Browse]_ tab and is available for static list activation.
+For the full setup steps, see [Create a new destination connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} in the [!DNL Experience Platform] documentation.
 
-## Activate a static list to a destination {#activate}
+When configured, the destination is available for activation everywhere that you can select a destination in [!DNL Journey Optimizer B2B Prime].
 
->[!NOTE]
+## Activation and sync {#activation-sync}
+
+Activation is driven by static list membership, with a bidirectional sync between the list and the destination audience:
+
+* Adding a person to the static list activates them to the destination within 24 hours, adding them to the destination audience and, subsequently, to any campaign that the audience feeds.
+* Removing a person from the static list deactivates them from the destination — they are removed from the destination audience and from any connected campaign.
+* The same list can be activated to multiple destinations at once; membership syncs to all of them.
+
+>[!TIP]
 >
->Only [static people lists](./people-lists.md#static-list) can be activated to destinations in [!DNL Journey Optimizer B2B Prime]. [Dynamic lists](./people-lists.md#dynamic-lists) are not eligible for destination activation.
-
-1. On the left navigation, expand **[!UICONTROL Marketing Management]**.
-
-1. On the right in the **[!UICONTROL Marketing]** resource list, select **[!UICONTROL People lists]**.
-
-   ![Access people lists to manage your audiences](./assets/people-lists.png){width="800" zoomable="yes"}
-
-1. Select the **[!UICONTROL Static lists]** tab.
-
-1. Locate the static list that you want to activate to a destination.
-
-1. Click the _Activate_ ( ![Activate icon](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) icon next to the static list name.
-
-1. Select the check box for the configured destination connection.
-
-   ![Configured destinations available for activation](./assets/static-list-activate-destination-select.png){width="700" zoomable="yes"}
-
-1. Click **[!UICONTROL Save]**.
-
-<!--
-
-This method not working for Beta
-
-1. On the _[!UICONTROL Browse]_ tab, locate the destination you want to use for the activation and click the name to open it.
-
-1. Select the **[!UICONTROL Activation data]** tab.
-
-1. Click **[!UICONTROL Activate people lists]**.
-
-1. Select the static people list you want to export and click **[!UICONTROL Next]**.
-
-1. Map the people list attributes to the required fields of the destination schema and click **[!UICONTROL Next]**.
-
-1. Set the export schedule:
-
-   * **[!UICONTROL Frequency]** — Choose how often the list is exported (for example, daily or weekly).
-   * **[!UICONTROL Start date]** — Set when the first export should run.
-
-1. Review the activation summary and click **[!UICONTROL Finish]**.
-
-The activation is created and the static list data is exported to the destination according to the defined schedule.
-
--->
-
+>To run a LinkedIn campaign against a segment, activate the static list of those people to your LinkedIn Matched Audience destination. Everyone in the list is added to the matched audience in LinkedIn, where a campaign can target them, and the audience automatically stays current as the list changes.
