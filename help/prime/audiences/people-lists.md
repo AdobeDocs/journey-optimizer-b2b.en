@@ -209,7 +209,7 @@ To review the destinations that a static list is activated to, open the list and
 
 1. Confirm in the _[!UICONTROL Deactivate destination]_ dialog.
 
-Deactivating removes the destination from the list. The people in the list are also removed from that destination audience.
+Deactivating removes the destination from the list. The people in the list are also removed from the connected destination audience.
 
 ## Dynamic lists {#dynamic-lists}
 
