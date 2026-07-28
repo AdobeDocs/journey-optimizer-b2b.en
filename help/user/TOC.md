@@ -147,6 +147,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/personalization.md)
       + [Personalization syntax](./content/personalization-syntax.md)
       + [Helper functions list](./content/personalization-helper-functions.md)
+      + [Script Builder (Beta)](./content/script-builder.md)
 + Intelligent dashboards {#dashboards}
     + [Insights dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement dashboard](./dashboards/engagement-dashboard.md)
