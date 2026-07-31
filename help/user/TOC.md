@@ -106,6 +106,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Email collaboration](./content/email-collaboration-tools.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
+      + [Content Credentials](./content/content-credentials.md)
       + Internal assets {#internal-dam}
          + [Work with internal assets](./content/internal-image-assets.md)
          + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
