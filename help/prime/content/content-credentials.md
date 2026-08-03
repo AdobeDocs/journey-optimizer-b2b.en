@@ -37,13 +37,24 @@ Marketing organizations are more concerned than ever about content transparency,
 * AI Tool Used — If generative AI was used to create the asset, the name of the model used may be included.
 * Other Pertinent Information — Additional data may also be included to help offer more context about the history of an asset.
 
-For a complete view, [Verify](https://contentcredentials.org/verify) can offer a more comprehensive insight into asset history.
+For a comprehensive information about the asset history, you can use the Adobe Content Authenticity [inspection tool](https://contentauthenticity.adobe.com/inspect).
 
-Content Credentials persist with the image file. When an image that was generated with generative AI is uploaded to or exported from [!DNL Adobe Journey Optimizer B2B Prime], its Content Credentials are preserved.
+Content Credentials persist with the image file. When an image that was generated or edited with generative AI is uploaded to or exported from [!DNL Adobe Journey Optimizer B2B Prime], its Content Credentials are preserved.
 
 >[!NOTE]
 >
 >Some methods of importing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, might not preserve the original Content Credentials. In these cases, Content Credentials cannot be read from the source and none are created for the result.
+
+>[!BEGINSHADEBOX]
+
+## Content Credentials persistence through channels {#channels}
+
+When you include images in your email or WhatsApp messages, the Content Credentials for the delivered images are also are persisted:
+
+* **Email** - When you use a _Send email_ journey action, add the image to your email content from the _Assets_ library. When the email is delivered, the recipient can download the image from the message and the Content Credentials are intact.
+* **WhatsApp** - Add the image to your WhatsApp message template in your Meta business acoount. You can add it directly from your own system, or download an image file from the _Assets_ library. Use the template for a _Send WhatsApp_ journey action. When the WhatsApp message is delivered, the recipient can download the image from the message and the Content Credentials are intact. 
+
+>[!ENDSHADEBOX]
 
 ## Image generation {#generate}
 

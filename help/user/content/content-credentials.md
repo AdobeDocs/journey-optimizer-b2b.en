@@ -34,13 +34,24 @@ Marketing organizations are more concerned than ever about content transparency,
 * AI Tool Used - If generative AI was used to edit or create the asset, the name of the model used may be included.
 * Other Pertinent Information - Additional data may also be included to help offer more context about the history of an asset.
 
-For a complete view, [Verify](https://contentcredentials.org/verify) can offer a more comprehensive insight into asset history.
+For a comprehensive information about the asset history, you can use the Adobe Content Authenticity [inspection tool](https://contentauthenticity.adobe.com/inspect).
 
 Content Credentials persist with the image file. When an image that was generated or edited with generative AI is uploaded to or exported from [!DNL Adobe Journey Optimizer B2B Edition], its Content Credentials are preserved.
 
 >[!NOTE]
 >
 >Some methods of importing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, might not preserve the original Content Credentials. In these cases, Content Credentials cannot be read from the source and none are created for the result.
+
+>[!BEGINSHADEBOX]
+
+## Content Credentials persistence through channels {#channels}
+
+When you include images in your email or WhatsApp messages, the Content Credentials for the delivered images are also are persisted:
+
+* **Email** - When you use a _Send email_ journey action, add the image to your email content from the _Assets_ library. When the email is delivered, the recipient can download the image from the message and the Content Credentials are intact.
+* **WhatsApp** - Add the image to your WhatsApp message template in your Meta business acoount. You can add it directly from your own system, or download an image file from the _Assets_ library. Use the template for a _Send WhatsApp_ journey action. When the WhatsApp message is delivered, the recipient can download the image from the message and the Content Credentials are intact. 
+
+>[!ENDSHADEBOX]
 
 ## Actions that affect Content Credentials {#cc-workflows}
 
@@ -75,7 +86,7 @@ When you render generated text on top of a background image, Content Credentials
 
 **_Examples:_**
 
-* Create an email header by combining a generated product image with a generated background. The result carries Content Credentials reflecting both generative AI sources. 
+* Create an email header by combining a generated product image with a generated background. The result carries Content Credentials reflecting both generative AI sources.
 * Combine two uploaded brand photos into one collage image. Since neither source image carries a generative AI action, Content Credentials are not created.
 
 When you composite two or more images together and any of the source images have Content Credentials, the combined image retains them, merged into a single Content Credentials metadata element. Compositing produces a new image from the sources, which normally removes those Content Credentials. But the image editing tools read each one before compositing, then build a single combined Content Credentials element that lists every source that contributed a generative AI action.
