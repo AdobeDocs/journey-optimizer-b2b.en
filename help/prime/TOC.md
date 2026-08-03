@@ -48,7 +48,9 @@ hide: true
    + [Derived personas](./audiences/personas.md)
    + [Destinations](./audiences/destinations.md)
 + Content {#content}
-   + [Assets](./content/digital-asset-management.md)
+   + Assets {#assets}
+      + [Overview](./content/digital-asset-management.md)
+      + [Content Credentials](./content/content-credentials.md)
    + Templates {#templates}
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
