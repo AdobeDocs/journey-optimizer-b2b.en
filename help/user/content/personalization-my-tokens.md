@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Custom tokens for email personalization
 
-Content personalization uses tokens as placeholders or variables that are populated when the content artifact is generated. Standard personalization tokens are available for emails, landing pages, fragments, and templates. You can also define a set of custom tokens with values that are specific to the account journey. This set of custom tokens is called _My Tokens_ and any of these custom tokens are for personalization when [authoring journey emails](./email-authoring.md#personalize-content).
+Content personalization uses tokens as placeholders or variables that are populated when the content artifact is generated. Standard personalization tokens are available for emails, landing pages, fragments, and templates. You can also define a set of custom tokens with values that are specific to the account journey. This set of custom tokens is called _My Tokens_ and any of these custom tokens can be used for personalization when [authoring journey emails](./email-authoring.md#personalize-content).
 
 In addition to _My Tokens_, which are specific to the account journey, you can use any of the standard (built-in) tokens for email personalization.
 
@@ -35,7 +35,7 @@ In addition to _My Tokens_, which are specific to the account journey, you can u
 
 The _My Tokens_ are custom variables that you create or modify for an account journey in Draft status. This custom token set currently supports text and number token definitions. 
 
-When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars.
+When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars.
 
 _To access the custom tokens for an account journey:_
 
@@ -61,7 +61,7 @@ _To access the custom tokens for an account journey:_
 
    ![Enter a name and value for the text token](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   You cannot use spaces or special characters in the token name. You can use _camel case_, such as `EventType`, to use a multi-word name that is easily identified.
+   You cannot use spaces or special characters in the token name. You can use camel case, such as `EventType`, to use a multi-word name that is easily identified.
 
    If you are defining a _Number_ token, the value can contain only numeric characters. You can use a decimal value.
 

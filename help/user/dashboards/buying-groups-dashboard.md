@@ -33,7 +33,7 @@ The Sales handoff comprises:
 * **Data handoff**: Marketing identifies _ready_ target data and makes it accessible to Sales in the CSV format. 
 * **Sales acceptance**: Sales manually reviews and incorporates _ready_ targets into their pipeline.
 
-To access this dashboard, expand **[!UICONTROL Accounts]** in the left navigation and then select **[!UICONTROL Buying groups]**. Select the **[!UICONTROL Overview]** tab if it is not displayed by default.
+To access this dashboard, expand **[!UICONTROL Accounts]** in the left navigation and then select **[!UICONTROL Buying groups]**. Select the **[!UICONTROL Overview]** tab if the system does not display it by default.
 
 ![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +51,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## Buying group completion score distribution
 
-This visualization illustrates the distribution of buying groups based on the completion scores, and is categorized into four distinct score bands. The central figure represents the total number of buying groups, and provides a quick snapshot of overall progress. The segmented colors indicate the proportion of buying groups within each score range, which allows you to assess completion trends at a glance.
+This visualization illustrates the distribution of buying groups based on the completion scores, and is categorized into four distinct score bands. The central figure represents the total number of buying groups, and provides a summary of overall progress. The segmented colors indicate the proportion of buying groups within each score range, which allows you to assess completion trends at a glance.
 
 To view more detailed information, click the **...** menu icon at the top right.
 
@@ -84,7 +84,7 @@ Click the _Filter_ ( ![Filter icon](../assets/do-not-localize/icon-filter.svg) )
 
 ![Filter the displayed data by attributes](./assets/buying-group-overview-filters.png){width="500"}
 
-Select as many values for each attribute that you want to use to filter the data and click **[!UICONTROL Apply]**.
+Select as many values for each attribute as you want to use to filter the data and click **[!UICONTROL Apply]**.
 
 ## Engage with the data
 

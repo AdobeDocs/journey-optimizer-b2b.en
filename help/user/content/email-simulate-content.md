@@ -36,7 +36,7 @@ Use the _Simulate content_ feature to preview the email content and send test de
 
 >[!IMPORTANT]
 >
->You cannot preview the email if there are errors. Check the _Alerts_ to ensure that no errors are blocking the preview functions. Warnings do not block preview, but you should address them before you publish the journey that triggers the email delivery.
+>You cannot preview the email if there are errors. To ensure that no errors are blocking the preview functions, check the _Alerts_. Warnings do not block preview, but address them before you publish the journey that triggers the email delivery.
 
 ## Display the email preview
 
@@ -100,7 +100,7 @@ A proof is a delivered test message that allows you and your team members to rev
 
 1. In the _[!UICONTROL Add people for testing]_ dialog, enter the full email address for the contact.
 
-   To add multiple contacts, enter multiple addresses separated by a comma.
+   To add multiple contacts, enter multiple addresses separated by commas.
 
 1. Select the checkbox for each matched contact that you want to add to the list of test profiles.
 

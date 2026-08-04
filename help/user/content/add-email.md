@@ -132,7 +132,7 @@ Two types of alerts can be detected:
 
 * **_Warnings_** that refer to recommendations and best practices, such as:
 
-   * `The opt-out link is not present in the email body`: Adding an unsubscription link into your email body is a best practice.
+   * `The opt-out link is not present in the email body`: Adding an unsubscribe link into your email body is a best practice.
 
       >[!NOTE]
       >

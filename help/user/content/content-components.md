@@ -221,7 +221,7 @@ Each content component type displays a toolbar when you select it in the canvas.
 
 1. In the visual design space, use an existing template or add the needed structure components into an empty canvas to define the layout.
 
-1. In the **[!UICONTROL Components]** library, grab the _Drag handle_ ![Drag handle](../../assets/do-not-localize/icon-drag-handle.svg) for the content component of your choice, then drag and drop it onto the structure components.
+1. In the **[!UICONTROL Components]** library, select the _Drag handle_ ![Drag handle](../../assets/do-not-localize/icon-drag-handle.svg) for the content component of your choice, then drag and drop it onto the structure components.
 
    You can add several components into a single structure component and into each column of a structure component.
 
@@ -250,7 +250,7 @@ If you want to exclude the component from desktop or mobile device display, chan
 
 ### Container
 
-Use a container to apply specific styling to a group of content components. Add a [!UICONTROL Container] component and then add other content components inside it. This component is similar to how you might use a `div` element in HTML. You can apply a distinct style to the container that differs from the style applied to the content components that it contains. 
+Use a container to apply specific styling to a group of content components. Add a [!UICONTROL Container] component and then add other content components inside it. This component is similar to how you use a `div` element in HTML. You can apply a distinct style to the container that differs from the style applied to the content components that it contains. 
 
 For example, add a _[!UICONTROL Container]_ component and then add a _[!UICONTROL Button]_ component inside that container. You can use a specific area styling for the container, and style the button and its background as you need. 
 
@@ -318,7 +318,7 @@ On the _[!UICONTROL Settings]_ tab, use the **[!UICONTROL Link]** options to def
 
 1. For **[!UICONTROL Label]**, enter the text that you want to display inside the button.
 
-   The button sizing adjusts according to the text and the styling that set.
+   The button sizing adjusts according to the text and the styling that is set.
 
 1. For **[!UICONTROL Target**], choose how the linked destination is redirected from the email or page: 
 
@@ -438,7 +438,7 @@ These styles are applied to the whole text block. You can apply inline styling t
 
 ### Divider
 
-Add a _Divider_ component to incorporate a linear division between sections of your content.
+To incorporate a linear division between sections of your content, add a _Divider_ component.
 
 +++Background
 
@@ -462,7 +462,7 @@ On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!U
 
    * For a pixel-based width, click the up and down arrow icons to increase or decrease the number of pixels. An empty value (Auto) is the default and sizes the width of the element according to its contents.
 
-* **[!UICONTROL Style]** - Choose the a value from the list of standard CSS `line-style` values, such as _Solid_, _Dotted_, and _Dashed_.
+* **[!UICONTROL Style]** - Choose a value from the list of standard CSS `line-style` values, such as _Solid_, _Dotted_, and _Dashed_.
 
 +++
 
@@ -502,7 +502,7 @@ Use the HTML component to add parts of your existing HTML. This component provid
 
 1. Select the component on the canvas and click the _Show the source code_ icon in the toolbar.
 
-   [Open the code editor to add the HTML](./assets/content-components-html-show-code.png){width="450"}
+   [To add the HTML, open the code editor](./assets/content-components-html-show-code.png){width="450"}
 
 1. Paste the HTML in the text box and click **[!UICONTROL Save]**.
 
@@ -564,7 +564,7 @@ Use the [!UICONTROL Image] component to insert an image asset into your content.
 
 Choose the [asset source type](./assets-overview.md) and select an image file:
 
-* **[!UICONTROL Marketo Engage Assets]** - Choose this type to browse and select an image asset from the Journey Optimizer B2B Edition library or from the connected Market Engage instance. 
+* **[!UICONTROL Marketo Engage Assets]** - Choose this type to browse and select an image asset from the Journey Optimizer B2B Edition library or from the connected Marketo Engage instance. 
 
   ![Browse the available image assets](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
   
@@ -705,7 +705,7 @@ Use the _Social_ component to insert links to social media pages into your conte
 With a social media type selected, set the options for that type:
 
 * **[!UICONTROL URL]** - Enter the social media URL that you want to link to the social media graphic or icon. 
-* **[!UICONTROL Source]** - If you want to use your own image instead of the default, choose and image asset. You can select an image from the connected Marketo Engage asset repository, an Experience Manager Assets repository (if configured), or import an image file from your system. Refer to the [Image component information](#add-the-image-asset) for details about selecting and importing image assets.
+* **[!UICONTROL Source]** - If you want to use your own image instead of the default, choose an image asset. You can select an image from the connected Marketo Engage asset repository, an Experience Manager Assets repository (if configured), or import an image file from your system. Refer to the [Image component information](#add-the-image-asset) for details about selecting and importing image assets.
 * **[!UICONTROL Alt text]** - Enter the alt text for the displayed image.
 
    ![Settings for the selected social media type](./assets/content-components-social-settings-for-type.png){width="250"}

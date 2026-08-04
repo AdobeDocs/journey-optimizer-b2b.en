@@ -40,11 +40,11 @@ With themes, non-technical designers have the ability to create reusable email c
 
 As you work with themes, keep the following guidelines and limitations in mind:
 
-* When you create an email or email template from a blank canvas (_design from scratch_), you can choose _Theme mode_ to start building your content using a theme to apply specific styling that fits your brand and design. If you choose _Manual mode_, you cannot apply a theme unless you reset the design for the email or email template.
+* When you create an email or email template from a blank canvas (_design from scratch_), you can choose _Theme mode_ to build content using a theme that fits your brand. To apply a theme if you choose _Manual mode_, you must reset the design for the email or email template.
 
 * [Fragments](./fragments.md) are not cross-compatible between the _Theme mode_ and _Manual mode_ in the email content. To use a fragment in email content where a theme is applied, the fragment must also be created in _Theme mode_.
 
-* Changes to a custom theme do not automatically cascade to all emails or email templates that already use it. Edit the content for each to refresh the theme.
+* Changes to a custom theme do not automatically cascade to all emails or email templates that already use it. To refresh the theme, edit the content for each.
 
 * If you delete a theme, it does not affect any email or email template where it was already applied.
 <!--
@@ -53,7 +53,7 @@ As you work with themes, keep the following guidelines and limitations in mind:
 
 ## Create a brand theme {#create-theme}
 
-Define your own brand theme that you can apply to your email and email template content in your future email content.
+Define your own brand theme that you can apply to your email and email template content.
 
 1. Access the theme tools using one of the following methods:
 
@@ -126,7 +126,7 @@ Select the **[!UICONTROL Colors]** tab and use the settings to define the theme 
 
    Click the _Back_ arrow to close the color palette tools.
 
-* Click **[!UICONTROL Add variant]** to create multiple color variants, such as a _light_ and _dark_ mode, where each variant has its own color palette and nuance controls. 
+* Click **[!UICONTROL Add variant]** to create multiple color variants, such as _light_ and _dark_ modes, each with its own palette and controls. 
 
    >[!NOTE]
    >
@@ -265,7 +265,7 @@ When your theme changes are complete, click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->The saved changes do not automatically cascade to all emails or email templates that are currently using the theme. Edit the content for each to refresh the theme and match the updated styles.
+>The saved changes do not automatically cascade to all emails or email templates that are currently using the theme. To refresh the theme and match the updated styles, edit the content for each.
 
 ## Manage custom themes
 
@@ -299,7 +299,7 @@ If you have a large list of custom themes, use the _Search_ field and other filt
 
 >[!NOTE]
 >
->The saved theme changes do not automatically cascade to all emails or email templates that are currently using the theme. Edit the content for each to refresh the theme and match the updated styles.
+>The saved theme changes do not automatically cascade to all emails or email templates that are currently using the theme. To refresh the theme and match the updated styles, edit the content for each.
 
 ### Delete or duplicate a theme
 
@@ -317,7 +317,7 @@ When you locate the theme, click the _More menu_ (**...**) icon at the lower rig
 
 ## Use a theme for email content authoring {#use-email-theme}
 
-When you create a new email or email template, you can choose to use a brand theme that streamlines the content authoring process and ensures that the design aligns with defined standards. For a new fragment, you can also apply a theme before you save the fragment. The fragment remains in _Theme mode_ from that point and is compatible to add to emails and email templates that are also in _Theme mode_.
+When you create a new email or email template, you can choose to use a brand theme that streamlines the content authoring process and ensures that the design aligns with defined standards. For a new fragment, you can also apply a theme before you save the fragment. The fragment remains in _Theme mode_ from that point and is compatible for adding to emails and email templates that are also in _Theme mode_.
 
 1. Select one of the following actions:
 

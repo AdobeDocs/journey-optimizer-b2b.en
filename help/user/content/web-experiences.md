@@ -36,12 +36,12 @@ topic_v2:
 ---
 # Web experiences
 
-The web channel in Adobe Journey Optimizer B2B Edition empowers you to create personalized experiences directly on your website, helping you connect with customers in meaningful ways. This feature offers a flexible set of tools that you can use to enhance engagement with tailored content and seamlessly integrate it with other channels, such as email and SMS.
+The web channel in Adobe Journey Optimizer B2B Edition allows you to create personalized experiences directly on your website, helping you connect with customers in meaningful ways. This feature offers a flexible set of tools that you can use to enhance engagement with tailored content and seamlessly integrate it with other channels, such as email and SMS.
 
 Web experiences enable you to:
 
 * Deliver personalized content modifications to targeted website visitors
-* Customize website elements like banners, text, images, and buttons using account attributes
+* Customize website elements like banners, text, images, and buttons with account attributes
 * Target specific pages or apply changes across multiple pages using URL matching rules
 * Track engagement and monitor the impact of your web personalization efforts
 

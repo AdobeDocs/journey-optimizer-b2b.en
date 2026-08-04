@@ -45,11 +45,11 @@ After you create and personalize the email content, you can export the content f
 
 >[!TIP]
 >
->Use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI to improve your content. AI Assistant can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and getting AI Assistant recommendations for images that resonate with your audience. [Learn more](./ai-assistant-emails.md)
+>Use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI, to improve your content. AI Assistant can help you optimize the impact of your deliveries by generating entire emails and targeted text content, and providing recommendations for images that resonate with your audience. [Learn more](./ai-assistant-emails.md)
 
 ## Design your email from scratch {#design-from-scratch}
 
-Use the visual content design space to define the structure and content of the email. By adding and moving structural components with simple drag-and-drop actions, you can design the layout and organization of the email content within seconds.
+Use the visual content design space to define the structure and content of the email. By adding and moving structural components with simple drag-and-drop actions, you can design the layout and organization of the email content quickly.
 
 1. From the _[!UICONTROL Design your template]_ home page, select the **[!UICONTROL Design from scratch]** option.
 
@@ -147,11 +147,11 @@ After the email is saved, it appears in the fragment details page when you selec
 
 The email delivery system (through Marketo Engage) automatically wraps all URLs in HTML emails with a unique tracking redirect when sent. Use the **[!UICONTROL Tracking Type]** to control tracking for the link:
 
-* **[!UICONTROL Track without token]** - The system registers the click, but does track what the user does next on the web page. This can be important in certain technical cases, such as when dealing with third-party systems that might not handle mkt_tok correctly. However, the subsequent web tracking is limited.
+* **[!UICONTROL Track without token]** - The system registers the click, but does not track what the user does next on the web page. This behavior is important in certain technical cases, such as when dealing with third-party systems that do not handle mkt_tok correctly. However, the subsequent web tracking is limited.
 
 * **[!UICONTROL Track with mkt-tok]** - Use the tracking token (mkt_tok) to track subsequent web activities through Munchkin. When a recipient clicks the link, it registers a _Click Email_ event in the activity log, securely tracks their activity, and applies a cookie to monitor future site interactions.
 
-* **[!UICONTROL Do not track]** - The system does not track activity associated with the link. This is useful when the destination page does not support URL parameters and may result in a broken link.
+* **[!UICONTROL Do not track]** - The system does not track activity associated with the link. This option is useful when the destination page does not support URL parameters and results in a broken link.
 
    >[!NOTE]
    >

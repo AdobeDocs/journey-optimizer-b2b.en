@@ -166,7 +166,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 ### Updated architecture
 
-With the updated architecture, Journey Optimizer B2B Edition and Marketo Engage are not on the same system and same data store. Journey Optimizer B2B Edition receives data from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system.
+With the updated architecture, Journey Optimizer B2B Edition and Marketo Engage are not on the same system and data store. Journey Optimizer B2B Edition receives data from Adobe Experience Platform. However, it continues to rely on Marketo Engage entitlements and some configuration features to provision and configure the system.
 
 >[!NOTE]
 >
@@ -177,7 +177,7 @@ This implementation provides multiple benefits:
 * **Easily unify and scale your data**: The updated platform supports complex data models, including custom objects, buying groups, and account events. 
 * **Connect multiple Adobe Marketo Engage instances**: Manage and unify data from several Adobe Marketo Engage environments in one place. 
 * **Keep your data safe**: Advanced privacy and security features help protect your customer information.  
-* **Built for the future**: This update sets your organization up for ongoing improvements and innovation.
+* **Designed for long-term scalability**: This update sets your organization up for ongoing improvements and innovation.
 
 >[!NOTE]
 >
