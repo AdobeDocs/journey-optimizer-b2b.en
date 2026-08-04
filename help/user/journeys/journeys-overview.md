@@ -199,7 +199,7 @@ A duplicate action is similar to a clone function, but a duplicated journey does
 
    The duplicated journey opens in the journey map, where you can set the details and create journey content as needed.
 
-### Delete a journey
+### Delete a journey {#delete-journey}
 
 Use a delete action to delete a journey permanently. You cannot delete a live or scheduled journey.
 

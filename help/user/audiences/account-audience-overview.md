@@ -79,4 +79,4 @@ Define the account audience by creating an account segmentation. You have the op
 
 1. Click **[!UICONTROL Save and Close]** at the top right.
 
-To activate your account audience for Journey Optimizer B2B Edition, you must [add it to an account journey](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey) and [publish the journey](../journeys/journeys-overview.md).
+To activate your account audience for Journey Optimizer B2B Edition, you must [add it to an account journey](../journeys/account-audience-nodes.md) and [publish the journey](../journeys/journeys-overview.md).

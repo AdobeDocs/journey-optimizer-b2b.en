@@ -99,7 +99,7 @@ After you create the static account list, you can populate the list by applying 
 
 >[!NOTE]
 >
->If you want the account list to start as empty, do not select any filters and simply publish the account list. It is useful to start with an empty list when you plan to add members through an account journey action (see [Take an action node - Add to account](#take-an-action-node---add-to-account)).
+>If you want the account list to start as empty, do not select any filters and simply publish the account list. It is useful to start with an empty list when you plan to add members through an account journey action (see [Take an action node - Add to account](../journeys/action-nodes.md#account-action-constraints)).
 
 1. CLick **[!UICONTROL Add accounts]**.
 
@@ -151,7 +151,7 @@ After you create a dynamic account list, you define the filter set that is used 
 
 1. When the filter set and logic are complete, click **[!UICONTROL Done]**.
 
-   If you are satisfied with the filter set, you can proceed to [publish the list](#publish-an-account-list) to make it available for the starting [account audience node](#account-audience-node) in an account journey. 
+   If you are satisfied with the filter set, you can proceed to [publish the list](#publish-an-account-list) to make it available for the starting [account audience node](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node) in an account journey. 
 
    >[!NOTE]
    >
@@ -177,7 +177,7 @@ You can proceed to publish an account list as soon as the filter set is complete
 
    ![Confirm publish for a static account list](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-The status of the static account list changes to _[!UICONTROL Live]_ and it is available for [use in an account journey](#account-list-usage-in-account-journeys).
+The status of the static account list changes to _[!UICONTROL Live]_ and it is available for [use in an account journey](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!TAB Dynamic account list]
 
@@ -191,7 +191,7 @@ You can proceed to publish a dynamic account list as soon as the filter set is c
 
    ![Confirm publish for a dynamic account list](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-The status of the dynamic account list changes to _[!UICONTROL Live]_ and it is available for [use in an account journey](#account-list-usage-in-account-journeys).
+The status of the dynamic account list changes to _[!UICONTROL Live]_ and it is available for [use in an account journey](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!ENDTABS]
 

@@ -87,7 +87,7 @@ Define your own brand theme that you can apply to your email and email template 
    * [Colors](#colors)
    * [Text settings](#text-settings)
    * [Spacing and border](#spacing-and-border)
-   * [Button](#button)
+   * [Button](#buttons)
    * [Divider](#divider)
    * [Grid](#grid)
 
@@ -253,7 +253,7 @@ Use the rail on the right to navigate through the different tabs and change them
 * [Colors](#colors)
 * [Text settings](#text-settings)
 * [Spacing and border](#spacing-and-border)
-* [Button](#button)
+* [Button](#buttons)
 * [Divider](#divider)
 * [Grid](#grid)
 
@@ -287,7 +287,7 @@ If you have a large list of custom themes, use the _Search_ field and other filt
    * [Colors](#colors)
    * [Text settings](#text-settings)
    * [Spacing and border](#spacing-and-border)
-   * [Button](#button)
+   * [Button](#buttons)
    * [Divider](#divider)
    * [Grid](#grid)
 

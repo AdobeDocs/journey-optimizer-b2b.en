@@ -23,7 +23,7 @@ TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjx
 ---
 # Account details
 
-When you click an account name from anywhere in Journey Optimizer B2B Edition, the _Account details_ page is displayed. This page provides useful information about the account, including generative AI summaries. There are also [actions](#account-actions) that you can execute for contacts associated with the account.
+When you click an account name from anywhere in Journey Optimizer B2B Edition, the _Account details_ page is displayed. This page provides useful information about the account, including generative AI summaries. There are also [actions](#send-email) that you can execute for contacts associated with the account.
 
 ![Access the account details](./assets/account-details.png){width="700" zoomable="yes"}
 

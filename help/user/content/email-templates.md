@@ -147,7 +147,7 @@ This action can be taken from:
 * The details page - Click **[!UICONTROL Edit email template]**.
 * The listing page - Click the ellipsis (**...**) next to an email template and choose **[!UICONTROL Edit]**.
 
-This action takes you to the _Design your template_ page or the visual content editor page (based on the last saved status of the email template). From here, you can edit your email template content as needed. See [Create email templates](#create-email-templates) for information about the editing options.
+This action takes you to the _Design your template_ page or the visual content editor page (based on the last saved status of the email template). From here, you can edit your email template content as needed. See [Create an email template](#create-an-email-template) for information about the editing options.
 
 ## Duplicate email templates
 

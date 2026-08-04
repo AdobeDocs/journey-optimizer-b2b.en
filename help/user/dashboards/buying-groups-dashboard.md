@@ -100,7 +100,7 @@ The global filters applied to the dashboard are carried over. Click the _Filter_
 
 You can click the _More_ (**...**) menu at the top-right and choose **[!UICONTROL View more]** to [view extended data](#view-more).
 
-### [!UICONTROL View more]
+### [!UICONTROL View more] {#view-more}
 
 Choose **[!UICONTROL View more]** to view extended data and insights.
 

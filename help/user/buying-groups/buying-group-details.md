@@ -26,7 +26,7 @@ TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFba
 ---
 # Buying group details
 
-When you click a buying group name from anywhere in Journey Optimizer B2B Edition, the buying group details are displayed. This overview provides useful information about the buying group, including generative AI summaries. There are also [actions](#buying-group-actions) that you can execute for contacts associated with the account.
+When you click a buying group name from anywhere in Journey Optimizer B2B Edition, the buying group details are displayed. This overview provides useful information about the buying group, including generative AI summaries. There are also [actions](#members-tab) that you can execute for contacts associated with the account.
 
 ![Access the buying group details](./assets/buying-group-details.png){width="800" zoomable="yes"}
 

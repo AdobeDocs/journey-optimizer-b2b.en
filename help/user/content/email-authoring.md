@@ -61,7 +61,7 @@ Use the visual content design space to define the structure and content of the e
 
 1. [Add structure and content](./email-authoring.md#structure-content) to the template.
 
-1. [Review and update links](#preview-and-edit-linked-urls).
+1. [Review and update links](#edit-linked-url-tracking).
 
 1. [Test the email](#check-and-test-the-email).
 

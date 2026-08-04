@@ -148,7 +148,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
    Full content generation requires a template. It can be a standard template provided by Adobe, or a saved template. You can also use the _[!UICONTROL Import HTML]_ option to import a template.
 
-   For more information about using a landing page template, see _[Select a saved or sample template](./landing-pages.md#select-a-saved-or-sample-template)_. 
+   For more information about using a landing page template, see _[Select a template](./landing-pages-create-publish.md#select-template)_. 
 
 1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant for content toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) icon.
 
@@ -162,7 +162,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
 1. In the **[!UICONTROL Prompt]** field, enter a description of what you want to generate.
 
-   Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
+   Use the [Prompt Library](#prompts) if you need some help with crafting an effective prompt.
 
    ![AI Assistant - prompt library for generating landing page content](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
@@ -210,7 +210,7 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
    ![AI Assistant - text settings](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
+   Use the [Prompt Library](#prompts) if you need some help with crafting an effective prompt.
 
 1. Complete the content guidance settings to tailor the generated content:
 
@@ -252,7 +252,7 @@ Follow these steps to use AI Assistant to refine or enhance the image content fo
 
    ![AI Assistant - text settings](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
+   Use the [Prompt Library](#prompts) if you need some help with crafting an effective prompt.
 
 1. Complete the content guidance settings to tailor the generated content:
 

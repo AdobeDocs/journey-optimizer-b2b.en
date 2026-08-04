@@ -127,7 +127,7 @@ Select the checkbox and click the color square to choose a color from the picker
 
 ![Background color picker](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL Background image]
+#### [!UICONTROL Background image] {#background-image}
 
 Move the toggle selector to enable the background image settings.
 

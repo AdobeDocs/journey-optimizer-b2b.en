@@ -204,7 +204,7 @@ This release includes the following new capabilities and enhancements:
 | Feature | Email content collaboration | Marketing teams can now comment and collaborate with the fellow Journey Optimizer B2B Edition users, in the context of an email asset. They can tag team members to receive an email notification with the details of the comment. Notification is also available as a pulse notification. [Learn more](../content/email-collaboration-tools.md) |
 | Feature | Dark mode for email design | The email design space now includes the ability to switch to _dark mode_. In dark mode, you can preview the email content and define custom settings to be displayed specifically for recipients who view their emails in dark mode. [Learn more](../content/email-dark-mode.md) |
 | Enhancement | Journeys - Split path by number of people in role| Use a split path by account node to target an account with the number of people in one or more buying group roles. In the path, you can evaluate buying group readiness for sales alerts and other engagement based on role depth. [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts)  |
-| Enhancement | Journeys - Person filters for events  | Use people filters to listen for people events. These filters include the ability to target for a specific role for a matched buying group. [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+| Enhancement | Journeys - Person filters for events  | Use people filters to listen for people events. These filters include the ability to target for a specific role for a matched buying group. [Learn more](../journeys/listen-for-event-nodes.md#filters-people-event) |
 
 >[!NOTE]
 >
@@ -253,7 +253,7 @@ This release includes the following new capabilities and enhancements:
 | ---- | ---- | ----------- |
 | Feature | Email testing with Litmus | With a [Litmus Enterprise account](https://www.litmus.com/email-testing){target="_blank"}, you can now preview your email rendering in popular email clients from Journey Optimizer B2B Edition. This integration helps you to ensure that your email content looks great and works as designed in every email inbox. [Learn more](../content/email-test-rendering.md) |
 | Enhancement | Duplicate email | When adding an email for a journey node, you can now duplicate an existing email. Modify the setting or content for the duplicated email, or leave it intact.  [Learn more](../content/add-email.md#add-an-email-to-your-journey) |
-| Enhancement | Handlebar token format for email| Personalization tokens for email content now use an updated format that is fully compatible with Handlebar scripting. This format uses _camel case_ or underscores, eliminating spaces. [Learn more](../content/email-authoring.md#content-authoring---personalization) |
+| Enhancement | Handlebar token format for email| Personalization tokens for email content now use an updated format that is fully compatible with Handlebar scripting. This format uses _camel case_ or underscores, eliminating spaces. [Learn more](../content/email-authoring.md#personalize-content) |
 | Enhancement | Total count display for lists | The _[!UICONTROL Solution Interests]_ and _[!UICONTROL Account Journeys]_ list pages are enhanced with the display of the total count next to the search bar. |
 
 ## 2025.4 release notes {#rel-2025-4}

@@ -57,7 +57,7 @@ In your journey, [add a _Take an action_ node](../journeys/action-nodes.md) to e
 
 1. From the node properties on the right, set the external audience.
 
-   * If there are one or more external audiences already created, you can choose **[!UICONTROL Select existing]** and [select the audience that you want to use](#choose-an-external-audience).
+   * If there are one or more external audiences already created, you can choose **[!UICONTROL Select existing]** and [select the audience that you want to use](#select-an-external-audience).
 
    * If you want to [create an audience](#create-an-external-audience) to use for the node, choose **[!UICONTROL Create new]**.
 

@@ -47,7 +47,7 @@ In a B2B market, multiple individuals usually make buying decisions. Those indiv
 >
 >* [Person profile field mapping](../admin/field-mapping.md#xdm-business-person-attributes) for person attribute filters
 >* [Intent data](../admin/intent-data.md) if you use intent filters in role conditions
->* [Custom buying group roles](./default-custom-roles.md#custom-roles) (optional) if you need roles beyond the six defaults
+>* [Custom buying group roles](./default-custom-roles.md#create-a-custom-role) (optional) if you need roles beyond the six defaults
 
 ## Access and browse role templates {#access-and-browse-role-templates}
 
@@ -107,7 +107,7 @@ Each role that you define for the template uses a set of filters, or _conditions
 
    * Choose the **[!UICONTROL Buying group role]** from the list.
 
-      There are six default roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`. The list also includes any [custom roles that are defined in the _Roles_ list](./default-custom-roles.md#custom-roles).
+      There are six default roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`. The list also includes any [custom roles that are defined in the _Roles_ list](./default-custom-roles.md#create-a-custom-role).
 
       ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 

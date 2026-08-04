@@ -246,7 +246,7 @@ For each existing solution interest where you want to associate the buying group
 
 ### Split paths
 
-Using a [split path node](../journeys/journey-nodes.md#split-paths), you can filter at the account level or the people level according to buying group stages. For example, add a buying group stage as a path condition when splitting paths by buying group member.
+Using a [split path node](../journeys/split-merge-paths-nodes.md#split-paths), you can filter at the account level or the people level according to buying group stages. For example, add a buying group stage as a path condition when splitting paths by buying group member.
 
 >[!BEGINTABS]
 
@@ -320,7 +320,7 @@ Using a [split path node](../journeys/journey-nodes.md#split-paths), you can fil
 
 ### Update buying group stage account action
 
-Using an [account action node](../journeys/journey-nodes.md#add-an-account-action), you can update the buying group stage. Defining this node involves selecting the solution interest and defining the new stage for the buying group.
+Using an [account action node](../journeys/action-nodes.md#add-an-account-based-action), you can update the buying group stage. Defining this node involves selecting the solution interest and defining the new stage for the buying group.
 
 >[!NOTE]
 >

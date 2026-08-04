@@ -138,7 +138,7 @@ You can set up web experiences in a journey when you [add a _[!UICONTROL Take an
 
 1. In the right panel, set the web experience properties according to how you want to define and manage it.
 
-   * **[!UICONTROL Visual editor]** - Toggle between the [visual and non-visual editor](./web-experience-design.md#web-design-tools) for the web experience modification design.
+   * **[!UICONTROL Visual editor]** - Toggle between the [visual and non-visual editor](./web-experience-design.md#web-experience-editors) for the web experience modification design.
    * **[!UICONTROL Visitor redirection]** - Enable this option to [redirect visitors to another existing URL](#redirect-to-url) rather than authoring a new variation in the content tab.
 
    ![Toggle properties for the visual editor and redirect URL](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}

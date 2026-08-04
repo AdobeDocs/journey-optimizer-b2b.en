@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Custom tokens for email personalization
 
-Content personalization uses tokens as placeholders or variables that are populated when the content artifact is generated. Standard personalization tokens are available for emails, landing pages, fragments, and templates. You can also define a set of custom tokens with values that are specific to the account journey. This set of custom tokens is called _My Tokens_ and any of these custom tokens are for personalization when [authoring journey emails](./email-authoring.md#content-authoring---personalization).
+Content personalization uses tokens as placeholders or variables that are populated when the content artifact is generated. Standard personalization tokens are available for emails, landing pages, fragments, and templates. You can also define a set of custom tokens with values that are specific to the account journey. This set of custom tokens is called _My Tokens_ and any of these custom tokens are for personalization when [authoring journey emails](./email-authoring.md#personalize-content).
 
 In addition to _My Tokens_, which are specific to the account journey, you can use any of the standard (built-in) tokens for email personalization.
 

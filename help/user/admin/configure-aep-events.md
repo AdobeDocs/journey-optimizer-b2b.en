@@ -44,7 +44,7 @@ Using AEP Experience Events in journeys is a two-step process:
 
 1. In a journey, a marketer uses the configured events in one of two ways:
 
-   * Adds a _Listen for an event_ node and [selects an Experience Event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) to trigger journey progression based on real-time event activity during the journey.
+   * Adds a _Listen for an event_ node and [selects an Experience Event](../journeys/listen-for-event-nodes.md#experience-events-account-people) to trigger journey progression based on real-time event activity during the journey.
    * Adds a _Split paths by people_ node and configures a path to [filter on an event](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) from the **[!UICONTROL Event history]** folder.
 
 >[!BEGINSHADEBOX]

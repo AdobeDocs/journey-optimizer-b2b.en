@@ -293,7 +293,7 @@ Follow these steps to use AI Assistant for full email generation by refining an 
 
    The dialog provides additional space to compare the variations, adjust your text and reference content settings (if needed), and to regenerate the variations.
 
-   You can also fine-tune a variation by applying refinement actions and submit feedback for the generated variations. See _[Preview and content refinement](#preview-and-content-refinement)_ for more details about variation refinement and feedback.
+   You can also fine-tune a variation by applying refinement actions and submit feedback for the generated variations. See _[Preview and content refinement](#refine-finalize)_ for more details about variation refinement and feedback.
 
    ![AI Assistant preview of email variation and refinement options](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
 

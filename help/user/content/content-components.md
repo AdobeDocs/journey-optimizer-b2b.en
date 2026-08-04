@@ -207,7 +207,7 @@ Each content component type displays a toolbar when you select it in the canvas.
 
 +++
 
-### Functional tools
+### Functional tools {#functional-tools}
 
 | Tool | Name | Usage |
 | ---- | ---- | ----- |
@@ -233,7 +233,7 @@ Each content component type displays a toolbar when you select it in the canvas.
 
    ![Define the settings and styles for the content component](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-As you are working with your design, you can also [remove](#remove-a-content-component) or [duplicate](#duplicate-a-content-component) a component.
+As you are working with your design, you can also remove or duplicate a component using the **Delete** and **Duplicate** tools in the [Functional tools](#functional-tools) section.
 
 ## Content component settings and styles
 

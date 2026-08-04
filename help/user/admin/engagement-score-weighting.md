@@ -41,7 +41,7 @@ Open the _[!UICONTROL Engagement score weighting]_ list to view active, draft, a
 
 1. Click **[!UICONTROL Engagement score weighting]** on the intermediate panel to display the list of scoring models.
 
-   From this page, you can [create (duplicate)](#create-an-engagement-score-model), [activate](#activate-a-score-model), and [edit](#change-the-engagement-weighting-settings) engagement score models.
+   From this page, you can [create (duplicate)](#create-a-custom-engagement-scoring-model), [activate](#activate-a-score-model), and [edit](#change-the-engagement-weighting-settings) engagement score models.
 
     ![Access the defined engagement score models](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 

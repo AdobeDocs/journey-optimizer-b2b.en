@@ -105,7 +105,7 @@ The _[!UICONTROL Person engagement score]_ filter appears in the filter panel un
 
 ### People lists {#people-lists}
 
-When you add or remove members from a [static people list](./people-lists.md#static-list), or when you define the membership rules for a [dynamic people list](./people-lists.md#dynamic-lists), you can filter by person engagement score to target all people whose attributes match your scoring criteria.
+When you add or remove members from a [static people list](./people-lists.md#static-lists), or when you define the membership rules for a [dynamic people list](./people-lists.md#dynamic-lists), you can filter by person engagement score to target all people whose attributes match your scoring criteria.
 
 ![Person engagement score filtering for a people list](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 

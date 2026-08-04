@@ -63,7 +63,7 @@ Web channel configuration in Journey Optimizer B2B Edition requires the followin
 
       ![Selecting a page URL for a single-page web channel configuration](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Pages matching rule]** - To target multiple URLs matching the same rule, build a [pages matching rule](#build-a-pages-matching-rule) and enter a **[!UICONTROL Default authoring and preview URL]**.
+   * **[!UICONTROL Pages matching rule]** - To target multiple URLs matching the same rule, build a [pages matching rule](#build-a-rule) and enter a **[!UICONTROL Default authoring and preview URL]**.
 
 1. Click **[!UICONTROL Submit]** to save your changes.
 
