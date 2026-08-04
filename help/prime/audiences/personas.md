@@ -28,9 +28,9 @@ role_v2:
 Persona classification transforms raw customer data into semantic buyer understanding that AI can use to generate context and drive personalized decisions across every channel and journey. This unified profile empowers:
 
 * _Journey branching_ – Split paths route leads by persona, engagement depth, and role
-* _Journey arbitration_ – Determines which nurture a lead belongs to right now, avoiding message collisions across concurrent programs
-* _Content personalization_ – Content that is role-specific narratives ("for an executive" vs. "for a practitioner")
-* _Sales Qualifier context_ – BDRs get a one-screen brief showing "who this person is, what they care about, where they are in the buyer journey"
+* _Journey arbitration_ – Determines which nurture journey a lead belongs to right now, avoiding message collisions across concurrent programs
+* _Content personalization_ – Content that is role-specific narratives ("for an executive" or "for a practitioner")
+* _Sales Qualifier context_ – Business development representatives (BDRs) receive a one-screen summary showing the individual's identity, their interests, and their current stage in the buyer journey
 
 ## Default personas {#default-ersonas}
 
@@ -50,17 +50,17 @@ For the Beta release of Journey Optimizer B2B Prime, the following default perso
 
 >[!NOTE]
 >
->In the General Availablity release, you will be able to edit any of these default personas according to the needs of your organization. It will also support custom persona definitions and mapping.
+>In the upcoming General Availability release, you can edit any of these default personas according to the needs of your organization. It will also support custom persona definitions and mapping.
 
 ## Filter by derived persona {#derived-persona-filter}
 
-Journey Optimizer B2B Prime derives a persona for each person record by evaluating the record's attributes against the defined personas. You can use the inferred result — the _Derived Persona_ — as a filter when defining the audience for a people list or for segmenting in a person journey.
+[!DNL Journey Optimizer B2B Prime] derives a persona for each person record by evaluating the record attributes against the defined personas. You can use the inferred result — the _Derived Persona_ — as a filter when defining the audience for a people list or for segmenting in a person journey.
 
 The _[!UICONTROL Derived Persona]_ filter appears in the filter panel under the **[!UICONTROL Person attributes]** category.
 
 ### People lists {#people-lists}
 
-When you add or remove members from a [static people list](./people-lists.md#static-list), or when you define the membership rules for a [dynamic people list](./people-lists.md#dynamic-lists), you can filter by Derived Persona to target all people whose attributes match a specific configured persona.
+When managing members in a [static people list](./people-lists.md#static-lists) or defining rules for a [dynamic people list](./people-lists.md#dynamic-lists), you can filter by _Derived Persona_ to target all people whose attributes match a specific configured persona.
 
 ![Derived persona filtering for a people list](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 

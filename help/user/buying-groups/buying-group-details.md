@@ -26,7 +26,7 @@ TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFba
 ---
 # Buying group details
 
-When you click a buying group name from anywhere in Journey Optimizer B2B Edition, the buying group details are displayed. This overview provides useful information about the buying group, including generative AI summaries. There are also [actions](#buying-group-actions) that you can execute for contacts associated with the account.
+When you click a buying group name from anywhere in Journey Optimizer B2B Edition, the buying group details are displayed. This overview provides useful information about the buying group, including generative AI summaries. There are also [actions](#members-tab) that you can execute for contacts associated with the account.
 
 ![Access the buying group details](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
@@ -67,7 +67,7 @@ The account overview section includes the following account information:
 
 ### Intent data
 
-In Journey Optimizer B2B Edition, the Intent Detection model predicts a solution/product of interest with high enough confidence based on buying group members' activity. The intent of buying group members can be interpreted as the probability of having interest in a product. 
+In Journey Optimizer B2B Edition, the Intent Detection model predicts a solution/product of interest with sufficient confidence based on buying group members' activity. The intent of buying group members can be interpreted as the probability of having interest in a product. 
 
 {{intent-data-note}}
 
@@ -141,7 +141,7 @@ You can remove one or more selected members (up to 50 at a time) from the buying
 
 ### Edit role
 
-You can change role for one or more selected members (up to 50 at a time) of the buying group.
+You can change the role for one or more selected members (up to 50 at a time) of the buying group.
 
 1. Select the checkboxes for the members that you want to change roles.
 

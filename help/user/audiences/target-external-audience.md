@@ -36,14 +36,14 @@ TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3N
 
 You can activate and personalize experiences for external audiences in [!DNL Adobe Target] through account journeys. Use this integration to achieve advanced and tailored personalization that increases engagement, and to maintain cross-platform consistency across [!DNL Target] and [!DNL Journey Optimizer B2B Edition]. This consistency ensures that teams align and personalize web channels for buying groups throughout the entire B2B buyer journey.
 
-It is a two-step workflow to activate an external audience through Adobe Target:
+There is a two-step workflow to activate an external audience through Adobe Target:
 
 1. [Add to external customer audience](#add-to-customer-external-audience-from-a-journey) from a journey.
 2. [Activate the external audience](#activate-the-external-audience-to-target-as-a-destination) to [!DNL Target] as a destination in Experience Platform.
 
 ## Add to customer external audience from a journey
 
-In your journey, [add a _Take an action_ node](../journeys/action-nodes.md) to execute the _[!UICONTROL Add to external customer audience]_ action. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action. The journey executes the action when a qualifying account with person profiles reaches the node.
+In your journey, [add a _Take an action_ node](../journeys/action-nodes.md) to execute the _[!UICONTROL Add to external customer audience]_ action. Actions are typically the result of a trigger, such as an event or a previous action. The journey executes the action when a qualifying account with person profiles reaches the node.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ In your journey, [add a _Take an action_ node](../journeys/action-nodes.md) to e
 
 1. From the node properties on the right, set the external audience.
 
-   * If there are one or more external audiences already created, you can choose **[!UICONTROL Select existing]** and [select the audience that you want to use](#choose-an-external-audience).
+   * If there are one or more external audiences already created, you can choose **[!UICONTROL Select existing]** and [select the audience that you want to use](#select-an-external-audience).
 
    * If you want to [create an audience](#create-an-external-audience) to use for the node, choose **[!UICONTROL Create new]**.
 
@@ -128,4 +128,4 @@ The activation process requires that you add [!DNL Adobe Target] as an external 
 
    ![Experience Platform - destinations - activate destination - review](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}  
 
-Upon activation, you can see the audience in [Adobe Target audiences](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} and use them in Adobe Target activities.
+Upon activation, you can see the audience in [Adobe Target Audiences](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} and use it in Adobe Target activities.

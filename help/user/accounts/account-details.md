@@ -23,7 +23,7 @@ TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjx
 ---
 # Account details
 
-When you click an account name from anywhere in Journey Optimizer B2B Edition, the _Account details_ page is displayed. This page provides useful information about the account, including generative AI summaries. There are also [actions](#account-actions) that you can execute for contacts associated with the account.
+When you click an account name from anywhere in Journey Optimizer B2B Edition, the _Account details_ page is displayed. This page provides information about the account, including generative AI summaries. There are also [actions](#send-email) that you can execute for contacts associated with the account.
 
 ![Access the account details](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -62,7 +62,7 @@ In Journey Optimizer B2B Edition, the Intent Detection model predicts a solution
 
 ![Account contact coverage](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-The _[!UICONTROL Contact coverage]_ section displays the number of contacts from the account with a specific role associated with a solution interest. Assignment of role and solution interest is based on the buying group roles template. Click a cell to display the following details:
+The _[!UICONTROL Contact coverage]_ section displays the number of account contacts with a specific role associated with a solution interest. Assignment of role and solution interest is based on the buying group roles template. Click a cell to display the following details:
 
 * Description, in the following format: _x people have y role for z solution interest_
 * Columns
@@ -90,7 +90,7 @@ The _[!UICONTROL Contact overlap]_ section displays contacts from the account wh
 * Account
 * Solution interest
 
-Click the _Information_ ( ![Information icon](../assets/do-not-localize/icon-info.svg) ) next to the contact name to display a table with the following details:
+Click the _Information_ ( ![Information icon](../assets/do-not-localize/icon-info.svg) ) icon next to the contact name to display a table with the following details:
 
 * Buying group (click the name to open the [buying group details](../buying-groups/buying-group-details.md))
 * Role
