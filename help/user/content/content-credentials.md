@@ -24,7 +24,7 @@ role_v2:
 ---
 # Content Credentials
 
-Marketing organizations are more concerned than ever about content transparency, AI disclosure, and preventing the tampering of assets. The Content Authenticity Initiative (CAI) at Adobe builds tools compliant with the [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA) technical standard. _Content Credentials_, encrypted, tamper-evident metadata, can help viewers understand the lineage of content and ensure the integrity of brand assets. This information includes:
+Marketing organizations are more concerned than ever about content transparency, AI disclosure, and preventing the tampering of assets. The Content Authenticity Initiative (CAI) at Adobe builds tools compliant with the [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA) technical standard. _Content Credentials_ is the set of encrypted, tamper-evident metadata that helps viewers to understand the lineage of content and ensure the integrity of brand assets. This information includes:
 
 * Issuer or Signer - Information about the entity or company that issued the digital signature to certify or sign the asset.
 * Issue Date - The date on which the Content Credential was applied to the asset.
@@ -34,7 +34,7 @@ Marketing organizations are more concerned than ever about content transparency,
 * AI Tool Used - If generative AI was used to edit or create the asset, the name of the model used may be included.
 * Other Pertinent Information - Additional data may also be included to help offer more context about the history of an asset.
 
-For a comprehensive information about the asset history, you can use the Adobe Content Authenticity [inspection tool](https://contentauthenticity.adobe.com/inspect).
+For comprehensive information about the asset history, you can use the Adobe Content Authenticity [inspection tool](https://contentauthenticity.adobe.com/inspect).
 
 Content Credentials persist with the image file. When an image that was generated or edited with generative AI is uploaded to or exported from [!DNL Adobe Journey Optimizer B2B Edition], its Content Credentials are preserved.
 
@@ -46,10 +46,10 @@ Content Credentials persist with the image file. When an image that was generate
 
 ## Content Credentials persistence through channels {#channels}
 
-When you include images in your email or WhatsApp messages, the Content Credentials for the delivered images are also are persisted:
+When you include images in your email or WhatsApp messages, the Content Credentials for the delivered images are also persisted:
 
 * **Email** - When you use a _Send email_ journey action, add the image to your email content from the _Assets_ library. When the email is delivered, the recipient can download the image from the message and the Content Credentials are intact.
-* **WhatsApp** - Add the image to your WhatsApp message template in your Meta business acoount. You can add it directly from your own system, or download an image file from the _Assets_ library. Use the template for a _Send WhatsApp_ journey action. When the WhatsApp message is delivered, the recipient can download the image from the message and the Content Credentials are intact. 
+* **WhatsApp** - Add the image to your WhatsApp message template in your Meta business account. You can add it directly from your own system, or download an image file from the _Assets_ library. Use the template for a _Send WhatsApp_ journey action. When the WhatsApp message is delivered, the recipient can download the image from the message and the Content Credentials are intact. 
 
 >[!ENDSHADEBOX]
 
