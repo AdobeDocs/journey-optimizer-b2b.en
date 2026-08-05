@@ -34,13 +34,13 @@ Adobe Journey Optimizer B2B Edition sends WhatsApp messages through Meta's Cloud
 Before configuring the WhatsApp channel, ensure that you have the following:
 
 * [A Meta Business Manager account](https://business.facebook.com/)
-* [A WhatsApp Business Account with a verified sender name and phone number](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [A WhatsApp Business Account with a verified sender name and phone number](https://developers.facebook.com/documentation/business-messaging/whatsapp/whatsapp-business-accounts)
 * [A Meta user authorization token with the appropriate permissions](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [Approved message templates in your WhatsApp Business Account](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [Approved message templates in your WhatsApp Business Account](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/overview)
 
 >[!IMPORTANT]
 >
->Your use of WhatsApp messaging services is subject to the terms and conditions from Meta. By accessing WhatsApp messaging through Journey Optimizer B2B Edition, you acknowledge that you have reviewed and agree to comply with [Meta WhatsApp Business policies](https://www.whatsapp.com/legal/business-policy/).
+>Your use of WhatsApp messaging services is subject to the terms and conditions from Meta. By accessing WhatsApp messaging through Journey Optimizer B2B Edition, you acknowledge that you have reviewed and agree to comply with [Meta WhatsApp Business policies](https://whatsappbusiness.com/policy/).
 
 ## Limitations {#limitations}
 
@@ -50,7 +50,7 @@ The following limitations apply to the WhatsApp channel:
 
 * Automated or predefined response messages are not yet supported.
 
-* Starting April 2025, Meta temporarily suspended delivery of all marketing template messages to WhatsApp users who have a United States phone number (a number composed of a +1 dialing code and a US area code). [Learn more in the Meta documentation](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
+* Starting April 2025, Meta has suspended marketing template messages to WhatsApp users with a United States phone number (+1 dialing code and US area code). [Learn more in the Meta documentation](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
 
 * The native integration functionality does not allow integration with third-party Business Service Provider (BSP).
 
@@ -105,7 +105,7 @@ Complete the following tasks:
 
     * **Throughput** - indicates the rate at which your phone number can send messages.
 
-1. Click **[!UICONTROL Submit]** when you finished the configuration of your API credentials.
+1. Click **[!UICONTROL Submit]** when you finish the configuration of your API credentials.
 
 When you click _[!UICONTROL Submit]_, the credentials are immediately validated and saved, redirecting you to the _[!UICONTROL API credentials]_ listing page. 
 
@@ -115,14 +115,16 @@ If the submitted credentials are invalid, the system displays an HTTP 500 error 
 
 If you encounter an HTTP 500 error when configuring WhatsApp API credentials, follow these troubleshooting steps:
 
-1. Verify your Adobe entitlements - Confirm that your organization has the _cjm_whatsapp_ entitlement provisioned. Without this entitlement, the WhatsApp channel cannot be configured.
+1. Verify your Adobe entitlements - Confirm that your organization has the _cjm_whatsapp_ entitlement provisioned. 
+
+    Without this entitlement, the WhatsApp channel cannot be configured.
 
 1. Validate the business account fields - Ensure that all mandatory fields are correct:
 
    * API Token - Must be a valid [Meta access token with appropriate permissions](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * Business Account ID - Must match your [Meta Business Account ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347) exactly.
 
-1. Test the credentials externally - Verify your credentials directly with the Meta API to confirm whether the issue is with the credentials or with Journey Optimizer B2B Edition credential handling.
+1. Test the credentials externally - To confirm if the issue involves the credentials or Journey Optimizer B2B Edition credential handling, verify your credentials with the Meta API.
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -138,7 +140,7 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="Inbound keyword category"
->abstract="<b>Opt-In</b>: sends your defined auto-response when a user subscribes. <br/><b>Opt-Out</b>: sends your defined auto-response when a user unsubscribes. <br/><b>Help</b>: sends your defined auto-response when a user requests help or support. <br/><b>Default</b>: sends your fallback auto-response when no keywords match."
+>abstract="<b>Opt-In</b>: sends auto-responses for subscriptions. <br/><b>Opt-Out</b>: sends auto-responses for unsubscriptions. <br/><b>Help</b>: sends auto-responses for help requests. <br/><b>Default</b>: sends fallback auto-responses for unmatched keywords."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
@@ -169,7 +171,7 @@ Webhooks enable Journey Optimizer B2B Edition to receive inbound messages, conse
 
 >[!NOTE]
 >
->Without specified opt-in or opt-out keywords, standard consent messages are not enabled.
+>Standard consent messages require specified opt-in or opt-out keywords.
 
 When the WhatsApp API credentials are successfully created, you can configure the webhooks.
 
@@ -184,8 +186,8 @@ When the WhatsApp API credentials are successfully created, you can configure th
 1. For the **[!UICONTROL Inbound keyword category]**, choose a category to define keywords and the reply message: 
 
    * **[!UICONTROL Opt-in]** - Users must actively agree to receive WhatsApp messages, often managed through forms on your website or app.
-   * **[!UICONTROL Opt-out]** - Configure your webhook to listen for phrases like `Stop` or `No Message` to automatically mark users as opted-out.
-   * **[!UICONTROL Help]** - Allow automated systems to detect when a user sends `HELP` (or similar keywords like `Unknown`) and automatically reply with specific information, such as service instructions.
+   * **[!UICONTROL Opt-out]** - To mark users as opted-out automatically, configure your webhook to listen for phrases like `Stop` or `No Message`.
+   * **[!UICONTROL Help]** - Allow automated systems to detect when a user sends `HELP` (or similar keywords like `Unknown`) and reply with specific information in an automated way, such as service instructions.
    * **[!UICONTROL Default]** - Handle incoming messages that do not match specifically defined keywords. It serves as a fallback category to enable tracking events (such as opens and delivery reports) in Adobe Experience Platform datasets.
 
    When you select the keyword category, the default keywords are populated.
