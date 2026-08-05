@@ -47,7 +47,7 @@ In a B2B market, multiple individuals usually make buying decisions. Those indiv
 >
 >* [Person profile field mapping](../admin/field-mapping.md#xdm-business-person-attributes) for person attribute filters
 >* [Intent data](../admin/intent-data.md) if you use intent filters in role conditions
->* [Custom buying group roles](./default-custom-roles.md#custom-roles) (optional) if you need roles beyond the six defaults
+>* [Custom buying group roles](./default-custom-roles.md#create-a-custom-role) (optional) if you need roles beyond the six defaults
 
 ## Access and browse role templates {#access-and-browse-role-templates}
 
@@ -68,7 +68,7 @@ In a B2B market, multiple individuals usually make buying decisions. Those indiv
    * [!UICONTROL Published on]
    * [!UICONTROL Published by]
 
-   The list is sorted by the _[!UICONTROL Last update]_ by default. All roles templates have a status of `Draft` or `Live`.
+   The system sorts the list by _[!UICONTROL Last update]_ by default. All roles templates have a status of `Draft` or `Live`.
 
 1. To filter the list by name, use the search field at the top of the list.
 
@@ -107,7 +107,7 @@ Each role that you define for the template uses a set of filters, or _conditions
 
    * Choose the **[!UICONTROL Buying group role]** from the list.
 
-      There are six default roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`. The list also includes any [custom roles that are defined in the _Roles_ list](./default-custom-roles.md#custom-roles).
+      There are six default roles: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion`, and `Other`. The list also includes any [custom roles that are defined in the _Roles_ list](./default-custom-roles.md#create-a-custom-role).
 
       ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -159,7 +159,7 @@ Each role that you define for the template uses a set of filters, or _conditions
 
 In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your roles template to help eliminate duplication in buying group membership and journey activities.
    
-To use list membership as a role condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space. Then complete the filter definition to evaluate membership in one or more Marketo Engage lists.
+To use list membership as a role condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space. To evaluate membership in one or more Marketo Engage lists, complete the filter definition.
 
 ![Roles template condition for Marketo Engage list membership](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
@@ -176,7 +176,7 @@ To use list membership as a role condition, expand **[!UICONTROL Special Filters
 
 By default, completeness for a role is defined as one member assigned to the role. When using buying group completeness to indicate sales readiness, use these settings to align the score with the number of members required to close an opportunity.
 
-For example, closing a deal for your solution _X_ requires multiple marketing decision makers to be identified and engaged because multiple marketing teams across an organization would use the solution. In this case, you want to increase the threshold to calculate a _complete_ buying group by requiring at least two marketing decision makers.
+For example, closing a deal for your solution _X_ requires identifying and engaging multiple marketing decision makers because multiple marketing teams across an organization use the solution. In this case, you want to increase the threshold to calculate a _complete_ buying group by requiring at least two marketing decision makers.
 
 See [Completeness scores](./completeness-scores.md) for detailed information about completeness scoring and calculations.
 
@@ -196,7 +196,7 @@ See [Completeness scores](./completeness-scores.md) for detailed information abo
 
 If the template is ready for use, click **[!UICONTROL Publish]** at the top-right.
 
-Publishing the template sets the status to _Live_ and makes it available for association with a solution interest. There must be at least one defined role to publish the roles template.
+To make the template available for association with a solution interest, publish it to set the status to _Live_. There must be at least one defined role to publish the roles template.
 
 After you publish, the template status is _Live_ on the **[!UICONTROL Roles Templates]** tab and you can select it when you [create a solution interest](./solution-interests.md).
 
@@ -204,13 +204,13 @@ After you publish, the template status is _Live_ on the **[!UICONTROL Roles Temp
 
 When a roles template is in a _Draft_ state, you can continue to edit the defined roles. Any changes that you make are automatically saved.
 
-Change the role card header settings, such as the buying group role, weighting, auto-assignment, or completeness scoring requirement.
+Change the role card header settings, such as role, weighting, auto-assignment, or completeness requirements.
 
 ![Change buying group role properties](./assets/roles-template-role-properties.png){width="600"}
 
 ### Modify the conditions for a role
 
-To change the condition/filtering logic for any of the roles, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon at top right of the role card. This action opens the _[!UICONTROL Conditions]_ workspace where you can modify an existing filter, add or remove a filter, or change the filter logic.
+To change the condition/filtering logic for any of the roles, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon at the top right of the role card. This action opens the _[!UICONTROL Conditions]_ workspace where you can modify an existing filter, add or remove a filter, or change the filter logic.
 
 ### Delete a role card
 

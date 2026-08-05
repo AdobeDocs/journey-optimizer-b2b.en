@@ -28,7 +28,7 @@ TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC
 ---
 # Intelligent Dashboard
 
-The Intelligent Dashboard provides a comprehensive view of buying group and account metrics, helping you to monitor and strategize your Marketing efforts more effectively.
+The Intelligent Dashboard provides a comprehensive view of [buying group](../buying-groups/buying-groups-overview.md) and account metrics, helping you to monitor and strategize your marketing efforts more effectively.
 
 To access the _Intelligent Dashboard_, select the **[!UICONTROL Dashboard]** item in the left navigation.
 

@@ -32,7 +32,7 @@ Journey Optimizer B2B Edition supports two journey types:
 
    ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the account journey overview video](#overview-video)
 
-* **Person journeys** - (Beta) Orchestrate lead-based marketing using Experience Platform audiences and data. With person journeys, your Marketing Operations are not reliant on Marketo Engage or workarounds for Adobe Campaign/B2C tool chains so that they can work with B2B use cases.
+* **Person journeys** - (Beta) Orchestrate lead-based marketing using Experience Platform Audiences and data. With person journeys, your Marketing Operations are not reliant on Marketo Engage or workarounds for Adobe Campaign/B2C tool chains so that they can support B2B use cases.
 
    When used in concert with account journeys and buying groups, a person journey can provide marketers with the power to apply full orchestration to the buying journey.
 
@@ -49,7 +49,7 @@ Journey Optimizer B2B Edition supports two journey types:
    * Support for custom journey tokens (_My Tokens_) is not yet available.
    * Add and Remove from person journey nodes is not currently available from either journey type. 
    * Event history cannot be used for orchestration or personalization.
-   * Related objects (such as account, buying group, opportunity, and custom objects) cannot be used for orchestration or personalization.
+   * Related objects (account, buying group, opportunity, and custom objects) cannot be used for orchestration or personalization.
    * Web, SMS, and ad platform channels are not currently supported.
 
    +++
@@ -199,7 +199,7 @@ A duplicate action is similar to a clone function, but a duplicated journey does
 
    The duplicated journey opens in the journey map, where you can set the details and create journey content as needed.
 
-### Delete a journey
+### Delete a journey {#delete-journey}
 
 Use a delete action to delete a journey permanently. You cannot delete a live or scheduled journey.
 
@@ -215,7 +215,7 @@ Use a delete action to delete a journey permanently. You cannot delete a live or
 
 ## Review account progression
 
-For a published account journey that is in a _Live_, _Closed to new entries_, _Aborted_, or _Finished_ status, you can open the journey map to review the account progression for the journey nodes. Each node on the map displays the number of accounts to reach that node and, for live journeys, the number of accounts currently at that node.
+For a published account journey in a _Live_, _Closed to new entries_, _Aborted_, or _Finished_ status, open the journey map to review account progression for the journey nodes. Each node on the map displays the number of accounts to reach that node and, for live journeys, the number of accounts currently at that node.
 
 ![Journey node account progression information](./assets/node-account-progression-observability.png){width="400"}
 

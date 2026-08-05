@@ -18,7 +18,7 @@ hide: true
    + [Create program from brief](./agents/program-from-brief.md)
    + [Create audiences for programs](./agents/audience-creation.md)
    + [Create custom scoring models](./agents/lead-scoring-model.md)
-+ [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
++ [AI decisioning](./agents/ai-decisioning.md)
 + Marketing management {#marketing-management}
    + [Overview](./marketing/marketing-management.md)
    + Programs {#programs}
@@ -39,6 +39,7 @@ hide: true
       + [Content authoring](./content/email-authoring.md)
       + [Dark mode design](./content/email-dark-mode.md)
    + [WhatsApp channel](./content/whatsapp-authoring.md)
++ [Journey traffic control](./marketing/journey-traffic-control.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
    + [Person details](./audiences/person-details.md)
@@ -47,7 +48,9 @@ hide: true
    + [Derived personas](./audiences/personas.md)
    + [Destinations](./audiences/destinations.md)
 + Content {#content}
-   + [Assets](./content/digital-asset-management.md)
+   + Assets {#assets}
+      + [Overview](./content/digital-asset-management.md)
+      + [Content Credentials](./content/content-credentials.md)
    + Templates {#templates}
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
@@ -76,7 +79,7 @@ hide: true
       + [Form preset configuration](./admin/configuration-presets-forms.md)
    + [Business rules](./admin/business-rules.md)
    + [Program types](./admin/program-types.md)
-
++ [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 <!--
    + [Persona mapping](./admin/persona-mapping.md)
 

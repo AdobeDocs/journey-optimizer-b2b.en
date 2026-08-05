@@ -1,7 +1,7 @@
 ---
 title: User Access and Permissions
 description: 'Manage user access in the Adobe Admin Console: create user groups, assign product profiles, and set role-based permissions for Journey Optimizer B2B Prime.'
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+badgeBeta: label="Beta" type="informative" tooltip="This feature is part of a limited beta release."
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
 product_v2:
@@ -159,7 +159,7 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
 ## Assign product permissions {#assign-product-permissions}
 
-Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is grouped under a capability, such as journeys or buying groups, representing functionalities in [!DNL Journey Optimizer B2B Prime].
+Permissions are unitary rights that allow you to define the authorizations assigned to a product profile. Each permission is grouped under a capability, such as person journeys or content, representing functionalities in [!DNL Journey Optimizer B2B Prime].
 
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
@@ -175,22 +175,51 @@ For more information about role permissions in Experience Platform, see [Manage 
 
    ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-<!--
+### Permissions {#permissions}
 
-### B2B product permissions {#b2b-product-permissions}
+The following permissions control access to channel configuration, content management, and person journey features in [!DNL Journey Optimizer B2B Prime]:
 
-The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
-
-| Category | Description | Permissions |
+| Category | Permission | Description |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments <li>Manage B2B Emails |
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups <li>Manage B2B Solution Interests <li>Manage B2B Role Templates <li>Manage B2B Stages <li>View B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
-| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
-| Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
+| B2B Channel Configurations | View B2B Email Settings | View email settings (subdomains, PTR records, IP pools, suppression lists, seed lists, IP warm-up plans). |
+| | Manage B2B Email Settings | Configure email settings (subdomains, PTR records, IP pools, suppression lists, seed lists, IP warm-up plans). These settings are required before users can send emails.|
+| | Manage B2B Channels Configurations | Access to the _Channels_ menu item in the left navigation and all channel configuration operations. |
+| | Manage B2B WhatsApp Presets | Create, view, and delete WhatsApp message presets and associated SMS settings. |
+| B2B Journeys | Manage B2B Person Journeys | Access to the _Person Journeys_ list and all person journey operations. |
+| B2B Assets | View content templates | View content templates list and details. |
+| | Manage B2B Templates | Create, edit, and delete content templates. |
+| | View B2B Fragments | View content fragments list and details. |
+| | Manage B2B Fragments | Create, edit, and delete content fragments. |
+| | Publish B2B Fragments | Publish content fragments for use in templates, emails, and landing pages. |
+| | View B2B Assets | View the Assets library and asset file details. |
+| | Manage B2B Assets | Create, edit, and delete asset files. |
+| | View B2B Emails | View email messages. |
+| | Manage B2B Emails | Create, edit, and delete email messages. |
+| | Manage B2B Message Export | Export message reports under the Email section. |
+| Journey Optimizer Library | Manage B2B Library Items | Add and delete saved expressions in the library. |
+| Data Governance | Manage B2B Delete Usage Labels | View, create, and delete data usage labels (DULE) applied to datasets and schemas. |
+| Sandbox Administration | Manage B2B Packages | Create, export, import, copy, and delete sandbox packages. |
+
+To provide support for external destinations in [!DNL Journey Optimizer B2B Prime], the following permissions are required:
+
+| Category | Permission | Description |
+| -------- | ----------- | ---------- |
+| Dashboards | View Standard Dashboards | View-only access to the _Profiles_, _Destinations_, and _Segments_ dashboards. Also enables access to _Dashboards_ in the left navigation and the _Dashboards_ inventory and integrations tab. |
+| | Manage Standard Dashboards | Add custom attributes that are not yet in the data warehouse. |
+| Destinations | View Destinations | View-only access to view available destinations in the _Catalog_ tab and authenticated destinations in the _Browse_ tab. |
+| | Manage Destinations | View, create, and delete destinations connections and destination accounts. |
+| | Activate Destinations | Activate data to active destinations. Either _View Destinations_ or _Manage Destinations_ is also required to access this function. |
+| | Activate Segment without Mapping | Activate audiences to existing destinations, without displaying the mapping step. Users can add and remove audiences in activation workflows, but cannot add or remove mapped attributes or identities. The _View Destinations_ permission is also required to access this function. |
+| | Manage and Activate Dataset Destination | View, create, edit, and disable dataset export flows, as well as activate data to active datasets. The _View Destinations_ permission is also required to access this function. |
+| | Destination Authoring | Ability to author destinations using the Adobe Experience Platform Destination SDK. |
+| Data Governance | View Data Usage Policies | View-only access for data usage policies belonging to your organization. |
+| | Manage Data Usage Policies | View, create, edit, and delete data usage policies. |
+| Data Ingestion | View Sources | View-only access to available sources in the _Catalog_ tab and authenticated sources in the _Browse_ tab. |
+| | Manage Sources | View, create, edit, and disable sources. |
+| Profile Management | View Profile Settings | View-only access to all profile settings. |
+| | Manage Profile Settings | View and edit all profile settings. |
+
+<!--
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
@@ -307,11 +336,11 @@ For information about user management, see [_Adobe Admin Console users_](https:/
 
 1. Add B2B product permissions:
 
-   <!-- To determine which product capabilities that you want for the role, refer to the list of [B2B product permissions](#b2b-product-permissions). -->
+   To determine which product capabilities you want for the role, refer to the list of [product permissions](#permissions).
 
    In the _[!UICONTROL Resources]_ list on the left, locate the B2B items and click the _Add_ (**+**) icon to add each attribute that you want to enable for the role.
 
-   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions.
+   You can enter _B2B_ in the search tool to filter the list for many of the B2B product permissions.
 
    ![Experience Platform - B2B permissions](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}   
 

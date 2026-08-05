@@ -49,7 +49,7 @@ Sales Qualifier is included with [!UICONTROL Journey Optimizer B2B Edition], but
 
 ### Account Qualification Agent
 
-The Account Qualification Agent (AQA) is the core of the Sales Qualifier. The AQA uses AI to read your accounts and determine which ones are ready for the next step. It assists with research, email drafting, and CRM-informed context when your organization has connected the CRM (read-only).
+The Account Qualification Agent (AQA) is the core of the Sales Qualifier. The AQA uses AI to read your accounts and determine which ones are ready for the next step. It assists with research, email drafting, and CRM-informed context when your organization has connected the CRM.
 
 <!--
 ## Edit the left navigation bar
@@ -69,28 +69,30 @@ Using natural language, you can ask the agent to:
 
 Iterate your outbound workflows by refining your prompts to get the results you need. For example:
 
-* _Draft a follow-up email drawing from context like earnings calls or reports._ Up to 120 words. Subject line: Captivating, incorporating a key theme. Intro: Hook with a direct quote from context sources. Body: Connect to pain points and value propositions. CTA: Propose a short call to explore further._
+* _Draft a follow-up email drawing from context like earnings calls or reports._ Up to 120 words. Subject line: Captivating, incorporating a key theme. Intro: Start with a direct quote from context sources. Body: Connect to pain points and value propositions. CTA: Propose a short call to explore further._
 
 * _The goal of this email is to start a conversation and build credibility._ Draft an email under 120 words that has a consultative and empathetic tone. Avoid an overly familiar or sales approach and do not use the phrases "hope you are well," "just checking in," or "please."_
 
 ### Product access and user groups
 
-Access to Sales Qualifier features is managed through user groups in Adobe Admin Console. Product administrators must set up the appropriate user groups before users can access the application.
+Access to Sales Qualifier features is managed through two user groups in Adobe Admin Console. Product administrators must set up the groups during onboarding before users can access the application.
 
-#### Product administrators
+#### Sales Qualifier users
 
-Product administrators who need access to the [Integrations](#integrations) functionality must be members of the `Sales Qualifier Admins` user group.
+Users must be members of the `Sales Qualifier` user group to access the Sales Qualifier application.
+
+1. In Adobe Admin Console, create a user group named `Sales Qualifier`.
+1. Assign the **Default Production All Access** AEP profile to the group.
+1. Add users who need access to Sales Qualifier.
+
+#### Sales Qualifier administrators
+
+Administrators who configure [CRM connections](#integrations-and-crm), the [Knowledge Center](#knowledge-center), and global email opt-out settings must also be members of the `Sales Qualifier Admins` user group.
 
 1. In Adobe Admin Console, create a user group named `Sales Qualifier Admins`.
-1. Add users who need to configure CRM connections and Knowledge Base settings.
+1. Add the administrators to both the `Sales Qualifier` and `Sales Qualifier Admins` groups.
 
-#### Standard BDR users
-
-Standard BDR users must be members of the `Sales Qualifier users` user group to access Sales Qualifier.
-
-1. In Adobe Admin Console, create a user group named `Sales Qualifier users`.
-1. Assign the **Default Production All Access** AEP profile to the group.
-1. Add users to the group.
+Membership in both groups makes **[!UICONTROL Admin Settings]** visible under **[!UICONTROL Administration]** in the left navigation. Standard users can use the configured fields, filters, and playbook, and the configured opt-out footer is applied to their outbound emails. They cannot change these settings.
 
 >[!NOTE]
 >
@@ -98,11 +100,61 @@ Standard BDR users must be members of the `Sales Qualifier users` user group to 
 
 ## Prospects
 
-Select **[!UICONTROL Prospects]** in the left navigation to view a list of all the leads that you can access. It provides a quick review of information, such as lead status and last activity.
+Select **[!UICONTROL Prospects]** in the left navigation to view a list of the leads that you can access. The list provides a quick review of information, such as lead status and last activity.
 
 ![Prospects table displaying lead status and last activity for prospect management](./assets/prospects.png){width="800" zoomable="yes"}
 
-Click the _Filter_  ![Filter icon](../../assets/do-not-localize/icon_filter-outline.svg) icon to filter the displayed list by lead status. 
+### Build your prospect list
+
+The prospect list combines people from more than one source:
+
+* **CRM-sourced prospects** – When you connect a CRM, it automatically imports leads owned by the connected user. See [Integrations and CRM](#integrations-and-crm).
+* **Imported prospects** – Import a lead list from a CSV file.
+* **Manually added prospects** – Add an individual person directly in the app.
+
+To add prospects that do not come from your CRM:
+
+1. On the **[!UICONTROL Prospects]** page, select **[!UICONTROL Add prospects]**.
+1. Choose **[!UICONTROL Import CSV]** or **[!UICONTROL Add manually]**.
+
+   * For a CSV import, upload the file and map its columns to prospect fields.
+   * To add a person manually, enter their details in the form.
+
+1. Select **[!UICONTROL Save]**.
+
+### Filter and find prospects
+
+Select the _Filter_ ![Filter icon](../../assets/do-not-localize/icon_filter-outline.svg) icon to narrow the list. You can filter by:
+
+* Lead status
+* Engagement score
+* Interesting moments flagged by marketing
+* Star score and flame score
+* Associated deals
+
+Administrators can also make mapped CRM fields available as filters. In **[!UICONTROL Admin Settings]**, they turn on **[!UICONTROL Filterable]** for the fields that reps use to find prospects. See [Map CRM fields](#map-crm-fields-inbound-mapping).
+
+### Review prospect details
+
+Select a prospect to open their profile. Review the signals that matter before you reach out:
+
+* **Activity list** – A chronological list of the prospect's activities, with an **AI activity summary** at the top that highlights the most relevant recent behavior.
+* **Timeline view** – A visual timeline of engagement across channels.
+* **Viewed content** – Open the actual content a prospect viewed, such as a web page or asset, directly from an activity.
+
+## Accounts
+
+Select **[!UICONTROL Accounts]** in the left navigation to work with the accounts you sell into. Sales Qualifier brings together firmographic detail, pipeline, and engagement so that you can prioritize outreach at the account level.
+
+The account overview summarizes essentials like revenue, industry, company size, and headquarters. Alongside these details, each account surfaces:
+
+* **Open opportunities** – The open opportunities associated with the account, sourced from your connected CRM, so that you can align outreach with active pipeline.
+* **Top engaged members** – The contacts at the account with the most recent engagement, so that you know who to prioritize within the buying group.
+* **CRM inputs** – Account fields, opportunities, and owner information surfaced from your connected CRM. See [Integrations and CRM](#integrations-and-crm) for how this data is mapped.
+
+### Account deep dive
+
+To start a deep dive, open an account. The Account Qualification Agent (AQA) prioritizes the signals that are most relevant to your organization's selling strategy, so that you can quickly understand where the account stands and decide what to do next.
 
 ## Outbound workflows
 
@@ -110,7 +162,7 @@ Click the _Filter_  ![Filter icon](../../assets/do-not-localize/icon_filter-outl
 >
 >Outbound workflows created by product administrators are shared with all users in your organization.
 
-An _outbound workflow_ is the structure Sales Qualifier uses to run a goal-driven email sequence. You define an outreach goal and targeting criteria and the AI proposes a multi-touch cadence and writes personalized email content for each prospect. You review and approve each email before enrollment activates the sequence so messages send only during your configured window.
+An _outbound workflow_ is the structure Sales Qualifier uses to run a goal-driven cadence. You define an outreach goal and targeting criteria and the AI proposes a multi-touch cadence and writes personalized email content for each prospect. You review and approve each email before enrollment activates the cadence so that messages send only during your configured window.
 
 An outbound workflow connects four elements:
 
@@ -129,7 +181,7 @@ The goal drives everything downstream: the AI uses it to suggest targeting filte
 | --- | --- |
 | **Workflow** | A reusable outbound activity defined by a goal, targeting filters, cadence, and settings. |
 | **Goal** | What the outreach should accomplish. |
-| **Touchpoint** | One step in the sequence (email, phone call, or LinkedIn InMail), scheduled relative to enrollment. |
+| **Touchpoint** | One step in the cadence (email, phone call, or LinkedIn InMail), scheduled relative to enrollment. |
 | **Touchpoint prompt** | Instructions the AI follows when generating email body and subject for a prospect—tone, length, focus, and call to action. |
 | **Cadence** | The full sequence of touchpoints: how many, in what order, and on which days. |
 | **Targeting filter** | A condition that limits the workflow to a subset of prospects. |
@@ -159,7 +211,7 @@ The goal is the most important input: it tells the AI what success looks like an
 
 1. Click **[!UICONTROL Next: Targeting]**.
 
-Goals work best when they state a **concrete outcome**, not only a topic. For example, `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` gives the AI more to work with than `Promote campaign automation`.
+Goals work best when they state a **concrete outcome**, not only a topic. To give the AI more to work with, use a goal like `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` instead of `Promote campaign automation`.
 
 #### Step 2: Configure targeting filters
 
@@ -183,7 +235,7 @@ After targeting is set, the AI builds the **_cadence_**: it analyzes your goal a
 
 ![Outbound workflow generated touchpoint cadence and prompts](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"} 
 
-Expand an email touchpoint to read its prompt. This instruction guides the AI when writing each prospect's email, including tone, length, focus, and _call to action_.
+To read its prompt, expand an email touchpoint. This instruction guides the AI when writing each prospect's email, including tone, length, focus, and _call to action_.
 
 **Regenerate the cadence**
 
@@ -196,6 +248,10 @@ If the cadence is not what you want, click **[!UICONTROL Regenerate]** and enter
 The AI rewrites the full cadence based on your instruction.
 
 To adjust a single email touchpoint without regenerating the whole cadence, edit the prompt text directly in its text area.
+
+**Use a playbook in your prompts**
+
+If your organization has built a playbook in the [Knowledge Center](#knowledge-center), you can direct the AI to draw from it when writing emails. In the prompt, name the document and the context you want the AI to use—for example, `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. The generated emails then reflect the messaging in that playbook.
 
 When the cadence and prompts look right, click **[!UICONTROL Next: Settings]**.
 
@@ -210,9 +266,12 @@ The **Settings** step controls how the workflow runs.
 1. Review the **[!UICONTROL Workflow name]** and change it if you want a clearer label.
 1. In **[!UICONTROL Max prospects per workflow]**, confirm the upper limit on how many prospects the workflow can manage at once.
 1. Set the **[!UICONTROL Send window]** for the hours when outbound emails are allowed to send.
-1. Confirm **[!UICONTROL Include opt out link]** so that each email can include an opt-out link.
+1. Turn on **[!UICONTROL Skip Weekends]** to move any touchpoint that falls on a weekend to the next business day.
+1. To stop follow-up touchpoints automatically once a prospect books a meeting, turn on **[!UICONTROL Meeting Booking Pause]**.
 1. Confirm that the **[!UICONTROL Timezone]** matches your audience.
 1. Click **[!UICONTROL Save and add prospects]**.
+
+The opt-out footer is configured globally by an administrator and applies to outbound emails independently of the workflow settings. See [Global opt-out sync](#global-opt-out-sync).
 
 #### Step 5: Add prospects and start email generation
 
@@ -228,7 +287,7 @@ Saving opens the prospect selection view, already filtered by your Step 2 target
 1. Select prospects using the checkboxes.
 1. Click **[!UICONTROL Next: Review touchpoints]** to start **per-prospect** email generation.
 
-The AI generates personalized emails for every selected prospect for **each email touchpoint** in the cadence. Phone and LinkedIn InMail touchpoints remain in the sequence as scheduled steps. Generation can run in the background—use **[!UICONTROL Notify when ready]** if you want to continue other work while it completes.
+The AI generates personalized emails for every selected prospect for **each email touchpoint** in the cadence. Phone and LinkedIn InMail touchpoints remain in the cadence as scheduled steps. Generation can run in the background—use **[!UICONTROL Notify when ready]** if you want to continue other work while it completes.
 
 For each prospect, the AI combines each touchpoint prompt with prospect-specific data (person, account, engagement history, recent news) to produce subject line and body.
 
@@ -247,7 +306,7 @@ When generation finishes, the workflow detail view shows a banner to review draf
 
 #### Read the AI reasoning
 
-For each generated email, **[!UICONTROL Reasoning]** explains how the AI crafted that message, including the signals, attributes, and sources that shaped the content and call to action. Review this information and validate personalization before you approve.
+For each generated email, **[!UICONTROL Reasoning]** explains how the AI crafted that message, including signals, attributes, and sources that shaped the content and call to action. Review this information and validate personalization before you approve.
 
 ![Outbound workflow generated email AI reasoning](./assets/outbound-workflow-create-review-generated-email-reasoning.png){width="600" zoomable="yes"}
 
@@ -276,7 +335,7 @@ For larger changes (restructure, shift emphasis, or reframe the message), use **
 
 >[!TIP]
 >
->Direct edits suit wording and tone. _[!UICONTROL Generate with AI]_ is better when you would otherwise rewrite the email from scratch.
+>Direct edits suit wording and tone. Use _[!UICONTROL Generate with AI]_ to rewrite the email from scratch.
 
 ### Approve and enroll prospects
 
@@ -301,6 +360,10 @@ On the _[!UICONTROL Outbound workflow]_ page, the **[!UICONTROL Browse]** tab li
 * **Match the editing tool to the change.** Direct edits for wording and tone; **[!UICONTROL Generate with AI]** for restructuring or reframing.
 * **Approve only what you have reviewed.** Expand touchpoints, read the content, and refine where needed before enrollment.
 
+### Global opt-out sync
+
+Administrators can append a light-touch unsubscribe footer that uses pre-approved [!DNL Marketo] verbiage to every outbound email. When a prospect selects the opt-out link, Sales Qualifier permanently suppresses the prospect from further emails and syncs the opt-out status back to the connected CRM. See [Configure global email opt-out](#configure-global-email-opt-out).
+
 ## Email outbox
 
 The Email outbox panel lists all the automated emails that you have sent.
@@ -324,7 +387,7 @@ You can interact with clients, and see summaries for the contact and the thread 
 
 The _Tasks_ area in Sales Qualifier gives Business Development Representatives (BDRs) a dedicated space to manage and process their outbound workflow actions. The outbound workflow engine automatically generates tasks that represent the specific actions a BDR needs to take with each prospect — phone calls, LinkedIn InMails, and email reviews.
 
-The task management experience is designed as a **processing queue**, not just a to-do list. You can open a task, take action, mark it complete, and move to the next one — all without leaving the page.
+The task management experience is a **processing queue**, not a to-do list. You can open a task, take action, mark it complete, and move to the next one — all without leaving the page.
 
 Select **[!UICONTROL Tasks]** in the left navigation bar to open the full tasks page. This page is the primary workspace for processing tasks one by one.
 
@@ -338,9 +401,9 @@ Select **[!UICONTROL Tasks]** in the left navigation bar to open the full tasks 
 
 All tasks are tied to outbound workflow steps. There are three types:
 
-**Phone Call** — Created when a workflow sequence reaches a phone call step. The task panel shows agent-generated pitch points and an inline notes field for capturing call notes.
+**Phone Call** — Created when a cadence reaches a phone call step. The task panel shows agent-generated pitch points and an inline notes field for capturing call notes.
 
-**LinkedIn InMail** — Created when a sequence reaches a LinkedIn InMail step. The task panel shows suggested InMail content that you can copy and send outside the product.
+**LinkedIn InMail** — Created when a cadence reaches a LinkedIn InMail step. The task panel shows an AI-generated subject line and message body that you can copy and send outside the product.
 
 **Email Review** — Created once the system finishes generating personalized emails for a prospect enrolled in a workflow. You review and approve the emails before outbound begins for that prospect. Each prospect gets a separate Email Review task; if you enroll 10 prospects in a workflow, you see up to 10 Email Review tasks as generation completes.
 
@@ -349,7 +412,7 @@ All tasks are tied to outbound workflow steps. There are three types:
 The Tasks page is split into two panels:
 
 * **Left — Task list:** Your queue of tasks, ordered and filtered based on your selected view and sort settings.
-* **Right — Task work panel:** Details for the selected task, including prospect information, workflow context, task-specific content (pitch points, suggested copy, email drafts), and action controls.
+* **Right — Task work panel:** Details for the selected task, including prospect information, workflow context, task-specific content, and action controls.
 
 Selecting any task in the left panel loads its details into the right panel without navigating away from the page.
 
@@ -370,7 +433,7 @@ Use the following actions to manage your tasks:
 * **[!UICONTROL Mark Complete]** - The primary action. Use this action after you've executed the task — made the call, sent the InMail, or reviewed and approved the emails. On completion, the task is recorded as **Completed** and the queue advances automatically.
 
 * **[!UICONTROL Skip Touchpoint]** - Available from the overflow menu in the work panel. Use this option when you cannot complete this step, but the prospect remains a valid target in the workflow.
-   * The prospect advances to the next step in the sequence. Future tasks still generate on schedule.
+   * The prospect advances to the next step in the cadence. Future tasks still generate on schedule.
    * Select a reason: *Bad contact info*, *Bad timing*, *Content not relevant*, or *Other* (with a freetext field).
    * The task status is set to **Skipped** and logged with the reason and timestamp.
    * If this was the last step in the workflow, the prospect's workflow run ends. The task is still logged as Skipped (not Removed).
@@ -386,7 +449,11 @@ Use the following actions to manage your tasks:
 
 >[!NOTE]
 >
->Skip and Remove reason data informs analytics, including skip rate by channel, removal rate by workflow, and top reasons. This helps improve workflow quality and informs performance analysis over time.
+>Skip and Remove reason data informs analytics, including channel skip rates, workflow removal rates, and top reasons. This helps improve workflow quality and informs performance analysis over time.
+
+**Automatic skipping**
+
+Stagnant LinkedIn InMail and phone call tasks are skipped automatically if they remain incomplete for two days. Automatic skipping keeps a prospect moving through the cadence without stalling the run, and it does not affect the email timeline. Scheduled email touchpoints continue to send as planned.
 
 ### Task status
 
@@ -466,17 +533,99 @@ Task completion isn't limited to the Tasks page.
 * **Today with no tasks:** You see a _You're all caught up for today_ message. If upcoming tasks exist, a prompt appears as _You have [N] upcoming tasks — view upcoming_.
 * **Overdue tasks present:** A prompt encourages you to address overdue tasks first.
 
-## Integrations
+## Meeting booking
 
-With integrations, Sales Qualifier can use your CRM so the Account Qualification Agent (AQA) and outbound workflows share a consistent view of leads, accounts, contacts, activities, and owners in Salesforce or Microsoft Dynamics 365. CRM integrations connect with **read-only** access so that AQA can retrieve CRM sales data and activities (for example emails, calls, tasks, and appointments) to enrich insights. CRM data is used for insights and operational efficiency in the app. It is not used to modify your CRM records through this connection.
+Sales Qualifier turns engaged conversations into booked meetings without leaving the outbound flow. When you connect your calendar, Sales Qualifier generates a personal booking link that prospects use to schedule time with you.
+
+* **Booking links** – Configure your calendar connection and availability in [Profile settings](#profile-settings). Your booking link can be added to your email signature so that it appears in outbound emails.
+* **Automatic insertion in a cadence** – Sales Qualifier inserts your booking link at suitable points in a cadence, so that the invitation to meet appears when it is most relevant. You can override the placement manually.
+* **Booking pause** – When a prospect books a meeting, **[!UICONTROL Meeting Booking Pause]** stops further follow-ups automatically. See [Configure workflow settings](#step-4-configure-workflow-settings).
+
+Track booking outcomes in the [Performance](#performance) section.
+
+## Knowledge Center
+
+The _[!UICONTROL Knowledge Center]_ gives the Account Qualification Agent (AQA) access to your own sales materials, so that Sales Qualifier can generate research, qualification insights, and outreach that reflect how your organization sells. Building and managing the playbook is an administrator task.
+
+![Knowledge Center](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
+
+### Upload sales collateral
+
+1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Admin Settings]**.
+1. Select **[!UICONTROL Knowledge Center]** under **[!UICONTROL Integrations]**.
+1. Set the **[!UICONTROL Company name]** and **[!UICONTROL Company URL]** that Sales Qualifier uses to research your company and draft emails.
+1. Upload sales plays, ideal customer profiles (ICPs), positioning guides, and other sales collateral in PDF, PPTX, or DOCX format.
+
+Each uploaded document displays its processing status, such as **[!UICONTROL Ready]**, and when it was last updated.
+
+### Build a playbook
+
+After you upload your documents, select **[!UICONTROL Build Playbook]** to turn them into a playbook.
+
+>[!NOTE]
+>
+>A playbook takes about 24 hours to process before it is ready to use.
+
+When the playbook is ready, it feeds both outreach and assistance:
+
+* **Outbound email prompts** – Reference the playbook when generating emails by naming the document and context in your prompt. See [Generate and review touchpoints](#step-3-generate-and-review-touchpoints).
+* **Conversational Sales Assistant** – To pull from the playbook, point the assistant at the Knowledge Center. See [Conversational Sales Assistant](#conversational-sales-assistant).
+
+## Conversational Sales Assistant
+
+The Conversational Sales Assistant is a chat experience where you ask questions in natural language and get answers grounded in your sales context. The assistant draws on:
+
+* Your internal knowledge base, including any [Knowledge Center](#knowledge-center) playbook
+* CRM signals from your connected CRM
+* [!DNL Marketo] activity and engagement data
+* Web research
+
+Use the assistant to prepare before outreach—for example, to build account positioning ahead of a meeting. To pull from a built playbook, point the assistant at the Knowledge Center in your question. For example: `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
+
+## Performance
+
+The **[!UICONTROL Performance]** section shows how your outbound is doing, so that you can see what is working and where to adjust.
+
+### Email performance
+
+Review the volume and effectiveness of your outbound email:
+
+* Emails sent
+* Open rate
+* Click rate
+* Reply rate
+
+Sales Qualifier identifies out-of-office replies and bounces with their corresponding statuses, so that you can distinguish them from prospect engagements.
+
+### Meeting booking performance
+
+Meeting-booking status cards summarize where your booked meetings stand. Filter the cards to focus on the meetings and statuses you want to review.
+
+## Integrations and CRM
+
+With integrations, Sales Qualifier connects to your CRM so that the Account Qualification Agent (AQA) and outbound workflows share a consistent view of leads, accounts, contacts, activities, and owners in Salesforce or Microsoft Dynamics 365. Sales Qualifier reads CRM sales data and activities to enrich insights, and it can write back logged outreach activities and opt-out status. It does not otherwise modify your CRM records through this connection.
+
+CRM connections, inbound field mapping, and activity synchronization are configured by an administrator under **[!UICONTROL Administration]** > **[!UICONTROL Admin Settings]** > **[!UICONTROL CRM connections]**. Standard users consume the configured CRM data and filters but cannot change these settings.
+
+### CRM MCP and the embedded plugin
+
+Sales Qualifier works with your CRM in more than one way:
+
+* **Query CRM data through the CRM MCP** – The Account Qualification Agent queries live CRM data through the CRM MCP, so that answers and insights reflect the current state of your records.
+* **Embedded plugin** – The embedded CRM plugin surfaces [!DNL Marketo Sales Insights] (MSI) core insights alongside the new agentic data, directly in your CRM. From the plugin, add a prospect to Sales Qualifier in one click.
+* **Activity sync-back** – When an administrator enables **[!UICONTROL Activity sync]**, outreach activities sync back to the CRM, so that reps see Sales Qualifier activity in the tools they already use.
 
 >[!IMPORTANT]
 >
->Accessing integrations in Sales Qualifier requires `Sales Qualifier Admins` user group membership.
+>Accessing **[!UICONTROL Admin Settings]** requires membership in both the `Sales Qualifier` and `Sales Qualifier Admins` user groups.
 
 ### CRM access scope
 
-The CRM connection is **_read-only_**. Typical entities used include users, contacts, owner mappings, leads, accounts, opportunities, and activities. Your CRM administrator prepares API access in Salesforce or Dynamics. You then connect Sales Qualifier and map inbound fields in the app.
+Sales Qualifier reads the CRM entities it needs and can write back only a defined set of data. Typical entities read include users, contacts, owner mappings, leads, accounts, opportunities, and activities. Write-back is limited to logged outreach activities and opt-out status. Your CRM administrator prepares API access in Salesforce or Dynamics. You then connect Sales Qualifier, map inbound fields, and choose whether to sync activities in the app.
+
+>[!NOTE]
+>
+>The credential steps that follow describe read access to CRM objects. If you enable activity sync or opt-out write-back, work with your CRM administrator to grant the corresponding write access required by your CRM configuration.
 
 ### Prepare credentials in your CRM
 
@@ -492,7 +641,7 @@ Work with your CRM administrator before you connect Sales Qualifier. The followi
 
 1. Create an application user linked to that Azure AD app.
 
-1. Assign a security role that grants **read** access to the entities Sales Qualifier needs (for example leads, contacts, accounts, opportunities, and activities). 
+1. Assign a security role that grants **read** access to the entities Sales Qualifier needs, such as leads, contacts, accounts, opportunities, and activities.
 
    The app requires a security role with read access to read data.
 
@@ -505,7 +654,7 @@ Work with your CRM administrator before you connect Sales Qualifier. The followi
 
 #### Salesforce
 
-In Salesforce, [create an External Client App](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) (or a _Connected App_) with OAuth enabled and scopes that allow API access to identity and data, following your org's security standards. The integrating user (for example when using a client-credentials style configuration) must have read access to objects such as leads, accounts, contacts, tasks, events, opportunities, and related opportunity objects. Administrative tasks often require a user with **[!UICONTROL Manage Connected Apps]** (among other permissions) to view a consumer key and secret after creation.
+In Salesforce, [create an External Client App](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) (or a _Connected App_) with OAuth enabled and scopes that allow API access to identity and data, following your org's security standards. The integrating user must have read access to objects such as leads, accounts, contacts, tasks, events, and opportunities. Administrative tasks often require a user with **[!UICONTROL Manage Connected Apps]** (among other permissions) to view a consumer key and secret after creation.
 
 >[!PREREQUISITES]
 >
@@ -516,7 +665,7 @@ In Salesforce, [create an External Client App](https://help.salesforce.com/s/art
 >* Modify All Data
 >* Manage Connected Apps (important)
 >
->   If _Manage Connected Apps_ is not enabled, you might not be able to view the client ID and client secret after you create the External Client App.
+>   If _Manage Connected Apps_ is not enabled, you cannot view the client ID and client secret after you create the External Client App.
 
 When you create the External Client App, enable OAuth and give permissions. Also enable the following client credentials:
 
@@ -552,17 +701,19 @@ Ensure that the configured user has read access to the following objects:
 
 1. Log in to Sales Qualifier and confirm that the correct sandbox or environment is selected.
 
-1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Integrations]**.
+1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Admin Settings]**.
 
-   The page displays cards for Salesforce and Microsoft Dynamics.
+1. Select **[!UICONTROL CRM connections]** under **[!UICONTROL Integrations]**.
 
-   ![Integrations page with Salesforce and Dynamics connection cards](./assets/integrations-crm-connections.png){width="800" zoomable="yes"}   
+   The page displays cards for Salesforce and Microsoft Dynamics. An inactive connection displays **[!UICONTROL Connect]**. A configured connection displays **[!UICONTROL Connected]** and a **[!UICONTROL Manage]** action.
+
+   ![Admin Settings CRM connections with Salesforce and Dynamics connection cards](./assets/integrations-crm-connections.png){width="800" zoomable="yes"}
 
 1. Click **[!UICONTROL Connect]** for the CRM that you use.
 
 1. Enter the Client ID, secrets, tenant or callback values, and **instance URL** from your CRM administrator.
 
-1. After a successful connection, the card shows **[!UICONTROL Connected]**.
+1. After a successful connection, confirm that the card shows **[!UICONTROL Connected]**.
 
 ### Instance URL guidelines
 
@@ -584,17 +735,40 @@ The **instance URL** must be the environment base URL your CRM uses for API and 
 
 ### Map CRM fields (inbound mapping)
 
-After the CRM is connected, open **[!UICONTROL Manage]** on the integration to work with **[!UICONTROL CRM inbound mapping]**.
+After the CRM is connected, select **[!UICONTROL Manage]** for the connection and open **[!UICONTROL Inbound mapping]**. Inbound mapping controls which CRM fields Sales Qualifier pulls into the application.
 
-1. Click **[!UICONTROL Add Section]** and enter a name, optional description, and entity type (for example prospect).
+1. Select an object group: **[!UICONTROL Contact]**, **[!UICONTROL Prospect]**, or **[!UICONTROL Account]**.
+1. Select **[!UICONTROL Add Section]** and enter a section name and optional description.
+1. Add the CRM fields to the section.
 
-1. Select the CRM fields to import, preview the mapping, and save.
+   Each field row displays its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
 
-   The section appears under the inbound mapping tab.
+1. Turn on **[!UICONTROL Filterable]** for each field that should be available as a filter on the **[!UICONTROL Prospects]** list.
+1. Preview the mapping and save it.
 
-1. Mapped prospect fields appear on the **[!UICONTROL Person]** tab for prospects:
-   * Account fields on the account view.
-   * Opportunity-related fields in the opportunity areas of the account experience.
+Mapped fields appear in the corresponding areas of Sales Qualifier:
+
+* Prospect and contact fields appear on the **[!UICONTROL Person]** tab for prospects.
+* Account fields appear on the account view.
+* Opportunity-related fields appear in the opportunity areas of the account experience.
+
+### Configure activity sync (outbound mapping)
+
+1. From **[!UICONTROL CRM connections]**, select **[!UICONTROL Manage]** for the connected CRM.
+1. Open **[!UICONTROL Outbound mapping]**.
+1. Turn on **[!UICONTROL Activity sync]** to sync Sales Qualifier outreach activities back to the CRM.
+
+When activity sync is off, Sales Qualifier can continue to use inbound CRM data, but it does not write outreach activities back to the CRM.
+
+### Configure global email opt-out
+
+1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Admin Settings]**.
+1. Select **[!UICONTROL Email settings]** under **[!UICONTROL Compliance]**.
+1. Turn on **[!UICONTROL Include opt-out link in every email]** to append an unsubscribe footer to outbound emails.
+1. In **[!UICONTROL Opt-out message template]**, enter the footer text. Include the `{{opt_out_link}}` token where the clickable unsubscribe link should appear.
+1. Save the settings.
+
+When a prospect selects the link, Sales Qualifier permanently suppresses the prospect from further emails. The opt-out status also syncs back to the connected CRM.
 
 ### Reference: sample API parameters
 
@@ -621,15 +795,9 @@ WHERE OwnerId = '<crmUserId>' AND IsDeleted = false
 ORDER BY LastModifiedDate DESC
 ```
 
-### Knowledge Center
-
-The _[!UICONTROL Knowledge Center]_ gives AQA access to customer documents and linked knowledge so Sales Qualifier can generate better research and qualification insights using your own materials. Upload the content and informational resources that you want to use for generating emails.
-
-![Integrations - Knowledge Center](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"} 
-
 ## Profile settings
 
-The profile settings specify information about yourself, including personal details, email and calendar settings, and chat availability.
+The profile settings specify information about yourself, including personal details, email, calendar, and chat availability.
 
 ### Email settings
 
@@ -639,7 +807,7 @@ In the **[!UICONTROL Email settings]** tab, set up your email connections.
 
 * **[!UICONTROL Email connections]** - Click **[!UICONTROL Connect]** and follow the Microsoft login procedure. 
 
-* **[!UICONTROL Email signature]** - Configure the email signature that is used in auto-generated emails.
+* **[!UICONTROL Email signature]** - Configure the email signature that is used in auto-generated emails. Add your [meeting booking](#meeting-booking) link to the signature so that prospects can schedule time with you.
 
 ### Calendar configuration
 

@@ -63,7 +63,7 @@ Web channel configuration in Journey Optimizer B2B Edition requires the followin
 
       ![Selecting a page URL for a single-page web channel configuration](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Pages matching rule]** - To target multiple URLs matching the same rule, build a [pages matching rule](#build-a-pages-matching-rule) and enter a **[!UICONTROL Default authoring and preview URL]**.
+   * **[!UICONTROL Pages matching rule]** - To target multiple URLs matching the same rule, build a [pages matching rule](#build-a-rule) and enter a **[!UICONTROL Default authoring and preview URL]**.
 
 1. Click **[!UICONTROL Submit]** to save your changes.
 
@@ -75,7 +75,7 @@ As soon as the web channel is used in a journey, it moves to an _Active_ status.
 
 When creating a web configuration, you can build a _[!UICONTROL Pages matching rule]_ to target multiple URLs that match the same rule. These rules allow you to apply the same content changes across multiple pages.
 
-For example, you might want to apply changes to a hero banner across an entire website, or add a top image that is displayed on all product pages.
+For example, apply changes to a hero banner across an entire website, or add a top image that is displayed on all product pages.
 
 ### Build a rule
 
@@ -122,9 +122,9 @@ For example, you might want to apply changes to a hero banner across an entire w
 
    * Use the **[!UICONTROL Or]** or **[!UICONTROL Exclude]** operators between the different rules.
 
-     _[!UICONTROL Or]_ is the default operator for defining multiple rules and is useful for adding multiple criteria definitions that can be matched. 
+     _[!UICONTROL Or]_ The [!UICONTROL Or] operator is the default operator for defining multiple rules and is useful for adding multiple criteria definitions that can be matched. 
 
-     _[!UICONTROL Exclude]_ is useful when one of the pages that match the defined rule should not be targeted. For example, you can target all `bodea.com` pages that contain `lumasecure`, but excluding blog pages (such as `bodea.com/blogs/lumasecure/latest-release`).
+     _[!UICONTROL Exclude]_ The [!UICONTROL Exclude] operator is useful when one of the pages that match the defined rule should not be targeted. For example, you can target all `bodea.com` pages that contain `lumasecure`, but exclude blog pages (such as `bodea.com/blogs/lumasecure/latest-release`).
 
    ![Pages matching rules with exclusion](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ You can duplicate an existing web channel configuration and change it to create 
 
 1. Click the name of the duplicated web channel to edit the parameters.
 
-   * Change the name and description to match the purpose or items in the rule.
+   * To match the purpose or items in the rule, change the name and description.
    * If needed, change the single page URL.
    * If needed, change the pages matching rule according to your requirements.
 

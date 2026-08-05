@@ -57,15 +57,15 @@ For more information, see [_Conditional content_](./conditional-content.md).
 
 ## Enable fragment customization
 
-When an author adds a fragment to an [email](./email-authoring.md#content-authoring---use-visual-fragments) or [email template](./email-template-authoring.md#content-authoring---use-visual-fragments), the fragment content is locked by default. Any changes to the published fragment are automatically propagated to all content assets where the fragment is used. When you designate a parameter for a component in the fragment as editable, the email or template author can specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
+When an author adds a fragment to an [email](./email-authoring.md#add-fragments) or [email template](./email-template-authoring.md#add-fragments), the system locks the fragment content by default. Any changes to the published fragment are automatically propagated to all content assets where the fragment is used. When you designate a parameter for a component in the fragment as editable, the email or template author can specify a custom field value that is specific to their needs. This customization flag is limited to image, text, and button visual components.
 
-For example, if you design a reusable banner that includes a clickable button, you can designate the URL parameter for the button as editable. Email authors can then use a URL that is more specific to their email campaign. With these customizable fields, Marketers can manage and personalize reusable content without the need to create entirely new content blocks or disrupt the inherited updates from the original fragment. 
+For example, if you design a reusable banner that includes a clickable button, you can designate the URL parameter for the button as editable. Email authors can then use a URL that is more specific to their email campaign. With these customizable fields, marketing teams can manage and personalize reusable content without the need to create entirely new content blocks or disrupt the inherited updates from the original fragment. 
 
 1. In the visual content editor, select the image, text, or button element where you want to enable customization.
 
 1. In the component details on the right, select the **[!UICONTROL Editable fields]** tab.
 
-1. Click the **[!UICONTROL Enable edition]** option toggle and set the editable fields.
+1. Click the **[!UICONTROL Enable editing]** option toggle and set the editable fields.
 
    ![Enable editable fields for a fragment image component](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 

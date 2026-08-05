@@ -34,7 +34,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # AI Assistant for landing page content {#generative-full-content}
 
-AI Assistant for landing page content in [!DNL Adobe Journey Optimizer B2B Edition] uses Adobe's AI-powered content generation capabilities and revolutionizes the way marketers create professional and brand-consistent landing page content. With advanced generative AI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content. It uses your marketing objective and optimizes the content for brand outlined styles, layouts, tone, and more. AI Assistant makes campaign and program creation and execution more intuitive, simple, and hassle-free. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
+AI Assistant for landing page content in [!DNL Adobe Journey Optimizer B2B Edition] uses Adobe's AI-powered content generation capabilities and revolutionizes the way marketers create professional and brand-consistent landing page content. With advanced generative AI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content. It uses your marketing objective and optimizes the content for brand outlined styles, layouts, tone, and more. AI Assistant makes campaign and program creation and execution more intuitive, simple, and efficient. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
 
 You can generate complete content experiences for your landing pages, including both text and images. This robust functionality helps you create compelling, on-brand content that connects with your audience.
 
@@ -48,9 +48,9 @@ You can generate complete content experiences for your landing pages, including 
 
 ## Guidelines and limitations
 
-Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
+Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
 
-With Adobe's commitment to promote transparency in the use of generative AI tools in media creation, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} for any content or project that includes a Firefly-generated asset when it is downloaded or exported.
+To promote transparency in generative AI, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} to Firefly-generated assets upon download or export.
 
 The following limitations and guidelines apply to AI Assistant features used for landing page content generation in [!DNL Journey Optimizer B2B Edition]:
 
@@ -62,11 +62,11 @@ The following limitations and guidelines apply to AI Assistant features used for
 
 ## Input and settings for content generation
 
-You can generate full content for a landing page, or for selected components in the page. When you use the AI Assistant tools to generate the content that you need, you provide the input, including prompts and reference content, and the settings for text and images.
+You can generate full content for a landing page, or for selected components in the page. When using AI Assistant, provide input, prompts, reference content, and settings for text and images.
 
 ### Prompts
 
-Use well-defined prompts for the generative AI model to interpret with accuracy. The marketing objective/prompt that you provide strongly impacts the quality of the generated content. 
+Use well-defined prompts for the generative AI model to interpret with accuracy. The marketing objective/prompt you provide impacts the quality of the generated content. 
 
 ![Prompt field](./assets/gen-ai-prompt.png){width="320"}
 
@@ -80,7 +80,7 @@ An effective prompt is essential for generating the best possible content. If yo
 
 ![AI Assistant - access the Prompt Library](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Select the prompt that best reflects your intended goals and click **[!UICONTROL Try this Prompt]**. In the _[!UICONTROL Prompt]_ field, replace any placeholders (such as `[Key Feature/Information]`) with the needed values that specify your brand, offering, campaign, and use cases.
+Select the prompt that best reflects your intended goals and click **[!UICONTROL Try this Prompt]**. In the _[!UICONTROL Prompt]_ field, replace placeholders (such as `[Key Feature/Information]`) with your brand, offering, campaign, and use case details.
 
 >[!ENDSHADEBOX]
 
@@ -92,7 +92,7 @@ Expand the **[!UICONTROL Text settings]** in the right panel and set the options
 * **[!UICONTROL Marketing journey stage]** - Choose the [buying group stage](../buying-groups/buying-group-stages.md) to use for targeting the messaging.
 * **[!UICONTROL Communication strategy]** - Choose the most suitable communication style for your generated text.
 * **[!UICONTROL Language]** - Choose the language of your generated content.
-* **[!UICONTROL Tone]** - The tone should resonate with your audience. For example, you can adjust the message to sound informative, playful, or persuasive.
+* **[!UICONTROL Tone]** - The tone that resonates with your audience. For example, you can adjust the message to sound informative, playful, or persuasive.
 
 ![Text settings panel showing buying group, marketing journey stage, communication strategy, language, and tone options](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -102,10 +102,10 @@ Click the left arrow to return to the main _[!UICONTROL Settings]_.
 
 To include images in your generated content, expand the **[!UICONTROL Image settings]** in the right panel and set the options.
 
-The **[!UICONTROL Generate images using AI]** option is disabled by default. Enable this feature and set the following options to include generated images in the proposed content variations:
+The system disables the **[!UICONTROL Generate images using AI]** option by default. Enable this feature and set the following options to include generated images in the proposed content variations:
 
 * **[!UICONTROL Generative model]**: Select from the ready-to-use Adobe-provided model, the partner model for specialized capabilities, or configured custom models trained on your brand assets. For more information about generative models, see _[Generative AI models for brand alignment](generative-ai-models.md)_.
-* **[!UICONTROL Aspect ratio]**: When an image component is selected, this setting determines the width and height of the asset. You have the option to choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or you can enter a custom size.
+* **[!UICONTROL Aspect ratio]**: When an image component is selected, this setting determines the width and height of the asset. Choose from common ratios like 16:9, 4:3, 3:2, or 1:1, or enter a custom size.
 * **[!UICONTROL Content type]**: The type categorizes the nature of the visual element, distinguishing between different forms of visual representation, such as photos, graphics, or art.
 * **[!UICONTROL Visual intensity]**: Control the image's impact by adjusting its intensity. A lower setting (such as 2) creates a softer, more restrained appearance, while a higher setting (such as 10) makes the image more vibrant and visually powerful.
 * **[!UICONTROL Color and tone]**: The overall appearance of the colors within an image and the mood or atmosphere it conveys.
@@ -140,7 +140,7 @@ Use the following steps according to the type of landing page content generation
 
 >[!TAB Full page]
 
-Follow these steps to use AI Assistant for full landing page generation by refining an existing landing page template:
+To generate a full landing page by refining an existing template, follow these steps:
 
 1. After [creating the landing page](./landing-pages-create-publish.md#create-landing-page), click **[!UICONTROL Edit landing page]**.
 
@@ -148,7 +148,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
    Full content generation requires a template. It can be a standard template provided by Adobe, or a saved template. You can also use the _[!UICONTROL Import HTML]_ option to import a template.
 
-   For more information about using a landing page template, see _[Select a saved or sample template](./landing-pages.md#select-a-saved-or-sample-template)_. 
+   For more information about using a landing page template, see _[Select a template](./landing-pages-create-publish.md#select-template)_. 
 
 1. On the outer rail of the right panel, select the _AI Assistant_ ( ![AI Assistant for content toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) icon.
 
@@ -162,7 +162,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
 1. In the **[!UICONTROL Prompt]** field, enter a description of what you want to generate.
 
-   Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
+   Use the [Prompt Library](#prompts) if you need some help with crafting an effective prompt.
 
    ![AI Assistant - prompt library for generating landing page content](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
@@ -170,7 +170,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
    >
    >If you are new to prompting for generated content, review the _[Prompting best practices](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
 
-1. Complete the content guidance settings to tailor the generated content:
+1. To tailor the generated content, complete the content guidance settings:
 
    * [**[!UICONTROL Text settings]**](#text-settings) - Provide guidance for the generated text content.
    * [**[!UICONTROL Image settings]**](#image-settings) - If you want to include images in the generated content, enable image generation and provide guidance. 
@@ -178,11 +178,11 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
 1. When your prompt and settings are ready, click **[!UICONTROL Generate]**. 
 
-1. Scroll down in the AI Assistant panel and browse through the generated variations to determine which one is the best fit. 
+1. Scroll down in the AI Assistant panel and browse through the generated variations to determine which one is the most suitable. 
 
    * Click the _Full screen_ ( ![Full screen icon](../assets/do-not-localize/icon-full-screen.svg) ) icon to open the _[!UICONTROL Generate Landing Page]_ dialog
 
-   * If needed, use the [refinement actions](#refine-a-variation) to fine-tune the variation to ensure that they meet your exact requirements.
+   * If needed, use the [refinement actions](#refine-a-variation) to fine-tune the variation to ensure that it meets your exact requirements.
 
    * [Submit feedback](#submit-variation-feedback) for the generated variants by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choose the reason that best summarizes your feedback.
 
@@ -192,7 +192,7 @@ Follow these steps to use AI Assistant for full landing page generation by refin
 
 >[!TAB Text only]
 
-Follow these steps to use AI Assistant to refine or enhance the text content for an existing landing page:
+To refine or enhance text content for an existing landing page, follow these steps:
 
 1. In the landing page design space, select a _Text_ component to target the specific content.
 
@@ -210,9 +210,9 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
    ![AI Assistant - text settings](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
+   Use the [Prompt Library](#prompts) if you need some help with crafting an effective prompt.
 
-1. Complete the content guidance settings to tailor the generated content:
+1. To tailor the generated content, complete the content guidance settings:
 
    * [**[!UICONTROL Text settings]**](#text-settings) - Provide guidance for the generated text content.
 
@@ -224,7 +224,7 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
    * Click the _Full screen_ ( ![Full screen icon](../assets/do-not-localize/icon-full-screen.svg) ) icon to open the _[!UICONTROL Generate Text]_ dialog
 
-   * If needed, use the [refinement actions](#refine-a-variation) to fine-tune the variation to ensure that they meet your exact requirements.
+   * If needed, use the [refinement actions](#refine-a-variation) to fine-tune the variation to ensure that it meets your exact requirements.
 
    * [Submit feedback](#submit-variation-feedback) for the generated variants by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choose the reason that best summarizes your feedback.
 
@@ -234,7 +234,7 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
 >[!TAB Image only]
 
-Follow these steps to use AI Assistant to refine or enhance the image content for an existing landing page:
+To refine or enhance image content for an existing landing page, follow these steps:
 
 1. In the landing page design space, select an _Image_ component to target the specific content.
 
@@ -252,9 +252,9 @@ Follow these steps to use AI Assistant to refine or enhance the image content fo
 
    ![AI Assistant - text settings](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
+   Use the [Prompt Library](#prompts) if you need some help with crafting an effective prompt.
 
-1. Complete the content guidance settings to tailor the generated content:
+1. To tailor the generated content, complete the content guidance settings:
 
    * [**[!UICONTROL Image settings]**](#image-settings) - If you want to include images in the generated content, enable image generation and provide guidance.
 
@@ -304,7 +304,7 @@ Click the **[!UICONTROL Refine]** option to access additional customization feat
 
 * **[!UICONTROL Elaborate]** - AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
 
-* **[!UICONTROL Summarize]** - Lengthy information can overload page viewers. Use AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
+* **[!UICONTROL Summarize]** - Lengthy information can overload page viewers. Use AI Assistant to condense key points into clear, concise summaries that attract attention and encourage recipients to read further.
 
 * **[!UICONTROL Rephrase]** - Rewrite the message while preserving its meaning. This option helps you generate alternative wording, improve flow, or adjust phrasing without changing the core message.
 

@@ -26,15 +26,15 @@ TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qr
 ---
 # Email templates
 
-For an accelerated and improved design process, you can create standalone email templates to reuse your custom content across [!DNL Adobe Journey Optimizer B2B Edition] account journeys. Through templates, your content-oriented team members can work on email content outside of journeys. Marketing strategists can then reuse and adapt these standalone templates inside their  journeys. For example, one team member is in charge of content only, with no access to account journeys. However, they can create an email template that marketers can select as a starting point for email communications and customize it according to the requirements for the journey.
+To accelerate and improve the design process, you can create standalone email templates to reuse your custom content across [!DNL Adobe Journey Optimizer B2B Edition] account journeys. Through templates, your content-oriented team members can work on email content outside of journeys. Marketing strategists can then reuse and adapt these standalone templates inside their  journeys. For example, one team member manages content only, without access to account journeys. However, they can create an email template that marketers can select as a starting point for email communications and customize it according to the requirements for the journey.
 
 ## Access and manage email templates
 
 To access email templates in [!DNL Journey Optimizer B2B Edition], go to the left navigation and click **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**. In the side panel, select **[!UICONTROL Email templates]**.
 
-This action opens a listing page with all the email templates created in the instance listed in table format.
+This action opens a listing page displaying all email templates created in the instance as a table.
 
-The list is sorted by the _[!UICONTROL Modified]_ column by default, with the most recently updated templates at the top. Click the column title to change between ascending and descending.
+The list sorts by the _[!UICONTROL Modified]_ column by default, with the most recently updated templates at the top. Click the column title to change between ascending and descending.
 
 To search for a template by name, enter a text string in the search bar. Click the _Filter_ icon at the top left to filter the list according to creation or modification dates, and templates that you have created or modified.
 
@@ -58,11 +58,11 @@ The _[!UICONTROL Design your template]_ page opens and provides multiple options
 
 ![Choose how you want to start with your email template design](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-After you select the method that you want to use to start your email template design, use the visual design space to [author your email template content](./email-template-authoring.md).
+Select the method to start your email template design. Then, use the visual design space to [author your email template content](./email-template-authoring.md).
 
 ### Design from scratch
 
-Use the visual content editor to define the structure of the email content. By adding and moving structural components with simple drag-and-drop actions, you can design the shape of the reusable email content within seconds.
+Use the visual content editor to define the structure of the email content. By adding and moving structural components with simple drag-and-drop actions, you can design the reusable email content quickly.
 
 >[!NOTE]
 >
@@ -124,9 +124,9 @@ In the Templates listing page, click the name of an email template to open the e
 
 * Click **[!UICONTROL More]** at the top right to take quick actions on the email template, such as _Duplicate_ and _Delete_.
 
-* If there are active alerts (errors and warning for the email template), click **[!UICONTROL Alerts]** at the top right to view the information.
+* If there are active alerts (errors and warnings for the email template), click **[!UICONTROL Alerts]** at the top right to view the information.
 
-   These alerts do not prohibit the use of the email template for email creation. The information provides visibility for marketers on your team about what might not work and the required updates before it can be used for delivery.
+   These alerts do not prohibit the use of the email template for email creation. The information provides visibility for marketers on your team about what does not work and the required updates before it is used for delivery.
 
 ## View email template used-by references
 
@@ -147,7 +147,7 @@ This action can be taken from:
 * The details page - Click **[!UICONTROL Edit email template]**.
 * The listing page - Click the ellipsis (**...**) next to an email template and choose **[!UICONTROL Edit]**.
 
-This action takes you to the _Design your template_ page or the visual content editor page (based on the last saved status of the email template). From here, you can edit your email template content as needed. See [Create email templates](#create-email-templates) for information about the editing options.
+This action takes you to the _Design your template_ page or the visual content editor page (based on the last saved status of the email template). From here, you can edit your email template content as needed. See [Create an email template](#create-an-email-template) for information about the editing options.
 
 ## Duplicate email templates
 
@@ -180,7 +180,7 @@ From the email templates listing page, select multiple templates at a time by se
 
 ![A banner displays the number of selected templates and the Delete icon](./assets/templates-multi-select-banner.png){width="600"}
 
-**[!UICONTROL Delete]** -- You can delete up to a maximum of 20 templates at one time. A confirmation dialog allows you to abort the action or confirm the removal of the templates.
+**[!UICONTROL Delete]** - You can delete up to a maximum of 20 templates at one time. A confirmation dialog allows you to abort the action or confirm the removal of the templates.
 
 ## Author an email from a saved template
 
@@ -190,7 +190,7 @@ To start building your content with one of the email templates created, use the 
 
 1. Access the visual design space from the _Edit content_ page.
 
-   On the _Create your email_ page, the _Sample templates_ tab is selected by default.
+   On the _Create your email_ page, the system selects the _Sample templates_ tab by default.
 
 1. To use a custom email template, select the **[!UICONTROL Saved templates]** tab.
 

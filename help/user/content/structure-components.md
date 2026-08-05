@@ -40,14 +40,14 @@ topic_v2:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
 >title="About Structure components"
->abstract="CStructure components are layout elements that you can use to design the structure of a fragment."
+>abstract="Structure components are layout elements that you can use to design the structure of a fragment."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="About Structure components"
 >abstract="Structure components are layout elements that you can use to design the structure of a template."
 
-Use the _Structure components_ in the visual design space to define the structure of your content. By adding and moving structural elements with simple drag-and-drop actions, you can quickly define the shape of your content layout. Each structure component spans the horizontal space and you can stack them to build the layout vertically. Divide each component into columns to form each content block that you need.
+Use the _Structure components_ in the visual design space to define the structure of your content. By adding and moving structural elements with simple drag-and-drop actions, you can quickly define the structure of your content layout. Each structure component spans the horizontal space and you can stack them to build the layout vertically. To form each content block that you need, divide each component into columns.
 
 ## Structure library
 
@@ -86,7 +86,7 @@ The toolbar is displayed in the canvas when you select it in the canvas. The ava
 
 ### Component settings
 
-After you add a component, it is selected in the visual design space and its properties are displayed in the right panel. The _[!UICONTROL Settings]_ tab is displayed by default. You can also select a structure component at any time to change the settings.
+After you add a component, it is selected in the visual design space and its properties are displayed in the right panel. The system displays the _[!UICONTROL Settings]_ tab by default. You can also select a structure component at any time to change the settings.
 
 #### Display options
 
@@ -127,9 +127,9 @@ Select the checkbox and click the color square to choose a color from the picker
 
 ![Background color picker](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL Background image]
+#### [!UICONTROL Background image] {#background-image}
 
-Move the toggle selector to enable the background image settings.
+To enable the background image settings, move the toggle selector.
 
 ![Background image settings](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -159,7 +159,7 @@ Use the **[!UICONTROL Image placement]** option to choose how the image fills th
 
 ### Other styles
 
-You can apply other structure component styles to adjust its display in the email message or landing page. 
+To adjust its display in the email message or landing page, you can apply other structure component styles. 
 
 +++Border
 
@@ -209,7 +209,7 @@ In the canvas, move the column sizing icon to adjust the width of the selected c
 
 ### Column styles
 
-With the column selected in the canvas, you can set styles to apply to that column. 
+To set styles to apply to that column, select the column in the canvas. 
 
 +++Background
 
@@ -217,7 +217,7 @@ With the column selected in the canvas, you can set styles to apply to that colu
 
    ![Background color picker](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL Background image]** - Move the toggle selector to enable the background image settings.
+* **[!UICONTROL Background image]** - To enable the background image settings, move the toggle selector.
 
    ![Background image settings](./assets/structure-components-background-image-settings.png){width="250"}
 
