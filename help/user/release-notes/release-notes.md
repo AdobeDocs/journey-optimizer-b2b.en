@@ -33,13 +33,31 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## 2026.8 release notes {#rel-2026-8}
+
+**Deployment date**: August 14, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Person lists | Static and dynamic person lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+| Feature | _Vaiant split paths_ journey nodes | (Previously beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. |
+| Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
+| Enhancement | Listen for event triggers and filters - Account journeys | Support for multiple triggers and filters in a _Listen for event_ node is now available for account journeys. |
+| Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. |
+| Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. |
+| Enhancement | AEP relation datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
+
+>[!NOTE]
+>
+>These release changes begin deployment on August 14, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
 ## 2026.6 release notes {#rel-2026-6}
 
 **Deployment date**: July 10, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | _Split path_ journey nodes - Variants | (Beta) Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
+| Feature | _Varient split paths_ journey nodes - Account journeys | (Beta) Marketers can now test variations within a journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
 | Enhancement | _Listen for an event_ journey nodes | In person journeys, the event listener nodes can now be configured with multiple events to trigger. The first qualifying event advances the record forward in the journey. (Planned support in account journeys for upcoming release.) [Learn more](../journeys/listen-for-event-nodes.md#person-journeys) |
 | Enhancement | _Listen for an event_ journey nodes | The _[!UICONTROL Filters]_ tab for people/person events is changed from a single action selector to a rule builder interface. This provides support for multiple activity configurations using configured Experience Events. [Learn more](../journeys/listen-for-event-nodes.md#filters-people-event) |
 | Enhancement | _Take an action_ journey nodes | Additional actions are now available for the people context of account journey and from a person journey: _Add to Person journey_ and _Remove from Person journey_. [Learn more](../journeys/action-nodes.md#people-actions) |
@@ -47,12 +65,6 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 >[!NOTE]
 >
 >These release changes begin deployment on July 10, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
-
-<!-- 
-Add for 2026.8 release
-| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
-| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
--->
 
 ## 2026.5 release notes {#rel-2026-5}
 
