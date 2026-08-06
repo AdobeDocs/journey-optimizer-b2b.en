@@ -165,8 +165,6 @@ To generate a full landing page by refining an existing template, follow these s
 
    Use the [Prompt Library](#prompts) if you need some help with crafting an effective prompt.
 
-   ![Generate content - prompt library for generating landing page content](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
-
    >[!TIP]
    >
    >If you are new to prompting for generated content, review the _[Prompting best practices](./generative-ai-content.md#generative-ai-prompting-guide)_.
@@ -199,7 +197,7 @@ To refine or enhance text content for an existing landing page, follow these ste
 
 1. On the outer rail of the right panel, select the _Generate content_ ( ![Generate content for content toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) icon.
 
-   ![Generate content toggle in the landing page design space](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![Generate content toggle in the landing page design space - text component selected](./assets/gen-ai-landing-page-text-ai-panel.png){width="600" zoomable="yes"}
 
    The settings on the right reflect the content generation settings for the text component.
 
@@ -208,8 +206,6 @@ To refine or enhance text content for an existing landing page, follow these ste
    If there are no published brands, click **[!UICONTROL Create a brand]** to [define your reusable brand guidelines](./brands-overview.md).
 
 1. In the **[!UICONTROL Prompt]** field, enter a description of what you want to generate.
-
-   ![Generate content - text settings](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
    Use the [Prompt Library](#prompts) if you need some help with crafting an effective prompt.
 
@@ -241,7 +237,7 @@ To refine or enhance image content for an existing landing page, follow these st
 
 1. On the outer rail of the right panel, select the _Generate content_ ( ![Generate content for content toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) icon.
 
-   ![Generate content toggle in the landing page design space](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![Generate content toggle in the landing page design space - image component selected](./assets/gen-ai-landing-page-image-ai-panel.png){width="600" zoomable="yes"}
 
    The settings on the right reflect the generation settings for the image component.
 
@@ -250,8 +246,6 @@ To refine or enhance image content for an existing landing page, follow these st
    If there are no published brands, click **[!UICONTROL Create a brand]** to [define your reusable brand guidelines](./brands-overview.md). 
 
 1. Enter a description of what you want in the **[!UICONTROL Prompt]** field.
-
-   ![Generate content - text settings](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
    Use the [Prompt Library](#prompts) if you need some help with crafting an effective prompt.
 
@@ -335,4 +329,4 @@ The brand alignment evaluation and scoring help you to ensure consistency in ton
 
 ![Access the Brand alignment scoring tools](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-For detailed information, see [_Brand alignment score_](./content-evaluation.md#brand-alignment-score)
+For detailed information, see [_Brand alignment score_](./content-evaluation.md#brand-alignment-score).
