@@ -26,7 +26,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
     + [Question guidance](./ai-assistant/question-guidance.md)
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
-    + [Generative AI for content](./ai-assistant/generative-ai-content.md)
     + Agents {#ai-agents}
        + [Audience Agent B2B](./agents/audience-agent-b2b.md)
        + [Journey Agent B2B](./agents/journey-agent.md)
@@ -54,7 +53,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Add an email](./content/add-email.md)
        + [Send-time optimization](./content/email-send-time-optimization.md)
        + [Email authoring](./content/email-authoring.md)
-       + [AI Assistant for email authoring](./content/ai-assistant-emails.md)
+       + [Generate email content](./content/generate-content-emails.md)
        + [GenStudio workflows](./content/genstudio-email-workflow.md)
        + [Dark mode for email design](./content/email-dark-mode.md)
        + [Governed templates](./content/email-authoring-governance.md)
@@ -131,7 +130,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/landing-pages.md)
       + [Create and publish](./content/landing-pages-create-publish.md)
       + [Landing page design](./content/landing-page-design.md)
-      + [AI Assistant for landing page content](./content/ai-assistant-landing-pages.md)
+      + [Generate landing page content](./content/generate-content-landing-pages.md)
    + Content design tools {#content-design}
       + [Structure components](./content/structure-components.md)
       + [Content components](./content/content-components.md)
@@ -141,6 +140,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Manage and create](./content/brands-manage-create.md)
       + [Generative AI models](./content/generative-ai-models.md)
    + [Brand themes](./content/brand-themes.md)
+   + [Generative AI for content](./content/generative-ai-content.md)
    + [Content evaluation](./content/content-evaluation.md)
    + [Conditional content](./content/conditional-content.md)
    + [Content accessibility](./content/accessible-content.md)
