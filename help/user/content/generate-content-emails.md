@@ -156,7 +156,7 @@ The following steps describe the task sequence for generating an optimized subje
 
 1. Click the _Generate content_ icon ( ![Generate content access icon](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"} ) at the right of the field.
 
-   ![Generative AI access for email subject line](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
+   ![Generative AI access for email subject line](./assets/email-properties-generate-content-subject-line-icon.png){width="600" zoomable="yes"}
 
    The _[!UICONTROL Generate Subject Line]_ dialog opens with the generation settings for the email subject line. 
 
@@ -173,7 +173,7 @@ The following steps describe the task sequence for generating an optimized subje
 
    The generated variants are displayed in the dialog.
 
-   ![Generate content - email subject line generated variants](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
+   ![Generate content - email subject line generated variants](./assets/email-properties-generate-content-subject-line.png){width="600" zoomable="yes"}
 
 1. Scroll the _Generate content_ panel and browse through the generated variations to determine which one is the most suitable. 
 
@@ -191,7 +191,7 @@ The following steps describe the task sequence for generating an optimized subje
    
    * **[!UICONTROL Change Communication strategy]** - Modify the messaging approach based on your objectives, such as creating urgency, or emphasizing compelling appeal.
 
-   ![Generate content - subject line refinement](./assets/email-properties-ai-assistant-subject-line-refine.png){width="600" zoomable="yes"}
+   ![Generate content - subject line refinement](./assets/email-properties-generate-content-subject-line-refine.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Select]** to replace the subject line text with the selected variant and return to the email properties.
 
@@ -201,7 +201,7 @@ An email preheader is the short summary text that follows the subject line when 
 
 1. In the _Summary_ panel with the _Details_ tab selected, scroll down and select the **[!UICONTROL Preheader]** checkbox.
 
-   ![Generative AI access for email preheader](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
+   ![Generative AI access for email preheader](./assets/email-properties-generate-content-preheader-icon.png){width="600" zoomable="yes"}
 
    The _[!UICONTROL Generate Preheader]_ dialog opens with the generation settings for the email preheader.
 
@@ -218,7 +218,7 @@ An email preheader is the short summary text that follows the subject line when 
 
    The generated variants are displayed in the dialog.
 
-   ![Generate content - email preheader generated variants](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
+   ![Generate content - email preheader generated variants](./assets/email-properties-generate-content-preheader.png){width="600" zoomable="yes"}
 
 1. Scroll down the _Generate content_ panel and browse through the generated variations to determine which one is the most suitable. 
 
@@ -236,7 +236,7 @@ An email preheader is the short summary text that follows the subject line when 
    
    * **[!UICONTROL Change Communication strategy]** - Modify the messaging approach based on your objectives, such as creating urgency, or emphasizing exciting appeal.
 
-   ![Generate content - preheader refinement](./assets/email-properties-ai-assistant-preheader-refine.png){width="500" zoomable="yes"}
+   ![Generate content - preheader refinement](./assets/email-properties-generate-content-preheader-refine.png){width="500" zoomable="yes"}
 
 1. Click **[!UICONTROL Select]** to replace the preheader with the selected variant and return to the email properties.
 
@@ -248,7 +248,7 @@ After you [create and personalize your email](./email-authoring.md), use Adobe's
 
 In the email design space, generative AI tools can help you optimize the impact of your deliveries by generating the full email body, targeted text content, and images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement. Select the _Generate content_ ( ![Generate content menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) to display the content generation tools that are available for the current content selection.
 
-![Generate content toggle in the email design space](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+![Generate content toggle in the email design space](./assets/email-designer-generate-content-button.png){width="600" zoomable="yes"}
 
 Use the following steps according to the type of email content generation that you want to use:
 
@@ -270,7 +270,7 @@ To generate a full email by refining an existing email template, follow these st
 
    The settings on the right reflect _Generate Email_.
 
-   ![Generate content - prompt library for generating email content](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
+   ![Generate content - prompt library for generating email content](./assets/email-designer-generate-content-full.png){width="600" zoomable="yes"}
 
 1. Select your **[!UICONTROL Brand]** to ensure that the AI-generated content aligns with your brand specifications.
 
@@ -300,7 +300,7 @@ To generate a full email by refining an existing email template, follow these st
 
    You can also fine-tune a variation by applying refinement actions and submit feedback for the generated variations. See _[Preview and content refinement](#refine-finalize)_ for more details about variation refinement and feedback.
 
-   ![Preview of generated email variation and refinement options](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
+   ![Preview of generated email variation and refinement options](./assets/email-designer-generate-content-full-refine.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Select]** to replace the template contents with the selected variant and return to the email design space.
 
@@ -322,7 +322,7 @@ To refine or enhance the text content for an existing email, follow these steps:
 
 1. In the **[!UICONTROL Prompt]** field, enter a description of what you want to generate.
 
-   ![Generate content - text settings](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
+   ![Generate content - text settings](./assets/email-designer-generate-content-text.png){width="600" zoomable="yes"}
 
    Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
 
@@ -340,7 +340,7 @@ To refine or enhance the text content for an existing email, follow these steps:
 
    You can also fine-tune a variation by applying refinement actions and submit feedback for the generated variations. See _[Preview and content refinement](#preview-and-refine-the-content)_ for more details about variation refinement and feedback.
 
-   ![Preview of generated text variation and refinement options](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
+   ![Preview of generated text variation and refinement options](./assets/email-designer-generate-content-text-refine.png){width="700" zoomable="yes"}
 
 1. When you have the content that you want, click **[!UICONTROL Select]** to replace the text with the selected variant and return to the email design space.
 
@@ -362,7 +362,7 @@ To refine or enhance the image content for an existing email, follow these steps
 
 1. Enter a description of what you want in the **[!UICONTROL Prompt]** field.
 
-   ![Generate content - enter a prompt for the image component](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
+   ![Generate content - enter a prompt for the image component](./assets/email-designer-generate-content-image.png){width="600" zoomable="yes"}
 
    Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
 
@@ -386,7 +386,7 @@ To refine or enhance the image content for an existing email, follow these steps
 
    You can select a variation and click **[!UICONTROL Generate Similar]** to generate additional images that are similar to the selected variant. Or, click **[!UICONTROL Edit in Adobe Express]** to make your own changes to the image. See [Quick actions in Adobe Express](./image-edit-adobe-express.md#quick-actions-in-adobe-express) for more information about using Adobe Express to refine your images.
 
-   ![Preview of generated text variation and refinement options](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+   ![Preview of generated text variation and refinement options](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
 
    You can also [submit feedback](#submit-variation-feedback) for the generated variations.
 

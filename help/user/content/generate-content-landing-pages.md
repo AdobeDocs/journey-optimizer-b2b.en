@@ -269,7 +269,7 @@ To refine or enhance image content for an existing landing page, follow these st
 
    You can select a variation and click **[!UICONTROL Generate Similar]** to generate additional images that are similar to the selected variant. Or, click **[!UICONTROL Edit in Adobe Express]** to make your own changes to the image. See [Quick actions in Adobe Express](./image-edit-adobe-express.md#quick-actions-in-adobe-express) for more information about using Adobe Express to refine your images.
 
-   ![Generate content preview of text variation and refinement options](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+   ![Generate content preview of text variation and refinement options](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
 
    You can also [submit feedback](#submit-variation-feedback) for the generated variations.
 
