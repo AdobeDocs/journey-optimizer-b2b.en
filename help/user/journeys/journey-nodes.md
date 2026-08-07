@@ -29,7 +29,7 @@ After you create a journey (account journey or person journey), add the audience
 Audience nodes are automatically the first node in the journey:
 
 * [Account audience](./account-audience-nodes.md)
-* [Person audience](./person-audience-nodes.md) (Beta)
+* [Person audience](./person-audience-nodes.md)
 
 Construct your journey by combining the different action, event, and orchestration nodes as a multi-step, cross-channel scenario. Each node of a journey represents a step along a logical path. Use the following node types to construct an account journey:
 

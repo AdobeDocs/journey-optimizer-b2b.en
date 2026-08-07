@@ -32,27 +32,9 @@ Journey Optimizer B2B Edition supports two journey types:
 
    ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the account journey overview video](#overview-video)
 
-* **Person journeys** - (Beta) Orchestrate lead-based marketing using Experience Platform Audiences and data. With person journeys, your Marketing Operations are not reliant on Marketo Engage or workarounds for Adobe Campaign/B2C tool chains so that they can support B2B use cases.
+* **Person journeys** - Orchestrate lead-based marketing using Experience Platform Audiences and data. With person journeys, your marketing operations are not reliant on Marketo Engage or workarounds for Adobe Campaign/B2C tool chains so that they can support B2B use cases.
 
    When used in concert with account journeys and buying groups, a person journey can provide marketers with the power to apply full orchestration to the buying journey.
-
-   +++Current limitations for person journeys
-   
-   There are limitations that could block certain use cases or cause difficulty creating person journeys. Many issues are a result of the initial beta program implementation, to be addressed in the future.
-   
-   * Events cannot be combined with profile attributes to narrow down audience definitions.
-   * The context of the event that qualifies a profile for a journey cannot be used for personalization or orchestration.
-   * Journeys cannot currently have both an event and profile segment entry criteria.
-   * Event listeners cannot listen for multiple events.
-   * Wait nodes currently do not have a full suite of options for day of the week or time of day exit criteria.
-   * The email editor incorrectly references capabilities and attributes that are only available for Account Journeys
-   * Support for custom journey tokens (_My Tokens_) is not yet available.
-   * Add and Remove from person journey nodes is not currently available from either journey type. 
-   * Event history cannot be used for orchestration or personalization.
-   * Related objects (account, buying group, opportunity, and custom objects) cannot be used for orchestration or personalization.
-   * Web, SMS, and ad platform channels are not currently supported.
-
-   +++
 
 ## Get started with a journey
 
@@ -74,9 +56,7 @@ Enter text in the  _Search_ tool at the top of the list to filter the displayed 
 
 ![Filter the account journeys list](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB Person journeys (Beta)]
-
-[!BADGE Beta]{type=Informative tooltip="Available as a beta feature"}
+>[!TAB Person journeys]
 
 On the left navigation, expand **[!UICONTROL Journey Management]** and click **[!UICONTROL Person journeys]**.
 
@@ -193,7 +173,7 @@ A duplicate action is similar to a clone function, but a duplicated journey does
 
    * **[!UICONTROL Partial content duplication]** - Use this type to copy everything in the journey, excluding any created emails or SMS messages. Nodes that reference a Marketo Engage email or SMS message are fully intact.
 
-   * **[!UICONTROL Duplicate without details]** - Use this type to copy only the node structure and paths. All node settings and path conditions are undefined (default), so that you can reuse the basic flow with different audience, actions, and path segmentation settings. All _Wait_ nodes use the default of five days.
+   * **[!UICONTROL Duplicate without details]** - Use this type to copy only the node structure and paths. All node settings and path conditions are undefined (default), so that you can use the basic flow again with different audience, actions, and path segmentation settings. All _Wait_ nodes use the default of five days.
 
 1. Click **[!UICONTROL Duplicate]**.
 
