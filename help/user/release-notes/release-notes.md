@@ -39,8 +39,9 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
+| Feature | Person journeys | (Previously Beta, early deployment for general availability) You can now create journeys to orchestrate lead-based marketing using Experience Platform Audiences and data. [Learn more](../journeys/journeys-overview.md) |
 | Feature | Person lists | Static and dynamic person lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
-| Feature | _Vaiant split paths_ journey nodes | (Previously beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. |
+| Feature | _Vaiant split paths_ journey nodes | (Previously Beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. |
 | Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
 | Enhancement | Listen for event triggers and filters - Account journeys | Support for multiple triggers and filters in a _Listen for event_ node is now available for account journeys. |
 | Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. |
