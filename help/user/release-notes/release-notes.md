@@ -44,8 +44,8 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Feature | _Variant split paths_ journey nodes | (Previously Beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
 | Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
 | Enhancement | Listen for event triggers and filters - Account journeys | Support for multiple triggers and filters in a _Listen for event_ node is now available for account journeys. |
-| Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. |
-| Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. |
+| Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-action) |
+| Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-split-paths) |
 | Enhancement | AEP relational datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
 | Enhancement | Product permissions - WhatsApp channel | Product administrators can now set the `Manage B2B WhatsApp Settings` and `Manage B2B WhatsApp Presets` permissions for _[!UICONTROL B2B Channel Configurations]_. |
 
