@@ -38,7 +38,7 @@ As the Marketing industry becomes more competitive, brands are seeking efficient
 
 This new capability provides a prompt-based content generation for full email generation or targeted within email structural components. For images, you can generate new image assets or generate recommendations from within the catalog of images in the input brand asset. You can also use this capability to generate optimal subject lines and preheaders to impact the email open rate.
 
->[!IMPORTANT]
+>[!PREREQUISITES]
 >
 >To access these features in Adobe Journey Optimizer B2B Edition, you must have the _[!UICONTROL AI Assistant]_ > _[!UICONTROL Generate Content]_ permission. For more information about how a product administrator can grant feature permissions, see [Edit roles for product permissions](../admin/user-management.md#edit-roles-for-product-permissions).
 

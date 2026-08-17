@@ -47,6 +47,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. |
 | Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. |
 | Enhancement | AEP relational datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
+| Enhancement | Product permissions - WhatsApp channel | Product administrators can now set the `Manage B2B WhatsApp Settings` and `Manage B2B WhatsApp Presets` permissions for _[!UICONTROL B2B Channel Configurations]_. |
 
 >[!NOTE]
 >
