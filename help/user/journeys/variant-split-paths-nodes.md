@@ -26,7 +26,7 @@ Use a _Variant split paths_ node to distribute accounts or people across two or 
 
 >[!AVAILABILITY]
 >
->The _Variant split paths_ node for account and person journeys is available to select customers as a limited availability feture. To get access, contact your Adobe representative.
+>The _Variant split paths_ node for account and person journeys is available to select customers as a limited availability feature. To get access, contact your Adobe representative.
 
 ## Comparison by journey type {#journey-type-comparison}
 
