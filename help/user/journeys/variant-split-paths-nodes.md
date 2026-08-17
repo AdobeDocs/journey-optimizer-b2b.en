@@ -26,9 +26,9 @@ Use a _Variant split paths_ node to distribute accounts or people across two or 
 
 >[!AVAILABILITY]
 >
->**Account journeys** — The _Variant split paths_ node for account journeys is available to select customers as a limited beta release. Contact your Adobe representative to get access.
+>**Account journeys** — The _Variant split paths_ node for account journeys is available to select customers as a limited beta release. To get access, contact your Adobe representative.
 >
->**Person journeys** — The _Variant split paths_ node for person journeys is available to select customers as a limited beta release. Contact your Adobe representative to get access.
+>**Person journeys** — The _Variant split paths_ node for person journeys is available to select customers as a limited beta release. To get access, contact your Adobe representative.
 
 ## Comparison by journey type {#journey-type-comparison}
 
@@ -67,7 +67,7 @@ When an account reaches a variant split paths node, the runtime evaluates how ma
 
 ### Split by people {#split-by-people}
 
-In an account journey, you can also use a variant split paths node to distribute the _people within accounts_ randomly across percentage-based paths. This split type is useful when you want to test different content or experiences at the person level as accounts continue to move through the journey. The variant split paths by people node operates with the following guardrails:
+In an account journey, you can also use a variant split paths node to distribute the _people within accounts_ randomly across percentage-based paths. This split type is useful when you want to test different content or experiences at the person level. Accounts continue to move through the journey. The variant split paths by people node operates with the following guardrails:
 
 * The node functions as a _grouped node_, which is a split-merge combination. The split paths automatically close at a corresponding merge node so that all people can move forward without losing their account context.
 * Each person in the account is assigned to exactly one path based on the configured percentages.
@@ -90,7 +90,7 @@ People within an account are processed as a batch. The number assigned to each p
 
 ## Person journeys {#person-journeys}
 
-When a person reaches a variant split paths node in a person journey, the runtime computes a hash from the person's ID and the journey ID, then maps the hash result to a path based on the configured percentage ranges.
+When a person reaches a variant split paths node, the runtime maps them to a path based on a hash of their ID and the journey ID.
 
 * Each person is assigned to exactly one path.
 * Assignment is deterministic — the same person always receives the same path assignment for a given published journey, regardless of how many times they enter or re-enter.
@@ -123,10 +123,10 @@ The variant split paths node in person journeys uses a **deterministic hash assi
 1. The buckets are partitioned according to the configured path percentages. For example, with paths at 30%, 30%, and 40%, the first 3,000 buckets correspond to Path 1, the next 3,000 to Path 2, and the remaining 4,000 to Path 3.
 1. The person is assigned to the path whose bucket range contains their hash position.
 
-The are two key properties of the deterministic hash algorithm:
+There are two key properties of the deterministic hash algorithm:
 
-* **_Consistency_** — The same person always lands in the same bucket for a given journey ID. Re-entering the journey produces the same path assignment every time.
-* **_Statistical distribution_** — Distribution converges to within approximately ±2% of the configured percentages when at least 1,000 unique persons have entered the journey. With smaller audiences, per-path counts may differ more noticeably from the configured ratios.
+* **_Consistency_** — The same person is always assigned to the same bucket for a given journey ID. Re-entering the journey produces the same path assignment every time.
+* **_Statistical distribution_** — Distribution converges to within ±2% of the configured percentages when at least 1,000 unique persons have entered the journey. With smaller audiences, per-path counts may differ more noticeably from the configured ratios.
 
 ## Limitations {#limitations}
 
