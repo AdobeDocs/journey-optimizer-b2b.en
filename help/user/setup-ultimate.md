@@ -288,7 +288,7 @@ To support marketing teams that include other channels in their journeys, config
 <td><a href="./admin/configure-channels-sms.md">Learn more</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Landing pages</strong> (Beta) channel configuration for Journey Optimizer B2B Edition.</td>
+<td colspan="2"><strong>Landing pages</strong> channel configuration for Journey Optimizer B2B Edition.</td>
 <td></td>
 </tr>
 <tr>
