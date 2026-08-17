@@ -35,13 +35,13 @@ As an administrator, you can define multiple engagement score models for your or
 
 ## Access the engagement score weighting models
 
-Open the _[!UICONTROL Engagement score weighting]_ list to view active, draft, and archived models:
+To view active, draft, and archived models, open the _[!UICONTROL Engagement score weighting]_ list:
 
 1. In the left navigation, choose **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
 1. Click **[!UICONTROL Engagement score weighting]** on the intermediate panel to display the list of scoring models.
 
-   From this page, you can [create (duplicate)](#create-an-engagement-score-model), [activate](#activate-a-score-model), and [edit](#change-the-engagement-weighting-settings) engagement score models.
+   From this page, you can [create (duplicate)](#create-a-custom-engagement-scoring-model), [activate](#activate-a-score-model), and [edit](#change-the-engagement-weighting-settings) engagement score models.
 
     ![Access the defined engagement score models](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -63,7 +63,7 @@ The system creates an initial engagement score model named _Activity weighting m
 
 <!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
-When you activate a custom model, the active model changes to an _Archived_ status. If you decide to revert back to the default engagement score model, you can duplicate the original default model and then activate it or use it as a starting point for another custom model.
+When you activate a custom model, the active model changes to an _Archived_ status. If you decide to revert to the default engagement score model, you can duplicate the original default model and then activate it or use it as a starting point for another custom model.
 
 ### Delete a draft model
 
@@ -93,7 +93,7 @@ To create a custom engagement score model, duplicate the default model or anothe
 
 ### Change the engagement weighting settings
 
-The weight settings define the bands that you can assign to each activity in the model. You can change the bands to reflect your organization's strategies for evaluating engagement. For example, you might adjust the _Normal_ weighting band to a value of 65 if you want to assign a higher value to normal activities. Or, you can add a weighting band that is designed to capture activities that fall between _Normal_ and _Important_. In this case, you could add a band and label it as _Significant_ and assign a weight band value of 75.
+The weight settings define the bands that you can assign to each activity in the model. To reflect your organization's strategies for evaluating engagement, change the bands. For example, adjust the _Normal_ weighting band to a value of 65 if you want to assign a higher value to normal activities. Or, you can add a weighting band that is designed to capture activities that fall between _Normal_ and _Important_. In this case, add a band, label it as _Significant_, and assign a weight band value of 75.
 
 1. In the score model details page, click **[!UICONTROL Engagement weight settings]** at the top.
 
@@ -161,7 +161,7 @@ Your changes are saved automatically.
 
 When you activate a draft score model, it replaces the currently active model. The currently active model is automatically archived.
 
-1. Open a draft score model to view the details page.
+1. To view the details page, open a draft score model.
 
 1. Click **[!UICONTROL Activate]**.
 

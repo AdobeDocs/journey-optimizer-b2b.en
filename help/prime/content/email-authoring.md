@@ -96,7 +96,22 @@ When you are satisfied with the content, click **[!UICONTROL Save]**.
 
 ## Import existing HTML content {#import-html-content}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+Imported content can be:
+
+* An HTML file with an incorporated style sheet
+* A .zip file that includes an HTML file, the style sheet (.css), and images
+
+   >[!NOTE]
+   >
+   >There are no constraints on the .zip file structure. However, references must be relative and fit with the tree structure of the .zip folder. The images are always uploaded to the [assets repository](./digital-asset-management.md).
+
+_To import a file containing HTML content:_
+
+1. From the design home page, select the **[!UICONTROL Import HTML]** option.
+
+1. Drag and drop the HTML or .zip file containing your HTML content and click **[!UICONTROL Import]**.
 
 ![import html content in a zip file](../../user/content/assets/email-import-zip-file.png){width="500"}
 

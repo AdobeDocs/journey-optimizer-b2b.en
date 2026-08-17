@@ -38,7 +38,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + {hide-from-toc} [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
        + [Account audience](./journeys/account-audience-nodes.md)
-       + [Person audience (Beta)](./journeys/person-audience-nodes.md)
+       + [Person audience](./journeys/person-audience-nodes.md)
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
@@ -106,6 +106,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Email collaboration](./content/email-collaboration-tools.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
+      + [Content Credentials](./content/content-credentials.md)
       + Internal assets {#internal-dam}
          + [Work with internal assets](./content/internal-image-assets.md)
          + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
@@ -147,6 +148,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Overview](./content/personalization.md)
       + [Personalization syntax](./content/personalization-syntax.md)
       + [Helper functions list](./content/personalization-helper-functions.md)
+      + [Script Builder (Beta)](./content/script-builder.md)
 + Intelligent dashboards {#dashboards}
     + [Insights dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement dashboard](./dashboards/engagement-dashboard.md)

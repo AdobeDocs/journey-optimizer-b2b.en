@@ -28,7 +28,7 @@ TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-O
 
 Buying group stages are designed to track the progression of buying groups in converting opportunities into customers. Use this feature to track buying group progression and identify the next best actions for buying group members. 
 
-Define the stages within a single staging model, defining multiple stages and the transition flow between them. One or more stages are designated for entry into the lifecycle. The model also allows for non-linear progression, where you can specify transitions from one stage to another, such as from stage A to stages B, C, or D. It is required that one stage is designated as the success stage, such as a purchase or signed contract. It is optional that another stage be designated as a failure stage, such as a rejected contract or purchase of a competing solution from another vendor. Monitor these stages through [intelligent dashboards](../dashboards/intelligent-dashboard.md) that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer.
+Define the stages within a single staging model, defining multiple stages and the transition flow between them. One or more stages are designated for entry into the lifecycle. The model allows non-linear progression, such as from stage A to stages B, C, or D. One stage must be designated as the success stage, like a purchase or signed contract. It is optional for another stage to be designated as a failure stage, such as a rejected contract or purchase of a competing solution from another vendor. Monitor these stages through [intelligent dashboards](../dashboards/intelligent-dashboard.md) that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer.
 
 ![Buying group stages example](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +42,7 @@ You create and configure a buying group stages model by:
 * Defining the transition flows
 * Designating the entry and destination stages
 
-Only one model is supported, so it is important to work across you Marketing and Sales teams to plan the optimal model for your organization before you create and publish it in Journey Optimizer B2B Edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+Only one model is supported; to plan the optimal model, work with your Marketing and Sales teams before creating and publishing it in Journey Optimizer B2B Edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 When you create the buying group stage model, it is automatically in _Draft_ status and cannot be deleted or renamed. It remains in this status as you define the stages and configure the transition flow between the stages. When the model is in a published (_Live_) status, it cannot be changed.
 
@@ -94,7 +94,7 @@ After you create the model, it opens in the workspace and you are prompted to cr
 
 ### Configure the workflow and transition rules
 
-After you save the stages, it returns you to the model workspace. The _[!UICONTROL Allowed transit to]_ column is empty, which indicates that the transition rules for the model stages are not yet defined.
+After you save the stages, you are returned to the model workspace. The _[!UICONTROL Allowed transit to]_ column is empty, which indicates that the transition rules for the model stages are not yet defined.
 
 ![Transition rules are not yet defined](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"} 
 
@@ -118,11 +118,11 @@ Transition rules determine how a buying group can move from one stage to another
 
 1. For each non-destination stage, define one or more stages that come next in the flow (transition).
 
-   All non-destination stages must have at least one **[!UICONTROL Allowed transit to]** stage selected. Otherwise, the model logic is not valid and accounts can get _stuck_ at that stage with no way to progress to success or failure.
+   All non-destination stages must have at least one **[!UICONTROL Allowed transit to]** stage selected. Otherwise, the model logic is not valid and accounts can remain at that stage with no way to progress to success or failure.
 
    ![Configure transistions between non-destination stages](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"} 
 
-   You can optionally specify a transition from a failure stage. For example, you might designate a stage named _No response_ as a failure stage. But also designate a stage named _Resurgence_ as a possible transition to identify cases where a dormant account is reactivated. 
+   You can optionally specify a transition from a failure stage. For example, designate a stage named _No response_ as a failure stage. But also designate a stage named _Resurgence_ as a possible transition to identify cases where a dormant account is reactivated. 
 
 1. Click **[!UICONTROL Save]**.
 
@@ -227,7 +227,7 @@ For each existing solution interest where you want to associate the buying group
 
 1. Select the _[!UICONTROL Solution interest]_ tab.
 
-1. Open the solution interest using one of the following methods to open the properties for the solution interest that you want to edit:
+1. Use one of the following methods to open the properties for the solution interest that you want to edit:
 
    * Click the solution interest name.
    * Click the ellipsis (**...**) next to it and choose **[!UICONTROL Edit]**.
@@ -246,7 +246,7 @@ For each existing solution interest where you want to associate the buying group
 
 ### Split paths
 
-Using a [split path node](../journeys/journey-nodes.md#split-paths), you can filter at the account level or the people level according to buying group stages. For example, add a buying group stage as a path condition when splitting paths by buying group member.
+Using a [split path node](../journeys/split-merge-paths-nodes.md#split-paths), you can filter at the account level or the people level according to buying group stages. For example, add a buying group stage as a path condition when splitting paths by buying group member.
 
 >[!BEGINTABS]
 
@@ -264,7 +264,7 @@ Using a [split path node](../journeys/journey-nodes.md#split-paths), you can fil
    
    ![Split path node - add condition](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. In the conditions editor, add the buying group filter to define the split path.
+1. To define the split path, add the buying group filter in the conditions editor.
 
    * On the left, expand the **[!UICONTROL Special filters]** at the bottom and drag the **[!UICONTROL Has Buying Group]** attribute onto the filter workspace.
 
@@ -298,7 +298,7 @@ Using a [split path node](../journeys/journey-nodes.md#split-paths), you can fil
    
    ![Split path node - add condition](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. In the conditions editor, add the buying group filter to define the split path.
+1. To define the split path, add the buying group filter in the conditions editor.
 
    * On the left, expand the **[!UICONTROL Special filters]** at the bottom and drag the **[!UICONTROL Member of Buying Group]** attribute onto the filter workspace.
 
@@ -320,7 +320,7 @@ Using a [split path node](../journeys/journey-nodes.md#split-paths), you can fil
 
 ### Update buying group stage account action
 
-Using an [account action node](../journeys/journey-nodes.md#add-an-account-action), you can update the buying group stage. Defining this node involves selecting the solution interest and defining the new stage for the buying group.
+Using an [account action node](../journeys/action-nodes.md#add-an-account-based-action), you can update the buying group stage. Defining this node involves selecting the solution interest and defining the new stage for the buying group.
 
 >[!NOTE]
 >
@@ -334,7 +334,7 @@ Using an [account action node](../journeys/journey-nodes.md#add-an-account-actio
 
 1. In the node properties on the right, choose **[!UICONTROL Accounts]** for the action.
 
-1. Define the action to update the buying group stage.
+1. To update the buying group stage, define the action.
 
    * For **[!UICONTROL Action on accounts]**, select **[!UICONTROL Update Buying Group Stage]**.
 

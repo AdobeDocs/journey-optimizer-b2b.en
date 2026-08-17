@@ -53,7 +53,7 @@ role_v2:
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/prime/setup-prime.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/start/setup-prime.md"><img src="../assets/learn-more.svg"></a></td>
     <td align="center"><a href="/help/prime/home-insights/home-page.md"><img src="../assets/learn-more.svg"></a></td>
     <td align="center"><a href="/help/prime/agents/chat-interface.md"><img src="../assets/learn-more.svg"></a></td>
     <td align="center"><a href="/help/prime/marketing/marketing-management.md"><img src="../assets/learn-more.svg"></a></td>

@@ -33,7 +33,7 @@ To get started with a journey, create the journey and then construct the nodes a
 Under **[!UICONTROL Journey management]** in the left navigation, select the journey type that you want to create:
 
 * **[!UICONTROL Account journeys]**
-* **[!UICONTROL Person journeys]** (Beta)
+* **[!UICONTROL Person journeys]**
 
 _To add a new journey:_
 
@@ -49,7 +49,7 @@ _To add a new journey:_
 
 +++
 
-+++Person journey (Beta)
++++Person journey
 
 1. Click **[!UICONTROL Create Journey]** at the top-right of the page.
 

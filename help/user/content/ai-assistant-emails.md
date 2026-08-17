@@ -34,17 +34,17 @@ TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1a
 ---
 # AI Assistant for email content
 
-As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content quickly and efficiently. AI Assistant for email authoring in [!DNL Adobe Journey Optimizer B2B Edition] is Adobe's AI-powered content generation capability that revolutionizes the way marketers create professional and brand-consistent email content. With advanced generative AI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content. It uses your marketing objective and optimizes the content for brand outlined styles, layouts, tone, and more. AI Assistant makes the creation and execution of email marketing campaigns intuitive, simple, and hassle-free. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
+As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content quickly and efficiently. AI Assistant for email authoring in [!DNL Adobe Journey Optimizer B2B Edition] is Adobe's AI-powered content generation capability that revolutionizes the way marketers create professional and brand-consistent email content. With advanced generative AI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content. It uses your marketing objective and optimizes the content for brand outlined styles, layouts, tone, and more. AI Assistant makes the creation and execution of email marketing campaigns intuitive, simple, and efficient. Adding this capability to your workflows can save you time, improve efficiency, and drive better results.
 
 This new capability provides a prompt-based content generation for full email generation or targeted within email structural components. For images, you can generate new image assets or generate recommendations from within the catalog of images in the input brand asset. You can also use this capability to generate optimal subject lines and preheaders to impact the email open rate.
 
->[!IMPORTANT]
+>[!PREREQUISITES]
 >
 >To access these features in Adobe Journey Optimizer B2B Edition, you must have the _[!UICONTROL AI Assistant]_ > _[!UICONTROL Generate Content]_ permission. For more information about how a product administrator can grant feature permissions, see [Edit roles for product permissions](../admin/user-management.md#edit-roles-for-product-permissions).
 
 ## Guidelines and limitations
 
-Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
+Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
 
 Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} to Firefly-generated assets upon download or export to promote transparency.
 
@@ -62,7 +62,7 @@ You can generate full content for an email, or for selected components in the em
 
 ### Prompts
 
-Use well-defined prompts for the generative AI model to interpret with accuracy. The marketing objective/prompt that you provide strongly impacts the quality of the generated content. 
+Use well-defined prompts for the generative AI model to interpret with accuracy. The marketing objective/prompt you provide impacts the quality of the generated content. 
 
 ![Prompt field](./assets/gen-ai-prompt.png){width="320"}
 
@@ -76,7 +76,7 @@ An effective prompt is essential for generating the best possible content. If yo
 
 ![AI Assistant - access the Prompt Library](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Select the prompt that best reflects your intended goals and click **[!UICONTROL Try this Prompt]**. In the _[!UICONTROL Prompt]_ field, replace any placeholders (such as `[Key Feature/Information]`) with the needed values that specify your brand, offering, campaign, and use cases.
+Select the prompt that best reflects your intended goals and click **[!UICONTROL Try this Prompt]**. In the _[!UICONTROL Prompt]_ field, replace any placeholders (such as `[Key Feature/Information]`) with values specifying your brand, offering, campaign, and use cases.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +84,7 @@ Select the prompt that best reflects your intended goals and click **[!UICONTROL
 
 Expand the **[!UICONTROL Text settings]** in the right panel and set the options for generated text.
 
-* **[!UICONTROL Buying group]** - Choose the [buying group role](../buying-groups/buying-groups-role-templates.md) to use for targeting your messaging. [!DNL Journey Optimizer B2B Edition] offers five standard B2B buying group roles out-of-the-box. Each buying group role has a distinct messaging focus:
+* **[!UICONTROL Buying group]** - Choose the [buying group role](../buying-groups/buying-groups-role-templates.md) to use for targeting your messaging. [!DNL Journey Optimizer B2B Edition] offers five standard B2B buying group roles pre-configured. Each buying group role has a distinct messaging focus:
 
    | Role | Messaging focus |
    | ---- | --------------- |
@@ -97,7 +97,7 @@ Expand the **[!UICONTROL Text settings]** in the right panel and set the options
 * **[!UICONTROL Marketing journey stage]** - Choose the [buying group stage](../buying-groups/buying-group-stages.md) to use for targeting the messaging.
 * **[!UICONTROL Communication strategy]** - Choose the most suitable communication style for your generated text.
 * **[!UICONTROL Language]** - Choose the language of your generated content.
-* **[!UICONTROL Tone]** - The tone should resonate with your audience. For example, you can adjust the message to sound informative, playful, or persuasive.
+* **[!UICONTROL Tone]** - The tone that resonates with your audience. For example, you can adjust the message to sound informative, playful, or persuasive.
 
 ![Text settings panel showing buying group, marketing journey stage, communication strategy, language, and tone options](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -110,7 +110,7 @@ To include images in your generated content, expand the **[!UICONTROL Image sett
 The system disables the **[!UICONTROL Generate images using AI]** option by default. Enable this feature and set the following options to include generated images in the proposed content variations:
 
 * **[!UICONTROL Generative model]**: Select from the ready-to-use Adobe-provided model, the partner model for specialized capabilities, or configured custom models trained on your brand assets. For more information about generative models, see _[Generative AI models for brand alignment](generative-ai-models.md)_.
-* **[!UICONTROL Aspect ratio]**: When an image component is selected, this setting determines the width and height of the asset. Choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or enter a custom size.
+* **[!UICONTROL Aspect ratio]**: When an image component is selected, this setting determines the width and height of the asset. Choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or enter a custom ratio.
 * **[!UICONTROL Content type]**: The type categorizes the nature of the visual element, distinguishing between different forms of visual representation, such as photos, graphics, or art.
 * **[!UICONTROL Visual intensity]**: Control the image's impact by adjusting its intensity. A lower setting (such as 2) creates a softer, more restrained appearance, while a higher setting (such as 10) makes the image more vibrant and visually powerful.
 * **[!UICONTROL Color and tone]**: The overall appearance of the colors within an image and the mood or atmosphere it conveys.
@@ -192,7 +192,7 @@ The following steps describe the task sequence for using AI Assistant to generat
 
 >[!TAB Preheader generation]
 
-An email preheader is the short summary text that follows the subject line when an email is viewed in the inbox. It is an optional element for an email, but a great opportunity to improve engagement. The following steps describe the task sequence for using AI Assistant to generate an optimized preheader for your email:
+An email preheader is the short summary text that follows the subject line when an email is viewed in the inbox. It is an optional element for an email, but an effective opportunity to improve engagement. The following steps describe the task sequence for using AI Assistant to generate an optimized preheader for your email:
 
 1. In the _Summary_ panel with the _Details_ tab selected, scroll down and select the **[!UICONTROL Preheader]** checkbox.
 
@@ -217,7 +217,7 @@ An email preheader is the short summary text that follows the subject line when 
 
 1. Scroll the AI Assistant panel and browse through the generated variations to determine which one is the best fit. 
 
-   You can [submit feedback](#submit-variation-feedback) for a generated variant by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choose the reason that best summarizes your feedback.
+   You can [submit feedback](#submit-variation-feedback) for a generated variant by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choosing the reason that best summarizes your feedback.
 
 1. Click the **[!UICONTROL Refine]** option to access additional customization features:
 
@@ -239,7 +239,7 @@ An email preheader is the short summary text that follows the subject line when 
 
 ## Generate email body content with AI Assistant {#generative-ai-email-design}
 
-After you [create and personalize your email](./email-authoring.md), use AI Assistant in [!DNL Journey Optimizer B2B Edition], powered by generative AI to elevate your email body content to the next level.
+After you [create and personalize your email](./email-authoring.md), use AI Assistant in [!DNL Journey Optimizer B2B Edition], powered by generative AI to improve your email body content.
 
 In the email design space, AI Assistant can help you optimize the impact of your deliveries by generating the full email body, targeted text content, and images that resonate with your audience. This optimization of your email campaigns is designed to produce better engagement. Select the _AI Assistant_ ( ![AI Assistant menu toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) to display the content generation tools that are available for the current content selection.
 
@@ -251,7 +251,7 @@ Use the following steps according to the type of email content generation that y
 
 >[!TAB Full email generation]
 
-Follow these steps to use AI Assistant for full email generation by refining an existing email template:
+To use AI Assistant for full email generation by refining an existing email template, follow these steps:
 
 1. After [creating the email](./add-email.md), click **[!UICONTROL Edit email content]**.
 
@@ -279,7 +279,7 @@ Follow these steps to use AI Assistant for full email generation by refining an 
    >
    >If you are new to prompting for generated content, review the _[Prompting best practices](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
 
-1. Complete the content guidance settings to tailor the generated content:
+1. To tailor the generated content, complete the content guidance settings:
 
    * [**[!UICONTROL Text settings]**](#text-settings) - Provide guidance for the generated text content.
    * [**[!UICONTROL Image settings]**](#image-settings) - If you want to include images in the generated content, enable image generation and provide guidance. 
@@ -293,7 +293,7 @@ Follow these steps to use AI Assistant for full email generation by refining an 
 
    The dialog provides additional space to compare the variations, adjust your text and reference content settings (if needed), and to regenerate the variations.
 
-   You can also fine-tune a variation by applying refinement actions and submit feedback for the generated variations. See _[Preview and content refinement](#preview-and-content-refinement)_ for more details about variation refinement and feedback.
+   You can also fine-tune a variation by applying refinement actions and submit feedback for the generated variations. See _[Preview and content refinement](#refine-finalize)_ for more details about variation refinement and feedback.
 
    ![AI Assistant preview of email variation and refinement options](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
 
@@ -303,7 +303,7 @@ Follow these steps to use AI Assistant for full email generation by refining an 
 
 >[!TAB Text only]
 
-Follow these steps to use AI Assistant to refine or enhance the text content for an existing email:
+To use AI Assistant to refine or enhance the text content for an existing email, follow these steps:
 
 1. In the email design space, select a _Text_ component to target the specific content.
 
@@ -321,7 +321,7 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
    Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
 
-1. Complete the content guidance settings to tailor the generated content:
+1. To tailor the generated content, complete the content guidance settings:
 
    * [**[!UICONTROL Text settings]**](#text-settings) - Provide guidance for the generated text content.
 
@@ -343,7 +343,7 @@ Follow these steps to use AI Assistant to refine or enhance the text content for
 
 >[!TAB Image only]
 
-Follow these steps to use AI Assistant to refine or enhance the image content for an existing email:
+To use AI Assistant to refine or enhance the image content for an existing email, follow these steps:
 
 1. In the email design space, select an _Image_ component to target the specific content.
 
@@ -361,7 +361,7 @@ Follow these steps to use AI Assistant to refine or enhance the image content fo
 
    Use the [Prompt Library](#prompt-library) if you need some help with crafting an effective prompt.
 
-1. Complete the content guidance settings to tailor the generated content:
+1. To tailor the generated content, complete the content guidance settings:
 
    * [**[!UICONTROL Image settings]**](#image-settings) - If you want to include images in the generated content, enable image generation and use the guidance settings.
 
@@ -411,7 +411,7 @@ Click the **[!UICONTROL Refine]** option to access additional customization feat
 
 * **[!UICONTROL Elaborate]** - AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
 
-* **[!UICONTROL Summarize]** - Lengthy information can overload page viewers. Use AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
+* **[!UICONTROL Summarize]** - Lengthy information can overload readers. Use AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
 
 * **[!UICONTROL Rephrase]** - Rewrite the message while preserving its meaning. This option helps you generate alternative wording, improve flow, or adjust phrasing without changing the core message.
 
@@ -429,7 +429,7 @@ Click the **[!UICONTROL Refine]** option to access additional customization feat
 
 ### Submit variation feedback
 
-Provide feedback for the generated variants by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choose the reason that best summarizes your feedback. 
+Provide feedback for the generated variants by clicking the _Thumbs Up_, _Thumbs Down_, or _Flag_ icon and choosing the reason that best summarizes your feedback. 
 
 ![AI Assistant - preview the generated variations](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 

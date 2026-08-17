@@ -18,7 +18,7 @@ hide: true
    + [Create program from brief](./agents/program-from-brief.md)
    + [Create audiences for programs](./agents/audience-creation.md)
    + [Create custom scoring models](./agents/lead-scoring-model.md)
-+ [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
++ [AI decisioning](./agents/ai-decisioning.md)
 + Marketing management {#marketing-management}
    + [Overview](./marketing/marketing-management.md)
    + Programs {#programs}
@@ -39,18 +39,25 @@ hide: true
       + [Content authoring](./content/email-authoring.md)
       + [Dark mode design](./content/email-dark-mode.md)
    + [WhatsApp channel](./content/whatsapp-authoring.md)
++ [Journey traffic control](./marketing/journey-traffic-control.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
+   + [Person details](./audiences/person-details.md)
    + [Event-based audiences](./audiences/event-based-audiences.md)
    + [Person engagement scores](./audiences/engagement-scores.md)
    + [Derived personas](./audiences/personas.md)
    + [Destinations](./audiences/destinations.md)
 + Content {#content}
-   + [Assets](./content/digital-asset-management.md)
+   + Assets {#assets}
+      + [Overview](./content/digital-asset-management.md)
+      + [Content Credentials](./content/content-credentials.md)
    + Templates {#templates}
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
       + [Content governance](./content/template-content-governance.md)
+   + Fragments {#visual-fragments}
+      + [Overview](./content/fragments.md)
+      + [Fragment authoring](./content/fragment-authoring.md)
    + Landing pages {#landing-pages}
       + [Overview](./content/landing-pages.md)
       + [Create and publish landing pages](./content/landing-pages-create-publish.md)
@@ -59,6 +66,7 @@ hide: true
       + [Overview](./content/forms.md)
       + [Form design](./content/form-design.md)
    + [Personalization](./content/personalization-expressions.md)
+   + [Conditional content](./content/conditional-content.md)
    + Content design tools {#content-design}
       + [Structure components](./content/structure-components.md)
       + [Content components](./content/content-components.md)
@@ -69,10 +77,10 @@ hide: true
       + [WhatsApp channel configuration](./admin/configuration-channels-whatsapp.md)
       + [Landing page configuration](./admin/configuration-presets-landing-pages.md)
       + [Form preset configuration](./admin/configuration-presets-forms.md)
+   + [Business rules](./admin/business-rules.md)
    + [Program types](./admin/program-types.md)
-
++ [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 <!--
-   + Business rules admin
    + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}

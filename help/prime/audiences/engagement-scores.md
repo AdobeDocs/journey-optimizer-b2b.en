@@ -32,7 +32,7 @@ role_v2:
 >title="Person engagement score"
 >abstract="Person engagement scores reflect the level of engagement for individual leads based on their recent activities."
 
-A person engagement score is a number that reflects the level of engagement for an individual lead. Scores are based on the activities a person performs, with each activity type carrying a weighted value. Scores are normalized within your instance (tenant) to enable consistent comparison and allow for actionable insights.
+A person engagement score is a number that reflects the level of engagement for an individual lead. Scores are based on the activities a person performs, where each activity type carries a weighted value. Scores are normalized within your instance (tenant) to enable consistent comparison and allow for actionable insights.
 
 Score calculation runs daily. Any engagement-weighted activity performed by the person within the last 30 days contributes to the score. With this 30-day rolling window, older activity occurrences expire and scores can decrease over time (score decay). Displayed scores are rounded (for example, a score of 75.89999 is displayed as 76).
 
@@ -40,7 +40,7 @@ Engagement score data is available from **[!UICONTROL Reports]**.
 
 ![Person engagement score report data](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-The person engagement score is an attribute that you can use as a [filter condition](#engagement-score-filter) in people lists and in split path nodes within person journeys.
+The person engagement score is an attribute you can use as a [filter condition](#engagement-score-filter) in people lists and split path nodes in person journeys.
 
 ## Activities used for engagement scoring {#activities}
 
@@ -91,11 +91,11 @@ The system applies a multi-step normalization process to produce a consistent sc
 
 1. Calculate the raw engagement score by summing the daily activity per activity type, multiplying it by the associated weight, and then summing the results across all days in the look-back window.
 
-1. Apply a _Power Transformation_ (Square Root) to stabilize variance by reducing the impact of outliers.
+1. To stabilize variance by reducing the impact of outliers, apply a _Power Transformation_ (Square Root).
 
    This transformation reduces skewness and makes patterns in the data more linear.
 
-1. Apply a _Scaled Normalization_ transform to ensure that scores use the full range from 0 to 100.
+1. To ensure that scores use the full range from 0 to 100, apply a _Scaled Normalization_ transform.
 
 ## Filter by engagement score {#engagement-score-filter}
 
@@ -105,7 +105,7 @@ The _[!UICONTROL Person engagement score]_ filter appears in the filter panel un
 
 ### People lists {#people-lists}
 
-When you add or remove members from a [static people list](./people-lists.md#static-list), or when you define the membership rules for a [dynamic people list](./people-lists.md#dynamic-lists), you can filter by person engagement score to target all people whose attributes match your scoring criteria.
+When managing members in a [static people list](./people-lists.md#static-lists) or defining rules for a [dynamic people list](./people-lists.md#dynamic-lists), you can filter by person engagement score to target people matching your criteria.
 
 ![Person engagement score filtering for a people list](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -207,13 +207,13 @@ Draft models have editable _[!UICONTROL Weighting]_ options for each engagement 
 
 1. In the activity table, locate the engagement activity you want to update.
 
-1. Click the **[!UICONTROL Weighting]** down arrow for that activity and select the appropriate weighting band (for example, `Important`,`Trivial`, `Minor`, `Normal`, and `Vital`).
+1. Click the **[!UICONTROL Weighting]** down arrow for that activity and select the appropriate weighting band (for example, `Important`, `Trivial`, `Minor`, `Normal`, and `Vital`).
 
    Changes are saved automatically — no explicit Save action is required.
 
 >[!NOTE]
 >
->To edit an active or archived model, you can duplicate it to create a new draft model, then edit and activate the duplicate. You cannot edit an active model in place.
+>To edit an active or archived model, duplicate it to create a new draft model, then edit and activate the duplicate. You cannot edit an active model in place.
 
 ### Activate a draft model {#activate-weighting-model}
 

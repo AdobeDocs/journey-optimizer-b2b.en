@@ -34,7 +34,7 @@ Learn more about account audiences and how to define them in the [Adobe Experien
 
 ## Account audience workflow
 
-You can think of Journey Optimizer B2B Edition as an Experience Platform (AEP) destination that does not appear in the destinations catalog. Activate account audiences to Journey Optimizer B2B Edition using the following steps:
+Journey Optimizer B2B Edition functions as an Experience Platform (AEP) destination that does not appear in the destinations catalog. Activate account audiences to Journey Optimizer B2B Edition using the following steps:
 
 1. Create schemas for your data in AEP.
 1. Ingest your data into AEP.
@@ -49,7 +49,7 @@ Journey Optimizer B2B Edition allows you to build Adobe Experience Platform (AEP
 
 ## Create an account audience
 
-Define the account audience by creating an account segmentation. You have the option to create the account segmentation directly within the Journey Optimizer B2B Edition application, or you can use the [Segment Builder UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. The following are the steps that you can use to create an account segmentation in Journey Optimizer B2B Edition.
+Define the account audience by creating an account segment. You have the option to create the account segment directly within the Journey Optimizer B2B Edition application, or you can use the [Segment Builder UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. The following are the steps that you can use to create an account segment in Journey Optimizer B2B Edition.
 
 1. In the left navigation, choose **[!UICONTROL Accounts]** > **[!UICONTROL Audiences]**.
 
@@ -57,7 +57,7 @@ Define the account audience by creating an account segmentation. You have the op
 
 1. Build the segment definition.
 
-   The account attributes and audiences are displayed on the left navigation bar. Under the _[!UICONTROL Attributes]_ tab, you can add both Platform-created and custom attributes. Drag each attribute to build the logic for the segment.
+   The account attributes and audiences are displayed on the left navigation bar. Under the _[!UICONTROL Attributes]_ tab, you can add both Platform-created and custom attributes. To build the logic for the segment, drag each attribute.
 
    >[!TIP]
    >
@@ -65,7 +65,7 @@ Define the account audience by creating an account segmentation. You have the op
    >
    >Under the _[!UICONTROL Audiences]_ tab, you can add previously created people-based audiences to build off of when creating your own account audience.
 
-   The following example defines audience created using `Country Code`, `Revenue Amount`, and `Market segment`. The query in English would be, "I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M."
+   The following example defines an audience created using `Country Code`, `Revenue Amount`, and `Market segment`. The query in English is, "I want all US accounts in the Finance Segment whose revenue exceeds $1M."
 
    ![account audience segment builder example](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
@@ -79,4 +79,4 @@ Define the account audience by creating an account segmentation. You have the op
 
 1. Click **[!UICONTROL Save and Close]** at the top right.
 
-To activate your account audience for Journey Optimizer B2B Edition, you must [add it to an account journey](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey) and [publish the journey](../journeys/journeys-overview.md).
+To activate your account audience for Journey Optimizer B2B Edition, you must [add it to an account journey](../journeys/account-audience-nodes.md) and [publish the journey](../journeys/journeys-overview.md).

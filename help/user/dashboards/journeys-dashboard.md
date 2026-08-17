@@ -41,7 +41,7 @@ On the left navigation, expand **[!UICONTROL Journey Management]** and click **[
 
 ![Account journeys overview](./assets/journey-overview-account.png){width="800" zoomable="yes"}
 
->[!TAB Person journeys (Beta)]
+>[!TAB Person journeys]
 
 [!BADGE Beta]{type=Informative tooltip="Available as a beta feature"}
 
