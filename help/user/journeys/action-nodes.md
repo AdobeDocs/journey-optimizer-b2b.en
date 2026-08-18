@@ -26,7 +26,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Take an action
 
-To execute an action, such as send an email, change a score, assign to a buying group, and so on, you can add a _[!UICONTROL Take an action]_ node in your journey. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action.
+To execute an action, such as sending an email, changing a score, or assigning to a buying group, you can add a _[!UICONTROL Take an action]_ node in your journey. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -42,6 +42,7 @@ In an account journey, use an action on accounts when you want to apply a change
 | [!UICONTROL Activate to destination] | Select a destination |
 | [!UICONTROL Add Account to (other) Journey] | Select live account journey |
 | [!UICONTROL Add to account list] | Select live static account list |
+| [!UICONTROL Deactivate from destination] | Select existing virtual audience<br/>Select destination |
 | [!UICONTROL Remove Account from Journey] | Select live account journey |
 | [!UICONTROL Remove from account list] | Select a live static account list |
 | [!UICONTROL Send Sales Alert] | Select solution interest<br/>Send email to|
@@ -71,13 +72,19 @@ In an account journey, use an action on accounts when you want to apply a change
 
 >[!BEGINSHADEBOX]
 
-### Activate to a LinkedIn destination
+### Activate to or deactivate from a destination {#activate-deactivate-destination}
 
-Use the _Activate to destination_ action to activate accounts to Experience Platform destinations directly from your journey. This action enables you to push qualified accounts (based on buying group filters, engagement scores, and other criteria) into matched audiences on supported destinations.
+Use the _Activate to destination_ action to activate accounts to Experience Platform destinations directly from your journey. This action enables you to push qualified accounts (based on buying group filters, engagement scores, and other criteria) into matched audiences on supported destinations. 
 
-Starting with the 2025.10 release, **_LinkedIn_** is the first supported destination type. Use the action for a LinkedIn destination to streamline campaign execution by eliminating multi-system handoffs and reducing latency. For example, as a marketer, you can automatically activate high-intent accounts to LinkedIn for retargeting when key buying roles are missing, or re-engage dormant accounts based on inactivity filters.
+You can pair this action with the _Deactivate from destination_ action later in the same journey to stop targeting accounts after they convert or no longer qualify.
 
-For more information about using account matched audiences for a LinkedIn destination, see [LinkedIn Account Matched Audiences](../data/linkedin-account-matched-audiences.md).
+>[!NOTE]
+>
+>Starting with the 2025.10 release, **_LinkedIn_** is the first supported destination type. Use the action for a LinkedIn destination to streamline campaign execution by eliminating multi-system handoffs and reducing latency. For example, as a marketer, you can automatically activate high-intent accounts to LinkedIn for retargeting when key buying roles are missing, or re-engage dormant accounts based on inactivity filters.
+>
+>For more information about using account matched audiences for a LinkedIn destination, see [LinkedIn Account Matched Audiences](../data/linkedin-account-matched-audiences.md).
+
+_To add an Activate to destination node:_
 
 1. With the _Take an action_ node selected in the journey canvas, set the **[!UICONTROL Action on accounts]** to **[!UICONTROL Activate to destination]**.
 
@@ -93,11 +100,23 @@ For more information about using account matched audiences for a LinkedIn destin
 
    ![Journey node - take an action on accounts - activate to destination - completed settings](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
+_To add a Deactivate from destination node:_
+
+1. With the _Take an action_ node selected in the journey canvas, set the **[!UICONTROL Action on accounts]** to **[!UICONTROL Deactivate from destination]**.
+
+   ![Journey node - take an action on accounts - deactivate from destination menu](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
+
+1. Under **[!UICONTROL Virtual audience]**, click **[!UICONTROL Select existing virtual audience]** and choose the virtual audience whose accounts you want to remove from the destination.
+
+1. Under **[!UICONTROL Deactivate from destination]**, click **[!UICONTROL Select destination]** and choose the destination to remove accounts from.
+
+   After you configure the _Deactivate from destination_ node, it shows the selected virtual audience and destination.
+
 >[!ENDSHADEBOX]
 
 ## People actions {#people-actions}
 
-In an account or person journey, use an action on people when you want to apply a change to all people on the node path. For an account journey, you can use this node type within the _split path by people_ or _split path by accounts_.
+In an account or person journey, use an action on people when you want to apply a change to all people on the node path. For an account journey, you can use this node type within the _split path by people_ or _split path by accounts_ nodes.
 
 ### Actions and constraints {#people-action-constraints}
 
@@ -287,7 +306,7 @@ Use this action to change the value of a [people profile attribute](../admin/fie
 
 >[!NOTE]
 >
->The _[!UICONTROL Update person profile]_ replaces the _[!UICONTROL Change Data Value]_ action in the current Journey Optimizer B2B Edition release.<br/>
+>The _[!UICONTROL Update person profile]_ action replaces the _[!UICONTROL Change Data Value]_ action in the current Journey Optimizer B2B Edition release.<br/>
 >
 >An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Configurations]_ > [!UICONTROL Standard classes]. For more information, see [Standard schemas](../admin/xdm-field-management.md#standard-schemas).
 
@@ -295,7 +314,7 @@ Use this action to change the value of a [people profile attribute](../admin/fie
 
 ### Marketo Engage actions
 
-The Marketo Engage people-based actions are designed to coordinate your account-based marketing orchestration in Journey Optimizer B2B Edition with your lead-based marketing efforts in Marketo Engage. Use these actions to orchestrate list membership and request campaigns.
+The [!DNL Marketo Engage] people-based actions are designed to coordinate your Account-Based Marketing orchestration in [!DNL Journey Optimizer B2B Edition] with your lead-based marketing efforts in Marketo Engage. Use these actions to orchestrate list membership and request campaigns.
 
 >[!NOTE]
 >
