@@ -50,7 +50,7 @@ hide: true
 + Content {#content}
    + Assets {#assets}
       + [Overview](./content/digital-asset-management.md)
-      + [Content Credentials](./content/content-credentials.md)
+      + [C2PA metadata](./content/c2pa-metadata.md)
    + Templates {#templates}
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)

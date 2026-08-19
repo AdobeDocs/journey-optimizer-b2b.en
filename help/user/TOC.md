@@ -3,9 +3,9 @@ user-guide-title: Journey Optimizer B2B Edition Documentation
 user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how you can use it to orchestrate account and buying group journeys using built-in generative AI and industry-leading automation.
 ---
 
-# Journey Optimizer B2B Ultimate User Guide {#user}
+# Journey Optimizer B2B Edition User Guide {#user}
 
-+ [Adobe Journey Optimizer B2B Ultimate Documentation](guide-overview.md)
++ [Adobe Journey Optimizer B2B Edition Documentation](guide-overview.md)
 + [Release notes](./release-notes/release-notes.md)
 + Get started {#get-started}
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
@@ -106,7 +106,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Email collaboration](./content/email-collaboration-tools.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
-      + [Content Credentials](./content/content-credentials.md)
+      + [C2PA metadata](./content/c2pa-metadata.md)
       + Internal assets {#internal-dam}
          + [Work with internal assets](./content/internal-image-assets.md)
          + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
