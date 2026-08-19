@@ -225,7 +225,7 @@ There are tools available to help you locate the asset that you need:
 
 ## Content - image selection - AEM Assets {#aem-assets-dam}
 
-Choose this type to browse and select an image asset from a [configured Experience Manage Assets repository](../user/admin/configure-aem-repositories.md). 
+Choose this type to browse and select an image asset from a [configured Experience Manage Assets repository](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories). 
 
 From the _[!UICONTROL Select Assets]_ dialog, choose an image using the available tools to locate the asset that you need and click **[!UICONTROL Select]**.:
 
