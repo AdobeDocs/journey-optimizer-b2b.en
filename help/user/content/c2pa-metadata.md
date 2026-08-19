@@ -2,6 +2,7 @@
 title: C2PA Metadata
 description: Learn how Adobe Journey Optimizer B2B Edition automatically applies C2PA metadata to images generated or edited with generative AI tools, and what this means for your content.
 feature: Assets, Content
+hide: true
 role: User
 autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
