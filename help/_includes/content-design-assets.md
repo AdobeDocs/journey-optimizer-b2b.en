@@ -18,4 +18,4 @@ In the visual content editor, select the _Assets_ ( ![Assets icon](../../help/as
 
    ![Select an asset from the source library](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-For more information about using assets from your source type, see [Use assets for content authoring](../user/content/assets-overview.md#use-assets-for-content-authoring).
+For more information about using assets from your source type, see [Use assets for content authoring](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).

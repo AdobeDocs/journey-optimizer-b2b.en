@@ -14,11 +14,11 @@ description: Reused section about using custom CSS for content authoring
 
 1. Enter your CSS code in the editor.
 
-   Make sure that the custom CSS is valid and follows the proper syntax. If the entered CSS is invalid, an error message is displayed and the CSS cannot be saved. To learn more, see [CSS validity](../user/content/design-custom-css.md#css-validity).
+   Make sure that the custom CSS is valid and follows the proper syntax. If the entered CSS is invalid, an error message is displayed and the CSS cannot be saved. To learn more, see [CSS validity](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity).
 
 1. Click **[!UICONTROL Save]** to save the custom CSS.
 
-   The custom style sheet is applied to the existing content. You can check that your custom CSS is applied according to your needs. For information about how to make changes and adjust the style sheet application, see [Troubleshooting](../user/content/design-custom-css.md#troubleshooting).
+   The custom style sheet is applied to the existing content. You can check that your custom CSS is applied according to your needs. For information about how to make changes and adjust the style sheet application, see [Troubleshooting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting).
 
 >[!NOTE]
 >
