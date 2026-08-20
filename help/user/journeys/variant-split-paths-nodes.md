@@ -4,7 +4,6 @@ description: Learn how to use variant split path nodes to distribute accounts or
 feature: Account Journeys, Person Journeys
 solution: Journey Optimizer B2B Edition
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
 product_v2:
