@@ -42,6 +42,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Feature | Person journeys | (Previously Beta, early deployment for general availability) You can now create journeys to orchestrate lead-based marketing using Experience Platform Audiences and data. [Learn more](../journeys/journeys-overview.md) |
 | Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
 | Feature | _Variant split paths_ journey nodes | (Previously Beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
+| Feature | C2PA metadata | Images generated or edited with generative AI tools are now automatically signed with C2PA metadata, helping you meet content transparency and AI disclosure requirements. [Learn more](../content/c2pa-metadata.md) |
 | Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
 | Enhancement | Listen for event triggers and filters - Account journeys | Support for multiple triggers and filters in a _Listen for event_ node is now available for account journeys. |
 | Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. |
