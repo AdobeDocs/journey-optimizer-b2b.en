@@ -1,5 +1,5 @@
 ---
-title: AI Assistant in Journey Optimizer B2B Edition
+title: AI Capabilities in Journey Optimizer B2B Edition
 description: Accelerate workflows with AI Assistant - get product knowledge, troubleshooting help, and operational insights for Journey Optimizer B2B Edition.
 feature: AI Assistant
 role: User, Admin
@@ -30,13 +30,13 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# AI Assistant in Journey Optimizer B2B Edition
+# AI capabilities in Journey Optimizer B2B Edition
 
-AI Assistant in Journey Optimizer B2B Edition is created from the same technology foundation as [AI Assistant in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. It is a conversational experience that you can use to accelerate your workflows in Adobe Journey Optimizer B2B Edition. You can use AI Assistant to gain more understanding of the product capabilities, troubleshoot problems, or search through information and find operational insights for Journey Optimizer B2B Edition. 
+The chat interface in Adobe Journey Optimizer B2B Edition is powered from the same technology foundation as [AI Assistant in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. It is a conversational experience that you can use to accelerate your workflows in Journey Optimizer B2B Edition. You can use the chat interface to gain more understanding of the product capabilities, troubleshoot problems, or search through information and find operational insights for Journey Optimizer B2B Edition. You can also use this interface to invoke the [Journey Agent](../agents/journey-agent.md) and [Audience Agent](../agents/audience-agent-b2b.md).
  
 >[!IMPORTANT]
 >
->An agreement to the [user guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} is required before you can use AI Assistant in Journey Optimizer B2B Edition. This agreement also contains the public beta agreement so that you can use additional AI Assistant features as they roll out in a beta capacity.
+>An agreement to the [user guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} is required before you can use AI Assistant in Journey Optimizer B2B Edition. This agreement also contains the public beta agreement so that you can use additional AI Assistant features as they roll out.
 
 +++View the user agreement interface
 
@@ -46,11 +46,21 @@ AI Assistant in Journey Optimizer B2B Edition is created from the same technolog
 
 +++
 
+>[!BEGINSHADEBOX]
+
+## Sales Qualifier
+
+Sales Qualifier is an AI-driven application that you can use with Journey Optimizer B2B Edition. It implements the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). Sales Qualifier automates prospect qualification, outreach, and buyer engagement workflows across channels. It reduces manual BDR load and accelerates pipeline velocity for Enterprise B2B companies.
+
+For more information, refer to the [Sales Qualifier documentation](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 ## AI Assistant capabilities in Journey Optimizer B2B Edition
 
-To formulate a response to your submitted questions, AI Assistant queries a database and translates data from the database into a human-readable answer. This response is an internal representation of underlying data, and is also known as the _**_Knowledge Graph_**_ -- a comprehensive collection of concepts, data, and metadata for a given answer. The Knowledge Graph consists of sub-graphs that are referenced whenever queries are submitted:
+To formulate a response to your submitted questions, AI Assistant queries a database and translates data from the database into a human-readable answer. This response is an internal representation of underlying data, the _**Knowledge Graph**_, and provides a comprehensive collection of concepts, data, and metadata for a given answer. The Knowledge Graph consists of sub-graphs that are referenced whenever queries are submitted:
 
-* Experience League documentation.
+* Adobe Experience League documentation.
 * Operational artifacts, such as schemas, fields, audiences, and journeys.
 
 Consider which type of inquiry you need before you submit an AI Assistant query:
@@ -90,7 +100,7 @@ You can ask AI Assistant questions about your operational insights in the follow
 
 {style="table-layout:fixed"}
 
-For operational insights questions, answers may not reflect the current state of the UI. The data that backs these questions is updated once every 24 hours. For example, changes that users make in Real-Time CDP during the daytime are synced with the data stores at night, and then they become available for user questions in the morning. Log into a sandbox to inquire about specific data related to objects.
+For operational insights questions, answers may not reflect the current state of the UI. The data that backs these questions is updated once every 24 hours. For example, changes that users make in Real-Time CDP during the daytime are synced with the data stores at night, and then they become available for user questions in the morning. To inquire about specific data related to objects, log into a sandbox.
 
 ### Feature scope
 
@@ -134,7 +144,7 @@ The following is a list of answers to frequently asked questions about AI Assist
 
 **Can AI Assistant provide information about customer data?**
 
-   No. AI Assistant does not have access to customer data and therefore, it is not looked at or used.
+   No. AI Assistant does not have access to customer data and therefore, it is not accessible or usable.
 
 **Is my personal information used in AI Assistant's training data?**
 

@@ -28,15 +28,15 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Use AI Assistant in Journey Optimizer B2B Edition
+# Use the chat interface
 
-In Journey Optimizer B2B Edition, AI Assistant is a user interface feature that you can use to understand product concepts, quickly navigate and learn about the product features, and get operational insights for your environment. It is also available in several products across Adobe Experience Cloud.
+In Journey Optimizer B2B Edition, AI Assistant provides a chat interface that you can use to understand product concepts, quickly navigate and learn about the product features, and get operational insights for your environment. It is also available in several products across Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->An agreement for the Adobe Experience Cloud Generative AI User Guidelines is required before you can use the AI Assistant. For more information about this agreement and usage guidelines, see the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>An agreement for the Adobe Experience Cloud Generative AI User Guidelines is required before you can use the AI Assistant. For more information about this agreement and usage guidelines, see the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
-To access AI Assistant, click the icon in the header. AI Assistant opens in a panel on the right.
+To access the chat interface, click the icon in the header.
 
 ![Click the icon to access the AI Assistant](./assets/ai-assistant-icon-displayed.png){width="420"}
 
@@ -56,7 +56,7 @@ Product knowledge questions are about Journey Optimizer B2B Edition concepts and
 * How do I send an email in a journey?
 * How can I personalize my email content?
 
-To ask a product question, enter it in the field at the bottom of the panel and press enter. For example, when you need to learn how to use a buying group in a journey. In this case, you enter _How do I use a buying group in a journey?_ After you submit the question, AI Assistant queries its knowledge base and generates an answer in a few seconds.
+To ask a product question, enter it in the field at the bottom of the panel and press enter. For example, when you need to learn how to use a buying group in a journey. In this case, you enter _How do I use a buying group in a journey?_ After you submit the question, AI Assistant queries its knowledge base and generates an answer within seconds.
 
 ![Enter a question in the text box](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -68,7 +68,7 @@ To ask a product question, enter it in the field at the bottom of the panel and 
 
 ## Ask operational insights questions
 
-Operational insights questions are about the journey objects in your organization's sandbox. You can ask questions about operational artifacts, such as account audiences, journeys, solution interests, and buying group templates. Some examples of operational insights questions or prompts include:
+Operational insights questions are about the journey objects in your organization's sandbox. You can ask questions about operational artifacts, such as audiences, journeys, solution interests, and buying group templates. Some examples of operational insights questions or prompts include:
 
 * How many live journeys do I have in Adobe Journey Optimizer B2B Edition?
 * Give me a list of all the scheduled journeys
@@ -94,7 +94,7 @@ To view the entire table in AI Assistant, click the _Maximize_ ( ![Maximize icon
 
 ## Verify responses
 
-AI Assistant includes tools that you can use to verify and validate responses. 
+The chat interface includes tools that you can use to verify and validate responses. 
 
 ### Product knowledge sources
 

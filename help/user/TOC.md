@@ -21,16 +21,15 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [User management](./admin/user-management.md)
     + [User onboarding](./start/get-started.md)
     + [Login and home page](home-page.md)
-+ AI Assistant {#ai-assistant}
++ AI capabilities {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
     + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
     + [Question guidance](./ai-assistant/question-guidance.md)
-    + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
+    + [Chat interface](./ai-assistant/use-ai-assistant.md)
     + [Generative AI for content](./ai-assistant/generative-ai-content.md)
     + Agents {#ai-agents}
        + [Audience Agent B2B](./agents/audience-agent-b2b.md)
        + [Journey Agent B2B](./agents/journey-agent.md)
-       + [Sales Qualifier](./agents/sales-qualifier.md)
 + Journey management {#journeys}
     + [Account and person journeys](./journeys/journeys-overview.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)

@@ -29,7 +29,7 @@ With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
-* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+* [Account Qualification Agent](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}
 
 >[!TAB WhatsApp channel]
 
