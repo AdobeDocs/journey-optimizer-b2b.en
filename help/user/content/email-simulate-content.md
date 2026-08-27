@@ -38,7 +38,7 @@ Use the _Simulate content_ feature to preview the email content and send test de
 >
 >You cannot preview the email if there are errors. To ensure that no errors are blocking the preview functions, check the _Alerts_. Warnings do not block preview, but address them before you publish the journey that triggers the email delivery.
 
-## Display the email preview
+## Display the email preview {#display-preview}
 
 You can access the rendering preview from the [email design space](./email-authoring.md), or from the _[!UICONTROL Summary]_ when you [open an email from the Emails list](./emails-list.md#open-and-edit-emails).
 
@@ -56,13 +56,13 @@ You can access the rendering preview from the [email design space](./email-autho
 
    ![Select a person profile to render the simulation](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   If the _[!UICONTROL People]_ list on the left is empty, [add people](#add-people-to-the-profiles-list) using contacts from the connected Marketo Engage instance.
+   If the _[!UICONTROL People]_ list on the left is empty, [add people](#add-people) using contacts.
 
    >[!TIP]
    >
    >You can also use the [Litmus test rendering integration](./email-test-rendering.md) to check email message rendering in popular desktop, mobile, and web-based clients.
 
-## Adjust the display options
+## Adjust the display options {#display-options}
 
 Use the display tools to change the preview according to the device type or zoom level:
 
@@ -72,7 +72,7 @@ Use the display tools to change the preview according to the device type or zoom
 
 ![Adjust the preview display](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
 
-## Send proofs
+## Send proofs {#send-proofs}
 
 A proof is a delivered test message that allows you and your team members to review an email message before sending it to members of an audience. Recipients of the proof can check the message rendering, content, personalization settings, and configuration. You can send proofs using a selected test profile.
 
@@ -92,7 +92,7 @@ A proof is a delivered test message that allows you and your team members to rev
 
 1. Click **[!UICONTROL Send proof]**.
 
-## Add people to the profiles list
+## Add people to the profiles list {#add-people}
 
 1. At the top of the _[!UICONTROL People]_ list, click **[!UICONTROL Add People]**.
 
@@ -100,7 +100,7 @@ A proof is a delivered test message that allows you and your team members to rev
 
 1. In the _[!UICONTROL Add people for testing]_ dialog, enter the full email address for the contact.
 
-   To add multiple contacts, enter multiple addresses separated by commas.
+   To add multiple contacts, enter the addresses separated by commas.
 
 1. Select the checkbox for each matched contact that you want to add to the list of test profiles.
 
