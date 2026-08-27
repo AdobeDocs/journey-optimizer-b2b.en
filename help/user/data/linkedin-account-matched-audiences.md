@@ -30,7 +30,7 @@ TQID: https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtg
 ---
 # LinkedIn Account Matched audiences
 
-[!DNL Journey Optimizer B2B Edition] offers the ability to generate LinkedIn Ad audiences through Account Matched Audiences, and is designed to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. You can also activate an audience from an account journey from a _Take an action_ node.
+[!DNL Journey Optimizer B2B Edition] offers the ability to generate LinkedIn Ad audiences through Account Matched Audiences, and is designed to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. You can also activate an audience from an account journey from a [_Take an action_ node](../journeys/action-nodes.md).
 
 This feature leverages Experience Platform Destinations to manage some aspects of the integration. There is a limit of ten dataflows.
 
@@ -85,7 +85,7 @@ The name and description for the LinkedIn account are visible for buying groups 
 
 1. Click **[!UICONTROL Save]**.
 
-## Activate the account for buying groups
+## Activate the account for buying groups (#activate-buying-group)
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ Starting with the 2025.10 release, use the _Activate to Destination_ action for 
 
 1. From the node properties on the right, choose the destination.
 
-   * If there are one or more destinations created, you can click **[!UICONTROL Select destination]** to choose an existing destination.
+   * If there are one or more destinations created, click **[!UICONTROL Select destination]** to choose an existing destination.
 
    * If there are no existing destinations, or you want to create a new destination, click **[!UICONTROL Set up destination]**.
 
