@@ -30,17 +30,17 @@ Access people lists from the left navigation to view, create, and manage list me
 
 * On the left navigation, expand **[!UICONTROL Audiences]** and select **[!UICONTROL People lists]**.
 
-   ![Access people lists to manage your person-level audiences](./assets/people-lists-browse.png){width="800" zoomable="yes"}
+   There are two tabs on the page. Select **[!UICONTROL Dynamic lists]** or **[!UICONTROL Static lists]** to switch between the two list types.
 
-There are two tabs on the page. Select **[!UICONTROL Dynamic lists]** or **[!UICONTROL Static lists]** to switch between the two list types.
+* Enter text in the _Search_ field at the top of the list to filter the displayed list by name.
 
-Enter text in the _Search_ field at the top of the list to filter the displayed list by name. Click the _Column settings_ ( ![Column settings icon](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner to select or clear the displayed columns.
+   ![Access people lists to manage your person-level audiences](./assets/people-lists-browse-search.png){width="800" zoomable="yes"}
 
-To view the description for a people list, click the _Information_ ( ![Information icon](../assets/do-not-localize/icon-info.svg) ) icon next to the name.
+* Click the _Column settings_ ( ![Column settings icon](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner to select or clear the displayed columns.
 
 From this page, you can also:
 
-* Create new dynamic and static lists.
+* Create new dynamic and static lists lists.
 * Open a list to review current membership.
 * Apply membership filters.
 
@@ -71,18 +71,20 @@ Static list membership is defined by simple filters that reference person attrib
 
 1. Open the static list and click **[!UICONTROL Add people]** at the top right.
 
-1. In the dialog, define the rules for qualifying profiles by dragging filters from the left panel.
+1. In the _[!UICONTROL Add people]_ dialog, define the rules for qualifying profiles by dragging filters from the left panel.
 
    Filter profiles using any combination of:
 
    * Activity history
-   * Company attributes
+   * Experience Platform enabled person fields
+   * Custom fields
+   * Intent data
    * Person attributes
    * Special filters, such as journey membership
 
    For each filter that you add, click **[!UICONTROL Add constraints]** to refine the matching criteria.
 
-   ![Add filters with constraints to add people to the static list](./assets/people-list-static-add-people-filters.png){width="700" zoomable="yes"}
+   ![Add filters with constraints to add people to the static list](./assets/people-list-static-add-people-filters.png){width="800" zoomable="yes"}
 
 1. Click **[!UICONTROL Done]** to save your changes.
 
@@ -90,7 +92,11 @@ Static list membership is defined by simple filters that reference person attrib
 
    Qualifying members appear in the list after a brief delay.
 
+   <!-- not working yet
+
    ![Members for a static people list](./assets/people-list-static-members.png){width="700" zoomable="yes"}
+
+   -->
 
 ### Remove members {#static-list-remove-members}
 
@@ -98,7 +104,11 @@ Static list membership is defined by simple filters that reference person attrib
 
 1. In the _[!UICONTROL Remove people]_ dialog, add filters to match the members that you want to disqualify.
 
+   <!-- not working yet
+
    ![Add filters to remove people from the static list](./assets/people-list-static-remove-people-filters.png){width="700" zoomable="yes"}
+
+   -->
 
 1. Click **[!UICONTROL Done]** to save your changes.
 
