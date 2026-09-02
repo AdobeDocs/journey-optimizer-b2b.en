@@ -207,9 +207,9 @@ On the right panel with the _[!UICONTROL Styles]_ tab selected, expand the **[!U
 
    ![Font color picker](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## Content - image selection - Marketo DAM {#me-dam}
+## Content - image selection - Internal DAM {#internal-dam}
 
-Choose this type to browse and select an image asset from the Journey Optimizer B2B Edition library or from the connected Market Engage instance. 
+Choose this type to browse and select an image asset from the Journey Optimizer B2B Edition library.
 
 ![Browse the available image assets](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

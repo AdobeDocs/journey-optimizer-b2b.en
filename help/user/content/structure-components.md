@@ -135,21 +135,21 @@ To enable the background image settings, move the toggle selector.
 
 Choose the [asset source type](./assets-overview.md) and select the image file:
 
-+++[!UICONTROL Marketo Engage Assets]
++++[!UICONTROL Select Asset]
 
-{{me-dam}}
-
-+++
-
-+++[!UICONTROL Experience Manager Assets]
-
-{{aem-assets-dam}}
+{{internal-dam}}
 
 +++
    
 +++[!UICONTROL Import media]
 
 {{image-upload}}
+
++++
+
++++[!UICONTROL Experience Manager Assets]
+
+{{aem-assets-dam}}
 
 +++
 
