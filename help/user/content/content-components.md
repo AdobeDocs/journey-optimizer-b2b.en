@@ -564,51 +564,23 @@ Use the [!UICONTROL Image] component to insert an image asset into your content.
 
 Choose the [asset source type](./assets-overview.md) and select an image file:
 
-* **[!UICONTROL Marketo Engage Assets]** - Choose this type to browse and select an image asset from the Journey Optimizer B2B Edition library or from the connected Marketo Engage instance. 
++++[!UICONTROL Select Asset]
 
-  ![Browse the available image assets](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
-  
-   From the dialog, you can choose an image from the selected repository. Click **[!UICONTROL Select]** to add the asset.
-     
-   There are tools available to help you locate the asset that you need: 
-  
-   * Click the _Filter_ icon on the top left to filter the displayed items according to your criteria.
-  
-   * Enter text in the _Search_ field to filter the displayed items for a match of the asset name.
-  
-     ![Use the filters and search field to find the asset that you need](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+{{internal-dam}}
 
-* **[!UICONTROL Experience Manager Assets]** - Choose this type to browse and select an image asset from a [configured Experience Manage Assets repository](../admin/configure-aem-repositories.md). 
-
-   From the _[!UICONTROL Select Assets]_ dialog, choose an image using the available tools to locate the asset that you need and click **[!UICONTROL Select]**.:
++++
    
-   * Change the **[!UICONTROL Repository]** at the top right.
++++[!UICONTROL Import media]
 
-   * Click **[!UICONTROL Manage assets]** at the top right to open the Assets repository in another browser tab and use AEM Assets management tools.
+{{image-upload}}
 
-   * Click the _View type_ selector at the top right to change the display to **[!UICONTROL List View]**, **[!UICONTROL Grid View]**, **[!UICONTROL Gallery View]**, or **[!UICONTROL Waterfall View]**.
++++
 
-   * Click the _Sort order_ icon to change the sort order between ascending and descending.
++++[!UICONTROL Experience Manager Assets]
 
-      ![Use tools in the Select Assets dialog to find and select an image asset](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+{{aem-assets-dam}}
 
-   * Click the **[!UICONTROL Sort by]** menu arrow to change the sort criteria to **[!UICONTROL Name]**, **[!UICONTROL Size]**, or **[!UICONTROL Modified]**.
-
-   * Click the _Filter_ icon on the top left to filter the displayed items according to your criteria.
-
-   * Enter text in the _Search_ field to filter the displayed items for a match of the asset name.
-
-   ![Use the filters and search field to locate the asset](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
-
-* **[!UICONTROL Import media]** - Choose this type to select a file from your system and import it into the Journey Optimizer B2B Edition asset library.
-
-   In the _[!UICONTROL Upload image]_ dialog, drag and drop a file from your system to the file box. The maximum file size is 100 MB.
-
-   ![Import an image file to the](./assets/email-designer-image-upload.png){width="450"}
-
-   The file names of the selected images are displayed in the dialog. Asset file names must be unique (across folders), and if a file with the name already exists, a message is displayed. Names can have a maximum of 100 characters, and cannot contain special characters (such as `;`, `:`, `\`, and `|`). 
-
-   Click **[!UICONTROL Import]**.
++++
 
 You can add an image title and alt text for the image in the right panel.
 
@@ -705,7 +677,7 @@ Use the _Social_ component to insert links to social media pages into your conte
 With a social media type selected, set the options for that type:
 
 * **[!UICONTROL URL]** - Enter the social media URL that you want to link to the social media graphic or icon. 
-* **[!UICONTROL Source]** - If you want to use your own image instead of the default, choose an image asset. You can select an image from the connected Marketo Engage asset repository, an Experience Manager Assets repository (if configured), or import an image file from your system. Refer to the [Image component information](#add-the-image-asset) for details about selecting and importing image assets.
+* **[!UICONTROL Source]** - If you want to use your own image instead of the default, select an image asset or import an image file from your system. Refer to the [Image component information](#add-the-image-asset) for details about selecting and importing image assets.
 * **[!UICONTROL Alt text]** - Enter the alt text for the displayed image.
 
    ![Settings for the selected social media type](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -758,8 +730,6 @@ You can set the following style options for the _Social_ component:
 
 ### Form (landing pages only) {#form}
 
-[!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Beta feature"}
-
 Use the _Form_ component to add a published form to a landing page or landing page template. For more information about creating and publishing forms, see [Forms](./forms.md).
 
 1. Click the _Form_ tool in the component toolbar, or use the **[!UICONTROL Embed Form]** properties on the right to select the published form. 
@@ -772,7 +742,7 @@ Use the _Form_ component to add a published form to a landing page or landing pa
 
    * **[!UICONTROL Stay on page]** - Choose this option to keep the visitor on the same page when the form is submitted.
 
-   * **[!UICONTROL Landing page]** - Choose this option to select any Journey Optimizer B2B Edition or Marketo Engage landing page as the follow-up.
+   * **[!UICONTROL Landing page]** - Choose this option to select any Journey Optimizer B2B Edition landing page as the follow-up.
 
    * **[!UICONTROL External URL]** - Choose this option to specify any URL as the follow-up page. After the visitor submits the form, the browser loads the designated URL.
 
