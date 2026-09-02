@@ -43,9 +43,9 @@ Before creating SMS messages for account journeys, make sure that the [SMS servi
 >
 >**SMS consent management**<br/>
 >
->In accordance with the industry standards and regulations, all SMS marketing messages must contain a way for the recipients to unsubscribe easily. To do this, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored. In addition, any custom keywords configured for your SMS service provider account are supported and honored. For details about how SMS consent preferences are evaluated at delivery time, see [Consent preferences](./channels-consent-preferences.md).
+>In accordance with industry standards and regulations, all SMS marketing messages must contain a way for the recipients to unsubscribe easily. To do this, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored. In addition, any custom keywords configured for your SMS service provider account are supported and honored. For details about how SMS consent preferences are evaluated at delivery time, see [Consent preferences](./channels-consent-preferences.md).
 
-## Add an SMS action in an account journey
+## Add an SMS action in an account journey {#add-action}
 
 You can set up text message deliveries in an account journey when you add a _[!UICONTROL Take an action]_ node and do the following:
 
@@ -65,7 +65,7 @@ You can set up text message deliveries in an account journey when you add a _[!U
 
    The _Journey map_ opens and you can create the message and set the SMS properties for sending the message.
 
-### Create the SMS message
+### Create the SMS message {#create-message}
 
 Enter the text that you want to send in the **[!UICONTROL Message]** field.
 
@@ -73,7 +73,7 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
 ![Compose the SMS message](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-#### Personalize the text message
+#### Personalize the text message {#personalize}
 
 1. Place your cursor at the location in the message where you want to add the personalization token.
 
@@ -95,19 +95,20 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
    You can continue to edit the message with the tokens as needed. 
 
-#### Add links (URLs) to the text message
+#### Add links (URLs) to the text message {#add-links}
 
 1. After entering your message text, click the _Link_ icon ( ![Link icon](../assets/do-not-localize/icon-link.svg) ) to the right of the text message box.
 
 1. Enter the **[!UICONTROL URL]** for the link.
 
-<!--
+
 1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
+   * **[!UICONTROL Landing Page]** - Choose this option to select any of the published landing pages.
 
    * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. 
--->
+
+<!--
 
 1. If you choose to use a Marketo Engage landing page, set the tracking options.
 
@@ -120,11 +121,13 @@ You can create a message of up to 1600 characters, with every 160 characters con
       >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
       >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
-   ![Add link dialog for SMS message](./assets/sms-add-link-dialog.png){width="470"}
+-->
   
+   ![Add link dialog for SMS message](./assets/sms-add-link-dialog.png){width="470"}
+
 1. When the link options are complete, click **[!UICONTROL Add]** to save the changes and add the URL link to the SMS message.
 
-### Set the SMS properties
+### Set the SMS properties {#sms-properties}
 
 1. In the _[!UICONTROL SMS properties]_ section, enter a **[!UICONTROL Name]** (required, 100 character maximum) and **[!UICONTROL Description]** (optional, 300 character maximum) for your message. 
 
@@ -164,7 +167,7 @@ When your message content is defined, you can use test profiles to simulate (pre
 
 1. Use the _Simulate Content_ page to manage the leads used for your test profile.
 
-   In the displayed list, you can search for and add any of the leads (up to 10 leads at a time) from the Marketo Engage lead database.
+   In the displayed list, you can search for and add any of the leads (up to 10 leads at a time).
 
    To search, enter the whole email address and press _Enter_. The corresponding lead profile is displayed for selection.
 
@@ -180,11 +183,11 @@ When your message content is defined, you can use test profiles to simulate (pre
 
    You can also select a lead from the selector above the preview space to update the SMS preview on the page for the corresponding lead.
 
-1. To exit the _[!UICONTROL Simulate Content]_ page and return back to the SMS authoring workspace, click **[!UICONTROL Close]** at the top right.
+1. To exit the _[!UICONTROL Simulate Content]_ page and return to the SMS authoring workspace, click **[!UICONTROL Close]** at the top right.
 
-## SMS consent management
+## SMS consent management {#consent-management}
 
-Providing recipients the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function helps you avoid sending unsolicited communications to your recipients, which could cause them to mark your messages as spam and harm your reputation. 
+Providing recipients with the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function helps you avoid sending unsolicited communications to your recipients. This prevents them from marking your messages as spam and harming your reputation. 
 
 When you provide this option, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored, as are any custom keywords that are configured with the SMS service provider. When unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
 
@@ -192,4 +195,4 @@ Journey Optimizer B2B Edition provides the ability to manage opt-out in SMS mess
 
 * By default, if a lead has opted out from receiving communications from you, the corresponding profile is excluded from subsequent SMS deliveries
 
-* This lead consent coming from different sources (such as AEP or the SMS service provider) is synced to Journey Optimizer B2B Edition. Currently, it supports only a single consent state per lead at the instance level (a lead 'John Doe' is either subscribed to or unsubscribed from all promotional SMS in the instance). It does not currently support double opt-in on brand level/individual subscription list level consent.
+* This lead consent, coming from different sources (such as AEP or the SMS service provider), is synced to Journey Optimizer B2B Edition. Currently, it supports only a single consent state per lead at the instance level (a lead 'John Doe' is either subscribed to or unsubscribed from all promotional SMS in the instance). It does not currently support double opt-in on brand level/individual subscription list level consent.
