@@ -26,7 +26,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Take an action
 
-To execute an action, such as sending an email, changing a score, or assigning to a buying group, you can add a _[!UICONTROL Take an action]_ node in your journey. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action.
+To execute an action, such as sending an email, changing a score, or assigning to a buying group, add a _[!UICONTROL Take an action]_ node in your journey. Actions are typically what you want to happen as a result of some kind of trigger, such as an event or a previous action.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -137,12 +137,6 @@ In an account or person journey, use an action on people when you want to apply 
 | | [!UICONTROL Add to Marketo list] | <li>Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
 | | [!UICONTROL Remove from Marketo list] | <li>Account journey <li>Person journey | <li>Name of external Marketo connection <li>List name |
 
->[!NOTE]
->
->The _[!UICONTROL Change People Partition in Marketo Engage]_ and _[!UICONTROL Change Score]_ actions are deprecated for the 2025.10 release and are no longer available in Journey Optimizer B2B Edition.<br/>
->
->The _[!UICONTROL Change Data Value]_ action is deprecated for the 2025.10 release. It is replaced with _[!UICONTROL Update person profile]_ in the current Journey Optimizer B2B Edition release.
-
 ### Add a people-based action
 
 1. Navigate to the journey map.
@@ -226,14 +220,6 @@ Use this action to add people profiles to a [buying group](../buying-groups/buyi
 
 +++
 
-+++[!UICONTROL Change Score]
-
-Use this action to change the person score in Marketo Engage. [Learn more](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
-
-![Take an action - Change score](./assets/node-action-change-score.png){width="300"}
-
-+++
-
 +++[!UICONTROL Person Interesting Moment]
 
 Use this action to log an interesting moment for people. Choose a type (Email, Milestone, or Web) and add a description (optional).
@@ -254,7 +240,7 @@ Use this action to [create personalized experiences](../content/web-experiences.
 
 Use this action to remove people profiles from a [buying group](../buying-groups/buying-groups-overview.md) based on a selected solution interest.
 
-![Take an action - Add to Buying Group](./assets/node-action-remove-from-buying-group.png){width="300"}
+![Take an action - Remove from Buying Group](./assets/node-action-remove-from-buying-group.png){width="300"}
 
 +++
 
@@ -270,9 +256,9 @@ Use the **[!UICONTROL Select Person Journey]** selector to specify the person jo
 
 +++[!UICONTROL Send email]
 
-Use this action to send an email. After you [create the email](../content/add-email.md#add-an-email-action-node-in-a-journey) for the node, you can design, personalize, and preview email messages in the email design space (see [Email authoring](../content/email-authoring.md)). You can also send an [email from Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Select the Marketo Engage workspace and then select the email to send.
+Use this action to send an email. After you [create the email](../content/add-email.md#send-email-node) for the node, you can design, personalize, and preview email messages in the email design space (see [Email authoring](../content/email-authoring.md)).
 
-![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"}
+![Take an action - Send email](./assets/node-action-send-email.png){width="300"}
 
 For person journeys, use [Send-time optimization](../content/email-send-time-optimization.md) to personalize email delivery timing by predicting when each profile is most likely to engage.
 
@@ -308,7 +294,7 @@ Use this action to change the value of a [people profile attribute](../admin/fie
 >
 >The _[!UICONTROL Update person profile]_ action replaces the _[!UICONTROL Change Data Value]_ action in the current Journey Optimizer B2B Edition release.<br/>
 >
->An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Configurations]_ > [!UICONTROL Standard classes]. For more information, see [Standard schemas](../admin/xdm-field-management.md#standard-schemas).
+>An administrator can configure the available attributes for the XDM Individual Profile by updating the fields in the _[!UICONTROL XDM Configurations]_ > _[!UICONTROL Standard classes]_. For more information, see [Standard schemas](../admin/xdm-field-management.md#standard-schemas).
 
 +++
 
@@ -318,7 +304,7 @@ The [!DNL Marketo Engage] people-based actions are designed to coordinate your A
 
 >[!NOTE]
 >
->The Marketo Engage actions require configured integration with one or more external Marketo Engage instances. For detailed information about this configuration, see [_Activate Marketo Engage connections to support actions_](../admin/marketo-actions-connect.md).
+>The Marketo Engage actions require configured integration with one or more external Marketo Engage instances. To find detailed information about this configuration, see [_Activate Marketo Engage connections to support actions_](../admin/marketo-actions-connect.md).
 
 For example, suppress campaigns in Marketo Engage for people that are part of buying groups in Journey Optimizer B2B Edition. In this case, you can create a static list in Marketo Engage specifically for the solution interest. Then, on a split path by buying group, use the _Add to Marketo list_ action from a journey node. This action adds buying group members to a particular static list in a connected Marketo Engage instance. Then, use the solution interest focused static list for a smart list filter in Marketo Engage.
 

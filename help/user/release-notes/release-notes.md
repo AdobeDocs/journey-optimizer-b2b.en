@@ -163,7 +163,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Activate to destination for journeys | Use the new _Activate to destination_ company account action to activate directly to companies, rather than individuals. (Limited to LinkedIn companies for this release.) [Learn more](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Feature | Activate to destination for journeys | Use the new _Activate to destination_ company account action to activate directly to companies, rather than individuals. (Limited to LinkedIn companies for this release.) [Learn more](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Feature | Brand themes | With brand themes, non-technical users now have the ability to create reusable content that fits a specific brand and design language by adding custom styling on top of the standard templates. [Learn more](../content/brand-themes.md) |
 | Feature | Email templates - convert image to HTML | You can now use your design files stored as JPG or PNG image files and automatically generate email templates. [Learn more](../content/email-template-image-convert.md) |
 | Feature | Persona mapping | Tie account members with established personas with attribute mapping. [Learn more](../admin/persona-mapping.md) |
@@ -281,7 +281,7 @@ This release includes the following new capabilities and enhancements:
 | ---- | ---- | ----------- |
 | Feature | Account lists | You can now create a static or dynamic account list to target named accounts by your defined criteria, such as industry, location, or size of the company. <a href="../accounts/account-lists.md">Learn more</a> |
 | Feature | Account list journey orchestration | Use journey action nodes to add and remove accounts for static account lists. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Learn more</a> |
-| Enhancement | Filter journey membership in Marketo Engage | Use Adobe Journey Optimizer B2B Edition account lists for the journey audience and then use the _Member of an account list_ filter in Marketo Engage smart lists. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Learn more</a> |
+| Enhancement | Filter journey membership in Marketo Engage | Use Adobe Journey Optimizer B2B Edition account lists for the journey audience and then use the _Member of an account list_ filter in Marketo Engage smart lists. |
 | Feature | Inactivity filters | Orchestrate journeys based on inactivity within Marketo Engage campaigns and programs, including email inactivity, interesting moments, data value changes, and visited web pages. |
 | Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. |
 | Enhancement | Emails list | View a global list of active and draft emails to search, review, and update them across the associated account journeys. <a href="../content/emails-list.md">Learn more</a> |
