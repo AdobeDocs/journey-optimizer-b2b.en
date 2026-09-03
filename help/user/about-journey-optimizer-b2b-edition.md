@@ -22,7 +22,7 @@ TQID: https://experienceleague.adobe.com/L58cK4MP-S-8U9fFiXU2qZn4HCieNzjoOaSRCLk
 ---
 # Adobe Journey Optimizer B2B Edition overview
 
-With Adobe Journey Optimizer B2B Edition, you can orchestrate account and buying group journeys using built-in generative AI and industry-leading automation to maximize demand for specific offerings using marketing-qualified buying groups. 
+With Adobe Journey Optimizer B2B Edition, you can orchestrate person and account journeys using built-in generative AI and industry-leading automation to maximize demand for specific offerings using marketing-qualified buying groups. 
 
 ## Account journeys with buying groups
 
@@ -36,7 +36,7 @@ A dedicated Marketo Engage instance supports each Journey Optimizer B2B Edition 
 
 To support journey actions, you can also connect one or more of your existing Marketo Engage instances, including your production instance. Journey actions let marketers coordinate account-based journeys in Journey Optimizer B2B Edition with lead-based campaigns in Marketo Engage, such as adding people to a list or a request campaign. [Learn more about connecting Marketo Engage instances](./admin/marketo-actions-connect.md).
 
-![High-level data architecture showing Journey Optimizer B2B Edition connected to Adobe Experience Platform as the source of truth for account and people audiences, a dedicated Marketo Engage instance that provides entitlements and backend services, and an optional production Marketo Engage instance used to run journey actions.](./assets/high-level-data-architecture.png){width="700" zoomable="yes"}
+![High-level data architecture showing Journey Optimizer B2B Edition connected to Adobe Experience Platform as the source of truth for account and people audiences, a dedicated Marketo Engage instance that provides entitlements and backend services, and an optional production Marketo Engage instance used to run journey actions.](./assets/high-level-data-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
