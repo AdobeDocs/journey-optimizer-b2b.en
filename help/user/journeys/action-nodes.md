@@ -125,7 +125,6 @@ In an account or person journey, use an action on people when you want to apply 
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Add Person to (other) journey] | <li>Account journey (Action on People) <li>Person journey| <li>Select live Person Journey |
 | | [!UICONTROL Add to external customer audience] | <li>Account journey <li>Person journey | <li>Select external customer audience |
 | | [!UICONTROL Assign to Buying Group] | <li>Account journey | <li>Select solution interest <li>Select role |
-| | [!UICONTROL Change Score] | <li>Account journey | <li>Score name <li>Change in score |
 | | [!UICONTROL Person Interesting Moment] | <li>Account journey <li>Person journey | <li>Type <li>Description |
 | | [!UICONTROL Personalize web experience] (Beta) | <li>Account journey | <li>Create/edit web experience |
 | | [!UICONTROL Remove from Buying Group] | <li>Account journey | <li>Select solution interest |

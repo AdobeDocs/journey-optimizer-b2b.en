@@ -99,33 +99,29 @@ You can create a message of up to 1600 characters, with every 160 characters con
 
 1. After entering your message text, click the _Link_ icon ( ![Link icon](../assets/do-not-localize/icon-link.svg) ) to the right of the text message box.
 
-1. Enter the **[!UICONTROL URL]** for the link.
-
-
 1. In the dialog, choose the type of URLs to link:
 
    * **[!UICONTROL Landing Page]** - Choose this option to select any of the published landing pages.
 
-   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. 
+   * **[!UICONTROL External URL]** - Choose this option to link any external URL. Enter the **[!UICONTROL URL]** for the link.
+
+      ![Add link dialog for SMS message](./assets/sms-add-link-dialog.png){width="470"}
+
+1. (Optional) Set the tracking options.
+
+   * **[!UICONTROL Enable Link Tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
+
+   * **[!UICONTROL Enable Lead Tracking]** - Select this checkbox to track activity against a user.</br>
 
 <!--
-
-1. If you choose to use a Marketo Engage landing page, set the tracking options.
-
-   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
-
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
-
       >[!NOTE] 
       >
-      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
       >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
-  
-   ![Add link dialog for SMS message](./assets/sms-add-link-dialog.png){width="470"}
 
-1. When the link options are complete, click **[!UICONTROL Add]** to save the changes and add the URL link to the SMS message.
+1. When the link options are complete, click **[!UICONTROL Add]** to add the URL link to the SMS message.
 
 ### Set the SMS properties {#sms-properties}
 
@@ -187,7 +183,7 @@ When your message content is defined, you can use test profiles to simulate (pre
 
 ## SMS consent management {#consent-management}
 
-Providing recipients with the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function helps you avoid sending unsolicited communications to your recipients. This prevents them from marking your messages as spam and harming your reputation. 
+Providing recipients with the capability to unsubscribe from receiving communications from a brand and honoring this choice is a legal requirement. Failing to comply with these regulations introduces legal risks for your brand. This function helps you avoid sending unsolicited communications to your recipients. This prevents them from marking your messages as spam and damaging your reputation. 
 
 When you provide this option, SMS recipients can reply with opt-in and opt-out keywords. All standard opt-in and opt-out keywords are supported and honored, as are any custom keywords that are configured with the SMS service provider. When unsubscribed, the profiles are automatically removed from the audience of future marketing messages. 
 
