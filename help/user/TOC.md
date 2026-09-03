@@ -89,7 +89,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [In-CRM Insights](./buying-groups/incrm-insights.md)
     + Account lists {#account-lists}    
        + [Overview](./accounts/account-lists.md)
-       + [Use in journeys and programs](./accounts/account-lists-journeys.md)
+       + [Use in journeys](./accounts/account-lists-journeys.md)
     + Sales experience {#sales-experience}
       + [Account details](./accounts/account-details.md)
       + [Buying group details](./buying-groups/buying-group-details.md)
