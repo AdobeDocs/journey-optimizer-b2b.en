@@ -35,13 +35,9 @@ In Journey Optimizer B2B Edition, an account list is a collection of named accou
 * **Static** - With a static account list, the list only changes when you add the accounts. You can manually add accounts by applying a filter set to populate the list based on current account data, or add and remove accounts through an account journey. 
 * **Dynamic** - With a dynamic account list, you define a filter set for automatically curating the list. The system uses this filter set to add and remove accounts according to changes in the account information. This list management is similar to [audience segmentation in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
-When an account list is in a _Live_ (published) state, it is available for [use in account journeys and Marketo Engage programs](./account-lists-journeys.md).
+When an account list is in a _Live_ (published) state, it is available for [use in account journeys](./account-lists-journeys.md).
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video)
-
->[!NOTE]
->
->Account lists leverage account data from Marketo Engage to create account segments and lists. This means that if an account segment from Adobe Experience Platform is not actively synced to Marketo Engage, accounts in that Experience Platform segment may not be available in Journey Optimizer B2B Edition account lists. Subsequently, only people from accounts in Experience Platform segments that are synced to Marketo Engage are included in person membership counts and trigger events.
 
 ## Access and browse account lists
 
