@@ -155,7 +155,8 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
     + [Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
-    + [Governance and privacy](./admin/governance.md)
+    + [Governance](./admin/governance.md)
+    + [Privacy management](./admin/privacy-management.md)
     + [Persona mapping](./admin/persona-mapping.md)
     + Configurations {#configurations}
        + [AEM Assets repositories](./admin/configure-aem-repositories.md)
