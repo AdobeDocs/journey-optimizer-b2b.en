@@ -1,9 +1,11 @@
 ---
 title: External Nodes
-description: Learn how to use External Action and External Split Path nodes in account journeys to connect with external services and route accounts and people based on the service response.
-feature: Account Journeys, Integrations
+description: Learn how to use External Action and External Split Path journey nodes to connect with external services and route accounts and people based on the service response.
+feature: Account Journeys, Person Journeys, Integrations
 role: User
 exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
+autotag-review: '2026-08-05T21:23:02.338Z'
+TQID: 'https://experienceleague.adobe.com/SM3jr1AuPhUHuSHFUpf35omVUPOdubXbOrC8ZnJYdWE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -15,40 +17,39 @@ feature_v2:
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
     internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # External nodes
 
-Use external nodes to connect your account journey with an external service. When an account audience reaches one of these nodes, Journey Optimizer B2B Edition asynchronously sends audience attribute data to the external service. The service processes the data and responds using a callback, returning audience information and metadata that the journey uses to continue.
+Use external nodes to connect your journey with an external service. When an audience reaches one of these nodes, [!DNL Journey Optimizer B2B Edition] asynchronously sends audience attribute data to the external service. The service processes the data and responds using a callback, returning audience information and metadata that the journey uses to proceed.
 
 >[!NOTE]
 >
->External action nodes are available only in account journeys. They are not supported in person journeys.
->
->An administrator must [configure and activate the external action](../admin/configure-external-actions.md) before marketers add and implement these nodes in a journey.
+>An administrator must [configure and activate the external action](../admin/configure-external-actions.md) before marketers can add and implement these nodes in a journey.
 
 There are two external action node types:
 
 * **[External action](#external-action)** – Calls an external service and continues along a single outgoing path. Use this node when you want to trigger an external process without branching logic, such as updating a record in an external system or sending a signal to a downstream service.
-* **[External split paths](#external-split-paths)** – Calls an external service and evaluates the response to route accounts along one of several defined paths. Use this node when the external service returns a value, such as a score, tier, or classification, that determines the next step in the journey.
+* **[External split paths](#external-split-paths)** – Calls an external service and evaluates the response to route accounts or people along one of several defined paths. Use this node when the external service returns a value, such as a score or tier, that determines the next step in the journey.
 
 ## External action node {#external-action}
 
 The _External action_ node calls an external service and continues along a single outgoing path, regardless of the response content. Use it for integrations where no branching is needed after the external call.
 
-1. Navigate to the account journey map.
+1. Navigate to the account or person journey canvas.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL External action]**.
 
    ![Add an External action node](./assets/node-external-action.png){width="400"}
 
-1. In the node properties on the right, set the **[!UICONTROL Action on]** context for the external action:
+1. (Account journeys only) In the node properties on the right, set the **[!UICONTROL Action on]** context for the external action:
 
    * Choose **[!UICONTROL Accounts]** when you want to apply the external action to all people that are part of accounts on the node path.
    * Choose **[!UICONTROL People]** when you want to apply a change to all people on the node path.
@@ -63,19 +64,19 @@ The _External action_ node calls an external service and continues along a singl
 
 1. Continue building the journey from the outgoing paths of the node.
 
-   The _[!UICONTROL Timeout or error]_ path is automatically created. If the timeout period (as configured in the service) elapses before a response is received, the account or person progresses down this path. The same applies if an error response is received. To handle these scenarios, you can add journey nodes to this path, or the journey ends for the audience member.
+   The _[!UICONTROL Timeout or error]_ path is automatically created. If the timeout period (as configured in the service) elapses before a response is received, the account or person progresses down this path. The same applies if an error response is received. To handle these scenarios, you can add journey nodes to this path, or the journey terminates for the audience member.
 
 ## External split paths node {#external-split-paths}
 
-The External split paths node calls an external service and uses the response to determine which path accounts take next. A condition based on a variable (accessor) returned by the external service defines each path. The journey evaluates the response against the defined path conditions and routes each account along the first matching path. Path conditions are evaluated in top-down order. Each account proceeds along the first path whose condition matches the value returned by the external service.
+The External split paths node calls an external service and uses the response to determine which path accounts or people take next. A condition based on a variable (accessor) returned by the external service defines each path. The journey evaluates the response against the defined path conditions and routes each account or person along the first matching path. Path conditions are evaluated in top-down order. Each account or person proceeds along the first path whose condition matches the value returned by the external service.
 
-1. Navigate to the account journey map.
+1. Navigate to the account or person journey canvas.
 
 1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL External split paths]**.
 
    ![Add an External split path node](./assets/node-external-split-path.png){width="400"}
 
-1. In the node properties on the right, choose a **[!UICONTROL Split paths by]** type:
+1. (Account journeys only) In the node properties on the right, choose a **[!UICONTROL Split paths by]** type:
 
    * **[!UICONTROL Accounts]** - For split paths by accounts, you can add both account and people nodes within the defined paths. 
    * **[!UICONTROL People]** - For split paths by people, you can add only people action nodes within the defined paths. A people-based split is automatically closed with a _[!UICONTROL Merge paths]_ node so that all people can move forward to the next step without losing their account context.
