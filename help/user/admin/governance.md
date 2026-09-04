@@ -29,13 +29,13 @@ TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRog
 
 ## Privacy
 
-There are various regulations that apply to [!DNL Journey Optimizer B2B Edition] customers who hold data for Data Subjects residing in the respective regions or countries mentioned above (EU, California, Thailand, Brazil, New Zealand). This information on this page is not legal advice and does not warrant your compliance with applicable law.
+Various regulations apply to [!DNL Journey Optimizer B2B Edition] users holding data for Data Subjects in regions such as the EU, California, Thailand, Brazil, and New Zealand. The information provided in this page is not legal advice and does not warrant your compliance with applicable law.
 
 ### GDPR
 
 General Data Protection Regulation (GDPR) is the European Union's (EU) privacy law that harmonizes and modernizes [data protection requirements](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} for EU countries.
 
-[!DNL Journey Optimizer B2B Edition] uses the existing Marketo Engage GDPR governance features provided by the Privacy Service and Marketo Privacy Broker Service.
+[!DNL Journey Optimizer B2B Edition] uses the existing Experience Platform GDPR governance feature provided by the Privacy Service. For information about submitting and managing access and delete requests, see [_Privacy management_](./privacy-management.md).
 
 ### CNIL
 
@@ -43,9 +43,9 @@ On April 14, 2026, the Commission nationale de l'informatique et des libertés (
 
 CNIL provided a three-month period from the date of the recommendation for companies to inform their email recipients of the presence of the tracking pixels, their purpose, and the recipients' right to opt-out. During this transition period, Marketo Engage users are expected to notify their recipients about pixel tracking and provide an opt-out if necessary. CNIL is expected to begin enforcement activities after July 14, 2026.
 
-As the CNIL and other regulators clarify guidance on tracking pixels and related issues, Adobe will continue to monitor updates and inform you of changing technical capabilities.
+As the CNIL and other regulators clarify guidance on tracking pixels and related issues, Adobe monitors updates and informs you of changing technical capabilities.
 
-[!DNL Journey Optimizer B2B Edition] offers controls that help you manage open tracking at the email level. Users are responsible for determining their own compliance obligations under applicable CNIL guidance and other laws. For infromation about using these capabilities to manage email open tracking, see [_Manage email tracking_](../content/email-tracking-manage.md).
+[!DNL Journey Optimizer B2B Edition] offers controls that help you manage open tracking at the email level. Users are responsible for determining their own compliance obligations under applicable CNIL guidance and other laws. For information about using these capabilities to manage email open tracking, see [_Manage email tracking_](../content/email-tracking-manage.md).
 
 ## Role-based access control (RBAC)
 
@@ -53,9 +53,9 @@ With Journey Optimizer B2B Edition and access to the Adobe Admin Console, admini
 
 ## Data encryption
 
-**_Encryption for data at rest_** - All account and person profile data transferred from Adobe Experience Platform into Journey Optimizer B2B Edition are encrypted to maintain the existing compliance from Experience Platform. All entities originating in Journey Optimizer B2B Edition, such as journeys and buying groups, are also encrypted.
+**_Encryption for data at rest_** — All account and person profile data transferred from Adobe Experience Platform into Journey Optimizer B2B Edition are encrypted to maintain the existing compliance from Experience Platform. All entities originating in Journey Optimizer B2B Edition, such as journeys and buying groups, are also encrypted.
 
-**_Encryption for data in transit_** (over a public network) - All Journey Optimizer B2B Edition APIs and entities are encrypted in transit using TLS 1.2. 
+**_Encryption for data in transit_** (over a public network) — All Journey Optimizer B2B Edition APIs and entities are encrypted in transit using TLS 1.2. 
 
 ## Consent opt-in/opt-out
 
@@ -67,7 +67,7 @@ For details on the XDM attributes evaluated for each channel and their default b
 
 ## Sandbox reset
 
-Sandbox reset is **not currently supported** for Adobe Journey Optimizer B2B Edition. Resetting or deleting a sandbox mapped to Journey Optimizer B2B Edition may cause permanent data loss and require provisioning a new instance.
+Sandbox reset is **not currently supported** for Adobe Journey Optimizer B2B Edition. Resetting or deleting a sandbox mapped to [!DNL Journey Optimizer B2B Edition] could cause permanent data loss and require provisioning a new instance.
 
 ## Not yet available
 
