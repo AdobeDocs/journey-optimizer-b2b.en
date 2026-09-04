@@ -35,7 +35,7 @@ There are various regulations that apply to [!DNL Journey Optimizer B2B Edition]
 
 General Data Protection Regulation (GDPR) is the European Union's (EU) privacy law that harmonizes and modernizes [data protection requirements](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} for EU countries.
 
-[!DNL Journey Optimizer B2B Edition] uses the existing Marketo Engage GDPR governance features provided by the Privacy Service and Marketo Privacy Broker Service. For information about submitting and managing access and delete requests, see [_Privacy management_](./privacy-management.md).
+[!DNL Journey Optimizer B2B Edition] uses the existing Experience Platform GDPR governance feature provided by the Privacy Service. For information about submitting and managing access and delete requests, see [_Privacy management_](./privacy-management.md).
 
 ### CNIL
 
