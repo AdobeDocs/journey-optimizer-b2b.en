@@ -45,9 +45,9 @@ Building conditional email personalization, such as switching language blocks by
 
 >[!IMPORTANT]
 >
->User access to Script Builder is controlled through the same permissions used for other generative AI capabilities in [!DNL Journey Optimizer B2B Edition]. For information about granting feature permissions, see [Enable AI Assistant access](../ai-assistant/enable-ai-assistant-access.md).
+>User access to Script Builder is controlled through the same permissions used for other generative AI capabilities in [!DNL Journey Optimizer B2B Edition]. For information about granting feature permissions, see [Enable AI Assistant access](../ai-coworker/enable-ai-assistant-access.md).
 
-Before you use Script Builder, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations) that apply to generative AI features in [!DNL Journey Optimizer B2B Edition]. [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities.
+Before you use Script Builder, review the [guidelines and limitations](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations) that apply to generative AI features in [!DNL Journey Optimizer B2B Edition]. [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities.
 
 Familiarize yourself with the [Handlebars templating language](https://handlebarsjs.com/guide/){target="_blank"}, the [personalization syntax](./personalization-syntax.md), and the [helper functions](./personalization-helper-functions.md) supported in [!DNL Journey Optimizer B2B Edition]. Script Builder generates valid Handlebars for you, but understanding the syntax helps you review and edit the output with confidence.
 
