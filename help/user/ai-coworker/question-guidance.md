@@ -4,6 +4,7 @@ description: Write effective AI Assistant questions with best practices, example
 feature: AI Assistant
 role: User
 level: Beginner
+nudge:true
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
 autotag-review: '2026-06-05T16:08:18.792Z'
 TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
