@@ -4,7 +4,6 @@ description: Grant AI Assistant permissions for users through the Permissions UI
 feature: AI Assistant
 role: Admin
 level: Beginner
-nudge:true
 exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
 autotag-review: '2026-06-05T16:06:10.567Z'
 TQID: 'https://experienceleague.adobe.com/RALU5t875VAW-D5o8smGTo3-JAL-bkmHsDrjaMEBT6U'
