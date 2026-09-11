@@ -4,6 +4,7 @@ description: Accelerate workflows with AI Assistant - get product knowledge, tro
 feature: AI Assistant
 role: User, Admin
 level: Beginner
+nudge:true
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
