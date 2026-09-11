@@ -1,5 +1,5 @@
 ---
-title: Intent Data
+title: Intent Data Configuration
 description: Configure intent data with keyword mapping to predict customer interest and buying signals for account-based marketing in Journey Optimizer B2B Edition.
 feature: Setup, Intent, Account Insights
 roles: Admin
@@ -23,16 +23,13 @@ topic_v2:
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
 ---
-# Intent data
+# Intent data configuration
 
-In Journey Optimizer B2B Edition, the Intent Detection model predicts a solution/product of interest with high enough confidence based on a lead's activity. It also leverages other account co-members' activities, along with tagged content. The intent of a person can be interpreted as the probability of having interest in a product.
+In [!DNL Adobe Journey Optimizer B2B Edition], the Intent Detection model predicts a solution/product of interest with high enough confidence based on a lead's activity. It also leverages other account co-members' activities, along with tagged content. The intent of a person can be interpreted as the probability of having interest in a product.
 
-* Levels of intent - Available on known lead, account, and buying group level.
-* Types of intent signal -  Keywords, product, and solution
+For more information about intent score calculation, see [_Intent scores_](../ai-coworker/intent-scores.md).
 
 The intent data is used in the [_Intelligent Dashboard_](../dashboards/intelligent-dashboard.md), [_Account details_ page](../accounts/account-details.md), [_Buying group details_ page](../buying-groups/buying-group-details.md), and [_Person details_ page](../accounts/person-details.md). 
-
-![Intent data visualization](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## Prepare your intent mapping data
 

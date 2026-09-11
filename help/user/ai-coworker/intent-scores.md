@@ -33,9 +33,11 @@ topic_v2:
 
 An intent score measures how interested a person or account is in a keyword, product, or product category. Adobe Journey Optimizer B2B Edition calculates the score using machine learning that measures similarity in meaning, rather than manual rules or a fixed point system. Every score is normalized from 0 to 1, with higher numbers indicating stronger intent.
 
-Content relevance refreshes roughly every 12 hours, and intent scores recalculate daily. Scores aggregate from keyword to product, and from person to account. Intent scores appear throughout the [Intelligent Dashboard](../dashboards/intelligent-dashboard.md), and on the [account details](../accounts/account-details.md) and [person details](../accounts/person-details.md) pages.
+Content relevance refreshes roughly every 12 hours, and intent scores recalculate daily. Scores aggregate from keyword to product, and from person to account. Intent scores appear throughout the [Intelligent Dashboard](../dashboards/intelligent-dashboard.md), and on the [account details](../accounts/account-details.md), [_Buying group details_ page](../buying-groups/buying-group-details.md), and [person details](../accounts/person-details.md) pages.
 
-This page explains the core concepts behind intent scoring, the continuous process that keeps scores current, the calculation logic behind each score, and the settings you can configure.
+![Intent data visualization](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
+
+The following sections explain the core concepts behind intent scoring, the continuous process that keeps scores current, the calculation logic behind each score, and the settings you can configure.
 
 ## Core concepts {#core-concepts}
 
@@ -49,7 +51,7 @@ Intent detection measures how closely what a person engages with matches your pr
 
 ### Default taxonomy and updates {#taxonomy}
 
-Your taxonomy, the keywords, products, and categories that intent is measured against, comes ready to use with no setup required.
+Your taxonomy, the keywords, products, and categories that intent is measured against, is available for use with no setup required.
 
 You can review and update taxonomy mappings at any time on the _[!UICONTROL Intent Mapping]_ page. See [Intent data](../admin/intent-data.md) for the taxonomy setup process.
 
@@ -101,7 +103,7 @@ Engagement and content relevance combine into one daily intent score per person,
 
 ### Score delivery {#score-delivery}
 
-Daily scores roll up, receive an intent level, and are delivered to your dashboard.
+Daily scores aggregate, receive an intent level, and are delivered to your dashboard.
 
 * Each score is tagged with an intent level of High, Medium, or Low.
 * Scores link to the correct account so sales and marketing teams can see both person-level and account-level intent.
@@ -110,7 +112,7 @@ Daily scores roll up, receive an intent level, and are delivered to your dashboa
 
 ## Score calculation logic {#score-calculation-logic}
 
-The calculation builds up in five layers, each adding more context to the raw relevance and engagement data.
+The calculation consists of five layers, each adding more context to the raw relevance and engagement data.
 
 ### Content relevance to a topic {#relevance-to-topic}
 
@@ -122,11 +124,11 @@ On a given day, a person's score is a weighted average of the relevance of every
 
 >[!BEGINSHADEBOX "Example"]
 
-Alice engages with three pieces of content in one day. Page views carry a weight of one, and form submissions carry a weight of five.
+A person engages with three pieces of content in one day. Page views carry a weight of one, and form submissions carry a weight of five.
 
-Because her one form submission counts five times as much as a page view, it significantly influences her daily score even though she interacted with three items in total.
+Because their one form submission counts five times as much as a page view, it significantly influences their daily score even though they interacted with three items in total.
 
-Her resulting daily score for that topic is roughly 0.70 on a 0 to 1 scale.
+Their resulting daily score for that topic is roughly 0.70 on a 0 to 1 scale.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +155,7 @@ Individual scores aggregate so you can review intent at the level that matters f
 
 ![Diagram showing keyword scores aggregating to product scores, and person scores aggregating to account scores.](./assets/intent-scores-aggregation.svg){width="500"}
 
-Use the product-level view to see which products are gaining traction overall, rather than which individual keywords are trending. Use the account-level view to see when a whole buying group is showing increased interest together, rather than reacting to a single engaged person.
+Use the product-level view to see which products are increasing in interest overall, rather than which individual keywords are trending. Use the account-level view to see when a whole buying group is showing increased interest together, rather than reacting to a single engaged person.
 
 ## Configurable settings {#configurable-settings}
 
@@ -161,7 +163,7 @@ Most of the scoring logic is fixed to keep results reliable and comparable over 
 
 * **Activity weights** - To apply greater impact to intent scores, increase the weight of high-value activities, such as a demo request or a pricing page visit. To exclude an activity entirely, set its weight to zero, which is useful for actions like unsubscribes that do not contribute to intent. Activity weights for intent calculation use the same weighting model that also drives [engagement scores](../buying-groups/engagement-scores.md). See [_Configure engagement score weighting_](../admin/engagement-score-weighting.md) to change activity weights.
 
-* **Taxonomy mappings** - The keywords, products, and categories that scoring is based on come ready to use. Review and update them at any time on the _[!UICONTROL Intent Mapping]_ page. See [_Intent data_](../admin/intent-data.md) for the setup process.
+* **Taxonomy mappings** - The keywords, products, and categories that scoring is based on are available for use. Review and update them at any time on the _[!UICONTROL Intent Mapping]_ page. See [_Intent data_](../admin/intent-data.md) for the setup process.
 
 Everything else, including content relevance, activity decay, and _High_, _Medium_, and _Low_ thresholds, is fixed so that scores stay consistent and comparable over time.
 
