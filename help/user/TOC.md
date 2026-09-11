@@ -22,14 +22,22 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [User onboarding](./start/get-started.md)
     + [Login and home page](home-page.md)
 + AI capabilities {#ai-assistant}
-    + [Overview](./ai-assistant/ai-assistant-overview.md)
-    + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
-    + [Question guidance](./ai-assistant/question-guidance.md)
-    + [Chat interface](./ai-assistant/use-ai-assistant.md)
-    + [Generative AI for content](./ai-assistant/generative-ai-content.md)
+    + [Overview](./ai-coworker/ai-assistant-overview.md)
+    + [Enable AI Assistant access](./ai-coworker/enable-ai-assistant-access.md)
+    + [Question guidance](./ai-coworker/question-guidance.md)
+    + [Chat interface](./ai-coworker/use-ai-assistant.md)
+    + [Generative AI for content](./ai-coworker/generative-ai-content.md)
+    + [Intent scores](./ai-coworker/intent-scores.md)
     + Agents {#ai-agents}
        + [Audience Agent B2B](./agents/audience-agent-b2b.md)
        + [Journey Agent B2B](./agents/journey-agent.md)
++ Intelligent dashboards {#dashboards}
+    + [Insights dashboard](./dashboards/intelligent-dashboard.md)
+    + [Engagement dashboard](./dashboards/engagement-dashboard.md)
+    + [Web engagement dashboard](./dashboards/web-engagement-dashboard.md)
+    + [Email performance report](./dashboards/email-performance-dashboard.md)
+    + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
+    + [Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Journey management {#journeys}
     + [Account and person journeys](./journeys/journeys-overview.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
@@ -147,13 +155,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Personalization syntax](./content/personalization-syntax.md)
       + [Helper functions list](./content/personalization-helper-functions.md)
       + [Script Builder (Beta)](./content/script-builder.md)
-+ Intelligent dashboards {#dashboards}
-    + [Insights dashboard](./dashboards/intelligent-dashboard.md)
-    + [Engagement dashboard](./dashboards/engagement-dashboard.md)
-    + [Web engagement dashboard](./dashboards/web-engagement-dashboard.md)
-    + [Email performance report](./dashboards/email-performance-dashboard.md)
-    + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
-    + [Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
     + [Governance](./admin/governance.md)
     + [Privacy management](./admin/privacy-management.md)

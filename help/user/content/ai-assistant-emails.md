@@ -44,7 +44,7 @@ This new capability provides a prompt-based content generation for full email ge
 
 ## Guidelines and limitations
 
-Before you start using this capability, review the [guidelines and limitations](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
+Before you start using this capability, review the [guidelines and limitations](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations). [User agreement](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} acceptance is also required before you can use AI capabilities in [!DNL Journey Optimizer B2B Edition]. For more information, contact your Adobe representative.
 
 Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} to Firefly-generated assets upon download or export to promote transparency.
 
@@ -66,7 +66,7 @@ Use well-defined prompts for the generative AI model to interpret with accuracy.
 
 ![Prompt field](./assets/gen-ai-prompt.png){width="320"}
 
-For more information about creating effective prompts, see _[Prompt best practices](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_. 
+For more information about creating effective prompts, see _[Prompt best practices](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_. 
 
 >[!BEGINSHADEBOX]
 
@@ -123,7 +123,7 @@ Click the left arrow to return to the main _[!UICONTROL Settings]_.
 
 ### Reference content
 
-Upload reference content assets to generate accurate, on-brand content. Otherwise, generated content is based on publicly available information. Reference content serves as the source for content generation and image recommendations. For guidelines and best practices, see _[Optimized reference content](../ai-assistant/generative-ai-content.md#reference-content)_.
+Upload reference content assets to generate accurate, on-brand content. Otherwise, generated content is based on publicly available information. Reference content serves as the source for content generation and image recommendations. For guidelines and best practices, see _[Optimized reference content](../ai-coworker/generative-ai-content.md#reference-content)_.
 
 From the **[!UICONTROL Reference content]** settings, click **[!UICONTROL Upload file]** to add any asset that contains content you want to use for additional context.
 
@@ -277,7 +277,7 @@ To use AI Assistant for full email generation by refining an existing email temp
 
    >[!TIP]
    >
-   >If you are new to prompting for generated content, review the _[Prompting best practices](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+   >If you are new to prompting for generated content, review the _[Prompting best practices](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 1. To tailor the generated content, complete the content guidance settings:
 
