@@ -105,7 +105,7 @@ _**How a split path by accounts node works**_
 
 You can define a path for accounts associated with buying groups and filter the path using buying group criteria. Use the **[!UICONTROL Account has matched buying group]** filter to define the path segment using a matched buying group. This filter also includes the option to identify accounts based on the number of assigned roles within a matched buying group.
 
-For example, you could evaluate buying group readiness based on the depth (number of people) it has in different roles, such as three decision makers and two influencers. In this case, set the condition to target accounts with a minimum of three (3) Decision Makers and two (2) Influencers in a matched buying group:
+For example, evaluate buying group readiness based on the depth (number of people) it has in different roles, such as three decision-makers and two influencers. In this case, set the condition to target accounts with a minimum of three (3) Decision Makers and two (2) Influencers in a matched buying group:
 
 1. Click **[!UICONTROL Add filter]** and choose the **[!UICONTROL Number of people in buying group role]** filter.
 
@@ -127,7 +127,7 @@ For example, you could evaluate buying group readiness based on the depth (numbe
 
 1. Click **[!UICONTROL Done]** when you have all conditions defined for the path.
 
-For the identified accounts, you could then add an action node in the path to update the status of the buying group or stage, or to send a sales alert email.
+To update the status of the buying group or stage, or to send a sales alert email for the identified accounts, add an action node in the path.
 
 ## Split paths by people
 
@@ -153,8 +153,6 @@ _**How a split path by people node works**_
 | [!UICONTROL Event history] | Splits people based on experience events that occurred prior to journey entry. Expand the folder to see all event types configured in [Admin > XDM event configuration](../admin/configure-aep-events.md) and select one to add as a filter. Constraints include fields from the selected event, a lookback time window measured back from when the person enters the journey, and an optional minimum number of times. |
 | [!UICONTROL Person attributes] | Attributes from the [person profile](../admin/field-mapping.md#xdm-business-person-attributes), including: <li>City <li>Country <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li> |
-| [!UICONTROL Special filters] > [!UICONTROL Member of List] | (Deprecated) The person is or is not a member of one or more [!DNL Marketo Engage] lists. |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Program] | (Deprecated) The person is or is not a member of one or more [!DNL Marketo Engage] programs. |
 
 ### Account-person path conditions
 
@@ -183,7 +181,7 @@ _**How a split path by people node works**_
 
 1. To define a condition applicable to _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
 
-1. In the conditions editor, add one or more filters to define the split path.
+1. To define the split path, add one or more filters in the conditions editor.
 
    * Drag and drop any of the people filters from the left navigation and complete the match definition.
 
@@ -217,15 +215,15 @@ _**How a split path by people node works**_
 
 ### Experience event history filtering {#experience-event-history-filtering}
 
-For a split path by people, you can define a path based on experience events that occurred before the person entered the journey. In the conditions editor, expand the **[!UICONTROL Event history]** folder to see a list of all event types configured by your administrator. Select an event type to add it as a filter condition.
+For a split path by people, you can define a path based on experience events that occurred before the person entered the journey. To see a list of all event types configured by your administrator, expand the **[!UICONTROL Event history]** folder in the conditions editor. Select an event type to add it as a filter condition.
 
 The lookback time window for event history is measured backward from the moment the person enters the journey. For example, a 30-day window evaluates whether the qualifying event occurred within the 30 days prior to journey entry.
 
-You can further refine the filter using constraints specific to the selected event's fields. The optional **[!UICONTROL Minimum number of times]** and **[!UICONTROL Date of activity]** constraints are both evaluated within the defined lookback window. Because event history data is synced from Adobe Experience Platform, there may be a brief delay before a recently occurring event becomes visible to this filter.
+You can further refine the filter using constraints specific to the selected event's fields. The optional **[!UICONTROL Minimum number of times]** and **[!UICONTROL Date of activity]** constraints are both evaluated within the defined lookback window. Because event history data is synced from Adobe Experience Platform, there may be a brief delay before a recently occurring event becomes available to this filter.
 
 >[!NOTE]
 >
->The events available in the [!UICONTROL Event history] folder are determined by the [Experience Events and fields configurations](../admin/configure-aep-events.md).
+>The [Experience Events and fields configurations](../admin/configure-aep-events.md) determine the events available in the [!UICONTROL Event history] folder.
 
 **Example:** To route people who clicked a link in a marketing email before entering the journey, select the email click event from the [!UICONTROL Event history] folder, set the lookback window to cover the relevant time period, and apply any field-level constraints (such as a specific link URL) as needed.
 
@@ -233,7 +231,7 @@ You can further refine the filter using constraints specific to the selected eve
 
 >[!BEGINSHADEBOX "Inactivity filtering"]
 
-For each of the _[!UICONTROL Event history]_ filters, you can enable the **[!UICONTROL Switch to inactivity filter]** option. This option changes the filter to an evaluation for an absence of that activity type. For example, add the _[!UICONTROL Direct Marketing Email Opened]_ filter to create a path for people who _**did not**_ open an email. Enable the inactivity option and specify the email.
+For each of the _[!UICONTROL Event history]_ filters, you can enable the **[!UICONTROL Switch to inactivity filter]** option. This option changes the filter to an evaluation for an absence of that activity type. To create a path for people who _**did not**_ open an email, add the _[!UICONTROL Direct Marketing Email Opened]_ filter. Enable the inactivity option and specify the email.
 
 ![Split path by people inactivity condition](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -241,40 +239,24 @@ For each of the _[!UICONTROL Event history]_ filters, you can enable the **[!UIC
 
 ### Membership filtering
 
-Within the _[!UICONTROL Special Filters]_ section, there are multiple filters that you can use to evaluate a person's membership in a buying group or [!DNL Marketo Engage] list. 
+Within the _[!UICONTROL Special Filters]_ section, there are multiple filters that you can use to evaluate a person's membership in a buying group. 
 
-For example, if you want to create a path for people who are members of a buying group and are assigned a particular role, add the _[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_ filter. For the filter, set the membership as _true_, select a _[!UICONTROL Solution interest]_ that is associated with one or more buying groups, and set the _[!UICONTROL Role]_ that you want to match.
+For example, if you want to create a path for people who are members of a buying group and are assigned a particular role, add the _[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_ filter. For the filter, set the membership as _true_ and select a _[!UICONTROL Solution interest]_ that is associated with one or more buying groups.
 
 ![Split path by people condition for buying group membership](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
-You can also include additional buying group membership constraints:
+Click **[!UICONTROL Add constraint]** to include additional buying group membership constraints:
 
 * _[!UICONTROL Buying group stage]_
 * _[!UICONTROL Buying group status]_
 * _[!UICONTROL Completeness score]_
 * _[!UICONTROL Engagement score]_
 * _[!UICONTROL Is Removed]_
+* _[!UICONTROL Role]_
 
 >[!TIP]
 >
 >To exclude members who were removed from a buying group, use the _[!UICONTROL Is Removed]_ constraint set to `false`. You can also explicitly include removed members by setting this constraint to `true`.
-
->[!BEGINSHADEBOX "Marketo Engage list and program membership"]
-   
-In [!DNL Marketo Engage], _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for [!DNL Marketo Engage] list membership as a condition for your split path by people to help eliminate duplication in journey activities.
-      
-To use list membership in a split condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** or **[!UICONTROL Member of Program]** condition into the filter space. Complete the filter definition to evaluate membership in one or more [!DNL Marketo Engage] lists.
-   
-![Split path by people condition for [!DNL Marketo Engage] list membership](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Feature deprecation**</br></br>
->
->In the current Journey Optimizer B2B Edition release, filtering based on list or program membership in a Marketo Engage instance is not supported.
-   
->[!ENDSHADEBOX]
 
 ## Custom data filtering {#custom-data-filtering}
 
@@ -288,7 +270,7 @@ For a **[!UICONTROL Split path by account]** or **[!UICONTROL Split path by peop
 
 ## Merge paths {#merge-paths}
 
-Add a _Merge paths_ node to combine different _split paths by account_ in your journey. 
+To combine different _split paths by account_ in your journey, add a _Merge paths_ node. 
 
 1. In a journey map with a split node that has three or more paths, add a combination of actions and events to each path.
 

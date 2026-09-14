@@ -5,6 +5,7 @@ feature: Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
+nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 autotag-review: '2026-08-06T18:42:03.734Z'
 TQID: 'https://experienceleague.adobe.com/oqAvHYWEVJQVQDOPWcZHuxlTmKJqAKtRp71pfbYcgys'
@@ -71,7 +72,7 @@ Content generation tools are supported with the following asset types:
 
 ## General guidelines and limitations {#general-guidelines-and-limitations}
 
-Your use of generative AI features is subject to the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}. With Adobe's commitment to transparency in the use of generative AI tools for media creation, Adobe applies [Content Credentials](./content-credentials.md) for any content or project that includes a [!DNL Firefly]-generated asset when it is downloaded or exported.
+Your use of generative AI features is subject to the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}. With Adobe's commitment to transparency in the use of generative AI tools for media creation, Adobe applies [C2PA metadata](./c2pa-metadata.md) for any content or project that includes a [!DNL Firefly]-generated asset when it is downloaded or exported.
 
 Review these general guidelines for using generative AI for content in [!DNL Journey Optimizer B2B Edition]:
 

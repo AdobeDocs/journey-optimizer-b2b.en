@@ -3,9 +3,9 @@ user-guide-title: Journey Optimizer B2B Edition Documentation
 user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how you can use it to orchestrate account and buying group journeys using built-in generative AI and industry-leading automation.
 ---
 
-# Journey Optimizer B2B Ultimate User Guide {#user}
+# Journey Optimizer B2B Edition User Guide {#user}
 
-+ [Adobe Journey Optimizer B2B Ultimate Documentation](guide-overview.md)
++ [Adobe Journey Optimizer B2B Edition Documentation](guide-overview.md)
 + [Release notes](./release-notes/release-notes.md)
 + Get started {#get-started}
     + [Journey Optimizer B2B Edition overview](about-journey-optimizer-b2b-edition.md)
@@ -21,15 +21,22 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [User management](./admin/user-management.md)
     + [User onboarding](./start/get-started.md)
     + [Login and home page](home-page.md)
-+ AI Assistant {#ai-assistant}
-    + [Overview](./ai-assistant/ai-assistant-overview.md)
-    + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
-    + [Question guidance](./ai-assistant/question-guidance.md)
-    + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
++ AI capabilities {#ai-assistant}
+    + [Overview](./ai-coworker/ai-assistant-overview.md)
+    + [Enable AI Assistant access](./ai-coworker/enable-ai-assistant-access.md)
+    + [Question guidance](./ai-coworker/question-guidance.md)
+    + [Chat interface](./ai-coworker/use-ai-assistant.md)
+    + [Intent scores](./ai-coworker/intent-scores.md)
     + Agents {#ai-agents}
        + [Audience Agent B2B](./agents/audience-agent-b2b.md)
        + [Journey Agent B2B](./agents/journey-agent.md)
-       + [Sales Qualifier](./agents/sales-qualifier.md)
++ Intelligent dashboards {#dashboards}
+    + [Insights dashboard](./dashboards/intelligent-dashboard.md)
+    + [Engagement dashboard](./dashboards/engagement-dashboard.md)
+    + [Web engagement dashboard](./dashboards/web-engagement-dashboard.md)
+    + [Email performance report](./dashboards/email-performance-dashboard.md)
+    + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
+    + [Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Journey management {#journeys}
     + [Account and person journeys](./journeys/journeys-overview.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
@@ -85,11 +92,10 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Buying group stages](./buying-groups/buying-group-stages.md)
        + [Create buying groups](./buying-groups/buying-groups-create.md)
        + [Export accounts](./audiences/account-list-export.md)
-       + [Buying group filters in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
        + [In-CRM Insights](./buying-groups/incrm-insights.md)
     + Account lists {#account-lists}    
        + [Overview](./accounts/account-lists.md)
-       + [Use in journeys and programs](./accounts/account-lists-journeys.md)
+       + [Use in journeys](./accounts/account-lists-journeys.md)
     + Sales experience {#sales-experience}
       + [Account details](./accounts/account-details.md)
       + [Buying group details](./buying-groups/buying-group-details.md)
@@ -105,7 +111,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Email collaboration](./content/email-collaboration-tools.md)
    + Assets {#assets}
       + [Overview](./content/assets-overview.md)
-      + [Content Credentials](./content/content-credentials.md)
+      + [C2PA metadata](./content/c2pa-metadata.md)
       + Internal assets {#internal-dam}
          + [Work with internal assets](./content/internal-image-assets.md)
          + [Edit images with Adobe Express](./content/image-edit-adobe-express.md)
@@ -149,15 +155,9 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Personalization syntax](./content/personalization-syntax.md)
       + [Helper functions list](./content/personalization-helper-functions.md)
       + [Script Builder (Beta)](./content/script-builder.md)
-+ Intelligent dashboards {#dashboards}
-    + [Insights dashboard](./dashboards/intelligent-dashboard.md)
-    + [Engagement dashboard](./dashboards/engagement-dashboard.md)
-    + [Web engagement dashboard](./dashboards/web-engagement-dashboard.md)
-    + [Email performance report](./dashboards/email-performance-dashboard.md)
-    + [Buying Groups dashboard](./dashboards/buying-groups-dashboard.md)
-    + [Journeys dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
-    + [Governance and privacy](./admin/governance.md)
+    + [Governance](./admin/governance.md)
+    + [Privacy management](./admin/privacy-management.md)
     + [Persona mapping](./admin/persona-mapping.md)
     + Configurations {#configurations}
        + [AEM Assets repositories](./admin/configure-aem-repositories.md)

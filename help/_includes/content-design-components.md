@@ -16,19 +16,19 @@ description: Reused section about using components and content elements for cont
 
    Each column size cannot be less than 10% of the total width of the structure component. Only empty columns can be removed.
 
-   For more information about using and formatting these components, see _[Structure Components](../user/content/structure-components.md)_.
+   For more information about using and formatting these components, see _[Structure Components](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/structure-components)_.
 
 1. Expand the **[!UICONTROL Contents]** section and add as many content components as you need into one or more structure components.
 
    ![Drag a content element onto the canvas and adjust the settings](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
             
-   * [Container](../user/content/content-components.md#container)
-   * [Button](../user/content/content-components.md#button)
-   * [Text](../user/content/content-components.md#text)
-   * [Divider](../user/content/content-components.md#divider)
-   * [Image](../user/content/content-components.md#image)
-   * [Social](../user/content/content-components.md#social)
-   * [Form](../user/content/content-components.md#form) (landing pages only)
+   * [Container](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#container)
+   * [Button](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#button)
+   * [Text](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#text)
+   * [Divider](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#divider)
+   * [Image](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#image)
+   * [Social](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#social)
+   * [Form](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#form) (landing pages only)
 
 1. If needed, you can make additional customizations for each component in the _[!UICONTROL Settings]_ or _[!UICONTROL Style]_ tabs.
 
@@ -36,4 +36,4 @@ description: Reused section about using components and content elements for cont
 
 1. To add conditional content and adapt the content to the targeted profiles based on conditional rules, select a content component and click the **[!UICONTROL Enable conditional content]** icon in the component toolbar.
 
-   For more information, see [_Conditional content_](../user/content/conditional-content.md).
+   For more information, see [_Conditional content_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components).

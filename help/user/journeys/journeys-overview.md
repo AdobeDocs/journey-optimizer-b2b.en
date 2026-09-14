@@ -171,7 +171,7 @@ A duplicate action is similar to a clone function, but a duplicated journey does
 
 1. Choose the duplication **[!UICONTROL Type]**:
 
-   * **[!UICONTROL Partial content duplication]** - Use this type to copy everything in the journey, excluding any created emails or SMS messages. Nodes that reference a Marketo Engage email or SMS message are fully intact.
+   * **[!UICONTROL Partial content duplication]** - Use this type to copy everything in the journey, excluding any created emails or SMS messages. Nodes that reference an SMS message are fully intact.
 
    * **[!UICONTROL Duplicate without details]** - Use this type to copy only the node structure and paths. All node settings and path conditions are undefined (default), so that you can use the basic flow again with different audience, actions, and path segmentation settings. All _Wait_ nodes use the default of five days.
 

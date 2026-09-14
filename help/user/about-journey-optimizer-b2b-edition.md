@@ -22,38 +22,42 @@ TQID: https://experienceleague.adobe.com/L58cK4MP-S-8U9fFiXU2qZn4HCieNzjoOaSRCLk
 ---
 # Adobe Journey Optimizer B2B Edition overview
 
-With Adobe Journey Optimizer B2B Edition, you can orchestrate account and buying group journeys using built-in generative AI and industry-leading automation to maximize demand for specific offerings using marketing-qualified buying groups. 
+With Adobe Journey Optimizer B2B Edition, you can orchestrate person and account journeys using built-in generative AI and industry-leading automation to maximize demand for specific offerings using marketing-qualified buying groups. 
 
 ## Account journeys with buying groups
 
-When comparing account journeys to the journey capabilities in Marketo Engage and Adobe Journey Optimizer standard, the key distinction is that account journeys move accounts through the journey, not people. A person who is associated with an account typically has a non-linear progression that is based on the progress of the account through the journey, not based on their individual actions. For instance, when an account is in an early phase of the buying journey, the information sent is typically about general solution capabilities or features. Further along in the buying process, the content becomes more targeted on particular offers or other items geared toward closing a sale. After the solution is purchased, the information changes again to provide how-to guides, best practices, or information about upcoming events, or content about additional upsells. Even if an individual has not interacted with early phase content, you can progress them to the current phase based on the actions of others within their account or buying group. 
+When comparing account journeys to the journey capabilities in Marketo Engage and Adobe Journey Optimizer standard, the key distinction is that account journeys move accounts through the journey, not people. A person who is associated with an account typically has a non-linear progression that is based on the progress of the account through the journey, not based on their individual actions. For instance, when an account is in an early phase of the buying journey, the information sent is typically about general solution capabilities or features. Further along in the buying process, the content becomes more targeted on particular offers or other items geared toward closing a sale. After the solution is purchased, the information changes again to provide how-to guides, best practices, information about upcoming events, or content about additional upsells. Even if an individual has not interacted with early phase content, you can progress them to the current phase based on the actions of others within their account or buying group. 
 
 ## High-level architecture
 
-Adobe Journey Optimizer B2B Edition uses _Account Audiences_ and _People Audiences_ from Adobe Experience Platform to power an account journey, which runs inside of Marketo Engage. Experience Platform is always the primary source for this data, but all execution and processing of the account journey occurs within the Marketo Engage B2B marketing infrastructure. The orchestration brings data back to Experience Platform in near real time by the existing Marketo Engage - Adobe Real-Time CDP B2B Edition source connector, which streams data changes from Marketo Engage to Experience Platform.
+Adobe Journey Optimizer B2B Edition is built on Adobe Experience Platform, including Real-Time CDP B2B. Journey Optimizer B2B Edition and Marketo Engage run on separate systems, each with its own data store. Experience Platform is the primary data store and authoritative source for accounts, people, and opportunities. Journey Optimizer B2B Edition owns your account journeys, buying groups, and buying group roles.
 
-![High-level data architecture](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
+A dedicated Marketo Engage instance supports each Journey Optimizer B2B Edition subscription. This instance does not store your account journeys, audiences, or buying groups. Instead, it provides entitlements and backend services, such as email delivery, sender configuration, and branding domains.
+
+To support journey actions, you can also connect one or more of your existing Marketo Engage instances, including your production instance. Journey actions let marketers coordinate account-based journeys in Journey Optimizer B2B Edition with lead-based campaigns in Marketo Engage, such as adding people to a list or a request campaign. [Learn more about connecting Marketo Engage instances](./admin/marketo-actions-connect.md).
+
+![High-level data architecture showing Journey Optimizer B2B Edition connected to Adobe Experience Platform as the source of truth for account and people audiences, a dedicated Marketo Engage instance that provides entitlements and backend services, and an optional production Marketo Engage instance used to run journey actions.](./assets/high-level-data-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
->Check your license entitlements and the corresponding [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} about performance guardrails and static limitations.
+>Check your license entitlements and the corresponding [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for performance guardrails and static limitations.
 
 ### Subscription model
 
-A pair of Experience Platform (AEP) sandboxes with a Marketo Engage _Munchkin_ subscription defines a Journey Optimizer B2B Edition subscription. It is not possible for a single Marketo Engage subscription to be paired with more than one AEP sandbox. If you do not choose to pair an existing Marketo Engage subscription with Journey Optimizer B2B Edition, you are provisioned with a new, empty Marketo Engage subscription for use with Journey Optimizer B2B Edition.
+An Experience Platform sandbox paired with a dedicated Marketo Engage instance defines a Journey Optimizer B2B Edition subscription. This dedicated instance is separate from your production Marketo Engage instance, and it exists to support entitlements and backend services rather than to store account journey data. [Learn more about setup](./setup-ultimate.md).
 
-Experience Platform provides a unified view into data from Marketo Engage instances and attached CRM systems to act on that data using an account journey.
+Experience Platform provides a unified view of data from your connected Marketo Engage instances and CRM systems. Use that unified data to build and run your journeys.
 
-### Account journey operations
+### Journey operations
 
-Account journeys are authored in Journey Optimizer B2B Edition, and stored in the Marketo Engage instance associated with the subscription. Although they are stored in the Marketo Engage data store, they are not visible from the Marketo Engage UI, and they are only ever usable in Journey Optimizer B2B Edition. 
+Journey Optimizer B2B Edition creates, stores, and runs your account journeys. Account journeys do not appear in Marketo Engage, and they are only usable in Journey Optimizer B2B Edition.
 
-An account journey always starts with the selection of an account segment to use as the account audience for the journey. The selection of the audience uses the standard Experience Platform audience selector component. Marketers can then implement the account journey by splitting the journey paths according to their own criteria, which can include account criteria, people criteria, or buying group criteria. On each branch, actions can be taken to implement the journey, such as sending an email or waiting for an event to occur.
+A journey always starts with an audience that qualifies leads or accounts and their people for the journey. Select this audience using the standard Experience Platform audience selector. Marketers implement the journey by splitting paths using account criteria, people criteria, or buying group criteria. On each path, actions send communications or wait for an event to occur.
 
-After the account journey is created, it must be published. At publish time, the account journey is validated and converted into a series of Marketo Engage campaigns that implement the journey experience. Data Integration Services are contacted to start the data flow that, in turn, starts the account journey operations. The first step is to create the segments for the Account's People.
+After you create an account journey, publish it to make the journey live. Qualifying accounts enter a published journey within 24 hours.
 
 ### Data flow
 
-Journey Optimizer B2B Edition uses the Real-Time CDP account segmentation for both defining and executing account segments and related account person segments required by journeys. As a published journey runs, data about the people and accounts can change, and data is collected on the people who interact with the journey. Journey Optimizer B2B Edition relies on the Marketo Engage source connector for Real-Time CDP B2B Edition to flow data changes back to the Experience Platform sandbox, which is the primary data source.  This data is delivered to AEP in near real time.   
+Journey Optimizer B2B Edition functions as an Adobe Real-Time CDP B2B Edition destination. Use Real-Time CDP account segmentation to build and evaluate the account audiences and people audiences that qualify accounts and people for a journey. When you publish a journey, Journey Optimizer B2B Edition activates the qualifying audiences from Experience Platform.
 
-Only the existing data types supported by the Marketo Engage source connector (accounts, people, and opportunities) flow back into Real-Time CDP. This means that buying group data does not flow to AEP and instead resides in the Marketo Engage instance used by the Journey Optimizer B2B Edition subscription.
+Buying groups, buying group roles, and buying group scores are created and stored in Journey Optimizer B2B Edition. [Learn more about buying groups](./buying-groups/buying-groups-overview.md).

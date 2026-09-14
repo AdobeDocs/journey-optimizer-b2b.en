@@ -40,13 +40,15 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Person journeys | (Previously Beta, early deployment for general availability) You can now create journeys to orchestrate lead-based marketing using Experience Platform Audiences and data. [Learn more](../journeys/journeys-overview.md) |
-| Feature | Person lists | Static and dynamic person lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
-| Feature | _Vaiant split paths_ journey nodes | (Previously Beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. |
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+| Feature | _Variant split paths_ journey nodes | (Previously Beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
+| Feature | C2PA metadata | Images generated or edited with generative AI tools are now automatically signed with C2PA metadata, helping you meet content transparency and AI disclosure requirements. [Learn more](../content/c2pa-metadata.md) |
 | Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
 | Enhancement | Listen for event triggers and filters - Account journeys | Support for multiple triggers and filters in a _Listen for event_ node is now available for account journeys. |
-| Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. |
-| Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. |
-| Enhancement | AEP relation datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
+| Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-action) |
+| Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-split-paths) |
+| Enhancement | AEP relational datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
+| Enhancement | Product permissions - WhatsApp channel | Product administrators can now set the `Manage B2B WhatsApp Settings` and `Manage B2B WhatsApp Presets` permissions for _[!UICONTROL B2B Channel Configurations]_. |
 
 >[!NOTE]
 >
@@ -147,13 +149,13 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 ## Agentic-AI capabilities {#rel-agents}
 
-The following agentic AI capabilities are now available for Journey Optimizer B2B Edition within the AI Assistant interface:
+The following agentic AI capabilities are now available for Journey Optimizer B2B Edition within the chat interface:
 
 | Agent | Update | Description |
 | ----- | ------ | ----------- |
 | Journey Build Agent | New and updated | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
 | Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
-| Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels. [Learn more](../agents/sales-qualifier.md) |
+| Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels. [Learn more](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 release notes {#rel-2025-10}
 
@@ -161,7 +163,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | Activate to destination for journeys | Use the new _Activate to destination_ company account action to activate directly to companies, rather than individuals. (Limited to LinkedIn companies for this release.) [Learn more](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Feature | Activate to destination for journeys | Use the new _Activate to destination_ company account action to activate directly to companies, rather than individuals. (Limited to LinkedIn companies for this release.) [Learn more](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Feature | Brand themes | With brand themes, non-technical users now have the ability to create reusable content that fits a specific brand and design language by adding custom styling on top of the standard templates. [Learn more](../content/brand-themes.md) |
 | Feature | Email templates - convert image to HTML | You can now use your design files stored as JPG or PNG image files and automatically generate email templates. [Learn more](../content/email-template-image-convert.md) |
 | Feature | Persona mapping | Tie account members with established personas with attribute mapping. [Learn more](../admin/persona-mapping.md) |
@@ -253,7 +255,7 @@ This release includes the following new capabilities and enhancements:
 | Feature | In-CRM access to detail pages | You can now configure direct links to Journey Optimizer B2B Edition detail pages for accounts, contacts, and leads in your Customer Relationship Management (CRM) tool, such as Salesforce or Microsoft Dynamics. [Learn more](../accounts/crm-linking.md) |
 | Feature | Custom CSS support for content design | You can now add your own custom CSS when you are authoring email and landing page content in the design space. [Learn more](../content/design-custom-css.md) |
 | Feature | Intent keyword mapping configuration | To activate and manage the Intent Detection model, administrators can now upload a spreadsheet to define an intent data mapping category. [Learn more](../admin/intent-data.md) |
-| Enhancement | Simulate Content from email summary | You can now access the _Simulate Content_ tools from the email summary (details and properties) when you open an email from the Emails list. This access is in addition to the email design space. [Learn more](../content/email-simulate-content.md#display-the-email-preview) |
+| Enhancement | Simulate Content from email summary | You can now access the _Simulate Content_ tools from the email summary (details and properties) when you open an email from the Emails list. This access is in addition to the email design space. [Learn more](../content/email-simulate-content.md#display-preview) |
 | Enhancement | Total count display for roles templates list | The _[!UICONTROL Roles templates]_ list page is enhanced with the display of the total count next to the search bar. |
 
 ## 2025.5 release notes {#rel-2025-5}
@@ -279,7 +281,7 @@ This release includes the following new capabilities and enhancements:
 | ---- | ---- | ----------- |
 | Feature | Account lists | You can now create a static or dynamic account list to target named accounts by your defined criteria, such as industry, location, or size of the company. <a href="../accounts/account-lists.md">Learn more</a> |
 | Feature | Account list journey orchestration | Use journey action nodes to add and remove accounts for static account lists. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Learn more</a> |
-| Enhancement | Filter journey membership in Marketo Engage | Use Adobe Journey Optimizer B2B Edition account lists for the journey audience and then use the _Member of an account list_ filter in Marketo Engage smart lists. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Learn more</a> |
+| Enhancement | Filter journey membership in Marketo Engage | Use Adobe Journey Optimizer B2B Edition account lists for the journey audience and then use the _Member of an account list_ filter in Marketo Engage smart lists. |
 | Feature | Inactivity filters | Orchestrate journeys based on inactivity within Marketo Engage campaigns and programs, including email inactivity, interesting moments, data value changes, and visited web pages. |
 | Enhancement | Visited web page filter | Orchestrate journeys based on activity for visited web pages associated with Marketo Engage campaigns and programs. |
 | Enhancement | Emails list | View a global list of active and draft emails to search, review, and update them across the associated account journeys. <a href="../content/emails-list.md">Learn more</a> |
@@ -327,7 +329,7 @@ This release includes the following new capabilities and enhancements:
 | Feature | Adobe Express image editing | Adobe Express Quick Actions allow you to make simple edits (such as cropping and resizing) to images for a more polished look in your content. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">Learn more</a>  <p>For a more comprehensive set of design tools, this integration enables a full Adobe Express license into Journey Optimizer B2B Edition. With this setup, the complete Adobe Express user interface becomes accessible within the local asset workspace. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">Learn more</a> |
 | Feature | Intent filters for buying group roles | When you submit your intent keywords, the Intent Detection model predicts a solution/product of interest with high enough confidence based on a lead's activity. <a href="../admin/intent-data.md">Learn more</a> <p>This intent data is available for defining buying group role conditions <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Learn more</a> |
 | Enhancement | Marketo Engage event support in journeys | The _Listen for Event_ journey node now supports two Marketo Engage events at the people level: _Visits web page_ and _Fills out form_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Learn more</a>|
-| Enhancement | Buying group filters for Marketo Engage smart lists | View and create smart lists with buying group filters in Marketo Engage. These added filters allow you to suppress and include buying group members across Marketo Engage campaigns and programs from account journeys within Journey Optimizer B2B Edition. <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">Learn more</a>|
+| Enhancement | Buying group filters for Marketo Engage smart lists | View and create smart lists with buying group filters in Marketo Engage. These added filters allow you to suppress and include buying group members across Marketo Engage campaigns and programs from account journeys within Journey Optimizer B2B Edition. _Deprecated feature_ |
 | Enhancement | Marketo Engage list membership filter for journeys and roles | In Journey Optimizer B2B, check for Marketo Engage list membership as a condition for a _split path by people_ node to help eliminate duplication in journey activities. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Learn more</a> <p> For buying group roles templates, use list membership as a role condition. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Learn more</a>|
 | Enhancement | Engagement overview dashboard | This dashboard is updated to provide a comprehensive view of engagement. It showcases real-time metrics of account and individual interactions through snapshot circle charts and trend-revealing line charts over time. <a href="../dashboards/engagement-dashboard.md">Learn more</a>|
 

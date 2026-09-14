@@ -59,10 +59,6 @@ The system creates an initial engagement score model named _Activity weighting m
 
 ![Default engagement score weighting model for Experience Platform events](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
-
 When you activate a custom model, the active model changes to an _Archived_ status. If you decide to revert to the default engagement score model, you can duplicate the original default model and then activate it or use it as a starting point for another custom model.
 
 ### Delete a draft model
@@ -138,14 +134,6 @@ The default model for Experience Platform events includes the Experience Platfor
 </td>
 </tbody>
 </table>
-
-+++
-
-+++Activities for standard architecture
-
-The default model for the standard architecture includes the [!DNL Marketo Engage] tracked activities with an associated default weight. When you duplicate this model, you can change the weighting according to your needs. You cannot change the maximum daily frequency. 
-
-{{engagement-activities-me}}
 
 +++
 

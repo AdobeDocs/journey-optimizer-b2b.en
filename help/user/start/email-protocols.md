@@ -28,13 +28,9 @@ TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNv
 ---
 # Setup for email tracking and delivery
 
-Adobe Journey Optimizer B2B Edition leverages the email channel functions and event tracking in the attached Marketo Engage instance. Some organizations use restrictive firewall or proxy server settings. To ensure that email delivery works as expected for these organizations, a systems administrator must add certain domains and IP address ranges to the allow list.
+Adobe Journey Optimizer B2B Edition leverages the email channel functions and event tracking in the attached Marketo Engage instance. Some organizations use restrictive firewall or proxy server settings. To ensure that email delivery works as expected for these organizations, a system administrator must add certain domains and IP address ranges to the allowlist.
 
->[!NOTE]
->
->If your organization is already using the connected Marketo Engage instance to run your marketing operations, these protocols and configurations are already in place.
-
-Make sure that the following domains (including the asterisk) are added to the allow list to enable all Marketo Engage resources and web sockets:
+Make sure that the following domains (including the asterisk) are added to the allowlist to enable all Marketo Engage resources and web sockets:
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -48,7 +44,7 @@ Complete the following steps to ensure tracking and email delivery:
 1. [Set up SPF and DKIM](#set-up-spf-and-dkim)
 1. [Set up DMARC](#set-up-dmarc)
 1. [Set up MX records for your domain](#set-up-mx-records-for-your-domain)
-1. [Add Outbound IP addresses to allow lists](#outbound-ip-addresses)
+1. [Add Outbound IP addresses to allowlists](#outbound-ip-addresses)
 
 >[!NOTE]
 >
@@ -56,7 +52,7 @@ Complete the following steps to ensure tracking and email delivery:
 
 ## Create DNS records for landing pages and email
 
-Connecting a CNAME record allows marketers to host web versions of emails, landing pages, and blogs with consistent branding that improves traffic and conversions. It is highly recommended that you add the CNAMEs to your root domain host for Marketo Engage to host your marketing-focused web assets.
+Configuring a CNAME record allows marketers to host web versions of emails, landing pages, and blogs with consistent branding that improves traffic and conversions. It is highly recommended that you add the CNAMEs to your root domain host for Marketo Engage to host your marketing-focused web assets.
 
 To plan and implement two CNAME records, work with your Marketing team as an administrator. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
 
@@ -121,7 +117,7 @@ You can use the same DKIM configuration for your production Marketo Engage insta
 
 ## Set up DMARC
 
-DMARC (Domain-based Message Authentication, Reporting, and Conformance) is an authentication protocol that is used to help organizations protect their domain from unauthorized use. It extends the existing authentication protocols, such as SPF and DKIM, to inform recipient servers about the actions to take if an authentication failure occurs on their domain. DMARC is optional, but is strongly recommended because it helps protect your brand and reputation. Major providers, such as Google and Yahoo, started requiring the use of DMARC for bulk senders beginning February 2024.
+DMARC (Domain-based Message Authentication, Reporting, and Conformance) is an authentication protocol that is used to help organizations protect their domain from unauthorized use. It extends the existing authentication protocols, such as SPF and DKIM, to inform recipient servers about the actions to take if an authentication failure occurs on their domain. DMARC is optional, but is recommended because it helps protect your brand and reputation. Major providers, such as Google and Yahoo, started requiring the use of DMARC for bulk senders beginning February 2024.
 
 For DMARC to function, you must have at least one of the following DNS TXT records:
 
@@ -138,7 +134,7 @@ Also, configure a DMARC-specific DNS TXT record for your `FROM:` domain. Optiona
 
 If you receive DMARC reports, do the following:
 
-1. Use `p=none` and analyze the feedback and reports you receive. The reports tell the receiver to perform no actions against messages that fail authentication, and send email reports to the sender.
+1. Use `p=none` and analyze the feedback and reports you receive. The reports tell the receiver to perform no actions against messages that fail authentication and send email reports to the sender.
 
    * If legitimate messages are failing authentication, review and fix the issues with SPF/DKIM.
 
@@ -213,7 +209,7 @@ There are two types of alignment for DMARC:
    * Set up the branded Return-Path domain.
 
       * Configure the appropriate SPF record.
-      * Change the MX record to point back to the default MX for the datacenter your mail is sent from
+      * To point back to the default MX for the datacenter your mail is sent from, change the MX record.
 
    * Configure DMARC for the branded Return-Path domain.
 
@@ -231,11 +227,11 @@ If you send mail through Marketo Engage over a dedicated IP and have not impleme
 
 If you have dedicated IPs, you must have the new Journey Optimizer B2B Edition instance created in the same region as your existing Marketo Engage instance. If the new instance is in a different region, sharing the existing IP is not possible. If the region matches, open a ticket with [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} and request that your existing IP and binding groups be shared with the new instance. Provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID). 
 
-With this request, Adobe replicates the same IPs, binding groups, and configured Return-Path domains as your existing Marketo Engage instance. When IPs are shared between your Marketo Engage and Journey Optimizer B2B Edition instances, they use them simultaneously.
+With this request, Adobe replicates the same IPs, binding groups, and configured Return-Path domains as your existing Marketo Engage instance. When IPs are shared between your Marketo Engage and Journey Optimizer B2B Edition instances, both instances use them simultaneously.
 
 >[!ENDSHADEBOX]
 
-Trusted IPs are a shared pool of IPs that are reserved for lower volume users sending less than 75k per month and do not qualify for a dedicated IP. These users must also meet best practice requirements.
+Trusted IPs are a shared pool of IPs that are reserved for lower volume users sending less than 75k per month and who do not meet the requirements for a dedicated IP. These users must also meet best practice requirements.
 
 * If you are sending mail through Marketo Engage using a shared pool of IPs, you can check if you qualify for Trusted IPs by [applying for the Trusted IP sending range program](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}. The branded return-path is included when sending from Marketo Engage Trusted IPs. If approved for this program, reach out to Adobe Support to set up the branded return-path.
 
@@ -245,11 +241,11 @@ Customers on the shared IP pool do not need any additional configuration. You co
 
 ## Set up MX records for your domain
 
-An MX record allows you to receive mail to the domain that you're sending email from to process replies and auto-responders. If you're sending from your corporate domain, it is probably already configured. If not, you can usually set it up to map to your corporate domain MX record.
+An MX record allows you to receive mail to the domain that you're sending email from to process replies and auto-responders. If you're sending from your corporate domain, it is probably already configured. If not, set it up to map to your corporate domain MX record.
 
 ## Outbound IP addresses
 
-Marketo Engage makes an outbound connection to an Internet server on your behalf. Your IT organization and some partners/vendors may use allow lists to restrict access to servers. If so, provide them with Marketo Engage outbound IP address blocks to add to their allow lists. 
+Marketo Engage makes an outbound connection to an Internet server on your behalf. Your IT organization and some partners/vendors use allowlists to restrict access to servers. If so, provide them with Marketo Engage outbound IP address blocks to add to their allowlists. 
 
 <!--
 Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
