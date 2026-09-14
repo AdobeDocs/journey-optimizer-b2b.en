@@ -38,7 +38,7 @@ In Journey Optimizer B2B Edition, you can manually define and organize your bran
 >
 ><br>
 >
->A [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} is required before you can use AI-powered features in Adobe Journey Optimizer B2B Edition. For more information, contact your Adobe representative.
+>A [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} is required before you can use AI-powered features in Adobe Journey Optimizer B2B Edition. For more information, contact your Adobe representative.
 >
 ><br>
 >
@@ -68,7 +68,7 @@ For each card, you can click the _More menu_ ( ![More menu icon](../../assets/do
 
 ### Default brand
 
-You can designate a default brand to be automatically applied when generating content and calculating alignment scores during content creation. Only a published (_Live_) brand can be the default.
+To apply a brand automatically when generating content and calculating alignment scores during content creation, designate a default brand. Only a published (_Live_) brand can be the default.
 
 In the Brands library, the default brand card is displayed with a flag.
 
@@ -93,7 +93,7 @@ To create and define your brand guidelines, you can either enter the details or 
 
 1. Enter a **[!UICONTROL Name]** for your brand.
 
-1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information.
+1. Drag and drop or select your file to upload your brand guidelines and automatically extract relevant brand information.
 
    ![Define a new brand](./assets/brands-create-new.png){width="500"}
 
@@ -111,7 +111,7 @@ To create and define your brand guidelines, you can either enter the details or 
 
 ### Refine and update the brand guidelines
 
-1. Browse through the different tabs to adapt and define more detailed information as needed.
+1. To adapt and define more detailed information as needed, browse through the different tabs.
 
    * [!UICONTROL Overview]
 
@@ -163,7 +163,7 @@ To create and define your brand guidelines, you can either enter the details or 
 
 1. When you have everything defined, click **[!UICONTROL Save]**.
 
-   You can continue to make changes to the draft brand until you decide it is ready to publish.
+   You can continue to make changes to the draft brand. Continue until you decide it is ready to publish.
 
 ### Publish the brand
 
@@ -241,9 +241,9 @@ You can proceed to refine the [writing style](#writing-style) or [visual content
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Writing style alignment score"
->abstract="The Writing style section defines standards for language, formatting, and structure to ensure clear, consistent content. The alignment score, rated from high to low, shows how well your content follows these guidelines and highlights areas for improvement."
+>abstract="The Writing style section defines standards for language, formatting, and structure. The alignment score shows how well your content follows these guidelines and highlights areas for improvement."
 
-The _[!UICONTROL Writing style]_ definitions outline the standards for writing content, and details how language, formatting, and structure should be used to maintain clarity, coherence, and consistency across all materials.
+The _[!UICONTROL Writing style]_ definitions outline the standards for writing content, and detail how language, formatting, and structure should be used to maintain clarity, coherence, and consistency across all materials.
 
 Select the **[!UICONTROL Writing Style]** tab, and review each category.
 
@@ -285,7 +285,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="Visual content alignment score"
->abstract="The Visual Content Alignment Score indicates how well your content matches your configured brand guidelines. Scored from high to low, it helps you assess alignment at a glance. Explore the different categories to identify areas for improvement and pinpoint elements that may be off-brand."
+>abstract="The Visual Content Alignment Score indicates how well your content matches your configured brand guidelines. It helps you assess alignment and identify areas for improvement."
 
 The _[!UICONTROL Visual content]_ definitions outline the standards for imagery and design, and detail the specifications needed to maintain a unified and consistent brand look.
 
@@ -312,7 +312,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 #### Example images
 
-To add an image showing correct or incorrect usage, choose **[!UICONTROL Example]** in the _[!UICONTROL Add guideline]_ or _[!UICONTROL Add exclusion]_ popup dialog. Click **[!UICONTROL Select image]** to choose and image file from your system. Click **[!UICONTROL Add]** to upload the image and display the thumbnail for the area.
+To add an image showing correct or incorrect usage, choose **[!UICONTROL Example]** in the _[!UICONTROL Add guideline]_ or _[!UICONTROL Add exclusion]_ popup dialog. Click **[!UICONTROL Select image]** to choose an image file from your system. Click **[!UICONTROL Add]** to upload the image and display the thumbnail for the area.
 
 ![Add example image](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
 
@@ -326,7 +326,7 @@ You cannot make modifications to a published (Live) brand, but you can create a 
 
     This action creates a draft copy of the brand.
 
-1. Browse through the different tabs to update the brand information as needed.
+1. Browse through the different tabs and update the brand information as needed.
 
    * Overview
 

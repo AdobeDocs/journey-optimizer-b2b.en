@@ -1,6 +1,6 @@
 ---
 title: Email Message Authoring
-description: Create emails with visual design tools, HTML import, or templates - use AI Assistant content generation, custom CSS, and personalization in Journey Optimizer B2B Edition.
+description: Create emails with visual design tools, HTML import, or templates - use content generation, custom CSS, and personalization in Journey Optimizer B2B Edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
@@ -45,7 +45,7 @@ After you create and personalize the email content, you can export the content f
 
 >[!TIP]
 >
->Use AI Assistant in Adobe Journey Optimizer B2B Edition, powered by generative AI, to improve your content. AI Assistant can help you optimize the impact of your deliveries by generating entire emails and targeted text content, and providing recommendations for images that resonate with your audience. [Learn more](./ai-assistant-emails.md)
+>Use the content generation tools to improve your content. These tools can help you optimize the impact of your deliveries by generating entire emails and targeted text content, and providing recommendations for images that are relevant to your audience. [Learn more](./generate-content-emails.md)
 
 ## Design your email from scratch {#design-from-scratch}
 

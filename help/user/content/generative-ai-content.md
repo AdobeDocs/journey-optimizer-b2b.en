@@ -1,27 +1,24 @@
 ---
 title: Generative AI for content
 description: Learn to create personalized emails and landing pages with generative AI in [!DNL Journey Optimizer B2B Edition], including prompting best practices.
-feature: AI Assistant, Generative AI, Content
+feature: Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
 nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-autotag-review: '2026-06-05T16:07:36.688Z'
-TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
+autotag-review: '2026-08-06T18:42:03.734Z'
+TQID: 'https://experienceleague.adobe.com/oqAvHYWEVJQVQDOPWcZHuxlTmKJqAKtRp71pfbYcgys'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
     internal-label: Generative AI
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-    internal-label: Agentic AI
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,14 +26,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
 topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
 ---
 # Generative AI for content {#generative-ai-content}
 
@@ -54,9 +51,9 @@ topic_v2:
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe generative AI terms"
 >abstract="Access to this feature requires your acceptance of the Adobe Experience Cloud Generative AI User Guidelines. Review any output from this feature for accuracy and ensure that it is appropriate for your use case."
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 
-Generative AI for content in [!DNL Adobe Journey Optimizer B2B Edition], powered by Microsoft Azure OpenAI and Adobe Firefly, provides proactive content variation suggestions for text and images. Optimize your content impact by experimenting with different main titles and images. 
+Generative AI for content in [!DNL Adobe Journey Optimizer B2B Edition], powered by Microsoft Azure OpenAI and Adobe Firefly, provides proactive content variation suggestions for text and images. Improve your content impact by experimenting with different main titles and images. 
 
 Use the generative AI features for content creation in [!DNL Journey Optimizer B2B Edition] to harness Adobe's generative AI capabilities. Craft personalized text and visuals for emails, SMS messages, landing pages, and more. When building a campaign or refining assets, these features help you align content with your brand guidelines while saving time.
 
@@ -68,18 +65,18 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 >
 >To access these features in [!DNL Journey Optimizer B2B Edition], you must have the _[!UICONTROL AI Assistant]_ > _[!UICONTROL Generate Content]_ permission. For more information about how a product administrator can grant feature permissions, see [Edit roles for product permissions](../admin/user-management.md#edit-roles-for-product-permissions).
 
-AI Assistant tools for content generation are supported with the following asset types:
+Content generation tools are supported with the following asset types:
 
-* [Emails](../content/ai-assistant-emails.md)
-* [!BADGE Beta] [Landing pages](../content/ai-assistant-landing-pages.md)
+* [Emails](./generate-content-emails.md)
+* [!BADGE Beta] [Landing pages](./generate-content-landing-pages.md)
 
 ## General guidelines and limitations {#general-guidelines-and-limitations}
 
-Your use of generative AI features is subject to the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. With Adobe's commitment to transparency in the use of generative AI tools for media creation, Adobe applies [content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} for any content or project that includes a [!DNL Firefly]-generated asset when it is downloaded or exported.
+Your use of generative AI features is subject to the [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}. With Adobe's commitment to transparency in the use of generative AI tools for media creation, Adobe applies [C2PA metadata](./c2pa-metadata.md) for any content or project that includes a [!DNL Firefly]-generated asset when it is downloaded or exported.
 
 Review these general guidelines for using generative AI for content in [!DNL Journey Optimizer B2B Edition]:
 
-* Use well-defined prompts for the generative AI model to interpret with accuracy. The marketing objective or prompt you provide strongly affects the quality of the generated content.
+* Use well-defined prompts for the generative AI model to interpret with accuracy. The marketing objective or prompt you provide affects the quality of the generated content.
 
 * Upload content reference files to have accurate, on-brand content. Otherwise, content is based on publicly available information. The uploaded content can be in the following file formats: PDF, JPEG, PNG, or ZIP (containing supported file formats). The maximum size for an uploaded file is 50MB. Larger files or a large number of images can work, but this increases the processing time.
 
@@ -96,7 +93,7 @@ Review these general guidelines for using generative AI for content in [!DNL Jou
 
 This guide helps you structure your requests, communicate intent with clarity, and ensure that the AI produces messaging that aligns with your brand guidelines, audience needs, and campaign goals.
 
-Learn how to write effective prompts that enable AI Assistant to generate high-quality, on-brand marketing content tailored to your objectives. 
+Learn how to write effective prompts that result in high-quality, on-brand marketing content tailored to your objectives. 
 
 ### Use the CO-STAR framework {#costar-framework}
 
@@ -329,7 +326,7 @@ Clearly indicate if your request involves generating new content or updating exi
 
 #### Creating new content
 
-Apply this strategy when you are launching marketing campaigns, unveiling new solutions, or initiating updated/refreshed communication. It ensures that your message starts strong and aligns with your goals.
+Apply this strategy when you are launching marketing campaigns, unveiling new solutions, or initiating updated/refreshed communication. It ensures that your message is effective and aligns with your goals.
 
 **How to prompt** &#10148; When creating new content, focus on your marketing objective without referencing existing content.
 
@@ -347,7 +344,7 @@ Apply this strategy when you are launching marketing campaigns, unveiling new so
 >
 >For standard modifications such as elaborate, summarize, or simplify, select **_Refine_** instead of writing custom prompts.
 
-Use a modification prompt when you need to update, refresh, or adapt your current marketing campaigns. This method supports incremental improvements, ensuring your messaging stays relevant without starting from scratch.
+Use a modification prompt when you need to update, refresh, or adapt your current marketing campaigns. This method supports incremental improvements, ensuring your messaging stays relevant without starting the process again.
 
 **How to prompt** &#10148; When modifying existing content, clearly specify what you want changed and how to change it.
 
@@ -361,7 +358,7 @@ Use a modification prompt when you need to update, refresh, or adapt your curren
 
 ## Advanced text settings {#text-settings}
 
-In addition to using a clear and well-formed prompt, the text settings in the AI Assistant content tools include text settings that you can use to optimize the generated outputs.
+In addition to using a clear and well-formed prompt, use the text settings to optimize the generated outputs.
 
 >[!TIP]
 >
@@ -410,21 +407,21 @@ Review the available tone options, including when each works best and examples o
 >
 >If you have already uploaded an asset through the **[!UICONTROL Reference content]** menu, you do not need to reference it in your prompt. The system automatically uses any selected documents.
 
-Reference content files provide factual information that enriches your generated content with specific, accurate details. When you upload documents, such as product brochures or white papers, alter your prompt to include which parts have focus:
+Reference content files provide factual information that enriches your generated content with specific, accurate details. To include which parts have focus, alter your prompt when you upload documents, such as product brochures or white papers:
 
-* **Instead of** _"Use the product brochure"_ **you should use** _"Focus on the advanced security features and compliance certifications, specifically SOC 2 compliance and data encryption"_
+* **Instead of** _"Use the product brochure"_ **use** _"Focus on the advanced security features and compliance certifications, specifically SOC 2 compliance and data encryption"_
 
-* **Instead of** _"Reference the case studies"_ **you should use** _"Highlight ROI results from healthcare clients, specifically the 40% cost reduction at Regional Medical Center"_
+* **Instead of** _"Reference the case studies"_ **use** _"Highlight ROI results from healthcare clients, specifically the 40% cost reduction at Regional Medical Center"_
 
-* **Instead of** _"Include technical details"_ **you should use** _"Emphasize API integration capabilities and developer benefits, focusing on REST API endpoints and 99.9% uptime SLA"_
+* **Instead of** _"Include technical details"_ **use** _"Emphasize API integration capabilities and developer benefits, focusing on REST API endpoints and 99.9% uptime SLA"_
 
 ### Content refinement
 
 After content is generated, use the **_[!UICONTROL Refine]_** feature to iterate and enhance it with the following options:
 
-* **[!UICONTROL Elaborate]** - AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
+* **[!UICONTROL Elaborate]** - Expand on specific topics, providing additional details for better understanding and engagement.
 
-* **[!UICONTROL Summarize]** - Lengthy information can overload page viewers. Use AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
+* **[!UICONTROL Summarize]** - Lengthy information can overload readers. Modify to condense key points into clear, concise summaries that grab attention and encourage them to read further.
 
 * **[!UICONTROL Rephrase]** - Rewrite the message while preserving its meaning. This option helps you generate alternative wording, improve flow, or adjust phrasing without changing the core message.
 
