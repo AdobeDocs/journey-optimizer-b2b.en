@@ -64,7 +64,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [GenStudio workflows](./content/genstudio-email-workflow.md)
        + [Dark mode for email design](./content/email-dark-mode.md)
        + [Governed templates](./content/email-authoring-governance.md)
-       + [Sales alert email](./content/sales-alert-email.md)
        + [Email deduplication](./content/email-deduplication.md)
        + [Email tracking](./content/email-tracking-manage.md)
     + Web channel (Beta) {#web-channel}
