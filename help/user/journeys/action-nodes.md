@@ -45,7 +45,6 @@ In an account journey, use an action on accounts when you want to apply a change
 | [!UICONTROL Deactivate from destination] | Select existing virtual audience<br/>Select destination |
 | [!UICONTROL Remove Account from Journey] | Select live account journey |
 | [!UICONTROL Remove from account list] | Select a live static account list |
-| [!UICONTROL Send Sales Alert] | Select solution interest<br/>Send email to|
 | [!UICONTROL Update account profile] | Select attribute<br/>New value |
 | [!UICONTROL Update Buying Group Stage] | Select solution interest<br/>Select buying group stage |
 | [!UICONTROL Update Buying Group Status] | Select solution interest<br/>Status (required, 50 characters max) |

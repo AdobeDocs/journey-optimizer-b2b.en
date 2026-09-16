@@ -127,7 +127,7 @@ For example, evaluate buying group readiness based on the depth (number of peopl
 
 1. Click **[!UICONTROL Done]** when you have all conditions defined for the path.
 
-To update the status of the buying group or stage, or to send a sales alert email for the identified accounts, add an action node in the path.
+To update the status of the buying group or stage for the identified accounts, add an action node in the path.
 
 ## Split paths by people
 
