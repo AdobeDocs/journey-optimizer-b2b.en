@@ -3,7 +3,7 @@ title: Web Experience Design
 description: Design web experiences with visual and non-visual editors - add modifications, manage content updates, enable click tracking, and personalize content in Journey Optimizer B2B Edition.
 feature: Content Design Tools, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+badge: label="Limited Availability" type="Informative"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
@@ -48,9 +48,10 @@ Before you can design web experiences, ensure that the following requirements ar
 * Your website has the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implemented for visitor identification and content delivery. Adobe Experience Platform Web SDK version 2.16 or above is required.
 
 * You have the necessary [permissions](../admin/user-management.md#b2b-product-permissions) to create and manage web experiences in a journey:
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL Manage Campaigns]_ - Required to add or update a web personalization action node.
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL View Campaigns]_ - Required to view details for a Web personalization action node.
-   
+   * _[!UICONTROL Author B2B Web Experiences]_
+   * _[!UICONTROL Manage B2B Person Journeys]_
+   * _[!UICONTROL Manage B2B Account Journeys]_
+
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
@@ -107,7 +108,7 @@ The visual editor loads the web pages within an iframe, where you can select ele
 
    * Select any existing element from the page and [modify it for the web experience](#modify-elements).
 
-   * [Add click tracking](#click-tracking-for-web-experiences) for elements to measure engagement and gather insights.
+   * [Add click tracking](#web-click-tracking) for elements to measure engagement and gather insights.
 
 1. Repeat step 2 to load other pages that you want to include in the web experience. Repeat step 3 to define the page modifications.
 
@@ -135,7 +136,7 @@ The toolbar options depend on the selected component type:
 
 For a selected element, the properties in the right panel change to reflect the available styling and actions. Click an action icon at the top of the panel to duplicate, click-track, delete, or hide the selected element.
 
-![click an action icon for the selected element](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
+![Click an action icon for the selected element](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
 
 +++Text elements
 
@@ -175,7 +176,7 @@ For more information about text styling options for text components, see [Conten
 
 +++
 
-+++ Container elements
++++Container elements
 
 1. Select a container element on the page.
 
@@ -200,8 +201,8 @@ Select a component type on the left and then hover over an element that is adjac
 
 Click one of the displayed buttons to place the component:
 
-* ***[!UICONTROL Insert before]** - Insert the component before the selected element.
-* ***[!UICONTROL Insert after]** - Insert the component after the selected element.
+* **[!UICONTROL Insert before]** - Insert the component before the selected element.
+* **[!UICONTROL Insert after]** - Insert the component after the selected element.
 
 To unselect a component type for insertion, click **[!UICONTROL ESC]** in the contextual blue banner displayed at the top of the page.
 
