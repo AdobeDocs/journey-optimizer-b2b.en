@@ -137,7 +137,7 @@ You can duplicate an existing web channel configuration and change it to create 
 
 1. Click the _More menu_ icon (**...**) for the variant and choose **[!UICONTROL Duplicate]**.
 
-   ![Click the more menu icon to duplicate an existing web channel configuration](./assets/config-web-channels-more-menu.png){width="450"}
+   ![Click the more menu icon to duplicate an existing web channel configuration](./assets/config-web-channels-more-menu.png){width="350"}
 
    This action creates a duplicated web channel with `_Copy_nnn` appended to the name.
 
