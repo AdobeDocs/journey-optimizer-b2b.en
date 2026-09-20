@@ -66,7 +66,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Governed templates](./content/email-authoring-governance.md)
        + [Email deduplication](./content/email-deduplication.md)
        + [Email tracking](./content/email-tracking-manage.md)
-    + Web channel (Beta) {#web-channel}
+    + Web channel {#web-channel}
       + [Overview](./content/web-experiences.md)
       + [Web experience design](./content/web-experience-design.md)
       + [Single-page applications](./content/web-single-page-applications.md)
@@ -168,6 +168,6 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Email configurations](./admin/configure-channels-emails.md)
        + [SMS configurations](./admin/configure-channels-sms.md)
        + [WhatsApp configurations](./admin/configure-channels-whatsapp.md)
-       + [Web channel configurations (Beta)](./admin/configure-channels-web.md)
+       + [Web channel configurations](./admin/configure-channels-web.md)
        + [Landing page configurations](./admin/configure-channels-landing-pages.md)
        + [Forms configurations](./admin/configure-channels-forms.md)
