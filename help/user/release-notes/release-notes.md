@@ -44,7 +44,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Feature | _Variant split paths_ journey nodes | (Previously Beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
 | Feature | C2PA metadata | Images generated or edited with generative AI tools are now automatically signed with C2PA metadata, helping you meet content transparency and AI disclosure requirements. [Learn more](../content/c2pa-metadata.md) |
 | Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
-| Enhancement | Listen for event triggers and filters - Account journeys | Support for multiple triggers and filters in a _Listen for event_ node is now available for account journeys. |
+| Enhancement | Listen for event triggers and filters - Account journeys | For account journeys, support for multiple triggers and filters in a _Listen for an event_ node with the _People_ event type is now available. [Learn more](../journeys/listen-for-event-nodes.md) |
 | Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-action) |
 | Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-split-paths) |
 | Enhancement | AEP relational datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
