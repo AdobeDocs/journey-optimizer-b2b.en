@@ -44,80 +44,49 @@ To move the audience forward to the next step in your [journey](./journeys-overv
 
 1. In the node properties on the right, use the _Event type_ selector to choose between **[!UICONTROL Accounts]** and **[!UICONTROL People]**.
 
-1. Select an event from the list.
-
-   * For the _People_ event type, choose the [people event](#people-events) that you want to use for the trigger.
-
-       ![Journey node - listen for events on people](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
+1. Define the event trigger for the selected event type:
 
    * For the _Accounts_ event type, choose the [account event](#account-events) that you want to use for the trigger.
 
       ![Journey node - listen for events on account](./assets/node-listen-events-account.png){width="500" zoomable="yes"}
 
-1. Click **[!UICONTROL Edit event]** and define details for the event.
+      Click **[!UICONTROL Edit event]** and define the matching criteria for the [account event](#account-events).
 
-   Depending on the selected event type and event, define the event matching criteria.
+   * For the _People_ event type, click **[!UICONTROL Add event criteria]**.
 
-   * [People events](#people-events)
-   * [Account events](#account-events)
+      ![Journey node - listen for events on people](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
 
-   You can also include [filters](#filters-people-event) for the event.
+      In the _Edit event_ dialog, drag and drop one or more [people events](#people-events) into the builder space and set the definition for each. Click **[!UICONTROL Add constraint]** for each constraint that you want to use to refine the event match.
+
+      You can add multiple people events to match. The first qualifying event advances the account forward in the journey.
+
+      ![Account journey node - Listen to events - People event type - edit event](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
+
+      (Optional) Select the **[!UICONTROL Filters]** tab to [add filters for the event](#filters-people-event).
 
 1. Click **[!UICONTROL Done]**.
 
-   The event and filter definitions are displayed in the node and in the node properties.
+   The event and filter definitions are displayed in the node properties.
 
-   ![Account journey node - Listen to events - Event and filters](./assets/node-listen-events-account-complete.png){width="500"}
+   ![Account journey node - Listen to events - Events defined](./assets/node-listen-events-account-complete.png){width="500"}
 
 ### People events for account journeys {#people-events}
 
-In an account journey, you can listen for an event based on people when you want to move the account forward in the journey according to events triggered by people activity. You can also filter events according to event history and people attributes.
+In an account journey, you can listen for an event based on people when you want to move the account forward in the journey according to events triggered by person (lead) activities. You can also filter events according to event history and person attributes.
 
 >[!TIP]
 >
->Experience events can occur _before_ people enter the journey (such as a prior email click or web interaction). To route people based on these events, use the [!UICONTROL Event history] filter in a [Split paths by people](./split-merge-paths-nodes.md#experience-event-history-filtering) node.
+>Experience Events can occur _before_ people enter the journey (such as a prior email click or web interaction). To route people based on these events, use the [!UICONTROL Event history] filter in a [Split paths by people](./split-merge-paths-nodes.md#experience-event-history-filtering) node.
+
+For detailed information about using Experience Events, see [Experience Event triggers](#experience-event-triggers).
 
 #### Journey Optimizer B2B events {#events-account-people}
 
 | Event | Constraints |
 | ----- | ----------- |
-| [!UICONTROL Assigned to Buying Group] | Solution interest (required)<br/><br/>Additional constraints (optional): <li>Role</li><li>Date of activity</li><br/>Timeout (optional) |
+| [!UICONTROL Lead Added to Buying Group] | Solution interest (required)<br/><br/>Additional constraints (optional): <li>Role</li><li>Date of activity</li>|
+| [!UICONTROL Lead Removed from Buying Group] | Solution interest (required)<br/>Date of activity (optional) |
 | [!UICONTROL Person profile changes] | Attribute (required)<br/>Date of activity (optional)<br/>New value (optional)<br/>Previous value (optional)<br/>Reason (optional)<br/>Source (optional) |
-| [!UICONTROL Removed from Buying Group] | Solution interest (required)<br/>Date of activity (optional)<br/>Timeout (optional) |
-
-1. Set the required value to match for the event.
-
-   If needed, set the operator for the evaluation.
-
-1. For each optional constraint that you want to include for event match, click **[!UICONTROL Add constraint]** and select a constraint in the list.
-
-   ![Edit event dialog for a Journey Optimizer B2B people event in an account journey](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
-
-1. (Optional) Select the **[!UICONTROL Filters]** tab to [add filters for the event](#filters-people-event).
-
-1. Click **[!UICONTROL Done]**.
-
-#### Experience Events {#experience-events-account-people}
-
->[!PREREQUISITES]
->
->Administrators configure [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, which enable marketers to create account and person journeys that react to the events in near real-time.
->
->To make Experience Events available for journeys, a product administrator must first [add the event types and fields of interest](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
-
-1. Click **[!UICONTROL Add constraint]** and choose the field that you want to use for the constraint.
-
-   The available constraints are defined as managed fields for the event configuration.
-   
-1. Complete the condition for the constraint. 
-
-   You can use the default **[!UICONTROL is]** operator to match one or more field values. Or you can use the **[!UICONTROL is not]** operator to match on all values with the exclusion of one or more specified values.
-  
-   ![Edit event dialog for an Experience Event in an account journey](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
-
-1. (Optional) Select the **[!UICONTROL Filters]** tab to [add filters for the event](#filters-people-event).
-
-1. Click **[!UICONTROL Done]**.
 
 ### Account events {#account-events}
 
@@ -132,7 +101,7 @@ In an account journey, you can listen for an event based on the account when you
 | [!UICONTROL Change in Completeness Score] | Solution interest<br/>Additional constraints (optional): <li>New score</li><li>Previous score</li><li>Date of activity</li><br/> Timeout (optional) |
 | [!UICONTROL Change in Engagement Score] | Solution interest<br/>Additional constraints (optional): <li>New score</li><li>Previous score</li><li>Date of activity</li><br/> Timeout (optional) |
 
-1. Set the required constraint to match for the event.
+1. To match the event, set the required constraint.
 
 1. For each optional constraint that you want to include for event match, click **[!UICONTROL Add constraint]** and select the field.
 
@@ -205,7 +174,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Add an event and set the constraints that you want to match for the trigger.
 
-   You can use [Experience Events](#experience-events-person) and [Person profile changes](#person-profile-changes) to define the event trigger.
+   You can use [Experience Events](#experience-event-triggers) and [Person profile changes](#person-profile-changes) to define the event trigger.
 
    Drag and drop the event trigger into the builder space and set the definition. Click **[!UICONTROL Add constraint]** for each constraint that you want to use to refine the event match.
 
@@ -215,19 +184,39 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Click **[!UICONTROL Done]**.
 
-   The event and filter definitions are displayed in the node and in the node properties.
+   The event and filter definitions are displayed in the node properties.
 
    ![Journey node - Listen to events - Event and filters](./assets/node-listen-events-person-complete.png){width="450"}
 
-### Experience Events for person journeys {#experience-events-person}
+### Person profile changes {#person-profile-changes}
+
+For person journeys, you can use a change in B2B person profile attributes to trigger the _Listen for an event_ node.
+
+1. Drag and drop **[!UICONTROL Person profile change]**s from the _[!UICONTROL Triggers]_ list into the event matching builder space.
+
+1. Click **[!UICONTROL Add constraint]** and select the attribute change that you want to use for the event trigger. 
+
+   Set the field value according to the change that you want to match.
+
+   ![Person journey - Listen for a person profile change event](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
+
+1. (Optional) Add another _Person profile change_ attribute that you want to use as an event trigger, or an [Experience Event](#experience-event-triggers).
+
+   When you add multiple events to match, the first qualifying event advances the person profile forward in the journey.
+
+1. (Optional) Select the **[!UICONTROL Filters]** tab to [add filters for the event](#filters-people-event).
+
+1. Click **[!UICONTROL Done]**.
+
+## Experience Event triggers {#experience-event-triggers}
+
+Experience Events are available for person journeys or when you use the _People_ event type in account journeys. Use the _[!UICONTROL Edit event]_ dialog to add one or more Experience Events for triggering the _Listen for an event_ node.
 
 >[!PREREQUISITES]
 >
 >Administrators configure [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, which enable marketers to create account and person journeys that react to the events in near real-time.
 >
 >To make Experience Events available for journeys, a product administrator must first [add the event types and fields of interest](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
-
-You can use Experience Events to trigger the node in person journeys in the _[!UICONTROL Edit event]_ dialog.
 
 1. Expand **[!UICONTROL Sapphire AEP events]** in the _[!UICONTROL Triggers]_ list on the left.
 
@@ -241,31 +230,15 @@ You can use Experience Events to trigger the node in person journeys in the _[!U
   
    ![Edit event dialog for an Experience Event in a person journey](./assets/node-listen-events-person-journey-edit-event-aep-event.png){width="700" zoomable="yes"}
 
-1. Set the operator and values to match for the event field.
+1. To match the event field, set the operator and values.
 
-1. (Optional) Add another Experience event or a [person profile change](#person-profile-changes).
+1. (Optional) Add another event.
 
-   When you add multiple events to match. The first qualifying event advances the person profile forward in the journey.
+   You can use multiple Experience Events for triggering the node.
 
-1. (Optional) Select the **[!UICONTROL Filters]** tab to [add filters for the event](#filters-people-event).
+   For a person journey you can also add [person profile changes](#person-profile-changes). For an account journey (people event type), you can also add [Journey Optimizer B2B events](#events-account-people).
 
-1. Click **[!UICONTROL Done]**.
-
-### Person profile changes {#person-profile-changes}
-
-You can use a change in B2B person profile attributes to trigger the node in person journeys in the _[!UICONTROL Edit event]_ dialog.
-
-1. Drag and drop **[!UICONTROL Person profile change]**s from the _[!UICONTROL Triggers]_ list into the event matching builder space.
-
-1. Click **[!UICONTROL Add constraint]** and select the attribute change that you want to use for the event trigger. 
-
-   Set the field value according to the change that you want to match.
-
-   ![Person journey - Listen for a person profile change event](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
-
-1. (Optional) Add another _Person profile change_ attribute that you want to use as an event trigger, or an [Experience Event](#experience-events-person).
-
-   When you add multiple events to match. The first qualifying event advances the person profile forward in the journey.
+   When you add multiple events to match, the first qualifying event advances the person profile forward in the journey.
 
 1. (Optional) Select the **[!UICONTROL Filters]** tab to [add filters for the event](#filters-people-event).
 
@@ -305,12 +278,11 @@ When you define a [people event in an account journey](#people-events) or an [ev
 
 1. When the event and filter definitions are complete, click **[!UICONTROL Done]**.
 
-
 ## Add a timeout to an event node {#timeouts}
 
 If needed, define the amount of time the journey waits for the event. The journey ends after a timeout unless you define a timeout path, where you can add other nodes.
 
-Enable the **[!UICONTROL Timeout]** option in the node properties to specify a timeout for the _Listen for event_ node.
+Enable the **[!UICONTROL Timeout]** option in the node properties to specify a timeout for the _Listen for an event_ node.
 
 1. With the options enabled, choose the _Type_ and specify the parameters for the timeout:
 
@@ -332,7 +304,7 @@ Enable the **[!UICONTROL Timeout]** option in the node properties to specify a t
 
 1. Define the timeout path.
 
-    The **[!UICONTROL Set timeout path]** option is selected by default. You can use this path to define what happens if the Listen for event node times out. You can add alternative actions and events that apply to person profiles when the event does not occur.
+    The system selects the **[!UICONTROL Set timeout path]** option by default. You can use this path to define what happens if the _Listen for an event_ node times out. You can add alternative actions and events that apply to person profiles when the event does not occur.
 
    ![Journey event node - set timeout path](./assets/node-event-timeout-set-path.png){width="600" zoomable="yes"}
 

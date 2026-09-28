@@ -1,0 +1,33 @@
+<svg width="100%" viewBox="0 0 380 150" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Intent score aggregation</title>
+  <desc>Two aggregation paths: keyword scores aggregate to product scores, and person scores aggregate to account scores.</desc>
+
+  <defs>
+    <marker id="arrow3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .box-fill { fill: #FCEBEB; stroke: #A32D2D; }
+      .box-text { font-family: sans-serif; font-size: 12px; font-weight: 500; fill: #791F1F; }
+      .arr { stroke: #A32D2D; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Row 1: Keyword to Product -->
+  <rect x="0" y="6" width="140" height="50" rx="8" stroke-width="0.5" class="box-fill"/>
+  <text class="box-text" x="70" y="31" text-anchor="middle" dominant-baseline="central">Keyword</text>
+
+  <line x1="140" y1="31" x2="176" y2="31" class="arr" marker-end="url(#arrow3)"/>
+
+  <rect x="176" y="6" width="140" height="50" rx="8" stroke-width="0.5" class="box-fill"/>
+  <text class="box-text" x="246" y="31" text-anchor="middle" dominant-baseline="central">Product</text>
+
+  <!-- Row 2: Person to Account -->
+  <rect x="0" y="94" width="140" height="50" rx="8" stroke-width="0.5" class="box-fill"/>
+  <text class="box-text" x="70" y="119" text-anchor="middle" dominant-baseline="central">Person</text>
+
+  <line x1="140" y1="119" x2="176" y2="119" class="arr" marker-end="url(#arrow3)"/>
+
+  <rect x="176" y="94" width="140" height="50" rx="8" stroke-width="0.5" class="box-fill"/>
+  <text class="box-text" x="246" y="119" text-anchor="middle" dominant-baseline="central">Account</text>
+</svg>

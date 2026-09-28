@@ -37,7 +37,17 @@ Select the _AI Assistant_ icon in the left navigation to open the panel. The pan
 At the bottom of the panel is the message box where you can:
 
 * Add a message and press **Enter** to send (**Shift+Enter** inserts a newline).
-* Attach a file using the _Attach_ icon (supported formats: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Use CSV and spreadsheet uploads to start a lead import. 
+* Attach a file using the _Attach_ icon (supported formats: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Use CSV and spreadsheet uploads to start a lead import.
+
+>[!BEGINSHADEBOX]
+
+## Sales Qualifier
+
+Sales Qualifier is an AI-driven application that you can use with Journey Optimizer B2B Prime. It implements the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). Sales Qualifier automates prospect qualification, outreach, and buyer engagement workflows across channels. It reduces manual BDR load and accelerates pipeline velocity for Enterprise B2B companies.
+
+For more information, refer to the [Sales Qualifier documentation](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Ask AI Assistant
 

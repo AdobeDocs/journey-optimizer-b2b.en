@@ -155,23 +155,6 @@ Each role that you define for the template uses a set of filters, or _conditions
 
    Your changes are auto-saved in the _Draft_ status. If you are not ready to publish the roles template, click the left (back) arrow at the top of the page and return to the _[!UICONTROL Roles templates]_ list.
 
->[!BEGINSHADEBOX "Marketo Engage list membership"]
-
-In Marketo Engage, _Smart Campaigns_ check membership of programs to ensure that leads don't receive duplicate emails and aren't members of multiple streams of emails at the same time. In Journey Optimizer B2B, you can check for Marketo Engage list membership as a condition for your roles template to help eliminate duplication in buying group membership and journey activities.
-   
-To use list membership as a role condition, expand **[!UICONTROL Special Filters]** and drag the **[!UICONTROL Member of List]** condition into the filter space. To evaluate membership in one or more Marketo Engage lists, complete the filter definition.
-
-![Roles template condition for Marketo Engage list membership](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Feature deprecation**
->
->In the current Journey Optimizer B2B Edition release, filtering based on list or program membership in a Marketo Engage instance is no longer supported.
-
->[!ENDSHADEBOX]
-
 ### Change the completeness score settings {#change-the-completeness-score-settings}
 
 By default, completeness for a role is defined as one member assigned to the role. When using buying group completeness to indicate sales readiness, use these settings to align the score with the number of members required to close an opportunity.

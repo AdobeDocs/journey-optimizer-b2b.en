@@ -1,6 +1,6 @@
 ---
 title: External Actions Configuration
-description: Learn how developers, administrators, and marketers work together to implement, configure, and use external actions that connect Journey Optimizer B2B Edition with external services in account journeys.
+description: Learn how developers, administrators, and marketers work together to implement, configure, and use external actions that connect Journey Optimizer B2B Edition with external services in journeys.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -22,16 +22,12 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # External actions configuration
 
-External actions allow account journeys in Journey Optimizer B2B Edition to connect with external systems directly from the journey canvas. When an account audience reaches an external action node, the system makes an asynchronous outbound call to a configured external service, passing audience attribute data for accounts, people, or both. The external service processes the data and responds using a callback, returning audience data and metadata that can be used to guide journey execution.
+External actions allow account and person journeys in [!DNL Journey Optimizer B2B Edition] to connect with external systems directly from the journey canvas. When an audience reaches an external action node, the system makes an asynchronous outbound call to a configured external service, passing audience attribute data. The external service processes the data and responds using a callback, returning audience data and metadata that can be used to guide journey execution.
 
 This feature supports two journey node types:
 
-* **External action** – Calls an external service and continues along a single outgoing path. Ideal for _fire-and-forget_ integrations, such as updating a CRM record or triggering a downstream notification.
-* **External split paths** – Calls an external service and evaluates the response to route accounts along one of several defined paths.
-
->[!NOTE]
->
->External action services are supported only for account journeys. These node types are not available for person journeys.
+* **External action** – Calls an external service and continues along a single outgoing path. Ideal for asynchronous integrations, such as updating a CRM record or triggering a downstream notification.
+* **External split paths** – Calls an external service and evaluates the response to route accounts or people along one of several defined paths.
 
 ## Implementation overview
 
@@ -41,7 +37,7 @@ Setting up external actions requires coordination across three roles in sequence
 | ---- | ---- | ---- |
 | 1 | Developer | [Implement and publish the external service](#implement-service) |
 | 2 | Administrator | [Configure the action in Journey Optimizer B2B Edition](#configure-action) |
-| 3 | Marketer | [Add an external node to an account journey](#add-journey-node) |
+| 3 | Marketer | [Add an external node to a journey](#add-journey-node) |
 
 ## Implement the external service {#implement-service}
 
@@ -99,7 +95,7 @@ An action must be configured and activated before marketers can use it in a jour
 
 1. Click **[!UICONTROL Next]**.
 
-1. Set the **[!UICONTROL Configurations]** properties to define how the action exchanges data with the external service. 
+1. To define how the action exchanges data with the external service, set the **[!UICONTROL Configurations]** properties. 
 
    >[!NOTE]
    >
@@ -112,7 +108,7 @@ An action must be configured and activated before marketers can use it in a jour
 
       You cannot change the action type after creating the action configuration.
 
-   * **[!UICONTROL Accessors]**  (_Static_) – (External action split path only) The variables that are returned by the external service to be available as path conditions in an External split path node. (`invocationPayloadDef.accessorsMetadata`)
+   * **[!UICONTROL Accessors]**  (_Static_) – (External action split path only) The variables that the external service returns to be available as path conditions in an External split path node. (`invocationPayloadDef.accessorsMetadata`)
 
    * **[!UICONTROL Journey context]**  (_Static_) – The scope of audience data sent in the request (`supportedEntityType`):
 
@@ -138,7 +134,7 @@ An action must be configured and activated before marketers can use it in a jour
 
 1. Click the _Back arrow_ to return to the list and keep the action in a _Draft_ state. 
 
-   Or, click **[!UICONTROL Activate]** to change the action configuration to the _Active_ state. The configured external action must be active to make it available for use in account journeys.
+   Or, click **[!UICONTROL Activate]** to change the action configuration to the _Active_ state. The configured external action must be active to make it available for use in journeys.
 
 ### Troubleshooting {#troubleshooting}
 
@@ -148,7 +144,7 @@ When you enter the URL to the OpenAPI specification for your external service an
 
 >[!NOTE]
 >
->Many of the following errors require that you work with the developer who created and published the public-facing web service to resolve.
+>Many of the following errors require that you work with the developer who created and published the public-facing web service to resolve them.
 
 #### Validation error details
 
@@ -181,4 +177,4 @@ This error appears below the URL field (not in the alert banner) and means there
 
 ## Add an external node to a journey {#add-journey-node}
 
-After an action is activated, marketers can add an _[!UICONTROL External action]_ or _[!UICONTROL External split path]_ node to any account journey. For information about how to add and use these nodes in the account journey canvas, see [External nodes](../journeys/external-nodes.md).
+After an action is activated, marketers can add an _[!UICONTROL External action]_ or _[!UICONTROL External split path]_ node to any account or person journey. For information about how to add and use these nodes in the journey canvas, see [External nodes](../journeys/external-nodes.md).

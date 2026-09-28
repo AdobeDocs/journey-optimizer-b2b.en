@@ -28,16 +28,14 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 A branding domain in Marketo Engage is a custom subdomain (such as `links.yourcompany.com`) used to rewrite links and track email clicks and ensure that they reflect your brand rather than a generic domain. Each branding domain acts as a click-tracking domain to enhance deliverability and trust by matching your email and landing page links to your domain.
 
 * It replaces generic links with your own branding in email hyperlinks.
-* When an account lead clicks a link, it redirects through this custom domain to allow performance tracking while appearing legitimate to email filters.
+* When a lead clicks a link, it redirects through this custom domain to allow performance tracking while appearing legitimate to email filters.
 * To support different business units or brands, you can configure additional branding domains if you have multiple brands.
 
 >[!BEGINSHADEBOX]
 
 **Unique CNAMEs for tracking links**
 
-Email tracking links must be new and unique for the attached Marketo Engage instance. If you have existing CNAMEs for tracking links pointing to a pre-existing (production) Marketo Engage instance, they require modification before they can be reused.
-
-You can share return-path domain branding between your production Marketo Engage instance and the attached instance, but this change is a backend change. Open a support ticket and provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID) to request shared return-path domain branding.
+Email tracking links must be new and unique for the attached Marketo Engage instance. You can share return-path domain branding between your production Marketo Engage instance and the attached instance, but this change is an internal system change. Open a support ticket and provide your Marketo Engage prefix (Munchkin ID) and your new Journey Optimizer B2B Edition prefix (Munchkin ID) to request shared return-path domain branding.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +43,7 @@ You can share return-path domain branding between your production Marketo Engage
 >
 >Before you edit or add a domain in the UI, you must have a [mapped CNAME to an Adobe-provided Marketo Engage domain](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
->When adding a domain, the system checks for pre-existing SSLs, which were manually created prior. If you encounter this validation, create your domain without selecting SSL creation and then connect it as a separate procedure.
+>When adding a domain, the system checks for pre-existing SSLs, which were manually created previously. If you encounter this validation, create your domain without selecting SSL creation and then connect it as a separate procedure.
 
 ## Access branding domains in Marketo Engage
 
@@ -73,17 +71,20 @@ The first step in working with branding domains is to edit the default branding 
 
    ![Edit Branding Domain dialog](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"} 
 
+<!--
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
    Select each of the workspaces where you want to apply the updated primary domain.
 
-   ![Edit Branding Domain dialog with workspace selection for primary domain](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"} 
+   ![Edit Branding Domain dialog with workspace selection for primary domain](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
 
-1. Click **[!UICONTROL Save]**.
+-->
+
+1. Click **[!UICONTROL Next]** and then **[!UICONTROL Save]**.
 
 ## Define an additional domain
 
-After you edit the default domain, you can add another branding domain to support multiple brands within your Journey Optimizer B2B Edition environment, where each has its own branded tracking links. When you add a domain, you have the following options:
+To support multiple brands within your Journey Optimizer B2B Edition environment, where each has its own branded tracking links, you can add another branding domain after you edit the default domain. When you add a domain, you have the following options:
 
 >* _Make Primary Domain_: Make this the primary domain for the workspace. When you select this option, all existing unsent emails are set to the default primary domain and all newly created emails automatically default to this primary domain. Marketers can choose an alternative branding domain where needed.
 >
@@ -97,7 +98,7 @@ _To add the domain:_
 
 1. In the _[!UICONTROL New Branding Domain]_ dialog, enter the name of the branding domain in the **[!UICONTROL Domain]** field.
 
-1. (Optional) Select the **[!UICONTROL Generate SSL Certificate]** check box to automatically generate an SSL for the domain.
+1. (Optional) Select the **[!UICONTROL Generate SSL Certificate]** check box to generate an SSL for the domain automatically.
 
    ![New Branding Domain dialog](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
@@ -107,17 +108,19 @@ _To add the domain:_
    >
    >**_Custom SSLs_**: If you need a custom SSL, you can submit a [support ticket](https://experienceleague.adobe.com/en/support){target="_blank"}. Do not use the checkbox for SSL creation.
 
+<!-- 
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
    If needed, select each of the workspaces where you want to apply the new domain as the primary domain.
 
     ![New Branding Domain dialog with workspace selection for applying the primary domain](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+-->
 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Next]** and then **[!UICONTROL Save]**.
 
 ## Edit SSLs for existing branding domains
 
-Follow these steps to enable SSL for your existing domains.
+To enable SSL for your existing domains, follow these steps:
 
 1. From the _[!UICONTROL Admin]_ area, select **[!UICONTROL Email]**.
 

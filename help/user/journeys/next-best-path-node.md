@@ -274,7 +274,7 @@ Use simulation to test how the AI evaluates your prompts against a real audience
 1. In the dialog, choose the audience to use for the simulation:
 
    * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
-   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+   * **[!UICONTROL Dynamic and static lists]** – Use a static or dynamic people list.
    * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
 
    ![Next best path - Simulate - choose audience](./assets/node-next-best-path-simulate-dialog.png){width="300"}   

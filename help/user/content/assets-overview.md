@@ -34,7 +34,7 @@ If you are provisioned with [!DNL Adobe Experience Manager as a Cloud Services] 
 
 ### Internal assets
 
-The internal assets repository is provided by default with every [!DNL Journey Optimizer B2B Edition] subscription. This means that you have access to any of the image assets stored in the connected [!DNL Adobe Marketo Engage] asset file system. You can use this repository as your local assets library, including upload and download assets functions. You can also use these assets within your journey content.
+The internal assets repository is provided by default with every [!DNL Journey Optimizer B2B Edition] subscription. You can use this repository as your local assets library, including upload and download assets functions. You can also use these assets within your journey content.
 
 You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments.
 

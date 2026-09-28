@@ -1,6 +1,6 @@
 ---
-title: Use Account Lists in Journeys and Programs
-description: Use account lists in journey orchestration, add/remove accounts dynamically, and filter Marketo Engage Smart Lists in Journey Optimizer B2B Edition.
+title: Use Account Lists in Journeys
+description: Use account lists in journey orchestration and add/remove accounts dynamically in Journey Optimizer B2B Edition.
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
@@ -19,7 +19,7 @@ topic_v2:
 autotag-review: 2026-03-27T22:29:03.719Z
 TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
 ---
-# Use account lists in journeys and programs
+# Use account lists in journeys
 
 There are multiple ways that you can incorporate Live (published) account lists into your account journeys.
 
@@ -43,7 +43,7 @@ All account journeys start with an [_Account audience_ node](../journeys/account
 
 Within an account journey, add accounts to a static account list using [a _Take an Action_ node](../journeys/action-nodes.md).
 
-For example, you might have a journey path where you send an email and some account take various actions as a response actions. You consider this activity to be a qualification point in the journey. With the qualification, you want to add them to an account list that is used to as the audience for another journey with a different flow for qualified accounts.
+For example, you have a journey path where you send an email and some accounts take various actions as a response. You consider this activity to be a qualification point in the journey. With the qualification, you want to add them to an account list that is used as the audience for another journey with a different flow for qualified accounts.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ For example, you might have a journey path where you send an email and some acco
 
 Within an account journey, remove accounts from a static account list using [a _Take an Action_ node](../journeys/action-nodes.md).
 
-For example, you might have a journey path where you send an email and some account take various actions as a response actions. You consider this activity to be a qualification point in the journey. With this qualification, you want to remove them from an account list that is used to as the audience for another journey that sends additional emails so that you don't duplicate your qualification communications.
+For example, you have a journey path where you send an email and some accounts take various actions as a response. You consider this activity to be a qualification point in the journey. With this qualification, you want to remove them from an account list. This list is used as the audience for another journey that sends additional emails so that you don't duplicate your qualification communications.
 
 >[!NOTE]
 >
@@ -75,38 +75,8 @@ For example, you might have a journey path where you send an email and some acco
 
 1. For _[!UICONTROL Action on accounts]_, choose **[!UICONTROL Remove from account list]**.
 
-   ![Select Add to account list](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
+   ![Select Remove from account list](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
 1. For **[!UICONTROL Select live static account list]**, choose the account list where you want to remove accounts.
 
-   ![Select Add to account list](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
-## Marketo Engage program - Member of account list
-
-As a Marketer, you might want to suppress programs in Marketo Engage for people that are part of account lists in Journey Optimizer B2B Edition.
-
-In the Marketo Engage instance that is connected to Journey Optimizer B2B Edition, you can use the _[!UICONTROL Member of Account List]_ filter in your Smart Lists to identify these leads according to your campaign strategy. For more information about Smart Lists, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
-
-### Add the filter to a Smart List
-
-1. In Marketo Engage, select a campaign and click the **[!UICONTROL Smart List]** tab.
-
-1. In the filters list displayed on the right, enter `Member` and locate the **[!UICONTROL Member of Account List]** filter.
-
-1. Drag the filter onto the Smart List canvas.
-
-1. On the Smart List canvas, set the **[!UICONTROL Member of account]** list value.
-
-   Click the down arrow to display all account lists, or enter part of the account list name to help locate the account list that you need.
-
-   ![Marketo Engage smart list filter for account list membership](./assets/account-lists-marketo-engage-smart-list.png){width="800" zoomable="yes"}
-
-1. In the campaign flow, add the **[!UICONTROL Add to List]** step and choose the list where you want to populate the people from the Journey Optimizer B2B Edition account list.
-
-   Refer to _[Add a Flow step to a smart campaign](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in the Marketo Engage documentation for detailed information about adding steps to a flow.
-
-### Review the members
-
-After the flow runs, you can view the list of people populated in the list. Open the list and select the People tab.
-
-![Marketo Engage campaign list populated from an account list](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
+   ![Select Remove from account list](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

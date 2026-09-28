@@ -3,7 +3,7 @@ title: Web channel configurations
 description: Learn how to configure web channel settings to define web properties and page matching rules for content delivery in Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+badge: label="Limited Availability" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -34,10 +34,9 @@ A web configuration is a web property identified by a URL where the content is d
 
 To use web channels, your website must have the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implemented for visitor identification and content delivery. Make sure that the Adobe Experience Platform Web SDK version is 2.16 or above.
 
-Web channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../admin/user-management.md#b2b-product-permissions):
+Web channel configuration in Journey Optimizer B2B Edition requires the following [permission](../admin/user-management.md#b2b-product-permissions):
 
-* _[!UICONTROL Channel Configurations]_ > _[!UICONTROL Manage Messages Presets]_ - Required to create, update, and delete web channel configurations.
-* _[!UICONTROL Channel Configurations]_ > _[!UICONTROL View Messages Presets]_ - Required to view web channel configurations.
+* _[!UICONTROL Manage B2B Channels Configurations]_
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +44,7 @@ Web channel configuration in Journey Optimizer B2B Edition requires the followin
 
 1. In the left navigation, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. 
 
-1. Under _[!UICONTROL Web]_ in the navigation panel, select **[!UICONTROL Channel configurations]**.
+1. Under _[!UICONTROL General Settings]_ in the navigation panel, select **[!UICONTROL Channel configurations]**.
 
    ![Access the web channel configurations](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
@@ -138,7 +137,7 @@ You can duplicate an existing web channel configuration and change it to create 
 
 1. Click the _More menu_ icon (**...**) for the variant and choose **[!UICONTROL Duplicate]**.
 
-   ![Click the more nenu icon to duplicate an existing web channel configuration](./assets/config-web-channels-more-menu.png){width="450"}
+   ![Click the more menu icon to duplicate an existing web channel configuration](./assets/config-web-channels-more-menu.png){width="350"}
 
    This action creates a duplicated web channel with `_Copy_nnn` appended to the name.
 
