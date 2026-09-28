@@ -33,6 +33,21 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## 2026.9 release notes {#rel-2026-9}
+
+**Deployment date**: September 25, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+| Feature | Service health dashboards | Track operational health of external actions by collecting success/error metrics and providing dashboards for administrators to monitor service performance. |
+| Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
+
+>[!NOTE]
+>
+>These release changes begin deployment on September 25, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
+
 ## 2026.8 release notes {#rel-2026-8}
 
 **Deployment date**: August 14, 2026
@@ -40,10 +55,8 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Person journeys | (Previously Beta, early deployment for general availability) You can now create journeys to orchestrate lead-based marketing using Experience Platform Audiences and data. [Learn more](../journeys/journeys-overview.md) |
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
 | Feature | _Variant split paths_ journey nodes | (Previously Beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
 | Feature | C2PA metadata | Images generated or edited with generative AI tools are now automatically signed with C2PA metadata, helping you meet content transparency and AI disclosure requirements. [Learn more](../content/c2pa-metadata.md) |
-| Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
 | Enhancement | Listen for event triggers and filters - Account journeys | For account journeys, support for multiple triggers and filters in a _Listen for an event_ node with the _People_ event type is now available. [Learn more](../journeys/listen-for-event-nodes.md) |
 | Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-action) |
 | Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-split-paths) |
