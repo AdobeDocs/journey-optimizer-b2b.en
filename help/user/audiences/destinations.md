@@ -82,12 +82,9 @@ Each supported destination card shows **[!UICONTROL Configure new destination]**
 
 1. In the connector card, click **[!UICONTROL Configure new destination]**.
 
+   ![Configure a new destination](./assets/destinations-configure-new.png){width="500"}
+
 1. Select **[!UICONTROL Existing account]** or **[!UICONTROL New account]** and enter the account details, such as the account name and description.
-
-<!--
-
-   ![Connect a new destination account](./assets/destinations-configure-new.png){width="500"}
--->
 
 1. Click **[!UICONTROL Connect to destination]**.
 

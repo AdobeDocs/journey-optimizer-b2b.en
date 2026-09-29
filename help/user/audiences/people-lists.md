@@ -133,13 +133,17 @@ Activating a static people list sends its membership to a connected destination,
 
 1. Locate the static list that you want to activate, click the _More menu_ ( **...** ) icon next to the list, and choose **[!UICONTROL Activate to destination]**.
 
+   <!--
    ![Access the More menu for a static people list](./assets/people-lists-static-more-menu.png){width="450"}
+   -->
 
    You can also open the static list and use the **[!UICONTROL More]** menu at the top right.
 
 1. Select the check box for the configured destination connection.
 
+   <!-- 
    ![Configured destinations available for activation](./assets/people-list-activate-destination-select.png){width="600" zoomable="yes"}
+   -->
 
 1. Click **[!UICONTROL Save]**.
 
@@ -171,7 +175,9 @@ Dynamic list membership is defined using simple filters that reference person at
 
 1. Click **[!UICONTROL Edit rules]**.
 
+   <!-- 
    ![Access rules for building a dynamic people list](./assets/people-list-dynamic-rules-edit.png){width="550" zoomable="yes"}
+   -->
 
 1. In the dialog, define the rules for qualifying profiles by dragging filters from the left panel.
 
@@ -184,7 +190,9 @@ Dynamic list membership is defined using simple filters that reference person at
 
    For each filter that you add, click **[!UICONTROL Add constraints]** to refine the matching criteria.
 
+   <!-- 
    ![Add filters with constraints to populate the dynamic list](./assets/people-list-dynamic-rules-edit-filters.png){width="700" zoomable="yes"}
+   -->
 
 1. Click **[!UICONTROL Done]** to save your changes.
 
@@ -192,7 +200,9 @@ Dynamic list membership is defined using simple filters that reference person at
 
    Qualifying members appear in the list after a brief delay.
 
+   <!-- 
    ![Generated members for a dynamic people list](./assets/people-list-dynamic-rules-members.png){width="700" zoomable="yes"}
+   -->
 
    Click the name of a person in the list to open the [person details](../accounts/person-details.md) page, where you can view their summary and recent activities.
 
@@ -206,6 +216,8 @@ Duplicating a dynamic list replicates its membership filtering so that you can r
 
    By default, the dialog appends `_copy` to the name of the originating list. Enter a different unique name as needed.
 
+   <!-- 
    ![Duplicate list dialog](./assets/people-list-duplicate-dialog.png){width="375"}
+   -->
 
 1. Click **[!UICONTROL Duplicate]**.
