@@ -105,7 +105,8 @@ Static list membership is defined by simple filters that reference person attrib
 
 1. In the _[!UICONTROL Remove people]_ dialog, add filters to match the members that you want to disqualify.
 
-   <!-- not working yet
+   <!-- 
+   not working yet
 
    ![Add filters to remove people from the static list](./assets/people-list-static-remove-people-filters.png){width="700" zoomable="yes"}
 
