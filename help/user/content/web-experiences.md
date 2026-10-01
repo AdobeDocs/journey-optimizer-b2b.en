@@ -3,7 +3,7 @@ title: Web Experiences
 description: Create, design, and publish personalized web experiences for account journeys - deliver targeted content modifications to website visitors in Journey Optimizer B2B Edition.
 feature: Content, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
+badge: label="Limited Availability" type="Informative"
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
 autotag-review: '2026-05-27T16:20:23.362Z'
 TQID: 'https://experienceleague.adobe.com/iT1EdQiozvA7stSut7isr7ofdeLN5PKLUz-9q5OyPWs'
@@ -56,9 +56,9 @@ Before you can create web experiences, ensure that the following requirements ar
 * Your website has the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implemented for visitor identification and content delivery. Make sure that the Adobe Experience Platform Web SDK version is 2.16 or above.
 
 * You have the necessary [permissions](../admin/user-management.md#b2b-product-permissions) to create and manage web experiences in a journey:
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL Manage Campaigns]_ - Required to add or update a web personalization action node.
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL View Campaigns]_ - Required to view details for a Web personalization action node.
-   * _[!UICONTROL Campaigns]_ > _[!UICONTROL Approve and Publish Campaigns]_ - Required to publish a journey that has one or more Web personalization action nodes.
+   * _[!UICONTROL Author B2B Web Experiences]_
+   * _[!UICONTROL Manage B2B Person Journeys]_
+   * _[!UICONTROL Manage B2B Account Journeys]_
 
 * You have the Adobe Experience Cloud [Visual Editing Helper browser extension](#install-the-visual-editing-helper-extension) installed for your web browser. This extension is required to open, author, and preview your web pages reliably in the Journey Optimizer B2B Edition content design space.
 
@@ -121,8 +121,6 @@ You can set up web experiences in a journey when you [add a _[!UICONTROL Take an
    >Name and description fields support alpha, numeric, and special characters. Reserved characters (`\ / : * ? " < > |`) are **_not allowed_**.
 
    ![Create web experience dialog](./assets/web-experience-create-dialog.png){width="400"}
-
-<!-- What is this for? 1. Properties? -->
 
 1. In the **[!UICONTROL Properties]** tab, enter the description for the web experience.
 

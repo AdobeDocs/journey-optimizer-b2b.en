@@ -33,6 +33,21 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## 2026.9 release notes {#rel-2026-9}
+
+**Deployment date**: September 25, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+| Feature | Service health dashboards | Track operational health of external actions by collecting success/error metrics and providing dashboards for administrators to monitor service performance. |
+| Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. [Learn more](../journeys/journey-re-entry.md) |
+
+>[!NOTE]
+>
+>These release changes begin deployment on September 25, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
+
 ## 2026.8 release notes {#rel-2026-8}
 
 **Deployment date**: August 14, 2026
@@ -40,13 +55,11 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Person journeys | (Previously Beta, early deployment for general availability) You can now create journeys to orchestrate lead-based marketing using Experience Platform Audiences and data. [Learn more](../journeys/journeys-overview.md) |
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
 | Feature | _Variant split paths_ journey nodes | (Previously Beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
 | Feature | C2PA metadata | Images generated or edited with generative AI tools are now automatically signed with C2PA metadata, helping you meet content transparency and AI disclosure requirements. [Learn more](../content/c2pa-metadata.md) |
-| Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. [Learn more](../journeys/journey-re-entry.md)|
-| Enhancement | Listen for event triggers and filters - Account journeys | For account journeys, support for multiple triggers and filters in a _Listen for an event_ node with the _People_ event type is now available. |
-| Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. |
-| Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. |
+| Enhancement | Listen for event triggers and filters - Account journeys | For account journeys, support for multiple triggers and filters in a _Listen for an event_ node with the _People_ event type is now available. [Learn more](../journeys/listen-for-event-nodes.md) |
+| Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-action) |
+| Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-split-paths) |
 | Enhancement | AEP relational datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
 | Enhancement | Product permissions - WhatsApp channel | Product administrators can now set the `Manage B2B WhatsApp Settings` and `Manage B2B WhatsApp Presets` permissions for _[!UICONTROL B2B Channel Configurations]_. |
 
@@ -138,7 +151,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Brand kits | (Beta) Define a brand in Journey Optimizer B2B Edition to provide the source of truth for your creative team to use when they create any visual or written content. When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. [Learn more](../content/brands-overview.md) |
-| Feature | Brands for email content generation | You can define your brand guidelines and use this information to generate email content. With this feature, email content is aligned with your brand specific copywriting guidelines, styles, and tone. [Learn more](../content/ai-assistant-emails.md) |
+| Feature | Brands for email content generation | You can define your brand guidelines and use this information to generate email content. With this feature, email content is aligned with your brand specific copywriting guidelines, styles, and tone. [Learn more](../content/generate-content-emails.md) |
 | Enhancement | Journey _Wait_ node - advanced settings | For a _Wait_ node in a journey, marketers can now specify exit days and times, and select time zones. This enhancement enables better control for journey orchestration and campaign timing. [Learn more](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Enhancement | Member of Buying Group filter - Is Removed | For a _split path by people_ node, the _[!UICONTROL Member of Buying Group]_ filter now includes the _Is Removed_ constraint. When you select it, the filter can include the removed buying group member or exclude them. It is also supported in Marketo Engage smart lists, where you can use this new constraint in the _[!UICONTROL Member of Buying Group]_ filter. |
 | Enhancement | Email design - multiple-level bullets | The email content design space tools now support sub-bullets (bullet levels). |

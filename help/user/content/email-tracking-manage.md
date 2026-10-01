@@ -35,13 +35,13 @@ level_v2:
 
 You can disable open tracking for an individual email, or capture each person's tracking preference in Adobe Experience Platform and use a split path to route people to tracking and non-tracking email variants.
 
->[!BEGINSHADEBOX "CNIL guidance on email tracking pixels"]
+>[!BEGINSHADEBOX "Guidance on email tracking pixels"]
 
-On April 14, 2026, the *Commission Nationale de l'Informatique et des Libertés* (CNIL) published a [recommendation on the use of tracking pixels within emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). The guidance clarifies when consent is required and highlights the importance of proper consent practices for email pixel tracking. This policy could impact sending practices for any entity delivering emails to subscribers based in France.
+On April 14, 2026, the *Commission nationale de l'informatique et des libertés* (CNIL), France's data protection authority, published a [recommendation on the use of tracking pixels within emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). Shortly after, Italy's independent data protection authority ("Garante") published [Provision No. 284](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10241943) (the "Garante Provision") on April 17, 2026. Each guidance, while non-legally binding, clarifies when consent is required and highlights the importance of proper consent practices for email pixel tracking. This policy could impact sending practices for any entity delivering emails to subscribers under applicable EU privacy law.
 
 An email tracking pixel is a 1x1 transparent image embedded in the HTML of an email. When the recipient's email client loads that image, the pixel pings a server that records data such as a timestamp, device type, email client, and sometimes an IP address for approximate location. That log is then tied to a recipient's record, allowing marketers to know whether an email is opened.
 
-The [!UICONTROL Journey Optimizer B2B Edition] product capabilities described here are building blocks that, configured and operated appropriately, may support a compliant implementation. Each customer is responsible for determining and complying with their obligations under applicable law.
+The [!DNL Journey Optimizer B2B Edition] product capabilities described here are building blocks that, configured and operated appropriately, can help support customer compliance efforts. Customers are solely responsible for determining and complying with their obligations under applicable guidance and other laws.
 
 >[!ENDSHADEBOX]
 

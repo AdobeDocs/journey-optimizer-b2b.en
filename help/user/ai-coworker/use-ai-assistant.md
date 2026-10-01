@@ -4,6 +4,7 @@ description: Ask AI Assistant product knowledge questions and get operational in
 feature: AI Assistant
 role: User
 level: Beginner
+nudge: true
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
