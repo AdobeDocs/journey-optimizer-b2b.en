@@ -98,8 +98,8 @@ Each role that you define for the template uses a set of filters, or _conditions
 | ---- | --------- |
 | [!UICONTROL Person attributes] | Attributes from the [person profile](../admin/field-mapping.md#xdm-business-person-attributes), including: <li>City <li>Country <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State |
 | [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The account or person does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schemas](../admin/xdm-field-management.md#relational-schemas). |
-| Special filters | <li>Member of list (deprecated) <li>Member of program (deprecated) |
 | Intent data | <li>Category intent <li>Product intent <li>Keyword intent <br/>(see [_Intent data_](../admin/intent-data.md)) |
+| Special filters | <li>[!UICONTROL Has Account Relationship] <li>[!UICONTROL Member of Buying Group] <li>[!UICONTROL Member of list] (deprecated) <li>[!UICONTROL Member of Profile Audience] <li>[!UICONTROL Person Member of People Dynamic List] <li>[!UICONTROL Person Member of People Static List] |
 
 #### Define role properties
 

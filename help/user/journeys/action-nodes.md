@@ -123,10 +123,13 @@ In an account or person journey, use an action on people when you want to apply 
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Add Person to (other) journey] | <li>Account journey (Action on People) <li>Person journey| <li>Select live Person Journey |
 | | [!UICONTROL Add to external customer audience] | <li>Account journey <li>Person journey | <li>Select external customer audience |
+| | [!UICONTROL Add to People List] | <li>Person journey | <li>Select Static People List |
 | | [!UICONTROL Assign to Buying Group] | <li>Account journey | <li>Select solution interest <li>Select role |
 | | [!UICONTROL Person Interesting Moment] | <li>Account journey <li>Person journey | <li>Type <li>Description |
 | | [!UICONTROL Personalize web experience] (Beta) | <li>Account journey | <li>Create/edit web experience |
 | | [!UICONTROL Remove from Buying Group] | <li>Account journey | <li>Select solution interest |
+| | [!UICONTROL Remove from People List] | <li>Person journey | <li>Select Static People List |
+| | [!UICONTROL Remove Person from Journey] | <li>Person journey | <li>Select Person Journey |
 | | [!UICONTROL Send email] | <li>Account journey <li>Person journey | <li>Create email <li>Send-time optimization (optional, person journey only) |
 | | [!UICONTROL Send SMS] | <li>Account journey | <li>Create SMS |
 | | [!UICONTROL Send WhatsApp] | <li>Account journey | <li>Create WhatsApp message |
@@ -210,6 +213,14 @@ _To use an existing audience:_
 
 +++
 
++++[!UICONTROL Add to People List]
+
+Use this action to add people profiles to a selected static [people list](../audiences/people-lists.md).
+
+![Take an action - Add to People List](./assets/node-action-add-to-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL Assign to Buying Group]
 
 Use this action to add people profiles to a [buying group](../buying-groups/buying-groups-overview.md) based on a selected solution interest and role.
@@ -239,6 +250,14 @@ Use this action to [create personalized experiences](../content/web-experiences.
 Use this action to remove people profiles from a [buying group](../buying-groups/buying-groups-overview.md) based on a selected solution interest.
 
 ![Take an action - Remove from Buying Group](./assets/node-action-remove-from-buying-group.png){width="300"}
+
++++
+
++++[!UICONTROL Remove from People List]
+
+Use this action to remove people profiles from a selected static [people list](../audiences/people-lists.md).
+
+![Take an action - Remove from People List](./assets/node-action-remove-from-people-list.png){width="300"}
 
 +++
 

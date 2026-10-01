@@ -153,6 +153,9 @@ _**How a split path by people node works**_
 | [!UICONTROL Event history] | Splits people based on experience events that occurred prior to journey entry. Expand the folder to see all event types configured in [Admin > XDM event configuration](../admin/configure-aep-events.md) and select one to add as a filter. Constraints include fields from the selected event, a lookback time window measured back from when the person enters the journey, and an optional minimum number of times. |
 | [!UICONTROL Person attributes] | Attributes from the [person profile](../admin/field-mapping.md#xdm-business-person-attributes), including: <li>City <li>Country <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li> |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Profile Audience] | The person is or is not a member of a specified audience. |
+| [!UICONTROL Special filters] > [!UICONTROL Person Member of People Dynamic List] | The person is or is not a member of a specified dynamic people list. |
+| [!UICONTROL Special filters] > [!UICONTROL Person Member of People Static List] | The person is or is not a member of a specified static people list. |
 
 ### Account-person path conditions
 
