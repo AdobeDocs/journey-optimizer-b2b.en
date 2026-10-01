@@ -24,7 +24,7 @@ topic_v2:
 
 # Destinations
 
-Destinations are pre-built integrations that let you send [static people list](./people-lists.md#static-lists) members and account journey audiences to <!-- external advertising or--> social platforms<!--, including a LinkedIn campaign audience, a Google Customer Match audience, or a Facebook Custom Audience-->. Activating a static list to a destination keeps membership in sync. As people are added to or removed from the list, they are correspondingly added to or removed from the destination audience and, by extension, from any campaign that the audience feeds.
+Destinations are pre-built integrations that let you send [static people list](./people-lists.md#static-lists) members and account journey audiences to social platforms. Activating a static list to a destination keeps membership in sync. As people are added to or removed from the list, they are correspondingly added to or removed from the destination audience and, by extension, from any campaign that the audience feeds.
 
 There are three ways to activate people to a connected destination:
 
@@ -62,7 +62,8 @@ Full destination capability requires the following [!DNL Adobe Experience Platfo
 
 Before you can activate a static list, a destination must exist in the destinations catalog. On the left navigation, expand **[!UICONTROL Connections]** and select **[!UICONTROL Destinations]**. [!DNL Journey Optimizer B2B Edition] currently supports the **[!UICONTROL LinkedIn Matched Audience]** (Social) destination. See [_LinkedIn Account Matched audiences_](../data/linkedin-account-matched-audiences.md) to 
 
-<!-- the following destinations:
+<!-- 
+the following destinations:
 
 * **[!UICONTROL Google Customer Match]** (Advertising)
 * **[!UICONTROL Facebook Custom Audience]** (Social)

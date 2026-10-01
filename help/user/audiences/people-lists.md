@@ -92,7 +92,8 @@ Static list membership is defined by simple filters that reference person attrib
 
    Qualifying members appear in the list after a brief delay.
 
-   <!-- not working yet
+   <!-- 
+   not working yet
 
    ![Members for a static people list](./assets/people-list-static-members.png){width="700" zoomable="yes"}
 
@@ -184,7 +185,9 @@ Dynamic list membership is defined using simple filters that reference person at
    Qualify profiles for the list using any combination of:
 
    * Activity history
-   * Company attributes
+   * AEP enabled person fields
+   * Custom fields
+   * Intent data
    * Person attributes
    * Special filters, such as journey membership
 
