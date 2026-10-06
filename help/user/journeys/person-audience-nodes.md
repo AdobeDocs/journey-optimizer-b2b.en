@@ -3,7 +3,6 @@ title: Person Audience Nodes
 description: Configure person audience nodes with segment or event-based audiences to define person journey entry points for targeted orchestration in Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="This feature is currently in a limited beta release"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
