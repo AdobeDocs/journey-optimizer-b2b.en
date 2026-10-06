@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
     internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
     internal-label: Landing pages
