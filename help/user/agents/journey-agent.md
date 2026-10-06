@@ -17,6 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
     internal-label: Agentic AI
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -11,9 +11,15 @@ product_v2:
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
     internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
 subfeature_v2:
   - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
     internal-label: Person insights
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

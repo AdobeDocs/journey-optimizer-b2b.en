@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
     internal-label: Web forms
