@@ -35,6 +35,12 @@ The following datasets are the current export contract. Use them as the canonica
 
 For the namespace and schema setup that supports these exports, see [B2B namespaces and schemas](./namespaces-schemas.md).
 
+The `<datasetVersion>` component in each dataset name identifies its version. For these exports, adding new fields requires a new dataset based on a new schema rather than updating the existing dataset.
+
+>[!NOTE]
+>
+>Adobe retains older dataset versions to avoid disrupting existing use. As a result, you might find multiple versions of the same dataset in your sandbox. If you no longer use an older dataset, you can request that Adobe remove it. Before requesting removal, confirm that the dataset is no longer in use.
+
 ## Dataset summary {#summary}
 
 | Dataset | Type | Purpose |
