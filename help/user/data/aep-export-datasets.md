@@ -75,6 +75,8 @@ Across these datasets, a few field conventions repeat:
 
 ## Key dataset contracts {#contracts}
 
+Use the following sections to review the available dataset contracts.
+
 ### Person profile: `AJOB2B-1_5_1-person` {#person-profile}
 
 **Type:** Standard XDM
