@@ -42,6 +42,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
 | Feature | Service health dashboards | Track operational health of external actions by collecting success/error metrics and providing dashboards for administrators to monitor service performance. |
 | Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. [Learn more](../journeys/journey-re-entry.md) |
+| Enhancement | Member of Profile Audience filter | This filter is now available for person journey split path conditions, account journey person split path conditions, and people lists to include or exclude profiles based on their audience membership. |
 
 >[!NOTE]
 >

@@ -4,6 +4,7 @@ description: Configure account audience nodes with account audiences or account 
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -12,6 +13,8 @@ feature_v2:
     internal-label: Audiences
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
     internal-label: Account Journeys
@@ -24,7 +27,6 @@ level_v2:
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 
 # Account audience journey nodes

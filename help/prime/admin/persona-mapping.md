@@ -2,6 +2,9 @@
 title: Persona Mapping
 description: Learn how to set up persona mapping in Journey Optimizer B2B Prime. Map person attributes to define personas and use Derived Persona filtering in people lists and person journeys.
 badge: label="GA" type="informative" tooltip="This feature is not available until GA"
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 ---
 # Persona mapping
 

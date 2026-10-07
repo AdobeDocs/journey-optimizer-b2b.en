@@ -4,12 +4,19 @@ description: Create dynamic content variants with conditional rules based on pro
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+autotag-review: 2026-03-30T22:10:29.308Z
+TQID: 'https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+    internal-label: Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -21,8 +28,6 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-autotag-review: 2026-03-30T22:10:29.308Z
-TQID: https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8
 ---
 # Conditional content
 

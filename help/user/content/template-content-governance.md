@@ -4,12 +4,19 @@ description: Lock email template components for brand compliance - set governanc
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+autotag-review: 2026-03-30T22:19:13.043Z
+TQID: 'https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -21,8 +28,6 @@ topic_v2:
     internal-label: Governance
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
     internal-label: Content strategy
-autotag-review: 2026-03-30T22:19:13.043Z
-TQID: https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8
 ---
 # Template content governance
 
