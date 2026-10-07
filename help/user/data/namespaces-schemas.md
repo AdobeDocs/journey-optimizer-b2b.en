@@ -42,7 +42,7 @@ Journey Optimizer B2B Edition setup includes configuration of the Experience Pla
 
 Review the following information about the underlying setup for the namespaces and schemas to be used with B2B sources. It also provides details for configuring your Postman automation utility, which is necessary for generating B2B namespaces and schemas.
 
-For a summary of all exported datasets and field-level details for the key datasets, see [Adobe Journey Optimizer B2B Edition Adobe Experience Platform export datasets](./aep-export-datasets.md).
+For a summary of all exported datasets and field-level details for the key datasets, see [Adobe Journey Optimizer B2B Edition Adobe Experience Platform export datasets](./aep-exported-datasets.md).
 
 ## Set up the auto-generation utility
 

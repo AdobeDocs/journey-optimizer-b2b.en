@@ -25,15 +25,15 @@ topic_v2:
 autotag-review: '2026-09-29T00:00:00.000Z'
 ---
 
-# Exported [!DNL Adobe Experience Platform] datasets {#aep-export-datasets}
+# Exported [!DNL Experience Platform] datasets
 
-[!DNL Adobe Journey Optimizer B2B Edition] makes account, person, buying group, and journey information available in [!DNL Adobe Experience Platform] (AEP). A dataset is a collection of related records. For example, a person dataset describes people, a membership dataset connects people to accounts or journeys, and an event dataset records actions such as opening an email.
+[!DNL Adobe Journey Optimizer B2B Edition] makes account, person, buying group, and journey information available in [!DNL Adobe Experience Platform]. A dataset is a collection of related records. For example, a person dataset describes people, a membership dataset connects people to accounts or journeys, and an event dataset records actions such as opening an email.
 
 Use this guide to understand what each dataset contains, what its fields mean, and how related records connect. Dataset names follow this pattern:
 
 **`AJOB2B-<datasetVersion>-<entity>`**
 
-Here, `<entity>` describes the information, such as `person`, `account_relational`, or `person_event`. `<datasetVersion>` identifies the version of the dataset's field definitions. The section headings below show the documented names; your AEP environment may also contain older versions.
+Here, `<entity>` describes the information, such as `person`, `account_relational`, or `person_event`. `<datasetVersion>` identifies the version of the dataset's field definitions. The section headings show the documented names; your [!DNL Experience Platform] environment may also contain older versions.
 
 For the namespace and schema setup that supports these exports, see [B2B namespaces and schemas](./namespaces-schemas.md).
 
@@ -43,21 +43,21 @@ For the namespace and schema setup that supports these exports, see [B2B namespa
 
 ## Reading this guide
 
-- **Field name:** the exact name you see in AEP. Dots separate levels within a field, such as `consents.marketing.email.val`.
+- **Field name:** the exact name you see in [!DNL Experience Platform]. Dots separate levels within a field, such as `consents.marketing.email.val`.
 - **Record ID:** identifies the record in that dataset.
 - **Relationship:** names the dataset and field that the identifier matches. For example, `Matches AJOB2B-1_5_4-buying_group (_id)` means the field refers to a buying group's `_id`. Match the complete identifier; do not shorten it or try to rebuild it.
 - **Standard Adobe format:** uses Adobe's shared field definitions.
 - **Related-record format:** organizes information as records you can connect using matching identifiers.
 
-For example, `buying_group_member.buyingGroupID` matches `buying_group._id`, and its `personID` matches `person_relational._id` or the Person dataset's `personKey.sourceKey`. These links help you understand who belongs to a buying group. AEP does not automatically create reports or audiences from the links alone.
+For example, `buying_group_member.buyingGroupID` matches `buying_group._id`, and its `personID` matches `person_relational._id` or the Person dataset's `personKey.sourceKey`. These links help you understand who belongs to a buying group. [!DNL Experience Platform] does not automatically create reports or audiences from the links alone.
 
 Some identifiers refer to information that has no separate dataset in this guide, such as a marketing program. The Relationship column notes this instead of naming a dataset that does not exist here.
 
 `isDeleted` is `true` when the record is marked as deleted and `false` when it is not. Do not treat it as a general active-member or consent indicator. `lastUpdatedDate` describes the record's latest data update; for events, use `timestamp` to understand when the activity happened. A blank field means that information is unavailable or does not apply to that record.
 
-The related-record datasets below use version `1_5_4`. Where a field is not currently populated or needs special handling, the relevant section explains the customer-visible limitation.
+The related-record datasets use version `1_5_4`. Where a field is not currently populated or needs special handling, the relevant section explains the customer-visible limitation.
 
-An audience is a group of people who meet selected criteria. Availability for audience creation depends on your AEP setup for combining information into person profiles. A dataset's presence in AEP does not, by itself, mean it is available for segmentation.
+An audience is a group of people who meet selected criteria. Availability for audience creation depends on your [!DNL Experience Platform] setup for combining information into person profiles. A dataset's presence in [!DNL Experience Platform] does not, by itself, mean it is available for segmentation.
 
 ## Choosing a dataset
 
@@ -72,7 +72,7 @@ An audience is a group of people who meet selected criteria. Availability for au
 | Steps within a journey | `account_journey_node`, `person_journey_node`, `journey_node` |
 | Email, web, and other supported person activities | `person_event`, `person_event_relational` |
 
-The sections below provide the full dataset names and field details. A journey describes the overall experience; a membership connects a person or account to that journey; an event describes something that happened.
+The following sections provide the full dataset names and field details. A journey describes the overall experience; a membership connects a person or account to that journey; an event describes something that happened.
 
 +++Entity relation diagram
 
@@ -90,10 +90,10 @@ Each record describes a person, their identifiers, and their email marketing pre
 |------------|-------------|-------------|
 | `personID` | Record ID | Identifier for the person. Use the complete value to match related records. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceType` |  | Name of the connected product. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
-| `identityMap` |  | Other identifiers that help AEP recognize the same person across your connected data. |
+| `identityMap` |  | Other identifiers that help [!DNL Experience Platform] recognize the same person across your connected data. |
 | `consents.marketing.email.val` |  | Email marketing preference: `n` indicates an opt-out; `y` indicates no opt-out recorded in this field. This field alone does not establish permission to send marketing email. |
 | `consents.marketing.email.time` |  | Date and time when the email preference was last updated. |
 | `consents.marketing.email.reason` |  | Reason for the opt-out, when provided (only set when unsubscribed). |
@@ -267,7 +267,7 @@ Each record captures an account journey event: an account being added to or remo
 
 **Format:** Related-record format
 
-`eventType` tells you what happened. The tables below describe the fields for each kind of activity.
+`eventType` provides information about what happened. The following tables describe the fields for each kind of activity.
 
 `lastUpdatedDate` is not currently populated for these events. Use `timestamp` for the activity date.
 
@@ -339,7 +339,7 @@ Each record describes a person-level web, email, or other supported activity eve
 
 **Format:** Standard Adobe format
 
-`eventType` tells you what happened. The tables below describe the fields for each kind of activity. Details that do not apply to an event are blank.
+`eventType` tells you what happened. The following tables describe the fields for each kind of activity. Details that do not apply to an event are blank.
 
 ### Email sent (`directMarketing.emailSent`)
 
@@ -351,7 +351,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `directMarketing.emailSent.mailingKey.sourceID` |  | Mailing asset id. |
 | `directMarketing.emailSent.mailingKey.sourceType` |  | Name of the connected product. |
@@ -371,7 +371,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `directMarketing.mailingKey.sourceID` |  | Mailing asset id. |
 | `directMarketing.mailingKey.sourceType` |  | Name of the connected product. |
@@ -392,7 +392,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `directMarketing.mailingKey.sourceID` |  | Mailing asset id. |
 | `directMarketing.mailingKey.sourceType` |  | Name of the connected product. |
@@ -413,7 +413,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `directMarketing.mailingKey.sourceID` |  | Mailing asset id. |
 | `directMarketing.mailingKey.sourceType` |  | Name of the connected product. |
@@ -438,7 +438,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `directMarketing.mailingKey.sourceID` |  | Mailing asset id. |
 | `directMarketing.mailingKey.sourceType` |  | Name of the connected product. |
@@ -464,7 +464,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `directMarketing.mailingKey.sourceID` |  | Mailing asset id. |
 | `directMarketing.mailingKey.sourceType` |  | Name of the connected product. |
@@ -487,7 +487,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `directMarketing.mailingKey.sourceID` |  | Mailing asset id. |
 | `directMarketing.mailingKey.sourceType` |  | Name of the connected product. |
@@ -510,7 +510,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `web.webPageDetails.webPageKey.sourceID` |  | Page asset id. |
 | `web.webPageDetails.webPageKey.sourceType` |  | Name of the connected product. |
@@ -533,7 +533,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `web.webInteraction.webInteractionKey.sourceID` |  | Interaction asset id. |
 | `web.webInteraction.webInteractionKey.sourceType` |  | Name of the connected product. |
@@ -556,7 +556,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `web.fillOutForm.webFormKey.sourceID` |  | Form asset id. |
 | `web.fillOutForm.webFormKey.sourceType` |  | Name of the connected product. |
@@ -579,7 +579,7 @@ Each record describes a person-level web, email, or other supported activity eve
 | `personID` | Matches `AJOB2B-1_5_1-person` (`personID`) | Person identifier. |
 | `personKey.sourceID` |  | Person identifier in the connected system. |
 | `personKey.sourceType` |  | Name of the connected product. |
-| `personKey.sourceInstanceID` |  | Identifier of the AEP environment or connected account. |
+| `personKey.sourceInstanceID` |  | Identifier of the [!DNL Experience Platform] environment or connected account. |
 | `personKey.sourceKey` |  | Complete person identifier used to match related records. |
 | `leadOperation.interestingMoment.date` |  | Moment date/time. |
 | `leadOperation.interestingMoment.description` |  | Description. |
@@ -590,7 +590,7 @@ Each record describes a person-level web, email, or other supported activity eve
 
 ## `AJOB2B-1_5_4-journey_node`
 
-Each record describes a journey step, the journey it belongs to, and the kind of step. The same steps can appear in the account- and person-journey step datasets. Match `journeyID` to the appropriate journey; do not count a step more than once simply because it appears in several datasets.
+Each record describes a journey step, the journey it belongs to, and the kind of step. The same steps can appear in the account- and person-journey step datasets. Match `journeyID` to the appropriate journey; do not count a step more than once because it appears in several datasets.
 
 **Format:** Related-record format
 
@@ -684,11 +684,11 @@ Each record describes a supported person activity, such as viewing a web page, i
 
 **Format:** Related-record format
 
-The field list below covers all supported activity types. An individual record contains only the details that apply to its activity.
+The following field list covers all supported activity types. An individual record contains only the details that apply to its activity.
 
 >[!NOTE]
 >
->**Availability note:** some activities may have a blank `_id`. Do not assume every activity has a usable record identifier. The dataset is not a guarantee of a complete activity history.
+>**Availability:** some activities may have a blank `_id`. Do not assume every activity has a usable record identifier. The dataset is not a guarantee of a complete activity history.
 
 Journey details (`journeyID`, `journeyNodeID`, `journeyStepID`, and similar fields) are provided for journey activities (`person.journeyAdd`, `person.journeyRemove`, `person.journeyStart`, `person.journeyEnd`, `person.journeyNodeTransition`, `person.journeySplitNode`) and for `person.attributeChanged` activities associated with an "Update person profile" journey step.
 
@@ -741,7 +741,7 @@ Attribute-change fields (`attributeName`, `attributeID`, `attributeNewValue`, `a
 
 ### Field reference by activity type
 
-The tables below show which details apply to each activity. Other details are blank. Some activities share the same `eventType` label: codes 8 and 48 both use `directMarketing.emailBounced`. Use `activityTypeID` to tell them apart.
+The following tables show which details apply to each activity. Other details are blank. Some activities share the same `eventType` label: codes 8 and 48 both use `directMarketing.emailBounced`. Use `activityTypeID` to distinguish them.
 
 #### Web page viewed (`web.webpagedetails.pageViews`) (Activity type 1)
 
@@ -856,7 +856,7 @@ The tables below show which details apply to each activity. Other details are bl
 | `campaignID` |  | [!DNL Marketo Engage] campaign id, when campaign-attributed. |
 | `isDeleted`, `lastUpdatedDate` |  | Common fields. |
 
-This activity shares the `directMarketing.emailBounced` label with activity code 48 below, but `recipientEmail` is blank for code 8. Use `activityTypeID` to tell the two apart.
+This activity shares the `directMarketing.emailBounced` label with activity code 48, but `recipientEmail` is blank for code 8. Use `activityTypeID` to distinguish the two.
 
 #### Email bounced (`directMarketing.emailBounced`): sales email soft bounce (Activity type 48)
 
@@ -895,7 +895,7 @@ This activity shares the `directMarketing.emailBounced` label with activity code
 | `interestingMomentType` |  | Type label. |
 | `isDeleted`, `lastUpdatedDate` |  | Common fields. |
 
-`assetID` / `assetName` are not populated for this activity type.
+`assetID` and `assetName` are not populated for this activity type.
 
 #### Person field changed (`person.attributeChanged`) (Activity type 13)
 
@@ -972,6 +972,6 @@ Included only when the change is associated with a journey, such as an "Update p
 
 ## Customer-owned datasets {#customer-owned-datasets}
 
-Your organization may use its own AEP datasets for accounts or people. When configured, [!DNL Adobe Journey Optimizer B2B Edition] can add information to those datasets instead of creating another account or person dataset.
+Your organization may use its own [!DNL Experience Platform] datasets for accounts or people. When configured, [!DNL Adobe Journey Optimizer B2B Edition] can add information to those datasets instead of creating another account or person dataset.
 
-Their names and available fields depend on your organization's setup. Use the configured account or person identifier to recognize matching records. Having records in these datasets does not automatically make them available for audiences; availability depends on your AEP configuration.
+Their names and available fields depend on your organization's setup. Use the configured account or person identifier to recognize matching records. Having records in these datasets does not automatically make them available for audiences; availability depends on your [!DNL Experience Platform] configuration.

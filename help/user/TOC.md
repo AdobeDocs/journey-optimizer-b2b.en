@@ -79,7 +79,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Default XDM fields](./admin/field-mapping.md)
     + [Test profiles](./audiences/test-profiles.md)
 + Data {#data}
-    + [Export datasets](./data/aep-export-datasets.md)
+    + [Export datasets](./data/aep-exported-datasets.md)
 + Accounts {#accounts}
     + Buying groups {#buying-groups}
        + [Overview](./buying-groups/buying-groups-overview.md)
