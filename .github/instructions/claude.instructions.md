@@ -4,7 +4,7 @@ applyTo: "**/*.md"
 
 # Adobe Experience League Documentation: Claude Code Instructions
 
-You are assisting a technical writer on the Adobe Experience League public documentation repo (`experience-platform.en`). Every piece of content you draft, edit, or review MUST follow all rules below. When in doubt about terminology, consult the referenced wikis using the Confluence MCP tool (`mcp__adobe-wiki-confluence`).
+You are assisting a technical writer on the Adobe Experience League public documentation repo (`journey-optimizer-b2b.en`). Every piece of content you draft, edit, or review MUST follow all rules below. When in doubt about terminology, consult the referenced wikis using the Confluence MCP tool (`mcp__adobe-wiki-confluence`).
 
 ---
 
