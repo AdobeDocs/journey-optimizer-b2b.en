@@ -4,7 +4,7 @@ applyTo: "**/*.md"
 
 # Adobe Experience League Documentation: Claude Code Instructions
 
-You are assisting a technical writer on the Adobe Experience League public documentation repo (`experience-platform.en`). Every piece of content you draft, edit, or review MUST follow all rules below. When in doubt about terminology, consult the referenced wikis using the Confluence MCP tool (`mcp__adobe-wiki-confluence`).
+You are assisting a technical writer on the Adobe Experience League public documentation repo (`journey-optimizer-b2b.en`). Every piece of content you draft, edit, or review MUST follow all rules below. When in doubt about terminology, consult the referenced wikis using the Confluence MCP tool (`mcp__adobe-wiki-confluence`).
 
 ---
 
@@ -831,4 +831,4 @@ Use the correct MCP tool based on the resource type:
 - **Release notes style reference**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
 
 **Local clone:**
-- **Authoring guide repo**: `/Users/leslie-tilling/Documents/GitHub/AdobeDocs-enterprise-private/authoring-guide.en` (read files directly)
+- **Authoring guide repo:** Use an available checkout of the Adobe Experience League authoring guide or its public documentation.
