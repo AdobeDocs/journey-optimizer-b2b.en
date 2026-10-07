@@ -831,4 +831,4 @@ Use the correct MCP tool based on the resource type:
 - **Release notes style reference**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
 
 **Local clone:**
-- **Authoring guide repo**: `/Users/leslie-tilling/Documents/GitHub/AdobeDocs-enterprise-private/authoring-guide.en` (read files directly)
+- **Authoring guide repo:** Use an available checkout of the Adobe Experience League authoring guide or its public documentation.
