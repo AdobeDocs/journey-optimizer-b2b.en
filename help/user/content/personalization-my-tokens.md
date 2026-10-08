@@ -12,6 +12,8 @@ product_v2:
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
     internal-label: Personalization
