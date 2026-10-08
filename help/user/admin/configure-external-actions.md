@@ -1,6 +1,6 @@
 ---
 title: External Actions Configuration
-description: Learn how developers, administrators, and marketers work together to implement, configure, and use external actions that connect Journey Optimizer B2B Edition with external services in journeys.
+description: Learn how developers, administrators, and marketers work together to implement, configure, and use external actions that connect Journey Optimizer B2B Edition with external services in journeys, and how administrators monitor action health.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -41,7 +41,7 @@ Setting up external actions requires coordination across three roles in sequence
 | | Role | Task |
 | ---- | ---- | ---- |
 | 1 | Developer | [Implement and publish the external service](#implement-service) |
-| 2 | Administrator | [Configure the action in Journey Optimizer B2B Edition](#configure-action) |
+| 2 | Administrator | [Configure the action in Journey Optimizer B2B Edition](#configure-action) and [monitor external action health](#monitor-external-action-health) |
 | 3 | Marketer | [Add an external node to a journey](#add-journey-node) |
 
 ## Implement the external service {#implement-service}
@@ -67,6 +67,8 @@ An action must be configured and activated before marketers can use it in a jour
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**. 
 
 1. Click **[!UICONTROL External Actions]** on the intermediate panel.
+
+1. Select the **[!UICONTROL Browse]** tab.
 
    ![Access the External Actions configuration space](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
@@ -180,6 +182,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## Monitor external action health {#monitor-health}
+
+After marketers start using external actions in journeys, you can track how each action is performing from the _Overview_ tab of the external actions page. Use it to see how many requests each action receives, how many of those requests fail, and which actions have the highest error rates.
+
+To view the dashboard:
+
+1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
+
+1. Click **[!UICONTROL External actions]** on the intermediate panel.
+
+   The system displays the **[!UICONTROL Overview]** tab by default with external action data for the last seven days.
+
+1. Select the period to review from the date range menu, or enter a start and end date in the date field. The default range is the last 30 days.
+
+   ![External action health dashboard shows date range filters, total requests, errors, error rate, and action performance.](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   The metrics and the table update to show only activity from the selected period.
+
+### Metrics {#metrics}
+
+The _Overview_ section summarizes the performance of all external actions for the selected period.
+
+| Metric | Description |
+| ---- | ---- |
+| [!UICONTROL Total actions] | The number of external actions included in the report. |
+| [!UICONTROL Total requests] | The total number of requests made to external services across all actions. |
+| [!UICONTROL Total errors] | The total number of requests that resulted in an error. |
+| [!UICONTROL Error rate] | The percentage of requests that resulted in an error. |
+
+### Actions performance {#actions}
+
+The _Actions performance_ table lists each external action and its activity for the selected period.
+
+| Column | Description |
+| ---- | ---- |
+| [!UICONTROL Name] | The name of the external action. |
+| [!UICONTROL Request count] | The number of requests made to the action's external service. |
+| [!UICONTROL Error count] | The number of requests that resulted in an error. |
+| [!UICONTROL Error rate] | The percentage of requests that resulted in an error. |
+
+Use the table to compare actions and find the ones that need attention. For example, an action with a high error rate indicates a problem with the external service, its authentication credentials, or its configuration. Work with the developer who implemented the service to investigate the cause.
+
 ## Add an external node to a journey {#add-journey-node}
 
 After an action is activated, marketers can add an _[!UICONTROL External action]_ or _[!UICONTROL External split path]_ node to any account or person journey. For information about how to add and use these nodes in the journey canvas, see [External nodes](../journeys/external-nodes.md).
+
+![External action node - select external service](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}
