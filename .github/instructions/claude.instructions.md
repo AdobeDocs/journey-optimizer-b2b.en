@@ -407,12 +407,12 @@ Use for interface elements: options, fields, tabs, pages, menus, buttons, and fe
 - Code blocks or acronyms
 - Icon descriptions. Use the icon's hover/tooltip name if available; do not tag generic descriptions like "pencil icon"
 
-### `[!DONOTLOCALIZE]`: Exclude entire sections
+### `[!DNL]`: Exclude entire sections
 
 Wrap content that must remain in English across all locales:
 
 ```markdown
->[!DONOTLOCALIZE]
+>[!DNL]
 >
 >Content that must not be translated.
 ```
@@ -525,9 +525,8 @@ Do NOT precede product names with "the" unless the official name includes it.
 | Real-Time Customer Profile | Real-time Customer Profile, Unified Profile |
 | Adobe Journey Optimizer | AJO |
 | Adobe Journey Optimizer B2B Edition | AJO B2B |
-| Adobe Journey Optimizer B2B Prime | AJO B2B Prime |
 | Adobe Marketo Optimizer | AMO |
-| Adobe Marketo Engage | Marketo (can be used as an adjective) |
+| Adobe Marketo Engage | Marketo (cannot be used as an adjective) |
 | Adobe Customer Journey Analytics | CJA |
 | Customer Journey Analytics (secondary) | — |
 | Adobe Real-Time CDP Collaboration | RTCDP Collaboration, RTCDP Collab, Collab |
