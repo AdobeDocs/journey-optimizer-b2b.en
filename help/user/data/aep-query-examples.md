@@ -2,7 +2,7 @@
 title: Dataset Queries
 description: Learn how to use SQL query examples in Query Service to analyze account, buying group, person, and journey data exported by Adobe Journey Optimizer B2B Edition.
 feature: Reporting, Data Management
-role: Admin, Data Engineer
+role: Admin, Developer
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
