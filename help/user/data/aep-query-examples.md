@@ -35,7 +35,7 @@ Before you run any query on this page, make sure that you have the following:
 
 >[!NOTE]
 >
->The examples use short table names, such as `account_table` and `person_activity_table`. Replace each table name with the name of the corresponding dataset in your sandbox. Replace placeholder values, such as `Example Company` and `PASTE_COMPLETE_JOURNEY_ID_HERE`, with values from your environment.
+>The examples use short table names, such as `account_table` and `person_activity_table`. Replace each table name with the name of the corresponding dataset in your sandbox. If a dataset name contains hyphens, enclose it in double quotes. Replace placeholder values, such as `Example Company` and `PASTE_COMPLETE_JOURNEY_ID_HERE`, with values from your environment.
 
 ## Run a query {#run}
 
