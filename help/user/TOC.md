@@ -24,6 +24,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Data {#data}
     + [Data availability and sync timing](./data/data-availability-timing.md)
     + [Exported datasets](./data/aep-exported-datasets.md)
+    + [Dataset queries](./data/aep-query-examples.md)
 + AI capabilities {#ai-assistant}
     + [Overview](./ai-coworker/ai-assistant-overview.md)
     + [Enable AI Assistant access](./ai-coworker/enable-ai-assistant-access.md)
