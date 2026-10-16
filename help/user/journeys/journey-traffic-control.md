@@ -255,12 +255,14 @@ Journey traffic control uses the following data from your environment.
 
 For every run, journey traffic control stores a run summary. For every enrolled person, it stores an enrollment decision record. Both are stored in the Adobe-managed data stores of your environment. They power the reports and prevent repeat enrollments.
 
-<!-- CONFIRM with Engineering, Security, and Legal before publishing. The source material does not state any of the following data handling commitments:
+<!-- 
+CONFIRM with Engineering, Security, and Legal before publishing. The source material does not state any of the following data handling commitments:
 - Where processing occurs and data residency.
 - Whether meaning similarity comparison uses a third-party or externally hosted AI service, and whether profile text leaves the Adobe environment.
 - Whether customer data is used to train models shared with other customers.
 - The retention period for decision and enrollment records, and how they are deleted when a person is erased (link to privacy requests).
-- Encryption in transit and at rest, role-based access to the reports, and tenant isolation. -->
+- Encryption in transit and at rest, role-based access to the reports, and tenant isolation. 
+-->
 
 ## Set up journey traffic control {#setup}
 
