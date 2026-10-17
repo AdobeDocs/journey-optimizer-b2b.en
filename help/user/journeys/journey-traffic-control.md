@@ -1,6 +1,7 @@
 ---
 title: Journey Traffic Control
 description: Learn how journey traffic control enrolls each person in the best-fit journey when they qualify for several, and how to adjust weights and review decisions.
+hide: true
 autotag-review: '2026-10-16T18:41:12.165Z'
 TQID: 'https://experienceleague.adobe.com/oD1nTkrgqGZ-nzfHNFS66XvjQkn5FmOZ-cI3EDKnb4U'
 product_v2:
