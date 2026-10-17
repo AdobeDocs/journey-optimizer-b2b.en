@@ -130,6 +130,10 @@ By default, all four dimensions have a weight of _Medium_ and contribute equally
 
 1. When you want to apply the adjusted weights, select **[!UICONTROL Save weights]**.
 
+   >[!NOTE]
+   >
+   >To save changes to the dimension weights, you must have the _[!UICONTROL Manage B2B Admin Configurations]_ [product permission](../admin/user-management.md#b2b-product-permissions).
+
 ### Simulate scoring {#simulate-scoring}
 
 Before committing weights to production, you can simulate how traffic control would behave with those changes. Simulation does not require journey traffic control to be enabled. It evaluates profiles that are already in your live journeys and applies the traffic control logic to them. Then you can judge whether the outcomes look right for the weight settings.
