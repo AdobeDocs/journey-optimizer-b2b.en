@@ -28,10 +28,6 @@ level_v2:
 
 Use a _Variant split paths_ node to distribute accounts or people across two or more journey paths based on percentage allocations that you define. This node is useful when you want to test different messaging, timing, or engagement tactics across segments of your audience without applying conditional rules.
 
->[!AVAILABILITY]
->
->The _Variant split paths_ node for account and person journeys is available to select customers as a limited availability feature. To get access, contact your Adobe representative.
-
 ## Comparison by journey type {#journey-type-comparison}
 
 The variant split paths node uses different assignment algorithms depending on the journey type. Understanding this difference is important for choosing the right use case for each journey type.
