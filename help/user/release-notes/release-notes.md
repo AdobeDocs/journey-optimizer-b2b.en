@@ -40,8 +40,9 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Service health dashboards | Track operational health of external actions by collecting success/error metrics and providing dashboards for administrators to monitor service performance. |
-| Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. [Learn more](../journeys/journey-re-entry.md) |
-| Enhancement | Member of Profile Audience filter | This filter is now available for person journey split path conditions, account journey person split path conditions, and people lists to include or exclude profiles based on their audience membership. |
+| Enhancement | Member of Profile Audience filter | This filter is now available for person journey split path conditions, account journey person split path conditions, and _Listen for an event_ node filters to include or exclude profiles based on their audience membership. [Learn more](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Enhancement | Member of Buying Group filter - Is Removed default | In _split path by people_ conditions and _Listen for an event_ node filters, the _[!UICONTROL Is Removed]_ constraint is now selected by default and set to `false` when you add the _[!UICONTROL Member of Buying Group]_ filter. The filter returns only current buying group members unless you change or remove the constraint. [Learn more](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
 
 >[!NOTE]
 >

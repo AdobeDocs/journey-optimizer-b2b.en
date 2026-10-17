@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Listen for an event
 
-To move the audience forward to the next step in your [journey](./journeys-overview.md) when an event occurs, add the _Listen for an event_ node. Depending on the journey type, you can use this node to trigger the next node in the journey according to people or account events. 
+To advance the audience to the next step in your [journey](./journeys-overview.md) when an event occurs, add the _Listen for an event_ node. Depending on the journey type, you can use this node to trigger the next node in the journey according to people or account events. 
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -61,7 +61,7 @@ To move the audience forward to the next step in your [journey](./journeys-overv
 
       In the _Edit event_ dialog, drag and drop one or more [people events](#people-events) into the builder space and set the definition for each. Click **[!UICONTROL Add constraint]** for each constraint that you want to use to refine the event match.
 
-      You can add multiple people events to match. The first qualifying event advances the account forward in the journey.
+      You can add multiple people events to match. The first qualifying event advances the account in the journey.
 
       ![Account journey node - Listen to events - People event type - edit event](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
 
@@ -75,7 +75,7 @@ To move the audience forward to the next step in your [journey](./journeys-overv
 
 ### People events for account journeys {#people-events}
 
-In an account journey, you can listen for an event based on people when you want to move the account forward in the journey according to events triggered by person (lead) activities. You can also filter events according to event history and person attributes.
+In an account journey, you can listen for an event based on people when you want to advance the account in the journey according to events triggered by person (lead) activity. You can also filter events according to event history and person attributes.
 
 >[!TIP]
 >
@@ -93,7 +93,7 @@ For detailed information about using Experience Events, see [Experience Event tr
 
 ### Account events {#account-events}
 
-In an account journey, you can listen for an event based on the account when you want to move the account forward in the journey according to events triggered by account activity.
+In an account journey, you can listen for an event based on the account when you want to advance the account in the journey according to events triggered by account activity.
 
 | Event | Constraints |
 | ----- | ----------- |
@@ -181,7 +181,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    Drag and drop the event trigger into the builder space and set the definition. Click **[!UICONTROL Add constraint]** for each constraint that you want to use to refine the event match.
 
-   You can add multiple events to match. The first qualifying event advances the person profile forward in the journey.
+   You can add multiple events to match. The first qualifying event advances the person profile in the journey.
    
 1. (Optional) Select the **[!UICONTROL Filters]** tab to [add filters for the event](#filters-people-event).
 
@@ -256,7 +256,8 @@ When you define a [people event in an account journey](#people-events) or an [ev
 | [!UICONTROL Event history] | Experience events configured by an administrator. See _[Select Experience Events and fields](../admin/configure-aep-events.md)_. |
 | [!UICONTROL Person Attributes] | Attributes from the B2B person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
 | [!UICONTROL Person attributes] | (Person journeys only) Attribute value |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li>|
+| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed (default: `false`)</li><li>Role</li> (See [Membership filtering](#membership-filtering)) |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Profile Audience] | The person is or is not a member of one or more [!DNL Adobe Experience Platform] profile audiences. (See [Membership filtering](#membership-filtering)) |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -281,13 +282,58 @@ When you define a [people event in an account journey](#people-events) or an [ev
 
 1. When the event and filter definitions are complete, click **[!UICONTROL Done]**.
 
+### Membership filtering {#membership-filtering}
+
+Within the _[!UICONTROL Special filters]_ section, use the following filters to match an event based on a person's membership:
+
+* _[!UICONTROL Member of Buying Group]_ - Evaluates whether the person is a member of a buying group.
+* _[!UICONTROL Member of Profile Audience]_ - Evaluates whether the person is a member of an [!DNL Adobe Experience Platform] profile audience.
+
+To add a membership filter, drag it from the _[!UICONTROL Special filters]_ folder onto the filters workspace and set the membership to _true_ to include members or _false_ to exclude them. You can combine both filters in the same event definition and use the **[!UICONTROL Filter logic]** to match any or all of them.
+
+These filters are also available in [split path by people conditions](./split-merge-paths-nodes.md#membership-filtering).
+
+![Listen for event node - membership filters](./assets/node-listen-event-people-membership-filters.png){width="700" zoomable="yes"}
+
+**Member of Buying Group**
+
+To match an event for buying group members with a specific role, set membership to _true_ and select a _[!UICONTROL Solution interest]_ associated with one or more buying groups.
+
+When you add the filter, the system includes the _[!UICONTROL Is Removed]_ constraint by default and sets it to `false`, so the filter matches only current buying group members.
+
+Click **[!UICONTROL Add constraint]** to include additional buying group membership constraints:
+
+* _[!UICONTROL Buying group stage]_
+* _[!UICONTROL Buying group status]_
+* _[!UICONTROL Completeness score]_
+* _[!UICONTROL Engagement score]_
+* _[!UICONTROL Role]_
+
+>[!IMPORTANT]
+>
+>The _[!UICONTROL Is Removed]_ constraint determines whether removed buying group members are evaluated:
+>
+>* `false` (default) - Returns only current buying group members. Removed members are not included.
+>* `true` - Returns only removed buying group members. Current members are not included.
+>* Constraint removed - Returns both current and removed buying group members.
+>
+>If you remove the constraint, the filter can match people who are no longer in the buying group.
+
+**Member of Profile Audience**
+
+Use the _[!UICONTROL Profile Audience]_ constraint to select one or more audiences. For example, if you select the `integroPerson` audience, the event matches only people who were members of that audience when the last batch ingestion occurred.
+
+>[!NOTE]
+>
+>The filter does not calculate audience membership in real time. It qualifies people based on their membership in the selected audience as of the last batch audience ingestion. Only audiences that have been ingested into [!DNL Journey Optimizer B2B Edition] can be evaluated.
+
 ## Add a timeout to an event node {#timeouts}
 
 If needed, define the amount of time the journey waits for the event. The journey ends after a timeout unless you define a timeout path, where you can add other nodes.
 
 Enable the **[!UICONTROL Timeout]** option in the node properties to specify a timeout for the _Listen for an event_ node.
 
-1. With the options enabled, choose the _Type_ and specify the parameters for the timeout:
+1. With the option enabled, choose the _Type_ and specify the parameters for the timeout:
 
    * **[!UICONTROL Duration]** - Use this type to specify a time period for the event trigger. If the event does not trigger within that period, the person or account does not proceed in the journey.
 
