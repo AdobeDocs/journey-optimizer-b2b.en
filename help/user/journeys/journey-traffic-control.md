@@ -213,7 +213,7 @@ Filter the list by time range (24 hours, 7 days, 30 days, or all time) and trigg
 
 To see a flow diagram from the evaluated people to the journeys they were enrolled in, open a run. A breakdown for each journey shows how many people were **[!UICONTROL Not Enrolled]**, **[!UICONTROL Enrolled]**, **[!UICONTROL Arbitrated]** (chosen among competing journeys), and **[!UICONTROL Uncontested]**. For any journey in a run, you can also view the people evaluated, their outcomes, the journeys they competed with, and their match scores.
 
-![TBD](./assets/journey-traffic-control-reporting-by-run-flow-chart.png){width="500" zoomable="yes"}
+![Flow diagram showing evaluated people and their enrollment outcomes across journeys](./assets/journey-traffic-control-reporting-by-run-flow-chart.png){width="500" zoomable="yes"}
 
 <!-- CONFIRM with Product: what the scheduled and on-publish triggers mean for customers, and the content of the Not enrolled tooltip. -->
 
@@ -223,7 +223,7 @@ Each run follows the same sequence. Journey traffic control reads only data alre
 
 1. Journey traffic control waits for the person and account [profile refresh](../data/data-availability-timing.md#daily-refresh) in your environment to complete successfully. If the refresh fails, no run starts on stale data.
 
-1. Audience membership is calculated in [!DNL Adobe Experience Platform] and [synchronized](../data/data-availability-timing.md#platform-sync) to [!DNL Journey Optimizer B2B Edition]. After segmentation finishes, the system waits for the synchronization to complete, for up to four hours. If the synchronization finishes sooner, processing starts immediately. If four hours pass first, processing starts anyway. If the synchronization finishes later, a new run starts on the updated data.
+1. Audience membership is calculated in [!DNL Adobe Experience Platform] and [synchronized](../data/data-availability-timing.md#platform-sync) to [!DNL Journey Optimizer B2B Edition]. After segmentation finishes, the system waits for the synchronization to complete, for up to 30 minutes. If the synchronization finishes sooner, processing starts immediately. If 30 minutes pass first, processing starts anyway. If the synchronization finishes later, a new run starts on the updated data.
 
 1. The system assembles the candidate journeys. Only journeys that are live and enabled for traffic control participate. The system reads each journey's status, name, and description.
 
