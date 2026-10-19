@@ -13,7 +13,7 @@ TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvg
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
 
-[!DNL Adobe Journey Optimizer B2B Edition] is a first-of-its-kind application that lets marketing and sales teams orchestrate account-based experiences and qualify buying groups for specific products across the entire customer lifecycle. It uses AI to engage and qualify buying groups within target accounts, helping your teams to generate a higher quality pipeline, and design better acquisition, expansion, and retention strategies. It also enables shared insights across sales and marketing teams.
+[!DNL Adobe Journey Optimizer B2B Edition] is a first-of-its-kind application that lets marketing and sales teams orchestrate account-based experiences and qualify buying groups for specific products across the entire customer lifecycle. It uses AI to engage and qualify buying groups within target accounts, helping your teams to generate a higher quality pipeline and design better acquisition, expansion, and retention strategies. It also enables shared insights across sales and marketing teams.
 
 This documentation provides information for mastering the application. It is designed for marketers, business development representatives, data analysts, and operational administrators.
 
