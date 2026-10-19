@@ -44,6 +44,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Journey management {#journeys}
     + [Account and person journeys](./journeys/journeys-overview.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
+    + {hide-from-toc} [Journey traffic control](./journeys/journey-traffic-control.md)
     + [Journey re-entry](./journeys/journey-re-entry.md)
     + {hide-from-toc} [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
