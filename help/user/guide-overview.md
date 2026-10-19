@@ -13,23 +13,27 @@ TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvg
 ---
 # Adobe Journey Optimizer B2B Edition Documentation
 
-[!DNL Adobe Journey Optimizer B2B Edition] is a first-of-its-kind application that lets marketing and sales teams orchestrate account-based experiences and qualify buying groups for specific products across the entire customer lifecycle. It uses AI to engage and qualify buying groups within target accounts, helping your teams to generate a higher quality pipeline, design better acquisition, expansion, and retention strategies. It also enables shared insights across sales and marketing teams. 
+[!DNL Adobe Journey Optimizer B2B Edition] is a first-of-its-kind application that lets marketing and sales teams orchestrate account-based experiences and qualify buying groups for specific products across the entire customer lifecycle. It uses AI to engage and qualify buying groups within target accounts, helping your teams to generate a higher quality pipeline, and design better acquisition, expansion, and retention strategies. It also enables shared insights across sales and marketing teams.
 
 This documentation provides information for mastering the application. It is designed for marketers, business development representatives, data analysts, and operational administrators.
 
 ## What's new
 
-Review this sampling of the latest additions and enhancements in the [!DNL Journey Optimizer B2B Edition] application and documentation. 
+Review this sampling of the latest additions and enhancements in the [!DNL Journey Optimizer B2B Edition] application and documentation.
 
 >[!BEGINTABS]
 
->[!TAB AI agents]
+>[!TAB Person journeys]
 
-With the [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, the AI Assistant interface can automatically call upon specialized agents to get you the right answers and insights. Agent Orchestrator remembers your conversation history, enabling you to build on previous questions naturally without repeating context, and combines insights from multiple agents to present you with clear, unified responses. In the [!DNL Journey Optimizer B2B Edition] context, there are three purpose-built agents for specific B2B tasks and domains:
+Orchestrate lead-based marketing with person journeys, which use [!DNL Adobe Experience Platform] audiences and data to engage individual people. Person journeys now support _Listen for an event_, external action, and external split paths nodes, and journey re-entry. Use them alongside account journeys and buying groups to orchestrate the full buying journey.
 
-* [Audience Agent B2B](./agents/audience-agent-b2b.md)
-* [Journey Agent B2B](./agents/journey-agent.md)
-* [Account Qualification Agent](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}
+[!BADGE Learn more]{type=Informative url="/help/user/journeys/journeys-overview.md" tooltip="Learn about person journeys"}
+
+>[!TAB Variant split paths]
+
+Test variations within an account or person journey by assigning accounts or people to different journey paths based on percentages that you define. In person journeys, assignment is deterministic, so each person always follows the same path, which supports controlled experiments.
+
+[!BADGE Learn more]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="Learn about variant split paths"}
 
 >[!TAB WhatsApp channel]
 
@@ -51,21 +55,9 @@ For _Send email_ action nodes in person journeys, you can now use send-time opti
 
 >[!TAB Journey re-entry]
 
-You can now send accounts/people through an account journey workflow multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and re-usable nurture workflows. Use the re-entry settings to set criteria, limits, and wait times so that accounts requalify for the journey in a controlled way.
+You can now send accounts or people through an account or person journey multiple times. Re-entry addresses multiple scenarios, such as re-evaluation of qualification criteria and reusable nurture workflows. Use the re-entry settings to set criteria, limits, and wait times so that accounts or people requalify for the journey in a controlled way.
 
 [!BADGE Learn more]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Learn about journey re-entry"}
-
->[!TAB Brand themes]
-
-With themes, non-technical designers have the ability to create reusable email content design guidelines that align to a specific brand and styling. Themes empower marketers to leverage visually appealing, brand-consistent emails faster and with less effort, and provide advanced customization options for unique design needs.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Learn about brand themes"}
-
->[!TAB Persona mapping]
-
-Marketers can define detailed profiles, including background, responsibilities, pain points, and preferred communication channels. With these definitions, administrators can configure personas according to person attributes in [!DNL Journey Optimizer B2B Edition] so that role templates can use streamlined and consistent role conditions that capture these personas.
-
-[!BADGE Learn more]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Learn about persona mapping"}
 
 >[!ENDTABS]
 
@@ -77,7 +69,7 @@ Marketers can define detailed profiles, including background, responsibilities, 
 
 Latest Release Notes
 
-Stay updated with the latest release notes, new features, and improvements in Adobe Journey Optimizer B2B Edition.
+Stay updated with the latest release notes, new features, and improvements in [!DNL Adobe Journey Optimizer B2B Edition].
 
 [View Release Notes](./release-notes/release-notes.md)
 :::
@@ -87,7 +79,7 @@ Stay updated with the latest release notes, new features, and improvements in Ad
 
 Get Started
 
-Review the Journey Optimizer B2B Edition onboarding guidance for administrators and marketers.
+Review the [!DNL Journey Optimizer B2B Edition] onboarding guidance for administrators and marketers.
 
 [Administrators](./setup-ultimate.md)
 [Users](./start/get-started.md)
@@ -96,11 +88,14 @@ Review the Journey Optimizer B2B Edition onboarding guidance for administrators 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configure Your XDM fields
+Manage Your Data
 
-Implement the system configurations to activate the XDM schemas and fields that you want to use in Adobe Journey Optimizer B2B Edition.
+Activate the XDM schemas and fields that you want to use in [!DNL Adobe Journey Optimizer B2B Edition], and learn how its data works in [!DNL Adobe Experience Platform].
 
 [View XDM field management](./admin/xdm-field-management.md)
+[Exported datasets](./data/aep-exported-datasets.md)
+[Dataset queries](./data/aep-query-examples.md)
+[Data availability and sync timing](./data/data-availability-timing.md)
 :::
 
 :::
@@ -120,7 +115,7 @@ Configure and manage email, SMS, WhatsApp, and other channels for personalized c
 
 Create a Journey
 
-Design, orchestrate, manage, and optimize personalized journeys.
+Design, orchestrate, manage, and optimize personalized account and person journeys.
 
 [Explore Journeys](./journeys/journeys-overview.md)
 :::
@@ -161,14 +156,8 @@ Discover the components of a buying group and understand the basics of building 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
-      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">AI Assistant</a>
+      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">AI capabilities</a>
     </td>
-    <!--
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
-    </td>
-    -->
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Buying groups"><br/>
       <strong>Buying groups</strong><br/><a href="./buying-groups/buying-groups-overview.md">Buying groups overview</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Role templates</a><br/><a href="./buying-groups/solution-interests.md">Solution interests</a><br/><a href="./buying-groups/buying-groups-create.md">Create buying groups</a>
