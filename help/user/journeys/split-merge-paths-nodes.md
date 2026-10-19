@@ -155,7 +155,8 @@ _**How a split path by people node works**_
 | [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The person does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas). (See [Custom data filtering](#custom-data-filtering)) |
 | [!UICONTROL Event history] | Splits people based on experience events that occurred prior to journey entry. Expand the folder to see all event types configured in [Admin > XDM event configuration](../admin/configure-aep-events.md) and select one to add as a filter. Constraints include fields from the selected event, a lookback time window measured back from when the person enters the journey, and an optional minimum number of times. |
 | [!UICONTROL Person attributes] | Attributes from the [person profile](../admin/field-mapping.md#xdm-business-person-attributes), including: <li>City <li>Country <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed</li><li>Role</li> |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed (default: `false`)</li><li>Role</li> (See [Membership filtering](#membership-filtering)) |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Profile Audience] | The person is or is not a member of one or more [!DNL Adobe Experience Platform] profile audiences. (See [Membership filtering](#membership-filtering)) |
 
 ### Account-person path conditions
 
@@ -220,15 +221,15 @@ _**How a split path by people node works**_
 
 For a split path by people, you can define a path based on experience events that occurred before the person entered the journey. To see a list of all event types configured by your administrator, expand the **[!UICONTROL Event history]** folder in the conditions editor. Select an event type to add it as a filter condition.
 
-The lookback time window for event history is measured backward from the moment the person enters the journey. For example, a 30-day window evaluates whether the qualifying event occurred within the 30 days prior to journey entry.
+The time window for event history is measured backward from the moment the person enters the journey. For example, a 30-day window evaluates whether the qualifying event occurred within the 30 days prior to journey entry.
 
-You can further refine the filter using constraints specific to the selected event's fields. The optional **[!UICONTROL Minimum number of times]** and **[!UICONTROL Date of activity]** constraints are both evaluated within the defined lookback window. Because event history data is synced from Adobe Experience Platform, there may be a brief delay before a recently occurring event becomes available to this filter.
+You can further refine the filter using constraints specific to the selected event's fields. The optional **[!UICONTROL Minimum number of times]** and **[!UICONTROL Date of activity]** constraints are both evaluated within the defined lookback window. Because event history data is synced from [!DNL Adobe Experience Platform], there may be a brief delay before a recently occurring event becomes available to this filter.
 
 >[!NOTE]
 >
 >The [Experience Events and fields configurations](../admin/configure-aep-events.md) determine the events available in the [!UICONTROL Event history] folder.
 
-**Example:** To route people who clicked a link in a marketing email before entering the journey, select the email click event from the [!UICONTROL Event history] folder, set the lookback window to cover the relevant time period, and apply any field-level constraints (such as a specific link URL) as needed.
+**Example:** To route people who clicked a link in a marketing email before entering the journey, select the email click event from the [!UICONTROL Event history] folder, set the lookback window, and apply field-level constraints as needed.
 
 ![Split path by people condition for event history](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
@@ -240,13 +241,24 @@ For each of the _[!UICONTROL Event history]_ filters, you can enable the **[!UIC
 
 >[!ENDSHADEBOX]
 
-### Membership filtering
+### Membership filtering {#membership-filtering}
 
-Within the _[!UICONTROL Special Filters]_ section, there are multiple filters that you can use to evaluate a person's membership in a buying group. 
+Within the _[!UICONTROL Special filters]_ section, use the following filters to create paths based on a person's membership:
 
-For example, if you want to create a path for people who are members of a buying group and are assigned a particular role, add the _[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_ filter. For the filter, set the membership as _true_ and select a _[!UICONTROL Solution interest]_ that is associated with one or more buying groups.
+* _[!UICONTROL Member of Buying Group]_ - Evaluates whether the person is a member of a buying group.
+* _[!UICONTROL Member of Profile Audience]_ - Evaluates whether the person is a member of an [!DNL Adobe Experience Platform] profile audience.
 
-![Split path by people condition for buying group membership](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+To add a membership filter, drag it from the _[!UICONTROL Special filters]_ folder onto the conditions workspace and set the membership to _true_ to include members or _false_ to exclude them. You can combine both filters in the same path condition and use the **[!UICONTROL Filter logic]** to match any or all of them.
+
+These filters are also available when you [add filters for an event](./listen-for-event-nodes.md#membership-filtering) in a _Listen for an event_ node.
+
+![Split path by people condition for buying group and profile audience membership](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
+
+**Member of Buying Group**
+
+For example, to create a path for buying group members with a specific role, set membership to _true_ and select a _[!UICONTROL Solution interest]_ associated with buying groups.
+
+When you add the filter, the system includes the _[!UICONTROL Is Removed]_ constraint by default and sets it to `false`, so the path includes only current buying group members.
 
 Click **[!UICONTROL Add constraint]** to include additional buying group membership constraints:
 
@@ -254,12 +266,25 @@ Click **[!UICONTROL Add constraint]** to include additional buying group members
 * _[!UICONTROL Buying group status]_
 * _[!UICONTROL Completeness score]_
 * _[!UICONTROL Engagement score]_
-* _[!UICONTROL Is Removed]_
 * _[!UICONTROL Role]_
 
->[!TIP]
+>[!IMPORTANT]
 >
->To exclude members who were removed from a buying group, use the _[!UICONTROL Is Removed]_ constraint set to `false`. You can also explicitly include removed members by setting this constraint to `true`.
+>The _[!UICONTROL Is Removed]_ constraint determines whether removed buying group members are evaluated:
+>
+>* `false` (default) - Returns only current buying group members. Removed members are not included.
+>* `true` - Returns only removed buying group members. Current members are not included.
+>* Constraint removed - Returns both current and removed buying group members.
+>
+>If you remove the constraint, the path can include people who are no longer in the buying group.
+
+**Member of Profile Audience**
+
+Use the _[!UICONTROL Profile Audience]_ constraint to select one or more audiences. For example, if you select the `integroPerson` audience, the path qualifies all people who were members of that audience when the last batch ingestion occurred. 
+
+>[!NOTE]
+>
+>The filter does not calculate audience membership in real time. It qualifies people based on their membership in the selected audience as of the last batch audience ingestion. Only audiences that have been ingested into [!DNL Journey Optimizer B2B Edition] can be evaluated.
 
 ## Custom data filtering {#custom-data-filtering}
 
@@ -283,9 +308,9 @@ To combine different _split paths by account_ in your journey, add a _Merge path
 
 1. In the merge paths node properties, select the paths you want to merge.
 
-   ![Journey node - merge paths](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
+   ![Journey node - select paths to merge](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   At this point, the paths are merged so that accounts from the selected paths combine to a single path that can continue to progress through the journey.
+   The paths are merged so that accounts from the selected paths combine to a single path that can continue to progress through the journey.
 
 1. If needed, you can unmerge paths by navigating back to the merge paths node properties and clearing the checkbox for any paths that you want to remove.
 

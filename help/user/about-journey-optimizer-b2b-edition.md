@@ -54,7 +54,7 @@ Journey Optimizer B2B Edition creates, stores, and runs your account journeys. A
 
 A journey always starts with an audience that qualifies leads or accounts and their people for the journey. Select this audience using the standard Experience Platform audience selector. Marketers implement the journey by splitting paths using account criteria, people criteria, or buying group criteria. On each path, actions send communications or wait for an event to occur.
 
-After you create an account journey, publish it to make the journey live. Qualifying accounts enter a published journey within 24 hours.
+After you create an account journey, publish it to make the journey live. Qualifying accounts enter a published journey within 24 hours. [Learn more about data availability and sync timing](./data/data-availability-timing.md).
 
 ### Data flow
 
