@@ -184,6 +184,16 @@ Discover the components of a buying group and understand the basics of building 
   </tr>
 </table>
 
+>[!BEGINSHADEBOX]
+
+## [!DNL Marketo Qualifier]
+
+[!DNL Adobe Marketo Qualifier] is an AI-driven application that you can use with [!DNL Journey Optimizer B2B Edition]. It implements the Account Qualification skill and is designed to streamline workflows for Business Development Representatives (BDRs). [!DNL Marketo Qualifier] automates prospect qualification, outreach, and buyer engagement workflows across channels. It reduces manual BDR load and accelerates pipeline velocity for Enterprise B2B companies.
+
+For more information, refer to the [Marketo Qualifier documentation](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 ## Additional resources
 
 <table style="table-layout:fixed">

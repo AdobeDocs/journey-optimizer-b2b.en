@@ -48,16 +48,6 @@ The chat interface in Adobe Journey Optimizer B2B Edition is powered from the sa
 
 +++
 
->[!BEGINSHADEBOX]
-
-## Sales Qualifier
-
-Sales Qualifier is an AI-driven application that you can use with Journey Optimizer B2B Edition. It implements the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). Sales Qualifier automates prospect qualification, outreach, and buyer engagement workflows across channels. It reduces manual BDR load and accelerates pipeline velocity for Enterprise B2B companies.
-
-For more information, refer to the [Sales Qualifier documentation](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
-
->[!ENDSHADEBOX]
-
 ## AI Assistant capabilities in Journey Optimizer B2B Edition
 
 To formulate a response to your submitted questions, AI Assistant queries a database and translates data from the database into a human-readable answer. This response is an internal representation of underlying data, the _**Knowledge Graph**_, and provides a comprehensive collection of concepts, data, and metadata for a given answer. The Knowledge Graph consists of sub-graphs that are referenced whenever queries are submitted:

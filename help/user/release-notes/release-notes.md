@@ -173,7 +173,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | ----- | ------ | ----------- |
 | Journey Build Agent | New and updated | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
 | Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
-| Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels. [Learn more](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | New | [!DNL Adobe Marketo Qualifier] is an AI-driven application that integrates with [!DNL Journey Optimizer B2B Edition].It implements the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels. [Learn more](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 release notes {#rel-2025-10}
 
