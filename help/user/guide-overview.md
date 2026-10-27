@@ -156,7 +156,7 @@ Discover the components of a buying group and understand the basics of building 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
-      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">AI capabilities</a>
+      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-coworker/ai-overview.md">AI capabilities</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Buying groups"><br/>
@@ -209,4 +209,3 @@ For more information, refer to the [Marketo Qualifier documentation](https://exp
 <a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
 </td>
 </tr></table>
-

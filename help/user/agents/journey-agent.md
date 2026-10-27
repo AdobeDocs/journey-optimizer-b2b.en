@@ -1,6 +1,6 @@
 ---
-title: Journey Agent B2B
-description: Learn how to use the AI-powered Journey Agent and its skills to build, manage, and observe robust B2B journeys.
+title: Journey Skills for B2B
+description: Learn how to use the AI-powered Journey skills that you can use to build, manage, and observe robust B2B journeys.
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
@@ -37,26 +37,26 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Journey Agent B2B
+# Journey skills for B2B
 
-Journey Agent B2B is an AI-powered assistant in Adobe Journey Optimizer B2B Edition that helps you design, execute, optimize, and monitor B2B journeys through natural language. It reduces the time and complexity involved in building and managing customer journeys by combining automation, data-driven recommendations, and real-time observability.
+In [!DNL CX Enterprise Coworker] chat, the journey skills help you design, execute, optimize, and monitor [!DNL Adobe Journey Optimizer B2B Edition] journeys through natural language. Using these skills reduces the time and complexity involved in building and managing account and person journeys by combining automation, data-driven recommendations, and real-time observability.
 
-![Journey Agent B2B Prompt](./assets/journey-agent-prompt.png)
+[!DNL CX Coworker] provides a set of AI skills that includes a subset for the B2B journey lifecycle. These currently available skills are:
 
-The Journey Agent B2B provides a set of AI skills, each focused on a different aspect of the B2B journey lifecycle. Currently available skills are:
+* **[Journey creation skills](#journey-creation-skills)** – Create, update, and optimize journeys from natural language prompts
+* **[Journey observability skills](#journey-observability-skills)** – Ask questions about how accounts and people are moving through active journeys
 
-* **[Journey Build skill](#journey-build-skill)** – Create, update, and optimize journeys from natural language prompts
-* **[Journey Observability skill](#journey-observability-skill)** – Ask questions about how accounts and people are moving through active journeys
+Click the _Ask [!DNL Coworker]_ ( ![Ask [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) icon at the top of the application to open the [!DNL Coworker] interface.
 
-## Journey Build skill
+## Journey creation skills {#journey-creation-skills}
 
-The Journey Build skill translates your marketing objectives, engagement strategy, and KPIs into complete B2B customer journeys. It addresses three key challenges facing B2B marketers today:
+The journey creation skills translate your marketing objectives, engagement strategy, and KPIs into complete B2B customer journeys. They address three key challenges facing B2B marketers today:
 
 * Dealing with increasingly complex customer journeys (complexity in audience, content and messaging, and omnichannel)
 * Increasing efficiency in light of tighter budgets
 * Figuring out how the optimal customer journey should be structured
 
-As a marketer, you can use this skill to:
+As a marketer, you can use these skills to:
 
 * **Create** - Translate your marketing objectives, products, engagement strategy, and KPIs into a personalized customer journey with automation and conditions
 * **Recommend** - Leverage past marketing engagement and other historical data to optimize journey creation
@@ -65,13 +65,13 @@ As a marketer, you can use this skill to:
 
 ### Basic usage
 
-To use the Journey Agent Build skill, type into the prompt window what you are looking to create, using natural language:
+To use the journey creation skills, type into the [!DNL Coworker] prompt window what you are looking to create, using natural language:
 
 "Create a B2B journey to invite decision makers to a roadshow in engaged accounts most likely to open new pipeline."
 
-![Journey agent B2B prompt for the Build skill](./assets/journey-agent-tasks.png)
+![Journey creation skill for B2B prompt in [!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}
 
-The more detail you provide, the better the reply is. If you have existing marketing materials that describe the event, or your product, etc., paste that into the prompt, so the Agent has a better understanding of the goal.
+The more detail you provide, the better the reply is. If you have existing marketing materials that describe the event, or your product, and so on, paste that into the prompt, so that [!DNL Coworker] has a better understanding of the goal.
 
 "Act as a B2B journey strategist to create a multi-stage customer account journey that nurtures and engages decision-makers and marketing personas in the early exploration phase of `<Solution Name>`. The goal is to convert anonymous visitors into known contacts, deepen engagement with relevant content on `<domain>`.com, and prime qualified leads for `<Product Name>` sales outreach. Use channels such as email and paid media, leveraging existing audience segments and content. Structure the journey across awareness, consideration, and evaluation stages over 4–6 weeks, with clear triggers, actions, and goals for each stage. Include KPIs like conversion rates, engagement scores, and demo requests, and return the output as a structured journey flow."
 
@@ -82,11 +82,11 @@ This detailed prompt provides:
 * **Structured Format**: Use bullet points, numbered steps, or templates.
 * **Role Assignment**: Specify the AI's role - 'Act as a data analyst…'
 
-Use the agent to iterate refinement: Start simple, then refine your prompt based on the results. Feedback loops improve results over time.
+Start with a simple prompt, then refine it based on the results. Use follow-up prompts to iterate.
 
 ### End-to-end B2B journey creation
 
-The Journey Build skill can generate an end-to-end journey flow (account or person journey) from natural language text prompts and metadata, through a conversational experience rather than a traditional user interface.
+The journey creation skills can generate an end-to-end journey flow (account or person journey) from natural language text prompts and metadata, through a conversational experience rather than a traditional user interface.
 
 End-to-end Journey prompt examples:
 
@@ -103,25 +103,21 @@ You can act as a B2B journey designer to create a multi-stage customer account j
 * Structure the journey across `awareness`, `consideration`, and `evaluation` stages over 4–6 weeks, with clear triggers, actions, and goals for each stage.
 * Include KPIs, such as `conversion rates`, `engagement scores`, and `demo requests`, and return the output as a structured journey flow.
 
-## Journey Observability skill
+## Journey observability skills {#journey-observability-skills}
 
-The Journey Observability skill lets you ask natural language questions about how accounts and people are moving through your B2B journeys—without digging through journey maps, logs, or dashboards. It covers two main areas: journey progression and data sync observability.
+The journey observability skills let you ask natural language questions about how accounts and people are moving through your B2B journeys—without digging through journey maps, logs, or dashboards. They cover two main areas: journey progression and data sync observability.
 
-You can access it in two places within Journey Optimizer B2B Edition:
-
-* **Right-rail Assistant in the journey map** – Ask journey-specific questions directly from the journey map. The journey name is automatically injected into context.
-
-* **Full-screen Assistant page** – A larger conversational view suited for complex or cross-account questions and exploring multiple journeys.
+![Journey observability prompt and response in [!DNL CX Coworker]](./assets/journey-observability-prompt-response.png){width="800" zoomable="yes"}
 
 ### Account-level journey insight
 
 Trace how a specific account flowed through a journey by asking questions like:
 
-* "Give me basic info on account ACME Industries."
+* "Give me basic info on Bodea Cloud accounts."
 * "Tell me how account Northstar Services went through the journey ABM Nurture Strategy."
 * "When did account Contoso LLC start this journey?"
 
-### Split-node path reasoning and counts
+### Split-path reasoning and counts
 
 Understand why a branch was taken and how many people or accounts followed each path:
 
@@ -129,13 +125,13 @@ Understand why a branch was taken and how many people or accounts followed each 
 * "Give me the people count for each path in split node node-459c7c."
 * "Show me people in the San Jose path for Account8."
 
-The agent inspects split logic, account attributes, and activities to explain routing decisions and return per-path counts or people lists.
+Journey observability skills analyze split logic, account attributes, and activities to explain routing decisions and return per-path counts or people lists.
 
 ### People-level journey outcomes
 
 Analyze individual outcomes within an account or across an entire journey—especially useful for buying group analysis and tracing decision maker vs. influencer behavior:
 
-* "Give me people count in each path for this split node for Account123."
+* "Give me people count in each split path for Bodea Next Web Engagement journey."
 * "List people in the hidden skip path."
 * "Show me people in the San Diego location path for this account."
 
@@ -156,7 +152,7 @@ For journeys that push to external channels such as LinkedIn, you can check acti
 
 ### Data sync and pipeline observability
 
-The Observability skill can also surface data sync health information to help troubleshoot why an account or lead was not included in a journey:
+The journey observability skills can also surface data sync health information to help troubleshoot why an account or lead was not included in a journey:
 
 * External audience export job metrics and status
 * Batch segmentation schedules and completion times
