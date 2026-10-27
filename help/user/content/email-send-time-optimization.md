@@ -42,16 +42,16 @@ Send-time optimization is currently supported for:
 * **Journey type**: Person Journeys
 * **Channel**: Email
 * **Configuration**: _Send email_ action node
-* **Reporting**: AI Assistant through the Journey Observability skill
+* **Reporting**: [!DNL Coworker] chat through the journey observability skills
 
-   Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in the AI Assistant.
+   Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in [!DNL Coworker] chat.
 
 >[!BEGINSHADEBOX]
 
 There are many **_future enhancements_** planned for STO:
 
 * Support for _Account Journeys_
-* Global STO configuration in the _[!UICONTROL Admin]_ area
+* Global STO configuration in the _[!UICONTROL Administration]_ area
 * Journey-level STO enablement
 * Configurable test / control splits
 * A dedicated STO reporting dashboard
@@ -86,4 +86,4 @@ You can configure send-time optimization when you [add a _[!UICONTROL Take an ac
 
 ## STO insights
 
-STO insights are delivered through the _AI Assistant_ using the Journey Agent [_Observability skill_](../agents/journey-agent.md#journey-observability-skill). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.
+STO insights are delivered through _[!DNL Coworker] chat_ using the [_journey observability skills_](../agents/journey-agent.md#journey-observability-skills). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.

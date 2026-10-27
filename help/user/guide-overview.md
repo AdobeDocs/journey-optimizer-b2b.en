@@ -156,7 +156,7 @@ Discover the components of a buying group and understand the basics of building 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
-      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">AI capabilities</a>
+      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-coworker/ai-overview.md">AI capabilities</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Buying groups"><br/>
@@ -184,6 +184,16 @@ Discover the components of a buying group and understand the basics of building 
   </tr>
 </table>
 
+>[!BEGINSHADEBOX]
+
+## [!DNL Marketo Qualifier]
+
+[!DNL Adobe Marketo Qualifier] is an AI-driven application that you can use with [!DNL Journey Optimizer B2B Edition]. It implements the Account Qualification skill and is designed to streamline workflows for Business Development Representatives (BDRs). [!DNL Marketo Qualifier] automates prospect qualification, outreach, and buyer engagement workflows across channels. It reduces manual BDR load and accelerates pipeline velocity for Enterprise B2B companies.
+
+For more information, refer to the [Marketo Qualifier documentation](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 ## Additional resources
 
 <table style="table-layout:fixed">
@@ -199,4 +209,3 @@ Discover the components of a buying group and understand the basics of building 
 <a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
 </td>
 </tr></table>
-

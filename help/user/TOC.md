@@ -25,15 +25,14 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Data availability and sync timing](./data/data-availability-timing.md)
     + [Exported datasets](./data/aep-exported-datasets.md)
     + [Dataset queries](./data/aep-query-examples.md)
-+ AI capabilities {#ai-assistant}
-    + [Overview](./ai-coworker/ai-assistant-overview.md)
-    + [Enable AI Assistant access](./ai-coworker/enable-ai-assistant-access.md)
++ AI capabilities {#ai-capabilities}
+    + [Overview](./ai-coworker/ai-overview.md)
+    + [Enable access](./ai-coworker/enable-ai-access.md)
     + [Question guidance](./ai-coworker/question-guidance.md)
-    + [Chat interface](./ai-coworker/use-ai-assistant.md)
     + [Intent scores](./ai-coworker/intent-scores.md)
-    + Agents {#ai-agents}
-       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-       + [Journey Agent B2B](./agents/journey-agent.md)
+    + Coworker skills {#coworker-skills}
+       + [Audience skills for B2B accounts and people](./agents/audience-agent-b2b.md)
+       + [Journey skills for B2B](./agents/journey-agent.md)
 + Intelligent dashboards {#dashboards}
     + [Insights dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement dashboard](./dashboards/engagement-dashboard.md)

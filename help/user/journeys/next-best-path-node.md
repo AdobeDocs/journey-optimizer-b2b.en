@@ -327,4 +327,4 @@ For a published journey, open the journey map and select the next best path node
 * The confidence score for each path assignment
 * Path-level and profile-level reasoning, with expandable detail for individual profiles
 
-Live results are also available in the Journey Console and through the [Journey Observability skill](../agents/journey-agent.md#journey-observability-skill) in the AI Hub.
+Live results are also available for the Journey Console and through the [Journey observability skills](../agents/journey-agent.md#journey-observability-skills) in [!DNL Coworker] chat.

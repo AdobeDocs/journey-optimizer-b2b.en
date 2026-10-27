@@ -1,6 +1,6 @@
 ---
 title: Log in and Home Page
-description: Access Journey Optimizer B2B Edition and navigate personalized home pages - different views for marketers and administrators with quick access and AI Assistant.
+description: Access Journey Optimizer B2B Edition and navigate personalized home pages - different views for marketers and administrators with quick access and [!DNL Coworker] chat.
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -49,7 +49,7 @@ The Journey Optimizer B2B Edition has two primary user personas: a _**marketer**
 
  The _[!UICONTROL Recently accessed]_ section provides a list of the most recently accessed assets for the Marketer or Administrator. Use this list to go directly to the asset that you recently worked on without navigating through a series of asset pages and searching.
 
-The page also includes access to [AI Assistant](./ai-coworker/ai-assistant-overview.md), which helps users to get quick information about any specific questions or topics that they need.<!-- and to obtain specific recommendations for their challenges or objectives-->
+The page also includes access to [Coworker chat](./ai-coworker/ai-overview.md), which helps users to get quick information about any specific questions or topics that they need.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

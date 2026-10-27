@@ -84,7 +84,7 @@ Use the **[!UICONTROL Regulation Type]** option at the top right to change the d
 
       * The associated lead in [!DNL Marketo Engage].
       * Person and account records created in [!DNL Journey Optimizer B2B Edition].
-      * AI Assistant conversation history that references the person's personal information.
+      * [!DNL Coworker] chat conversation history that references the person's personal information.
 
 1. For **[!UICONTROL Products]**, select **[!UICONTROL Marketo]**.
 
