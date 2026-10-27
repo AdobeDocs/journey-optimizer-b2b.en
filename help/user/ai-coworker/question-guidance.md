@@ -68,7 +68,7 @@ The following tables provide some recommendations that you can follow when using
 
 ## Examples of unsupported questions
 
-The following list includes examples of questions [!DNL Coworker] chat in [!DNL Journey Optimizer B2B Edition] does not currently support:
+The following list includes examples of questions that [!DNL Coworker] chat does not currently support in [!DNL Journey Optimizer B2B Edition]:
 
 * Which account audiences use the workEmail.address field of ... field group in their condition? 
 * Show me the number of active journeys using account audiences of size over 10,000, 5000-10,000, 1000-5000, and below 1000, in a distribution visual
