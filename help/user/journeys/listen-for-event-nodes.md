@@ -357,6 +357,6 @@ Enable the **[!UICONTROL Timeout]** option in the node properties to specify a t
 
    If you do not want to define the path, you can clear the _[!UICONTROL Set timeout path]_ check box.
 
- ## Overview video
+## Overview video
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

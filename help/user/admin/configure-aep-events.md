@@ -488,6 +488,6 @@ Event type: `leadOperation.interestingMoment`
 
 +++
 
- ## Overview video
+## Overview video
 
 >[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
