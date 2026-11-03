@@ -29,7 +29,7 @@ topic_v2:
 
 To advance the audience to the next step in your [journey](./journeys-overview.md) when an event occurs, add the _Listen for an event_ node. Depending on the journey type, you can use this node to trigger the next node in the journey according to people or account events. 
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30" vertical-align="middle"} [Watch the overview video](#overview-video)
 
 ## Account journeys {#account-journeys}
 
