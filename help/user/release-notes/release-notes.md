@@ -62,11 +62,6 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 >
 >These release changes begin on September 25, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
-<!--
-Delayed to Oct
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
--->
-
 ## 2026.8 release notes {#rel-2026-8}
 
 **Deployment date**: August 14, 2026
@@ -105,8 +100,6 @@ Delayed to Oct
 
 **Deployment date**: May 22, 2026
 
-<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
-
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Landing pages are available in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. <ul><li>Administrators can configure landing page subdomains and presets to enable landing page publishing. [Learn more](../admin/configure-channels-landing-pages.md)</li><li>Marketers can create, design, and publish landing pages to support their journeys with personalized web content. [Learn more](../content/landing-pages.md)</li></ul> |
@@ -122,11 +115,6 @@ Delayed to Oct
 >[!NOTE]
 >
 >These release changes begin on May 22, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
 
 ## 2026.3 release notes {#rel-2026-3}
 
