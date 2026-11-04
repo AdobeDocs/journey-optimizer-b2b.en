@@ -33,6 +33,20 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## 2026.10 release notes {#rel-2026-10}
+
+**Deployment date**: November 6, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | People lists | Use static and dynamic people lists to target profiles by your defined criteria, such as demographic attributes and experience event history. |
+| Feature | Journey node labels | Add labels to journey nodes to identify them on the journey canvas. |
+| Enhancement | Member of Person List filter | Use the _[!UICONTROL Member of Person List]_ filter to include or exclude profiles based on their people list membership. |
+| Enhancement | People list journey actions | Add people to or remove people from static people lists through account and person journeys. |
+
+>[!NOTE]
+>These release changes begin on November 6, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
 ## 2026.9 release notes {#rel-2026-9}
 
 **Deployment date**: September 25, 2026
@@ -46,12 +60,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 >[!NOTE]
 >
->These release changes begin deployment on September 25, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
-
-<!--
-Delayed to Oct
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
--->
+>These release changes begin on September 25, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.8 release notes {#rel-2026-8}
 
@@ -70,7 +79,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->These release changes begin deployment on August 14, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>Deployment for these release changes begins on August 14, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.6 release notes {#rel-2026-6}
 
@@ -85,13 +94,11 @@ Delayed to Oct
 
 >[!NOTE]
 >
->These release changes begin deployment on July 10, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>These release changes begin on July 10, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.5 release notes {#rel-2026-5}
 
 **Deployment date**: May 22, 2026
-
-<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
@@ -107,12 +114,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->These release changes begin deployment on May 22, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
+>These release changes begin on May 22, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.3 release notes {#rel-2026-3}
 
@@ -131,7 +133,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->These release changes begin deployment on March 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>These release changes begin on March 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 
 ## 2026.2 release notes {#rel-2026-2}
@@ -147,7 +149,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->These release changes begin deployment on February 20, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>These release changes begin on February 20, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.1 release notes {#rel-2026-1}
 
@@ -163,7 +165,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->These release changes begin deployment on February 3, 2026, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
+>These release changes begin on February 3, 2026, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
 ## Agentic-AI capabilities {#rel-agents}
 
@@ -195,7 +197,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 >[!NOTE]
 >
->These release changes begin deployment on October 31, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
+>These release changes begin on October 31, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
 ### Updated architecture
 
@@ -209,7 +211,7 @@ This implementation provides multiple benefits:
 
 * **Easily unify and scale your data**: The updated platform supports complex data models, including custom objects, buying groups, and account events. 
 * **Connect multiple Adobe Marketo Engage instances**: Manage and unify data from several Adobe Marketo Engage environments in one place. 
-* **Keep your data safe**: Advanced privacy and security features help protect your customer information.  
+* **Protect your data**: Advanced privacy and security features help protect your customer information.  
 * **Designed for long-term scalability**: This update prepares your organization for ongoing improvements and innovation.
 
 >[!NOTE]
@@ -241,7 +243,7 @@ This release includes the following new capabilities and enhancements:
 
 >[!NOTE]
 >
->These release changes begin deployment on September 30, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
+>These release changes begin on September 30, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
 ## 2025.8 release notes {#rel-2025-8}
 
