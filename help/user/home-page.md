@@ -1,15 +1,19 @@
 ---
 title: Log in and Home Page
-description: Access Journey Optimizer B2B Edition and navigate personalized home pages - different views for marketers and administrators with quick access and AI Assistant.
+description: Access Journey Optimizer B2B Edition and navigate personalized home pages - different views for marketers and administrators with quick access and [!DNL Coworker] chat.
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
+autotag-review: 2026-03-27T22:19:43.813Z
+TQID: 'https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
+  - id: c94c7410-5385-5f5d-84b7-99639323828e
+    internal-label: Home Page
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -18,8 +22,6 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: 2026-03-27T22:19:43.813Z
-TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
 ---
 # Log in and home page
 
@@ -47,7 +49,7 @@ The Journey Optimizer B2B Edition has two primary user personas: a _**marketer**
 
  The _[!UICONTROL Recently accessed]_ section provides a list of the most recently accessed assets for the Marketer or Administrator. Use this list to go directly to the asset that you recently worked on without navigating through a series of asset pages and searching.
 
-The page also includes access to [AI Assistant](./ai-coworker/ai-assistant-overview.md), which helps users to get quick information about any specific questions or topics that they need.<!-- and to obtain specific recommendations for their challenges or objectives-->
+The page also includes access to [Coworker chat](./ai-coworker/ai-overview.md), which helps users to get quick information about any specific questions or topics that they need.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

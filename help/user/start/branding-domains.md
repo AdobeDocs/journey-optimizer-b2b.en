@@ -4,6 +4,7 @@ description: Configure your branding domains so that each of your brands has its
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -12,6 +13,8 @@ feature_v2:
     internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
     internal-label: Integrations
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
     internal-label: Setup
@@ -21,7 +24,6 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Configure branding domains
 

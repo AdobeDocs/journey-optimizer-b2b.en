@@ -4,6 +4,8 @@ description: For a send email action node in a journey, create new emails or dup
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
+autotag-review: 2026-03-30T22:38:56.688Z
+TQID: 'https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -12,6 +14,11 @@ feature_v2:
     internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -21,8 +28,6 @@ level_v2:
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-autotag-review: 2026-03-30T22:38:56.688Z
-TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
 ---
 # Add an email to your journey
 
@@ -87,12 +92,12 @@ With the **[!UICONTROL Details]** tab selected in the _Summary_ panel on the rig
 | [!UICONTROL From name] | The sender name used in the email header. Enter the name of the sender as you want it to appear to the recipient. Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field. |
 | [!UICONTROL From email] | The sender address used in the email header. The default value is populated from the [email channel delivery settings](../admin/configure-channels-emails.md#delivery-settings). Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field. |
 | [!UICONTROL Reply-to address] | The sender address used in the email header. The default value is populated from the [email channel delivery settings](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL From Label]). Enter the email address that you want to populate if the recipient uses the reply function (it can be different or the same as the sender address). Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field.|
-| [!UICONTROL Subject line] | The text displayed in the subject field for the email. The default value is populated from the text that you entered in the _[!UICONTROL Create new email]_ dialog. You can change the text if needed. Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
+| [!UICONTROL Subject line] | The text displayed in the subject field for the email. The default value is populated from the text that you entered in the _[!UICONTROL Create new email]_ dialog. You can change the text if needed. Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field.<!-- Click the Generative AI button ( ![Generative AI icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL Branding domain] | If you have more than one [branding domain](../admin/configure-channels-emails.md#branding-domains) defined in the system, select the branding domain to use for sending the email. Use a specific branding domain to send emails that appear to be coming from your brand instead of the company as a whole. It builds trust with the brand, personalizes the email experience, and increases open and response rates. |
 | [!UICONTROL Operational email] | Select the checkbox if you want to designate the email as operational. Operational emails are excluded from opt-out/unsubscribe lists, and from communication limits. Select this option only when the recipient cannot consider the email message to be an unsolicited commercial message (SPAM). |
 | [!UICONTROL Include view as web page] | Select the checkbox to include a link to a web page that is generated from the email message content. Email messages have more limited capabilities than web pages, so it is useful for JavaScript, extended CSS, and forms. The text used to generate the link is configured in the [email channel delivery settings](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL View as web page HTML] and [!UICONTROL View as web page text]).  |
 | [!UICONTROL Disable open tracking] | Select the checkbox when you do not want to track email open activity. With the function disabled, email open activity counts are incremented only when a unique person opens the email. You can [manage email content link tracking](./email-authoring.md#edit-linked-url-tracking) when you design the email body content. |
-| [!UICONTROL Preheader] | Select the checkbox to include a preheader. A preheader is the short summary text that is displayed after the subject line in some email clients. It usually provides a short summary of the email, and is typically a single sentence. Enter the summary text in the field<!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
+| [!UICONTROL Preheader] | Select the checkbox to include a preheader. A preheader is the short summary text that is displayed after the subject line in some email clients. It usually provides a short summary of the email, and is typically a single sentence. Enter the summary text in the field<!-- , or click the Generative AI button ( ![Generative AI icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
 
 <!-- 
 Removed, but may reappear elsewhere

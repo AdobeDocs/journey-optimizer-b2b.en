@@ -1,6 +1,6 @@
 ---
-title: Audience Agent B2B
-description: Audience Agent B2B in Journey Optimizer B2B Edition uses intent analysis and persona mapping to create buying groups and accelerate B2B marketing workflows.
+title: Audience Skills for B2B Accounts and People
+description: Learn about audience skills for B2B accounts and people. Explore product intent, identify personas, evaluate role coverage, and create buying group templates.
 feature: Agentic AI, Audiences
 role: User
 exl-id: c1210912-66ba-4b5f-8f3b-96eb6280c926
@@ -35,67 +35,90 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
 ---
-# Audience Agent B2B
+# Audience skills for B2B accounts and people
 
-Powered by [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), Audience Agent B2B is available in Journey Optimizer B2B Edition. Using this agent enhances efficiency and effectiveness in exploring and scaling audiences, accelerating buying group creation, and seamless workflows for journey activation:
+Use audience skills for B2B in the [!DNL CX Coworker] interface. Explore product intent across accounts and people. Identify relevant personas, evaluate buying group coverage, and create buying group role templates.
 
-* **_Prioritize target audiences by intent_**: Infer personas based on product intent for various audiences and streamline campaign planning, reducing time spent on audience validation.
-
-* **_Leverage AI to detect and create buying groups_**: Use AI, structured, unstructured data, and unified first-party data to streamline buying group discovery and creation.
-
-![Audience Agent B2B in full page mode](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+* Assess account interest in specific products and compare intent trends.
+* Identify people and personas associated with product interest.
+* Review buying group roles and identify coverage gaps.
+* Generate and refine buying group role templates.
 
 >[!PREREQUISITES]
 >
->To use Audience Agent B2B, there are required data definitions and mappings:<br/>
+>Before using audience skills for B2B accounts and people, configure the following data definitions and mappings:
 >
->* [Intent data taxonomy/mapping](../admin/intent-data.md)
->* [XDM field taxonomy/mapping](#xdm-data-prerequisites)
+>* [Intent data taxonomy and mapping](../admin/intent-data.md)
+>* [XDM field mapping](#xdm-data-prerequisites)
 
-## Audience Agent B2B capabilities
+Click the _Ask [!DNL Coworker]_ ( ![Ask [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) icon at the top of the application to open the [!DNL Coworker] application. Enter your natural language prompt in the chat interface.
 
-| Area | What it does | Business value |
-| ---- | ------------ | -------------- |
-| Intent analysis | <li> Measure account intent strength (such as low, medium, and high) for specific products. <li>Compare product interest trends over time (such as top products in the last _n_ days). <li>Identify accounts actively showing interest in specific products. <li>Surface engagement patterns that combine account activity with persona coverage. | <li>Helps teams focus on the right accounts at the right time. <li>Improves pipeline quality by prioritizing accounts with genuine purchase signals. <li>Enables proactive engagement before competitors act. |
-| Persona mapping | <li>Detect and rank the top personas by product intent. <li>Identify personas involved in buying one or multiple products. <li>Map personas to functional roles (such as _Champion_, _Decision Maker_, and _Influencer_) with justification. <li>Validate why a given person is considered a champion. | <li>Ensures that the sales team engages the true decision-makers and influencers. <li>Reduces wasted effort on low-impact contacts. <li>Increases win rates by aligning outreach with buyer power dynamics. |
-| Buying group evaluation | <li>Assess buying group size (for example, groups with more than _n_ members). <li>Measure persona coverage across accounts (for example, below _x_%). <li>Track role distribution and coverage gaps within buying groups. <li>Highlight accounts with champions identified in recent deals. | <li>Reveals coverage gaps that could stall deals. <li>Strengthens multi-threading strategies by ensuring full role representation. <li>Improves deal health tracking through group-level engagement insights. |
-| Buying group creation & actionability | <li>Recommend role-to-persona mappings based on observed persona and role patterns. <li>Generate a buying group role template for a specified product. <li>Support template customization by including or excluding specific personas and roles. <li>Validate that required roles are defined before buying groups are created. | <li>Reduces manual effort and risk of incomplete buying group templates. <li>Ensures role coverage is validated before creation, mitigating the risk of coverage gaps. <li>Turns analysis insights into immediate, operational next steps. |
+![Audience prompt in [!DNL CX Coworker]](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}
+
+## Audience skill focus areas
+
+Use audience skill focus areas to explore account intent, understand people and personas, and prepare buying group templates.
+
+| Focus | Tasks |
+| ----- | ----- |
+| Account intent | Assess account intent for specific products using low, medium, and high intent levels. Compare product interest trends over time and identify accounts showing interest in specific products. Review engagement patterns alongside persona coverage. |
+| People and personas | Identify and rank personas by product intent across one or more products. Review opportunity metrics, including win rate, membership rate, and counts. Map personas to roles such as _Champion_, _Decision Maker_, and _Influencer_, and review explanations for role assignments. |
+| Buying group coverage | Evaluate buying group size and persona coverage across accounts. Review role distribution and identify missing personas or roles. Find accounts with champions identified in recent deals. |
+| Buying group templates | Generate buying group role templates for specific products and review recommended persona mappings. Refine templates by including or excluding personas and roles. Validate required roles before creating buying groups. |
 
 ## Limitations
 
-Audience Agent B2B depends on configured intent taxonomy, XDM field mappings, and experience event data. Insights are less reliable when opportunity data is incomplete, the intent taxonomy is missing or out of date, or required profile and account identifiers are not mapped. For intent calculation, the agent processes only these experience events: `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed`, and `web.webpagedetails.pageViews`.
+Audience insights depend on configured intent taxonomy, XDM field mappings, and experience event data. Incomplete opportunity data, missing or outdated taxonomy, or missing profile and account identifiers can reduce insight reliability.
+
+Intent calculation uses only these experience events: `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed`, and `web.webpagedetails.pageViews`.
 
 ## Prompt examples
 
-These prompt samples demonstrate some of the ways that you can use the agent:
+Enter the following prompts in the [!DNL CX Coworker] interface to explore account intent, understand people and personas, and prepare buying group templates.
+
+### Account intent
+
+Explore account interest in products and review changes in intent.
 
 * Show the trend window: earliest and latest updates for account product intent per product.
-* For `<product>`, list buying groups with product intent and scores.
-* For `<product>`, list personas and roles with their opportunity metrics (win rate, membership rate, counts).
-* For accounts in `<industry>`, what is the average account persona coverage for `<product>`?
 * Which accounts have low intent for any product but still have open opportunities (worth nurturing)?
-* Which accounts added new intent signals for `<account_name>` this week?
+* What new intent signals were recorded for `<account_name>` this week?
+
+### People and personas
+
+Identify personas associated with product interest and review recommended buying group roles.
+
 * Show me the personas associated with `<product>`.
 * Show me the role to persona mapping recommendation for `<product>`.
+* For `<product>`, list personas and roles with their opportunity metrics (win rate, membership rate, counts).
+
+### Buying groups and templates
+
+Review buying group intent and coverage, then generate or refine templates.
+
+* For `<product>`, list buying groups with product intent and scores.
+* For accounts in `<industry>`, what is the average account persona coverage for `<product>`?
 * Create a buying group template for `<product>`.
 * Create a buying group template for `<product>` without the `<persona>` persona and remove the `<role>` role.
 
 ## Concepts
 
+Use these concepts to interpret account intent, persona rankings, and buying group recommendations.
+
 | Concept | Explanation |
 | ------- | ----------- |
-| Audience detection | Behind the scenes, the agent looks at first-party intent signals based on two things: how engaged people are with your brand, and the kinds of personas that they represent. The analysis looks back over the past 18 months of activity to detect product intent across everyone in the account, especially during the time leading up to an opportunity close. This analysis helps the agent to highlight the personas most likely to influence the deal.<br/><br/>Sometimes accounts don't have all their opportunity data in perfect shape, which is fine and the agent can still detect product intent purely from engagement patterns. |
-| Persona | Personas represent the types of people engaging within an account. The agent builds them by looking at job title, function, and seniority level, and then normalizing that information so it is consistent across different accounts. That way, instead of getting lost in messy titles, you can quickly see if you are reaching decision-makers, influencers, or support roles. Personas help you understand who is showing interest, not just how much interest there is. |
-| Mapping buying group roles | After personas are mapped to roles, you bring them together into a buying group—the full team inside the account that is most likely to influence or decide on the purchase. Each role (such as _decision maker_, _influencer_, or _champion_) adds a piece of the picture so you have a clear view of the committee driving the deal.<br/><br/>The agent maps each identified persona to the role they are most likely to play for a specific product, based on job title, function, seniority, and other attributes you configure. It also shows coverage for each role so you can see which roles are well-represented and where gaps remain in your engagement strategy. |
-| Using opportunity data to detect persona | To give you the most accurate view of who is engaging and where their interests lie, the agent approaches persona ranking and product intent according to the following: <ul><li>Best case scenario: If you can provide data like _Opportunity Stage_, _Opportunity Close Date_, and a clear _Opportunity-to-Product Mapping_, the agent can confidently rank personas per product.<li>This ranking provides a precise understanding of engagement and interest across the account. </ul>But the agent knows that the data is not always complete, which is OK. It includes smart fallbacks to keep things moving:<ul><li>The agent analyzes the volume of activities, giving more weight to recent ones using time decay.<li>This weighting allows the agent to differentiate and rank personas, even without full opportunity data. </ul>When it comes to linking opportunities to products, here's how the agent handles it:<ul><li>_Ideal_: You provide or help the agent create the mapping table.<li>_If not available_: the agent uses fuzzy matching to connect the dots.<li>_No linkage at all_: The agent infers product intent based on recent activities prior to the close date.</ul>This layered approach ensures that the agent can still deliver meaningful insights, even when the data isn't perfect. |
-| Opportunity analysis | The agent looks at historical opportunity data to understand which factors most strongly predict a win, and it uses three core dimensions to do that:<ol><li>Win rate: Shows how often deals are successfully closed when certain personas are involved. If accounts with a specific persona pattern (like a technical evaluator or a VP-level decision maker) tend to convert more often, the model gives higher weight to that pattern. This information is a percentage of total opportunities, such as opportunities that are closed or won.<li>Membership rate: Measures how frequently a persona type shows up across opportunities for a given product. If certain personas consistently appear in successful deals, it indicates that they play a critical role in the buying process.<li>Persona influence: Quantifies how much a given persona contributes to the outcome, not just whether they are present, but how their engagement or activity level correlates with wins.</ol>Together, these signals help infer which personas have the strongest impact on purchase outcomes, even when opportunity data is incomplete. Over time, it allows the system to surface high-impact personas and patterns that are most predictive of deal success, which then inform account intent, persona mapping, and buying group recommendations. |
-| Intent | When someone visits a web page or clicks an email link related to a product, it is a signal that they are interested, and that is called _intent_.<br/><br/>The agent starts with a taxonomy, which is basically a list of the customer's products and the keywords that describe them. This information helps the agent to understand what each piece of content or interaction is about.<br/><br/>Next, the agent uses that taxonomy to label visitor activity, such as which keywords or products their actions relate to.<br/><br/>Then, the agent looks at how deeply someone engages, such as how many pages they visit or how often they interact. It uses this information to calculate their individual intent score for specific keywords, products, or product categories. It buckets each intent score into _High_, _Medium_, or _Low_ intent to indicate the interest strength. (Low intent: `<=0.2`, Medium intent: `0.2 < score <= 0.6`, High intent: `0.6 < score <= 1`)<br/><br/>Finally, the agent combines the intent scores of all people from the same company (account) to see the overall account-level intent, showing which products or topics that company seems most interested in. |
-| Roles influencing a buying group | Each buying group is comprised of roles who contribute differently to the purchase decision, such as _Decision Maker_, _Influencer_, _Champion_, and _End User_. Each role has a varying degree of impact.<br/><br/>Decision Makers hold the most influence and typically control budget approvals. Influencers shape evaluation and recommendations. Champions help build internal consensus, while End Users validate the product's fit.<br/><br/>By showing you these roles, the agent helps you understand who is driving the buying decision, where your engagement is strongest, and where coverage gaps might exist. This information enables you to focus on the roles that matter most for this product. |
-| Persona or role coverage | For any given product, there is usually a set of key roles and personas that are known to influence the purchase (_N_ personas or roles).<br/><br/>For each account, the agent calculates coverage by checking how many of those _N_ roles are represented by at least one person within that account.<br/><br/>If all _N_ roles are present, the account has full coverage. If only some roles are represented, the coverage is partial.<br/><br/>In simple terms, role and persona coverage measure how complete your buying group is for a product, based on whether all the important decision-makers, influencers, and champions are included. |
+| Audience detection | Analyze first-party engagement signals across people in an account to identify product interest and relevant personas. The analysis considers the previous 18 months of activity, including activity before opportunity close. Engagement patterns can indicate product intent when opportunity data is incomplete, but missing data can reduce insight reliability. |
+| Persona | Personas group people by normalized job title, function, and seniority. Use personas to understand who is engaging within an account, including decision-makers, influencers, and support roles. |
+| Mapping buying group roles | Map personas to product-specific buying group roles based on job title, function, seniority, and configured attributes. These roles represent the people within an account who influence or decide on a purchase. Review coverage to identify missing roles. |
+| Opportunity data for persona ranking | Opportunity stage, close date, and opportunity-to-product mappings support persona ranking for each product. When opportunity data is incomplete, ranking uses activity volume and time decay to give recent activity more weight.<br/><br/>Product linkage uses a supplied or generated opportunity-to-product mapping table when available. Otherwise, fuzzy matching links opportunities to products. If no linkage is available, product intent is inferred from recent activity before the opportunity close date. These fallback methods do not eliminate the reliability limitations of incomplete data. |
+| Opportunity analysis | Historical opportunity analysis uses three dimensions to identify persona patterns associated with purchase outcomes:<ul><li>Win rate: Measures how often opportunities are won when particular personas are involved. Persona patterns associated with higher win rates receive more weight.</li><li>Membership rate: Measures how frequently a persona appears in opportunities for a given product.</li><li>Persona influence: Measures how persona engagement or activity correlates with wins, beyond whether the persona is present.</li></ul>These signals inform account intent, persona mapping, and buying group recommendations. |
+| Intent | Intent indicates product interest through engagement, such as webpage visits or email link clicks. Product taxonomy connects engagement activity to keywords, products, and product categories. Engagement depth and frequency determine individual intent scores for each keyword, product, or product category.<br/><br/>Scores indicate interest strength: Low intent: `<=0.2`, Medium intent: `0.2 < score <= 0.6`, High intent: `0.6 < score <= 1`.<br/><br/>Individual intent scores are aggregated across people in the same account to determine account intent. |
+| Roles influencing a buying group | Buying group roles represent different contributions to a purchase decision. _Decision Makers_ typically control budget approvals. _Influencers_ shape evaluation and recommendations. _Champions_ build internal consensus. _End Users_ validate product fit.<br/><br/>Review role assignments and coverage to understand who influences the decision and where engagement gaps remain. |
+| Persona or role coverage | Coverage measures how many expected personas or roles have at least one representative within an account. For a product with _N_ expected personas or roles, full coverage means all _N_ are represented. Partial coverage means some are missing. Use coverage to assess buying group completeness and identify gaps. |
 
 ## XDM data prerequisites
 
-Audience Agent provides insights on accounts showing first-party intent for products and computes personas and roles based on the defined data. Ensure that the following prerequisite data is configured to use Audience Agent capabilities:
+Configure the following XDM field mappings to support account intent analysis, persona identification, and buying group role mapping.
 
 ### XDM field mapping
 
@@ -179,7 +202,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
           <span >Profiles</span>
         </p>
       </td>
-      <td>First name of person, used by Audience Agent to display names in the UI when met with any criteria</td>
+      <td>Displays the person's first name in results that match your query.</td>
     </tr>
     <tr class="">
       <td>
@@ -192,7 +215,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
           <span> Profiles</span>
         </p>
       </td>
-      <td>Full Name of person, used by Audience Agent to display names in UI when met with any criteria</td>
+      <td>Displays the person's full name in results that match your query.</td>
     </tr>
     <tr class="">
       <td>
@@ -205,7 +228,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
           <span> Profiles</span>
         </p>
       </td>
-      <td>Last Name of person, used by Audience Agent to display names in UI when met with any criteria</td>
+      <td>Displays the person's last name in results that match your query.</td>
     </tr>
     <tr>
       <td>
@@ -232,7 +255,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
           <span>Accounts</span>
         </p>
       </td>
-      <td>Name of Account used by Audience Agent to display in the UI when met with any criteria posed in the user query</td>
+      <td>Displays the account name in results that match your query.</td>
       <td rowspan="4">
         <p>
           <br/>
@@ -257,7 +280,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
           <span>Accounts</span>
         </p>
       </td>
-      <td>Description of Account/Company used by Audience Agent to apply filter on accounts based on user query in UI </td>
+      <td>Supports account filtering by account description based on your query.</td>
     </tr>
     <tr>
       <td>
@@ -270,7 +293,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
           <span>  Accounts</span>
         </p>
       </td>
-      <td>Industry of Account/Company used by Audience Agent to apply filter on accounts based on user query in UI </td>
+      <td>Supports account filtering by industry based on your query.</td>
     </tr>
     <tr>
       <td>
@@ -283,7 +306,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
           <span>  Accounts</span>
         </p>
       </td>
-      <td>Billing Address of Account/Company used by Audience Agent to apply filter on accounts based on user query in UI </td>
+      <td>Supports account filtering by billing address region based on your query.</td>
     </tr>
     <tr>
       <td>
@@ -325,7 +348,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
           <span> Opportunity</span>
         </p>
       </td>
-      <td>Name of Opportunity used by Audience Agent </td>
+      <td>Opportunity name used in opportunity analysis.</td>
       <td rowspan="5">
         <p>
           <br/>
@@ -369,7 +392,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
           <span>Opportunity</span>
         </p>
       </td>
-      <td>Description of Opportunity used by Audience Agent </td>
+      <td>Opportunity description used in opportunity analysis.</td>
     </tr>
     <tr>
       <td>
@@ -457,7 +480,7 @@ Audience Agent provides insights on accounts showing first-party intent for prod
 
 ### Taxonomy data
 
-Audience Agent leverages first-party intent detected within Journey Optimizer B2B Edition:
+Audience skills use first-party intent data from [!DNL Adobe Journey Optimizer B2B Edition]. Intent calculation connects product taxonomy with engagement activity and aggregates individual scores at the account level.
 
 1. Intent computation requires taxonomy data (customer products and corresponding keywords) from Customers > Taxonomy
 1. Taxonomy data is used to label event data (asset labeling). This data provides insights for what keywords and products visitors are interested in based on their event data > Asset Labeling 
@@ -552,7 +575,7 @@ The following fields are required in addition to [configuring the intent taxonom
           <span>Experience Event</span>
         </p>
       </td>
-      <td>Get the type of event since the agent processes only four events (<span>directMarketing.emailClicked, directMarketing.emailOpened, directMarketing.emailUnsubscribed, web.webpagedetails.pageViews)</span>
+      <td>Identifies the event type. Intent calculation uses only <code>directMarketing.emailClicked</code>, <code>directMarketing.emailOpened</code>, <code>directMarketing.emailUnsubscribed</code>, and <code>web.webpagedetails.pageViews</code>.
       </td>
     </tr>
     <tr>
@@ -607,7 +630,7 @@ The following fields are required in addition to [configuring the intent taxonom
           <span>Experience Event</span>
         </p>
       </td>
-      <td>Used to fetch the email content from the Marketo Engage data center; it is comprised of (SourceID@SourceInstanceID.SourceType)</td>
+      <td>Used to fetch the email content from the [!DNL Adobe Marketo Engage] data center. It comprises (SourceID@SourceInstanceID.SourceType).</td>
     </tr>
     <tr>
       <td>

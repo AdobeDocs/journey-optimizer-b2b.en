@@ -4,6 +4,8 @@ description: Learn how to set up persona mapping for B2B marketing. Map person a
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+autotag-review: 2026-03-27T22:59:15.291Z
+TQID: 'https://experienceleague.adobe.com/4cluYiSNQFIHT8sx2CuKMonlohM1qmQsAeCdxz5Hu0U'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,6 +16,9 @@ feature_v2:
     internal-label: Communication channels
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
     internal-label: Buying Groups
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -22,8 +27,6 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: 2026-03-27T22:59:15.291Z
-TQID: https://experienceleague.adobe.com/4cluYiSNQFIHT8sx2CuKMonlohM1qmQsAeCdxz5Hu0U
 ---
 # Persona mapping
 

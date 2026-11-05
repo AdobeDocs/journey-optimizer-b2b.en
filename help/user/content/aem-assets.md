@@ -4,6 +4,8 @@ description: Access and use AEM Assets images in content authoring - drag and dr
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
+autotag-review: 2026-03-30T22:38:14.175Z
+TQID: 'https://experienceleague.adobe.com/xcGhfHeUuvmdsUws17Kpb7w3HmM7LaB3C633HiicmJ0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,6 +16,9 @@ feature_v2:
     internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,8 +30,6 @@ topic_v2:
     internal-label: Governance
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-autotag-review: 2026-03-30T22:38:14.175Z
-TQID: https://experienceleague.adobe.com/xcGhfHeUuvmdsUws17Kpb7w3HmM7LaB3C633HiicmJ0
 ---
 # Work with Experience Manager assets
 

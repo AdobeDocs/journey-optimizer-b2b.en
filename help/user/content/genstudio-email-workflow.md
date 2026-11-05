@@ -7,6 +7,8 @@ level: Intermediate
 role: User
 badge: label="Limited availability" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
+autotag-review: 2026-03-30T22:24:40.416Z
+TQID: 'https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -19,6 +21,8 @@ feature_v2:
     internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,8 +34,6 @@ topic_v2:
     internal-label: Personalization
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
     internal-label: Content production
-autotag-review: 2026-03-30T22:24:40.416Z
-TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ
 ---
 # Email content creation with GenStudio for Performance Marketing {#genstudio-workflow}
 

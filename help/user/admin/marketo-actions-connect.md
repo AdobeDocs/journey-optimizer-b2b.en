@@ -4,6 +4,8 @@ description: Activate Marketo Engage connections to support journey actions so t
 feature: Setup, Integrations
 role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
+autotag-review: 2026-03-27T22:48:47.183Z
+TQID: 'https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -12,6 +14,9 @@ feature_v2:
     internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
     internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,8 +27,6 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: 2026-03-27T22:48:47.183Z
-TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
 ---
 # Activate Marketo Engage connections to support actions
 

@@ -21,15 +21,18 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [User management](./admin/user-management.md)
     + [User onboarding](./start/get-started.md)
     + [Login and home page](home-page.md)
-+ AI capabilities {#ai-assistant}
-    + [Overview](./ai-coworker/ai-assistant-overview.md)
-    + [Enable AI Assistant access](./ai-coworker/enable-ai-assistant-access.md)
++ Data {#data}
+    + [Data availability and sync timing](./data/data-availability-timing.md)
+    + [Exported datasets](./data/aep-exported-datasets.md)
+    + [Dataset queries](./data/aep-query-examples.md)
++ AI capabilities {#ai-capabilities}
+    + [Overview](./ai-coworker/ai-overview.md)
+    + [Enable access](./ai-coworker/enable-ai-access.md)
     + [Question guidance](./ai-coworker/question-guidance.md)
-    + [Chat interface](./ai-coworker/use-ai-assistant.md)
     + [Intent scores](./ai-coworker/intent-scores.md)
-    + Agents {#ai-agents}
-       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-       + [Journey Agent B2B](./agents/journey-agent.md)
+    + Coworker skills {#coworker-skills}
+       + [Audience skills for B2B accounts and people](./agents/audience-agent-b2b.md)
+       + [Journey skills for B2B](./agents/journey-agent.md)
 + Intelligent dashboards {#dashboards}
     + [Insights dashboard](./dashboards/intelligent-dashboard.md)
     + [Engagement dashboard](./dashboards/engagement-dashboard.md)
@@ -40,6 +43,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
 + Journey management {#journeys}
     + [Account and person journeys](./journeys/journeys-overview.md)
     + [Create and publish a journey](./journeys/create-publish-journey.md)
+    + {hide-from-toc} [Journey traffic control](./journeys/journey-traffic-control.md)
     + [Journey re-entry](./journeys/journey-re-entry.md)
     + {hide-from-toc} [Journey nodes](./journeys/journey-nodes.md)
     + Journey nodes {#journey-nodes}
@@ -48,7 +52,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Take an action](./journeys/action-nodes.md)
        + [Listen for an event](./journeys/listen-for-event-nodes.md)
        + [Split and merge paths](./journeys/split-merge-paths-nodes.md)
-       + [Variant split paths (Beta)](./journeys/variant-split-paths-nodes.md)
+       + [Variant split paths](./journeys/variant-split-paths-nodes.md)
        + [Next best path](./journeys/next-best-path-node.md)
        + [Wait](./journeys/wait-nodes.md)
        + [External nodes](./journeys/external-nodes.md)

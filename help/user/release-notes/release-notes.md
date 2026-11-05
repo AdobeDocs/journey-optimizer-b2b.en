@@ -33,6 +33,35 @@ Journey Optimizer B2B Edition is built natively on [!DNL Adobe Experience Platfo
 
 Review the [product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} for information about entitlements, performance guardrails, and limitations.
 
+## 2026.10 release notes {#rel-2026-10}
+
+**Deployment date**: November 6, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | People lists | Use static and dynamic people lists to target profiles by your defined criteria, such as demographic attributes and experience event history. |
+| Feature | Journey node labels | Add labels to journey nodes to identify them on the journey canvas. |
+| Enhancement | Member of Person List filter | Use the _[!UICONTROL Member of Person List]_ filter to include or exclude profiles based on their people list membership. |
+| Enhancement | People list journey actions | Add people to or remove people from static people lists through account and person journeys. |
+
+>[!NOTE]
+>These release changes begin on November 6, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
+## 2026.9 release notes {#rel-2026-9}
+
+**Deployment date**: September 25, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Enhancement | External action health | Administrators can now monitor the performance of external actions on a dashboard that shows request counts, error counts, and error rates. [Learn more](../admin/configure-external-actions.md#monitor-health) |
+| Enhancement | Member of Profile Audience filter | This filter is now available for person journey split path conditions, account journey person split path conditions, and _Listen for an event_ node filters to include or exclude profiles based on their audience membership. [Learn more](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Enhancement | Member of Buying Group filter - Is Removed default | In _split path by people_ conditions and _Listen for an event_ node filters, the _[!UICONTROL Is Removed]_ constraint is now selected by default and set to `false` when you add the _[!UICONTROL Member of Buying Group]_ filter. The filter returns only current buying group members unless you change or remove the constraint. [Learn more](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
+
+>[!NOTE]
+>
+>These release changes begin on September 25, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+
 ## 2026.8 release notes {#rel-2026-8}
 
 **Deployment date**: August 14, 2026
@@ -40,10 +69,8 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Person journeys | (Previously Beta, early deployment for general availability) You can now create journeys to orchestrate lead-based marketing using Experience Platform Audiences and data. [Learn more](../journeys/journeys-overview.md) |
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
 | Feature | _Variant split paths_ journey nodes | (Previously Beta for account journeys) Marketers can now test variations within an account or person journey by assigning accounts or people to different journey paths based on defined percentages. [Learn more](../journeys/variant-split-paths-nodes.md) |
 | Feature | C2PA metadata | Images generated or edited with generative AI tools are now automatically signed with C2PA metadata, helping you meet content transparency and AI disclosure requirements. [Learn more](../content/c2pa-metadata.md) |
-| Enhancement | Journey re-entry - Person journeys | Support for journey re-entry is now available for person journeys. |
 | Enhancement | Listen for event triggers and filters - Account journeys | For account journeys, support for multiple triggers and filters in a _Listen for an event_ node with the _People_ event type is now available. [Learn more](../journeys/listen-for-event-nodes.md) |
 | Enhancement | External split path nodes - Person journeys | Support for _External split paths_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-action) |
 | Enhancement | External action nodes - Person journeys | Support for _External action_ nodes is now available for person journeys. [Learn more](../journeys/external-nodes.md#external-split-paths) |
@@ -52,7 +79,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 >[!NOTE]
 >
->These release changes begin deployment on August 14, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>Deployment for these release changes begins on August 14, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.6 release notes {#rel-2026-6}
 
@@ -67,13 +94,11 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 >[!NOTE]
 >
->These release changes begin deployment on July 10, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>These release changes begin on July 10, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.5 release notes {#rel-2026-5}
 
 **Deployment date**: May 22, 2026
-
-<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
@@ -89,12 +114,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 >[!NOTE]
 >
->These release changes begin deployment on May 22, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
+>These release changes begin on May 22, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.3 release notes {#rel-2026-3}
 
@@ -113,7 +133,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 >[!NOTE]
 >
->These release changes begin deployment on March 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>These release changes begin on March 27, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 
 ## 2026.2 release notes {#rel-2026-2}
@@ -129,7 +149,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 >[!NOTE]
 >
->These release changes begin deployment on February 20, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+>These release changes begin on February 20, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
 
 ## 2026.1 release notes {#rel-2026-1}
 
@@ -145,7 +165,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 >[!NOTE]
 >
->These release changes begin deployment on February 3, 2026, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
+>These release changes begin on February 3, 2026, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
 ## Agentic-AI capabilities {#rel-agents}
 
@@ -155,7 +175,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | ----- | ------ | ----------- |
 | Journey Build Agent | New and updated | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-agent.md) |
 | Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
-| Sales Qualifier | New | The Sales Qualifier is an AI-driven add-on application to Adobe Journey Optimizer B2B Edition that contains the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels. [Learn more](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | New | [!DNL Adobe Marketo Qualifier] is an AI-driven application that integrates with [!DNL Journey Optimizer B2B Edition]. It implements the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels. [Learn more](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 release notes {#rel-2025-10}
 
@@ -177,7 +197,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 
 >[!NOTE]
 >
->These release changes begin deployment on October 31, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
+>These release changes begin on October 31, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
 ### Updated architecture
 
@@ -191,7 +211,7 @@ This implementation provides multiple benefits:
 
 * **Easily unify and scale your data**: The updated platform supports complex data models, including custom objects, buying groups, and account events. 
 * **Connect multiple Adobe Marketo Engage instances**: Manage and unify data from several Adobe Marketo Engage environments in one place. 
-* **Keep your data safe**: Advanced privacy and security features help protect your customer information.  
+* **Protect your data**: Advanced privacy and security features help protect your customer information.  
 * **Designed for long-term scalability**: This update prepares your organization for ongoing improvements and innovation.
 
 >[!NOTE]
@@ -223,7 +243,7 @@ This release includes the following new capabilities and enhancements:
 
 >[!NOTE]
 >
->These release changes begin deployment on September 30, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
+>These release changes begin on September 30, 2025, with a phased rollout of each feature. Release dates for features and enhancements are subject to change.
 
 ## 2025.8 release notes {#rel-2025-8}
 

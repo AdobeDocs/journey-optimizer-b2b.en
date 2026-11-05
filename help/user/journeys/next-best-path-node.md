@@ -11,9 +11,13 @@ product_v2:
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
     internal-label: Person Journeys
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -323,4 +327,4 @@ For a published journey, open the journey map and select the next best path node
 * The confidence score for each path assignment
 * Path-level and profile-level reasoning, with expandable detail for individual profiles
 
-Live results are also available in the Journey Console and through the [Journey Observability skill](../agents/journey-agent.md#journey-observability-skill) in the AI Hub.
+Live results are also available for the Journey Console and through the [Journey observability skills](../agents/journey-agent.md#journey-observability-skills) in [!DNL Coworker] chat.

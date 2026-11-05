@@ -4,12 +4,17 @@ description: Manage image assets from Journey Optimizer B2B Edition and AEM Asse
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
+autotag-review: 2026-03-30T22:17:01.501Z
+TQID: 'https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,8 +24,6 @@ level_v2:
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
-autotag-review: 2026-03-30T22:17:01.501Z
-TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
 ---
 # Assets
 

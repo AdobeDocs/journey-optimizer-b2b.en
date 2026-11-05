@@ -4,6 +4,7 @@ description: Send-time optimization (STO) in Adobe Journey Optimizer personalize
 feature: Person Journeys, Channels
 role: User
 exl-id: a0423bdc-f2ad-450b-9dc6-b9f2f7a1ef8c
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -12,18 +13,21 @@ feature_v2:
     internal-label: Communication channels
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
     internal-label: Email channel
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
     internal-label: Journey Actions
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-autotag-review: '2026-04-29T23:21:59.633Z'
 ---
 # Email send-time optimization
 
@@ -38,16 +42,16 @@ Send-time optimization is currently supported for:
 * **Journey type**: Person Journeys
 * **Channel**: Email
 * **Configuration**: _Send email_ action node
-* **Reporting**: AI Assistant through the Journey Observability skill
+* **Reporting**: [!DNL Coworker] chat through the journey observability skills
 
-   Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in the AI Assistant.
+   Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in [!DNL Coworker] chat.
 
 >[!BEGINSHADEBOX]
 
 There are many **_future enhancements_** planned for STO:
 
 * Support for _Account Journeys_
-* Global STO configuration in the _[!UICONTROL Admin]_ area
+* Global STO configuration in the _[!UICONTROL Administration]_ area
 * Journey-level STO enablement
 * Configurable test / control splits
 * A dedicated STO reporting dashboard
@@ -82,4 +86,4 @@ You can configure send-time optimization when you [add a _[!UICONTROL Take an ac
 
 ## STO insights
 
-STO insights are delivered through the _AI Assistant_ using the Journey Agent [_Observability skill_](../agents/journey-agent.md#journey-observability-skill). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.
+STO insights are delivered through _[!DNL Coworker] chat_ using the [_journey observability skills_](../agents/journey-agent.md#journey-observability-skills). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.

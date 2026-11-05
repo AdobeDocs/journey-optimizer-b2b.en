@@ -4,6 +4,8 @@ description: Access AI-powered insights for buying groups and accounts with enga
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
+autotag-review: 2026-03-30T22:43:58.948Z
+TQID: 'https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -12,6 +14,8 @@ feature_v2:
     internal-label: Intelligent Insights
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
     internal-label: Buying Groups
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,8 +27,6 @@ topic_v2:
     internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-autotag-review: 2026-03-30T22:43:58.948Z
-TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
 ---
 # Intelligent Dashboard
 

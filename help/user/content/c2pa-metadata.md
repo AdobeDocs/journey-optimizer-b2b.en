@@ -77,7 +77,7 @@ When you create a new image from a text prompt, from a reference image, or gener
 * Crop a generated banner image to fit a web page. The C2PA metadata is preserved through the crop. 
 * Use an uploaded stock photo as an email background and crop it to fit the screen. If the stock photo carries no generative AI information, C2PA metadata is not created.
 
-When you make an adjustment to an image file, such as cropping it to requested dimensions, it retains its C2PA metadata only if the source image already had it. Cropping recreates the image pixels, which normally removes that C2PA metadata, so AI Assistant reads it from the source image before cropping, then recreates and re-attaches it to the cropped result. Cropping itself does not add a new generative AI action; it preserves the existing one.
+When you make an adjustment to an image file, such as cropping it to requested dimensions, it retains its C2PA metadata only if the source image already had it. Cropping recreates the image pixels, which normally removes that C2PA metadata, so generative AI tools read it from the source image before cropping, then recreate and reattach it to the cropped result. Cropping itself does not add a new generative AI action; it preserves the existing one.
 
 ### Add a text overlay
 

@@ -5,12 +5,21 @@ feature: Dashboards, Landing Pages
 level: Beginner
 role: User
 exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
+autotag-review: 2026-03-30T22:41:52.137Z
+TQID: 'https://experienceleague.adobe.com/Uq-9dwXH-k9Y0jmVDXoSfI29i-8gw384J8dXTG07EZk'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
     internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,8 +31,6 @@ topic_v2:
     internal-label: Insights
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-autotag-review: 2026-03-30T22:41:52.137Z
-TQID: https://experienceleague.adobe.com/Uq-9dwXH-k9Y0jmVDXoSfI29i-8gw384J8dXTG07EZk
 ---
 # Web engagement dashboard
 

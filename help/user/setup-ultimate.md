@@ -4,6 +4,7 @@ description: Set up Journey Optimizer B2B Edition. Configure XDM schemas, email/
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
+autotag-review: '2026-03-27T22:15:07.682Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,6 +15,9 @@ feature_v2:
     internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -32,7 +36,6 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-autotag-review: '2026-03-27T22:15:07.682Z'
 ---
 # Setup checklist
 

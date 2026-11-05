@@ -4,6 +4,8 @@ description: Learn about governance features that are currently available in Jou
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
+autotag-review: 2026-03-27T23:18:44.352Z
+TQID: 'https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -12,6 +14,9 @@ feature_v2:
     internal-label: Administration
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
     internal-label: Data management
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -20,8 +25,6 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-autotag-review: 2026-03-27T23:18:44.352Z
-TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
 ---
 # Governance and privacy features
 

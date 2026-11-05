@@ -1,11 +1,13 @@
 ---
 title: User Access and Permissions
-description: "Manage user access with the Adobe Admin Console: create user groups, assign product profiles, and set role-based permissions for Journey Optimizer B2B Edition."
+description: 'Manage user access with the Adobe Admin Console: create user groups, assign product profiles, and set role-based permissions for Journey Optimizer B2B Edition.'
 feature: Setup, Permissions
 roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
+autotag-review: 2026-03-27T22:47:43.575Z
+TQID: 'https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,13 +16,19 @@ feature_v2:
     internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: 2026-03-27T22:47:43.575Z
-TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
 ---
 # User access and permissions
 
@@ -180,8 +188,12 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 | B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups <li>Manage B2B Solution Interests <li>Manage B2B Role Templates <li>Manage B2B Stages <li>View B2B Buying Groups |
 | B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations <li>View B2B Email Settings <li>Manage B2B Email Settings <li>Manage B2B WhatsApp Presets <li>Manage B2B Landing Page Settings <li>View B2B Forms Preset <li>Manage B2B Forms Preset <li>Publish B2B Forms Preset <li>Author B2B Web Experiences <li>Manage B2B WhatsApp Settings |
 | B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
-| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys <li>Manage B2B Person Journeys |
+| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys <li>Manage B2B Person Journeys <li>View B2B Person Journeys <li>Publish B2B Person Journeys |
 | Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
+
+>[!NOTE]
+>
+>All B2B Person Journeys permissions currently grant read, write, and publish access to person journeys. This known gap will be resolved in a future release.
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
