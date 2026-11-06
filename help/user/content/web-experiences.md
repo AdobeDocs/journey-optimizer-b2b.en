@@ -188,6 +188,7 @@ In Treatment B, select the _[!UICONTROL Redirect to URL]_ option for the other h
 
 When your web campaign is live, you can track how the web experience that you defined in Journey Optimizer B2B Edition is performing against web experiences that use a redirection to the alternative page.
 
+<!--
 ## Test the web experience
 
 After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
@@ -198,7 +199,8 @@ After the content design is complete for the web experience, you can use the _Si
 
 1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## Activate your web experience
 
