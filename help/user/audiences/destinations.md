@@ -24,11 +24,11 @@ topic_v2:
 
 # Destinations
 
-Destinations are pre-built integrations that let you send [static people list](./people-lists.md#static-lists) members and account journey audiences to social platforms. Activating a static list to a destination keeps membership in sync. As people are added to or removed from the list, they are correspondingly added to or removed from the destination audience and, by extension, from any campaign that the audience feeds.
+Destinations are pre-built integrations that let you send [static people list](./people-lists-static.md) members and account journey audiences to social platforms. Activating a static list to a destination keeps membership in sync. As people are added to or removed from the list, they are correspondingly added to or removed from the destination audience and, by extension, from any campaign that the audience feeds.
 
 There are three ways to activate people to a connected destination:
 
-* **From a static list** - Activate an existing static list directly from the **_[!UICONTROL People lists]_** tab. See [_Activate to a destination_](./people-lists.md#static-list-activate).
+* **From a static list** - Activate an existing static list directly from the **_[!UICONTROL People lists]_** tab. See [_Activate to a destination_](./people-lists-static.md#static-list-activate).
 * **From an account journey** - Add an **_[!UICONTROL Activate to destination]_** action node to a journey path so that qualifying accounts are activated to the destination when they reach that node. See [_Activate to or deactivate from a destination_](../journeys/action-nodes.md#activate-deactivate-destination).
 * **From a buying group** - To fill empty roles in your buying groups, you can activate a LinkedIn Matched Audience to target prospects who match your buying group parameters. See [_LinkedIn Account Matched audience_s](../data/linkedin-account-matched-audiences.md#activate-buying-group).
 

@@ -1,6 +1,6 @@
 ---
 title: People Lists
-description: Create and manage static and dynamic people lists with custom filters for person journey targeting and destination activation in Journey Optimizer B2B Edition.
+description: Learn people lists, and how to browse, view, edit, delete, and use them in Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
 product_v2:
@@ -22,27 +22,51 @@ topic_v2:
 
 # People lists
 
-In [!DNL Journey Optimizer B2B Edition], a people list is a person-level audience container that you use for person journey targeting. Static lists hold a fixed or journey-managed membership, and dynamic lists refresh membership automatically based on rules that you define.
+In [!DNL Journey Optimizer B2B Edition], a people list is a named collection of person profiles that you can reuse across your journeys. Instead of recreating the same set of filters in every journey, define the group of people one time and reference it wherever you need it. For example, use a people list to exclude internal staff or existing customers from a nurture journey, or to track people who completed a step in one journey so that another journey can act on them.
+
+There are two types of people lists:
+
+* **[!UICONTROL Static]** - Membership changes only when you explicitly add or remove people. You can add people by applying a filter set to populate the list based on current person data, or add and remove people through an account or person journey. See [Static people lists](./people-lists-static.md).
+* **[!UICONTROL Dynamic]** - You define a set of rules (filters) for automatically curating the list. The list refreshes dynamically as people become qualified or disqualified for the rules definition. See [Dynamic people lists](./people-lists-dynamic.md).
+
+You can [use people lists in account journeys and person journeys](#use-people-lists-in-journeys) to split paths based on list membership and to add people to or remove people from static lists.
+
+>[!NOTE]
+>
+>People lists include person profiles that are already synced and available in [!DNL Journey Optimizer B2B Edition]. Profiles are not read directly from [!DNL Adobe Experience Platform] audiences when the list is evaluated.
 
 ## Access and browse people lists {#access-browse}
 
 Access people lists from the left navigation to view, create, and manage list membership.
 
-* On the left navigation, expand **[!UICONTROL Audiences]** and select **[!UICONTROL People lists]**.
+>[!AVAILABILITY]
+>
+>The following product permissions control access to people lists:
+>
+>* [!UICONTROL Manage B2B Person Lists]  - View, create, edit, and delete people lists.
+>* [!UICONTROL View B2B Person Lists] - View people lists and their members (read-only).
+>
+>For information about assigning permissions, see [User access and permissions](../admin/user-management.md#b2b-product-permissions).
 
-   There are two tabs on the page. Select **[!UICONTROL Dynamic lists]** or **[!UICONTROL Static lists]** to switch between the two list types.
+* On the left navigation, expand **[!UICONTROL Accounts]** and select **[!UICONTROL People lists]**.
+
+* Select **[!UICONTROL Dynamic lists]** or **[!UICONTROL Static lists]** to switch between the two list types.
 
 * Enter text in the _Search_ field at the top of the list to filter the displayed list by name.
 
    ![Access people lists to manage your person-level audiences](./assets/people-lists-browse-search.png){width="800" zoomable="yes"}
 
-* Click the _Column settings_ ( ![Column settings icon](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner to select or clear the displayed columns.
+* Click the _Column settings_ ( ![Column settings icon](../assets/do-not-localize/icon-column-settings-new.svg) ) icon in the top-right corner to select or clear the displayed columns.
+
+* To change the width of a column, drag the divider between column headers.
+
+Each tab includes the **[!UICONTROL Name]**, **[!UICONTROL Last updated]**, **[!UICONTROL Updated by]**, **[!UICONTROL Created on]**, and **[!UICONTROL Created by]** columns. Click the people list name to view its details.
 
 From this page, you can also:
 
-* Create new dynamic and static lists lists.
-* Open a list to review current membership.
-* Apply membership filters.
+* Create new dynamic and static lists.
+* Open a list and [review current members](#view-list-members).
+* Click the _More actions_ ( **...** ) icon for a list and choose to [edit](#edit-list-properties) or [delete](#delete-people-list) it.
 
 ## Create a people list {#create-people-list}
 
@@ -52,176 +76,74 @@ From this page, you can also:
 
 1. Enter a **[!UICONTROL Name]** (required) and a **[!UICONTROL Description]** (optional) for the list.
 
+   The name can include up to 180 characters and must be unique among lists of the same type. The description can include up to 2,000 characters.
+
 1. Choose the list **[!UICONTROL Type]**:
 
-   * [**[!UICONTROL Static]**](#static-lists) - Membership is determined by qualifying filters evaluated when you create the list. Membership does not update unless you manually qualify or disqualify members.
-   * [**[!UICONTROL Dynamic]**](#dynamic-lists) - Membership is determined dynamically by qualifying filters. Membership refreshes automatically.
+   * [**[!UICONTROL Static]**](./people-lists-static.md) - Qualification filters determine membership when you apply them to the list. Membership updates only when you manually add people or a journey adds or removes them.
+   * [**[!UICONTROL Dynamic]**](./people-lists-dynamic.md) - Qualification filters determine membership dynamically. Membership refreshes automatically.
 
 1. Click **[!UICONTROL Create]**.
 
-## Static lists {#static-lists}
+   The new people list opens on its details page, and the filter editor opens so that you can define the people for the list. To add people to a static list, apply one or more filters. For a dynamic list, define the rules for list membership.
 
-Static list membership is defined by simple filters that reference person attributes and activities. Membership does not change unless you manually qualify or disqualify members.
+## View list members {#view-list-members}
 
->[!NOTE]
->
->Static list filter definitions apply only once, when you add members to or remove members from the list. The defined filter is not available afterward. If you want to maintain a consistent audience definition using filters, use a dynamic list instead.
+On the details page for a people list, the **[!UICONTROL Members]** list displays the people in the list. The total number of people in the list is displayed at the top of the table.
 
-### Add members {#static-list-add-members}
+The members table includes the following columns:
 
-1. Open the static list and click **[!UICONTROL Add people]** at the top right.
+* **[!UICONTROL Name]**
+* **[!UICONTROL Email address]**
+* **[!UICONTROL Job title]**
+* **[!UICONTROL Company]**
+* **[!UICONTROL Unsubscribed]**
+* **[!UICONTROL Created on]**
+* **[!UICONTROL Last modified]**
 
-1. In the _[!UICONTROL Add people]_ dialog, define the rules for qualifying profiles by dragging filters from the left panel.
+By default, the system sorts members by **[!UICONTROL Last modified]**, showing the most recently modified people first. You can also sort by **[!UICONTROL Name]**, **[!UICONTROL Email address]**, or **[!UICONTROL Created on]**.
 
-   Filter profiles using any combination of:
+* To find a specific member, use the _Search_ field. You can search by first name, email address, or company.
+* To choose the columns to display, click the _Column settings_ icon and select or clear the checkboxes. The _[!UICONTROL Name]_ column is always displayed.
+* To see the latest membership, use the _[!UICONTROL More]_ menu to choose **[!UICONTROL Refresh members]**.
+* To view more information about a person, click the person's name to open the [person details](../accounts/person-details.md) page, where you can view their summary and recent activities.
 
-   * Activity history
-   * Experience Platform enabled person fields
-   * Custom fields
-   * Intent data
-   * Person attributes
-   * Special filters, such as journey membership
+## Edit people list properties {#edit-list-properties}
 
-   For each filter that you add, click **[!UICONTROL Add constraints]** to refine the matching criteria.
+You can change the name and description for a static or dynamic people list.
 
-   ![Add filters with constraints to add people to the static list](./assets/people-list-static-add-people-filters.png){width="800" zoomable="yes"}
+1. Open the _[!UICONTROL Edit list]_ dialog using one of the following methods:
 
-1. Click **[!UICONTROL Done]** to save your changes.
+   * On the _[!UICONTROL People lists]_ page, click the _More actions_ ( **...** ) icon for the list and choose **[!UICONTROL Edit]**.
+   * On the details page for the list, click **[!UICONTROL Edit list properties]**.
 
-1. Select the **[!UICONTROL Members]** tab.
-
-   Qualifying members appear in the list after a brief delay.
-
-   <!-- 
-   not working yet
-
-   ![Members for a static people list](./assets/people-list-static-members.png){width="700" zoomable="yes"}
-
-   -->
-
-### Remove members {#static-list-remove-members}
-
-1. Open the static list and click **[!UICONTROL Remove people]** at the top right.
-
-1. In the _[!UICONTROL Remove people]_ dialog, add filters to match the members that you want to disqualify.
-
-   <!-- 
-   not working yet
-
-   ![Add filters to remove people from the static list](./assets/people-list-static-remove-people-filters.png){width="700" zoomable="yes"}
-
-   -->
-
-1. Click **[!UICONTROL Done]** to save your changes.
-
-1. Select the **[!UICONTROL Members]** tab.
-
-   The disqualified members leave the list after a brief delay.
-
-### Activate to a destination {#static-list-activate}
-
-Activating a static people list sends its membership to a connected destination, with ongoing sync instead of a one-time export. This is useful for paid media targeting, suppression, and downstream orchestration.
-
-* The static list acts as a container for the people.
-* The activation sends and syncs that membership to a destination.
-* People added to the list later are propagated automatically.
-* People removed later are deactivated automatically.
-
->[!PREREQUISITES]
->
->You must have one or more configured destinations for your [!DNL Journey Optimizer B2B Edition] sandbox before you can activate a static list to a destination.
-
-1. Select the **[!UICONTROL Static lists]** tab.
-
-1. Locate the static list that you want to activate, click the _More menu_ ( **...** ) icon next to the list, and choose **[!UICONTROL Activate to destination]**.
-
-   <!--
-   ![Access the More menu for a static people list](./assets/people-lists-static-more-menu.png){width="450"}
-   -->
-
-   You can also open the static list and use the **[!UICONTROL More]** menu at the top right.
-
-1. Select the check box for the configured destination connection.
-
-   <!-- 
-   ![Configured destinations available for activation](./assets/people-list-activate-destination-select.png){width="600" zoomable="yes"}
-   -->
+1. Update the **[!UICONTROL Name]** or **[!UICONTROL Description]**.
 
 1. Click **[!UICONTROL Save]**.
 
-1. In the _[!UICONTROL Activate list to destination]_ dialog, click **[!UICONTROL Activate]** to confirm.
+## Delete a people list {#delete-people-list}
 
-When activation completes, a confirmation message appears and the destination shows as **[!UICONTROL Active]** on the **[!UICONTROL Destinations]** tab of the list. You can activate a static list to more than one destination at a time. Membership syncs to all of them.
+>[!IMPORTANT]
+>
+>Deleting a people list is permanent and cannot be undone. You cannot delete a people list that is in use by an active journey.
 
-To review the destinations that a static list is activated to, open the list and select the **[!UICONTROL Destinations]** tab.
+1. Delete the list using one of the following methods:
 
-#### Deactivate a destination {#deactivate-destination}
+   * On the _[!UICONTROL People lists]_ page, click the _More actions_ ( **...** ) icon next to the list name and choose **[!UICONTROL Delete]**.
+   * On the details page for the list, click **[!UICONTROL Delete list]**.
 
-Remove a destination connection from a static list when you no longer want its membership synced downstream.
+1. In the confirmation dialog, click **[!UICONTROL Delete]**.
 
-1. Open the static list and select the **[!UICONTROL Destinations]** tab.
+## Use people lists in journeys {#use-people-lists-in-journeys}
 
-1. Use the row action to remove the destination that you want to disconnect.
+In account journeys and person journeys, you can use people lists to filter paths and to maintain list membership:
 
-1. Confirm in the _[!UICONTROL Deactivate destination]_ dialog.
+* **Split paths by list membership** - In a [split path by people](../journeys/split-merge-paths-nodes.md#people-path-filters) condition, use the _[!UICONTROL Special filters]_ > _[!UICONTROL Person Member of People Static List]_ or _[!UICONTROL Person Member of People Dynamic List]_ filter to include or exclude people based on their membership in a specified list.
 
-Deactivating removes the destination from the list. The people in the list are also removed from the connected destination audience.
+* **Add and remove from a static list**
 
-## Dynamic lists {#dynamic-lists}
+   * Use the _[!UICONTROL Add to People List]_ action to add people to a selected static list. If a person is already a member, the action is ignored.
 
-Dynamic list membership is defined using simple filters that reference person attributes and activities. Membership is maintained automatically as profiles qualify and disqualify according to the filter logic.
+   * Use the _[!UICONTROL Remove from People List]_ action to remove people from a selected static list. If a person is not a member, the action is ignored.
 
-### Set membership rules {#set-membership-rules}
-
-1. Open the dynamic list and select the **[!UICONTROL Rules]** tab.
-
-1. Click **[!UICONTROL Edit rules]**.
-
-   <!-- 
-   ![Access rules for building a dynamic people list](./assets/people-list-dynamic-rules-edit.png){width="550" zoomable="yes"}
-   -->
-
-1. In the dialog, define the rules for qualifying profiles by dragging filters from the left panel.
-
-   Qualify profiles for the list using any combination of:
-
-   * Activity history
-   * AEP enabled person fields
-   * Custom fields
-   * Intent data
-   * Person attributes
-   * Special filters, such as journey membership
-
-   For each filter that you add, click **[!UICONTROL Add constraints]** to refine the matching criteria.
-
-   <!-- 
-   ![Add filters with constraints to populate the dynamic list](./assets/people-list-dynamic-rules-edit-filters.png){width="700" zoomable="yes"}
-   -->
-
-1. Click **[!UICONTROL Done]** to save your changes.
-
-1. Select the **[!UICONTROL Members]** tab.
-
-   Qualifying members appear in the list after a brief delay.
-
-   <!-- 
-   ![Generated members for a dynamic people list](./assets/people-list-dynamic-rules-members.png){width="700" zoomable="yes"}
-   -->
-
-   Click the name of a person in the list to open the [person details](../accounts/person-details.md) page, where you can view their summary and recent activities.
-
-### Duplicate a dynamic list {#duplicate-dynamic-list}
-
-Duplicating a dynamic list replicates its membership filtering so that you can reuse it in a different context.
-
-1. In the _[!UICONTROL Dynamic lists]_ tab, click the _More menu_ ( **...** ) icon next to the list and choose **[!UICONTROL Duplicate]**.
-
-1. Enter a unique **[!UICONTROL Name]** (required) and a **[!UICONTROL Description]** (optional).
-
-   By default, the dialog appends `_copy` to the name of the originating list. Enter a different unique name as needed.
-
-   <!-- 
-   ![Duplicate list dialog](./assets/people-list-duplicate-dialog.png){width="375"}
-   -->
-
-1. Click **[!UICONTROL Duplicate]**.
+   For details about adding these actions to a journey, see [People actions](../journeys/action-nodes.md#people-actions).

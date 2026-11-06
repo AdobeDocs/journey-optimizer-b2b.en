@@ -125,12 +125,12 @@ In an account or person journey, use an action on people when you want to apply 
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Add Person to (other) journey] | <li>Account journey (Action on People) <li>Person journey| <li>Select live Person Journey |
 | | [!UICONTROL Add to external customer audience] | <li>Account journey <li>Person journey | <li>Select external customer audience |
-| | [!UICONTROL Add to People List] | <li>Person journey | <li>Select Static People List |
+| | [!UICONTROL Add to People List] | <li>Account journey (Action on People) <li>Person journey | <li>Select static people list |
 | | [!UICONTROL Assign to Buying Group] | <li>Account journey | <li>Select solution interest <li>Select role |
 | | [!UICONTROL Person Interesting Moment] | <li>Account journey <li>Person journey | <li>Type <li>Description |
 | | [!UICONTROL Personalize web experience] (Beta) | <li>Account journey | <li>Create/edit web experience |
 | | [!UICONTROL Remove from Buying Group] | <li>Account journey | <li>Select solution interest |
-| | [!UICONTROL Remove from People List] | <li>Person journey | <li>Select Static People List |
+| | [!UICONTROL Remove from People List] | <li>Account journey (Action on People) <li>Person journey | <li>Select static people list |
 | | [!UICONTROL Remove Person from Journey] | <li>Person journey | <li>Select Person Journey |
 | | [!UICONTROL Send email] | <li>Account journey <li>Person journey | <li>Create email <li>Send-time optimization (optional, person journey only) |
 | | [!UICONTROL Send SMS] | <li>Account journey | <li>Create SMS |
@@ -217,7 +217,9 @@ _To use an existing audience:_
 
 +++[!UICONTROL Add to People List]
 
-Use this action to add people profiles to a selected static [people list](../audiences/people-lists.md).
+Use this action to add people to a static [people list](../audiences/people-lists.md). When a person reaches the action node, the system adds them as a member of the selected list. If the person is already a member, the action is ignored.
+
+Click **[!UICONTROL Select]** to choose a static people list, or click **[!UICONTROL Create]** to create a new static people list. For more information, see [Use people lists in journeys](../audiences/people-lists.md#use-people-lists-in-journeys).
 
 ![Take an action - Add to People List](./assets/node-action-add-to-people-list.png){width="300"}
 
@@ -257,7 +259,9 @@ Use this action to remove people profiles from a [buying group](../buying-groups
 
 +++[!UICONTROL Remove from People List]
 
-Use this action to remove people profiles from a selected static [people list](../audiences/people-lists.md).
+Use this action to remove people from a static [people list](../audiences/people-lists.md). When a person reaches the action node, the system removes them from the selected list. If the person is not a member, the action is ignored.
+
+Click **[!UICONTROL Select]** to choose the static people list. For more information, see [Use people lists in journeys](../audiences/people-lists.md#use-people-lists-in-journeys).
 
 ![Take an action - Remove from People List](./assets/node-action-remove-from-people-list.png){width="300"}
 
