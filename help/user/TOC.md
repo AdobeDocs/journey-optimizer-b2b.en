@@ -103,6 +103,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
        + [Overview](./audiences/people-lists.md)
        + [Static people lists](./audiences/people-lists-static.md)
        + [Dynamic people lists](./audiences/people-lists-dynamic.md)
+       + [Use in journeys](./audiences/people-lists-journeys.md)
     + Sales experience {#sales-experience}
       + [Account details](./accounts/account-details.md)
       + [Buying group details](./buying-groups/buying-group-details.md)

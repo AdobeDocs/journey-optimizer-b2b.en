@@ -75,7 +75,7 @@ In an account journey, use an action on accounts when you want to apply a change
 
 ### Activate to or deactivate from a destination {#activate-deactivate-destination}
 
-Use the _Activate to destination_ action to activate accounts to Experience Platform destinations directly from your journey. This action enables you to push qualified accounts (based on buying group filters, engagement scores, and other criteria) into matched audiences on supported destinations. 
+Use the _Activate to destination_ action to activate accounts to Experience Platform destinations directly from your journey. This action enables you to push qualified accounts (based on buying group filters, engagement scores, and other criteria) into matched audiences on supported destinations.
 
 You can pair this action with the _Deactivate from destination_ action later in the same journey to stop targeting accounts after they convert or no longer qualify.
 
@@ -219,7 +219,7 @@ _To use an existing audience:_
 
 Use this action to add people to a static [people list](../audiences/people-lists.md). When a person reaches the action node, the system adds them as a member of the selected list. If the person is already a member, the action is ignored.
 
-Click **[!UICONTROL Select]** to choose a static people list, or click **[!UICONTROL Create]** to create a new static people list. For more information, see [Use people lists in journeys](../audiences/people-lists.md#use-people-lists-in-journeys).
+Click **[!UICONTROL Select]** to choose a static people list, or click **[!UICONTROL Create]** to create a new static people list. For more information, see [Use people lists in journeys](../audiences/people-lists-journeys.md).
 
 ![Take an action - Add to People List](./assets/node-action-add-to-people-list.png){width="300"}
 
@@ -261,7 +261,7 @@ Use this action to remove people profiles from a [buying group](../buying-groups
 
 Use this action to remove people from a static [people list](../audiences/people-lists.md). When a person reaches the action node, the system removes them from the selected list. If the person is not a member, the action is ignored.
 
-Click **[!UICONTROL Select]** to choose the static people list. For more information, see [Use people lists in journeys](../audiences/people-lists.md#use-people-lists-in-journeys).
+Click **[!UICONTROL Select]** to choose the static people list. For more information, see [Use people lists in journeys](../audiences/people-lists-journeys.md).
 
 ![Take an action - Remove from People List](./assets/node-action-remove-from-people-list.png){width="300"}
 

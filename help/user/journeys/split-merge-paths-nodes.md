@@ -46,10 +46,10 @@ A _Split paths_ node defines one or more segmented paths based on **_either_** a
 
 Split by accounts paths can include both account and people actions and events. These paths can be split further.
 
-_**How a split path by accounts node works**_ 
+_**How a split path by accounts node works**_
 
 * Each path that you add includes an end node with the ability to add nodes to each edge.
-* Split by account nodes can be nested (you can split the path by accounts repeatedly). 
+* Split by account nodes can be nested (you can split the path by accounts repeatedly).
 * Evaluation of each path is from top to bottom. If an account matches the first and second paths, it proceeds along the first path only.
 * Two or more paths can be combined using a merge node.
 * The node supports the definition of an _[!UICONTROL Other accounts]_ path, where you can add actions or events for accounts that do not match one of the defined segments/paths.
@@ -61,10 +61,11 @@ _**How a split path by accounts node works**_
 | Path conditions | Description |
 | --------------- | ----------- |
 | [!UICONTROL Account Attributes] | Attributes from the account profile, including: <li>Annual revenue <li>City <li>Country <li>Employee size <li>Industry <li>Name <li>SIC code <li>State |
-| [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The account does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas). (See [Custom data filtering](#custom-data-filtering).) |
+| [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The account does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas). (See [_Custom data filtering_](#custom-data-filtering).) |
 | [!UICONTROL Special filters] > [!UICONTROL Account has matched buying group] | The account is matched with one or more buying groups. It can be evaluated against one or more of the following constraints for a matched buying group: <li>Solution Interest <li>Buying Group stage <li>Buying Group status <li>Engagement Score <li>Completeness Score <li> Number of people in buying group role |
+| [!UICONTROL Special filters] > [!UICONTROL Account Member of Account List] | The account is or is not a member of one or more of the selected account lists. (See [_Split paths node - Account member of account list_](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)) |
 
-### Add a split path by account node
+### Add a split path by account node {#add-a-split-path-by-account-node}
 
 1. Navigate to the journey map.
 
@@ -132,13 +133,19 @@ For example, evaluate buying group readiness based on the depth (number of peopl
 
 To update the status of the buying group or stage for the identified accounts, add an action node in the path.
 
+### Account list filtering {#account-list-filtering}
+
+Use the _[!UICONTROL Special filters]_ > _[!UICONTROL Account Member of Account List]_ filter to define a path for accounts based on their membership in an [account list](../accounts/account-lists.md). Set membership to _true_ to include accounts in the lists or _false_ to exclude them, and select one or more account lists. For example, to keep accounts on a blocklist out of a path, add the filter, set membership to _false_, and select your blocklist.
+
+For the steps, see [Split paths node - Account member of account list](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list).
+
 ## Split paths by people
 
 _(Account and person journeys)_
 
 Split by people paths can include only people actions. These paths cannot be split again and automatically join back.
 
-_**How a split path by people node works**_ 
+_**How a split path by people node works**_
 
 * Split by people nodes function within a _grouped node_ split-merge combination. The split paths automatically merge so that all people can move forward to the next step without losing their account context.
 * Split by people nodes cannot be nested (you cannot add a split path for people on a path that is in this grouped node).
@@ -155,10 +162,12 @@ _**How a split path by people node works**_
 | [!UICONTROL Custom Objects] > Has `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta feature"} The person does or does not have relational schema records. It can also be evaluated against any of the selected custom object criteria, as configured in the [XDM relational schema](../admin/xdm-field-management.md#relational-schemas). (See [Custom data filtering](#custom-data-filtering)) |
 | [!UICONTROL Event history] | Splits people based on experience events that occurred prior to journey entry. Expand the folder to see all event types configured in [Admin > XDM event configuration](../admin/configure-aep-events.md) and select one to add as a filter. Constraints include fields from the selected event, a lookback time window measured back from when the person enters the journey, and an optional minimum number of times. |
 | [!UICONTROL Person attributes] | Attributes from the [person profile](../admin/field-mapping.md#xdm-business-person-attributes), including: <li>City <li>Country <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region <li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed (default: `false`)</li><li>Role</li> (See [Membership filtering](#membership-filtering)) |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Profile Audience] | The person is or is not a member of one or more [!DNL Adobe Experience Platform] profile audiences. (See [Membership filtering](#membership-filtering)) |
-| [!UICONTROL Special filters] > [!UICONTROL Person Member of People Dynamic List] | The person is or is not a member of a specified dynamic people list. |
-| [!UICONTROL Special filters] > [!UICONTROL Person Member of People Static List] | The person is or is not a member of a specified static people list. |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | The person is or is not a buying group member evaluated against one or more of the following criteria: <li>Solution Interest</li><li>Buying Group status</li><li>Completeness Score</li><li>Engagement Score</li><li>Is Removed (default: `false`)</li><li>Role</li> (See [_Membership filtering_](#membership-filtering)) |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Profile Audience] | The person is or is not a member of one or more [!DNL Adobe Experience Platform] profile audiences. (See [_Membership filtering_](#membership-filtering)) |
+| [!UICONTROL Special filters] > [!UICONTROL Person Member of Account Dynamic List] | (Person journeys only) The person's account is or is not a member of one or more dynamic account lists. (See [_Person member of account list_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)) |
+| [!UICONTROL Special filters] > [!UICONTROL Person Member of Account Static List] | (Person journeys only) The person's account is or is not a member of one or more static account lists. (See [_Person member of account list_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)) |
+| [!UICONTROL Special filters] > [!UICONTROL Person Member of People Dynamic List] | The person is or is not a member of one or more dynamic people lists. (See [_Membership filtering_](#membership-filtering)) |
+| [!UICONTROL Special filters] > [!UICONTROL Person Member of People Static List] | The person is or is not a member of one or more static people lists. (See [_Membership filtering_](#membership-filtering)) |
 
 ### Account-person path conditions
 
@@ -182,7 +191,7 @@ _**How a split path by people node works**_
 
 1. (Account journeys only) Set the **[!UICONTROL Attributes used for conditions]**.
 
-   * Choose **[!UICONTROL People attributes only]** to use conditions related to the person profile. 
+   * Choose **[!UICONTROL People attributes only]** to use conditions related to the person profile.
    * Choose **[!UICONTROL Account-person attributes only]** to use conditions related to the person's role membership within an account.
 
 1. To define a condition applicable to _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
@@ -193,7 +202,7 @@ _**How a split path by people node works**_
 
       >[!NOTE]
       >
-      >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions. 
+      >If you have custom person fields defined in the account audience schema in Experience Platform, these fields are also available to use as person attributes in conditions.
 
    * Refine your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all attribute conditions or any condition.
 
@@ -213,7 +222,7 @@ _**How a split path by people node works**_
 
    ![Split path node - reorder paths](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
 
-1. Enable the **[!UICONTROL Other people]** option to add a default path for people that are not a match for the defined paths. 
+1. Enable the **[!UICONTROL Other people]** option to add a default path for people that are not a match for the defined paths.
 
    When this option is not enabled, people that do not match a defined segment/path move past the split and proceed to the next step in the journey.
 
@@ -249,10 +258,14 @@ Within the _[!UICONTROL Special filters]_ section, use the following filters to 
 
 * _[!UICONTROL Member of Buying Group]_ - Evaluates whether the person is a member of a buying group.
 * _[!UICONTROL Member of Profile Audience]_ - Evaluates whether the person is a member of an [!DNL Adobe Experience Platform] profile audience.
+* _[!UICONTROL Person Member of Account Dynamic List]_ - (Person journeys only) Evaluates whether the person's account is a member of a dynamic account list. (See [Use account lists in journeys](../accounts/account-lists-journeys.md#split-paths-member-of-account-list))
+* _[!UICONTROL Person Member of Account Static List]_ - (Person journeys only) Evaluates whether the person's account is a member of a static account list. (See [Use account lists in journeys](../accounts/account-lists-journeys.md#split-paths-member-of-account-list))
+* _[!UICONTROL Person Member of People Dynamic List]_ - Evaluates whether the person is a member of a dynamic people list.
+* _[!UICONTROL Person Member of People Static List]_ - Evaluates whether the person is a member of a static people list.
 
-To add a membership filter, drag it from the _[!UICONTROL Special filters]_ folder onto the conditions workspace and set the membership to _true_ to include members or _false_ to exclude them. You can combine both filters in the same path condition and use the **[!UICONTROL Filter logic]** to match any or all of them.
+To add a membership filter, drag it from the _[!UICONTROL Special filters]_ folder onto the conditions workspace and complete the match definition to include or exclude members. Depending on the filter, you select _true_ or _false_, or choose _is_ or _is not_. You can combine these filters in the same path condition and use the **[!UICONTROL Filter logic]** to match any or all of them.
 
-These filters are also available when you [add filters for an event](./listen-for-event-nodes.md#membership-filtering) in a _Listen for an event_ node.
+The _[!UICONTROL Member of Buying Group]_ and _[!UICONTROL Member of Profile Audience]_ filters are also available when you [add filters for an event](./listen-for-event-nodes.md#membership-filtering) in a _Listen for an event_ node.
 
 ![Split path by people condition for buying group and profile audience membership](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
 
@@ -282,15 +295,29 @@ Click **[!UICONTROL Add constraint]** to include additional buying group members
 
 **Member of Profile Audience**
 
-Use the _[!UICONTROL Profile Audience]_ constraint to select one or more audiences. For example, if you select the `integroPerson` audience, the path qualifies all people who were members of that audience when the last batch ingestion occurred. 
+Use the _[!UICONTROL Profile Audience]_ constraint to select one or more audiences. For example, if you select the `integroPerson` audience, the path qualifies all people who were members of that audience when the last batch ingestion occurred.
 
 >[!NOTE]
 >
 >The filter does not calculate audience membership in real time. It qualifies people based on their membership in the selected audience as of the last batch audience ingestion. Only audiences that have been ingested into [!DNL Journey Optimizer B2B Edition] can be evaluated.
 
+**Member of Account Lists**
+
+_(Person journeys only)_
+
+Use the _[!UICONTROL Person Member of Account Static List]_ and _[!UICONTROL Person Member of Account Dynamic List]_ filters to route people based on whether their account is a member of an [account list](../accounts/account-lists.md). Set the operator to _is_ to include people whose account is in the lists or _is not_ to exclude them, and select one or more account lists. For example, to keep people in blocklisted accounts out of a nurture path, add the _[!UICONTROL Person Member of Account Static List]_ filter, set the operator to _is not_, and select your blocklist.
+
+For the steps, see [Split paths node - Person member of account list](../accounts/account-lists-journeys.md#split-paths-member-of-account-list).
+
+**Member of People Lists**
+
+Use the _[!UICONTROL Person Member of People Static List]_ and _[!UICONTROL Person Member of People Dynamic List]_ filters to route people based on membership in a [people list](../audiences/people-lists.md). Set the operator to _is_ to include list members or _is not_ to exclude them, and select one or more lists. For example, to keep employees and partners out of a nurture path, add the _[!UICONTROL Person Member of People Static List]_ filter, set the operator to _is not_, and select your exclusion list.
+
+For the steps, see [Split paths by people list membership](../audiences/people-lists-journeys.md#split-paths-by-list-membership).
+
 ## Custom data filtering {#custom-data-filtering}
 
-[!BADGE Beta]{type=Informative tooltip="Beta feature"} 
+[!BADGE Beta]{type=Informative tooltip="Beta feature"}
 
 You can use relational schemas (model-based classes) to split paths by account or people. The custom objects are defined within _relational schemas_, and a product administrator can [configure relational schema fields](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. The selected schema fields are available in the condition editor for use in _split path by account_ and _split path by people_ nodes.
 
@@ -300,7 +327,7 @@ For a **[!UICONTROL Split path by account]** or **[!UICONTROL Split path by peop
 
 ## Merge paths {#merge-paths}
 
-To combine different _split paths by account_ in your journey, add a _Merge paths_ node. 
+To combine different _split paths by account_ in your journey, add a _Merge paths_ node.
 
 1. In a journey map with a split node that has three or more paths, add a combination of actions and events to each path.
 

@@ -29,7 +29,7 @@ There are two types of people lists:
 * **[!UICONTROL Static]** - Membership changes only when you explicitly add or remove people. You can add people by applying a filter set to populate the list based on current person data, or add and remove people through an account or person journey. See [Static people lists](./people-lists-static.md).
 * **[!UICONTROL Dynamic]** - You define a set of rules (filters) for automatically curating the list. The list refreshes dynamically as people become qualified or disqualified for the rules definition. See [Dynamic people lists](./people-lists-dynamic.md).
 
-You can [use people lists in account journeys and person journeys](#use-people-lists-in-journeys) to split paths based on list membership and to add people to or remove people from static lists.
+You can [use people lists in account journeys and person journeys](./people-lists-journeys.md) to split paths based on list membership and to add people to or remove people from static lists.
 
 >[!NOTE]
 >
@@ -133,17 +133,3 @@ You can change the name and description for a static or dynamic people list.
    * On the details page for the list, click **[!UICONTROL Delete list]**.
 
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
-
-## Use people lists in journeys {#use-people-lists-in-journeys}
-
-In account journeys and person journeys, you can use people lists to filter paths and to maintain list membership:
-
-* **Split paths by list membership** - In a [split path by people](../journeys/split-merge-paths-nodes.md#people-path-filters) condition, use the _[!UICONTROL Special filters]_ > _[!UICONTROL Person Member of People Static List]_ or _[!UICONTROL Person Member of People Dynamic List]_ filter to include or exclude people based on their membership in a specified list.
-
-* **Add and remove from a static list**
-
-   * Use the _[!UICONTROL Add to People List]_ action to add people to a selected static list. If a person is already a member, the action is ignored.
-
-   * Use the _[!UICONTROL Remove from People List]_ action to remove people from a selected static list. If a person is not a member, the action is ignored.
-
-   For details about adding these actions to a journey, see [People actions](../journeys/action-nodes.md#people-actions).

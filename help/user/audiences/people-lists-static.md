@@ -25,7 +25,7 @@ topic_v2:
 A static [people list](./people-lists.md) is a collection of person profiles whose membership changes only when you add or remove people. Simple filters that reference person attributes and activities define static list membership. Membership changes only when you add or remove members. You can:
 
 * [Add people](#static-list-add-members) by applying a filter set that is evaluated one time, when you apply it.
-* Add and remove people through an account or person journey, using the [!UICONTROL Add to People List] and [!UICONTROL Remove from People List] actions. (See [Use people lists in journeys](./people-lists.md#use-people-lists-in-journeys))
+* Add and remove people through an account or person journey, using the [!UICONTROL Add to People List] and [!UICONTROL Remove from People List] actions. (See [Use people lists in journeys](./people-lists-journeys.md))
 <!-- * [Activate the list to a destination](#static-list-activate) to sync its membership downstream. -->
 
 >[!NOTE]
@@ -73,7 +73,7 @@ A static [people list](./people-lists.md) is a collection of person profiles who
 
 ## Remove members {#static-list-remove-members}
 
-You can remove people from a static list automatically through a journey using the [!UICONTROL Remove from People List] action. (See [Use people lists in journeys](./people-lists.md#use-people-lists-in-journeys))
+You can remove people from a static list automatically through a journey using the [!UICONTROL Remove from People List] action. (See [Use people lists in journeys](./people-lists-journeys.md))
 
 <!--
 TODO: Restore this section when the activate to a destination function is released.

@@ -36,7 +36,7 @@ All account journeys start with an [_Account audience_ node](../journeys/account
 
    ![Select account list option for account audience node](../journeys/assets/node-audience-account-list.png){width="500"}
 
-1. Click **[!UICONTROL Add accounts list]**.
+1. Click **[!UICONTROL Add account list]**.
 
 1. Select the checkbox for the account list and click **[!UICONTROL Save]**.
 
@@ -85,3 +85,70 @@ For example, you have a journey path where you send an email and some accounts t
 1. For **[!UICONTROL Select live static account list]**, choose the account list where you want to remove accounts.
 
    ![Select Remove from account list](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+
+## Split paths node - Account member of account list {#split-paths-account-member-of-account-list}
+
+**_Account journeys only_**
+
+Use the _[!UICONTROL Account Member of Account List]_ filter in a [_Split paths_ node](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node) that splits by accounts. The account is or is not a member of one or more of the selected account lists. To include accounts in the lists, set the membership to `true`, or set it to `false` to exclude them.
+
+To exclude accounts on a blocklist, add the _[!UICONTROL Account Member of Account List]_ filter, set membership to `false`, and select the list.
+
+1. Navigate to the journey map.
+
+1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Split paths]**.
+
+1. In the node properties on the right, choose **[!UICONTROL Accounts]** for the split.
+
+1. To define a condition for _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
+
+1. Define the account list filter.
+
+   * In the conditions editor, expand the _[!UICONTROL Special filters]_ folder and drag the **[!UICONTROL Account Member of Account List]** filter onto the conditions workspace.
+
+   * To include accounts in the lists, set the membership to `true`, or set it to `false` to exclude them.
+
+   * Select one or more account lists.
+
+   ![Split path conditions editor with Account Member of Account List filter](./assets/account-lists-journeys-split-path-account-filter.png){width="700" zoomable="yes"}
+
+   You can combine the account list membership filter with other account filters and choose to match all conditions or any condition. Refine your conditions by applying the **[!UICONTROL Filter logic]** at the top.
+
+1. Click **[!UICONTROL Done]**.
+
+Continue configuring the split path node as described in [Add a split path by account node](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node).
+
+## Split paths node - Person member of account list {#split-paths-member-of-account-list}
+
+**_Person journeys only_**
+
+Use the account list membership filters in a [_Split paths_ node](../journeys/split-merge-paths-nodes.md) of a person journey to route people based on whether their account is a member of an account list. Two filters are available:
+
+| Filter | Description |
+| ------ | ----------- |
+| [!UICONTROL Person Member of Account Dynamic List] | The person's account is or is not a member of one or more dynamic account lists. |
+| [!UICONTROL Person Member of Account Static List] | The person's account is or is not a member of one or more static account lists. |
+
+To exclude people in blocklisted accounts from a nurture path, add the _[!UICONTROL Person Member of Account Static List]_ filter, set the operator to `is not`, and select the list.
+
+1. Navigate to the journey map.
+
+1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Split paths]**.
+
+1. To define a condition for _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
+
+1. Define the account list filter
+
+   * In the conditions editor, expand the _[!UICONTROL Special filters]_ folder and drag the **[!UICONTROL Person Member of Account Dynamic List]** or **[!UICONTROL Person Member of Account Static List]** filter onto the conditions workspace.
+
+   * To include people whose account is in the list, set the operator to `is`, or set it to `is not` to exclude them.
+
+   * Select one or more account lists.
+
+      ![Split path conditions editor with Person Member of Account List filters](./assets/account-lists-journeys-split-path-person-member-account-filter.png){width="700" zoomable="yes"}
+
+    You can combine account list membership filters with other people filters and choose to match all conditions or any condition. Refine your conditions by applying the **[!UICONTROL Filter logic]** at the top.
+
+1. Click **[!UICONTROL Done]**.
+
+Continue configuring the split path node as described in [Add a split path by people node](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node).
