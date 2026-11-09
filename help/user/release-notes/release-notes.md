@@ -39,10 +39,10 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | People lists | Use static and dynamic people lists to target profiles by your defined criteria, such as demographic attributes and experience event history. |
+| Feature | People lists | Use static and dynamic people lists to target profiles by your defined criteria, such as demographic attributes and experience event history. [Learn more](../audiences/people-lists.md) |
 | Feature | Journey node labels | Add labels to journey nodes to identify them on the journey canvas. |
-| Enhancement | Member of Person List filter | Use the _[!UICONTROL Member of Person List]_ filter to include or exclude profiles based on their people list membership. |
-| Enhancement | People list journey actions | Add people to or remove people from static people lists through account and person journeys. |
+| Enhancement | Member of Person List filters | Use the _[!UICONTROL Member of Person List]_ filters to include or exclude profiles based on their static or dynamic people list membership. [Learn more](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Enhancement | People list journey actions | Add people to or remove people from static people lists through account and person journeys. [Learn more](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >These release changes begin on November 6, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
