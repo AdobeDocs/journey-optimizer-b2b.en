@@ -42,7 +42,7 @@ For email metrics aggregated across journeys, use the [Email performance report]
 
 The account journey dashboard shows account progress, engagement, channel performance, and generative AI summaries. It takes approximately four hours for data to start populating the charts and tables.
 
-![Account journey Overview tab showing progress, engagement, and channel performance.](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+![Account journey Overview tab showing progress, engagement, and channel performance.](./assets/journey-detail-overview-account.png){width="700" zoomable="yes"}
 
 ## Journey completion
 
@@ -116,6 +116,8 @@ To download the data, select **[!UICONTROL Download CSV]**. To return to the _[!
 
 The person journey dashboard shows completion, engagement, and email performance for people in the selected journey.
 
+![Person journey Overview tab showing progress, engagement, and email performance.](./assets/journey-detail-overview-person.png){width="700" zoomable="yes"}
+
 ## Journey completion {#person-journey-completion}
 
 Use the following charts to review the status of people in the journey and completion trends:
@@ -126,6 +128,8 @@ Use the following charts to review the status of people in the journey and compl
 >[!NOTE]
 >
 >In person journeys, the **[!UICONTROL Status of people in the journey]** chart includes people who went through the journey, even if they were subsequently deleted. **[!UICONTROL Drill through]** excludes deleted people, so it can show fewer records than the chart. This difference is expected. Deleting people does not change the historical journey status counts.
+
+For the _[!UICONTROL Status of people in the journey] chart, click thw _More_ ( **...** ) icon and select **[!UICONTROL Drill through]** to review individual person statuses.
 
 ## Journey engagement {#person-journey-engagement}
 
@@ -147,9 +151,5 @@ The **[!UICONTROL Email performance]** table shows counts for each email asset i
 * **[!UICONTROL Delivered]**: Number of emails delivered
 * **[!UICONTROL Opened]**: Number of emails opened
 * **[!UICONTROL Clicked]**: Number of emails clicked
-
-## Drill through {#person-journey-drill-through}
-
-For the **[!UICONTROL Status of people in the journey]** chart, open the **...** menu and select **[!UICONTROL Drill through]** to review individual person statuses.
 
 >[!ENDTABS]
