@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Build and publish a journey
 
-To get started with a journey, create the journey and then construct the nodes and journey flow in the journey map.
+To begin a new journey, create the journey and then construct the nodes and journey flow in the journey map.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the overview video](#overview-video)
 
@@ -64,7 +64,7 @@ _To add a new journey:_
 
 +++
 
-## Building blocks for journey design
+## Components for journey design
 
 The _journey map_ is the central zone in the journey workspace. It is in this zone that you can add journey nodes and configure them. Click a node to open its properties pane to the right of the canvas and set them according to your design. A journey always starts with an audience node, where you can define the input for your journey:
 
@@ -83,19 +83,53 @@ After you create an account journey and add the audience, design the journey usi
 
 ## Guardrails
 
-To help you build a journey without running into errors, the following guard rails are in place:
+To help you build a journey without encountering errors, the following guardrails are in place:
 
 * _Deleting a Split path node_: Deleting a node requires deleting all subsequent nodes in each path.
 * _Deleting a Merge node_: A merge node can be deleted only when there is one path connected to it. To delete a merge node, leave only one path selected.
-* _Switching between account and people_: Changing the selection from accounts to people deletes all subsequent nodes in each path.
+* _Switching between accounts and people_: Changing the selection from accounts to people deletes all subsequent nodes in each path.
 
 ## Add a node
 
 1. Navigate to the journey map.
 
-1. Click the plus ( **+** ) icon on the path and select the node type.
+1. Click the plus ( **+** ) icon on the path and choose the node type.
+
+   ![Click + and choose type to add journey node to path](./assets/node-add-menu.png){width="400" zoomable="no"}
+
+   The available node types depend on the journey type and the path context. See [_Journey nodes_](./journey-nodes.md) for more information.
 
 1. Set the node properties on the right.
+
+   The properties depend on the node type.
+
+## Label a node {#label-a-node}
+
+In [!DNL Adobe Journey Optimizer B2B Edition], each node on the journey map displays its default name, such as _Wait_ or _Send email_. Add display labels to distinguish nodes of the same type and identify the purpose of each step. For example, use _48-hour cooldown_ or _Welcome email_.
+
+You can add a display label to any node in an account journey or a person journey.
+
+1. In the journey map, select the node that you want to label.
+
+1. In the node properties, enter the text in the **[!UICONTROL Display label]** field.
+
+   The label can include up to 255 characters.
+
+1. Click outside the field to apply the label.
+
+   ![Add a display label to distinguish the node within the journey](./assets/node-display-label.png){width="500" zoomable="no"}
+
+   The label replaces the default name on the node in the journey map.
+
+To restore the default name, clear the **[!UICONTROL Display label]** field and click outside the field.
+
+When you publish the journey, the display label for each node is saved with the published journey.
+
+>[!NOTE]
+>
+>Display labels are not available to nodes in journeys that were created before this capability was available. 
+
+Node labels are available in the `ajob2b_1_5_4_journey_node` schema and dataset. You can query labels in [!DNL Adobe Experience Platform] and use them for reporting in [!DNL Adobe Customer Journey Analytics]. For more information about querying the exported data, review the [dataset query prerequisites](../data/aep-query-examples.md#prerequisites).
 
 ## Delete a node
 
@@ -107,23 +141,21 @@ To help you build a journey without running into errors, the following guard rai
 
 ## Add and delete a path
 
-1. Navigate to the journey map.
-
-1. Click the plus ( **+** ) icon on the path and add the [split path node](./split-merge-paths-nodes.md#split-paths).
+1. In the journey map, click the plus ( **+** ) icon on the path and add the [split path node](./split-merge-paths-nodes.md#split-paths).
 
 1. In the node properties on the right, select **[!UICONTROL Account]**.
 
 1. To add more paths, click **[!UICONTROL Add path]**.
 
-   With each path that is created in the journey, a new path card appears in the properties.
+   For each path that is created in the journey, a new path card appears in the properties.
 
-1. Navigate to one of the paths in the journey and add [action](./action-nodes.md) or [event](./listen-for-event-nodes.md) nodes to this path using the plus icon.
+1. Navigate to one of the paths in the journey and add [action](./action-nodes.md) or [event](./listen-for-event-nodes.md) nodes to that path using the plus icon.
 
 1. Select the [split path](./split-merge-paths-nodes.md) node to open the properties on the right.
 
-   The paths that have nodes on them cannot be deleted.
+   Paths that have nodes on them cannot be deleted.
 
-1. To delete these paths, you must delete all the nodes on that path first.
+1. To delete a path, you must delete all the nodes on that path first.
 
 ## Schedule a journey
 
