@@ -82,6 +82,14 @@ Data moves between the two systems in each direction at a different pace:
 * **[!DNL Experience Platform] to [!DNL Journey Optimizer B2B Edition]** - Data syncs in near real time and can take up to 30 minutes.
 * **[!DNL Journey Optimizer B2B Edition] to [!DNL Experience Platform]** - Data syncs in micro-batches and can take up to 4 hours.
 
+## Profile identity changes {#profile-identity-changes}
+
+Changes to a profile's `identityMap` in [!DNL Adobe Experience Platform] can break its association with an existing person record in [!DNL Journey Optimizer B2B Edition]. The previous person record is marked as deleted and no longer progresses through journeys or buying group processing.
+
+The profile must qualify again for an audience activated to [!DNL Journey Optimizer B2B Edition] and be ingested again. If the ingested record has a different person ID, it is treated as a new person. If that person enters a journey, they start from the beginning rather than resume the previous record's progress.
+
+Historical journey status counts still include the deleted person record. However, **[!UICONTROL Drill through]** excludes deleted records, so its record count can be lower than the chart count. For details, review [person journey completion reporting](../journeys/journey-details.md#person-journey-completion).
+
 ## Activity events and journey actions {#activity-and-actions}
 
 Timing for activity data and journey actions depends on how the data moves between systems:
