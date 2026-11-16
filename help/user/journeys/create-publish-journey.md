@@ -129,7 +129,7 @@ When you publish the journey, the display label for each node is saved with the 
 >
 >Display labels are not available to nodes in journeys that were created before this capability was available. 
 
-Node labels are available in the `ajob2b_1_5_4_journey_node` schema and dataset. You can query labels in [!DNL Adobe Experience Platform] and use them for reporting in [!DNL Adobe Customer Journey Analytics]. For more information about querying the exported data, review the [dataset query prerequisites](../data/aep-query-examples.md#prerequisites).
+Node labels are available in the `AJOB2B - 1.5.4 - journey node` schema and `AJOB2B-1_5_4-journey_node` dataset. You can query labels in [!DNL Adobe Experience Platform] and use them for reporting in [!DNL Adobe Customer Journey Analytics]. For more information about querying the exported data, review the [dataset query prerequisites](../data/aep-query-examples.md#prerequisites).
 
 ## Delete a node
 
