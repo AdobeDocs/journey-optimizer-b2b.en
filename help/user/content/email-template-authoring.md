@@ -31,7 +31,11 @@ topic_v2:
 ---
 # Email template authoring
 
-After you [create an email template](./email-templates.md#create-an-email-template), use the visual design space to author the structural and content components in your email template.
+After you [create an email template](./email-templates.md#create-an-email-template), use the visual design space to define the layout and content for your email template.
+
+## Add modules
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Add structure and content {#structure-content}
 

@@ -146,6 +146,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
       + [Landing page design](./content/landing-page-design.md)
       + [Generate landing page content](./content/generate-content-landing-pages.md)
    + Content design tools {#content-design}
+      + [Content modules](./content/content-modules.md)
       + [Structure components](./content/structure-components.md)
       + [Content components](./content/content-components.md)
       + [Custom CSS](./content/design-custom-css.md)

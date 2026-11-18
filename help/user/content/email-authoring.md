@@ -99,6 +99,10 @@ You can personalize the imported content as needed with the visual email editor 
 >
 > Saved templates can have governance (content locking) settings applied to one or more components. The visual design space provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md).
 
+## Add modules
+
+{{$include /help/_includes/content-design-modules.md}}
+
 ## Add structure and content {#structure-content}
 
 {{$include /help/_includes/content-design-components.md}}
