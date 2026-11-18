@@ -82,6 +82,7 @@ Get Started
 Review the [!DNL Journey Optimizer B2B Edition] onboarding guidance for administrators and marketers.
 
 [Administrators](./setup-ultimate.md)</br>
+
 [Users](./start/get-started.md)
 :::
 
@@ -183,14 +184,6 @@ Discover the components of a buying group and understand the basics of building 
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights and dashboards"><br/>
       <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM Insights</a>
     </td>
-
-  </tr>
-  <tr style="border: 0;">
-    <td colspan="3">
-      <img src="../assets/do-not-localize/icon-falco-list-view.svg" width="35px" alt="People lists"><br/>
-      <strong>People lists</strong><br/><a href="./audiences/people-lists.md">People lists overview</a><br/><a href="./audiences/people-lists-journeys.md">Use people lists in journeys</a>
-    </td>
-  </tr>
 </table>
 
 >[!BEGINSHADEBOX]
