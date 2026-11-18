@@ -81,9 +81,9 @@ Get Started
 
 Review the [!DNL Journey Optimizer B2B Edition] onboarding guidance for administrators and marketers.
 
-[Administrators](./setup-ultimate.md)</br>
+[Check list for administrators](./setup-ultimate.md)
 
-[Users](./start/get-started.md)
+[Onboarding for users](./start/get-started.md)
 :::
 
 :::
@@ -168,7 +168,7 @@ Discover the components of a buying group and understand the basics of building 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Journeys"><br/>
-      <strong>Journeys</strong><br/><a href="./journeys/journeys-overview.md">Journeys overview</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Create an account journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
+      <strong>Journeys</strong><br/><a href="./journeys/journeys-overview.md">Journeys overview</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Create an account or person journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
     </td>
   </tr>
   <tr style="border: 0;">
