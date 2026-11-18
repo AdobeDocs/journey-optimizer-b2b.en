@@ -80,7 +80,7 @@ A proof is a delivered test message that allows you and your team members to rev
 
 1. Click **[!UICONTROL Send proof]** at the top right.
 
-   ![Click Send proof](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![Click Send proof](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. In the _Send proof_ page, enter the first recipient's email address.
 

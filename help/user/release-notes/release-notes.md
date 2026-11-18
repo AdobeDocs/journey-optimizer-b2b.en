@@ -39,10 +39,10 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
-| Feature | People lists | Use static and dynamic people lists to target profiles by your defined criteria, such as demographic attributes and experience event history. |
+| Feature | People lists | Use static and dynamic people lists to target profiles by your defined criteria, such as demographic attributes and experience event history. [Learn more](../audiences/people-lists.md) |
 | Feature | Journey node labels | Add labels to journey nodes to identify them on the journey canvas. [Learn more](../journeys/create-publish-journey.md#label-a-node). |
-| Enhancement | Member of Person List filter | Use the _[!UICONTROL Member of Person List]_ filter to include or exclude profiles based on their people list membership. |
-| Enhancement | People list journey actions | Add people to or remove people from static people lists through account and person journeys. |
+| Enhancement | Member of Person List filters | Use the _[!UICONTROL Member of Person List]_ filters to include or exclude profiles based on their static or dynamic people list membership. [Learn more](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Enhancement | People list journey actions | Add people to or remove people from static people lists through account and person journeys. [Learn more](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >These release changes begin on November 6, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
@@ -104,7 +104,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Landing pages are available in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. <ul><li>Administrators can configure landing page subdomains and presets to enable landing page publishing. [Learn more](../admin/configure-channels-landing-pages.md)</li><li>Marketers can create, design, and publish landing pages to support their journeys with personalized web content. [Learn more](../content/landing-pages.md)</li></ul> |
 | Feature | Forms | Journey Optimizer B2B Edition now supports reusable form components to enable data submission from landing pages _(previously a Beta program feature)_. <ul><li>Administrators can configure multiple form presets using different combinations of datasets and streaming connections. [Learn more](../admin/configure-channels-forms.md)</li><li>Marketers can now define reusable form components to capture information from web page visitors. [Learn more](../content/forms.md)</li></ul> |
-| Feature | Member of Account List filter | Use account list membership as an orchestration point in account journeys. Marketers can create account blocklists, priority lists, or any other kind of subset of their audience and provide accounts unique experiences in journeys based on their membership. |
+| Feature | Member of Account List filter | Use account list membership as an orchestration point in account journeys. Marketers can create account blocklists, priority lists, or any other kind of subset of their audience and provide accounts unique experiences in journeys based on their membership. [Learn more](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)|
 | Feature | Experience event history filtering | This feature enables B2B journey orchestration to use historical engagement to drive behavior-based decisions for audience members. [Learn more](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)  |
 | Feature | Next best path journey nodes | You can optimize split path decisioning for person journeys, refining how audiences are routed across paths before journey activation or at runtime. [Learn more](../journeys/next-best-path-node.md) |
 | Feature | Email performance dashboard | The Email Performance dashboard gives marketers a unified view of email activity across all journeys in Adobe Journey Optimizer B2B Edition. [Learn more](../dashboards/email-performance-dashboard.md) |
