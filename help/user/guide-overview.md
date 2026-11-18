@@ -81,7 +81,7 @@ Get Started
 
 Review the [!DNL Journey Optimizer B2B Edition] onboarding guidance for administrators and marketers.
 
-[Administrators](./setup-ultimate.md)
+[Administrators](./setup-ultimate.md)</br>
 [Users](./start/get-started.md)
 :::
 
