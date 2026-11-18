@@ -23,6 +23,18 @@ Review this sampling of the latest additions and enhancements in the [!DNL Journ
 
 >[!BEGINTABS]
 
+>[!TAB People lists]
+
+Create reusable static and dynamic people lists to target profiles using demographic attributes and experience event history. Use list membership to route people through account and person journeys. Use journey actions to add people to or remove people from static lists.
+
+[!BADGE Learn more]{type=Informative url="/help/user/audiences/people-lists.md" tooltip="Learn about people lists"}
+
+>[!TAB Journey node labels]
+
+Add display labels to nodes in account and person journeys to distinguish similar steps and clarify their purpose on the journey canvas.
+
+[!BADGE Learn more]{type=Informative url="/help/user/journeys/create-publish-journey.md#label-a-node" tooltip="Learn about journey node labels"}
+
 >[!TAB Person journeys]
 
 Orchestrate lead-based marketing with person journeys, which use [!DNL Adobe Experience Platform] audiences and data to engage individual people. Person journeys now support _Listen for an event_, external action, and external split paths nodes, and journey re-entry. Use them alongside account journeys and buying groups to orchestrate the full buying journey.
@@ -34,18 +46,6 @@ Orchestrate lead-based marketing with person journeys, which use [!DNL Adobe Exp
 Test variations within an account or person journey by assigning accounts or people to different journey paths based on percentages that you define. In person journeys, assignment is deterministic, so each person always follows the same path, which supports controlled experiments.
 
 [!BADGE Learn more]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="Learn about variant split paths"}
-
->[!TAB WhatsApp channel]
-
-When developers and product administrators configure an integration with a Meta Business Manager account, marketers can include WhatsApp messages as a content channel in account journeys using the Meta Cloud API. WhatsApp joins email and SMS as an available channel for delivering journey content directly to account members.
-
-[!BADGE Learn more]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Learn about the WhatsApp channel"}
-
->[!TAB Generative AI models]
-
-Email designers can now select from standard [!DNL Firefly] models, custom [!DNL Firefly] models trained on brand-specific assets, and approved third-party image models when generating images for email content. This selection gives teams control over which model fits their specific design scenario, from general content needs to branded or specialized use cases.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Learn about generative AI model selection"}
 
 >[!TAB Send-time optimization]
 
@@ -118,6 +118,8 @@ Create a Journey
 Design, orchestrate, manage, and optimize personalized account and person journeys.
 
 [Explore Journeys](./journeys/journeys-overview.md)
+[Use account lists in journeys](./accounts/account-lists-journeys.md)
+[Use people lists in journeys](./audiences/people-lists-journeys.md)
 :::
 
 :::
@@ -127,7 +129,8 @@ Understand Buying Groups
 
 Detailed guidance on creating, managing, and optimizing buying groups for effective targeting.
 
-[Learn about buying groups](./buying-groups/buying-groups-overview.md)
+[Understand buying groups](./buying-groups/buying-groups-overview.md)
+[Create buying groups](./buying-groups/buying-groups-create.md)
 :::
 
 ::::
@@ -163,8 +166,8 @@ Discover the components of a buying group and understand the basics of building 
       <strong>Buying groups</strong><br/><a href="./buying-groups/buying-groups-overview.md">Buying groups overview</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Role templates</a><br/><a href="./buying-groups/solution-interests.md">Solution interests</a><br/><a href="./buying-groups/buying-groups-create.md">Create buying groups</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Account journeys"><br/>
-      <strong>Account journeys</strong><br/><a href="./journeys/journeys-overview.md">Journeys overview</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Create an account journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Journeys"><br/>
+      <strong>Journeys</strong><br/><a href="./journeys/journeys-overview.md">Journeys overview</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Create an account journey</a><br/><a href="./journeys/journey-nodes.md">Journey nodes</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -181,6 +184,12 @@ Discover the components of a buying group and understand the basics of building 
       <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM Insights</a>
     </td>
 
+  </tr>
+  <tr style="border: 0;">
+    <td colspan="3">
+      <img src="../assets/do-not-localize/icon-falco-list-view.svg" width="35px" alt="People lists"><br/>
+      <strong>People lists</strong><br/><a href="./audiences/people-lists.md">People lists overview</a><br/><a href="./audiences/people-lists-journeys.md">Use people lists in journeys</a>
+    </td>
   </tr>
 </table>
 
