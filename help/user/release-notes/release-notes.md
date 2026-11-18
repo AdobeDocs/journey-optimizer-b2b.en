@@ -40,7 +40,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | People lists | Use static and dynamic people lists to target profiles by your defined criteria, such as demographic attributes and experience event history. [Learn more](../audiences/people-lists.md) |
-| Feature | Journey node labels | Add labels to journey nodes to identify them on the journey canvas. |
+| Feature | Journey node labels | Add labels to journey nodes to identify them on the journey canvas. [Learn more](../journeys/create-publish-journey.md#label-a-node). |
 | Enhancement | Member of Person List filters | Use the _[!UICONTROL Member of Person List]_ filters to include or exclude profiles based on their static or dynamic people list membership. [Learn more](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Enhancement | People list journey actions | Add people to or remove people from static people lists through account and person journeys. [Learn more](../journeys/action-nodes.md#people-actions) |
 
