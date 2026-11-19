@@ -35,7 +35,11 @@ topic_v2:
 ---
 # Landing page design
 
-After you [create a landing page](./landing-pages-create-publish.md#create-landing-page), use the visual design space to author the structural and content components in your page. 
+After you [create a landing page](./landing-pages-create-publish.md#create-landing-page), use the visual design space to define the layout and content for your page.
+
+## Add modules
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Add structure and content {#structure-content-landing-page}
 

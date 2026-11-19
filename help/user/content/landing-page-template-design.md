@@ -34,7 +34,11 @@ topic_v2:
 ---
 # Landing page template design
 
-After you [create a landing page template](./landing-page-templates.md#create-a-landing-page-template), use the visual design space to author the structural and content components in your page template.
+After you [create a landing page template](./landing-page-templates.md#create-a-landing-page-template), use the visual design space to define the layout and content for your page template.
+
+## Add modules
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Add structure and content {#structure-content-landing-page}
 

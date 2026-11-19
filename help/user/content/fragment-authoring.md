@@ -33,7 +33,11 @@ topic_v2:
 ---
 # Fragment authoring
 
-After you [create a fragment](./fragments.md#create-fragments), use the visual design space to author the structure and content components in your fragment.
+After you [create a fragment](./fragments.md#create-fragments), use the visual design space to define the layout and content for your fragment.
+
+## Add modules
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Add structure and content {#design-fragment}
 
