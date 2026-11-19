@@ -26,23 +26,38 @@ Unlike individual content components, modules provide complete sections like hea
 
 Modules are different from [visual fragments](./fragments.md). A module becomes part of the content that you are designing. A visual fragment is a saved content asset that you can reuse across emails and email templates.
 
-## Supported content types
+## Modules tab
 
 Use the **[!UICONTROL Modules]** tab in the visual design space for any of the following content types:
 
-| Content type | Open the visual design space |
-| --- | --- |
-| Email | [Create or edit email content](./email-authoring.md). |
-| Landing page | [Create or edit a landing page](./landing-page-design.md). |
-| Visual fragment | [Create or edit a fragment](./fragment-authoring.md). |
-| Email template | [Create or edit an email template](./email-template-authoring.md). |
-| Landing page template | [Create or edit a landing page template](./landing-page-template-design.md). |
+* Email - See [_Email content authoring_](./email-authoring.md).
+* Landing page - See [_Landing page design_](./landing-page-design.md).
+* Visual fragment - See [_Fragment authoring_](./fragment-authoring.md).
+* Email template - See [_Email template authoring_](./email-template-authoring.md).
+* Landing page template - See [_Landing page template design_](./landing-page-template-design.md).
 
 ![Modules categories displayed next to the visual design canvas](./assets/modules-left-panel.png){width="600" zoomable="yes"}
 
+## Module categories
+
+Expand a category to choose a layout. These layouts provide different arrangements of the section content, such as one, two, or three columns.
+
+| Category | Use |
+| --- | --- |
+| [!UICONTROL Headers] | Introduce your content with a logo, navigation links, and introductory text. |
+| [!UICONTROL Hero] | Highlight an announcement or promotion with a banner section. |
+| [!UICONTROL Testimonial] | Present customer quotes in a styled section. |
+| [!UICONTROL Cards] | Arrange products, articles, or other content items in a grid. |
+| [!UICONTROL Teams] | Introduce team members, authors, or speakers with photos, names, and roles. |
+| [!UICONTROL Footers] | Finish your content with navigation links, social links, and legal text. |
+
 ## Add and customize modules
 
-Start with a module that matches the section you want to create, then adapt its content and styling.
+Start with a module that matches the section you want to create, then adapt its content and styling. Replace default links and text with content appropriate for your channel.
+
+>[!NOTE]
+>
+>For marketing emails, include an opt-out link and [check email alerts](./add-email.md#check-alerts) before publishing the journey.
 
 1. Open your email, landing page, visual fragment, or template in the visual design space.
 
@@ -81,21 +96,6 @@ Start with a module that matches the section you want to create, then adapt its 
 >[!NOTE]
 >
 >When a brand theme is applied to email content, modules inherit its styles. To set up themes and override styles, refer to [Use a theme for email content authoring](./brand-themes.md#use-email-theme).
-
-## Module categories
-
-Expand a category to choose a layout variant. Variants provide different arrangements of the section content, such as layouts with one, two, or three columns.
-
-| Category | Use |
-| --- | --- |
-| [!UICONTROL Headers] | Introduce your content with a logo, navigation links, and introductory text. |
-| [!UICONTROL Hero] | Highlight an announcement or promotion with a banner section. |
-| [!UICONTROL Testimonial] | Present customer quotes in a styled section. |
-| [!UICONTROL Cards] | Arrange products, articles, or other content items in a grid. |
-| [!UICONTROL Teams] | Introduce team members, authors, or speakers with photos, names, and roles. |
-| [!UICONTROL Footers] | Finish your content with navigation links, social links, and legal text. |
-
-Replace default links and text with content appropriate for your channel. For marketing emails, include an opt-out link and [check email alerts](./add-email.md#check-alerts) before publishing the journey.
 
 ## Reuse customized module content
 
