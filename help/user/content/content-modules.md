@@ -61,7 +61,7 @@ Start with a module that matches the section you want to create, then adapt its 
 
 1. Open your email, landing page, visual fragment, or template in the visual design space.
 
-   At the left of the canvas, the **[!UICONTROL Modules]** tab is displayed by default.
+   The **[!UICONTROL Modules]** tab is displayed by default.
 
 1. To review the available layouts, expand a category.
 
@@ -87,7 +87,7 @@ Start with a module that matches the section you want to create, then adapt its 
 
 1. To add another element, select the **[!UICONTROL Components]** tab and drag a [content component](./content-components.md) into the module.
 
-   If you add a component to the module structure, it inherits the module styling by default. Adjust their styles as needed.
+   If you add a component to the module structure, it inherits the module styling by default. Adjust its styles as needed.
 
    ![A text component dragged to the module structure with formatted placeholder text displayed](./assets/modules-select-element-add-component.png){width="800" zoomable="yes"}
 
