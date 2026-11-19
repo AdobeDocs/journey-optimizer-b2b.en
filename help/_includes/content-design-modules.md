@@ -8,7 +8,7 @@ Use [content modules](../user/content/content-modules.md) to build your design f
 
 1. In the visual design space, select the **[!UICONTROL Modules]** tab if it is not visible.
 
-   ![Modules categories displayed next to the visual design canvas](../assets/content-design-shared/content-design-modules-left-panel.png){width="500" zoomable="yes"}
+   ![Module categories displayed in the visual design space](../assets/content-design-shared/content-design-modules-left-panel.png){width="500" zoomable="yes"}
 
 1. Browse the categories, or use the search field to find a module by name.
 
