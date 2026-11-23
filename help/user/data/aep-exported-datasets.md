@@ -384,6 +384,12 @@ Each record describes a person-level web, email, or other supported activity eve
 
 ### Email unsubscribe (`directMarketing.emailUnsubscribed`)
 
+Email unsubscribe events originate in [!DNL Adobe Marketo Engage] and are imported into [!DNL Journey Optimizer B2B Edition].
+
+>[!NOTE]
+>
+>For this event, `_experience.journeyOrchestration.stepEvents.journeyID` and `_experience.journeyOrchestration.stepEvents.nodeID` are always empty.
+
 | Field name | Relationship | What it tells you |
 |------------|-------------|-------------|
 | `_id` | Record ID | Activity identifier. |
@@ -400,8 +406,8 @@ Each record describes a person-level web, email, or other supported activity eve
 | `directMarketing.mailingKey.sourceKey` |  | Complete email-content identifier. |
 | `directMarketing.mailingName` |  | Mailing name. |
 | `directMarketing.email` |  | Email address. |
-| `_experience.journeyOrchestration.stepEvents.journeyID` | Matches `AJOB2B-1_5_4-person_journey` (`_id`) | Journey id (if attributed). |
-| `_experience.journeyOrchestration.stepEvents.nodeID` | Matches `AJOB2B-1_5_4-person_journey_node` (`_id`) | Journey node id (if attributed). |
+| `_experience.journeyOrchestration.stepEvents.journeyID` |  | Always empty for email unsubscribe events. |
+| `_experience.journeyOrchestration.stepEvents.nodeID` |  | Always empty for email unsubscribe events. |
 
 ### Email opened (`directMarketing.emailOpened`)
 
