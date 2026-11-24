@@ -52,6 +52,8 @@ Use AI capabilities in [!DNL Adobe Journey Optimizer B2B Edition] to generate co
 
 Use the [!DNL CX Enterprise Coworker] app interface for all chat workflows other than generating content. Ask product questions, explore operational insights, and use [journey skills](../agents/journey-agent.md) and [audience skills for B2B accounts and people](../agents/audience-agent-b2b.md). Content generation remains available within [!DNL Journey Optimizer B2B Edition].
 
+For supported journey tasks, approval requirements, and example workflows, see [Coworker in Adobe Journey Optimizer B2B Edition](../agents/coworker-overview.md).
+
 For instructions on opening the app, starting conversations, and using chat features, see the [CX Coworker interface guide](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 Consider which type of inquiry you need before you submit an [!DNL Coworker] chat query.
@@ -74,7 +76,7 @@ _Operational insights_ refer to answers that [!DNL Coworker] generates about you
 * How many account audiences have never been used in any journeys?
 * What active journeys use solution interest _x_?
 
-You can ask [!DNL Coworker] questions about your operational insights in the following domains:
+The following table describes operational insights questions, not all [!DNL Coworker] capabilities. Journey creation and modification are separate [journey skill workflows](../agents/coworker-overview.md#skills). These workflows support account and person journeys, with changes applied to saved drafts.
 
 | Domain | Supported metadata | Unsupported metadata |
 | --- | --- | --- |

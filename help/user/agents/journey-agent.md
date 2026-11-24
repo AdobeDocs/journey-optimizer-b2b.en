@@ -1,6 +1,6 @@
 ---
 title: Journey Skills for B2B
-description: Learn how to use the AI-powered Journey skills that you can use to build, manage, and observe robust B2B journeys.
+description: Learn how to prepare journey briefs, review validated draft graphs, configure saved drafts, and inspect account and person journeys through Coworker chat.
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
@@ -39,69 +39,47 @@ topic_v2:
 ---
 # Journey skills for B2B
 
-In [!DNL CX Enterprise Coworker] chat, the journey skills help you design, execute, optimize, and monitor [!DNL Adobe Journey Optimizer B2B Edition] journeys through natural language. Using these skills reduces the time and complexity involved in building and managing account and person journeys by combining automation, data-driven recommendations, and real-time observability.
+Use [!DNL Adobe CX Enterprise Coworker] Chat to find, create, and configure journeys in [!DNL Adobe Journey Optimizer B2B Edition]. Create validated drafts from a brief, change saved draft graphs and re-entry settings, and configure unconfigured nodes. Journey changes apply to saved drafts, not active journeys.
 
-[!DNL CX Coworker] provides a set of AI skills that includes a subset for the B2B journey lifecycle. These currently available skills are:
+For the lookup, creation, and rules skill identifiers and their supported actions, see the [Coworker journey skills reference](./coworker-overview.md#skills). This article provides brief preparation guidance and journey observability examples:
 
-* **[Journey creation skills](#journey-creation-skills)** – Create, update, and optimize journeys from natural language prompts
-* **[Journey observability skills](#journey-observability-skills)** – Ask questions about how accounts and people are moving through active journeys
+* [Journey creation guidance](#journey-creation-skills): Prepare a brief and review a draft before creation.
+* [Journey observability guidance](#journey-observability-skills): Ask questions about how accounts and people move through active journeys.
 
-Click the _Ask [!DNL Coworker]_ ( ![Ask [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) icon at the top of the application to open the [!DNL Coworker] interface.
+For instructions on opening the app and starting conversations, use the [Coworker interface guide](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 ## Journey creation skills {#journey-creation-skills}
 
-The journey creation skills translate your marketing objectives, engagement strategy, and KPIs into complete B2B customer journeys. They address three key challenges facing B2B marketers today:
+The journey creation skill turns a brief into a validated account or person journey graph. It resolves the named audience to its [!DNL Adobe Experience Platform] audience ID and previews the graph before creating a draft.
 
-* Dealing with increasingly complex customer journeys (complexity in audience, content and messaging, and omnichannel)
-* Increasing efficiency in light of tighter budgets
-* Figuring out how the optimal customer journey should be structured
+You must explicitly approve the preview before [!DNL Coworker] creates the draft. The creation skill does not discover audiences, configure node rules, author message copy, publish, or delete journeys.
 
-As a marketer, you can use these skills to:
+### Prepare a brief {#basic-usage}
 
-* **Create** - Translate your marketing objectives, products, engagement strategy, and KPIs into a personalized customer journey with automation and conditions
-* **Recommend** - Leverage past marketing engagement and other historical data to optimize journey creation
-* **Optimize** - Analyze, adjust, and optimize active journeys based on predictions or actual performance
-* **Manage** - Prioritize, manage, and orchestrate overlapping journeys and message delivery
+Describe the draft journey that you want in natural language. Include the following details:
 
-### Basic usage
+* Journey type: Account or person.
+* Existing audience: The name or ID of the audience to use.
+* Journey flow: The actions, waits, and branches to include.
+* Re-entry settings: Whether and when accounts or people can re-enter.
 
-To use the journey creation skills, type into the [!DNL Coworker] prompt window what you are looking to create, using natural language:
+Include relevant details from your campaign brief so that [!DNL Coworker] can interpret the goal. Refine the request if the preview does not match your intended flow.
 
-"Create a B2B journey to invite decision makers to a roadshow in engaged accounts most likely to open new pipeline."
+![Journey creation prompt in Coworker Chat.](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}
 
-![Journey creation skill for B2B prompt in [!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}
+### Review and create a draft {#end-to-end-b2b-journey-creation}
 
-The more detail you provide, the better the reply is. If you have existing marketing materials that describe the event, or your product, and so on, paste that into the prompt, so that [!DNL Coworker] has a better understanding of the goal.
+Review the journey type, resolved audience, nodes, and paths in the validated preview. Approve creation only when the graph matches your brief.
 
-"Act as a B2B journey strategist to create a multi-stage customer account journey that nurtures and engages decision-makers and marketing personas in the early exploration phase of `<Solution Name>`. The goal is to convert anonymous visitors into known contacts, deepen engagement with relevant content on `<domain>`.com, and prime qualified leads for `<Product Name>` sales outreach. Use channels such as email and paid media, leveraging existing audience segments and content. Structure the journey across awareness, consideration, and evaluation stages over 4–6 weeks, with clear triggers, actions, and goals for each stage. Include KPIs like conversion rates, engagement scores, and demo requests, and return the output as a structured journey flow."
+After approval, [!DNL Coworker] creates the draft and returns its link. Use a follow-up request to configure its unconfigured nodes through the rules skill. Add message copy in the application, then complete the [journey review and publishing steps](../journeys/create-publish-journey.md).
 
-This detailed prompt provides:
-
-* **Clear Intent**: What do you want the AI to do? Be specific about the task or outcome.
-* **Context-Rich**: Provide relevant background or constraints. Include examples or references if possible.
-* **Structured Format**: Use bullet points, numbered steps, or templates.
-* **Role Assignment**: Specify the AI's role - 'Act as a data analyst…'
-
-Start with a simple prompt, then refine it based on the results. Use follow-up prompts to iterate.
-
-### End-to-end B2B journey creation
-
-The journey creation skills can generate an end-to-end journey flow (account or person journey) from natural language text prompts and metadata, through a conversational experience rather than a traditional user interface.
-
-End-to-end Journey prompt examples:
-
-* Create a cross-channel journey to nurture accounts that have not engaged with my content in the past 30 days.
-* Create a journey to cross-sell a solution to accounts showing high intent with no open pipeline by providing personalized content for the most important buying group roles.
-* Create a B2B journey to invite decision makers to a roadshow in engaged accounts most likely to open new pipeline.
-* Create a journey for whitespace accounts with intent for my solution, focusing on people engaged with content on the website.
+For a complete example, see [Build an account journey](./coworker-overview.md#build-account-journey).
 
 ### Multi-stage journeys
 
-You can act as a B2B journey designer to create a multi-stage customer account journey that informs decision-makers and marketing personas early in the exploration phase. The goal is to convert anonymous visitors into known contacts, deepen engagement with relevant content, and prime qualified leads for sales outreach.
+For a journey with multiple stages, describe each stage's actions, waits, and branches in the brief. Distinguish the graph structure from the rules and message copy that you configure after draft creation.
 
-* Use channels such as `Email`, `Paid media`, `Personalized web experiences` to leverage existing audience segments and content.
-* Structure the journey across `awareness`, `consideration`, and `evaluation` stages over 4–6 weeks, with clear triggers, actions, and goals for each stage.
-* Include KPIs, such as `conversion rates`, `engagement scores`, and `demo requests`, and return the output as a structured journey flow.
+To revise a saved draft, request graph or re-entry changes through the creation skill. Use the rules skill for split conditions, actions, events, and the dynamic list audience on unconfigured nodes.
 
 ## Journey observability skills {#journey-observability-skills}
 
