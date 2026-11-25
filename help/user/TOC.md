@@ -32,7 +32,7 @@ user-guide-description: Learn about Adobe Journey Optimizer B2B Edition and how 
     + [Intent scores](./ai-coworker/intent-scores.md)
     + CX Enterprise Coworker {#coworker-skills}
        + [Overview](./agents/coworker-overview.md)
-       + [Audience skills for B2B accounts and people](./agents/audience-agent-b2b.md)
+       + [Audience skills for B2B accounts and people](./agents/audience-skills-b2b.md)
        + [Journey skills for B2B](./agents/journey-skills.md)
 + Intelligent dashboards {#dashboards}
     + [Insights dashboard](./dashboards/intelligent-dashboard.md)

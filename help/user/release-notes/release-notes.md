@@ -108,7 +108,7 @@ Review the [product description](https://helpx.adobe.com/legal/product-descripti
 | Feature | Experience event history filtering | This feature enables B2B journey orchestration to use historical engagement to drive behavior-based decisions for audience members. [Learn more](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)  |
 | Feature | Next best path journey nodes | You can optimize split path decisioning for person journeys, refining how audiences are routed across paths before journey activation or at runtime. [Learn more](../journeys/next-best-path-node.md) |
 | Feature | Email performance dashboard | The Email Performance dashboard gives marketers a unified view of email activity across all journeys in Adobe Journey Optimizer B2B Edition. [Learn more](../dashboards/email-performance-dashboard.md) |
-| Enhancement | Audience Agent B2B skills | Audience Agent B2B skills are updated, including AI-powered buying group template creation. Use first-party intent and persona mapping to generate buying group templates, review AI-recommended role-to-persona mappings, and refine templates with natural language before you publish them. [Learn more](../agents/audience-agent-b2b.md) |
+| Enhancement | Audience Agent B2B skills | Audience Agent B2B skills are updated, including AI-powered buying group template creation. Use first-party intent and persona mapping to generate buying group templates, review AI-recommended role-to-persona mappings, and refine templates with natural language before you publish them. [Learn more](../agents/audience-skills-b2b.md) |
 | Enhancement | Journeys overview dashboard - Person journeys | Person journeys (Beta) now include an _[!UICONTROL Overview]_ tab with the same analytics as account journeys, including journey completion rate distribution, journeys by engagement type, and drill-through and export actions. [Learn more](../dashboards/journeys-dashboard.md) |
 | Enhancement | Support for AEP relational datasets | New relational datasets now appear in your AEP sandbox, alongside existing datasets. |
 
@@ -174,7 +174,7 @@ The following agentic AI capabilities are now available for Journey Optimizer B2
 | Agent | Update | Description |
 | ----- | ------ | ----------- |
 | Journey Build Agent | New and updated | The Journey Build Agent analyzes, ideates, and co-creates journeys in real time, enabling marketers to launch faster, improve engagement, and drive higher conversion rates. [Learn more](../agents/journey-skills.md) |
-| Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-agent-b2b.md) |
+| Audience Agent | New | The Audience Agent automatically identifies and builds buying groups using structured and unstructured data. It helps marketers to target the right people faster and more accurately. [Learn more](../agents/audience-skills-b2b.md) |
 | [!DNL Marketo Qualifier] | New | [!DNL Adobe Marketo Qualifier] is an AI-driven application that integrates with [!DNL Journey Optimizer B2B Edition]. It implements the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). It automates prospect qualification, outreach, and buyer engagement workflows across channels. [Learn more](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 release notes {#rel-2025-10}

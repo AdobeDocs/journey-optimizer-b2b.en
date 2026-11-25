@@ -50,7 +50,7 @@ Use AI capabilities in [!DNL Adobe Journey Optimizer B2B Edition] to generate co
 
 ## Use the [!DNL Coworker] app {#coworker-app}
 
-Use the [!DNL CX Enterprise Coworker] app interface for all chat workflows other than generating content. Ask product questions, explore operational insights, and use [journey skills](../agents/journey-skills.md) and [audience skills for B2B accounts and people](../agents/audience-agent-b2b.md). Content generation remains available within [!DNL Journey Optimizer B2B Edition].
+Use the [!DNL CX Enterprise Coworker] app interface for all chat workflows other than generating content. Ask product questions, explore operational insights, and use [journey skills](../agents/journey-skills.md) and [audience skills for B2B accounts and people](../agents/audience-skills-b2b.md). Content generation remains available within [!DNL Journey Optimizer B2B Edition].
 
 For supported journey tasks, approval requirements, and example workflows, see [Coworker in Adobe Journey Optimizer B2B Edition](../agents/coworker-overview.md).
 
