@@ -51,7 +51,7 @@ Use these three skills to inspect journeys, build journey graphs, and configure 
 | `journey-creation-ajob2b` | Turn a brief into a journey. Select the journey type, resolve the audience to its [!DNL Adobe Experience Platform] audience ID, validate the graph, and preview it. Create the draft after explicit approval. Edit a saved draft's graph and re-entry settings. | Look up existing journeys, configure rules, author message copy, manage buying group templates, discover audiences, publish, or delete. |
 | `journey-rules-ajob2b` | Configure split conditions, actions, events, and the dynamic list audience on a saved journey's unconfigured nodes. | Change the graph, look up journeys, author email or SMS copy, discover audiences, or publish. |
 
-For additional prompt guidance, see [Journey skills for B2B](./journey-agent.md). To work with account and person audiences, see [Audience skills for B2B accounts and people](./audience-agent-b2b.md).
+For additional prompt guidance, see [Journey skills for B2B](./journey-skills.md). To work with account and person audiences, see [Audience skills for B2B accounts and people](./audience-agent-b2b.md).
 
 ## Example use cases {#use-cases}
 
