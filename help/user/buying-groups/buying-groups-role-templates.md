@@ -29,7 +29,7 @@ In a B2B market, multiple individuals usually make buying decisions. Those indiv
 
 ## Audience skills
 
-Use [audience skills for B2B accounts and people](../agents/audience-agent-b2b.md) to generate a buying group role template from first-party intent detection and persona mapping. In the guided flow, you can identify personas linked to a product, review AI-recommended role-to-persona mappings, and refine the template with natural language before you publish it.
+Use [audience skills for B2B accounts and people](../agents/audience-skills-b2b.md) to generate a buying group role template from first-party intent detection and persona mapping. In the guided flow, you can identify personas linked to a product, review AI-recommended role-to-persona mappings, and refine the template with natural language before you publish it.
 
 **Prompts to try:**
 

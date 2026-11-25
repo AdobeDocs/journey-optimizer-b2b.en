@@ -86,4 +86,4 @@ You can configure send-time optimization when you [add a _[!UICONTROL Take an ac
 
 ## STO insights
 
-STO insights are delivered through _[!DNL Coworker] chat_ using the [_journey observability skills_](../agents/journey-agent.md#journey-observability-skills). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.
+STO insights are delivered through _[!DNL Coworker] chat_ using the [_journey observability skills_](../agents/journey-skills.md#journey-observability-skills). You can query usage, engagement metrics, test / control results, node performance, and overall journey impact.
